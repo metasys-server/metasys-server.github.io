@@ -19,14 +19,4 @@
       "description": "Reverse"
     }
   ]
-}rse"
-    },
-    {
-      "enum": [
-        2,
-        "forwardreverseHold"
-      ],
-      "description": "Hold"
-    }
-  ]
 }

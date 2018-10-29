@@ -19,12 +19,4 @@
       "description": "Run"
     }
   ]
-}    {
-      "enum": [
-        2,
-        "stoprunHold"
-      ],
-      "description": "Hold"
-    }
-  ]
 }

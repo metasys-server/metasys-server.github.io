@@ -19,14 +19,4 @@
       "description": "Available"
     }
   ]
-}le"
-    },
-    {
-      "enum": [
-        2,
-        "navailAvailHold"
-      ],
-      "description": "Hold"
-    }
-  ]
 }

@@ -19,13 +19,4 @@
       "description": "Low Limit"
     }
   ]
-}    },
-    {
-      "enum": [
-        2,
-        "normLlHold"
-      ],
-      "description": "Hold"
-    }
-  ]
 }

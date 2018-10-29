@@ -19,13 +19,4 @@
       "description": "Energy Hold Off"
     }
   ]
-}  },
-    {
-      "enum": [
-        2,
-        "normEhoHold"
-      ],
-      "description": "Hold"
-    }
-  ]
 }
