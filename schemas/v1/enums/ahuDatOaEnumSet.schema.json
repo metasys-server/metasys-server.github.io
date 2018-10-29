@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuDatOaEnumSet.schema.json",
+  "title": "ahuDatOaEnumSet",
+  "description": "AHU DAT OA",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuDoSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "ahuDoHxCoolMech"
+      ],
+      "description": "HX Cool+Mech"
+    },
+    {
+      "enum": [
+        2,
+        "ahuDoHxHeat"
+      ],
+      "description": "HX Heat"
+    },
+    {
+      "enum": [
+        3,
+        "ahuDoHxHeatPreheat"
+      ],
+      "description": "HX Heat+Preheat"
+    },
+    {
+      "enum": [
+        4,
+        "ahuDoHxHeatPreheatReheat"
+      ],
+      "description": "HX Heat+Preheat+Reheat"
+    },
+    {
+      "enum": [
+        5,
+        "ahuDoHeatingIdle"
+      ],
+      "description": "Heating Idle"
+    },
+    {
+      "enum": [
+        6,
+        "ahuDoTempUnreliable"
+      ],
+      "description": "Temperature Unreliable"
+    }
+  ]
+}

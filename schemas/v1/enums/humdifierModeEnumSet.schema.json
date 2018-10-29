@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/humdifierModeEnumSet.schema.json",
+  "title": "humdifierModeEnumSet",
+  "description": "Humidifier Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "humdifierModeEnumSet0"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "humdifierModeEnumSet1"
+      ],
+      "description": "On/Off"
+    },
+    {
+      "enum": [
+        2,
+        "humdifierModeEnumSet2"
+      ],
+      "description": "P Control"
+    },
+    {
+      "enum": [
+        3,
+        "humdifierModeEnumSet3"
+      ],
+      "description": "PI Control"
+    }
+  ]
+}

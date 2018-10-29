@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dataRecordStatusEnumSet.schema.json",
+  "title": "dataRecordStatusEnumSet",
+  "description": "Data Record Status Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dataRecordStatusNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "dataRecordStatusMarkedForDeletion"
+      ],
+      "description": "Marked for Deletion"
+    },
+    {
+      "enum": [
+        2,
+        "dataRecordStatusDoesNotExist"
+      ],
+      "description": "Does Not Exist"
+    },
+    {
+      "enum": [
+        3,
+        "dataRecordStatusExists"
+      ],
+      "description": "Exists"
+    }
+  ]
+}

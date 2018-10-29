@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/permissionLevelEnumSet.schema.json",
+  "title": "permissionLevelEnumSet",
+  "description": "Permission Level",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "plNoWriteAccess"
+      ],
+      "description": "No Write Access"
+    },
+    {
+      "enum": [
+        1,
+        "plPartialWriteAccess"
+      ],
+      "description": "Partial Write Access"
+    },
+    {
+      "enum": [
+        2,
+        "plFullWriteAccess"
+      ],
+      "description": "Full Write Access"
+    }
+  ]
+}

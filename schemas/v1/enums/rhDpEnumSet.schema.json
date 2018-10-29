@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rhDpEnumSet.schema.json",
+  "title": "rhDpEnumSet",
+  "description": "RH/DP",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rhdpRh"
+      ],
+      "description": "RH"
+    },
+    {
+      "enum": [
+        1,
+        "rhdpDp"
+      ],
+      "description": "DP"
+    }
+  ]
+}

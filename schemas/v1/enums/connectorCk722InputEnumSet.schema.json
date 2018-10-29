@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorCk722InputEnumSet.schema.json",
+  "title": "connectorCk722InputEnumSet",
+  "description": "Connector CK722 Input",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorCk722InputBinaryIn1"
+      ],
+      "description": "BINARY IN1"
+    },
+    {
+      "enum": [
+        1,
+        "connectorCk722InputBinaryIn2"
+      ],
+      "description": "BINARY IN2"
+    }
+  ]
+}

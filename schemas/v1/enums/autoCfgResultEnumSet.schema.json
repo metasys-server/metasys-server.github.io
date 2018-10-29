@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/autoCfgResultEnumSet.schema.json",
+  "title": "autoCfgResultEnumSet",
+  "description": "Auto Configure Comms Result",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "autoCfgResultPending"
+      ],
+      "description": "Pending Status"
+    },
+    {
+      "enum": [
+        1,
+        "autoCfgResultSuccess"
+      ],
+      "description": "Success Status"
+    },
+    {
+      "enum": [
+        2,
+        "autoCfgResultSuccessDoReset"
+      ],
+      "description": "Success Do Reset Status"
+    },
+    {
+      "enum": [
+        3,
+        "autoCfgResultFailure"
+      ],
+      "description": "Failure Status"
+    },
+    {
+      "enum": [
+        4,
+        "autoCfgResultMajorError"
+      ],
+      "description": "Major Error Status"
+    }
+  ]
+}

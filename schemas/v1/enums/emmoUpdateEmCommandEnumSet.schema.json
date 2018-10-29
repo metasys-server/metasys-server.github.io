@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/emmoUpdateEmCommandEnumSet.schema.json",
+  "title": "emmoUpdateEmCommandEnumSet",
+  "description": "EMMO Update EM Command",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "emmoUpdateEmCommandFind"
+      ],
+      "description": "Find Equipment Model"
+    },
+    {
+      "enum": [
+        2,
+        "emmoUpdateEmCommandLoad"
+      ],
+      "description": "Load Equipment Model"
+    }
+  ]
+}

@@ -1,0 +1,1149 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/objectCategoryEnumSet.schema.json",
+  "title": "objectCategoryEnumSet",
+  "description": "Authorization Category",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hvacCategory"
+      ],
+      "description": "HVAC"
+    },
+    {
+      "enum": [
+        1,
+        "fireCategory"
+      ],
+      "description": "Fire"
+    },
+    {
+      "enum": [
+        2,
+        "securityCategory"
+      ],
+      "description": "Security"
+    },
+    {
+      "enum": [
+        3,
+        "servicesCategory"
+      ],
+      "description": "Services"
+    },
+    {
+      "enum": [
+        4,
+        "administrativeCategory"
+      ],
+      "description": "Administrative"
+    },
+    {
+      "enum": [
+        5,
+        "generalCategory"
+      ],
+      "description": "General"
+    },
+    {
+      "enum": [
+        6,
+        "lightingCategory"
+      ],
+      "description": "Lighting"
+    },
+    {
+      "enum": [
+        7,
+        "refrigerationCategory"
+      ],
+      "description": "Refrigeration"
+    },
+    {
+      "enum": [
+        8,
+        "criticalEquipmentCategory"
+      ],
+      "description": "Critical Environment"
+    },
+    {
+      "enum": [
+        9,
+        "airQualityCategory"
+      ],
+      "description": "Air Quality"
+    },
+    {
+      "enum": [
+        10,
+        "powerCategory"
+      ],
+      "description": "Power"
+    },
+    {
+      "enum": [
+        11,
+        "energyCategory"
+      ],
+      "description": "Energy"
+    },
+    {
+      "enum": [
+        12,
+        "systemCategory"
+      ],
+      "description": "System"
+    },
+    {
+      "enum": [
+        100,
+        "custom1Category"
+      ],
+      "description": "Custom 1"
+    },
+    {
+      "enum": [
+        101,
+        "custom2Category"
+      ],
+      "description": "Custom 2"
+    },
+    {
+      "enum": [
+        102,
+        "custom3Category"
+      ],
+      "description": "Custom 3"
+    },
+    {
+      "enum": [
+        103,
+        "custom4Category"
+      ],
+      "description": "Custom 4"
+    },
+    {
+      "enum": [
+        104,
+        "custom5Category"
+      ],
+      "description": "Custom 5"
+    },
+    {
+      "enum": [
+        105,
+        "custom6Category"
+      ],
+      "description": "Custom 6"
+    },
+    {
+      "enum": [
+        106,
+        "custom7Category"
+      ],
+      "description": "Custom 7"
+    },
+    {
+      "enum": [
+        107,
+        "custom8Category"
+      ],
+      "description": "Custom 8"
+    },
+    {
+      "enum": [
+        108,
+        "custom9Category"
+      ],
+      "description": "Custom 9"
+    },
+    {
+      "enum": [
+        109,
+        "custom10Category"
+      ],
+      "description": "Custom 10"
+    },
+    {
+      "enum": [
+        110,
+        "custom11Category"
+      ],
+      "description": "Custom 11"
+    },
+    {
+      "enum": [
+        111,
+        "custom12Category"
+      ],
+      "description": "Custom 12"
+    },
+    {
+      "enum": [
+        112,
+        "custom13Category"
+      ],
+      "description": "Custom 13"
+    },
+    {
+      "enum": [
+        113,
+        "custom14Category"
+      ],
+      "description": "Custom 14"
+    },
+    {
+      "enum": [
+        114,
+        "custom15Category"
+      ],
+      "description": "Custom 15"
+    },
+    {
+      "enum": [
+        115,
+        "custom16Category"
+      ],
+      "description": "Custom 16"
+    },
+    {
+      "enum": [
+        116,
+        "custom17Category"
+      ],
+      "description": "Custom 17"
+    },
+    {
+      "enum": [
+        117,
+        "custom18Category"
+      ],
+      "description": "Custom 18"
+    },
+    {
+      "enum": [
+        118,
+        "custom19Category"
+      ],
+      "description": "Custom 19"
+    },
+    {
+      "enum": [
+        119,
+        "custom20Category"
+      ],
+      "description": "Custom 20"
+    },
+    {
+      "enum": [
+        120,
+        "custom21Category"
+      ],
+      "description": "Custom 21"
+    },
+    {
+      "enum": [
+        121,
+        "custom22Category"
+      ],
+      "description": "Custom 22"
+    },
+    {
+      "enum": [
+        122,
+        "custom23Category"
+      ],
+      "description": "Custom 23"
+    },
+    {
+      "enum": [
+        123,
+        "custom24Category"
+      ],
+      "description": "Custom 24"
+    },
+    {
+      "enum": [
+        124,
+        "custom25Category"
+      ],
+      "description": "Custom 25"
+    },
+    {
+      "enum": [
+        125,
+        "custom26Category"
+      ],
+      "description": "Custom 26"
+    },
+    {
+      "enum": [
+        126,
+        "custom27Category"
+      ],
+      "description": "Custom 27"
+    },
+    {
+      "enum": [
+        127,
+        "custom28Category"
+      ],
+      "description": "Custom 28"
+    },
+    {
+      "enum": [
+        128,
+        "custom29Category"
+      ],
+      "description": "Custom 29"
+    },
+    {
+      "enum": [
+        129,
+        "custom30Category"
+      ],
+      "description": "Custom 30"
+    },
+    {
+      "enum": [
+        130,
+        "custom31Category"
+      ],
+      "description": "Custom 31"
+    },
+    {
+      "enum": [
+        131,
+        "custom32Category"
+      ],
+      "description": "Custom 32"
+    },
+    {
+      "enum": [
+        132,
+        "custom33Category"
+      ],
+      "description": "Custom 33"
+    },
+    {
+      "enum": [
+        133,
+        "custom34Category"
+      ],
+      "description": "Custom 34"
+    },
+    {
+      "enum": [
+        134,
+        "custom35Category"
+      ],
+      "description": "Custom 35"
+    },
+    {
+      "enum": [
+        135,
+        "custom36Category"
+      ],
+      "description": "Custom 36"
+    },
+    {
+      "enum": [
+        136,
+        "custom37Category"
+      ],
+      "description": "Custom 37"
+    },
+    {
+      "enum": [
+        137,
+        "custom38Category"
+      ],
+      "description": "Custom 38"
+    },
+    {
+      "enum": [
+        138,
+        "custom39Category"
+      ],
+      "description": "Custom 39"
+    },
+    {
+      "enum": [
+        139,
+        "custom40Category"
+      ],
+      "description": "Custom 40"
+    },
+    {
+      "enum": [
+        140,
+        "custom41Category"
+      ],
+      "description": "Custom 41"
+    },
+    {
+      "enum": [
+        141,
+        "custom42Category"
+      ],
+      "description": "Custom 42"
+    },
+    {
+      "enum": [
+        142,
+        "custom43Category"
+      ],
+      "description": "Custom 43"
+    },
+    {
+      "enum": [
+        143,
+        "custom44Category"
+      ],
+      "description": "Custom 44"
+    },
+    {
+      "enum": [
+        144,
+        "custom45Category"
+      ],
+      "description": "Custom 45"
+    },
+    {
+      "enum": [
+        145,
+        "custom46Category"
+      ],
+      "description": "Custom 46"
+    },
+    {
+      "enum": [
+        146,
+        "custom47Category"
+      ],
+      "description": "Custom 47"
+    },
+    {
+      "enum": [
+        147,
+        "custom48Category"
+      ],
+      "description": "Custom 48"
+    },
+    {
+      "enum": [
+        148,
+        "custom49Category"
+      ],
+      "description": "Custom 49"
+    },
+    {
+      "enum": [
+        149,
+        "custom50Category"
+      ],
+      "description": "Custom 50"
+    },
+    {
+      "enum": [
+        150,
+        "custom51Category"
+      ],
+      "description": "Custom 51"
+    },
+    {
+      "enum": [
+        151,
+        "custom52Category"
+      ],
+      "description": "Custom 52"
+    },
+    {
+      "enum": [
+        152,
+        "custom53Category"
+      ],
+      "description": "Custom 53"
+    },
+    {
+      "enum": [
+        153,
+        "custom54Category"
+      ],
+      "description": "Custom 54"
+    },
+    {
+      "enum": [
+        154,
+        "custom55Category"
+      ],
+      "description": "Custom 55"
+    },
+    {
+      "enum": [
+        155,
+        "custom56Category"
+      ],
+      "description": "Custom 56"
+    },
+    {
+      "enum": [
+        156,
+        "custom57Category"
+      ],
+      "description": "Custom 57"
+    },
+    {
+      "enum": [
+        157,
+        "custom58Category"
+      ],
+      "description": "Custom 58"
+    },
+    {
+      "enum": [
+        158,
+        "custom59Category"
+      ],
+      "description": "Custom 59"
+    },
+    {
+      "enum": [
+        159,
+        "custom60Category"
+      ],
+      "description": "Custom 60"
+    },
+    {
+      "enum": [
+        160,
+        "custom61Category"
+      ],
+      "description": "Custom 61"
+    },
+    {
+      "enum": [
+        161,
+        "custom62Category"
+      ],
+      "description": "Custom 62"
+    },
+    {
+      "enum": [
+        162,
+        "custom63Category"
+      ],
+      "description": "Custom 63"
+    },
+    {
+      "enum": [
+        163,
+        "custom64Category"
+      ],
+      "description": "Custom 64"
+    },
+    {
+      "enum": [
+        164,
+        "custom65Category"
+      ],
+      "description": "Custom 65"
+    },
+    {
+      "enum": [
+        165,
+        "custom66Category"
+      ],
+      "description": "Custom 66"
+    },
+    {
+      "enum": [
+        166,
+        "custom67Category"
+      ],
+      "description": "Custom 67"
+    },
+    {
+      "enum": [
+        167,
+        "custom68Category"
+      ],
+      "description": "Custom 68"
+    },
+    {
+      "enum": [
+        168,
+        "custom69Category"
+      ],
+      "description": "Custom 69"
+    },
+    {
+      "enum": [
+        169,
+        "custom70Category"
+      ],
+      "description": "Custom 70"
+    },
+    {
+      "enum": [
+        170,
+        "custom71Category"
+      ],
+      "description": "Custom 71"
+    },
+    {
+      "enum": [
+        171,
+        "custom72Category"
+      ],
+      "description": "Custom 72"
+    },
+    {
+      "enum": [
+        172,
+        "custom73Category"
+      ],
+      "description": "Custom 73"
+    },
+    {
+      "enum": [
+        173,
+        "custom74Category"
+      ],
+      "description": "Custom 74"
+    },
+    {
+      "enum": [
+        174,
+        "custom75Category"
+      ],
+      "description": "Custom 75"
+    },
+    {
+      "enum": [
+        175,
+        "custom76Category"
+      ],
+      "description": "Custom 76"
+    },
+    {
+      "enum": [
+        176,
+        "custom77Category"
+      ],
+      "description": "Custom 77"
+    },
+    {
+      "enum": [
+        177,
+        "custom78Category"
+      ],
+      "description": "Custom 78"
+    },
+    {
+      "enum": [
+        178,
+        "custom79Category"
+      ],
+      "description": "Custom 79"
+    },
+    {
+      "enum": [
+        179,
+        "custom80Category"
+      ],
+      "description": "Custom 80"
+    },
+    {
+      "enum": [
+        180,
+        "custom81Category"
+      ],
+      "description": "Custom 81"
+    },
+    {
+      "enum": [
+        181,
+        "custom82Category"
+      ],
+      "description": "Custom 82"
+    },
+    {
+      "enum": [
+        182,
+        "custom83Category"
+      ],
+      "description": "Custom 83"
+    },
+    {
+      "enum": [
+        183,
+        "custom84Category"
+      ],
+      "description": "Custom 84"
+    },
+    {
+      "enum": [
+        184,
+        "custom85Category"
+      ],
+      "description": "Custom 85"
+    },
+    {
+      "enum": [
+        185,
+        "custom86Category"
+      ],
+      "description": "Custom 86"
+    },
+    {
+      "enum": [
+        186,
+        "custom87Category"
+      ],
+      "description": "Custom 87"
+    },
+    {
+      "enum": [
+        187,
+        "custom88Category"
+      ],
+      "description": "Custom 88"
+    },
+    {
+      "enum": [
+        188,
+        "custom89Category"
+      ],
+      "description": "Custom 89"
+    },
+    {
+      "enum": [
+        189,
+        "custom90Category"
+      ],
+      "description": "Custom 90"
+    },
+    {
+      "enum": [
+        190,
+        "custom91Category"
+      ],
+      "description": "Custom 91"
+    },
+    {
+      "enum": [
+        191,
+        "custom92Category"
+      ],
+      "description": "Custom 92"
+    },
+    {
+      "enum": [
+        192,
+        "custom93Category"
+      ],
+      "description": "Custom 93"
+    },
+    {
+      "enum": [
+        193,
+        "custom94Category"
+      ],
+      "description": "Custom 94"
+    },
+    {
+      "enum": [
+        194,
+        "custom95Category"
+      ],
+      "description": "Custom 95"
+    },
+    {
+      "enum": [
+        195,
+        "custom96Category"
+      ],
+      "description": "Custom 96"
+    },
+    {
+      "enum": [
+        196,
+        "custom97Category"
+      ],
+      "description": "Custom 97"
+    },
+    {
+      "enum": [
+        197,
+        "custom98Category"
+      ],
+      "description": "Custom 98"
+    },
+    {
+      "enum": [
+        198,
+        "custom99Category"
+      ],
+      "description": "Custom 99"
+    },
+    {
+      "enum": [
+        199,
+        "custom100Category"
+      ],
+      "description": "Custom 100"
+    },
+    {
+      "enum": [
+        200,
+        "custom101Category"
+      ],
+      "description": "Custom 101"
+    },
+    {
+      "enum": [
+        201,
+        "custom102Category"
+      ],
+      "description": "Custom 102"
+    },
+    {
+      "enum": [
+        202,
+        "custom103Category"
+      ],
+      "description": "Custom 103"
+    },
+    {
+      "enum": [
+        203,
+        "custom104Category"
+      ],
+      "description": "Custom 104"
+    },
+    {
+      "enum": [
+        204,
+        "custom105Category"
+      ],
+      "description": "Custom 105"
+    },
+    {
+      "enum": [
+        205,
+        "custom106Category"
+      ],
+      "description": "Custom 106"
+    },
+    {
+      "enum": [
+        206,
+        "custom107Category"
+      ],
+      "description": "Custom 107"
+    },
+    {
+      "enum": [
+        207,
+        "custom108Category"
+      ],
+      "description": "Custom 108"
+    },
+    {
+      "enum": [
+        208,
+        "custom109Category"
+      ],
+      "description": "Custom 109"
+    },
+    {
+      "enum": [
+        209,
+        "custom110Category"
+      ],
+      "description": "Custom 110"
+    },
+    {
+      "enum": [
+        210,
+        "custom111Category"
+      ],
+      "description": "Custom 111"
+    },
+    {
+      "enum": [
+        211,
+        "custom112Category"
+      ],
+      "description": "Custom 112"
+    },
+    {
+      "enum": [
+        212,
+        "custom113Category"
+      ],
+      "description": "Custom 113"
+    },
+    {
+      "enum": [
+        213,
+        "custom114Category"
+      ],
+      "description": "Custom 114"
+    },
+    {
+      "enum": [
+        214,
+        "custom115Category"
+      ],
+      "description": "Custom 115"
+    },
+    {
+      "enum": [
+        215,
+        "custom116Category"
+      ],
+      "description": "Custom 116"
+    },
+    {
+      "enum": [
+        216,
+        "custom117Category"
+      ],
+      "description": "Custom 117"
+    },
+    {
+      "enum": [
+        217,
+        "custom118Category"
+      ],
+      "description": "Custom 118"
+    },
+    {
+      "enum": [
+        218,
+        "custom119Category"
+      ],
+      "description": "Custom 119"
+    },
+    {
+      "enum": [
+        219,
+        "custom120Category"
+      ],
+      "description": "Custom 120"
+    },
+    {
+      "enum": [
+        220,
+        "custom121Category"
+      ],
+      "description": "Custom 121"
+    },
+    {
+      "enum": [
+        221,
+        "custom122Category"
+      ],
+      "description": "Custom 122"
+    },
+    {
+      "enum": [
+        222,
+        "custom123Category"
+      ],
+      "description": "Custom 123"
+    },
+    {
+      "enum": [
+        223,
+        "custom124Category"
+      ],
+      "description": "Custom 124"
+    },
+    {
+      "enum": [
+        224,
+        "custom125Category"
+      ],
+      "description": "Custom 125"
+    },
+    {
+      "enum": [
+        225,
+        "custom126Category"
+      ],
+      "description": "Custom 126"
+    },
+    {
+      "enum": [
+        226,
+        "custom127Category"
+      ],
+      "description": "Custom 127"
+    },
+    {
+      "enum": [
+        227,
+        "custom128Category"
+      ],
+      "description": "Custom 128"
+    },
+    {
+      "enum": [
+        228,
+        "custom129Category"
+      ],
+      "description": "Custom 129"
+    },
+    {
+      "enum": [
+        229,
+        "custom130Category"
+      ],
+      "description": "Custom 130"
+    },
+    {
+      "enum": [
+        230,
+        "custom131Category"
+      ],
+      "description": "Custom 131"
+    },
+    {
+      "enum": [
+        231,
+        "custom132Category"
+      ],
+      "description": "Custom 132"
+    },
+    {
+      "enum": [
+        232,
+        "custom133Category"
+      ],
+      "description": "Custom 133"
+    },
+    {
+      "enum": [
+        233,
+        "custom134Category"
+      ],
+      "description": "Custom 134"
+    },
+    {
+      "enum": [
+        234,
+        "custom135Category"
+      ],
+      "description": "Custom 135"
+    },
+    {
+      "enum": [
+        235,
+        "custom136Category"
+      ],
+      "description": "Custom 136"
+    },
+    {
+      "enum": [
+        236,
+        "custom137Category"
+      ],
+      "description": "Custom 137"
+    },
+    {
+      "enum": [
+        237,
+        "custom138Category"
+      ],
+      "description": "Custom 138"
+    },
+    {
+      "enum": [
+        238,
+        "custom139Category"
+      ],
+      "description": "Custom 139"
+    },
+    {
+      "enum": [
+        239,
+        "custom140Category"
+      ],
+      "description": "Custom 140"
+    },
+    {
+      "enum": [
+        240,
+        "custom141Category"
+      ],
+      "description": "Custom 141"
+    },
+    {
+      "enum": [
+        241,
+        "custom142Category"
+      ],
+      "description": "Custom 142"
+    },
+    {
+      "enum": [
+        242,
+        "custom143Category"
+      ],
+      "description": "Custom 143"
+    },
+    {
+      "enum": [
+        243,
+        "custom144Category"
+      ],
+      "description": "Custom 144"
+    },
+    {
+      "enum": [
+        244,
+        "custom145Category"
+      ],
+      "description": "Custom 145"
+    },
+    {
+      "enum": [
+        245,
+        "custom146Category"
+      ],
+      "description": "Custom 146"
+    },
+    {
+      "enum": [
+        246,
+        "custom147Category"
+      ],
+      "description": "Custom 147"
+    },
+    {
+      "enum": [
+        247,
+        "custom148Category"
+      ],
+      "description": "Custom 148"
+    },
+    {
+      "enum": [
+        248,
+        "custom149Category"
+      ],
+      "description": "Custom 149"
+    },
+    {
+      "enum": [
+        249,
+        "custom150Category"
+      ],
+      "description": "Custom 150"
+    }
+  ]
+}

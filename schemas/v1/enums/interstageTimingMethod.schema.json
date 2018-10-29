@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/interstageTimingMethod.schema.json",
+  "title": "interstageTimingMethod",
+  "description": "Interstage Timing Method",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "interstageTimingMethodInterstage"
+      ],
+      "description": "Interstage"
+    },
+    {
+      "enum": [
+        1,
+        "interstageTimingMethodStabilize"
+      ],
+      "description": "Stabilize"
+    }
+  ]
+}

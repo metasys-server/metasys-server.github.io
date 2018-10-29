@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/deltaTemperatureUnitsEnumSet.schema.json",
+  "title": "deltaTemperatureUnitsEnumSet",
+  "description": "Delta Temperature Units",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "degreeDeltaFahrenheits"
+      ],
+      "description": "Degree Delta Fahrenheit"
+    },
+    {
+      "enum": [
+        1,
+        "degreeDeltaCentigrades"
+      ],
+      "description": "Degree Delta Centigrade"
+    }
+  ]
+}

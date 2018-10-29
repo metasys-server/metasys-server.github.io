@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdOngplOffgplOnmanOffmanEnumSet.schema.json",
+  "title": "mccdOngplOffgplOnmanOffmanEnumSet",
+  "description": "MCCD Ongpl Offgpl Onman Offman",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Ongpl"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Offgpl"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Onman"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Offman"
+    }
+  ]
+}

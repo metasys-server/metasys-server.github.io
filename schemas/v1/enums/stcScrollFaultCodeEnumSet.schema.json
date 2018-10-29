@@ -1,0 +1,260 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcScrollFaultCodeEnumSet.schema.json",
+  "title": "stcScrollFaultCodeEnumSet",
+  "description": "STC Scroll Fault Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcScrollFaultCode0"
+      ],
+      "description": "NO FAULTS"
+    },
+    {
+      "enum": [
+        1,
+        "stcScrollFaultCode1"
+      ],
+      "description": "115 VAC UNDER VOLTAGE"
+    },
+    {
+      "enum": [
+        2,
+        "stcScrollFaultCode2"
+      ],
+      "description": "LOW AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        3,
+        "stcScrollFaultCode3"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "stcScrollFaultCode4"
+      ],
+      "description": "LOW LEAVING CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "stcScrollFaultCode5"
+      ],
+      "description": "HIGH DISCHARGE PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "stcScrollFaultCode6"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "stcScrollFaultCode7"
+      ],
+      "description": "LOW SUCTION PRESSURE"
+    },
+    {
+      "enum": [
+        8,
+        "stcScrollFaultCode8"
+      ],
+      "description": "RESERVED 8"
+    },
+    {
+      "enum": [
+        9,
+        "stcScrollFaultCode9"
+      ],
+      "description": "RESERVED 9"
+    },
+    {
+      "enum": [
+        10,
+        "stcScrollFaultCode10"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "stcScrollFaultCode11"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "stcScrollFaultCode12"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "stcScrollFaultCode13"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "stcScrollFaultCode14"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "stcScrollFaultCode15"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "stcScrollFaultCode16"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "stcScrollFaultCode17"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "stcScrollFaultCode18"
+      ],
+      "description": "MP/ HPCO"
+    },
+    {
+      "enum": [
+        19,
+        "stcScrollFaultCode19"
+      ],
+      "description": "LOW EVAPORATOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        20,
+        "stcScrollFaultCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "stcScrollFaultCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "stcScrollFaultCode22"
+      ],
+      "description": "UNIT MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        23,
+        "stcScrollFaultCode23"
+      ],
+      "description": "LOW SUPERHEAT"
+    },
+    {
+      "enum": [
+        24,
+        "stcScrollFaultCode24"
+      ],
+      "description": "SENSOR FAULT"
+    },
+    {
+      "enum": [
+        25,
+        "stcScrollFaultCode25"
+      ],
+      "description": "DISCHARGE INHIBIT"
+    },
+    {
+      "enum": [
+        26,
+        "stcScrollFaultCode26"
+      ],
+      "description": "MP/HPCO INHIBIT"
+    },
+    {
+      "enum": [
+        27,
+        "stcScrollFaultCode27"
+      ],
+      "description": "PUMP TRIP"
+    },
+    {
+      "enum": [
+        28,
+        "stcScrollFaultCode28"
+      ],
+      "description": "PUMP FAIL MAKE FLOW"
+    },
+    {
+      "enum": [
+        29,
+        "stcScrollFaultCode29"
+      ],
+      "description": "HIGH AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        30,
+        "stcScrollFaultCode30"
+      ],
+      "description": "ANIT-VACUUM LOW PRESSURE CUTOUT"
+    },
+    {
+      "enum": [
+        31,
+        "stcScrollFaultCode31"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "stcScrollFaultCode32"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "stcScrollFaultCode33"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "stcScrollFaultCode34"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "stcScrollFaultCode35"
+      ],
+      "description": "RESERVED 35"
+    }
+  ]
+}

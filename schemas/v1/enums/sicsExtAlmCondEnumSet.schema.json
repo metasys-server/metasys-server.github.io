@@ -1,0 +1,617 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sicsExtAlmCondEnumSet.schema.json",
+  "title": "sicsExtAlmCondEnumSet",
+  "description": "SICS Extended Alarm Conditions",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "almCondExtUnknown"
+      ],
+      "description": "Unrecognized Error"
+    },
+    {
+      "enum": [
+        1,
+        "almCondExt1"
+      ],
+      "description": "Compressor 1 locked-excessive High Pressure trips"
+    },
+    {
+      "enum": [
+        2,
+        "almCondExt2"
+      ],
+      "description": "Compressor 2 locked-excessive High Pressure trips"
+    },
+    {
+      "enum": [
+        3,
+        "almCondExt3"
+      ],
+      "description": "Compressor 3 locked-excessive High Pressure trips"
+    },
+    {
+      "enum": [
+        4,
+        "almCondExt4"
+      ],
+      "description": "Compressor 4 locked-excessive High Pressure trips"
+    },
+    {
+      "enum": [
+        5,
+        "almCondExt5"
+      ],
+      "description": "Compressor 1 locked-excessive Low Pressure trips"
+    },
+    {
+      "enum": [
+        6,
+        "almCondExt6"
+      ],
+      "description": "Compressor 2 locked-excessive Low Pressure trips"
+    },
+    {
+      "enum": [
+        7,
+        "almCondExt7"
+      ],
+      "description": "Compressor 3 locked-excessive Low Pressure trips"
+    },
+    {
+      "enum": [
+        8,
+        "almCondExt8"
+      ],
+      "description": "Compressor 4 locked-excessive Low Pressure trips"
+    },
+    {
+      "enum": [
+        9,
+        "almCondExt9"
+      ],
+      "description": "Compressor 1 locked-excessive motor overload trips"
+    },
+    {
+      "enum": [
+        10,
+        "almCondExt10"
+      ],
+      "description": "Compressor 2 locked-excessive motor overload trips"
+    },
+    {
+      "enum": [
+        11,
+        "almCondExt11"
+      ],
+      "description": "Compressor 3 locked-excessive motor overload trips"
+    },
+    {
+      "enum": [
+        12,
+        "almCondExt12"
+      ],
+      "description": "Compressor 4 locked-excessive motor overload trips"
+    },
+    {
+      "enum": [
+        13,
+        "almCondExt13"
+      ],
+      "description": "Heat Stage 1 locked - excessive Limit Switch trips"
+    },
+    {
+      "enum": [
+        14,
+        "almCondExt14"
+      ],
+      "description": "Heat Stage 2 locked - excessive Limit Switch trips"
+    },
+    {
+      "enum": [
+        15,
+        "almCondExt15"
+      ],
+      "description": "Heat Stage 3 locked - excessive Limit Switch trips"
+    },
+    {
+      "enum": [
+        16,
+        "almCondExt16"
+      ],
+      "description": "Heat Stage 1 locked - gas valve failed to turn on"
+    },
+    {
+      "enum": [
+        17,
+        "almCondExt17"
+      ],
+      "description": "Heat Stage 2 locked - gas valve failed to turn on"
+    },
+    {
+      "enum": [
+        18,
+        "almCondExt18"
+      ],
+      "description": "Heat Stage 3 locked - gas valve failed to turn on"
+    },
+    {
+      "enum": [
+        19,
+        "almCondExt19"
+      ],
+      "description": "Space Temperature sensor failed open or shorted"
+    },
+    {
+      "enum": [
+        20,
+        "almCondExt20"
+      ],
+      "description": "Supply Air Temp sensor failed open or shorted"
+    },
+    {
+      "enum": [
+        21,
+        "almCondExt21"
+      ],
+      "description": "Return Air Temp sensor failed open or shorted"
+    },
+    {
+      "enum": [
+        22,
+        "almCondExt22"
+      ],
+      "description": "Outdoor Air Temp sensor failed open or shorted"
+    },
+    {
+      "enum": [
+        23,
+        "almCondExt23"
+      ],
+      "description": "Dirty Filter switch tripped"
+    },
+    {
+      "enum": [
+        24,
+        "almCondExt24"
+      ],
+      "description": "Unit Locked due to APS"
+    },
+    {
+      "enum": [
+        25,
+        "almCondExt25"
+      ],
+      "description": "APS is stuck closed"
+    },
+    {
+      "enum": [
+        26,
+        "almCondExt26"
+      ],
+      "description": "Microelectronics failed - control using defaults"
+    },
+    {
+      "enum": [
+        27,
+        "almCondExt27"
+      ],
+      "description": "Control shutdown- CRC on ROM detected bad firmware"
+    },
+    {
+      "enum": [
+        28,
+        "almCondExt28"
+      ],
+      "description": "Control locked out - Fan Overload trips"
+    },
+    {
+      "enum": [
+        29,
+        "almCondExt29"
+      ],
+      "description": "Outdoor Humidity sensor out of range"
+    },
+    {
+      "enum": [
+        30,
+        "almCondExt30"
+      ],
+      "description": "Return Air Humidity sensor out of range"
+    },
+    {
+      "enum": [
+        31,
+        "almCondExt31"
+      ],
+      "description": "Indoor Air Quality sensor out of range"
+    },
+    {
+      "enum": [
+        32,
+        "almCondExt32"
+      ],
+      "description": "Real time clock failure - cannot be read"
+    },
+    {
+      "enum": [
+        33,
+        "almCondExt33"
+      ],
+      "description": "Space Setpoint Offset is greater than 20K ohms"
+    },
+    {
+      "enum": [
+        34,
+        "almCondExt34"
+      ],
+      "description": "Unit locked due to CV/VAV input out of range"
+    },
+    {
+      "enum": [
+        35,
+        "almCondExt35"
+      ],
+      "description": "Unit locked due to low voltage on 24 VAC"
+    },
+    {
+      "enum": [
+        36,
+        "almCondExt36"
+      ],
+      "description": "Unit shut down due to a Purge input"
+    },
+    {
+      "enum": [
+        37,
+        "almCondExt37"
+      ],
+      "description": "Unit lock due to high/faulty duct static pressure"
+    },
+    {
+      "enum": [
+        38,
+        "almCondExt38"
+      ],
+      "description": "Supply Air Temperature fault for Cooling"
+    },
+    {
+      "enum": [
+        39,
+        "almCondExt39"
+      ],
+      "description": "Supply Air Temperature fault for Heating"
+    },
+    {
+      "enum": [
+        40,
+        "almCondExt40"
+      ],
+      "description": "Minimum Economizer Position fault"
+    },
+    {
+      "enum": [
+        41,
+        "almCondExt41"
+      ],
+      "description": "Space Temperature alarm condition"
+    },
+    {
+      "enum": [
+        42,
+        "almCondExt42"
+      ],
+      "description": "Duct Static Pressure sensor reading low"
+    },
+    {
+      "enum": [
+        43,
+        "almCondExt43"
+      ],
+      "description": "Hot Water Freeze Stat open - coil could freeze"
+    },
+    {
+      "enum": [
+        44,
+        "almCondExt44"
+      ],
+      "description": "Compressor 1 locked out due to Freeze Stat Trips"
+    },
+    {
+      "enum": [
+        45,
+        "almCondExt45"
+      ],
+      "description": "Compressor 2 locked out due to Freeze Stat Trips"
+    },
+    {
+      "enum": [
+        46,
+        "almCondExt46"
+      ],
+      "description": "Compressor 3 locked out due to Freeze Stat Trips"
+    },
+    {
+      "enum": [
+        47,
+        "almCondExt47"
+      ],
+      "description": "Compressor 4 locked out due to Freeze Stat Trips"
+    },
+    {
+      "enum": [
+        48,
+        "almCondExt48"
+      ],
+      "description": "4-stage expansion board communications failure"
+    },
+    {
+      "enum": [
+        49,
+        "almCondExt49"
+      ],
+      "description": "VAV expansion board communications failure"
+    },
+    {
+      "enum": [
+        80,
+        "almCondExt80"
+      ],
+      "description": "Fan On Delay for Heating corrupted-using default"
+    },
+    {
+      "enum": [
+        81,
+        "almCondExt81"
+      ],
+      "description": "Fan Off Delay for Heating corrupted-using default"
+    },
+    {
+      "enum": [
+        82,
+        "almCondExt82"
+      ],
+      "description": "Fan On Delay for Cooling corrupted-using default"
+    },
+    {
+      "enum": [
+        83,
+        "almCondExt83"
+      ],
+      "description": "Fan Off Delay for Cooling corrupted-using default"
+    },
+    {
+      "enum": [
+        84,
+        "almCondExt84"
+      ],
+      "description": "Minimum Run Time Cooling corrupted-using default"
+    },
+    {
+      "enum": [
+        85,
+        "almCondExt85"
+      ],
+      "description": "Address corrupted - using default"
+    },
+    {
+      "enum": [
+        86,
+        "almCondExt86"
+      ],
+      "description": "Compressor 1 Accum Runtime corrupted-using default"
+    },
+    {
+      "enum": [
+        87,
+        "almCondExt87"
+      ],
+      "description": "Compressor 2 Accum Runtime corrupted-using default"
+    },
+    {
+      "enum": [
+        88,
+        "almCondExt88"
+      ],
+      "description": "Compressor 3 Accum Runtime corrupted-using default"
+    },
+    {
+      "enum": [
+        89,
+        "almCondExt89"
+      ],
+      "description": "Compressor 4 Accum Runtime corrupted-using default"
+    },
+    {
+      "enum": [
+        90,
+        "almCondExt90"
+      ],
+      "description": "Accumulated Heating Runtime corrupted-using default"
+    },
+    {
+      "enum": [
+        91,
+        "almCondExt91"
+      ],
+      "description": "Option Byte number one corrupted-using default"
+    },
+    {
+      "enum": [
+        92,
+        "almCondExt92"
+      ],
+      "description": "Unit Name corrupted in EEPROM"
+    },
+    {
+      "enum": [
+        93,
+        "almCondExt93"
+      ],
+      "description": "Attached Device value corrupted in EEPROM"
+    },
+    {
+      "enum": [
+        94,
+        "almCondExt94"
+      ],
+      "description": "Unit Model Number corrupted in EEPROM"
+    },
+    {
+      "enum": [
+        95,
+        "almCondExt95"
+      ],
+      "description": "Unit Serial Number corrupted in EEPROM"
+    },
+    {
+      "enum": [
+        256,
+        "almCondExt256"
+      ],
+      "description": "Communications failure"
+    },
+    {
+      "enum": [
+        257,
+        "almCondExt257"
+      ],
+      "description": "Communications restored"
+    },
+    {
+      "enum": [
+        258,
+        "almCondExt258"
+      ],
+      "description": "RTU Controller Communications failure"
+    },
+    {
+      "enum": [
+        259,
+        "almCondExt259"
+      ],
+      "description": "RTU Controller Communications restored"
+    },
+    {
+      "enum": [
+        260,
+        "almCondExt260"
+      ],
+      "description": "Bypass Controller Communications failure"
+    },
+    {
+      "enum": [
+        261,
+        "almCondExt261"
+      ],
+      "description": "Bypass Controller Communications restored"
+    },
+    {
+      "enum": [
+        262,
+        "almCondExt262"
+      ],
+      "description": "RTU Application type incorrect for controller type"
+    },
+    {
+      "enum": [
+        263,
+        "almCondExt263"
+      ],
+      "description": "TEC Controller Communications failure"
+    },
+    {
+      "enum": [
+        264,
+        "almCondExt264"
+      ],
+      "description": "TEC Controller Communications restored"
+    },
+    {
+      "enum": [
+        265,
+        "almCondExt265"
+      ],
+      "description": "Filter Clean - Return to Normal"
+    },
+    {
+      "enum": [
+        266,
+        "almCondExt266"
+      ],
+      "description": "Device type found is not supported"
+    },
+    {
+      "enum": [
+        267,
+        "almCondExt267"
+      ],
+      "description": "Only 24 combined CVRTU and TEC devices supported"
+    },
+    {
+      "enum": [
+        268,
+        "almCondExt268"
+      ],
+      "description": "COB RTU was found when a VAV RTU was expected"
+    },
+    {
+      "enum": [
+        269,
+        "almCondExt269"
+      ],
+      "description": "VAV RTU was found when a COB RTU was expected"
+    },
+    {
+      "enum": [
+        270,
+        "almCondExt270"
+      ],
+      "description": "COB RTU was found when a CVRTU was expected"
+    },
+    {
+      "enum": [
+        271,
+        "almCondExt271"
+      ],
+      "description": "CVRTU was found when a COB RTU was expected"
+    },
+    {
+      "enum": [
+        272,
+        "almCondExt272"
+      ],
+      "description": "CVRTU was found when a VAV RTU was expected"
+    },
+    {
+      "enum": [
+        273,
+        "almCondExt273"
+      ],
+      "description": "VAV RTU was found when a CVRTU was expected"
+    },
+    {
+      "enum": [
+        274,
+        "almCondExt274"
+      ],
+      "description": "Unknown UI attempted to change Unit Set"
+    },
+    {
+      "enum": [
+        275,
+        "almCondExt275"
+      ],
+      "description": "Unknown UI attempted to enable the UCB schedule"
+    },
+    {
+      "enum": [
+        276,
+        "almCondExt276"
+      ],
+      "description": "Old RTU found, Smart Equipment board expected"
+    }
+  ]
+}

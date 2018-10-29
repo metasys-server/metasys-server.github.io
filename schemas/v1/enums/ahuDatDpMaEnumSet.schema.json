@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuDatDpMaEnumSet.schema.json",
+  "title": "ahuDatDpMaEnumSet",
+  "description": "AHU DAT DP MA",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "addmSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "addmEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        2,
+        "addmMech"
+      ],
+      "description": "Mech"
+    },
+    {
+      "enum": [
+        3,
+        "addmEconMech"
+      ],
+      "description": "Econ+Mech"
+    },
+    {
+      "enum": [
+        4,
+        "addmPreheat"
+      ],
+      "description": "Preheat"
+    },
+    {
+      "enum": [
+        5,
+        "addmCoolingIdle"
+      ],
+      "description": "Cooling Idle"
+    },
+    {
+      "enum": [
+        6,
+        "addmHeatingIdle"
+      ],
+      "description": "Heating Idle"
+    },
+    {
+      "enum": [
+        7,
+        "addmTempUnreliable"
+      ],
+      "description": "Temperature Unreliable"
+    }
+  ]
+}

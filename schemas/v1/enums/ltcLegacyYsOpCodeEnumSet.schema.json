@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYsOpCodeEnumSet.schema.json",
+  "title": "ltcLegacyYsOpCodeEnumSet",
+  "description": "York LTC Legacy YS Operating Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYsOpCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYsOpCode1"
+      ],
+      "description": "SYSTEM RUN-HIGH PRESSURE LIMIT IN EFFECT"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYsOpCode2"
+      ],
+      "description": "SYSTEM RUN-LOW PRESSURE LIMIT IN EFFECT"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYsOpCode3"
+      ],
+      "description": "SYSTEM RUN-CURRENT LIMIT IN EFFECT"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYsOpCode4"
+      ],
+      "description": "BATTERY BACKUP FAILURE-REPLACE RTC"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYsOpCode5"
+      ],
+      "description": "MINIMUM SLIDE VALVE (BRINE)|EXCESS CHARGE DETECTION"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYsOpCode6"
+      ],
+      "description": "DIRTY OIL FILTER"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYsOpCode7"
+      ],
+      "description": "EXCESS REFRIGERANT CHARGE"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYsOpCode8"
+      ],
+      "description": "2 MINUTE RESTART DELAY (STARTING INHIBITED)"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYsOpCode9"
+      ],
+      "description": "HIGH OIL TEMPERATURE (WARNING)"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYsOpCode10"
+      ],
+      "description": "SYSTEM RUN-MINIMUM LOAD CONTROL"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYsOpCode11"
+      ],
+      "description": "FREEZE THREAT FROM OPERATING CHILLER (NON-BRINE)"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYsOpCode12"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYsOpCode13"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYsOpCode14"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYsOpCode15"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYsOpCode16"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYsOpCode17"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYsOpCode18"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYsOpCode19"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYsOpCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYsOpCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYsOpCode22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYsOpCode23"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYsOpCode24"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYsOpCode25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYsOpCode26"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ltcLegacyYsOpCode27"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ltcLegacyYsOpCode28"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ltcLegacyYsOpCode29"
+      ],
+      "description": "FREEZE THREAT (BRINE)"
+    },
+    {
+      "enum": [
+        30,
+        "ltcLegacyYsOpCode30"
+      ],
+      "description": "SYSTEM SHUTTING DOWN - SLD VLV UNLOADING (BRINE)"
+    },
+    {
+      "enum": [
+        31,
+        "ltcLegacyYsOpCode31"
+      ],
+      "description": "FREEZE THREAT - CONDENSER WATER FLOW (BRINE)"
+    }
+  ]
+}

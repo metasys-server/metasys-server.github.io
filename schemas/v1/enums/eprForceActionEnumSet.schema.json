@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eprForceActionEnumSet.schema.json",
+  "title": "eprForceActionEnumSet",
+  "description": "EPR Force Action",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "eprForceActionNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "eprForceActionManualSwitchover"
+      ],
+      "description": "Manual Switchover"
+    },
+    {
+      "enum": [
+        2,
+        "eprForceActionDeactivateChannelA"
+      ],
+      "description": "Deactivate Channel A"
+    },
+    {
+      "enum": [
+        3,
+        "eprForceActionDeactivateChannelB"
+      ],
+      "description": "Deactivate Channel B"
+    }
+  ]
+}

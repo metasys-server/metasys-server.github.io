@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/upgradeLogMessageTypeEnumSet.schema.json",
+  "title": "upgradeLogMessageTypeEnumSet",
+  "description": "Upgrade Log Message Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "upgradeLogMessageTypeInfo"
+      ],
+      "description": "Informational"
+    },
+    {
+      "enum": [
+        1,
+        "upgradeLogMessageTypeWarning"
+      ],
+      "description": "Warning"
+    },
+    {
+      "enum": [
+        2,
+        "upgradeLogMessageTypeError"
+      ],
+      "description": "Error"
+    }
+  ]
+}

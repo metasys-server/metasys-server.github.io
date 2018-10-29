@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityTrnUnoccupyOccupyEnumSet.schema.json",
+  "title": "unityTrnUnoccupyOccupyEnumSet",
+  "description": "Unity TRN Unoccupy Occupy",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual Occupy"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Manual Unoccupy"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Auto Restore-Occupy"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto Restore-Unoccupy"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Occupy"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Unoccupy"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Release"
+    }
+  ]
+}

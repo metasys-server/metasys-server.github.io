@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectionDirectionEnumSet.schema.json",
+  "title": "connectionDirectionEnumSet",
+  "description": "Connection Direction",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sdlNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "sdlInbound"
+      ],
+      "description": "Inbound"
+    },
+    {
+      "enum": [
+        2,
+        "sdlOutbound"
+      ],
+      "description": "Outbound"
+    },
+    {
+      "enum": [
+        3,
+        "sdlToggle"
+      ],
+      "description": "Toggle"
+    }
+  ]
+}

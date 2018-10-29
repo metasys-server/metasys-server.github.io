@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yiaSc13EnumSet.schema.json",
+  "title": "yiaSc13EnumSet",
+  "description": "YIA Start Inhibit Code SC.13",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yiaSc130"
+      ],
+      "description": "NO INHIBIT FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "yiaSc131"
+      ],
+      "description": "GENERATOR HI-PRESS ANALOG SWITCH PT1 >672 MMHG"
+    },
+    {
+      "enum": [
+        2,
+        "yiaSc132"
+      ],
+      "description": "LOW REFRIGERANT TEMP ANALOG RT8 < 33F (0.56C)"
+    },
+    {
+      "enum": [
+        3,
+        "yiaSc133"
+      ],
+      "description": "AUXILIARY TB1-31 DEVICE OPENED"
+    },
+    {
+      "enum": [
+        4,
+        "yiaSc134"
+      ],
+      "description": "LEAVING CHILLED LIQUID TEMP < SETPOINT"
+    },
+    {
+      "enum": [
+        5,
+        "yiaSc135"
+      ],
+      "description": "UNIT SHUTDOWN BY REMOTE DEVICE"
+    },
+    {
+      "enum": [
+        6,
+        "yiaSc136"
+      ],
+      "description": "HW VALVE LOADED>10% CLOSE TO <9% TO RESTART"
+    },
+    {
+      "enum": [
+        7,
+        "yiaSc137"
+      ],
+      "description": "STEAM VALVE LOADED >10% CLOSE TO <9% TO RESTART"
+    },
+    {
+      "enum": [
+        8,
+        "yiaSc138"
+      ],
+      "description": "UNIT SHUTDOWN BY MULTI-UNIT REMOTE"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mzFsmStateEnumSet.schema.json",
+  "title": "mzFsmStateEnumSet",
+  "description": "MZ FSM State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mzFsmStHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        1,
+        "mzFsmStCooling"
+      ],
+      "description": "Cooling"
+    }
+  ]
+}

@@ -1,0 +1,1121 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yt2GenericScEnumSet.schema.json",
+  "title": "yt2GenericScEnumSet",
+  "description": "YT2 Generic SC",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yt2GenericSc0"
+      ],
+      "description": "CODE 0"
+    },
+    {
+      "enum": [
+        1,
+        "yt2GenericSc1"
+      ],
+      "description": "CODE 1"
+    },
+    {
+      "enum": [
+        2,
+        "yt2GenericSc2"
+      ],
+      "description": "CODE 2"
+    },
+    {
+      "enum": [
+        3,
+        "yt2GenericSc3"
+      ],
+      "description": "CODE 3"
+    },
+    {
+      "enum": [
+        4,
+        "yt2GenericSc4"
+      ],
+      "description": "CODE 4"
+    },
+    {
+      "enum": [
+        5,
+        "yt2GenericSc5"
+      ],
+      "description": "CODE 5"
+    },
+    {
+      "enum": [
+        6,
+        "yt2GenericSc6"
+      ],
+      "description": "CODE 6"
+    },
+    {
+      "enum": [
+        7,
+        "yt2GenericSc7"
+      ],
+      "description": "CODE 7"
+    },
+    {
+      "enum": [
+        8,
+        "yt2GenericSc8"
+      ],
+      "description": "CODE 8"
+    },
+    {
+      "enum": [
+        9,
+        "yt2GenericSc9"
+      ],
+      "description": "CODE 9"
+    },
+    {
+      "enum": [
+        10,
+        "yt2GenericSc10"
+      ],
+      "description": "CODE 10"
+    },
+    {
+      "enum": [
+        11,
+        "yt2GenericSc11"
+      ],
+      "description": "CODE 11"
+    },
+    {
+      "enum": [
+        12,
+        "yt2GenericSc12"
+      ],
+      "description": "CODE 12"
+    },
+    {
+      "enum": [
+        13,
+        "yt2GenericSc13"
+      ],
+      "description": "CODE 13"
+    },
+    {
+      "enum": [
+        14,
+        "yt2GenericSc14"
+      ],
+      "description": "CODE 14"
+    },
+    {
+      "enum": [
+        15,
+        "yt2GenericSc15"
+      ],
+      "description": "CODE 15"
+    },
+    {
+      "enum": [
+        16,
+        "yt2GenericSc16"
+      ],
+      "description": "CODE 16"
+    },
+    {
+      "enum": [
+        17,
+        "yt2GenericSc17"
+      ],
+      "description": "CODE 17"
+    },
+    {
+      "enum": [
+        18,
+        "yt2GenericSc18"
+      ],
+      "description": "CODE 18"
+    },
+    {
+      "enum": [
+        19,
+        "yt2GenericSc19"
+      ],
+      "description": "CODE 19"
+    },
+    {
+      "enum": [
+        20,
+        "yt2GenericSc20"
+      ],
+      "description": "CODE 20"
+    },
+    {
+      "enum": [
+        21,
+        "yt2GenericSc21"
+      ],
+      "description": "CODE 21"
+    },
+    {
+      "enum": [
+        22,
+        "yt2GenericSc22"
+      ],
+      "description": "CODE 22"
+    },
+    {
+      "enum": [
+        23,
+        "yt2GenericSc23"
+      ],
+      "description": "CODE 23"
+    },
+    {
+      "enum": [
+        24,
+        "yt2GenericSc24"
+      ],
+      "description": "CODE 24"
+    },
+    {
+      "enum": [
+        25,
+        "yt2GenericSc25"
+      ],
+      "description": "CODE 25"
+    },
+    {
+      "enum": [
+        26,
+        "yt2GenericSc26"
+      ],
+      "description": "CODE 26"
+    },
+    {
+      "enum": [
+        27,
+        "yt2GenericSc27"
+      ],
+      "description": "CODE 27"
+    },
+    {
+      "enum": [
+        28,
+        "yt2GenericSc28"
+      ],
+      "description": "CODE 28"
+    },
+    {
+      "enum": [
+        29,
+        "yt2GenericSc29"
+      ],
+      "description": "CODE 29"
+    },
+    {
+      "enum": [
+        30,
+        "yt2GenericSc30"
+      ],
+      "description": "CODE 30"
+    },
+    {
+      "enum": [
+        31,
+        "yt2GenericSc31"
+      ],
+      "description": "CODE 31"
+    },
+    {
+      "enum": [
+        32,
+        "yt2GenericSc32"
+      ],
+      "description": "CODE 32"
+    },
+    {
+      "enum": [
+        33,
+        "yt2GenericSc33"
+      ],
+      "description": "CODE 33"
+    },
+    {
+      "enum": [
+        34,
+        "yt2GenericSc34"
+      ],
+      "description": "CODE 34"
+    },
+    {
+      "enum": [
+        35,
+        "yt2GenericSc35"
+      ],
+      "description": "CODE 35"
+    },
+    {
+      "enum": [
+        36,
+        "yt2GenericSc36"
+      ],
+      "description": "CODE 36"
+    },
+    {
+      "enum": [
+        37,
+        "yt2GenericSc37"
+      ],
+      "description": "CODE 37"
+    },
+    {
+      "enum": [
+        38,
+        "yt2GenericSc38"
+      ],
+      "description": "CODE 38"
+    },
+    {
+      "enum": [
+        39,
+        "yt2GenericSc39"
+      ],
+      "description": "CODE 39"
+    },
+    {
+      "enum": [
+        40,
+        "yt2GenericSc40"
+      ],
+      "description": "CODE 40"
+    },
+    {
+      "enum": [
+        41,
+        "yt2GenericSc41"
+      ],
+      "description": "CODE 41"
+    },
+    {
+      "enum": [
+        42,
+        "yt2GenericSc42"
+      ],
+      "description": "CODE 42"
+    },
+    {
+      "enum": [
+        43,
+        "yt2GenericSc43"
+      ],
+      "description": "CODE 43"
+    },
+    {
+      "enum": [
+        44,
+        "yt2GenericSc44"
+      ],
+      "description": "CODE 44"
+    },
+    {
+      "enum": [
+        45,
+        "yt2GenericSc45"
+      ],
+      "description": "CODE 45"
+    },
+    {
+      "enum": [
+        46,
+        "yt2GenericSc46"
+      ],
+      "description": "CODE 46"
+    },
+    {
+      "enum": [
+        47,
+        "yt2GenericSc47"
+      ],
+      "description": "CODE 47"
+    },
+    {
+      "enum": [
+        48,
+        "yt2GenericSc48"
+      ],
+      "description": "CODE 48"
+    },
+    {
+      "enum": [
+        49,
+        "yt2GenericSc49"
+      ],
+      "description": "CODE 49"
+    },
+    {
+      "enum": [
+        50,
+        "yt2GenericSc50"
+      ],
+      "description": "CODE 50"
+    },
+    {
+      "enum": [
+        51,
+        "yt2GenericSc51"
+      ],
+      "description": "CODE 51"
+    },
+    {
+      "enum": [
+        52,
+        "yt2GenericSc52"
+      ],
+      "description": "CODE 52"
+    },
+    {
+      "enum": [
+        53,
+        "yt2GenericSc53"
+      ],
+      "description": "CODE 53"
+    },
+    {
+      "enum": [
+        54,
+        "yt2GenericSc54"
+      ],
+      "description": "CODE 54"
+    },
+    {
+      "enum": [
+        55,
+        "yt2GenericSc55"
+      ],
+      "description": "CODE 55"
+    },
+    {
+      "enum": [
+        56,
+        "yt2GenericSc56"
+      ],
+      "description": "CODE 56"
+    },
+    {
+      "enum": [
+        57,
+        "yt2GenericSc57"
+      ],
+      "description": "CODE 57"
+    },
+    {
+      "enum": [
+        58,
+        "yt2GenericSc58"
+      ],
+      "description": "CODE 58"
+    },
+    {
+      "enum": [
+        59,
+        "yt2GenericSc59"
+      ],
+      "description": "CODE 59"
+    },
+    {
+      "enum": [
+        60,
+        "yt2GenericSc60"
+      ],
+      "description": "CODE 60"
+    },
+    {
+      "enum": [
+        61,
+        "yt2GenericSc61"
+      ],
+      "description": "CODE 61"
+    },
+    {
+      "enum": [
+        62,
+        "yt2GenericSc62"
+      ],
+      "description": "CODE 62"
+    },
+    {
+      "enum": [
+        63,
+        "yt2GenericSc63"
+      ],
+      "description": "CODE 63"
+    },
+    {
+      "enum": [
+        64,
+        "yt2GenericSc64"
+      ],
+      "description": "CODE 64"
+    },
+    {
+      "enum": [
+        65,
+        "yt2GenericSc65"
+      ],
+      "description": "CODE 65"
+    },
+    {
+      "enum": [
+        66,
+        "yt2GenericSc66"
+      ],
+      "description": "CODE 66"
+    },
+    {
+      "enum": [
+        67,
+        "yt2GenericSc67"
+      ],
+      "description": "CODE 67"
+    },
+    {
+      "enum": [
+        68,
+        "yt2GenericSc68"
+      ],
+      "description": "CODE 68"
+    },
+    {
+      "enum": [
+        69,
+        "yt2GenericSc69"
+      ],
+      "description": "CODE 69"
+    },
+    {
+      "enum": [
+        70,
+        "yt2GenericSc70"
+      ],
+      "description": "CODE 70"
+    },
+    {
+      "enum": [
+        71,
+        "yt2GenericSc71"
+      ],
+      "description": "CODE 71"
+    },
+    {
+      "enum": [
+        72,
+        "yt2GenericSc72"
+      ],
+      "description": "CODE 72"
+    },
+    {
+      "enum": [
+        73,
+        "yt2GenericSc73"
+      ],
+      "description": "CODE 73"
+    },
+    {
+      "enum": [
+        74,
+        "yt2GenericSc74"
+      ],
+      "description": "CODE 74"
+    },
+    {
+      "enum": [
+        75,
+        "yt2GenericSc75"
+      ],
+      "description": "CODE 75"
+    },
+    {
+      "enum": [
+        76,
+        "yt2GenericSc76"
+      ],
+      "description": "CODE 76"
+    },
+    {
+      "enum": [
+        77,
+        "yt2GenericSc77"
+      ],
+      "description": "CODE 77"
+    },
+    {
+      "enum": [
+        78,
+        "yt2GenericSc78"
+      ],
+      "description": "CODE 78"
+    },
+    {
+      "enum": [
+        79,
+        "yt2GenericSc79"
+      ],
+      "description": "CODE 79"
+    },
+    {
+      "enum": [
+        80,
+        "yt2GenericSc80"
+      ],
+      "description": "CODE 80"
+    },
+    {
+      "enum": [
+        81,
+        "yt2GenericSc81"
+      ],
+      "description": "CODE 81"
+    },
+    {
+      "enum": [
+        82,
+        "yt2GenericSc82"
+      ],
+      "description": "CODE 82"
+    },
+    {
+      "enum": [
+        83,
+        "yt2GenericSc83"
+      ],
+      "description": "CODE 83"
+    },
+    {
+      "enum": [
+        84,
+        "yt2GenericSc84"
+      ],
+      "description": "CODE 84"
+    },
+    {
+      "enum": [
+        85,
+        "yt2GenericSc85"
+      ],
+      "description": "CODE 85"
+    },
+    {
+      "enum": [
+        86,
+        "yt2GenericSc86"
+      ],
+      "description": "CODE 86"
+    },
+    {
+      "enum": [
+        87,
+        "yt2GenericSc87"
+      ],
+      "description": "CODE 87"
+    },
+    {
+      "enum": [
+        88,
+        "yt2GenericSc88"
+      ],
+      "description": "CODE 88"
+    },
+    {
+      "enum": [
+        89,
+        "yt2GenericSc89"
+      ],
+      "description": "CODE 89"
+    },
+    {
+      "enum": [
+        90,
+        "yt2GenericSc90"
+      ],
+      "description": "CODE 90"
+    },
+    {
+      "enum": [
+        91,
+        "yt2GenericSc91"
+      ],
+      "description": "CODE 91"
+    },
+    {
+      "enum": [
+        92,
+        "yt2GenericSc92"
+      ],
+      "description": "CODE 92"
+    },
+    {
+      "enum": [
+        93,
+        "yt2GenericSc93"
+      ],
+      "description": "CODE 93"
+    },
+    {
+      "enum": [
+        94,
+        "yt2GenericSc94"
+      ],
+      "description": "CODE 94"
+    },
+    {
+      "enum": [
+        95,
+        "yt2GenericSc95"
+      ],
+      "description": "CODE 95"
+    },
+    {
+      "enum": [
+        96,
+        "yt2GenericSc96"
+      ],
+      "description": "CODE 96"
+    },
+    {
+      "enum": [
+        97,
+        "yt2GenericSc97"
+      ],
+      "description": "CODE 97"
+    },
+    {
+      "enum": [
+        98,
+        "yt2GenericSc98"
+      ],
+      "description": "CODE 98"
+    },
+    {
+      "enum": [
+        99,
+        "yt2GenericSc99"
+      ],
+      "description": "CODE 99"
+    },
+    {
+      "enum": [
+        100,
+        "yt2GenericSc100"
+      ],
+      "description": "CODE 100"
+    },
+    {
+      "enum": [
+        101,
+        "yt2GenericSc101"
+      ],
+      "description": "CODE 101"
+    },
+    {
+      "enum": [
+        102,
+        "yt2GenericSc102"
+      ],
+      "description": "CODE 102"
+    },
+    {
+      "enum": [
+        103,
+        "yt2GenericSc103"
+      ],
+      "description": "CODE 103"
+    },
+    {
+      "enum": [
+        104,
+        "yt2GenericSc104"
+      ],
+      "description": "CODE 104"
+    },
+    {
+      "enum": [
+        105,
+        "yt2GenericSc105"
+      ],
+      "description": "CODE 105"
+    },
+    {
+      "enum": [
+        106,
+        "yt2GenericSc106"
+      ],
+      "description": "CODE 106"
+    },
+    {
+      "enum": [
+        107,
+        "yt2GenericSc107"
+      ],
+      "description": "CODE 107"
+    },
+    {
+      "enum": [
+        108,
+        "yt2GenericSc108"
+      ],
+      "description": "CODE 108"
+    },
+    {
+      "enum": [
+        109,
+        "yt2GenericSc109"
+      ],
+      "description": "CODE 109"
+    },
+    {
+      "enum": [
+        110,
+        "yt2GenericSc110"
+      ],
+      "description": "CODE 110"
+    },
+    {
+      "enum": [
+        111,
+        "yt2GenericSc111"
+      ],
+      "description": "CODE 111"
+    },
+    {
+      "enum": [
+        112,
+        "yt2GenericSc112"
+      ],
+      "description": "CODE 112"
+    },
+    {
+      "enum": [
+        113,
+        "yt2GenericSc113"
+      ],
+      "description": "CODE 113"
+    },
+    {
+      "enum": [
+        114,
+        "yt2GenericSc114"
+      ],
+      "description": "CODE 114"
+    },
+    {
+      "enum": [
+        115,
+        "yt2GenericSc115"
+      ],
+      "description": "CODE 115"
+    },
+    {
+      "enum": [
+        116,
+        "yt2GenericSc116"
+      ],
+      "description": "CODE 116"
+    },
+    {
+      "enum": [
+        117,
+        "yt2GenericSc117"
+      ],
+      "description": "CODE 117"
+    },
+    {
+      "enum": [
+        118,
+        "yt2GenericSc118"
+      ],
+      "description": "CODE 118"
+    },
+    {
+      "enum": [
+        119,
+        "yt2GenericSc119"
+      ],
+      "description": "CODE 119"
+    },
+    {
+      "enum": [
+        120,
+        "yt2GenericSc120"
+      ],
+      "description": "CODE 120"
+    },
+    {
+      "enum": [
+        121,
+        "yt2GenericSc121"
+      ],
+      "description": "CODE 121"
+    },
+    {
+      "enum": [
+        122,
+        "yt2GenericSc122"
+      ],
+      "description": "CODE 122"
+    },
+    {
+      "enum": [
+        123,
+        "yt2GenericSc123"
+      ],
+      "description": "CODE 123"
+    },
+    {
+      "enum": [
+        124,
+        "yt2GenericSc124"
+      ],
+      "description": "CODE 124"
+    },
+    {
+      "enum": [
+        125,
+        "yt2GenericSc125"
+      ],
+      "description": "CODE 125"
+    },
+    {
+      "enum": [
+        126,
+        "yt2GenericSc126"
+      ],
+      "description": "CODE 126"
+    },
+    {
+      "enum": [
+        127,
+        "yt2GenericSc127"
+      ],
+      "description": "CODE 127"
+    },
+    {
+      "enum": [
+        128,
+        "yt2GenericSc128"
+      ],
+      "description": "CODE 128"
+    },
+    {
+      "enum": [
+        129,
+        "yt2GenericSc129"
+      ],
+      "description": "CODE 129"
+    },
+    {
+      "enum": [
+        130,
+        "yt2GenericSc130"
+      ],
+      "description": "CODE 130"
+    },
+    {
+      "enum": [
+        131,
+        "yt2GenericSc131"
+      ],
+      "description": "CODE 131"
+    },
+    {
+      "enum": [
+        132,
+        "yt2GenericSc132"
+      ],
+      "description": "CODE 132"
+    },
+    {
+      "enum": [
+        133,
+        "yt2GenericSc133"
+      ],
+      "description": "CODE 133"
+    },
+    {
+      "enum": [
+        134,
+        "yt2GenericSc134"
+      ],
+      "description": "CODE 134"
+    },
+    {
+      "enum": [
+        135,
+        "yt2GenericSc135"
+      ],
+      "description": "CODE 135"
+    },
+    {
+      "enum": [
+        136,
+        "yt2GenericSc136"
+      ],
+      "description": "CODE 136"
+    },
+    {
+      "enum": [
+        137,
+        "yt2GenericSc137"
+      ],
+      "description": "CODE 137"
+    },
+    {
+      "enum": [
+        138,
+        "yt2GenericSc138"
+      ],
+      "description": "CODE 138"
+    },
+    {
+      "enum": [
+        139,
+        "yt2GenericSc139"
+      ],
+      "description": "CODE 139"
+    },
+    {
+      "enum": [
+        140,
+        "yt2GenericSc140"
+      ],
+      "description": "CODE 140"
+    },
+    {
+      "enum": [
+        141,
+        "yt2GenericSc141"
+      ],
+      "description": "CODE 141"
+    },
+    {
+      "enum": [
+        142,
+        "yt2GenericSc142"
+      ],
+      "description": "CODE 142"
+    },
+    {
+      "enum": [
+        143,
+        "yt2GenericSc143"
+      ],
+      "description": "CODE 143"
+    },
+    {
+      "enum": [
+        144,
+        "yt2GenericSc144"
+      ],
+      "description": "CODE 144"
+    },
+    {
+      "enum": [
+        145,
+        "yt2GenericSc145"
+      ],
+      "description": "CODE 145"
+    },
+    {
+      "enum": [
+        146,
+        "yt2GenericSc146"
+      ],
+      "description": "CODE 146"
+    },
+    {
+      "enum": [
+        147,
+        "yt2GenericSc147"
+      ],
+      "description": "CODE 147"
+    },
+    {
+      "enum": [
+        148,
+        "yt2GenericSc148"
+      ],
+      "description": "CODE 148"
+    },
+    {
+      "enum": [
+        149,
+        "yt2GenericSc149"
+      ],
+      "description": "CODE 149"
+    },
+    {
+      "enum": [
+        150,
+        "yt2GenericSc150"
+      ],
+      "description": "CODE 150"
+    },
+    {
+      "enum": [
+        151,
+        "yt2GenericSc151"
+      ],
+      "description": "CODE 151"
+    },
+    {
+      "enum": [
+        152,
+        "yt2GenericSc152"
+      ],
+      "description": "CODE 152"
+    },
+    {
+      "enum": [
+        153,
+        "yt2GenericSc153"
+      ],
+      "description": "CODE 153"
+    },
+    {
+      "enum": [
+        154,
+        "yt2GenericSc154"
+      ],
+      "description": "CODE 154"
+    },
+    {
+      "enum": [
+        155,
+        "yt2GenericSc155"
+      ],
+      "description": "CODE 155"
+    },
+    {
+      "enum": [
+        156,
+        "yt2GenericSc156"
+      ],
+      "description": "CODE 156"
+    },
+    {
+      "enum": [
+        157,
+        "yt2GenericSc157"
+      ],
+      "description": "CODE 157"
+    },
+    {
+      "enum": [
+        158,
+        "yt2GenericSc158"
+      ],
+      "description": "CODE 158"
+    }
+  ]
+}

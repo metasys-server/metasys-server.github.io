@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yorktalkIndexTypeEnumSet.schema.json",
+  "title": "yorktalkIndexTypeEnumSet",
+  "description": "York Talk Index Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ytIndexLiveValue"
+      ],
+      "description": "Live Value"
+    },
+    {
+      "enum": [
+        1,
+        "ytIndexHistoryValue1"
+      ],
+      "description": "History Value 1"
+    },
+    {
+      "enum": [
+        2,
+        "ytIndexHistoryValue2"
+      ],
+      "description": "History Value 2"
+    },
+    {
+      "enum": [
+        3,
+        "ytIndexHistoryValue3"
+      ],
+      "description": "History Value 3"
+    },
+    {
+      "enum": [
+        4,
+        "ytIndexHistoryValue4"
+      ],
+      "description": "History Value 4"
+    },
+    {
+      "enum": [
+        5,
+        "ytIndexHistoryValue5"
+      ],
+      "description": "History Value 5"
+    },
+    {
+      "enum": [
+        6,
+        "ytIndexHistoryValue6"
+      ],
+      "description": "History Value 6"
+    },
+    {
+      "enum": [
+        7,
+        "ytIndexHistoryValue7"
+      ],
+      "description": "History Value 7"
+    },
+    {
+      "enum": [
+        8,
+        "ytIndexHistoryValue8"
+      ],
+      "description": "History Value 8"
+    },
+    {
+      "enum": [
+        9,
+        "ytIndexHistoryValue9"
+      ],
+      "description": "History Value 9"
+    },
+    {
+      "enum": [
+        10,
+        "ytIndexHistoryValue10"
+      ],
+      "description": "History Value 10"
+    }
+  ]
+}

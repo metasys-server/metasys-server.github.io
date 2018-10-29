@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/securityLevelEnumSet.schema.json",
+  "title": "securityLevelEnumSet",
+  "description": "SITE SECURITY LEVEL",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "encryptedOnly"
+      ],
+      "description": "Encrypted Only"
+    },
+    {
+      "enum": [
+        1,
+        "encryptedTrusted"
+      ],
+      "description": "Encrypted and Trusted"
+    }
+  ]
+}

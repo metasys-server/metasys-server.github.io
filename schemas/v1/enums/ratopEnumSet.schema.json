@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ratopEnumSet.schema.json",
+  "title": "ratopEnumSet",
+  "description": "RA Top",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Start Initial"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Recirculate"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Normal Operation"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Calibrate"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seCvMinOaSensorEnumSet.schema.json",
+  "title": "seCvMinOaSensorEnumSet",
+  "description": "SE CV Min OA Sensor",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seCvMinOaSensorEnumSet0"
+      ],
+      "description": "MA-T"
+    },
+    {
+      "enum": [
+        1,
+        "seCvMinOaSensorEnumSet1"
+      ],
+      "description": "DA-T"
+    }
+  ]
+}

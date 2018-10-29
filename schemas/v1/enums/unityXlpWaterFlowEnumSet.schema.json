@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlpWaterFlowEnumSet.schema.json",
+  "title": "unityXlpWaterFlowEnumSet",
+  "description": "Unity XLP Water Flow",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "FLOW"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "CLEAR"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "TROUBLE"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "FLOW1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, FLOW"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "FIXED, CLEAR"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "FIXED, TROUBLE"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "FIXED, FLOW1"
+    }
+  ]
+}

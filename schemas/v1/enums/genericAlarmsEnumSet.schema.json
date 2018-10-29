@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/genericAlarmsEnumSet.schema.json",
+  "title": "genericAlarmsEnumSet",
+  "description": "Generic Alarms",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "genericAlarmsNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "genericAlarmsHighAlarm"
+      ],
+      "description": "High Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "genericAlarmsLowAlarm"
+      ],
+      "description": "Low Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "genericAlarmsUnreliableSensor"
+      ],
+      "description": "Unreliable Sensor"
+    },
+    {
+      "enum": [
+        4,
+        "genericAlarmsAlarm"
+      ],
+      "description": "Alarm"
+    }
+  ]
+}

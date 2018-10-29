@@ -1,0 +1,176 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacLifsftyStateEnumSet.schema.json",
+  "title": "bacLifsftyStateEnumSet",
+  "description": "BAC LifSfty State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lifesftyStateQuiet"
+      ],
+      "description": "Quiet"
+    },
+    {
+      "enum": [
+        1,
+        "lifesftyStatePreAlarm"
+      ],
+      "description": "PreAlarm"
+    },
+    {
+      "enum": [
+        2,
+        "lifesftyStateAlarm"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "lifesftyStateFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        4,
+        "lifesftyStateFaultPreAlarm"
+      ],
+      "description": "Fault PreAlarm"
+    },
+    {
+      "enum": [
+        5,
+        "lifesftyStateFaultAlarm"
+      ],
+      "description": "Fault Alarm"
+    },
+    {
+      "enum": [
+        6,
+        "lifesftyStateNotReady"
+      ],
+      "description": "Not ready"
+    },
+    {
+      "enum": [
+        7,
+        "lifesftyStateActive"
+      ],
+      "description": "Active"
+    },
+    {
+      "enum": [
+        8,
+        "lifesftyStateTamper"
+      ],
+      "description": "Tamper"
+    },
+    {
+      "enum": [
+        9,
+        "lifesftyStateTestAlarm"
+      ],
+      "description": "Test Alarm"
+    },
+    {
+      "enum": [
+        10,
+        "lifesftyStateTestActive"
+      ],
+      "description": "Test Active"
+    },
+    {
+      "enum": [
+        11,
+        "lifesftyStateTestFault"
+      ],
+      "description": "Test Fault"
+    },
+    {
+      "enum": [
+        12,
+        "lifesftyStateTestFaultAlarm"
+      ],
+      "description": "Test fault Alarm"
+    },
+    {
+      "enum": [
+        13,
+        "lifesftyStateHoldup"
+      ],
+      "description": "Holdup"
+    },
+    {
+      "enum": [
+        14,
+        "lifesftyStateDuress"
+      ],
+      "description": "Duress"
+    },
+    {
+      "enum": [
+        15,
+        "lifesftyStateTamperAlarm"
+      ],
+      "description": "Tamper Alarm"
+    },
+    {
+      "enum": [
+        16,
+        "lifesftyStateAbnormal"
+      ],
+      "description": "Abnormal"
+    },
+    {
+      "enum": [
+        17,
+        "lifesftyStateEmergencyPower"
+      ],
+      "description": "Emergency Power"
+    },
+    {
+      "enum": [
+        18,
+        "lifesftyStateDelayed"
+      ],
+      "description": "Delayed"
+    },
+    {
+      "enum": [
+        19,
+        "lifesftyStateBlocked"
+      ],
+      "description": "Blocked"
+    },
+    {
+      "enum": [
+        20,
+        "lifesftyStateLocalAlarm"
+      ],
+      "description": "Local Alarm"
+    },
+    {
+      "enum": [
+        21,
+        "lifesftyStateGeneralAlarm"
+      ],
+      "description": "General Alarm"
+    },
+    {
+      "enum": [
+        22,
+        "lifesftyStateSupervisory"
+      ],
+      "description": "Supervisory"
+    },
+    {
+      "enum": [
+        23,
+        "lifesftyStateTestSupervisory"
+      ],
+      "description": "Test Supervisory"
+    }
+  ]
+}

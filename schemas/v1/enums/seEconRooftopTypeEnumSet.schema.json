@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconRooftopTypeEnumSet.schema.json",
+  "title": "seEconRooftopTypeEnumSet",
+  "description": "SE ECON Rooftop Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconRooftopTypeHeatPump"
+      ],
+      "description": "Heat Pump"
+    },
+    {
+      "enum": [
+        1,
+        "seEconRooftopTypeConvRtu"
+      ],
+      "description": "Conv RTU"
+    }
+  ]
+}

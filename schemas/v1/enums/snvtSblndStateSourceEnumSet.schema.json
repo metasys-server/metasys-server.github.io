@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtSblndStateSourceEnumSet.schema.json",
+  "title": "snvtSblndStateSourceEnumSet",
+  "description": "SNVT Source of the sunblind command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sbcsLocal"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        1,
+        "sbcsGroup"
+      ],
+      "description": "Group"
+    },
+    {
+      "enum": [
+        2,
+        "sbcsWindSpeed"
+      ],
+      "description": "Wind speed"
+    },
+    {
+      "enum": [
+        3,
+        "sbcsSunLux"
+      ],
+      "description": "Sun lux level"
+    },
+    {
+      "enum": [
+        4,
+        "sbcsRain"
+      ],
+      "description": "Rain"
+    },
+    {
+      "enum": [
+        5,
+        "sbcsFrost"
+      ],
+      "description": "Frost"
+    },
+    {
+      "enum": [
+        6,
+        "sbcsDawn"
+      ],
+      "description": "Dawn"
+    },
+    {
+      "enum": [
+        7,
+        "sbcsDusk"
+      ],
+      "description": "Dusk"
+    },
+    {
+      "enum": [
+        8,
+        "sbcsOutsideTemp"
+      ],
+      "description": "Outside temperature"
+    },
+    {
+      "enum": [
+        9,
+        "sbcsIndoorTemp"
+      ],
+      "description": "Indoor temperature"
+    },
+    {
+      "enum": [
+        10,
+        "sbcsOutdoorRh"
+      ],
+      "description": "Outdoor relative humidity"
+    },
+    {
+      "enum": [
+        11,
+        "sbcsIndoorRh"
+      ],
+      "description": "Indoor relative humidity"
+    },
+    {
+      "enum": [
+        12,
+        "sbcsIllumLevel"
+      ],
+      "description": "Illumination level"
+    },
+    {
+      "enum": [
+        13,
+        "sbcsScene"
+      ],
+      "description": "Scene"
+    },
+    {
+      "enum": [
+        14,
+        "sbcsGlobal"
+      ],
+      "description": "Global"
+    },
+    {
+      "enum": [
+        15,
+        "sbcsWindowContact"
+      ],
+      "description": "Window contact"
+    },
+    {
+      "enum": [
+        16,
+        "sbcsAutomodeChanged"
+      ],
+      "description": "Auto-mode changed"
+    },
+    {
+      "enum": [
+        17,
+        "sbcsOverride"
+      ],
+      "description": "Override"
+    },
+    {
+      "enum": [
+        18,
+        "sbcsEmergency"
+      ],
+      "description": "Emergency"
+    },
+    {
+      "enum": [
+        19,
+        "sbcsMaintenance"
+      ],
+      "description": "Maintenance"
+    },
+    {
+      "enum": [
+        20,
+        "sbcsIntrusion"
+      ],
+      "description": "Intrusion"
+    },
+    {
+      "enum": [
+        21,
+        "sbcsTerminalLoad"
+      ],
+      "description": "Terminal load"
+    },
+    {
+      "enum": [
+        22,
+        "sbcsAlarm"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        23,
+        "sbcsOccSensor"
+      ],
+      "description": "Occupancy sensor"
+    },
+    {
+      "enum": [
+        24,
+        "sbcsOccManCmd"
+      ],
+      "description": "Occupancy manual command"
+    },
+    {
+      "enum": [
+        25,
+        "sbcsGlare"
+      ],
+      "description": "Glare"
+    },
+    {
+      "enum": [
+        26,
+        "sbcsAlarm2"
+      ],
+      "description": "Alarm 2"
+    },
+    {
+      "enum": [
+        27,
+        "sbcsNotify"
+      ],
+      "description": "Notify"
+    },
+    {
+      "enum": [
+        28,
+        "sbcsElevation"
+      ],
+      "description": "Elevation"
+    },
+    {
+      "enum": [
+        29,
+        "sbcsAzimuth"
+      ],
+      "description": "Azimuth"
+    },
+    {
+      "enum": [
+        30,
+        "sbcsSetOverride"
+      ],
+      "description": "Set override"
+    },
+    {
+      "enum": [
+        31,
+        "sbcsSetMaintenance"
+      ],
+      "description": "Set maintenance"
+    },
+    {
+      "enum": [
+        32,
+        "sbcsTimer"
+      ],
+      "description": "Timer"
+    },
+    {
+      "enum": [
+        127,
+        "sbcsUnknown"
+      ],
+      "description": "Unknown command source"
+    },
+    {
+      "enum": [
+        255,
+        "sbcsNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

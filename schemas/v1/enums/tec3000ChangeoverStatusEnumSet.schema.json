@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000ChangeoverStatusEnumSet.schema.json",
+  "title": "tec3000ChangeoverStatusEnumSet",
+  "description": "TEC3000 Changeover Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000ChangeoverStatusChangeoverDisabled"
+      ],
+      "description": "Changeover Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000ChangeoverStatusCoolingMode"
+      ],
+      "description": "Cooling Mode"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000ChangeoverStatusHeatingMode"
+      ],
+      "description": "Heating Mode"
+    },
+    {
+      "enum": [
+        3,
+        "tec3000ChangeoverStatusSupplyTemperatureUnreliable"
+      ],
+      "description": "Supply Temperature Unreliable"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityIrc3SmokeEnumSet.schema.json",
+  "title": "unityIrc3SmokeEnumSet",
+  "description": "Unity IRC3 Smoke",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "CLEAR"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "SMOKE"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "SHORT"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "OPEN"
+    }
+  ]
+}

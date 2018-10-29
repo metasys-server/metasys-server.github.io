@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ceOpModeEnumSet.schema.json",
+  "title": "ceOpModeEnumSet",
+  "description": "CE Operating Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ceOpModeEnumSet0"
+      ],
+      "description": "Unit Heat"
+    },
+    {
+      "enum": [
+        1,
+        "ceOpModeEnumSet1"
+      ],
+      "description": "Makeup Air"
+    },
+    {
+      "enum": [
+        2,
+        "ceOpModeEnumSet2"
+      ],
+      "description": "Makeup Air w/Reset"
+    },
+    {
+      "enum": [
+        3,
+        "ceOpModeEnumSet3"
+      ],
+      "description": "Makeup Air w/Reset & On/Off"
+    },
+    {
+      "enum": [
+        4,
+        "ceOpModeEnumSet4"
+      ],
+      "description": "Summer Vent"
+    }
+  ]
+}

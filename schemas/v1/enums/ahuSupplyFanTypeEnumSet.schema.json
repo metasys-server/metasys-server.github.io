@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuSupplyFanTypeEnumSet.schema.json",
+  "title": "ahuSupplyFanTypeEnumSet",
+  "description": "AHU Supply Fan Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuSftVariableCapacity"
+      ],
+      "description": "Variable Capacity"
+    },
+    {
+      "enum": [
+        1,
+        "ahuSftConstantCapacity"
+      ],
+      "description": "Constant Capacity"
+    }
+  ]
+}

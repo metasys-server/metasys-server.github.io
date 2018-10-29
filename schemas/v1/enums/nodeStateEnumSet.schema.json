@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/nodeStateEnumSet.schema.json",
+  "title": "nodeStateEnumSet",
+  "description": "Node State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Application Unconfigured"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "No Application Unconfigured"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Configured Online"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Configured Offline"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Soft Offline"
+    },
+    {
+      "enum": [
+        140,
+        "140"
+      ],
+      "description": "Configured Bypass"
+    }
+  ]
+}

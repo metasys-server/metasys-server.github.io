@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timedOverrideModeEnumSet.schema.json",
+  "title": "timedOverrideModeEnumSet",
+  "description": "Timed Override Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "timedOverrideNotAllowed"
+      ],
+      "description": "Not Allowed"
+    },
+    {
+      "enum": [
+        1,
+        "timedOverrideTimedOverride"
+      ],
+      "description": "Timed Override"
+    },
+    {
+      "enum": [
+        2,
+        "timedOverrideAntiTailgating"
+      ],
+      "description": "Timed Override Anti-Tailgating"
+    },
+    {
+      "enum": [
+        3,
+        "timedOverrideShunt"
+      ],
+      "description": "Timed Shunt"
+    }
+  ]
+}

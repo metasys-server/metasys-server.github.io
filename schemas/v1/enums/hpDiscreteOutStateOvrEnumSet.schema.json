@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hpDiscreteOutStateOvrEnumSet.schema.json",
+  "title": "hpDiscreteOutStateOvrEnumSet",
+  "description": "HP Discrete Out State OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hpDosOvrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hpDosOvrMaxHtg"
+      ],
+      "description": "Max Heating"
+    },
+    {
+      "enum": [
+        2,
+        "hpDosOvrTransToClg"
+      ],
+      "description": "Transition to Cooling"
+    },
+    {
+      "enum": [
+        3,
+        "hpDosOvrTransToHtg"
+      ],
+      "description": "Transition to Heating"
+    },
+    {
+      "enum": [
+        4,
+        "hpDosOvrCtrlClg"
+      ],
+      "description": "Control Cooling"
+    },
+    {
+      "enum": [
+        5,
+        "hpDosOvrCtrlHtg"
+      ],
+      "description": "Control Heating"
+    },
+    {
+      "enum": [
+        6,
+        "hpDosOvrIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        7,
+        "hpDosOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

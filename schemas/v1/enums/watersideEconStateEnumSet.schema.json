@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/watersideEconStateEnumSet.schema.json",
+  "title": "watersideEconStateEnumSet",
+  "description": "Waterside Econ State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "watersideEconStateOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "watersideEconStateChillerControl"
+      ],
+      "description": "Chiller Control"
+    },
+    {
+      "enum": [
+        2,
+        "watersideEconStateStopChillers"
+      ],
+      "description": "Stop Chillers"
+    },
+    {
+      "enum": [
+        3,
+        "watersideEconStateStartHx"
+      ],
+      "description": "Start Hx"
+    },
+    {
+      "enum": [
+        4,
+        "watersideEconStateHxControl"
+      ],
+      "description": "Hx Control"
+    },
+    {
+      "enum": [
+        5,
+        "watersideEconStateChwstTiming"
+      ],
+      "description": "CHWS-T Timing"
+    },
+    {
+      "enum": [
+        6,
+        "watersideEconStateWarmCwt"
+      ],
+      "description": "Warm CW-T"
+    },
+    {
+      "enum": [
+        7,
+        "watersideEconStateStartChillers"
+      ],
+      "description": "Start Chillers"
+    },
+    {
+      "enum": [
+        8,
+        "watersideEconStateStopHx"
+      ],
+      "description": "Stop Hx"
+    }
+  ]
+}

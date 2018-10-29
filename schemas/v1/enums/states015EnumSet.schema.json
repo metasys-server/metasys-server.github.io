@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/states015EnumSet.schema.json",
+  "title": "states015EnumSet",
+  "description": "States (0-15)",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "state150"
+      ],
+      "description": "State 0"
+    },
+    {
+      "enum": [
+        1,
+        "state151"
+      ],
+      "description": "State 1"
+    },
+    {
+      "enum": [
+        2,
+        "state152"
+      ],
+      "description": "State 2"
+    },
+    {
+      "enum": [
+        3,
+        "state153"
+      ],
+      "description": "State 3"
+    },
+    {
+      "enum": [
+        4,
+        "state154"
+      ],
+      "description": "State 4"
+    },
+    {
+      "enum": [
+        5,
+        "state155"
+      ],
+      "description": "State 5"
+    },
+    {
+      "enum": [
+        6,
+        "state156"
+      ],
+      "description": "State 6"
+    },
+    {
+      "enum": [
+        7,
+        "state157"
+      ],
+      "description": "State 7"
+    },
+    {
+      "enum": [
+        8,
+        "state158"
+      ],
+      "description": "State 8"
+    },
+    {
+      "enum": [
+        9,
+        "state159"
+      ],
+      "description": "State 9"
+    },
+    {
+      "enum": [
+        10,
+        "state1510"
+      ],
+      "description": "State 10"
+    },
+    {
+      "enum": [
+        11,
+        "state1511"
+      ],
+      "description": "State 11"
+    },
+    {
+      "enum": [
+        12,
+        "state1512"
+      ],
+      "description": "State 12"
+    },
+    {
+      "enum": [
+        13,
+        "state1513"
+      ],
+      "description": "State 13"
+    },
+    {
+      "enum": [
+        14,
+        "state1514"
+      ],
+      "description": "State 14"
+    },
+    {
+      "enum": [
+        15,
+        "state1515"
+      ],
+      "description": "State 15"
+    }
+  ]
+}

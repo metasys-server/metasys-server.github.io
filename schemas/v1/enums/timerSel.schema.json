@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timerSel.schema.json",
+  "title": "timerSel",
+  "description": "Low Ambient Timer Select",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "timerSel30"
+      ],
+      "description": "30 seconds"
+    },
+    {
+      "enum": [
+        1,
+        "timerSel120"
+      ],
+      "description": "120 seconds"
+    }
+  ]
+}

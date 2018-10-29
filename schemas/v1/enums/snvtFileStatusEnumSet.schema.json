@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtFileStatusEnumSet.schema.json",
+  "title": "snvtFileStatusEnumSet",
+  "description": "SNVT File Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Transfer OK"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Lookup OK"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Open Error"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Lookup Error"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Transfer in Progress"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Read/Write Error"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Timeout Error"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Window Error"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Authentication Error"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Access Error"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Seek Invalid"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Seek Wait"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vmaDualEnumSet.schema.json",
+  "title": "vmaDualEnumSet",
+  "description": "VMA Dual",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Shutdown Closed"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Shutdown Open"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Mixing"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Suppl Htg"
+    }
+  ]
+}

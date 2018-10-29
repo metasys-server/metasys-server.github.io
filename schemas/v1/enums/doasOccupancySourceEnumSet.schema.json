@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/doasOccupancySourceEnumSet.schema.json",
+  "title": "doasOccupancySourceEnumSet",
+  "description": "DOAS Occupancy Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "localSchedule"
+      ],
+      "description": "Local Schedule"
+    },
+    {
+      "enum": [
+        1,
+        "bas"
+      ],
+      "description": "BAS"
+    },
+    {
+      "enum": [
+        2,
+        "alwaysOccupied"
+      ],
+      "description": "Always Occupied"
+    },
+    {
+      "enum": [
+        3,
+        "startStopSwitch"
+      ],
+      "description": "Start Stop Switch"
+    },
+    {
+      "enum": [
+        4,
+        "co2"
+      ],
+      "description": "CO2"
+    },
+    {
+      "enum": [
+        5,
+        "timedOverride"
+      ],
+      "description": "Timed Override"
+    },
+    {
+      "enum": [
+        6,
+        "manualOverride"
+      ],
+      "description": "Manual Override"
+    }
+  ]
+}

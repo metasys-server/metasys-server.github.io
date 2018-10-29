@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yiaSc4EnumSet.schema.json",
+  "title": "yiaSc4EnumSet",
+  "description": "YIA Warning Code SC.4",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yiaSc40"
+      ],
+      "description": "NO WARNINGS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "yiaSc41"
+      ],
+      "description": "LOW REF TEMP IN EVAP RT8<34.0F(1.1C) –SOL PUMP IS OFF-"
+    },
+    {
+      "enum": [
+        2,
+        "yiaSc42"
+      ],
+      "description": "LOW REFRIGERANT TEMPERATURE IN EVAP RT8<35.5F(1.9C)"
+    },
+    {
+      "enum": [
+        3,
+        "yiaSc43"
+      ],
+      "description": "GENERATOR HIGH PRESSURE >517 MMHG -LOAD SET TO 30%-"
+    },
+    {
+      "enum": [
+        4,
+        "yiaSc44"
+      ],
+      "description": "PURGE PUMP OVERLOADS OPENED"
+    },
+    {
+      "enum": [
+        5,
+        "yiaSc45"
+      ],
+      "description": "FAULTY STRONG SOLUTION TEMP SENSOR RT3"
+    },
+    {
+      "enum": [
+        6,
+        "yiaSc46"
+      ],
+      "description": "HIGH STEAM SUPPLY PRESS PT2>32PSIA (22O.6KPA)"
+    },
+    {
+      "enum": [
+        7,
+        "yiaSc47"
+      ],
+      "description": "HIGH HOT WATER SUPPLY TEMP RT7 > WARNING TEMP"
+    },
+    {
+      "enum": [
+        8,
+        "yiaSc48"
+      ],
+      "description": "HIGH STEAM SUPPLY TEMP RT7 > WARNING TEMP"
+    },
+    {
+      "enum": [
+        9,
+        "yiaSc49"
+      ],
+      "description": "PURGE PUMP SERVICE RECOMMENDED"
+    },
+    {
+      "enum": [
+        10,
+        "yiaSc410"
+      ],
+      "description": "AUTOPURGE FAILURE -PURGE TANK PRESS DOESN'T DECREASE-"
+    },
+    {
+      "enum": [
+        11,
+        "yiaSc411"
+      ],
+      "description": "EXCESS PURGING IN THE LAST 7 DAYS -SEE SETPOINT-"
+    },
+    {
+      "enum": [
+        12,
+        "yiaSc412"
+      ],
+      "description": "PURGE TANK PRESSURE IS >100MMHG"
+    },
+    {
+      "enum": [
+        13,
+        "yiaSc413"
+      ],
+      "description": "PURGE PUMP OVERLOAD CONTACTS ARE IN CONFLICT"
+    },
+    {
+      "enum": [
+        14,
+        "yiaSc414"
+      ],
+      "description": "PURGE TRANSDUCER PT4 OUT OF RANGE"
+    },
+    {
+      "enum": [
+        15,
+        "yiaSc415"
+      ],
+      "description": "8SOL FAILURE; PT3>100MMHG -MANUALLY CLOSE VP2 & VP4-"
+    },
+    {
+      "enum": [
+        16,
+        "yiaSc416"
+      ],
+      "description": "PURGE PUMP FAILURE -MANUALLY CLOSE VP2 & VP4-"
+    },
+    {
+      "enum": [
+        17,
+        "yiaSc417"
+      ],
+      "description": "AUTOPURGE FAILURE; PT3>15MMHG -CHECK PURGE PUMP-"
+    },
+    {
+      "enum": [
+        18,
+        "yiaSc418"
+      ],
+      "description": "REFRIGERANT LEVEL SWITCH CONFLICT -CHK 1F&3F-"
+    },
+    {
+      "enum": [
+        19,
+        "yiaSc419"
+      ],
+      "description": "REFRIGERANT FROM CONDENSER RT9 OR SHELL PRESS PT1 CONFLICT"
+    }
+  ]
+}

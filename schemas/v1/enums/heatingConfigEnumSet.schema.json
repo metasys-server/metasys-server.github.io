@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatingConfigEnumSet.schema.json",
+  "title": "heatingConfigEnumSet",
+  "description": "Heating Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Cooling Only"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Box Htg Only"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Suppl Htg Only"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Both with Box First"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Both w Suppl First"
+    }
+  ]
+}

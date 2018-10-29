@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/decisionCategoryEnumSet.schema.json",
+  "title": "decisionCategoryEnumSet",
+  "description": "Decision Category",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "decisionCategoryNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "decisionCategoryGranted"
+      ],
+      "description": "Granted"
+    },
+    {
+      "enum": [
+        2,
+        "decisionCategoryValid"
+      ],
+      "description": "Valid"
+    },
+    {
+      "enum": [
+        3,
+        "decisionCategoryDenied"
+      ],
+      "description": "Denied"
+    },
+    {
+      "enum": [
+        4,
+        "decisionCategoryDeferred"
+      ],
+      "description": "Deferred"
+    },
+    {
+      "enum": [
+        5,
+        "decisionCategoryUnidentified"
+      ],
+      "description": "Unidentified"
+    },
+    {
+      "enum": [
+        6,
+        "decisionCategorySilent"
+      ],
+      "description": "Silent"
+    },
+    {
+      "enum": [
+        7,
+        "decisionCategoryGrantedAlternate"
+      ],
+      "description": "Granted Alternate"
+    }
+  ]
+}

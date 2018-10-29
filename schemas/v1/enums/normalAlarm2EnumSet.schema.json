@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalAlarm2EnumSet.schema.json",
+  "title": "normalAlarm2EnumSet",
+  "description": "Normal/Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "na2Normal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "na2Alarm"
+      ],
+      "description": "Alarm"
+    }
+  ]
+}

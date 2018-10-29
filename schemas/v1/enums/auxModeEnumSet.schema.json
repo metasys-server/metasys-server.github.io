@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auxModeEnumSet.schema.json",
+  "title": "auxModeEnumSet",
+  "description": "Aux Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "auxModeDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "auxModeShuntUnlockGreenLight"
+      ],
+      "description": "Shunt, Unlock, Green Light"
+    },
+    {
+      "enum": [
+        2,
+        "auxModeShuntAndUnlockOnly"
+      ],
+      "description": "Shunt and Unlock Only"
+    },
+    {
+      "enum": [
+        3,
+        "auxModeShuntOnly"
+      ],
+      "description": "Shunt Only"
+    },
+    {
+      "enum": [
+        4,
+        "auxModeShuntAndGreenLight"
+      ],
+      "description": "Shunt and Green Light"
+    }
+  ]
+}

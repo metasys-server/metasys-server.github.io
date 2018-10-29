@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rtuReturnFanTypeEnumSet.schema.json",
+  "title": "rtuReturnFanTypeEnumSet",
+  "description": "RTU Return Fan Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Constant Volume"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Variable Inlet Vanes"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Variable Freq Drive"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "No Return Fan"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Exhaust Fan"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/triggerEnumSet.schema.json",
+  "title": "triggerEnumSet",
+  "description": "Trigger",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noExecTrig"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "periodExpiredTrig"
+      ],
+      "description": "Period Expired"
+    },
+    {
+      "enum": [
+        2,
+        "covReceivedTrig"
+      ],
+      "description": "COV Received"
+    },
+    {
+      "enum": [
+        3,
+        "writeAttrTrig"
+      ],
+      "description": "Write Attribute"
+    },
+    {
+      "enum": [
+        4,
+        "executeMsgTrig"
+      ],
+      "description": "Execute Message"
+    },
+    {
+      "enum": [
+        5,
+        "triggerMsgTrig"
+      ],
+      "description": "Trigger Message"
+    },
+    {
+      "enum": [
+        6,
+        "restartMsgTrig"
+      ],
+      "description": "Restart Message"
+    },
+    {
+      "enum": [
+        7,
+        "endRelinquishTrig"
+      ],
+      "description": "End Relinquish"
+    },
+    {
+      "enum": [
+        8,
+        "singleStepTrig"
+      ],
+      "description": "Single Step"
+    },
+    {
+      "enum": [
+        9,
+        "internalTriggerTrig"
+      ],
+      "description": "Internal Trigger"
+    },
+    {
+      "enum": [
+        10,
+        "sequencedTrig"
+      ],
+      "description": "Sequenced"
+    }
+  ]
+}

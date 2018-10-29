@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/databaseStatusEnumSet.schema.json",
+  "title": "databaseStatusEnumSet",
+  "description": "Database Status Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "databaseStatusLoaded"
+      ],
+      "description": "Loaded"
+    },
+    {
+      "enum": [
+        1,
+        "databaseStatusErase"
+      ],
+      "description": "Erase"
+    },
+    {
+      "enum": [
+        2,
+        "databaseStatusErased"
+      ],
+      "description": "Erased"
+    },
+    {
+      "enum": [
+        3,
+        "databaseStatusFactory"
+      ],
+      "description": "Factory Default"
+    },
+    {
+      "enum": [
+        4,
+        "databaseStatusBusy"
+      ],
+      "description": "Busy"
+    },
+    {
+      "enum": [
+        5,
+        "databaseStatusCorrupt"
+      ],
+      "description": "Corrput"
+    },
+    {
+      "enum": [
+        6,
+        "databaseStatusLoadfactory"
+      ],
+      "description": "Load Factory"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityTrnClosedOpenEnumSet.schema.json",
+  "title": "unityTrnClosedOpenEnumSet",
+  "description": "Unity TRN Closed Open",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual Open"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Manual Closed"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Auto Restore-Open"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto Restore-Closed"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Closed"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Release"
+    }
+  ]
+}

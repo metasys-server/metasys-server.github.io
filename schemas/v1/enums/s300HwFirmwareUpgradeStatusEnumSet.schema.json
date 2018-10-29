@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/s300HwFirmwareUpgradeStatusEnumSet.schema.json",
+  "title": "s300HwFirmwareUpgradeStatusEnumSet",
+  "description": "S300 Firmware Upgrade Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "s300HwFirmwareUpgradeStatusNotInitialized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "s300HwFirmwareUpgradeStatusInProgress"
+      ],
+      "description": "In Progress"
+    },
+    {
+      "enum": [
+        2,
+        "s300HwFirmwareUpgradeStatusSuccess"
+      ],
+      "description": "Success"
+    },
+    {
+      "enum": [
+        3,
+        "s300HwFirmwareUpgradeStatusFailedModuleOffline"
+      ],
+      "description": "Failed: Module Offline"
+    },
+    {
+      "enum": [
+        4,
+        "s300HwFirmwareUpgradeStatusFailedNotSupported"
+      ],
+      "description": "Failed: Not Supported"
+    },
+    {
+      "enum": [
+        5,
+        "s300HwFirmwareUpgradeStatusFailedFileNotFound"
+      ],
+      "description": "Failed: File Not Found"
+    },
+    {
+      "enum": [
+        6,
+        "s300HwFirmwareUpgradeStatusFailedFileInvalid"
+      ],
+      "description": "Failed: File Invalid"
+    }
+  ]
+}

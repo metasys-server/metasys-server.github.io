@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatingSetupEnumSet.schema.json",
+  "title": "heatingSetupEnumSet",
+  "description": "Heating Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "modulated"
+      ],
+      "description": "Modulated"
+    },
+    {
+      "enum": [
+        1,
+        "oneStage"
+      ],
+      "description": "One Stage"
+    },
+    {
+      "enum": [
+        2,
+        "twoStage"
+      ],
+      "description": "Two Stage"
+    },
+    {
+      "enum": [
+        3,
+        "fourStage"
+      ],
+      "description": "Four Stage"
+    }
+  ]
+}

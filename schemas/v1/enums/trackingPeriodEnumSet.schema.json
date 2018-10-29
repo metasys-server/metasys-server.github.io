@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/trackingPeriodEnumSet.schema.json",
+  "title": "trackingPeriodEnumSet",
+  "description": "Tracking Period Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "trckPrdManual"
+      ],
+      "description": "Manual"
+    },
+    {
+      "enum": [
+        1,
+        "trckPrdHourly"
+      ],
+      "description": "Hourly"
+    },
+    {
+      "enum": [
+        2,
+        "trckPrdDaily"
+      ],
+      "description": "Daily"
+    },
+    {
+      "enum": [
+        3,
+        "trckPrdWeekly"
+      ],
+      "description": "Weekly"
+    },
+    {
+      "enum": [
+        4,
+        "trckPrdMonthly"
+      ],
+      "description": "Monthly"
+    }
+  ]
+}

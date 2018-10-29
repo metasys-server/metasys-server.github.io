@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yrMotorStartTypeEnumSet.schema.json",
+  "title": "yrMotorStartTypeEnumSet",
+  "description": "YR Motor Starter Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yrMotorStartType0"
+      ],
+      "description": "EM"
+    },
+    {
+      "enum": [
+        1,
+        "yrMotorStartType1"
+      ],
+      "description": "Mod A SSS"
+    },
+    {
+      "enum": [
+        2,
+        "yrMotorStartType2"
+      ],
+      "description": "VSD"
+    },
+    {
+      "enum": [
+        3,
+        "yrMotorStartType3"
+      ],
+      "description": "Mod B SSS"
+    }
+  ]
+}

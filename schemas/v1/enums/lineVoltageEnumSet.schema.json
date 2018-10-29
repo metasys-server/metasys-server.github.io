@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lineVoltageEnumSet.schema.json",
+  "title": "lineVoltageEnumSet",
+  "description": "Line Voltage",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lvUndefined"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "lv230V"
+      ],
+      "description": "230V"
+    },
+    {
+      "enum": [
+        2,
+        "lv380To415V"
+      ],
+      "description": "380/415V"
+    },
+    {
+      "enum": [
+        3,
+        "lv460V"
+      ],
+      "description": "460V"
+    },
+    {
+      "enum": [
+        4,
+        "motorVr575V"
+      ],
+      "description": "575V"
+    }
+  ]
+}

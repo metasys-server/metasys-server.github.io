@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/elementFsmState.schema.json",
+  "title": "elementFsmState",
+  "description": "Element FSM State",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "elemFsmStartupDefault"
+      ],
+      "description": "Startup Default"
+    },
+    {
+      "enum": [
+        2,
+        "elemFsmSourceValue"
+      ],
+      "description": "Source Value"
+    },
+    {
+      "enum": [
+        4,
+        "elemFsmLastReliable"
+      ],
+      "description": "Last Reliable"
+    },
+    {
+      "enum": [
+        5,
+        "elemFsmFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        6,
+        "elemFsmInTest"
+      ],
+      "description": "In Test"
+    }
+  ]
+}

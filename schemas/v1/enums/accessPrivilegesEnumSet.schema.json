@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/accessPrivilegesEnumSet.schema.json",
+  "title": "accessPrivilegesEnumSet",
+  "description": "Access Privileges",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Access"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Operate"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Intervene"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Supervise"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Manage Energy"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Manage Item Events"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Configure Items"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Modify Items"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "View"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Diagnostic"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Advanced View"
+    },
+    {
+      "enum": [
+        1000,
+        "1000"
+      ],
+      "description": "Manage Devices & Sites"
+    },
+    {
+      "enum": [
+        1001,
+        "1001"
+      ],
+      "description": "View Metasys Status"
+    },
+    {
+      "enum": [
+        1002,
+        "1002"
+      ],
+      "description": "Discard Acknowledged Events"
+    },
+    {
+      "enum": [
+        1003,
+        "1003"
+      ],
+      "description": "Discard All Events"
+    },
+    {
+      "enum": [
+        1004,
+        "1004"
+      ],
+      "description": "Snooze All Events"
+    },
+    {
+      "enum": [
+        1005,
+        "1005"
+      ],
+      "description": "Manage System Events"
+    },
+    {
+      "enum": [
+        1006,
+        "1006"
+      ],
+      "description": "Manage Audit History"
+    },
+    {
+      "enum": [
+        1007,
+        "1007"
+      ],
+      "description": "Clear Audit History"
+    },
+    {
+      "enum": [
+        1008,
+        "1008"
+      ],
+      "description": "System Configuration Tool"
+    },
+    {
+      "enum": [
+        1009,
+        "1009"
+      ],
+      "description": "Schedule Reports"
+    },
+    {
+      "enum": [
+        1010,
+        "1010"
+      ],
+      "description": "Advanced Reporting"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fsmSummary.schema.json",
+  "title": "fsmSummary",
+  "description": "FSM Summary",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "percedenceResolved"
+      ],
+      "description": "Precedence Resolved"
+    },
+    {
+      "enum": [
+        2,
+        "conflictArbitrated"
+      ],
+      "description": "Conflict Arbitrated"
+    },
+    {
+      "enum": [
+        3,
+        "unreliableInputs"
+      ],
+      "description": "Unreliable Inputs"
+    },
+    {
+      "enum": [
+        4,
+        "pseudostateTransitionsInvalid"
+      ],
+      "description": "Pseudostate Transition Invalid"
+    },
+    {
+      "enum": [
+        5,
+        "manualIntervention"
+      ],
+      "description": "Manual Intervention"
+    },
+    {
+      "enum": [
+        6,
+        "manualRelease"
+      ],
+      "description": "Manual Release"
+    }
+  ]
+}

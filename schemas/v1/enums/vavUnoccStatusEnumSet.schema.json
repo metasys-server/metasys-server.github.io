@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavUnoccStatusEnumSet.schema.json",
+  "title": "vavUnoccStatusEnumSet",
+  "description": "VAV Unocc Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavUsSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "vavUsPrmyClg"
+      ],
+      "description": "Prmy Clg"
+    },
+    {
+      "enum": [
+        2,
+        "vavUsSuppHtg"
+      ],
+      "description": "Supp Htg"
+    },
+    {
+      "enum": [
+        3,
+        "vavUsBoxHtg"
+      ],
+      "description": "Box Htg"
+    },
+    {
+      "enum": [
+        4,
+        "vavUsBoxHtgSuppHtg"
+      ],
+      "description": "Box Htg + Supp Htg"
+    },
+    {
+      "enum": [
+        5,
+        "vavUsTemperatureUnreliable"
+      ],
+      "description": "Temperature Unreliable"
+    },
+    {
+      "enum": [
+        6,
+        "vavUsUnoccCtrlNotReqD"
+      ],
+      "description": "Unocc Ctrl Not Req'd"
+    }
+  ]
+}

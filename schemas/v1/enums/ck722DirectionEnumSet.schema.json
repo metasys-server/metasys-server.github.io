@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ck722DirectionEnumSet.schema.json",
+  "title": "ck722DirectionEnumSet",
+  "description": "CK722 Direction",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ck722DirectionUndefined"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "ck722DirectionIngress"
+      ],
+      "description": "Ingress"
+    },
+    {
+      "enum": [
+        2,
+        "ck722DirectionEgress"
+      ],
+      "description": "Egress"
+    }
+  ]
+}

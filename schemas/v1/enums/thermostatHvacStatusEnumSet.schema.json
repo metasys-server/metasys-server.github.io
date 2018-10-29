@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/thermostatHvacStatusEnumSet.schema.json",
+  "title": "thermostatHvacStatusEnumSet",
+  "description": "Thermostat HVAC Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "thermostatHvacStatusOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "thermostatHvacStatusSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        2,
+        "thermostatHvacStatusHeatingIdle"
+      ],
+      "description": "Heating Idle"
+    },
+    {
+      "enum": [
+        3,
+        "thermostatHvacStatusHeatingActive"
+      ],
+      "description": "Heating Active"
+    },
+    {
+      "enum": [
+        4,
+        "thermostatHvacStatusCoolingIdle"
+      ],
+      "description": "Cooling Idle"
+    },
+    {
+      "enum": [
+        5,
+        "thermostatHvacStatusCoolingActive"
+      ],
+      "description": "Cooling Active"
+    },
+    {
+      "enum": [
+        6,
+        "thermostatHvacStatusEmergencyHeat"
+      ],
+      "description": "Emergency Heat"
+    },
+    {
+      "enum": [
+        7,
+        "thermostatHvacStatusEmergencyCool"
+      ],
+      "description": "Emergency Cool"
+    },
+    {
+      "enum": [
+        8,
+        "thermostatHvacStatusTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        9,
+        "thermostatHvacStatusUnreliableZnt"
+      ],
+      "description": "Unreliable ZNT"
+    }
+  ]
+}

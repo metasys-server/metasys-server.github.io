@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hpClgModeOvrEnumSet.schema.json",
+  "title": "hpClgModeOvrEnumSet",
+  "description": "HP Cooling Mode OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hpClgOvrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hpClgOvrMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "hpClgOvrCtrl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "hpClgOvrFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        4,
+        "hpClgOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

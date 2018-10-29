@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavWarmupCooldownStatusEnumSet.schema.json",
+  "title": "vavWarmupCooldownStatusEnumSet",
+  "description": "VAV Warmup Cooldown Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavWcsNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "vavWcsWarmupSatisfied"
+      ],
+      "description": "Warmup Satisfied"
+    },
+    {
+      "enum": [
+        2,
+        "vavWcsWarmupUnreliable"
+      ],
+      "description": "Warmup Unreliable"
+    },
+    {
+      "enum": [
+        3,
+        "vavWcsCooldown"
+      ],
+      "description": "Cooldown"
+    },
+    {
+      "enum": [
+        4,
+        "vavWcsCooldownUnreliable"
+      ],
+      "description": "Cooldown Unreliable"
+    },
+    {
+      "enum": [
+        5,
+        "vavWcsPrmyHtg"
+      ],
+      "description": "Prmy Htg"
+    },
+    {
+      "enum": [
+        6,
+        "vavWcsPrmyHtgSuppHtg"
+      ],
+      "description": "Prmy Htg + Supp Htg"
+    },
+    {
+      "enum": [
+        7,
+        "vavWcsPrmyHtgSuppHtgBoxHtg"
+      ],
+      "description": "Prmy Htg + Supp Htg + Box Htg"
+    },
+    {
+      "enum": [
+        8,
+        "vavWcsPrmyHtgBoxHtg"
+      ],
+      "description": "Prmy Htg + Box Htg"
+    },
+    {
+      "enum": [
+        9,
+        "vavWcsPrmyHtgBoxHtgSuppHtg"
+      ],
+      "description": "Prmy Htg + Box Htg + Supp Htg"
+    },
+    {
+      "enum": [
+        10,
+        "vavWcsCoast"
+      ],
+      "description": "Coast"
+    }
+  ]
+}

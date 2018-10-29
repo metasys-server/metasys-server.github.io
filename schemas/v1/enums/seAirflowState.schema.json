@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seAirflowState.schema.json",
+  "title": "seAirflowState",
+  "description": "SE Airflow State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuLossOfAirflowNormalOff"
+      ],
+      "description": "Normal Off"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuLossOfAirflowStartup"
+      ],
+      "description": "Startup"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuLossOfAirflowNormalOn"
+      ],
+      "description": "Normal On"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuLossOfAirflowProofLostOk"
+      ],
+      "description": "Proof Lost OK"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuLossOfAirflowProofLostFault"
+      ],
+      "description": "Proof Lost Fault"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuLossOfAirflowFalseProofOff"
+      ],
+      "description": "False Proof Off"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuLossOfAirflowFalseProofFault"
+      ],
+      "description": "False Proof Fault"
+    }
+  ]
+}

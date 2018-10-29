@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconPromptStringsEnumSet.schema.json",
+  "title": "seEconPromptStringsEnumSet",
+  "description": "SE ECON Prompt Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconPromptStringsNoPrompt"
+      ],
+      "description": "No Prompt"
+    },
+    {
+      "enum": [
+        1,
+        "seEconPromptStringsAlarmActive"
+      ],
+      "description": "Alarm Active"
+    },
+    {
+      "enum": [
+        2,
+        "seEconPromptStringsExFanRunning"
+      ],
+      "description": "Ex Fan Running"
+    },
+    {
+      "enum": [
+        3,
+        "seEconPromptStringsErvPivoted"
+      ],
+      "description": "ERV Pivoted"
+    },
+    {
+      "enum": [
+        4,
+        "seEconPromptStringsExVfdRunning"
+      ],
+      "description": "Ex VFD Running"
+    },
+    {
+      "enum": [
+        5,
+        "seEconPromptStringsFreshAirFlow"
+      ],
+      "description": "Fresh Air Flow"
+    },
+    {
+      "enum": [
+        6,
+        "seEconPromptStringsRtuTestDone"
+      ],
+      "description": "RTU Test Done"
+    },
+    {
+      "enum": [
+        7,
+        "seEconPromptStringsRadClosed"
+      ],
+      "description": "RAD Closed"
+    },
+    {
+      "enum": [
+        8,
+        "seEconPromptStringsIntegratedEcon"
+      ],
+      "description": "Integrated Econ"
+    },
+    {
+      "enum": [
+        9,
+        "seEconPromptStringsDisconnectOat"
+      ],
+      "description": "Disconnect OAT"
+    },
+    {
+      "enum": [
+        10,
+        "seEconPromptStringsFaultsPresent"
+      ],
+      "description": "Faults Present"
+    },
+    {
+      "enum": [
+        11,
+        "seEconPromptStringsReconnectOat"
+      ],
+      "description": "Reconnect OAT"
+    },
+    {
+      "enum": [
+        12,
+        "seEconPromptStringsFaultsCleared"
+      ],
+      "description": "Faults Cleared"
+    }
+  ]
+}

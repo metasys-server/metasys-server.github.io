@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/autoHeatingCoolingDryFanEnumSet.schema.json",
+  "title": "autoHeatingCoolingDryFanEnumSet",
+  "description": "Auto/Heating/Cooling/Dry/Fan",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "autoHeatingCoolingDryFanAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "autoHeatingCoolingDryFanHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        2,
+        "autoHeatingCoolingDryFanCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        3,
+        "autoHeatingCoolingDryFanDry"
+      ],
+      "description": "Dry"
+    },
+    {
+      "enum": [
+        4,
+        "autoHeatingCoolingDryFanFan"
+      ],
+      "description": "Fan"
+    }
+  ]
+}

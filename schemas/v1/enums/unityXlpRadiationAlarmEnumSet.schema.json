@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlpRadiationAlarmEnumSet.schema.json",
+  "title": "unityXlpRadiationAlarmEnumSet",
+  "description": "Unity XLP Radiation Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "RAD"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "RAD1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "RAD2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "RAD3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, RAD"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "FIXED, RAD1"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "FIXED, RAD2"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "FIXED, RAD3"
+    }
+  ]
+}

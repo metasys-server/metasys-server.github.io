@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtExControlEnumSet.schema.json",
+  "title": "snvtExControlEnumSet",
+  "description": "SNVT Ex Control Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "exControlNone"
+      ],
+      "description": "No Control"
+    },
+    {
+      "enum": [
+        1,
+        "exControlOther"
+      ],
+      "description": "Other Control"
+    },
+    {
+      "enum": [
+        2,
+        "exControlThisAddr"
+      ],
+      "description": "Device Control"
+    },
+    {
+      "enum": [
+        255,
+        "exControlNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

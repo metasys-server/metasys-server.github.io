@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/accessGrantDetailEnumSet.schema.json",
+  "title": "accessGrantDetailEnumSet",
+  "description": "Access Grant Detail",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "accessGrantDetailNA"
+      ],
+      "description": "N/A"
+    },
+    {
+      "enum": [
+        1,
+        "accessGrantDetailByAccessGroup"
+      ],
+      "description": "By Access Group"
+    },
+    {
+      "enum": [
+        2,
+        "accessGrantDetailByAccessLevel"
+      ],
+      "description": "By Access Level"
+    },
+    {
+      "enum": [
+        3,
+        "accessGrantDetailByAccessLevelAndGroup"
+      ],
+      "description": "By Access Level and Group"
+    },
+    {
+      "enum": [
+        4,
+        "accessGrantDetailByAccessMask"
+      ],
+      "description": "By Access Mask"
+    },
+    {
+      "enum": [
+        5,
+        "accessGrantDetailByAccessMaskAndGroup"
+      ],
+      "description": "By Access Mask and Group"
+    },
+    {
+      "enum": [
+        6,
+        "accessGrantDetailByAccessMaskAndLevel"
+      ],
+      "description": "By Access Mask and Level"
+    },
+    {
+      "enum": [
+        7,
+        "accessGrantDetailByAccessMaskLevelAndGroup"
+      ],
+      "description": "By Access Mask, Level and Group"
+    },
+    {
+      "enum": [
+        8,
+        "accessGrantDetailByExecutivePrivilege"
+      ],
+      "description": "By Executive Privilege"
+    },
+    {
+      "enum": [
+        9,
+        "accessGrantDetailBySecurityLevelAndMask"
+      ],
+      "description": "By Security Level and Mask"
+    }
+  ]
+}

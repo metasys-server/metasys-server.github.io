@@ -1,0 +1,1282 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timeZoneEnumSet.schema.json",
+  "title": "timeZoneEnumSet",
+  "description": "Time Zone",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "greenwichTime"
+      ],
+      "description": "(UTC+00:00) Monrovia, Reykjavik"
+    },
+    {
+      "enum": [
+        2,
+        "gmtTime"
+      ],
+      "description": "(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London"
+    },
+    {
+      "enum": [
+        3,
+        "wEuropeTime"
+      ],
+      "description": "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+    },
+    {
+      "enum": [
+        4,
+        "centralEuropeTime"
+      ],
+      "description": "(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague"
+    },
+    {
+      "enum": [
+        5,
+        "romanceTime"
+      ],
+      "description": "(UTC+01:00) Brussels, Copenhagen, Madrid, Paris"
+    },
+    {
+      "enum": [
+        6,
+        "centralEuropeanTime"
+      ],
+      "description": "(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb"
+    },
+    {
+      "enum": [
+        7,
+        "wCentralAfricaTime"
+      ],
+      "description": "(UTC+01:00) West Central Africa"
+    },
+    {
+      "enum": [
+        8,
+        "gtbTime"
+      ],
+      "description": "(UTC+02:00) Athens, Bucharest"
+    },
+    {
+      "enum": [
+        9,
+        "eEuropeTime"
+      ],
+      "description": "(UTC+02:00) Chisinau"
+    },
+    {
+      "enum": [
+        10,
+        "egyptTime"
+      ],
+      "description": "(UTC+02:00) Cairo"
+    },
+    {
+      "enum": [
+        11,
+        "southAfricaTime"
+      ],
+      "description": "(UTC+02:00) Harare, Pretoria"
+    },
+    {
+      "enum": [
+        12,
+        "fleTime"
+      ],
+      "description": "(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
+    },
+    {
+      "enum": [
+        13,
+        "israelTime"
+      ],
+      "description": "(UTC+02:00) Jerusalem"
+    },
+    {
+      "enum": [
+        14,
+        "arabicTime"
+      ],
+      "description": "(UTC+03:00) Baghdad"
+    },
+    {
+      "enum": [
+        15,
+        "arabTime"
+      ],
+      "description": "(UTC+03:00) Kuwait, Riyadh"
+    },
+    {
+      "enum": [
+        16,
+        "russiaTz2Time"
+      ],
+      "description": "(UTC+03:00) Moscow, St. Petersburg, Volgograd (RTZ 2)"
+    },
+    {
+      "enum": [
+        17,
+        "eAfricaTime"
+      ],
+      "description": "(UTC+03:00) Nairobi"
+    },
+    {
+      "enum": [
+        18,
+        "iranTime"
+      ],
+      "description": "(UTC+03:30) Tehran"
+    },
+    {
+      "enum": [
+        19,
+        "arabianTime"
+      ],
+      "description": "(UTC+04:00) Abu Dhabi, Muscat"
+    },
+    {
+      "enum": [
+        20,
+        "caucasusTime"
+      ],
+      "description": "(UTC+04:00) Yerevan"
+    },
+    {
+      "enum": [
+        21,
+        "afghanistanTime"
+      ],
+      "description": "(UTC+04:30) Kabul"
+    },
+    {
+      "enum": [
+        22,
+        "russiaTz4Time"
+      ],
+      "description": "(UTC+05:00) Ekaterinburg (RTZ 4)"
+    },
+    {
+      "enum": [
+        23,
+        "westAsiaTime"
+      ],
+      "description": "(UTC+05:00) Ashgabat, Tashkent"
+    },
+    {
+      "enum": [
+        24,
+        "indiaTime"
+      ],
+      "description": "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi"
+    },
+    {
+      "enum": [
+        25,
+        "nepalTime"
+      ],
+      "description": "(UTC+05:45) Kathmandu"
+    },
+    {
+      "enum": [
+        26,
+        "russiaTz5Time"
+      ],
+      "description": "(UTC+06:00) Novosibirsk (RTZ 5)"
+    },
+    {
+      "enum": [
+        27,
+        "centralAsiaTime"
+      ],
+      "description": "(UTC+06:00) Astana"
+    },
+    {
+      "enum": [
+        28,
+        "sriLankaTime"
+      ],
+      "description": "(UTC+05:30) Sri Jayawardenepura"
+    },
+    {
+      "enum": [
+        29,
+        "myanmarTime"
+      ],
+      "description": "(UTC+06:30) Yangon (Rangoon)"
+    },
+    {
+      "enum": [
+        30,
+        "seAsiaTime"
+      ],
+      "description": "(UTC+07:00) Bangkok, Hanoi, Jakarta"
+    },
+    {
+      "enum": [
+        31,
+        "russiaTz6Time"
+      ],
+      "description": "(UTC+07:00) Krasnoyarsk (RTZ 6)"
+    },
+    {
+      "enum": [
+        32,
+        "chinaTime"
+      ],
+      "description": "(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi"
+    },
+    {
+      "enum": [
+        33,
+        "russiaTz7Time"
+      ],
+      "description": "(UTC+08:00) Irkutsk (RTZ 7)"
+    },
+    {
+      "enum": [
+        34,
+        "singaporeTime"
+      ],
+      "description": "(UTC+08:00) Kuala Lumpur, Singapore"
+    },
+    {
+      "enum": [
+        35,
+        "wAustraliaTime"
+      ],
+      "description": "(UTC+08:00) Perth"
+    },
+    {
+      "enum": [
+        36,
+        "taipeiTime"
+      ],
+      "description": "(UTC+08:00) Taipei"
+    },
+    {
+      "enum": [
+        37,
+        "tokyoTime"
+      ],
+      "description": "(UTC+09:00) Osaka, Sapporo, Tokyo"
+    },
+    {
+      "enum": [
+        38,
+        "koreaTime"
+      ],
+      "description": "(UTC+09:00) Seoul"
+    },
+    {
+      "enum": [
+        39,
+        "russiaTz8Time"
+      ],
+      "description": "(UTC+09:00) Yakutsk (RTZ 8)"
+    },
+    {
+      "enum": [
+        40,
+        "cenAustraliaTime"
+      ],
+      "description": "(UTC+09:30) Adelaide"
+    },
+    {
+      "enum": [
+        41,
+        "ausCentralTime"
+      ],
+      "description": "(UTC+09:30) Darwin"
+    },
+    {
+      "enum": [
+        42,
+        "eAustraliaTime"
+      ],
+      "description": "(UTC+10:00) Brisbane"
+    },
+    {
+      "enum": [
+        43,
+        "ausEasternTime"
+      ],
+      "description": "(UTC+10:00) Canberra, Melbourne, Sydney"
+    },
+    {
+      "enum": [
+        44,
+        "westPacificTime"
+      ],
+      "description": "(UTC+10:00) Guam, Port Moresby"
+    },
+    {
+      "enum": [
+        45,
+        "tasmaniaTime"
+      ],
+      "description": "(UTC+10:00) Hobart"
+    },
+    {
+      "enum": [
+        46,
+        "russiaTz9Time"
+      ],
+      "description": "(UTC+10:00) Vladivostok"
+    },
+    {
+      "enum": [
+        47,
+        "centralPacificTime"
+      ],
+      "description": "(UTC+12:00) Solomon Is., New Caledonia"
+    },
+    {
+      "enum": [
+        48,
+        "newZealandTime"
+      ],
+      "description": "(UTC+12:00) Auckland, Wellington"
+    },
+    {
+      "enum": [
+        49,
+        "fijiTime"
+      ],
+      "description": "(UTC+12:00) Fiji"
+    },
+    {
+      "enum": [
+        50,
+        "tongaTime"
+      ],
+      "description": "(UTC+13:00) Nuku'alofa"
+    },
+    {
+      "enum": [
+        51,
+        "easternTime"
+      ],
+      "description": "(UTC-05:00) Eastern Time (US & Canada)"
+    },
+    {
+      "enum": [
+        52,
+        "caboVerdeTime"
+      ],
+      "description": "(UTC-01:00) Cabo Verde Islands"
+    },
+    {
+      "enum": [
+        53,
+        "centralTime"
+      ],
+      "description": "(UTC-06:00) Central Time (US & Canada)"
+    },
+    {
+      "enum": [
+        54,
+        "eSouthAmericaTime"
+      ],
+      "description": "(UTC-03:00) Brasilia"
+    },
+    {
+      "enum": [
+        55,
+        "saEasternTime"
+      ],
+      "description": "(UTC-03:00) Cayenne, Fortaleza"
+    },
+    {
+      "enum": [
+        56,
+        "greenlandTime"
+      ],
+      "description": "(UTC-03:00) Greenland"
+    },
+    {
+      "enum": [
+        57,
+        "mountainTime"
+      ],
+      "description": "(UTC-07:00) Mountain Time (US & Canada)"
+    },
+    {
+      "enum": [
+        58,
+        "pacificTime"
+      ],
+      "description": "(UTC-08:00) Pacific Time (US & Canada)"
+    },
+    {
+      "enum": [
+        59,
+        "saWesternTime"
+      ],
+      "description": "(UTC-04:00) Georgetown,La Paz, Manaus, San Juan"
+    },
+    {
+      "enum": [
+        60,
+        "pacificSaTime"
+      ],
+      "description": "(UTC-04:00) Santiago"
+    },
+    {
+      "enum": [
+        61,
+        "saPacificTime"
+      ],
+      "description": "(UTC-05:00) Bogota, Lima, Quito"
+    },
+    {
+      "enum": [
+        62,
+        "azoresTime"
+      ],
+      "description": "(UTC-01:00) Azores"
+    },
+    {
+      "enum": [
+        64,
+        "centralAmericaTime"
+      ],
+      "description": "(UTC-06:00) Central America"
+    },
+    {
+      "enum": [
+        65,
+        "midAtlanticTime"
+      ],
+      "description": "(UTC-02:00) Mid-Atlantic - Old"
+    },
+    {
+      "enum": [
+        66,
+        "mexicoTime"
+      ],
+      "description": "(UTC-06:00) Mexico City"
+    },
+    {
+      "enum": [
+        67,
+        "canadaCentralTime"
+      ],
+      "description": "(UTC-06:00) Saskatchewan"
+    },
+    {
+      "enum": [
+        68,
+        "usMountainTime"
+      ],
+      "description": "(UTC-07:00) Arizona"
+    },
+    {
+      "enum": [
+        69,
+        "newfoundlandTime"
+      ],
+      "description": "(UTC-03:30) Newfoundland"
+    },
+    {
+      "enum": [
+        70,
+        "atlanticTime"
+      ],
+      "description": "(UTC-04:00) Atlantic Time (Canada)"
+    },
+    {
+      "enum": [
+        71,
+        "alaskanTime"
+      ],
+      "description": "(UTC-09:00) Alaska"
+    },
+    {
+      "enum": [
+        72,
+        "hawaiianTime"
+      ],
+      "description": "(UTC-10:00) Hawaii"
+    },
+    {
+      "enum": [
+        73,
+        "samoaTime"
+      ],
+      "description": "(UTC+13:00) Samoa"
+    },
+    {
+      "enum": [
+        74,
+        "datelineTime"
+      ],
+      "description": "(UTC-12:00) International Date Line West"
+    },
+    {
+      "enum": [
+        75,
+        "mexico2Time"
+      ],
+      "description": "(UTC-07:00) Chihuahua, La Paz, Mazatlan"
+    },
+    {
+      "enum": [
+        76,
+        "azerbaijanTime"
+      ],
+      "description": "(UTC+04:00) Baku"
+    },
+    {
+      "enum": [
+        77,
+        "centralBrazilianTime"
+      ],
+      "description": "(UTC-04:00) Cuiaba"
+    },
+    {
+      "enum": [
+        78,
+        "centralMexicoTime"
+      ],
+      "description": "(UTC-06:00) Central Time (Mexico)"
+    },
+    {
+      "enum": [
+        79,
+        "georgianTime"
+      ],
+      "description": "(UTC+04:00) Tbilisi"
+    },
+    {
+      "enum": [
+        80,
+        "mountainMexicoTime"
+      ],
+      "description": "(UTC-07:00) Mountain Time (Mexico)"
+    },
+    {
+      "enum": [
+        81,
+        "namibiaTime"
+      ],
+      "description": "(UTC+01:00) Windhoek"
+    },
+    {
+      "enum": [
+        82,
+        "pacificMexicoTime"
+      ],
+      "description": "(UTC-08:00) Baja California"
+    },
+    {
+      "enum": [
+        83,
+        "jordanTime"
+      ],
+      "description": "(UTC+03:00) Amman"
+    },
+    {
+      "enum": [
+        84,
+        "middleEastTime"
+      ],
+      "description": "(UTC+02:00) Beirut"
+    },
+    {
+      "enum": [
+        86,
+        "montevideoTime"
+      ],
+      "description": "(UTC-03:00) Montevideo"
+    },
+    {
+      "enum": [
+        88,
+        "venezuelaTime"
+      ],
+      "description": "(UTC-04:00) Caracas"
+    },
+    {
+      "enum": [
+        89,
+        "argentinaTime"
+      ],
+      "description": "(UTC-03:00) Buenos Aires"
+    },
+    {
+      "enum": [
+        90,
+        "mauritiusTime"
+      ],
+      "description": "(UTC+04:00) Port Louis"
+    },
+    {
+      "enum": [
+        91,
+        "moroccoTime"
+      ],
+      "description": "(UTC+00:00) Casablanca"
+    },
+    {
+      "enum": [
+        92,
+        "pakistanTime"
+      ],
+      "description": "(UTC+05:00) Islamabad, Karachi"
+    },
+    {
+      "enum": [
+        93,
+        "paraguayTime"
+      ],
+      "description": "(UTC-04:00) Asuncion"
+    },
+    {
+      "enum": [
+        94,
+        "kamchatkaTime"
+      ],
+      "description": "(UTC+12:00) Petropavlovsk-Kamchatsky"
+    },
+    {
+      "enum": [
+        95,
+        "utcTime"
+      ],
+      "description": "(UTC) Coordinated Universal Time"
+    },
+    {
+      "enum": [
+        96,
+        "ulaanbaatarTime"
+      ],
+      "description": "(UTC+08:00) Ulaanbaatar"
+    },
+    {
+      "enum": [
+        97,
+        "bangladeshTime"
+      ],
+      "description": "(UTC+06:00) Dhaka"
+    },
+    {
+      "enum": [
+        98,
+        "utcPlus12Time"
+      ],
+      "description": "(UTC+12:00) Coordinated Universal Time+12"
+    },
+    {
+      "enum": [
+        99,
+        "utcMinus11Time"
+      ],
+      "description": "(UTC-11:00) Coordinated Universal Time -11"
+    },
+    {
+      "enum": [
+        100,
+        "utcMinus2Time"
+      ],
+      "description": "(UTC-02:00) Coordinated Universal Time -02"
+    },
+    {
+      "enum": [
+        101,
+        "syriaTime"
+      ],
+      "description": "(UTC+02:00) Damascus"
+    },
+    {
+      "enum": [
+        103,
+        "turkeyTime"
+      ],
+      "description": "(UTC+02:00) Istanbul"
+    },
+    {
+      "enum": [
+        104,
+        "russiaTz1Time"
+      ],
+      "description": "(UTC+02:00) Kaliningrad (RTZ 1)"
+    },
+    {
+      "enum": [
+        105,
+        "bahiaTime"
+      ],
+      "description": "(UTC-03:00) Salvador"
+    },
+    {
+      "enum": [
+        106,
+        "usEasternTime"
+      ],
+      "description": "(UTC-05:00) Indiana (East)"
+    },
+    {
+      "enum": [
+        107,
+        "libyaTime"
+      ],
+      "description": "(UTC+02:00) Tripoli"
+    },
+    {
+      "enum": [
+        108,
+        "russiaTz3Time"
+      ],
+      "description": "(UTC+04:00) Izhevsk, Samara (RTZ 3)"
+    },
+    {
+      "enum": [
+        109,
+        "russiaTz10Time"
+      ],
+      "description": "(UTC+11:00) Chokurdakh (RTZ 10)"
+    },
+    {
+      "enum": [
+        110,
+        "russiaTz11Time"
+      ],
+      "description": "(UTC+12:00) Anadyr, Pepropavlovsk-Kamchatsky (RTZ 11)"
+    },
+    {
+      "enum": [
+        111,
+        "belarusTime"
+      ],
+      "description": "(UTC+03:00) Minsk"
+    },
+    {
+      "enum": [
+        112,
+        "easternMexicoTime"
+      ],
+      "description": "(UTC-05:00) Chetumal"
+    },
+    {
+      "enum": [
+        113,
+        "northKoreaStandardTime"
+      ],
+      "description": "(UTC+08:30) Pyongyang"
+    },
+    {
+      "enum": [
+        114,
+        "aleutianTime"
+      ],
+      "description": "(UTC-10:00) Aleutian Islands"
+    },
+    {
+      "enum": [
+        115,
+        "marquesasStandardTime"
+      ],
+      "description": "(UTC-09:30) Marquesas Islands"
+    },
+    {
+      "enum": [
+        116,
+        "utcMinus09Time"
+      ],
+      "description": "(UTC-09:00) Coordinated Universal Time-09"
+    },
+    {
+      "enum": [
+        117,
+        "utcMinus08Time"
+      ],
+      "description": "(UTC-08:00) Coordinated Universal Time-08"
+    },
+    {
+      "enum": [
+        118,
+        "cubaTime"
+      ],
+      "description": "(UTC-05:00) Havana"
+    },
+    {
+      "enum": [
+        119,
+        "turksCaicosStandardTime"
+      ],
+      "description": "(UTC-04:00) Turks and Caicos"
+    },
+    {
+      "enum": [
+        120,
+        "saintPierreTime"
+      ],
+      "description": "(UTC-03:00) Saint Pierre and Miquelon"
+    },
+    {
+      "enum": [
+        121,
+        "tocantinsStandardTime"
+      ],
+      "description": "(UTC-03:00) Araguaina"
+    },
+    {
+      "enum": [
+        122,
+        "westBankTime"
+      ],
+      "description": "(UTC+02:00) Gaza,Hebron"
+    },
+    {
+      "enum": [
+        123,
+        "wMongoliaTime"
+      ],
+      "description": "(UTC+07:00) Hovd"
+    },
+    {
+      "enum": [
+        124,
+        "tomskKoreaStandardTime"
+      ],
+      "description": "(UTC+07:00) Tomsk"
+    },
+    {
+      "enum": [
+        125,
+        "australiaCentralWStandardTime"
+      ],
+      "description": "(UTC+08:45) Eucla"
+    },
+    {
+      "enum": [
+        126,
+        "lordHoweTime"
+      ],
+      "description": "(UTC+10:30) Lord Howe Island"
+    },
+    {
+      "enum": [
+        127,
+        "bougainvilleStandardTime"
+      ],
+      "description": "(UTC+11:00) Bougainville Island"
+    },
+    {
+      "enum": [
+        128,
+        "norfolkStandardTime"
+      ],
+      "description": "(UTC+11:00) Norfolk Island"
+    },
+    {
+      "enum": [
+        129,
+        "chathamIslandsTime"
+      ],
+      "description": "(UTC+12:45) Chatham Islands"
+    },
+    {
+      "enum": [
+        130,
+        "haitiStandardTime"
+      ],
+      "description": "(UTC-05:00) Haiti"
+    },
+    {
+      "enum": [
+        131,
+        "easterIslandTime"
+      ],
+      "description": "(UTC-06:00) Easter Island"
+    },
+    {
+      "enum": [
+        132,
+        "magadanTime"
+      ],
+      "description": "(UTC+11:00) Magadan"
+    },
+    {
+      "enum": [
+        1002,
+        "gmtTimeNoDst"
+      ],
+      "description": "(UTC+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London (No DST)"
+    },
+    {
+      "enum": [
+        1003,
+        "wEuropeTimeNoDst"
+      ],
+      "description": "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna (No DST)"
+    },
+    {
+      "enum": [
+        1004,
+        "centralEuropeTimeNoDst"
+      ],
+      "description": "(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague (No DST)"
+    },
+    {
+      "enum": [
+        1005,
+        "romanceTimeNoDst"
+      ],
+      "description": "(UTC+01:00) Brussels, Copenhagen, Madrid, Paris (No DST)"
+    },
+    {
+      "enum": [
+        1006,
+        "centralEuropeanTimeNoDst"
+      ],
+      "description": "(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb (No DST)"
+    },
+    {
+      "enum": [
+        1008,
+        "gtbTimeNoDst"
+      ],
+      "description": "(UTC+02:00) Athens, Bucharest (No DST)"
+    },
+    {
+      "enum": [
+        1009,
+        "eEuropeTimeNoDst"
+      ],
+      "description": "(UTC+02:00) Chisinau (No DST)"
+    },
+    {
+      "enum": [
+        1012,
+        "fleTimeNoDst"
+      ],
+      "description": "(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius (No DST)"
+    },
+    {
+      "enum": [
+        1013,
+        "israelTimeNoDst"
+      ],
+      "description": "(UTC+02:00) Jerusalem (No DST)"
+    },
+    {
+      "enum": [
+        1018,
+        "iranTimeNoDst"
+      ],
+      "description": "(UTC+03:30) Tehran (No DST)"
+    },
+    {
+      "enum": [
+        1040,
+        "cenAustraliaTimeNoDst"
+      ],
+      "description": "(UTC+09:30) Adelaide (No DST)"
+    },
+    {
+      "enum": [
+        1043,
+        "ausEasternTimeNoDst"
+      ],
+      "description": "(UTC+10:00) Canberra, Melbourne, Sydney (No DST)"
+    },
+    {
+      "enum": [
+        1045,
+        "tasmaniaTimeNoDst"
+      ],
+      "description": "(UTC+10:00) Hobart (No DST)"
+    },
+    {
+      "enum": [
+        1048,
+        "newZealandTimeNoDst"
+      ],
+      "description": "(UTC+12:00) Auckland, Wellington (No DST)"
+    },
+    {
+      "enum": [
+        1049,
+        "fijiTimeNoDst"
+      ],
+      "description": "(UTC+12:00) Fiji (No DST)"
+    },
+    {
+      "enum": [
+        1051,
+        "easternTimeNoDst"
+      ],
+      "description": "(UTC-05:00) Eastern Time (US & Canada) (No DST)"
+    },
+    {
+      "enum": [
+        1053,
+        "centralTimeNoDst"
+      ],
+      "description": "(UTC-06:00) Central Time (US & Canada) (No DST)"
+    },
+    {
+      "enum": [
+        1054,
+        "eSouthAmericaTimeNoDst"
+      ],
+      "description": "(UTC-03:00) Brasilia (No DST)"
+    },
+    {
+      "enum": [
+        1056,
+        "greenlandTimeNoDst"
+      ],
+      "description": "(UTC-03:00) Greenland (No DST)"
+    },
+    {
+      "enum": [
+        1057,
+        "mountainTimeNoDst"
+      ],
+      "description": "(UTC-07:00) Mountain Time (US & Canada) (No DST)"
+    },
+    {
+      "enum": [
+        1058,
+        "pacificTimeNoDst"
+      ],
+      "description": "(UTC-08:00) Pacific Time (US & Canada) (No DST)"
+    },
+    {
+      "enum": [
+        1060,
+        "pacificSaTimeNoDst"
+      ],
+      "description": "(UTC-04:00) Santiago (No DST)"
+    },
+    {
+      "enum": [
+        1062,
+        "azoresTimeNoDst"
+      ],
+      "description": "(UTC-01:00) Azores (No DST)"
+    },
+    {
+      "enum": [
+        1065,
+        "midAtlanticTimeNoDst"
+      ],
+      "description": "(UTC-02:00) Mid-Atlantic - Old (No DST)"
+    },
+    {
+      "enum": [
+        1066,
+        "mexicoTimeNoDst"
+      ],
+      "description": "(UTC-06:00) Mexico City (No DST)"
+    },
+    {
+      "enum": [
+        1069,
+        "newfoundlandTimeNoDst"
+      ],
+      "description": "(UTC-03:30) Newfoundland (No DST)"
+    },
+    {
+      "enum": [
+        1070,
+        "atlanticTimeNoDst"
+      ],
+      "description": "(UTC-04:00) Atlantic Time (Canada) (No DST)"
+    },
+    {
+      "enum": [
+        1071,
+        "alaskanTimeNoDst"
+      ],
+      "description": "(UTC-09:00) Alaska (No DST)"
+    },
+    {
+      "enum": [
+        1073,
+        "samoaTimeNoDst"
+      ],
+      "description": "(UTC+13:00) Samoa (No DST)"
+    },
+    {
+      "enum": [
+        1075,
+        "mexico2TimeNoDst"
+      ],
+      "description": "(UTC-07:00) Chihuahua, La Paz, Mazatlan (No DST)"
+    },
+    {
+      "enum": [
+        1076,
+        "azerbaijanTimeNoDst"
+      ],
+      "description": "(UTC+04:00) Baku (No DST) [Deprecated]"
+    },
+    {
+      "enum": [
+        1077,
+        "centralBrazilianTimeNoDst"
+      ],
+      "description": "(UTC-04:00) Cuiaba (No DST)"
+    },
+    {
+      "enum": [
+        1078,
+        "centralMexicoTimeNoDst"
+      ],
+      "description": "(UTC-06:00) Central Time (Mexico) (No DST)"
+    },
+    {
+      "enum": [
+        1080,
+        "mountainMexicoTimeNoDst"
+      ],
+      "description": "(UTC-07:00) Mountain Time (Mexico) (No DST)"
+    },
+    {
+      "enum": [
+        1081,
+        "namibiaTimeNoDst"
+      ],
+      "description": "(UTC+01:00) Windhoek (No DST)"
+    },
+    {
+      "enum": [
+        1082,
+        "pacificMexicoTimeNoDst"
+      ],
+      "description": "(UTC-08:00) Baja California (No DST)"
+    },
+    {
+      "enum": [
+        1083,
+        "jordanTimeNoDst"
+      ],
+      "description": "(UTC+03:00) Amman (No DST)"
+    },
+    {
+      "enum": [
+        1084,
+        "middleEastTimeNoDst"
+      ],
+      "description": "(UTC+02:00) Beirut (No DST)"
+    },
+    {
+      "enum": [
+        1086,
+        "montevideoTimeNoDst"
+      ],
+      "description": "(UTC-03:00) Montevideo (No DST) [Deprecated]"
+    },
+    {
+      "enum": [
+        1091,
+        "moroccoTimeNoDst"
+      ],
+      "description": "(UTC+00:00) Casablanca (No DST)"
+    },
+    {
+      "enum": [
+        1093,
+        "paraguayTimeNoDst"
+      ],
+      "description": "(UTC-04:00) Asuncion (No DST)"
+    },
+    {
+      "enum": [
+        1094,
+        "kamchatkaTimeNoDst"
+      ],
+      "description": "(UTC+12:00) Petropavlovsk-Kamchatsky (No DST)"
+    },
+    {
+      "enum": [
+        1096,
+        "ulaanbaatarTimeNoDst"
+      ],
+      "description": "(UTC+08:00) Ulaanbaatar (No DST)"
+    },
+    {
+      "enum": [
+        1101,
+        "syriaTimeNoDst"
+      ],
+      "description": "(UTC+02:00) Damascus (No DST)"
+    },
+    {
+      "enum": [
+        1103,
+        "turkeyTimeNoDst"
+      ],
+      "description": "(UTC+02:00) Istanbul (No DST)"
+    },
+    {
+      "enum": [
+        1106,
+        "usEasternTimeNoDst"
+      ],
+      "description": "(UTC-05:00) Indiana (East) (No DST)"
+    },
+    {
+      "enum": [
+        1114,
+        "aleutianTimeNoDst"
+      ],
+      "description": "(UTC-10:00) Aleutian Islands (No DST)"
+    },
+    {
+      "enum": [
+        1118,
+        "cubaTimeNoDst"
+      ],
+      "description": "(UTC-05:00) Havana (No DST)"
+    },
+    {
+      "enum": [
+        1120,
+        "saintPierreTimeNoDst"
+      ],
+      "description": "(UTC-03:00) Saint Pierre and Miquelon (No DST)"
+    },
+    {
+      "enum": [
+        1122,
+        "westBankTimeNoDst"
+      ],
+      "description": "(UTC+02:00) Gaza,Hebron (No DST)"
+    },
+    {
+      "enum": [
+        1123,
+        "wMongoliaTimeNoDst"
+      ],
+      "description": "(UTC+07:00) Hovd (No DST)"
+    },
+    {
+      "enum": [
+        1126,
+        "lordHoweTimeNoDst"
+      ],
+      "description": "(UTC+10:30) Lord Howe Island (No DST)"
+    },
+    {
+      "enum": [
+        1129,
+        "chathamIslandsTimeNoDst"
+      ],
+      "description": "(UTC+12:45) Chatham Islands (No DST)"
+    },
+    {
+      "enum": [
+        1131,
+        "easterIslandTimeNoDst"
+      ],
+      "description": "(UTC-06:00) Easter Island (No DST)"
+    }
+  ]
+}

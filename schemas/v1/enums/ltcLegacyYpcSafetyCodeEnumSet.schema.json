@@ -1,0 +1,316 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYpcSafetyCodeEnumSet.schema.json",
+  "title": "ltcLegacyYpcSafetyCodeEnumSet",
+  "description": "York LTC Legacy YPC Safety Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYpcSafetyCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYpcSafetyCode1"
+      ],
+      "description": "SOLUTION PUMP FAULT"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYpcSafetyCode2"
+      ],
+      "description": "REFRIGERANT PUMP FAULT"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYpcSafetyCode3"
+      ],
+      "description": "GEN HI PRESSURE-DIGITAL"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYpcSafetyCode4"
+      ],
+      "description": "GEN HI TEMP-DIGITAL"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYpcSafetyCode5"
+      ],
+      "description": "AUXILIARY"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYpcSafetyCode6"
+      ],
+      "description": "POWER FAIL-MAN RESTART"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYpcSafetyCode7"
+      ],
+      "description": "LOW SOLUTION LEVEL"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYpcSafetyCode8"
+      ],
+      "description": "LOW REFRIGERANT TEMP-DIGITAL"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYpcSafetyCode9"
+      ],
+      "description": "CHILLED WATER FLOW FAULT"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYpcSafetyCode10"
+      ],
+      "description": "BURNER ALARM FAULT"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYpcSafetyCode11"
+      ],
+      "description": "BURNER MANUAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYpcSafetyCode12"
+      ],
+      "description": "LOW SOL'N LVL @ POWER FAIL"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYpcSafetyCode13"
+      ],
+      "description": "LOW SOL'N LVL @ COND FLOW FAIL"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYpcSafetyCode14"
+      ],
+      "description": "LOW REFRIGERANT TEMP-ANALOG"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYpcSafetyCode15"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYpcSafetyCode16"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYpcSafetyCode17"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYpcSafetyCode18"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYpcSafetyCode19"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYpcSafetyCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYpcSafetyCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYpcSafetyCode22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYpcSafetyCode23"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYpcSafetyCode24"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYpcSafetyCode25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYpcSafetyCode26"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ltcLegacyYpcSafetyCode27"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ltcLegacyYpcSafetyCode28"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ltcLegacyYpcSafetyCode29"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ltcLegacyYpcSafetyCode30"
+      ],
+      "description": "COND WATER FLOW LOST"
+    },
+    {
+      "enum": [
+        31,
+        "ltcLegacyYpcSafetyCode31"
+      ],
+      "description": "GEN HIGH PRESS-ANALOG"
+    },
+    {
+      "enum": [
+        32,
+        "ltcLegacyYpcSafetyCode32"
+      ],
+      "description": "GEN HIGH TEMP-ANALOG"
+    },
+    {
+      "enum": [
+        33,
+        "ltcLegacyYpcSafetyCode33"
+      ],
+      "description": "SOL'N LVL/REFRIG SOL'N OL'S"
+    },
+    {
+      "enum": [
+        34,
+        "ltcLegacyYpcSafetyCode34"
+      ],
+      "description": "SOL'N LVL/LOW REFRIG TEMP"
+    },
+    {
+      "enum": [
+        35,
+        "ltcLegacyYpcSafetyCode35"
+      ],
+      "description": "SOL'N LVL/CW FLOW SW FAULT"
+    },
+    {
+      "enum": [
+        36,
+        "ltcLegacyYpcSafetyCode36"
+      ],
+      "description": "RESERVED 36"
+    },
+    {
+      "enum": [
+        37,
+        "ltcLegacyYpcSafetyCode37"
+      ],
+      "description": "HIGH CONCENTRATION FAULT"
+    },
+    {
+      "enum": [
+        38,
+        "ltcLegacyYpcSafetyCode38"
+      ],
+      "description": "RESERVED 38"
+    },
+    {
+      "enum": [
+        39,
+        "ltcLegacyYpcSafetyCode39"
+      ],
+      "description": "RESERVED 39"
+    },
+    {
+      "enum": [
+        40,
+        "ltcLegacyYpcSafetyCode40"
+      ],
+      "description": "SOL'N LVL/LIMITED DILUTION"
+    },
+    {
+      "enum": [
+        41,
+        "ltcLegacyYpcSafetyCode41"
+      ],
+      "description": "LIMITED DILUTION OVERRIDE"
+    },
+    {
+      "enum": [
+        42,
+        "ltcLegacyYpcSafetyCode42"
+      ],
+      "description": "SOL'N LVL/REFRIGERANT OVERLOADS"
+    },
+    {
+      "enum": [
+        43,
+        "ltcLegacyYpcSafetyCode43"
+      ],
+      "description": "SOL'N LVL/SOL'N OVERLOADS"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/zoneDamperControllerTypeEnumSet.schema.json",
+  "title": "zoneDamperControllerTypeEnumSet",
+  "description": "Zone Damper Controller Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "zoneDamperCntlrTypeBypassChangeover"
+      ],
+      "description": "Bypass Changeover"
+    },
+    {
+      "enum": [
+        1,
+        "zoneDamperCntlrTypeVav"
+      ],
+      "description": "VAV"
+    }
+  ]
+}

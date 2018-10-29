@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetMembershipStatusEnumSet.schema.json",
+  "title": "bacnetMembershipStatusEnumSet",
+  "description": "BACnet Membership Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetMembershipStatusUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetMembershipStatusInvalid"
+      ],
+      "description": "Invalid"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetMembershipStatusConfigured"
+      ],
+      "description": "Configured"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetMembershipStatusPending"
+      ],
+      "description": "Pending"
+    },
+    {
+      "enum": [
+        4,
+        "bacnetMembershipStatusRegistered"
+      ],
+      "description": "Registered"
+    },
+    {
+      "enum": [
+        5,
+        "bacnetMembershipStatusLearned"
+      ],
+      "description": "Learned"
+    },
+    {
+      "enum": [
+        6,
+        "bacnetMembershipStatusListening"
+      ],
+      "description": "Listening"
+    },
+    {
+      "enum": [
+        7,
+        "bacnetMembershipStatusExpired"
+      ],
+      "description": "Expired"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ssdsPresentValueEnumSet.schema.json",
+  "title": "ssdsPresentValueEnumSet",
+  "description": "SSDS Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ssdsNotInitalized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "ssdsLocked"
+      ],
+      "description": "Locked"
+    },
+    {
+      "enum": [
+        2,
+        "ssdsLockedAndClosed"
+      ],
+      "description": "Locked and Closed"
+    },
+    {
+      "enum": [
+        3,
+        "ssdsLockedAndOpen"
+      ],
+      "description": "Locked and Open"
+    },
+    {
+      "enum": [
+        4,
+        "ssdsUnlocked"
+      ],
+      "description": "Unlocked"
+    },
+    {
+      "enum": [
+        5,
+        "ssdsUnlockedAndClosed"
+      ],
+      "description": "Unlocked and Closed"
+    },
+    {
+      "enum": [
+        6,
+        "ssdsUnlockedAndOpen"
+      ],
+      "description": "Unlocked and Open"
+    },
+    {
+      "enum": [
+        7,
+        "ssdsForcedOpen"
+      ],
+      "description": "Forced Open"
+    },
+    {
+      "enum": [
+        8,
+        "ssdsProppedOpen"
+      ],
+      "description": "Propped Open"
+    },
+    {
+      "enum": [
+        9,
+        "ssdsUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        10,
+        "ssdsFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykSc14EnumSet.schema.json",
+  "title": "ykSc14EnumSet",
+  "description": "YK Internal Fault Code SC.14",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykSc140"
+      ],
+      "description": "NO INTERNAL FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ykSc141"
+      ],
+      "description": "INTERNAL ERROR - NO TIMER HANDLES AVAILABLE"
+    },
+    {
+      "enum": [
+        2,
+        "ykSc142"
+      ],
+      "description": "WATCHDOG - SOFTWARE REBOOT"
+    },
+    {
+      "enum": [
+        3,
+        "ykSc143"
+      ],
+      "description": "INTERNAL ERROR - CANNOT CREATE TASK"
+    },
+    {
+      "enum": [
+        4,
+        "ykSc144"
+      ],
+      "description": "RESERVED 4"
+    },
+    {
+      "enum": [
+        5,
+        "ykSc145"
+      ],
+      "description": "INTERNAL ERROR - INVALID BRAM"
+    },
+    {
+      "enum": [
+        6,
+        "ykSc146"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "ykSc147"
+      ],
+      "description": "RESERVED 7"
+    },
+    {
+      "enum": [
+        8,
+        "ykSc148"
+      ],
+      "description": "RESERVED 8"
+    }
+  ]
+}

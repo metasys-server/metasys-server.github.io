@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dispBkltIntenEnumSet.schema.json",
+  "title": "dispBkltIntenEnumSet",
+  "description": "Display Backlight Intensity",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dispBkltIntenOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "dispBkltIntenDim"
+      ],
+      "description": "Dim"
+    },
+    {
+      "enum": [
+        2,
+        "dispBkltIntenMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        3,
+        "dispBkltIntenBright"
+      ],
+      "description": "Bright"
+    }
+  ]
+}

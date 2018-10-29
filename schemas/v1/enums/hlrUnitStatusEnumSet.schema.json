@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrUnitStatusEnumSet.schema.json",
+  "title": "hlrUnitStatusEnumSet",
+  "description": "HLR Unit Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrUnitStatusStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        1,
+        "hlrUnitStatusScrubbing"
+      ],
+      "description": "Scrubbing"
+    },
+    {
+      "enum": [
+        2,
+        "hlrUnitStatusRegen"
+      ],
+      "description": "Regen"
+    },
+    {
+      "enum": [
+        3,
+        "hlrUnitStatusSdAlarm"
+      ],
+      "description": "SD Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "hlrUnitStatusPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        5,
+        "hlrUnitStatusEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        6,
+        "hlrUnitStatusSmStdby"
+      ],
+      "description": "SM_Stdby"
+    },
+    {
+      "enum": [
+        7,
+        "hlrUnitStatusSmScrub"
+      ],
+      "description": "SM_Scrub"
+    },
+    {
+      "enum": [
+        8,
+        "hlrUnitStatusSmRegen"
+      ],
+      "description": "SM_Regen"
+    }
+  ]
+}

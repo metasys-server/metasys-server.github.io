@@ -1,0 +1,778 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mmsMessageTypeSet.schema.json",
+  "title": "mmsMessageTypeSet",
+  "description": "MMS Messages",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "enumClientMsgTypeUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "enumClientMsgTypeError"
+      ],
+      "description": "Error"
+    },
+    {
+      "enum": [
+        2,
+        "enumClientMsgTypeRegister"
+      ],
+      "description": "Register"
+    },
+    {
+      "enum": [
+        3,
+        "enumClientMsgTypeDeRegister"
+      ],
+      "description": "DeRegister"
+    },
+    {
+      "enum": [
+        4,
+        "enumClientMsgTypeValueUpdate"
+      ],
+      "description": "ValueUpdate"
+    },
+    {
+      "enum": [
+        5,
+        "enumClientMsgTypeDeviceStatus"
+      ],
+      "description": "DeviceStatus"
+    },
+    {
+      "enum": [
+        6,
+        "enumClientMsgTypeLogout"
+      ],
+      "description": "Logout"
+    },
+    {
+      "enum": [
+        7,
+        "enumClientMsgTypeDeRegisterAll"
+      ],
+      "description": "DeRegisterAll"
+    },
+    {
+      "enum": [
+        8,
+        "enumClientMsgTypeReadPropertyMultipleWs"
+      ],
+      "description": "ReadPropertyMultipleWS"
+    },
+    {
+      "enum": [
+        9,
+        "enumClientMsgTypeStopDataRefresh"
+      ],
+      "description": "StopDataRefresh"
+    },
+    {
+      "enum": [
+        10,
+        "enumClientMsgTypeTopEventReg"
+      ],
+      "description": "TopEventReg"
+    },
+    {
+      "enum": [
+        11,
+        "enumClientMsgTypeTopEventDeReg"
+      ],
+      "description": "TopEventDeReg"
+    },
+    {
+      "enum": [
+        12,
+        "enumClientMsgTypeTopEventDeRegAll"
+      ],
+      "description": "TopEventDeRegAll"
+    },
+    {
+      "enum": [
+        13,
+        "enumClientMsgTypeTopEvent"
+      ],
+      "description": "TopEvent"
+    },
+    {
+      "enum": [
+        14,
+        "enumClientMsgTypeDiagnosticQuery"
+      ],
+      "description": "DiagnosticQuery"
+    },
+    {
+      "enum": [
+        15,
+        "enumClientMsgTypeRemoveDevice"
+      ],
+      "description": "RemoveDevice"
+    },
+    {
+      "enum": [
+        16,
+        "enumClientMsgTypeRemoveDeviceById"
+      ],
+      "description": "RemoveDeviceById"
+    },
+    {
+      "enum": [
+        17,
+        "enumClientMsgTypeDeviceStatusSs"
+      ],
+      "description": "DeviceStatusSS"
+    },
+    {
+      "enum": [
+        18,
+        "enumClientMsgTypeMessengerMsg"
+      ],
+      "description": "MessengerMsg"
+    },
+    {
+      "enum": [
+        19,
+        "enumClientMsgTypeUserUpdate"
+      ],
+      "description": "UserUpdate"
+    },
+    {
+      "enum": [
+        20,
+        "enumClientMsgTypeReadAttributesXml"
+      ],
+      "description": "ReadAttributesXML"
+    },
+    {
+      "enum": [
+        21,
+        "enumClientMsgTypeWriteAttributesXml"
+      ],
+      "description": "WriteAttributesXML"
+    },
+    {
+      "enum": [
+        24,
+        "enumClientMsgTypeReadAttribute"
+      ],
+      "description": "ReadAttribute"
+    },
+    {
+      "enum": [
+        25,
+        "enumClientMsgTypeRoute"
+      ],
+      "description": "Route"
+    },
+    {
+      "enum": [
+        26,
+        "enumClientMsgTypeOpenView"
+      ],
+      "description": "OpenView"
+    },
+    {
+      "enum": [
+        27,
+        "enumClientMsgTypeCloseView"
+      ],
+      "description": "CloseView"
+    },
+    {
+      "enum": [
+        28,
+        "enumClientMsgTypeViewListUpdate"
+      ],
+      "description": "ViewListUpdate"
+    },
+    {
+      "enum": [
+        29,
+        "enumClientMsgTypeViewListItemUpdate"
+      ],
+      "description": "ViewListItemUpdate"
+    },
+    {
+      "enum": [
+        30,
+        "enumClientMsgTypeDeviceStatusChange"
+      ],
+      "description": "DeviceStatusChange"
+    },
+    {
+      "enum": [
+        31,
+        "enumClientMsgTypeDeviceStatusChangeReg"
+      ],
+      "description": "DeviceStatusChangeReg"
+    },
+    {
+      "enum": [
+        32,
+        "enumClientMsgTypeDeviceStatusChangeDeReg"
+      ],
+      "description": "DeviceStatusChangeDeReg"
+    },
+    {
+      "enum": [
+        33,
+        "enumClientMsgTypeEventStateChangeReg"
+      ],
+      "description": "EventStateChangeReg"
+    },
+    {
+      "enum": [
+        34,
+        "enumClientMsgTypeEventStateChangeDeReg"
+      ],
+      "description": "EventStateChangeDeReg"
+    },
+    {
+      "enum": [
+        35,
+        "enumClientMsgTypeEventStateChange"
+      ],
+      "description": "EventStateChange"
+    },
+    {
+      "enum": [
+        36,
+        "enumClientMsgTypeUpdateTree"
+      ],
+      "description": "UpdateTree"
+    },
+    {
+      "enum": [
+        37,
+        "enumClientMsgTypeDeleteTree"
+      ],
+      "description": "DeleteTree"
+    },
+    {
+      "enum": [
+        38,
+        "enumClientMsgTypeAddItem"
+      ],
+      "description": "AddItem"
+    },
+    {
+      "enum": [
+        39,
+        "enumClientMsgTypeUpdateItem"
+      ],
+      "description": "UpdateItem"
+    },
+    {
+      "enum": [
+        40,
+        "enumClientMsgTypeDeleteItem"
+      ],
+      "description": "DeleteItem"
+    },
+    {
+      "enum": [
+        41,
+        "enumClientMsgTypeObjectCommand"
+      ],
+      "description": "ObjectCommand"
+    },
+    {
+      "enum": [
+        42,
+        "enumClientMsgTypeRequestTailoredSummary"
+      ],
+      "description": "RequestTailoredSummary"
+    },
+    {
+      "enum": [
+        43,
+        "enumClientMsgTypeMceChangedAttribute"
+      ],
+      "description": "MceChangedAttribute"
+    },
+    {
+      "enum": [
+        44,
+        "enumClientMsgTypeGetEventListWs"
+      ],
+      "description": "GetEventListWS"
+    },
+    {
+      "enum": [
+        45,
+        "enumClientMsgTypeAlarmListUpdate"
+      ],
+      "description": "AlarmListUpdate"
+    },
+    {
+      "enum": [
+        46,
+        "enumClientMsgTypeLoadLevelUpdate"
+      ],
+      "description": "LoadLevelUpdate"
+    },
+    {
+      "enum": [
+        47,
+        "enumClientMsgTypeGsiRegisterSummarized"
+      ],
+      "description": "GSIRegisterSummarized"
+    },
+    {
+      "enum": [
+        48,
+        "enumClientMsgTypeGsiRegisterDetails"
+      ],
+      "description": "GSIRegisterDetails"
+    },
+    {
+      "enum": [
+        49,
+        "enumClientMsgTypeGsiDeregisterDetails"
+      ],
+      "description": "GSIDeregisterDetails"
+    },
+    {
+      "enum": [
+        50,
+        "enumClientMsgTypeSelfTimerMessage"
+      ],
+      "description": "SelfTimerMessage"
+    },
+    {
+      "enum": [
+        51,
+        "enumClientMsgTypeGetItemsByBacoid"
+      ],
+      "description": "GetItemsByBacoid"
+    },
+    {
+      "enum": [
+        52,
+        "enumClientMsgTypeGetTreeList"
+      ],
+      "description": "GetTreeList"
+    },
+    {
+      "enum": [
+        53,
+        "enumClientMsgTypeCompareTrees"
+      ],
+      "description": "CompareTrees"
+    },
+    {
+      "enum": [
+        54,
+        "enumClientMsgTypeGetTreeInfo"
+      ],
+      "description": "GetTreeInfo"
+    },
+    {
+      "enum": [
+        55,
+        "enumClientMsgTypeGetTree"
+      ],
+      "description": "GetTree"
+    },
+    {
+      "enum": [
+        56,
+        "enumClientMsgTypeGetItems"
+      ],
+      "description": "GetItems"
+    },
+    {
+      "enum": [
+        57,
+        "enumClientMsgTypeTrendPoll"
+      ],
+      "description": "TrendPoll"
+    },
+    {
+      "enum": [
+        58,
+        "enumClientMsgTypeTrendSamples"
+      ],
+      "description": "TrendSamples"
+    },
+    {
+      "enum": [
+        59,
+        "enumClientMsgTypeGsiUpdateSummarizedAlarmList"
+      ],
+      "description": "GSIUpdateSummarizedAlarmList"
+    },
+    {
+      "enum": [
+        60,
+        "enumClientMsgTypeGsiUpdateDetailAlarmList"
+      ],
+      "description": "GSIUpdateDetailAlarmList"
+    },
+    {
+      "enum": [
+        61,
+        "enumClientMsgTypeUpdateAllItemsCache"
+      ],
+      "description": "UpdateAllItemsCache"
+    },
+    {
+      "enum": [
+        62,
+        "enumClientMsgTypeLegacyNavTreeRequest"
+      ],
+      "description": "LegacyNavTreeRequest"
+    },
+    {
+      "enum": [
+        63,
+        "enumClientMsgTypeLegacyNavTreeUpdateNotification"
+      ],
+      "description": "LegacyNavTreeUpdateNotification"
+    },
+    {
+      "enum": [
+        64,
+        "enumClientMsgTypeSendCommandWs"
+      ],
+      "description": "SendCommandWS"
+    },
+    {
+      "enum": [
+        65,
+        "enumClientMsgTypeMceWarmStartComplete"
+      ],
+      "description": "mceWarmStartComplete"
+    },
+    {
+      "enum": [
+        66,
+        "enumClientMsgTypeRegisterNonSiteDevice"
+      ],
+      "description": "RegisterNonSiteDevice"
+    },
+    {
+      "enum": [
+        67,
+        "enumClientMsgTypeDeRegisterNonSiteDevice"
+      ],
+      "description": "DeRegisterNonSiteDevice"
+    },
+    {
+      "enum": [
+        68,
+        "enumClientMsgTypeNonSiteDeviceReady"
+      ],
+      "description": "NonSiteDeviceReady"
+    },
+    {
+      "enum": [
+        69,
+        "enumClientMsgTypeHttpNonSiteReg"
+      ],
+      "description": "HTTPNonSiteReg"
+    },
+    {
+      "enum": [
+        70,
+        "enumClientMsgTypeHttpNonSiteAck"
+      ],
+      "description": "HTTPNonSiteAck"
+    },
+    {
+      "enum": [
+        71,
+        "enumClientMsgTypeHttpNonSiteDeReg"
+      ],
+      "description": "HTTPNonSiteDeReg"
+    },
+    {
+      "enum": [
+        72,
+        "enumClientMsgTypeHttpSetPollRate"
+      ],
+      "description": "HTTPSetPollRate"
+    },
+    {
+      "enum": [
+        73,
+        "enumClientMsgTypeHttpSetNetworkTolerance"
+      ],
+      "description": "HTTPSetNetworkTolerance"
+    },
+    {
+      "enum": [
+        74,
+        "enumClientMsgTypeDeleteAllTrees"
+      ],
+      "description": "DeleteAllTrees"
+    },
+    {
+      "enum": [
+        75,
+        "enumClientMsgTypeLegacyDownloadInProgressNotify"
+      ],
+      "description": "LegacyDownloadInProgressNotify"
+    },
+    {
+      "enum": [
+        76,
+        "enumClientMsgTypeUserDictionaryLocal"
+      ],
+      "description": "UserDictionaryLocal"
+    },
+    {
+      "enum": [
+        77,
+        "enumClientMsgTypeUserDictionarySite"
+      ],
+      "description": "UserDictionarySite"
+    },
+    {
+      "enum": [
+        79,
+        "enumClientMsgTypeUserDictionarySetUpdate"
+      ],
+      "description": "UserDictionarySetUpdate"
+    },
+    {
+      "enum": [
+        80,
+        "enumClientMsgTypeWriteAttributes"
+      ],
+      "description": "WriteAttributes"
+    },
+    {
+      "enum": [
+        81,
+        "enumClientMsgTypeSearchItems"
+      ],
+      "description": "SearchItems"
+    },
+    {
+      "enum": [
+        82,
+        "enumClientMsgTypeForwardEvents"
+      ],
+      "description": "ForwardEvents"
+    },
+    {
+      "enum": [
+        83,
+        "enumClientMsgTypeWaitingToSendEvents"
+      ],
+      "description": "WaitingToSendEvents"
+    },
+    {
+      "enum": [
+        84,
+        "enumClientMsgTypeUserDictionarySendSets"
+      ],
+      "description": "UserDictionarySendSets"
+    },
+    {
+      "enum": [
+        85,
+        "enumClientMsgTypeUserDictionaryCustomSingle"
+      ],
+      "description": "UserDictionaryCustomSingle"
+    },
+    {
+      "enum": [
+        86,
+        "enumClientMsgTypeUserDictionaryCustomAll"
+      ],
+      "description": "UserDictionaryCustomAll"
+    },
+    {
+      "enum": [
+        87,
+        "enumClientMsgTypeBulkUpdate"
+      ],
+      "description": "BulkUpdate"
+    },
+    {
+      "enum": [
+        88,
+        "enumClientMsgTypeRegisterNetworkDevice"
+      ],
+      "description": "RegisterNetworkDevice"
+    },
+    {
+      "enum": [
+        89,
+        "enumClientMsgTypeUpdateProxy"
+      ],
+      "description": "UpdateProxy"
+    },
+    {
+      "enum": [
+        90,
+        "enumClientMsgTypeSetNetworkDevicePollRate"
+      ],
+      "description": "SetNetworkDevicePollRate"
+    },
+    {
+      "enum": [
+        91,
+        "enumClientMsgTypeAddSslCertificate"
+      ],
+      "description": "AddSSLCertificate"
+    },
+    {
+      "enum": [
+        92,
+        "enumClientMsgTypeMaskSslCertificateErrors"
+      ],
+      "description": "MaskSSLCertificateErrors"
+    },
+    {
+      "enum": [
+        93,
+        "enumClientMsgTypePreshutdown"
+      ],
+      "description": "Preshutdown"
+    },
+    {
+      "enum": [
+        94,
+        "enumClientMsgTypeDeRegisterNetworkDevice"
+      ],
+      "description": "DeRegisterNetworkDevice"
+    },
+    {
+      "enum": [
+        95,
+        "enumClientMsgTypeGetTreeListDetails"
+      ],
+      "description": "GetTreeListDetails"
+    },
+    {
+      "enum": [
+        96,
+        "enumClientMsgTypeEquipmentDiscovery"
+      ],
+      "description": "EquipmentDiscovery"
+    },
+    {
+      "enum": [
+        97,
+        "enumClientMsgTypeEosCov"
+      ],
+      "description": "EosCov"
+    },
+    {
+      "enum": [
+        98,
+        "enumClientMsgTypeWeatherConfig"
+      ],
+      "description": "WeatherConfig"
+    },
+    {
+      "enum": [
+        99,
+        "enumClientMsgTypeEnergyPriceConfig"
+      ],
+      "description": "EnergyPriceConfig"
+    },
+    {
+      "enum": [
+        100,
+        "enumClientMsgTypeSctracGetControllers"
+      ],
+      "description": "SCTRACGetControllers"
+    },
+    {
+      "enum": [
+        101,
+        "enumClientMsgTypeSctPointInvolvementData"
+      ],
+      "description": "SCTPointInvolvementData"
+    },
+    {
+      "enum": [
+        102,
+        "enumClientMsgTypeTimeSyncEquipment"
+      ],
+      "description": "TimeSyncEquipment"
+    },
+    {
+      "enum": [
+        103,
+        "enumClientMsgTypeTimeSyncUi"
+      ],
+      "description": "TimeSyncUI"
+    },
+    {
+      "enum": [
+        104,
+        "enumClientMsgTypeForwardAudits"
+      ],
+      "description": "ForwardAudits"
+    },
+    {
+      "enum": [
+        105,
+        "enumClientMsgTypeWaitingToSendAudits"
+      ],
+      "description": "WaitingToSendAudits"
+    },
+    {
+      "enum": [
+        106,
+        "enumClientMsgTypeSegwayDeliveryLocation"
+      ],
+      "description": "SegwayDeliveryLocation"
+    },
+    {
+      "enum": [
+        107,
+        "enumClientMsgTypeGetAllBacnetExposedCafObjects"
+      ],
+      "description": "GetAllBacnetExposedCafObjects"
+    },
+    {
+      "enum": [
+        108,
+        "enumClientMsgTypeGetAllCafObjects"
+      ],
+      "description": "GetAllCafObjects"
+    },
+    {
+      "enum": [
+        109,
+        "enumClientMsgTypeReadCafProperties"
+      ],
+      "description": "ReadCafProperties"
+    },
+    {
+      "enum": [
+        110,
+        "enumClientMsgTypeWriteCafProperties"
+      ],
+      "description": "WriteCafProperties"
+    },
+    {
+      "enum": [
+        111,
+        "enumClientMsgTypeArchiveSync"
+      ],
+      "description": "ArchiveSync"
+    },
+    {
+      "enum": [
+        200,
+        "enumClientMsgTypeMax"
+      ],
+      "description": "Max"
+    }
+  ]
+}

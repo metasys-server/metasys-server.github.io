@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEventShortInactiveServicePriorityCodesEnumSet.schema.json",
+  "title": "seEventShortInactiveServicePriorityCodesEnumSet",
+  "description": "SE Event Inactive Service Priority Codes Short Names",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEventShortInactiveServicePriorityCodeUndefined"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEventShortInactiveServicePriorityCodeFirmwareVersionsOk"
+      ],
+      "description": "Firmware versions do not match package"
+    },
+    {
+      "enum": [
+        100,
+        "seEventShortInactiveServicePriorityCode100"
+      ],
+      "description": "FDD Firm Fail"
+    },
+    {
+      "enum": [
+        101,
+        "seEventShortInactiveServicePriorityCode101"
+      ],
+      "description": "No Dehumid - RH"
+    },
+    {
+      "enum": [
+        102,
+        "seEventShortInactiveServicePriorityCode102"
+      ],
+      "description": "No AQC - IAQ"
+    },
+    {
+      "enum": [
+        103,
+        "seEventShortInactiveServicePriorityCode103"
+      ],
+      "description": "Bldg Press Sensor Fail"
+    },
+    {
+      "enum": [
+        104,
+        "seEventShortInactiveServicePriorityCode104"
+      ],
+      "description": "OAT Sensor Fail"
+    },
+    {
+      "enum": [
+        105,
+        "seEventShortInactiveServicePriorityCode105"
+      ],
+      "description": "RAT Sensor Fail"
+    },
+    {
+      "enum": [
+        106,
+        "seEventShortInactiveServicePriorityCode106"
+      ],
+      "description": "SAT Sensor Fail"
+    },
+    {
+      "enum": [
+        107,
+        "seEventShortInactiveServicePriorityCode107"
+      ],
+      "description": "24 V Fail"
+    },
+    {
+      "enum": [
+        108,
+        "seEventShortInactiveServicePriorityCode108"
+      ],
+      "description": "ECT1 Fail"
+    },
+    {
+      "enum": [
+        109,
+        "seEventShortInactiveServicePriorityCode109"
+      ],
+      "description": "CCT1 Fail"
+    },
+    {
+      "enum": [
+        110,
+        "seEventShortInactiveServicePriorityCode110"
+      ],
+      "description": "ECT2 Fail"
+    },
+    {
+      "enum": [
+        111,
+        "seEventShortInactiveServicePriorityCode111"
+      ],
+      "description": "CCT2 Fail"
+    },
+    {
+      "enum": [
+        112,
+        "seEventShortInactiveServicePriorityCode112"
+      ],
+      "description": "ECT3 Fail"
+    },
+    {
+      "enum": [
+        113,
+        "seEventShortInactiveServicePriorityCode113"
+      ],
+      "description": "CCT3 Fail"
+    },
+    {
+      "enum": [
+        114,
+        "seEventShortInactiveServicePriorityCode114"
+      ],
+      "description": "ECT4 Fail"
+    },
+    {
+      "enum": [
+        115,
+        "seEventShortInactiveServicePriorityCode115"
+      ],
+      "description": "CCT4 Fail"
+    },
+    {
+      "enum": [
+        116,
+        "seEventShortInactiveServicePriorityCode116"
+      ],
+      "description": "Shutdown - APS"
+    },
+    {
+      "enum": [
+        117,
+        "seEventShortInactiveServicePriorityCode117"
+      ],
+      "description": "Shutdown - SFO"
+    },
+    {
+      "enum": [
+        118,
+        "seEventShortInactiveServicePriorityCode118"
+      ],
+      "description": "UCB Calibration Error"
+    },
+    {
+      "enum": [
+        119,
+        "seEventShortInactiveServicePriorityCode119"
+      ],
+      "description": "FDD Calibration Error"
+    },
+    {
+      "enum": [
+        120,
+        "seEventShortInactiveServicePriorityCode120"
+      ],
+      "description": "Econ Calibration Error"
+    },
+    {
+      "enum": [
+        121,
+        "seEventShortInactiveServicePriorityCode121"
+      ],
+      "description": "4stg Calibration Error"
+    },
+    {
+      "enum": [
+        122,
+        "seEventShortInactiveServicePriorityCode122"
+      ],
+      "description": "Duct Pressure Sensor Fail"
+    },
+    {
+      "enum": [
+        123,
+        "seEventShortInactiveServicePriorityCode123"
+      ],
+      "description": "FDDS Calibration Error"
+    },
+    {
+      "enum": [
+        124,
+        "seEventShortInactiveServicePriorityCode124"
+      ],
+      "description": "MFC SAT Sensor Fail"
+    },
+    {
+      "enum": [
+        125,
+        "seEventShortInactiveServicePriorityCode125"
+      ],
+      "description": "MFC MAT Sensor Fail"
+    },
+    {
+      "enum": [
+        126,
+        "seEventShortInactiveServicePriorityCode126"
+      ],
+      "description": "MFC Jumper is Elite"
+    }
+  ]
+}

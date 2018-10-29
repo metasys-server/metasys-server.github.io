@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/supplyFanStatusEnumSet.schema.json",
+  "title": "supplyFanStatusEnumSet",
+  "description": "Supply Fan Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "supplyFanStatusOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "supplyFanStatusOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "supplyFanStatusLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        3,
+        "supplyFanStatusMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        4,
+        "supplyFanStatusHigh"
+      ],
+      "description": "High"
+    }
+  ]
+}

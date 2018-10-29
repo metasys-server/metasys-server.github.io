@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/thermostatAuxModeEnumSet.schema.json",
+  "title": "thermostatAuxModeEnumSet",
+  "description": "Thermostat Aux Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "thermostatAuxModeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "thermostatAuxModeDehumidifier"
+      ],
+      "description": "Dehumidifier"
+    },
+    {
+      "enum": [
+        2,
+        "thermostatAuxModeHumidifier"
+      ],
+      "description": "Humidifier"
+    },
+    {
+      "enum": [
+        3,
+        "thermostatAuxModeVentilator"
+      ],
+      "description": "Ventilator"
+    },
+    {
+      "enum": [
+        4,
+        "thermostatAuxModeErv"
+      ],
+      "description": "Energy Recovery Ventilator"
+    },
+    {
+      "enum": [
+        5,
+        "thermostatAuxModeHrv"
+      ],
+      "description": "Heat Recovery Ventilator"
+    },
+    {
+      "enum": [
+        6,
+        "thermostatAuxModeOnWhileOccupied"
+      ],
+      "description": "On While Occupied"
+    }
+  ]
+}

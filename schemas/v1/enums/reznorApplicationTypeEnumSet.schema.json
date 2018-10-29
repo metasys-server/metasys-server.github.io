@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reznorApplicationTypeEnumSet.schema.json",
+  "title": "reznorApplicationTypeEnumSet",
+  "description": "Reznor Application Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "reznorApplicationTypeOptionD12B"
+      ],
+      "description": "Option D12B"
+    },
+    {
+      "enum": [
+        1,
+        "reznorApplicationTypeOptionD12C"
+      ],
+      "description": "Option D12C"
+    },
+    {
+      "enum": [
+        2,
+        "reznorApplicationTypeOptionD12D"
+      ],
+      "description": "Option D12D"
+    },
+    {
+      "enum": [
+        3,
+        "reznorApplicationTypeOptionD12E"
+      ],
+      "description": "Option D12E"
+    },
+    {
+      "enum": [
+        4,
+        "reznorApplicationTypeOptionD12F"
+      ],
+      "description": "Option D12F"
+    },
+    {
+      "enum": [
+        5,
+        "reznorApplicationTypeOptionD12G"
+      ],
+      "description": "Option D12G"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/idleTimeEnumSet.schema.json",
+  "title": "idleTimeEnumSet",
+  "description": "Idle Time",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "neverIdle"
+      ],
+      "description": "never"
+    },
+    {
+      "enum": [
+        1,
+        "minute1Idle"
+      ],
+      "description": "1 minute"
+    },
+    {
+      "enum": [
+        2,
+        "minutes5Idle"
+      ],
+      "description": "5 minutes"
+    },
+    {
+      "enum": [
+        3,
+        "minutes10Idle"
+      ],
+      "description": "10 minutes"
+    },
+    {
+      "enum": [
+        4,
+        "minutes30Idle"
+      ],
+      "description": "30 minutes"
+    },
+    {
+      "enum": [
+        5,
+        "hour1Idle"
+      ],
+      "description": "1 hour"
+    },
+    {
+      "enum": [
+        6,
+        "hours2Idle"
+      ],
+      "description": "2 hours"
+    },
+    {
+      "enum": [
+        7,
+        "hours4Idle"
+      ],
+      "description": "4 hours"
+    },
+    {
+      "enum": [
+        8,
+        "hours8Idle"
+      ],
+      "description": "8 hours"
+    },
+    {
+      "enum": [
+        9,
+        "hours24Idle"
+      ],
+      "description": "24 hours"
+    }
+  ]
+}

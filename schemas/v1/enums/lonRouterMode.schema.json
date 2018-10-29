@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lonRouterMode.schema.json",
+  "title": "lonRouterMode",
+  "description": "LON Router Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lonrouterNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "lonrouterInitSubnetTable"
+      ],
+      "description": "Initialize Subnet Table"
+    },
+    {
+      "enum": [
+        2,
+        "lonrouterTempBridge"
+      ],
+      "description": "Temporary Bridge"
+    }
+  ]
+}

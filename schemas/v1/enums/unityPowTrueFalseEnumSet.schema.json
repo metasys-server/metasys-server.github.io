@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityPowTrueFalseEnumSet.schema.json",
+  "title": "unityPowTrueFalseEnumSet",
+  "description": "Unity POW True/False",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "FALSE"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "TRUE"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "MANUAL, TRUE"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MANUAL, FALSE"
+    }
+  ]
+}

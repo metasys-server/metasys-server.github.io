@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tstatCtlAppTypeEnumSet.schema.json",
+  "title": "tstatCtlAppTypeEnumSet",
+  "description": "Thermostat Control Application Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tstatCtlAppTwoPipeFcu"
+      ],
+      "description": "2-Pipe FCU"
+    },
+    {
+      "enum": [
+        1,
+        "tstatCtlAppFourPipeFcu"
+      ],
+      "description": "4-Pipe FCU"
+    },
+    {
+      "enum": [
+        2,
+        "tstatCtlAppTwoPipeThreeWireValveFcu"
+      ],
+      "description": "2-Pipe 3-Wire Valve FCU"
+    },
+    {
+      "enum": [
+        3,
+        "tstatCtlAppTwoPipeFcuWithFloorHeater"
+      ],
+      "description": "2-Pipe FCU With Floor Heater"
+    },
+    {
+      "enum": [
+        4,
+        "tstatCtlAppTwoPipeFcuWithTio2Esp"
+      ],
+      "description": "2-Pipe FCU With TiO2/ESP"
+    },
+    {
+      "enum": [
+        5,
+        "tstatCtlAppWaterSourceHeatPump"
+      ],
+      "description": "Water Source Heat Pump"
+    },
+    {
+      "enum": [
+        6,
+        "tstatCtlAppBoiler"
+      ],
+      "description": "Boiler"
+    },
+    {
+      "enum": [
+        7,
+        "tstatCtlAppTwoPipeFcuThreeSpeedFan"
+      ],
+      "description": "2-Pipe FCU, 3-Speed Fan"
+    },
+    {
+      "enum": [
+        8,
+        "tstatCtlAppFourPipeFcuThreeSpeedFan"
+      ],
+      "description": "4-Pipe FCU, 3-Speed Fan"
+    },
+    {
+      "enum": [
+        9,
+        "tstatCtlAppTwoPipeFcuRelayEcmFan"
+      ],
+      "description": "2-Pipe FCU (Relay), ECM Fan"
+    },
+    {
+      "enum": [
+        10,
+        "tstatCtlAppFourPipeFcuRelayEcmFan"
+      ],
+      "description": "4-Pipe FCU (Relay), ECM Fan"
+    },
+    {
+      "enum": [
+        11,
+        "tstatCtlAppTwoPipeThreeWireRelayEcmFan"
+      ],
+      "description": "2-Pipe 3-Wire (Relay), ECM Fan"
+    },
+    {
+      "enum": [
+        12,
+        "tstatCtlAppTwoPipeFcuWithFloorHeaterEcmFan"
+      ],
+      "description": "2-Pipe FCU With Floor Heater, ECM Fan"
+    },
+    {
+      "enum": [
+        13,
+        "tstatCtlAppTwoPipeFcuWithTio2EspEcmFan"
+      ],
+      "description": "2-Pipe FCU With TiO2/ESP, ECM Fan"
+    },
+    {
+      "enum": [
+        14,
+        "tstatCtlAppWaterSourceHeatPumpEcmFan"
+      ],
+      "description": "Water Source Heat Pump, ECM Fan"
+    },
+    {
+      "enum": [
+        15,
+        "tstatCtlAppTwoPipeFcu010VdcEcmFan"
+      ],
+      "description": "2-Pipe FCU (0-10VDC), ECM Fan"
+    }
+  ]
+}

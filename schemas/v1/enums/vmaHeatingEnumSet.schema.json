@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vmaHeatingEnumSet.schema.json",
+  "title": "vmaHeatingEnumSet",
+  "description": "VMA Heating",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Htg Required"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Box Htg"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Both Htg Box Max"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Supplemental Htg"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Both Htg Supplm Max"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Htg Max Flow Reset"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Htg Entry State"
+    }
+  ]
+}

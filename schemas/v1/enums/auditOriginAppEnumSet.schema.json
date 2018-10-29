@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auditOriginAppEnumSet.schema.json",
+  "title": "auditOriginAppEnumSet",
+  "description": "Audit Origin App",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "alarmEventAuditOriginApp"
+      ],
+      "description": "Alarm & Event"
+    },
+    {
+      "enum": [
+        1,
+        "auditTrailsAuditOriginApp"
+      ],
+      "description": "Audit Trails"
+    },
+    {
+      "enum": [
+        2,
+        "deviceServicesAuditOriginApp"
+      ],
+      "description": "Device Services"
+    },
+    {
+      "enum": [
+        3,
+        "mceAuditOriginApp"
+      ],
+      "description": "MCE"
+    },
+    {
+      "enum": [
+        4,
+        "siteServicesAuditOriginApp"
+      ],
+      "description": "Site Services"
+    },
+    {
+      "enum": [
+        5,
+        "trendAuditOriginApp"
+      ],
+      "description": "Trend"
+    },
+    {
+      "enum": [
+        6,
+        "systemSecurityAuditOriginApp"
+      ],
+      "description": "System Security"
+    },
+    {
+      "enum": [
+        7,
+        "n2AuditOriginApp"
+      ],
+      "description": "N2"
+    },
+    {
+      "enum": [
+        8,
+        "generalAuditOriginApp"
+      ],
+      "description": "General"
+    },
+    {
+      "enum": [
+        9,
+        "deviceManagerAuditOriginApp"
+      ],
+      "description": "Device Manager"
+    },
+    {
+      "enum": [
+        10,
+        "webServicesAuditOriginApp"
+      ],
+      "description": "Web Services"
+    },
+    {
+      "enum": [
+        11,
+        "energyManagementAuditOriginApp"
+      ],
+      "description": "Energy Management"
+    },
+    {
+      "enum": [
+        12,
+        "interlockAuditOriginApp"
+      ],
+      "description": "Interlock"
+    },
+    {
+      "enum": [
+        13,
+        "mcoAuditOriginApp"
+      ],
+      "description": "MCO"
+    },
+    {
+      "enum": [
+        14,
+        "scheduleobjAuditOriginApp"
+      ],
+      "description": "Schedule"
+    }
+  ]
+}

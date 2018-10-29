@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sszoPresentValueEnumSet.schema.json",
+  "title": "sszoPresentValueEnumSet",
+  "description": "SSZO Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sszoPvDisarm"
+      ],
+      "description": "Disarm"
+    },
+    {
+      "enum": [
+        1,
+        "sszoPvArm"
+      ],
+      "description": "Arm"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reportCategoryEnumSet.schema.json",
+  "title": "reportCategoryEnumSet",
+  "description": "Meter Category",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "reportCategoryOther"
+      ],
+      "description": "Other"
+    },
+    {
+      "enum": [
+        1,
+        "reportCategoryBuildingEnergyUse"
+      ],
+      "description": "Building Energy Use"
+    },
+    {
+      "enum": [
+        2,
+        "reportCategoryProcessEnergyUse"
+      ],
+      "description": "Process Energy Use"
+    },
+    {
+      "enum": [
+        3,
+        "reportCategoryOutdoorEnergyUse"
+      ],
+      "description": "Outdoor Energy Use"
+    },
+    {
+      "enum": [
+        4,
+        "reportCategoryCogeneration"
+      ],
+      "description": "Cogeneration"
+    },
+    {
+      "enum": [
+        5,
+        "reportCategoryFacilityEnergyProduction"
+      ],
+      "description": "Facility Energy Production"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykOperationalCodeEnumSet.schema.json",
+  "title": "ykOperationalCodeEnumSet",
+  "description": "YK Operational Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Unit Stopped - Ready to Start"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Unit Stopped - Local Shutdown"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Unit Stopped - Remote Shutdown"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Unit Stopped - Warning Active"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Unit Stopped - Cycling Shutdown"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Unit Stopped - Safety Shutdown"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Unit Start Inhibit"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Unit Starting"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Unit Running - No Abnormal Condition"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Unit Running - Warning Active"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Unit Running - Chiller Unload Before Shutdown"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Unit Coastdown"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Unit Running - Modified Run"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Unit Stopped - Internal Shutdown"
+    }
+  ]
+}

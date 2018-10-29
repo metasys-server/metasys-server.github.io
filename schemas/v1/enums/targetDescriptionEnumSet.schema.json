@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/targetDescriptionEnumSet.schema.json",
+  "title": "targetDescriptionEnumSet",
+  "description": "Target Description",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tgtDescContinuous"
+      ],
+      "description": "Continuous"
+    },
+    {
+      "enum": [
+        1,
+        "tgtDescOffPeak"
+      ],
+      "description": "Off-Peak"
+    },
+    {
+      "enum": [
+        2,
+        "tgtDescOnPeak"
+      ],
+      "description": "On-Peak"
+    },
+    {
+      "enum": [
+        3,
+        "tgtDescSemiPeak"
+      ],
+      "description": "Semi-Peak"
+    },
+    {
+      "enum": [
+        4,
+        "tgtDescShoulder"
+      ],
+      "description": "Shoulder"
+    },
+    {
+      "enum": [
+        5,
+        "tgtDescSummerOffPeak"
+      ],
+      "description": "Summer Off-Peak"
+    },
+    {
+      "enum": [
+        6,
+        "tgtDescSummerOnPeak"
+      ],
+      "description": "Summer On-Peak"
+    },
+    {
+      "enum": [
+        7,
+        "tgtDescWinterOffPeak"
+      ],
+      "description": "Winter Off-Peak"
+    },
+    {
+      "enum": [
+        8,
+        "tgtDescWinterOnPeak"
+      ],
+      "description": "Winter On-Peak"
+    },
+    {
+      "enum": [
+        9,
+        "tgtDescSummerSemiPeak"
+      ],
+      "description": "Summer Semi-Peak"
+    },
+    {
+      "enum": [
+        10,
+        "tgtDescWinterSemiPeak"
+      ],
+      "description": "Winter Semi-Peak"
+    },
+    {
+      "enum": [
+        11,
+        "tgtDescSummerShoulder"
+      ],
+      "description": "Summer Shoulder"
+    },
+    {
+      "enum": [
+        12,
+        "tgtDescWinterShoulder"
+      ],
+      "description": "Winter Shoulder"
+    }
+  ]
+}

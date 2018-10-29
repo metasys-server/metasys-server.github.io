@@ -1,0 +1,484 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lysFaultCodeEnumSet.schema.json",
+  "title": "lysFaultCodeEnumSet",
+  "description": "LYS Fault Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lysFaultCode0"
+      ],
+      "description": "NO FAULT"
+    },
+    {
+      "enum": [
+        1,
+        "lysFaultCode1"
+      ],
+      "description": "CYCLING FAULT-LEAVING CHILLED LIQUID FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        2,
+        "lysFaultCode2"
+      ],
+      "description": "CYCLING FAULT-LEAVING CHILLED LIQUID LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        3,
+        "lysFaultCode3"
+      ],
+      "description": "CYCLING FAULT-LEAVING CHILLED LIQUID HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "lysFaultCode4"
+      ],
+      "description": "CYCLING FAULT-MOTOR CONTROLLER LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        5,
+        "lysFaultCode5"
+      ],
+      "description": "CYCLING FAULT-POWER FAULT"
+    },
+    {
+      "enum": [
+        6,
+        "lysFaultCode6"
+      ],
+      "description": "CYCLING FAULT-ANTI-RECYCLE"
+    },
+    {
+      "enum": [
+        7,
+        "lysFaultCode7"
+      ],
+      "description": "CYCLING FAULT-MULTIUNIT CYCLING CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "lysFaultCode8"
+      ],
+      "description": "CYCLING FAULT-SYSTEM CYCLING CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "lysFaultCode9"
+      ],
+      "description": "CYCLING FAULT-CONDENSER FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        101,
+        "lysFaultCode101"
+      ],
+      "description": "SAFETY FAULT-EVAPORATOR TRANSDUCER OR TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        102,
+        "lysFaultCode102"
+      ],
+      "description": "SAFETY FAULT-EVAPORATOR TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        103,
+        "lysFaultCode103"
+      ],
+      "description": "SAFETY FAULT-EVAPORATOR LOW PRESSURE"
+    },
+    {
+      "enum": [
+        104,
+        "lysFaultCode104"
+      ],
+      "description": "SAFETY FAULT-EVAPORATOR LOW PRESSURE SMART FREEZE"
+    },
+    {
+      "enum": [
+        105,
+        "lysFaultCode105"
+      ],
+      "description": "SAFETY FAULT-CONDENSER PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        106,
+        "lysFaultCode106"
+      ],
+      "description": "SAFETY FAULT-CONDENSER HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        107,
+        "lysFaultCode107"
+      ],
+      "description": "SAFETY FAULT-CONDENSER HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        108,
+        "lysFaultCode108"
+      ],
+      "description": "SAFETY FAULT-OIL LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        109,
+        "lysFaultCode109"
+      ],
+      "description": "SAFETY FAULT-OIL HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        110,
+        "lysFaultCode110"
+      ],
+      "description": "SAFETY FAULT-OIL OR CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        111,
+        "lysFaultCode111"
+      ],
+      "description": "SAFETY FAULT-OIL CLOGGED FILTER"
+    },
+    {
+      "enum": [
+        112,
+        "lysFaultCode112"
+      ],
+      "description": "SAFETY FAULT-OIL HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        113,
+        "lysFaultCode113"
+      ],
+      "description": "SAFETY FAULT-OIL LOW DIFFERENTIAL SEAL PRESSURE"
+    },
+    {
+      "enum": [
+        114,
+        "lysFaultCode114"
+      ],
+      "description": "SAFETY FAULT-OIL SEPARATOR LOW LEVEL"
+    },
+    {
+      "enum": [
+        115,
+        "lysFaultCode115"
+      ],
+      "description": "SAFETY FAULT-DISCHARGE LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        116,
+        "lysFaultCode116"
+      ],
+      "description": "SAFETY FAULT-DISCHARGE HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        117,
+        "lysFaultCode117"
+      ],
+      "description": "SAFETY FAULT-MOTOR CURRENT > 15% FLA"
+    },
+    {
+      "enum": [
+        118,
+        "lysFaultCode118"
+      ],
+      "description": "SAFETY FAULT-MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        119,
+        "lysFaultCode119"
+      ],
+      "description": "SAFETY FAULT-AUXILIARY SAFETY CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        120,
+        "lysFaultCode120"
+      ],
+      "description": "SAFETY FAULT-EMERGENCY BUTTON PRESSED"
+    },
+    {
+      "enum": [
+        121,
+        "lysFaultCode121"
+      ],
+      "description": "SAFETY FAULT-OIL TEMP. SENSOR FAULT"
+    },
+    {
+      "enum": [
+        122,
+        "lysFaultCode122"
+      ],
+      "description": "SAFETY FAULT-REFRIGERANT TEMP. SENSOR FAULT"
+    },
+    {
+      "enum": [
+        123,
+        "lysFaultCode123"
+      ],
+      "description": "SAFETY FAULT-LEAVING CHILLED SENSOR FAULT"
+    },
+    {
+      "enum": [
+        124,
+        "lysFaultCode124"
+      ],
+      "description": "SAFETY FAULT-DISCHARGE TEMP. SENSOR FAULT"
+    },
+    {
+      "enum": [
+        125,
+        "lysFaultCode125"
+      ],
+      "description": "SAFETY FAULT-RETURN CHILLED TEMP. SENSOR FAULT"
+    },
+    {
+      "enum": [
+        126,
+        "lysFaultCode126"
+      ],
+      "description": "SAFETY FAULT-RETURN CONDENSER TEMP. SENSOR FAULT"
+    },
+    {
+      "enum": [
+        127,
+        "lysFaultCode127"
+      ],
+      "description": "SAFETY FAULT-LEAVING CONDENSER TEMP. SENSOR FAULT"
+    },
+    {
+      "enum": [
+        128,
+        "lysFaultCode128"
+      ],
+      "description": "SAFETY FAULT-OIL PRESSURE SENSOR FAULT"
+    },
+    {
+      "enum": [
+        129,
+        "lysFaultCode129"
+      ],
+      "description": "SAFETY FAULT-EVAPORATOR PRESSURE SENSOR FAULT"
+    },
+    {
+      "enum": [
+        130,
+        "lysFaultCode130"
+      ],
+      "description": "SAFETY FAULT-SEAL PRESSURE SENSOR FAULT"
+    },
+    {
+      "enum": [
+        131,
+        "lysFaultCode131"
+      ],
+      "description": "SAFETY FAULT-CONDENSER PRESSURE SENSOR FAULT"
+    },
+    {
+      "enum": [
+        132,
+        "lysFaultCode132"
+      ],
+      "description": "SAFETY FAULT-FILTER PRESSURE SENSOR FAULT"
+    },
+    {
+      "enum": [
+        133,
+        "lysFaultCode133"
+      ],
+      "description": "SAFETY FAULT-HIGH SLIDE VALVE POSITION"
+    },
+    {
+      "enum": [
+        134,
+        "lysFaultCode134"
+      ],
+      "description": "SAFETY FAULT-CONTROL PANEL POWER FAIL"
+    },
+    {
+      "enum": [
+        501,
+        "lysFaultCode501"
+      ],
+      "description": "WARNING-EVAPORATOR LOW PRESSURE"
+    },
+    {
+      "enum": [
+        502,
+        "lysFaultCode502"
+      ],
+      "description": "WARNING-FREEZE THREAT FROM OPERATING CHILLER"
+    },
+    {
+      "enum": [
+        503,
+        "lysFaultCode503"
+      ],
+      "description": "WARNING-FREEZE THREAT CONDENSER FLOW SWITCH"
+    },
+    {
+      "enum": [
+        504,
+        "lysFaultCode504"
+      ],
+      "description": "WARNING-CONDENSER HIGH PRESSURE LOAD LIMIT"
+    },
+    {
+      "enum": [
+        505,
+        "lysFaultCode505"
+      ],
+      "description": "WARNING-OIL DIRTY FILTER"
+    },
+    {
+      "enum": [
+        506,
+        "lysFaultCode506"
+      ],
+      "description": "WARNING-OIL HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        507,
+        "lysFaultCode507"
+      ],
+      "description": "WARNING-LOW DISCHARGE SUPERHEAT LIMIT"
+    },
+    {
+      "enum": [
+        508,
+        "lysFaultCode508"
+      ],
+      "description": "WARNING-MINIMUM LOAD LIMIT"
+    },
+    {
+      "enum": [
+        509,
+        "lysFaultCode509"
+      ],
+      "description": "WARNING-MAXIMUM LOAD LIMIT"
+    },
+    {
+      "enum": [
+        510,
+        "lysFaultCode510"
+      ],
+      "description": "WARNING-MOTOR CURRENT LOAD LIMIT"
+    },
+    {
+      "enum": [
+        511,
+        "lysFaultCode511"
+      ],
+      "description": "WARNING-PULLDOWN LOAD LIMIT"
+    },
+    {
+      "enum": [
+        512,
+        "lysFaultCode512"
+      ],
+      "description": "WARNING-HIGH DISCHARGE TEMPERATURE FORCE UNLOAD"
+    },
+    {
+      "enum": [
+        513,
+        "lysFaultCode513"
+      ],
+      "description": "WARNING-HIGH DISCHARGE TEMPERATURE FORCE LOAD"
+    },
+    {
+      "enum": [
+        901,
+        "lysFaultCode901"
+      ],
+      "description": "STOPPED-UNLOAD"
+    },
+    {
+      "enum": [
+        902,
+        "lysFaultCode902"
+      ],
+      "description": "STOPPED-READY"
+    },
+    {
+      "enum": [
+        903,
+        "lysFaultCode903"
+      ],
+      "description": "STOPPED-FAULT PRESENT"
+    },
+    {
+      "enum": [
+        904,
+        "lysFaultCode904"
+      ],
+      "description": "AUTOCYCLE START DELAY"
+    },
+    {
+      "enum": [
+        905,
+        "lysFaultCode905"
+      ],
+      "description": "STARTING"
+    },
+    {
+      "enum": [
+        906,
+        "lysFaultCode906"
+      ],
+      "description": "STARTING-UNLOAD"
+    },
+    {
+      "enum": [
+        907,
+        "lysFaultCode907"
+      ],
+      "description": "RUNNING"
+    },
+    {
+      "enum": [
+        908,
+        "lysFaultCode908"
+      ],
+      "description": "AUTOCYCLE STOP DELAY"
+    },
+    {
+      "enum": [
+        909,
+        "lysFaultCode909"
+      ],
+      "description": "STOPPING-UNLOAD"
+    },
+    {
+      "enum": [
+        910,
+        "lysFaultCode910"
+      ],
+      "description": "LOCKOUT"
+    },
+    {
+      "enum": [
+        911,
+        "lysFaultCode911"
+      ],
+      "description": "STOPPING"
+    }
+  ]
+}

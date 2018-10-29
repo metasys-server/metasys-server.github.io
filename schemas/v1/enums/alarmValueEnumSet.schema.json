@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/alarmValueEnumSet.schema.json",
+  "title": "alarmValueEnumSet",
+  "description": "Alarm Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "avNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "avFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        2,
+        "avOffNormal"
+      ],
+      "description": "Off Normal"
+    },
+    {
+      "enum": [
+        3,
+        "avHighLimit"
+      ],
+      "description": "High Limit"
+    },
+    {
+      "enum": [
+        4,
+        "avLowLimit"
+      ],
+      "description": "Low Limit"
+    },
+    {
+      "enum": [
+        64,
+        "avLoWarn"
+      ],
+      "description": "Low Warning"
+    },
+    {
+      "enum": [
+        65,
+        "avHiWarn"
+      ],
+      "description": "High Warning"
+    },
+    {
+      "enum": [
+        66,
+        "avLoAlarm"
+      ],
+      "description": "Low Alarm"
+    },
+    {
+      "enum": [
+        67,
+        "avHiAlarm"
+      ],
+      "description": "High Alarm"
+    },
+    {
+      "enum": [
+        68,
+        "avAlarm"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        69,
+        "avTrouble"
+      ],
+      "description": "Trouble"
+    },
+    {
+      "enum": [
+        70,
+        "avStatus"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        71,
+        "avOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        72,
+        "avShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        73,
+        "avUnreliable"
+      ],
+      "description": "Unreliable"
+    },
+    {
+      "enum": [
+        74,
+        "avBlank"
+      ],
+      "description": ""
+    },
+    {
+      "enum": [
+        75,
+        "avOnline"
+      ],
+      "description": "Online"
+    },
+    {
+      "enum": [
+        76,
+        "avAboveSetpoint"
+      ],
+      "description": "Above Setpoint"
+    },
+    {
+      "enum": [
+        77,
+        "avBelowSetpoint"
+      ],
+      "description": "Below Setpoint"
+    },
+    {
+      "enum": [
+        78,
+        "avUnoccupied"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        65535,
+        "avUnknownPreviousState"
+      ],
+      "description": "Unknown Previous State"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/effectiveOccupancySourceEnumSet.schema.json",
+  "title": "effectiveOccupancySourceEnumSet",
+  "description": "Effective Occupancy Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "effectiveOccupancySourceOccLocalInput"
+      ],
+      "description": "Local Input"
+    },
+    {
+      "enum": [
+        1,
+        "effectiveOccupancySourceOccLocalNetSensor"
+      ],
+      "description": "Local Network Sensor"
+    },
+    {
+      "enum": [
+        2,
+        "effectiveOccupancySourceOccBasNetRequest"
+      ],
+      "description": "BAS Network Request"
+    },
+    {
+      "enum": [
+        3,
+        "effectiveOccupancySourceOccLocalSched"
+      ],
+      "description": "Local Schedule"
+    },
+    {
+      "enum": [
+        4,
+        "effectiveOccupancySourceTempOcc"
+      ],
+      "description": "Temporary Occupancy"
+    }
+  ]
+}

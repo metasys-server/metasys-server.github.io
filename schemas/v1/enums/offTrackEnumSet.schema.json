@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offTrackEnumSet.schema.json",
+  "title": "offTrackEnumSet",
+  "description": "Off/Track",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "oftrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "oftrTrack"
+      ],
+      "description": "Track"
+    }
+  ]
+}

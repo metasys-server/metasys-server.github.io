@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalOverrideEnumSet.schema.json",
+  "title": "normalOverrideEnumSet",
+  "description": "Normal Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Override"
+    }
+  ]
+}

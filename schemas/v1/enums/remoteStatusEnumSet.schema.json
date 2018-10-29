@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/remoteStatusEnumSet.schema.json",
+  "title": "remoteStatusEnumSet",
+  "description": "Remote Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "remoteOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        1,
+        "remoteNotUsed"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        2,
+        "remoteNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        3,
+        "remoteInAlarm"
+      ],
+      "description": "In Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "remoteRegister"
+      ],
+      "description": "Register"
+    },
+    {
+      "enum": [
+        5,
+        "remoteDisabled"
+      ],
+      "description": "Disabled"
+    }
+  ]
+}

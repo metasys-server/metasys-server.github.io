@@ -1,0 +1,1590 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydSc3EnumSet.schema.json",
+  "title": "ydSc3EnumSet",
+  "description": "YD Cycling Fault Code SC.3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ydSc30"
+      ],
+      "description": "NO CYCLING FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ydSc31"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "ydSc32"
+      ],
+      "description": "MULTIUNIT CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "ydSc33"
+      ],
+      "description": "SYSTEM CYCLING #1 - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        4,
+        "ydSc34"
+      ],
+      "description": "SYSTEM CYCLING #2 - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        5,
+        "ydSc35"
+      ],
+      "description": "CONTROL PANEL - SCHEDULE"
+    },
+    {
+      "enum": [
+        6,
+        "ydSc36"
+      ],
+      "description": "DISCHARGE #1 - VALVE NOT CLOSED"
+    },
+    {
+      "enum": [
+        7,
+        "ydSc37"
+      ],
+      "description": "DISCHARGE #2 - VALVE NOT CLOSED"
+    },
+    {
+      "enum": [
+        8,
+        "ydSc38"
+      ],
+      "description": "PROXIMITY PROBE - LOW SUPPLY VOLTAGE"
+    },
+    {
+      "enum": [
+        9,
+        "ydSc39"
+      ],
+      "description": "LEAVING CHILLED LIQUID - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "ydSc310"
+      ],
+      "description": "LEAVING CHILLED LIQUID - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        11,
+        "ydSc311"
+      ],
+      "description": "CONDENSER - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        12,
+        "ydSc312"
+      ],
+      "description": "OIL - LOW TEMPERATURE DIFFERENTIAL"
+    },
+    {
+      "enum": [
+        13,
+        "ydSc313"
+      ],
+      "description": "OIL - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        14,
+        "ydSc314"
+      ],
+      "description": "OIL PUMP #1 - DRIVE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        15,
+        "ydSc315"
+      ],
+      "description": "OIL PUMP #2 - DRIVE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        16,
+        "ydSc316"
+      ],
+      "description": "MOTOR CONTROLLER #1 - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        17,
+        "ydSc317"
+      ],
+      "description": "MOTOR CONTROLLER #1 - LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        18,
+        "ydSc318"
+      ],
+      "description": "MOTOR CONTROLLER #1 - POWER FAULT"
+    },
+    {
+      "enum": [
+        19,
+        "ydSc319"
+      ],
+      "description": "MOTOR CONTROLLER #2 - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        20,
+        "ydSc320"
+      ],
+      "description": "MOTOR CONTROLLER #2 - LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        21,
+        "ydSc321"
+      ],
+      "description": "MOTOR CONTROLLER #2 - POWER FAULT"
+    },
+    {
+      "enum": [
+        22,
+        "ydSc322"
+      ],
+      "description": "EXPANSION I/O - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        23,
+        "ydSc323"
+      ],
+      "description": "CONDENSER - FREEZE THREAT - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        24,
+        "ydSc324"
+      ],
+      "description": "VSD #1 - INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        25,
+        "ydSc325"
+      ],
+      "description": "VSD #2 - INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        26,
+        "ydSc326"
+      ],
+      "description": "VSD #1 - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        27,
+        "ydSc327"
+      ],
+      "description": "VSD #2 - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        28,
+        "ydSc328"
+      ],
+      "description": "MVVSD #1 - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        29,
+        "ydSc329"
+      ],
+      "description": "MVVSD #2 - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        30,
+        "ydSc330"
+      ],
+      "description": "VSD #1 - LOSS OF COOLING FAN"
+    },
+    {
+      "enum": [
+        31,
+        "ydSc331"
+      ],
+      "description": "VSD #2 - LOSS OF COOLING FAN"
+    },
+    {
+      "enum": [
+        32,
+        "ydSc332"
+      ],
+      "description": "VSD #1 - DC BUS VOLTAGE IMBALANCE - AL"
+    },
+    {
+      "enum": [
+        33,
+        "ydSc333"
+      ],
+      "description": "VSD #2 - DC BUS VOLTAGE IMBALANCE - AL"
+    },
+    {
+      "enum": [
+        34,
+        "ydSc334"
+      ],
+      "description": "VSD #1 - DC BUS VOLTAGE IMBALANCE - AU"
+    },
+    {
+      "enum": [
+        35,
+        "ydSc335"
+      ],
+      "description": "VSD #2 - DC BUS VOLTAGE IMBALANCE - AU"
+    },
+    {
+      "enum": [
+        36,
+        "ydSc336"
+      ],
+      "description": "VSD #1 - DC BUS VOLTAGE IMBALANCE - BL"
+    },
+    {
+      "enum": [
+        37,
+        "ydSc337"
+      ],
+      "description": "VSD #2 - DC BUS VOLTAGE IMBALANCE - BL"
+    },
+    {
+      "enum": [
+        38,
+        "ydSc338"
+      ],
+      "description": "VSD #1 - DC BUS VOLTAGE IMBALANCE - BU"
+    },
+    {
+      "enum": [
+        39,
+        "ydSc339"
+      ],
+      "description": "VSD #2 - DC BUS VOLTAGE IMBALANCE - BU"
+    },
+    {
+      "enum": [
+        40,
+        "ydSc340"
+      ],
+      "description": "VSD #1 - DC BUS VOLTAGE IMBALANCE - CL"
+    },
+    {
+      "enum": [
+        41,
+        "ydSc341"
+      ],
+      "description": "VSD #2 - DC BUS VOLTAGE IMBALANCE - CL"
+    },
+    {
+      "enum": [
+        42,
+        "ydSc342"
+      ],
+      "description": "VSD #1 - DC BUS VOLTAGE IMBALANCE - CU"
+    },
+    {
+      "enum": [
+        43,
+        "ydSc343"
+      ],
+      "description": "VSD #2 - DC BUS VOLTAGE IMBALANCE - CU"
+    },
+    {
+      "enum": [
+        44,
+        "ydSc344"
+      ],
+      "description": "VSD #1 - HIGH DC BUS VOLTAGE - AL"
+    },
+    {
+      "enum": [
+        45,
+        "ydSc345"
+      ],
+      "description": "VSD #2 - HIGH DC BUS VOLTAGE - AL"
+    },
+    {
+      "enum": [
+        46,
+        "ydSc346"
+      ],
+      "description": "VSD #1 - HIGH DC BUS VOLTAGE - AU"
+    },
+    {
+      "enum": [
+        47,
+        "ydSc347"
+      ],
+      "description": "VSD #2 - HIGH DC BUS VOLTAGE - AU"
+    },
+    {
+      "enum": [
+        48,
+        "ydSc348"
+      ],
+      "description": "VSD #1 - HIGH DC BUS VOLTAGE - BL"
+    },
+    {
+      "enum": [
+        49,
+        "ydSc349"
+      ],
+      "description": "VSD #2 - HIGH DC BUS VOLTAGE - BL"
+    },
+    {
+      "enum": [
+        50,
+        "ydSc350"
+      ],
+      "description": "VSD #1 - HIGH DC BUS VOLTAGE - BU"
+    },
+    {
+      "enum": [
+        51,
+        "ydSc351"
+      ],
+      "description": "VSD #2 - HIGH DC BUS VOLTAGE - BU"
+    },
+    {
+      "enum": [
+        52,
+        "ydSc352"
+      ],
+      "description": "VSD #1 - HIGH DC BUS VOLTAGE - CL"
+    },
+    {
+      "enum": [
+        53,
+        "ydSc353"
+      ],
+      "description": "VSD #2 - HIGH DC BUS VOLTAGE - CL"
+    },
+    {
+      "enum": [
+        54,
+        "ydSc354"
+      ],
+      "description": "VSD #1 - HIGH DC BUS VOLTAGE - CU"
+    },
+    {
+      "enum": [
+        55,
+        "ydSc355"
+      ],
+      "description": "VSD #2 - HIGH DC BUS VOLTAGE - CU"
+    },
+    {
+      "enum": [
+        56,
+        "ydSc356"
+      ],
+      "description": "VSD #1 - HIGH INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        57,
+        "ydSc357"
+      ],
+      "description": "VSD #2 - HIGH INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        58,
+        "ydSc358"
+      ],
+      "description": "VSD #1 - INPUT OVER-VOLTAGE"
+    },
+    {
+      "enum": [
+        59,
+        "ydSc359"
+      ],
+      "description": "VSD #2 - INPUT OVER-VOLTAGE"
+    },
+    {
+      "enum": [
+        60,
+        "ydSc360"
+      ],
+      "description": "VSD #1 - INPUT POWER TRANSFORMER"
+    },
+    {
+      "enum": [
+        61,
+        "ydSc361"
+      ],
+      "description": "VSD #2 - INPUT POWER TRANSFORMER"
+    },
+    {
+      "enum": [
+        62,
+        "ydSc362"
+      ],
+      "description": "VSD #1 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - AL"
+    },
+    {
+      "enum": [
+        63,
+        "ydSc363"
+      ],
+      "description": "VSD #2 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - AL"
+    },
+    {
+      "enum": [
+        64,
+        "ydSc364"
+      ],
+      "description": "VSD #1 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - AU"
+    },
+    {
+      "enum": [
+        65,
+        "ydSc365"
+      ],
+      "description": "VSD #2 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - AU"
+    },
+    {
+      "enum": [
+        66,
+        "ydSc366"
+      ],
+      "description": "VSD #1 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - BL"
+    },
+    {
+      "enum": [
+        67,
+        "ydSc367"
+      ],
+      "description": "VSD #2 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - BL"
+    },
+    {
+      "enum": [
+        68,
+        "ydSc368"
+      ],
+      "description": "VSD #1 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - BU"
+    },
+    {
+      "enum": [
+        69,
+        "ydSc369"
+      ],
+      "description": "VSD #2 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - BU"
+    },
+    {
+      "enum": [
+        70,
+        "ydSc370"
+      ],
+      "description": "VSD #1 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - CL"
+    },
+    {
+      "enum": [
+        71,
+        "ydSc371"
+      ],
+      "description": "VSD #2 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - CL"
+    },
+    {
+      "enum": [
+        72,
+        "ydSc372"
+      ],
+      "description": "VSD #1 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - CU"
+    },
+    {
+      "enum": [
+        73,
+        "ydSc373"
+      ],
+      "description": "VSD #2 - PRECHARGE - DC BUS VOLTAGE IMBALANCE - CU"
+    },
+    {
+      "enum": [
+        74,
+        "ydSc374"
+      ],
+      "description": "VSD #1 - LOW CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        75,
+        "ydSc375"
+      ],
+      "description": "VSD #2 - LOW CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        76,
+        "ydSc376"
+      ],
+      "description": "VSD #1 - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        77,
+        "ydSc377"
+      ],
+      "description": "VSD #2 - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        78,
+        "ydSc378"
+      ],
+      "description": "VSD #1 - HIGH INTERNAL AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        79,
+        "ydSc379"
+      ],
+      "description": "VSD #2 - HIGH INTERNAL AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        80,
+        "ydSc380"
+      ],
+      "description": "VSD #1 - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        81,
+        "ydSc381"
+      ],
+      "description": "VSD #2 - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        82,
+        "ydSc382"
+      ],
+      "description": "VSD #1 - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        83,
+        "ydSc383"
+      ],
+      "description": "VSD #2 - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        84,
+        "ydSc384"
+      ],
+      "description": "VSD #1 - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        85,
+        "ydSc385"
+      ],
+      "description": "VSD #2 - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        86,
+        "ydSc386"
+      ],
+      "description": "VSD #1 - PRECHARGE - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        87,
+        "ydSc387"
+      ],
+      "description": "VSD #2 - PRECHARGE - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        88,
+        "ydSc388"
+      ],
+      "description": "VSD #1 - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        89,
+        "ydSc389"
+      ],
+      "description": "VSD #2 - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        90,
+        "ydSc390"
+      ],
+      "description": "VSD #1 - GATE DRIVER - AML"
+    },
+    {
+      "enum": [
+        91,
+        "ydSc391"
+      ],
+      "description": "VSD #2 - GATE DRIVER - AML"
+    },
+    {
+      "enum": [
+        92,
+        "ydSc392"
+      ],
+      "description": "VSD #1 - GATE DRIVER - AMU"
+    },
+    {
+      "enum": [
+        93,
+        "ydSc393"
+      ],
+      "description": "VSD #2 - GATE DRIVER - AMU"
+    },
+    {
+      "enum": [
+        94,
+        "ydSc394"
+      ],
+      "description": "VSD #1 - GATE DRIVER - ANL"
+    },
+    {
+      "enum": [
+        95,
+        "ydSc395"
+      ],
+      "description": "VSD #2 - GATE DRIVER - ANL"
+    },
+    {
+      "enum": [
+        96,
+        "ydSc396"
+      ],
+      "description": "VSD #1 - GATE DRIVER - ANU"
+    },
+    {
+      "enum": [
+        97,
+        "ydSc397"
+      ],
+      "description": "VSD #2 - GATE DRIVER - ANU"
+    },
+    {
+      "enum": [
+        98,
+        "ydSc398"
+      ],
+      "description": "VSD #1 - PHASE A GATE DRIVER"
+    },
+    {
+      "enum": [
+        99,
+        "ydSc399"
+      ],
+      "description": "VSD #2 - PHASE A GATE DRIVER"
+    },
+    {
+      "enum": [
+        100,
+        "ydSc3100"
+      ],
+      "description": "VSD #1 - HIGH PHASE A INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        101,
+        "ydSc3101"
+      ],
+      "description": "VSD #2 - HIGH PHASE A INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        102,
+        "ydSc3102"
+      ],
+      "description": "VSD #1 - LOW PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        103,
+        "ydSc3103"
+      ],
+      "description": "VSD #2 - LOW PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        104,
+        "ydSc3104"
+      ],
+      "description": "VSD #1 - GATE DRIVER - BML"
+    },
+    {
+      "enum": [
+        105,
+        "ydSc3105"
+      ],
+      "description": "VSD #2 - GATE DRIVER - BML"
+    },
+    {
+      "enum": [
+        106,
+        "ydSc3106"
+      ],
+      "description": "VSD #1 - GATE DRIVER - BMU"
+    },
+    {
+      "enum": [
+        107,
+        "ydSc3107"
+      ],
+      "description": "VSD #2 - GATE DRIVER - BMU"
+    },
+    {
+      "enum": [
+        108,
+        "ydSc3108"
+      ],
+      "description": "VSD #1 - GATE DRIVER - BNL"
+    },
+    {
+      "enum": [
+        109,
+        "ydSc3109"
+      ],
+      "description": "VSD #2 - GATE DRIVER - BNL"
+    },
+    {
+      "enum": [
+        110,
+        "ydSc3110"
+      ],
+      "description": "VSD #1 - GATE DRIVER - BNU"
+    },
+    {
+      "enum": [
+        111,
+        "ydSc3111"
+      ],
+      "description": "VSD #2 - GATE DRIVER - BNU"
+    },
+    {
+      "enum": [
+        112,
+        "ydSc3112"
+      ],
+      "description": "VSD #1 - PHASE B GATE DRIVER"
+    },
+    {
+      "enum": [
+        113,
+        "ydSc3113"
+      ],
+      "description": "VSD #2 - PHASE B GATE DRIVER"
+    },
+    {
+      "enum": [
+        114,
+        "ydSc3114"
+      ],
+      "description": "VSD #1 - HIGH PHASE B INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        115,
+        "ydSc3115"
+      ],
+      "description": "VSD #2 - HIGH PHASE B INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        116,
+        "ydSc3116"
+      ],
+      "description": "VSD #1 - LOW PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        117,
+        "ydSc3117"
+      ],
+      "description": "VSD #2 - LOW PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        118,
+        "ydSc3118"
+      ],
+      "description": "VSD #1 - PHASE C GATE DRIVER"
+    },
+    {
+      "enum": [
+        119,
+        "ydSc3119"
+      ],
+      "description": "VSD #2 - PHASE C GATE DRIVER"
+    },
+    {
+      "enum": [
+        120,
+        "ydSc3120"
+      ],
+      "description": "VSD #1 - HIGH PHASE C INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        121,
+        "ydSc3121"
+      ],
+      "description": "VSD #2 - HIGH PHASE C INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        122,
+        "ydSc3122"
+      ],
+      "description": "VSD #1 - LOW PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        123,
+        "ydSc3123"
+      ],
+      "description": "VSD #2 - LOW PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        124,
+        "ydSc3124"
+      ],
+      "description": "VSD #1 - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        125,
+        "ydSc3125"
+      ],
+      "description": "VSD #2 - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        126,
+        "ydSc3126"
+      ],
+      "description": "VSD #1 - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        127,
+        "ydSc3127"
+      ],
+      "description": "VSD #2 - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        128,
+        "ydSc3128"
+      ],
+      "description": "VSD #1 - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        129,
+        "ydSc3129"
+      ],
+      "description": "VSD #2 - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        130,
+        "ydSc3130"
+      ],
+      "description": "VSD #1 - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        131,
+        "ydSc3131"
+      ],
+      "description": "VSD #2 - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        132,
+        "ydSc3132"
+      ],
+      "description": "VSD #1 - SINGLE PHASE INPUT POWER"
+    },
+    {
+      "enum": [
+        133,
+        "ydSc3133"
+      ],
+      "description": "VSD #2 - SINGLE PHASE INPUT POWER"
+    },
+    {
+      "enum": [
+        134,
+        "ydSc3134"
+      ],
+      "description": "HARMONIC FILTER #1 - LOGIC BOARD OR COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        135,
+        "ydSc3135"
+      ],
+      "description": "HARMONIC FILTER #2 - LOGIC BOARD OR COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        136,
+        "ydSc3136"
+      ],
+      "description": "VSD #1 - GATE DRIVER - CNU"
+    },
+    {
+      "enum": [
+        137,
+        "ydSc3137"
+      ],
+      "description": "VSD #2 - GATE DRIVER - CNU"
+    },
+    {
+      "enum": [
+        138,
+        "ydSc3138"
+      ],
+      "description": "VSD #1 - GATE DRIVER - CNL"
+    },
+    {
+      "enum": [
+        139,
+        "ydSc3139"
+      ],
+      "description": "VSD #2 - GATE DRIVER - CNL"
+    },
+    {
+      "enum": [
+        140,
+        "ydSc3140"
+      ],
+      "description": "VSD #1 - GATE DRIVER - CMU"
+    },
+    {
+      "enum": [
+        141,
+        "ydSc3141"
+      ],
+      "description": "VSD #2 - GATE DRIVER - CMU"
+    },
+    {
+      "enum": [
+        142,
+        "ydSc3142"
+      ],
+      "description": "VSD #1 - GATE DRIVER - CML"
+    },
+    {
+      "enum": [
+        143,
+        "ydSc3143"
+      ],
+      "description": "VSD #2 - GATE DRIVER - CML"
+    },
+    {
+      "enum": [
+        144,
+        "ydSc3144"
+      ],
+      "description": "VSD #1 - INPUT POWER SUPPLY"
+    },
+    {
+      "enum": [
+        145,
+        "ydSc3145"
+      ],
+      "description": "VSD #2 - INPUT POWER SUPPLY"
+    },
+    {
+      "enum": [
+        146,
+        "ydSc3146"
+      ],
+      "description": "VSD #1 - HIGH PHASE A INPUT CURRENT"
+    },
+    {
+      "enum": [
+        147,
+        "ydSc3147"
+      ],
+      "description": "VSD #2 - HIGH PHASE A INPUT CURRENT"
+    },
+    {
+      "enum": [
+        148,
+        "ydSc3148"
+      ],
+      "description": "VSD #1 - HIGH PHASE B INPUT CURRENT"
+    },
+    {
+      "enum": [
+        149,
+        "ydSc3149"
+      ],
+      "description": "VSD #2 - HIGH PHASE B INPUT CURRENT"
+    },
+    {
+      "enum": [
+        150,
+        "ydSc3150"
+      ],
+      "description": "VSD #1 - HIGH PHASE C INPUT CURRENT"
+    },
+    {
+      "enum": [
+        151,
+        "ydSc3151"
+      ],
+      "description": "VSD #2 - HIGH PHASE C INPUT CURRENT"
+    },
+    {
+      "enum": [
+        152,
+        "ydSc3152"
+      ],
+      "description": "VSD #1 - HIGH PHASE A OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        153,
+        "ydSc3153"
+      ],
+      "description": "VSD #2 - HIGH PHASE A OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        154,
+        "ydSc3154"
+      ],
+      "description": "VSD #1 - HIGH PHASE B OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        155,
+        "ydSc3155"
+      ],
+      "description": "VSD #2 - HIGH PHASE B OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        156,
+        "ydSc3156"
+      ],
+      "description": "VSD #1 - HIGH PHASE C OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        157,
+        "ydSc3157"
+      ],
+      "description": "VSD #2 - HIGH PHASE C OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        158,
+        "ydSc3158"
+      ],
+      "description": "VSD #1 - PHASE A INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        159,
+        "ydSc3159"
+      ],
+      "description": "VSD #2 - PHASE A INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        160,
+        "ydSc3160"
+      ],
+      "description": "VSD #1 - PHASE B INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        161,
+        "ydSc3161"
+      ],
+      "description": "VSD #2 - PHASE B INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        162,
+        "ydSc3162"
+      ],
+      "description": "VSD #1 - PHASE C INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        163,
+        "ydSc3163"
+      ],
+      "description": "VSD #2 - PHASE C INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        164,
+        "ydSc3164"
+      ],
+      "description": "VSD #1 - PHASE A OUTPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        165,
+        "ydSc3165"
+      ],
+      "description": "VSD #2 - PHASE A OUTPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        166,
+        "ydSc3166"
+      ],
+      "description": "VSD #1 - PHASE B OUTPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        167,
+        "ydSc3167"
+      ],
+      "description": "VSD #2 - PHASE B OUTPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        168,
+        "ydSc3168"
+      ],
+      "description": "VSD #1 - PHASE C OUTPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        169,
+        "ydSc3169"
+      ],
+      "description": "VSD #2 - PHASE C OUTPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        170,
+        "ydSc3170"
+      ],
+      "description": "VSD #1 - LOW PHASE A INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        171,
+        "ydSc3171"
+      ],
+      "description": "VSD #2 - LOW PHASE A INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        172,
+        "ydSc3172"
+      ],
+      "description": "VSD #1 - LOW PHASE B INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        173,
+        "ydSc3173"
+      ],
+      "description": "VSD #2 - LOW PHASE B INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        174,
+        "ydSc3174"
+      ],
+      "description": "VSD #1 - LOW PHASE C INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        175,
+        "ydSc3175"
+      ],
+      "description": "VSD #2 - LOW PHASE C INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        176,
+        "ydSc3176"
+      ],
+      "description": "VSD #1 - LOW PHASE A OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        177,
+        "ydSc3177"
+      ],
+      "description": "VSD #2 - LOW PHASE A OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        178,
+        "ydSc3178"
+      ],
+      "description": "VSD #1 - LOW PHASE B OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        179,
+        "ydSc3179"
+      ],
+      "description": "VSD #2 - LOW PHASE B OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        180,
+        "ydSc3180"
+      ],
+      "description": "VSD #1 - LOW PHASE C OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        181,
+        "ydSc3181"
+      ],
+      "description": "VSD #2 - LOW PHASE C OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        182,
+        "ydSc3182"
+      ],
+      "description": "VSD #1 - INPUT VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        183,
+        "ydSc3183"
+      ],
+      "description": "VSD #2 - INPUT VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        184,
+        "ydSc3184"
+      ],
+      "description": "VSD #1 - DC BUS PRE-REGULATION"
+    },
+    {
+      "enum": [
+        185,
+        "ydSc3185"
+      ],
+      "description": "VSD #2 - DC BUS PRE-REGULATION"
+    },
+    {
+      "enum": [
+        186,
+        "ydSc3186"
+      ],
+      "description": "VSD #1 - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        187,
+        "ydSc3187"
+      ],
+      "description": "VSD #2 - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        188,
+        "ydSc3188"
+      ],
+      "description": "VSD #1 - INVERTER UNDER VOLTAGE"
+    },
+    {
+      "enum": [
+        189,
+        "ydSc3189"
+      ],
+      "description": "VSD #2 - INVERTER UNDER VOLTAGE"
+    },
+    {
+      "enum": [
+        190,
+        "ydSc3190"
+      ],
+      "description": "VSD #1 - LOW INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        191,
+        "ydSc3191"
+      ],
+      "description": "VSD #2 - LOW INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        192,
+        "ydSc3192"
+      ],
+      "description": "VSD #1 LOW PHASE A INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        193,
+        "ydSc3193"
+      ],
+      "description": "VSD #2 LOW PHASE A INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        194,
+        "ydSc3194"
+      ],
+      "description": "VSD #1 LOW PHASE B INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        195,
+        "ydSc3195"
+      ],
+      "description": "VSD #2 LOW PHASE B INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        196,
+        "ydSc3196"
+      ],
+      "description": "VSD #1 LOW PHASE C INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        197,
+        "ydSc3197"
+      ],
+      "description": "VSD #2 LOW PHASE C INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        198,
+        "ydSc3198"
+      ],
+      "description": "VSD #1 SHUTDOWN - REQUESTING FAULT DATA..."
+    },
+    {
+      "enum": [
+        199,
+        "ydSc3199"
+      ],
+      "description": "VSD #2 SHUTDOWN - REQUESTING FAULT DATA..."
+    },
+    {
+      "enum": [
+        200,
+        "ydSc3200"
+      ],
+      "description": "HARMONIC FILTER #1 - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        201,
+        "ydSc3201"
+      ],
+      "description": "HARMONIC FILTER #2 - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        202,
+        "ydSc3202"
+      ],
+      "description": "HARMONIC FILTER #1 - HIGH PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        203,
+        "ydSc3203"
+      ],
+      "description": "HARMONIC FILTER #2 - HIGH PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        204,
+        "ydSc3204"
+      ],
+      "description": "HARMONIC FILTER #1 - HIGH PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        205,
+        "ydSc3205"
+      ],
+      "description": "HARMONIC FILTER #2 - HIGH PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        206,
+        "ydSc3206"
+      ],
+      "description": "HARMONIC FILTER #1 - HIGH PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        207,
+        "ydSc3207"
+      ],
+      "description": "HARMONIC FILTER #2 - HIGH PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        208,
+        "ydSc3208"
+      ],
+      "description": "HARMONIC FILTER #1 - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        209,
+        "ydSc3209"
+      ],
+      "description": "HARMONIC FILTER #2 - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        210,
+        "ydSc3210"
+      ],
+      "description": "HARMONIC FILTER #1 - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        211,
+        "ydSc3211"
+      ],
+      "description": "HARMONIC FILTER #2 - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        212,
+        "ydSc3212"
+      ],
+      "description": "HARMONIC FILTER #1 - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        213,
+        "ydSc3213"
+      ],
+      "description": "HARMONIC FILTER #2 - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        214,
+        "ydSc3214"
+      ],
+      "description": "HARMONIC FILTER #1 - INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        215,
+        "ydSc3215"
+      ],
+      "description": "HARMONIC FILTER #2 - INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        216,
+        "ydSc3216"
+      ],
+      "description": "HARMONIC FILTER #1 - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        217,
+        "ydSc3217"
+      ],
+      "description": "HARMONIC FILTER #2 - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        218,
+        "ydSc3218"
+      ],
+      "description": "HARMONIC FILTER #1 - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        219,
+        "ydSc3219"
+      ],
+      "description": "HARMONIC FILTER #2 - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        220,
+        "ydSc3220"
+      ],
+      "description": "HARMONIC FILTER #1 - DC CURRENT TRANSFORMER 1"
+    },
+    {
+      "enum": [
+        221,
+        "ydSc3221"
+      ],
+      "description": "HARMONIC FILTER #2 - DC CURRENT TRANSFORMER 1"
+    },
+    {
+      "enum": [
+        222,
+        "ydSc3222"
+      ],
+      "description": "HARMONIC FILTER #1 - DC CURRENT TRANSFORMER 2"
+    },
+    {
+      "enum": [
+        223,
+        "ydSc3223"
+      ],
+      "description": "HARMONIC FILTER #2 - DC CURRENT TRANSFORMER 2"
+    },
+    {
+      "enum": [
+        224,
+        "ydSc3224"
+      ],
+      "description": "HARMONIC FILTER #1 - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        225,
+        "ydSc3225"
+      ],
+      "description": "HARMONIC FILTER #2 - PHASE LOCKED LOOP"
+    }
+  ]
+}

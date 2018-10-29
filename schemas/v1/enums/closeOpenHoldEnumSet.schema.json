@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/closeOpenHoldEnumSet.schema.json",
+  "title": "closeOpenHoldEnumSet",
+  "description": "Close/Open/Hold",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cohClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "cohOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "cohHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

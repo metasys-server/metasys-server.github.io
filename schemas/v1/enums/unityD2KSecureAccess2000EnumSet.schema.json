@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityD2KSecureAccess2000EnumSet.schema.json",
+  "title": "unityD2KSecureAccess2000EnumSet",
+  "description": "Unity D2K Secure/Access-2000",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ACCESS"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "SECURE"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "INTRUS"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "INTRUS1"
+    }
+  ]
+}

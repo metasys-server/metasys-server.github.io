@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorRdr8SInputEnumSet.schema.json",
+  "title": "connectorRdr8SInputEnumSet",
+  "description": "Connector RDR8S Input",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorRdr8SInputReader1DoorContact"
+      ],
+      "description": "Reader 1 Door Contact (T1 IN1)"
+    },
+    {
+      "enum": [
+        1,
+        "connectorRdr8SInputReader1Rex"
+      ],
+      "description": "Reader 1 REX (T1 IN2)"
+    },
+    {
+      "enum": [
+        2,
+        "connectorRdr8SInputReader1Tamper"
+      ],
+      "description": "Reader 1 Tamper (T1 IN3)"
+    },
+    {
+      "enum": [
+        3,
+        "connectorRdr8SInputReader1Spare"
+      ],
+      "description": "Reader 1 Spare (T1 IN4)"
+    },
+    {
+      "enum": [
+        4,
+        "connectorRdr8SInputReader2DoorContact"
+      ],
+      "description": "Reader 2 Door Contact (T2 IN1)"
+    },
+    {
+      "enum": [
+        5,
+        "connectorRdr8SInputReader2Rex"
+      ],
+      "description": "Reader 2 REX (T2 IN2)"
+    },
+    {
+      "enum": [
+        6,
+        "connectorRdr8SInputReader2Tamper"
+      ],
+      "description": "Reader 2 Tamper (T2 IN3)"
+    },
+    {
+      "enum": [
+        7,
+        "connectorRdr8SInputReader2Spare"
+      ],
+      "description": "Reader 2 Spare (T2 IN4)"
+    },
+    {
+      "enum": [
+        8,
+        "connectorRdr8SInputReader3DoorContact"
+      ],
+      "description": "Reader 3 Door Contact (T3 IN1)"
+    },
+    {
+      "enum": [
+        9,
+        "connectorRdr8SInputReader3Rex"
+      ],
+      "description": "Reader 3 REX (T3 IN2)"
+    },
+    {
+      "enum": [
+        10,
+        "connectorRdr8SInputReader3Tamper"
+      ],
+      "description": "Reader 3 Tamper (T3 IN3)"
+    },
+    {
+      "enum": [
+        11,
+        "connectorRdr8SInputReader3Spare"
+      ],
+      "description": "Reader 3 Spare (T3 IN4)"
+    },
+    {
+      "enum": [
+        12,
+        "connectorRdr8SInputReader4DoorContact"
+      ],
+      "description": "Reader 4 Door Contact (T4 IN1)"
+    },
+    {
+      "enum": [
+        13,
+        "connectorRdr8SInputReader4Rex"
+      ],
+      "description": "Reader 4 REX (T4 IN2)"
+    },
+    {
+      "enum": [
+        14,
+        "connectorRdr8SInputReader4Tamper"
+      ],
+      "description": "Reader 4 Tamper (T4 IN3)"
+    },
+    {
+      "enum": [
+        15,
+        "connectorRdr8SInputReader4Spare"
+      ],
+      "description": "Reader 4 Spare (T4 IN4)"
+    },
+    {
+      "enum": [
+        16,
+        "connectorRdr8SInputReader5DoorContact"
+      ],
+      "description": "Reader 5 Door Contact (T5 IN1)"
+    },
+    {
+      "enum": [
+        17,
+        "connectorRdr8SInputReader5Rex"
+      ],
+      "description": "Reader 5 REX (T5 IN2)"
+    },
+    {
+      "enum": [
+        18,
+        "connectorRdr8SInputReader5Tamper"
+      ],
+      "description": "Reader 5 Tamper (T5 IN3)"
+    },
+    {
+      "enum": [
+        19,
+        "connectorRdr8SInputReader5Spare"
+      ],
+      "description": "Reader 5 Spare (T5 IN4)"
+    },
+    {
+      "enum": [
+        20,
+        "connectorRdr8SInputReader6DoorContact"
+      ],
+      "description": "Reader 6 REX (T6 IN2)"
+    },
+    {
+      "enum": [
+        21,
+        "connectorRdr8SInputReader6Rex"
+      ],
+      "description": "Reader 6 REX (T6 IN2)"
+    },
+    {
+      "enum": [
+        22,
+        "connectorRdr8SInputReader6Tamper"
+      ],
+      "description": "Reader 6 Tamper (T6 IN3)"
+    },
+    {
+      "enum": [
+        23,
+        "connectorRdr8SInputReader6Spare"
+      ],
+      "description": "Reader 6 Spare (T6 IN4)"
+    },
+    {
+      "enum": [
+        24,
+        "connectorRdr8SInputReader7DoorContact"
+      ],
+      "description": "Reader 7 Door Contact (T7 IN1)"
+    },
+    {
+      "enum": [
+        25,
+        "connectorRdr8SInputReader7Rex"
+      ],
+      "description": "Reader 7 REX (T7 IN2)"
+    },
+    {
+      "enum": [
+        26,
+        "connectorRdr8SInputReader7Tamper"
+      ],
+      "description": "Reader 7 Tamper (T7 IN3)"
+    },
+    {
+      "enum": [
+        27,
+        "connectorRdr8SInputReader7Spare"
+      ],
+      "description": "Reader 7 Spare (T7 IN4)"
+    },
+    {
+      "enum": [
+        28,
+        "connectorRdr8SInputReader8DoorContact"
+      ],
+      "description": "Reader 8 Door Contact (T8 IN1)"
+    },
+    {
+      "enum": [
+        29,
+        "connectorRdr8SInputReader8Rex"
+      ],
+      "description": "Reader 8 REX (T8 IN2)"
+    },
+    {
+      "enum": [
+        30,
+        "connectorRdr8SInputReader8Tamper"
+      ],
+      "description": "Reader 8 Tamper (T8 IN3)"
+    },
+    {
+      "enum": [
+        31,
+        "connectorRdr8SInputReader8Spare"
+      ],
+      "description": "Reader 8 Spare (T8 IN4)"
+    },
+    {
+      "enum": [
+        32,
+        "connectorRdr8SInputPanelTamper"
+      ],
+      "description": "Panel Tamper"
+    },
+    {
+      "enum": [
+        33,
+        "connectorRdr8SInputPowerFail"
+      ],
+      "description": "Power Fail"
+    },
+    {
+      "enum": [
+        34,
+        "connectorRdr8SInputPanelBatteryLow"
+      ],
+      "description": "Panel Battery Low"
+    }
+  ]
+}

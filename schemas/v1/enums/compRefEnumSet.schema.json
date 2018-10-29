@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/compRefEnumSet.schema.json",
+  "title": "compRefEnumSet",
+  "description": "Component Ref",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "componentObject"
+      ],
+      "description": "Component"
+    },
+    {
+      "enum": [
+        1,
+        "referenceObject"
+      ],
+      "description": "Reference"
+    }
+  ]
+}

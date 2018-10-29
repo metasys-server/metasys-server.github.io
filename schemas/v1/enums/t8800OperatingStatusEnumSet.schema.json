@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/t8800OperatingStatusEnumSet.schema.json",
+  "title": "t8800OperatingStatusEnumSet",
+  "description": "T8800 Operating Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "t8800OperatingStatusIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "t8800OperatingStatusPowerOff"
+      ],
+      "description": "Power Off"
+    },
+    {
+      "enum": [
+        2,
+        "t8800OperatingStatusPidReset"
+      ],
+      "description": "PID Reset"
+    },
+    {
+      "enum": [
+        3,
+        "t8800OperatingStatusEmergencyHeat"
+      ],
+      "description": "Emergency Heat"
+    },
+    {
+      "enum": [
+        4,
+        "t8800OperatingStatusHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        5,
+        "t8800OperatingStatusCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        6,
+        "t8800OperatingStatusVentilation"
+      ],
+      "description": "Ventilation"
+    }
+  ]
+}

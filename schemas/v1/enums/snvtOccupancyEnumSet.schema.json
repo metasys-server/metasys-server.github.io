@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtOccupancyEnumSet.schema.json",
+  "title": "snvtOccupancyEnumSet",
+  "description": "SNVT Occupancy",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "todStateOcOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "todStateOcUnoccupied"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        2,
+        "todStateOcBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        3,
+        "todStateOcStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        255,
+        "todStateOcNull"
+      ],
+      "description": "Null"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/provMgrSubCommandsEnumSet.schema.json",
+  "title": "provMgrSubCommandsEnumSet",
+  "description": "Provision Manager Sub Commands",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noCommand"
+      ],
+      "description": "No Command"
+    },
+    {
+      "enum": [
+        1,
+        "updateFirmware"
+      ],
+      "description": "Update Firmware"
+    },
+    {
+      "enum": [
+        2,
+        "backupConfiguration"
+      ],
+      "description": "Backup Configuration"
+    },
+    {
+      "enum": [
+        3,
+        "restoreConfiguration"
+      ],
+      "description": "Restore Configuration"
+    },
+    {
+      "enum": [
+        4,
+        "createFactoryDefaults"
+      ],
+      "description": "Create Factory Defaults"
+    },
+    {
+      "enum": [
+        5,
+        "restoreFactoryDefaults"
+      ],
+      "description": "Restore Factory Defaults"
+    },
+    {
+      "enum": [
+        6,
+        "loadUsbFiles"
+      ],
+      "description": "Load USB Files"
+    },
+    {
+      "enum": [
+        7,
+        "debugTestCommand"
+      ],
+      "description": "Debug Test Command"
+    },
+    {
+      "enum": [
+        8,
+        "cloneConfiguration"
+      ],
+      "description": "Clone Configuration"
+    },
+    {
+      "enum": [
+        9,
+        "updateFirmwareDirect"
+      ],
+      "description": "Update Firmware Direct"
+    },
+    {
+      "enum": [
+        10,
+        "updateFirmwareRemotePkg"
+      ],
+      "description": "Update Firmware by Remote Package"
+    }
+  ]
+}

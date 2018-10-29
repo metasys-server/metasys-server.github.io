@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/aperioHwFaultCauseEnumSet.schema.json",
+  "title": "aperioHwFaultCauseEnumSet",
+  "description": "Aperio Device Fault Cause",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "aperioDeviceFaultCauseNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "aperioDeviceFaultCauseAddressConflict"
+      ],
+      "description": "Address Conflict"
+    }
+  ]
+}

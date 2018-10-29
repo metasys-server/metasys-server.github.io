@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pumpAddShedEnumSet.schema.json",
+  "title": "pumpAddShedEnumSet",
+  "description": "PumpAddShed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pasAdd"
+      ],
+      "description": "Add"
+    },
+    {
+      "enum": [
+        1,
+        "pasNoChange"
+      ],
+      "description": "No Change"
+    },
+    {
+      "enum": [
+        2,
+        "pasShed"
+      ],
+      "description": "Shed"
+    },
+    {
+      "enum": [
+        3,
+        "pasWaitingToAdd"
+      ],
+      "description": "Waiting to Add"
+    },
+    {
+      "enum": [
+        4,
+        "pasWaitingToShed"
+      ],
+      "description": "Waiting to Shed"
+    }
+  ]
+}

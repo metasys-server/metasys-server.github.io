@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dictionaryLanguageEnumSet.schema.json",
+  "title": "dictionaryLanguageEnumSet",
+  "description": "Dictionary Language",
+  "oneOf": [
+    {
+      "enum": [
+        1033,
+        "1033"
+      ],
+      "description": "en"
+    }
+  ]
+}

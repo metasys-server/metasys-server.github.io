@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fbpdValveEnumSet.schema.json",
+  "title": "fbpdValveEnumSet",
+  "description": "FBPD/Valve",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fbvFbpd"
+      ],
+      "description": "FBPD"
+    },
+    {
+      "enum": [
+        1,
+        "fbvValve"
+      ],
+      "description": "Valve"
+    }
+  ]
+}

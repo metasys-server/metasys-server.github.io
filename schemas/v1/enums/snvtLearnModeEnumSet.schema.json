@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtLearnModeEnumSet.schema.json",
+  "title": "snvtLearnModeEnumSet",
+  "description": "SNVT Learn Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Recall"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Learn Current"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Learn Value"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Report Value"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

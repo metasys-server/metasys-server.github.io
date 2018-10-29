@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cvVavMode.schema.json",
+  "title": "cvVavMode",
+  "description": "CV/VAV Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cvVavModeCv"
+      ],
+      "description": "CV"
+    },
+    {
+      "enum": [
+        1,
+        "cvVavModeVav"
+      ],
+      "description": "VAV"
+    }
+  ]
+}

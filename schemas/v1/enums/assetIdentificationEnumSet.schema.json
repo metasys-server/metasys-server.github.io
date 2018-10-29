@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/assetIdentificationEnumSet.schema.json",
+  "title": "assetIdentificationEnumSet",
+  "description": "Asset Identification",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "unaccompaniedAssetIncreaseAndDecrease"
+      ],
+      "description": "Unaccompanied Asset Increase and Decrease"
+    },
+    {
+      "enum": [
+        1,
+        "unaccompaniedAssetIncreaseOnly"
+      ],
+      "description": "Unaccompanied Asset Increase Only"
+    },
+    {
+      "enum": [
+        2,
+        "unaccompaniedAssetDecreaseOnly"
+      ],
+      "description": "Unaccompanied Asset Decrease Only"
+    }
+  ]
+}

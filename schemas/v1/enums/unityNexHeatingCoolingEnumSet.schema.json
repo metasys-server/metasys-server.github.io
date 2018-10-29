@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexHeatingCoolingEnumSet.schema.json",
+  "title": "unityNexHeatingCoolingEnumSet",
+  "description": "Unity NEX Heating/Cooling",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Cool"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Heat"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Cool"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Heat"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    }
+  ]
+}

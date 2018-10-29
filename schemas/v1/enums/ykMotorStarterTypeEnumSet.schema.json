@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykMotorStarterTypeEnumSet.schema.json",
+  "title": "ykMotorStarterTypeEnumSet",
+  "description": "YK Motor Starter Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykMotorStarterTypeEm"
+      ],
+      "description": "EM"
+    },
+    {
+      "enum": [
+        1,
+        "ykMotorStarterTypeModASss"
+      ],
+      "description": "Mod A SSS"
+    },
+    {
+      "enum": [
+        2,
+        "ykMotorStarterTypeVsdMvvsd"
+      ],
+      "description": "VSD / MVVSD"
+    },
+    {
+      "enum": [
+        3,
+        "ykMotorStarterTypeLcsssMvsss"
+      ],
+      "description": "LCSSS / MVSSS"
+    }
+  ]
+}

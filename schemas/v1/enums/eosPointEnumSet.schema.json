@@ -1,0 +1,1646 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eosPointEnumSet.schema.json",
+  "title": "eosPointEnumSet",
+  "description": "EOS Point",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "chilledwaterDeltatemperatureProcessvariable"
+      ],
+      "description": "ChilledWater/DeltaTemperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        1,
+        "chilledwaterDeltatemperatureAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/DeltaTemperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        2,
+        "chilledwaterDeltapressureProcessvariable"
+      ],
+      "description": "ChilledWater/DeltaPressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        3,
+        "chilledwaterDeltapressureAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/DeltaPressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        4,
+        "chilledwaterPowerProcessvariable"
+      ],
+      "description": "ChilledWater/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        5,
+        "chilledwaterPowerAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        6,
+        "chilledwaterInputTemperatureProcessvariable"
+      ],
+      "description": "ChilledWater/Input/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        7,
+        "chilledwaterInputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/Input/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        8,
+        "chilledwaterInputTemperatureActivesetpoint"
+      ],
+      "description": "ChilledWater/Input/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        9,
+        "chilledwaterInputPressureProcessvariable"
+      ],
+      "description": "ChilledWater/Input/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        10,
+        "chilledwaterInputPressureAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/Input/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        11,
+        "chilledwaterInputPressureActivesetpoint"
+      ],
+      "description": "ChilledWater/Input/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        12,
+        "chilledwaterInputFlowProcessvariable"
+      ],
+      "description": "ChilledWater/Input/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        13,
+        "chilledwaterInputFlowAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/Input/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        14,
+        "chilledwaterInputFlowActivesetpoint"
+      ],
+      "description": "ChilledWater/Input/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        15,
+        "chilledwaterOutputTemperatureProcessvariable"
+      ],
+      "description": "ChilledWater/Output/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        16,
+        "chilledwaterOutputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/Output/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        17,
+        "chilledwaterOutputTemperatureActivesetpoint"
+      ],
+      "description": "ChilledWater/Output/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        18,
+        "chilledwaterOutputPressureProcessvariable"
+      ],
+      "description": "ChilledWater/Output/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        19,
+        "chilledwaterOutputPressureAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/Output/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        20,
+        "chilledwaterOutputPressureActivesetpoint"
+      ],
+      "description": "ChilledWater/Output/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        21,
+        "chilledwaterOutputFlowProcessvariable"
+      ],
+      "description": "ChilledWater/Output/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        22,
+        "chilledwaterOutputFlowAlgorithmsetpoint"
+      ],
+      "description": "ChilledWater/Output/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        23,
+        "chilledwaterOutputFlowActivesetpoint"
+      ],
+      "description": "ChilledWater/Output/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        24,
+        "chargefractionProcessvariable"
+      ],
+      "description": "ChargeFraction|ProcessVariable"
+    },
+    {
+      "enum": [
+        25,
+        "chargefractionAlgorithmsetpoint"
+      ],
+      "description": "ChargeFraction|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        26,
+        "storagelevelProcessvariable"
+      ],
+      "description": "StorageLevel|ProcessVariable"
+    },
+    {
+      "enum": [
+        27,
+        "storagelevelAlgorithmsetpoint"
+      ],
+      "description": "StorageLevel|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        28,
+        "storagerateProcessvariable"
+      ],
+      "description": "StorageRate|ProcessVariable"
+    },
+    {
+      "enum": [
+        29,
+        "storagerateAlgorithmsetpoint"
+      ],
+      "description": "StorageRate|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        30,
+        "storagerateActivesetpoint"
+      ],
+      "description": "StorageRate|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        31,
+        "storagedrawProcessvariable"
+      ],
+      "description": "StorageDraw|ProcessVariable"
+    },
+    {
+      "enum": [
+        32,
+        "storagedrawAlgorithmsetpoint"
+      ],
+      "description": "StorageDraw|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        33,
+        "storagedrawActivesetpoint"
+      ],
+      "description": "StorageDraw|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        34,
+        "modeProcessvariable"
+      ],
+      "description": "Mode|ProcessVariable"
+    },
+    {
+      "enum": [
+        35,
+        "modeAlgorithmsetpoint"
+      ],
+      "description": "Mode|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        36,
+        "modeActivesetpoint"
+      ],
+      "description": "Mode|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        37,
+        "hotwaterDeltatemperatureProcessvariable"
+      ],
+      "description": "HotWater/DeltaTemperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        38,
+        "hotwaterDeltatemperatureAlgorithmsetpoint"
+      ],
+      "description": "HotWater/DeltaTemperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        39,
+        "hotwaterDeltapressureProcessvariable"
+      ],
+      "description": "HotWater/DeltaPressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        40,
+        "hotwaterDeltapressureAlgorithmsetpoint"
+      ],
+      "description": "HotWater/DeltaPressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        41,
+        "hotwaterPowerProcessvariable"
+      ],
+      "description": "HotWater/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        42,
+        "hotwaterPowerAlgorithmsetpoint"
+      ],
+      "description": "HotWater/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        43,
+        "hotwaterInputTemperatureProcessvariable"
+      ],
+      "description": "HotWater/Input/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        44,
+        "hotwaterInputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "HotWater/Input/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        45,
+        "hotwaterInputTemperatureActivesetpoint"
+      ],
+      "description": "HotWater/Input/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        46,
+        "hotwaterInputPressureProcessvariable"
+      ],
+      "description": "HotWater/Input/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        47,
+        "hotwaterInputPressureAlgorithmsetpoint"
+      ],
+      "description": "HotWater/Input/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        48,
+        "hotwaterInputPressureActivesetpoint"
+      ],
+      "description": "HotWater/Input/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        49,
+        "hotwaterInputFlowProcessvariable"
+      ],
+      "description": "HotWater/Input/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        50,
+        "hotwaterInputFlowAlgorithmsetpoint"
+      ],
+      "description": "HotWater/Input/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        51,
+        "hotwaterInputFlowActivesetpoint"
+      ],
+      "description": "HotWater/Input/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        52,
+        "hotwaterOutputTemperatureProcessvariable"
+      ],
+      "description": "HotWater/Output/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        53,
+        "hotwaterOutputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "HotWater/Output/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        54,
+        "hotwaterOutputTemperatureActivesetpoint"
+      ],
+      "description": "HotWater/Output/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        55,
+        "hotwaterOutputPressureProcessvariable"
+      ],
+      "description": "HotWater/Output/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        56,
+        "hotwaterOutputPressureAlgorithmsetpoint"
+      ],
+      "description": "HotWater/Output/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        57,
+        "hotwaterOutputPressureActivesetpoint"
+      ],
+      "description": "HotWater/Output/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        58,
+        "hotwaterOutputFlowProcessvariable"
+      ],
+      "description": "HotWater/Output/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        59,
+        "hotwaterOutputFlowAlgorithmsetpoint"
+      ],
+      "description": "HotWater/Output/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        60,
+        "hotwaterOutputFlowActivesetpoint"
+      ],
+      "description": "HotWater/Output/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        61,
+        "electricityPowerProcessvariable"
+      ],
+      "description": "Electricity/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        62,
+        "electricityPowerAlgorithmsetpoint"
+      ],
+      "description": "Electricity/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        63,
+        "electricityPowerActivesetpoint"
+      ],
+      "description": "Electricity/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        64,
+        "electricityDeltavoltageProcessvariable"
+      ],
+      "description": "Electricity/DeltaVoltage|ProcessVariable"
+    },
+    {
+      "enum": [
+        65,
+        "electricityDeltavoltageAlgorithmsetpoint"
+      ],
+      "description": "Electricity/DeltaVoltage|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        66,
+        "electricityCurrentProcessvariable"
+      ],
+      "description": "Electricity/Current|ProcessVariable"
+    },
+    {
+      "enum": [
+        67,
+        "electricityCurrentAlgorithmsetpoint"
+      ],
+      "description": "Electricity/Current|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        68,
+        "steamDeltatemperatureProcessvariable"
+      ],
+      "description": "Steam/DeltaTemperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        69,
+        "steamDeltatemperatureAlgorithmsetpoint"
+      ],
+      "description": "Steam/DeltaTemperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        70,
+        "steamDeltatemperatureActivesetpoint"
+      ],
+      "description": "Steam/DeltaTemperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        71,
+        "steamDeltapressureProcessvariable"
+      ],
+      "description": "Steam/DeltaPressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        72,
+        "steamDeltapressureAlgorithmsetpoint"
+      ],
+      "description": "Steam/DeltaPressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        73,
+        "steamDeltapressureActivesetpoint"
+      ],
+      "description": "Steam/DeltaPressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        74,
+        "steamPowerProcessvariable"
+      ],
+      "description": "Steam/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        75,
+        "steamPowerAlgorithmsetpoint"
+      ],
+      "description": "Steam/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        76,
+        "steamPowerActivesetpoint"
+      ],
+      "description": "Steam/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        77,
+        "steamInputTemperatureProcessvariable"
+      ],
+      "description": "Steam/Input/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        78,
+        "steamInputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "Steam/Input/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        79,
+        "steamInputTemperatureActivesetpoint"
+      ],
+      "description": "Steam/Input/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        80,
+        "steamInputPressureProcessvariable"
+      ],
+      "description": "Steam/Input/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        81,
+        "steamInputPressureAlgorithmsetpoint"
+      ],
+      "description": "Steam/Input/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        82,
+        "steamInputPressureActivesetpoint"
+      ],
+      "description": "Steam/Input/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        83,
+        "steamInputFlowProcessvariable"
+      ],
+      "description": "Steam/Input/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        84,
+        "steamInputFlowAlgorithmsetpoint"
+      ],
+      "description": "Steam/Input/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        85,
+        "steamInputFlowActivesetpoint"
+      ],
+      "description": "Steam/Input/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        86,
+        "steamInputMassflowProcessvariable"
+      ],
+      "description": "Steam/Input/MassFlow|ProcessVariable"
+    },
+    {
+      "enum": [
+        87,
+        "steamInputMassflowAlgorithmsetpoint"
+      ],
+      "description": "Steam/Input/MassFlow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        88,
+        "steamInputMassflowActivesetpoint"
+      ],
+      "description": "Steam/Input/MassFlow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        89,
+        "steamInputQualityProcessvariable"
+      ],
+      "description": "Steam/Input/Quality|ProcessVariable"
+    },
+    {
+      "enum": [
+        90,
+        "steamInputQualityAlgorithmsetpoint"
+      ],
+      "description": "Steam/Input/Quality|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        91,
+        "steamOutputTemperatureProcessvariable"
+      ],
+      "description": "Steam/Output/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        92,
+        "steamOutputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "Steam/Output/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        93,
+        "steamOutputTemperatureActivesetpoint"
+      ],
+      "description": "Steam/Output/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        94,
+        "steamOutputPressureProcessvariable"
+      ],
+      "description": "Steam/Output/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        95,
+        "steamOutputPressureAlgorithmsetpoint"
+      ],
+      "description": "Steam/Output/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        96,
+        "steamOutputPressureActivesetpoint"
+      ],
+      "description": "Steam/Output/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        97,
+        "steamOutputFlowProcessvariable"
+      ],
+      "description": "Steam/Output/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        98,
+        "steamOutputFlowAlgorithmsetpoint"
+      ],
+      "description": "Steam/Output/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        99,
+        "steamOutputFlowActivesetpoint"
+      ],
+      "description": "Steam/Output/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        100,
+        "steamOutputMassflowProcessvariable"
+      ],
+      "description": "Steam/Output/MassFlow|ProcessVariable"
+    },
+    {
+      "enum": [
+        101,
+        "steamOutputMassflowAlgorithmsetpoint"
+      ],
+      "description": "Steam/Output/MassFlow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        102,
+        "steamOutputMassflowActivesetpoint"
+      ],
+      "description": "Steam/Output/MassFlow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        103,
+        "steamOutputQualityProcessvariable"
+      ],
+      "description": "Steam/Output/Quality|ProcessVariable"
+    },
+    {
+      "enum": [
+        104,
+        "steamOutputQualityAlgorithmsetpoint"
+      ],
+      "description": "Steam/Output/Quality|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        105,
+        "waterInputTemperatureProcessvariable"
+      ],
+      "description": "Water/Input/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        106,
+        "waterInputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "Water/Input/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        107,
+        "waterInputTemperatureActivesetpoint"
+      ],
+      "description": "Water/Input/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        108,
+        "waterInputFlowProcessvariable"
+      ],
+      "description": "Water/Input/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        109,
+        "waterInputFlowAlgorithmsetpoint"
+      ],
+      "description": "Water/Input/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        110,
+        "waterInputFlowActivesetpoint"
+      ],
+      "description": "Water/Input/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        111,
+        "sequencingpropertiesOnoffstatusProcessvariable"
+      ],
+      "description": "SequencingProperties/OnOffStatus|ProcessVariable"
+    },
+    {
+      "enum": [
+        112,
+        "sequencingpropertiesOnoffstatusAlgorithmsetpoint"
+      ],
+      "description": "SequencingProperties/OnOffStatus|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        113,
+        "sequencingpropertiesOnoffstatusActivesetpoint"
+      ],
+      "description": "SequencingProperties/OnOffStatus|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        114,
+        "sequencingpropertiesRuntime"
+      ],
+      "description": "SequencingProperties/RunTime"
+    },
+    {
+      "enum": [
+        115,
+        "sequencingpropertiesStartcount"
+      ],
+      "description": "SequencingProperties/StartCount"
+    },
+    {
+      "enum": [
+        116,
+        "sequencingpropertiesPriority"
+      ],
+      "description": "SequencingProperties/Priority"
+    },
+    {
+      "enum": [
+        117,
+        "condenserwaterDeltatemperatureProcessvariable"
+      ],
+      "description": "CondenserWater/DeltaTemperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        118,
+        "condenserwaterDeltatemperatureAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/DeltaTemperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        119,
+        "condenserwaterDeltapressureProcessvariable"
+      ],
+      "description": "CondenserWater/DeltaPressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        120,
+        "condenserwaterDeltapressureAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/DeltaPressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        121,
+        "condenserwaterPowerProcessvariable"
+      ],
+      "description": "CondenserWater/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        122,
+        "condenserwaterPowerAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        123,
+        "condenserwaterInputTemperatureProcessvariable"
+      ],
+      "description": "CondenserWater/Input/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        124,
+        "condenserwaterInputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/Input/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        125,
+        "condenserwaterInputTemperatureActivesetpoint"
+      ],
+      "description": "CondenserWater/Input/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        126,
+        "condenserwaterInputPressureProcessvariable"
+      ],
+      "description": "CondenserWater/Input/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        127,
+        "condenserwaterInputPressureAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/Input/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        128,
+        "condenserwaterInputPressureActivesetpoint"
+      ],
+      "description": "CondenserWater/Input/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        129,
+        "condenserwaterInputFlowProcessvariable"
+      ],
+      "description": "CondenserWater/Input/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        130,
+        "condenserwaterInputFlowAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/Input/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        131,
+        "condenserwaterInputFlowActivesetpoint"
+      ],
+      "description": "CondenserWater/Input/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        132,
+        "condenserwaterOutputTemperatureProcessvariable"
+      ],
+      "description": "CondenserWater/Output/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        133,
+        "condenserwaterOutputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/Output/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        134,
+        "condenserwaterOutputTemperatureActivesetpoint"
+      ],
+      "description": "CondenserWater/Output/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        135,
+        "condenserwaterOutputPressureProcessvariable"
+      ],
+      "description": "CondenserWater/Output/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        136,
+        "condenserwaterOutputPressureAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/Output/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        137,
+        "condenserwaterOutputPressureActivesetpoint"
+      ],
+      "description": "CondenserWater/Output/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        138,
+        "condenserwaterOutputFlowProcessvariable"
+      ],
+      "description": "CondenserWater/Output/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        139,
+        "condenserwaterOutputFlowAlgorithmsetpoint"
+      ],
+      "description": "CondenserWater/Output/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        140,
+        "condenserwaterOutputFlowActivesetpoint"
+      ],
+      "description": "CondenserWater/Output/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        141,
+        "waterOutputTemperatureProcessvariable"
+      ],
+      "description": "Water/Output/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        142,
+        "waterOutputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "Water/Output/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        143,
+        "waterOutputTemperatureActivesetpoint"
+      ],
+      "description": "Water/Output/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        144,
+        "waterOutputFlowProcessvariable"
+      ],
+      "description": "Water/Output/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        145,
+        "waterOutputFlowAlgorithmsetpoint"
+      ],
+      "description": "Water/Output/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        146,
+        "waterOutputFlowActivesetpoint"
+      ],
+      "description": "Water/Output/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        147,
+        "naturalgasPowerProcessvariable"
+      ],
+      "description": "NaturalGas/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        148,
+        "naturalgasPowerAlgorithmsetpoint"
+      ],
+      "description": "NaturalGas/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        149,
+        "naturalgasPowerActivesetpoint"
+      ],
+      "description": "NaturalGas/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        150,
+        "hotgasDeltatemperatureProcessvariable"
+      ],
+      "description": "HotGas/DeltaTemperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        151,
+        "hotgasDeltatemperatureAlgorithmsetpoint"
+      ],
+      "description": "HotGas/DeltaTemperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        152,
+        "hotgasDeltatemperatureActivesetpoint"
+      ],
+      "description": "HotGas/DeltaTemperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        153,
+        "hotgasDeltapressureProcessvariable"
+      ],
+      "description": "HotGas/DeltaPressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        154,
+        "hotgasDeltapressureAlgorithmsetpoint"
+      ],
+      "description": "HotGas/DeltaPressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        155,
+        "hotgasDeltapressureActivesetpoint"
+      ],
+      "description": "HotGas/DeltaPressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        156,
+        "hotgasPowerProcessvariable"
+      ],
+      "description": "HotGas/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        157,
+        "hotgasPowerAlgorithmsetpoint"
+      ],
+      "description": "HotGas/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        158,
+        "hotgasPowerActivesetpoint"
+      ],
+      "description": "HotGas/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        159,
+        "hotgasDeltamassflowProcessvariable"
+      ],
+      "description": "HotGas/DeltaMassFlow|ProcessVariable"
+    },
+    {
+      "enum": [
+        160,
+        "hotgasDeltamassflowAlgorithmsetpoint"
+      ],
+      "description": "HotGas/DeltaMassFlow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        161,
+        "hotgasInputTemperatureProcessvariable"
+      ],
+      "description": "HotGas/Input/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        162,
+        "hotgasInputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "HotGas/Input/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        163,
+        "hotgasInputTemperatureActivesetpoint"
+      ],
+      "description": "HotGas/Input/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        164,
+        "hotgasInputPressureProcessvariable"
+      ],
+      "description": "HotGas/Input/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        165,
+        "hotgasInputPressureAlgorithmsetpoint"
+      ],
+      "description": "HotGas/Input/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        166,
+        "hotgasInputPressureActivesetpoint"
+      ],
+      "description": "HotGas/Input/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        167,
+        "hotgasInputMassflowProcessvariable"
+      ],
+      "description": "HotGas/Input/MassFlow|ProcessVariable"
+    },
+    {
+      "enum": [
+        168,
+        "hotgasInputMassflowAlgorithmsetpoint"
+      ],
+      "description": "HotGas/Input/MassFlow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        169,
+        "hotgasInputMassflowActivesetpoint"
+      ],
+      "description": "HotGas/Input/MassFlow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        170,
+        "hotgasOutputTemperatureProcessvariable"
+      ],
+      "description": "HotGas/Output/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        171,
+        "hotgasOutputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "HotGas/Output/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        172,
+        "hotgasOutputTemperatureActivesetpoint"
+      ],
+      "description": "HotGas/Output/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        173,
+        "hotgasOutputPressureProcessvariable"
+      ],
+      "description": "HotGas/Output/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        174,
+        "hotgasOutputPressureAlgorithmsetpoint"
+      ],
+      "description": "HotGas/Output/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        175,
+        "hotgasOutputPressureActivesetpoint"
+      ],
+      "description": "HotGas/Output/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        176,
+        "hotgasOutputMassflowProcessvariable"
+      ],
+      "description": "HotGas/Output/MassFlow|ProcessVariable"
+    },
+    {
+      "enum": [
+        177,
+        "hotgasOutputMassflowAlgorithmsetpoint"
+      ],
+      "description": "HotGas/Output/MassFlow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        178,
+        "hotgasOutputMassflowActivesetpoint"
+      ],
+      "description": "HotGas/Output/MassFlow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        179,
+        "chilledwaterDeltatemperatureActivesetpoint"
+      ],
+      "description": "ChilledWater/DeltaTemperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        180,
+        "chilledwaterDeltapressureActivesetpoint"
+      ],
+      "description": "ChilledWater/DeltaPressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        181,
+        "chilledwaterPowerActivesetpoint"
+      ],
+      "description": "ChilledWater/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        182,
+        "hotwaterDeltatemperatureActivesetpoint"
+      ],
+      "description": "HotWater/DeltaTemperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        183,
+        "hotwaterDeltapressureActivesetpoint"
+      ],
+      "description": "HotWater/DeltaPressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        184,
+        "hotwaterPowerActivesetpoint"
+      ],
+      "description": "HotWater/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        185,
+        "waterInputPressureProcessvariable"
+      ],
+      "description": "Water/Input/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        186,
+        "waterInputPressureAlgorithmsetpoint"
+      ],
+      "description": "Water/Input/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        187,
+        "waterInputPressureActivesetpoint"
+      ],
+      "description": "Water/Input/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        188,
+        "condenserwaterDeltatemperatureActivesetpoint"
+      ],
+      "description": "CondenserWater/DeltaTemperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        189,
+        "condenserwaterDeltapressureActivesetpoint"
+      ],
+      "description": "CondenserWater/DeltaPressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        190,
+        "condenserwaterPowerActivesetpoint"
+      ],
+      "description": "CondenserWater/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        191,
+        "waterOutputPressureProcessvariable"
+      ],
+      "description": "Water/Output/Pressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        192,
+        "waterOutputPressureAlgorithmsetpoint"
+      ],
+      "description": "Water/Output/Pressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        193,
+        "waterOutputPressureActivesetpoint"
+      ],
+      "description": "Water/Output/Pressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        194,
+        "amountmetered"
+      ],
+      "description": "AmountMetered"
+    },
+    {
+      "enum": [
+        195,
+        "waterDeltatemperatureProcessvariable"
+      ],
+      "description": "Water/DeltaTemperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        196,
+        "waterDeltatemperatureAlgorithmsetpoint"
+      ],
+      "description": "Water/DeltaTemperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        197,
+        "waterDeltatemperatureActivesetpoint"
+      ],
+      "description": "Water/DeltaTemperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        198,
+        "waterDeltapressureProcessvariable"
+      ],
+      "description": "Water/DeltaPressure|ProcessVariable"
+    },
+    {
+      "enum": [
+        199,
+        "waterDeltapressureAlgorithmsetpoint"
+      ],
+      "description": "Water/DeltaPressure|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        200,
+        "waterDeltapressureActivesetpoint"
+      ],
+      "description": "Water/DeltaPressure|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        201,
+        "waterPowerProcessvariable"
+      ],
+      "description": "Water/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        202,
+        "waterPowerAlgorithmsetpoint"
+      ],
+      "description": "Water/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        203,
+        "waterPowerActivesetpoint"
+      ],
+      "description": "Water/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        204,
+        "dcelectricityPowerProcessvariable"
+      ],
+      "description": "DcElectricity/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        205,
+        "dcelectricityPowerAlgorithmsetpoint"
+      ],
+      "description": "DcElectricity/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        206,
+        "dcelectricityPowerActivesetpoint"
+      ],
+      "description": "DcElectricity/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        207,
+        "dcelectricityDeltavoltageProcessvariable"
+      ],
+      "description": "DcElectricity/DeltaVoltage|ProcessVariable"
+    },
+    {
+      "enum": [
+        208,
+        "dcelectricityDeltavoltageAlgorithmsetpoint"
+      ],
+      "description": "DcElectricity/DeltaVoltage|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        209,
+        "dcelectricityCurrentProcessvariable"
+      ],
+      "description": "DcElectricity/Current|ProcessVariable"
+    },
+    {
+      "enum": [
+        210,
+        "dcelectricityCurrentAlgorithmsetpoint"
+      ],
+      "description": "DcElectricity/Current|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        211,
+        "coldairPowerProcessvariable"
+      ],
+      "description": "ColdAir/Power|ProcessVariable"
+    },
+    {
+      "enum": [
+        212,
+        "coldairPowerAlgorithmsetpoint"
+      ],
+      "description": "ColdAir/Power|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        213,
+        "coldairPowerActivesetpoint"
+      ],
+      "description": "ColdAir/Power|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        214,
+        "coldairInputTemperatureProcessvariable"
+      ],
+      "description": "ColdAir/Input/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        215,
+        "coldairInputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "ColdAir/Input/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        216,
+        "coldairInputTemperatureActivesetpoint"
+      ],
+      "description": "ColdAir/Input/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        217,
+        "coldairInputFlowProcessvariable"
+      ],
+      "description": "ColdAir/Input/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        218,
+        "coldairInputFlowAlgorithmsetpoint"
+      ],
+      "description": "ColdAir/Input/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        219,
+        "coldairInputFlowActivesetpoint"
+      ],
+      "description": "ColdAir/Input/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        220,
+        "coldairInputMassflowProcessvariable"
+      ],
+      "description": "ColdAir/Input/MassFlow|ProcessVariable"
+    },
+    {
+      "enum": [
+        221,
+        "coldairInputMassflowAlgorithmsetpoint"
+      ],
+      "description": "ColdAir/Input/MassFlow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        222,
+        "coldairInputMassflowActivesetpoint"
+      ],
+      "description": "ColdAir/Input/MassFlow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        223,
+        "coldairOutputTemperatureProcessvariable"
+      ],
+      "description": "ColdAir/Output/Temperature|ProcessVariable"
+    },
+    {
+      "enum": [
+        224,
+        "coldairOutputTemperatureAlgorithmsetpoint"
+      ],
+      "description": "ColdAir/Output/Temperature|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        225,
+        "coldairOutputTemperatureActivesetpoint"
+      ],
+      "description": "ColdAir/Output/Temperature|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        226,
+        "coldairOutputFlowProcessvariable"
+      ],
+      "description": "ColdAir/Output/Flow|ProcessVariable"
+    },
+    {
+      "enum": [
+        227,
+        "coldairOutputFlowAlgorithmsetpoint"
+      ],
+      "description": "ColdAir/Output/Flow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        228,
+        "coldairOutputFlowActivesetpoint"
+      ],
+      "description": "ColdAir/Output/Flow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        229,
+        "coldairOutputMassflowProcessvariable"
+      ],
+      "description": "ColdAir/Output/MassFlow|ProcessVariable"
+    },
+    {
+      "enum": [
+        230,
+        "coldairOutputMassflowAlgorithmsetpoint"
+      ],
+      "description": "ColdAir/Output/MassFlow|AlgorithmSetpoint"
+    },
+    {
+      "enum": [
+        231,
+        "coldairOutputMassflowActivesetpoint"
+      ],
+      "description": "ColdAir/Output/MassFlow|ActiveSetpoint"
+    },
+    {
+      "enum": [
+        232,
+        "blowdownrate"
+      ],
+      "description": "BlowdownRate"
+    },
+    {
+      "enum": [
+        233,
+        "operatingmodeActual"
+      ],
+      "description": "OperatingMode|Actual"
+    }
+  ]
+}

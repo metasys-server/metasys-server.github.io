@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuFlowStatesEnumSet.schema.json",
+  "title": "ahuFlowStatesEnumSet",
+  "description": "AHU Flow States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "afsNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "afsLowFlow"
+      ],
+      "description": "Low Flow"
+    },
+    {
+      "enum": [
+        2,
+        "afsSelfResetFault"
+      ],
+      "description": "Self Reset Fault"
+    },
+    {
+      "enum": [
+        3,
+        "afsManualResetFault"
+      ],
+      "description": "Manual Reset Fault"
+    }
+  ]
+}

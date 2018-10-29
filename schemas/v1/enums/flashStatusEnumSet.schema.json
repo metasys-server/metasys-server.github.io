@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/flashStatusEnumSet.schema.json",
+  "title": "flashStatusEnumSet",
+  "description": "Flash Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "flashMemOk"
+      ],
+      "description": "Flash Memory OK"
+    },
+    {
+      "enum": [
+        1,
+        "flashMemFail"
+      ],
+      "description": "Flash Memory Fails"
+    },
+    {
+      "enum": [
+        2,
+        "flashMemFull"
+      ],
+      "description": "Flash Memory Full"
+    }
+  ]
+}

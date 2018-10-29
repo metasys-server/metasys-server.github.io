@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/raptyrCommandEnumSet.schema.json",
+  "title": "raptyrCommandEnumSet",
+  "description": "Raptyr Command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "raptyrCmdRaptyrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "raptyrCmdRaptyrPreRegulate"
+      ],
+      "description": "Pre-Regulate"
+    },
+    {
+      "enum": [
+        2,
+        "raptyrCmdRaptyrRun"
+      ],
+      "description": "Run"
+    },
+    {
+      "enum": [
+        3,
+        "raptyrCmdRaptyrManualPreCharge"
+      ],
+      "description": "Manual Precharge"
+    },
+    {
+      "enum": [
+        4,
+        "raptyrCmdRaptyrManualPreRegulate"
+      ],
+      "description": "Manual Pre-Regulate"
+    },
+    {
+      "enum": [
+        5,
+        "raptyrCmdRaptyrSoftShutdown"
+      ],
+      "description": "Soft Shutdown"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexFalseTrueEnumSet.schema.json",
+  "title": "unityNexFalseTrueEnumSet",
+  "description": "Unity NEX False/True",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, True"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, False"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, True"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, False"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    }
+  ]
+}

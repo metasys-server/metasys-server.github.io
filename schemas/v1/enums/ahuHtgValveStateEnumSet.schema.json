@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHtgValveStateEnumSet.schema.json",
+  "title": "ahuHtgValveStateEnumSet",
+  "description": "AHU Htg Valve State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuHtgVsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuHtgVsMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ahuHtgVsLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "ahuHtgVsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "ahuHtgVsWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "ahuHtgVsTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        6,
+        "ahuHtgVsLlTControl"
+      ],
+      "description": "LL-T Control"
+    },
+    {
+      "enum": [
+        7,
+        "ahuHtgVsFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        8,
+        "ahuHtgVsLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        9,
+        "ahuHtgVsRemainInCtrl"
+      ],
+      "description": "Remain In Control"
+    }
+  ]
+}

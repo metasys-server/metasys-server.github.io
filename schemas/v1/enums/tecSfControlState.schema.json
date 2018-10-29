@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecSfControlState.schema.json",
+  "title": "tecSfControlState",
+  "description": "TEC SF Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tscsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "tscsMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "tscsMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        3,
+        "tscsRampMin"
+      ],
+      "description": "Ramp Min"
+    },
+    {
+      "enum": [
+        4,
+        "tscsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        5,
+        "tscsSingleSpeed"
+      ],
+      "description": "Single Speed"
+    },
+    {
+      "enum": [
+        6,
+        "tscsMultiSpeed"
+      ],
+      "description": "Multi Speed"
+    },
+    {
+      "enum": [
+        7,
+        "tscsVariableSpeed"
+      ],
+      "description": "Variable Speed"
+    }
+  ]
+}

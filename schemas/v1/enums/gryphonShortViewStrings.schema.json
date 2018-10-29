@@ -1,0 +1,2598 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/gryphonShortViewStrings.schema.json",
+  "title": "gryphonShortViewStrings",
+  "description": "Gryphon Short View Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "gryphonShortSsS"
+      ],
+      "description": "SS-S"
+    },
+    {
+      "enum": [
+        1,
+        "gryphonShortSmokeA"
+      ],
+      "description": "SMOKE-A"
+    },
+    {
+      "enum": [
+        2,
+        "gryphonShortPurge1"
+      ],
+      "description": "Purge1"
+    },
+    {
+      "enum": [
+        3,
+        "gryphonShortPurge2"
+      ],
+      "description": "Purge2"
+    },
+    {
+      "enum": [
+        4,
+        "gryphonShortPurge3"
+      ],
+      "description": "Purge3"
+    },
+    {
+      "enum": [
+        5,
+        "gryphonShortExrtS"
+      ],
+      "description": "ExRt-S"
+    },
+    {
+      "enum": [
+        6,
+        "gryphonShortSupplyfS"
+      ],
+      "description": "SupplyF-S"
+    },
+    {
+      "enum": [
+        7,
+        "gryphonShortPfiltDp"
+      ],
+      "description": "PFILT-DP"
+    },
+    {
+      "enum": [
+        8,
+        "gryphonShortFfiltDp"
+      ],
+      "description": "FFILT-DP"
+    },
+    {
+      "enum": [
+        9,
+        "gryphonShortPhaseA"
+      ],
+      "description": "PHASE-A"
+    },
+    {
+      "enum": [
+        10,
+        "gryphonShort24Vac"
+      ],
+      "description": "24VAC"
+    },
+    {
+      "enum": [
+        11,
+        "gryphonShortOptctrl"
+      ],
+      "description": "OptCtrl"
+    },
+    {
+      "enum": [
+        12,
+        "gryphonShortCond1Ctrl"
+      ],
+      "description": "Cond1Ctrl"
+    },
+    {
+      "enum": [
+        13,
+        "gryphonShortCond2Ctrl"
+      ],
+      "description": "Cond2Ctrl"
+    },
+    {
+      "enum": [
+        14,
+        "gryphonShortCtb"
+      ],
+      "description": "CTB"
+    },
+    {
+      "enum": [
+        15,
+        "gryphonShortOprzt"
+      ],
+      "description": "OprZT"
+    },
+    {
+      "enum": [
+        16,
+        "gryphonShortOprzso"
+      ],
+      "description": "OprZSO"
+    },
+    {
+      "enum": [
+        17,
+        "gryphonShortOprzh"
+      ],
+      "description": "OprZH"
+    },
+    {
+      "enum": [
+        18,
+        "gryphonShortDat"
+      ],
+      "description": "DAT"
+    },
+    {
+      "enum": [
+        19,
+        "gryphonShortZt"
+      ],
+      "description": "ZT"
+    },
+    {
+      "enum": [
+        20,
+        "gryphonShortZtsrc"
+      ],
+      "description": "ZTSrc"
+    },
+    {
+      "enum": [
+        21,
+        "gryphonShortZtalarmoffset"
+      ],
+      "description": "ZTAlarmOffset"
+    },
+    {
+      "enum": [
+        22,
+        "gryphonShortZtalarmdelay"
+      ],
+      "description": "ZTAlarmDelay"
+    },
+    {
+      "enum": [
+        23,
+        "gryphonShortZah"
+      ],
+      "description": "ZAH"
+    },
+    {
+      "enum": [
+        24,
+        "gryphonShortZahSrc"
+      ],
+      "description": "ZAHSrc"
+    },
+    {
+      "enum": [
+        25,
+        "gryphonShortDah"
+      ],
+      "description": "DAH"
+    },
+    {
+      "enum": [
+        26,
+        "gryphonShortDaP"
+      ],
+      "description": "DA-P"
+    },
+    {
+      "enum": [
+        27,
+        "gryphonShortAhumainver"
+      ],
+      "description": "AHUMainVer"
+    },
+    {
+      "enum": [
+        28,
+        "gryphonShortAhuappver"
+      ],
+      "description": "AHUAppVer"
+    },
+    {
+      "enum": [
+        29,
+        "gryphonShortAhuhardver"
+      ],
+      "description": "AHUHardVer"
+    },
+    {
+      "enum": [
+        30,
+        "gryphonShortOptionmainver"
+      ],
+      "description": "OptionMainVer"
+    },
+    {
+      "enum": [
+        31,
+        "gryphonShortOptionappver"
+      ],
+      "description": "OptionAppVer"
+    },
+    {
+      "enum": [
+        32,
+        "gryphonShortOptionhardver"
+      ],
+      "description": "OptionHardVer"
+    },
+    {
+      "enum": [
+        33,
+        "gryphonShortCond1Mainver"
+      ],
+      "description": "Cond1MainVer"
+    },
+    {
+      "enum": [
+        34,
+        "gryphonShortCond1Appver"
+      ],
+      "description": "Cond1AppVer"
+    },
+    {
+      "enum": [
+        35,
+        "gryphonShortCond1Hardver"
+      ],
+      "description": "Cond1HardVer"
+    },
+    {
+      "enum": [
+        36,
+        "gryphonShortCond2Mainver"
+      ],
+      "description": "Cond2MainVer"
+    },
+    {
+      "enum": [
+        37,
+        "gryphonShortCond2Appver"
+      ],
+      "description": "Cond2AppVer"
+    },
+    {
+      "enum": [
+        38,
+        "gryphonShortCond2Hardver"
+      ],
+      "description": "Cond2HardVer"
+    },
+    {
+      "enum": [
+        39,
+        "gryphonShortCtbmainver"
+      ],
+      "description": "CTBMainVer"
+    },
+    {
+      "enum": [
+        40,
+        "gryphonShortCtbappver"
+      ],
+      "description": "CTBAppVer"
+    },
+    {
+      "enum": [
+        41,
+        "gryphonShortCtbhardver"
+      ],
+      "description": "CTBHardVer"
+    },
+    {
+      "enum": [
+        42,
+        "gryphonShortNetzt"
+      ],
+      "description": "NetZT"
+    },
+    {
+      "enum": [
+        43,
+        "gryphonShortAdrS"
+      ],
+      "description": "ADR-S"
+    },
+    {
+      "enum": [
+        44,
+        "gryphonShortC1AEn"
+      ],
+      "description": "C1A-En"
+    },
+    {
+      "enum": [
+        45,
+        "gryphonShortC1BEn"
+      ],
+      "description": "C1B-En"
+    },
+    {
+      "enum": [
+        46,
+        "gryphonShortC1CEn"
+      ],
+      "description": "C1C-En"
+    },
+    {
+      "enum": [
+        47,
+        "gryphonShortC2AEn"
+      ],
+      "description": "C2A-En"
+    },
+    {
+      "enum": [
+        48,
+        "gryphonShortC2BEn"
+      ],
+      "description": "C2B-En"
+    },
+    {
+      "enum": [
+        49,
+        "gryphonShortC2CEn"
+      ],
+      "description": "C2C-En"
+    },
+    {
+      "enum": [
+        50,
+        "gryphonShortStage1A"
+      ],
+      "description": "Stage 1A"
+    },
+    {
+      "enum": [
+        51,
+        "gryphonShortStage1B"
+      ],
+      "description": "Stage 1B"
+    },
+    {
+      "enum": [
+        52,
+        "gryphonShortStage1C"
+      ],
+      "description": "Stage 1C"
+    },
+    {
+      "enum": [
+        53,
+        "gryphonShortStage2A"
+      ],
+      "description": "Stage 2A"
+    },
+    {
+      "enum": [
+        54,
+        "gryphonShortStage2B"
+      ],
+      "description": "Stage 2B"
+    },
+    {
+      "enum": [
+        55,
+        "gryphonShortStage2C"
+      ],
+      "description": "Stage 2C"
+    },
+    {
+      "enum": [
+        56,
+        "gryphonShortC1AS"
+      ],
+      "description": "C1A-S"
+    },
+    {
+      "enum": [
+        57,
+        "gryphonShortC1BS"
+      ],
+      "description": "C1B-S"
+    },
+    {
+      "enum": [
+        58,
+        "gryphonShortC1CS"
+      ],
+      "description": "C1C-S"
+    },
+    {
+      "enum": [
+        59,
+        "gryphonShortC2AS"
+      ],
+      "description": "C2A-S"
+    },
+    {
+      "enum": [
+        60,
+        "gryphonShortC2BS"
+      ],
+      "description": "C2B-S"
+    },
+    {
+      "enum": [
+        61,
+        "gryphonShortC2CS"
+      ],
+      "description": "C2C-S"
+    },
+    {
+      "enum": [
+        62,
+        "gryphonShortC1A"
+      ],
+      "description": "C1A"
+    },
+    {
+      "enum": [
+        63,
+        "gryphonShortC1B"
+      ],
+      "description": "C1B"
+    },
+    {
+      "enum": [
+        64,
+        "gryphonShortC1C"
+      ],
+      "description": "C1C"
+    },
+    {
+      "enum": [
+        65,
+        "gryphonShortC2A"
+      ],
+      "description": "C2A"
+    },
+    {
+      "enum": [
+        66,
+        "gryphonShortC2B"
+      ],
+      "description": "C2B"
+    },
+    {
+      "enum": [
+        67,
+        "gryphonShortC2C"
+      ],
+      "description": "C2C"
+    },
+    {
+      "enum": [
+        68,
+        "gryphonShortC1Aontimer"
+      ],
+      "description": "C1AOnTimer"
+    },
+    {
+      "enum": [
+        69,
+        "gryphonShortC1Bontimer"
+      ],
+      "description": "C1BOnTimer"
+    },
+    {
+      "enum": [
+        70,
+        "gryphonShortC1Contimer"
+      ],
+      "description": "C1COnTimer"
+    },
+    {
+      "enum": [
+        71,
+        "gryphonShortC2Aontimer"
+      ],
+      "description": "C2AOnTimer"
+    },
+    {
+      "enum": [
+        72,
+        "gryphonShortC2Bontimer"
+      ],
+      "description": "C2BOnTimer"
+    },
+    {
+      "enum": [
+        73,
+        "gryphonShortC2Contimer"
+      ],
+      "description": "C2COnTimer"
+    },
+    {
+      "enum": [
+        74,
+        "gryphonShortC1AAscdtmr"
+      ],
+      "description": "C1A-ASCDTmr"
+    },
+    {
+      "enum": [
+        75,
+        "gryphonShortC1BAscdtmr"
+      ],
+      "description": "C1B-ASCDTmr"
+    },
+    {
+      "enum": [
+        76,
+        "gryphonShortC1CAscdtmr"
+      ],
+      "description": "C1C-ASCDTmr"
+    },
+    {
+      "enum": [
+        77,
+        "gryphonShortC2AAscdtmr"
+      ],
+      "description": "C2A-ASCDTmr"
+    },
+    {
+      "enum": [
+        78,
+        "gryphonShortC2BAscdtmr"
+      ],
+      "description": "C2B-ASCDTmr"
+    },
+    {
+      "enum": [
+        79,
+        "gryphonShortC2CAscdtmr"
+      ],
+      "description": "C2C-ASCDTmr"
+    },
+    {
+      "enum": [
+        80,
+        "gryphonShortC1ARuntime"
+      ],
+      "description": "C1A-RunTime"
+    },
+    {
+      "enum": [
+        81,
+        "gryphonShortC1BRuntime"
+      ],
+      "description": "C1B-RunTime"
+    },
+    {
+      "enum": [
+        82,
+        "gryphonShortC1CRuntime"
+      ],
+      "description": "C1C-RunTime"
+    },
+    {
+      "enum": [
+        83,
+        "gryphonShortC2ARuntime"
+      ],
+      "description": "C2A-RunTime"
+    },
+    {
+      "enum": [
+        84,
+        "gryphonShortC2BRuntime"
+      ],
+      "description": "C2B-RunTime"
+    },
+    {
+      "enum": [
+        85,
+        "gryphonShortC2CRuntime"
+      ],
+      "description": "C2C-RunTime"
+    },
+    {
+      "enum": [
+        86,
+        "gryphonShortC1AStarts"
+      ],
+      "description": "C1A-Starts"
+    },
+    {
+      "enum": [
+        87,
+        "gryphonShortC1BStarts"
+      ],
+      "description": "C1B-Starts"
+    },
+    {
+      "enum": [
+        88,
+        "gryphonShortC1CStarts"
+      ],
+      "description": "C1C-Starts"
+    },
+    {
+      "enum": [
+        89,
+        "gryphonShortC2AStarts"
+      ],
+      "description": "C2A-Starts"
+    },
+    {
+      "enum": [
+        90,
+        "gryphonShortC2BStarts"
+      ],
+      "description": "C2B-Starts"
+    },
+    {
+      "enum": [
+        91,
+        "gryphonShortC2CStarts"
+      ],
+      "description": "C2C-Starts"
+    },
+    {
+      "enum": [
+        92,
+        "gryphonShortC1AOvrruntime"
+      ],
+      "description": "C1A-OvrRuntime"
+    },
+    {
+      "enum": [
+        93,
+        "gryphonShortC1BOvrruntime"
+      ],
+      "description": "C1B-OvrRuntime"
+    },
+    {
+      "enum": [
+        94,
+        "gryphonShortC1COvrruntime"
+      ],
+      "description": "C1C-OvrRuntime"
+    },
+    {
+      "enum": [
+        95,
+        "gryphonShortC2AOvrruntime"
+      ],
+      "description": "C2A-OvrRuntime"
+    },
+    {
+      "enum": [
+        96,
+        "gryphonShortC2BOvrruntime"
+      ],
+      "description": "C2B-OvrRuntime"
+    },
+    {
+      "enum": [
+        97,
+        "gryphonShortC2COvrruntime"
+      ],
+      "description": "C2C-OvrRuntime"
+    },
+    {
+      "enum": [
+        98,
+        "gryphonShortC1AOvrstarts"
+      ],
+      "description": "C1A-OvrStarts"
+    },
+    {
+      "enum": [
+        99,
+        "gryphonShortC1BOvrstarts"
+      ],
+      "description": "C1B-OvrStarts"
+    },
+    {
+      "enum": [
+        100,
+        "gryphonShortC1COvrstarts"
+      ],
+      "description": "C1C-OvrStarts"
+    },
+    {
+      "enum": [
+        101,
+        "gryphonShortC2AOvrstarts"
+      ],
+      "description": "C2A-OvrStarts"
+    },
+    {
+      "enum": [
+        102,
+        "gryphonShortC2BOvrstarts"
+      ],
+      "description": "C2B-OvrStarts"
+    },
+    {
+      "enum": [
+        103,
+        "gryphonShortC2COvrstarts"
+      ],
+      "description": "C2C-OvrStarts"
+    },
+    {
+      "enum": [
+        104,
+        "gryphonShortC1ACap"
+      ],
+      "description": "C1A-Cap"
+    },
+    {
+      "enum": [
+        105,
+        "gryphonShortC1BCap"
+      ],
+      "description": "C1B-Cap"
+    },
+    {
+      "enum": [
+        106,
+        "gryphonShortC1CCap"
+      ],
+      "description": "C1C-Cap"
+    },
+    {
+      "enum": [
+        107,
+        "gryphonShortC2ACap"
+      ],
+      "description": "C2A-Cap"
+    },
+    {
+      "enum": [
+        108,
+        "gryphonShortC2BCap"
+      ],
+      "description": "C2B-Cap"
+    },
+    {
+      "enum": [
+        109,
+        "gryphonShortC2CCap"
+      ],
+      "description": "C2C-Cap"
+    },
+    {
+      "enum": [
+        110,
+        "gryphonShortEvapT"
+      ],
+      "description": "EVAP-T"
+    },
+    {
+      "enum": [
+        111,
+        "gryphonShortComp1A"
+      ],
+      "description": "COMP1-A"
+    },
+    {
+      "enum": [
+        112,
+        "gryphonShortComp2A"
+      ],
+      "description": "COMP2-A"
+    },
+    {
+      "enum": [
+        113,
+        "gryphonShortComp1Lo"
+      ],
+      "description": "COMP1-LO"
+    },
+    {
+      "enum": [
+        114,
+        "gryphonShortComp2Lo"
+      ],
+      "description": "COMP2-LO"
+    },
+    {
+      "enum": [
+        115,
+        "gryphonShortC1AHpUnload"
+      ],
+      "description": "C1A-HP-Unload"
+    },
+    {
+      "enum": [
+        116,
+        "gryphonShortC1BHpUnload"
+      ],
+      "description": "C1B-HP-Unload"
+    },
+    {
+      "enum": [
+        117,
+        "gryphonShortC1CHpUnload"
+      ],
+      "description": "C1C-HP-Unload"
+    },
+    {
+      "enum": [
+        118,
+        "gryphonShortC2AHpUnload"
+      ],
+      "description": "C2A-HP-Unload"
+    },
+    {
+      "enum": [
+        119,
+        "gryphonShortC2BHpUnload"
+      ],
+      "description": "C2B-HP-Unload"
+    },
+    {
+      "enum": [
+        120,
+        "gryphonShortC2CHpUnload"
+      ],
+      "description": "C2C-HP-Unload"
+    },
+    {
+      "enum": [
+        121,
+        "gryphonShortC1ALpUnload"
+      ],
+      "description": "C1A-LP-Unload"
+    },
+    {
+      "enum": [
+        122,
+        "gryphonShortC1BLpUnload"
+      ],
+      "description": "C1B-LP-Unload"
+    },
+    {
+      "enum": [
+        123,
+        "gryphonShortC1CLpUnload"
+      ],
+      "description": "C1C-LP-Unload"
+    },
+    {
+      "enum": [
+        124,
+        "gryphonShortC2ALpUnload"
+      ],
+      "description": "C2A-LP-Unload"
+    },
+    {
+      "enum": [
+        125,
+        "gryphonShortC2BLpUnload"
+      ],
+      "description": "C2B-LP-Unload"
+    },
+    {
+      "enum": [
+        126,
+        "gryphonShortC2CLpUnload"
+      ],
+      "description": "C2C-LP-Unload"
+    },
+    {
+      "enum": [
+        127,
+        "gryphonShortCondA"
+      ],
+      "description": "COND-A"
+    },
+    {
+      "enum": [
+        128,
+        "gryphonShortStage5"
+      ],
+      "description": "Stage 5"
+    },
+    {
+      "enum": [
+        129,
+        "gryphonShortStage6"
+      ],
+      "description": "Stage 6"
+    },
+    {
+      "enum": [
+        130,
+        "gryphonShortStage7"
+      ],
+      "description": "Stage 7"
+    },
+    {
+      "enum": [
+        131,
+        "gryphonShortStage8"
+      ],
+      "description": "Stage 8"
+    },
+    {
+      "enum": [
+        132,
+        "gryphonShortStage9"
+      ],
+      "description": "Stage 9"
+    },
+    {
+      "enum": [
+        133,
+        "gryphonShortStage10"
+      ],
+      "description": "Stage 10"
+    },
+    {
+      "enum": [
+        134,
+        "gryphonShortH4S"
+      ],
+      "description": "H4-S"
+    },
+    {
+      "enum": [
+        135,
+        "gryphonShortH5S"
+      ],
+      "description": "H5-S"
+    },
+    {
+      "enum": [
+        136,
+        "gryphonShortH6S"
+      ],
+      "description": "H6-S"
+    },
+    {
+      "enum": [
+        137,
+        "gryphonShortH7S"
+      ],
+      "description": "H7-S"
+    },
+    {
+      "enum": [
+        138,
+        "gryphonShortH8S"
+      ],
+      "description": "H8-S"
+    },
+    {
+      "enum": [
+        139,
+        "gryphonShortH9S"
+      ],
+      "description": "H9-S"
+    },
+    {
+      "enum": [
+        140,
+        "gryphonShortH10S"
+      ],
+      "description": "H10-S"
+    },
+    {
+      "enum": [
+        141,
+        "gryphonShortH4"
+      ],
+      "description": "H4"
+    },
+    {
+      "enum": [
+        142,
+        "gryphonShortH5"
+      ],
+      "description": "H5"
+    },
+    {
+      "enum": [
+        143,
+        "gryphonShortH6"
+      ],
+      "description": "H6"
+    },
+    {
+      "enum": [
+        144,
+        "gryphonShortH7"
+      ],
+      "description": "H7"
+    },
+    {
+      "enum": [
+        145,
+        "gryphonShortH8"
+      ],
+      "description": "H8"
+    },
+    {
+      "enum": [
+        146,
+        "gryphonShortH9"
+      ],
+      "description": "H9"
+    },
+    {
+      "enum": [
+        147,
+        "gryphonShortH10"
+      ],
+      "description": "H10"
+    },
+    {
+      "enum": [
+        148,
+        "gryphonShortH4Ontmr"
+      ],
+      "description": "H4OnTmr"
+    },
+    {
+      "enum": [
+        149,
+        "gryphonShortH5Ontmr"
+      ],
+      "description": "H5OnTmr"
+    },
+    {
+      "enum": [
+        150,
+        "gryphonShortH6Ontmr"
+      ],
+      "description": "H6OnTmr"
+    },
+    {
+      "enum": [
+        151,
+        "gryphonShortH7Ontmr"
+      ],
+      "description": "H7OnTmr"
+    },
+    {
+      "enum": [
+        152,
+        "gryphonShortH8Ontmr"
+      ],
+      "description": "H8OnTmr"
+    },
+    {
+      "enum": [
+        153,
+        "gryphonShortH9Ontmr"
+      ],
+      "description": "H9OnTmr"
+    },
+    {
+      "enum": [
+        154,
+        "gryphonShortH10Ontmr"
+      ],
+      "description": "H10OnTmr"
+    },
+    {
+      "enum": [
+        155,
+        "gryphonShortH4Ascdtmr"
+      ],
+      "description": "H4ASCDTmr"
+    },
+    {
+      "enum": [
+        156,
+        "gryphonShortH5Ascdtmr"
+      ],
+      "description": "H5ASCDTmr"
+    },
+    {
+      "enum": [
+        157,
+        "gryphonShortH6Ascdtmr"
+      ],
+      "description": "H6ASCDTmr"
+    },
+    {
+      "enum": [
+        158,
+        "gryphonShortH7Ascdtmr"
+      ],
+      "description": "H7ASCDTmr"
+    },
+    {
+      "enum": [
+        159,
+        "gryphonShortH8Ascdtmr"
+      ],
+      "description": "H8ASCDTmr"
+    },
+    {
+      "enum": [
+        160,
+        "gryphonShortH9Ascdtmr"
+      ],
+      "description": "H9ASCDTmr"
+    },
+    {
+      "enum": [
+        161,
+        "gryphonShortH10Ascdtmr"
+      ],
+      "description": "H10ASCDTmr"
+    },
+    {
+      "enum": [
+        162,
+        "gryphonShortH1Starts"
+      ],
+      "description": "H1-Starts"
+    },
+    {
+      "enum": [
+        163,
+        "gryphonShortH2Starts"
+      ],
+      "description": "H2-Starts"
+    },
+    {
+      "enum": [
+        164,
+        "gryphonShortH3Starts"
+      ],
+      "description": "H3-Starts"
+    },
+    {
+      "enum": [
+        165,
+        "gryphonShortH4Starts"
+      ],
+      "description": "H4-Starts"
+    },
+    {
+      "enum": [
+        166,
+        "gryphonShortH5Starts"
+      ],
+      "description": "H5-Starts"
+    },
+    {
+      "enum": [
+        167,
+        "gryphonShortH6Starts"
+      ],
+      "description": "H6-Starts"
+    },
+    {
+      "enum": [
+        168,
+        "gryphonShortH7Starts"
+      ],
+      "description": "H7-Starts"
+    },
+    {
+      "enum": [
+        169,
+        "gryphonShortH8Starts"
+      ],
+      "description": "H8-Starts"
+    },
+    {
+      "enum": [
+        170,
+        "gryphonShortH9Starts"
+      ],
+      "description": "H9-Starts"
+    },
+    {
+      "enum": [
+        171,
+        "gryphonShortH10Starts"
+      ],
+      "description": "H10-Starts"
+    },
+    {
+      "enum": [
+        172,
+        "gryphonShortH1Runtime"
+      ],
+      "description": "H1-Runtime"
+    },
+    {
+      "enum": [
+        173,
+        "gryphonShortH2Runtime"
+      ],
+      "description": "H2-Runtime"
+    },
+    {
+      "enum": [
+        174,
+        "gryphonShortH3Runtime"
+      ],
+      "description": "H3-Runtime"
+    },
+    {
+      "enum": [
+        175,
+        "gryphonShortH4Runtime"
+      ],
+      "description": "H4-Runtime"
+    },
+    {
+      "enum": [
+        176,
+        "gryphonShortH5Runtime"
+      ],
+      "description": "H5-Runtime"
+    },
+    {
+      "enum": [
+        177,
+        "gryphonShortH6Runtime"
+      ],
+      "description": "H6-Runtime"
+    },
+    {
+      "enum": [
+        178,
+        "gryphonShortH7Runtime"
+      ],
+      "description": "H7-Runtime"
+    },
+    {
+      "enum": [
+        179,
+        "gryphonShortH8Runtime"
+      ],
+      "description": "H8-Runtime"
+    },
+    {
+      "enum": [
+        180,
+        "gryphonShortH9Runtime"
+      ],
+      "description": "H9-Runtime"
+    },
+    {
+      "enum": [
+        181,
+        "gryphonShortH10Runtime"
+      ],
+      "description": "H10-Runtime"
+    },
+    {
+      "enum": [
+        182,
+        "gryphonShortH1Ovrruntime"
+      ],
+      "description": "H1-OvrRuntime"
+    },
+    {
+      "enum": [
+        183,
+        "gryphonShortH2Ovrruntime"
+      ],
+      "description": "H2-OvrRuntime"
+    },
+    {
+      "enum": [
+        184,
+        "gryphonShortH3Ovrruntime"
+      ],
+      "description": "H3-OvrRuntime"
+    },
+    {
+      "enum": [
+        185,
+        "gryphonShortH4Ovrruntime"
+      ],
+      "description": "H4-OvrRuntime"
+    },
+    {
+      "enum": [
+        186,
+        "gryphonShortH5Ovrruntime"
+      ],
+      "description": "H5-OvrRuntime"
+    },
+    {
+      "enum": [
+        187,
+        "gryphonShortH6Ovrruntime"
+      ],
+      "description": "H6-OvrRuntime"
+    },
+    {
+      "enum": [
+        188,
+        "gryphonShortH7Ovrruntime"
+      ],
+      "description": "H7-OvrRuntime"
+    },
+    {
+      "enum": [
+        189,
+        "gryphonShortH8Ovrruntime"
+      ],
+      "description": "H8-OvrRuntime"
+    },
+    {
+      "enum": [
+        190,
+        "gryphonShortH9Ovrruntime"
+      ],
+      "description": "H9-OvrRuntime"
+    },
+    {
+      "enum": [
+        191,
+        "gryphonShortH10Ovrruntime"
+      ],
+      "description": "H10-OvrRuntime"
+    },
+    {
+      "enum": [
+        192,
+        "gryphonShortH1Ovrstarts"
+      ],
+      "description": "H1-OvrStarts"
+    },
+    {
+      "enum": [
+        193,
+        "gryphonShortH2Ovrstarts"
+      ],
+      "description": "H2-OvrStarts"
+    },
+    {
+      "enum": [
+        194,
+        "gryphonShortH3Ovrstarts"
+      ],
+      "description": "H3-OvrStarts"
+    },
+    {
+      "enum": [
+        195,
+        "gryphonShortH4Ovrstarts"
+      ],
+      "description": "H4-OvrStarts"
+    },
+    {
+      "enum": [
+        196,
+        "gryphonShortH5Ovrstarts"
+      ],
+      "description": "H5-OvrStarts"
+    },
+    {
+      "enum": [
+        197,
+        "gryphonShortH6Ovrstarts"
+      ],
+      "description": "H6-OvrStarts"
+    },
+    {
+      "enum": [
+        198,
+        "gryphonShortH7Ovrstarts"
+      ],
+      "description": "H7-OvrStarts"
+    },
+    {
+      "enum": [
+        199,
+        "gryphonShortH8Ovrstarts"
+      ],
+      "description": "H8-OvrStarts"
+    },
+    {
+      "enum": [
+        200,
+        "gryphonShortH9Ovrstarts"
+      ],
+      "description": "H9-OvrStarts"
+    },
+    {
+      "enum": [
+        201,
+        "gryphonShortH10Ovrstarts"
+      ],
+      "description": "H10-OvrStarts"
+    },
+    {
+      "enum": [
+        202,
+        "gryphonShortH1Cap"
+      ],
+      "description": "H1-Cap"
+    },
+    {
+      "enum": [
+        203,
+        "gryphonShortH2Cap"
+      ],
+      "description": "H2-Cap"
+    },
+    {
+      "enum": [
+        204,
+        "gryphonShortH3Cap"
+      ],
+      "description": "H3-Cap"
+    },
+    {
+      "enum": [
+        205,
+        "gryphonShortH4Cap"
+      ],
+      "description": "H4-Cap"
+    },
+    {
+      "enum": [
+        206,
+        "gryphonShortH5Cap"
+      ],
+      "description": "H5-Cap"
+    },
+    {
+      "enum": [
+        207,
+        "gryphonShortH6Cap"
+      ],
+      "description": "H6-Cap"
+    },
+    {
+      "enum": [
+        208,
+        "gryphonShortH7Cap"
+      ],
+      "description": "H7-Cap"
+    },
+    {
+      "enum": [
+        209,
+        "gryphonShortH8Cap"
+      ],
+      "description": "H8-Cap"
+    },
+    {
+      "enum": [
+        210,
+        "gryphonShortH9Cap"
+      ],
+      "description": "H9-Cap"
+    },
+    {
+      "enum": [
+        211,
+        "gryphonShortH10Cap"
+      ],
+      "description": "H10-Cap"
+    },
+    {
+      "enum": [
+        212,
+        "gryphonShortFurn1S"
+      ],
+      "description": "Furn1-S"
+    },
+    {
+      "enum": [
+        213,
+        "gryphonShortFurn2S"
+      ],
+      "description": "Furn2-S"
+    },
+    {
+      "enum": [
+        214,
+        "gryphonShortFurn3S"
+      ],
+      "description": "Furn3-S"
+    },
+    {
+      "enum": [
+        215,
+        "gryphonShortFurn4S"
+      ],
+      "description": "Furn4-S"
+    },
+    {
+      "enum": [
+        216,
+        "gryphonShortFurn5S"
+      ],
+      "description": "Furn5-S"
+    },
+    {
+      "enum": [
+        217,
+        "gryphonShortHydheat"
+      ],
+      "description": "HydHeat"
+    },
+    {
+      "enum": [
+        218,
+        "gryphonShortMod"
+      ],
+      "description": "Mod"
+    },
+    {
+      "enum": [
+        219,
+        "gryphonShortModcompen"
+      ],
+      "description": "ModCompEn"
+    },
+    {
+      "enum": [
+        220,
+        "gryphonShortModheaten"
+      ],
+      "description": "ModHeatEn"
+    },
+    {
+      "enum": [
+        221,
+        "gryphonShortSf"
+      ],
+      "description": "SF"
+    },
+    {
+      "enum": [
+        222,
+        "gryphonShortSfC"
+      ],
+      "description": "SF-C"
+    },
+    {
+      "enum": [
+        223,
+        "gryphonShortSfO"
+      ],
+      "description": "SF-O"
+    },
+    {
+      "enum": [
+        224,
+        "gryphonShortSfvfd1Flt"
+      ],
+      "description": "SFVFD1Flt"
+    },
+    {
+      "enum": [
+        225,
+        "gryphonShortSfvfd2Flt"
+      ],
+      "description": "SFVFD2Flt"
+    },
+    {
+      "enum": [
+        226,
+        "gryphonShortDaphiA"
+      ],
+      "description": "DAPHI-A"
+    },
+    {
+      "enum": [
+        227,
+        "gryphonShortHighspeedfanMinpos"
+      ],
+      "description": "HighSpeedFan-MinPos"
+    },
+    {
+      "enum": [
+        228,
+        "gryphonShortMinoaEn"
+      ],
+      "description": "MinOA-En"
+    },
+    {
+      "enum": [
+        229,
+        "gryphonShortOaFlow"
+      ],
+      "description": "OAFlow"
+    },
+    {
+      "enum": [
+        230,
+        "gryphonShortExhaust"
+      ],
+      "description": "Exhaust"
+    },
+    {
+      "enum": [
+        231,
+        "gryphonShortEfS"
+      ],
+      "description": "EF-S"
+    },
+    {
+      "enum": [
+        232,
+        "gryphonShortEfC"
+      ],
+      "description": "EF-C"
+    },
+    {
+      "enum": [
+        233,
+        "gryphonShortBldgP"
+      ],
+      "description": "BLDG-P"
+    },
+    {
+      "enum": [
+        234,
+        "gryphonShortEfO"
+      ],
+      "description": "EF-O"
+    },
+    {
+      "enum": [
+        235,
+        "gryphonShortEfFlow"
+      ],
+      "description": "EF-Flow"
+    },
+    {
+      "enum": [
+        236,
+        "gryphonShortRf"
+      ],
+      "description": "RF"
+    },
+    {
+      "enum": [
+        237,
+        "gryphonShortRfEn"
+      ],
+      "description": "RF-En"
+    },
+    {
+      "enum": [
+        238,
+        "gryphonShortRfFlow"
+      ],
+      "description": "RF-Flow"
+    },
+    {
+      "enum": [
+        239,
+        "gryphonShortRfP"
+      ],
+      "description": "RF-P"
+    },
+    {
+      "enum": [
+        240,
+        "gryphonShortRfhighpSp"
+      ],
+      "description": "RFHighP-SP"
+    },
+    {
+      "enum": [
+        241,
+        "gryphonShortRflowpSp"
+      ],
+      "description": "RFLowP-SP"
+    },
+    {
+      "enum": [
+        242,
+        "gryphonShortRfO"
+      ],
+      "description": "RF-O"
+    },
+    {
+      "enum": [
+        243,
+        "gryphonShortMzVav"
+      ],
+      "description": "MZ VAV"
+    },
+    {
+      "enum": [
+        244,
+        "gryphonShortDapMin"
+      ],
+      "description": "DAP-Min"
+    },
+    {
+      "enum": [
+        245,
+        "gryphonShortDapAlmdly"
+      ],
+      "description": "DAP-AlmDly"
+    },
+    {
+      "enum": [
+        246,
+        "gryphonShortHumidity"
+      ],
+      "description": "Humidity"
+    },
+    {
+      "enum": [
+        247,
+        "gryphonShortDehumSp"
+      ],
+      "description": "Dehum-SP"
+    },
+    {
+      "enum": [
+        248,
+        "gryphonShortHumSp"
+      ],
+      "description": "Hum-SP"
+    },
+    {
+      "enum": [
+        249,
+        "gryphonShortUnoccdehumsp"
+      ],
+      "description": "UnoccDehumSP"
+    },
+    {
+      "enum": [
+        250,
+        "gryphonShortUnocchumsp"
+      ],
+      "description": "UnoccHumSP"
+    },
+    {
+      "enum": [
+        251,
+        "gryphonShortSatisfiedhum"
+      ],
+      "description": "SatisfiedHum"
+    },
+    {
+      "enum": [
+        252,
+        "gryphonShortSatisfieddehum"
+      ],
+      "description": "SatisfiedDehum"
+    },
+    {
+      "enum": [
+        253,
+        "gryphonShortHumEn"
+      ],
+      "description": "Hum-En"
+    },
+    {
+      "enum": [
+        254,
+        "gryphonShortDischargehumlim"
+      ],
+      "description": "DischargeHumLim"
+    },
+    {
+      "enum": [
+        255,
+        "gryphonShortHgrhC"
+      ],
+      "description": "HGRH-C"
+    },
+    {
+      "enum": [
+        256,
+        "gryphonShortHgrO"
+      ],
+      "description": "HGR-O"
+    },
+    {
+      "enum": [
+        257,
+        "gryphonShortHrw"
+      ],
+      "description": "HRW"
+    },
+    {
+      "enum": [
+        258,
+        "gryphonShortHrwEn"
+      ],
+      "description": "HRW-En"
+    },
+    {
+      "enum": [
+        259,
+        "gryphonShortEahrT"
+      ],
+      "description": "EAHR-T"
+    },
+    {
+      "enum": [
+        260,
+        "gryphonShortHrwC"
+      ],
+      "description": "HRW-C"
+    },
+    {
+      "enum": [
+        261,
+        "gryphonShortHrwO"
+      ],
+      "description": "HRW-O"
+    },
+    {
+      "enum": [
+        262,
+        "gryphonShortHrwS"
+      ],
+      "description": "HRW-S"
+    },
+    {
+      "enum": [
+        263,
+        "gryphonShortHreafbdC"
+      ],
+      "description": "HREAFBD-C"
+    },
+    {
+      "enum": [
+        264,
+        "gryphonShortHroafbdC"
+      ],
+      "description": "HROAFBD-C"
+    },
+    {
+      "enum": [
+        265,
+        "gryphonShortFlexsys"
+      ],
+      "description": "Flexsys"
+    },
+    {
+      "enum": [
+        266,
+        "gryphonShortFlexsysEn"
+      ],
+      "description": "Flexsys-En"
+    },
+    {
+      "enum": [
+        267,
+        "gryphonShortFlexsysslabT"
+      ],
+      "description": "FLEXSYSSLAB-T"
+    },
+    {
+      "enum": [
+        268,
+        "gryphonShortFlexsysslabH"
+      ],
+      "description": "FLEXSYSSLAB-H"
+    },
+    {
+      "enum": [
+        269,
+        "gryphonShortFlexsysbdO"
+      ],
+      "description": "FLEXSYSBD-O"
+    },
+    {
+      "enum": [
+        270,
+        "gryphonShortDaDp"
+      ],
+      "description": "DA-DP"
+    },
+    {
+      "enum": [
+        271,
+        "gryphonShortRfC"
+      ],
+      "description": "RF-C"
+    },
+    {
+      "enum": [
+        272,
+        "gryphonShortHeT"
+      ],
+      "description": "HE-T"
+    },
+    {
+      "enum": [
+        273,
+        "gryphonShortEaVp"
+      ],
+      "description": "EA-VP"
+    },
+    {
+      "enum": [
+        274,
+        "gryphonShortRaVp"
+      ],
+      "description": "RA-VP"
+    },
+    {
+      "enum": [
+        275,
+        "gryphonShortRadPos"
+      ],
+      "description": "RAD-POS"
+    },
+    {
+      "enum": [
+        276,
+        "gryphonShortRadO"
+      ],
+      "description": "RAD-O"
+    },
+    {
+      "enum": [
+        277,
+        "gryphonShortClgcaplim"
+      ],
+      "description": "ClgCapLim"
+    },
+    {
+      "enum": [
+        278,
+        "gryphonShortHtgcaplim"
+      ],
+      "description": "HtgCapLim"
+    },
+    {
+      "enum": [
+        279,
+        "gryphonShortRpdstrttime"
+      ],
+      "description": "RpdStrtTime"
+    },
+    {
+      "enum": [
+        280,
+        "gryphonShortCoastEn"
+      ],
+      "description": "Coast-En"
+    },
+    {
+      "enum": [
+        281,
+        "gryphonShortCoasttime"
+      ],
+      "description": "CoastTime"
+    },
+    {
+      "enum": [
+        282,
+        "gryphonShortCoastrate"
+      ],
+      "description": "CoastRate"
+    },
+    {
+      "enum": [
+        283,
+        "gryphonShortDatSpconfig"
+      ],
+      "description": "DAT-SPconfig"
+    },
+    {
+      "enum": [
+        284,
+        "gryphonShortMornwzatSp"
+      ],
+      "description": "MornWZAT-Sp"
+    },
+    {
+      "enum": [
+        285,
+        "gryphonShortMornczatSp"
+      ],
+      "description": "MornCZAT-Sp"
+    },
+    {
+      "enum": [
+        286,
+        "gryphonShortMornwdatSp"
+      ],
+      "description": "MornWDAT-Sp"
+    },
+    {
+      "enum": [
+        287,
+        "gryphonShortMorncdatSp"
+      ],
+      "description": "MornCDAT-Sp"
+    },
+    {
+      "enum": [
+        288,
+        "gryphonShortMaxairflow"
+      ],
+      "description": "MaxAirflow"
+    },
+    {
+      "enum": [
+        289,
+        "gryphonShortDevpercir"
+      ],
+      "description": "DevPerCir"
+    },
+    {
+      "enum": [
+        290,
+        "gryphonShortDahSp"
+      ],
+      "description": "DAH-Sp"
+    },
+    {
+      "enum": [
+        291,
+        "gryphonShortIaqDeadband"
+      ],
+      "description": "IAQ-Deadband"
+    },
+    {
+      "enum": [
+        292,
+        "gryphonShortMaxoaflow"
+      ],
+      "description": "MaxOAFlow"
+    },
+    {
+      "enum": [
+        293,
+        "gryphonShortMatclglim"
+      ],
+      "description": "MATClgLim"
+    },
+    {
+      "enum": [
+        294,
+        "gryphonShortHeat2Cooldly"
+      ],
+      "description": "Heat2CoolDly"
+    },
+    {
+      "enum": [
+        295,
+        "gryphonShortCool2Heatdly"
+      ],
+      "description": "Cool2HeatDly"
+    },
+    {
+      "enum": [
+        296,
+        "gryphonShortLoadshedtime"
+      ],
+      "description": "LoadShedTime"
+    },
+    {
+      "enum": [
+        297,
+        "gryphonShortOatResetsplower"
+      ],
+      "description": "OAT-ResetSpLower"
+    },
+    {
+      "enum": [
+        298,
+        "gryphonShortOatResetspupper"
+      ],
+      "description": "OAT-ResetSpUpper"
+    },
+    {
+      "enum": [
+        399,
+        "gryphonShortZtResetsplower"
+      ],
+      "description": "ZT-ResetSpLower"
+    },
+    {
+      "enum": [
+        300,
+        "gryphonShortZtResetspupper"
+      ],
+      "description": "ZT-ResetSpUpper"
+    },
+    {
+      "enum": [
+        301,
+        "gryphonShortPreoccpurgeiaqSp"
+      ],
+      "description": "PreOccPurgeIAQ-Sp"
+    },
+    {
+      "enum": [
+        302,
+        "gryphonShortSafetysetup1"
+      ],
+      "description": "SafetySetup1"
+    },
+    {
+      "enum": [
+        303,
+        "gryphonShortSafetysetup2"
+      ],
+      "description": "SafetySetup2"
+    },
+    {
+      "enum": [
+        304,
+        "gryphonShortSafetysetup3"
+      ],
+      "description": "SafetySetup3"
+    },
+    {
+      "enum": [
+        305,
+        "gryphonShortSafetysetupni"
+      ],
+      "description": "SafetySetupNI"
+    },
+    {
+      "enum": [
+        306,
+        "gryphonShortSfDatSplowthresh"
+      ],
+      "description": "SF-DAT-SpLowThresh"
+    },
+    {
+      "enum": [
+        307,
+        "gryphonShortSfDatSphighthresh"
+      ],
+      "description": "SF-DAT-SpHighThresh"
+    },
+    {
+      "enum": [
+        308,
+        "gryphonShortStagstrten"
+      ],
+      "description": "StagStrtEn"
+    },
+    {
+      "enum": [
+        309,
+        "gryphonShortStagstrtovrtime"
+      ],
+      "description": "StagStrtOVRTime"
+    },
+    {
+      "enum": [
+        310,
+        "gryphonShortModhtgcmd"
+      ],
+      "description": "ModHtgCmd"
+    },
+    {
+      "enum": [
+        311,
+        "gryphonShortModcompcmd"
+      ],
+      "description": "ModCompCmd"
+    },
+    {
+      "enum": [
+        312,
+        "gryphonShortModcondfan1Cmd"
+      ],
+      "description": "ModCondFan1Cmd"
+    },
+    {
+      "enum": [
+        313,
+        "gryphonShortModcondfan2Cmd"
+      ],
+      "description": "ModCondFan2Cmd"
+    },
+    {
+      "enum": [
+        314,
+        "gryphonShortDadpAlarm"
+      ],
+      "description": "DADP-Alarm"
+    },
+    {
+      "enum": [
+        315,
+        "gryphonShortHetAlarm"
+      ],
+      "description": "HET-Alarm"
+    },
+    {
+      "enum": [
+        316,
+        "gryphonShortRadpAlarm"
+      ],
+      "description": "RADP-Alarm"
+    },
+    {
+      "enum": [
+        317,
+        "gryphonShortRahAlarm"
+      ],
+      "description": "RAH-Alarm"
+    },
+    {
+      "enum": [
+        318,
+        "gryphonShortRfpAlarm"
+      ],
+      "description": "RFP-Alarm"
+    },
+    {
+      "enum": [
+        319,
+        "gryphonShortSencalAlarm"
+      ],
+      "description": "SenCal-Alarm"
+    },
+    {
+      "enum": [
+        320,
+        "gryphonShortDattempstate"
+      ],
+      "description": "DATTempState"
+    },
+    {
+      "enum": [
+        321,
+        "gryphonShortCf1A"
+      ],
+      "description": "CF-1A"
+    },
+    {
+      "enum": [
+        322,
+        "gryphonShortCf1B"
+      ],
+      "description": "CF-1B"
+    },
+    {
+      "enum": [
+        323,
+        "gryphonShortCf1C"
+      ],
+      "description": "CF-1C"
+    },
+    {
+      "enum": [
+        324,
+        "gryphonShortCf1D"
+      ],
+      "description": "CF-1D"
+    },
+    {
+      "enum": [
+        325,
+        "gryphonShortCf2A"
+      ],
+      "description": "CF-2A"
+    },
+    {
+      "enum": [
+        326,
+        "gryphonShortCf2B"
+      ],
+      "description": "CF-2B"
+    },
+    {
+      "enum": [
+        327,
+        "gryphonShortCf2C"
+      ],
+      "description": "CF-2C"
+    },
+    {
+      "enum": [
+        328,
+        "gryphonShortCf2D"
+      ],
+      "description": "CF-2D"
+    },
+    {
+      "enum": [
+        329,
+        "gryphonShortSfRtovr"
+      ],
+      "description": "SF-RtOvr"
+    },
+    {
+      "enum": [
+        330,
+        "gryphonShortSfStrtovr"
+      ],
+      "description": "SF-StrtOvr"
+    },
+    {
+      "enum": [
+        331,
+        "gryphonShortSfvfd1Rtovr"
+      ],
+      "description": "SFVFD1-RtOvr"
+    },
+    {
+      "enum": [
+        332,
+        "gryphonShortSfvfd2Rtovr"
+      ],
+      "description": "SFVFD2-RtOvr"
+    },
+    {
+      "enum": [
+        333,
+        "gryphonShortSfvfd1Strtovr"
+      ],
+      "description": "SFVFD1-StrtOvr"
+    },
+    {
+      "enum": [
+        334,
+        "gryphonShortSfvfd2Strtovr"
+      ],
+      "description": "SFVFD2-StrtOvr"
+    },
+    {
+      "enum": [
+        335,
+        "gryphonShortFanStarts"
+      ],
+      "description": "Fan-Starts"
+    },
+    {
+      "enum": [
+        336,
+        "gryphonShortFanvfd1Starts"
+      ],
+      "description": "FanVFD1-Starts"
+    },
+    {
+      "enum": [
+        337,
+        "gryphonShortFanvfd2Starts"
+      ],
+      "description": "FanVFD2-Starts"
+    },
+    {
+      "enum": [
+        338,
+        "gryphonShortFanvfd1Rt"
+      ],
+      "description": "FanVFD1-RT"
+    },
+    {
+      "enum": [
+        339,
+        "gryphonShortFanvfd2Rt"
+      ],
+      "description": "FanVFD2-RT"
+    },
+    {
+      "enum": [
+        340,
+        "gryphonShortNumcondfanscir1"
+      ],
+      "description": "NumCondFansCir1"
+    },
+    {
+      "enum": [
+        341,
+        "gryphonShortNumcondfanscir2"
+      ],
+      "description": "NumCondFansCir2"
+    },
+    {
+      "enum": [
+        342,
+        "gryphonShortModcondfancir1En"
+      ],
+      "description": "ModCondFanCir1En"
+    },
+    {
+      "enum": [
+        343,
+        "gryphonShortModcondfancir2En"
+      ],
+      "description": "ModCondFanCir2En"
+    },
+    {
+      "enum": [
+        344,
+        "gryphonShortRuncontalmdly"
+      ],
+      "description": "RunContAlmDly"
+    },
+    {
+      "enum": [
+        345,
+        "gryphonShortRuncontalm"
+      ],
+      "description": "RunContAlm"
+    },
+    {
+      "enum": [
+        346,
+        "gryphonShortBastrimrespondEn"
+      ],
+      "description": "BASTrimRespond-En"
+    },
+    {
+      "enum": [
+        347,
+        "gryphonShortSpnochangealm"
+      ],
+      "description": "SPNoChangeAlm"
+    },
+    {
+      "enum": [
+        348,
+        "gryphonShortDowninoccalm"
+      ],
+      "description": "DownInOccAlm"
+    },
+    {
+      "enum": [
+        349,
+        "gryphonShortLowcoolcapalm"
+      ],
+      "description": "LowCoolCapAlm"
+    },
+    {
+      "enum": [
+        350,
+        "gryphonShortLowheatcapalm"
+      ],
+      "description": "LowHeatCapAlm"
+    },
+    {
+      "enum": [
+        351,
+        "gryphonShortDatcapalmoffset"
+      ],
+      "description": "DATCapAlmOffset"
+    },
+    {
+      "enum": [
+        352,
+        "gryphonShortUvlightEn"
+      ],
+      "description": "UVLight-En"
+    },
+    {
+      "enum": [
+        353,
+        "gryphonShortUvlightRt"
+      ],
+      "description": "UVLight-Rt"
+    },
+    {
+      "enum": [
+        354,
+        "gryphonShortUvlightRtovr"
+      ],
+      "description": "UVLight-RtOvr"
+    },
+    {
+      "enum": [
+        355,
+        "gryphonShortUvlightLife"
+      ],
+      "description": "UVLight-Life"
+    },
+    {
+      "enum": [
+        356,
+        "gryphonShortUvlightReset"
+      ],
+      "description": "UVLight-Reset"
+    },
+    {
+      "enum": [
+        357,
+        "gryphonShortUvlightService"
+      ],
+      "description": "UVLight-Service"
+    },
+    {
+      "enum": [
+        358,
+        "gryphonShortOprclgdatSp"
+      ],
+      "description": "OprClgDAT-SP"
+    },
+    {
+      "enum": [
+        359,
+        "gryphonShortOprhtgdatSp"
+      ],
+      "description": "OprHtgDAT-SP"
+    },
+    {
+      "enum": [
+        360,
+        "gryphonShortClgdatupSp"
+      ],
+      "description": "ClgDATUp-SP"
+    },
+    {
+      "enum": [
+        361,
+        "gryphonShortClgdatloSp"
+      ],
+      "description": "ClgDATLo-SP"
+    },
+    {
+      "enum": [
+        362,
+        "gryphonShortHtgdatupSp"
+      ],
+      "description": "HtgDATUp-SP"
+    },
+    {
+      "enum": [
+        363,
+        "gryphonShortHtgdatloSp"
+      ],
+      "description": "HtgDATLo-SP"
+    },
+    {
+      "enum": [
+        364,
+        "gryphonShortDattemperEn"
+      ],
+      "description": "DATTemper-En"
+    },
+    {
+      "enum": [
+        365,
+        "gryphonShortDattemperSp"
+      ],
+      "description": "DATTemper-Sp"
+    },
+    {
+      "enum": [
+        366,
+        "gryphonShortSfStarts"
+      ],
+      "description": "SF-Starts"
+    },
+    {
+      "enum": [
+        367,
+        "gryphonShortSfRuntime"
+      ],
+      "description": "SF-Runtime"
+    },
+    {
+      "enum": [
+        368,
+        "gryphonShortUnocchumEn"
+      ],
+      "description": "UnoccHum-En"
+    },
+    {
+      "enum": [
+        369,
+        "gryphonShortHgrbC"
+      ],
+      "description": "HGRB-C"
+    }
+  ]
+}

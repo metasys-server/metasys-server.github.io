@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mzZoneHeatingModeOvrEnumSet.schema.json",
+  "title": "mzZoneHeatingModeOvrEnumSet",
+  "description": "MZ Zone Heating Mode OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mzZnHtgModeOvrShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "mzZnHtgModeOvrControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        2,
+        "mzZnHtgModeOvrWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        3,
+        "mzZnHtgModeOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

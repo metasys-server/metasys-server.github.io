@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/accessModelEnumSet.schema.json",
+  "title": "accessModelEnumSet",
+  "description": "Access Model",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "accessModelNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "accessModelGroup"
+      ],
+      "description": "Group"
+    },
+    {
+      "enum": [
+        2,
+        "accessModelLevel"
+      ],
+      "description": "Level"
+    },
+    {
+      "enum": [
+        3,
+        "accessModelMask"
+      ],
+      "description": "Mask"
+    },
+    {
+      "enum": [
+        4,
+        "accessModelGroupOrLevel"
+      ],
+      "description": "Group or Level"
+    },
+    {
+      "enum": [
+        5,
+        "accessModelLevelOrMask"
+      ],
+      "description": "Level or Mask"
+    },
+    {
+      "enum": [
+        6,
+        "accessModelMaskOrGroup"
+      ],
+      "description": "Mask or Group"
+    },
+    {
+      "enum": [
+        7,
+        "accessModelGroupAndLevel"
+      ],
+      "description": "Group and Level"
+    },
+    {
+      "enum": [
+        8,
+        "accessModelLevelAndMask"
+      ],
+      "description": "Level and Mask"
+    },
+    {
+      "enum": [
+        9,
+        "accessModelMaskAndGroup"
+      ],
+      "description": "Mask and Group"
+    },
+    {
+      "enum": [
+        10,
+        "accessModelGroupOrLevelAndMask"
+      ],
+      "description": "Group or (Level and Mask)"
+    },
+    {
+      "enum": [
+        11,
+        "accessModelGroupAndLevelOrMask"
+      ],
+      "description": "Group and (Level or Mask)"
+    },
+    {
+      "enum": [
+        12,
+        "accessModelLevelOrMaskAndGroup"
+      ],
+      "description": "Level or (Mask and Group)"
+    },
+    {
+      "enum": [
+        13,
+        "accessModelLevelAndMaskOrGroup"
+      ],
+      "description": "Level and (Mask or Group)"
+    },
+    {
+      "enum": [
+        14,
+        "accessModelMaskOrGroupAndLevel"
+      ],
+      "description": "Mask or (Group and Level)"
+    },
+    {
+      "enum": [
+        15,
+        "accessModelMaskAndGroupOrLevel"
+      ],
+      "description": "Mask and (Group or Level)"
+    },
+    {
+      "enum": [
+        16,
+        "accessModelGroupOrLevelOrMask"
+      ],
+      "description": "Group or Level or Mask"
+    },
+    {
+      "enum": [
+        17,
+        "accessModelGroupAndLevelAndMask"
+      ],
+      "description": "Group and Level and Mask"
+    }
+  ]
+}

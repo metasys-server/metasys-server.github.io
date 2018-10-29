@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlpFireEnumSet.schema.json",
+  "title": "unityXlpFireEnumSet",
+  "description": "Unity XLP Fire",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "FIRE"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "CLEAR"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "TROUBLE"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "FIRE1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, FIRE"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "FIXED, CLEAR"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "FIXED, TROUBLE"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "FIXED, FIRE1"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/folderNamesEnumSet.schema.json",
+  "title": "folderNamesEnumSet",
+  "description": "Folder Names",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "appInputsFolder"
+      ],
+      "description": "Application Inputs"
+    },
+    {
+      "enum": [
+        1,
+        "appOutputsFolder"
+      ],
+      "description": "Application Outputs"
+    },
+    {
+      "enum": [
+        2,
+        "booleanFolder"
+      ],
+      "description": "Boolean"
+    },
+    {
+      "enum": [
+        3,
+        "calculationFolder"
+      ],
+      "description": "Calculation"
+    },
+    {
+      "enum": [
+        4,
+        "compareFolder"
+      ],
+      "description": "Compare"
+    },
+    {
+      "enum": [
+        5,
+        "constantFolder"
+      ],
+      "description": "Constant"
+    },
+    {
+      "enum": [
+        6,
+        "containerFolder"
+      ],
+      "description": "Container"
+    },
+    {
+      "enum": [
+        7,
+        "controlPointFolder"
+      ],
+      "description": "Control Points"
+    },
+    {
+      "enum": [
+        8,
+        "mathFolder"
+      ],
+      "description": "Math"
+    },
+    {
+      "enum": [
+        9,
+        "outControlFolder"
+      ],
+      "description": "Output Controllers"
+    },
+    {
+      "enum": [
+        10,
+        "selectionFolder"
+      ],
+      "description": "Selection"
+    },
+    {
+      "enum": [
+        11,
+        "sensorFolder"
+      ],
+      "description": "Sensors"
+    },
+    {
+      "enum": [
+        12,
+        "setpointDeterFolder"
+      ],
+      "description": "Setpoint Determination"
+    },
+    {
+      "enum": [
+        13,
+        "stateGenFolder"
+      ],
+      "description": "State Generators"
+    },
+    {
+      "enum": [
+        14,
+        "statisticalFolder"
+      ],
+      "description": "Statistical"
+    },
+    {
+      "enum": [
+        15,
+        "timingFolder"
+      ],
+      "description": "Timing"
+    },
+    {
+      "enum": [
+        16,
+        "commonFolder"
+      ],
+      "description": "Common"
+    },
+    {
+      "enum": [
+        17,
+        "baseFolder"
+      ],
+      "description": "Base"
+    },
+    {
+      "enum": [
+        18,
+        "hiddenFolder"
+      ],
+      "description": "Hidden"
+    },
+    {
+      "enum": [
+        19,
+        "stateSelectionFolder"
+      ],
+      "description": "State Selection"
+    },
+    {
+      "enum": [
+        20,
+        "psychrometricFolder"
+      ],
+      "description": "Psychrometric"
+    },
+    {
+      "enum": [
+        21,
+        "controlFolder"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        22,
+        "activityInputsFolder"
+      ],
+      "description": "Activity Inputs"
+    },
+    {
+      "enum": [
+        23,
+        "activityOutputsFolder"
+      ],
+      "description": "Activity Outputs"
+    },
+    {
+      "enum": [
+        24,
+        "customFolder"
+      ],
+      "description": "Custom"
+    },
+    {
+      "enum": [
+        25,
+        "multiStateControllerFolder"
+      ],
+      "description": "Multi-State Controller"
+    },
+    {
+      "enum": [
+        26,
+        "sequencerFolder"
+      ],
+      "description": "Sequencer"
+    }
+  ]
+}

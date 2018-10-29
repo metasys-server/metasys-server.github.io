@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/comfortOverrideTypeEnumSet.schema.json",
+  "title": "comfortOverrideTypeEnumSet",
+  "description": "Comfort Override Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cmftOvrTypeRelImmed"
+      ],
+      "description": "Release Immediately"
+    },
+    {
+      "enum": [
+        1,
+        "cmftOvrTypeRelAfterTmr"
+      ],
+      "description": "Release After Timer Expires"
+    }
+  ]
+}

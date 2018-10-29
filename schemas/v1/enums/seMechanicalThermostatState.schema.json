@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seMechanicalThermostatState.schema.json",
+  "title": "seMechanicalThermostatState",
+  "description": "SE RTU Mechanical Thermostat Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seMechTstatSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "seMechTstatHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        2,
+        "seMechTstatHeatToCoolDelay"
+      ],
+      "description": "Heat to Cool Delay"
+    },
+    {
+      "enum": [
+        3,
+        "seMechTstatEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        4,
+        "seMechTstatEconMech"
+      ],
+      "description": "EconAndMech"
+    },
+    {
+      "enum": [
+        5,
+        "seMechTstatMech"
+      ],
+      "description": "Mech"
+    },
+    {
+      "enum": [
+        6,
+        "seMechTstatCoolToHeatDelay"
+      ],
+      "description": "Cool to Heat Delay"
+    }
+  ]
+}

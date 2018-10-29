@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/koneGroupControllerRoleEnumSet.schema.json",
+  "title": "koneGroupControllerRoleEnumSet",
+  "description": "Kone Group Controller Role",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "koneRoleKic"
+      ],
+      "description": "KIC"
+    },
+    {
+      "enum": [
+        1,
+        "koneRolePrimaryPcGroupController"
+      ],
+      "description": "Primary PC Group Controller"
+    },
+    {
+      "enum": [
+        2,
+        "koneRoleBackupPcGroupController"
+      ],
+      "description": "Back-up PC Group Controller"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/econEnumSet.schema.json",
+  "title": "econEnumSet",
+  "description": "Econ",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "OA Dry Bulb"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Single Enth"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Dual Enthalpy"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "N/A"
+    }
+  ]
+}

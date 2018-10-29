@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seSetDetState.schema.json",
+  "title": "seSetDetState",
+  "description": "SE RTU Setpoint Determination State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seSetDetStateComfortVentilation"
+      ],
+      "description": "Comfort Ventilation"
+    },
+    {
+      "enum": [
+        1,
+        "seSetDetStateMorningWarmUp"
+      ],
+      "description": "Morning Warm-Up"
+    },
+    {
+      "enum": [
+        2,
+        "seSetDetStateOccSatControl"
+      ],
+      "description": "Occ SAT Control"
+    },
+    {
+      "enum": [
+        3,
+        "seSetDetStateUnoccZoneControl"
+      ],
+      "description": "Unocc Zone Control"
+    },
+    {
+      "enum": [
+        4,
+        "seSetDetStateSatCoolHeat"
+      ],
+      "description": "SAT Cool Heat"
+    },
+    {
+      "enum": [
+        5,
+        "seSetDetStateOccZoneControl"
+      ],
+      "description": "Occ Zone Control"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykSc12EnumSet.schema.json",
+  "title": "ykSc12EnumSet",
+  "description": "YK Modified Run Code SC.12",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykSc120"
+      ],
+      "description": "NO MODIFIED RUN CONDITIONS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ykSc121"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "ykSc122"
+      ],
+      "description": "RESERVED 2"
+    },
+    {
+      "enum": [
+        3,
+        "ykSc123"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "ykSc124"
+      ],
+      "description": "MOTOR - PULLDOWN LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "ykSc125"
+      ],
+      "description": "MOTOR - HIGH CURRENT LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "ykSc126"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "ykSc127"
+      ],
+      "description": "RESERVED 7"
+    },
+    {
+      "enum": [
+        8,
+        "ykSc128"
+      ],
+      "description": "LOAD CONTROL MODE"
+    },
+    {
+      "enum": [
+        9,
+        "ykSc129"
+      ],
+      "description": "RESERVED 9"
+    },
+    {
+      "enum": [
+        10,
+        "ykSc1210"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "ykSc1211"
+      ],
+      "description": "VSD - INPUT PULLDOWN LIMIT"
+    },
+    {
+      "enum": [
+        12,
+        "ykSc1212"
+      ],
+      "description": "VSD - HIGH INPUT CURRENT LIMIT"
+    },
+    {
+      "enum": [
+        13,
+        "ykSc1213"
+      ],
+      "description": "DISCHARGE - LOW SUPERHEAT LIMIT"
+    },
+    {
+      "enum": [
+        14,
+        "ykSc1214"
+      ],
+      "description": "ECON MOTOR - HIGH CURRENT LIMIT"
+    },
+    {
+      "enum": [
+        15,
+        "ykSc1215"
+      ],
+      "description": "ECON SEAL LUBRICATION IN PROGRESS"
+    },
+    {
+      "enum": [
+        16,
+        "ykSc1216"
+      ],
+      "description": "ECON ECONOMIZER - RUN DISABLED"
+    },
+    {
+      "enum": [
+        17,
+        "ykSc1217"
+      ],
+      "description": "ECON ECONOMIZER - NO DEMAND"
+    },
+    {
+      "enum": [
+        18,
+        "ykSc1218"
+      ],
+      "description": "ECON ECONOMIZER - NO DEMAND (ECON STOPPED)"
+    }
+  ]
+}

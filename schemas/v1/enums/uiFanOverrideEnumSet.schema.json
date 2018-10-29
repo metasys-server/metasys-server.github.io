@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uiFanOverrideEnumSet.schema.json",
+  "title": "uiFanOverrideEnumSet",
+  "description": "UI Fan Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "uiFanOverrideOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        1,
+        "uiFanOverrideAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        2,
+        "uiFanOverrideQuiet"
+      ],
+      "description": "Quiet"
+    }
+  ]
+}

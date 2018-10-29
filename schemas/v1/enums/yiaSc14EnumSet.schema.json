@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yiaSc14EnumSet.schema.json",
+  "title": "yiaSc14EnumSet",
+  "description": "YIA Internal Fault Code SC.14",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yiaSc140"
+      ],
+      "description": "NO INTERNAL FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "yiaSc141"
+      ],
+      "description": "WATCHDOG - SOFTWARE REBOOT"
+    },
+    {
+      "enum": [
+        2,
+        "yiaSc142"
+      ],
+      "description": "INTERNAL USER INTERFACE ERROR"
+    },
+    {
+      "enum": [
+        3,
+        "yiaSc143"
+      ],
+      "description": "USER INTERFACE UNABLE TO ESTABLISH COMMS WITH CONTROL"
+    }
+  ]
+}

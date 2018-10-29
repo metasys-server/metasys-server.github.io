@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/engViewGroupEnumSet.schema.json",
+  "title": "engViewGroupEnumSet",
+  "description": "Eng View Group",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "evgInputsEnum"
+      ],
+      "description": "Inputs"
+    },
+    {
+      "enum": [
+        1,
+        "evgAiEnum"
+      ],
+      "description": "Analog Inputs"
+    },
+    {
+      "enum": [
+        2,
+        "evgBiEnum"
+      ],
+      "description": "Binary Inputs"
+    },
+    {
+      "enum": [
+        3,
+        "evgOutputsEnum"
+      ],
+      "description": "Outputs"
+    },
+    {
+      "enum": [
+        4,
+        "evgAoEnum"
+      ],
+      "description": "Analog Outputs"
+    },
+    {
+      "enum": [
+        5,
+        "evgBoEnum"
+      ],
+      "description": "Binary Outputs"
+    },
+    {
+      "enum": [
+        6,
+        "evgParamsEnum"
+      ],
+      "description": "Parameters"
+    },
+    {
+      "enum": [
+        7,
+        "evgNetworkInputs"
+      ],
+      "description": "Network Inputs"
+    },
+    {
+      "enum": [
+        8,
+        "evgNetworkOutputs"
+      ],
+      "description": "Network Outputs"
+    },
+    {
+      "enum": [
+        9,
+        "evgPms"
+      ],
+      "description": "Programmable Modules"
+    },
+    {
+      "enum": [
+        10,
+        "evgAnalogValues"
+      ],
+      "description": "Analog Values"
+    },
+    {
+      "enum": [
+        11,
+        "evgBinaryValues"
+      ],
+      "description": "Binary Values"
+    },
+    {
+      "enum": [
+        12,
+        "evgMsiEnum"
+      ],
+      "description": "Multi-state Inputs"
+    },
+    {
+      "enum": [
+        13,
+        "evgMsoEnum"
+      ],
+      "description": "Multi-state Outputs"
+    },
+    {
+      "enum": [
+        14,
+        "evgMsvEnum"
+      ],
+      "description": "Multi-state Values"
+    },
+    {
+      "enum": [
+        15,
+        "evgLspEnum"
+      ],
+      "description": "Life Safety Points"
+    },
+    {
+      "enum": [
+        16,
+        "evgLszEnum"
+      ],
+      "description": "Life Safety Zones"
+    },
+    {
+      "enum": [
+        17,
+        "evgTrendEnum"
+      ],
+      "description": "Trend Logs"
+    },
+    {
+      "enum": [
+        18,
+        "evgEnergyManEnum"
+      ],
+      "description": "Energy Management"
+    },
+    {
+      "enum": [
+        19,
+        "evgStringValuesEnum"
+      ],
+      "description": "String Values"
+    },
+    {
+      "enum": [
+        20,
+        "evgDateTimeValuesEnum"
+      ],
+      "description": "Date Time Values"
+    }
+  ]
+}

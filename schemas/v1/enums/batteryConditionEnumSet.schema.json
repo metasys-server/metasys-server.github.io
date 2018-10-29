@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/batteryConditionEnumSet.schema.json",
+  "title": "batteryConditionEnumSet",
+  "description": "Battery Condition",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bcBatteryGood"
+      ],
+      "description": "Good"
+    },
+    {
+      "enum": [
+        1,
+        "bcBatteryService"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        2,
+        "bcBatteryReplace"
+      ],
+      "description": "Replace"
+    },
+    {
+      "enum": [
+        3,
+        "bcBatteryDefective"
+      ],
+      "description": "Defective"
+    }
+  ]
+}

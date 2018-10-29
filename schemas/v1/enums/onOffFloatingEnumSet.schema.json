@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/onOffFloatingEnumSet.schema.json",
+  "title": "onOffFloatingEnumSet",
+  "description": "On/Off Floating",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "On/Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Floating"
+    }
+  ]
+}

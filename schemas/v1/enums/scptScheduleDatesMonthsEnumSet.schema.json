@@ -1,0 +1,176 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scptScheduleDatesMonthsEnumSet.schema.json",
+  "title": "scptScheduleDatesMonthsEnumSet",
+  "description": "SCPT Months",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mnEveryMonth"
+      ],
+      "description": "Every Month"
+    },
+    {
+      "enum": [
+        1,
+        "mnJan"
+      ],
+      "description": "January"
+    },
+    {
+      "enum": [
+        2,
+        "mnFeb"
+      ],
+      "description": "February"
+    },
+    {
+      "enum": [
+        3,
+        "mnMar"
+      ],
+      "description": "March"
+    },
+    {
+      "enum": [
+        4,
+        "mnApr"
+      ],
+      "description": "April"
+    },
+    {
+      "enum": [
+        5,
+        "mnMay"
+      ],
+      "description": "May"
+    },
+    {
+      "enum": [
+        6,
+        "mnJun"
+      ],
+      "description": "June"
+    },
+    {
+      "enum": [
+        7,
+        "mnJul"
+      ],
+      "description": "July"
+    },
+    {
+      "enum": [
+        8,
+        "mnAug"
+      ],
+      "description": "August"
+    },
+    {
+      "enum": [
+        9,
+        "mnSep"
+      ],
+      "description": "September"
+    },
+    {
+      "enum": [
+        10,
+        "mnOct"
+      ],
+      "description": "October"
+    },
+    {
+      "enum": [
+        11,
+        "mnNov"
+      ],
+      "description": "November"
+    },
+    {
+      "enum": [
+        12,
+        "mnDec"
+      ],
+      "description": "December"
+    },
+    {
+      "enum": [
+        13,
+        "mnEvery2Month"
+      ],
+      "description": "Every other month"
+    },
+    {
+      "enum": [
+        14,
+        "mnQuarterly"
+      ],
+      "description": "Every third month"
+    },
+    {
+      "enum": [
+        15,
+        "mnEvery4Month"
+      ],
+      "description": "Every fourth month"
+    },
+    {
+      "enum": [
+        16,
+        "mnEvery5Month"
+      ],
+      "description": "Every fifth month"
+    },
+    {
+      "enum": [
+        17,
+        "mnEvery6Month"
+      ],
+      "description": "Every sixth month"
+    },
+    {
+      "enum": [
+        18,
+        "mnEvery7Month"
+      ],
+      "description": "Every seventh month"
+    },
+    {
+      "enum": [
+        19,
+        "mnEvery8Month"
+      ],
+      "description": "Every eighth month"
+    },
+    {
+      "enum": [
+        20,
+        "mnEvery9Month"
+      ],
+      "description": "Every ninth month"
+    },
+    {
+      "enum": [
+        21,
+        "mnEvery10Month"
+      ],
+      "description": "Every tenth month"
+    },
+    {
+      "enum": [
+        22,
+        "mnEvery11Month"
+      ],
+      "description": "Every eleventh month"
+    },
+    {
+      "enum": [
+        255,
+        "mnNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

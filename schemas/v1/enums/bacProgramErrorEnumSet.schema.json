@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacProgramErrorEnumSet.schema.json",
+  "title": "bacProgramErrorEnumSet",
+  "description": "BAC Program Error",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacProgramNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "bacProgramLoadFailed"
+      ],
+      "description": "Load failed"
+    },
+    {
+      "enum": [
+        2,
+        "bacProgramInternal"
+      ],
+      "description": "Internal"
+    },
+    {
+      "enum": [
+        3,
+        "bacProgramProgram"
+      ],
+      "description": "Program"
+    },
+    {
+      "enum": [
+        4,
+        "bacProgramOther"
+      ],
+      "description": "Other"
+    }
+  ]
+}

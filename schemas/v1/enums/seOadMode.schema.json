@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seOadMode.schema.json",
+  "title": "seOadMode",
+  "description": "SE RTU OAD Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seOadModeRampClose"
+      ],
+      "description": "Ramp Close"
+    },
+    {
+      "enum": [
+        1,
+        "seOadModeRampMinOa"
+      ],
+      "description": "Ramp Min OA"
+    },
+    {
+      "enum": [
+        2,
+        "seOadModeRampOpen"
+      ],
+      "description": "Ramp Open"
+    },
+    {
+      "enum": [
+        3,
+        "seOadModeHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "seOadModeTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        5,
+        "seOadModeTControl"
+      ],
+      "description": "T-Control"
+    },
+    {
+      "enum": [
+        6,
+        "seOadModeEconLoading"
+      ],
+      "description": "Econ Loading"
+    },
+    {
+      "enum": [
+        7,
+        "seOadModePurgeSatLow"
+      ],
+      "description": "Purge SA-T Low"
+    },
+    {
+      "enum": [
+        8,
+        "seOadModePurgeSatHigh"
+      ],
+      "description": "Purge SA-T High"
+    }
+  ]
+}

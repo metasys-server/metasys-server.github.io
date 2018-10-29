@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/externalLocalEnumSet.schema.json",
+  "title": "externalLocalEnumSet",
+  "description": "External Local",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "External"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

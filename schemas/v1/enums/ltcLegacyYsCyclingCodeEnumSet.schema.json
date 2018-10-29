@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYsCyclingCodeEnumSet.schema.json",
+  "title": "ltcLegacyYsCyclingCodeEnumSet",
+  "description": "York LTC Legacy YS Cycling Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYsCyclingCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYsCyclingCode1"
+      ],
+      "description": "LOW WATER TEMP-TM-AUTOSTART"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYsCyclingCode2"
+      ],
+      "description": "FLOW FAULT"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYsCyclingCode3"
+      ],
+      "description": "SYSTEM CYCLING"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYsCyclingCode4"
+      ],
+      "description": "MULTI UNIT CYCLING"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYsCyclingCode5"
+      ],
+      "description": "LOW WATER TEMP"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYsCyclingCode6"
+      ],
+      "description": "INTERNAL CLOCK"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYsCyclingCode7"
+      ],
+      "description": "POWER FAILURE-AUTOSTART"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYsCyclingCode8"
+      ],
+      "description": "SLIDE VALVE LOADED ABOVE 10% PRIOR TO START"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYsCyclingCode9"
+      ],
+      "description": "ANTI RECYCLE"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYsCyclingCode10"
+      ],
+      "description": "MOTOR CONTROLLER-EXT RESET"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYsCyclingCode11"
+      ],
+      "description": "POWER FAULT-AUTOSTART"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYsCyclingCode12"
+      ],
+      "description": "LOW LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYsCyclingCode13"
+      ],
+      "description": "AC UNDERVOLTAGE"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYsCyclingCode14"
+      ],
+      "description": "LOW OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYsCyclingCode15"
+      ],
+      "description": "AC OVERVOLTAGE"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYsCyclingCode16"
+      ],
+      "description": "SLIDE VALVE LOADED ABOVE 30% PRIOR TO START"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYsCyclingCode17"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYsCyclingCode18"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYsCyclingCode19"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYsCyclingCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYsCyclingCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYsCyclingCode22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYsCyclingCode23"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYsCyclingCode24"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYsCyclingCode25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYsCyclingCode26"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ltcLegacyYsCyclingCode27"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ltcLegacyYsCyclingCode28"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ltcLegacyYsCyclingCode29"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ltcLegacyYsCyclingCode30"
+      ],
+      "description": "RESERVED 30"
+    },
+    {
+      "enum": [
+        31,
+        "ltcLegacyYsCyclingCode31"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ltcLegacyYsCyclingCode32"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ltcLegacyYsCyclingCode33"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ltcLegacyYsCyclingCode34"
+      ],
+      "description": "SLIDE VALVE LOADED ABOVE 30% PRIOR TO START (S.01F.16+)"
+    }
+  ]
+}

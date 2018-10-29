@@ -1,0 +1,274 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yvwaOpCodesEnumSet.schema.json",
+  "title": "yvwaOpCodesEnumSet",
+  "description": "YVWA Operational Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yvwaOpCodes0"
+      ],
+      "description": "RESERVED 0"
+    },
+    {
+      "enum": [
+        63,
+        "yvwaOpCodes63"
+      ],
+      "description": "MANUAL OVERRIDE"
+    },
+    {
+      "enum": [
+        64,
+        "yvwaOpCodes64"
+      ],
+      "description": "DAILY SCHEDULE SHUTDOWN"
+    },
+    {
+      "enum": [
+        65,
+        "yvwaOpCodes65"
+      ],
+      "description": "UNIT SWITCH OFF"
+    },
+    {
+      "enum": [
+        66,
+        "yvwaOpCodes66"
+      ],
+      "description": "REMOTE CONTROLLED SHUTDOWN"
+    },
+    {
+      "enum": [
+        67,
+        "yvwaOpCodes67"
+      ],
+      "description": "RESERVED 67"
+    },
+    {
+      "enum": [
+        68,
+        "yvwaOpCodes68"
+      ],
+      "description": "CHILLED EVAP WATER FLOW SWITCH SHUTDOWN"
+    },
+    {
+      "enum": [
+        69,
+        "yvwaOpCodes69"
+      ],
+      "description": "VSD COOLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        70,
+        "yvwaOpCodes70"
+      ],
+      "description": "INVALID SERIAL NUMBER"
+    },
+    {
+      "enum": [
+        71,
+        "yvwaOpCodes71"
+      ],
+      "description": "CONDENSER LIQUID FLOW SWITCH SHUTDOWN"
+    },
+    {
+      "enum": [
+        72,
+        "yvwaOpCodes72"
+      ],
+      "description": "VSD SHUTDOWN - REQUESTING FAULT DATA"
+    },
+    {
+      "enum": [
+        73,
+        "yvwaOpCodes73"
+      ],
+      "description": "RESERVED 73"
+    },
+    {
+      "enum": [
+        74,
+        "yvwaOpCodes74"
+      ],
+      "description": "NO RUN PERMISSIVE"
+    },
+    {
+      "enum": [
+        75,
+        "yvwaOpCodes75"
+      ],
+      "description": "ANTI-RECYCLE TIMER ACTIVE"
+    },
+    {
+      "enum": [
+        76,
+        "yvwaOpCodes76"
+      ],
+      "description": "SYSTEM SWITCH OFF"
+    },
+    {
+      "enum": [
+        77,
+        "yvwaOpCodes77"
+      ],
+      "description": "SYSTEM NOT RUNNING"
+    },
+    {
+      "enum": [
+        78,
+        "yvwaOpCodes78"
+      ],
+      "description": "SYSTEM RUNNING"
+    },
+    {
+      "enum": [
+        79,
+        "yvwaOpCodes79"
+      ],
+      "description": "DISCHARGE PRESSURE LIMITING"
+    },
+    {
+      "enum": [
+        80,
+        "yvwaOpCodes80"
+      ],
+      "description": "EVAPORATOR PRESSURE LIMITING"
+    },
+    {
+      "enum": [
+        81,
+        "yvwaOpCodes81"
+      ],
+      "description": "MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        82,
+        "yvwaOpCodes82"
+      ],
+      "description": "OPD MITIGATION"
+    },
+    {
+      "enum": [
+        83,
+        "yvwaOpCodes83"
+      ],
+      "description": "BAS MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        84,
+        "yvwaOpCodes84"
+      ],
+      "description": "REMOTE MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        85,
+        "yvwaOpCodes85"
+      ],
+      "description": "SYSTEM SHUTTING DOWN"
+    },
+    {
+      "enum": [
+        86,
+        "yvwaOpCodes86"
+      ],
+      "description": "VSD PRECHARGING"
+    },
+    {
+      "enum": [
+        87,
+        "yvwaOpCodes87"
+      ],
+      "description": "VSD BASEPLATE TEMPERATURE LIMITING"
+    },
+    {
+      "enum": [
+        88,
+        "yvwaOpCodes88"
+      ],
+      "description": "VSD INTERNAL AMBIENT TEMPERATURE LIMITING"
+    },
+    {
+      "enum": [
+        89,
+        "yvwaOpCodes89"
+      ],
+      "description": "LEAVING CHILLED LIQUID TEMPERAURE LIMITING"
+    },
+    {
+      "enum": [
+        90,
+        "yvwaOpCodes90"
+      ],
+      "description": "OIL FILTER CLOGGED"
+    },
+    {
+      "enum": [
+        91,
+        "yvwaOpCodes91"
+      ],
+      "description": "RESERVED 91"
+    },
+    {
+      "enum": [
+        92,
+        "yvwaOpCodes92"
+      ],
+      "description": "PULLDOWN MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        93,
+        "yvwaOpCodes93"
+      ],
+      "description": "COOLING DEMAND SHUTDOWN"
+    },
+    {
+      "enum": [
+        94,
+        "yvwaOpCodes94"
+      ],
+      "description": "RESERVED 94"
+    },
+    {
+      "enum": [
+        95,
+        "yvwaOpCodes95"
+      ],
+      "description": "RESERVED 95"
+    },
+    {
+      "enum": [
+        96,
+        "yvwaOpCodes96"
+      ],
+      "description": "RESERVED 96"
+    },
+    {
+      "enum": [
+        97,
+        "yvwaOpCodes97"
+      ],
+      "description": "RESERVED 97"
+    },
+    {
+      "enum": [
+        98,
+        "yvwaOpCodes98"
+      ],
+      "description": "RESERVED 98"
+    },
+    {
+      "enum": [
+        99,
+        "yvwaOpCodes99"
+      ],
+      "description": "RESERVED 99"
+    }
+  ]
+}

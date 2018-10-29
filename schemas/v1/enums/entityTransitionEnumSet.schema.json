@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/entityTransitionEnumSet.schema.json",
+  "title": "entityTransitionEnumSet",
+  "description": "Entity Transition",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "entityTransitionDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "entityTransitionOnGranted"
+      ],
+      "description": "On Granted"
+    },
+    {
+      "enum": [
+        2,
+        "entityTransitionOnGrantedOrValid"
+      ],
+      "description": "On Granted or Valid"
+    },
+    {
+      "enum": [
+        3,
+        "entityTransitionOnIdentification"
+      ],
+      "description": "on Identification"
+    }
+  ]
+}

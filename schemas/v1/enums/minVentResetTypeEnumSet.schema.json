@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/minVentResetTypeEnumSet.schema.json",
+  "title": "minVentResetTypeEnumSet",
+  "description": "Min Ventilation Reset Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mvrtNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "mvrtCo2"
+      ],
+      "description": "CO2"
+    }
+  ]
+}

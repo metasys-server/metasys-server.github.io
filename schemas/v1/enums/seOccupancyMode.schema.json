@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seOccupancyMode.schema.json",
+  "title": "seOccupancyMode",
+  "description": "SE Occupancy Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seOccupancySchedule"
+      ],
+      "description": "Schedule"
+    },
+    {
+      "enum": [
+        1,
+        "seOccupancyExternal"
+      ],
+      "description": "External"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuRfVolStateUlEnumSet.schema.json",
+  "title": "ahuRfVolStateUlEnumSet",
+  "description": "AHU RF VOL State UL",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuRfvolStteUlOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuRfvolStteUlMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "ahuRfvolStteUlVolControl"
+      ],
+      "description": "VOL Control"
+    },
+    {
+      "enum": [
+        3,
+        "ahuRfvolStteUlEmergencyOn"
+      ],
+      "description": "Emergency On"
+    },
+    {
+      "enum": [
+        4,
+        "ahuRfvolStteUlFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

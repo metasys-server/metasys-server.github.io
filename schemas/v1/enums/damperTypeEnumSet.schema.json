@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/damperTypeEnumSet.schema.json",
+  "title": "damperTypeEnumSet",
+  "description": "Damper Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Single Position 30%"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Single Position 100%"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Economizer"
+    }
+  ]
+}

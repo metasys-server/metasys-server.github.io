@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtClothesWCCommandEnumSet.schema.json",
+  "title": "snvtClothesWCCommandEnumSet",
+  "description": "SNVT Clothes Washer Command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cwcWash"
+      ],
+      "description": "Wash"
+    },
+    {
+      "enum": [
+        1,
+        "cwcRinse"
+      ],
+      "description": "Rinse"
+    },
+    {
+      "enum": [
+        2,
+        "cwcSpin"
+      ],
+      "description": "Spin"
+    },
+    {
+      "enum": [
+        3,
+        "cwcDry"
+      ],
+      "description": "Dry"
+    },
+    {
+      "enum": [
+        255,
+        "cwcNull"
+      ],
+      "description": "Null"
+    }
+  ]
+}

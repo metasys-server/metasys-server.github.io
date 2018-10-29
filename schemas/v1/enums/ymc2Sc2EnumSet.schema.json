@@ -1,0 +1,1156 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc2EnumSet.schema.json",
+  "title": "ymc2Sc2EnumSet",
+  "description": "YMC2 Safety Fault Code SC.2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymc2Sc20"
+      ],
+      "description": "NO SAFETY FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ymc2Sc21"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "ymc2Sc22"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        3,
+        "ymc2Sc23"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        4,
+        "ymc2Sc24"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE SWITCH OPEN"
+    },
+    {
+      "enum": [
+        5,
+        "ymc2Sc25"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "ymc2Sc26"
+      ],
+      "description": "CONDENSER - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        7,
+        "ymc2Sc27"
+      ],
+      "description": "AUXILIARY SAFETY - CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        8,
+        "ymc2Sc28"
+      ],
+      "description": "DISCHARGE - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        9,
+        "ymc2Sc29"
+      ],
+      "description": "DISCHARGE - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "ymc2Sc210"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "ymc2Sc211"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "ymc2Sc212"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "ymc2Sc213"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ymc2Sc214"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ymc2Sc215"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ymc2Sc216"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ymc2Sc217"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ymc2Sc218"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ymc2Sc219"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ymc2Sc220"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ymc2Sc221"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        22,
+        "ymc2Sc222"
+      ],
+      "description": "CONTROL PANEL - LOSS OF CONTROL VOLTAGE"
+    },
+    {
+      "enum": [
+        23,
+        "ymc2Sc223"
+      ],
+      "description": "UPS - BATTERY NOT CONNECTED"
+    },
+    {
+      "enum": [
+        24,
+        "ymc2Sc224"
+      ],
+      "description": "UPS - INVERTER LOW BATTERY VOLTAGE"
+    },
+    {
+      "enum": [
+        25,
+        "ymc2Sc225"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ymc2Sc226"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ymc2Sc227"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ymc2Sc228"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ymc2Sc229"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ymc2Sc230"
+      ],
+      "description": "VSD - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        31,
+        "ymc2Sc231"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ymc2Sc232"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ymc2Sc233"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ymc2Sc234"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "ymc2Sc235"
+      ],
+      "description": "VSD - PRECHARGE LOCKOUT"
+    },
+    {
+      "enum": [
+        36,
+        "ymc2Sc236"
+      ],
+      "description": "RESERVED 36"
+    },
+    {
+      "enum": [
+        37,
+        "ymc2Sc237"
+      ],
+      "description": "RESERVED 37"
+    },
+    {
+      "enum": [
+        38,
+        "ymc2Sc238"
+      ],
+      "description": "RESERVED 38"
+    },
+    {
+      "enum": [
+        39,
+        "ymc2Sc239"
+      ],
+      "description": "RESERVED 39"
+    },
+    {
+      "enum": [
+        40,
+        "ymc2Sc240"
+      ],
+      "description": "RESERVED 40"
+    },
+    {
+      "enum": [
+        41,
+        "ymc2Sc241"
+      ],
+      "description": "RESERVED 41"
+    },
+    {
+      "enum": [
+        42,
+        "ymc2Sc242"
+      ],
+      "description": "RESERVED 42"
+    },
+    {
+      "enum": [
+        43,
+        "ymc2Sc243"
+      ],
+      "description": "RESERVED 43"
+    },
+    {
+      "enum": [
+        44,
+        "ymc2Sc244"
+      ],
+      "description": "RESERVED 44"
+    },
+    {
+      "enum": [
+        45,
+        "ymc2Sc245"
+      ],
+      "description": "RESERVED 45"
+    },
+    {
+      "enum": [
+        46,
+        "ymc2Sc246"
+      ],
+      "description": "RESERVED 46"
+    },
+    {
+      "enum": [
+        47,
+        "ymc2Sc247"
+      ],
+      "description": "RESERVED 47"
+    },
+    {
+      "enum": [
+        48,
+        "ymc2Sc248"
+      ],
+      "description": "RESERVED 48"
+    },
+    {
+      "enum": [
+        49,
+        "ymc2Sc249"
+      ],
+      "description": "RESERVED 49"
+    },
+    {
+      "enum": [
+        50,
+        "ymc2Sc250"
+      ],
+      "description": "RESERVED 50"
+    },
+    {
+      "enum": [
+        51,
+        "ymc2Sc251"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        52,
+        "ymc2Sc252"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    },
+    {
+      "enum": [
+        53,
+        "ymc2Sc253"
+      ],
+      "description": "SURGE PROTECTION - EXCESS SURGE"
+    },
+    {
+      "enum": [
+        54,
+        "ymc2Sc254"
+      ],
+      "description": "RESERVED 54"
+    },
+    {
+      "enum": [
+        55,
+        "ymc2Sc255"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "ymc2Sc256"
+      ],
+      "description": "RESERVED 56"
+    },
+    {
+      "enum": [
+        57,
+        "ymc2Sc257"
+      ],
+      "description": "RESERVED 57"
+    },
+    {
+      "enum": [
+        58,
+        "ymc2Sc258"
+      ],
+      "description": "RESERVED 58"
+    },
+    {
+      "enum": [
+        59,
+        "ymc2Sc259"
+      ],
+      "description": "RESERVED 59"
+    },
+    {
+      "enum": [
+        60,
+        "ymc2Sc260"
+      ],
+      "description": "RESERVED 60"
+    },
+    {
+      "enum": [
+        61,
+        "ymc2Sc261"
+      ],
+      "description": "MOTOR - HIGH WINDING TEMPERATURE"
+    },
+    {
+      "enum": [
+        62,
+        "ymc2Sc262"
+      ],
+      "description": "MOTOR - HIGH ROTOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        63,
+        "ymc2Sc263"
+      ],
+      "description": "RESERVED 63"
+    },
+    {
+      "enum": [
+        64,
+        "ymc2Sc264"
+      ],
+      "description": "RESERVED 64"
+    },
+    {
+      "enum": [
+        65,
+        "ymc2Sc265"
+      ],
+      "description": "RESERVED 65"
+    },
+    {
+      "enum": [
+        66,
+        "ymc2Sc266"
+      ],
+      "description": "VSD - MOTOR CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        67,
+        "ymc2Sc267"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE - STOPPED"
+    },
+    {
+      "enum": [
+        68,
+        "ymc2Sc268"
+      ],
+      "description": "MBC - DSP UNAUTHORIZED ROTATION"
+    },
+    {
+      "enum": [
+        69,
+        "ymc2Sc269"
+      ],
+      "description": "MBC - SPV UNAUTHORIZED ROTATION"
+    },
+    {
+      "enum": [
+        70,
+        "ymc2Sc270"
+      ],
+      "description": "MBC - AMP COMMUNICATION"
+    },
+    {
+      "enum": [
+        71,
+        "ymc2Sc271"
+      ],
+      "description": "MBC - AMP WATCHDOG"
+    },
+    {
+      "enum": [
+        72,
+        "ymc2Sc272"
+      ],
+      "description": "RESERVED 72"
+    },
+    {
+      "enum": [
+        73,
+        "ymc2Sc273"
+      ],
+      "description": "MBC - LOW RADIAL OSCILLATOR VOLTAGE"
+    },
+    {
+      "enum": [
+        74,
+        "ymc2Sc274"
+      ],
+      "description": "RESERVED 74"
+    },
+    {
+      "enum": [
+        75,
+        "ymc2Sc275"
+      ],
+      "description": "MBC - LOW AXIAL OSCILLATOR VOLTAGE"
+    },
+    {
+      "enum": [
+        76,
+        "ymc2Sc276"
+      ],
+      "description": "MBC - ROTOR CONTRACTION"
+    },
+    {
+      "enum": [
+        77,
+        "ymc2Sc277"
+      ],
+      "description": "MBC - HIGH INPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        78,
+        "ymc2Sc278"
+      ],
+      "description": "RESERVED 78"
+    },
+    {
+      "enum": [
+        79,
+        "ymc2Sc279"
+      ],
+      "description": "MBC - INTERNAL FAULT"
+    },
+    {
+      "enum": [
+        80,
+        "ymc2Sc280"
+      ],
+      "description": "VGD ACTUATOR FAULT"
+    },
+    {
+      "enum": [
+        81,
+        "ymc2Sc281"
+      ],
+      "description": "VGD POSITIONING FAULT"
+    },
+    {
+      "enum": [
+        82,
+        "ymc2Sc282"
+      ],
+      "description": "MBC - POWER FAIL LANDING"
+    },
+    {
+      "enum": [
+        83,
+        "ymc2Sc283"
+      ],
+      "description": "RESERVED 83"
+    },
+    {
+      "enum": [
+        84,
+        "ymc2Sc284"
+      ],
+      "description": "RESERVED 84"
+    },
+    {
+      "enum": [
+        85,
+        "ymc2Sc285"
+      ],
+      "description": "RESERVED 85"
+    },
+    {
+      "enum": [
+        86,
+        "ymc2Sc286"
+      ],
+      "description": "RESERVED 86"
+    },
+    {
+      "enum": [
+        87,
+        "ymc2Sc287"
+      ],
+      "description": "RESERVED 87"
+    },
+    {
+      "enum": [
+        88,
+        "ymc2Sc288"
+      ],
+      "description": "RESERVED 88"
+    },
+    {
+      "enum": [
+        89,
+        "ymc2Sc289"
+      ],
+      "description": "RESERVED 89"
+    },
+    {
+      "enum": [
+        90,
+        "ymc2Sc290"
+      ],
+      "description": "RESERVED 90"
+    },
+    {
+      "enum": [
+        91,
+        "ymc2Sc291"
+      ],
+      "description": "RESERVED 91"
+    },
+    {
+      "enum": [
+        92,
+        "ymc2Sc292"
+      ],
+      "description": "RESERVED 92"
+    },
+    {
+      "enum": [
+        93,
+        "ymc2Sc293"
+      ],
+      "description": "RESERVED 93"
+    },
+    {
+      "enum": [
+        94,
+        "ymc2Sc294"
+      ],
+      "description": "RESERVED 94"
+    },
+    {
+      "enum": [
+        95,
+        "ymc2Sc295"
+      ],
+      "description": "VSD - LOGIC BOARD PLUG"
+    },
+    {
+      "enum": [
+        96,
+        "ymc2Sc296"
+      ],
+      "description": "VSD - INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        97,
+        "ymc2Sc297"
+      ],
+      "description": "VSD - HIGH PHASE A INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        98,
+        "ymc2Sc298"
+      ],
+      "description": "VSD - HIGH PHASE B INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        99,
+        "ymc2Sc299"
+      ],
+      "description": "VSD - HIGH PHASE C INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        100,
+        "ymc2Sc2100"
+      ],
+      "description": "VSD - HIGH PHASE A MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        101,
+        "ymc2Sc2101"
+      ],
+      "description": "VSD - HIGH PHASE B MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        102,
+        "ymc2Sc2102"
+      ],
+      "description": "VSD - HIGH PHASE C MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        103,
+        "ymc2Sc2103"
+      ],
+      "description": "VSD - DC BUS PRE-REGULATION LOCKOUT"
+    },
+    {
+      "enum": [
+        104,
+        "ymc2Sc2104"
+      ],
+      "description": "VSD - GROUND FAULT"
+    },
+    {
+      "enum": [
+        105,
+        "ymc2Sc2105"
+      ],
+      "description": "VSD - PHASE A MOTOR DCCT"
+    },
+    {
+      "enum": [
+        106,
+        "ymc2Sc2106"
+      ],
+      "description": "VSD - PHASE B MOTOR DCCT"
+    },
+    {
+      "enum": [
+        107,
+        "ymc2Sc2107"
+      ],
+      "description": "VSD - PHASE C MOTOR DCCT"
+    },
+    {
+      "enum": [
+        108,
+        "ymc2Sc2108"
+      ],
+      "description": "VSD - PHASE A INPUT DCCT"
+    },
+    {
+      "enum": [
+        109,
+        "ymc2Sc2109"
+      ],
+      "description": "VSD - PHASE B INPUT DCCT"
+    },
+    {
+      "enum": [
+        110,
+        "ymc2Sc2110"
+      ],
+      "description": "VSD - PHASE C INPUT DCCT"
+    },
+    {
+      "enum": [
+        111,
+        "ymc2Sc2111"
+      ],
+      "description": "VSD - HIGH TOTAL DEMAND DISTORTION"
+    },
+    {
+      "enum": [
+        112,
+        "ymc2Sc2112"
+      ],
+      "description": "RESERVED 112"
+    },
+    {
+      "enum": [
+        113,
+        "ymc2Sc2113"
+      ],
+      "description": "VSD - DC BUS LOCKOUT - DO NOT CYCLE POWER"
+    },
+    {
+      "enum": [
+        114,
+        "ymc2Sc2114"
+      ],
+      "description": "VSD - INPUT DCCT OFFSET LOCKOUT"
+    },
+    {
+      "enum": [
+        115,
+        "ymc2Sc2115"
+      ],
+      "description": "RESERVED 115"
+    },
+    {
+      "enum": [
+        116,
+        "ymc2Sc2116"
+      ],
+      "description": "VSD - HIGH PHASE A INPUT CURRENT"
+    },
+    {
+      "enum": [
+        117,
+        "ymc2Sc2117"
+      ],
+      "description": "VSD - HIGH PHASE B INPUT CURRENT"
+    },
+    {
+      "enum": [
+        118,
+        "ymc2Sc2118"
+      ],
+      "description": "VSD - HIGH PHASE C INPUT CURRENT"
+    },
+    {
+      "enum": [
+        119,
+        "ymc2Sc2119"
+      ],
+      "description": "VSD - HIGH PHASE A MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        120,
+        "ymc2Sc2120"
+      ],
+      "description": "VSD - HIGH PHASE B MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        121,
+        "ymc2Sc2121"
+      ],
+      "description": "VSD - HIGH PHASE C MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        122,
+        "ymc2Sc2122"
+      ],
+      "description": "VSD - MOTOR CURRENT THD FAULT"
+    },
+    {
+      "enum": [
+        123,
+        "ymc2Sc2123"
+      ],
+      "description": "RESERVED 123"
+    },
+    {
+      "enum": [
+        124,
+        "ymc2Sc2124"
+      ],
+      "description": "VSD - RECTIFIER PROGRAM FAULT"
+    },
+    {
+      "enum": [
+        125,
+        "ymc2Sc2125"
+      ],
+      "description": "VSD - INVERTER PROGRAM FAULT"
+    },
+    {
+      "enum": [
+        126,
+        "ymc2Sc2126"
+      ],
+      "description": "MBC - DSP INITIALIZATION"
+    },
+    {
+      "enum": [
+        127,
+        "ymc2Sc2127"
+      ],
+      "description": "MBC - HIGH AMPLIFIER TEMPERATURE"
+    },
+    {
+      "enum": [
+        128,
+        "ymc2Sc2128"
+      ],
+      "description": "MBC - HIGH DC/DC TEMPERATURE"
+    },
+    {
+      "enum": [
+        129,
+        "ymc2Sc2129"
+      ],
+      "description": "MBC - DSP COMMUNICATION"
+    },
+    {
+      "enum": [
+        130,
+        "ymc2Sc2130"
+      ],
+      "description": "MBC - DSP INTEGRITY"
+    },
+    {
+      "enum": [
+        131,
+        "ymc2Sc2131"
+      ],
+      "description": "MBC - FLASH MEMORY CLEAR"
+    },
+    {
+      "enum": [
+        132,
+        "ymc2Sc2132"
+      ],
+      "description": "MBC - FLASH MEMORY WRITE"
+    },
+    {
+      "enum": [
+        133,
+        "ymc2Sc2133"
+      ],
+      "description": "MBC - EEPROM"
+    },
+    {
+      "enum": [
+        134,
+        "ymc2Sc2134"
+      ],
+      "description": "MBC - FLASH MEMORY FULL"
+    },
+    {
+      "enum": [
+        135,
+        "ymc2Sc2135"
+      ],
+      "description": "MBC - INTERNAL FAULT 11"
+    },
+    {
+      "enum": [
+        136,
+        "ymc2Sc2136"
+      ],
+      "description": "MBC - INTERNAL FAULT 12"
+    },
+    {
+      "enum": [
+        137,
+        "ymc2Sc2137"
+      ],
+      "description": "MBC - INTERNAL FAULT 13"
+    },
+    {
+      "enum": [
+        138,
+        "ymc2Sc2138"
+      ],
+      "description": "MBC - INTERNAL FAULT 14"
+    },
+    {
+      "enum": [
+        139,
+        "ymc2Sc2139"
+      ],
+      "description": "MBC - DSP WATCHDOG"
+    },
+    {
+      "enum": [
+        140,
+        "ymc2Sc2140"
+      ],
+      "description": "MBC - DATA ACQUISITION FAULT"
+    },
+    {
+      "enum": [
+        141,
+        "ymc2Sc2141"
+      ],
+      "description": "MBC - HIGH BEARING Z1 TEMPERATURE"
+    },
+    {
+      "enum": [
+        142,
+        "ymc2Sc2142"
+      ],
+      "description": "MBC - HIGH BEARING Z2 TEMPERATURE"
+    },
+    {
+      "enum": [
+        143,
+        "ymc2Sc2143"
+      ],
+      "description": "MBC - CABLE FAULT"
+    },
+    {
+      "enum": [
+        144,
+        "ymc2Sc2144"
+      ],
+      "description": "MBC - SPEED SIGNAL FAULT"
+    },
+    {
+      "enum": [
+        145,
+        "ymc2Sc2145"
+      ],
+      "description": "MBC - OVERSPEED FAULT"
+    },
+    {
+      "enum": [
+        146,
+        "ymc2Sc2146"
+      ],
+      "description": "MBC - ROTOR ELONGATION"
+    },
+    {
+      "enum": [
+        147,
+        "ymc2Sc2147"
+      ],
+      "description": "MBC - HIGH BEARING CURRENT"
+    },
+    {
+      "enum": [
+        148,
+        "ymc2Sc2148"
+      ],
+      "description": "MBC - OSCILLATOR FAULT"
+    },
+    {
+      "enum": [
+        149,
+        "ymc2Sc2149"
+      ],
+      "description": "MBC - POWER SUPPLY FAULT"
+    },
+    {
+      "enum": [
+        150,
+        "ymc2Sc2150"
+      ],
+      "description": "MBC - UNAUTHORIZED ROTATION"
+    },
+    {
+      "enum": [
+        151,
+        "ymc2Sc2151"
+      ],
+      "description": "MBC - FAULT CODE X"
+    },
+    {
+      "enum": [
+        152,
+        "ymc2Sc2152"
+      ],
+      "description": "MBC - NO LEVITATION"
+    },
+    {
+      "enum": [
+        153,
+        "ymc2Sc2153"
+      ],
+      "description": "MBC - STARTUP FAILURE"
+    },
+    {
+      "enum": [
+        154,
+        "ymc2Sc2154"
+      ],
+      "description": "MBC - EXCESSIVE SHUTDOWNS"
+    },
+    {
+      "enum": [
+        155,
+        "ymc2Sc2155"
+      ],
+      "description": "SAFETY STOP"
+    },
+    {
+      "enum": [
+        156,
+        "ymc2Sc2156"
+      ],
+      "description": "MBC - INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        157,
+        "ymc2Sc2157"
+      ],
+      "description": "MBC - CUSTOMER SERIAL LINK DISABLED"
+    },
+    {
+      "enum": [
+        158,
+        "ymc2Sc2158"
+      ],
+      "description": "MOTOR - HIGH HOUSING TEMPERATURE"
+    },
+    {
+      "enum": [
+        159,
+        "ymc2Sc2159"
+      ],
+      "description": "SALES ORDER - INVALID COMPRESSOR MODEL"
+    },
+    {
+      "enum": [
+        160,
+        "ymc2Sc2160"
+      ],
+      "description": "VSD - LINE VOLTAGE PHASE ROTATION"
+    },
+    {
+      "enum": [
+        161,
+        "ymc2Sc2161"
+      ],
+      "description": "VSD - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        162,
+        "ymc2Sc2162"
+      ],
+      "description": "VSD - LOGIC BOARD HARDWARE"
+    },
+    {
+      "enum": [
+        163,
+        "ymc2Sc2163"
+      ],
+      "description": "ISOLATION VALVES - NOT OPENED"
+    }
+  ]
+}

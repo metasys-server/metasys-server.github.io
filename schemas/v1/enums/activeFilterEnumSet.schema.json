@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/activeFilterEnumSet.schema.json",
+  "title": "activeFilterEnumSet",
+  "description": "Active Filter",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "afPassNone"
+      ],
+      "description": "Pass None"
+    },
+    {
+      "enum": [
+        1,
+        "afPassAll"
+      ],
+      "description": "Pass All"
+    },
+    {
+      "enum": [
+        2,
+        "afFilterA"
+      ],
+      "description": "Filter A"
+    },
+    {
+      "enum": [
+        3,
+        "afFilterB"
+      ],
+      "description": "Filter B"
+    },
+    {
+      "enum": [
+        4,
+        "afFilterAAndB"
+      ],
+      "description": "Filter A and B"
+    }
+  ]
+}

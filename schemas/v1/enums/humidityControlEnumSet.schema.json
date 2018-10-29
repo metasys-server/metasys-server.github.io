@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/humidityControlEnumSet.schema.json",
+  "title": "humidityControlEnumSet",
+  "description": "Humidity Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "humidityControlWheneverNecessary"
+      ],
+      "description": "Whenever Necessary"
+    },
+    {
+      "enum": [
+        1,
+        "humidityControlFanRunning"
+      ],
+      "description": "Only When Fan is Running"
+    }
+  ]
+}

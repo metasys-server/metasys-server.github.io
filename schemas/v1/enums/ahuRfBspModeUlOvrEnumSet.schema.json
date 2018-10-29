@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuRfBspModeUlOvrEnumSet.schema.json",
+  "title": "ahuRfBspModeUlOvrEnumSet",
+  "description": "AHU RF BSP Mode UL OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuRfbspModeulOvrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuRfbspModeulOvrMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "ahuRfbspModeulOvrBsPControl"
+      ],
+      "description": "BS-P Control"
+    },
+    {
+      "enum": [
+        3,
+        "ahuRfbspModeulOvrEmergencyBsPControl"
+      ],
+      "description": "Emergency BS-P Control"
+    },
+    {
+      "enum": [
+        4,
+        "ahuRfbspModeulOvrEmergencyOff"
+      ],
+      "description": "Emergency Off"
+    },
+    {
+      "enum": [
+        5,
+        "ahuRfbspModeulOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ledFlashRateEnumSet.schema.json",
+  "title": "ledFlashRateEnumSet",
+  "description": "LED Flash Rate",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ledFlashRateNone"
+      ],
+      "description": "No LED Flashing"
+    },
+    {
+      "enum": [
+        1,
+        "ledFlashRateHalfHz"
+      ],
+      "description": "0.5 Hz LED Flash Rate"
+    },
+    {
+      "enum": [
+        2,
+        "ledFlashRate1Hz"
+      ],
+      "description": "1 Hz LED Flash Rate"
+    },
+    {
+      "enum": [
+        3,
+        "ledFlashRate2Hz"
+      ],
+      "description": "2 Hz LED Flash Rate"
+    },
+    {
+      "enum": [
+        4,
+        "ledFlashRate5Hz"
+      ],
+      "description": "5 Hz LED Flash Rate"
+    }
+  ]
+}

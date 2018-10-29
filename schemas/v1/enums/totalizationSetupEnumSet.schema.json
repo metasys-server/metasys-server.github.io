@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/totalizationSetupEnumSet.schema.json",
+  "title": "totalizationSetupEnumSet",
+  "description": "Totalization Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "analogIntegration"
+      ],
+      "description": "Analog Integration"
+    },
+    {
+      "enum": [
+        1,
+        "eventTotalization"
+      ],
+      "description": "Event Totalization"
+    },
+    {
+      "enum": [
+        2,
+        "timeInState"
+      ],
+      "description": "Time in State"
+    }
+  ]
+}

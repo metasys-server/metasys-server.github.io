@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexHvacEmergencyEnumSet.schema.json",
+  "title": "unityNexHvacEmergencyEnumSet",
+  "description": "Unity NEX HVAC Emergency",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Normal"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Shutdown"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Normal"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Depressurize"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Purge"
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/oemAlarmNamesEnumSet.schema.json",
+  "title": "oemAlarmNamesEnumSet",
+  "description": "OEM Alarm Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "oemAlarmNames1"
+      ],
+      "description": "Cooler 1 High Temp Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "oemAlarmNames2"
+      ],
+      "description": "Cooler 2 High Temp Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "oemAlarmNames3"
+      ],
+      "description": "Cooler 3 High Temp Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "oemAlarmNames4"
+      ],
+      "description": "Cooler 4 High Temp Alarm"
+    },
+    {
+      "enum": [
+        5,
+        "oemAlarmNames5"
+      ],
+      "description": "Cooler 1 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        6,
+        "oemAlarmNames6"
+      ],
+      "description": "Cooler 2 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        7,
+        "oemAlarmNames7"
+      ],
+      "description": "Cooler 3 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        8,
+        "oemAlarmNames8"
+      ],
+      "description": "Cooler 4 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        9,
+        "oemAlarmNames9"
+      ],
+      "description": "Freezer 1 High Temp Alarm"
+    },
+    {
+      "enum": [
+        10,
+        "oemAlarmNames10"
+      ],
+      "description": "Freezer 2 High Temp Alarm"
+    },
+    {
+      "enum": [
+        11,
+        "oemAlarmNames11"
+      ],
+      "description": "Freezer 3 High Temp Alarm"
+    },
+    {
+      "enum": [
+        12,
+        "oemAlarmNames12"
+      ],
+      "description": "Freezer 4 High Temp Alarm"
+    },
+    {
+      "enum": [
+        13,
+        "oemAlarmNames13"
+      ],
+      "description": "Freezer 1 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        14,
+        "oemAlarmNames14"
+      ],
+      "description": "Freezer 2 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        15,
+        "oemAlarmNames15"
+      ],
+      "description": "Freezer 3 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        16,
+        "oemAlarmNames16"
+      ],
+      "description": "Freezer 4 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        17,
+        "oemAlarmNames17"
+      ],
+      "description": "Steam Pressure High Alarm"
+    },
+    {
+      "enum": [
+        18,
+        "oemAlarmNames18"
+      ],
+      "description": "Steam Pressure Low Alarm"
+    },
+    {
+      "enum": [
+        19,
+        "oemAlarmNames19"
+      ],
+      "description": "Refrigerant Pressure 1 High Alarm"
+    },
+    {
+      "enum": [
+        20,
+        "oemAlarmNames20"
+      ],
+      "description": "Refrigerant Pressure 2 High Alarm"
+    },
+    {
+      "enum": [
+        21,
+        "oemAlarmNames21"
+      ],
+      "description": "Refrigerant Pressure 1 Unreliable"
+    },
+    {
+      "enum": [
+        22,
+        "oemAlarmNames22"
+      ],
+      "description": "Refrigerant Pressure 2 Unreliable"
+    },
+    {
+      "enum": [
+        23,
+        "oemAlarmNames23"
+      ],
+      "description": "Condenser Temperature 1 High Alarm"
+    },
+    {
+      "enum": [
+        24,
+        "oemAlarmNames24"
+      ],
+      "description": "Condenser Temperature 2 High Alarm"
+    },
+    {
+      "enum": [
+        25,
+        "oemAlarmNames25"
+      ],
+      "description": "Condenser Temperature 3 High Alarm"
+    },
+    {
+      "enum": [
+        26,
+        "oemAlarmNames26"
+      ],
+      "description": "Condenser Temperature 4 High Alarm"
+    },
+    {
+      "enum": [
+        27,
+        "oemAlarmNames27"
+      ],
+      "description": "Condenser Temperature 1 Unreliable"
+    },
+    {
+      "enum": [
+        28,
+        "oemAlarmNames28"
+      ],
+      "description": "Condenser Temperature 2 Unreliable"
+    },
+    {
+      "enum": [
+        29,
+        "oemAlarmNames29"
+      ],
+      "description": "Condenser Temperature 3 Unreliable"
+    },
+    {
+      "enum": [
+        30,
+        "oemAlarmNames30"
+      ],
+      "description": "Condenser Temperature 4 Unreliable"
+    },
+    {
+      "enum": [
+        31,
+        "oemAlarmNames31"
+      ],
+      "description": "Low Temperature Alarm"
+    },
+    {
+      "enum": [
+        32,
+        "oemAlarmNames32"
+      ],
+      "description": "Exhaust Fan 1 VFD Fault Alarm"
+    },
+    {
+      "enum": [
+        33,
+        "oemAlarmNames33"
+      ],
+      "description": "Exhaust Fan 2 VFD Fault Alarm"
+    },
+    {
+      "enum": [
+        34,
+        "oemAlarmNames34"
+      ],
+      "description": "Blower VFD Fault Alarm"
+    },
+    {
+      "enum": [
+        35,
+        "oemAlarmNames35"
+      ],
+      "description": "Filter Alarm"
+    },
+    {
+      "enum": [
+        36,
+        "oemAlarmNames36"
+      ],
+      "description": "Interlock Alarm"
+    },
+    {
+      "enum": [
+        37,
+        "oemAlarmNames37"
+      ],
+      "description": "Supply Fan Fault"
+    },
+    {
+      "enum": [
+        38,
+        "oemAlarmNames38"
+      ],
+      "description": "Burner Fault"
+    },
+    {
+      "enum": [
+        39,
+        "oemAlarmNames39"
+      ],
+      "description": "Low OA Lockout Protect"
+    },
+    {
+      "enum": [
+        40,
+        "oemAlarmNames40"
+      ],
+      "description": "Over Current Fault Alarm"
+    },
+    {
+      "enum": [
+        41,
+        "oemAlarmNames41"
+      ],
+      "description": "Maximum Capacity Fault Alarm"
+    },
+    {
+      "enum": [
+        42,
+        "oemAlarmNames42"
+      ],
+      "description": "Contactor Auxiliary Switch Alarm"
+    },
+    {
+      "enum": [
+        43,
+        "oemAlarmNames43"
+      ],
+      "description": "Fan Interlock Alarm"
+    },
+    {
+      "enum": [
+        44,
+        "oemAlarmNames44"
+      ],
+      "description": "Zone Humidity Low Alarm"
+    },
+    {
+      "enum": [
+        45,
+        "oemAlarmNames45"
+      ],
+      "description": "Zone Humidity High Alarm"
+    },
+    {
+      "enum": [
+        46,
+        "oemAlarmNames46"
+      ],
+      "description": "Low Humidity Alarm Delay"
+    },
+    {
+      "enum": [
+        47,
+        "oemAlarmNames47"
+      ],
+      "description": "Drain Valve Current Alarm"
+    },
+    {
+      "enum": [
+        48,
+        "oemAlarmNames48"
+      ],
+      "description": "Fill Valve Current Alarm"
+    },
+    {
+      "enum": [
+        49,
+        "oemAlarmNames49"
+      ],
+      "description": "Drain Valve Current Alarm Delay"
+    },
+    {
+      "enum": [
+        50,
+        "oemAlarmNames50"
+      ],
+      "description": "Fill Valve Current Alarm Delay"
+    },
+    {
+      "enum": [
+        51,
+        "oemAlarmNames51"
+      ],
+      "description": "End of Cylinder Life Alarm"
+    },
+    {
+      "enum": [
+        52,
+        "oemAlarmNames52"
+      ],
+      "description": "Condenser Refrigerant Pressure Above High Limit"
+    },
+    {
+      "enum": [
+        53,
+        "oemAlarmNames53"
+      ],
+      "description": "Condenser Refrigerant Pressure Below Low Limit"
+    },
+    {
+      "enum": [
+        54,
+        "oemAlarmNames54"
+      ],
+      "description": "Suction Pressure Above High Limit"
+    },
+    {
+      "enum": [
+        55,
+        "oemAlarmNames55"
+      ],
+      "description": "Suction Pressure Below Low Limit"
+    },
+    {
+      "enum": [
+        56,
+        "oemAlarmNames56"
+      ],
+      "description": "Fast Recovery Mode Active"
+    },
+    {
+      "enum": [
+        57,
+        "oemAlarmNames57"
+      ],
+      "description": "Condenser Refrigerant Pressure High Alarm"
+    },
+    {
+      "enum": [
+        58,
+        "oemAlarmNames58"
+      ],
+      "description": "Condenser Refrigerant Pressure Low Alarm"
+    },
+    {
+      "enum": [
+        59,
+        "oemAlarmNames59"
+      ],
+      "description": "Suction Pressure High Alarm"
+    },
+    {
+      "enum": [
+        60,
+        "oemAlarmNames60"
+      ],
+      "description": "Suction Pressure Low Alarm"
+    },
+    {
+      "enum": [
+        61,
+        "oemAlarmNames61"
+      ],
+      "description": "Pump Relay Alarm"
+    },
+    {
+      "enum": [
+        62,
+        "oemAlarmNames62"
+      ],
+      "description": "Fill Valve Relay Alarm"
+    },
+    {
+      "enum": [
+        63,
+        "oemAlarmNames63"
+      ],
+      "description": "Drain Valve Relay Alarm"
+    },
+    {
+      "enum": [
+        64,
+        "oemAlarmNames64"
+      ],
+      "description": "Fill Valve Alarm"
+    },
+    {
+      "enum": [
+        65,
+        "oemAlarmNames65"
+      ],
+      "description": "Drain Valve Alarm"
+    },
+    {
+      "enum": [
+        66,
+        "oemAlarmNames66"
+      ],
+      "description": "Humidity Unreliable Alarm"
+    },
+    {
+      "enum": [
+        67,
+        "oemAlarmNames67"
+      ],
+      "description": "Temperature Unreliable Alarm"
+    },
+    {
+      "enum": [
+        68,
+        "oemAlarmNames68"
+      ],
+      "description": "Fill Valve Open Failure"
+    },
+    {
+      "enum": [
+        69,
+        "oemAlarmNames69"
+      ],
+      "description": "Fill Valve Close Failure"
+    },
+    {
+      "enum": [
+        70,
+        "oemAlarmNames70"
+      ],
+      "description": "Drain Valve Open Failure"
+    },
+    {
+      "enum": [
+        71,
+        "oemAlarmNames71"
+      ],
+      "description": "Drain Valve Close Failure"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuLimitedHControlEnumSet.schema.json",
+  "title": "ahuLimitedHControlEnumSet",
+  "description": "AHU Limited H Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "alhcontrNoLimitControl"
+      ],
+      "description": "No Limit Control"
+    },
+    {
+      "enum": [
+        1,
+        "alhcontrLimitedHControl"
+      ],
+      "description": "Limited H Control"
+    }
+  ]
+}

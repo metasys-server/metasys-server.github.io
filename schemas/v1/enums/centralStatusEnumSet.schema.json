@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/centralStatusEnumSet.schema.json",
+  "title": "centralStatusEnumSet",
+  "description": "Central Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "centralStatusOk"
+      ],
+      "description": "OK"
+    },
+    {
+      "enum": [
+        1,
+        "centralStatusDeferred"
+      ],
+      "description": "Deferred"
+    },
+    {
+      "enum": [
+        2,
+        "centralStatusDenied"
+      ],
+      "description": "Denied"
+    },
+    {
+      "enum": [
+        3,
+        "centralStatusOffline"
+      ],
+      "description": "Offline"
+    }
+  ]
+}

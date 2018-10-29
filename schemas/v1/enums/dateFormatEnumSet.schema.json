@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dateFormatEnumSet.schema.json",
+  "title": "dateFormatEnumSet",
+  "description": "Date Format",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dateMmDdYy"
+      ],
+      "description": "MM-DD-YY"
+    },
+    {
+      "enum": [
+        1,
+        "dateMmDdYyyy"
+      ],
+      "description": "MM-DD-YYYY"
+    },
+    {
+      "enum": [
+        2,
+        "dateDdMmYy"
+      ],
+      "description": "DD-MM-YY"
+    },
+    {
+      "enum": [
+        3,
+        "dateDdMmYyyy"
+      ],
+      "description": "DD-MM-YYYY"
+    },
+    {
+      "enum": [
+        4,
+        "dateDdJanYy"
+      ],
+      "description": "DD Month YY"
+    },
+    {
+      "enum": [
+        5,
+        "dateDdJanYyyy"
+      ],
+      "description": "DD Month YYYY"
+    }
+  ]
+}

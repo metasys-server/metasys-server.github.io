@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occSetpointSelectEnumSet.schema.json",
+  "title": "occSetpointSelectEnumSet",
+  "description": "Occ Setpoint Select",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "occSetpointSelectSetpointOffset"
+      ],
+      "description": "Setpoint Offset"
+    },
+    {
+      "enum": [
+        1,
+        "occSetpointSelectMinAndMaxSetpoint"
+      ],
+      "description": "Min and Max Setpoint"
+    }
+  ]
+}

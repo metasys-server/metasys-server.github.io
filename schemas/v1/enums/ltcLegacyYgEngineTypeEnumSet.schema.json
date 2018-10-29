@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYgEngineTypeEnumSet.schema.json",
+  "title": "ltcLegacyYgEngineTypeEnumSet",
+  "description": "York LTC Legacy YG Engine Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYgEngineType0"
+      ],
+      "description": "G3408 Engine"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYgEngineType1"
+      ],
+      "description": "G3412 Engine"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYgEngineType2"
+      ],
+      "description": "G3508 Engine"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYgEngineType3"
+      ],
+      "description": "G3512 Engine"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYgEngineType4"
+      ],
+      "description": "G3516 Engine"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYgEngineType5"
+      ],
+      "description": "G3606 Engine"
+    }
+  ]
+}

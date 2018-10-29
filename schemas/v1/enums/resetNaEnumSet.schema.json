@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/resetNaEnumSet.schema.json",
+  "title": "resetNaEnumSet",
+  "description": "Reset NA",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "N/A"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

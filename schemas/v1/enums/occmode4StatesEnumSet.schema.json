@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occmode4StatesEnumSet.schema.json",
+  "title": "occmode4StatesEnumSet",
+  "description": "Occ Mode 4 States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Stand By"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "No Schedule"
+    }
+  ]
+}

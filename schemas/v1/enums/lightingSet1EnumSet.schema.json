@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lightingSet1EnumSet.schema.json",
+  "title": "lightingSet1EnumSet",
+  "description": "Lighting Set 1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ls1Off"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ls1Normal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        2,
+        "ls1Emergency"
+      ],
+      "description": "Emergency"
+    },
+    {
+      "enum": [
+        3,
+        "ls1AfterHours"
+      ],
+      "description": "After Hours"
+    },
+    {
+      "enum": [
+        4,
+        "ls1Daylighting"
+      ],
+      "description": "Daylighting"
+    },
+    {
+      "enum": [
+        5,
+        "ls1AfterHoursPool"
+      ],
+      "description": "After Hours (Pool)"
+    }
+  ]
+}

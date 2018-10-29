@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuStsCurrentStateEnumSet.schema.json",
+  "title": "seRtuStsCurrentStateEnumSet",
+  "description": "SE RTU Self Test Current State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stsCurrentOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "stsCurrentStabilizingUnit"
+      ],
+      "description": "Stabilizing Unit"
+    },
+    {
+      "enum": [
+        2,
+        "stsCurrentCheckingFan"
+      ],
+      "description": "Checking Fan"
+    },
+    {
+      "enum": [
+        3,
+        "stsCurrentCheckingC1"
+      ],
+      "description": "Checking C1"
+    },
+    {
+      "enum": [
+        4,
+        "stsCurrentCheckingC2"
+      ],
+      "description": "Checking C2"
+    },
+    {
+      "enum": [
+        5,
+        "stsCurrentCheckingC3"
+      ],
+      "description": "Checking C3"
+    },
+    {
+      "enum": [
+        6,
+        "stsCurrentCheckingC4"
+      ],
+      "description": "Checking C4"
+    },
+    {
+      "enum": [
+        7,
+        "stsCurrentCheckingH1"
+      ],
+      "description": "Checking H1"
+    },
+    {
+      "enum": [
+        8,
+        "stsCurrentCheckingH2"
+      ],
+      "description": "Checking H2"
+    },
+    {
+      "enum": [
+        9,
+        "stsCurrentCheckingH3"
+      ],
+      "description": "Checking H3"
+    },
+    {
+      "enum": [
+        10,
+        "stsCurrentCheckingEcon"
+      ],
+      "description": "Checking Econ"
+    },
+    {
+      "enum": [
+        11,
+        "stsCurrentCheckingExhaust"
+      ],
+      "description": "Checking Exhaust"
+    },
+    {
+      "enum": [
+        12,
+        "stsCurrentFailApsOff"
+      ],
+      "description": "Fail - APS Off"
+    },
+    {
+      "enum": [
+        13,
+        "stsCurrentFailLowVoltage"
+      ],
+      "description": "Fail - Low Voltage"
+    },
+    {
+      "enum": [
+        14,
+        "stsCurrentFailSatUnreliable"
+      ],
+      "description": "Fail - SAT Unreliable"
+    },
+    {
+      "enum": [
+        15,
+        "stsCurrentFailVfdFault"
+      ],
+      "description": "Fail - VFD Fault"
+    },
+    {
+      "enum": [
+        16,
+        "stsCurrentFailFanOverload"
+      ],
+      "description": "Fail - Fan Overload"
+    }
+  ]
+}

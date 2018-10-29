@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/warmUpCoolDown.schema.json",
+  "title": "warmUpCoolDown",
+  "description": "Warm-up Cool-down",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "warmUpCoolDownNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "warmUpCoolDownPreCheck"
+      ],
+      "description": "Pre-Check"
+    },
+    {
+      "enum": [
+        2,
+        "warmUpCoolDownWarmUp"
+      ],
+      "description": "Warm-Up"
+    },
+    {
+      "enum": [
+        3,
+        "warmUpCoolDownCoolDown"
+      ],
+      "description": "Cool-Down"
+    },
+    {
+      "enum": [
+        4,
+        "warmUpCoolDownWarmUpOrCoolDownNotEnabled"
+      ],
+      "description": "Warm-up or Cool-down not Enabled"
+    },
+    {
+      "enum": [
+        5,
+        "warmUpCoolDownSetpointsReached"
+      ],
+      "description": "Setpoints Reached"
+    }
+  ]
+}

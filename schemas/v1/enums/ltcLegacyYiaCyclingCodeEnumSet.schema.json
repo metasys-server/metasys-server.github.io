@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaCyclingCodeEnumSet.schema.json",
+  "title": "ltcLegacyYiaCyclingCodeEnumSet",
+  "description": "York LTC Legacy YIA Cycling Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaCyclingCode0"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaCyclingCode1"
+      ],
+      "description": "POWER FAILURE (AUTO-RESTART MODE)"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYiaCyclingCode2"
+      ],
+      "description": "CONDENSER WATER FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYiaCyclingCode3"
+      ],
+      "description": "LOW WATER TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYiaCyclingCode4"
+      ],
+      "description": "DAILY SCHEDULE SHUTDOWN"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYiaCyclingCode5"
+      ],
+      "description": "STEAM VALVE LOADED ABOVE 10%"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYiaCyclingCode6"
+      ],
+      "description": "REMOTE / LOCAL SYSTEM CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYiaCyclingCode7"
+      ],
+      "description": "MULTI-UNIT CYCLING SHUTDOWN"
+    }
+  ]
+}

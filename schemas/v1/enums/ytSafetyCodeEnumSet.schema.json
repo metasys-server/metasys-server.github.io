@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ytSafetyCodeEnumSet.schema.json",
+  "title": "ytSafetyCodeEnumSet",
+  "description": "YT Safety Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Abnormal Condition"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Evaporator - Low Pressure"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Evaporator - Transducer Or Leaving Liquid Probe"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Evaporator - Temperature Transducer"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Condenser - High Pressure Contacts Open"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Condenser - High Pressure"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Condenser - Pressure Transducer Out Of Range"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Auxiliary Safety - Contacts Closed"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Discharge - Low Temperature"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Discharge - High Temperature"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Oil - High Temperature"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Oil - Low Differential Pressure"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Oil - High Differential Pressure"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "Control Panel - Power Failure"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "Motor or Starter - Current Imbalance"
+    },
+    {
+      "enum": [
+        29,
+        "29"
+      ],
+      "description": "VSD - High Heatsink Temperature"
+    },
+    {
+      "enum": [
+        30,
+        "30"
+      ],
+      "description": "VSD - 105% Motor Current Overload"
+    },
+    {
+      "enum": [
+        31,
+        "31"
+      ],
+      "description": "VSD - High Phase A Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        32,
+        "32"
+      ],
+      "description": "VSD - High Phase B Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        33,
+        "33"
+      ],
+      "description": "VSD - High Phase C Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        34,
+        "34"
+      ],
+      "description": "VSD - High Converter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        35,
+        "35"
+      ],
+      "description": "VSD - Precharge Lockout"
+    },
+    {
+      "enum": [
+        36,
+        "36"
+      ],
+      "description": "Harmonic Filter - High Heatsink Temperature"
+    },
+    {
+      "enum": [
+        37,
+        "37"
+      ],
+      "description": "Harmonic Filter - High Total Demand Distortion"
+    },
+    {
+      "enum": [
+        49,
+        "49"
+      ],
+      "description": "Starter - Invalid Motor Selection"
+    },
+    {
+      "enum": [
+        51,
+        "51"
+      ],
+      "description": "Evaporator - Low Pressure"
+    },
+    {
+      "enum": [
+        52,
+        "52"
+      ],
+      "description": "Evaporator - Low Pressure - Smart Freeze"
+    }
+  ]
+}

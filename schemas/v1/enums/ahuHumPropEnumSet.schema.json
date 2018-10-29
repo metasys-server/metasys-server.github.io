@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHumPropEnumSet.schema.json",
+  "title": "ahuHumPropEnumSet",
+  "description": "AHU Hum Prop",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahpOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahpHControl"
+      ],
+      "description": "H Control"
+    },
+    {
+      "enum": [
+        2,
+        "ahpLmtHControl"
+      ],
+      "description": "Limited H Control"
+    }
+  ]
+}

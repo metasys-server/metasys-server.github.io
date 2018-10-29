@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityPowNormalAlarmEnumSet.schema.json",
+  "title": "unityPowNormalAlarmEnumSet",
+  "description": "Unity POW Normal/Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ALARM"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "MANUAL, ALARM"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MANUAL, NORMAL"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

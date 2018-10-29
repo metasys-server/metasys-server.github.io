@@ -1,0 +1,708 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorGenericInputEnumSet.schema.json",
+  "title": "connectorGenericInputEnumSet",
+  "description": "Connector Generic Input",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorGenericInput01"
+      ],
+      "description": "Input 1"
+    },
+    {
+      "enum": [
+        1,
+        "connectorGenericInput02"
+      ],
+      "description": "Input 2"
+    },
+    {
+      "enum": [
+        2,
+        "connectorGenericInput03"
+      ],
+      "description": "Input 3"
+    },
+    {
+      "enum": [
+        3,
+        "connectorGenericInput04"
+      ],
+      "description": "Input 4"
+    },
+    {
+      "enum": [
+        4,
+        "connectorGenericInput05"
+      ],
+      "description": "Input 5"
+    },
+    {
+      "enum": [
+        5,
+        "connectorGenericInput06"
+      ],
+      "description": "Input 6"
+    },
+    {
+      "enum": [
+        6,
+        "connectorGenericInput07"
+      ],
+      "description": "Input 7"
+    },
+    {
+      "enum": [
+        7,
+        "connectorGenericInput08"
+      ],
+      "description": "Input 8"
+    },
+    {
+      "enum": [
+        8,
+        "connectorGenericInput09"
+      ],
+      "description": "Input 9"
+    },
+    {
+      "enum": [
+        9,
+        "connectorGenericInput10"
+      ],
+      "description": "Input 10"
+    },
+    {
+      "enum": [
+        10,
+        "connectorGenericInput11"
+      ],
+      "description": "Input 11"
+    },
+    {
+      "enum": [
+        11,
+        "connectorGenericInput12"
+      ],
+      "description": "Input 12"
+    },
+    {
+      "enum": [
+        12,
+        "connectorGenericInput13"
+      ],
+      "description": "Input 13"
+    },
+    {
+      "enum": [
+        13,
+        "connectorGenericInput14"
+      ],
+      "description": "Input 14"
+    },
+    {
+      "enum": [
+        14,
+        "connectorGenericInput15"
+      ],
+      "description": "Input 15"
+    },
+    {
+      "enum": [
+        15,
+        "connectorGenericInput16"
+      ],
+      "description": "Input 16"
+    },
+    {
+      "enum": [
+        16,
+        "connectorGenericInput17"
+      ],
+      "description": "Input 17"
+    },
+    {
+      "enum": [
+        17,
+        "connectorGenericInput18"
+      ],
+      "description": "Input 18"
+    },
+    {
+      "enum": [
+        18,
+        "connectorGenericInput19"
+      ],
+      "description": "Input 19"
+    },
+    {
+      "enum": [
+        19,
+        "connectorGenericInput20"
+      ],
+      "description": "Input 20"
+    },
+    {
+      "enum": [
+        20,
+        "connectorGenericInput21"
+      ],
+      "description": "Input 21"
+    },
+    {
+      "enum": [
+        21,
+        "connectorGenericInput22"
+      ],
+      "description": "Input 22"
+    },
+    {
+      "enum": [
+        22,
+        "connectorGenericInput23"
+      ],
+      "description": "Input 23"
+    },
+    {
+      "enum": [
+        23,
+        "connectorGenericInput24"
+      ],
+      "description": "Input 24"
+    },
+    {
+      "enum": [
+        24,
+        "connectorGenericInput25"
+      ],
+      "description": "Input 25"
+    },
+    {
+      "enum": [
+        25,
+        "connectorGenericInput26"
+      ],
+      "description": "Input 26"
+    },
+    {
+      "enum": [
+        26,
+        "connectorGenericInput27"
+      ],
+      "description": "Input 27"
+    },
+    {
+      "enum": [
+        27,
+        "connectorGenericInput28"
+      ],
+      "description": "Input 28"
+    },
+    {
+      "enum": [
+        28,
+        "connectorGenericInput29"
+      ],
+      "description": "Input 29"
+    },
+    {
+      "enum": [
+        29,
+        "connectorGenericInput30"
+      ],
+      "description": "Input 30"
+    },
+    {
+      "enum": [
+        30,
+        "connectorGenericInput31"
+      ],
+      "description": "Input 31"
+    },
+    {
+      "enum": [
+        31,
+        "connectorGenericInput32"
+      ],
+      "description": "Input 32"
+    },
+    {
+      "enum": [
+        32,
+        "connectorGenericInput33"
+      ],
+      "description": "Input 33"
+    },
+    {
+      "enum": [
+        33,
+        "connectorGenericInput34"
+      ],
+      "description": "Input 34"
+    },
+    {
+      "enum": [
+        34,
+        "connectorGenericInput35"
+      ],
+      "description": "Input 35"
+    },
+    {
+      "enum": [
+        35,
+        "connectorGenericInput36"
+      ],
+      "description": "Input 36"
+    },
+    {
+      "enum": [
+        36,
+        "connectorGenericInput37"
+      ],
+      "description": "Input 37"
+    },
+    {
+      "enum": [
+        37,
+        "connectorGenericInput38"
+      ],
+      "description": "Input 38"
+    },
+    {
+      "enum": [
+        38,
+        "connectorGenericInput39"
+      ],
+      "description": "Input 39"
+    },
+    {
+      "enum": [
+        39,
+        "connectorGenericInput40"
+      ],
+      "description": "Input 40"
+    },
+    {
+      "enum": [
+        40,
+        "connectorGenericInput41"
+      ],
+      "description": "Input 41"
+    },
+    {
+      "enum": [
+        41,
+        "connectorGenericInput42"
+      ],
+      "description": "Input 42"
+    },
+    {
+      "enum": [
+        42,
+        "connectorGenericInput43"
+      ],
+      "description": "Input 43"
+    },
+    {
+      "enum": [
+        43,
+        "connectorGenericInput44"
+      ],
+      "description": "Input 44"
+    },
+    {
+      "enum": [
+        44,
+        "connectorGenericInput45"
+      ],
+      "description": "Input 45"
+    },
+    {
+      "enum": [
+        45,
+        "connectorGenericInput46"
+      ],
+      "description": "Input 46"
+    },
+    {
+      "enum": [
+        46,
+        "connectorGenericInput47"
+      ],
+      "description": "Input 47"
+    },
+    {
+      "enum": [
+        47,
+        "connectorGenericInput48"
+      ],
+      "description": "Input 48"
+    },
+    {
+      "enum": [
+        48,
+        "connectorGenericInput49"
+      ],
+      "description": "Input 49"
+    },
+    {
+      "enum": [
+        49,
+        "connectorGenericInput50"
+      ],
+      "description": "Input 50"
+    },
+    {
+      "enum": [
+        50,
+        "connectorGenericInput51"
+      ],
+      "description": "Input 51"
+    },
+    {
+      "enum": [
+        51,
+        "connectorGenericInput52"
+      ],
+      "description": "Input 52"
+    },
+    {
+      "enum": [
+        52,
+        "connectorGenericInput53"
+      ],
+      "description": "Input 53"
+    },
+    {
+      "enum": [
+        53,
+        "connectorGenericInput54"
+      ],
+      "description": "Input 54"
+    },
+    {
+      "enum": [
+        54,
+        "connectorGenericInput55"
+      ],
+      "description": "Input 55"
+    },
+    {
+      "enum": [
+        55,
+        "connectorGenericInput56"
+      ],
+      "description": "Input 56"
+    },
+    {
+      "enum": [
+        56,
+        "connectorGenericInput57"
+      ],
+      "description": "Input 57"
+    },
+    {
+      "enum": [
+        57,
+        "connectorGenericInput58"
+      ],
+      "description": "Input 58"
+    },
+    {
+      "enum": [
+        58,
+        "connectorGenericInput59"
+      ],
+      "description": "Input 59"
+    },
+    {
+      "enum": [
+        59,
+        "connectorGenericInput60"
+      ],
+      "description": "Input 60"
+    },
+    {
+      "enum": [
+        60,
+        "connectorGenericInput61"
+      ],
+      "description": "Input 61"
+    },
+    {
+      "enum": [
+        61,
+        "connectorGenericInput62"
+      ],
+      "description": "Input 62"
+    },
+    {
+      "enum": [
+        62,
+        "connectorGenericInput63"
+      ],
+      "description": "Input 63"
+    },
+    {
+      "enum": [
+        63,
+        "connectorGenericInput64"
+      ],
+      "description": "Input 64"
+    },
+    {
+      "enum": [
+        64,
+        "connectorGenericInput65"
+      ],
+      "description": "Input 65"
+    },
+    {
+      "enum": [
+        65,
+        "connectorGenericInput66"
+      ],
+      "description": "Input 66"
+    },
+    {
+      "enum": [
+        66,
+        "connectorGenericInput67"
+      ],
+      "description": "Input 67"
+    },
+    {
+      "enum": [
+        67,
+        "connectorGenericInput68"
+      ],
+      "description": "Input 68"
+    },
+    {
+      "enum": [
+        68,
+        "connectorGenericInput69"
+      ],
+      "description": "Input 69"
+    },
+    {
+      "enum": [
+        69,
+        "connectorGenericInput70"
+      ],
+      "description": "Input 70"
+    },
+    {
+      "enum": [
+        70,
+        "connectorGenericInput71"
+      ],
+      "description": "Input 71"
+    },
+    {
+      "enum": [
+        71,
+        "connectorGenericInput72"
+      ],
+      "description": "Input 72"
+    },
+    {
+      "enum": [
+        72,
+        "connectorGenericInput73"
+      ],
+      "description": "Input 73"
+    },
+    {
+      "enum": [
+        73,
+        "connectorGenericInput74"
+      ],
+      "description": "Input 74"
+    },
+    {
+      "enum": [
+        74,
+        "connectorGenericInput75"
+      ],
+      "description": "Input 75"
+    },
+    {
+      "enum": [
+        75,
+        "connectorGenericInput76"
+      ],
+      "description": "Input 76"
+    },
+    {
+      "enum": [
+        76,
+        "connectorGenericInput77"
+      ],
+      "description": "Input 77"
+    },
+    {
+      "enum": [
+        77,
+        "connectorGenericInput78"
+      ],
+      "description": "Input 78"
+    },
+    {
+      "enum": [
+        78,
+        "connectorGenericInput79"
+      ],
+      "description": "Input 79"
+    },
+    {
+      "enum": [
+        79,
+        "connectorGenericInput80"
+      ],
+      "description": "Input 80"
+    },
+    {
+      "enum": [
+        80,
+        "connectorGenericInput81"
+      ],
+      "description": "Input 81"
+    },
+    {
+      "enum": [
+        81,
+        "connectorGenericInput82"
+      ],
+      "description": "Input 82"
+    },
+    {
+      "enum": [
+        82,
+        "connectorGenericInput83"
+      ],
+      "description": "Input 83"
+    },
+    {
+      "enum": [
+        83,
+        "connectorGenericInput84"
+      ],
+      "description": "Input 84"
+    },
+    {
+      "enum": [
+        84,
+        "connectorGenericInput85"
+      ],
+      "description": "Input 85"
+    },
+    {
+      "enum": [
+        85,
+        "connectorGenericInput86"
+      ],
+      "description": "Input 86"
+    },
+    {
+      "enum": [
+        86,
+        "connectorGenericInput87"
+      ],
+      "description": "Input 87"
+    },
+    {
+      "enum": [
+        87,
+        "connectorGenericInput88"
+      ],
+      "description": "Input 88"
+    },
+    {
+      "enum": [
+        88,
+        "connectorGenericInput89"
+      ],
+      "description": "Input 89"
+    },
+    {
+      "enum": [
+        89,
+        "connectorGenericInput90"
+      ],
+      "description": "Input 90"
+    },
+    {
+      "enum": [
+        90,
+        "connectorGenericInput91"
+      ],
+      "description": "Input 91"
+    },
+    {
+      "enum": [
+        91,
+        "connectorGenericInput92"
+      ],
+      "description": "Input 92"
+    },
+    {
+      "enum": [
+        92,
+        "connectorGenericInput93"
+      ],
+      "description": "Input 93"
+    },
+    {
+      "enum": [
+        93,
+        "connectorGenericInput94"
+      ],
+      "description": "Input 94"
+    },
+    {
+      "enum": [
+        94,
+        "connectorGenericInput95"
+      ],
+      "description": "Input 95"
+    },
+    {
+      "enum": [
+        95,
+        "connectorGenericInput96"
+      ],
+      "description": "Input 96"
+    },
+    {
+      "enum": [
+        96,
+        "connectorGenericInput97"
+      ],
+      "description": "Input 97"
+    },
+    {
+      "enum": [
+        97,
+        "connectorGenericInput98"
+      ],
+      "description": "Input 98"
+    },
+    {
+      "enum": [
+        98,
+        "connectorGenericInput99"
+      ],
+      "description": "Input 99"
+    },
+    {
+      "enum": [
+        99,
+        "connectorGenericInput100"
+      ],
+      "description": "Input 100"
+    }
+  ]
+}

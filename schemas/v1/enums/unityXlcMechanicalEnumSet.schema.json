@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcMechanicalEnumSet.schema.json",
+  "title": "unityXlcMechanicalEnumSet",
+  "description": "Unity XLC Mechanical",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "MEC"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "MEC1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "MEC2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MEC3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, MEC3"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, MEC1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

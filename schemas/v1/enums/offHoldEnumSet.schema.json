@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offHoldEnumSet.schema.json",
+  "title": "offHoldEnumSet",
+  "description": "Off/Hold",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ohOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ohHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lysShortNamesEnumSet.schema.json",
+  "title": "lysShortNamesEnumSet",
+  "description": "LYS Short Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "lysShortNames1"
+      ],
+      "description": "REMOTE UNIT START"
+    },
+    {
+      "enum": [
+        2,
+        "lysShortNames2"
+      ],
+      "description": "REMOTE UNIT STOP"
+    },
+    {
+      "enum": [
+        3,
+        "lysShortNames3"
+      ],
+      "description": "CHILLED FLOW SWITCH"
+    },
+    {
+      "enum": [
+        4,
+        "lysShortNames4"
+      ],
+      "description": "CONDENSER FLOW SWITCH"
+    },
+    {
+      "enum": [
+        5,
+        "lysShortNames5"
+      ],
+      "description": "START CABINET FAULT"
+    },
+    {
+      "enum": [
+        6,
+        "lysShortNames6"
+      ],
+      "description": "LOW OIL LEVEL SWITCH"
+    },
+    {
+      "enum": [
+        7,
+        "lysShortNames7"
+      ],
+      "description": "EM STOP"
+    },
+    {
+      "enum": [
+        8,
+        "lysShortNames8"
+      ],
+      "description": "AUXILIARY SWITCH"
+    },
+    {
+      "enum": [
+        9,
+        "lysShortNames9"
+      ],
+      "description": "R LEAVING TEMP RESET"
+    },
+    {
+      "enum": [
+        10,
+        "lysShortNames10"
+      ],
+      "description": "R CURRENT UNLOAD RESET"
+    },
+    {
+      "enum": [
+        11,
+        "lysShortNames11"
+      ],
+      "description": "COMPRESSOR FEEDBACK"
+    },
+    {
+      "enum": [
+        12,
+        "lysShortNames12"
+      ],
+      "description": "HIGH PRESSURE SWITCH"
+    },
+    {
+      "enum": [
+        13,
+        "lysShortNames13"
+      ],
+      "description": "CONTROL MODE SET 1"
+    },
+    {
+      "enum": [
+        14,
+        "lysShortNames14"
+      ],
+      "description": "CONTROL MODE SET 2"
+    },
+    {
+      "enum": [
+        15,
+        "lysShortNames15"
+      ],
+      "description": "MULTI UNIT CYCLING"
+    },
+    {
+      "enum": [
+        16,
+        "lysShortNames16"
+      ],
+      "description": "SYSTEM CYCLING"
+    },
+    {
+      "enum": [
+        17,
+        "lysShortNames17"
+      ],
+      "description": "SLIDE VALVE LOAD"
+    },
+    {
+      "enum": [
+        18,
+        "lysShortNames18"
+      ],
+      "description": "SLIDE VALVE UNLOAD"
+    },
+    {
+      "enum": [
+        19,
+        "lysShortNames19"
+      ],
+      "description": "VARIABLE ORIFICE SOLENOID 1"
+    },
+    {
+      "enum": [
+        20,
+        "lysShortNames20"
+      ],
+      "description": "OIL HEATER"
+    },
+    {
+      "enum": [
+        21,
+        "lysShortNames21"
+      ],
+      "description": "RUNNING STATUS"
+    },
+    {
+      "enum": [
+        22,
+        "lysShortNames22"
+      ],
+      "description": "ALARM"
+    },
+    {
+      "enum": [
+        23,
+        "lysShortNames23"
+      ],
+      "description": "UNIT START"
+    },
+    {
+      "enum": [
+        24,
+        "lysShortNames24"
+      ],
+      "description": "HOT GAS BYPASS"
+    },
+    {
+      "enum": [
+        25,
+        "lysShortNames25"
+      ],
+      "description": "CHILLED LIQUID PUMP"
+    },
+    {
+      "enum": [
+        26,
+        "lysShortNames26"
+      ],
+      "description": "CONDENSER LIQUID PUMP"
+    },
+    {
+      "enum": [
+        27,
+        "lysShortNames27"
+      ],
+      "description": "OIL CHANNEL SOLENOID"
+    },
+    {
+      "enum": [
+        28,
+        "lysShortNames28"
+      ],
+      "description": "VARIABLE ORIFICE SOLENOID 2"
+    },
+    {
+      "enum": [
+        29,
+        "lysShortNames29"
+      ],
+      "description": "REMOTE MODE READY TO START"
+    },
+    {
+      "enum": [
+        30,
+        "lysShortNames30"
+      ],
+      "description": "RETURN CHILLED TEMP"
+    },
+    {
+      "enum": [
+        31,
+        "lysShortNames31"
+      ],
+      "description": "LEAVING CHILLED TEMP"
+    },
+    {
+      "enum": [
+        32,
+        "lysShortNames32"
+      ],
+      "description": "RETURN CONDENSER TEMP"
+    },
+    {
+      "enum": [
+        33,
+        "lysShortNames33"
+      ],
+      "description": "PERCENT FLA"
+    },
+    {
+      "enum": [
+        34,
+        "lysShortNames34"
+      ],
+      "description": "MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        35,
+        "lysShortNames35"
+      ],
+      "description": "OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        36,
+        "lysShortNames36"
+      ],
+      "description": "OIL PRESSURE"
+    },
+    {
+      "enum": [
+        37,
+        "lysShortNames37"
+      ],
+      "description": "OIL FILTER PRESSURE"
+    },
+    {
+      "enum": [
+        38,
+        "lysShortNames38"
+      ],
+      "description": "LEAVING CONDENSER TEMP"
+    },
+    {
+      "enum": [
+        39,
+        "lysShortNames39"
+      ],
+      "description": "SLIDE VALVE POSITION"
+    },
+    {
+      "enum": [
+        40,
+        "lysShortNames40"
+      ],
+      "description": "EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        41,
+        "lysShortNames41"
+      ],
+      "description": "DISCHARGE TEMP"
+    },
+    {
+      "enum": [
+        42,
+        "lysShortNames42"
+      ],
+      "description": "CONDENSER PRESSURE"
+    },
+    {
+      "enum": [
+        43,
+        "lysShortNames43"
+      ],
+      "description": "EVAPORATOR SATURATION TEMP"
+    },
+    {
+      "enum": [
+        44,
+        "lysShortNames44"
+      ],
+      "description": "CONDENSER SATURATION TEMP"
+    },
+    {
+      "enum": [
+        45,
+        "lysShortNames45"
+      ],
+      "description": "DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        46,
+        "lysShortNames46"
+      ],
+      "description": "SEAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        47,
+        "lysShortNames47"
+      ],
+      "description": "EVAPORATOR REFRIGERANT TEMP"
+    },
+    {
+      "enum": [
+        48,
+        "lysShortNames48"
+      ],
+      "description": "EVAPORATOR SMALL TEMP DIFF"
+    },
+    {
+      "enum": [
+        49,
+        "lysShortNames49"
+      ],
+      "description": "CONDENSER SMALL TEMP DIFF"
+    },
+    {
+      "enum": [
+        50,
+        "lysShortNames50"
+      ],
+      "description": "LEAVING CHILLER TEMP SETPOINT"
+    },
+    {
+      "enum": [
+        51,
+        "lysShortNames51"
+      ],
+      "description": "CHILLER STOP TEMP"
+    },
+    {
+      "enum": [
+        52,
+        "lysShortNames52"
+      ],
+      "description": "CONTROL MODE"
+    },
+    {
+      "enum": [
+        53,
+        "lysShortNames53"
+      ],
+      "description": "MIN LOAD CONTROL SOURCE"
+    },
+    {
+      "enum": [
+        54,
+        "lysShortNames54"
+      ],
+      "description": "FAULT STATUS"
+    },
+    {
+      "enum": [
+        55,
+        "lysShortNames55"
+      ],
+      "description": "LEAVING TEMPERATURE SETPOINT"
+    },
+    {
+      "enum": [
+        56,
+        "lysShortNames56"
+      ],
+      "description": "MAX LOAD FLA"
+    },
+    {
+      "enum": [
+        57,
+        "lysShortNames57"
+      ],
+      "description": "START TEMP OFFSET SETPOINT"
+    },
+    {
+      "enum": [
+        58,
+        "lysShortNames58"
+      ],
+      "description": "PULLDOWN DEMAND TIME"
+    },
+    {
+      "enum": [
+        59,
+        "lysShortNames59"
+      ],
+      "description": "PULLDOWN DEMAND LIMIT"
+    },
+    {
+      "enum": [
+        60,
+        "lysShortNames60"
+      ],
+      "description": "STOP TEMP OFFSET SETPOINT"
+    },
+    {
+      "enum": [
+        61,
+        "lysShortNames61"
+      ],
+      "description": "MIN LOAD FLA"
+    },
+    {
+      "enum": [
+        62,
+        "lysShortNames62"
+      ],
+      "description": "LEAVING CHILLER TEMP SETPOINT HP"
+    },
+    {
+      "enum": [
+        63,
+        "lysShortNames63"
+      ],
+      "description": "START TEMP OFFSET SETPOINT HP"
+    },
+    {
+      "enum": [
+        64,
+        "lysShortNames64"
+      ],
+      "description": "STOP TEMP OFFSET SETPOINT HP"
+    },
+    {
+      "enum": [
+        65,
+        "lysShortNames65"
+      ],
+      "description": "SCHEDULED ON|OFF"
+    },
+    {
+      "enum": [
+        66,
+        "lysShortNames66"
+      ],
+      "description": "REMOTE START"
+    },
+    {
+      "enum": [
+        67,
+        "lysShortNames67"
+      ],
+      "description": "REMOTE STOP"
+    },
+    {
+      "enum": [
+        68,
+        "lysShortNames68"
+      ],
+      "description": "COOLING TOWER FAN"
+    },
+    {
+      "enum": [
+        69,
+        "lysShortNames69"
+      ],
+      "description": "FLA PERCENT"
+    },
+    {
+      "enum": [
+        70,
+        "lysShortNames70"
+      ],
+      "description": "FLA AC"
+    },
+    {
+      "enum": [
+        71,
+        "lysShortNames71"
+      ],
+      "description": "LEAVING TEMP SETPOINT IC"
+    },
+    {
+      "enum": [
+        72,
+        "lysShortNames72"
+      ],
+      "description": "FLA IC"
+    },
+    {
+      "enum": [
+        73,
+        "lysShortNames73"
+      ],
+      "description": "FLA HP"
+    }
+  ]
+}

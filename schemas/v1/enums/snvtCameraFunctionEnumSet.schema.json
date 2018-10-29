@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtCameraFunctionEnumSet.schema.json",
+  "title": "snvtCameraFunctionEnumSet",
+  "description": "SNVT Camera Function",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Relative"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Tour"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Absolute"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

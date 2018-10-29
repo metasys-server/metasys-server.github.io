@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seSafetySetupEnumSet.schema.json",
+  "title": "seSafetySetupEnumSet",
+  "description": "SE Safety Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seSsSmoke"
+      ],
+      "description": "Smoke Detector"
+    },
+    {
+      "enum": [
+        1,
+        "seSsPhase"
+      ],
+      "description": "Phase Failure"
+    },
+    {
+      "enum": [
+        2,
+        "seSsCond"
+      ],
+      "description": "Condensate Switch"
+    }
+  ]
+}

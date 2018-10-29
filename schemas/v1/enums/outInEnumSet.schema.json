@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/outInEnumSet.schema.json",
+  "title": "outInEnumSet",
+  "description": "Out In",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Out"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "In"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

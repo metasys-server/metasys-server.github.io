@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/routingModeEnumSet.schema.json",
+  "title": "routingModeEnumSet",
+  "description": "Routing Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rmRoutingFullDisable"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "rmRoutingFullEnable"
+      ],
+      "description": "Enabled"
+    },
+    {
+      "enum": [
+        2,
+        "rmRoutingNoBroadcast"
+      ],
+      "description": "Enabled Without Broadcast"
+    }
+  ]
+}

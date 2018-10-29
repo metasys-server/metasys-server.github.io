@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yorktalkPropertyTypeEnumSet.schema.json",
+  "title": "yorktalkPropertyTypeEnumSet",
+  "description": "York Talk Protocol Object Property Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ytPropPresentValue"
+      ],
+      "description": "Present Value"
+    },
+    {
+      "enum": [
+        1,
+        "ytPropObjShortDescription"
+      ],
+      "description": "Short Description"
+    },
+    {
+      "enum": [
+        2,
+        "ytPropObjStringEquivalent"
+      ],
+      "description": "String Equivalent"
+    },
+    {
+      "enum": [
+        3,
+        "ytPropObjStringLength"
+      ],
+      "description": "String Length"
+    },
+    {
+      "enum": [
+        4,
+        "ytPropObjUnits"
+      ],
+      "description": "Units"
+    },
+    {
+      "enum": [
+        5,
+        "ytPropObjLongDescription"
+      ],
+      "description": "Long Description"
+    },
+    {
+      "enum": [
+        6,
+        "ytPropObjDataStates"
+      ],
+      "description": "Data States"
+    },
+    {
+      "enum": [
+        7,
+        "ytPropObjDataPacket"
+      ],
+      "description": "Data Packets"
+    }
+  ]
+}

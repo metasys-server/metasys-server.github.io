@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtFireInitEnumSet.schema.json",
+  "title": "snvtFireInitEnumSet",
+  "description": "SNVT Fire Initiator",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Thermal Fixed"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Smoke Ion"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Multi Ion Thermal"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Smoke Photo"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Multi Photo Thermal"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Multi Photo Ion"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Multi Photo Ion Thermal"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Thermal ROR"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Multi Thermal ROR"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Manual Pull"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Water Flow"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Water Flow Tamper"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Status Only"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Manual Call"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Fireman Call"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "Universal"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

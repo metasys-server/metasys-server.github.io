@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/devDiscoveryComStatusEnumSet.schema.json",
+  "title": "devDiscoveryComStatusEnumSet",
+  "description": "Dev Disc Com Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "devDiscComStatusCommErr"
+      ],
+      "description": "Comm Error"
+    },
+    {
+      "enum": [
+        1,
+        "devDiscComStatusDupAddr"
+      ],
+      "description": "Duplicate Addr"
+    },
+    {
+      "enum": [
+        2,
+        "devDiscComStatusOk"
+      ],
+      "description": "OK"
+    }
+  ]
+}

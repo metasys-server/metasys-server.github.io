@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewBvAutofixedEnumSet.schema.json",
+  "title": "optiviewBvAutofixedEnumSet",
+  "description": "Optiview BV Auto Fixed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewBvAutofixed0"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewBvAutofixed1"
+      ],
+      "description": "Fixed"
+    }
+  ]
+}

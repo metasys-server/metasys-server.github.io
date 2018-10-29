@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ewmaSetupEnumSet.schema.json",
+  "title": "ewmaSetupEnumSet",
+  "description": "EWMA Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normalSetup"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "advancedSetup"
+      ],
+      "description": "Advanced"
+    }
+  ]
+}

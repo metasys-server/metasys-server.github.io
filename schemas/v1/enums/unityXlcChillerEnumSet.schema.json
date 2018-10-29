@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcChillerEnumSet.schema.json",
+  "title": "unityXlcChillerEnumSet",
+  "description": "Unity XLC Chiller",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "CLR"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "CLR1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "CLR2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "CLR3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, CLR"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, CLR1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

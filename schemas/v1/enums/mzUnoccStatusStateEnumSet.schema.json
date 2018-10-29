@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mzUnoccStatusStateEnumSet.schema.json",
+  "title": "mzUnoccStatusStateEnumSet",
+  "description": "MZ Unocc Status State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mzUnoccStsStNotUnoccupied"
+      ],
+      "description": "Not Unoccupied"
+    },
+    {
+      "enum": [
+        1,
+        "mzUnoccStsStUnoccHtgClgCheck"
+      ],
+      "description": "Unocc Htg/Clg Check"
+    },
+    {
+      "enum": [
+        2,
+        "mzUnoccStsStUnoccupiedOff"
+      ],
+      "description": "Unoccupied Off"
+    }
+  ]
+}

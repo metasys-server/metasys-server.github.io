@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000IoBoardModelEnumSet.schema.json",
+  "title": "tec3000IoBoardModelEnumSet",
+  "description": "TEC3000 IO Board Model",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000IoBoardModelBoard1"
+      ],
+      "description": "Board 1"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000IoBoardModelBoard2"
+      ],
+      "description": "Board 2"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000IoBoardModelBoard3"
+      ],
+      "description": "Board 3"
+    }
+  ]
+}

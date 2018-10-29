@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuSfModeEnumSet.schema.json",
+  "title": "ahuSfModeEnumSet",
+  "description": "AHU SF Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "asmOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "asmMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "asmHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "asmRamp"
+      ],
+      "description": "Ramp"
+    },
+    {
+      "enum": [
+        4,
+        "asmSPControl"
+      ],
+      "description": "S-P Control"
+    }
+  ]
+}

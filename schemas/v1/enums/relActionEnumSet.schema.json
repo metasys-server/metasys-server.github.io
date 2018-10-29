@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/relActionEnumSet.schema.json",
+  "title": "relActionEnumSet",
+  "description": "Reliability Action",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "raNoAction"
+      ],
+      "description": "No Action"
+    },
+    {
+      "enum": [
+        1,
+        "raReleaseCommands"
+      ],
+      "description": "Release Commands"
+    }
+  ]
+}

@@ -1,0 +1,4348 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/statusEnumSet.schema.json",
+  "title": "statusEnumSet",
+  "description": "Status",
+  "oneOf": [
+    {
+      "enum": [
+        301,
+        "301"
+      ],
+      "description": "MAC Address Readonly"
+    },
+    {
+      "enum": [
+        33323,
+        "33323"
+      ],
+      "description": "Period defined is too large, smoothing constant is getting greater than 1"
+    },
+    {
+      "enum": [
+        0,
+        "ok"
+      ],
+      "description": "Ok"
+    },
+    {
+      "enum": [
+        256,
+        "notEnoughMemory"
+      ],
+      "description": "Not enough memory"
+    },
+    {
+      "enum": [
+        257,
+        "moreDataExpected"
+      ],
+      "description": "More data expected"
+    },
+    {
+      "enum": [
+        258,
+        "highLowerThanLow"
+      ],
+      "description": "High lower than low"
+    },
+    {
+      "enum": [
+        259,
+        "duplicateAddress"
+      ],
+      "description": "Duplicate address"
+    },
+    {
+      "enum": [
+        260,
+        "networkAddressInvalid"
+      ],
+      "description": "Network address invalid"
+    },
+    {
+      "enum": [
+        261,
+        "networkAddressReadonly"
+      ],
+      "description": "Network address read-only"
+    },
+    {
+      "enum": [
+        262,
+        "childAlreadyAdded"
+      ],
+      "description": "Child already added"
+    },
+    {
+      "enum": [
+        263,
+        "printerError"
+      ],
+      "description": "Printer Error"
+    },
+    {
+      "enum": [
+        264,
+        "missingRequiredAttr"
+      ],
+      "description": "Missing required attribute"
+    },
+    {
+      "enum": [
+        265,
+        "tooFewInputsDefined"
+      ],
+      "description": "Too few inputs defined"
+    },
+    {
+      "enum": [
+        266,
+        "tooManyInputsDefined"
+      ],
+      "description": "Too many inputs defined"
+    },
+    {
+      "enum": [
+        267,
+        "tooManyOutputsDefined"
+      ],
+      "description": "Too many outputs defined"
+    },
+    {
+      "enum": [
+        268,
+        "notDialPrinter"
+      ],
+      "description": "Not a dial printer"
+    },
+    {
+      "enum": [
+        269,
+        "typeMismatch"
+      ],
+      "description": "Type mismatch"
+    },
+    {
+      "enum": [
+        270,
+        "abortErrorStart"
+      ],
+      "description": "Abort error"
+    },
+    {
+      "enum": [
+        271,
+        "noOutputsDefined"
+      ],
+      "description": "No Outputs Defined"
+    },
+    {
+      "enum": [
+        272,
+        "illegalCharacterInName"
+      ],
+      "description": "Illegal character in name"
+    },
+    {
+      "enum": [
+        273,
+        "insufficientNoOfPswdChars"
+      ],
+      "description": "Password too short"
+    },
+    {
+      "enum": [
+        274,
+        "maxShedTimeTooShort"
+      ],
+      "description": "Maximum Shed Time too short"
+    },
+    {
+      "enum": [
+        275,
+        "minShedTimeTooLong"
+      ],
+      "description": "Minimum Shed Time too long"
+    },
+    {
+      "enum": [
+        276,
+        "shedStateTooHigh"
+      ],
+      "description": "Shed State too high"
+    },
+    {
+      "enum": [
+        277,
+        "tooFewOuputStates"
+      ],
+      "description": "Too Few Output States"
+    },
+    {
+      "enum": [
+        278,
+        "loadNotEligible"
+      ],
+      "description": "Load Not Eligible"
+    },
+    {
+      "enum": [
+        279,
+        "childLimitExceeded"
+      ],
+      "description": "Child Limit Exceeded"
+    },
+    {
+      "enum": [
+        280,
+        "invalidCopyObjectWrite"
+      ],
+      "description": "Writes allowed to master only"
+    },
+    {
+      "enum": [
+        281,
+        "authFail"
+      ],
+      "description": "Device Auth Failure"
+    },
+    {
+      "enum": [
+        282,
+        "networkNumberMatchError"
+      ],
+      "description": "Dup Network Number"
+    },
+    {
+      "enum": [
+        283,
+        "sensorNotSupported"
+      ],
+      "description": "Sensor Not Supported"
+    },
+    {
+      "enum": [
+        284,
+        "cantWrtUnlessOutofservice"
+      ],
+      "description": "Can not write unless Out of Service=TRUE"
+    },
+    {
+      "enum": [
+        285,
+        "tooManyMsgsQueued"
+      ],
+      "description": "Too many messages queued"
+    },
+    {
+      "enum": [
+        286,
+        "processIdentifierAlreadyUsed"
+      ],
+      "description": "Process identifier already used"
+    },
+    {
+      "enum": [
+        287,
+        "noWriteWhenUsingDipSw"
+      ],
+      "description": "Cannot write when using DIP switches"
+    },
+    {
+      "enum": [
+        288,
+        "invalidHostName"
+      ],
+      "description": "Invalid host-eg: x.y"
+    },
+    {
+      "enum": [
+        289,
+        "snapshotInUse"
+      ],
+      "description": "Snapshot In Use"
+    },
+    {
+      "enum": [
+        290,
+        "sendDisplayCommandFirst"
+      ],
+      "description": "Send Display Command First"
+    },
+    {
+      "enum": [
+        291,
+        "cannotWriteWhileActive"
+      ],
+      "description": "Cannot Write While Active"
+    },
+    {
+      "enum": [
+        292,
+        "atLeastOneRecipientRequired"
+      ],
+      "description": "At least one recipient required"
+    },
+    {
+      "enum": [
+        293,
+        "nestingNotAllowed"
+      ],
+      "description": "Nesting not allowed"
+    },
+    {
+      "enum": [
+        294,
+        "fourBitsReq"
+      ],
+      "description": "Four bits req"
+    },
+    {
+      "enum": [
+        295,
+        "valueCantBeRead"
+      ],
+      "description": "Value cannot be read"
+    },
+    {
+      "enum": [
+        296,
+        "inputRefAndGroupMustBeOnSameDev"
+      ],
+      "description": "Input Ref and Group must be on same DEV"
+    },
+    {
+      "enum": [
+        297,
+        "atLeastOneInputRefRequired"
+      ],
+      "description": "At least one input ref required"
+    },
+    {
+      "enum": [
+        298,
+        "setpointExceedsBufferSize"
+      ],
+      "description": "Setpoint exceeds size of buffer"
+    },
+    {
+      "enum": [
+        299,
+        "duplicateAddressXtDx"
+      ],
+      "description": "Duplicate address with XT on a DX"
+    },
+    {
+      "enum": [
+        300,
+        "operOvrdCommandNotAllowed"
+      ],
+      "description": "Operator override not allowed"
+    },
+    {
+      "enum": [
+        302,
+        "setpointCommandNotAllowed"
+      ],
+      "description": "Setpoint command not allowed"
+    },
+    {
+      "enum": [
+        303,
+        "exceededSitedirDeviceLimit"
+      ],
+      "description": "The device limit for the site director exceeded"
+    },
+    {
+      "enum": [
+        304,
+        "invalidChildDevice"
+      ],
+      "description": "Invalid child device for the site director"
+    },
+    {
+      "enum": [
+        305,
+        "userNameExceeds32Chars"
+      ],
+      "description": "User Name Exceeds 32 characters"
+    },
+    {
+      "enum": [
+        306,
+        "tooManyLoadsDefined"
+      ],
+      "description": "Too many loads defined"
+    },
+    {
+      "enum": [
+        307,
+        "ratingMustBeGreaterThanZero"
+      ],
+      "description": "Rating Must Be Greater Than Zero"
+    },
+    {
+      "enum": [
+        308,
+        "ratingsMustBeDescending"
+      ],
+      "description": "Ratings Must Be In Descending Order"
+    },
+    {
+      "enum": [
+        309,
+        "valuesAtShedTimeMustBeInOrder"
+      ],
+      "description": "Values-At-Shed-Time Must Be In Either Ascending Or Descending Order"
+    },
+    {
+      "enum": [
+        310,
+        "valueAtShedTimeCannotEqualShedCmd"
+      ],
+      "description": "Load Rating Value-At-Shed-Time Must Be Either Greater Than Or Less Than The Output Shed Command"
+    },
+    {
+      "enum": [
+        311,
+        "loadIsLockedShed"
+      ],
+      "description": "Load is locked Shed"
+    },
+    {
+      "enum": [
+        312,
+        "loadIsLockedReleased"
+      ],
+      "description": "Load is locked Released"
+    },
+    {
+      "enum": [
+        313,
+        "unsupportedChoice"
+      ],
+      "description": "Unsupported Choice"
+    },
+    {
+      "enum": [
+        314,
+        "requestedShedLevelTooLow"
+      ],
+      "description": "Requested Shed Level too low"
+    },
+    {
+      "enum": [
+        315,
+        "outputShedCmdMissing"
+      ],
+      "description": "An entry with a Load Rating of zero is required to indicate the Output Shed Command"
+    },
+    {
+      "enum": [
+        316,
+        "outputShedCmdRatingMustBeZero"
+      ],
+      "description": "The rating for the output shed cmd entry in the Load Rating must be zero"
+    },
+    {
+      "enum": [
+        317,
+        "minShedTimeGreaterThanMaxShedTime"
+      ],
+      "description": "Minimum Shed Time cannot be greater than Maximum Shed Time"
+    },
+    {
+      "enum": [
+        318,
+        "conflictingAttrValues"
+      ],
+      "description": "Conflicting Attribute Values"
+    },
+    {
+      "enum": [
+        319,
+        "duplicateCommand"
+      ],
+      "description": "Same command for same device and same time"
+    },
+    {
+      "enum": [
+        320,
+        "hardwareMismatchAperio"
+      ],
+      "description": "Hardware mismatch, Aperio device on S300 trunk"
+    },
+    {
+      "enum": [
+        321,
+        "hardwareMismatchS300"
+      ],
+      "description": "Hardware mismatch, S300 device on Aperio trunk"
+    },
+    {
+      "enum": [
+        322,
+        "noAvailableHardwareNumbers"
+      ],
+      "description": "No available hardware numbers"
+    },
+    {
+      "enum": [
+        323,
+        "assignHardwareNumberFailed"
+      ],
+      "description": "Assigning hardware number failed"
+    },
+    {
+      "enum": [
+        324,
+        "csDeviceMaxPctLoadInvalidRange"
+      ],
+      "description": "Max Pct load invalid range"
+    },
+    {
+      "enum": [
+        325,
+        "csDeviceMinPctLoadInvalidRange"
+      ],
+      "description": "Min Pct load invalid range"
+    },
+    {
+      "enum": [
+        326,
+        "csDeviceMaxPctLoadCopInvalidRange"
+      ],
+      "description": "Max Pct load cop invalid range"
+    },
+    {
+      "enum": [
+        327,
+        "csDeviceMinPctLoadCopInvalidRange"
+      ],
+      "description": "Min Pct load cop invalid range"
+    },
+    {
+      "enum": [
+        328,
+        "csDeviceStabilizeTimeInvalidRange"
+      ],
+      "description": "Stabilize time invalid range"
+    },
+    {
+      "enum": [
+        329,
+        "tooManyStates"
+      ],
+      "description": "Too many states"
+    },
+    {
+      "enum": [
+        400,
+        "replyFailed"
+      ],
+      "description": "Reply failed"
+    },
+    {
+      "enum": [
+        401,
+        "readNotHandled"
+      ],
+      "description": "Read not handled"
+    },
+    {
+      "enum": [
+        402,
+        "writeNotHandled"
+      ],
+      "description": "Write not handled"
+    },
+    {
+      "enum": [
+        403,
+        "referenceNotResolved"
+      ],
+      "description": "Reference Not Resolved"
+    },
+    {
+      "enum": [
+        404,
+        "classNotExists"
+      ],
+      "description": "Class does not exist"
+    },
+    {
+      "enum": [
+        405,
+        "oidInvalid"
+      ],
+      "description": "Invalid Object Identifier"
+    },
+    {
+      "enum": [
+        406,
+        "taskNotRegistered"
+      ],
+      "description": "Task not registered"
+    },
+    {
+      "enum": [
+        407,
+        "invalidMessage"
+      ],
+      "description": "Invalid message"
+    },
+    {
+      "enum": [
+        408,
+        "downloadTimerExpired"
+      ],
+      "description": "Load timer expired"
+    },
+    {
+      "enum": [
+        409,
+        "invalidObjectId"
+      ],
+      "description": "Invalid Object ID"
+    },
+    {
+      "enum": [
+        410,
+        "methodNotFound"
+      ],
+      "description": "Method not found"
+    },
+    {
+      "enum": [
+        411,
+        "invalidClassId"
+      ],
+      "description": "Invalid Class Identifier"
+    },
+    {
+      "enum": [
+        412,
+        "noMatch"
+      ],
+      "description": "No match"
+    },
+    {
+      "enum": [
+        413,
+        "wrongSubclassId"
+      ],
+      "description": "Wrong Subclass ID"
+    },
+    {
+      "enum": [
+        414,
+        "wrongSection"
+      ],
+      "description": "Wrong section"
+    },
+    {
+      "enum": [
+        415,
+        "wrongSegment"
+      ],
+      "description": "Wrong segment"
+    },
+    {
+      "enum": [
+        416,
+        "invalidSectionTag"
+      ],
+      "description": "Invalid section tag"
+    },
+    {
+      "enum": [
+        417,
+        "subclassAddInProgress"
+      ],
+      "description": "Subclass add in progress"
+    },
+    {
+      "enum": [
+        418,
+        "classExists"
+      ],
+      "description": "Class exists"
+    },
+    {
+      "enum": [
+        419,
+        "invalidAttrNo"
+      ],
+      "description": "Invalid Attribute number"
+    },
+    {
+      "enum": [
+        420,
+        "memoryError"
+      ],
+      "description": "Memory error"
+    },
+    {
+      "enum": [
+        421,
+        "msgEncodeError"
+      ],
+      "description": "Message encode error"
+    },
+    {
+      "enum": [
+        422,
+        "msgDecodeError"
+      ],
+      "description": "Message decode error"
+    },
+    {
+      "enum": [
+        423,
+        "dataIsOffbox"
+      ],
+      "description": "Object does not exist"
+    },
+    {
+      "enum": [
+        424,
+        "invalidRangecheckSize"
+      ],
+      "description": "Invalid Range Check size"
+    },
+    {
+      "enum": [
+        425,
+        "viewNotFound"
+      ],
+      "description": "View not found"
+    },
+    {
+      "enum": [
+        426,
+        "dbNotExist"
+      ],
+      "description": "Database does not exist"
+    },
+    {
+      "enum": [
+        427,
+        "initError"
+      ],
+      "description": "Initialization error"
+    },
+    {
+      "enum": [
+        428,
+        "invalidPriority"
+      ],
+      "description": "Invalid object priority"
+    },
+    {
+      "enum": [
+        429,
+        "attributeNotFound"
+      ],
+      "description": "Invalid Attribute number for this object"
+    },
+    {
+      "enum": [
+        430,
+        "commandNotFound"
+      ],
+      "description": "Command is not supported on this object"
+    },
+    {
+      "enum": [
+        431,
+        "objectNotBound"
+      ],
+      "description": "Remote object not yet found"
+    },
+    {
+      "enum": [
+        432,
+        "deviceOffline"
+      ],
+      "description": "Remote Device is offline"
+    },
+    {
+      "enum": [
+        434,
+        "childNotFound"
+      ],
+      "description": "Child not found"
+    },
+    {
+      "enum": [
+        435,
+        "objectDeleted"
+      ],
+      "description": "Object has been deleted"
+    },
+    {
+      "enum": [
+        436,
+        "childNotDeleted"
+      ],
+      "description": "Child has not been deleted"
+    },
+    {
+      "enum": [
+        437,
+        "replaceWithSurrogate"
+      ],
+      "description": "Replace with surrogate"
+    },
+    {
+      "enum": [
+        438,
+        "deviceReset"
+      ],
+      "description": "Device reset"
+    },
+    {
+      "enum": [
+        439,
+        "loadInProgress"
+      ],
+      "description": "Load in progress"
+    },
+    {
+      "enum": [
+        440,
+        "loadNotInProgress"
+      ],
+      "description": "Load not in progress"
+    },
+    {
+      "enum": [
+        441,
+        "sendFailed"
+      ],
+      "description": "Send failed"
+    },
+    {
+      "enum": [
+        442,
+        "invalidLoadDataType"
+      ],
+      "description": "Invalid load data type"
+    },
+    {
+      "enum": [
+        443,
+        "invalidLoadType"
+      ],
+      "description": "Invalid load type"
+    },
+    {
+      "enum": [
+        444,
+        "loadCompleted"
+      ],
+      "description": "Load completed"
+    },
+    {
+      "enum": [
+        445,
+        "debuggingWithInputsLocked"
+      ],
+      "description": "Debugging with inputs locked"
+    },
+    {
+      "enum": [
+        446,
+        "objectDisabled"
+      ],
+      "description": "Object disabled"
+    },
+    {
+      "enum": [
+        447,
+        "invalidTimeOfZero"
+      ],
+      "description": "Invalid Time of zero"
+    },
+    {
+      "enum": [
+        448,
+        "notRefreshAttribute"
+      ],
+      "description": "Not Refresh attribute"
+    },
+    {
+      "enum": [
+        449,
+        "objectBusyExecuting"
+      ],
+      "description": "Object busy executing"
+    },
+    {
+      "enum": [
+        450,
+        "objectSingleStepping"
+      ],
+      "description": "Object single stepping"
+    },
+    {
+      "enum": [
+        451,
+        "objectNotInDebugMode"
+      ],
+      "description": "Object not in single step mode"
+    },
+    {
+      "enum": [
+        452,
+        "objectRelinquished"
+      ],
+      "description": "Object relinquished"
+    },
+    {
+      "enum": [
+        453,
+        "prematureTermination"
+      ],
+      "description": "Premature termination"
+    },
+    {
+      "enum": [
+        454,
+        "executeSuspend"
+      ],
+      "description": "Execution suspended"
+    },
+    {
+      "enum": [
+        455,
+        "queuePurged"
+      ],
+      "description": "Queue purged"
+    },
+    {
+      "enum": [
+        456,
+        "invalidSliceReason"
+      ],
+      "description": "Invalid slice reason"
+    },
+    {
+      "enum": [
+        457,
+        "notACopyHolderDevice"
+      ],
+      "description": "Not a copy holder device"
+    },
+    {
+      "enum": [
+        458,
+        "objectNotRelinquished"
+      ],
+      "description": "Object Not Relinquished"
+    },
+    {
+      "enum": [
+        459,
+        "inconsistentLimits"
+      ],
+      "description": "Inconsistent limits"
+    },
+    {
+      "enum": [
+        460,
+        "noPcode"
+      ],
+      "description": "No Pcode"
+    },
+    {
+      "enum": [
+        461,
+        "invalidVersion"
+      ],
+      "description": "Invalid version"
+    },
+    {
+      "enum": [
+        462,
+        "loadNotDeleted"
+      ],
+      "description": "Load not deleted"
+    },
+    {
+      "enum": [
+        463,
+        "invalidLoadKey"
+      ],
+      "description": "Invalid load key"
+    },
+    {
+      "enum": [
+        464,
+        "errorInitializingClass"
+      ],
+      "description": "Error Initializing Class"
+    },
+    {
+      "enum": [
+        465,
+        "errorOpeningClassinfoErrorlog"
+      ],
+      "description": "Failed to open ClassInfo errorlog"
+    },
+    {
+      "enum": [
+        466,
+        "loadCompletedWithoutError"
+      ],
+      "description": "Load completed without error"
+    },
+    {
+      "enum": [
+        467,
+        "timeServerExistsError"
+      ],
+      "description": "Time Server Exists"
+    },
+    {
+      "enum": [
+        468,
+        "flashWriteError"
+      ],
+      "description": "Error writing Flash memory"
+    },
+    {
+      "enum": [
+        469,
+        "codeDataError"
+      ],
+      "description": "Download code data incorrect"
+    },
+    {
+      "enum": [
+        470,
+        "dictionaryTooLarge"
+      ],
+      "description": "Dictionary too large. Upgrade Main Code."
+    },
+    {
+      "enum": [
+        471,
+        "currentlyExecutingBootCode"
+      ],
+      "description": "Currently executing boot code"
+    },
+    {
+      "enum": [
+        472,
+        "mustDnldBootCodeFirst"
+      ],
+      "description": "Must download Boot code first"
+    },
+    {
+      "enum": [
+        473,
+        "mustDnldMainCodeFirst"
+      ],
+      "description": "Must download Main code first"
+    },
+    {
+      "enum": [
+        474,
+        "invalidDate"
+      ],
+      "description": "Invalid Date"
+    },
+    {
+      "enum": [
+        475,
+        "mustDownloadCodeFirst"
+      ],
+      "description": "Must download Code first"
+    },
+    {
+      "enum": [
+        476,
+        "busyBinding"
+      ],
+      "description": "Busy binding"
+    },
+    {
+      "enum": [
+        477,
+        "noInstanceArchive"
+      ],
+      "description": "No instance archive"
+    },
+    {
+      "enum": [
+        478,
+        "onlyZeroAllowedError"
+      ],
+      "description": "Only Zero Allowed"
+    },
+    {
+      "enum": [
+        479,
+        "invalidCommandType"
+      ],
+      "description": "Invalid Command type"
+    },
+    {
+      "enum": [
+        480,
+        "ramPoolSizesTooLarge"
+      ],
+      "description": "RAM pool size too large"
+    },
+    {
+      "enum": [
+        481,
+        "onlyOverrideSupported"
+      ],
+      "description": "Point is under Local Control"
+    },
+    {
+      "enum": [
+        482,
+        "attrNotWriteable"
+      ],
+      "description": "Attribute not writable"
+    },
+    {
+      "enum": [
+        483,
+        "doesNotMatchLoginId"
+      ],
+      "description": "Object Name does not match Login ID"
+    },
+    {
+      "enum": [
+        484,
+        "invalidCreateCopySetting"
+      ],
+      "description": "Invalid create copy setting"
+    },
+    {
+      "enum": [
+        485,
+        "improperObjCategory"
+      ],
+      "description": "Improper Object Category"
+    },
+    {
+      "enum": [
+        486,
+        "objectMustBeMoved"
+      ],
+      "description": "Object must be moved"
+    },
+    {
+      "enum": [
+        487,
+        "tooManyAttributesRead"
+      ],
+      "description": "Too many attributes read"
+    },
+    {
+      "enum": [
+        488,
+        "invalidDatabase"
+      ],
+      "description": "Invalid database"
+    },
+    {
+      "enum": [
+        489,
+        "cmdReplyDecodeFailed"
+      ],
+      "description": "Command reply decode failed"
+    },
+    {
+      "enum": [
+        490,
+        "notSupportedInBootCode"
+      ],
+      "description": "Not supported in Boot code"
+    },
+    {
+      "enum": [
+        491,
+        "wrongParameterCount"
+      ],
+      "description": "Wrong parameter count"
+    },
+    {
+      "enum": [
+        492,
+        "rejectErrorStart"
+      ],
+      "description": "Reject error start"
+    },
+    {
+      "enum": [
+        493,
+        "uaGoToCopyholder"
+      ],
+      "description": "User Access: Go to copy holder"
+    },
+    {
+      "enum": [
+        494,
+        "uaNoCopyHolderAvailable"
+      ],
+      "description": "User Access: No copy holder available"
+    },
+    {
+      "enum": [
+        495,
+        "uaInvalidPassword"
+      ],
+      "description": "User Access: Invalid password"
+    },
+    {
+      "enum": [
+        496,
+        "uaPass"
+      ],
+      "description": "User Access: Pass"
+    },
+    {
+      "enum": [
+        497,
+        "uaFail"
+      ],
+      "description": "User Access: Fail"
+    },
+    {
+      "enum": [
+        498,
+        "uaCorruptedOperatorData"
+      ],
+      "description": "User Access: Corrupted operator data"
+    },
+    {
+      "enum": [
+        499,
+        "uaAccessDisabled"
+      ],
+      "description": "User Access: Access disabled"
+    },
+    {
+      "enum": [
+        500,
+        "passthruOpenFailed"
+      ],
+      "description": "Pass through open failed"
+    },
+    {
+      "enum": [
+        501,
+        "flashChanged"
+      ],
+      "description": "Flash changed"
+    },
+    {
+      "enum": [
+        502,
+        "flashNotChanged"
+      ],
+      "description": "Flash not changed"
+    },
+    {
+      "enum": [
+        503,
+        "vctAreaFull"
+      ],
+      "description": "VCT Area Full"
+    },
+    {
+      "enum": [
+        504,
+        "tableExists"
+      ],
+      "description": "Table Exists"
+    },
+    {
+      "enum": [
+        505,
+        "xmlToMoiConversionFailed"
+      ],
+      "description": "Xml to Moi conversion failed"
+    },
+    {
+      "enum": [
+        506,
+        "moiToXmlConversionFailed"
+      ],
+      "description": "Moi to Xml conversion failed"
+    },
+    {
+      "enum": [
+        507,
+        "noClosearchiveInEditMode"
+      ],
+      "description": "Cannot close archive while any panel is in edit mode."
+    },
+    {
+      "enum": [
+        508,
+        "configToolNotInstalled"
+      ],
+      "description": "The Configuration Tool is needed but not installed."
+    },
+    {
+      "enum": [
+        509,
+        "applicationNotFound"
+      ],
+      "description": "Application not found."
+    },
+    {
+      "enum": [
+        510,
+        "discoveryNotComplete"
+      ],
+      "description": "Discovery not complete"
+    },
+    {
+      "enum": [
+        511,
+        "passthruAlreadyLaunched"
+      ],
+      "description": "Passthru is already launched."
+    },
+    {
+      "enum": [
+        512,
+        "commandAbortedByOperator"
+      ],
+      "description": "Command aborted by operator"
+    },
+    {
+      "enum": [
+        513,
+        "deviceResetDidNotOccur"
+      ],
+      "description": "Device reset did not occur"
+    },
+    {
+      "enum": [
+        514,
+        "communicationLostAfterReset"
+      ],
+      "description": "Communication lost after reset"
+    },
+    {
+      "enum": [
+        515,
+        "adsDatabaseError"
+      ],
+      "description": "ADS database error"
+    },
+    {
+      "enum": [
+        516,
+        "fileNotFound"
+      ],
+      "description": "File Not Found"
+    },
+    {
+      "enum": [
+        517,
+        "errorCommunicatingWithDevice"
+      ],
+      "description": "Error Communicating With Device"
+    },
+    {
+      "enum": [
+        518,
+        "dataProcessingError"
+      ],
+      "description": "Data Processing Error"
+    },
+    {
+      "enum": [
+        519,
+        "parentDoesNotExist"
+      ],
+      "description": "Parent does not exist"
+    },
+    {
+      "enum": [
+        520,
+        "readWriteError"
+      ],
+      "description": "Read/Write Error"
+    },
+    {
+      "enum": [
+        521,
+        "communicationError"
+      ],
+      "description": "Communication Error"
+    },
+    {
+      "enum": [
+        522,
+        "unableToLogIn"
+      ],
+      "description": "Unable to log in"
+    },
+    {
+      "enum": [
+        523,
+        "remoteSimulationError"
+      ],
+      "description": "Not permitted to simulate a device from a remote location"
+    },
+    {
+      "enum": [
+        524,
+        "fileTransferError"
+      ],
+      "description": "File transfer error"
+    },
+    {
+      "enum": [
+        525,
+        "loadCompletionError"
+      ],
+      "description": "Load completion error"
+    },
+    {
+      "enum": [
+        526,
+        "deviceStatusNotOperational"
+      ],
+      "description": "Device status is not operational"
+    },
+    {
+      "enum": [
+        527,
+        "synchronizeNotAllowed"
+      ],
+      "description": "Synchronize not allowed"
+    },
+    {
+      "enum": [
+        528,
+        "siteNameMismatch"
+      ],
+      "description": "Site name mismatch"
+    },
+    {
+      "enum": [
+        529,
+        "deleteInProgress"
+      ],
+      "description": "Delete in progress"
+    },
+    {
+      "enum": [
+        530,
+        "disableInProgress"
+      ],
+      "description": "Disable in progress"
+    },
+    {
+      "enum": [
+        531,
+        "serverReset"
+      ],
+      "description": "Server reset"
+    },
+    {
+      "enum": [
+        532,
+        "operationCompletionError"
+      ],
+      "description": "Operation completion error"
+    },
+    {
+      "enum": [
+        533,
+        "accessDeniedInsufficientPrivileges"
+      ],
+      "description": "Access denied due to insufficient privileges"
+    },
+    {
+      "enum": [
+        534,
+        "securityBackupFailed"
+      ],
+      "description": "Security backup failed."
+    },
+    {
+      "enum": [
+        535,
+        "securityRestoreFailed"
+      ],
+      "description": "Security restore failed."
+    },
+    {
+      "enum": [
+        536,
+        "loadAuthorizationFailed"
+      ],
+      "description": "Load Authorization Failed"
+    },
+    {
+      "enum": [
+        537,
+        "macAddressReadonly"
+      ],
+      "description": "MAC Address Read Only"
+    },
+    {
+      "enum": [
+        538,
+        "pvObtainedFromRef"
+      ],
+      "description": "Present Value obtained from Reference"
+    },
+    {
+      "enum": [
+        539,
+        "referenceNotAllowed"
+      ],
+      "description": "Reference not allowed"
+    },
+    {
+      "enum": [
+        540,
+        "waitingForInitVal"
+      ],
+      "description": "Waiting for Initial Value"
+    },
+    {
+      "enum": [
+        541,
+        "onlyExposeCsIo"
+      ],
+      "description": "Only Control System I/O may be exposed"
+    },
+    {
+      "enum": [
+        542,
+        "insufficientStorageSpace"
+      ],
+      "description": "Insufficient storage space"
+    },
+    {
+      "enum": [
+        543,
+        "deviceArchiveFailed"
+      ],
+      "description": "Device archive failed"
+    },
+    {
+      "enum": [
+        544,
+        "securityBackupInvldObj"
+      ],
+      "description": "Security backup failed due to invalid object reference"
+    },
+    {
+      "enum": [
+        545,
+        "invalidSessionId"
+      ],
+      "description": "Invalid Session ID"
+    },
+    {
+      "enum": [
+        546,
+        "sessionAlreadyStarted"
+      ],
+      "description": "Another session has already been started"
+    },
+    {
+      "enum": [
+        547,
+        "sessionNotSupported"
+      ],
+      "description": "Session not supported by Control Activities"
+    },
+    {
+      "enum": [
+        548,
+        "usingDefaultValue"
+      ],
+      "description": "Using Default Value"
+    },
+    {
+      "enum": [
+        549,
+        "databaseNotOpen"
+      ],
+      "description": "Database Not Open"
+    },
+    {
+      "enum": [
+        550,
+        "databaseLocked"
+      ],
+      "description": "Database Locked"
+    },
+    {
+      "enum": [
+        551,
+        "statusNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        552,
+        "inactive"
+      ],
+      "description": "Inactive"
+    },
+    {
+      "enum": [
+        553,
+        "boxFlowTestInProgress"
+      ],
+      "description": "Test in Progress"
+    },
+    {
+      "enum": [
+        554,
+        "boxFlowTestPrimitiveDisabled"
+      ],
+      "description": "Box Flow Test is Disabled"
+    },
+    {
+      "enum": [
+        555,
+        "boxFlowTestNotInProgress"
+      ],
+      "description": "No Test in Progress"
+    },
+    {
+      "enum": [
+        556,
+        "pssToXmlConversionFailed"
+      ],
+      "description": "PSS to XML Conversion Failed"
+    },
+    {
+      "enum": [
+        557,
+        "missingObjectName"
+      ],
+      "description": "Missing Object Name"
+    },
+    {
+      "enum": [
+        558,
+        "duplicateSchedule"
+      ],
+      "description": "The action resulted in a duplicate schedule. The duplicate was removed from the scheduled queue."
+    },
+    {
+      "enum": [
+        559,
+        "scheduleExpired"
+      ],
+      "description": "The schedule has expired and was removed from the scheduled queue."
+    },
+    {
+      "enum": [
+        560,
+        "autoCalibrationSequenceInProgress"
+      ],
+      "description": "Autocalibration Sequence in Progress"
+    },
+    {
+      "enum": [
+        561,
+        "flowNotReliable"
+      ],
+      "description": "Flow is not Reliable"
+    },
+    {
+      "enum": [
+        562,
+        "noBalancerOverride"
+      ],
+      "description": "No Balancer Override"
+    },
+    {
+      "enum": [
+        563,
+        "writeMultipleNotSupported"
+      ],
+      "description": "Write multiple not supported."
+    },
+    {
+      "enum": [
+        564,
+        "objCountExceeded"
+      ],
+      "description": "Object count exceeded for controller, download not permitted"
+    },
+    {
+      "enum": [
+        565,
+        "passthruSuperOffline"
+      ],
+      "description": "Supervisory Device Is Offline"
+    },
+    {
+      "enum": [
+        566,
+        "passthruPswdFailure"
+      ],
+      "description": "Invalid Password or Passthru Session Has Timed Out. Try Restarting Session."
+    },
+    {
+      "enum": [
+        567,
+        "passthruLoadFail"
+      ],
+      "description": "Could Not Load Passthru Security Credentials. Try Restarting Session."
+    },
+    {
+      "enum": [
+        568,
+        "passthruOperationalProblem"
+      ],
+      "description": "Error Executing Passthru Request. Check System Error Log For Details."
+    },
+    {
+      "enum": [
+        569,
+        "discoveryAlreadyInProgerss"
+      ],
+      "description": "Discovery already in progress"
+    },
+    {
+      "enum": [
+        570,
+        "languageNotDefined"
+      ],
+      "description": "Language Not Defined"
+    },
+    {
+      "enum": [
+        571,
+        "serverNeedsReset"
+      ],
+      "description": "Server requires a manual reset."
+    },
+    {
+      "enum": [
+        572,
+        "serverNeedsResetBeforeFurtherAction"
+      ],
+      "description": "Server requires a manual reset before any further loads can occur."
+    },
+    {
+      "enum": [
+        573,
+        "loadRefsTooLargeForArchive"
+      ],
+      "description": "The Load references exceed the maximum size.  Either reduce the number of Loads or use shorter references."
+    },
+    {
+      "enum": [
+        574,
+        "duplicateTargetDescriptionFound"
+      ],
+      "description": "Duplicate target description found in Targets attribute"
+    },
+    {
+      "enum": [
+        575,
+        "activeTargetCannotBeZero"
+      ],
+      "description": "The value of the active demand limit target must be greater than zero"
+    },
+    {
+      "enum": [
+        576,
+        "activeTargetChoiceNotFoundInTargetAttrib"
+      ],
+      "description": "A match to the Active Target was not found in Target attr"
+    },
+    {
+      "enum": [
+        577,
+        "sqlServerBusy"
+      ],
+      "description": "SQL Server Busy"
+    },
+    {
+      "enum": [
+        578,
+        "noNormalStateInAlmVals"
+      ],
+      "description": "Alarm Values cannot contain the Normal State"
+    },
+    {
+      "enum": [
+        579,
+        "illegalLengthForPhoneNumber"
+      ],
+      "description": "An illegal length has been entered for the phone number"
+    },
+    {
+      "enum": [
+        580,
+        "illegalCharacterInPhoneNumber"
+      ],
+      "description": "An illegal character is being used in the phone number"
+    },
+    {
+      "enum": [
+        581,
+        "sqlVersionMismatchError"
+      ],
+      "description": "SQL Version Mismatch"
+    },
+    {
+      "enum": [
+        582,
+        "resetInitParamsInShedModeError"
+      ],
+      "description": "To reset initialization parameters while in Shed mode, set Allow Reset in Shed Mode attribute to True in Advanced Focus View"
+    },
+    {
+      "enum": [
+        583,
+        "referenceExceededMaxCharLimit"
+      ],
+      "description": "Reference name exceeded the maximum character limit."
+    },
+    {
+      "enum": [
+        584,
+        "occupancyMinMaxInvalid"
+      ],
+      "description": "Minimum Occupancy value greater than Maximum Occupancy"
+    },
+    {
+      "enum": [
+        585,
+        "timePeriodDoubleKnockInvalid"
+      ],
+      "description": "Time Period cannot be blank when Operation Mode is Double Knock"
+    },
+    {
+      "enum": [
+        586,
+        "adGetUsersFailed"
+      ],
+      "description": "Error in retrieving Active Directory users"
+    },
+    {
+      "enum": [
+        587,
+        "intrinsicAlmNotDefd"
+      ],
+      "description": "Intrinsic Alarming Not Defined"
+    },
+    {
+      "enum": [
+        588,
+        "intrinsicAlmDisabled"
+      ],
+      "description": "Intrinsic Alarming has been Disabled"
+    },
+    {
+      "enum": [
+        589,
+        "principalStoreNotStarted"
+      ],
+      "description": "Principal Store did not start"
+    },
+    {
+      "enum": [
+        590,
+        "adSaveServiceAccountsFailed"
+      ],
+      "description": "Error in saving Active Directory Domain Service Accounts information"
+    },
+    {
+      "enum": [
+        591,
+        "adGetServiceAccountsFailed"
+      ],
+      "description": "Error in getting Active Directory Domain Service Accounts information."
+    },
+    {
+      "enum": [
+        592,
+        "adDeleteUsersFailed"
+      ],
+      "description": "Error in deleting Active Directory user information."
+    },
+    {
+      "enum": [
+        593,
+        "adGetMembersInMseaRoleFailed"
+      ],
+      "description": "Failed to retrieve Active Directory members of Metasys Group"
+    },
+    {
+      "enum": [
+        594,
+        "adSaveMembersInMseaRoleFailed"
+      ],
+      "description": "Failed to add Active Directory members to Metasys Group"
+    },
+    {
+      "enum": [
+        595,
+        "adGetMembersInUserViewFailed"
+      ],
+      "description": "Failed to retrieve Active Directory members assigned to User View"
+    },
+    {
+      "enum": [
+        596,
+        "adSaveMembersInUserViewFailed"
+      ],
+      "description": "Failed to assign Active Directory members to User View"
+    },
+    {
+      "enum": [
+        597,
+        "adGetUsersDetailFailed"
+      ],
+      "description": "Error in getting Active Directory user detail information"
+    },
+    {
+      "enum": [
+        598,
+        "adSaveUsersDetailFailed"
+      ],
+      "description": "Error in saving Active Directory user details"
+    },
+    {
+      "enum": [
+        599,
+        "adGetConfigurationFailed"
+      ],
+      "description": "Error in getting Active Directory Configuration"
+    },
+    {
+      "enum": [
+        600,
+        "adSaveConfigurationFailed"
+      ],
+      "description": "Error in saving Active Directory Configuration"
+    },
+    {
+      "enum": [
+        601,
+        "adLoginUserFailed"
+      ],
+      "description": "Error in Authorizing Active Directory user"
+    },
+    {
+      "enum": [
+        602,
+        "adLoginCredentialsError"
+      ],
+      "description": "Active Directory Credentials Error"
+    },
+    {
+      "enum": [
+        603,
+        "adLoginMseaUserNotFound"
+      ],
+      "description": "Active Directory MSEA user Not Found"
+    },
+    {
+      "enum": [
+        604,
+        "adLoginUserNotFound"
+      ],
+      "description": "Active Directory User Not Found"
+    },
+    {
+      "enum": [
+        605,
+        "adLogoutFailed"
+      ],
+      "description": "Active Directory Logout Failed"
+    },
+    {
+      "enum": [
+        606,
+        "adAuthenticateUserFailed"
+      ],
+      "description": "Error in Authenticating Active Directory user"
+    },
+    {
+      "enum": [
+        607,
+        "notcMustBeOnSameDev"
+      ],
+      "description": "The Notification Class must be on the same device"
+    },
+    {
+      "enum": [
+        608,
+        "elecSignatureAuthFailed"
+      ],
+      "description": "Electronic Signature Authentication Failed"
+    },
+    {
+      "enum": [
+        609,
+        "adAuthorizeUserError"
+      ],
+      "description": "Authorize Active Directory User Error"
+    },
+    {
+      "enum": [
+        610,
+        "adUserPasswordExpired"
+      ],
+      "description": "Active Directory User Password Expired"
+    },
+    {
+      "enum": [
+        611,
+        "adLoginSsoUserFailed"
+      ],
+      "description": "Active Directory Single Sign On Failed"
+    },
+    {
+      "enum": [
+        612,
+        "adGetConfigFailed"
+      ],
+      "description": "Get Active Directory Configuration Failed"
+    },
+    {
+      "enum": [
+        613,
+        "adSynchronizeUserFailed"
+      ],
+      "description": "Synchronize Active Directory User Failed"
+    },
+    {
+      "enum": [
+        614,
+        "adDeleteServiceAccountsFailed"
+      ],
+      "description": "Delete Active Directory Service Accounts Failed"
+    },
+    {
+      "enum": [
+        615,
+        "adGetDomainsFailed"
+      ],
+      "description": "Get Active Directory Domains Failed"
+    },
+    {
+      "enum": [
+        616,
+        "okRestoreNonAdDevice"
+      ],
+      "description": "OK - Restore to non Active Directory Device"
+    },
+    {
+      "enum": [
+        617,
+        "okRestoreAdNonSitedirectorDevice"
+      ],
+      "description": "OK - Restore to non Site Director Device"
+    },
+    {
+      "enum": [
+        618,
+        "adsDatabaseTimeoutError"
+      ],
+      "description": "Database Timeout Error"
+    },
+    {
+      "enum": [
+        619,
+        "maxTrendBufferSizeTotalExceeded"
+      ],
+      "description": "The NAE8500/NIE8500 total trend buffer size count exceeds the maximum 8 million allowed"
+    },
+    {
+      "enum": [
+        620,
+        "actionAlreadyCompleted"
+      ],
+      "description": "Could not delete the selected action because it has already completed."
+    },
+    {
+      "enum": [
+        621,
+        "n2NotSupported"
+      ],
+      "description": "N2 field controllers are not supported"
+    },
+    {
+      "enum": [
+        622,
+        "fxNotSupported"
+      ],
+      "description": "FX field controllers are not supported"
+    },
+    {
+      "enum": [
+        623,
+        "certificateFailedUpload"
+      ],
+      "description": "Certificate upload failed."
+    },
+    {
+      "enum": [
+        624,
+        "certificateFailedDownload"
+      ],
+      "description": "Certificate download failed"
+    },
+    {
+      "enum": [
+        625,
+        "delayedSwitchoverNotSupported"
+      ],
+      "description": "Apply Files Later is not supported"
+    },
+    {
+      "enum": [
+        1001,
+        "archiveNameAlreadyExists"
+      ],
+      "description": "Archive Name already exists"
+    },
+    {
+      "enum": [
+        1002,
+        "missingArchiveName"
+      ],
+      "description": "Missing Archive Name"
+    },
+    {
+      "enum": [
+        1003,
+        "archiveNameDoesNotExist"
+      ],
+      "description": "Archive Name does not exist."
+    },
+    {
+      "enum": [
+        1004,
+        "missingDatabaseDictionary"
+      ],
+      "description": "Missing Database Directory"
+    },
+    {
+      "enum": [
+        1005,
+        "cannotCreateObject"
+      ],
+      "description": "Cannot create object"
+    },
+    {
+      "enum": [
+        1006,
+        "referenceNameMissing"
+      ],
+      "description": "Reference name is missing"
+    },
+    {
+      "enum": [
+        1007,
+        "cannotMakeDatabaseConnection"
+      ],
+      "description": "Cannot make database connection"
+    },
+    {
+      "enum": [
+        1008,
+        "connectionStringMissing"
+      ],
+      "description": "Connection string is missing"
+    },
+    {
+      "enum": [
+        1009,
+        "deviceLocked"
+      ],
+      "description": "The device is locked due to a pending archive load."
+    },
+    {
+      "enum": [
+        1010,
+        "cannotDeleteObject"
+      ],
+      "description": "Cannot delete object"
+    },
+    {
+      "enum": [
+        1020,
+        "generalDatabaseError"
+      ],
+      "description": "General Database error."
+    },
+    {
+      "enum": [
+        1021,
+        "unableToUnlockDeviceInDatabase"
+      ],
+      "description": "Unable to unlock device in database"
+    },
+    {
+      "enum": [
+        1022,
+        "noAvailableTrunk"
+      ],
+      "description": "No Available Trunk"
+    },
+    {
+      "enum": [
+        1023,
+        "exceptionDetected"
+      ],
+      "description": "Exception Detected"
+    },
+    {
+      "enum": [
+        1024,
+        "databaseMergeError"
+      ],
+      "description": "Database merge error"
+    },
+    {
+      "enum": [
+        1025,
+        "versionMismatchError"
+      ],
+      "description": "Version Mismatch"
+    },
+    {
+      "enum": [
+        1026,
+        "deviceTypeMismatchError"
+      ],
+      "description": "Device Type Mismatch"
+    },
+    {
+      "enum": [
+        1027,
+        "uploadDirNotExists"
+      ],
+      "description": "Upload Directory does not exist"
+    },
+    {
+      "enum": [
+        1028,
+        "deviceNameCaseSensitivityMismatch"
+      ],
+      "description": "Cannot communicate due to device name case sensitivity mismatch"
+    },
+    {
+      "enum": [
+        1029,
+        "onlineHardwareDeviceIs"
+      ],
+      "description": "Online hardware device is"
+    },
+    {
+      "enum": [
+        1030,
+        "definedInSctAs"
+      ],
+      "description": "But defined in SCT as"
+    },
+    {
+      "enum": [
+        1031,
+        "writeFileMaxSizeExceeded"
+      ],
+      "description": "Wrote File Max Size Exceeded"
+    },
+    {
+      "enum": [
+        1032,
+        "certStringNotValid"
+      ],
+      "description": "Cannot read the certificate. The certificate may not be base64 encoded."
+    },
+    {
+      "enum": [
+        1033,
+        "certPrivateKeyNotValid"
+      ],
+      "description": "Failed to decrypt the private key from sender."
+    },
+    {
+      "enum": [
+        1034,
+        "certParserError"
+      ],
+      "description": "Cannot read the certificates properties."
+    },
+    {
+      "enum": [
+        1035,
+        "certKeyDecryptionError"
+      ],
+      "description": "Failed to decrypt the requested certificates private key."
+    },
+    {
+      "enum": [
+        1036,
+        "archiveExportCertError"
+      ],
+      "description": "Failed to export certificates."
+    },
+    {
+      "enum": [
+        1037,
+        "archiveImportCertError"
+      ],
+      "description": "Failed to import certificates."
+    },
+    {
+      "enum": [
+        1038,
+        "certRequiresPrivateKey"
+      ],
+      "description": "Server certificates must contain a private key."
+    },
+    {
+      "enum": [
+        1039,
+        "certCsrMismatch"
+      ],
+      "description": "The certificate subject does not match the CSR metadata."
+    },
+    {
+      "enum": [
+        1040,
+        "certMissing"
+      ],
+      "description": "No certificate exists for this device"
+    },
+    {
+      "enum": [
+        5001,
+        "noEntry"
+      ],
+      "description": "No entry"
+    },
+    {
+      "enum": [
+        5002,
+        "pending"
+      ],
+      "description": "Pending"
+    },
+    {
+      "enum": [
+        5003,
+        "tableFull"
+      ],
+      "description": "Table full"
+    },
+    {
+      "enum": [
+        5004,
+        "omdLoadAttrError"
+      ],
+      "description": "OMD Load attribute error"
+    },
+    {
+      "enum": [
+        5005,
+        "omdOidError"
+      ],
+      "description": "OMD Object ID error"
+    },
+    {
+      "enum": [
+        5006,
+        "omdFindViewError"
+      ],
+      "description": "OMD find view error"
+    },
+    {
+      "enum": [
+        5007,
+        "omdLoadPropError"
+      ],
+      "description": "OMD load property error"
+    },
+    {
+      "enum": [
+        5008,
+        "omdCmdDataError"
+      ],
+      "description": "OMD command data error"
+    },
+    {
+      "enum": [
+        5009,
+        "omdViewError"
+      ],
+      "description": "OMD view error"
+    },
+    {
+      "enum": [
+        5010,
+        "omdInvalidCharSequence"
+      ],
+      "description": "OMD invalid character sequence"
+    },
+    {
+      "enum": [
+        5011,
+        "omdNotBound"
+      ],
+      "description": "OMD not bound"
+    },
+    {
+      "enum": [
+        5012,
+        "notConfigurable"
+      ],
+      "description": "OMD not configurable"
+    },
+    {
+      "enum": [
+        5013,
+        "notWriteable"
+      ],
+      "description": "OMD not writable"
+    },
+    {
+      "enum": [
+        5014,
+        "waitForN2Startup"
+      ],
+      "description": "Wait for N2 startup"
+    },
+    {
+      "enum": [
+        5015,
+        "templateNotFound"
+      ],
+      "description": "Template Not Found"
+    },
+    {
+      "enum": [
+        5016,
+        "templatePropertyNotFound"
+      ],
+      "description": "Template Property Not Found"
+    },
+    {
+      "enum": [
+        5017,
+        "templateDatabaseNotFound"
+      ],
+      "description": "Template Database Not Found"
+    },
+    {
+      "enum": [
+        5018,
+        "templateParseError"
+      ],
+      "description": "Template Parse Error"
+    },
+    {
+      "enum": [
+        5019,
+        "templateSubcomponentNotFound"
+      ],
+      "description": "Template Subcomponent Not Found"
+    },
+    {
+      "enum": [
+        5020,
+        "hashCreateError"
+      ],
+      "description": "Hash Create Error"
+    },
+    {
+      "enum": [
+        5021,
+        "unavailable"
+      ],
+      "description": "Unavailable"
+    },
+    {
+      "enum": [
+        5022,
+        "viewDatabaseNotFound"
+      ],
+      "description": "View Database Not Found"
+    },
+    {
+      "enum": [
+        5023,
+        "jsonviewNotFound"
+      ],
+      "description": "JSON View Not Found"
+    },
+    {
+      "enum": [
+        5024,
+        "jsonviewGrouphashNotFound"
+      ],
+      "description": "JSON View Group Hash Not Found"
+    },
+    {
+      "enum": [
+        5025,
+        "jsonviewMenugroupNotFound"
+      ],
+      "description": "JSON Menu Group Not Found"
+    },
+    {
+      "enum": [
+        5026,
+        "viewfileAlreadyParsed"
+      ],
+      "description": "View File Already Parsed"
+    },
+    {
+      "enum": [
+        9000,
+        "sInfoClass"
+      ],
+      "description": "Class"
+    },
+    {
+      "enum": [
+        9001,
+        "sInfoNoref"
+      ],
+      "description": "No Reference"
+    },
+    {
+      "enum": [
+        9002,
+        "securityLoginSuccess"
+      ],
+      "description": "Logon Successful"
+    },
+    {
+      "enum": [
+        9003,
+        "securityLoginInvalidCredentials"
+      ],
+      "description": "Invalid Credentials"
+    },
+    {
+      "enum": [
+        9004,
+        "securityLoginAccountDisabled"
+      ],
+      "description": "Account Disabled"
+    },
+    {
+      "enum": [
+        9005,
+        "securityLoginAccoutnLocked"
+      ],
+      "description": "Account Locked"
+    },
+    {
+      "enum": [
+        9006,
+        "securityLoginTimesheetViolation"
+      ],
+      "description": "Timesheet Violation"
+    },
+    {
+      "enum": [
+        9007,
+        "securityLoginAccountExpired"
+      ],
+      "description": "Account Expired"
+    },
+    {
+      "enum": [
+        9008,
+        "securityLoginMustChangePassword"
+      ],
+      "description": "User Must Change Password"
+    },
+    {
+      "enum": [
+        9501,
+        "duplicateClassMajorRev"
+      ],
+      "description": "Duplicate Class Major Rev"
+    },
+    {
+      "enum": [
+        9701,
+        "classInitFailed"
+      ],
+      "description": "Failed Initializing Class"
+    },
+    {
+      "enum": [
+        9702,
+        "duplicateClass"
+      ],
+      "description": "Duplicate Class Definition in Project"
+    },
+    {
+      "enum": [
+        9703,
+        "badMaoClass"
+      ],
+      "description": "Invalid MAO File"
+    },
+    {
+      "enum": [
+        9901,
+        "zeroProjectsExist"
+      ],
+      "description": "No Project Directories Exist"
+    },
+    {
+      "enum": [
+        9902,
+        "invalidInstallation"
+      ],
+      "description": "Invalid Installation"
+    },
+    {
+      "enum": [
+        9903,
+        "invalidClassdata"
+      ],
+      "description": "Invalid Class Data"
+    },
+    {
+      "enum": [
+        12000,
+        "deviceStartupinit"
+      ],
+      "description": "Device runtime status has not been determined"
+    },
+    {
+      "enum": [
+        12001,
+        "deviceStartingup"
+      ],
+      "description": "Device is starting up"
+    },
+    {
+      "enum": [
+        12002,
+        "deviceRunning"
+      ],
+      "description": "Device is currently running"
+    },
+    {
+      "enum": [
+        12003,
+        "deviceShuttingdown"
+      ],
+      "description": "Device is shutting down"
+    },
+    {
+      "enum": [
+        12005,
+        "dbRecordNotFound"
+      ],
+      "description": "Database Record Not Found"
+    },
+    {
+      "enum": [
+        12007,
+        "adCommunicationError"
+      ],
+      "description": "Active Directory communication error"
+    },
+    {
+      "enum": [
+        12008,
+        "adNotEnabled"
+      ],
+      "description": "Active Directory feautre is not enabled"
+    },
+    {
+      "enum": [
+        12009,
+        "adEmptyRequest"
+      ],
+      "description": "Request message is empty"
+    },
+    {
+      "enum": [
+        12010,
+        "adQueryNoResult"
+      ],
+      "description": "Active Directory query did not return any results"
+    },
+    {
+      "enum": [
+        12011,
+        "adAddUserFailed"
+      ],
+      "description": "Error in querying or saving Active Directory user information"
+    },
+    {
+      "enum": [
+        12012,
+        "adGetSecurityInfoFailed"
+      ],
+      "description": "Error in retrieving security information"
+    },
+    {
+      "enum": [
+        12013,
+        "adSaveSecurityInfoFailed"
+      ],
+      "description": "Error in saving security information"
+    },
+    {
+      "enum": [
+        12014,
+        "csDeviceRatedCapacityInvalidRange"
+      ],
+      "description": "Invalid value for Device Rated Capacity."
+    },
+    {
+      "enum": [
+        12015,
+        "csDeviceCurrentPowerInvalidRange"
+      ],
+      "description": "Invalid value for Device Current Power."
+    },
+    {
+      "enum": [
+        12016,
+        "csDeviceCwFlowInvalidRange"
+      ],
+      "description": "Invalid value for Device CW Flow."
+    },
+    {
+      "enum": [
+        12017,
+        "csDeviceCwMinFlowInvalidRange"
+      ],
+      "description": "Invalid value for Device CW Min Flow."
+    },
+    {
+      "enum": [
+        12018,
+        "csDeviceChwFlowInvalidRange"
+      ],
+      "description": "Invalid value for Device CHW Flow."
+    },
+    {
+      "enum": [
+        12019,
+        "csDeviceChwMinFlowInvalidRange"
+      ],
+      "description": "Invalid value for Device CHW Min Flow."
+    },
+    {
+      "enum": [
+        12020,
+        "csDeviceLiftSensitivityInvalidRange"
+      ],
+      "description": "Invalid value for Lift Sensitivity."
+    },
+    {
+      "enum": [
+        12021,
+        "csDeviceDesignLiftInvalidRange"
+      ],
+      "description": "Invalid value for Design Lift."
+    },
+    {
+      "enum": [
+        12022,
+        "securityAuthenticationFailed"
+      ],
+      "description": "Authentication Failed."
+    },
+    {
+      "enum": [
+        12023,
+        "securityUserDoesNotExist"
+      ],
+      "description": "User does not exist."
+    },
+    {
+      "enum": [
+        12024,
+        "securityUserDisabled"
+      ],
+      "description": "User disabled."
+    },
+    {
+      "enum": [
+        12025,
+        "securityUserAlreadyExists"
+      ],
+      "description": "User already exists."
+    },
+    {
+      "enum": [
+        12026,
+        "securityNotEnoughPrivileges"
+      ],
+      "description": "User does not have enough privileges."
+    },
+    {
+      "enum": [
+        12027,
+        "securityInvalidParams"
+      ],
+      "description": "Invalid parameters."
+    },
+    {
+      "enum": [
+        12028,
+        "securityInvalidUserid"
+      ],
+      "description": "Invalid UserID."
+    },
+    {
+      "enum": [
+        12029,
+        "securityCannotDeleteDefaultUser"
+      ],
+      "description": "Can not delete default user."
+    },
+    {
+      "enum": [
+        12030,
+        "workstationNotLicensed"
+      ],
+      "description": "This product is not licensed. Action Required: License and restart this product."
+    },
+    {
+      "enum": [
+        12031,
+        "usbNotReady"
+      ],
+      "description": "USB Not Ready"
+    },
+    {
+      "enum": [
+        12032,
+        "allVersionsUptoDateNoUpdatesDone"
+      ],
+      "description": "All Versions Up To Date, No updates done"
+    },
+    {
+      "enum": [
+        12033,
+        "osValidationApiNotInitialized"
+      ],
+      "description": "OS Validation API. Not initialized."
+    },
+    {
+      "enum": [
+        12034,
+        "osValidationMissingVtocFile"
+      ],
+      "description": "OS Validation API. Missing validation table."
+    },
+    {
+      "enum": [
+        12035,
+        "osValidationVtocTableError"
+      ],
+      "description": "OS Validation API. Table error."
+    },
+    {
+      "enum": [
+        12036,
+        "osValidationMissingFileEntry"
+      ],
+      "description": "OS Validation API. File entry missing."
+    },
+    {
+      "enum": [
+        12037,
+        "osValidationMissingInputFile"
+      ],
+      "description": "OS Validation API. Input file does not exist."
+    },
+    {
+      "enum": [
+        12038,
+        "osValidationInputFileSizeError"
+      ],
+      "description": "OS Validation API. Mismatched size."
+    },
+    {
+      "enum": [
+        12039,
+        "osValidationInputFileCrcError"
+      ],
+      "description": "OS Validation API. Mismatched CRC."
+    },
+    {
+      "enum": [
+        12040,
+        "osValidationWriteVtocFileError"
+      ],
+      "description": "OS Validation API. Table write error."
+    },
+    {
+      "enum": [
+        12041,
+        "osValidationCompressVtocError"
+      ],
+      "description": "OS Validation API. Compressing table error."
+    },
+    {
+      "enum": [
+        12042,
+        "osValidationInputError"
+      ],
+      "description": "OS Validation API. Invalid input parameters."
+    },
+    {
+      "enum": [
+        12043,
+        "osValidationFileDeleteError"
+      ],
+      "description": "OS Validation API. Table delete error."
+    },
+    {
+      "enum": [
+        12044,
+        "deviceNotLicensed"
+      ],
+      "description": "Device is not licensed"
+    },
+    {
+      "enum": [
+        12045,
+        "statusWriteToUsbFailed"
+      ],
+      "description": "Write to USB failed"
+    },
+    {
+      "enum": [
+        12046,
+        "statusFileOpenFromUsbFailed"
+      ],
+      "description": "File open from USB failed"
+    },
+    {
+      "enum": [
+        12047,
+        "downloadCompleteNoSecurity"
+      ],
+      "description": "OK, Download complete, security copy selected, but no file found."
+    },
+    {
+      "enum": [
+        12048,
+        "certificateOperationSuccessful"
+      ],
+      "description": "Certificate operation successful."
+    },
+    {
+      "enum": [
+        12049,
+        "completeWithWarnings"
+      ],
+      "description": "OK, but with warnings."
+    },
+    {
+      "enum": [
+        12050,
+        "codeDownloadFail"
+      ],
+      "description": "Code download aborted. Unable to login to device, check network settings."
+    },
+    {
+      "enum": [
+        12051,
+        "upgradeSiteDirectorFirst"
+      ],
+      "description": "Upgrade the site director before any devices."
+    },
+    {
+      "enum": [
+        12052,
+        "devicesNeitherCreatedNorUpload"
+      ],
+      "description": "The following devices were neither created, nor upload before the process was interrupted."
+    },
+    {
+      "enum": [
+        12053,
+        "devicesCreatedNotUpload"
+      ],
+      "description": "As a result, they were created, but not uploaded."
+    },
+    {
+      "enum": [
+        12054,
+        "devicesOfflineOrUnavailable"
+      ],
+      "description": "The following devices are off-line, security upload failed or are otherwise unavailable."
+    },
+    {
+      "enum": [
+        12055,
+        "codeLoadAbortNoDiskImage"
+      ],
+      "description": "Code download aborted because no disk image found"
+    },
+    {
+      "enum": [
+        12056,
+        "codeLoadAbortSocketNotAvailable"
+      ],
+      "description": "Code download aborted because socket not available"
+    },
+    {
+      "enum": [
+        12057,
+        "codeLoadAbortNutNotInstalled"
+      ],
+      "description": "Code download aborted because the NUT server is not installed."
+    },
+    {
+      "enum": [
+        12058,
+        "codeLoadAbortUnableToReadMac"
+      ],
+      "description": "Code download aborted because the MAC address could not be read"
+    },
+    {
+      "enum": [
+        12059,
+        "codeLoadFailNutServerError"
+      ],
+      "description": "Code download failed due to NUT server error response"
+    },
+    {
+      "enum": [
+        12060,
+        "codeLoadAbortNoAdapterSelected"
+      ],
+      "description": "Code download aborted because no Ethernet adapter selected."
+    },
+    {
+      "enum": [
+        12061,
+        "codeDownloadError"
+      ],
+      "description": "Code download error."
+    },
+    {
+      "enum": [
+        12062,
+        "failStatus"
+      ],
+      "description": "Fail"
+    },
+    {
+      "enum": [
+        12063,
+        "failPeriodStatus"
+      ],
+      "description": "Fail."
+    },
+    {
+      "enum": [
+        12064,
+        "disabledFailStatus"
+      ],
+      "description": "fail"
+    },
+    {
+      "enum": [
+        12065,
+        "noncomplexFailStatus"
+      ],
+      "description": "fail."
+    },
+    {
+      "enum": [
+        12066,
+        "cafArchiveInstanceMismatch"
+      ],
+      "description": "CAF file and archive Instance Number mismatch"
+    },
+    {
+      "enum": [
+        12067,
+        "cafArchiveIpAddressMismatch"
+      ],
+      "description": "CAF file and archive IP Address mismatch"
+    },
+    {
+      "enum": [
+        12068,
+        "cafArchiveIpMaskMismatch"
+      ],
+      "description": "CAF file and archive IP Mask mismatch"
+    },
+    {
+      "enum": [
+        12069,
+        "cafArchiveIpRouterMismatch"
+      ],
+      "description": "CAF file and archive IP Router mismatch"
+    },
+    {
+      "enum": [
+        12070,
+        "cafArchiveDhcpMismatch"
+      ],
+      "description": "CAF file and archive DHCP Enabled mismatch"
+    },
+    {
+      "enum": [
+        12071,
+        "cafArchiveControllerNumberMismatch"
+      ],
+      "description": "CAF file and archive Controller Number mismatch"
+    },
+    {
+      "enum": [
+        12072,
+        "duplicateControllerNumbers"
+      ],
+      "description": "Duplicate Controllers Numbers"
+    },
+    {
+      "enum": [
+        12073,
+        "duplicateInstanceNumbers"
+      ],
+      "description": "Duplicate Instance Numbers"
+    },
+    {
+      "enum": [
+        49152,
+        "bacaother"
+      ],
+      "description": "General abort."
+    },
+    {
+      "enum": [
+        49153,
+        "bacabufoverflow"
+      ],
+      "description": "Aborted due to buffer overflow."
+    },
+    {
+      "enum": [
+        49154,
+        "bacainvapdustate"
+      ],
+      "description": "Aborted due to communication state."
+    },
+    {
+      "enum": [
+        49155,
+        "bacapreempted"
+      ],
+      "description": "Aborted due to higher priority task."
+    },
+    {
+      "enum": [
+        49156,
+        "bacasegnotsuppt"
+      ],
+      "description": "Aborted due to long message size without segmentation."
+    },
+    {
+      "enum": [
+        49157,
+        "bacSecurityError"
+      ],
+      "description": "Aborted due to security error."
+    },
+    {
+      "enum": [
+        49158,
+        "bacInsufficientSecurity"
+      ],
+      "description": "Aborted due to insufficient security."
+    },
+    {
+      "enum": [
+        49159,
+        "bacWinsizeOutofrange"
+      ],
+      "description": "Aborted due to communication segmentation window size."
+    },
+    {
+      "enum": [
+        49160,
+        "bacAppExceedReplyTime"
+      ],
+      "description": "Aborted due to no reply with data."
+    },
+    {
+      "enum": [
+        49161,
+        "bacOutOfResources"
+      ],
+      "description": "Aborted due to low resources."
+    },
+    {
+      "enum": [
+        49162,
+        "bacTsmTimeout"
+      ],
+      "description": "Aborted due to communication timeout."
+    },
+    {
+      "enum": [
+        49163,
+        "bacApduTooLong"
+      ],
+      "description": "Aborted due to long communication packet."
+    },
+    {
+      "enum": [
+        16384,
+        "bacrother"
+      ],
+      "description": "General reject."
+    },
+    {
+      "enum": [
+        16385,
+        "bacrbufferOverflow"
+      ],
+      "description": "Rejected due to buffer overflow."
+    },
+    {
+      "enum": [
+        16386,
+        "bacrinconsistentParameters"
+      ],
+      "description": "Rejected due to inconsistent parameters."
+    },
+    {
+      "enum": [
+        16387,
+        "bacrinvalidParameterDataType"
+      ],
+      "description": "Rejected due to invalid data type."
+    },
+    {
+      "enum": [
+        16388,
+        "bacrinvalidTag"
+      ],
+      "description": "Rejected due to invalid message encoding."
+    },
+    {
+      "enum": [
+        16389,
+        "bacrmissingRequiredParameter"
+      ],
+      "description": "Rejected due to missing required parameter."
+    },
+    {
+      "enum": [
+        16390,
+        "bacrparameterOutOfRange"
+      ],
+      "description": "Rejected due to parameter value out of range."
+    },
+    {
+      "enum": [
+        16391,
+        "bacrtooManyArguments"
+      ],
+      "description": "Rejected due to too many arguments."
+    },
+    {
+      "enum": [
+        16392,
+        "bacrundefinedEnumeration"
+      ],
+      "description": "Rejected due to unknown enumeration value."
+    },
+    {
+      "enum": [
+        16393,
+        "bacrunrecognizedService"
+      ],
+      "description": "Rejected due to unknown service request."
+    },
+    {
+      "enum": [
+        32770,
+        "configurationInProgress"
+      ],
+      "description": "Configuration in progress"
+    },
+    {
+      "enum": [
+        32771,
+        "deviceBusy"
+      ],
+      "description": "Busy"
+    },
+    {
+      "enum": [
+        32793,
+        "operationalProblem"
+      ],
+      "description": "Operational problem"
+    },
+    {
+      "enum": [
+        32897,
+        "inconsistentConfiguration"
+      ],
+      "description": "Error, device misconfigured."
+    },
+    {
+      "enum": [
+        33028,
+        "dynamicCreationNotSupported"
+      ],
+      "description": "Dynamic creation not supported"
+    },
+    {
+      "enum": [
+        33041,
+        "noObjectsOfSpecifiedType"
+      ],
+      "description": "No objects of specified type"
+    },
+    {
+      "enum": [
+        33047,
+        "objectDeletionNotPermitted"
+      ],
+      "description": "An error occurred while trying to delete the following Items:"
+    },
+    {
+      "enum": [
+        33048,
+        "objectIdentifierAlreadyExists"
+      ],
+      "description": "Object already exists"
+    },
+    {
+      "enum": [
+        33051,
+        "readAccessDenied"
+      ],
+      "description": "Read access denied"
+    },
+    {
+      "enum": [
+        33055,
+        "unknownObject"
+      ],
+      "description": "Unknown object"
+    },
+    {
+      "enum": [
+        33060,
+        "unsupportedObjectType"
+      ],
+      "description": "Unsupported object type"
+    },
+    {
+      "enum": [
+        33098,
+        "noAlarmConfigured"
+      ],
+      "description": "Object does not support event generation"
+    },
+    {
+      "enum": [
+        33099,
+        "logBufferFull"
+      ],
+      "description": "An attempted operation would result in an addition of a log record to an object whose log buffer is full."
+    },
+    {
+      "enum": [
+        33280,
+        "propertyOther"
+      ],
+      "description": "General Property Error"
+    },
+    {
+      "enum": [
+        33288,
+        "inconsistentSelectionCriterion"
+      ],
+      "description": "Inconsistent selection criterion"
+    },
+    {
+      "enum": [
+        33289,
+        "invalidDataType"
+      ],
+      "description": "Invalid data type"
+    },
+    {
+      "enum": [
+        33307,
+        "readAccessDeniedProp"
+      ],
+      "description": "Read access denied prop"
+    },
+    {
+      "enum": [
+        33312,
+        "unknownProperty"
+      ],
+      "description": "Unknown property"
+    },
+    {
+      "enum": [
+        33317,
+        "valueOutOfRange"
+      ],
+      "description": "Value out of range"
+    },
+    {
+      "enum": [
+        34085,
+        "valueOutOfRangeService"
+      ],
+      "description": "Value out of range - Service"
+    },
+    {
+      "enum": [
+        33320,
+        "writeAccessDenied"
+      ],
+      "description": "Write access denied"
+    },
+    {
+      "enum": [
+        33321,
+        "characterSetNotSuppProp"
+      ],
+      "description": "Character set not supported prop"
+    },
+    {
+      "enum": [
+        33322,
+        "invalidArrayIndex"
+      ],
+      "description": "Invalid array index"
+    },
+    {
+      "enum": [
+        33324,
+        "notCovProperty"
+      ],
+      "description": "A Change of Value subscription contains an attribute that does not support Change of Value notification."
+    },
+    {
+      "enum": [
+        33325,
+        "optionalFunctionalityNotSupp"
+      ],
+      "description": "Optional functionality not supported - Property"
+    },
+    {
+      "enum": [
+        33069,
+        "optFuncNotSupportedObject"
+      ],
+      "description": "Optional functionality not supported - Object"
+    },
+    {
+      "enum": [
+        34093,
+        "optFuncNotSupportedServices"
+      ],
+      "description": "Optional functionality not supported - Services"
+    },
+    {
+      "enum": [
+        33327,
+        "datatypeNotSupported"
+      ],
+      "description": "The data is of, or contains, a data type not supported by this instance of this attribute."
+    },
+    {
+      "enum": [
+        33328,
+        "duplicateNameProp"
+      ],
+      "description": "An attempt was made to write an object name that already exists."
+    },
+    {
+      "enum": [
+        33329,
+        "duplicateObjectIdProp"
+      ],
+      "description": "An attempt was made to write an object identifier that already exists."
+    },
+    {
+      "enum": [
+        33330,
+        "propertyIsNotAnArray"
+      ],
+      "description": "And attempt was made to access an attribute that is not an array."
+    },
+    {
+      "enum": [
+        33356,
+        "loggedValuePurged"
+      ],
+      "description": "Value purged"
+    },
+    {
+      "enum": [
+        33357,
+        "noPropertySpecified"
+      ],
+      "description": "No Property Specified"
+    },
+    {
+      "enum": [
+        33358,
+        "notConfiguredForTriggeredLoggingProp"
+      ],
+      "description": "Not configured for triggered logging"
+    },
+    {
+      "enum": [
+        34127,
+        "unknownSubscriptionServ"
+      ],
+      "description": "Unknown subscription"
+    },
+    {
+      "enum": [
+        34128,
+        "parameterOutOfRangeServ"
+      ],
+      "description": "Parameter out of range"
+    },
+    {
+      "enum": [
+        33106,
+        "serviceRequestBusyObj"
+      ],
+      "description": "Object service request busy"
+    },
+    {
+      "enum": [
+        34131,
+        "communicationDisabledServ"
+      ],
+      "description": "Communication disabled"
+    },
+    {
+      "enum": [
+        33876,
+        "operationSuccessfulSecur"
+      ],
+      "description": "Security operation successful"
+    },
+    {
+      "enum": [
+        33877,
+        "accessDeniedSecur"
+      ],
+      "description": "Security access denied"
+    },
+    {
+      "enum": [
+        33878,
+        "badDestinationAddressSecur"
+      ],
+      "description": "Bad destination address"
+    },
+    {
+      "enum": [
+        33879,
+        "badDestinationDeviceIdSecur"
+      ],
+      "description": "Bad destination device id"
+    },
+    {
+      "enum": [
+        33554,
+        "noSpaceForObject"
+      ],
+      "description": "No space for object"
+    },
+    {
+      "enum": [
+        33555,
+        "noSpaceToAddListElement"
+      ],
+      "description": "No space to add list element"
+    },
+    {
+      "enum": [
+        33556,
+        "noSpaceToWriteProperty"
+      ],
+      "description": "No space to write property"
+    },
+    {
+      "enum": [
+        33793,
+        "authenticationFailed"
+      ],
+      "description": "Authentication Failed"
+    },
+    {
+      "enum": [
+        33798,
+        "incompatibleSecurityLevels"
+      ],
+      "description": "Incompatible security levels"
+    },
+    {
+      "enum": [
+        33804,
+        "invalidOperatorName"
+      ],
+      "description": "Invalid operation name"
+    },
+    {
+      "enum": [
+        33807,
+        "keyGenerationError"
+      ],
+      "description": "Key generation error"
+    },
+    {
+      "enum": [
+        33818,
+        "passwordFailure"
+      ],
+      "description": "Password failure"
+    },
+    {
+      "enum": [
+        33819,
+        "readAccessDeniedSecurity"
+      ],
+      "description": "Read access denied due to insufficient security authorization."
+    },
+    {
+      "enum": [
+        33820,
+        "securityNotSupported"
+      ],
+      "description": "Security not supported"
+    },
+    {
+      "enum": [
+        33822,
+        "timeout"
+      ],
+      "description": "Timeout"
+    },
+    {
+      "enum": [
+        33832,
+        "writeAccessDeniedSecurity"
+      ],
+      "description": "Write access denied due to insufficient security authorization."
+    },
+    {
+      "enum": [
+        33833,
+        "characterSetNotSuppSecur"
+      ],
+      "description": "Character set not supported secur"
+    },
+    {
+      "enum": [
+        34048,
+        "servicesOther"
+      ],
+      "description": "General Services Error"
+    },
+    {
+      "enum": [
+        34053,
+        "fileAccessDenied"
+      ],
+      "description": "File access denied"
+    },
+    {
+      "enum": [
+        34055,
+        "inconsistentParameters"
+      ],
+      "description": "Inconsistent parameters"
+    },
+    {
+      "enum": [
+        34058,
+        "invalidFileAccessMethod"
+      ],
+      "description": "Invalid file access method"
+    },
+    {
+      "enum": [
+        34059,
+        "invalidFileStartPosition"
+      ],
+      "description": "Invalid file start position"
+    },
+    {
+      "enum": [
+        34061,
+        "invalidParameterDataType"
+      ],
+      "description": "Invalid parameter data type"
+    },
+    {
+      "enum": [
+        34062,
+        "invalidTimeStamp"
+      ],
+      "description": "Invalid time stamp"
+    },
+    {
+      "enum": [
+        34064,
+        "missingRequiredParameter"
+      ],
+      "description": "Missing required parameter"
+    },
+    {
+      "enum": [
+        34070,
+        "propertyIsNotAList"
+      ],
+      "description": "Property is not a list"
+    },
+    {
+      "enum": [
+        34077,
+        "serviceRequestDenied"
+      ],
+      "description": "Service request denied"
+    },
+    {
+      "enum": [
+        34089,
+        "characterSetNotSupported"
+      ],
+      "description": "Character set not supported"
+    },
+    {
+      "enum": [
+        34091,
+        "covSubscriptionFailed"
+      ],
+      "description": "A Change of Value subscription request failed."
+    },
+    {
+      "enum": [
+        34094,
+        "invalidConfigurationData"
+      ],
+      "description": "The configuration data provided was invalid or corrupt."
+    },
+    {
+      "enum": [
+        34096,
+        "duplicateName"
+      ],
+      "description": "An attempt was made to write an object name that already exists."
+    },
+    {
+      "enum": [
+        34097,
+        "duplicateObjectId"
+      ],
+      "description": "An attempt was made to write an object identifier that already exists."
+    },
+    {
+      "enum": [
+        34105,
+        "serviceInvalidTag"
+      ],
+      "description": "A request was received that contains an improper tag."
+    },
+    {
+      "enum": [
+        34121,
+        "invalidEventState"
+      ],
+      "description": "Acknowledged event state doesn't match the alarm event state."
+    },
+    {
+      "enum": [
+        34129,
+        "listElementNotFound"
+      ],
+      "description": "An attempt was remove a list element that was not present."
+    },
+    {
+      "enum": [
+        34325,
+        "noVtSessionsAvailable"
+      ],
+      "description": "No VT sessions available"
+    },
+    {
+      "enum": [
+        34338,
+        "unknownVtClass"
+      ],
+      "description": "Unknown VT class"
+    },
+    {
+      "enum": [
+        34339,
+        "unknownVtSession"
+      ],
+      "description": "Unknown VT session"
+    },
+    {
+      "enum": [
+        34342,
+        "vtSessionAlreadyClosed"
+      ],
+      "description": "VT session already closed"
+    },
+    {
+      "enum": [
+        34343,
+        "vtSessionTerminationFailure"
+      ],
+      "description": "VT session termination failure"
+    },
+    {
+      "enum": [
+        34590,
+        "commTimeout"
+      ],
+      "description": "A service request to a remote device timed out.  The device did not respond in the time allotted for the request."
+    },
+    {
+      "enum": [
+        34611,
+        "abortBufferOverflow"
+      ],
+      "description": "The input buffer capacity has been exceeded."
+    },
+    {
+      "enum": [
+        34612,
+        "abortInvalidAdpuInThisState"
+      ],
+      "description": "A communication message was unexpected in the current state of the transaction."
+    },
+    {
+      "enum": [
+        34613,
+        "abortPreemptedByHigherTask"
+      ],
+      "description": "A communication message was aborted to permit higher priority processing."
+    },
+    {
+      "enum": [
+        34614,
+        "abortSegmentationNotSupported"
+      ],
+      "description": "The remote device does not support breaking up large communication messages into smaller messages."
+    },
+    {
+      "enum": [
+        34615,
+        "abortProprietary"
+      ],
+      "description": "A communication message was aborted with a proprietary reason."
+    },
+    {
+      "enum": [
+        34616,
+        "abortOther"
+      ],
+      "description": "A communication message was aborted."
+    },
+    {
+      "enum": [
+        34617,
+        "commInvalidTag"
+      ],
+      "description": "A response was received that contains an improper tag."
+    },
+    {
+      "enum": [
+        34618,
+        "commNetworkDown"
+      ],
+      "description": "The local network connection was not established when the request was initiated."
+    },
+    {
+      "enum": [
+        34619,
+        "rejBufferOverflow"
+      ],
+      "description": "An input buffer capacity was exceeded."
+    },
+    {
+      "enum": [
+        34620,
+        "rejInconsistentParameters"
+      ],
+      "description": "The requested service was rejected by the remote device because it found inconsistent parameters."
+    },
+    {
+      "enum": [
+        34621,
+        "rejInvalidParameterType"
+      ],
+      "description": "The requested service was rejected by the remote device because it found invalid data type in the parameters of the request."
+    },
+    {
+      "enum": [
+        34622,
+        "rejInvalidTag"
+      ],
+      "description": "The remote device encountered an error while parsing the communication message."
+    },
+    {
+      "enum": [
+        34623,
+        "rejMissingRequiredParameter"
+      ],
+      "description": "The remote device encountered a missing parameter in the communication message."
+    },
+    {
+      "enum": [
+        34624,
+        "rejParameterOutOfRange"
+      ],
+      "description": "The remote device encountered a parameter with a value out of range in the communication message."
+    },
+    {
+      "enum": [
+        34625,
+        "rejTooManyArguments"
+      ],
+      "description": "The remote device encountered an error in the communication message because it contains too many parameters."
+    },
+    {
+      "enum": [
+        34626,
+        "rejUndefinedEnumeration"
+      ],
+      "description": "The remote device rejected the value contained in the communication message as undefined by the type specified in the parameter"
+    },
+    {
+      "enum": [
+        34627,
+        "rejUnrecognizedService"
+      ],
+      "description": "The remote device does not support the requested service."
+    },
+    {
+      "enum": [
+        34628,
+        "rejProprietary"
+      ],
+      "description": "The remote device rejected the communication message with a proprietary error."
+    },
+    {
+      "enum": [
+        34629,
+        "rejOther"
+      ],
+      "description": "The remote device rejected the communication."
+    },
+    {
+      "enum": [
+        34630,
+        "unknownDevice"
+      ],
+      "description": "The remote device could not be found."
+    },
+    {
+      "enum": [
+        34631,
+        "unknownRoute"
+      ],
+      "description": "The communication path to the remote device's network could not be found."
+    },
+    {
+      "enum": [
+        33352,
+        "valueNotInitialzed"
+      ],
+      "description": "An attempt was made to read an attribute whose value has not been initialized."
+    },
+    {
+      "enum": [
+        34632,
+        "valueNotInitializedComm"
+      ],
+      "description": "Attribute value has not been initialized."
+    },
+    {
+      "enum": [
+        33880,
+        "badSignature"
+      ],
+      "description": "Security signature incorrect."
+    },
+    {
+      "enum": [
+        33881,
+        "badSourceAddress"
+      ],
+      "description": "Security violation, source address bad."
+    },
+    {
+      "enum": [
+        33882,
+        "badTimestamp"
+      ],
+      "description": "Security violation, timestamp outside of allowable range."
+    },
+    {
+      "enum": [
+        33883,
+        "cannotUseKey"
+      ],
+      "description": "Unknown security algorithm for key."
+    },
+    {
+      "enum": [
+        33884,
+        "cannotVerifyMessageId"
+      ],
+      "description": "Security risk, cannot verify message ID."
+    },
+    {
+      "enum": [
+        33885,
+        "correctKeyRevision"
+      ],
+      "description": "Security Key Set revisions are current."
+    },
+    {
+      "enum": [
+        33886,
+        "destinationDeviceIdRequired"
+      ],
+      "description": "Security violation, destination Device ID missing."
+    },
+    {
+      "enum": [
+        33887,
+        "duplicateMessage"
+      ],
+      "description": "Duplicate message ID in security time window."
+    },
+    {
+      "enum": [
+        33888,
+        "encryptionNotConfigured"
+      ],
+      "description": "Device not configured to handle security encryption."
+    },
+    {
+      "enum": [
+        33889,
+        "encryptionRequired"
+      ],
+      "description": "Security encryption required."
+    },
+    {
+      "enum": [
+        33890,
+        "incorrectKey"
+      ],
+      "description": "Incorrect security key."
+    },
+    {
+      "enum": [
+        33891,
+        "invalidKeyData"
+      ],
+      "description": "Security key contains invalid data."
+    },
+    {
+      "enum": [
+        33892,
+        "keyUpdateInProgress"
+      ],
+      "description": "Security key update already in progress."
+    },
+    {
+      "enum": [
+        33893,
+        "malformedMessage"
+      ],
+      "description": "Message size invalid or security parameters missing or malformed."
+    },
+    {
+      "enum": [
+        33894,
+        "notKeyServer"
+      ],
+      "description": "Request requires key server to process."
+    },
+    {
+      "enum": [
+        33895,
+        "securityNotConfigured"
+      ],
+      "description": "Device not configured for security at port."
+    },
+    {
+      "enum": [
+        33896,
+        "sourceSecurityRequired"
+      ],
+      "description": "Request requires security or encryption from source."
+    },
+    {
+      "enum": [
+        33897,
+        "tooManyKeys"
+      ],
+      "description": "Configuration error, too many security keys provided."
+    },
+    {
+      "enum": [
+        33898,
+        "unknownAuthenticationType"
+      ],
+      "description": "Unknown Security authentication method."
+    },
+    {
+      "enum": [
+        33899,
+        "unknownKey"
+      ],
+      "description": "Unknown Security key."
+    },
+    {
+      "enum": [
+        33900,
+        "unknownKeyRevision"
+      ],
+      "description": "Security key revision unknown."
+    },
+    {
+      "enum": [
+        33901,
+        "unknownSourceMessage"
+      ],
+      "description": "Security violation, not from claimed source."
+    },
+    {
+      "enum": [
+        34670,
+        "notRouterToDnet"
+      ],
+      "description": "Send failed, router unable to forward the message."
+    },
+    {
+      "enum": [
+        34671,
+        "commRouterBusy"
+      ],
+      "description": "Send failed, router busy."
+    },
+    {
+      "enum": [
+        34672,
+        "unknownNetworkMessage"
+      ],
+      "description": "Unknown network message received"
+    },
+    {
+      "enum": [
+        34673,
+        "messageTooLong"
+      ],
+      "description": "Message too long for message route."
+    },
+    {
+      "enum": [
+        34674,
+        "securityError"
+      ],
+      "description": "Security error along message route."
+    },
+    {
+      "enum": [
+        34675,
+        "addressingError"
+      ],
+      "description": "Send failed, addressing error."
+    },
+    {
+      "enum": [
+        34676,
+        "writeBdtFailed"
+      ],
+      "description": "Unable to update Broadcast Distribution Table."
+    },
+    {
+      "enum": [
+        34677,
+        "readBdtFailed"
+      ],
+      "description": "Unable to read Broadcast Distribution Table."
+    },
+    {
+      "enum": [
+        34678,
+        "registerForeignDeviceFailed"
+      ],
+      "description": "Unable to register foreign device"
+    },
+    {
+      "enum": [
+        34679,
+        "readFdtFailed"
+      ],
+      "description": "Unable to read Foreign Device Table."
+    },
+    {
+      "enum": [
+        34680,
+        "deleteFdtEntryFailed"
+      ],
+      "description": "Unable to delete device from Foreign Device Table."
+    },
+    {
+      "enum": [
+        34681,
+        "distributeBroadcastFailed"
+      ],
+      "description": "BBMD broadcast request failed"
+    },
+    {
+      "enum": [
+        33402,
+        "unknownFileSize"
+      ],
+      "description": "Cannot determine size of file."
+    },
+    {
+      "enum": [
+        34683,
+        "abortApduTooLong"
+      ],
+      "description": "Message too large to send."
+    },
+    {
+      "enum": [
+        34684,
+        "abortApplicationExceededRetryTime"
+      ],
+      "description": "Application exceeded allowed response time."
+    },
+    {
+      "enum": [
+        34685,
+        "abortOutOfResources"
+      ],
+      "description": "Message aborted, out of resources."
+    },
+    {
+      "enum": [
+        34686,
+        "abortTsmTimeout"
+      ],
+      "description": "Transaction aborted, timeout exceed."
+    },
+    {
+      "enum": [
+        34687,
+        "abortWindowSizeOutOfRange"
+      ],
+      "description": "Illegal proposed segmentation window size."
+    },
+    {
+      "enum": [
+        33152,
+        "fileFull"
+      ],
+      "description": "File full."
+    },
+    {
+      "enum": [
+        34178,
+        "inconsistentObjectType"
+      ],
+      "description": "Service not supported by object."
+    },
+    {
+      "enum": [
+        32899,
+        "deviceInternalError"
+      ],
+      "description": "Device internal error."
+    },
+    {
+      "enum": [
+        32900,
+        "notConfigured"
+      ],
+      "description": "Error, device not configured."
+    },
+    {
+      "enum": [
+        33669,
+        "objectOutOfMemory"
+      ],
+      "description": "Out of memory."
+    },
+    {
+      "enum": [
+        33414,
+        "valueTooLong"
+      ],
+      "description": "Error, value to long to send."
+    },
+    {
+      "enum": [
+        34695,
+        "abortInsufficientSecurity"
+      ],
+      "description": "Illegal security change in transaction."
+    },
+    {
+      "enum": [
+        34696,
+        "abortSecurityError"
+      ],
+      "description": "Security error detected."
+    },
+    {
+      "enum": [
+        33417,
+        "duplicateEntry"
+      ],
+      "description": "Duplicate time value entries detected."
+    },
+    {
+      "enum": [
+        33418,
+        "invalidValueInThisState"
+      ],
+      "description": "The value specified is invalid in this state."
+    }
+  ]
+}

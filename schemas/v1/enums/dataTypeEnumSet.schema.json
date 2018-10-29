@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dataTypeEnumSet.schema.json",
+  "title": "dataTypeEnumSet",
+  "description": "Data Type",
+  "oneOf": [
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Unused"
+    },
+    {
+      "enum": [
+        0,
+        "noneDataType"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "boolDataType"
+      ],
+      "description": "Boolean"
+    },
+    {
+      "enum": [
+        2,
+        "ulongDataType"
+      ],
+      "description": "Unsigned Long"
+    },
+    {
+      "enum": [
+        3,
+        "longDataType"
+      ],
+      "description": "Signed Long"
+    },
+    {
+      "enum": [
+        4,
+        "floatDataType"
+      ],
+      "description": "Float"
+    },
+    {
+      "enum": [
+        5,
+        "doubleDataType"
+      ],
+      "description": "Double Float"
+    },
+    {
+      "enum": [
+        6,
+        "octetStringDataType"
+      ],
+      "description": "Octet String"
+    },
+    {
+      "enum": [
+        7,
+        "stringDataType"
+      ],
+      "description": "String"
+    },
+    {
+      "enum": [
+        8,
+        "bitStringDataType"
+      ],
+      "description": "Bit String"
+    },
+    {
+      "enum": [
+        9,
+        "enumDataType"
+      ],
+      "description": "Multistate"
+    },
+    {
+      "enum": [
+        10,
+        "dateDataType"
+      ],
+      "description": "Date"
+    },
+    {
+      "enum": [
+        11,
+        "timeDataType"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        12,
+        "bacOidDataType"
+      ],
+      "description": "BACnet Object ID"
+    },
+    {
+      "enum": [
+        16,
+        "byteDataType"
+      ],
+      "description": "Byte"
+    },
+    {
+      "enum": [
+        17,
+        "shortDataType"
+      ],
+      "description": "Signed Integer"
+    },
+    {
+      "enum": [
+        18,
+        "ushortDataType"
+      ],
+      "description": "Unsigned Integer"
+    },
+    {
+      "enum": [
+        20,
+        "oidDataType"
+      ],
+      "description": "Object ID"
+    },
+    {
+      "enum": [
+        21,
+        "listDataType"
+      ],
+      "description": "List"
+    },
+    {
+      "enum": [
+        22,
+        "listofDataType"
+      ],
+      "description": "List Of"
+    },
+    {
+      "enum": [
+        23,
+        "arrayDataType"
+      ],
+      "description": "Array"
+    },
+    {
+      "enum": [
+        24,
+        "structDataType"
+      ],
+      "description": "Structure"
+    },
+    {
+      "enum": [
+        25,
+        "objectReferenceDataType"
+      ],
+      "description": "Object Reference"
+    },
+    {
+      "enum": [
+        26,
+        "attributeReferenceDataType"
+      ],
+      "description": "Attribute Reference"
+    },
+    {
+      "enum": [
+        27,
+        "numericDataType"
+      ],
+      "description": "Numeric"
+    },
+    {
+      "enum": [
+        29,
+        "voidDataType"
+      ],
+      "description": "Void"
+    }
+  ]
+}

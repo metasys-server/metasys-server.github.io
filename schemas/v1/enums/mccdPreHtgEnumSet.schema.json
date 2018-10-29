@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdPreHtgEnumSet.schema.json",
+  "title": "mccdPreHtgEnumSet",
+  "description": "MCCD Pre HTG",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Preclg"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Prehtg"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "On"
+    }
+  ]
+}

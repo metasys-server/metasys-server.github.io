@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc14EnumSet.schema.json",
+  "title": "ymc2Sc14EnumSet",
+  "description": "YMC2 Internal Fault Code SC.14",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymc2Sc140"
+      ],
+      "description": "NO INTERNAL FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ymc2Sc141"
+      ],
+      "description": "INTERNAL ERROR - NO TIMER HANDLES AVAILABLE"
+    },
+    {
+      "enum": [
+        2,
+        "ymc2Sc142"
+      ],
+      "description": "WATCHDOG - SOFTWARE REBOOT"
+    },
+    {
+      "enum": [
+        3,
+        "ymc2Sc143"
+      ],
+      "description": "INTERNAL ERROR - CANNOT CREATE TASK"
+    },
+    {
+      "enum": [
+        4,
+        "ymc2Sc144"
+      ],
+      "description": "INTERNAL ERROR - CANNOT REGISTER CONTROL"
+    },
+    {
+      "enum": [
+        5,
+        "ymc2Sc145"
+      ],
+      "description": "INTERNAL ERROR - INVALID BRAM"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scptSluiceCnfgEnumSet.schema.json",
+  "title": "scptSluiceCnfgEnumSet",
+  "description": "SCPT Sluice Configuration",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mscUnknown"
+      ],
+      "description": "Unknown Control"
+    },
+    {
+      "enum": [
+        1,
+        "mscSlave"
+      ],
+      "description": "Slave control"
+    },
+    {
+      "enum": [
+        2,
+        "mscMaster"
+      ],
+      "description": "Master control"
+    },
+    {
+      "enum": [
+        255,
+        "mscNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

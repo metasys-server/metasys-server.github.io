@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtValveModeEnumSet.schema.json",
+  "title": "snvtValveModeEnumSet",
+  "description": "SNVT Valve Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Emergency"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Stroke Adapt"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Stroke Sync"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Error"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Overridden"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

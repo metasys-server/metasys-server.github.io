@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtAlarmTypeEnumSet.schema.json",
+  "title": "snvtAlarmTypeEnumSet",
+  "description": "SNVT Alarm Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "alNoCondition"
+      ],
+      "description": "No alarm condition present"
+    },
+    {
+      "enum": [
+        1,
+        "alAlmCondition"
+      ],
+      "description": "Unspecified alarm condition present"
+    },
+    {
+      "enum": [
+        2,
+        "alTotSvcAlm1"
+      ],
+      "description": "Total / service interval alarm 1"
+    },
+    {
+      "enum": [
+        3,
+        "alTotSvcAlm2"
+      ],
+      "description": "Total / service interval alarm 2"
+    },
+    {
+      "enum": [
+        4,
+        "alTotSvcAlm3"
+      ],
+      "description": "Total / service interval alarm 3"
+    },
+    {
+      "enum": [
+        5,
+        "alLowLmtClr1"
+      ],
+      "description": "Alarm low limit alarm clear 1"
+    },
+    {
+      "enum": [
+        6,
+        "alLowLmtClr2"
+      ],
+      "description": "Alarm low limit alarm clear 2"
+    },
+    {
+      "enum": [
+        7,
+        "alHighLmtClr1"
+      ],
+      "description": "Alarm high limit alarm clear 1"
+    },
+    {
+      "enum": [
+        8,
+        "alHighLmtClr2"
+      ],
+      "description": "Alarm high limit alarm clear 2"
+    },
+    {
+      "enum": [
+        9,
+        "alLowLmtAlm1"
+      ],
+      "description": "Alarm low limit alarm 1"
+    },
+    {
+      "enum": [
+        10,
+        "alLowLmtAlm2"
+      ],
+      "description": "Alarm low limit alarm 2"
+    },
+    {
+      "enum": [
+        11,
+        "alHighLmtAlm1"
+      ],
+      "description": "Alarm high limit alarm 1"
+    },
+    {
+      "enum": [
+        12,
+        "alHighLmtAlm2"
+      ],
+      "description": "Alarm high limit alarm 2"
+    },
+    {
+      "enum": [
+        13,
+        "alFirAlm"
+      ],
+      "description": "Fire alarm condition"
+    },
+    {
+      "enum": [
+        14,
+        "alFirPreAlm"
+      ],
+      "description": "Fire pre-alarm condition"
+    },
+    {
+      "enum": [
+        15,
+        "alFirTrbl"
+      ],
+      "description": "Fire-related trouble (fault) condition"
+    },
+    {
+      "enum": [
+        16,
+        "alFirSupv"
+      ],
+      "description": "Fire-related supervisory condition"
+    },
+    {
+      "enum": [
+        17,
+        "alFirTestAlm"
+      ],
+      "description": "Fire-related test-mode alarm condition"
+    },
+    {
+      "enum": [
+        18,
+        "alFirTestPreAlm"
+      ],
+      "description": "Fire-related test-mode pre-alarm condition"
+    },
+    {
+      "enum": [
+        19,
+        "alFirEnvcompMax"
+      ],
+      "description": "Fire-related max environmental comp reached"
+    },
+    {
+      "enum": [
+        20,
+        "alFirMonitorCond"
+      ],
+      "description": "Fire-related abnormal input condition"
+    },
+    {
+      "enum": [
+        21,
+        "alFirMaintAlert"
+      ],
+      "description": "Fire-related maintenance alert"
+    },
+    {
+      "enum": [
+        30,
+        "alFatalError"
+      ],
+      "description": "Fatal application error"
+    },
+    {
+      "enum": [
+        31,
+        "alError"
+      ],
+      "description": "Other error condition"
+    },
+    {
+      "enum": [
+        32,
+        "alWarning"
+      ],
+      "description": "Other warning condition"
+    },
+    {
+      "enum": [
+        246,
+        "alHeader"
+      ],
+      "description": "Update sequence header"
+    },
+    {
+      "enum": [
+        247,
+        "alFooter"
+      ],
+      "description": "Update sequence footer"
+    },
+    {
+      "enum": [
+        248,
+        "alDebug"
+      ],
+      "description": "Debug information (not an alarm)"
+    },
+    {
+      "enum": [
+        249,
+        "alInfo"
+      ],
+      "description": "Information update (not an alarm)"
+    },
+    {
+      "enum": [
+        250,
+        "alSystemInfo"
+      ],
+      "description": "System information (not an alarm)"
+    },
+    {
+      "enum": [
+        251,
+        "alValueInvalid"
+      ],
+      "description": "The value is invalid"
+    },
+    {
+      "enum": [
+        252,
+        "alConstant"
+      ],
+      "description": "The value is a constant value (not an alarm)"
+    },
+    {
+      "enum": [
+        253,
+        "alOffline"
+      ],
+      "description": "The device is offline"
+    },
+    {
+      "enum": [
+        254,
+        "alUnknown"
+      ],
+      "description": "Alarm condition unknown"
+    },
+    {
+      "enum": [
+        255,
+        "alNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

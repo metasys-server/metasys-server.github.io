@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/autocalibrationStateEnumSet.schema.json",
+  "title": "autocalibrationStateEnumSet",
+  "description": "AutoCalibration state",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "autocalNone"
+      ],
+      "description": "No Autocalibration Performed"
+    },
+    {
+      "enum": [
+        1,
+        "autocalEffAcFalse"
+      ],
+      "description": "Set Effective AC False"
+    },
+    {
+      "enum": [
+        2,
+        "autocalEffAcTrue"
+      ],
+      "description": "Set Effective AC True"
+    },
+    {
+      "enum": [
+        3,
+        "autocalRelEffAc"
+      ],
+      "description": "Release Effective AC"
+    },
+    {
+      "enum": [
+        4,
+        "autocalActive"
+      ],
+      "description": "Autocalibration Active"
+    },
+    {
+      "enum": [
+        5,
+        "autocalComplete"
+      ],
+      "description": "Autocalibration Completed"
+    },
+    {
+      "enum": [
+        6,
+        "autocalTimedout"
+      ],
+      "description": "Autocalibration Timed Out"
+    }
+  ]
+}

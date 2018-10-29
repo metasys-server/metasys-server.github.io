@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/htgresetEnumSet.schema.json",
+  "title": "htgresetEnumSet",
+  "description": "Htg Reset",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Space"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Return"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "OAT"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Ext mA"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Ext V"
+    }
+  ]
+}

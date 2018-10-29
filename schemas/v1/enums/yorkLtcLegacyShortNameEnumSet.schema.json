@@ -1,0 +1,1128 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yorkLtcLegacyShortNameEnumSet.schema.json",
+  "title": "yorkLtcLegacyShortNameEnumSet",
+  "description": "York LTC Legacy Short Name Set",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "yorkLtcLegacyShortName1"
+      ],
+      "description": "LCHW_TEMP.SP"
+    },
+    {
+      "enum": [
+        2,
+        "yorkLtcLegacyShortName2"
+      ],
+      "description": "PCT_CURRENT.SP"
+    },
+    {
+      "enum": [
+        3,
+        "yorkLtcLegacyShortName3"
+      ],
+      "description": "START"
+    },
+    {
+      "enum": [
+        4,
+        "yorkLtcLegacyShortName4"
+      ],
+      "description": "HISTORY"
+    },
+    {
+      "enum": [
+        5,
+        "yorkLtcLegacyShortName5"
+      ],
+      "description": "VSD_FX|VR_SP"
+    },
+    {
+      "enum": [
+        6,
+        "yorkLtcLegacyShortName6"
+      ],
+      "description": "LCHW.TEMP"
+    },
+    {
+      "enum": [
+        7,
+        "yorkLtcLegacyShortName7"
+      ],
+      "description": "ECHW.TEMP"
+    },
+    {
+      "enum": [
+        8,
+        "yorkLtcLegacyShortName8"
+      ],
+      "description": "EVAP.PRESS"
+    },
+    {
+      "enum": [
+        9,
+        "yorkLtcLegacyShortName9"
+      ],
+      "description": "COND.PRESS"
+    },
+    {
+      "enum": [
+        10,
+        "yorkLtcLegacyShortName10"
+      ],
+      "description": "OIL.DP"
+    },
+    {
+      "enum": [
+        11,
+        "yorkLtcLegacyShortName11"
+      ],
+      "description": "ECDW.TEMP"
+    },
+    {
+      "enum": [
+        12,
+        "yorkLtcLegacyShortName12"
+      ],
+      "description": "LCDW.TEMP"
+    },
+    {
+      "enum": [
+        13,
+        "yorkLtcLegacyShortName13"
+      ],
+      "description": "PCT_CURRENT"
+    },
+    {
+      "enum": [
+        14,
+        "yorkLtcLegacyShortName14"
+      ],
+      "description": "PHASE_A.AMPS"
+    },
+    {
+      "enum": [
+        15,
+        "yorkLtcLegacyShortName15"
+      ],
+      "description": "PHASE_B.AMPS"
+    },
+    {
+      "enum": [
+        16,
+        "yorkLtcLegacyShortName16"
+      ],
+      "description": "PHASE_C.AMPS"
+    },
+    {
+      "enum": [
+        17,
+        "yorkLtcLegacyShortName17"
+      ],
+      "description": "A-B.VOLTS"
+    },
+    {
+      "enum": [
+        18,
+        "yorkLtcLegacyShortName18"
+      ],
+      "description": "B-C.VOLTS"
+    },
+    {
+      "enum": [
+        19,
+        "yorkLtcLegacyShortName19"
+      ],
+      "description": "C-A.VOLTS"
+    },
+    {
+      "enum": [
+        20,
+        "yorkLtcLegacyShortName20"
+      ],
+      "description": "LCHW_ACT.SP"
+    },
+    {
+      "enum": [
+        21,
+        "yorkLtcLegacyShortName21"
+      ],
+      "description": "PCT_CURR_ACT.SP"
+    },
+    {
+      "enum": [
+        22,
+        "yorkLtcLegacyShortName22"
+      ],
+      "description": "EVAPSAT.TEMP"
+    },
+    {
+      "enum": [
+        23,
+        "yorkLtcLegacyShortName23"
+      ],
+      "description": "CONDSAT.TEMP"
+    },
+    {
+      "enum": [
+        24,
+        "yorkLtcLegacyShortName24"
+      ],
+      "description": "DISCH.TEMP"
+    },
+    {
+      "enum": [
+        25,
+        "yorkLtcLegacyShortName25"
+      ],
+      "description": "OIL.TEMP"
+    },
+    {
+      "enum": [
+        26,
+        "yorkLtcLegacyShortName26"
+      ],
+      "description": "REFRIG_LEVEL"
+    },
+    {
+      "enum": [
+        27,
+        "yorkLtcLegacyShortName27"
+      ],
+      "description": "RUN.HOURS"
+    },
+    {
+      "enum": [
+        28,
+        "yorkLtcLegacyShortName28"
+      ],
+      "description": "START.COUNT"
+    },
+    {
+      "enum": [
+        29,
+        "yorkLtcLegacyShortName29"
+      ],
+      "description": "LO_OIL.PRESS"
+    },
+    {
+      "enum": [
+        30,
+        "yorkLtcLegacyShortName30"
+      ],
+      "description": "HI_OIL.PRESS"
+    },
+    {
+      "enum": [
+        31,
+        "yorkLtcLegacyShortName31"
+      ],
+      "description": "COMPR.STAT"
+    },
+    {
+      "enum": [
+        32,
+        "yorkLtcLegacyShortName32"
+      ],
+      "description": "VENTSOL.STAT"
+    },
+    {
+      "enum": [
+        33,
+        "yorkLtcLegacyShortName33"
+      ],
+      "description": "CHWPUMP.STAT"
+    },
+    {
+      "enum": [
+        34,
+        "yorkLtcLegacyShortName34"
+      ],
+      "description": "STARTSW.STAT"
+    },
+    {
+      "enum": [
+        35,
+        "yorkLtcLegacyShortName35"
+      ],
+      "description": "CHWFLSW.STAT"
+    },
+    {
+      "enum": [
+        36,
+        "yorkLtcLegacyShortName36"
+      ],
+      "description": "ACC_VALD_MAP"
+    },
+    {
+      "enum": [
+        37,
+        "yorkLtcLegacyShortName37"
+      ],
+      "description": "ACC_SURGE"
+    },
+    {
+      "enum": [
+        38,
+        "yorkLtcLegacyShortName38"
+      ],
+      "description": "VSD_CLGPMP"
+    },
+    {
+      "enum": [
+        39,
+        "yorkLtcLegacyShortName39"
+      ],
+      "description": "VSD_FLT519"
+    },
+    {
+      "enum": [
+        40,
+        "yorkLtcLegacyShortName40"
+      ],
+      "description": "SURGE_TYPE"
+    },
+    {
+      "enum": [
+        41,
+        "yorkLtcLegacyShortName41"
+      ],
+      "description": "AR_TIME.MIN"
+    },
+    {
+      "enum": [
+        42,
+        "yorkLtcLegacyShortName42"
+      ],
+      "description": "OPR_MOD.CODE"
+    },
+    {
+      "enum": [
+        43,
+        "yorkLtcLegacyShortName43"
+      ],
+      "description": "OPER.CODE"
+    },
+    {
+      "enum": [
+        44,
+        "yorkLtcLegacyShortName44"
+      ],
+      "description": "SAFETY.CODE"
+    },
+    {
+      "enum": [
+        45,
+        "yorkLtcLegacyShortName45"
+      ],
+      "description": "CYCLING.CODE"
+    },
+    {
+      "enum": [
+        46,
+        "yorkLtcLegacyShortName46"
+      ],
+      "description": "VSD_INT.TEMP"
+    },
+    {
+      "enum": [
+        47,
+        "yorkLtcLegacyShortName47"
+      ],
+      "description": "VSD_CHSKTEMP"
+    },
+    {
+      "enum": [
+        48,
+        "yorkLtcLegacyShortName48"
+      ],
+      "description": "ACC_PRV_POS"
+    },
+    {
+      "enum": [
+        49,
+        "yorkLtcLegacyShortName49"
+      ],
+      "description": "ACC_FRZ.HZ"
+    },
+    {
+      "enum": [
+        50,
+        "yorkLtcLegacyShortName50"
+      ],
+      "description": "REF_LVL_STPT"
+    },
+    {
+      "enum": [
+        51,
+        "yorkLtcLegacyShortName51"
+      ],
+      "description": "PROX_SEN.POS"
+    },
+    {
+      "enum": [
+        52,
+        "yorkLtcLegacyShortName52"
+      ],
+      "description": "PROX_SEN.REF"
+    },
+    {
+      "enum": [
+        53,
+        "yorkLtcLegacyShortName53"
+      ],
+      "description": "DRN_LIN.TEMP"
+    },
+    {
+      "enum": [
+        54,
+        "yorkLtcLegacyShortName54"
+      ],
+      "description": "ACC_DLTA_P_OVR_P"
+    },
+    {
+      "enum": [
+        55,
+        "yorkLtcLegacyShortName55"
+      ],
+      "description": "VSD_OUTP.VOLT"
+    },
+    {
+      "enum": [
+        56,
+        "yorkLtcLegacyShortName56"
+      ],
+      "description": "VSD_INP.KW"
+    },
+    {
+      "enum": [
+        57,
+        "yorkLtcLegacyShortName57"
+      ],
+      "description": "VSD_INP.MWHR"
+    },
+    {
+      "enum": [
+        58,
+        "yorkLtcLegacyShortName58"
+      ],
+      "description": "VSD_DCLK.VLT"
+    },
+    {
+      "enum": [
+        59,
+        "yorkLtcLegacyShortName59"
+      ],
+      "description": "VSD_DCLK.CUR"
+    },
+    {
+      "enum": [
+        60,
+        "yorkLtcLegacyShortName60"
+      ],
+      "description": "VSD_SRG_CONT"
+    },
+    {
+      "enum": [
+        61,
+        "yorkLtcLegacyShortName61"
+      ],
+      "description": "VSD_OUTP.HZ"
+    },
+    {
+      "enum": [
+        62,
+        "yorkLtcLegacyShortName62"
+      ],
+      "description": "VSD_AVGV.THD"
+    },
+    {
+      "enum": [
+        63,
+        "yorkLtcLegacyShortName63"
+      ],
+      "description": "VSD_AVGI.TDD"
+    },
+    {
+      "enum": [
+        64,
+        "yorkLtcLegacyShortName64"
+      ],
+      "description": "VSD_INP.KVA"
+    },
+    {
+      "enum": [
+        65,
+        "yorkLtcLegacyShortName65"
+      ],
+      "description": "PURGE.PRESS"
+    },
+    {
+      "enum": [
+        66,
+        "yorkLtcLegacyShortName66"
+      ],
+      "description": "FILTER.DP"
+    },
+    {
+      "enum": [
+        67,
+        "yorkLtcLegacyShortName67"
+      ],
+      "description": "MINCURLIM.SP"
+    },
+    {
+      "enum": [
+        68,
+        "yorkLtcLegacyShortName68"
+      ],
+      "description": "PCT_SLIDE.VALVE"
+    },
+    {
+      "enum": [
+        69,
+        "yorkLtcLegacyShortName69"
+      ],
+      "description": "OIL_SOL.STAT"
+    },
+    {
+      "enum": [
+        70,
+        "yorkLtcLegacyShortName70"
+      ],
+      "description": "EDUCSOL.STAT"
+    },
+    {
+      "enum": [
+        71,
+        "yorkLtcLegacyShortName71"
+      ],
+      "description": "OIL_SEP.STAT"
+    },
+    {
+      "enum": [
+        72,
+        "yorkLtcLegacyShortName72"
+      ],
+      "description": "FREEZE.STAT"
+    },
+    {
+      "enum": [
+        73,
+        "yorkLtcLegacyShortName73"
+      ],
+      "description": "CONDPUMP.STAT"
+    },
+    {
+      "enum": [
+        74,
+        "yorkLtcLegacyShortName74"
+      ],
+      "description": "CONDFLOW.STAT"
+    },
+    {
+      "enum": [
+        75,
+        "yorkLtcLegacyShortName75"
+      ],
+      "description": "ICESTORE.ENA"
+    },
+    {
+      "enum": [
+        76,
+        "yorkLtcLegacyShortName76"
+      ],
+      "description": "OPRMODE.CODE"
+    },
+    {
+      "enum": [
+        77,
+        "yorkLtcLegacyShortName77"
+      ],
+      "description": "LWT_RST.OFF"
+    },
+    {
+      "enum": [
+        78,
+        "yorkLtcLegacyShortName78"
+      ],
+      "description": "SEALOIL.PRESS"
+    },
+    {
+      "enum": [
+        79,
+        "yorkLtcLegacyShortName79"
+      ],
+      "description": "HOTW_TEMP.SP"
+    },
+    {
+      "enum": [
+        80,
+        "yorkLtcLegacyShortName80"
+      ],
+      "description": "RMT_LOAD.SP"
+    },
+    {
+      "enum": [
+        81,
+        "yorkLtcLegacyShortName81"
+      ],
+      "description": "1GEN1.PRESS"
+    },
+    {
+      "enum": [
+        82,
+        "yorkLtcLegacyShortName82"
+      ],
+      "description": "1GEN1.TEMP"
+    },
+    {
+      "enum": [
+        83,
+        "yorkLtcLegacyShortName83"
+      ],
+      "description": "1GEN2.PRESS"
+    },
+    {
+      "enum": [
+        84,
+        "yorkLtcLegacyShortName84"
+      ],
+      "description": "1GEN2.TEMP"
+    },
+    {
+      "enum": [
+        85,
+        "yorkLtcLegacyShortName85"
+      ],
+      "description": "LHOTW.TEMP"
+    },
+    {
+      "enum": [
+        86,
+        "yorkLtcLegacyShortName86"
+      ],
+      "description": "EHOTW.TEMP"
+    },
+    {
+      "enum": [
+        87,
+        "yorkLtcLegacyShortName87"
+      ],
+      "description": "LOADING"
+    },
+    {
+      "enum": [
+        88,
+        "yorkLtcLegacyShortName88"
+      ],
+      "description": "LHOTW_ACT.SP"
+    },
+    {
+      "enum": [
+        89,
+        "yorkLtcLegacyShortName89"
+      ],
+      "description": "REFRIG.TEMP"
+    },
+    {
+      "enum": [
+        90,
+        "yorkLtcLegacyShortName90"
+      ],
+      "description": "SOLTN.TEMP"
+    },
+    {
+      "enum": [
+        91,
+        "yorkLtcLegacyShortName91"
+      ],
+      "description": "PRGPMP.PRESS"
+    },
+    {
+      "enum": [
+        92,
+        "yorkLtcLegacyShortName92"
+      ],
+      "description": "PRGTNK.PRESS"
+    },
+    {
+      "enum": [
+        93,
+        "yorkLtcLegacyShortName93"
+      ],
+      "description": "LTPRGE.COUNT"
+    },
+    {
+      "enum": [
+        94,
+        "yorkLtcLegacyShortName94"
+      ],
+      "description": "M_LTPRG.CNT"
+    },
+    {
+      "enum": [
+        95,
+        "yorkLtcLegacyShortName95"
+      ],
+      "description": "REFPUMP.STAT"
+    },
+    {
+      "enum": [
+        96,
+        "yorkLtcLegacyShortName96"
+      ],
+      "description": "CDWPUMP.STAT"
+    },
+    {
+      "enum": [
+        97,
+        "yorkLtcLegacyShortName97"
+      ],
+      "description": "HOTWPMP.STAT"
+    },
+    {
+      "enum": [
+        98,
+        "yorkLtcLegacyShortName98"
+      ],
+      "description": "SOLPMP1.STAT"
+    },
+    {
+      "enum": [
+        99,
+        "yorkLtcLegacyShortName99"
+      ],
+      "description": "SOLPMP2.STAT"
+    },
+    {
+      "enum": [
+        100,
+        "yorkLtcLegacyShortName100"
+      ],
+      "description": "PRGPUMP.STAT"
+    },
+    {
+      "enum": [
+        101,
+        "yorkLtcLegacyShortName101"
+      ],
+      "description": "HOTWFLS.STAT"
+    },
+    {
+      "enum": [
+        102,
+        "yorkLtcLegacyShortName102"
+      ],
+      "description": "CDWFLSW.STAT"
+    },
+    {
+      "enum": [
+        103,
+        "yorkLtcLegacyShortName103"
+      ],
+      "description": "DIL_CYC.STAT"
+    },
+    {
+      "enum": [
+        104,
+        "yorkLtcLegacyShortName104"
+      ],
+      "description": "UNIT_OP.CODE"
+    },
+    {
+      "enum": [
+        105,
+        "yorkLtcLegacyShortName105"
+      ],
+      "description": "MAX_LOAD.SP"
+    },
+    {
+      "enum": [
+        106,
+        "yorkLtcLegacyShortName106"
+      ],
+      "description": "WKPRGE.COUNT"
+    },
+    {
+      "enum": [
+        107,
+        "yorkLtcLegacyShortName107"
+      ],
+      "description": "PD_LIM.SP"
+    },
+    {
+      "enum": [
+        108,
+        "yorkLtcLegacyShortName108"
+      ],
+      "description": "PD_DMD.MIN"
+    },
+    {
+      "enum": [
+        109,
+        "yorkLtcLegacyShortName109"
+      ],
+      "description": "PD_START.SP"
+    },
+    {
+      "enum": [
+        110,
+        "yorkLtcLegacyShortName110"
+      ],
+      "description": "PD_STOP.SP"
+    },
+    {
+      "enum": [
+        111,
+        "yorkLtcLegacyShortName111"
+      ],
+      "description": "PD_DMD.LIM"
+    },
+    {
+      "enum": [
+        112,
+        "yorkLtcLegacyShortName112"
+      ],
+      "description": "ENERGY_SRCE"
+    },
+    {
+      "enum": [
+        113,
+        "yorkLtcLegacyShortName113"
+      ],
+      "description": "RMT_LOAD.ACT_SP"
+    },
+    {
+      "enum": [
+        114,
+        "yorkLtcLegacyShortName114"
+      ],
+      "description": "PCT_ENG_LOAD.SP"
+    },
+    {
+      "enum": [
+        115,
+        "yorkLtcLegacyShortName115"
+      ],
+      "description": "PCT_ENG_LOAD"
+    },
+    {
+      "enum": [
+        116,
+        "yorkLtcLegacyShortName116"
+      ],
+      "description": "PCT_PRV"
+    },
+    {
+      "enum": [
+        117,
+        "yorkLtcLegacyShortName117"
+      ],
+      "description": "ENG_WJK.TEMP"
+    },
+    {
+      "enum": [
+        118,
+        "yorkLtcLegacyShortName118"
+      ],
+      "description": "ENG_SPD"
+    },
+    {
+      "enum": [
+        119,
+        "yorkLtcLegacyShortName119"
+      ],
+      "description": "ENG_OIL.PR"
+    },
+    {
+      "enum": [
+        120,
+        "yorkLtcLegacyShortName120"
+      ],
+      "description": "ENG_MAN.PR"
+    },
+    {
+      "enum": [
+        121,
+        "yorkLtcLegacyShortName121"
+      ],
+      "description": "ENG_SSS.STAT"
+    },
+    {
+      "enum": [
+        122,
+        "yorkLtcLegacyShortName122"
+      ],
+      "description": "ENG.TYPE"
+    },
+    {
+      "enum": [
+        123,
+        "yorkLtcLegacyShortName123"
+      ],
+      "description": "DELTA_P_OVR_P"
+    },
+    {
+      "enum": [
+        124,
+        "yorkLtcLegacyShortName124"
+      ],
+      "description": "SURF.SPD"
+    },
+    {
+      "enum": [
+        125,
+        "yorkLtcLegacyShortName125"
+      ],
+      "description": "GEN_SH.PRESS"
+    },
+    {
+      "enum": [
+        126,
+        "yorkLtcLegacyShortName126"
+      ],
+      "description": "ADECRYS.TEMP"
+    },
+    {
+      "enum": [
+        127,
+        "yorkLtcLegacyShortName127"
+      ],
+      "description": "CONDREF.TEMP"
+    },
+    {
+      "enum": [
+        128,
+        "yorkLtcLegacyShortName128"
+      ],
+      "description": "STM|HW.TEMP"
+    },
+    {
+      "enum": [
+        129,
+        "yorkLtcLegacyShortName129"
+      ],
+      "description": "STMSUP.PRESS"
+    },
+    {
+      "enum": [
+        130,
+        "yorkLtcLegacyShortName130"
+      ],
+      "description": "SUP_VALV.POS"
+    },
+    {
+      "enum": [
+        131,
+        "yorkLtcLegacyShortName131"
+      ],
+      "description": "LOC_LCHW.SP"
+    },
+    {
+      "enum": [
+        132,
+        "yorkLtcLegacyShortName132"
+      ],
+      "description": "PP_SERINT.SP"
+    },
+    {
+      "enum": [
+        133,
+        "yorkLtcLegacyShortName133"
+      ],
+      "description": "STG_SOL.TEMP"
+    },
+    {
+      "enum": [
+        134,
+        "yorkLtcLegacyShortName134"
+      ],
+      "description": "SOL_CONC.PCT"
+    },
+    {
+      "enum": [
+        135,
+        "yorkLtcLegacyShortName135"
+      ],
+      "description": "SPMPSOL.STAT"
+    },
+    {
+      "enum": [
+        136,
+        "yorkLtcLegacyShortName136"
+      ],
+      "description": "SOLPMP.STAT"
+    },
+    {
+      "enum": [
+        137,
+        "yorkLtcLegacyShortName137"
+      ],
+      "description": "GENPUMP.STAT"
+    },
+    {
+      "enum": [
+        138,
+        "yorkLtcLegacyShortName138"
+      ],
+      "description": "STABSOL.STAT"
+    },
+    {
+      "enum": [
+        139,
+        "yorkLtcLegacyShortName139"
+      ],
+      "description": "RLEVFSW.STAT"
+    },
+    {
+      "enum": [
+        140,
+        "yorkLtcLegacyShortName140"
+      ],
+      "description": "J50.STAT"
+    },
+    {
+      "enum": [
+        141,
+        "yorkLtcLegacyShortName141"
+      ],
+      "description": "J51.STAT"
+    },
+    {
+      "enum": [
+        142,
+        "yorkLtcLegacyShortName142"
+      ],
+      "description": "J52.STAT"
+    },
+    {
+      "enum": [
+        143,
+        "yorkLtcLegacyShortName143"
+      ],
+      "description": "J54.STAT"
+    },
+    {
+      "enum": [
+        144,
+        "yorkLtcLegacyShortName144"
+      ],
+      "description": "J55.STAT"
+    },
+    {
+      "enum": [
+        145,
+        "yorkLtcLegacyShortName145"
+      ],
+      "description": "J57.STAT"
+    },
+    {
+      "enum": [
+        146,
+        "yorkLtcLegacyShortName146"
+      ],
+      "description": "J12.STAT"
+    },
+    {
+      "enum": [
+        147,
+        "yorkLtcLegacyShortName147"
+      ],
+      "description": "DIL_CYC.CODE"
+    },
+    {
+      "enum": [
+        148,
+        "yorkLtcLegacyShortName148"
+      ],
+      "description": "WARN.CODE"
+    },
+    {
+      "enum": [
+        149,
+        "yorkLtcLegacyShortName149"
+      ],
+      "description": "VLVMAXLD.SP"
+    },
+    {
+      "enum": [
+        150,
+        "yorkLtcLegacyShortName150"
+      ],
+      "description": "REMT_RNG.SP"
+    },
+    {
+      "enum": [
+        151,
+        "yorkLtcLegacyShortName151"
+      ],
+      "description": "VLVMAXUNL.SP"
+    },
+    {
+      "enum": [
+        152,
+        "yorkLtcLegacyShortName152"
+      ],
+      "description": "ECDW_MAX.SP"
+    },
+    {
+      "enum": [
+        153,
+        "yorkLtcLegacyShortName153"
+      ],
+      "description": "JP1.STAT"
+    },
+    {
+      "enum": [
+        154,
+        "yorkLtcLegacyShortName154"
+      ],
+      "description": "JP3.STAT"
+    },
+    {
+      "enum": [
+        155,
+        "yorkLtcLegacyShortName155"
+      ],
+      "description": "JP1_EXP.STAT"
+    },
+    {
+      "enum": [
+        156,
+        "yorkLtcLegacyShortName156"
+      ],
+      "description": "RLEVSOL.STAT"
+    },
+    {
+      "enum": [
+        157,
+        "yorkLtcLegacyShortName157"
+      ],
+      "description": "SST_LMT.STAT"
+    },
+    {
+      "enum": [
+        158,
+        "yorkLtcLegacyShortName158"
+      ],
+      "description": "ADECRYS.STAT"
+    },
+    {
+      "enum": [
+        159,
+        "yorkLtcLegacyShortName159"
+      ],
+      "description": "RMTLOAD.STAT"
+    },
+    {
+      "enum": [
+        160,
+        "yorkLtcLegacyShortName160"
+      ],
+      "description": "PD_LMT.STAT"
+    }
+  ]
+}

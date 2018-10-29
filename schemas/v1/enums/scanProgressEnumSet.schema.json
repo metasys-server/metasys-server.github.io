@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scanProgressEnumSet.schema.json",
+  "title": "scanProgressEnumSet",
+  "description": "Bus Scan Progress",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "scanNotStarted"
+      ],
+      "description": "Not Started"
+    },
+    {
+      "enum": [
+        1,
+        "scanInProgress"
+      ],
+      "description": "In Progress"
+    },
+    {
+      "enum": [
+        2,
+        "scanComplete"
+      ],
+      "description": "Complete"
+    }
+  ]
+}

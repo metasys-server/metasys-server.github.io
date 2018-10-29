@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eventServerJciAttEnumSet.schema.json",
+  "title": "eventServerJciAttEnumSet",
+  "description": "Event Server JCI Att",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "esjPropertyValue"
+      ],
+      "description": "Property Value"
+    },
+    {
+      "enum": [
+        1,
+        "esjUnit"
+      ],
+      "description": "Unit"
+    },
+    {
+      "enum": [
+        2,
+        "esjPropertyName"
+      ],
+      "description": "Property Name"
+    },
+    {
+      "enum": [
+        3,
+        "esjFromState"
+      ],
+      "description": "From State"
+    },
+    {
+      "enum": [
+        4,
+        "esjVendorId"
+      ],
+      "description": "Vendor Identifier"
+    },
+    {
+      "enum": [
+        5,
+        "esjAreas"
+      ],
+      "description": "Areas"
+    },
+    {
+      "enum": [
+        6,
+        "esjBacnetEventType"
+      ],
+      "description": "BACnet Event Type"
+    },
+    {
+      "enum": [
+        7,
+        "esjDeviceTimePresent"
+      ],
+      "description": "Device Time Present"
+    },
+    {
+      "enum": [
+        8,
+        "esjAckComment"
+      ],
+      "description": "Ack. Comment"
+    },
+    {
+      "enum": [
+        9,
+        "esjCompleteAcknowledge"
+      ],
+      "description": "Complete Acknowledge"
+    },
+    {
+      "enum": [
+        10,
+        "esjBadgeNumber"
+      ],
+      "description": "Badge Number"
+    },
+    {
+      "enum": [
+        11,
+        "esjLastName"
+      ],
+      "description": "Last Name"
+    },
+    {
+      "enum": [
+        12,
+        "esjFirstName"
+      ],
+      "description": "First Name"
+    },
+    {
+      "enum": [
+        13,
+        "esjBadgeTrace"
+      ],
+      "description": "Badge Trace"
+    },
+    {
+      "enum": [
+        14,
+        "esjIssueLevel"
+      ],
+      "description": "Issue Level"
+    },
+    {
+      "enum": [
+        15,
+        "esjTimedOverride"
+      ],
+      "description": "Timed Override"
+    },
+    {
+      "enum": [
+        16,
+        "esjFacilityCode"
+      ],
+      "description": "Facility Code"
+    },
+    {
+      "enum": [
+        17,
+        "esjDirection"
+      ],
+      "description": "Direction"
+    },
+    {
+      "enum": [
+        18,
+        "esjFunctionKey"
+      ],
+      "description": "Function key"
+    },
+    {
+      "enum": [
+        19,
+        "esjBarcodeAttachemnt"
+      ],
+      "description": "Barcode Attachment"
+    },
+    {
+      "enum": [
+        20,
+        "esjTerminalName"
+      ],
+      "description": "Terminal Name"
+    },
+    {
+      "enum": [
+        21,
+        "esjUserName"
+      ],
+      "description": "User Name"
+    },
+    {
+      "enum": [
+        22,
+        "esjAuditItemName"
+      ],
+      "description": "Audit Item Name"
+    },
+    {
+      "enum": [
+        23,
+        "esjPegasysEventName"
+      ],
+      "description": "Pegasys Event Name"
+    },
+    {
+      "enum": [
+        24,
+        "esjErorLogType"
+      ],
+      "description": "Error Log Type"
+    },
+    {
+      "enum": [
+        25,
+        "esjTriggerCode"
+      ],
+      "description": "Trigger Code"
+    },
+    {
+      "enum": [
+        26,
+        "esjTriggerText"
+      ],
+      "description": "Trigger Text"
+    },
+    {
+      "enum": [
+        27,
+        "esjTriggerValue"
+      ],
+      "description": "Trigger Value"
+    },
+    {
+      "enum": [
+        28,
+        "esjReliability"
+      ],
+      "description": "Reliability"
+    }
+  ]
+}

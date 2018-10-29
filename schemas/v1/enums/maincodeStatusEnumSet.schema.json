@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/maincodeStatusEnumSet.schema.json",
+  "title": "maincodeStatusEnumSet",
+  "description": "Main Code Status Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "maincodeStatusLoaded"
+      ],
+      "description": "Loaded"
+    },
+    {
+      "enum": [
+        1,
+        "maincodeStatusPrepare"
+      ],
+      "description": "Prepare"
+    },
+    {
+      "enum": [
+        2,
+        "maincodeStatusPrepared"
+      ],
+      "description": "Prepared"
+    },
+    {
+      "enum": [
+        3,
+        "maincodeStatusTransferred"
+      ],
+      "description": "Transferred"
+    },
+    {
+      "enum": [
+        4,
+        "maincodeStatusVerified"
+      ],
+      "description": "Verified"
+    },
+    {
+      "enum": [
+        5,
+        "maincodeStatusCorrupt"
+      ],
+      "description": "Corrupt"
+    },
+    {
+      "enum": [
+        6,
+        "maincodeStatusLoad"
+      ],
+      "description": "Load"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/numberOfDevicesEnumSet.schema.json",
+  "title": "numberOfDevicesEnumSet",
+  "description": "Num of Devices",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "nod0"
+      ],
+      "description": "0"
+    },
+    {
+      "enum": [
+        1,
+        "nod1"
+      ],
+      "description": "1"
+    },
+    {
+      "enum": [
+        2,
+        "nod2"
+      ],
+      "description": "2"
+    },
+    {
+      "enum": [
+        3,
+        "nod3"
+      ],
+      "description": "3"
+    },
+    {
+      "enum": [
+        4,
+        "nod4"
+      ],
+      "description": "4"
+    },
+    {
+      "enum": [
+        5,
+        "nod5"
+      ],
+      "description": "5"
+    },
+    {
+      "enum": [
+        6,
+        "nod6"
+      ],
+      "description": "6"
+    },
+    {
+      "enum": [
+        7,
+        "nod7"
+      ],
+      "description": "7"
+    },
+    {
+      "enum": [
+        8,
+        "nod8"
+      ],
+      "description": "8"
+    },
+    {
+      "enum": [
+        9,
+        "nod9"
+      ],
+      "description": "9"
+    },
+    {
+      "enum": [
+        10,
+        "nod10"
+      ],
+      "description": "10"
+    },
+    {
+      "enum": [
+        11,
+        "nod11"
+      ],
+      "description": "11"
+    },
+    {
+      "enum": [
+        12,
+        "nod12"
+      ],
+      "description": "12"
+    },
+    {
+      "enum": [
+        13,
+        "nod13"
+      ],
+      "description": "13"
+    },
+    {
+      "enum": [
+        14,
+        "nod14"
+      ],
+      "description": "14"
+    },
+    {
+      "enum": [
+        15,
+        "nod15"
+      ],
+      "description": "15"
+    },
+    {
+      "enum": [
+        16,
+        "nod16"
+      ],
+      "description": "16"
+    }
+  ]
+}

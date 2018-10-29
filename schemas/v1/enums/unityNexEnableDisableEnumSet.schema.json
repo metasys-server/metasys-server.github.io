@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexEnableDisableEnumSet.schema.json",
+  "title": "unityNexEnableDisableEnumSet",
+  "description": "Unity NEX Enable/Disable",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Disable"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Enable"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Disable"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Enable"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    }
+  ]
+}

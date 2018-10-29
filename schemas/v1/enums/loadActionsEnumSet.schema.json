@@ -1,0 +1,456 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/loadActionsEnumSet.schema.json",
+  "title": "loadActionsEnumSet",
+  "description": "Load Actions",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "establishingCommunication"
+      ],
+      "description": "Establishing communication"
+    },
+    {
+      "enum": [
+        1,
+        "initiatingLoad"
+      ],
+      "description": "Initiating Load"
+    },
+    {
+      "enum": [
+        2,
+        "transferringFilesToDevice"
+      ],
+      "description": "Transferring files to device"
+    },
+    {
+      "enum": [
+        3,
+        "waitingForDeviceReset"
+      ],
+      "description": "Waiting for device reset"
+    },
+    {
+      "enum": [
+        4,
+        "deviceInitializing"
+      ],
+      "description": "Device initializing"
+    },
+    {
+      "enum": [
+        5,
+        "waitingForDeviceStartup"
+      ],
+      "description": "Waiting for device startup"
+    },
+    {
+      "enum": [
+        6,
+        "transferringFilesFromDevice"
+      ],
+      "description": "Transferring files from device"
+    },
+    {
+      "enum": [
+        7,
+        "addingFilesToTheDatabase"
+      ],
+      "description": "Adding files to the database"
+    },
+    {
+      "enum": [
+        8,
+        "retrievingFilesFromTheDatabase"
+      ],
+      "description": "Retrieving files from the database"
+    },
+    {
+      "enum": [
+        9,
+        "deviceSynchronizing"
+      ],
+      "description": "Device synchronizing"
+    },
+    {
+      "enum": [
+        10,
+        "waitingForDeviceChangeReset"
+      ],
+      "description": "Waiting for device change reset"
+    },
+    {
+      "enum": [
+        11,
+        "inactiveText"
+      ],
+      "description": "Inactive"
+    },
+    {
+      "enum": [
+        12,
+        "loggingIntoDestination"
+      ],
+      "description": "Logging into destination"
+    },
+    {
+      "enum": [
+        13,
+        "waitingForDeviceArchive"
+      ],
+      "description": "Waiting for device archive to complete"
+    },
+    {
+      "enum": [
+        14,
+        "transferringDataFromDevice"
+      ],
+      "description": "Transferring Data from Device"
+    },
+    {
+      "enum": [
+        15,
+        "outputtingData"
+      ],
+      "description": "Outputting Data"
+    },
+    {
+      "enum": [
+        16,
+        "updatingSms"
+      ],
+      "description": "Updating SMS"
+    },
+    {
+      "enum": [
+        17,
+        "getdownloadfiles"
+      ],
+      "description": "Retrieving files for Download operation"
+    },
+    {
+      "enum": [
+        18,
+        "startingdownloadsession"
+      ],
+      "description": "Initiating a Session with Download Manager"
+    },
+    {
+      "enum": [
+        19,
+        "startinguploadsession"
+      ],
+      "description": "Initiating a Session with Upload Manager"
+    },
+    {
+      "enum": [
+        20,
+        "uploading"
+      ],
+      "description": "Upload in progress"
+    },
+    {
+      "enum": [
+        21,
+        "downloading"
+      ],
+      "description": "Download in progress"
+    },
+    {
+      "enum": [
+        22,
+        "getobjectfiles"
+      ],
+      "description": "Generating object files for Download"
+    },
+    {
+      "enum": [
+        23,
+        "initdownload"
+      ],
+      "description": "Initializing Download"
+    },
+    {
+      "enum": [
+        24,
+        "startdownload"
+      ],
+      "description": "Starting Download"
+    },
+    {
+      "enum": [
+        25,
+        "initupload"
+      ],
+      "description": "Initializing Upload"
+    },
+    {
+      "enum": [
+        26,
+        "downloadcomplete"
+      ],
+      "description": "Download Completed Successfully"
+    },
+    {
+      "enum": [
+        27,
+        "uploadcaffile"
+      ],
+      "description": "Uploading data to CAF file"
+    },
+    {
+      "enum": [
+        28,
+        "uploadcomplete"
+      ],
+      "description": "Upload Completed Successfully"
+    },
+    {
+      "enum": [
+        29,
+        "failedOperation"
+      ],
+      "description": "Failed Operation"
+    },
+    {
+      "enum": [
+        30,
+        "getdevicestatus"
+      ],
+      "description": "Retrieving Status of the Device"
+    },
+    {
+      "enum": [
+        31,
+        "resettingEncryptionMode"
+      ],
+      "description": "Resetting Encryption Mode on CK722 Security Controller"
+    },
+    {
+      "enum": [
+        32,
+        "deletingActionInProgress"
+      ],
+      "description": "Deleting Action in Progress"
+    },
+    {
+      "enum": [
+        33,
+        "disablingActionInProgress"
+      ],
+      "description": "Disabling Action in Progress"
+    },
+    {
+      "enum": [
+        34,
+        "upgUpgradeBegin"
+      ],
+      "description": "Starting upgrade..."
+    },
+    {
+      "enum": [
+        35,
+        "upgFailedUpgradeCheck"
+      ],
+      "description": "Checking for previous failed upgrade"
+    },
+    {
+      "enum": [
+        36,
+        "upgCreateSafetyBackup"
+      ],
+      "description": "Creating a back-up of the archive..."
+    },
+    {
+      "enum": [
+        37,
+        "upgSchemaConversion"
+      ],
+      "description": "Converting the archive schema..."
+    },
+    {
+      "enum": [
+        38,
+        "upgMetadataUpdate"
+      ],
+      "description": "Updating archive metadata..."
+    },
+    {
+      "enum": [
+        39,
+        "upgInstanceDataUpdate"
+      ],
+      "description": "Updating device data..."
+    },
+    {
+      "enum": [
+        40,
+        "upgSecurityUpdate"
+      ],
+      "description": "Updating security data..."
+    },
+    {
+      "enum": [
+        41,
+        "upgArchvieMaintenance"
+      ],
+      "description": "Performing archive maintenance..."
+    },
+    {
+      "enum": [
+        42,
+        "upgPerformingRecovery"
+      ],
+      "description": "Performing recovery..."
+    },
+    {
+      "enum": [
+        43,
+        "codeDownloadInitiating"
+      ],
+      "description": "Initiating Code Download"
+    },
+    {
+      "enum": [
+        44,
+        "codeDownloadWaiting"
+      ],
+      "description": "Code Download Waiting"
+    },
+    {
+      "enum": [
+        45,
+        "codeDownloadProcessing"
+      ],
+      "description": "Processing Code Download"
+    },
+    {
+      "enum": [
+        46,
+        "codeDownloadFinalizing"
+      ],
+      "description": "Finalizing Code Download"
+    },
+    {
+      "enum": [
+        47,
+        "codeDownloadAborting"
+      ],
+      "description": "Aborting Code Download"
+    },
+    {
+      "enum": [
+        48,
+        "obtainingMacAddress"
+      ],
+      "description": "Obtaining MAC Address"
+    },
+    {
+      "enum": [
+        49,
+        "codeDownloadQueued"
+      ],
+      "description": "Code Download Queued"
+    },
+    {
+      "enum": [
+        50,
+        "erasingFlash"
+      ],
+      "description": "Erasing flash"
+    },
+    {
+      "enum": [
+        51,
+        "uploadcontrollers"
+      ],
+      "description": "Uploading {0} field controllers: {1} completed, {2} failed"
+    },
+    {
+      "enum": [
+        52,
+        "estimatedCompletionTime"
+      ],
+      "description": "Estimated completion time"
+    },
+    {
+      "enum": [
+        53,
+        "estimatedCodeDownloadCompletionTime"
+      ],
+      "description": "Estimated code download completion time"
+    },
+    {
+      "enum": [
+        54,
+        "enginesecuritycopy"
+      ],
+      "description": "SCT Security"
+    },
+    {
+      "enum": [
+        55,
+        "metasysInstallingRestarting"
+      ],
+      "description": "Firmware Installing and Device Restarting, Estimated Completion Time is {0}"
+    },
+    {
+      "enum": [
+        56,
+        "fieldcontrollerDownload"
+      ],
+      "description": "Downloading Applications to Field Controllers"
+    },
+    {
+      "enum": [
+        57,
+        "downloadcontrollers"
+      ],
+      "description": "Downloading Applications to Field Controllers {0} field controllers: {1} completed, {2} failed"
+    },
+    {
+      "enum": [
+        58,
+        "downloadBootCode"
+      ],
+      "description": "Downloading Boot Code to {0}"
+    },
+    {
+      "enum": [
+        59,
+        "downloadMainCode"
+      ],
+      "description": "Downloading Main Code to {0}"
+    },
+    {
+      "enum": [
+        60,
+        "fieldcontrollerSwitchover"
+      ],
+      "description": "Apply Staged Files for {0} Field Controllers"
+    },
+    {
+      "enum": [
+        61,
+        "fieldcontrollerLogicEnable"
+      ],
+      "description": "Logic Enable of {0} Field Controllers"
+    },
+    {
+      "enum": [
+        62,
+        "fieldcontrollerLogicDisable"
+      ],
+      "description": "Logic Disable of {0} Field Controllers"
+    },
+    {
+      "enum": [
+        63,
+        "initiatingParenting"
+      ],
+      "description": "Sending InitiateParenting Command to Supervisory Device"
+    }
+  ]
+}

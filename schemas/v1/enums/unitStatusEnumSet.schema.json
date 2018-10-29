@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unitStatusEnumSet.schema.json",
+  "title": "unitStatusEnumSet",
+  "description": "Unit Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off Unocc"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Off Net"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Off Sw"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Off Alrm"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Calib"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Startup"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Recirc"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Econo"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "MWU"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Min DAT"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "UnocEcon"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "UnocFanO"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "UnocDAT"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "UnocClg"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "UnocHtg"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "Balance"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Off Man"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "Man Ctrl"
+    }
+  ]
+}

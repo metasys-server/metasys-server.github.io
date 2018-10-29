@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ccsVavBoxPropOutEnumSet.schema.json",
+  "title": "ccsVavBoxPropOutEnumSet",
+  "description": "CCS VAV Box Prop Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ccsVavBoxPropOutOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ccsVavBoxPropOutMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ccsVavBoxPropOutLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "ccsVavBoxPropOutHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "ccsVavBoxPropOutWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "ccsVavBoxPropOutControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        6,
+        "ccsVavBoxPropOutFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        7,
+        "ccsVavBoxPropOutDaTControl"
+      ],
+      "description": "DA-T Control"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtClothesWCRinseEnumSet.schema.json",
+  "title": "snvtClothesWCRinseEnumSet",
+  "description": "SNVT Clothes Washer Rinse",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rinPreWash"
+      ],
+      "description": "Pre-wash"
+    },
+    {
+      "enum": [
+        1,
+        "rinWaterPlus"
+      ],
+      "description": "Water Plus"
+    },
+    {
+      "enum": [
+        2,
+        "rinDetergentPlus"
+      ],
+      "description": "Detergent Plus"
+    },
+    {
+      "enum": [
+        3,
+        "rinRinseHold"
+      ],
+      "description": "Rinse Hold"
+    },
+    {
+      "enum": [
+        255,
+        "rinNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

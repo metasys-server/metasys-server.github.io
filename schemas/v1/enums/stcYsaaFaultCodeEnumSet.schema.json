@@ -1,0 +1,260 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcYsaaFaultCodeEnumSet.schema.json",
+  "title": "stcYsaaFaultCodeEnumSet",
+  "description": "STC YSAA Fault Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcYsaaFaultCode0"
+      ],
+      "description": "NO FAULTS"
+    },
+    {
+      "enum": [
+        1,
+        "stcYsaaFaultCode1"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "stcYsaaFaultCode2"
+      ],
+      "description": "LOW AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        3,
+        "stcYsaaFaultCode3"
+      ],
+      "description": "HIGH AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "stcYsaaFaultCode4"
+      ],
+      "description": "LOW LEAVING CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "stcYsaaFaultCode5"
+      ],
+      "description": "HIGH DISCHARGE PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "stcYsaaFaultCode6"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "stcYsaaFaultCode7"
+      ],
+      "description": "LOW SUCTION PRESSURE"
+    },
+    {
+      "enum": [
+        8,
+        "stcYsaaFaultCode8"
+      ],
+      "description": "RESERVED 8"
+    },
+    {
+      "enum": [
+        9,
+        "stcYsaaFaultCode9"
+      ],
+      "description": "RESERVED 9"
+    },
+    {
+      "enum": [
+        10,
+        "stcYsaaFaultCode10"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "stcYsaaFaultCode11"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "stcYsaaFaultCode12"
+      ],
+      "description": "HIGH DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        13,
+        "stcYsaaFaultCode13"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "stcYsaaFaultCode14"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "stcYsaaFaultCode15"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "stcYsaaFaultCode16"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "stcYsaaFaultCode17"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "stcYsaaFaultCode18"
+      ],
+      "description": "MP/ HPCO"
+    },
+    {
+      "enum": [
+        19,
+        "stcYsaaFaultCode19"
+      ],
+      "description": "LOW EVAPORATOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        20,
+        "stcYsaaFaultCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "stcYsaaFaultCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "stcYsaaFaultCode22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "stcYsaaFaultCode23"
+      ],
+      "description": "LOW SUPERHEAT"
+    },
+    {
+      "enum": [
+        24,
+        "stcYsaaFaultCode24"
+      ],
+      "description": "SENSOR FAULT"
+    },
+    {
+      "enum": [
+        25,
+        "stcYsaaFaultCode25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "stcYsaaFaultCode26"
+      ],
+      "description": "MP/HPCO INHIBIT"
+    },
+    {
+      "enum": [
+        27,
+        "stcYsaaFaultCode27"
+      ],
+      "description": "PUMP TRIP"
+    },
+    {
+      "enum": [
+        28,
+        "stcYsaaFaultCode28"
+      ],
+      "description": "PUMP FAIL MAKE FLOW"
+    },
+    {
+      "enum": [
+        29,
+        "stcYsaaFaultCode29"
+      ],
+      "description": "HIGH AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        30,
+        "stcYsaaFaultCode30"
+      ],
+      "description": "RESERVED 30"
+    },
+    {
+      "enum": [
+        31,
+        "stcYsaaFaultCode31"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        32,
+        "stcYsaaFaultCode32"
+      ],
+      "description": "LOW DISCHARGE PRESSURE"
+    },
+    {
+      "enum": [
+        33,
+        "stcYsaaFaultCode33"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "stcYsaaFaultCode34"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "stcYsaaFaultCode35"
+      ],
+      "description": "RESERVED 35"
+    }
+  ]
+}

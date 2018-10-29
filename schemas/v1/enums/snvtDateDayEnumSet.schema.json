@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtDateDayEnumSet.schema.json",
+  "title": "snvtDateDayEnumSet",
+  "description": "SNVT Day of Week",
+  "oneOf": [
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    },
+    {
+      "enum": [
+        0,
+        "snvtDateDaySunday"
+      ],
+      "description": "Sunday"
+    },
+    {
+      "enum": [
+        1,
+        "snvtDateDayMonday"
+      ],
+      "description": "Monday"
+    },
+    {
+      "enum": [
+        2,
+        "snvtDateDayTuesday"
+      ],
+      "description": "Tuesday"
+    },
+    {
+      "enum": [
+        3,
+        "snvtDateDayWednesday"
+      ],
+      "description": "Wednesday"
+    },
+    {
+      "enum": [
+        4,
+        "snvtDateDayThursday"
+      ],
+      "description": "Thursday"
+    },
+    {
+      "enum": [
+        5,
+        "snvtDateDayFriday"
+      ],
+      "description": "Friday"
+    },
+    {
+      "enum": [
+        6,
+        "snvtDateDaySaturday"
+      ],
+      "description": "Saturday"
+    }
+  ]
+}

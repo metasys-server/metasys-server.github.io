@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pinDuressEnumSet.schema.json",
+  "title": "pinDuressEnumSet",
+  "description": "PIN Duress",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pinDuressNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "pinDuressPlusOne"
+      ],
+      "description": "Plus One"
+    },
+    {
+      "enum": [
+        2,
+        "pinDuressOnNine"
+      ],
+      "description": "On Nine"
+    },
+    {
+      "enum": [
+        3,
+        "pinDuressMinusOne"
+      ],
+      "description": "Minus One"
+    },
+    {
+      "enum": [
+        4,
+        "pinDuressFirstDigit"
+      ],
+      "description": "First Digit"
+    },
+    {
+      "enum": [
+        5,
+        "pinDuressLastDigit"
+      ],
+      "description": "Last Digit"
+    }
+  ]
+}

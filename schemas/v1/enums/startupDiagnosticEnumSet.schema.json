@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/startupDiagnosticEnumSet.schema.json",
+  "title": "startupDiagnosticEnumSet",
+  "description": "Startup Diagnostic",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "testedOk"
+      ],
+      "description": "Tested OK"
+    },
+    {
+      "enum": [
+        1,
+        "badInterrupt"
+      ],
+      "description": "Bad Interrupt"
+    },
+    {
+      "enum": [
+        2,
+        "rlsError"
+      ],
+      "description": "RLS Error"
+    },
+    {
+      "enum": [
+        3,
+        "txTimeOut"
+      ],
+      "description": "TX Timeout"
+    },
+    {
+      "enum": [
+        4,
+        "rxTimeOut"
+      ],
+      "description": "RX Timeout"
+    },
+    {
+      "enum": [
+        5,
+        "rxDataError"
+      ],
+      "description": "RX Data Error"
+    },
+    {
+      "enum": [
+        6,
+        "modemSigError"
+      ],
+      "description": "Modem Sig Error"
+    },
+    {
+      "enum": [
+        7,
+        "regzeroError"
+      ],
+      "description": "Regs Zero Error"
+    },
+    {
+      "enum": [
+        8,
+        "isrtestError"
+      ],
+      "description": "ISR Test Error"
+    },
+    {
+      "enum": [
+        9,
+        "imrtestError"
+      ],
+      "description": "IMR Test Error"
+    },
+    {
+      "enum": [
+        10,
+        "checksumMismatch"
+      ],
+      "description": "Checksum Mismatch"
+    },
+    {
+      "enum": [
+        11,
+        "batteryBad"
+      ],
+      "description": "Battery Bad"
+    }
+  ]
+}

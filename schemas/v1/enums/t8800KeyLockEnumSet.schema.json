@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/t8800KeyLockEnumSet.schema.json",
+  "title": "t8800KeyLockEnumSet",
+  "description": "T8800 Key Lock",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "t8800KeyLockOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "t8800KeyLockLockAll"
+      ],
+      "description": "Lock all"
+    },
+    {
+      "enum": [
+        2,
+        "t8800KeyLockLockExceptFanAndSetpoint"
+      ],
+      "description": "Lock except fan and setpoint"
+    },
+    {
+      "enum": [
+        3,
+        "t8800KeyLockLockPowerAndTime"
+      ],
+      "description": "Lock power and time"
+    }
+  ]
+}

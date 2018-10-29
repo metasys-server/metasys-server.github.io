@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/resetReasonEnumSet.schema.json",
+  "title": "resetReasonEnumSet",
+  "description": "Reset Reason",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "unknownResetReason"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "downloadCompleteResetReason"
+      ],
+      "description": "Instance Download Complete"
+    },
+    {
+      "enum": [
+        2,
+        "userInitiatedResetReason"
+      ],
+      "description": "User Initiated Shutdown"
+    },
+    {
+      "enum": [
+        3,
+        "watchdogTimeoutResetReason"
+      ],
+      "description": "Watchdog Timeout"
+    },
+    {
+      "enum": [
+        4,
+        "powerDownResetReason"
+      ],
+      "description": "Power Down"
+    },
+    {
+      "enum": [
+        5,
+        "systemShutdownResetReason"
+      ],
+      "description": "System Shutdown"
+    },
+    {
+      "enum": [
+        6,
+        "systemShutdownLicenseRequired"
+      ],
+      "description": "System shutdown - license required"
+    },
+    {
+      "enum": [
+        7,
+        "loadNewEquipmentModelReason"
+      ],
+      "description": "New Equipment Model Has Been Loaded"
+    }
+  ]
+}

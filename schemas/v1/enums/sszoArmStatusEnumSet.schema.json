@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sszoArmStatusEnumSet.schema.json",
+  "title": "sszoArmStatusEnumSet",
+  "description": "SSZO Arm Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sszoArmStatusDisarmed"
+      ],
+      "description": "Disarmed"
+    },
+    {
+      "enum": [
+        1,
+        "sszoArmStatusArmed"
+      ],
+      "description": "Armed"
+    },
+    {
+      "enum": [
+        2,
+        "sszoArmStatusArming"
+      ],
+      "description": "Arming"
+    },
+    {
+      "enum": [
+        3,
+        "sszoArmStatusDisarming"
+      ],
+      "description": "Disarming"
+    },
+    {
+      "enum": [
+        4,
+        "sszoArmStatusFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        5,
+        "sszoArmStatusBypassed"
+      ],
+      "description": "Bypassed"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityTrnNormalAlarmEnumSet.schema.json",
+  "title": "unityTrnNormalAlarmEnumSet",
+  "description": "Unity TRN Normal Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual Alarm"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Manual Normal"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Auto Restore-Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto Restore-Normal"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Release"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdHxChlrEnumSet.schema.json",
+  "title": "mccdHxChlrEnumSet",
+  "description": "MCCD Hx Chlr",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Hx"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Chlr"
+    }
+  ]
+}

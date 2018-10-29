@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/operatorsEnumSet.schema.json",
+  "title": "operatorsEnumSet",
+  "description": "Operators",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "equalToOperator"
+      ],
+      "description": "=="
+    },
+    {
+      "enum": [
+        1,
+        "notEqualToOperator"
+      ],
+      "description": "!="
+    },
+    {
+      "enum": [
+        2,
+        "lessThanOperator"
+      ],
+      "description": "<"
+    },
+    {
+      "enum": [
+        3,
+        "lessOrEqualToOperator"
+      ],
+      "description": "<="
+    },
+    {
+      "enum": [
+        4,
+        "greaterThanOperator"
+      ],
+      "description": ">"
+    },
+    {
+      "enum": [
+        5,
+        "greaterOrEqualToOperator"
+      ],
+      "description": ">="
+    }
+  ]
+}

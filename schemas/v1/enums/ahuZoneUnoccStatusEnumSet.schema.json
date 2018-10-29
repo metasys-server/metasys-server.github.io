@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuZoneUnoccStatusEnumSet.schema.json",
+  "title": "ahuZoneUnoccStatusEnumSet",
+  "description": "AHU Zone Unocc Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuzusSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "ahuzusEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        2,
+        "ahuzusMech"
+      ],
+      "description": "Mech"
+    },
+    {
+      "enum": [
+        3,
+        "ahuzusEconMech"
+      ],
+      "description": "Econ+Mech"
+    },
+    {
+      "enum": [
+        4,
+        "ahuzusPreheat"
+      ],
+      "description": "Preheat"
+    },
+    {
+      "enum": [
+        5,
+        "ahuzusPreheatReheat"
+      ],
+      "description": "Preheat+Reheat"
+    },
+    {
+      "enum": [
+        6,
+        "ahuzusIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        7,
+        "ahuzusUnoccCntrlNotReqd"
+      ],
+      "description": "Unocc Cntrl Not Req'd"
+    },
+    {
+      "enum": [
+        8,
+        "ahuzusTemperatureUnreliable"
+      ],
+      "description": "Temperature Unreliable"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuComfortVentEnumSet.schema.json",
+  "title": "seRtuComfortVentEnumSet",
+  "description": "SE RTU Comfort Ventilation",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuComfortVentIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuComfortVentCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuComfortVentHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuComfortVentDisabled"
+      ],
+      "description": "Disabled"
+    }
+  ]
+}

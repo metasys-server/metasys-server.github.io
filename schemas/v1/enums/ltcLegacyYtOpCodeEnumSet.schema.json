@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYtOpCodeEnumSet.schema.json",
+  "title": "ltcLegacyYtOpCodeEnumSet",
+  "description": "York Legacy YT Op Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYtOpCode0"
+      ],
+      "description": "NORMAL OPERATION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYtOpCode1"
+      ],
+      "description": "HIGH CONDENSER PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYtOpCode2"
+      ],
+      "description": "LOW EVAPORATOR PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYtOpCode3"
+      ],
+      "description": "HIGH CURRENT LIMIT"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYtOpCode4"
+      ],
+      "description": "EXCESS PURGE"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYtOpCode5"
+      ],
+      "description": "HIGH PURGE PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYtOpCode6"
+      ],
+      "description": "COND. OR EVAP. TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYtOpCode7"
+      ],
+      "description": "PURGE TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYtOpCode8"
+      ],
+      "description": "RTC BATTERY FAILURE"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYtOpCode9"
+      ],
+      "description": "PURGE FLOAT SWITCH ERROR"
+    }
+  ]
+}

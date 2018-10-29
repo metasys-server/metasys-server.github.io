@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/panelLayoutEnumSet.schema.json",
+  "title": "panelLayoutEnumSet",
+  "description": "Panel Layout",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "plSingle"
+      ],
+      "description": "Single Panel"
+    },
+    {
+      "enum": [
+        1,
+        "plTwoh"
+      ],
+      "description": "Two Panel Horizontal"
+    },
+    {
+      "enum": [
+        2,
+        "plTwov"
+      ],
+      "description": "Two Panel Vertical"
+    },
+    {
+      "enum": [
+        3,
+        "plThreeh"
+      ],
+      "description": "Three Panel Horizontal"
+    },
+    {
+      "enum": [
+        4,
+        "plThreev"
+      ],
+      "description": "Three Panel Vertical"
+    },
+    {
+      "enum": [
+        5,
+        "plFour"
+      ],
+      "description": "Four Panel"
+    }
+  ]
+}

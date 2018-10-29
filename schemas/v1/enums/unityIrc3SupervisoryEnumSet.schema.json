@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityIrc3SupervisoryEnumSet.schema.json",
+  "title": "unityIrc3SupervisoryEnumSet",
+  "description": "Unity IRC3 Supervisory",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "CLEAR"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "SUPERV"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "SHORT"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "OPEN"
+    }
+  ]
+}

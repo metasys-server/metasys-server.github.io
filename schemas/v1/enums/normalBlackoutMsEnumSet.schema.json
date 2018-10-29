@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalBlackoutMsEnumSet.schema.json",
+  "title": "normalBlackoutMsEnumSet",
+  "description": "Normal/Blackout",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normalBlackoutNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "normalBlackoutBlackout"
+      ],
+      "description": "Blackout"
+    }
+  ]
+}

@@ -1,0 +1,3718 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewShortStringsEnumSet.schema.json",
+  "title": "optiviewShortStringsEnumSet",
+  "description": "Optiview Short Strings",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "optiviewShortStrings1"
+      ],
+      "description": "REM LEAVING CHL TEMP SP"
+    },
+    {
+      "enum": [
+        2,
+        "optiviewShortStrings2"
+      ],
+      "description": "REMOTE INPUT CURRENT SP"
+    },
+    {
+      "enum": [
+        3,
+        "optiviewShortStrings3"
+      ],
+      "description": "REM HEATING SP"
+    },
+    {
+      "enum": [
+        4,
+        "optiviewShortStrings4"
+      ],
+      "description": "REM RUN STOP CMD"
+    },
+    {
+      "enum": [
+        5,
+        "optiviewShortStrings5"
+      ],
+      "description": "LEAVING CH LIQ TEMP"
+    },
+    {
+      "enum": [
+        6,
+        "optiviewShortStrings6"
+      ],
+      "description": "ENTERING CH LIQ TEMP"
+    },
+    {
+      "enum": [
+        7,
+        "optiviewShortStrings7"
+      ],
+      "description": "LEAVING COND WATER TEMP"
+    },
+    {
+      "enum": [
+        8,
+        "optiviewShortStrings8"
+      ],
+      "description": "ENTERING COND WATER TEMP"
+    },
+    {
+      "enum": [
+        9,
+        "optiviewShortStrings9"
+      ],
+      "description": "EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        10,
+        "optiviewShortStrings10"
+      ],
+      "description": "CONDENSER PRESSURE"
+    },
+    {
+      "enum": [
+        11,
+        "optiviewShortStrings11"
+      ],
+      "description": "DISCHARGE TEMP"
+    },
+    {
+      "enum": [
+        12,
+        "optiviewShortStrings12"
+      ],
+      "description": "EVAP REFRIGERANT TEMP"
+    },
+    {
+      "enum": [
+        13,
+        "optiviewShortStrings13"
+      ],
+      "description": "VSD PHASE A OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        14,
+        "optiviewShortStrings14"
+      ],
+      "description": "VSD PHASE B OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        15,
+        "optiviewShortStrings15"
+      ],
+      "description": "VSD PHASE C OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        16,
+        "optiviewShortStrings16"
+      ],
+      "description": "VSD RMS INPUT CURRENT L1"
+    },
+    {
+      "enum": [
+        17,
+        "optiviewShortStrings17"
+      ],
+      "description": "VSD RMS INPUT CURRENT L2"
+    },
+    {
+      "enum": [
+        18,
+        "optiviewShortStrings18"
+      ],
+      "description": "VSD RMS INPUT CURRENT L3"
+    },
+    {
+      "enum": [
+        19,
+        "optiviewShortStrings19"
+      ],
+      "description": "LEAVING CH LIQ TEMP ACT SP"
+    },
+    {
+      "enum": [
+        20,
+        "optiviewShortStrings20"
+      ],
+      "description": "INPUT CURRENT LMT ACTIVE"
+    },
+    {
+      "enum": [
+        21,
+        "optiviewShortStrings21"
+      ],
+      "description": "EVAP SATURATION TEMP"
+    },
+    {
+      "enum": [
+        22,
+        "optiviewShortStrings22"
+      ],
+      "description": "COND SATURATION TEMP"
+    },
+    {
+      "enum": [
+        23,
+        "optiviewShortStrings23"
+      ],
+      "description": "INPUT CURRENT PCT FLA"
+    },
+    {
+      "enum": [
+        24,
+        "optiviewShortStrings24"
+      ],
+      "description": "COND REFRIGERANT LEVEL"
+    },
+    {
+      "enum": [
+        25,
+        "optiviewShortStrings25"
+      ],
+      "description": "OPERATING HOURS"
+    },
+    {
+      "enum": [
+        26,
+        "optiviewShortStrings26"
+      ],
+      "description": "NUMBER OF STARTS"
+    },
+    {
+      "enum": [
+        27,
+        "optiviewShortStrings27"
+      ],
+      "description": "HOT GAS BYPASS VLV CMD"
+    },
+    {
+      "enum": [
+        28,
+        "optiviewShortStrings28"
+      ],
+      "description": "MOTOR CURRENT PCT FLA"
+    },
+    {
+      "enum": [
+        29,
+        "optiviewShortStrings29"
+      ],
+      "description": "COMPR MOTOR STATUS"
+    },
+    {
+      "enum": [
+        30,
+        "optiviewShortStrings30"
+      ],
+      "description": "CH LIQ PUMP STAT"
+    },
+    {
+      "enum": [
+        31,
+        "optiviewShortStrings31"
+      ],
+      "description": "VSD COOLING SYS STAT"
+    },
+    {
+      "enum": [
+        32,
+        "optiviewShortStrings32"
+      ],
+      "description": "RUN PERMISSIVE"
+    },
+    {
+      "enum": [
+        33,
+        "optiviewShortStrings33"
+      ],
+      "description": "CH LIQ FLOW SWITCH STAT"
+    },
+    {
+      "enum": [
+        34,
+        "optiviewShortStrings34"
+      ],
+      "description": "CND FLOW SWITCH STAT"
+    },
+    {
+      "enum": [
+        35,
+        "optiviewShortStrings35"
+      ],
+      "description": "COND REF LEVEL CNTRL MODE"
+    },
+    {
+      "enum": [
+        36,
+        "optiviewShortStrings36"
+      ],
+      "description": "UNIT OPERATION CODE"
+    },
+    {
+      "enum": [
+        37,
+        "optiviewShortStrings37"
+      ],
+      "description": "UNIT SAFETY FAULT CODE"
+    },
+    {
+      "enum": [
+        38,
+        "optiviewShortStrings38"
+      ],
+      "description": "UNIT CYCLING FAULT CODE"
+    },
+    {
+      "enum": [
+        39,
+        "optiviewShortStrings39"
+      ],
+      "description": "UNIT WARNING CODE"
+    },
+    {
+      "enum": [
+        40,
+        "optiviewShortStrings40"
+      ],
+      "description": "UNIT CONTROL SOURCE"
+    },
+    {
+      "enum": [
+        41,
+        "optiviewShortStrings41"
+      ],
+      "description": "UNIT MOD RUN CODE"
+    },
+    {
+      "enum": [
+        42,
+        "optiviewShortStrings42"
+      ],
+      "description": "UNIT START INHIBIT CODE"
+    },
+    {
+      "enum": [
+        43,
+        "optiviewShortStrings43"
+      ],
+      "description": "UNIT INTERNAL FAULT CODE"
+    },
+    {
+      "enum": [
+        44,
+        "optiviewShortStrings44"
+      ],
+      "description": "VGD CONTROL STATE"
+    },
+    {
+      "enum": [
+        45,
+        "optiviewShortStrings45"
+      ],
+      "description": "VGD STALL COUNT"
+    },
+    {
+      "enum": [
+        46,
+        "optiviewShortStrings46"
+      ],
+      "description": "ACTIVE ANTI SURGE MIN FREQ"
+    },
+    {
+      "enum": [
+        47,
+        "optiviewShortStrings47"
+      ],
+      "description": "VSD OUTPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        48,
+        "optiviewShortStrings48"
+      ],
+      "description": "VSD INPUT POWER"
+    },
+    {
+      "enum": [
+        49,
+        "optiviewShortStrings49"
+      ],
+      "description": "VSD INPUT KWH"
+    },
+    {
+      "enum": [
+        50,
+        "optiviewShortStrings50"
+      ],
+      "description": "VSD DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        51,
+        "optiviewShortStrings51"
+      ],
+      "description": "VSD INPUT VOLTAGE L1"
+    },
+    {
+      "enum": [
+        52,
+        "optiviewShortStrings52"
+      ],
+      "description": "SURGE COUNT"
+    },
+    {
+      "enum": [
+        53,
+        "optiviewShortStrings53"
+      ],
+      "description": "VSD OUTPUT FREQUENCY"
+    },
+    {
+      "enum": [
+        54,
+        "optiviewShortStrings54"
+      ],
+      "description": "VSD INPUT VOLTAGE L2"
+    },
+    {
+      "enum": [
+        55,
+        "optiviewShortStrings55"
+      ],
+      "description": "VSD INPUT VOLTAGE L3"
+    },
+    {
+      "enum": [
+        56,
+        "optiviewShortStrings56"
+      ],
+      "description": "COND LVL CTRL VLV CMD"
+    },
+    {
+      "enum": [
+        57,
+        "optiviewShortStrings57"
+      ],
+      "description": "MBC LEVITATION MODE"
+    },
+    {
+      "enum": [
+        58,
+        "optiviewShortStrings58"
+      ],
+      "description": "MBC ROTATION MODE"
+    },
+    {
+      "enum": [
+        59,
+        "optiviewShortStrings59"
+      ],
+      "description": "MOTOR HOUSING TEMP"
+    },
+    {
+      "enum": [
+        60,
+        "optiviewShortStrings60"
+      ],
+      "description": "MOTOR COOLING VALVE CMD"
+    },
+    {
+      "enum": [
+        61,
+        "optiviewShortStrings61"
+      ],
+      "description": "VSD INTERNAL AMBIENT TEMP 2"
+    },
+    {
+      "enum": [
+        62,
+        "optiviewShortStrings62"
+      ],
+      "description": "MTR WINDING AVG TEMP"
+    },
+    {
+      "enum": [
+        63,
+        "optiviewShortStrings63"
+      ],
+      "description": "VSD INTERNAL AMBIENT TEMP 1"
+    },
+    {
+      "enum": [
+        64,
+        "optiviewShortStrings64"
+      ],
+      "description": "VGD POSITION"
+    },
+    {
+      "enum": [
+        65,
+        "optiviewShortStrings65"
+      ],
+      "description": "PRE ROTATION VANES POS"
+    },
+    {
+      "enum": [
+        66,
+        "optiviewShortStrings66"
+      ],
+      "description": "COND REFRIGERANT LEVEL SP"
+    },
+    {
+      "enum": [
+        67,
+        "optiviewShortStrings67"
+      ],
+      "description": "DROP LEG REFRIG TEMP"
+    },
+    {
+      "enum": [
+        68,
+        "optiviewShortStrings68"
+      ],
+      "description": "INPUT KWH LO"
+    },
+    {
+      "enum": [
+        69,
+        "optiviewShortStrings69"
+      ],
+      "description": "INPUT KWH OFFSET"
+    },
+    {
+      "enum": [
+        70,
+        "optiviewShortStrings70"
+      ],
+      "description": "OPERATING HOURS LO"
+    },
+    {
+      "enum": [
+        71,
+        "optiviewShortStrings71"
+      ],
+      "description": "OPERATING HOURS OFFSET"
+    },
+    {
+      "enum": [
+        72,
+        "optiviewShortStrings72"
+      ],
+      "description": "MBC MOTOR SPEED"
+    },
+    {
+      "enum": [
+        73,
+        "optiviewShortStrings73"
+      ],
+      "description": "MBC LANDING COUNTER"
+    },
+    {
+      "enum": [
+        74,
+        "optiviewShortStrings74"
+      ],
+      "description": "ACTIVE MIN PRV POS"
+    },
+    {
+      "enum": [
+        75,
+        "optiviewShortStrings75"
+      ],
+      "description": "PRODUCT FAMILY CODE"
+    },
+    {
+      "enum": [
+        76,
+        "optiviewShortStrings76"
+      ],
+      "description": "PANEL SOFTWARE VERSION"
+    },
+    {
+      "enum": [
+        77,
+        "optiviewShortStrings77"
+      ],
+      "description": "VSD SOFTWARE VERSION"
+    },
+    {
+      "enum": [
+        78,
+        "optiviewShortStrings78"
+      ],
+      "description": "VSD SOFTWARE VERSION 2"
+    },
+    {
+      "enum": [
+        79,
+        "optiviewShortStrings79"
+      ],
+      "description": "COMMISSIONING DATE"
+    },
+    {
+      "enum": [
+        80,
+        "optiviewShortStrings80"
+      ],
+      "description": "JOB NAME"
+    },
+    {
+      "enum": [
+        81,
+        "optiviewShortStrings81"
+      ],
+      "description": "SYSTEM MODEL"
+    },
+    {
+      "enum": [
+        82,
+        "optiviewShortStrings82"
+      ],
+      "description": "YORK ORDER NUMBER"
+    },
+    {
+      "enum": [
+        83,
+        "optiviewShortStrings83"
+      ],
+      "description": "UNIT SERIAL NUMBER"
+    },
+    {
+      "enum": [
+        84,
+        "optiviewShortStrings84"
+      ],
+      "description": "COMPRESSOR MODEL"
+    },
+    {
+      "enum": [
+        85,
+        "optiviewShortStrings85"
+      ],
+      "description": "EVAPORATOR MODEL"
+    },
+    {
+      "enum": [
+        86,
+        "optiviewShortStrings86"
+      ],
+      "description": "CONDENSER MODEL"
+    },
+    {
+      "enum": [
+        87,
+        "optiviewShortStrings87"
+      ],
+      "description": "VSD MODEL"
+    },
+    {
+      "enum": [
+        88,
+        "optiviewShortStrings88"
+      ],
+      "description": "CAPACITY"
+    },
+    {
+      "enum": [
+        89,
+        "optiviewShortStrings89"
+      ],
+      "description": "REFRIGERANT"
+    },
+    {
+      "enum": [
+        90,
+        "optiviewShortStrings90"
+      ],
+      "description": "REFRIGERANT WEIGHT"
+    },
+    {
+      "enum": [
+        91,
+        "optiviewShortStrings91"
+      ],
+      "description": "RPM"
+    },
+    {
+      "enum": [
+        92,
+        "optiviewShortStrings92"
+      ],
+      "description": "INPUT KW"
+    },
+    {
+      "enum": [
+        93,
+        "optiviewShortStrings93"
+      ],
+      "description": "VOLTAGE"
+    },
+    {
+      "enum": [
+        94,
+        "optiviewShortStrings94"
+      ],
+      "description": "PHASES"
+    },
+    {
+      "enum": [
+        95,
+        "optiviewShortStrings95"
+      ],
+      "description": "FREQUENCY"
+    },
+    {
+      "enum": [
+        96,
+        "optiviewShortStrings96"
+      ],
+      "description": "INPUT JOB FLA"
+    },
+    {
+      "enum": [
+        97,
+        "optiviewShortStrings97"
+      ],
+      "description": "MINIMUM CIRCUIT AMPACITY"
+    },
+    {
+      "enum": [
+        98,
+        "optiviewShortStrings98"
+      ],
+      "description": "EVAP PRESSURE DROP"
+    },
+    {
+      "enum": [
+        99,
+        "optiviewShortStrings99"
+      ],
+      "description": "EVAP FLOW"
+    },
+    {
+      "enum": [
+        100,
+        "optiviewShortStrings100"
+      ],
+      "description": "EVAP LEAVING LIQUID TEMP"
+    },
+    {
+      "enum": [
+        101,
+        "optiviewShortStrings101"
+      ],
+      "description": "EVAP ENTERING LIQUID TEMP"
+    },
+    {
+      "enum": [
+        102,
+        "optiviewShortStrings102"
+      ],
+      "description": "EVAP FOULING FACTOR"
+    },
+    {
+      "enum": [
+        103,
+        "optiviewShortStrings103"
+      ],
+      "description": "EVAP LIQUID TYPE"
+    },
+    {
+      "enum": [
+        104,
+        "optiviewShortStrings104"
+      ],
+      "description": "EVAP BRINE PERCENT"
+    },
+    {
+      "enum": [
+        105,
+        "optiviewShortStrings105"
+      ],
+      "description": "COND PRESSURE DROP"
+    },
+    {
+      "enum": [
+        106,
+        "optiviewShortStrings106"
+      ],
+      "description": "COND FLOW"
+    },
+    {
+      "enum": [
+        107,
+        "optiviewShortStrings107"
+      ],
+      "description": "COND LEAVING LIQUID TEMP"
+    },
+    {
+      "enum": [
+        108,
+        "optiviewShortStrings108"
+      ],
+      "description": "COND ENTERING LIQUID TEMP"
+    },
+    {
+      "enum": [
+        109,
+        "optiviewShortStrings109"
+      ],
+      "description": "COND FOULING FACTOR"
+    },
+    {
+      "enum": [
+        110,
+        "optiviewShortStrings110"
+      ],
+      "description": "COND LIQUID TYPE"
+    },
+    {
+      "enum": [
+        111,
+        "optiviewShortStrings111"
+      ],
+      "description": "COND BRINE PERCENT"
+    },
+    {
+      "enum": [
+        112,
+        "optiviewShortStrings112"
+      ],
+      "description": "EVAP SMALL TEMP DIFF"
+    },
+    {
+      "enum": [
+        113,
+        "optiviewShortStrings113"
+      ],
+      "description": "COND SMALL TEMP DIFF"
+    },
+    {
+      "enum": [
+        114,
+        "optiviewShortStrings114"
+      ],
+      "description": "DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        115,
+        "optiviewShortStrings115"
+      ],
+      "description": "SUBCOOLLER EFFECTIVENESS"
+    },
+    {
+      "enum": [
+        116,
+        "optiviewShortStrings116"
+      ],
+      "description": "SUBCOOLING TEMP"
+    },
+    {
+      "enum": [
+        117,
+        "optiviewShortStrings117"
+      ],
+      "description": "DELTA_P DIV P"
+    },
+    {
+      "enum": [
+        118,
+        "optiviewShortStrings118"
+      ],
+      "description": "HEAD PRESSURE"
+    },
+    {
+      "enum": [
+        119,
+        "optiviewShortStrings119"
+      ],
+      "description": "UNIT ACCESS LEVEL"
+    },
+    {
+      "enum": [
+        120,
+        "optiviewShortStrings120"
+      ],
+      "description": "EVAP REFRIG TEMP SENS EN"
+    },
+    {
+      "enum": [
+        121,
+        "optiviewShortStrings121"
+      ],
+      "description": "HOT GAS BYPASS EN"
+    },
+    {
+      "enum": [
+        122,
+        "optiviewShortStrings122"
+      ],
+      "description": "UNIT OPERATION CODE AV"
+    },
+    {
+      "enum": [
+        123,
+        "optiviewShortStrings123"
+      ],
+      "description": "UNIT SAFETY FAULT CODE AV"
+    },
+    {
+      "enum": [
+        124,
+        "optiviewShortStrings124"
+      ],
+      "description": "UNIT CYCLING FAULT CODE AV"
+    },
+    {
+      "enum": [
+        125,
+        "optiviewShortStrings125"
+      ],
+      "description": "UNIT WARNING CODE AV"
+    },
+    {
+      "enum": [
+        126,
+        "optiviewShortStrings126"
+      ],
+      "description": "UNIT CONTROL SOURCE AV"
+    },
+    {
+      "enum": [
+        127,
+        "optiviewShortStrings127"
+      ],
+      "description": "UNIT MOD RUN CODE AV"
+    },
+    {
+      "enum": [
+        128,
+        "optiviewShortStrings128"
+      ],
+      "description": "UNIT START INHIBIT CODE AV"
+    },
+    {
+      "enum": [
+        129,
+        "optiviewShortStrings129"
+      ],
+      "description": "UNIT INTERNAL FAULT CODE AV"
+    },
+    {
+      "enum": [
+        130,
+        "optiviewShortStrings130"
+      ],
+      "description": "REMOTE CURRENT SP"
+    },
+    {
+      "enum": [
+        131,
+        "optiviewShortStrings131"
+      ],
+      "description": "OIL PRESSURE DIFERENTIAL"
+    },
+    {
+      "enum": [
+        132,
+        "optiviewShortStrings132"
+      ],
+      "description": "MOTOR PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        133,
+        "optiviewShortStrings133"
+      ],
+      "description": "MOTOR PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        134,
+        "optiviewShortStrings134"
+      ],
+      "description": "MOTOR PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        135,
+        "optiviewShortStrings135"
+      ],
+      "description": "MOTOR PHASE A VOLTAGE"
+    },
+    {
+      "enum": [
+        136,
+        "optiviewShortStrings136"
+      ],
+      "description": "MOTOR PHASE B VOLTAGE"
+    },
+    {
+      "enum": [
+        137,
+        "optiviewShortStrings137"
+      ],
+      "description": "MOTOR PHASE C VOLTAGE"
+    },
+    {
+      "enum": [
+        138,
+        "optiviewShortStrings138"
+      ],
+      "description": "CURRENT LIMIT ACTIVE SP"
+    },
+    {
+      "enum": [
+        139,
+        "optiviewShortStrings139"
+      ],
+      "description": "OIL SUMP TEMPERATURE"
+    },
+    {
+      "enum": [
+        140,
+        "optiviewShortStrings140"
+      ],
+      "description": "OIL SUMP PRESSURE"
+    },
+    {
+      "enum": [
+        141,
+        "optiviewShortStrings141"
+      ],
+      "description": "OIL PUMP PRESSURE"
+    },
+    {
+      "enum": [
+        142,
+        "optiviewShortStrings142"
+      ],
+      "description": "LIQUID LINE SOLENOID"
+    },
+    {
+      "enum": [
+        143,
+        "optiviewShortStrings143"
+      ],
+      "description": "START STOP SWITCH STATUS"
+    },
+    {
+      "enum": [
+        144,
+        "optiviewShortStrings144"
+      ],
+      "description": "VSD HARMONIC FILTER INST"
+    },
+    {
+      "enum": [
+        145,
+        "optiviewShortStrings145"
+      ],
+      "description": "PROX SENSOR ACT POS"
+    },
+    {
+      "enum": [
+        146,
+        "optiviewShortStrings146"
+      ],
+      "description": "PROX SENSOR REF POS"
+    },
+    {
+      "enum": [
+        147,
+        "optiviewShortStrings147"
+      ],
+      "description": "ANTI RECYCLE TIME REMAIN"
+    },
+    {
+      "enum": [
+        148,
+        "optiviewShortStrings148"
+      ],
+      "description": "VSD DC BUS CURRENT"
+    },
+    {
+      "enum": [
+        149,
+        "optiviewShortStrings149"
+      ],
+      "description": "ACC SURGE COUNT"
+    },
+    {
+      "enum": [
+        150,
+        "optiviewShortStrings150"
+      ],
+      "description": "FILTER MAX VOLTAGE THD"
+    },
+    {
+      "enum": [
+        151,
+        "optiviewShortStrings151"
+      ],
+      "description": "FILTER MAX CURRENT TDD"
+    },
+    {
+      "enum": [
+        152,
+        "optiviewShortStrings152"
+      ],
+      "description": "FILTER SUPPLY KVA"
+    },
+    {
+      "enum": [
+        153,
+        "optiviewShortStrings153"
+      ],
+      "description": "MTR SHAFT END VIBR"
+    },
+    {
+      "enum": [
+        154,
+        "optiviewShortStrings154"
+      ],
+      "description": "MTR OP SHAFT END VIBR"
+    },
+    {
+      "enum": [
+        155,
+        "optiviewShortStrings155"
+      ],
+      "description": "MTR SHAFT END TEMP"
+    },
+    {
+      "enum": [
+        156,
+        "optiviewShortStrings156"
+      ],
+      "description": "MTR OP SHAFT END TEMP"
+    },
+    {
+      "enum": [
+        157,
+        "optiviewShortStrings157"
+      ],
+      "description": "VSD INTERNAL AMBIENT TEMP"
+    },
+    {
+      "enum": [
+        158,
+        "optiviewShortStrings158"
+      ],
+      "description": "VSD CONVERTER HSINK TEMP"
+    },
+    {
+      "enum": [
+        159,
+        "optiviewShortStrings159"
+      ],
+      "description": "ACC MAP OUTPUT FREQ"
+    },
+    {
+      "enum": [
+        160,
+        "optiviewShortStrings160"
+      ],
+      "description": "LEAVING HEAT COND LIQ TEMP"
+    },
+    {
+      "enum": [
+        161,
+        "optiviewShortStrings161"
+      ],
+      "description": "HEATING ACTIVE SP"
+    },
+    {
+      "enum": [
+        162,
+        "optiviewShortStrings162"
+      ],
+      "description": "HEAT REC HEAD PRESS VLV CMD"
+    },
+    {
+      "enum": [
+        163,
+        "optiviewShortStrings163"
+      ],
+      "description": "INPUT POWER"
+    },
+    {
+      "enum": [
+        164,
+        "optiviewShortStrings164"
+      ],
+      "description": "INPUT KWH"
+    },
+    {
+      "enum": [
+        165,
+        "optiviewShortStrings165"
+      ],
+      "description": "HP LEAVING COND LIQ SP LOCAL"
+    },
+    {
+      "enum": [
+        166,
+        "optiviewShortStrings166"
+      ],
+      "description": "MTR WINDING PH A TEMP"
+    },
+    {
+      "enum": [
+        167,
+        "optiviewShortStrings167"
+      ],
+      "description": "MTR WINDING PH B TEMP"
+    },
+    {
+      "enum": [
+        168,
+        "optiviewShortStrings168"
+      ],
+      "description": "MTR WINDING PH C TEMP"
+    },
+    {
+      "enum": [
+        169,
+        "optiviewShortStrings169"
+      ],
+      "description": "MTR WINDING PH A2 TEMP"
+    },
+    {
+      "enum": [
+        170,
+        "optiviewShortStrings170"
+      ],
+      "description": "MTR WINDING PH B2 TEMP"
+    },
+    {
+      "enum": [
+        171,
+        "optiviewShortStrings171"
+      ],
+      "description": "MTR WINDING PH C2 TEMP"
+    },
+    {
+      "enum": [
+        172,
+        "optiviewShortStrings172"
+      ],
+      "description": "VSD OIL PUMP CMD FREQUENCY"
+    },
+    {
+      "enum": [
+        173,
+        "optiviewShortStrings173"
+      ],
+      "description": "ENTERING HEAT COND LIQ TEMP"
+    },
+    {
+      "enum": [
+        174,
+        "optiviewShortStrings174"
+      ],
+      "description": "UNIT MOTOR|STARTER TYPE"
+    },
+    {
+      "enum": [
+        175,
+        "optiviewShortStrings175"
+      ],
+      "description": "SSS SOFTWARE VERSION"
+    },
+    {
+      "enum": [
+        176,
+        "optiviewShortStrings176"
+      ],
+      "description": "UNIT MOD|COMP TYPE"
+    },
+    {
+      "enum": [
+        177,
+        "optiviewShortStrings177"
+      ],
+      "description": "MODEL NUMBER"
+    },
+    {
+      "enum": [
+        178,
+        "optiviewShortStrings178"
+      ],
+      "description": "CHILLER SERIAL NUMBER"
+    },
+    {
+      "enum": [
+        179,
+        "optiviewShortStrings179"
+      ],
+      "description": "MOTOR CODE"
+    },
+    {
+      "enum": [
+        180,
+        "optiviewShortStrings180"
+      ],
+      "description": "VOLTS"
+    },
+    {
+      "enum": [
+        181,
+        "optiviewShortStrings181"
+      ],
+      "description": "FREQUENCY HZ"
+    },
+    {
+      "enum": [
+        182,
+        "optiviewShortStrings182"
+      ],
+      "description": "LRA"
+    },
+    {
+      "enum": [
+        183,
+        "optiviewShortStrings183"
+      ],
+      "description": "FULL LOAD AMPS"
+    },
+    {
+      "enum": [
+        184,
+        "optiviewShortStrings184"
+      ],
+      "description": "INRUSH AMPS"
+    },
+    {
+      "enum": [
+        185,
+        "optiviewShortStrings185"
+      ],
+      "description": "TONS"
+    },
+    {
+      "enum": [
+        186,
+        "optiviewShortStrings186"
+      ],
+      "description": "GEAR CODE"
+    },
+    {
+      "enum": [
+        187,
+        "optiviewShortStrings187"
+      ],
+      "description": "LIQUID TYPE"
+    },
+    {
+      "enum": [
+        188,
+        "optiviewShortStrings188"
+      ],
+      "description": "BRINE PERCENT"
+    },
+    {
+      "enum": [
+        189,
+        "optiviewShortStrings189"
+      ],
+      "description": "VSD_SSS_EM"
+    },
+    {
+      "enum": [
+        190,
+        "optiviewShortStrings190"
+      ],
+      "description": "KILOWATTS INPUT"
+    },
+    {
+      "enum": [
+        191,
+        "optiviewShortStrings191"
+      ],
+      "description": "EVAPORATOR PASSES"
+    },
+    {
+      "enum": [
+        192,
+        "optiviewShortStrings192"
+      ],
+      "description": "EVAPORATOR DESIGN WORKING PRESSURE"
+    },
+    {
+      "enum": [
+        193,
+        "optiviewShortStrings193"
+      ],
+      "description": "EVAPORATOR NOZZLE ARRANGEMENT IN"
+    },
+    {
+      "enum": [
+        194,
+        "optiviewShortStrings194"
+      ],
+      "description": "EVAPORATOR NOZZLE ARRANGEMENT OUT"
+    },
+    {
+      "enum": [
+        195,
+        "optiviewShortStrings195"
+      ],
+      "description": "EVAPORATOR GPM"
+    },
+    {
+      "enum": [
+        196,
+        "optiviewShortStrings196"
+      ],
+      "description": "EVAPORATOR TUBE CODE"
+    },
+    {
+      "enum": [
+        197,
+        "optiviewShortStrings197"
+      ],
+      "description": "CONDENSER PASSES"
+    },
+    {
+      "enum": [
+        198,
+        "optiviewShortStrings198"
+      ],
+      "description": "CONDENSER DESIGN WORKING PRESSURE"
+    },
+    {
+      "enum": [
+        199,
+        "optiviewShortStrings199"
+      ],
+      "description": "CONDENSER NOZZLE ARRANGEMENT IN"
+    },
+    {
+      "enum": [
+        200,
+        "optiviewShortStrings200"
+      ],
+      "description": "CONDENSER NOZZLE ARRANGEMENT OUT"
+    },
+    {
+      "enum": [
+        201,
+        "optiviewShortStrings201"
+      ],
+      "description": "CONDENSER GPM"
+    },
+    {
+      "enum": [
+        202,
+        "optiviewShortStrings202"
+      ],
+      "description": "CONDENSER TUBE CODE"
+    },
+    {
+      "enum": [
+        203,
+        "optiviewShortStrings203"
+      ],
+      "description": "MOTOR CURRENT REMOTE SP"
+    },
+    {
+      "enum": [
+        204,
+        "optiviewShortStrings204"
+      ],
+      "description": "REM START STOP CMD"
+    },
+    {
+      "enum": [
+        205,
+        "optiviewShortStrings205"
+      ],
+      "description": "VSD FIXED SPEED SELECT"
+    },
+    {
+      "enum": [
+        206,
+        "optiviewShortStrings206"
+      ],
+      "description": "ENTERING CHW TEMP"
+    },
+    {
+      "enum": [
+        207,
+        "optiviewShortStrings207"
+      ],
+      "description": "PHASE A MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        208,
+        "optiviewShortStrings208"
+      ],
+      "description": "PHASE B MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        209,
+        "optiviewShortStrings209"
+      ],
+      "description": "PHASE C MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        210,
+        "optiviewShortStrings210"
+      ],
+      "description": "PHASE A_B LINE VOLTS"
+    },
+    {
+      "enum": [
+        211,
+        "optiviewShortStrings211"
+      ],
+      "description": "PHASE B_C LINE VOLTS"
+    },
+    {
+      "enum": [
+        212,
+        "optiviewShortStrings212"
+      ],
+      "description": "PHASE C_A LINE VOLTS"
+    },
+    {
+      "enum": [
+        213,
+        "optiviewShortStrings213"
+      ],
+      "description": "MOTOR CURRENT ACTUAL SP"
+    },
+    {
+      "enum": [
+        214,
+        "optiviewShortStrings214"
+      ],
+      "description": "PURGE PRESSURE"
+    },
+    {
+      "enum": [
+        215,
+        "optiviewShortStrings215"
+      ],
+      "description": "ACCUM OPERATING HOURS"
+    },
+    {
+      "enum": [
+        216,
+        "optiviewShortStrings216"
+      ],
+      "description": "ACCUM SYSTEM STARTS"
+    },
+    {
+      "enum": [
+        217,
+        "optiviewShortStrings217"
+      ],
+      "description": "VENT LINE SOLENOID"
+    },
+    {
+      "enum": [
+        218,
+        "optiviewShortStrings218"
+      ],
+      "description": "CHW PUMP STAT"
+    },
+    {
+      "enum": [
+        219,
+        "optiviewShortStrings219"
+      ],
+      "description": "STOP SWITCH STATUS"
+    },
+    {
+      "enum": [
+        220,
+        "optiviewShortStrings220"
+      ],
+      "description": "CHW FLOW SWITCH STAT"
+    },
+    {
+      "enum": [
+        221,
+        "optiviewShortStrings221"
+      ],
+      "description": "ACC VALVE SURGE MAP"
+    },
+    {
+      "enum": [
+        222,
+        "optiviewShortStrings222"
+      ],
+      "description": "ACC NEW SURGE POINT"
+    },
+    {
+      "enum": [
+        223,
+        "optiviewShortStrings223"
+      ],
+      "description": "VSD COOL PUMP RUN RELAY"
+    },
+    {
+      "enum": [
+        224,
+        "optiviewShortStrings224"
+      ],
+      "description": "ACC SURGE DETECTION TYPE"
+    },
+    {
+      "enum": [
+        225,
+        "optiviewShortStrings225"
+      ],
+      "description": "ACC MAP PRV POS"
+    },
+    {
+      "enum": [
+        226,
+        "optiviewShortStrings226"
+      ],
+      "description": "VSD INPUT KW"
+    },
+    {
+      "enum": [
+        227,
+        "optiviewShortStrings227"
+      ],
+      "description": "VSD INPUT MWH"
+    },
+    {
+      "enum": [
+        228,
+        "optiviewShortStrings228"
+      ],
+      "description": "PRE ROTATION VANE POS"
+    },
+    {
+      "enum": [
+        229,
+        "optiviewShortStrings229"
+      ],
+      "description": "VSD DC LINK VOLTAGE"
+    },
+    {
+      "enum": [
+        230,
+        "optiviewShortStrings230"
+      ],
+      "description": "VSD DC LINK CURRENT"
+    },
+    {
+      "enum": [
+        231,
+        "optiviewShortStrings231"
+      ],
+      "description": "VSD SURGE COUNT"
+    },
+    {
+      "enum": [
+        232,
+        "optiviewShortStrings232"
+      ],
+      "description": "VSD MAX VOLTAGE THD"
+    },
+    {
+      "enum": [
+        233,
+        "optiviewShortStrings233"
+      ],
+      "description": "VSD MAX CURRENT TDD"
+    },
+    {
+      "enum": [
+        234,
+        "optiviewShortStrings234"
+      ],
+      "description": "REFRIGERANT LEVEL SP"
+    },
+    {
+      "enum": [
+        235,
+        "optiviewShortStrings235"
+      ],
+      "description": "POWER"
+    },
+    {
+      "enum": [
+        236,
+        "optiviewShortStrings236"
+      ],
+      "description": "MOTOR TYPE"
+    },
+    {
+      "enum": [
+        237,
+        "optiviewShortStrings237"
+      ],
+      "description": "REM MOTOR CURRENT SP"
+    },
+    {
+      "enum": [
+        238,
+        "optiviewShortStrings238"
+      ],
+      "description": "REM COMP OPERATION MODE"
+    },
+    {
+      "enum": [
+        239,
+        "optiviewShortStrings239"
+      ],
+      "description": "REM COMP LOCKOUT"
+    },
+    {
+      "enum": [
+        240,
+        "optiviewShortStrings240"
+      ],
+      "description": "OIL DIFERENTL PRESSURE 1"
+    },
+    {
+      "enum": [
+        241,
+        "optiviewShortStrings241"
+      ],
+      "description": "OIL DIFERENTL PRESSURE 2"
+    },
+    {
+      "enum": [
+        242,
+        "optiviewShortStrings242"
+      ],
+      "description": "MOTOR CURRENT FLA 1"
+    },
+    {
+      "enum": [
+        243,
+        "optiviewShortStrings243"
+      ],
+      "description": "MOTOR CURRENT FLA 2"
+    },
+    {
+      "enum": [
+        244,
+        "optiviewShortStrings244"
+      ],
+      "description": "DISCHARGE TEMP 1"
+    },
+    {
+      "enum": [
+        245,
+        "optiviewShortStrings245"
+      ],
+      "description": "DISCHARGE TEMP 2"
+    },
+    {
+      "enum": [
+        246,
+        "optiviewShortStrings246"
+      ],
+      "description": "OIL PUMP PRESSURE 1"
+    },
+    {
+      "enum": [
+        247,
+        "optiviewShortStrings247"
+      ],
+      "description": "OIL PUMP PRESSURE 2"
+    },
+    {
+      "enum": [
+        248,
+        "optiviewShortStrings248"
+      ],
+      "description": "COMPR MOTOR STATUS 1"
+    },
+    {
+      "enum": [
+        249,
+        "optiviewShortStrings249"
+      ],
+      "description": "COMPR MOTOR STATUS 2"
+    },
+    {
+      "enum": [
+        250,
+        "optiviewShortStrings250"
+      ],
+      "description": "DISCH HI PRESS SW 1"
+    },
+    {
+      "enum": [
+        251,
+        "optiviewShortStrings251"
+      ],
+      "description": "DISCH HI PRESS SW 2"
+    },
+    {
+      "enum": [
+        252,
+        "optiviewShortStrings252"
+      ],
+      "description": "VANE MOTOR SW 1"
+    },
+    {
+      "enum": [
+        253,
+        "optiviewShortStrings253"
+      ],
+      "description": "VANE MOTOR SW 2"
+    },
+    {
+      "enum": [
+        254,
+        "optiviewShortStrings254"
+      ],
+      "description": "REFRIGERANT LEVEL LOWER"
+    },
+    {
+      "enum": [
+        255,
+        "optiviewShortStrings255"
+      ],
+      "description": "REFRIGERANT LEVEL RAISE"
+    },
+    {
+      "enum": [
+        256,
+        "optiviewShortStrings256"
+      ],
+      "description": "OIL RETURN SOLENOID"
+    },
+    {
+      "enum": [
+        257,
+        "optiviewShortStrings257"
+      ],
+      "description": "PRV OPENING 1"
+    },
+    {
+      "enum": [
+        258,
+        "optiviewShortStrings258"
+      ],
+      "description": "PRV OPENING 2"
+    },
+    {
+      "enum": [
+        259,
+        "optiviewShortStrings259"
+      ],
+      "description": "PRV CLOSING 1"
+    },
+    {
+      "enum": [
+        260,
+        "optiviewShortStrings260"
+      ],
+      "description": "PRV CLOSING 2"
+    },
+    {
+      "enum": [
+        261,
+        "optiviewShortStrings261"
+      ],
+      "description": "PROX SENSOR ACT POS 1"
+    },
+    {
+      "enum": [
+        262,
+        "optiviewShortStrings262"
+      ],
+      "description": "PROX SENSOR ACT POS 2"
+    },
+    {
+      "enum": [
+        263,
+        "optiviewShortStrings263"
+      ],
+      "description": "ANTI RECYC TIME REMAIN 1"
+    },
+    {
+      "enum": [
+        264,
+        "optiviewShortStrings264"
+      ],
+      "description": "ANTI RECYC TIME REMAIN 2"
+    },
+    {
+      "enum": [
+        265,
+        "optiviewShortStrings265"
+      ],
+      "description": "PRV POSITION 1"
+    },
+    {
+      "enum": [
+        266,
+        "optiviewShortStrings266"
+      ],
+      "description": "PRV POSITION 2"
+    },
+    {
+      "enum": [
+        267,
+        "optiviewShortStrings267"
+      ],
+      "description": "VGD POSITION 1"
+    },
+    {
+      "enum": [
+        268,
+        "optiviewShortStrings268"
+      ],
+      "description": "VGD POSITION 2"
+    },
+    {
+      "enum": [
+        269,
+        "optiviewShortStrings269"
+      ],
+      "description": "OIL LEVEL SUMP"
+    },
+    {
+      "enum": [
+        270,
+        "optiviewShortStrings270"
+      ],
+      "description": "COMP OP MODE"
+    },
+    {
+      "enum": [
+        271,
+        "optiviewShortStrings271"
+      ],
+      "description": "COMP REM LOCKOUT MODE"
+    },
+    {
+      "enum": [
+        272,
+        "optiviewShortStrings272"
+      ],
+      "description": "DISCH VLV OPENING 1"
+    },
+    {
+      "enum": [
+        273,
+        "optiviewShortStrings273"
+      ],
+      "description": "DISCH VLV OPENING 2"
+    },
+    {
+      "enum": [
+        274,
+        "optiviewShortStrings274"
+      ],
+      "description": "DISCH VLV CLOSING 1"
+    },
+    {
+      "enum": [
+        275,
+        "optiviewShortStrings275"
+      ],
+      "description": "DISCH VLV CLOSING 2"
+    },
+    {
+      "enum": [
+        276,
+        "optiviewShortStrings276"
+      ],
+      "description": "MC 1 INPUT POWER"
+    },
+    {
+      "enum": [
+        277,
+        "optiviewShortStrings277"
+      ],
+      "description": "MC 2 INPUT POWER"
+    },
+    {
+      "enum": [
+        278,
+        "optiviewShortStrings278"
+      ],
+      "description": "MC 1 INPUT KWH"
+    },
+    {
+      "enum": [
+        279,
+        "optiviewShortStrings279"
+      ],
+      "description": "MC 2 INPUT KWH"
+    },
+    {
+      "enum": [
+        280,
+        "optiviewShortStrings280"
+      ],
+      "description": "VSD 1 OUTPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        281,
+        "optiviewShortStrings281"
+      ],
+      "description": "VSD 2 OUTPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        282,
+        "optiviewShortStrings282"
+      ],
+      "description": "VSD 1 OUTPUT FREQUENCY"
+    },
+    {
+      "enum": [
+        283,
+        "optiviewShortStrings283"
+      ],
+      "description": "VSD 2 OUTPUT FREQUENCY"
+    },
+    {
+      "enum": [
+        284,
+        "optiviewShortStrings284"
+      ],
+      "description": "MOTOR 1 PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        285,
+        "optiviewShortStrings285"
+      ],
+      "description": "MOTOR 2 PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        286,
+        "optiviewShortStrings286"
+      ],
+      "description": "MOTOR 1 PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        287,
+        "optiviewShortStrings287"
+      ],
+      "description": "MOTOR 2 PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        288,
+        "optiviewShortStrings288"
+      ],
+      "description": "MOTOR 1 PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        289,
+        "optiviewShortStrings289"
+      ],
+      "description": "MOTOR 2 PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        290,
+        "optiviewShortStrings290"
+      ],
+      "description": "VSD 1 DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        291,
+        "optiviewShortStrings291"
+      ],
+      "description": "VSD 2 DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        292,
+        "optiviewShortStrings292"
+      ],
+      "description": "VSD 1 DC BUS CURRENT"
+    },
+    {
+      "enum": [
+        293,
+        "optiviewShortStrings293"
+      ],
+      "description": "VSD 2 DC BUS CURRENT"
+    },
+    {
+      "enum": [
+        294,
+        "optiviewShortStrings294"
+      ],
+      "description": "VSD 1 INTERNAL AMBIENT TEMP"
+    },
+    {
+      "enum": [
+        295,
+        "optiviewShortStrings295"
+      ],
+      "description": "VSD 2 INTERNAL AMBIENT TEMP"
+    },
+    {
+      "enum": [
+        296,
+        "optiviewShortStrings296"
+      ],
+      "description": "VSD 1 CONVERTER HSINK TEMP"
+    },
+    {
+      "enum": [
+        297,
+        "optiviewShortStrings297"
+      ],
+      "description": "VSD 2 CONVERTER HSINK TEMP"
+    },
+    {
+      "enum": [
+        298,
+        "optiviewShortStrings298"
+      ],
+      "description": "FILTER #1 SUPPLY KVA"
+    },
+    {
+      "enum": [
+        299,
+        "optiviewShortStrings299"
+      ],
+      "description": "FILTER #2 SUPPLY KVA"
+    },
+    {
+      "enum": [
+        300,
+        "optiviewShortStrings300"
+      ],
+      "description": "VSD #1 COOLING SYS RUN"
+    },
+    {
+      "enum": [
+        301,
+        "optiviewShortStrings301"
+      ],
+      "description": "VSD #2 COOLING SYS RUN"
+    },
+    {
+      "enum": [
+        302,
+        "optiviewShortStrings302"
+      ],
+      "description": "VSD #1 HARMONIC FILTER INST"
+    },
+    {
+      "enum": [
+        303,
+        "optiviewShortStrings303"
+      ],
+      "description": "VSD #2 HARMONIC FILTER INST"
+    },
+    {
+      "enum": [
+        304,
+        "optiviewShortStrings304"
+      ],
+      "description": "FILTER #1 MAX VOLTAGE THD"
+    },
+    {
+      "enum": [
+        305,
+        "optiviewShortStrings305"
+      ],
+      "description": "FILTER #2 MAX VOLTAGE THD"
+    },
+    {
+      "enum": [
+        306,
+        "optiviewShortStrings306"
+      ],
+      "description": "FILTER #1 MAX CURRENT TDD"
+    },
+    {
+      "enum": [
+        307,
+        "optiviewShortStrings307"
+      ],
+      "description": "FILTER #2 MAX CURRENT TDD"
+    },
+    {
+      "enum": [
+        308,
+        "optiviewShortStrings308"
+      ],
+      "description": "MC 1 INPUT KWH LO"
+    },
+    {
+      "enum": [
+        309,
+        "optiviewShortStrings309"
+      ],
+      "description": "MC 1 INPUT KWH OFFSET"
+    },
+    {
+      "enum": [
+        310,
+        "optiviewShortStrings310"
+      ],
+      "description": "MC 2 INPUT KWH LO"
+    },
+    {
+      "enum": [
+        311,
+        "optiviewShortStrings311"
+      ],
+      "description": "MC 2 INPUT KWH OFFSET"
+    },
+    {
+      "enum": [
+        312,
+        "optiviewShortStrings312"
+      ],
+      "description": "DISCHARGE SUPERHEAT #1"
+    },
+    {
+      "enum": [
+        313,
+        "optiviewShortStrings313"
+      ],
+      "description": "DISCHARGE SUPERHEAT #2"
+    },
+    {
+      "enum": [
+        314,
+        "optiviewShortStrings314"
+      ],
+      "description": "UNIT MOTOR|STARTER TYPE #1"
+    },
+    {
+      "enum": [
+        315,
+        "optiviewShortStrings315"
+      ],
+      "description": "UNIT MOTOR|STARTER TYPE #2"
+    },
+    {
+      "enum": [
+        316,
+        "optiviewShortStrings316"
+      ],
+      "description": "VSD 1 MODEL"
+    },
+    {
+      "enum": [
+        317,
+        "optiviewShortStrings317"
+      ],
+      "description": "VSD 2 MODEL"
+    },
+    {
+      "enum": [
+        318,
+        "optiviewShortStrings318"
+      ],
+      "description": "VSD 1 SOFTWARE VERSION"
+    },
+    {
+      "enum": [
+        319,
+        "optiviewShortStrings319"
+      ],
+      "description": "VSD 2 SOFTWARE VERSION"
+    },
+    {
+      "enum": [
+        320,
+        "optiviewShortStrings320"
+      ],
+      "description": "SSS 1 SOFTWARE VERSION"
+    },
+    {
+      "enum": [
+        321,
+        "optiviewShortStrings321"
+      ],
+      "description": "SSS 2 SOFTWARE VERSION"
+    },
+    {
+      "enum": [
+        322,
+        "optiviewShortStrings322"
+      ],
+      "description": "MOTOR CONTROLLER TYPE"
+    },
+    {
+      "enum": [
+        323,
+        "optiviewShortStrings323"
+      ],
+      "description": "VGD CONTROL EN"
+    },
+    {
+      "enum": [
+        324,
+        "optiviewShortStrings324"
+      ],
+      "description": "DROP LEG REFRIG TEMP SENS EN"
+    },
+    {
+      "enum": [
+        325,
+        "optiviewShortStrings325"
+      ],
+      "description": "MOTOR MONITORING EN"
+    },
+    {
+      "enum": [
+        326,
+        "optiviewShortStrings326"
+      ],
+      "description": "WINDING TEMP PROTECTION"
+    },
+    {
+      "enum": [
+        327,
+        "optiviewShortStrings327"
+      ],
+      "description": "BEARING TEMP PROTECTION"
+    },
+    {
+      "enum": [
+        328,
+        "optiviewShortStrings328"
+      ],
+      "description": "MOTOR VIBRATION PROTECTION"
+    },
+    {
+      "enum": [
+        329,
+        "optiviewShortStrings329"
+      ],
+      "description": "MOTOR COOLING COIL LEAK PROT"
+    },
+    {
+      "enum": [
+        330,
+        "optiviewShortStrings330"
+      ],
+      "description": "HEAT PUMP CONTROL"
+    },
+    {
+      "enum": [
+        331,
+        "optiviewShortStrings331"
+      ],
+      "description": "UNIT CONTROL MODE"
+    },
+    {
+      "enum": [
+        332,
+        "optiviewShortStrings332"
+      ],
+      "description": "HEAT RECOVERY EN"
+    },
+    {
+      "enum": [
+        333,
+        "optiviewShortStrings333"
+      ],
+      "description": "HOT WATER CONTROL EN"
+    },
+    {
+      "enum": [
+        334,
+        "optiviewShortStrings334"
+      ],
+      "description": "HEAD PRESSURE CONTROL EN"
+    },
+    {
+      "enum": [
+        335,
+        "optiviewShortStrings335"
+      ],
+      "description": "GPIC PROTOCOL VERSION"
+    },
+    {
+      "enum": [
+        336,
+        "optiviewShortStrings336"
+      ],
+      "description": "ECON COMP OPERATING STATE"
+    },
+    {
+      "enum": [
+        337,
+        "optiviewShortStrings337"
+      ],
+      "description": "ECON COMP OPERATING STATE AV"
+    },
+    {
+      "enum": [
+        338,
+        "optiviewShortStrings338"
+      ],
+      "description": "ECON COMP OPERATING MODE"
+    },
+    {
+      "enum": [
+        339,
+        "optiviewShortStrings339"
+      ],
+      "description": "ECON COMP OPERATING MODE AV"
+    },
+    {
+      "enum": [
+        340,
+        "optiviewShortStrings340"
+      ],
+      "description": "ECONOMIZER PRESSURE"
+    },
+    {
+      "enum": [
+        341,
+        "optiviewShortStrings341"
+      ],
+      "description": "ECON COMP OIL PRESSURE DIFERENTIAL"
+    },
+    {
+      "enum": [
+        342,
+        "optiviewShortStrings342"
+      ],
+      "description": "ECON MOTOR CURRENT PCT FLA"
+    },
+    {
+      "enum": [
+        343,
+        "optiviewShortStrings343"
+      ],
+      "description": "ECON MOTOR PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        344,
+        "optiviewShortStrings344"
+      ],
+      "description": "ECON MOTOR PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        345,
+        "optiviewShortStrings345"
+      ],
+      "description": "ECON MOTOR PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        346,
+        "optiviewShortStrings346"
+      ],
+      "description": "ECON MOTOR PHASE A VOLTAGE"
+    },
+    {
+      "enum": [
+        347,
+        "optiviewShortStrings347"
+      ],
+      "description": "ECON MOTOR PHASE B VOLTAGE"
+    },
+    {
+      "enum": [
+        348,
+        "optiviewShortStrings348"
+      ],
+      "description": "ECON MOTOR PHASE C VOLTAGE"
+    },
+    {
+      "enum": [
+        349,
+        "optiviewShortStrings349"
+      ],
+      "description": "ECON CURRENT LIMIT ACTIVE SP"
+    },
+    {
+      "enum": [
+        350,
+        "optiviewShortStrings350"
+      ],
+      "description": "ECON COMP DISCHARGE TEMP"
+    },
+    {
+      "enum": [
+        351,
+        "optiviewShortStrings351"
+      ],
+      "description": "ECON SATURATION TEMP ACT SP"
+    },
+    {
+      "enum": [
+        352,
+        "optiviewShortStrings352"
+      ],
+      "description": "ECON SATURATION TEMP"
+    },
+    {
+      "enum": [
+        353,
+        "optiviewShortStrings353"
+      ],
+      "description": "ECON REFRIGERANT LEVEL SP"
+    },
+    {
+      "enum": [
+        354,
+        "optiviewShortStrings354"
+      ],
+      "description": "ECON REFRIGERANT LEVEL"
+    },
+    {
+      "enum": [
+        355,
+        "optiviewShortStrings355"
+      ],
+      "description": "ECON COMP OPERATING HOURS"
+    },
+    {
+      "enum": [
+        356,
+        "optiviewShortStrings356"
+      ],
+      "description": "ECON COMP NUMBER OF STARTS"
+    },
+    {
+      "enum": [
+        357,
+        "optiviewShortStrings357"
+      ],
+      "description": "ECON COMP OIL PUMP PRESSURE"
+    },
+    {
+      "enum": [
+        358,
+        "optiviewShortStrings358"
+      ],
+      "description": "ECON COMP ANTI RECYCLE TIME REMAIN"
+    },
+    {
+      "enum": [
+        359,
+        "optiviewShortStrings359"
+      ],
+      "description": "ECON ANTI-SURGE MIN TEMP"
+    },
+    {
+      "enum": [
+        360,
+        "optiviewShortStrings360"
+      ],
+      "description": "ECON MTR SHAFT END VIBR"
+    },
+    {
+      "enum": [
+        361,
+        "optiviewShortStrings361"
+      ],
+      "description": "ECON MTR OP SHAFT END VIBR"
+    },
+    {
+      "enum": [
+        362,
+        "optiviewShortStrings362"
+      ],
+      "description": "ECON MTR SHAFT END TEMP"
+    },
+    {
+      "enum": [
+        363,
+        "optiviewShortStrings363"
+      ],
+      "description": "ECON MTR OP SHAFT END TEMP"
+    },
+    {
+      "enum": [
+        364,
+        "optiviewShortStrings364"
+      ],
+      "description": "ECON MTR WINDING AVG TEMP"
+    },
+    {
+      "enum": [
+        365,
+        "optiviewShortStrings365"
+      ],
+      "description": "ECON COMPR MOTOR STATUS"
+    },
+    {
+      "enum": [
+        366,
+        "optiviewShortStrings366"
+      ],
+      "description": "MOTOR SPACE HEATER STATUS"
+    },
+    {
+      "enum": [
+        367,
+        "optiviewShortStrings367"
+      ],
+      "description": "ECON MOTOR SPACE HEATER STATUS"
+    },
+    {
+      "enum": [
+        368,
+        "optiviewShortStrings368"
+      ],
+      "description": "YKEP CONTROL ENABLE"
+    },
+    {
+      "enum": [
+        369,
+        "optiviewShortStrings369"
+      ],
+      "description": "ECON COMP INPUT POWER"
+    },
+    {
+      "enum": [
+        370,
+        "optiviewShortStrings370"
+      ],
+      "description": "ECON COMP INPUT KWH"
+    },
+    {
+      "enum": [
+        371,
+        "optiviewShortStrings371"
+      ],
+      "description": "ECON COMP INPUT KWH LO"
+    },
+    {
+      "enum": [
+        372,
+        "optiviewShortStrings372"
+      ],
+      "description": "ECON COMP INPUT KWH OFFSET"
+    },
+    {
+      "enum": [
+        373,
+        "optiviewShortStrings373"
+      ],
+      "description": "ECON COMP OPERATING HOURS LO"
+    },
+    {
+      "enum": [
+        374,
+        "optiviewShortStrings374"
+      ],
+      "description": "ECON COMP OPERATING HOURS OFFSET"
+    },
+    {
+      "enum": [
+        375,
+        "optiviewShortStrings375"
+      ],
+      "description": "ECON MTR WINDING PH A TEMP"
+    },
+    {
+      "enum": [
+        376,
+        "optiviewShortStrings376"
+      ],
+      "description": "ECON MTR WINDING PH B TEMP"
+    },
+    {
+      "enum": [
+        377,
+        "optiviewShortStrings377"
+      ],
+      "description": "ECON MTR WINDING PH C TEMP"
+    },
+    {
+      "enum": [
+        378,
+        "optiviewShortStrings378"
+      ],
+      "description": "ECON MTR WINDING PH A2 TEMP"
+    },
+    {
+      "enum": [
+        379,
+        "optiviewShortStrings379"
+      ],
+      "description": "ECON MTR WINDING PH B2 TEMP"
+    },
+    {
+      "enum": [
+        380,
+        "optiviewShortStrings380"
+      ],
+      "description": "ECON MTR WINDING PH C2 TEMP"
+    },
+    {
+      "enum": [
+        381,
+        "optiviewShortStrings381"
+      ],
+      "description": "ECON COMP PRE ROTATION VANES POS"
+    },
+    {
+      "enum": [
+        382,
+        "optiviewShortStrings382"
+      ],
+      "description": "ECON COMP VSD OIL PUMP CMD FREQ"
+    },
+    {
+      "enum": [
+        383,
+        "optiviewShortStrings383"
+      ],
+      "description": "ECON MOTOR MONITORING EN"
+    },
+    {
+      "enum": [
+        384,
+        "optiviewShortStrings384"
+      ],
+      "description": "ECON WINDING TEMP PROTECTION"
+    },
+    {
+      "enum": [
+        385,
+        "optiviewShortStrings385"
+      ],
+      "description": "ECON BEARING TEMP PROTECTION"
+    },
+    {
+      "enum": [
+        386,
+        "optiviewShortStrings386"
+      ],
+      "description": "ECON MOTOR VIBRATION PROTECTION"
+    },
+    {
+      "enum": [
+        387,
+        "optiviewShortStrings387"
+      ],
+      "description": "MOTOR SPACE HEATER EN"
+    },
+    {
+      "enum": [
+        388,
+        "optiviewShortStrings388"
+      ],
+      "description": "ECON MOTOR SPACE HEATER EN"
+    },
+    {
+      "enum": [
+        389,
+        "optiviewShortStrings389"
+      ],
+      "description": "ECON MOTOR CODE"
+    },
+    {
+      "enum": [
+        390,
+        "optiviewShortStrings390"
+      ],
+      "description": "ECON VOLTS"
+    },
+    {
+      "enum": [
+        391,
+        "optiviewShortStrings391"
+      ],
+      "description": "ECON PHASES"
+    },
+    {
+      "enum": [
+        392,
+        "optiviewShortStrings392"
+      ],
+      "description": "ECON FREQUENCY (HZ)"
+    },
+    {
+      "enum": [
+        393,
+        "optiviewShortStrings393"
+      ],
+      "description": "ECON LRA"
+    },
+    {
+      "enum": [
+        394,
+        "optiviewShortStrings394"
+      ],
+      "description": "ECON FULL LOAD AMPS"
+    },
+    {
+      "enum": [
+        395,
+        "optiviewShortStrings395"
+      ],
+      "description": "ECON INRUSH AMPS"
+    },
+    {
+      "enum": [
+        396,
+        "optiviewShortStrings396"
+      ],
+      "description": "ECON DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        397,
+        "optiviewShortStrings397"
+      ],
+      "description": "CND LIQ PUMP STAT"
+    },
+    {
+      "enum": [
+        398,
+        "optiviewShortStrings398"
+      ],
+      "description": "INPUT KWH LO SSS"
+    },
+    {
+      "enum": [
+        399,
+        "optiviewShortStrings399"
+      ],
+      "description": "INPUT KWH OFFSET SSS"
+    },
+    {
+      "enum": [
+        400,
+        "optiviewShortStrings400"
+      ],
+      "description": "HOT WATER REMOTE SP"
+    },
+    {
+      "enum": [
+        401,
+        "optiviewShortStrings401"
+      ],
+      "description": "OPERATIONAL MODE"
+    },
+    {
+      "enum": [
+        402,
+        "optiviewShortStrings402"
+      ],
+      "description": "LEAVING CHW TEMP ACT SP"
+    },
+    {
+      "enum": [
+        403,
+        "optiviewShortStrings403"
+      ],
+      "description": "LOW SEPARATOR OIL SWITCH"
+    },
+    {
+      "enum": [
+        404,
+        "optiviewShortStrings404"
+      ],
+      "description": "ICE STORAGE MODE"
+    },
+    {
+      "enum": [
+        405,
+        "optiviewShortStrings405"
+      ],
+      "description": "UNIT WARNING FAULT CODE"
+    },
+    {
+      "enum": [
+        406,
+        "optiviewShortStrings406"
+      ],
+      "description": "LVNG CHW TEMP ACT SP"
+    },
+    {
+      "enum": [
+        407,
+        "optiviewShortStrings407"
+      ],
+      "description": "SEAL PRESS DIFFERENTIAL"
+    },
+    {
+      "enum": [
+        408,
+        "optiviewShortStrings408"
+      ],
+      "description": "FILTER DIFF PRESSURE"
+    },
+    {
+      "enum": [
+        409,
+        "optiviewShortStrings409"
+      ],
+      "description": "LEAV COND HW TEMP ACT SP"
+    },
+    {
+      "enum": [
+        410,
+        "optiviewShortStrings410"
+      ],
+      "description": "MIN LOAD CTL MTR FLA LIM"
+    },
+    {
+      "enum": [
+        411,
+        "optiviewShortStrings411"
+      ],
+      "description": "SLIDE VALVE POSITION"
+    },
+    {
+      "enum": [
+        412,
+        "optiviewShortStrings412"
+      ],
+      "description": "SUPERHEAT TEMPERATURE"
+    },
+    {
+      "enum": [
+        413,
+        "optiviewShortStrings413"
+      ],
+      "description": "JOB LOCATION"
+    },
+    {
+      "enum": [
+        414,
+        "optiviewShortStrings414"
+      ],
+      "description": "ORDER NUMBER"
+    },
+    {
+      "enum": [
+        415,
+        "optiviewShortStrings415"
+      ],
+      "description": "PANEL SERIAL NUMBER"
+    },
+    {
+      "enum": [
+        416,
+        "optiviewShortStrings416"
+      ],
+      "description": "LOCKED ROTOR AMPS"
+    },
+    {
+      "enum": [
+        417,
+        "optiviewShortStrings417"
+      ],
+      "description": "REM LEAVING CHW TEMP SP"
+    },
+    {
+      "enum": [
+        418,
+        "optiviewShortStrings418"
+      ],
+      "description": "REM LOAD LIMIT SP"
+    },
+    {
+      "enum": [
+        419,
+        "optiviewShortStrings419"
+      ],
+      "description": "LEAVING CHW TEMP"
+    },
+    {
+      "enum": [
+        420,
+        "optiviewShortStrings420"
+      ],
+      "description": "GENERATOR PRESSURE"
+    },
+    {
+      "enum": [
+        421,
+        "optiviewShortStrings421"
+      ],
+      "description": "AUTO DECRYSTLZATION TEMP"
+    },
+    {
+      "enum": [
+        422,
+        "optiviewShortStrings422"
+      ],
+      "description": "REFRIG TEMP LEAVING COND"
+    },
+    {
+      "enum": [
+        423,
+        "optiviewShortStrings423"
+      ],
+      "description": "STEAM HOT WATER SUP TEMP"
+    },
+    {
+      "enum": [
+        424,
+        "optiviewShortStrings424"
+      ],
+      "description": "STEAM SUPPLY PRESSURE"
+    },
+    {
+      "enum": [
+        425,
+        "optiviewShortStrings425"
+      ],
+      "description": "STEAM HT WTR ACT VLV POS"
+    },
+    {
+      "enum": [
+        426,
+        "optiviewShortStrings426"
+      ],
+      "description": "PURGE PMP SERV INTRVL SP"
+    },
+    {
+      "enum": [
+        427,
+        "optiviewShortStrings427"
+      ],
+      "description": "REFRIGERANT TEMP"
+    },
+    {
+      "enum": [
+        428,
+        "optiviewShortStrings428"
+      ],
+      "description": "STRONG SOLUTION TEMP"
+    },
+    {
+      "enum": [
+        429,
+        "optiviewShortStrings429"
+      ],
+      "description": "STRONG SOLUTION CONC"
+    },
+    {
+      "enum": [
+        430,
+        "optiviewShortStrings430"
+      ],
+      "description": "REFRIG MOTOR STATUS"
+    },
+    {
+      "enum": [
+        431,
+        "optiviewShortStrings431"
+      ],
+      "description": "COND MOTOR STATUS"
+    },
+    {
+      "enum": [
+        432,
+        "optiviewShortStrings432"
+      ],
+      "description": "SOLU ABSORB PMP MTR STAT"
+    },
+    {
+      "enum": [
+        433,
+        "optiviewShortStrings433"
+      ],
+      "description": "PURGE PMP MTR STAT"
+    },
+    {
+      "enum": [
+        434,
+        "optiviewShortStrings434"
+      ],
+      "description": "REFRIG STAB SOL VLV STAT"
+    },
+    {
+      "enum": [
+        435,
+        "optiviewShortStrings435"
+      ],
+      "description": "REFRIG LVL FLO SW STAT"
+    },
+    {
+      "enum": [
+        436,
+        "optiviewShortStrings436"
+      ],
+      "description": "OPERATIONAL CODE"
+    },
+    {
+      "enum": [
+        437,
+        "optiviewShortStrings437"
+      ],
+      "description": "SAFETY SHUTDOWN CODE"
+    },
+    {
+      "enum": [
+        438,
+        "optiviewShortStrings438"
+      ],
+      "description": "CYCLING SHUTDOWN CODE"
+    },
+    {
+      "enum": [
+        439,
+        "optiviewShortStrings439"
+      ],
+      "description": "WARNING MESSAGE CODE"
+    },
+    {
+      "enum": [
+        440,
+        "optiviewShortStrings440"
+      ],
+      "description": "UNIT CONTROL STATUS CODE"
+    },
+    {
+      "enum": [
+        441,
+        "optiviewShortStrings441"
+      ],
+      "description": "UNIT INHIBIT FAULT CODE"
+    },
+    {
+      "enum": [
+        442,
+        "optiviewShortStrings442"
+      ],
+      "description": "ACTIVE MAX LOAD LIMIT SP"
+    },
+    {
+      "enum": [
+        443,
+        "optiviewShortStrings443"
+      ],
+      "description": "WEEKLY PURGE COUNTER"
+    },
+    {
+      "enum": [
+        444,
+        "optiviewShortStrings444"
+      ],
+      "description": "PULLDOWN INTERVAL TIMER"
+    },
+    {
+      "enum": [
+        445,
+        "optiviewShortStrings445"
+      ],
+      "description": "PULLDOWN DEMAND SP START"
+    },
+    {
+      "enum": [
+        446,
+        "optiviewShortStrings446"
+      ],
+      "description": "PULLDOWN DEMAND SP STOP"
+    },
+    {
+      "enum": [
+        447,
+        "optiviewShortStrings447"
+      ],
+      "description": "REFRIG LVL SOL"
+    },
+    {
+      "enum": [
+        448,
+        "optiviewShortStrings448"
+      ],
+      "description": "TURBINE HP LIMIT SP"
+    },
+    {
+      "enum": [
+        449,
+        "optiviewShortStrings449"
+      ],
+      "description": "COMPR OIL COMP DIF PRESS"
+    },
+    {
+      "enum": [
+        450,
+        "optiviewShortStrings450"
+      ],
+      "description": "TURBINE INLET STEAM TEMP"
+    },
+    {
+      "enum": [
+        451,
+        "optiviewShortStrings451"
+      ],
+      "description": "TURBINE INLET STEAM PRES"
+    },
+    {
+      "enum": [
+        452,
+        "optiviewShortStrings452"
+      ],
+      "description": "TURBINE SUPPLY OIL TEMP"
+    },
+    {
+      "enum": [
+        453,
+        "optiviewShortStrings453"
+      ],
+      "description": "TURBINE SUPPLY OIL PRESS"
+    },
+    {
+      "enum": [
+        454,
+        "optiviewShortStrings454"
+      ],
+      "description": "TURBINE 1ST STG STM PRES"
+    },
+    {
+      "enum": [
+        455,
+        "optiviewShortStrings455"
+      ],
+      "description": "TURBINE SPEED"
+    },
+    {
+      "enum": [
+        456,
+        "optiviewShortStrings456"
+      ],
+      "description": "TURBINE EXHAUST STM PRES"
+    },
+    {
+      "enum": [
+        457,
+        "optiviewShortStrings457"
+      ],
+      "description": "COMPRESSOR PRV POSITION"
+    },
+    {
+      "enum": [
+        458,
+        "optiviewShortStrings458"
+      ],
+      "description": "SUBCOOLER REFRIG LEVEL"
+    },
+    {
+      "enum": [
+        459,
+        "optiviewShortStrings459"
+      ],
+      "description": "PANEL ROCKER SW RUN"
+    },
+    {
+      "enum": [
+        460,
+        "optiviewShortStrings460"
+      ],
+      "description": "PANEL ROCKER SW STOP"
+    },
+    {
+      "enum": [
+        461,
+        "optiviewShortStrings461"
+      ],
+      "description": "CHW LIQ PUMP STAT"
+    },
+    {
+      "enum": [
+        462,
+        "optiviewShortStrings462"
+      ],
+      "description": "COND LIQ PUMP STAT"
+    },
+    {
+      "enum": [
+        463,
+        "optiviewShortStrings463"
+      ],
+      "description": "COND LIQ FLOW SW STAT"
+    },
+    {
+      "enum": [
+        464,
+        "optiviewShortStrings464"
+      ],
+      "description": "COND REFRIG HI PRESS CO"
+    },
+    {
+      "enum": [
+        465,
+        "optiviewShortStrings465"
+      ],
+      "description": "COMP OIL HEATER CONT"
+    },
+    {
+      "enum": [
+        466,
+        "optiviewShortStrings466"
+      ],
+      "description": "COMP OIL RETURN SOL VLV"
+    },
+    {
+      "enum": [
+        467,
+        "optiviewShortStrings467"
+      ],
+      "description": "COMP OIL COOLER W SOL VL"
+    },
+    {
+      "enum": [
+        468,
+        "optiviewShortStrings468"
+      ],
+      "description": "COMP VAR SPD OIL PMP RUN"
+    },
+    {
+      "enum": [
+        469,
+        "optiviewShortStrings469"
+      ],
+      "description": "COMP VAR SPD OIL PMP AUX"
+    },
+    {
+      "enum": [
+        470,
+        "optiviewShortStrings470"
+      ],
+      "description": "COMPR LIQ INJ SOL VLV"
+    },
+    {
+      "enum": [
+        471,
+        "optiviewShortStrings471"
+      ],
+      "description": "COMPR HS THRUST SOL"
+    },
+    {
+      "enum": [
+        472,
+        "optiviewShortStrings472"
+      ],
+      "description": "CLOSED LIMIT SWITCH"
+    },
+    {
+      "enum": [
+        473,
+        "optiviewShortStrings473"
+      ],
+      "description": "REM MODE READY TO START"
+    },
+    {
+      "enum": [
+        474,
+        "optiviewShortStrings474"
+      ],
+      "description": "TURBINE ROTATING CONT"
+    },
+    {
+      "enum": [
+        475,
+        "optiviewShortStrings475"
+      ],
+      "description": "TURBINE TRIP SOL VLV"
+    },
+    {
+      "enum": [
+        476,
+        "optiviewShortStrings476"
+      ],
+      "description": "TURBINE TRIP VLV CLO LS"
+    },
+    {
+      "enum": [
+        477,
+        "optiviewShortStrings477"
+      ],
+      "description": "TURBINE STATUS CODE"
+    },
+    {
+      "enum": [
+        478,
+        "optiviewShortStrings478"
+      ],
+      "description": "UNIT MODIF RUN FLT CODE"
+    },
+    {
+      "enum": [
+        479,
+        "optiviewShortStrings479"
+      ],
+      "description": "THRUST BEARING PROX POS"
+    },
+    {
+      "enum": [
+        480,
+        "optiviewShortStrings480"
+      ],
+      "description": "THRUST BEARING PROX REF"
+    },
+    {
+      "enum": [
+        481,
+        "optiviewShortStrings481"
+      ],
+      "description": "TURBINE GOV END BRG TEMP"
+    },
+    {
+      "enum": [
+        482,
+        "optiviewShortStrings482"
+      ],
+      "description": "TURBINE SHF END BRG TEMP"
+    },
+    {
+      "enum": [
+        483,
+        "optiviewShortStrings483"
+      ],
+      "description": "HOTWELL CONDENSATE LVL"
+    },
+    {
+      "enum": [
+        484,
+        "optiviewShortStrings484"
+      ],
+      "description": "EVAP REFRIG LIQ TEMP"
+    },
+    {
+      "enum": [
+        485,
+        "optiviewShortStrings485"
+      ],
+      "description": "COND REFRIG LIQ TEMP"
+    },
+    {
+      "enum": [
+        486,
+        "optiviewShortStrings486"
+      ],
+      "description": "CHILL LIQ FLOW SENSOR"
+    },
+    {
+      "enum": [
+        487,
+        "optiviewShortStrings487"
+      ],
+      "description": "COND LIQ FLOW SENSOR"
+    },
+    {
+      "enum": [
+        488,
+        "optiviewShortStrings488"
+      ],
+      "description": "STEAM FLOW SENSOR"
+    },
+    {
+      "enum": [
+        489,
+        "optiviewShortStrings489"
+      ],
+      "description": "HOTGAS BYPASS VLV POS"
+    },
+    {
+      "enum": [
+        490,
+        "optiviewShortStrings490"
+      ],
+      "description": "GOVERNOR VLV POS"
+    },
+    {
+      "enum": [
+        491,
+        "optiviewShortStrings491"
+      ],
+      "description": "SLOW ROLL TIME REMAINING"
+    },
+    {
+      "enum": [
+        492,
+        "optiviewShortStrings492"
+      ],
+      "description": "TURBINE AUX OIL PMP CONT"
+    },
+    {
+      "enum": [
+        493,
+        "optiviewShortStrings493"
+      ],
+      "description": "TURBINE AUX OIL PMP CONA"
+    },
+    {
+      "enum": [
+        494,
+        "optiviewShortStrings494"
+      ],
+      "description": "TURBINE OIL CLRW SOL VLV"
+    },
+    {
+      "enum": [
+        495,
+        "optiviewShortStrings495"
+      ],
+      "description": "ALARM HORN"
+    },
+    {
+      "enum": [
+        496,
+        "optiviewShortStrings496"
+      ],
+      "description": "TURBINE HORSEPOWER"
+    },
+    {
+      "enum": [
+        497,
+        "optiviewShortStrings497"
+      ],
+      "description": "TURBINE STEAM PRESSURE"
+    },
+    {
+      "enum": [
+        498,
+        "optiviewShortStrings498"
+      ],
+      "description": "TURBINE STEAM TEMPERATURE"
+    },
+    {
+      "enum": [
+        499,
+        "optiviewShortStrings499"
+      ],
+      "description": "TURBINE NUM OF NOZZLES"
+    },
+    {
+      "enum": [
+        500,
+        "optiviewShortStrings500"
+      ],
+      "description": "TURBINE EXPANSION RATIO"
+    },
+    {
+      "enum": [
+        501,
+        "optiviewShortStrings501"
+      ],
+      "description": "TURBINE NUM OF OL NOZZLES"
+    },
+    {
+      "enum": [
+        502,
+        "optiviewShortStrings502"
+      ],
+      "description": "TURBINE EXHAUST PRESSURE"
+    },
+    {
+      "enum": [
+        503,
+        "optiviewShortStrings503"
+      ],
+      "description": "EVAPORATOR FOULING FACTOR"
+    },
+    {
+      "enum": [
+        504,
+        "optiviewShortStrings504"
+      ],
+      "description": "EVAPORATOR PRESSURE DROP"
+    },
+    {
+      "enum": [
+        505,
+        "optiviewShortStrings505"
+      ],
+      "description": "EVAPORATOR LEAVING TEMPERATURE"
+    },
+    {
+      "enum": [
+        506,
+        "optiviewShortStrings506"
+      ],
+      "description": "EVAPORATOR RETURN TEMPERATURE"
+    },
+    {
+      "enum": [
+        507,
+        "optiviewShortStrings507"
+      ],
+      "description": "CONDENSER LEAVING TEMPERATURE"
+    },
+    {
+      "enum": [
+        508,
+        "optiviewShortStrings508"
+      ],
+      "description": "CONDENSER RETURN TEMPERATURE"
+    },
+    {
+      "enum": [
+        509,
+        "optiviewShortStrings509"
+      ],
+      "description": "CONDENSER TUBES"
+    },
+    {
+      "enum": [
+        510,
+        "optiviewShortStrings510"
+      ],
+      "description": "EVAPORATOR TUBES"
+    },
+    {
+      "enum": [
+        511,
+        "optiviewShortStrings511"
+      ],
+      "description": "CONDENSER FOULING FACTOR"
+    },
+    {
+      "enum": [
+        512,
+        "optiviewShortStrings512"
+      ],
+      "description": "CONDENSER PRESSURE DROP"
+    },
+    {
+      "enum": [
+        513,
+        "optiviewShortStrings513"
+      ],
+      "description": "STEAM CONDENSER PASSES"
+    },
+    {
+      "enum": [
+        514,
+        "optiviewShortStrings514"
+      ],
+      "description": "STEAM CONDENSER DESIGN WORKING PRESS"
+    },
+    {
+      "enum": [
+        515,
+        "optiviewShortStrings515"
+      ],
+      "description": "STEAM CONDENSER FOULING FACTOR"
+    },
+    {
+      "enum": [
+        516,
+        "optiviewShortStrings516"
+      ],
+      "description": "STEAM CONDENSER PRESSURE DROP"
+    },
+    {
+      "enum": [
+        517,
+        "optiviewShortStrings517"
+      ],
+      "description": "STEAM CONDENSER NOZZLE ARRANGE IN"
+    },
+    {
+      "enum": [
+        518,
+        "optiviewShortStrings518"
+      ],
+      "description": "STEAM CONDENSER NOZZLE ARRANGE OUT"
+    },
+    {
+      "enum": [
+        519,
+        "optiviewShortStrings519"
+      ],
+      "description": "STEAM CONDENSER LEAVING TEMPERATURE"
+    },
+    {
+      "enum": [
+        520,
+        "optiviewShortStrings520"
+      ],
+      "description": "STEAM CONDENSER RETURN TEMPERATURE"
+    },
+    {
+      "enum": [
+        521,
+        "optiviewShortStrings521"
+      ],
+      "description": "STEAM CONDENSER GPM"
+    },
+    {
+      "enum": [
+        522,
+        "optiviewShortStrings522"
+      ],
+      "description": "STEAM CONDENSER TUBES"
+    },
+    {
+      "enum": [
+        523,
+        "optiviewShortStrings523"
+      ],
+      "description": "UNIT MODIFIED RUN CODE"
+    },
+    {
+      "enum": [
+        524,
+        "optiviewShortStrings524"
+      ],
+      "description": "UNIT MODIFIED RUN CODE AV"
+    },
+    {
+      "enum": [
+        525,
+        "optiviewShortStrings525"
+      ],
+      "description": "HOT GAS BYPASS COMMAND"
+    },
+    {
+      "enum": [
+        526,
+        "optiviewShortStrings526"
+      ],
+      "description": "STALL VOLTAGE"
+    },
+    {
+      "enum": [
+        527,
+        "optiviewShortStrings527"
+      ],
+      "description": "SUBCOOLER EFFECTIVENESS"
+    },
+    {
+      "enum": [
+        528,
+        "optiviewShortStrings528"
+      ],
+      "description": "UNIT MOTOR_STARTER TYPE"
+    },
+    {
+      "enum": [
+        529,
+        "optiviewShortStrings529"
+      ],
+      "description": "UNIT MOD_COMP TYPE"
+    },
+    {
+      "enum": [
+        530,
+        "optiviewShortStrings530"
+      ],
+      "description": "FREQUENCY (Hz)"
+    }
+  ]
+}

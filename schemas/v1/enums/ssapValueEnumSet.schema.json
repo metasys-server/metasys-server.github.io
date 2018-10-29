@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ssapValueEnumSet.schema.json",
+  "title": "ssapValueEnumSet",
+  "description": "Anti-Passback Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ssapPresentValueNotOperational"
+      ],
+      "description": "Not operational"
+    },
+    {
+      "enum": [
+        1,
+        "ssapPresentValueOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "ssapPresentValuePeersOffline"
+      ],
+      "description": "Peer(s) Offline"
+    },
+    {
+      "enum": [
+        3,
+        "ssapPresentValueStarCenterOffline"
+      ],
+      "description": "Star Center Offline"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/filterOrderEnumSet.schema.json",
+  "title": "filterOrderEnumSet",
+  "description": "Filter Order",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ide0thOrderFilter"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "ide1stOrderFilter"
+      ],
+      "description": "First"
+    },
+    {
+      "enum": [
+        2,
+        "ide2ndOrderFilter"
+      ],
+      "description": "Second"
+    }
+  ]
+}

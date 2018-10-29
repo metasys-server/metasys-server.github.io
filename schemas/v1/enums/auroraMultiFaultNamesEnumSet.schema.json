@@ -1,0 +1,302 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auroraMultiFaultNamesEnumSet.schema.json",
+  "title": "auroraMultiFaultNamesEnumSet",
+  "description": "Aurora Multi Fault Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "auroraMultiFaultNames1"
+      ],
+      "description": "ACB-1_Normal = No Faults"
+    },
+    {
+      "enum": [
+        2,
+        "auroraMultiFaultNames2"
+      ],
+      "description": "ACB-1_E1 = Input Fault"
+    },
+    {
+      "enum": [
+        3,
+        "auroraMultiFaultNames3"
+      ],
+      "description": "ACB-1_E2 = High Pressure"
+    },
+    {
+      "enum": [
+        4,
+        "auroraMultiFaultNames4"
+      ],
+      "description": "ACB-1_E3 = Low Pressure"
+    },
+    {
+      "enum": [
+        5,
+        "auroraMultiFaultNames5"
+      ],
+      "description": "ACB-1_E4 = Not Used"
+    },
+    {
+      "enum": [
+        6,
+        "auroraMultiFaultNames6"
+      ],
+      "description": "ACB-1_E5 = Freeze Detection FP1"
+    },
+    {
+      "enum": [
+        7,
+        "auroraMultiFaultNames7"
+      ],
+      "description": "ACB-1_E6 = Loss Of Charge"
+    },
+    {
+      "enum": [
+        8,
+        "auroraMultiFaultNames8"
+      ],
+      "description": "ACB-1_E7 = Condensate Overflow"
+    },
+    {
+      "enum": [
+        9,
+        "auroraMultiFaultNames9"
+      ],
+      "description": "ACB-1_E8 = Over-Under Voltage"
+    },
+    {
+      "enum": [
+        10,
+        "auroraMultiFaultNames10"
+      ],
+      "description": "ACB-1_E9 = Airflow Monitoring"
+    },
+    {
+      "enum": [
+        11,
+        "auroraMultiFaultNames11"
+      ],
+      "description": "ACB-1_E10 = Compressor Monitoring"
+    },
+    {
+      "enum": [
+        12,
+        "auroraMultiFaultNames12"
+      ],
+      "description": "ACB-1_E11 = FP1 Snsr Error"
+    },
+    {
+      "enum": [
+        13,
+        "auroraMultiFaultNames13"
+      ],
+      "description": "ACB-1_E12 = Refrigeration Monitoring"
+    },
+    {
+      "enum": [
+        14,
+        "auroraMultiFaultNames14"
+      ],
+      "description": "ACB-1_E13 = Non Critical AXB Sensor Error"
+    },
+    {
+      "enum": [
+        15,
+        "auroraMultiFaultNames15"
+      ],
+      "description": "ACB-1_E14 = Critical AXB Sensor Error"
+    },
+    {
+      "enum": [
+        16,
+        "auroraMultiFaultNames16"
+      ],
+      "description": "ACB-1_E15 = Hot Water Limit"
+    },
+    {
+      "enum": [
+        17,
+        "auroraMultiFaultNames17"
+      ],
+      "description": "ACB-1_E16 = VarSpdPump"
+    },
+    {
+      "enum": [
+        18,
+        "auroraMultiFaultNames18"
+      ],
+      "description": "ACB-1_E30 = Zone Sensor Loss of Com"
+    },
+    {
+      "enum": [
+        19,
+        "auroraMultiFaultNames19"
+      ],
+      "description": "ACB-1_E18 = Non-CritComErr"
+    },
+    {
+      "enum": [
+        20,
+        "auroraMultiFaultNames20"
+      ],
+      "description": "ACB-1_E19 = CritCommErr"
+    },
+    {
+      "enum": [
+        21,
+        "auroraMultiFaultNames21"
+      ],
+      "description": "ACB-1_E20 = UPC Loss of Comm to ABC"
+    },
+    {
+      "enum": [
+        22,
+        "auroraMultiFaultNames22"
+      ],
+      "description": "ACB-2_Normal = No Faults"
+    },
+    {
+      "enum": [
+        23,
+        "auroraMultiFaultNames23"
+      ],
+      "description": "ACB-2_E1 = Input Fault"
+    },
+    {
+      "enum": [
+        24,
+        "auroraMultiFaultNames24"
+      ],
+      "description": "ACB-2_E2 = High Pressure"
+    },
+    {
+      "enum": [
+        25,
+        "auroraMultiFaultNames25"
+      ],
+      "description": "ACB-2_E3 = Low Pressure"
+    },
+    {
+      "enum": [
+        26,
+        "auroraMultiFaultNames26"
+      ],
+      "description": "ACB-2_E4 = Not Used"
+    },
+    {
+      "enum": [
+        27,
+        "auroraMultiFaultNames27"
+      ],
+      "description": "ACB-2_E5 = Freeze Detection FP1"
+    },
+    {
+      "enum": [
+        28,
+        "auroraMultiFaultNames28"
+      ],
+      "description": "ACB-2_E6 = Loss Of Charge"
+    },
+    {
+      "enum": [
+        29,
+        "auroraMultiFaultNames29"
+      ],
+      "description": "ACB-2_E7 = Condensate Overflow"
+    },
+    {
+      "enum": [
+        30,
+        "auroraMultiFaultNames30"
+      ],
+      "description": "ACB-2_E8 = Over-Under Voltage"
+    },
+    {
+      "enum": [
+        31,
+        "auroraMultiFaultNames31"
+      ],
+      "description": "ACB-2_E9 = Airflow Monitoring"
+    },
+    {
+      "enum": [
+        32,
+        "auroraMultiFaultNames32"
+      ],
+      "description": "ACB-2_E10 = Compressor Monitoring"
+    },
+    {
+      "enum": [
+        33,
+        "auroraMultiFaultNames33"
+      ],
+      "description": "ACB-2_E11 = FP1 Snsr Error"
+    },
+    {
+      "enum": [
+        34,
+        "auroraMultiFaultNames34"
+      ],
+      "description": "ACB-2_E12 = Refrigeration Monitoring"
+    },
+    {
+      "enum": [
+        35,
+        "auroraMultiFaultNames35"
+      ],
+      "description": "ACB-2_E13 = Non Critical AXB Sensor Error"
+    },
+    {
+      "enum": [
+        36,
+        "auroraMultiFaultNames36"
+      ],
+      "description": "ACB-2_E14 = Critical AXB Sensor Error"
+    },
+    {
+      "enum": [
+        37,
+        "auroraMultiFaultNames37"
+      ],
+      "description": "ACB-2_E15 = Hot Water Limit"
+    },
+    {
+      "enum": [
+        38,
+        "auroraMultiFaultNames38"
+      ],
+      "description": "ACB-2_E16 = VarSpdPump"
+    },
+    {
+      "enum": [
+        39,
+        "auroraMultiFaultNames39"
+      ],
+      "description": "ACB-2_E30 = Zone Sensor Loss of Com"
+    },
+    {
+      "enum": [
+        40,
+        "auroraMultiFaultNames40"
+      ],
+      "description": "ACB-2_E18 = Non-CritComErr"
+    },
+    {
+      "enum": [
+        41,
+        "auroraMultiFaultNames41"
+      ],
+      "description": "ACB-2_E19 = CritCommErr"
+    },
+    {
+      "enum": [
+        42,
+        "auroraMultiFaultNames42"
+      ],
+      "description": "ACB-2_E20 = UPC Loss of Comm to ABC"
+    }
+  ]
+}

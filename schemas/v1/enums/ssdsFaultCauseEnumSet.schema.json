@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ssdsFaultCauseEnumSet.schema.json",
+  "title": "ssdsFaultCauseEnumSet",
+  "description": "SSDS Fault Cause",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ssdsFaultCauseNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "ssdsFaultCauseTimedOverrideWarning"
+      ],
+      "description": "Timed Override Warning"
+    },
+    {
+      "enum": [
+        2,
+        "ssdsFaultCauseRedLight"
+      ],
+      "description": "Red Light"
+    },
+    {
+      "enum": [
+        3,
+        "ssdsFaultCauseGreenLight"
+      ],
+      "description": "Green Light"
+    },
+    {
+      "enum": [
+        4,
+        "ssdsFaultCauseShuntWarning"
+      ],
+      "description": "Shunt Warning"
+    },
+    {
+      "enum": [
+        5,
+        "ssdsFaultCauseShunt"
+      ],
+      "description": "Shunt"
+    },
+    {
+      "enum": [
+        6,
+        "ssdsFaultCauseAccess"
+      ],
+      "description": "Access"
+    },
+    {
+      "enum": [
+        7,
+        "ssdsFaultCauseAuxiliaryInput"
+      ],
+      "description": "Auxiliary Input"
+    },
+    {
+      "enum": [
+        8,
+        "ssdsFaultCauseStuckLocked"
+      ],
+      "description": "Stuck Locked"
+    },
+    {
+      "enum": [
+        9,
+        "ssdsFaultCauseStuckUnlocked"
+      ],
+      "description": "Stuck Unlocked"
+    },
+    {
+      "enum": [
+        10,
+        "ssdsFaultCauseLockMonitor"
+      ],
+      "description": "Lock Monitor"
+    },
+    {
+      "enum": [
+        11,
+        "ssdsFaultCausePortalContact"
+      ],
+      "description": "Portal Contact"
+    },
+    {
+      "enum": [
+        12,
+        "ssdsFaultCauseReaderTerminal"
+      ],
+      "description": "Reader Terminal"
+    }
+  ]
+}

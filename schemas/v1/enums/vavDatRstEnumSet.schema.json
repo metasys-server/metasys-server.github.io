@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavDatRstEnumSet.schema.json",
+  "title": "vavDatRstEnumSet",
+  "description": "VAV DAT RST",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vdrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "vdrHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        2,
+        "vdrHeatingDaTReset"
+      ],
+      "description": "Heating DA-T Reset"
+    }
+  ]
+}

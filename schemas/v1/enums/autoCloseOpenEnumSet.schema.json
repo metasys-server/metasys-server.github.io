@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/autoCloseOpenEnumSet.schema.json",
+  "title": "autoCloseOpenEnumSet",
+  "description": "Auto/Close/Open",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "acoAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "acoClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        2,
+        "acoOpen"
+      ],
+      "description": "Open"
+    }
+  ]
+}

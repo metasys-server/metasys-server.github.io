@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJp1StatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJp1StatEnumSet",
+  "description": "York LTC Legacy YIA JP1 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJp1Stat0"
+      ],
+      "description": "Steam Operation"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJp1Stat1"
+      ],
+      "description": "Hot Water Operation"
+    }
+  ]
+}

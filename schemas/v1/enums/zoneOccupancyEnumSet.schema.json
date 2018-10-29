@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/zoneOccupancyEnumSet.schema.json",
+  "title": "zoneOccupancyEnumSet",
+  "description": "Zone Occupancy",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "zoneUnoccupied"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        1,
+        "zoneOccupied"
+      ],
+      "description": "Occupied"
+    }
+  ]
+}

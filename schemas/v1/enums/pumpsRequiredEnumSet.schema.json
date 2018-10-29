@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pumpsRequiredEnumSet.schema.json",
+  "title": "pumpsRequiredEnumSet",
+  "description": "PUMPS REQUIRED",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pumpsRequired0"
+      ],
+      "description": "NO PUMPS"
+    },
+    {
+      "enum": [
+        1,
+        "pumpsRequired1"
+      ],
+      "description": "PUMP 1"
+    },
+    {
+      "enum": [
+        2,
+        "pumpsRequired2"
+      ],
+      "description": "PUMP 2"
+    },
+    {
+      "enum": [
+        3,
+        "pumpsRequired3"
+      ],
+      "description": "PUMP 1 & 2"
+    },
+    {
+      "enum": [
+        4,
+        "pumpsRequired4"
+      ],
+      "description": "PUMP 3"
+    },
+    {
+      "enum": [
+        5,
+        "pumpsRequired5"
+      ],
+      "description": "PUMP 1 & 3"
+    },
+    {
+      "enum": [
+        6,
+        "pumpsRequired6"
+      ],
+      "description": "PUMP 2 & 3"
+    },
+    {
+      "enum": [
+        7,
+        "pumpsRequired7"
+      ],
+      "description": "PUMP 1 &2 & 3"
+    },
+    {
+      "enum": [
+        8,
+        "pumpsRequired8"
+      ],
+      "description": "PUMP 4"
+    },
+    {
+      "enum": [
+        9,
+        "pumpsRequired9"
+      ],
+      "description": "PUMP 1 & 4"
+    },
+    {
+      "enum": [
+        10,
+        "pumpsRequired10"
+      ],
+      "description": "PUMP 2 & 4"
+    },
+    {
+      "enum": [
+        11,
+        "pumpsRequired11"
+      ],
+      "description": "PUMP 1 & 2 & 4"
+    },
+    {
+      "enum": [
+        12,
+        "pumpsRequired12"
+      ],
+      "description": "PUMP 3 & 4"
+    },
+    {
+      "enum": [
+        13,
+        "pumpsRequired13"
+      ],
+      "description": "PUMP 1 & 3 & 4"
+    },
+    {
+      "enum": [
+        14,
+        "pumpsRequired14"
+      ],
+      "description": "PUMP 2 & 3 & 4"
+    },
+    {
+      "enum": [
+        15,
+        "pumpsRequired15"
+      ],
+      "description": "PUMP 1 & 2 & 3 & 4"
+    }
+  ]
+}

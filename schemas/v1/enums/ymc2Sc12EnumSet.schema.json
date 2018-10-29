@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc12EnumSet.schema.json",
+  "title": "ymc2Sc12EnumSet",
+  "description": "YMC2 Modified Run Code SC.12",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymc2Sc120"
+      ],
+      "description": "NO MODIFIED RUN CONDITIONS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ymc2Sc121"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "ymc2Sc122"
+      ],
+      "description": "RESERVED 2"
+    },
+    {
+      "enum": [
+        3,
+        "ymc2Sc123"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "ymc2Sc124"
+      ],
+      "description": "VSD - INPUT PULLDOWN LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "ymc2Sc125"
+      ],
+      "description": "VSD - HIGH INPUT CURRENT LIMIT"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bindStatusEnumSet.schema.json",
+  "title": "bindStatusEnumSet",
+  "description": "Bind Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bound"
+      ],
+      "description": "Bound"
+    },
+    {
+      "enum": [
+        1,
+        "bindInProgress"
+      ],
+      "description": "Bind in Progress"
+    },
+    {
+      "enum": [
+        2,
+        "bindPending"
+      ],
+      "description": "Bind Pending"
+    },
+    {
+      "enum": [
+        3,
+        "notBound"
+      ],
+      "description": "Not Bound"
+    },
+    {
+      "enum": [
+        4,
+        "noChange"
+      ],
+      "description": "No Change"
+    },
+    {
+      "enum": [
+        5,
+        "noCmds"
+      ],
+      "description": "No Commands"
+    }
+  ]
+}

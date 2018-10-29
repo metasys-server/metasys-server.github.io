@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/priorityPrefixEnumSet.schema.json",
+  "title": "priorityPrefixEnumSet",
+  "description": "Priority Prefix",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": ""
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "MS"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "AS"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "03"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "04"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "CE"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "MO"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "HE"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "OV"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "09"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "10"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "DL"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "12"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "LR"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "14"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "WS"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "MC"
+    }
+  ]
+}

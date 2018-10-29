@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/printErrorEnumSet.schema.json",
+  "title": "printErrorEnumSet",
+  "description": "Print Error",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "prntNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "prntConnecting"
+      ],
+      "description": "Connecting"
+    },
+    {
+      "enum": [
+        2,
+        "prntWrongDevice"
+      ],
+      "description": "Wrong Device"
+    },
+    {
+      "enum": [
+        3,
+        "prntInvalidConfig"
+      ],
+      "description": "Invalid Config"
+    },
+    {
+      "enum": [
+        4,
+        "prntQueueFull"
+      ],
+      "description": "Queue Full"
+    },
+    {
+      "enum": [
+        5,
+        "prntOutOfPaper"
+      ],
+      "description": "Out of Paper"
+    },
+    {
+      "enum": [
+        6,
+        "prntDialOutFailed"
+      ],
+      "description": "Dial Out Failed"
+    },
+    {
+      "enum": [
+        7,
+        "prntDeviceDisconnected"
+      ],
+      "description": "Disconnected"
+    },
+    {
+      "enum": [
+        8,
+        "prntOutOfMemory"
+      ],
+      "description": "Out of Memory"
+    }
+  ]
+}

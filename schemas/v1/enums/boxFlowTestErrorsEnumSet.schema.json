@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/boxFlowTestErrorsEnumSet.schema.json",
+  "title": "boxFlowTestErrorsEnumSet",
+  "description": "Box Flow Test Errors",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bfteLargeDpOffset"
+      ],
+      "description": "Large dP Offset"
+    },
+    {
+      "enum": [
+        1,
+        "bfteFlowNotReliable"
+      ],
+      "description": "Flow Not Reliable"
+    },
+    {
+      "enum": [
+        2,
+        "bfteDamperCommandNotResponding"
+      ],
+      "description": "Damper Command Not Responding"
+    },
+    {
+      "enum": [
+        3,
+        "bftePoorFlowResponse"
+      ],
+      "description": "Poor Flow Response"
+    },
+    {
+      "enum": [
+        4,
+        "bfteInsufficientFlow"
+      ],
+      "description": "Insufficient Flow"
+    },
+    {
+      "enum": [
+        5,
+        "bfteExcessiveFlow"
+      ],
+      "description": "Excessive Flow"
+    },
+    {
+      "enum": [
+        6,
+        "bfteNonIncreasingFlow"
+      ],
+      "description": "Non-Increasing Flow"
+    },
+    {
+      "enum": [
+        7,
+        "bfteExcessiveHysteresis"
+      ],
+      "description": "Excessive Hysteresis"
+    }
+  ]
+}

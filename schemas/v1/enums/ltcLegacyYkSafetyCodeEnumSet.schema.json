@@ -1,0 +1,624 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYkSafetyCodeEnumSet.schema.json",
+  "title": "ltcLegacyYkSafetyCodeEnumSet",
+  "description": "York Legacy YK Safety Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYkSafetyCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYkSafetyCode1"
+      ],
+      "description": "LOW EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYkSafetyCode2"
+      ],
+      "description": "LOW EVAPORATOR PRESSURE-BRINE"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYkSafetyCode3"
+      ],
+      "description": "LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYkSafetyCode4"
+      ],
+      "description": "HIGH CONDENSER PRESSURE"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYkSafetyCode5"
+      ],
+      "description": "HIGH EVAPORATOR PRESSURE|EVAPORATOR XDCR OR PROBE ERROR (VSD)"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYkSafetyCode6"
+      ],
+      "description": "HIGH DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYkSafetyCode7"
+      ],
+      "description": "HIGH OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYkSafetyCode8"
+      ],
+      "description": "POWER FAIL-MANUAL RESTART"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYkSafetyCode9"
+      ],
+      "description": "HIGH OIL PRESSURE|OIL PRESSURE TRANSDUCER (VSD)"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYkSafetyCode10"
+      ],
+      "description": "STARTER MALFUNCTION CODE|STARTER MALFUNCTION DETECTED (VSD)"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYkSafetyCode11"
+      ],
+      "description": "AUXILIARY SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYkSafetyCode12"
+      ],
+      "description": "LOW DISCHARGE TEMPERATURE|FAULTY DISCHARGE TEMP. SENSOR (VSD)"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYkSafetyCode13"
+      ],
+      "description": "MOTOR PHASE CURRENT UNBALANCE"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYkSafetyCode14"
+      ],
+      "description": "FLTR HIGH TDD FAULT"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYkSafetyCode15"
+      ],
+      "description": "FAULTY OIL PRESSURE TRANSDUCER"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYkSafetyCode16"
+      ],
+      "description": "FAULTY CONDENSER PRESSURE TRANSDUCER"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYkSafetyCode17"
+      ],
+      "description": "OIL PRESSURE TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYkSafetyCode18"
+      ],
+      "description": "PROXIMITY SENSOR SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYkSafetyCode19"
+      ],
+      "description": "HIGH SPEED DRAIN TEMPERATURE"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYkSafetyCode20"
+      ],
+      "description": "FAULTY PROXIMITY PROBE"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYkSafetyCode21"
+      ],
+      "description": "OPEN DRAIN TEMPERATURE THERMOCOUPLE"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYkSafetyCode22"
+      ],
+      "description": "HIGH OIL FLOW"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYkSafetyCode23"
+      ],
+      "description": "VSD INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYkSafetyCode24"
+      ],
+      "description": "VSD PHASE A OVER-CURRENT"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYkSafetyCode25"
+      ],
+      "description": "VSD PHASE B OVER-CURRENT"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYkSafetyCode26"
+      ],
+      "description": "VSD PHASE C OVER-CURRENT"
+    },
+    {
+      "enum": [
+        27,
+        "ltcLegacyYkSafetyCode27"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ltcLegacyYkSafetyCode28"
+      ],
+      "description": "VSD PHASE A GATE DRIVER"
+    },
+    {
+      "enum": [
+        29,
+        "ltcLegacyYkSafetyCode29"
+      ],
+      "description": "VSD PHASE B GATE DRIVER"
+    },
+    {
+      "enum": [
+        30,
+        "ltcLegacyYkSafetyCode30"
+      ],
+      "description": "VSD PHASE C GATE DRIVER"
+    },
+    {
+      "enum": [
+        31,
+        "ltcLegacyYkSafetyCode31"
+      ],
+      "description": "FAULTY OIL TRANSDUCER|VSD SINGLE PHASE POWER SUPPLY"
+    },
+    {
+      "enum": [
+        32,
+        "ltcLegacyYkSafetyCode32"
+      ],
+      "description": "LOW OIL TEMPERATURE DIFFERENTIAL (WITHOUT VSD)"
+    },
+    {
+      "enum": [
+        33,
+        "ltcLegacyYkSafetyCode33"
+      ],
+      "description": "FAULTY CONDENSER TRANSDUCER|VSD HEATSINK OVER TEMPERATURE (VSD)"
+    },
+    {
+      "enum": [
+        34,
+        "ltcLegacyYkSafetyCode34"
+      ],
+      "description": "OIL TRANSDUCER ERROR|VSD 105% MOTOR CURRENT OVERLOAD (VSD)"
+    },
+    {
+      "enum": [
+        35,
+        "ltcLegacyYkSafetyCode35"
+      ],
+      "description": "PROXIMITY SENSOR FAULT|VSD BUS OVERVOLTAGE (VSD)"
+    },
+    {
+      "enum": [
+        36,
+        "ltcLegacyYkSafetyCode36"
+      ],
+      "description": "HIGH DRAIN LINE TEMPERATURE|VSD MAIN BOARD POWER SUPPLY (VSD)"
+    },
+    {
+      "enum": [
+        37,
+        "ltcLegacyYkSafetyCode37"
+      ],
+      "description": "FAULTY PROXIMITY SENSOR|FLTR HEATSINK OVER TEMPERATURE (VSD)"
+    },
+    {
+      "enum": [
+        38,
+        "ltcLegacyYkSafetyCode38"
+      ],
+      "description": "OPEN THERMOCOUPLE|FLTR BUS OVER VOLTAGE (VSD)"
+    },
+    {
+      "enum": [
+        39,
+        "ltcLegacyYkSafetyCode39"
+      ],
+      "description": "FLTR PHASE C OVER CURRENT"
+    },
+    {
+      "enum": [
+        40,
+        "ltcLegacyYkSafetyCode40"
+      ],
+      "description": "FLTR PHASE B OVER CURRENT"
+    },
+    {
+      "enum": [
+        41,
+        "ltcLegacyYkSafetyCode41"
+      ],
+      "description": "FLTR PHASE A OVER CURRENT"
+    },
+    {
+      "enum": [
+        42,
+        "ltcLegacyYkSafetyCode42"
+      ],
+      "description": "FLTR PHASE LOCK LOOP"
+    },
+    {
+      "enum": [
+        43,
+        "ltcLegacyYkSafetyCode43"
+      ],
+      "description": "RESERVED 43"
+    },
+    {
+      "enum": [
+        44,
+        "ltcLegacyYkSafetyCode44"
+      ],
+      "description": "FLTR POWER SUPPLY FAULT"
+    },
+    {
+      "enum": [
+        45,
+        "ltcLegacyYkSafetyCode45"
+      ],
+      "description": "FLTR COPROCESSOR FAULT"
+    },
+    {
+      "enum": [
+        46,
+        "ltcLegacyYkSafetyCode46"
+      ],
+      "description": "FLTR A/D END OF CONVERSION FAULT"
+    },
+    {
+      "enum": [
+        47,
+        "ltcLegacyYkSafetyCode47"
+      ],
+      "description": "VSD LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        48,
+        "ltcLegacyYkSafetyCode48"
+      ],
+      "description": "VSD BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        49,
+        "ltcLegacyYkSafetyCode49"
+      ],
+      "description": "VSD HIGH AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        50,
+        "ltcLegacyYkSafetyCode50"
+      ],
+      "description": "VSD HIGH PHASE A HEATSINK"
+    },
+    {
+      "enum": [
+        51,
+        "ltcLegacyYkSafetyCode51"
+      ],
+      "description": "VSD HIGH PHASE B HEATSINK"
+    },
+    {
+      "enum": [
+        52,
+        "ltcLegacyYkSafetyCode52"
+      ],
+      "description": "VSD HIGH PHASE C HEATSINK"
+    },
+    {
+      "enum": [
+        53,
+        "ltcLegacyYkSafetyCode53"
+      ],
+      "description": "VSD HIGH CONVERTER HEATSINK"
+    },
+    {
+      "enum": [
+        54,
+        "ltcLegacyYkSafetyCode54"
+      ],
+      "description": "VSD INVALID CURRENT SCALING VALUE"
+    },
+    {
+      "enum": [
+        55,
+        "ltcLegacyYkSafetyCode55"
+      ],
+      "description": "VSD LOW PHASE A HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        56,
+        "ltcLegacyYkSafetyCode56"
+      ],
+      "description": "VSD LOW PHASE B HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        57,
+        "ltcLegacyYkSafetyCode57"
+      ],
+      "description": "VSD LOW PHASE C HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        58,
+        "ltcLegacyYkSafetyCode58"
+      ],
+      "description": "VSD LOW CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        59,
+        "ltcLegacyYkSafetyCode59"
+      ],
+      "description": "VSD OUTPUT CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        60,
+        "ltcLegacyYkSafetyCode60"
+      ],
+      "description": "VSD PRECHARGE BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        61,
+        "ltcLegacyYkSafetyCode61"
+      ],
+      "description": "VSD PRECHARGE LOW VOLTAGE"
+    },
+    {
+      "enum": [
+        62,
+        "ltcLegacyYkSafetyCode62"
+      ],
+      "description": "VSD PRECHARGE HIGH VOLTAGE"
+    },
+    {
+      "enum": [
+        63,
+        "ltcLegacyYkSafetyCode63"
+      ],
+      "description": "VSD PWM COMMUNICATIONS TIMEOUT"
+    },
+    {
+      "enum": [
+        64,
+        "ltcLegacyYkSafetyCode64"
+      ],
+      "description": "VSD RUN RELAY FAULT"
+    },
+    {
+      "enum": [
+        65,
+        "ltcLegacyYkSafetyCode65"
+      ],
+      "description": "VSD SERIAL RECEIVE FAULT"
+    },
+    {
+      "enum": [
+        66,
+        "ltcLegacyYkSafetyCode66"
+      ],
+      "description": "VSD PRECHARGE CONSECUTIVE FAULT LOCKOUT"
+    },
+    {
+      "enum": [
+        67,
+        "ltcLegacyYkSafetyCode67"
+      ],
+      "description": "VSD INVERTER INITIATED STOP"
+    },
+    {
+      "enum": [
+        68,
+        "ltcLegacyYkSafetyCode68"
+      ],
+      "description": "FLTR PRECHARGE HIGH BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        69,
+        "ltcLegacyYkSafetyCode69"
+      ],
+      "description": "FLTR PRECHARGE LOW BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        70,
+        "ltcLegacyYkSafetyCode70"
+      ],
+      "description": "FLTR PHASE ROTATION"
+    },
+    {
+      "enum": [
+        71,
+        "ltcLegacyYkSafetyCode71"
+      ],
+      "description": "FLTR POWER SUPPLY FAULT"
+    },
+    {
+      "enum": [
+        72,
+        "ltcLegacyYkSafetyCode72"
+      ],
+      "description": "FLTR A/D CONVERTER FAULT"
+    },
+    {
+      "enum": [
+        73,
+        "ltcLegacyYkSafetyCode73"
+      ],
+      "description": "FLTR LOW HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        74,
+        "ltcLegacyYkSafetyCode74"
+      ],
+      "description": "FLTR LOW BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        75,
+        "ltcLegacyYkSafetyCode75"
+      ],
+      "description": "FLTR SERIAL RECEIVE FAULT"
+    },
+    {
+      "enum": [
+        76,
+        "ltcLegacyYkSafetyCode76"
+      ],
+      "description": "FLTR THERMISTOR SENSOR SUPPLY"
+    },
+    {
+      "enum": [
+        77,
+        "ltcLegacyYkSafetyCode77"
+      ],
+      "description": "FLTR SOFTWARE BACKGROUND LOOP"
+    },
+    {
+      "enum": [
+        78,
+        "ltcLegacyYkSafetyCode78"
+      ],
+      "description": "FLTR BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        79,
+        "ltcLegacyYkSafetyCode79"
+      ],
+      "description": "FLTR OVERLOAD"
+    },
+    {
+      "enum": [
+        80,
+        "ltcLegacyYkSafetyCode80"
+      ],
+      "description": "FLTR RUN RELAY"
+    },
+    {
+      "enum": [
+        81,
+        "ltcLegacyYkSafetyCode81"
+      ],
+      "description": "FLTR HIGH INPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        82,
+        "ltcLegacyYkSafetyCode82"
+      ],
+      "description": "FLTR TRIANGLE WAVE FREQUENCY FAULT"
+    },
+    {
+      "enum": [
+        83,
+        "ltcLegacyYkSafetyCode83"
+      ],
+      "description": "FLTR DSP MEMORY"
+    },
+    {
+      "enum": [
+        84,
+        "ltcLegacyYkSafetyCode84"
+      ],
+      "description": "FLTR EXTERNAL MEMORY"
+    },
+    {
+      "enum": [
+        85,
+        "ltcLegacyYkSafetyCode85"
+      ],
+      "description": "FLTR A/D INITIALIZATION"
+    },
+    {
+      "enum": [
+        86,
+        "ltcLegacyYkSafetyCode86"
+      ],
+      "description": "FLTR DCCT 1 ERROR"
+    },
+    {
+      "enum": [
+        87,
+        "ltcLegacyYkSafetyCode87"
+      ],
+      "description": "FLTR DCCT 2 ERROR"
+    }
+  ]
+}

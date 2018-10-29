@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/minMaxCntrlEnumSet.schema.json",
+  "title": "minMaxCntrlEnumSet",
+  "description": "Min/Max/Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "minMaxCntrlMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        1,
+        "minMaxCntrlMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "minMaxCntrlControl"
+      ],
+      "description": "Control"
+    }
+  ]
+}

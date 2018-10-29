@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sszoCommandEnumSet.schema.json",
+  "title": "sszoCommandEnumSet",
+  "description": "SSZO Command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sszoCNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "sszoCBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        2,
+        "sszoCActivate"
+      ],
+      "description": "Activate"
+    },
+    {
+      "enum": [
+        3,
+        "sszoCTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        4,
+        "sszoCReset"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        5,
+        "sszoCAcknowledge"
+      ],
+      "description": "Acknowledge"
+    }
+  ]
+}

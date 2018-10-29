@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/outputCmdTimedEnumSet.schema.json",
+  "title": "outputCmdTimedEnumSet",
+  "description": "Output Timed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "outputCmdTimedActivate"
+      ],
+      "description": "Activate"
+    },
+    {
+      "enum": [
+        1,
+        "outputCmdTimedSlowFlash"
+      ],
+      "description": "Slow Flash"
+    },
+    {
+      "enum": [
+        2,
+        "outputCmdTimedFastFlash"
+      ],
+      "description": "Fast Flash"
+    },
+    {
+      "enum": [
+        3,
+        "outputCmdTimedSteady"
+      ],
+      "description": "Steady"
+    }
+  ]
+}

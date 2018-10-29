@@ -1,0 +1,435 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrShortViewStringsEnumSet.schema.json",
+  "title": "hlrShortViewStringsEnumSet",
+  "description": "HLR Short View Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrShortViewStringsDah"
+      ],
+      "description": "DAH"
+    },
+    {
+      "enum": [
+        1,
+        "hlrShortViewStringsDat"
+      ],
+      "description": "DAT"
+    },
+    {
+      "enum": [
+        2,
+        "hlrShortViewStringsReturnco2"
+      ],
+      "description": "ReturnCO2"
+    },
+    {
+      "enum": [
+        3,
+        "hlrShortViewStringsRegendat"
+      ],
+      "description": "RegenDAT"
+    },
+    {
+      "enum": [
+        4,
+        "hlrShortViewStringsSorptionco2"
+      ],
+      "description": "SorptionCO2"
+    },
+    {
+      "enum": [
+        5,
+        "hlrShortViewStringsRegenco2"
+      ],
+      "description": "RegenCO2"
+    },
+    {
+      "enum": [
+        6,
+        "hlrShortViewStringsReturnvoc"
+      ],
+      "description": "ReturnVOC"
+    },
+    {
+      "enum": [
+        7,
+        "hlrShortViewStringsCartridgedp"
+      ],
+      "description": "CartridgedP"
+    },
+    {
+      "enum": [
+        8,
+        "hlrShortViewStringsHeatfault"
+      ],
+      "description": "HeatFault"
+    },
+    {
+      "enum": [
+        9,
+        "hlrShortViewStringsInterfacetype"
+      ],
+      "description": "InterfaceType"
+    },
+    {
+      "enum": [
+        10,
+        "hlrShortViewStringsSes1Smoke"
+      ],
+      "description": "SES1Smoke"
+    },
+    {
+      "enum": [
+        11,
+        "hlrShortViewStringsSes1Minpos"
+      ],
+      "description": "SES1MinPos"
+    },
+    {
+      "enum": [
+        12,
+        "hlrShortViewStringsSes1Pos"
+      ],
+      "description": "SES1Pos"
+    },
+    {
+      "enum": [
+        13,
+        "hlrShortViewStringsTimetilunocc"
+      ],
+      "description": "TimeTilUnocc"
+    },
+    {
+      "enum": [
+        14,
+        "hlrShortViewStringsMinregentime"
+      ],
+      "description": "MinRegenTime"
+    },
+    {
+      "enum": [
+        15,
+        "hlrShortViewStringsStroketime"
+      ],
+      "description": "StrokeTime"
+    },
+    {
+      "enum": [
+        16,
+        "hlrShortViewStringsSysmode"
+      ],
+      "description": "SysMode"
+    },
+    {
+      "enum": [
+        17,
+        "hlrShortViewStringsReturnco2Losp"
+      ],
+      "description": "ReturnCO2LoSp"
+    },
+    {
+      "enum": [
+        18,
+        "hlrShortViewStringsReturnco2Hisp"
+      ],
+      "description": "ReturnCO2HiSp"
+    },
+    {
+      "enum": [
+        19,
+        "hlrShortViewStringsReturnvoclosp"
+      ],
+      "description": "ReturnVOCLoSp"
+    },
+    {
+      "enum": [
+        20,
+        "hlrShortViewStringsReturnvochisp"
+      ],
+      "description": "ReturnVOCHiSp"
+    },
+    {
+      "enum": [
+        21,
+        "hlrShortViewStringsCo2Passlmt"
+      ],
+      "description": "CO2PassLmt"
+    },
+    {
+      "enum": [
+        22,
+        "hlrShortViewStringsRegenco2Sp"
+      ],
+      "description": "RegenCO2Sp"
+    },
+    {
+      "enum": [
+        23,
+        "hlrShortViewStringsOccregentimelmt"
+      ],
+      "description": "OccRegenTimeLmt"
+    },
+    {
+      "enum": [
+        24,
+        "hlrShortViewStringsUnoccregentimelmt"
+      ],
+      "description": "UnoccRegenTimeLmt"
+    },
+    {
+      "enum": [
+        25,
+        "hlrShortViewStringsOccsorptimelmt"
+      ],
+      "description": "OccSorpTimeLmt"
+    },
+    {
+      "enum": [
+        26,
+        "hlrShortViewStringsUnoccsorptimelmt"
+      ],
+      "description": "UnoccSorpTimeLmt"
+    },
+    {
+      "enum": [
+        27,
+        "hlrShortViewStringsFanspd"
+      ],
+      "description": "FanSpd"
+    },
+    {
+      "enum": [
+        28,
+        "hlrShortViewStringsSes1CommS"
+      ],
+      "description": "SES1Comm-S"
+    },
+    {
+      "enum": [
+        29,
+        "hlrShortViewStrings4StgcommS"
+      ],
+      "description": "4StgComm-S"
+    },
+    {
+      "enum": [
+        30,
+        "hlrShortViewStringsSdpol"
+      ],
+      "description": "SDPol"
+    },
+    {
+      "enum": [
+        31,
+        "hlrShortViewStringsPurgepol"
+      ],
+      "description": "PurgePol"
+    },
+    {
+      "enum": [
+        32,
+        "hlrShortViewStringsHeatfaultpol"
+      ],
+      "description": "HeatFaultPol"
+    },
+    {
+      "enum": [
+        33,
+        "hlrShortViewStringsDahoffset"
+      ],
+      "description": "DAHOffset"
+    },
+    {
+      "enum": [
+        34,
+        "hlrShortViewStringsDatoffset"
+      ],
+      "description": "DATOffset"
+    },
+    {
+      "enum": [
+        35,
+        "hlrShortViewStringsReturnco2Offset"
+      ],
+      "description": "ReturnCO2Offset"
+    },
+    {
+      "enum": [
+        36,
+        "hlrShortViewStringsOahoffset"
+      ],
+      "description": "OAHOffset"
+    },
+    {
+      "enum": [
+        37,
+        "hlrShortViewStringsOatoffset"
+      ],
+      "description": "OATOffset"
+    },
+    {
+      "enum": [
+        38,
+        "hlrShortViewStringsRahoffset"
+      ],
+      "description": "RAHOffset"
+    },
+    {
+      "enum": [
+        39,
+        "hlrShortViewStringsRatoffset"
+      ],
+      "description": "RATOffset"
+    },
+    {
+      "enum": [
+        40,
+        "hlrShortViewStringsEconoffset"
+      ],
+      "description": "EconOffset"
+    },
+    {
+      "enum": [
+        41,
+        "hlrShortViewStringsRegendatoffset"
+      ],
+      "description": "RegenDATOffset"
+    },
+    {
+      "enum": [
+        42,
+        "hlrShortViewStringsSorpco2Offset"
+      ],
+      "description": "SorpCO2Offset"
+    },
+    {
+      "enum": [
+        43,
+        "hlrShortViewStringsRegenco2Offset"
+      ],
+      "description": "RegenCO2Offset"
+    },
+    {
+      "enum": [
+        44,
+        "hlrShortViewStringsReturnvocoffset"
+      ],
+      "description": "ReturnVOCOffset"
+    },
+    {
+      "enum": [
+        45,
+        "hlrShortViewStringsCartridgedpoffset"
+      ],
+      "description": "CartridgedPOffset"
+    },
+    {
+      "enum": [
+        46,
+        "hlrShortViewStringsSorpreturndmpr"
+      ],
+      "description": "SorpReturnDmpr"
+    },
+    {
+      "enum": [
+        47,
+        "hlrShortViewStringsSorpsupplydmrp"
+      ],
+      "description": "SorpSupplyDmrp"
+    },
+    {
+      "enum": [
+        48,
+        "hlrShortViewStringsSorpdmpr"
+      ],
+      "description": "SorpDmpr"
+    },
+    {
+      "enum": [
+        49,
+        "hlrShortViewStringsScrubrelay"
+      ],
+      "description": "ScrubRelay"
+    },
+    {
+      "enum": [
+        50,
+        "hlrShortViewStringsRegeninletdmpr"
+      ],
+      "description": "RegenInletDmpr"
+    },
+    {
+      "enum": [
+        51,
+        "hlrShortViewStringsRegenoutletdmpr"
+      ],
+      "description": "RegenOutletDmpr"
+    },
+    {
+      "enum": [
+        52,
+        "hlrShortViewStringsRegendmpr"
+      ],
+      "description": "RegenDmpr"
+    },
+    {
+      "enum": [
+        53,
+        "hlrShortViewStringsAccscrubtime"
+      ],
+      "description": "AccScrubTime"
+    },
+    {
+      "enum": [
+        54,
+        "hlrShortViewStringsAccregentime"
+      ],
+      "description": "AccRegenTime"
+    },
+    {
+      "enum": [
+        55,
+        "hlrShortViewStringsHtg1S"
+      ],
+      "description": "Htg1-S"
+    },
+    {
+      "enum": [
+        56,
+        "hlrShortViewStringsHtg2S"
+      ],
+      "description": "Htg2-S"
+    },
+    {
+      "enum": [
+        57,
+        "hlrShortViewStringsScrubfanS"
+      ],
+      "description": "ScrubFan-S"
+    },
+    {
+      "enum": [
+        58,
+        "hlrShortViewStringsRegenfanS"
+      ],
+      "description": "RegenFan-S"
+    },
+    {
+      "enum": [
+        59,
+        "hlrShortViewStringsScrubfan"
+      ],
+      "description": "ScrubFan"
+    },
+    {
+      "enum": [
+        60,
+        "hlrShortViewStringsRegenfan"
+      ],
+      "description": "RegenFan"
+    }
+  ]
+}

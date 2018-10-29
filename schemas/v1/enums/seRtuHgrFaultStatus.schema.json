@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuHgrFaultStatus.schema.json",
+  "title": "seRtuHgrFaultStatus",
+  "description": "SE RTU HGR Fault Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuHgrFaultStatusNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuHgrFaultStatusValveStuckOpenAlm"
+      ],
+      "description": "Valve Stuck Open Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuHgrFaultStatusValveStuckOpenLo"
+      ],
+      "description": "Valve Stuck Open Lockout"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuHgrFaultStatusValveStuckClosedAlm"
+      ],
+      "description": "Valve Stuck Closed Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuHgrFaultStatusValveStuckClosedLo"
+      ],
+      "description": "Valve Stuck Closed Lockout"
+    }
+  ]
+}

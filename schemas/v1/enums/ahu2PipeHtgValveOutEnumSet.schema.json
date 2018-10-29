@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahu2PipeHtgValveOutEnumSet.schema.json",
+  "title": "ahu2PipeHtgValveOutEnumSet",
+  "description": "AHU 2 Pipe Htg Valve Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahu2PipeHvoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahu2PipeHvoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ahu2PipeHvoLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "ahu2PipeHvoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "ahu2PipeHvoWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "ahu2PipeHvoTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        6,
+        "ahu2PipeHvoFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        7,
+        "ahu2PipeHvoLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        8,
+        "ahu2PipeHvoRemainInControl"
+      ],
+      "description": "Remain In Control"
+    }
+  ]
+}

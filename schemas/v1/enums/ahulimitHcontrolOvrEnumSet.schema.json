@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahulimitHcontrolOvrEnumSet.schema.json",
+  "title": "ahulimitHcontrolOvrEnumSet",
+  "description": "AHU Limited H Control OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahulimitHcontrolOvrNoLimitCtrl"
+      ],
+      "description": "No Limit Control"
+    },
+    {
+      "enum": [
+        1,
+        "ahulimitHcontrolOvrLimitedHCtrl"
+      ],
+      "description": "Limited H Control"
+    },
+    {
+      "enum": [
+        2,
+        "ahulimitHcontrolOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

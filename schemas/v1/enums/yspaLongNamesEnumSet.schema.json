@@ -1,0 +1,974 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yspaLongNamesEnumSet.schema.json",
+  "title": "yspaLongNamesEnumSet",
+  "description": "YSPA Long Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "yspaLongNames1"
+      ],
+      "description": "Start/Stop"
+    },
+    {
+      "enum": [
+        2,
+        "yspaLongNames2"
+      ],
+      "description": "Run mode"
+    },
+    {
+      "enum": [
+        3,
+        "yspaLongNames3"
+      ],
+      "description": "Leaving chilled liquid setting"
+    },
+    {
+      "enum": [
+        4,
+        "yspaLongNames4"
+      ],
+      "description": "Leaving heat liquid setting"
+    },
+    {
+      "enum": [
+        5,
+        "yspaLongNames5"
+      ],
+      "description": "Return chilled liquid setting"
+    },
+    {
+      "enum": [
+        6,
+        "yspaLongNames6"
+      ],
+      "description": "Return heat liquid setting"
+    },
+    {
+      "enum": [
+        7,
+        "yspaLongNames7"
+      ],
+      "description": "YORK011 Ambient temperature"
+    },
+    {
+      "enum": [
+        8,
+        "yspaLongNames8"
+      ],
+      "description": "YORK011 Digital input 08-01"
+    },
+    {
+      "enum": [
+        9,
+        "yspaLongNames9"
+      ],
+      "description": "YORK011 Digital output 08-01"
+    },
+    {
+      "enum": [
+        10,
+        "yspaLongNames10"
+      ],
+      "description": "Firmware version"
+    },
+    {
+      "enum": [
+        11,
+        "yspaLongNames11"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        12,
+        "yspaLongNames12"
+      ],
+      "description": "Antifreeze"
+    },
+    {
+      "enum": [
+        13,
+        "yspaLongNames13"
+      ],
+      "description": "Defrost"
+    },
+    {
+      "enum": [
+        14,
+        "yspaLongNames14"
+      ],
+      "description": "Preheat"
+    },
+    {
+      "enum": [
+        15,
+        "yspaLongNames15"
+      ],
+      "description": "1# YORK013 Compressor motor current"
+    },
+    {
+      "enum": [
+        16,
+        "yspaLongNames16"
+      ],
+      "description": "1# YORK013 Discharge temperature"
+    },
+    {
+      "enum": [
+        17,
+        "yspaLongNames17"
+      ],
+      "description": "1# YORK013 1st Suction temperature"
+    },
+    {
+      "enum": [
+        18,
+        "yspaLongNames18"
+      ],
+      "description": "1# YORK013 2nd Suction temperature"
+    },
+    {
+      "enum": [
+        19,
+        "yspaLongNames19"
+      ],
+      "description": "1# YORK013 ECO temperature"
+    },
+    {
+      "enum": [
+        20,
+        "yspaLongNames20"
+      ],
+      "description": "1# YORK013 Suction pressure"
+    },
+    {
+      "enum": [
+        21,
+        "yspaLongNames21"
+      ],
+      "description": "1# YORK013 Oil pressure"
+    },
+    {
+      "enum": [
+        22,
+        "yspaLongNames22"
+      ],
+      "description": "1# YORK013 Discharge pressure"
+    },
+    {
+      "enum": [
+        23,
+        "yspaLongNames23"
+      ],
+      "description": "1# YORK013 ECO pressure"
+    },
+    {
+      "enum": [
+        24,
+        "yspaLongNames24"
+      ],
+      "description": "1# YORK013 Liquid refrigerant temperature"
+    },
+    {
+      "enum": [
+        25,
+        "yspaLongNames25"
+      ],
+      "description": "1# YORK013 Heat recovery Leaving chilled liquid"
+    },
+    {
+      "enum": [
+        26,
+        "yspaLongNames26"
+      ],
+      "description": "1# YORK013 1st Coil tube temperature"
+    },
+    {
+      "enum": [
+        27,
+        "yspaLongNames27"
+      ],
+      "description": "1# YORK013 2nd Coil tube temperature"
+    },
+    {
+      "enum": [
+        28,
+        "yspaLongNames28"
+      ],
+      "description": "1# YORK013 3rd Coil tube temperature"
+    },
+    {
+      "enum": [
+        29,
+        "yspaLongNames29"
+      ],
+      "description": "1# YORK013 4th Coil tube temperature"
+    },
+    {
+      "enum": [
+        30,
+        "yspaLongNames30"
+      ],
+      "description": "1# YORK013 Middle tank pressure"
+    },
+    {
+      "enum": [
+        31,
+        "yspaLongNames31"
+      ],
+      "description": "1# YORK013 Liquid line refrigerant pressure"
+    },
+    {
+      "enum": [
+        32,
+        "yspaLongNames32"
+      ],
+      "description": "1# YORK013 Leaving chilled liquid temperature"
+    },
+    {
+      "enum": [
+        33,
+        "yspaLongNames33"
+      ],
+      "description": "1# YORK013 Return chilled liquid temperature"
+    },
+    {
+      "enum": [
+        34,
+        "yspaLongNames34"
+      ],
+      "description": "1# YORK013 Compressor motor temperature"
+    },
+    {
+      "enum": [
+        35,
+        "yspaLongNames35"
+      ],
+      "description": "1# YORK013 Digital input 08-01"
+    },
+    {
+      "enum": [
+        36,
+        "yspaLongNames36"
+      ],
+      "description": "1# YORK013 Digital output 16-01"
+    },
+    {
+      "enum": [
+        37,
+        "yspaLongNames37"
+      ],
+      "description": "1# YORK013 Digital output 32-17"
+    },
+    {
+      "enum": [
+        38,
+        "yspaLongNames38"
+      ],
+      "description": "1# YORK013 1st Electronic expansion valve position"
+    },
+    {
+      "enum": [
+        39,
+        "yspaLongNames39"
+      ],
+      "description": "1# YORK013 2nd Electronic expansion valve position"
+    },
+    {
+      "enum": [
+        40,
+        "yspaLongNames40"
+      ],
+      "description": "1# YORK013 3rd Electronic expansion valve position"
+    },
+    {
+      "enum": [
+        41,
+        "yspaLongNames41"
+      ],
+      "description": "1# YORK013 Firmware version"
+    },
+    {
+      "enum": [
+        42,
+        "yspaLongNames42"
+      ],
+      "description": "1# YORK013 Compressor motor full load amps"
+    },
+    {
+      "enum": [
+        43,
+        "yspaLongNames43"
+      ],
+      "description": "1# YORK013 Total time of compressor operation"
+    },
+    {
+      "enum": [
+        44,
+        "yspaLongNames44"
+      ],
+      "description": "1# YORK013 Startup times of compressor"
+    },
+    {
+      "enum": [
+        45,
+        "yspaLongNames45"
+      ],
+      "description": "1# YORK013 Compressor operation code"
+    },
+    {
+      "enum": [
+        46,
+        "yspaLongNames46"
+      ],
+      "description": "1# YORK013 Compressor capacity"
+    },
+    {
+      "enum": [
+        47,
+        "yspaLongNames47"
+      ],
+      "description": "1# YORK013 Suction saturation temperature"
+    },
+    {
+      "enum": [
+        48,
+        "yspaLongNames48"
+      ],
+      "description": "1# YORK013 1st Suction superheat"
+    },
+    {
+      "enum": [
+        49,
+        "yspaLongNames49"
+      ],
+      "description": "1# YORK013 2nd Suction superheat"
+    },
+    {
+      "enum": [
+        50,
+        "yspaLongNames50"
+      ],
+      "description": "1# YORK013 Discharge saturation temperature"
+    },
+    {
+      "enum": [
+        51,
+        "yspaLongNames51"
+      ],
+      "description": "1# YORK013 Dsicharge superheat"
+    },
+    {
+      "enum": [
+        52,
+        "yspaLongNames52"
+      ],
+      "description": "1# YORK013 1st Electronic expansion valve operation code"
+    },
+    {
+      "enum": [
+        53,
+        "yspaLongNames53"
+      ],
+      "description": "1# YORK013 2nd Electronic expansion valve operation code"
+    },
+    {
+      "enum": [
+        54,
+        "yspaLongNames54"
+      ],
+      "description": "1# YORK013 3rd Electronic expansion valve operation code"
+    },
+    {
+      "enum": [
+        55,
+        "yspaLongNames55"
+      ],
+      "description": "1# YORK013 ECO saturation temperature"
+    },
+    {
+      "enum": [
+        56,
+        "yspaLongNames56"
+      ],
+      "description": "1# YORK013 ECO superheat"
+    },
+    {
+      "enum": [
+        57,
+        "yspaLongNames57"
+      ],
+      "description": "1# YORK013 Liquid line saturation temperature"
+    },
+    {
+      "enum": [
+        58,
+        "yspaLongNames58"
+      ],
+      "description": "1# YORK013 Liquid line subcolling"
+    },
+    {
+      "enum": [
+        59,
+        "yspaLongNames59"
+      ],
+      "description": "2# YORK013 Compressor motor current"
+    },
+    {
+      "enum": [
+        60,
+        "yspaLongNames60"
+      ],
+      "description": "2# YORK013 Discharge temperature"
+    },
+    {
+      "enum": [
+        61,
+        "yspaLongNames61"
+      ],
+      "description": "2# YORK013 1st Suction temperature"
+    },
+    {
+      "enum": [
+        62,
+        "yspaLongNames62"
+      ],
+      "description": "2# YORK013 2nd Suction temperature"
+    },
+    {
+      "enum": [
+        63,
+        "yspaLongNames63"
+      ],
+      "description": "2# YORK013 ECO temperature"
+    },
+    {
+      "enum": [
+        64,
+        "yspaLongNames64"
+      ],
+      "description": "2# YORK013 Suction pressure"
+    },
+    {
+      "enum": [
+        65,
+        "yspaLongNames65"
+      ],
+      "description": "2# YORK013 Oil pressure"
+    },
+    {
+      "enum": [
+        66,
+        "yspaLongNames66"
+      ],
+      "description": "2# YORK013 Discharge pressure"
+    },
+    {
+      "enum": [
+        67,
+        "yspaLongNames67"
+      ],
+      "description": "2# YORK013 ECO pressure"
+    },
+    {
+      "enum": [
+        68,
+        "yspaLongNames68"
+      ],
+      "description": "2# YORK013 Liquid refrigerant temperature"
+    },
+    {
+      "enum": [
+        69,
+        "yspaLongNames69"
+      ],
+      "description": "2# YORK013 Heat recovery Leaving chilled liquid"
+    },
+    {
+      "enum": [
+        70,
+        "yspaLongNames70"
+      ],
+      "description": "2# YORK013 1st Coil tube temperature"
+    },
+    {
+      "enum": [
+        71,
+        "yspaLongNames71"
+      ],
+      "description": "2# YORK013 2nd Coil tube temperature"
+    },
+    {
+      "enum": [
+        72,
+        "yspaLongNames72"
+      ],
+      "description": "2# YORK013 3rd Coil tube temperature"
+    },
+    {
+      "enum": [
+        73,
+        "yspaLongNames73"
+      ],
+      "description": "2# YORK013 4th Coil tube temperature"
+    },
+    {
+      "enum": [
+        74,
+        "yspaLongNames74"
+      ],
+      "description": "2# YORK013 Middle tank pressure"
+    },
+    {
+      "enum": [
+        75,
+        "yspaLongNames75"
+      ],
+      "description": "2# YORK013 Liquid line refrigerant pressure"
+    },
+    {
+      "enum": [
+        76,
+        "yspaLongNames76"
+      ],
+      "description": "2# YORK013 Leaving chilled liquid temperature"
+    },
+    {
+      "enum": [
+        77,
+        "yspaLongNames77"
+      ],
+      "description": "2# YORK013 Return chilled liquid temperature"
+    },
+    {
+      "enum": [
+        78,
+        "yspaLongNames78"
+      ],
+      "description": "2# YORK013 Compressor motor temperature"
+    },
+    {
+      "enum": [
+        79,
+        "yspaLongNames79"
+      ],
+      "description": "2# YORK013 Digital input 08-01"
+    },
+    {
+      "enum": [
+        80,
+        "yspaLongNames80"
+      ],
+      "description": "2# YORK013 Digital output 16-01"
+    },
+    {
+      "enum": [
+        81,
+        "yspaLongNames81"
+      ],
+      "description": "2# YORK013 Digital output 32-17"
+    },
+    {
+      "enum": [
+        82,
+        "yspaLongNames82"
+      ],
+      "description": "2# YORK013 1st Electronic expansion valve position"
+    },
+    {
+      "enum": [
+        83,
+        "yspaLongNames83"
+      ],
+      "description": "2# YORK013 2nd Electronic expansion valve position"
+    },
+    {
+      "enum": [
+        84,
+        "yspaLongNames84"
+      ],
+      "description": "2# YORK013 3rd Electronic expansion valve position"
+    },
+    {
+      "enum": [
+        85,
+        "yspaLongNames85"
+      ],
+      "description": "2# YORK013 Firmware version"
+    },
+    {
+      "enum": [
+        86,
+        "yspaLongNames86"
+      ],
+      "description": "2# YORK013 Compressor motor full load amps"
+    },
+    {
+      "enum": [
+        87,
+        "yspaLongNames87"
+      ],
+      "description": "2# YORK013 Total time of compressor operation"
+    },
+    {
+      "enum": [
+        88,
+        "yspaLongNames88"
+      ],
+      "description": "2# YORK013 Startup times of compressor"
+    },
+    {
+      "enum": [
+        89,
+        "yspaLongNames89"
+      ],
+      "description": "2# YORK013 Compressor operation code"
+    },
+    {
+      "enum": [
+        90,
+        "yspaLongNames90"
+      ],
+      "description": "2# YORK013 Compressor capacity"
+    },
+    {
+      "enum": [
+        91,
+        "yspaLongNames91"
+      ],
+      "description": "2# YORK013 Suction saturation temperature"
+    },
+    {
+      "enum": [
+        92,
+        "yspaLongNames92"
+      ],
+      "description": "2# YORK013 1st Suction superheat"
+    },
+    {
+      "enum": [
+        93,
+        "yspaLongNames93"
+      ],
+      "description": "2# YORK013 2nd Suction superheat"
+    },
+    {
+      "enum": [
+        94,
+        "yspaLongNames94"
+      ],
+      "description": "2# YORK013 Discharge saturation temperature"
+    },
+    {
+      "enum": [
+        95,
+        "yspaLongNames95"
+      ],
+      "description": "2# YORK013 Discharge superheat"
+    },
+    {
+      "enum": [
+        96,
+        "yspaLongNames96"
+      ],
+      "description": "2# YORK013 1st Electronic expansion valve operation code"
+    },
+    {
+      "enum": [
+        97,
+        "yspaLongNames97"
+      ],
+      "description": "2# YORK013 2nd Electronic expansion valve operation code"
+    },
+    {
+      "enum": [
+        98,
+        "yspaLongNames98"
+      ],
+      "description": "2# YORK013 3rd Electronic expansion valve operation code"
+    },
+    {
+      "enum": [
+        99,
+        "yspaLongNames99"
+      ],
+      "description": "2# YORK013 ECO saturation temperature"
+    },
+    {
+      "enum": [
+        100,
+        "yspaLongNames100"
+      ],
+      "description": "2# YORK013 ECO superheat"
+    },
+    {
+      "enum": [
+        101,
+        "yspaLongNames101"
+      ],
+      "description": "2# YORK013 Liquid line saturation temperature"
+    },
+    {
+      "enum": [
+        102,
+        "yspaLongNames102"
+      ],
+      "description": "2# YORK013 Liquid line subcooling"
+    },
+    {
+      "enum": [
+        103,
+        "yspaLongNames103"
+      ],
+      "description": "Fault code"
+    },
+    {
+      "enum": [
+        104,
+        "yspaLongNames104"
+      ],
+      "description": "Fault position"
+    },
+    {
+      "enum": [
+        105,
+        "yspaLongNames105"
+      ],
+      "description": "Fault Begin time Month"
+    },
+    {
+      "enum": [
+        106,
+        "yspaLongNames106"
+      ],
+      "description": "Fault Begin time Day"
+    },
+    {
+      "enum": [
+        107,
+        "yspaLongNames107"
+      ],
+      "description": "Fault Begin time hour"
+    },
+    {
+      "enum": [
+        108,
+        "yspaLongNames108"
+      ],
+      "description": "Fault Begin time minute"
+    },
+    {
+      "enum": [
+        109,
+        "yspaLongNames109"
+      ],
+      "description": "Fault End time Month"
+    },
+    {
+      "enum": [
+        110,
+        "yspaLongNames110"
+      ],
+      "description": "Fault End time Day"
+    },
+    {
+      "enum": [
+        111,
+        "yspaLongNames111"
+      ],
+      "description": "Fault End time hour"
+    },
+    {
+      "enum": [
+        112,
+        "yspaLongNames112"
+      ],
+      "description": "Fault End time minute"
+    },
+    {
+      "enum": [
+        113,
+        "yspaLongNames113"
+      ],
+      "description": "Fault YORK011 Ambient temperature"
+    },
+    {
+      "enum": [
+        114,
+        "yspaLongNames114"
+      ],
+      "description": "Fault YORK011 Digital input 08-01"
+    },
+    {
+      "enum": [
+        115,
+        "yspaLongNames115"
+      ],
+      "description": "Fault YORK011 Digital output 08-01"
+    },
+    {
+      "enum": [
+        116,
+        "yspaLongNames116"
+      ],
+      "description": "Fault YORK013 Compressor motor current"
+    },
+    {
+      "enum": [
+        117,
+        "yspaLongNames117"
+      ],
+      "description": "Fault YORK013 Discharge temperature"
+    },
+    {
+      "enum": [
+        118,
+        "yspaLongNames118"
+      ],
+      "description": "Fault YORK013 1st Suction temperature"
+    },
+    {
+      "enum": [
+        119,
+        "yspaLongNames119"
+      ],
+      "description": "Fault YORK013 2nd Suction temperature"
+    },
+    {
+      "enum": [
+        120,
+        "yspaLongNames120"
+      ],
+      "description": "Fault YORK013 ECO temperature"
+    },
+    {
+      "enum": [
+        121,
+        "yspaLongNames121"
+      ],
+      "description": "Fault YORK013 Suction pressure"
+    },
+    {
+      "enum": [
+        122,
+        "yspaLongNames122"
+      ],
+      "description": "Fault YORK013 Oil pressure"
+    },
+    {
+      "enum": [
+        123,
+        "yspaLongNames123"
+      ],
+      "description": "Fault YORK013 Discharge pressure"
+    },
+    {
+      "enum": [
+        124,
+        "yspaLongNames124"
+      ],
+      "description": "Fault YORK013 ECO pressure"
+    },
+    {
+      "enum": [
+        125,
+        "yspaLongNames125"
+      ],
+      "description": "Fault YORK013 Liquid refrigerant temperature"
+    },
+    {
+      "enum": [
+        126,
+        "yspaLongNames126"
+      ],
+      "description": "Fault YORK013 Heat recovery Leaving chilled liquid"
+    },
+    {
+      "enum": [
+        127,
+        "yspaLongNames127"
+      ],
+      "description": "Fault YORK013 1st Coil tube temperature"
+    },
+    {
+      "enum": [
+        128,
+        "yspaLongNames128"
+      ],
+      "description": "Fault YORK013 2nd Coil tube temperature"
+    },
+    {
+      "enum": [
+        129,
+        "yspaLongNames129"
+      ],
+      "description": "Fault YORK013 3rd Coil tube temperature"
+    },
+    {
+      "enum": [
+        130,
+        "yspaLongNames130"
+      ],
+      "description": "Fault YORK013 4th Coil tube temperature"
+    },
+    {
+      "enum": [
+        131,
+        "yspaLongNames131"
+      ],
+      "description": "Fault YORK013 Middle tank pressure"
+    },
+    {
+      "enum": [
+        132,
+        "yspaLongNames132"
+      ],
+      "description": "Fault YORK013 Liquid line refrigerant pressure"
+    },
+    {
+      "enum": [
+        133,
+        "yspaLongNames133"
+      ],
+      "description": "Fault YORK013 Leaving chilled liquid temperature"
+    },
+    {
+      "enum": [
+        134,
+        "yspaLongNames134"
+      ],
+      "description": "Fault YORK013 Return chilled liquid temperature"
+    },
+    {
+      "enum": [
+        135,
+        "yspaLongNames135"
+      ],
+      "description": "Fault YORK013 Compressor motor temperature"
+    },
+    {
+      "enum": [
+        136,
+        "yspaLongNames136"
+      ],
+      "description": "Fault YORK013 Digital input 08-01"
+    },
+    {
+      "enum": [
+        137,
+        "yspaLongNames137"
+      ],
+      "description": "Fault YORK013 Digital output 16-01"
+    },
+    {
+      "enum": [
+        138,
+        "yspaLongNames138"
+      ],
+      "description": "Fault YORK013 Digital output 32-17"
+    }
+  ]
+}

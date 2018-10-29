@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalFireEnumMsEnumSet.schema.json",
+  "title": "normalFireEnumMsEnumSet",
+  "description": "Normal/Fire",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normalFireNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "normalFireFire"
+      ],
+      "description": "Fire"
+    }
+  ]
+}

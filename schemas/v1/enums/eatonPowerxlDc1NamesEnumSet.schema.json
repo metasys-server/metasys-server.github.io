@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eatonPowerxlDc1NamesEnumSet.schema.json",
+  "title": "eatonPowerxlDc1NamesEnumSet",
+  "description": "Eaton PowerXL DC1 Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "eatonPowerxlDc1Names1"
+      ],
+      "description": "Field Bus Command"
+    },
+    {
+      "enum": [
+        2,
+        "eatonPowerxlDc1Names2"
+      ],
+      "description": "Field Bus Speed Reference Value"
+    },
+    {
+      "enum": [
+        3,
+        "eatonPowerxlDc1Names3"
+      ],
+      "description": "Modbus Ramp Time"
+    },
+    {
+      "enum": [
+        4,
+        "eatonPowerxlDc1Names4"
+      ],
+      "description": "Status and Fault Word"
+    },
+    {
+      "enum": [
+        5,
+        "eatonPowerxlDc1Names5"
+      ],
+      "description": "Field Bus Actual Speed"
+    },
+    {
+      "enum": [
+        6,
+        "eatonPowerxlDc1Names6"
+      ],
+      "description": "Motor Current"
+    },
+    {
+      "enum": [
+        7,
+        "eatonPowerxlDc1Names7"
+      ],
+      "description": "DI Status"
+    },
+    {
+      "enum": [
+        8,
+        "eatonPowerxlDc1Names8"
+      ],
+      "description": "Type"
+    },
+    {
+      "enum": [
+        9,
+        "eatonPowerxlDc1Names9"
+      ],
+      "description": "Power"
+    },
+    {
+      "enum": [
+        10,
+        "eatonPowerxlDc1Names10"
+      ],
+      "description": "Voltage Level"
+    },
+    {
+      "enum": [
+        11,
+        "eatonPowerxlDc1Names11"
+      ],
+      "description": "Control Section SW Version"
+    },
+    {
+      "enum": [
+        12,
+        "eatonPowerxlDc1Names12"
+      ],
+      "description": "Power Section SW Version"
+    },
+    {
+      "enum": [
+        13,
+        "eatonPowerxlDc1Names13"
+      ],
+      "description": "Variable Frequency Drive Recog"
+    },
+    {
+      "enum": [
+        14,
+        "eatonPowerxlDc1Names14"
+      ],
+      "description": "Value AI1"
+    },
+    {
+      "enum": [
+        15,
+        "eatonPowerxlDc1Names15"
+      ],
+      "description": "Value AI2"
+    },
+    {
+      "enum": [
+        16,
+        "eatonPowerxlDc1Names16"
+      ],
+      "description": "Reference Input Speed"
+    },
+    {
+      "enum": [
+        17,
+        "eatonPowerxlDc1Names17"
+      ],
+      "description": "DC Link Voltage"
+    },
+    {
+      "enum": [
+        18,
+        "eatonPowerxlDc1Names18"
+      ],
+      "description": "VFD Temp"
+    },
+    {
+      "enum": [
+        19,
+        "eatonPowerxlDc1Names19"
+      ],
+      "description": "VFD Operating Time - Hour"
+    },
+    {
+      "enum": [
+        20,
+        "eatonPowerxlDc1Names20"
+      ],
+      "description": "VFD Operating Time - Min/S"
+    },
+    {
+      "enum": [
+        21,
+        "eatonPowerxlDc1Names21"
+      ],
+      "description": "VFD Operating Time Since Fault - Hour"
+    },
+    {
+      "enum": [
+        22,
+        "eatonPowerxlDc1Names22"
+      ],
+      "description": "VFD Operating Time Since Fault - Min/S"
+    }
+  ]
+}

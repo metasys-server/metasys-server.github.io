@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eventCategoryEnumSet.schema.json",
+  "title": "eventCategoryEnumSet",
+  "description": "Event Category",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "evcatHvac"
+      ],
+      "description": "HVAC"
+    },
+    {
+      "enum": [
+        1,
+        "evcatFire"
+      ],
+      "description": "Fire"
+    },
+    {
+      "enum": [
+        2,
+        "evcatSecurity"
+      ],
+      "description": "Security"
+    },
+    {
+      "enum": [
+        3,
+        "evcatServices"
+      ],
+      "description": "Services"
+    },
+    {
+      "enum": [
+        4,
+        "evcatAdministrative"
+      ],
+      "description": "Administrative"
+    },
+    {
+      "enum": [
+        5,
+        "evcatAccessGrantCategory"
+      ],
+      "description": "Access Grant"
+    },
+    {
+      "enum": [
+        6,
+        "evcatAccessDenyCategory"
+      ],
+      "description": "Access Deny"
+    },
+    {
+      "enum": [
+        7,
+        "evcatCardTraceCategory"
+      ],
+      "description": "Card Trace"
+    },
+    {
+      "enum": [
+        8,
+        "evcatTAAccessCategory"
+      ],
+      "description": "T&A Access"
+    },
+    {
+      "enum": [
+        9,
+        "evcatOutputPointStatusCategory"
+      ],
+      "description": "Output Point Status"
+    },
+    {
+      "enum": [
+        10,
+        "evcatInputPointStatusCategory"
+      ],
+      "description": "Input Point Status"
+    },
+    {
+      "enum": [
+        11,
+        "evcatPanelEventCategory"
+      ],
+      "description": "Panel Event"
+    },
+    {
+      "enum": [
+        12,
+        "evcatPanelHardwareStatusCategory"
+      ],
+      "description": "Panel Hw Status"
+    },
+    {
+      "enum": [
+        13,
+        "evcatAuditCategory"
+      ],
+      "description": "Audit"
+    },
+    {
+      "enum": [
+        14,
+        "evcatHostEventCategory"
+      ],
+      "description": "Host Event"
+    },
+    {
+      "enum": [
+        15,
+        "evcatHostLogCategory"
+      ],
+      "description": "Host Log"
+    },
+    {
+      "enum": [
+        16,
+        "evcatHostLogicCategory"
+      ],
+      "description": "Host Logic"
+    }
+  ]
+}

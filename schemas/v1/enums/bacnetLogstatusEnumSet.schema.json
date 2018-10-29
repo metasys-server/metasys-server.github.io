@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetLogstatusEnumSet.schema.json",
+  "title": "bacnetLogstatusEnumSet",
+  "description": "BACnet Log Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "logStatusDisabled"
+      ],
+      "description": "Log Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "logStatusPurged"
+      ],
+      "description": "Log Purged"
+    },
+    {
+      "enum": [
+        2,
+        "logStatusInterrupted"
+      ],
+      "description": "Log Interrupted"
+    },
+    {
+      "enum": [
+        3,
+        "logStatusEnabled"
+      ],
+      "description": "Log Enabled"
+    }
+  ]
+}

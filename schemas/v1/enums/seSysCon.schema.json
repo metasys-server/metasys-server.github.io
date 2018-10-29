@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seSysCon.schema.json",
+  "title": "seSysCon",
+  "description": "SE RTU System Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seSysConSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "seSysConHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        2,
+        "seSysConMaxHeat"
+      ],
+      "description": "Max Heat"
+    },
+    {
+      "enum": [
+        3,
+        "seSysConHeatingUnrel"
+      ],
+      "description": "Heating Process Variable Unreliable"
+    },
+    {
+      "enum": [
+        4,
+        "seSysConHeat2Cool"
+      ],
+      "description": "Heat To Cool Delay"
+    },
+    {
+      "enum": [
+        5,
+        "seSysConEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        6,
+        "seSysConEconMech"
+      ],
+      "description": "Econ And Mech"
+    },
+    {
+      "enum": [
+        7,
+        "seSysConCool"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        8,
+        "seSysConCoolingUnrel"
+      ],
+      "description": "Cooling Process Variable Unreliable"
+    },
+    {
+      "enum": [
+        9,
+        "seSysConCool2Heat"
+      ],
+      "description": "Cool To Heat Delay"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/chillerPipingEnumSet.schema.json",
+  "title": "chillerPipingEnumSet",
+  "description": "Chiller Piping",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "chPipingHeadered"
+      ],
+      "description": "Headered"
+    },
+    {
+      "enum": [
+        1,
+        "chPipingDedicated"
+      ],
+      "description": "Dedicated"
+    },
+    {
+      "enum": [
+        2,
+        "chPipingNone"
+      ],
+      "description": "None"
+    }
+  ]
+}

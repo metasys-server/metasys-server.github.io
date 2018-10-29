@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/modbusScalingFactorEnumSet.schema.json",
+  "title": "modbusScalingFactorEnumSet",
+  "description": "ModBus Scaling Factor",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "msfDiv10000"
+      ],
+      "description": "0.0001"
+    },
+    {
+      "enum": [
+        1,
+        "msfDiv1000"
+      ],
+      "description": "0.001"
+    },
+    {
+      "enum": [
+        2,
+        "msfDiv100"
+      ],
+      "description": "0.01"
+    },
+    {
+      "enum": [
+        3,
+        "msfDiv10"
+      ],
+      "description": "0.1"
+    },
+    {
+      "enum": [
+        4,
+        "msfOne"
+      ],
+      "description": "1"
+    },
+    {
+      "enum": [
+        5,
+        "msfMul10"
+      ],
+      "description": "10"
+    },
+    {
+      "enum": [
+        6,
+        "msfMul100"
+      ],
+      "description": "100"
+    },
+    {
+      "enum": [
+        7,
+        "msfMul1000"
+      ],
+      "description": "1000"
+    }
+  ]
+}

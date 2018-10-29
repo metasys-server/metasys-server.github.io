@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcIntrusionAlarmEnumSet.schema.json",
+  "title": "unityXlcIntrusionAlarmEnumSet",
+  "description": "Unity XLC Intrusion Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "INTRUS"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "CLEAR"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "INTRUS1"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "INTRUS2"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, INTRUS"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, CLEAR"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

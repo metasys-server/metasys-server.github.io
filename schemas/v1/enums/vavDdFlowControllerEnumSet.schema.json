@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavDdFlowControllerEnumSet.schema.json",
+  "title": "vavDdFlowControllerEnumSet",
+  "description": "VAV DD Flow Controller",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavDdFlowCtrlMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        1,
+        "vavDdFlowCtrlMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "vavDdFlowCtrlHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "vavDdFlowCtrlControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        4,
+        "vavDdFlowCtrlFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

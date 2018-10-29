@@ -1,0 +1,386 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/taskNameEnumSet.schema.json",
+  "title": "taskNameEnumSet",
+  "description": "Task Name",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "OS Timer"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Sec Timer"
+    },
+    {
+      "enum": [
+        302,
+        "302"
+      ],
+      "description": "Commission"
+    },
+    {
+      "enum": [
+        304,
+        "304"
+      ],
+      "description": "Timer"
+    },
+    {
+      "enum": [
+        305,
+        "305"
+      ],
+      "description": "Initialization"
+    },
+    {
+      "enum": [
+        306,
+        "306"
+      ],
+      "description": "Comm System"
+    },
+    {
+      "enum": [
+        310,
+        "310"
+      ],
+      "description": "BAC Data"
+    },
+    {
+      "enum": [
+        312,
+        "312"
+      ],
+      "description": "LOPE"
+    },
+    {
+      "enum": [
+        313,
+        "313"
+      ],
+      "description": "LOPE 2"
+    },
+    {
+      "enum": [
+        330,
+        "330"
+      ],
+      "description": "ADC Done"
+    },
+    {
+      "enum": [
+        331,
+        "331"
+      ],
+      "description": "N2 Comms"
+    },
+    {
+      "enum": [
+        332,
+        "332"
+      ],
+      "description": "Diagnostics"
+    },
+    {
+      "enum": [
+        341,
+        "341"
+      ],
+      "description": "N2M"
+    },
+    {
+      "enum": [
+        342,
+        "342"
+      ],
+      "description": "N2S"
+    },
+    {
+      "enum": [
+        343,
+        "343"
+      ],
+      "description": "N3M"
+    },
+    {
+      "enum": [
+        344,
+        "344"
+      ],
+      "description": "N3S"
+    },
+    {
+      "enum": [
+        345,
+        "345"
+      ],
+      "description": "LON"
+    },
+    {
+      "enum": [
+        346,
+        "346"
+      ],
+      "description": "UDP/IP Rx"
+    },
+    {
+      "enum": [
+        347,
+        "347"
+      ],
+      "description": "UPD/IP"
+    },
+    {
+      "enum": [
+        348,
+        "348"
+      ],
+      "description": "Ethernet"
+    },
+    {
+      "enum": [
+        350,
+        "350"
+      ],
+      "description": "SDL 1"
+    },
+    {
+      "enum": [
+        351,
+        "351"
+      ],
+      "description": "SDL 2"
+    },
+    {
+      "enum": [
+        352,
+        "352"
+      ],
+      "description": "SDL 3"
+    },
+    {
+      "enum": [
+        353,
+        "353"
+      ],
+      "description": "SDL 4"
+    },
+    {
+      "enum": [
+        354,
+        "354"
+      ],
+      "description": "RTIP Main"
+    },
+    {
+      "enum": [
+        355,
+        "355"
+      ],
+      "description": "RTIP Main 1"
+    },
+    {
+      "enum": [
+        356,
+        "356"
+      ],
+      "description": "RTIP Main 2"
+    },
+    {
+      "enum": [
+        357,
+        "357"
+      ],
+      "description": "RTIP Main 3"
+    },
+    {
+      "enum": [
+        358,
+        "358"
+      ],
+      "description": "RTIP Timer"
+    },
+    {
+      "enum": [
+        360,
+        "360"
+      ],
+      "description": "VtPMI 1"
+    },
+    {
+      "enum": [
+        361,
+        "361"
+      ],
+      "description": "VtPMI 2"
+    },
+    {
+      "enum": [
+        362,
+        "362"
+      ],
+      "description": "VtPMI 3"
+    },
+    {
+      "enum": [
+        363,
+        "363"
+      ],
+      "description": "VtCom 1"
+    },
+    {
+      "enum": [
+        364,
+        "364"
+      ],
+      "description": "VtCom 2"
+    },
+    {
+      "enum": [
+        365,
+        "365"
+      ],
+      "description": "VtCom 3"
+    },
+    {
+      "enum": [
+        366,
+        "366"
+      ],
+      "description": "TOD"
+    },
+    {
+      "enum": [
+        367,
+        "367"
+      ],
+      "description": "Print 1"
+    },
+    {
+      "enum": [
+        368,
+        "368"
+      ],
+      "description": "Print 2"
+    },
+    {
+      "enum": [
+        369,
+        "369"
+      ],
+      "description": "Print 3"
+    },
+    {
+      "enum": [
+        370,
+        "370"
+      ],
+      "description": "PPP St 1"
+    },
+    {
+      "enum": [
+        371,
+        "371"
+      ],
+      "description": "PPP St 2"
+    },
+    {
+      "enum": [
+        372,
+        "372"
+      ],
+      "description": "PPP St 3"
+    },
+    {
+      "enum": [
+        373,
+        "373"
+      ],
+      "description": "PPP Rx 1"
+    },
+    {
+      "enum": [
+        374,
+        "374"
+      ],
+      "description": "PPP Rx 2"
+    },
+    {
+      "enum": [
+        375,
+        "375"
+      ],
+      "description": "PPP Rx 3"
+    },
+    {
+      "enum": [
+        376,
+        "376"
+      ],
+      "description": "PPP Int 1"
+    },
+    {
+      "enum": [
+        377,
+        "377"
+      ],
+      "description": "PPP Int 2"
+    },
+    {
+      "enum": [
+        378,
+        "378"
+      ],
+      "description": "PPP Int 3"
+    },
+    {
+      "enum": [
+        379,
+        "379"
+      ],
+      "description": "MSTP"
+    },
+    {
+      "enum": [
+        380,
+        "380"
+      ],
+      "description": "MSTPM"
+    },
+    {
+      "enum": [
+        401,
+        "401"
+      ],
+      "description": "Object Eng"
+    },
+    {
+      "enum": [
+        403,
+        "403"
+      ],
+      "description": "PCPE"
+    }
+  ]
+}

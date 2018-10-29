@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/euCoolingEventNamesEnumSet.schema.json",
+  "title": "euCoolingEventNamesEnumSet",
+  "description": "EU Cooling Events",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "euCoolingEventNames1"
+      ],
+      "description": "Chiller Fault"
+    },
+    {
+      "enum": [
+        2,
+        "euCoolingEventNames2"
+      ],
+      "description": "Chiller 1 Fault"
+    },
+    {
+      "enum": [
+        3,
+        "euCoolingEventNames3"
+      ],
+      "description": "Chiller 2 Fault"
+    },
+    {
+      "enum": [
+        4,
+        "euCoolingEventNames4"
+      ],
+      "description": "Chiller 3 Fault"
+    },
+    {
+      "enum": [
+        5,
+        "euCoolingEventNames5"
+      ],
+      "description": "Chiller 4 Fault"
+    },
+    {
+      "enum": [
+        6,
+        "euCoolingEventNames6"
+      ],
+      "description": "Chiller 5 Fault"
+    },
+    {
+      "enum": [
+        7,
+        "euCoolingEventNames7"
+      ],
+      "description": "Chiller 6 Fault"
+    },
+    {
+      "enum": [
+        8,
+        "euCoolingEventNames8"
+      ],
+      "description": "Chiller 7 Fault"
+    },
+    {
+      "enum": [
+        9,
+        "euCoolingEventNames9"
+      ],
+      "description": "Chiller 8 Fault"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuMinoadModeEnumSet.schema.json",
+  "title": "ahuMinoadModeEnumSet",
+  "description": "AHU MinOAD Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuMinoadMClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "ahuMinoadMOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "ahuMinoadMMinOa"
+      ],
+      "description": "Min OA"
+    },
+    {
+      "enum": [
+        3,
+        "ahuMinoadMRampMinOa"
+      ],
+      "description": "Ramp Min OA"
+    },
+    {
+      "enum": [
+        4,
+        "ahuMinoadMRampClosed"
+      ],
+      "description": "Ramp Closed"
+    },
+    {
+      "enum": [
+        5,
+        "ahuMinoadMEmergencyOpen"
+      ],
+      "description": "Emergency Open"
+    }
+  ]
+}

@@ -1,0 +1,883 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykSc4EnumSet.schema.json",
+  "title": "ykSc4EnumSet",
+  "description": "YK Warning Code SC.4",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykSc40"
+      ],
+      "description": "NO WARNINGS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ykSc41"
+      ],
+      "description": "REAL-TIME CLOCK FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "ykSc42"
+      ],
+      "description": "SETPOINT OVERRIDE"
+    },
+    {
+      "enum": [
+        3,
+        "ykSc43"
+      ],
+      "description": "CONDENSER OR EVAPORATOR TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        4,
+        "ykSc44"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "ykSc45"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "ykSc46"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "ykSc47"
+      ],
+      "description": "RESERVED 7"
+    },
+    {
+      "enum": [
+        8,
+        "ykSc48"
+      ],
+      "description": "RESERVED 8"
+    },
+    {
+      "enum": [
+        9,
+        "ykSc49"
+      ],
+      "description": "STANDBY LUBE - LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        10,
+        "ykSc410"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "ykSc411"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "ykSc412"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "ykSc413"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ykSc414"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ykSc415"
+      ],
+      "description": "VANES UNCALIBRATED"
+    },
+    {
+      "enum": [
+        16,
+        "ykSc416"
+      ],
+      "description": "VANES UNCALIBRATED - FIXED SPEED"
+    },
+    {
+      "enum": [
+        17,
+        "ykSc417"
+      ],
+      "description": "HARMONIC FILTER - OPERATION INHIBITED"
+    },
+    {
+      "enum": [
+        18,
+        "ykSc418"
+      ],
+      "description": "HARMONIC FILTER - DATA LOSS"
+    },
+    {
+      "enum": [
+        19,
+        "ykSc419"
+      ],
+      "description": "AUTO LUBE REQ'D ON NEXT SHUTDOWN"
+    },
+    {
+      "enum": [
+        20,
+        "ykSc420"
+      ],
+      "description": "AUTO LUBE GREASE LEVEL LOW"
+    },
+    {
+      "enum": [
+        21,
+        "ykSc421"
+      ],
+      "description": "AUTO LUBE FAILED"
+    },
+    {
+      "enum": [
+        22,
+        "ykSc422"
+      ],
+      "description": "MOTOR OIL CHANGE SUGGESTED"
+    },
+    {
+      "enum": [
+        23,
+        "ykSc423"
+      ],
+      "description": "MOTOR OIL CHANGE REQUIRED"
+    },
+    {
+      "enum": [
+        24,
+        "ykSc424"
+      ],
+      "description": "LACK OF MOTOR OIL CHANGE"
+    },
+    {
+      "enum": [
+        25,
+        "ykSc425"
+      ],
+      "description": "SEAL LUBRICATION IN PROCESS"
+    },
+    {
+      "enum": [
+        26,
+        "ykSc426"
+      ],
+      "description": "EXTERNAL I/O - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        27,
+        "ykSc427"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ykSc428"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ykSc429"
+      ],
+      "description": "SURGE PROTECTION - EXCESS SURGE LIMIT"
+    },
+    {
+      "enum": [
+        30,
+        "ykSc430"
+      ],
+      "description": "EXCESS SURGE DETECTED"
+    },
+    {
+      "enum": [
+        31,
+        "ykSc431"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ykSc432"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ykSc433"
+      ],
+      "description": "KW METER NOT CALIBRATED"
+    },
+    {
+      "enum": [
+        34,
+        "ykSc434"
+      ],
+      "description": "CONDENSER OR VGD SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        35,
+        "ykSc435"
+      ],
+      "description": "CONDITIONS OVERRIDE VGD"
+    },
+    {
+      "enum": [
+        36,
+        "ykSc436"
+      ],
+      "description": "MOTOR BEARING LUBE SUGGESTED"
+    },
+    {
+      "enum": [
+        37,
+        "ykSc437"
+      ],
+      "description": "MOTOR BEARING LUBE REQUIRED"
+    },
+    {
+      "enum": [
+        38,
+        "ykSc438"
+      ],
+      "description": "MOTOR BEARING LUBE NOT DONE"
+    },
+    {
+      "enum": [
+        39,
+        "ykSc439"
+      ],
+      "description": "HARMONIC FILTER - DATA LOSS"
+    },
+    {
+      "enum": [
+        40,
+        "ykSc440"
+      ],
+      "description": "MOTOR - HIGH WINDING TEMPERATURE"
+    },
+    {
+      "enum": [
+        41,
+        "ykSc441"
+      ],
+      "description": "MOTOR - HIGH BEARING TEMPERATURE"
+    },
+    {
+      "enum": [
+        42,
+        "ykSc442"
+      ],
+      "description": "MOTOR - HIGH BEARING VIBRATION"
+    },
+    {
+      "enum": [
+        43,
+        "ykSc443"
+      ],
+      "description": "MOTOR - BEARING VIBRATION BASELINE NOT SET"
+    },
+    {
+      "enum": [
+        44,
+        "ykSc444"
+      ],
+      "description": "VSD - INPUT VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        45,
+        "ykSc445"
+      ],
+      "description": "HARMONIC FILTER - NOT RUNNING"
+    },
+    {
+      "enum": [
+        46,
+        "ykSc446"
+      ],
+      "description": "CONDENSER- FREEZE THREAT FROM LOW PRESSURE"
+    },
+    {
+      "enum": [
+        47,
+        "ykSc447"
+      ],
+      "description": "LIQUID LEVEL SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        48,
+        "ykSc448"
+      ],
+      "description": "VSD - DC BUS ACTIVE"
+    },
+    {
+      "enum": [
+        49,
+        "ykSc449"
+      ],
+      "description": "LOSS OF SUBCOOLER LIQUID SEAL"
+    },
+    {
+      "enum": [
+        50,
+        "ykSc450"
+      ],
+      "description": "HIGH AUXILIARY CONDENSER PRESSURE"
+    },
+    {
+      "enum": [
+        51,
+        "ykSc451"
+      ],
+      "description": "ECON LCSSS - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        52,
+        "ykSc452"
+      ],
+      "description": "ECON LCSSS - PHASE LOSS"
+    },
+    {
+      "enum": [
+        53,
+        "ykSc453"
+      ],
+      "description": "ECON LCSSS - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        54,
+        "ykSc454"
+      ],
+      "description": "ECON LCSSS - POWER FAULT"
+    },
+    {
+      "enum": [
+        55,
+        "ykSc455"
+      ],
+      "description": "ECON LCSSS - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        56,
+        "ykSc456"
+      ],
+      "description": "ECON LCSSS - MOTOR CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        57,
+        "ykSc457"
+      ],
+      "description": "ECON LCSSS - 105 % MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        58,
+        "ykSc458"
+      ],
+      "description": "ECON LCSSS - HIGH MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        59,
+        "ykSc459"
+      ],
+      "description": "ECON LCSSS - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        60,
+        "ykSc460"
+      ],
+      "description": "ECON LCSSS - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        61,
+        "ykSc461"
+      ],
+      "description": "ECON LCSSS - OPEN SCR"
+    },
+    {
+      "enum": [
+        62,
+        "ykSc462"
+      ],
+      "description": "ECON LCSSS - PHASE A SHORTED SCR"
+    },
+    {
+      "enum": [
+        63,
+        "ykSc463"
+      ],
+      "description": "ECON LCSSS - PHASE B SHORTED SCR"
+    },
+    {
+      "enum": [
+        64,
+        "ykSc464"
+      ],
+      "description": "ECON LCSSS - PHASE C SHORTED SCR"
+    },
+    {
+      "enum": [
+        65,
+        "ykSc465"
+      ],
+      "description": "ECON LCSSS - HIGH PHASE A HEATSINK TEMP - STOPPED"
+    },
+    {
+      "enum": [
+        66,
+        "ykSc466"
+      ],
+      "description": "ECON LCSSS - HIGH PHASE B HEATSINK TEMP - STOPPED"
+    },
+    {
+      "enum": [
+        67,
+        "ykSc467"
+      ],
+      "description": "ECON LCSSS - HIGH PHASE C HEATSINK TEMP - STOPPED"
+    },
+    {
+      "enum": [
+        68,
+        "ykSc468"
+      ],
+      "description": "ECON LCSSS - HIGH PHASE A HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        69,
+        "ykSc469"
+      ],
+      "description": "ECON LCSSS - HIGH PHASE B HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        70,
+        "ykSc470"
+      ],
+      "description": "ECON LCSSS - HIGH PHASE C HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        71,
+        "ykSc471"
+      ],
+      "description": "ECON LCSSS - LOW PHASE A TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        72,
+        "ykSc472"
+      ],
+      "description": "ECON LCSSS - LOW PHASE B TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        73,
+        "ykSc473"
+      ],
+      "description": "ECON LCSSS - LOW PHASE C TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        74,
+        "ykSc474"
+      ],
+      "description": "ECON LCSSS - SERIAL RECEIVE"
+    },
+    {
+      "enum": [
+        75,
+        "ykSc475"
+      ],
+      "description": "ECON LCSSS - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        76,
+        "ykSc476"
+      ],
+      "description": "ECON LCSSS - PHASE ROTATION"
+    },
+    {
+      "enum": [
+        77,
+        "ykSc477"
+      ],
+      "description": "ECON LCSSS - UNDEFINED FAULT"
+    },
+    {
+      "enum": [
+        78,
+        "ykSc478"
+      ],
+      "description": "WARNING - COND OR ECON XDCR ERROR"
+    },
+    {
+      "enum": [
+        79,
+        "ykSc479"
+      ],
+      "description": "WARNING - EVAP OR ECON XDCR ERROR"
+    },
+    {
+      "enum": [
+        80,
+        "ykSc480"
+      ],
+      "description": "WARNING - COND OR ECON VGD XDCR FAUILURE"
+    },
+    {
+      "enum": [
+        81,
+        "ykSc481"
+      ],
+      "description": "WARNING - ECON HIGH STALL - VGD OVERRIDE"
+    },
+    {
+      "enum": [
+        82,
+        "ykSc482"
+      ],
+      "description": "WARNING - ECON STANDBY LUBE - LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        83,
+        "ykSc483"
+      ],
+      "description": "WARNING - ECON SEAL LUBRICATION INHIBITED"
+    },
+    {
+      "enum": [
+        84,
+        "ykSc484"
+      ],
+      "description": "WARNING - ECON MOTOR - BEARING LUBE SUGGESTED"
+    },
+    {
+      "enum": [
+        85,
+        "ykSc485"
+      ],
+      "description": "WARNING - ECON MOTOR - BEARING LUBE REQUIRED"
+    },
+    {
+      "enum": [
+        86,
+        "ykSc486"
+      ],
+      "description": "WARNING - ECON MOTOR - BEARING LUBE NOT DONE"
+    },
+    {
+      "enum": [
+        87,
+        "ykSc487"
+      ],
+      "description": "WARNING - ECON LIQUID LEVEL SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        88,
+        "ykSc488"
+      ],
+      "description": "ECONOMIZER - LEVEL HIGH"
+    },
+    {
+      "enum": [
+        89,
+        "ykSc489"
+      ],
+      "description": "ECON ANTI-RECYCLE"
+    },
+    {
+      "enum": [
+        90,
+        "ykSc490"
+      ],
+      "description": "ECON COMPRESSOR - PRV MOTOR SWITCH OPEN"
+    },
+    {
+      "enum": [
+        91,
+        "ykSc491"
+      ],
+      "description": "ECONOMIZER - PRESSURE XDCR FAILURE"
+    },
+    {
+      "enum": [
+        92,
+        "ykSc492"
+      ],
+      "description": "ECON COMPRESSOR - HPCO SWITCH OPEN"
+    },
+    {
+      "enum": [
+        93,
+        "ykSc493"
+      ],
+      "description": "ECON COMPRESSOR - GEAR RATIO INVALID"
+    },
+    {
+      "enum": [
+        94,
+        "ykSc494"
+      ],
+      "description": "ECON MOTOR - LINE FREQUENCY NOT SET"
+    },
+    {
+      "enum": [
+        95,
+        "ykSc495"
+      ],
+      "description": "ECON DISCHARGE - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        96,
+        "ykSc496"
+      ],
+      "description": "ECON DISCHARGE - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        97,
+        "ykSc497"
+      ],
+      "description": "ECON THRUST BEARING - LIMIT SWITCH OPEN"
+    },
+    {
+      "enum": [
+        98,
+        "ykSc498"
+      ],
+      "description": "ECON OIL - VSD PUMP - FAULT CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        99,
+        "ykSc499"
+      ],
+      "description": "ECON OIL - PUMP PRESSURE XDCR FAILURE"
+    },
+    {
+      "enum": [
+        100,
+        "ykSc4100"
+      ],
+      "description": "ECON OIL - DIFF PRESSURE CALIBRATION"
+    },
+    {
+      "enum": [
+        101,
+        "ykSc4101"
+      ],
+      "description": "ECON OIL - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        102,
+        "ykSc4102"
+      ],
+      "description": "ECON OIL - HIGH DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        103,
+        "ykSc4103"
+      ],
+      "description": "ECON OIL - VSD PUMP - SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        104,
+        "ykSc4104"
+      ],
+      "description": "ECON MOTOR CONTROLLER - LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        105,
+        "ykSc4105"
+      ],
+      "description": "ECON MOTOR CONTROLLER - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        106,
+        "ykSc4106"
+      ],
+      "description": "ECON MOTOR CONTROLLER - INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        107,
+        "ykSc4107"
+      ],
+      "description": "ECON MOTOR CONTROLLER - FAULT CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        108,
+        "ykSc4108"
+      ],
+      "description": "ECON MOTOR - LACK OF BEARING LUBRICATION"
+    },
+    {
+      "enum": [
+        109,
+        "ykSc4109"
+      ],
+      "description": "ECON MOTOR - CURRENT > 15 %FLA"
+    },
+    {
+      "enum": [
+        110,
+        "ykSc4110"
+      ],
+      "description": "ECON COMPRESSOR - PRV NOT CALIBRATED"
+    },
+    {
+      "enum": [
+        111,
+        "ykSc4111"
+      ],
+      "description": "ECONOMIZER - HIGH LEVEL (STOPPED)"
+    },
+    {
+      "enum": [
+        112,
+        "ykSc4112"
+      ],
+      "description": "SALES ORDER -INVALID MOTOR VOLTS OR FLA"
+    },
+    {
+      "enum": [
+        113,
+        "ykSc4113"
+      ],
+      "description": "WARNING - ECON MOTOR - HIGH WINDING TEMP"
+    },
+    {
+      "enum": [
+        114,
+        "ykSc4114"
+      ],
+      "description": "WARNING - ECON MOTOR - HIGH BEARING TEMP"
+    },
+    {
+      "enum": [
+        115,
+        "ykSc4115"
+      ],
+      "description": "WARNING - ECON MOTOR - HIGH BEARING VIBRATION"
+    },
+    {
+      "enum": [
+        116,
+        "ykSc4116"
+      ],
+      "description": "WARNING - ECON MOTOR - VIBRATION BASELINE NOT SET"
+    },
+    {
+      "enum": [
+        117,
+        "ykSc4117"
+      ],
+      "description": "ECON MOTOR - HIGH WINDING TEMP SHUTDOWN"
+    },
+    {
+      "enum": [
+        118,
+        "ykSc4118"
+      ],
+      "description": "ECON MOTOR - HIGH BEARING TEMP SHUTDOWN"
+    },
+    {
+      "enum": [
+        119,
+        "ykSc4119"
+      ],
+      "description": "ECON MOTOR - HIGH BEARING VIBRATION SHUTDOWN"
+    },
+    {
+      "enum": [
+        120,
+        "ykSc4120"
+      ],
+      "description": "ECON MOTOR - AUTO LUBRICATION IN PROGRESS"
+    },
+    {
+      "enum": [
+        121,
+        "ykSc4121"
+      ],
+      "description": "WARNING - ECON AUTO LUBE REG'D ON NEXT SHUTDOWN"
+    },
+    {
+      "enum": [
+        122,
+        "ykSc4122"
+      ],
+      "description": "WARNING - ECON AUTO LUBE GREASE LEVEL LOW"
+    },
+    {
+      "enum": [
+        123,
+        "ykSc4123"
+      ],
+      "description": "WARNING - ECON AUTO LUBE FAILED"
+    },
+    {
+      "enum": [
+        124,
+        "ykSc4124"
+      ],
+      "description": "WARNING - ECON MMB I/O SERIAL COMMUNICATIONS"
+    }
+  ]
+}

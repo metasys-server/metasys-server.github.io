@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/readerStatusEnumSet.schema.json",
+  "title": "readerStatusEnumSet",
+  "description": "Reader Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "readerStatusNotInitialized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "readerStatusOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "readerStatusUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        3,
+        "readerStatusFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

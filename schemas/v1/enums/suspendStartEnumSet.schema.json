@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/suspendStartEnumSet.schema.json",
+  "title": "suspendStartEnumSet",
+  "description": "Suspend Start",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Suspend"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Start"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/compressorTypeEnumSet.schema.json",
+  "title": "compressorTypeEnumSet",
+  "description": "Compressor Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "compressorTypeTraditionalAc"
+      ],
+      "description": "Traditional A/C"
+    },
+    {
+      "enum": [
+        1,
+        "compressorTypeHeatPump"
+      ],
+      "description": "Heat Pump"
+    }
+  ]
+}

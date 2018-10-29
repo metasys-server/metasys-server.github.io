@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lightingSensorModeEnumSet.schema.json",
+  "title": "lightingSensorModeEnumSet",
+  "description": "Lighting Sensor Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lightingSensorMode0"
+      ],
+      "description": "Binary Only"
+    },
+    {
+      "enum": [
+        1,
+        "lightingSensorMode1"
+      ],
+      "description": "Analog Only"
+    },
+    {
+      "enum": [
+        2,
+        "lightingSensorMode2"
+      ],
+      "description": "Both ON/Both OFF"
+    },
+    {
+      "enum": [
+        3,
+        "lightingSensorMode3"
+      ],
+      "description": "Both ON/Analog OFF"
+    },
+    {
+      "enum": [
+        4,
+        "lightingSensorMode4"
+      ],
+      "description": "Analog ON/Both OFF"
+    },
+    {
+      "enum": [
+        5,
+        "lightingSensorMode5"
+      ],
+      "description": "Both ON/Any OFF"
+    }
+  ]
+}

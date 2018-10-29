@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/autoLowMidHighEnumSet.schema.json",
+  "title": "autoLowMidHighEnumSet",
+  "description": "Auto/Low/Mid/High",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "autoLowMidHighAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "autoLowMidHighLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        2,
+        "autoLowMidHighMid"
+      ],
+      "description": "Mid"
+    },
+    {
+      "enum": [
+        3,
+        "autoLowMidHighHigh"
+      ],
+      "description": "High"
+    }
+  ]
+}

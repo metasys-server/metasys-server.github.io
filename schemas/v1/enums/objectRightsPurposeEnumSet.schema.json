@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/objectRightsPurposeEnumSet.schema.json",
+  "title": "objectRightsPurposeEnumSet",
+  "description": "Object Rights Purpose",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "orpApplicableToIndexes1128"
+      ],
+      "description": "Applicable to indexes 1..128"
+    },
+    {
+      "enum": [
+        1,
+        "orpApplicableToIndexes129256"
+      ],
+      "description": "Applicable to indexes 129..256"
+    },
+    {
+      "enum": [
+        2,
+        "orpApplicableToIndexes257384"
+      ],
+      "description": "Applicable to indexes 257..384"
+    },
+    {
+      "enum": [
+        3,
+        "orpApplicableToIndexes385512"
+      ],
+      "description": "Applicable to indexes 385..512"
+    }
+  ]
+}

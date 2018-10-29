@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/thermostatSystemModeEnumSet.schema.json",
+  "title": "thermostatSystemModeEnumSet",
+  "description": "Thermostat System Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Emergency"
+    }
+  ]
+}

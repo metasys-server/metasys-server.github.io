@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavDataConfigureEnumSet.schema.json",
+  "title": "vavDataConfigureEnumSet",
+  "description": "VAV Data Configure",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavDataConfOccMinFlow"
+      ],
+      "description": "Occ Min Flow"
+    },
+    {
+      "enum": [
+        1,
+        "vavDataConfMaxFlow"
+      ],
+      "description": "Max Flow"
+    },
+    {
+      "enum": [
+        3,
+        "vavDataConfArea"
+      ],
+      "description": "Area"
+    },
+    {
+      "enum": [
+        4,
+        "vavDataConfPickupGain"
+      ],
+      "description": "Pickup Gain"
+    }
+  ]
+}

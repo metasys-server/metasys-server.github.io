@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/upgradeLogMessageSourceEnumSet.schema.json",
+  "title": "upgradeLogMessageSourceEnumSet",
+  "description": "Upgrade Log Message Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "upgradeLogMessageSourceGeneralUpgrade"
+      ],
+      "description": "Informational"
+    },
+    {
+      "enum": [
+        1,
+        "upgradeLogMessageSourceSchemaUpdate"
+      ],
+      "description": "Schema Conversion"
+    },
+    {
+      "enum": [
+        2,
+        "upgradeLogMessageSourceMetadataUpdate"
+      ],
+      "description": "Metadata Update"
+    },
+    {
+      "enum": [
+        3,
+        "upgradeLogMessageSourceDataUpdate"
+      ],
+      "description": "Data Update"
+    },
+    {
+      "enum": [
+        4,
+        "upgradeLogMessageSourceSecurityUpdate"
+      ],
+      "description": "Security Upgrade"
+    },
+    {
+      "enum": [
+        5,
+        "upgradeLogMessageSourceArchiveMaintenance"
+      ],
+      "description": "Archive Maintenance"
+    },
+    {
+      "enum": [
+        6,
+        "upgradeLogMessageSourceRecovery"
+      ],
+      "description": "Recovery"
+    },
+    {
+      "enum": [
+        7,
+        "upgradeLogMessageSourceMiscellaneous"
+      ],
+      "description": "Miscellaneous"
+    },
+    {
+      "enum": [
+        8,
+        "logMessageSourceUpload"
+      ],
+      "description": "Upload"
+    },
+    {
+      "enum": [
+        9,
+        "logMessageSourceDownload"
+      ],
+      "description": "Download"
+    },
+    {
+      "enum": [
+        10,
+        "logMessageSourceSynchronization"
+      ],
+      "description": "Synchronization"
+    },
+    {
+      "enum": [
+        11,
+        "logMessageSourceSwitchover"
+      ],
+      "description": "Application Options"
+    }
+  ]
+}

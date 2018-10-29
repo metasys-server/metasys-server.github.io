@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bufferStateEnumSet.schema.json",
+  "title": "bufferStateEnumSet",
+  "description": "Buffer States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "operational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        1,
+        "bufferFull"
+      ],
+      "description": "Buffer Full"
+    }
+  ]
+}

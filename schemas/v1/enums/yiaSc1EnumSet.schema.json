@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yiaSc1EnumSet.schema.json",
+  "title": "yiaSc1EnumSet",
+  "description": "YIA Operational Code SC.1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yiaSc10"
+      ],
+      "description": "NO UNIT OPERATION CONDITIONS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "yiaSc11"
+      ],
+      "description": "SYSTEM READY TO START"
+    },
+    {
+      "enum": [
+        2,
+        "yiaSc12"
+      ],
+      "description": "SYSTEM STARTING"
+    },
+    {
+      "enum": [
+        3,
+        "yiaSc13"
+      ],
+      "description": "SYSTEM RUNNING"
+    },
+    {
+      "enum": [
+        4,
+        "yiaSc14"
+      ],
+      "description": "SAFETY SHUTDOWN -RESET TO RESTART"
+    },
+    {
+      "enum": [
+        5,
+        "yiaSc15"
+      ],
+      "description": "CYCLING SHUTDOWN -AUTOSTART-"
+    },
+    {
+      "enum": [
+        6,
+        "yiaSc16"
+      ],
+      "description": "SYSTEM START INHIBITED"
+    },
+    {
+      "enum": [
+        7,
+        "yiaSc17"
+      ],
+      "description": "UNIT STARTING"
+    },
+    {
+      "enum": [
+        8,
+        "yiaSc18"
+      ],
+      "description": "UNIT RUNNING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        9,
+        "yiaSc19"
+      ],
+      "description": "UNIT RUNNING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        10,
+        "yiaSc110"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "yiaSc111"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "yiaSc112"
+      ],
+      "description": "UNIT RUNNING- MODIFIED RUN"
+    },
+    {
+      "enum": [
+        13,
+        "yiaSc113"
+      ],
+      "description": "UNIT RUNNING - INTERNAL SHUTDOWN"
+    }
+  ]
+}

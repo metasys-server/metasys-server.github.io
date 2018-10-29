@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/closedMinimumMultiEnumSet.schema.json",
+  "title": "closedMinimumMultiEnumSet",
+  "description": "Closed/Minimum",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "clminMsClosed"
+      ],
+      "description": "Closed"
+    },
+    {
+      "enum": [
+        1,
+        "clminMsMinimum"
+      ],
+      "description": "Minimum"
+    }
+  ]
+}

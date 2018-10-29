@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/schdParametersEnumSet.schema.json",
+  "title": "schdParametersEnumSet",
+  "description": "Schd Parameters",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "startDateParm"
+      ],
+      "description": "Start Date"
+    },
+    {
+      "enum": [
+        1,
+        "endDateParm"
+      ],
+      "description": "End Date"
+    },
+    {
+      "enum": [
+        2,
+        "weekOfMonthParm"
+      ],
+      "description": "Week of Month"
+    },
+    {
+      "enum": [
+        3,
+        "dayOfWeekParm"
+      ],
+      "description": "Day of Week"
+    },
+    {
+      "enum": [
+        4,
+        "calendarNameParm"
+      ],
+      "description": "Calendar Name"
+    },
+    {
+      "enum": [
+        5,
+        "calDevParm"
+      ],
+      "description": "Calendar Device"
+    },
+    {
+      "enum": [
+        6,
+        "exceptTypeParm"
+      ],
+      "description": "Exception Type"
+    },
+    {
+      "enum": [
+        7,
+        "ofParm"
+      ],
+      "description": "of"
+    },
+    {
+      "enum": [
+        8,
+        "entryTypeParm"
+      ],
+      "description": "Entry Type"
+    }
+  ]
+}

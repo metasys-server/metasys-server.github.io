@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatcooloutEnumSet.schema.json",
+  "title": "heatcooloutEnumSet",
+  "description": "Cool Heat Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Heat"
+    }
+  ]
+}

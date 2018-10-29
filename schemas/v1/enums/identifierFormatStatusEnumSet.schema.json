@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/identifierFormatStatusEnumSet.schema.json",
+  "title": "identifierFormatStatusEnumSet",
+  "description": "Identifier Format Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "identifierFormatStatusUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "identifierFormatStatusOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "identifierFormatStatusNotSupported"
+      ],
+      "description": "Not Supported"
+    },
+    {
+      "enum": [
+        3,
+        "identifierFormatStatusMissing"
+      ],
+      "description": "Missing"
+    }
+  ]
+}

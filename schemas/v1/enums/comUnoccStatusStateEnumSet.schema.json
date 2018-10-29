@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/comUnoccStatusStateEnumSet.schema.json",
+  "title": "comUnoccStatusStateEnumSet",
+  "description": "COM Unocc Status State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "comUssNotUnoccupied"
+      ],
+      "description": "Not Unoccupied"
+    },
+    {
+      "enum": [
+        1,
+        "comUssTemperatureUnreliable"
+      ],
+      "description": "Temperature Unreliable"
+    },
+    {
+      "enum": [
+        2,
+        "comUssUnoccHtgClgCheck"
+      ],
+      "description": "Unocc Htg/Clg Check"
+    },
+    {
+      "enum": [
+        3,
+        "comUssUnoccupiedOff"
+      ],
+      "description": "Unoccupied Off"
+    }
+  ]
+}

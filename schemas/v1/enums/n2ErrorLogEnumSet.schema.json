@@ -1,0 +1,274 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/n2ErrorLogEnumSet.schema.json",
+  "title": "n2ErrorLogEnumSet",
+  "description": "N2 Error Log",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Controller has reset and is waiting for the Identify Yourself command"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Undefined Command: command not understood by addressed controller"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Checksum Error detected by controller"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Input buffer overflow detected by controller"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Invalid ASCII character detected by controller"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Data field error: size of message not correct for command type"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Invalid Data: one of the fields contains a value that is out of the expected range"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Invalid command for data type: command not appropriate for this field or record"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Command not accepted due to problems with the controller, the command is ignored"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Device at address is the wrong type"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "No additional records are available (end of search)"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Controller not ready"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Data not matching the item or function type"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Non-existent item or function"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Temporarily impossible to access the item"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Not a programmable item"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "Table programmed with illegal item"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "Trend programmed with illegal item"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "Invalid Function Module"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Exceeding Addressing Range"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "Password Not Enabled"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "I2C bus communication error (see I2CE)"
+    },
+    {
+      "enum": [
+        22,
+        "22"
+      ],
+      "description": "Hardware not available (see OPMO)"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "Illegal item number"
+    },
+    {
+      "enum": [
+        24,
+        "24"
+      ],
+      "description": "Counters unreliable"
+    },
+    {
+      "enum": [
+        25,
+        "25"
+      ],
+      "description": "Power supply unreliable"
+    },
+    {
+      "enum": [
+        26,
+        "26"
+      ],
+      "description": "Checksum Error detected by NxE"
+    },
+    {
+      "enum": [
+        27,
+        "27"
+      ],
+      "description": "Block Checksum Error detected by NxE"
+    },
+    {
+      "enum": [
+        28,
+        "28"
+      ],
+      "description": "Controller type does not match NxE database"
+    },
+    {
+      "enum": [
+        29,
+        "29"
+      ],
+      "description": "Controller revision is less than C03"
+    },
+    {
+      "enum": [
+        30,
+        "30"
+      ],
+      "description": "Controller revision is less than B03"
+    },
+    {
+      "enum": [
+        31,
+        "31"
+      ],
+      "description": "Controller revision is less than A03"
+    },
+    {
+      "enum": [
+        32,
+        "32"
+      ],
+      "description": "Controller revision is less than C05"
+    },
+    {
+      "enum": [
+        33,
+        "33"
+      ],
+      "description": "VMA COV error"
+    },
+    {
+      "enum": [
+        34,
+        "34"
+      ],
+      "description": "VMA BAC error"
+    },
+    {
+      "enum": [
+        35,
+        "35"
+      ],
+      "description": "VMA FMT error"
+    },
+    {
+      "enum": [
+        36,
+        "36"
+      ],
+      "description": "Retry error not due to a NAK"
+    },
+    {
+      "enum": [
+        37,
+        "37"
+      ],
+      "description": "Unknown NAK error"
+    }
+  ]
+}

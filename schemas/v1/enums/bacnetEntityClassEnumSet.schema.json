@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetEntityClassEnumSet.schema.json",
+  "title": "bacnetEntityClassEnumSet",
+  "description": "BACnet Entity Class",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetEntityDevice"
+      ],
+      "description": "Device"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetEntityProxiedDevice"
+      ],
+      "description": "Proxied Device"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetEntityItDevice"
+      ],
+      "description": "IT Device"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetEntityProxiedItDevice"
+      ],
+      "description": "Proxied IT Device"
+    },
+    {
+      "enum": [
+        4,
+        "bacnetEntityNlDevice"
+      ],
+      "description": "NL Device"
+    },
+    {
+      "enum": [
+        5,
+        "bacnetEntityProxiedNlDevice"
+      ],
+      "description": "Proxied NL Device"
+    },
+    {
+      "enum": [
+        6,
+        "bacnetEntityDeviceGroup"
+      ],
+      "description": "Device Group"
+    },
+    {
+      "enum": [
+        7,
+        "bacnetEntityProxiedDeviceGroup"
+      ],
+      "description": "Proxied Device Group"
+    },
+    {
+      "enum": [
+        8,
+        "bacnetEntityItDeviceGroup"
+      ],
+      "description": "IT Device Group"
+    },
+    {
+      "enum": [
+        9,
+        "bacnetEntityProxiedItDeviceGroup"
+      ],
+      "description": "Proxied IT Device Group"
+    },
+    {
+      "enum": [
+        10,
+        "bacnetEntityNlDeviceGroup"
+      ],
+      "description": "NL Device Group"
+    },
+    {
+      "enum": [
+        11,
+        "bacnetEntityProxiedNlDeviceGroup"
+      ],
+      "description": "Proxied NL Device Group"
+    }
+  ]
+}

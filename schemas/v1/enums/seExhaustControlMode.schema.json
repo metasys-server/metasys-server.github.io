@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seExhaustControlMode.schema.json",
+  "title": "seExhaustControlMode",
+  "description": "SE RTU Exhaust Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seExhaustControlModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seExhaustControlModeMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "seExhaustControlModeHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "seExhaustControlModeControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        4,
+        "seExhaustControlModePurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        5,
+        "seExhaustControlModeTest"
+      ],
+      "description": "Test"
+    }
+  ]
+}

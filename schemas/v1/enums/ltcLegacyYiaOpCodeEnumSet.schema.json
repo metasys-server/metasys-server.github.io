@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaOpCodeEnumSet.schema.json",
+  "title": "ltcLegacyYiaOpCodeEnumSet",
+  "description": "York LTC Legacy YIA Operational Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaOpCode0"
+      ],
+      "description": "UNIT RUNNING"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaOpCode1"
+      ],
+      "description": "LOCKOUT DELAY ACTIVE"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYiaOpCode2"
+      ],
+      "description": "UNIT STOPPED - UNIT SWITCH IN STOP/RESET POSITION"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYiaOpCode3"
+      ],
+      "description": "UNIT STOPPED - SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYiaOpCode4"
+      ],
+      "description": "UNIT STOPPED - CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYiaOpCode5"
+      ],
+      "description": "UNIT STOPPED - REMOTE SHUTDOWN"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYiaOpCode6"
+      ],
+      "description": "UNIT STARTING"
+    }
+  ]
+}

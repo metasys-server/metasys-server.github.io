@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/defrostState.schema.json",
+  "title": "defrostState",
+  "description": "Defrost State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "defrostStateDefrostOff"
+      ],
+      "description": "Defrost Off"
+    },
+    {
+      "enum": [
+        1,
+        "defrostStateNormalDefrost"
+      ],
+      "description": "Normal Defrost"
+    },
+    {
+      "enum": [
+        2,
+        "defrostStateTestDefrost"
+      ],
+      "description": "Test Defrost"
+    },
+    {
+      "enum": [
+        3,
+        "defrostStateCompDelayExitDefrost"
+      ],
+      "description": "Comp Delay Exit Defrost"
+    },
+    {
+      "enum": [
+        4,
+        "defrostStateCompDelayEnterDefrost"
+      ],
+      "description": "Comp Delay Enter Defrost"
+    },
+    {
+      "enum": [
+        5,
+        "defrostStateRevValveOffDelay"
+      ],
+      "description": "Rev Valve Off Delay"
+    },
+    {
+      "enum": [
+        6,
+        "defrostStateRevValveOnDelay"
+      ],
+      "description": "Rev Valve On Delay"
+    }
+  ]
+}

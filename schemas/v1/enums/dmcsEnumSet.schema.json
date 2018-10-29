@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dmcsEnumSet.schema.json",
+  "title": "dmcsEnumSet",
+  "description": "DMCS Identifiers",
+  "oneOf": [
+    {
+      "enum": [
+        64,
+        "dmcsLegacyUsage"
+      ],
+      "description": "Legacy Usage"
+    },
+    {
+      "enum": [
+        65,
+        "dmcsFieldController"
+      ],
+      "description": "Field Controller"
+    },
+    {
+      "enum": [
+        66,
+        "dmcsOemEcon"
+      ],
+      "description": "OEM Economizer"
+    },
+    {
+      "enum": [
+        67,
+        "dmcsPeakOem"
+      ],
+      "description": "Peak OEM"
+    },
+    {
+      "enum": [
+        68,
+        "dmcsVerasys"
+      ],
+      "description": "Verasys"
+    },
+    {
+      "enum": [
+        69,
+        "dmcsGryphon"
+      ],
+      "description": "Gryphon"
+    },
+    {
+      "enum": [
+        70,
+        "dmcsSmartEquip"
+      ],
+      "description": "Smart Equipment (OEM)"
+    },
+    {
+      "enum": [
+        71,
+        "dmcsAtc"
+      ],
+      "description": "ATC"
+    }
+  ]
+}

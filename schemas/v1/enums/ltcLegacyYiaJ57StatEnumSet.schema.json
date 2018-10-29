@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJ57StatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJ57StatEnumSet",
+  "description": "York LTC Legacy YIA J57 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJ57Stat0"
+      ],
+      "description": "RTC Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJ57Stat1"
+      ],
+      "description": "RTC Enabled"
+    }
+  ]
+}

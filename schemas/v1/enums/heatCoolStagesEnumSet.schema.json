@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatCoolStagesEnumSet.schema.json",
+  "title": "heatCoolStagesEnumSet",
+  "description": "Heat/Cool Stages",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "1 Stage"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "2 Stages"
+    }
+  ]
+}

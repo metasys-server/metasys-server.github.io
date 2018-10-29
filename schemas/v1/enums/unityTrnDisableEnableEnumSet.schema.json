@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityTrnDisableEnableEnumSet.schema.json",
+  "title": "unityTrnDisableEnableEnumSet",
+  "description": "Unity TRN Disable Enable",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual Enable"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Manual Disable"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Auto Restore-Enable"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto Restore-Disable"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Disable"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Release"
+    }
+  ]
+}

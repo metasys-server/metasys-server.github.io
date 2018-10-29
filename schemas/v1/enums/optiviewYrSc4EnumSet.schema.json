@@ -1,0 +1,274 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc4EnumSet.schema.json",
+  "title": "optiviewYrSc4EnumSet",
+  "description": "Optiview YR Warning Code SC.4",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewYrSc40"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewYrSc41"
+      ],
+      "description": "REAL-TIME CLOCK FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "optiviewYrSc42"
+      ],
+      "description": "SETPOINT OVERRIDE"
+    },
+    {
+      "enum": [
+        3,
+        "optiviewYrSc43"
+      ],
+      "description": "CONDENSER OR EVAPORATOR TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        4,
+        "optiviewYrSc44"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "optiviewYrSc45"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "optiviewYrSc46"
+      ],
+      "description": "CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        7,
+        "optiviewYrSc47"
+      ],
+      "description": "FREEZE THREAT FROM OPERATING CHILLER"
+    },
+    {
+      "enum": [
+        8,
+        "optiviewYrSc48"
+      ],
+      "description": "REFRIGERANT LEVEL OUT OF RANGE"
+    },
+    {
+      "enum": [
+        9,
+        "optiviewYrSc49"
+      ],
+      "description": "STANDBY LUBE - LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        10,
+        "optiviewYrSc410"
+      ],
+      "description": "PURGE - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        11,
+        "optiviewYrSc411"
+      ],
+      "description": "PURGE - FLOAT SWITCH ERROR"
+    },
+    {
+      "enum": [
+        12,
+        "optiviewYrSc412"
+      ],
+      "description": "PURGE - EXCESS PURGE"
+    },
+    {
+      "enum": [
+        13,
+        "optiviewYrSc413"
+      ],
+      "description": "OIL - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        14,
+        "optiviewYrSc414"
+      ],
+      "description": "OIL - LOW PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        15,
+        "optiviewYrSc415"
+      ],
+      "description": "VANES UNCALIBRATED"
+    },
+    {
+      "enum": [
+        16,
+        "optiviewYrSc416"
+      ],
+      "description": "VANES UNCALIBRATED - FIXED SPEED"
+    },
+    {
+      "enum": [
+        17,
+        "optiviewYrSc417"
+      ],
+      "description": "HARMONIC FILTER - OPERATION INHIBITED"
+    },
+    {
+      "enum": [
+        18,
+        "optiviewYrSc418"
+      ],
+      "description": "HARMONIC FILTER - DATA LOSS"
+    },
+    {
+      "enum": [
+        19,
+        "optiviewYrSc419"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "optiviewYrSc420"
+      ],
+      "description": "OIL - DIRTY FILTER"
+    },
+    {
+      "enum": [
+        21,
+        "optiviewYrSc421"
+      ],
+      "description": "DISCHARGE - HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        22,
+        "optiviewYrSc422"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "optiviewYrSc423"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT LIMIT"
+    },
+    {
+      "enum": [
+        24,
+        "optiviewYrSc424"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT DETECTED"
+    },
+    {
+      "enum": [
+        25,
+        "optiviewYrSc425"
+      ],
+      "description": "SEAL LUBRICATION IN PROCESS"
+    },
+    {
+      "enum": [
+        26,
+        "optiviewYrSc426"
+      ],
+      "description": "EXTERNAL I/O - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        27,
+        "optiviewYrSc427"
+      ],
+      "description": "SLIDE VALVE UNCALIBRATED"
+    },
+    {
+      "enum": [
+        28,
+        "optiviewYrSc428"
+      ],
+      "description": "FREEZE THREAT - CONDENSER FLOW SWITCH"
+    },
+    {
+      "enum": [
+        29,
+        "optiviewYrSc429"
+      ],
+      "description": "SURGE PROTECTION - EXCESS SURGE LIMIT"
+    },
+    {
+      "enum": [
+        30,
+        "optiviewYrSc430"
+      ],
+      "description": "EXCESS SURGE DETECTED"
+    },
+    {
+      "enum": [
+        31,
+        "optiviewYrSc431"
+      ],
+      "description": "PURGE - CANISTER #1 FULL"
+    },
+    {
+      "enum": [
+        32,
+        "optiviewYrSc432"
+      ],
+      "description": "OIL RECOVERY LIMIT"
+    },
+    {
+      "enum": [
+        33,
+        "optiviewYrSc433"
+      ],
+      "description": "KW METER NOT CALIBRATED"
+    },
+    {
+      "enum": [
+        34,
+        "optiviewYrSc434"
+      ],
+      "description": "VGD OR CONDENSER SENSOR"
+    },
+    {
+      "enum": [
+        35,
+        "optiviewYrSc435"
+      ],
+      "description": "VGD - EXTREME STALL"
+    },
+    {
+      "enum": [
+        36,
+        "optiviewYrSc436"
+      ],
+      "description": "MOTOR LUBE SUGGESTED"
+    },
+    {
+      "enum": [
+        37,
+        "optiviewYrSc437"
+      ],
+      "description": "MOTOR LUBE REQUIRED"
+    }
+  ]
+}

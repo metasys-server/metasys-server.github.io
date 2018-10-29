@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/activeNodeTableEnumSet.schema.json",
+  "title": "activeNodeTableEnumSet",
+  "description": "Active Node Table",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "nodeNotInTokenRing"
+      ],
+      "description": "Node Not In Token Ring"
+    },
+    {
+      "enum": [
+        1,
+        "nodeInTokenRing"
+      ],
+      "description": "Node In Token Ring"
+    },
+    {
+      "enum": [
+        2,
+        "myAddressInTokenRing"
+      ],
+      "description": "My Address In Token Ring"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpPumpOutputControlEnumSet.schema.json",
+  "title": "cpPumpOutputControlEnumSet",
+  "description": "CP Pump Output Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpPocOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "cpPocOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "cpPocControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "cpPocHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

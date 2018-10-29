@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuClgValveOutEnumSet.schema.json",
+  "title": "ahuClgValveOutEnumSet",
+  "description": "AHU Clg Valve Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "acvoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "acvoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "acvoLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "acvoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "acvoWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "acvoTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        6,
+        "acvoHControl"
+      ],
+      "description": "H Control"
+    },
+    {
+      "enum": [
+        7,
+        "acvoFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        8,
+        "acvoLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    }
+  ]
+}

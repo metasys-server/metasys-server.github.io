@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecUnitsEnumSet.schema.json",
+  "title": "tecUnitsEnumSet",
+  "description": "TEC Units",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "SI Units"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Imperial Units"
+    }
+  ]
+}

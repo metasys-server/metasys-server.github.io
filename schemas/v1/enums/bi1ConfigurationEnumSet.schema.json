@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bi1ConfigurationEnumSet.schema.json",
+  "title": "bi1ConfigurationEnumSet",
+  "description": "BI 1 Configuration",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Rem NSB"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Motion NO"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Motion NC"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Window"
+    }
+  ]
+}

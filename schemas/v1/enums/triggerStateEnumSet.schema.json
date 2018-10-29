@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/triggerStateEnumSet.schema.json",
+  "title": "triggerStateEnumSet",
+  "description": "Trigger State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "triggerStateInactive"
+      ],
+      "description": "Inactive"
+    },
+    {
+      "enum": [
+        1,
+        "triggerStateArmed"
+      ],
+      "description": "Armed"
+    },
+    {
+      "enum": [
+        2,
+        "triggerStateDelaying"
+      ],
+      "description": "Delaying"
+    },
+    {
+      "enum": [
+        3,
+        "triggerStateTriggered"
+      ],
+      "description": "Triggered"
+    }
+  ]
+}

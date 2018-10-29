@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bosetupEnumSet.schema.json",
+  "title": "bosetupEnumSet",
+  "description": "BO Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bosetupMomentary"
+      ],
+      "description": "Momentary"
+    },
+    {
+      "enum": [
+        1,
+        "bosetupMaintained"
+      ],
+      "description": "Maintained"
+    },
+    {
+      "enum": [
+        2,
+        "bosetupPulse"
+      ],
+      "description": "Pulse"
+    },
+    {
+      "enum": [
+        3,
+        "bosetupStartStop"
+      ],
+      "description": "Start Stop"
+    }
+  ]
+}

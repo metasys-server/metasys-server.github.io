@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetShedStateEnumSet.schema.json",
+  "title": "bacnetShedStateEnumSet",
+  "description": "BACnet Shed State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetShedStateShedInactive"
+      ],
+      "description": "Shed Inactive"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetShedStateShedReqPending"
+      ],
+      "description": "Shed Request Pending"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetShedStateShedCompliant"
+      ],
+      "description": "Shed Compliant"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetShedStateShedNonCompliant"
+      ],
+      "description": "Shed Noncompliant"
+    }
+  ]
+}

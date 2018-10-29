@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/amPmEnumSet.schema.json",
+  "title": "amPmEnumSet",
+  "description": "AM PM",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "amPmAm"
+      ],
+      "description": "AM"
+    },
+    {
+      "enum": [
+        1,
+        "amPmPm"
+      ],
+      "description": "PM"
+    }
+  ]
+}

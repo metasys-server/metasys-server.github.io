@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ytWarningCodeEnumSet.schema.json",
+  "title": "ytWarningCodeEnumSet",
+  "description": "YT Warning Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Abnormal Condition"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Real-Time Clock Failure"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Default Setpoints Loaded"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Evaporator or Condenser Transducer Error"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Evaporator - Low Pressure Limit"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Condenser - High Pressure Limit"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Purge - High Pressure"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Purge - Float Switch Error"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Purge - Excess Purge"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Motor - High Current Limit"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Vanes Uncalibrated"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "Vanes Uncalibrated - Fixed Speed Operation"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "Harmonic Filter - Operation Inhibited"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "Harmonic Filter - Data Loss"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Harmonic Filter - Input Frequency Out Of Range"
+    }
+  ]
+}

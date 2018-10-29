@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtHvacTypeEnumSet.schema.json",
+  "title": "snvtHvacTypeEnumSet",
+  "description": "SNVT HVAC Equipment Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Generic"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fan Coil"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Variable Air Volume"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Heat Pump"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Rooftop Unit"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Unit Ventilator"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Chilled Ceiling"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Radiator"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Air Handling Unit"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Self-Contained Unit"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uvDamperLimitControlEnumSet.schema.json",
+  "title": "uvDamperLimitControlEnumSet",
+  "description": "UV Damper Limit Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "udlcNoLmtCntrl"
+      ],
+      "description": "No Limit Control"
+    },
+    {
+      "enum": [
+        1,
+        "udlcHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        2,
+        "udlcControlEconLimit"
+      ],
+      "description": "Control Econ Limit"
+    },
+    {
+      "enum": [
+        3,
+        "udlcControlMinLimit"
+      ],
+      "description": "Control Min Limit"
+    }
+  ]
+}

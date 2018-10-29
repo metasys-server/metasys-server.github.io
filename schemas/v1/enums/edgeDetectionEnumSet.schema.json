@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/edgeDetectionEnumSet.schema.json",
+  "title": "edgeDetectionEnumSet",
+  "description": "Edge Detection",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "edLeadingEdge"
+      ],
+      "description": "Leading Edge"
+    },
+    {
+      "enum": [
+        1,
+        "edTrailingEdge"
+      ],
+      "description": "Trailing Edge"
+    },
+    {
+      "enum": [
+        2,
+        "edBothEdges"
+      ],
+      "description": "Both Edges"
+    }
+  ]
+}

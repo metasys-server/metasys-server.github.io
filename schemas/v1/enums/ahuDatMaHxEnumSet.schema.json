@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuDatMaHxEnumSet.schema.json",
+  "title": "ahuDatMaHxEnumSet",
+  "description": "AHU DAT MA HX",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuDatMahxSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "ahuDatMahxEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        2,
+        "ahuDatMahxEconMech"
+      ],
+      "description": "Econ+Mech"
+    },
+    {
+      "enum": [
+        3,
+        "ahuDatMahxHxCoolMech"
+      ],
+      "description": "HX Cool+Mech"
+    },
+    {
+      "enum": [
+        4,
+        "ahuDatMahxHxHeat"
+      ],
+      "description": "HX Heat"
+    },
+    {
+      "enum": [
+        5,
+        "ahuDatMahxHxHeatPreheat"
+      ],
+      "description": "HX Heat+Preheat"
+    },
+    {
+      "enum": [
+        6,
+        "ahuDatMahxHxHeatPreheatReheat"
+      ],
+      "description": "HX Heat+Preheat+Reheat"
+    },
+    {
+      "enum": [
+        7,
+        "ahuDatMahxCoolingIdle"
+      ],
+      "description": "Cooling Idle"
+    },
+    {
+      "enum": [
+        8,
+        "ahuDatMahxHeatingIdle"
+      ],
+      "description": "Heating Idle"
+    },
+    {
+      "enum": [
+        9,
+        "ahuDatMahxTemperatureUnreliable"
+      ],
+      "description": "Temperature Unreliable"
+    }
+  ]
+}

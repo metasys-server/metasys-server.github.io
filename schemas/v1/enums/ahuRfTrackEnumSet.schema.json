@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuRfTrackEnumSet.schema.json",
+  "title": "ahuRfTrackEnumSet",
+  "description": "AHU RF Track",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "artOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "artMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "artMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        3,
+        "artHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "artFanTrackControl"
+      ],
+      "description": "Fan Track Control"
+    }
+  ]
+}

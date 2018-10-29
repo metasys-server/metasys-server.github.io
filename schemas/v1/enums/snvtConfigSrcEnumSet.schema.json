@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtConfigSrcEnumSet.schema.json",
+  "title": "snvtConfigSrcEnumSet",
+  "description": "SNVT Configuration Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cfgLocal"
+      ],
+      "description": "Local Config"
+    },
+    {
+      "enum": [
+        1,
+        "cfgExternal"
+      ],
+      "description": "External Config"
+    },
+    {
+      "enum": [
+        255,
+        "cfgNull"
+      ],
+      "description": "Null"
+    }
+  ]
+}

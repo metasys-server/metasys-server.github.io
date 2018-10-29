@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timeInMinutesEnumSet.schema.json",
+  "title": "timeInMinutesEnumSet",
+  "description": "Time in Minutes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "0 minutes"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "1 minutes"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "2 minutes"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "3 minutes"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "4 minutes"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "5 minutes"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "6 minutes"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "7 minutes"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "8 minutes"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "9 minutes"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "10 minutes"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "11 minutes"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "12 minutes"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "13 minutes"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "14 minutes"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "15 minutes"
+    }
+  ]
+}

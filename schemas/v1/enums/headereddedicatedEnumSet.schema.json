@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/headereddedicatedEnumSet.schema.json",
+  "title": "headereddedicatedEnumSet",
+  "description": "HeaderedDedicated",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hdrDdHeadered"
+      ],
+      "description": "Headered"
+    },
+    {
+      "enum": [
+        1,
+        "hdrDdDedicated"
+      ],
+      "description": "Dedicated"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcOffOnEnumSet.schema.json",
+  "title": "unityXlcOffOnEnumSet",
+  "description": "Unity XLC Off/On",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ON"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "OFF"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "OFF1"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "ON1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, ON"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, OFF"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

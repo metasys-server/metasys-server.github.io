@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/measurementSystemEnumSet.schema.json",
+  "title": "measurementSystemEnumSet",
+  "description": "Measurement System",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ipDegF"
+      ],
+      "description": "IP"
+    },
+    {
+      "enum": [
+        1,
+        "siDegC"
+      ],
+      "description": "SI"
+    }
+  ]
+}

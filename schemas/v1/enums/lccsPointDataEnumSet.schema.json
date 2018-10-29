@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lccsPointDataEnumSet.schema.json",
+  "title": "lccsPointDataEnumSet",
+  "description": "LCCS Point Data",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pdBinaryin"
+      ],
+      "description": "Binary In"
+    },
+    {
+      "enum": [
+        1,
+        "pdBinaryout"
+      ],
+      "description": "Binary Out"
+    },
+    {
+      "enum": [
+        2,
+        "pdTemp"
+      ],
+      "description": "Temperature"
+    },
+    {
+      "enum": [
+        3,
+        "pdHumidity"
+      ],
+      "description": "Humidity"
+    },
+    {
+      "enum": [
+        4,
+        "pdCo2"
+      ],
+      "description": "CO2"
+    },
+    {
+      "enum": [
+        5,
+        "pdLightSensor"
+      ],
+      "description": "Light Sensor"
+    },
+    {
+      "enum": [
+        6,
+        "pdRefrigerant"
+      ],
+      "description": "Refrigerant"
+    },
+    {
+      "enum": [
+        7,
+        "pdAirflow"
+      ],
+      "description": "Common Air Flow"
+    },
+    {
+      "enum": [
+        8,
+        "pdBuildPres1"
+      ],
+      "description": "Building Pressure 1"
+    },
+    {
+      "enum": [
+        9,
+        "pdBuildPres2"
+      ],
+      "description": "Building Pressure 2"
+    },
+    {
+      "enum": [
+        10,
+        "pdBuildPres3"
+      ],
+      "description": "Building Pressure 3"
+    }
+  ]
+}

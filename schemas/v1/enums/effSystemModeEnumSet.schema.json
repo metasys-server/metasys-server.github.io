@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/effSystemModeEnumSet.schema.json",
+  "title": "effSystemModeEnumSet",
+  "description": "Effective System Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "esmCoolOnly"
+      ],
+      "description": "Cool Only"
+    },
+    {
+      "enum": [
+        1,
+        "esmHeatOnly"
+      ],
+      "description": "Heat Only"
+    },
+    {
+      "enum": [
+        2,
+        "esmFanOnly"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        3,
+        "esmPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        4,
+        "esmAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

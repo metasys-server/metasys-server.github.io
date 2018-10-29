@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fc2Pos2PipeOutStateEnumSet.schema.json",
+  "title": "fc2Pos2PipeOutStateEnumSet",
+  "description": "FC 2-Pos 2-Pipe Out State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tppOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "tppMaxClg"
+      ],
+      "description": "Max Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "tppMaxHtg"
+      ],
+      "description": "Max Heating"
+    },
+    {
+      "enum": [
+        3,
+        "tppLmtMaxClg"
+      ],
+      "description": "Limited Max Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "tppLmtMaxHtg"
+      ],
+      "description": "Limited Max Heating"
+    },
+    {
+      "enum": [
+        5,
+        "tppHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        6,
+        "tppCtrlClg"
+      ],
+      "description": "Control Cooling"
+    },
+    {
+      "enum": [
+        7,
+        "tppCtrlHtg"
+      ],
+      "description": "Control Heating"
+    },
+    {
+      "enum": [
+        8,
+        "tppFailsoftClg"
+      ],
+      "description": "Failsoft Cooling"
+    },
+    {
+      "enum": [
+        9,
+        "tppFailsoftHtg"
+      ],
+      "description": "Failsoft Heating"
+    }
+  ]
+}

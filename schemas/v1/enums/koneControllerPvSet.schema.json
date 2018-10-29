@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/koneControllerPvSet.schema.json",
+  "title": "koneControllerPvSet",
+  "description": "KONE Controller Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "koneControllerPvNotInitialized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "koneControllerPvOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "koneControllerPvOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        3,
+        "koneControllerPvFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

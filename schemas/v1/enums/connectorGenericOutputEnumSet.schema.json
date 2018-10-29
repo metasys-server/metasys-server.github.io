@@ -1,0 +1,708 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorGenericOutputEnumSet.schema.json",
+  "title": "connectorGenericOutputEnumSet",
+  "description": "Connector Generic Output",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorGenericOutput01"
+      ],
+      "description": "Output 1"
+    },
+    {
+      "enum": [
+        1,
+        "connectorGenericOutput02"
+      ],
+      "description": "Output 2"
+    },
+    {
+      "enum": [
+        2,
+        "connectorGenericOutput03"
+      ],
+      "description": "Output 3"
+    },
+    {
+      "enum": [
+        3,
+        "connectorGenericOutput04"
+      ],
+      "description": "Output 4"
+    },
+    {
+      "enum": [
+        4,
+        "connectorGenericOutput05"
+      ],
+      "description": "Output 5"
+    },
+    {
+      "enum": [
+        5,
+        "connectorGenericOutput06"
+      ],
+      "description": "Output 6"
+    },
+    {
+      "enum": [
+        6,
+        "connectorGenericOutput07"
+      ],
+      "description": "Output 7"
+    },
+    {
+      "enum": [
+        7,
+        "connectorGenericOutput08"
+      ],
+      "description": "Output 8"
+    },
+    {
+      "enum": [
+        8,
+        "connectorGenericOutput09"
+      ],
+      "description": "Output 9"
+    },
+    {
+      "enum": [
+        9,
+        "connectorGenericOutput10"
+      ],
+      "description": "Output 10"
+    },
+    {
+      "enum": [
+        10,
+        "connectorGenericOutput11"
+      ],
+      "description": "Output 11"
+    },
+    {
+      "enum": [
+        11,
+        "connectorGenericOutput12"
+      ],
+      "description": "Output 12"
+    },
+    {
+      "enum": [
+        12,
+        "connectorGenericOutput13"
+      ],
+      "description": "Output 13"
+    },
+    {
+      "enum": [
+        13,
+        "connectorGenericOutput14"
+      ],
+      "description": "Output 14"
+    },
+    {
+      "enum": [
+        14,
+        "connectorGenericOutput15"
+      ],
+      "description": "Output 15"
+    },
+    {
+      "enum": [
+        15,
+        "connectorGenericOutput16"
+      ],
+      "description": "Output 16"
+    },
+    {
+      "enum": [
+        16,
+        "connectorGenericOutput17"
+      ],
+      "description": "Output 17"
+    },
+    {
+      "enum": [
+        17,
+        "connectorGenericOutput18"
+      ],
+      "description": "Output 18"
+    },
+    {
+      "enum": [
+        18,
+        "connectorGenericOutput19"
+      ],
+      "description": "Output 19"
+    },
+    {
+      "enum": [
+        19,
+        "connectorGenericOutput20"
+      ],
+      "description": "Output 20"
+    },
+    {
+      "enum": [
+        20,
+        "connectorGenericOutput21"
+      ],
+      "description": "Output 21"
+    },
+    {
+      "enum": [
+        21,
+        "connectorGenericOutput22"
+      ],
+      "description": "Output 22"
+    },
+    {
+      "enum": [
+        22,
+        "connectorGenericOutput23"
+      ],
+      "description": "Output 23"
+    },
+    {
+      "enum": [
+        23,
+        "connectorGenericOutput24"
+      ],
+      "description": "Output 24"
+    },
+    {
+      "enum": [
+        24,
+        "connectorGenericOutput25"
+      ],
+      "description": "Output 25"
+    },
+    {
+      "enum": [
+        25,
+        "connectorGenericOutput26"
+      ],
+      "description": "Output 26"
+    },
+    {
+      "enum": [
+        26,
+        "connectorGenericOutput27"
+      ],
+      "description": "Output 27"
+    },
+    {
+      "enum": [
+        27,
+        "connectorGenericOutput28"
+      ],
+      "description": "Output 28"
+    },
+    {
+      "enum": [
+        28,
+        "connectorGenericOutput29"
+      ],
+      "description": "Output 29"
+    },
+    {
+      "enum": [
+        29,
+        "connectorGenericOutput30"
+      ],
+      "description": "Output 30"
+    },
+    {
+      "enum": [
+        30,
+        "connectorGenericOutput31"
+      ],
+      "description": "Output 31"
+    },
+    {
+      "enum": [
+        31,
+        "connectorGenericOutput32"
+      ],
+      "description": "Output 32"
+    },
+    {
+      "enum": [
+        32,
+        "connectorGenericOutput33"
+      ],
+      "description": "Output 33"
+    },
+    {
+      "enum": [
+        33,
+        "connectorGenericOutput34"
+      ],
+      "description": "Output 34"
+    },
+    {
+      "enum": [
+        34,
+        "connectorGenericOutput35"
+      ],
+      "description": "Output 35"
+    },
+    {
+      "enum": [
+        35,
+        "connectorGenericOutput36"
+      ],
+      "description": "Output 36"
+    },
+    {
+      "enum": [
+        36,
+        "connectorGenericOutput37"
+      ],
+      "description": "Output 37"
+    },
+    {
+      "enum": [
+        37,
+        "connectorGenericOutput38"
+      ],
+      "description": "Output 38"
+    },
+    {
+      "enum": [
+        38,
+        "connectorGenericOutput39"
+      ],
+      "description": "Output 39"
+    },
+    {
+      "enum": [
+        39,
+        "connectorGenericOutput40"
+      ],
+      "description": "Output 40"
+    },
+    {
+      "enum": [
+        40,
+        "connectorGenericOutput41"
+      ],
+      "description": "Output 41"
+    },
+    {
+      "enum": [
+        41,
+        "connectorGenericOutput42"
+      ],
+      "description": "Output 42"
+    },
+    {
+      "enum": [
+        42,
+        "connectorGenericOutput43"
+      ],
+      "description": "Output 43"
+    },
+    {
+      "enum": [
+        43,
+        "connectorGenericOutput44"
+      ],
+      "description": "Output 44"
+    },
+    {
+      "enum": [
+        44,
+        "connectorGenericOutput45"
+      ],
+      "description": "Output 45"
+    },
+    {
+      "enum": [
+        45,
+        "connectorGenericOutput46"
+      ],
+      "description": "Output 46"
+    },
+    {
+      "enum": [
+        46,
+        "connectorGenericOutput47"
+      ],
+      "description": "Output 47"
+    },
+    {
+      "enum": [
+        47,
+        "connectorGenericOutput48"
+      ],
+      "description": "Output 48"
+    },
+    {
+      "enum": [
+        48,
+        "connectorGenericOutput49"
+      ],
+      "description": "Output 49"
+    },
+    {
+      "enum": [
+        49,
+        "connectorGenericOutput50"
+      ],
+      "description": "Output 50"
+    },
+    {
+      "enum": [
+        50,
+        "connectorGenericOutput51"
+      ],
+      "description": "Output 51"
+    },
+    {
+      "enum": [
+        51,
+        "connectorGenericOutput52"
+      ],
+      "description": "Output 52"
+    },
+    {
+      "enum": [
+        52,
+        "connectorGenericOutput53"
+      ],
+      "description": "Output 53"
+    },
+    {
+      "enum": [
+        53,
+        "connectorGenericOutput54"
+      ],
+      "description": "Output 54"
+    },
+    {
+      "enum": [
+        54,
+        "connectorGenericOutput55"
+      ],
+      "description": "Output 55"
+    },
+    {
+      "enum": [
+        55,
+        "connectorGenericOutput56"
+      ],
+      "description": "Output 56"
+    },
+    {
+      "enum": [
+        56,
+        "connectorGenericOutput57"
+      ],
+      "description": "Output 57"
+    },
+    {
+      "enum": [
+        57,
+        "connectorGenericOutput58"
+      ],
+      "description": "Output 58"
+    },
+    {
+      "enum": [
+        58,
+        "connectorGenericOutput59"
+      ],
+      "description": "Output 59"
+    },
+    {
+      "enum": [
+        59,
+        "connectorGenericOutput60"
+      ],
+      "description": "Output 60"
+    },
+    {
+      "enum": [
+        60,
+        "connectorGenericOutput61"
+      ],
+      "description": "Output 61"
+    },
+    {
+      "enum": [
+        61,
+        "connectorGenericOutput62"
+      ],
+      "description": "Output 62"
+    },
+    {
+      "enum": [
+        62,
+        "connectorGenericOutput63"
+      ],
+      "description": "Output 63"
+    },
+    {
+      "enum": [
+        63,
+        "connectorGenericOutput64"
+      ],
+      "description": "Output 64"
+    },
+    {
+      "enum": [
+        64,
+        "connectorGenericOutput65"
+      ],
+      "description": "Output 65"
+    },
+    {
+      "enum": [
+        65,
+        "connectorGenericOutput66"
+      ],
+      "description": "Output 66"
+    },
+    {
+      "enum": [
+        66,
+        "connectorGenericOutput67"
+      ],
+      "description": "Output 67"
+    },
+    {
+      "enum": [
+        67,
+        "connectorGenericOutput68"
+      ],
+      "description": "Output 68"
+    },
+    {
+      "enum": [
+        68,
+        "connectorGenericOutput69"
+      ],
+      "description": "Output 69"
+    },
+    {
+      "enum": [
+        69,
+        "connectorGenericOutput70"
+      ],
+      "description": "Output 70"
+    },
+    {
+      "enum": [
+        70,
+        "connectorGenericOutput71"
+      ],
+      "description": "Output 71"
+    },
+    {
+      "enum": [
+        71,
+        "connectorGenericOutput72"
+      ],
+      "description": "Output 72"
+    },
+    {
+      "enum": [
+        72,
+        "connectorGenericOutput73"
+      ],
+      "description": "Output 73"
+    },
+    {
+      "enum": [
+        73,
+        "connectorGenericOutput74"
+      ],
+      "description": "Output 74"
+    },
+    {
+      "enum": [
+        74,
+        "connectorGenericOutput75"
+      ],
+      "description": "Output 75"
+    },
+    {
+      "enum": [
+        75,
+        "connectorGenericOutput76"
+      ],
+      "description": "Output 76"
+    },
+    {
+      "enum": [
+        76,
+        "connectorGenericOutput77"
+      ],
+      "description": "Output 77"
+    },
+    {
+      "enum": [
+        77,
+        "connectorGenericOutput78"
+      ],
+      "description": "Output 78"
+    },
+    {
+      "enum": [
+        78,
+        "connectorGenericOutput79"
+      ],
+      "description": "Output 79"
+    },
+    {
+      "enum": [
+        79,
+        "connectorGenericOutput80"
+      ],
+      "description": "Output 80"
+    },
+    {
+      "enum": [
+        80,
+        "connectorGenericOutput81"
+      ],
+      "description": "Output 81"
+    },
+    {
+      "enum": [
+        81,
+        "connectorGenericOutput82"
+      ],
+      "description": "Output 82"
+    },
+    {
+      "enum": [
+        82,
+        "connectorGenericOutput83"
+      ],
+      "description": "Output 83"
+    },
+    {
+      "enum": [
+        83,
+        "connectorGenericOutput84"
+      ],
+      "description": "Output 84"
+    },
+    {
+      "enum": [
+        84,
+        "connectorGenericOutput85"
+      ],
+      "description": "Output 85"
+    },
+    {
+      "enum": [
+        85,
+        "connectorGenericOutput86"
+      ],
+      "description": "Output 86"
+    },
+    {
+      "enum": [
+        86,
+        "connectorGenericOutput87"
+      ],
+      "description": "Output 87"
+    },
+    {
+      "enum": [
+        87,
+        "connectorGenericOutput88"
+      ],
+      "description": "Output 88"
+    },
+    {
+      "enum": [
+        88,
+        "connectorGenericOutput89"
+      ],
+      "description": "Output 89"
+    },
+    {
+      "enum": [
+        89,
+        "connectorGenericOutput90"
+      ],
+      "description": "Output 90"
+    },
+    {
+      "enum": [
+        90,
+        "connectorGenericOutput91"
+      ],
+      "description": "Output 91"
+    },
+    {
+      "enum": [
+        91,
+        "connectorGenericOutput92"
+      ],
+      "description": "Output 92"
+    },
+    {
+      "enum": [
+        92,
+        "connectorGenericOutput93"
+      ],
+      "description": "Output 93"
+    },
+    {
+      "enum": [
+        93,
+        "connectorGenericOutput94"
+      ],
+      "description": "Output 94"
+    },
+    {
+      "enum": [
+        94,
+        "connectorGenericOutput95"
+      ],
+      "description": "Output 95"
+    },
+    {
+      "enum": [
+        95,
+        "connectorGenericOutput96"
+      ],
+      "description": "Output 96"
+    },
+    {
+      "enum": [
+        96,
+        "connectorGenericOutput97"
+      ],
+      "description": "Output 97"
+    },
+    {
+      "enum": [
+        97,
+        "connectorGenericOutput98"
+      ],
+      "description": "Output 98"
+    },
+    {
+      "enum": [
+        98,
+        "connectorGenericOutput99"
+      ],
+      "description": "Output 99"
+    },
+    {
+      "enum": [
+        99,
+        "connectorGenericOutput100"
+      ],
+      "description": "Output 100"
+    }
+  ]
+}

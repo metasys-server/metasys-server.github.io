@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexNormalAlarmEnumSet.schema.json",
+  "title": "unityNexNormalAlarmEnumSet",
+  "description": "Unity NEX Normal/Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Alarm"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Normal"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Normal"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    }
+  ]
+}

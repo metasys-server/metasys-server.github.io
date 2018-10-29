@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacActionEnumSet.schema.json",
+  "title": "bacActionEnumSet",
+  "description": "Direct Reverse",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacActionDirect"
+      ],
+      "description": "Direct"
+    },
+    {
+      "enum": [
+        1,
+        "bacActionReverse"
+      ],
+      "description": "Reverse"
+    },
+    {
+      "enum": [
+        2,
+        "bacHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuSzVavFsm.schema.json",
+  "title": "seRtuSzVavFsm",
+  "description": "SZ VAV Sequencer State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuSzVavFsmDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuSzVavFsmSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuSzVavFsmHeating"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuSzVavFsmModSf"
+      ],
+      "description": "Mech Modulate SF"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuSzVavFsmModStpt"
+      ],
+      "description": "Mech Modulate DA-T"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuSzVavFsmTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuSzVavFsmEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        7,
+        "seRtuSzVavFsmEconAndMech"
+      ],
+      "description": "Econ And Mech"
+    },
+    {
+      "enum": [
+        8,
+        "seRtuSzVavFsmEconmechModulateSf"
+      ],
+      "description": "Econ+Mech Mod SF"
+    },
+    {
+      "enum": [
+        9,
+        "seRtuSzVavFsmCoolToHeatDelay"
+      ],
+      "description": "Cool To Heat Delay"
+    },
+    {
+      "enum": [
+        10,
+        "seRtuSzVavFsmWait"
+      ],
+      "description": "Wait"
+    }
+  ]
+}

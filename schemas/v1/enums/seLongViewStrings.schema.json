@@ -1,0 +1,1415 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seLongViewStrings.schema.json",
+  "title": "seLongViewStrings",
+  "description": "SE Long View Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seViewAirMonitorStation"
+      ],
+      "description": "Air Monitor Station"
+    },
+    {
+      "enum": [
+        1,
+        "seViewAnalog"
+      ],
+      "description": "Analog"
+    },
+    {
+      "enum": [
+        2,
+        "seViewBinaryInputs"
+      ],
+      "description": "Binary Inputs"
+    },
+    {
+      "enum": [
+        3,
+        "seViewCoilSensors"
+      ],
+      "description": "Coil Sensors"
+    },
+    {
+      "enum": [
+        4,
+        "seViewComfortVentilation"
+      ],
+      "description": "Comfort Ventilation"
+    },
+    {
+      "enum": [
+        5,
+        "seViewControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        6,
+        "seViewCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        7,
+        "seViewDemandVentilation"
+      ],
+      "description": "Demand Ventilation"
+    },
+    {
+      "enum": [
+        8,
+        "seViewEconomizer"
+      ],
+      "description": "Economizer"
+    },
+    {
+      "enum": [
+        9,
+        "seViewFactory"
+      ],
+      "description": "Factory"
+    },
+    {
+      "enum": [
+        10,
+        "seViewFan"
+      ],
+      "description": "Fan"
+    },
+    {
+      "enum": [
+        11,
+        "seViewFirmware"
+      ],
+      "description": "Firmware"
+    },
+    {
+      "enum": [
+        12,
+        "seViewHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        13,
+        "seViewHotGasReheat"
+      ],
+      "description": "Hot Gas Reheat"
+    },
+    {
+      "enum": [
+        14,
+        "seViewHvacZone"
+      ],
+      "description": "HVAC Zone"
+    },
+    {
+      "enum": [
+        15,
+        "seViewIndoor"
+      ],
+      "description": "Indoor"
+    },
+    {
+      "enum": [
+        16,
+        "seViewIndoorFan"
+      ],
+      "description": "Indoor Fan"
+    },
+    {
+      "enum": [
+        17,
+        "seViewInputs"
+      ],
+      "description": "Inputs"
+    },
+    {
+      "enum": [
+        18,
+        "seViewMisc"
+      ],
+      "description": "Misc"
+    },
+    {
+      "enum": [
+        19,
+        "seViewNetwork"
+      ],
+      "description": "Network"
+    },
+    {
+      "enum": [
+        20,
+        "seViewNetworkInputs"
+      ],
+      "description": "Network Inputs"
+    },
+    {
+      "enum": [
+        21,
+        "seViewOutdoor"
+      ],
+      "description": "Outdoor"
+    },
+    {
+      "enum": [
+        22,
+        "seViewOutputs"
+      ],
+      "description": "Outputs"
+    },
+    {
+      "enum": [
+        23,
+        "seViewPowerExhaust"
+      ],
+      "description": "Power Exhaust"
+    },
+    {
+      "enum": [
+        24,
+        "seViewRelay"
+      ],
+      "description": "Relay"
+    },
+    {
+      "enum": [
+        25,
+        "seViewSafeties"
+      ],
+      "description": "Safeties"
+    },
+    {
+      "enum": [
+        26,
+        "seViewSensors"
+      ],
+      "description": "Sensors"
+    },
+    {
+      "enum": [
+        27,
+        "seViewService"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        28,
+        "seViewSetpoints"
+      ],
+      "description": "Setpoints"
+    },
+    {
+      "enum": [
+        29,
+        "seViewSetup"
+      ],
+      "description": "Setup"
+    },
+    {
+      "enum": [
+        30,
+        "seViewSmokeControl"
+      ],
+      "description": "Smoke Control"
+    },
+    {
+      "enum": [
+        31,
+        "seViewStage1"
+      ],
+      "description": "Stage 1"
+    },
+    {
+      "enum": [
+        32,
+        "seViewStage2"
+      ],
+      "description": "Stage 2"
+    },
+    {
+      "enum": [
+        33,
+        "seViewStage3"
+      ],
+      "description": "Stage 3"
+    },
+    {
+      "enum": [
+        34,
+        "seViewStage4"
+      ],
+      "description": "Stage 4"
+    },
+    {
+      "enum": [
+        35,
+        "seViewStatus"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        36,
+        "seViewThermostat"
+      ],
+      "description": "Thermostat"
+    },
+    {
+      "enum": [
+        37,
+        "seViewTime"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        38,
+        "seViewZone"
+      ],
+      "description": "Zone"
+    },
+    {
+      "enum": [
+        39,
+        "seViewCompressorStageStatus1"
+      ],
+      "description": "Compressor Stage 1 Status"
+    },
+    {
+      "enum": [
+        40,
+        "seViewCompressorStageEnabled1"
+      ],
+      "description": "Compressor Stage 1 Enabled"
+    },
+    {
+      "enum": [
+        41,
+        "seViewMinOnTimeRemaining1"
+      ],
+      "description": "Min On Time Remaining 1"
+    },
+    {
+      "enum": [
+        42,
+        "seViewAntiShortCycleDelayTimeRemaining1"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 1"
+    },
+    {
+      "enum": [
+        43,
+        "seViewCompressorStageAccumulatedRuntime1"
+      ],
+      "description": "Compressor Stage Accumulated Runtime 1"
+    },
+    {
+      "enum": [
+        44,
+        "seViewEvaporatorCoilTemp1"
+      ],
+      "description": "Evaporator Coil Temp 1"
+    },
+    {
+      "enum": [
+        45,
+        "seViewCondenserCoilTemp1"
+      ],
+      "description": "Condenser Coil Temp 1"
+    },
+    {
+      "enum": [
+        46,
+        "seViewSuctionPressure1"
+      ],
+      "description": "Suction Pressure 1"
+    },
+    {
+      "enum": [
+        47,
+        "seViewLiquidPressure1"
+      ],
+      "description": "Liquid Pressure 1"
+    },
+    {
+      "enum": [
+        48,
+        "seViewSuctionTemperature1"
+      ],
+      "description": "Suction Temperature 1"
+    },
+    {
+      "enum": [
+        49,
+        "seViewLiquidTemperature1"
+      ],
+      "description": "Liquid Temperature 1"
+    },
+    {
+      "enum": [
+        50,
+        "seViewSuperheat1"
+      ],
+      "description": "Superheat 1"
+    },
+    {
+      "enum": [
+        51,
+        "seViewSubcooling1"
+      ],
+      "description": "Subcooling 1"
+    },
+    {
+      "enum": [
+        52,
+        "seViewEfficiencyIndex1"
+      ],
+      "description": "Efficiency Index 1"
+    },
+    {
+      "enum": [
+        53,
+        "seViewCapacityIndex1"
+      ],
+      "description": "Capacity Index 1"
+    },
+    {
+      "enum": [
+        54,
+        "seViewCondensingTemperatureOverAmbient1"
+      ],
+      "description": "Condensing Temperature over Ambient 1"
+    },
+    {
+      "enum": [
+        55,
+        "seViewCompressorStage2Status"
+      ],
+      "description": "Compressor Stage 2 Status"
+    },
+    {
+      "enum": [
+        56,
+        "seViewCompressorStage2Enabled"
+      ],
+      "description": "Compressor Stage 2 Enabled"
+    },
+    {
+      "enum": [
+        57,
+        "seViewMinOnTimeRemaining2"
+      ],
+      "description": "Min On Time Remaining 2"
+    },
+    {
+      "enum": [
+        58,
+        "seViewAntiShortCycleDelayTimeRemaining2"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 2"
+    },
+    {
+      "enum": [
+        59,
+        "seViewCompressorStageAccumulatedRuntime2"
+      ],
+      "description": "Compressor Stage Accumulated Runtime 2"
+    },
+    {
+      "enum": [
+        60,
+        "seViewEvaporatorCoilTemp2"
+      ],
+      "description": "Evaporator Coil Temp 2"
+    },
+    {
+      "enum": [
+        61,
+        "seViewCondenserCoilTemp2"
+      ],
+      "description": "Condenser Coil Temp 2"
+    },
+    {
+      "enum": [
+        62,
+        "seViewSuctionPressure2"
+      ],
+      "description": "Suction Pressure 2"
+    },
+    {
+      "enum": [
+        63,
+        "seViewLiquidPressure2"
+      ],
+      "description": "Liquid Pressure 2"
+    },
+    {
+      "enum": [
+        64,
+        "seViewSuctionTemperature2"
+      ],
+      "description": "Suction Temperature 2"
+    },
+    {
+      "enum": [
+        65,
+        "seViewLiquidTemperature2"
+      ],
+      "description": "Liquid Temperature 2"
+    },
+    {
+      "enum": [
+        66,
+        "seViewSuperheat2"
+      ],
+      "description": "Superheat 2"
+    },
+    {
+      "enum": [
+        67,
+        "seViewSubcooling2"
+      ],
+      "description": "Subcooling 2"
+    },
+    {
+      "enum": [
+        68,
+        "seViewEfficiencyIndex2"
+      ],
+      "description": "Efficiency Index 2"
+    },
+    {
+      "enum": [
+        69,
+        "seViewCapacityIndex2"
+      ],
+      "description": "Capacity Index 2"
+    },
+    {
+      "enum": [
+        70,
+        "seViewCondensingTemperatureOverAmbient2"
+      ],
+      "description": "Condensing Temperature over Ambient 2"
+    },
+    {
+      "enum": [
+        71,
+        "seViewCompressorStage3Status"
+      ],
+      "description": "Compressor Stage 3 Status"
+    },
+    {
+      "enum": [
+        72,
+        "seViewCompressorStage3Enabled"
+      ],
+      "description": "Compressor Stage 3 Enabled"
+    },
+    {
+      "enum": [
+        73,
+        "seViewMinOnTimeRemaining3"
+      ],
+      "description": "Min On Time Remaining 3"
+    },
+    {
+      "enum": [
+        74,
+        "seViewAntiShortCycleDelayTimeRemaining3"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 3"
+    },
+    {
+      "enum": [
+        75,
+        "seViewCompressorStageAccumulatedRuntime3"
+      ],
+      "description": "Compressor Stage Accumulated Runtime 3"
+    },
+    {
+      "enum": [
+        76,
+        "seViewEvaporatorCoilTemp3"
+      ],
+      "description": "Evaporator Coil Temp 3"
+    },
+    {
+      "enum": [
+        77,
+        "seViewCondenserCoilTemp3"
+      ],
+      "description": "Condenser Coil Temp 3"
+    },
+    {
+      "enum": [
+        78,
+        "seViewSuctionPressure3"
+      ],
+      "description": "Suction Pressure 3"
+    },
+    {
+      "enum": [
+        79,
+        "seViewLiquidPressure3"
+      ],
+      "description": "Liquid Pressure 3"
+    },
+    {
+      "enum": [
+        80,
+        "seViewSuctionTemperature3"
+      ],
+      "description": "Suction Temperature 3"
+    },
+    {
+      "enum": [
+        81,
+        "seViewLiquidTemperature3"
+      ],
+      "description": "Liquid Temperature 3"
+    },
+    {
+      "enum": [
+        82,
+        "seViewSuperheat3"
+      ],
+      "description": "Superheat 3"
+    },
+    {
+      "enum": [
+        83,
+        "seViewSubcooling3"
+      ],
+      "description": "Subcooling 3"
+    },
+    {
+      "enum": [
+        84,
+        "seViewEfficiencyIndex3"
+      ],
+      "description": "Efficiency Index 3"
+    },
+    {
+      "enum": [
+        85,
+        "seViewCapacityIndex3"
+      ],
+      "description": "Capacity Index 3"
+    },
+    {
+      "enum": [
+        86,
+        "seViewCondensingTemperatureOverAmbient3"
+      ],
+      "description": "Condensing Temperature over Ambient 3"
+    },
+    {
+      "enum": [
+        87,
+        "seViewCompressorStage4Status"
+      ],
+      "description": "Compressor Stage 4 Status"
+    },
+    {
+      "enum": [
+        88,
+        "seViewCompressorStage4Enabled"
+      ],
+      "description": "Compressor Stage 4 Enabled"
+    },
+    {
+      "enum": [
+        89,
+        "seViewMinOnTimeRemaining4"
+      ],
+      "description": "Min On Time Remaining 4"
+    },
+    {
+      "enum": [
+        90,
+        "seViewAntiShortCycleDelayTimeRemaining4"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 4"
+    },
+    {
+      "enum": [
+        91,
+        "seViewCompressorStageAccumulatedRuntime4"
+      ],
+      "description": "Compressor Stage Accumulated Runtime 4"
+    },
+    {
+      "enum": [
+        92,
+        "seViewEvaporatorCoilTemp4"
+      ],
+      "description": "Evaporator Coil Temp 4"
+    },
+    {
+      "enum": [
+        93,
+        "seViewCondenserCoilTemp4"
+      ],
+      "description": "Condenser Coil Temp 4"
+    },
+    {
+      "enum": [
+        94,
+        "seViewSuctionPressure4"
+      ],
+      "description": "Suction Pressure 4"
+    },
+    {
+      "enum": [
+        95,
+        "seViewLiquidPressure4"
+      ],
+      "description": "Liquid Pressure 4"
+    },
+    {
+      "enum": [
+        96,
+        "seViewSuctionTemperature4"
+      ],
+      "description": "Suction Temperature 4"
+    },
+    {
+      "enum": [
+        97,
+        "seViewLiquidTemperature4"
+      ],
+      "description": "Liquid Temperature 4"
+    },
+    {
+      "enum": [
+        98,
+        "seViewSuperheat4"
+      ],
+      "description": "Superheat 4"
+    },
+    {
+      "enum": [
+        99,
+        "seViewSubcooling4"
+      ],
+      "description": "Subcooling 4"
+    },
+    {
+      "enum": [
+        100,
+        "seViewEfficiencyIndex4"
+      ],
+      "description": "Efficiency Index 4"
+    },
+    {
+      "enum": [
+        101,
+        "seViewCapacityIndex4"
+      ],
+      "description": "Capacity Index 4"
+    },
+    {
+      "enum": [
+        102,
+        "seViewCondensingTemperatureOverAmbient4"
+      ],
+      "description": "Condensing Temperature over Ambient 4"
+    },
+    {
+      "enum": [
+        103,
+        "seViewHeatingStage1Status"
+      ],
+      "description": "Heating Stage 1 Status"
+    },
+    {
+      "enum": [
+        104,
+        "seViewHeatingStage1Enabled"
+      ],
+      "description": "Heating Stage 1 Enabled"
+    },
+    {
+      "enum": [
+        105,
+        "seViewHeatingStage1MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 1 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        106,
+        "seViewHeatingStage1AntiShortCycleDelayTimeRemaining"
+      ],
+      "description": "Heating Stage 1 Anti-Short Cycle Delay Time Remaining"
+    },
+    {
+      "enum": [
+        107,
+        "seViewHydronicHeatValvePctCommand1"
+      ],
+      "description": "Hydronic Heat Valve % Command 1"
+    },
+    {
+      "enum": [
+        108,
+        "seViewHeatingStage1AccumulatedRuntime"
+      ],
+      "description": "Heating Stage 1 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        109,
+        "seViewHeatingStage2Status"
+      ],
+      "description": "Heating Stage 2 Status"
+    },
+    {
+      "enum": [
+        110,
+        "seViewHeatingStage2Enabled"
+      ],
+      "description": "Heating Stage 2 Enabled"
+    },
+    {
+      "enum": [
+        111,
+        "seViewHeatingStage2MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 2 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        112,
+        "seViewHeatingStage2AntiShortCycleDelayTimeRemaining"
+      ],
+      "description": "Heating Stage 2 Anti-Short Cycle Delay Time Remaining"
+    },
+    {
+      "enum": [
+        113,
+        "seViewHydronicHeatValvePctCommand2"
+      ],
+      "description": "Hydronic Heat Valve % Command 2"
+    },
+    {
+      "enum": [
+        114,
+        "seViewHeatingStage2AccumulatedRuntime"
+      ],
+      "description": "Heating Stage 2 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        115,
+        "seViewHeatingStage3Status"
+      ],
+      "description": "Heating Stage 3 Status"
+    },
+    {
+      "enum": [
+        116,
+        "seViewHeatingStage3Enabled"
+      ],
+      "description": "Heating Stage 3 Enabled"
+    },
+    {
+      "enum": [
+        117,
+        "seViewHeatingStage3MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 3 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        118,
+        "seViewHeatingStage3AntiShortCycleDelayTimeRemaining"
+      ],
+      "description": "Heating Stage 3 Anti-Short Cycle Delay Time Remaining"
+    },
+    {
+      "enum": [
+        119,
+        "seViewHydronicHeatValvePctCommand3"
+      ],
+      "description": "Hydronic Heat Valve % Command 3"
+    },
+    {
+      "enum": [
+        120,
+        "seViewHeatingStage3AccumulatedRuntime"
+      ],
+      "description": "Heating Stage 3 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        121,
+        "seViewHighPressureLimit1"
+      ],
+      "description": "High Pressure Limit 1"
+    },
+    {
+      "enum": [
+        122,
+        "seViewLowPressureLimit1"
+      ],
+      "description": "Low Pressure Limit 1"
+    },
+    {
+      "enum": [
+        123,
+        "seViewHighPressureLimit2"
+      ],
+      "description": "High Pressure Limit 2"
+    },
+    {
+      "enum": [
+        124,
+        "seViewLowPressureLimit2"
+      ],
+      "description": "Low Pressure Limit 2"
+    },
+    {
+      "enum": [
+        125,
+        "seViewHighPressureLimit3"
+      ],
+      "description": "High Pressure Limit 3"
+    },
+    {
+      "enum": [
+        126,
+        "seViewLowPressureLimit3"
+      ],
+      "description": "Low Pressure Limit 3"
+    },
+    {
+      "enum": [
+        127,
+        "seViewHighPressureLimit4"
+      ],
+      "description": "High Pressure Limit 4"
+    },
+    {
+      "enum": [
+        128,
+        "seViewLowPressureLimit4"
+      ],
+      "description": "Low Pressure Limit 4"
+    },
+    {
+      "enum": [
+        129,
+        "seViewHighPressureLockout1"
+      ],
+      "description": "High Pressure Lockout 1"
+    },
+    {
+      "enum": [
+        130,
+        "seViewLowPressureLockout1"
+      ],
+      "description": "Low Pressure Lockout 1"
+    },
+    {
+      "enum": [
+        131,
+        "seViewFreezeCondition1"
+      ],
+      "description": "Freeze Condition 1"
+    },
+    {
+      "enum": [
+        132,
+        "seViewFreezeConditionLockout1"
+      ],
+      "description": "Freeze Condition Lockout 1"
+    },
+    {
+      "enum": [
+        133,
+        "seViewHighPressureLockout2"
+      ],
+      "description": "High Pressure Lockout 2"
+    },
+    {
+      "enum": [
+        134,
+        "seViewLowPressureLockout2"
+      ],
+      "description": "Low Pressure Lockout 2"
+    },
+    {
+      "enum": [
+        135,
+        "seViewFreezeCondition2"
+      ],
+      "description": "Freeze Condition 2"
+    },
+    {
+      "enum": [
+        136,
+        "seViewFreezeConditionLockout2"
+      ],
+      "description": "Freeze Condition Lockout 2"
+    },
+    {
+      "enum": [
+        137,
+        "seViewHighPressureLockout3"
+      ],
+      "description": "High Pressure Lockout 3"
+    },
+    {
+      "enum": [
+        138,
+        "seViewLowPressureLockout3"
+      ],
+      "description": "Low Pressure Lockout 3"
+    },
+    {
+      "enum": [
+        139,
+        "seViewFreezeCondition3"
+      ],
+      "description": "Freeze Condition 3"
+    },
+    {
+      "enum": [
+        140,
+        "seViewFreezeConditionLockout3"
+      ],
+      "description": "Freeze Condition Lockout 3"
+    },
+    {
+      "enum": [
+        141,
+        "seViewHighPressureLockout4"
+      ],
+      "description": "High Pressure Lockout 4"
+    },
+    {
+      "enum": [
+        142,
+        "seViewLowPressureLockout4"
+      ],
+      "description": "Low Pressure Lockout 4"
+    },
+    {
+      "enum": [
+        143,
+        "seViewFreezeCondition4"
+      ],
+      "description": "Freeze Condition 4"
+    },
+    {
+      "enum": [
+        144,
+        "seViewFreezeConditionLockout4"
+      ],
+      "description": "Freeze Condition Lockout 4"
+    },
+    {
+      "enum": [
+        145,
+        "seViewCompressorStageCommand1"
+      ],
+      "description": "Compressor Stage Command 1"
+    },
+    {
+      "enum": [
+        146,
+        "seViewCompressorStageCommand2"
+      ],
+      "description": "Compressor Stage Command 2"
+    },
+    {
+      "enum": [
+        147,
+        "seViewCompressorStageCommand3"
+      ],
+      "description": "Compressor Stage Command 3"
+    },
+    {
+      "enum": [
+        148,
+        "seViewCompressorStageCommand4"
+      ],
+      "description": "Compressor Stage Command 4"
+    },
+    {
+      "enum": [
+        149,
+        "seViewHeatingStageCommand1"
+      ],
+      "description": "Heating Stage Command 1"
+    },
+    {
+      "enum": [
+        150,
+        "seViewHeatingStageCommand2"
+      ],
+      "description": "Heating Stage Command 2"
+    },
+    {
+      "enum": [
+        151,
+        "seViewHeatingStageCommand3"
+      ],
+      "description": "Heating Stage Command 3"
+    },
+    {
+      "enum": [
+        152,
+        "seViewSystemControllers"
+      ],
+      "description": "System Controllers"
+    },
+    {
+      "enum": [
+        153,
+        "seViewUnit"
+      ],
+      "description": "Unit"
+    },
+    {
+      "enum": [
+        154,
+        "seViewUcb"
+      ],
+      "description": "UCB"
+    },
+    {
+      "enum": [
+        155,
+        "seView4Stage"
+      ],
+      "description": "4 Stage"
+    },
+    {
+      "enum": [
+        156,
+        "seViewFddMaster"
+      ],
+      "description": "FDD Master"
+    },
+    {
+      "enum": [
+        157,
+        "seViewFddSlave"
+      ],
+      "description": "FDD Slave"
+    },
+    {
+      "enum": [
+        158,
+        "seViewSteppedHeat"
+      ],
+      "description": "Stepped Heat"
+    },
+    {
+      "enum": [
+        159,
+        "seViewCircuit1PressureSensorSupplyVoltage"
+      ],
+      "description": "Circuit 1 Pressure Sensor Supply Voltage"
+    },
+    {
+      "enum": [
+        160,
+        "seViewCircuit2PressureSensorSupplyVoltage"
+      ],
+      "description": "Circuit 2 Pressure Sensor Supply Voltage"
+    },
+    {
+      "enum": [
+        161,
+        "seViewWarmupcooldown"
+      ],
+      "description": "WarmupCooldown"
+    },
+    {
+      "enum": [
+        162,
+        "seViewTitle24Loadshed"
+      ],
+      "description": "Load Shed"
+    },
+    {
+      "enum": [
+        163,
+        "seViewDefrost"
+      ],
+      "description": "Defrost"
+    },
+    {
+      "enum": [
+        164,
+        "seViewEvaporatingTempValue1"
+      ],
+      "description": "Evaporating Temperature Value Circuit 1"
+    },
+    {
+      "enum": [
+        165,
+        "seViewEvaporatingTempValue2"
+      ],
+      "description": "Evaporating Temperature Value Circuit 2"
+    },
+    {
+      "enum": [
+        166,
+        "seViewEvaporatingTempValue3"
+      ],
+      "description": "Evaporating Temperature Value Circuit 3"
+    },
+    {
+      "enum": [
+        167,
+        "seViewEvaporatingTempValue4"
+      ],
+      "description": "Evaporating Temperature Value Circuit 4"
+    },
+    {
+      "enum": [
+        168,
+        "seViewFanResult"
+      ],
+      "description": "Fan Result"
+    },
+    {
+      "enum": [
+        169,
+        "seViewC1Result"
+      ],
+      "description": "C1 Result"
+    },
+    {
+      "enum": [
+        170,
+        "seViewC2Result"
+      ],
+      "description": "C2 Result"
+    },
+    {
+      "enum": [
+        171,
+        "seViewC3Result"
+      ],
+      "description": "C3 Result"
+    },
+    {
+      "enum": [
+        172,
+        "seViewC4Result"
+      ],
+      "description": "C4 Result"
+    },
+    {
+      "enum": [
+        173,
+        "seViewH1Result"
+      ],
+      "description": "H1 Result"
+    },
+    {
+      "enum": [
+        174,
+        "seViewH2Result"
+      ],
+      "description": "H2 Result"
+    },
+    {
+      "enum": [
+        175,
+        "seViewH3Result"
+      ],
+      "description": "H3 Result"
+    },
+    {
+      "enum": [
+        176,
+        "seViewEconResult"
+      ],
+      "description": "Econ Result"
+    },
+    {
+      "enum": [
+        177,
+        "seViewExhaustResult"
+      ],
+      "description": "Exhaust Result"
+    },
+    {
+      "enum": [
+        178,
+        "seViewStandard"
+      ],
+      "description": "Standard"
+    },
+    {
+      "enum": [
+        179,
+        "seViewFdd"
+      ],
+      "description": "FDD"
+    },
+    {
+      "enum": [
+        180,
+        "seViewHeatPump"
+      ],
+      "description": "Heat Pump"
+    },
+    {
+      "enum": [
+        181,
+        "seViewMfcHeatRun1"
+      ],
+      "description": "MFC Heat Stage Accumulated Runtime 1"
+    },
+    {
+      "enum": [
+        182,
+        "seViewMfcHeatRun2"
+      ],
+      "description": "MFC Heat Stage Accumulated Runtime 2"
+    },
+    {
+      "enum": [
+        183,
+        "seViewMfcHeatRun3"
+      ],
+      "description": "MFC Heat Stage Accumulated Runtime 3"
+    },
+    {
+      "enum": [
+        184,
+        "seViewMfcHeatRun4"
+      ],
+      "description": "MFC Heat Stage Accumulated Runtime 4"
+    },
+    {
+      "enum": [
+        185,
+        "seViewMfcHeatRun5"
+      ],
+      "description": "MFC Heat Stage Accumulated Runtime 5"
+    },
+    {
+      "enum": [
+        186,
+        "seViewMfcHeatRun6"
+      ],
+      "description": "MFC Heat Stage Accumulated Runtime 6"
+    },
+    {
+      "enum": [
+        187,
+        "seViewMfcHeatRun7"
+      ],
+      "description": "MFC Heat Stage Accumulated Runtime 7"
+    },
+    {
+      "enum": [
+        188,
+        "seViewMfcHeatRun8"
+      ],
+      "description": "MFC Heat Stage Accumulated Runtime 8"
+    },
+    {
+      "enum": [
+        189,
+        "seViewMfcHeatCmd1"
+      ],
+      "description": "MFC Heat Stage Command 1"
+    },
+    {
+      "enum": [
+        190,
+        "seViewMfcHeatCmd2"
+      ],
+      "description": "MFC Heat Stage Command 2"
+    },
+    {
+      "enum": [
+        191,
+        "seViewMfcHeatCmd3"
+      ],
+      "description": "MFC Heat Stage Command 3"
+    },
+    {
+      "enum": [
+        192,
+        "seViewMfcHeatCmd4"
+      ],
+      "description": "MFC Heat Stage Command 4"
+    },
+    {
+      "enum": [
+        193,
+        "seViewStaged"
+      ],
+      "description": "Staged"
+    },
+    {
+      "enum": [
+        194,
+        "seViewProportional"
+      ],
+      "description": "Proportional"
+    },
+    {
+      "enum": [
+        195,
+        "seViewSingleZoneVav"
+      ],
+      "description": "Single Zone VAV"
+    },
+    {
+      "enum": [
+        196,
+        "seViewHgrHumiditySetpointDifferential"
+      ],
+      "description": "HGR Humidity Setpoint Differential"
+    },
+    {
+      "enum": [
+        197,
+        "seViewCompressor"
+      ],
+      "description": "Compressor"
+    },
+    {
+      "enum": [
+        198,
+        "seViewDiagnostics"
+      ],
+      "description": "Diagnostics"
+    },
+    {
+      "enum": [
+        199,
+        "seLongViewStringsPeak"
+      ],
+      "description": "Peak"
+    },
+    {
+      "enum": [
+        200,
+        "seViewBinary"
+      ],
+      "description": "Binary"
+    }
+  ]
+}

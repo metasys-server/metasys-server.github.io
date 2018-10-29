@@ -1,0 +1,365 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/doasAlarmsEnumSet.schema.json",
+  "title": "doasAlarmsEnumSet",
+  "description": "DOAS Alarms",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "oadaAlarm"
+      ],
+      "description": "OADA Alarm"
+    },
+    {
+      "enum": [
+        1,
+        "sfAlarm"
+      ],
+      "description": "SF Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "highDspAlarm"
+      ],
+      "description": "High DSP Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "compressor1Alarm"
+      ],
+      "description": "Compressor 1 Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "comp1HandAlarm"
+      ],
+      "description": "Comp 1 Hand Alarm"
+    },
+    {
+      "enum": [
+        5,
+        "compressor2Alarm"
+      ],
+      "description": "Compressor 2 Alarm"
+    },
+    {
+      "enum": [
+        6,
+        "comp2HandAlarm"
+      ],
+      "description": "Comp 2 Hand Alarm"
+    },
+    {
+      "enum": [
+        7,
+        "highPressure1Alarm"
+      ],
+      "description": "High Pressure 1 Alarm"
+    },
+    {
+      "enum": [
+        8,
+        "lowPressure1Alarm"
+      ],
+      "description": "Low Pressure 1 Alarm"
+    },
+    {
+      "enum": [
+        9,
+        "highPressure2Alarm"
+      ],
+      "description": "High Pressure 2 Alarm"
+    },
+    {
+      "enum": [
+        10,
+        "lowPressure2Alarm"
+      ],
+      "description": "Low Pressure 2 Alarm"
+    },
+    {
+      "enum": [
+        11,
+        "freezeProtect1Alarm"
+      ],
+      "description": "Freeze Protect 1 Alarm"
+    },
+    {
+      "enum": [
+        12,
+        "freezeProtect2Alarm"
+      ],
+      "description": "Freeze Protect 2 Alarm"
+    },
+    {
+      "enum": [
+        13,
+        "satSensorFailure"
+      ],
+      "description": "SAT Sensor Failure"
+    },
+    {
+      "enum": [
+        14,
+        "lowSatAlarm"
+      ],
+      "description": "Low SAT Alarm"
+    },
+    {
+      "enum": [
+        15,
+        "dxLat1Alarm"
+      ],
+      "description": "DX LAT 1 Alarm"
+    },
+    {
+      "enum": [
+        16,
+        "dxLat2Alarm"
+      ],
+      "description": "DX LAT 2 Alarm"
+    },
+    {
+      "enum": [
+        17,
+        "highDspLockout"
+      ],
+      "description": "High DSP Lockout"
+    },
+    {
+      "enum": [
+        18,
+        "compressor1Lockout"
+      ],
+      "description": "Compressor 1 Lockout"
+    },
+    {
+      "enum": [
+        19,
+        "compressor2Lockout"
+      ],
+      "description": "Compressor 2 Lockout"
+    },
+    {
+      "enum": [
+        20,
+        "highPressure1Lockout"
+      ],
+      "description": "High Pressure 1 Lockout"
+    },
+    {
+      "enum": [
+        21,
+        "highPressure2Lockout"
+      ],
+      "description": "High Pressure 2 Lockout"
+    },
+    {
+      "enum": [
+        22,
+        "lowPressure1Lockout"
+      ],
+      "description": "Low Pressure 1 Lockout"
+    },
+    {
+      "enum": [
+        23,
+        "lowPressure2Lockout"
+      ],
+      "description": "Low Pressure 2 Lockout"
+    },
+    {
+      "enum": [
+        24,
+        "freezeProtect1Lockout"
+      ],
+      "description": "Freeze Protect 1 Lockout"
+    },
+    {
+      "enum": [
+        25,
+        "freezeProtect2Lockout"
+      ],
+      "description": "Freeze Protect 2 Lockout"
+    },
+    {
+      "enum": [
+        26,
+        "lowDxLat1Lockout"
+      ],
+      "description": "Low DX LAT 1 Lockout"
+    },
+    {
+      "enum": [
+        27,
+        "lowDxLat2Lockout"
+      ],
+      "description": "Low DX LAT 2 Lockout"
+    },
+    {
+      "enum": [
+        28,
+        "ecwAlarm"
+      ],
+      "description": "ECW Alarm"
+    },
+    {
+      "enum": [
+        29,
+        "sfHandAlarm"
+      ],
+      "description": "SF Hand Alarm"
+    },
+    {
+      "enum": [
+        30,
+        "efAlarm"
+      ],
+      "description": "EF Alarm"
+    },
+    {
+      "enum": [
+        31,
+        "sensorFailure"
+      ],
+      "description": "Sensor Failure"
+    },
+    {
+      "enum": [
+        32,
+        "highSatAlarm"
+      ],
+      "description": "High SAT Alarm"
+    },
+    {
+      "enum": [
+        33,
+        "heatFailure"
+      ],
+      "description": "Heat Failure"
+    },
+    {
+      "enum": [
+        34,
+        "oadaHandAlarm"
+      ],
+      "description": "OADA Hand Alarm"
+    },
+    {
+      "enum": [
+        35,
+        "ecwHandAlarm"
+      ],
+      "description": "ECW Hand Alarm"
+    },
+    {
+      "enum": [
+        36,
+        "efHandAlarm"
+      ],
+      "description": "EF Hand Alarm"
+    },
+    {
+      "enum": [
+        37,
+        "sfRuntimeAlarm"
+      ],
+      "description": "SF Runtime Alarm"
+    },
+    {
+      "enum": [
+        38,
+        "efRuntimeAlarm"
+      ],
+      "description": "EF Runtime Alarm"
+    },
+    {
+      "enum": [
+        39,
+        "comp1RuntimeAlarm"
+      ],
+      "description": "Comp 1 Runtime Alarm"
+    },
+    {
+      "enum": [
+        40,
+        "comp2RuntimeAlarm"
+      ],
+      "description": "Comp 2 Runtime Alarm"
+    },
+    {
+      "enum": [
+        41,
+        "supplyAirRhSensorAlarm"
+      ],
+      "description": "Supply Air RH Sensor Alarm"
+    },
+    {
+      "enum": [
+        42,
+        "enteringCoilRhSensorAlarm"
+      ],
+      "description": "Entering Coil RH Sensor Alarm"
+    },
+    {
+      "enum": [
+        43,
+        "dxLat1SensorAlarm"
+      ],
+      "description": "DX LAT1 Sensor Alarm"
+    },
+    {
+      "enum": [
+        44,
+        "dxLat2SensorAlarm"
+      ],
+      "description": "DX LAT2 Sensor Alarm"
+    },
+    {
+      "enum": [
+        45,
+        "ecatSensorAlarm"
+      ],
+      "description": "ECAT Sensor Alarm"
+    },
+    {
+      "enum": [
+        46,
+        "wexatSensorAlarm"
+      ],
+      "description": "WExAT Sensor Alarm"
+    },
+    {
+      "enum": [
+        47,
+        "emergencyStop"
+      ],
+      "description": "Emergency Stop"
+    },
+    {
+      "enum": [
+        48,
+        "condensateOverflowAlarm"
+      ],
+      "description": "Condensate Overflow Alarm"
+    },
+    {
+      "enum": [
+        49,
+        "cloggedFilterAlarm"
+      ],
+      "description": "Clogged Filter Alarm"
+    },
+    {
+      "enum": [
+        50,
+        "smokeDetectorAlarm"
+      ],
+      "description": "Smoke Detector Alarm"
+    }
+  ]
+}

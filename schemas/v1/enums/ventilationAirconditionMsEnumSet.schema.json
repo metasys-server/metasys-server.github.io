@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ventilationAirconditionMsEnumSet.schema.json",
+  "title": "ventilationAirconditionMsEnumSet",
+  "description": "Ventilation/AirConditioning",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ventilationAirconditionVentilation"
+      ],
+      "description": "Ventilation"
+    },
+    {
+      "enum": [
+        1,
+        "ventilationAirconditionAircondition"
+      ],
+      "description": "Air Conditioning"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYgYbOpCodeEnumSet.schema.json",
+  "title": "ltcLegacyYgYbOpCodeEnumSet",
+  "description": "York LTC Legacy YG/YB Operational Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYgYbOpCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYgYbOpCode1"
+      ],
+      "description": "HIGH CONDENSER PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYgYbOpCode2"
+      ],
+      "description": "LOW EVAPORATOR PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYgYbOpCode3"
+      ],
+      "description": "FAULTY TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYgYbOpCode4"
+      ],
+      "description": "RTC BATTERY FAILURE"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYgYbOpCode5"
+      ],
+      "description": "CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYgYbOpCode6"
+      ],
+      "description": "PRV TRANSDUCER ERROR"
+    }
+  ]
+}

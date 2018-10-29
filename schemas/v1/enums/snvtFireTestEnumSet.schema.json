@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtFireTestEnumSet.schema.json",
+  "title": "snvtFireTestEnumSet",
+  "description": "SNVT Fire Test",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Start Test"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Exit Test"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

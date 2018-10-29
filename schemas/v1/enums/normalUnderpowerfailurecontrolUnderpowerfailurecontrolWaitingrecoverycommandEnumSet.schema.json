@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalUnderpowerfailurecontrolUnderpowerfailurecontrolWaitingrecoverycommandEnumSet.schema.json",
+  "title": "normalUnderpowerfailurecontrolUnderpowerfailurecontrolWaitingrecoverycommandEnumSet",
+  "description": "Normal/Under Power Failure Control/Under Power Failure Control/Waiting Recovery Command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normalUnderpowerfailurecontrolUnderpowerfailurecontrolWaitingrecoverycommandNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "normalUnderpowerfailurecontrolUnderpowerfailurecontrolWaitingrecoverycommandUnderpowerfailurecontrol1"
+      ],
+      "description": "Under Power Failure Control1"
+    },
+    {
+      "enum": [
+        2,
+        "normalUnderpowerfailurecontrolUnderpowerfailurecontrolWaitingrecoverycommandUnderpowerfailurecontrol2"
+      ],
+      "description": "Under Power Failure Control2"
+    },
+    {
+      "enum": [
+        3,
+        "normalUnderpowerfailurecontrolUnderpowerfailurecontrolWaitingrecoverycommandWaitingrecoverycommand"
+      ],
+      "description": "Waiting Recovery Command"
+    }
+  ]
+}

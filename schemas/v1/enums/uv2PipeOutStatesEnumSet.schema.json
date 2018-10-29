@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uv2PipeOutStatesEnumSet.schema.json",
+  "title": "uv2PipeOutStatesEnumSet",
+  "description": "UV 2-Pipe Out States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "twoPipeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "twoPipeMaxClg"
+      ],
+      "description": "Max Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "twoPipeMaxHtg"
+      ],
+      "description": "Max Heating"
+    },
+    {
+      "enum": [
+        3,
+        "twoPipeLmtMaxClg"
+      ],
+      "description": "Limited Max Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "twoPipeLmtMaxHtg"
+      ],
+      "description": "Limited Max Heating"
+    },
+    {
+      "enum": [
+        5,
+        "twoPipeHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        6,
+        "twoPipeWaterFlushClg"
+      ],
+      "description": "Water Flush Cooling"
+    },
+    {
+      "enum": [
+        7,
+        "twoPipeWaterFlushHtg"
+      ],
+      "description": "Water Flush Heating"
+    },
+    {
+      "enum": [
+        8,
+        "twoPipeCtrlClg"
+      ],
+      "description": "Control Cooling"
+    },
+    {
+      "enum": [
+        9,
+        "twoPipeCtrlHtg"
+      ],
+      "description": "Control Heating"
+    },
+    {
+      "enum": [
+        10,
+        "twoPipeCtrlLmtHtg"
+      ],
+      "description": "Control Limit"
+    },
+    {
+      "enum": [
+        11,
+        "twoPipeFailsoftClg"
+      ],
+      "description": "Failsoft Cooling"
+    },
+    {
+      "enum": [
+        12,
+        "twoPipeFailsoftHtg"
+      ],
+      "description": "Failsoft Heating"
+    }
+  ]
+}

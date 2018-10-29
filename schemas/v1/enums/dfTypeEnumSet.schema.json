@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dfTypeEnumSet.schema.json",
+  "title": "dfTypeEnumSet",
+  "description": "DF Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Constant Volume"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Variable Inlet Vanes"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Tri-state VFD"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "N2 VFD"
+    }
+  ]
+}

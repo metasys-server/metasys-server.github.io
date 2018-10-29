@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/diagnosticLoggerErrorStatusEnumSet.schema.json",
+  "title": "diagnosticLoggerErrorStatusEnumSet",
+  "description": "Diagnostic Logger Driver Error Statuses",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "diagnosticLoggerNoErrorStatus"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "diagnosticLoggerFileOpenErrorStatus"
+      ],
+      "description": "File Open"
+    },
+    {
+      "enum": [
+        2,
+        "diagnosticLoggerFileWriteErrorStatus"
+      ],
+      "description": "File Write"
+    },
+    {
+      "enum": [
+        3,
+        "diagnosticLoggerFileCloseErrorStatus"
+      ],
+      "description": "File Close"
+    },
+    {
+      "enum": [
+        4,
+        "diagnosticLoggerDirectoryOpenErrorStatus"
+      ],
+      "description": "Directory Open"
+    },
+    {
+      "enum": [
+        5,
+        "diagnosticLoggerFileSystemFullErrorStatus"
+      ],
+      "description": "File System Full"
+    },
+    {
+      "enum": [
+        6,
+        "diagnosticLoggerSerialOpenErrorStatus"
+      ],
+      "description": "Serial Open"
+    },
+    {
+      "enum": [
+        7,
+        "diagnosticLoggerSerialConfigurationErrorStatus"
+      ],
+      "description": "Serial Configuration"
+    },
+    {
+      "enum": [
+        8,
+        "diagnosticLoggerSerialWriteErrorStatus"
+      ],
+      "description": "Serial Write"
+    },
+    {
+      "enum": [
+        9,
+        "diagnosticLoggerSerialCloseErrorStatus"
+      ],
+      "description": "Serial Close"
+    }
+  ]
+}

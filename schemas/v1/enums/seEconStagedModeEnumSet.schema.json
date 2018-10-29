@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconStagedModeEnumSet.schema.json",
+  "title": "seEconStagedModeEnumSet",
+  "description": "SE ECON Staged Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconStagedModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seEconStagedModeInstantShutdown"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        2,
+        "seEconStagedModeMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        3,
+        "seEconStagedModeHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "seEconStagedModeLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        5,
+        "seEconStagedModeFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        6,
+        "seEconStagedModeControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        7,
+        "seEconStagedModeExcessiveSatControl"
+      ],
+      "description": "Excessive SAT Control"
+    }
+  ]
+}

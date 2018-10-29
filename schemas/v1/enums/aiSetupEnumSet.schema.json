@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/aiSetupEnumSet.schema.json",
+  "title": "aiSetupEnumSet",
+  "description": "AI Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "aiUserRangeOhms"
+      ],
+      "description": "User Range Ohms"
+    },
+    {
+      "enum": [
+        1,
+        "aiUserRangeVolts"
+      ],
+      "description": "User Range Volts"
+    },
+    {
+      "enum": [
+        2,
+        "aiUserRangeCurrent"
+      ],
+      "description": "User Range Current"
+    },
+    {
+      "enum": [
+        3,
+        "aiNickel"
+      ],
+      "description": "Nickel"
+    },
+    {
+      "enum": [
+        4,
+        "aiPlatinum"
+      ],
+      "description": "Platinum"
+    },
+    {
+      "enum": [
+        5,
+        "aiA99B"
+      ],
+      "description": "A99B"
+    },
+    {
+      "enum": [
+        6,
+        "ai225KNtc"
+      ],
+      "description": "2.25K NTC"
+    },
+    {
+      "enum": [
+        7,
+        "ai10KNtc"
+      ],
+      "description": "10K NTC"
+    },
+    {
+      "enum": [
+        8,
+        "ai10KNtcT3"
+      ],
+      "description": "10K NTC Type 3"
+    },
+    {
+      "enum": [
+        9,
+        "aiDigitalDpt"
+      ],
+      "description": "Digital DPT"
+    },
+    {
+      "enum": [
+        10,
+        "ai10KNtcT3Se"
+      ],
+      "description": "10K NTC Type 3 SE"
+    },
+    {
+      "enum": [
+        11,
+        "aiDigitalHumidity"
+      ],
+      "description": "Digital Humidity"
+    },
+    {
+      "enum": [
+        12,
+        "aiDigitalTemperature"
+      ],
+      "description": "Digital Temperature"
+    },
+    {
+      "enum": [
+        13,
+        "ai10KNtcT2"
+      ],
+      "description": "10K NTC Type 2"
+    }
+  ]
+}

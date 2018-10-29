@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/states132EnumSet.schema.json",
+  "title": "states132EnumSet",
+  "description": "States(1-32)",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "state1321"
+      ],
+      "description": "State 1"
+    },
+    {
+      "enum": [
+        1,
+        "state1322"
+      ],
+      "description": "State 2"
+    },
+    {
+      "enum": [
+        2,
+        "state1323"
+      ],
+      "description": "State 3"
+    },
+    {
+      "enum": [
+        3,
+        "state1324"
+      ],
+      "description": "State 4"
+    },
+    {
+      "enum": [
+        4,
+        "state1325"
+      ],
+      "description": "State 5"
+    },
+    {
+      "enum": [
+        5,
+        "state1326"
+      ],
+      "description": "State 6"
+    },
+    {
+      "enum": [
+        6,
+        "state1327"
+      ],
+      "description": "State 7"
+    },
+    {
+      "enum": [
+        7,
+        "state1328"
+      ],
+      "description": "State 8"
+    },
+    {
+      "enum": [
+        8,
+        "state1329"
+      ],
+      "description": "State 9"
+    },
+    {
+      "enum": [
+        9,
+        "state13210"
+      ],
+      "description": "State 10"
+    },
+    {
+      "enum": [
+        10,
+        "state13211"
+      ],
+      "description": "State 11"
+    },
+    {
+      "enum": [
+        11,
+        "state13212"
+      ],
+      "description": "State 12"
+    },
+    {
+      "enum": [
+        12,
+        "state13213"
+      ],
+      "description": "State 13"
+    },
+    {
+      "enum": [
+        13,
+        "state13214"
+      ],
+      "description": "State 14"
+    },
+    {
+      "enum": [
+        14,
+        "state13215"
+      ],
+      "description": "State 15"
+    },
+    {
+      "enum": [
+        15,
+        "state13216"
+      ],
+      "description": "State 16"
+    },
+    {
+      "enum": [
+        16,
+        "state13217"
+      ],
+      "description": "State 17"
+    },
+    {
+      "enum": [
+        17,
+        "state13218"
+      ],
+      "description": "State 18"
+    },
+    {
+      "enum": [
+        18,
+        "state13219"
+      ],
+      "description": "State 19"
+    },
+    {
+      "enum": [
+        19,
+        "state13220"
+      ],
+      "description": "State 20"
+    },
+    {
+      "enum": [
+        20,
+        "state13221"
+      ],
+      "description": "State 21"
+    },
+    {
+      "enum": [
+        21,
+        "state13222"
+      ],
+      "description": "State 22"
+    },
+    {
+      "enum": [
+        22,
+        "state13223"
+      ],
+      "description": "State 23"
+    },
+    {
+      "enum": [
+        23,
+        "state13224"
+      ],
+      "description": "State 24"
+    },
+    {
+      "enum": [
+        24,
+        "state13225"
+      ],
+      "description": "State 25"
+    },
+    {
+      "enum": [
+        25,
+        "state13226"
+      ],
+      "description": "State 26"
+    },
+    {
+      "enum": [
+        26,
+        "state13227"
+      ],
+      "description": "State 27"
+    },
+    {
+      "enum": [
+        27,
+        "state13228"
+      ],
+      "description": "State 28"
+    },
+    {
+      "enum": [
+        28,
+        "state13229"
+      ],
+      "description": "State 29"
+    },
+    {
+      "enum": [
+        29,
+        "state13230"
+      ],
+      "description": "State 30"
+    },
+    {
+      "enum": [
+        30,
+        "state13231"
+      ],
+      "description": "State 31"
+    },
+    {
+      "enum": [
+        31,
+        "state13232"
+      ],
+      "description": "State 32"
+    }
+  ]
+}

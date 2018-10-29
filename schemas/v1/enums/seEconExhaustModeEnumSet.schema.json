@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconExhaustModeEnumSet.schema.json",
+  "title": "seEconExhaustModeEnumSet",
+  "description": "SE ECON Exhaust Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconExhaustModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seEconExhaustModePurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        2,
+        "seEconExhaustModeControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "seEconExhaustModeHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

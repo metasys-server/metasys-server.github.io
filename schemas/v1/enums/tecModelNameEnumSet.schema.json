@@ -1,0 +1,428 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecModelNameEnumSet.schema.json",
+  "title": "tecModelNameEnumSet",
+  "description": "TEC Field Controller Model Name",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec331000"
+      ],
+      "description": "TEC3310-00"
+    },
+    {
+      "enum": [
+        1,
+        "tec331100"
+      ],
+      "description": "TEC3311-00"
+    },
+    {
+      "enum": [
+        2,
+        "tec331200"
+      ],
+      "description": "TEC3312-00"
+    },
+    {
+      "enum": [
+        3,
+        "tec331300"
+      ],
+      "description": "TEC3313-00"
+    },
+    {
+      "enum": [
+        4,
+        "tec332000"
+      ],
+      "description": "TEC3320-00"
+    },
+    {
+      "enum": [
+        5,
+        "tec332100"
+      ],
+      "description": "TEC3321-00"
+    },
+    {
+      "enum": [
+        6,
+        "tec332200"
+      ],
+      "description": "TEC3322-00"
+    },
+    {
+      "enum": [
+        7,
+        "tec332300"
+      ],
+      "description": "TEC3323-00"
+    },
+    {
+      "enum": [
+        8,
+        "tec333000"
+      ],
+      "description": "TEC3330-00"
+    },
+    {
+      "enum": [
+        9,
+        "tec333100"
+      ],
+      "description": "TEC3331-00"
+    },
+    {
+      "enum": [
+        10,
+        "tec361000"
+      ],
+      "description": "TEC3610-00"
+    },
+    {
+      "enum": [
+        11,
+        "tec361100"
+      ],
+      "description": "TEC3611-00"
+    },
+    {
+      "enum": [
+        12,
+        "tec361200"
+      ],
+      "description": "TEC3612-00"
+    },
+    {
+      "enum": [
+        13,
+        "tec361300"
+      ],
+      "description": "TEC3613-00"
+    },
+    {
+      "enum": [
+        14,
+        "tec362000"
+      ],
+      "description": "TEC3620-00"
+    },
+    {
+      "enum": [
+        15,
+        "tec362100"
+      ],
+      "description": "TEC3621-00"
+    },
+    {
+      "enum": [
+        16,
+        "tec362200"
+      ],
+      "description": "TEC3622-00"
+    },
+    {
+      "enum": [
+        17,
+        "tec362300"
+      ],
+      "description": "TEC3623-00"
+    },
+    {
+      "enum": [
+        18,
+        "tec363000"
+      ],
+      "description": "TEC3630-00"
+    },
+    {
+      "enum": [
+        19,
+        "tec363100"
+      ],
+      "description": "TEC3631-00"
+    },
+    {
+      "enum": [
+        20,
+        "tec301000"
+      ],
+      "description": "TEC3010-00"
+    },
+    {
+      "enum": [
+        21,
+        "tec301100"
+      ],
+      "description": "TEC3011-00"
+    },
+    {
+      "enum": [
+        22,
+        "tec301200"
+      ],
+      "description": "TEC3012-00"
+    },
+    {
+      "enum": [
+        23,
+        "tec301300"
+      ],
+      "description": "TEC3013-00"
+    },
+    {
+      "enum": [
+        24,
+        "tec302000"
+      ],
+      "description": "TEC3020-00"
+    },
+    {
+      "enum": [
+        25,
+        "tec302100"
+      ],
+      "description": "TEC3021-00"
+    },
+    {
+      "enum": [
+        26,
+        "tec302200"
+      ],
+      "description": "TEC3022-00"
+    },
+    {
+      "enum": [
+        27,
+        "tec302300"
+      ],
+      "description": "TEC3023-00"
+    },
+    {
+      "enum": [
+        28,
+        "tec303000"
+      ],
+      "description": "TEC3030-00"
+    },
+    {
+      "enum": [
+        29,
+        "tec303100"
+      ],
+      "description": "TEC3031-00"
+    },
+    {
+      "enum": [
+        30,
+        "tec331001"
+      ],
+      "description": "TEC3310-01"
+    },
+    {
+      "enum": [
+        31,
+        "tec331101"
+      ],
+      "description": "TEC3311-01"
+    },
+    {
+      "enum": [
+        32,
+        "tec331201"
+      ],
+      "description": "TEC3312-01"
+    },
+    {
+      "enum": [
+        33,
+        "tec331301"
+      ],
+      "description": "TEC3313-01"
+    },
+    {
+      "enum": [
+        34,
+        "tec332001"
+      ],
+      "description": "TEC3320-01"
+    },
+    {
+      "enum": [
+        35,
+        "tec332101"
+      ],
+      "description": "TEC3321-01"
+    },
+    {
+      "enum": [
+        36,
+        "tec332201"
+      ],
+      "description": "TEC3322-01"
+    },
+    {
+      "enum": [
+        37,
+        "tec332301"
+      ],
+      "description": "TEC3323-01"
+    },
+    {
+      "enum": [
+        38,
+        "tec333001"
+      ],
+      "description": "TEC3330-01"
+    },
+    {
+      "enum": [
+        39,
+        "tec333101"
+      ],
+      "description": "TEC3331-01"
+    },
+    {
+      "enum": [
+        40,
+        "tec361001"
+      ],
+      "description": "TEC3610-01"
+    },
+    {
+      "enum": [
+        41,
+        "tec361101"
+      ],
+      "description": "TEC3611-01"
+    },
+    {
+      "enum": [
+        42,
+        "tec361201"
+      ],
+      "description": "TEC3612-01"
+    },
+    {
+      "enum": [
+        43,
+        "tec361301"
+      ],
+      "description": "TEC3613-01"
+    },
+    {
+      "enum": [
+        44,
+        "tec362001"
+      ],
+      "description": "TEC3620-01"
+    },
+    {
+      "enum": [
+        45,
+        "tec362101"
+      ],
+      "description": "TEC3621-01"
+    },
+    {
+      "enum": [
+        46,
+        "tec362201"
+      ],
+      "description": "TEC3622-01"
+    },
+    {
+      "enum": [
+        47,
+        "tec362301"
+      ],
+      "description": "TEC3623-01"
+    },
+    {
+      "enum": [
+        48,
+        "tec363001"
+      ],
+      "description": "TEC3630-01"
+    },
+    {
+      "enum": [
+        49,
+        "tec363101"
+      ],
+      "description": "TEC3631-01"
+    },
+    {
+      "enum": [
+        50,
+        "tec301001"
+      ],
+      "description": "TEC3010-01"
+    },
+    {
+      "enum": [
+        51,
+        "tec301101"
+      ],
+      "description": "TEC3011-01"
+    },
+    {
+      "enum": [
+        52,
+        "tec301201"
+      ],
+      "description": "TEC3012-01"
+    },
+    {
+      "enum": [
+        53,
+        "tec301301"
+      ],
+      "description": "TEC3013-01"
+    },
+    {
+      "enum": [
+        54,
+        "tec302001"
+      ],
+      "description": "TEC3020-01"
+    },
+    {
+      "enum": [
+        55,
+        "tec302101"
+      ],
+      "description": "TEC3021-01"
+    },
+    {
+      "enum": [
+        56,
+        "tec302201"
+      ],
+      "description": "TEC3022-01"
+    },
+    {
+      "enum": [
+        57,
+        "tec302301"
+      ],
+      "description": "TEC3023-01"
+    },
+    {
+      "enum": [
+        58,
+        "tec303001"
+      ],
+      "description": "TEC3030-01"
+    },
+    {
+      "enum": [
+        59,
+        "tec303101"
+      ],
+      "description": "TEC3031-01"
+    }
+  ]
+}

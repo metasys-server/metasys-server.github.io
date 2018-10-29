@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/applmodeEnumSet.schema.json",
+  "title": "applmodeEnumSet",
+  "description": "Appl Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Fan Only"
+    }
+  ]
+}

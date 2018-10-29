@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/s300HwFaultCauseEnumSet.schema.json",
+  "title": "s300HwFaultCauseEnumSet",
+  "description": "S300 HW Fault Cause",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "s300HwFaultCauseNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "s300HwFaultCauseTypeMismatch"
+      ],
+      "description": "Type Mismatch"
+    },
+    {
+      "enum": [
+        2,
+        "s300HwFaultCauseAddressConflict"
+      ],
+      "description": "Address Conflict"
+    },
+    {
+      "enum": [
+        3,
+        "s300HwFaultCauseInvalidModuleNumber"
+      ],
+      "description": "Invalid Module Number"
+    },
+    {
+      "enum": [
+        4,
+        "s300HwFaultCauseExcessiveOnlineOffline"
+      ],
+      "description": "Excessive Online Offline"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000ControlStatusEnumSet.schema.json",
+  "title": "tec3000ControlStatusEnumSet",
+  "description": "TEC3000 Control Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000ControlStatusSystemFault"
+      ],
+      "description": "System Fault"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000ControlStatusAirflowFault"
+      ],
+      "description": "Airflow Fault"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000ControlStatusOpenWindow"
+      ],
+      "description": "Open Window"
+    },
+    {
+      "enum": [
+        3,
+        "tec3000ControlStatusControlOff"
+      ],
+      "description": "Control Off"
+    },
+    {
+      "enum": [
+        4,
+        "tec3000ControlStatusUnreliableTemperature"
+      ],
+      "description": "Unreliable Temperature"
+    },
+    {
+      "enum": [
+        5,
+        "tec3000ControlStatusDehumidification"
+      ],
+      "description": "Dehumidification"
+    },
+    {
+      "enum": [
+        6,
+        "tec3000ControlStatusIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        7,
+        "tec3000ControlStatusCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        8,
+        "tec3000ControlStatusHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        9,
+        "tec3000ControlStatusCoolingUnavailable"
+      ],
+      "description": "Cooling Unavailable"
+    },
+    {
+      "enum": [
+        10,
+        "tec3000ControlStatusHeatingUnavailable"
+      ],
+      "description": "Heating Unavailable"
+    }
+  ]
+}

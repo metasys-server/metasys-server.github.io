@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/emergoverrideEnumSet.schema.json",
+  "title": "emergoverrideEnumSet",
+  "description": "Emerg Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Norm"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Off"
+    }
+  ]
+}

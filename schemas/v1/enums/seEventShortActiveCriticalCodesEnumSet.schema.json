@@ -1,0 +1,365 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEventShortActiveCriticalCodesEnumSet.schema.json",
+  "title": "seEventShortActiveCriticalCodesEnumSet",
+  "description": "SE Event Active Critical Codes Short Names",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEventShortActiveCriticalCodeUndefined"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEventShortActiveCodeEventGeneratorConfigError"
+      ],
+      "description": "Event Gen Config Err"
+    },
+    {
+      "enum": [
+        2,
+        "seEventShortActiveCodeCalibrationError"
+      ],
+      "description": "Cal Error"
+    },
+    {
+      "enum": [
+        100,
+        "seEventShortActiveCriticalCode100"
+      ],
+      "description": "Parm Not Configured"
+    },
+    {
+      "enum": [
+        101,
+        "seEventShortActiveCriticalCode101"
+      ],
+      "description": "Econ Firmware Fail"
+    },
+    {
+      "enum": [
+        102,
+        "seEventShortActiveCriticalCode102"
+      ],
+      "description": "4-Stage Firmware Fail"
+    },
+    {
+      "enum": [
+        103,
+        "seEventShortActiveCriticalCode103"
+      ],
+      "description": "UCB Firmware Fail"
+    },
+    {
+      "enum": [
+        104,
+        "seEventShortActiveCriticalCode104"
+      ],
+      "description": "C1 Locked - High Pres"
+    },
+    {
+      "enum": [
+        105,
+        "seEventShortActiveCriticalCode105"
+      ],
+      "description": "C2 Locked - High Pres"
+    },
+    {
+      "enum": [
+        106,
+        "seEventShortActiveCriticalCode106"
+      ],
+      "description": "C3 Locked - High Pres"
+    },
+    {
+      "enum": [
+        107,
+        "seEventShortActiveCriticalCode107"
+      ],
+      "description": "C4 Locked - High Pres"
+    },
+    {
+      "enum": [
+        108,
+        "seEventShortActiveCriticalCode108"
+      ],
+      "description": "C1 Locked - Low Pres"
+    },
+    {
+      "enum": [
+        109,
+        "seEventShortActiveCriticalCode109"
+      ],
+      "description": "C2 Locked - Low Pres"
+    },
+    {
+      "enum": [
+        110,
+        "seEventShortActiveCriticalCode110"
+      ],
+      "description": "C3 Locked - Low Pres"
+    },
+    {
+      "enum": [
+        111,
+        "seEventShortActiveCriticalCode111"
+      ],
+      "description": "C4 Locked - Low Pres"
+    },
+    {
+      "enum": [
+        112,
+        "seEventShortActiveCriticalCode112"
+      ],
+      "description": "C1 Locked - Coil Freeze"
+    },
+    {
+      "enum": [
+        113,
+        "seEventShortActiveCriticalCode113"
+      ],
+      "description": "C2 Locked - Coil Freeze"
+    },
+    {
+      "enum": [
+        114,
+        "seEventShortActiveCriticalCode114"
+      ],
+      "description": "C3 Locked - Coil Freeze"
+    },
+    {
+      "enum": [
+        115,
+        "seEventShortActiveCriticalCode115"
+      ],
+      "description": "C4 Locked - Coil Freeze"
+    },
+    {
+      "enum": [
+        116,
+        "seEventShortActiveCriticalCode116"
+      ],
+      "description": "Exh Fan VFD Fail"
+    },
+    {
+      "enum": [
+        117,
+        "seEventShortActiveCriticalCode117"
+      ],
+      "description": "HS1 Locked - Limit Switch"
+    },
+    {
+      "enum": [
+        118,
+        "seEventShortActiveCriticalCode118"
+      ],
+      "description": "HS2 Locked - Limit Switch"
+    },
+    {
+      "enum": [
+        119,
+        "seEventShortActiveCriticalCode119"
+      ],
+      "description": "HS3 Locked - Limit Switch"
+    },
+    {
+      "enum": [
+        120,
+        "seEventShortActiveCriticalCode120"
+      ],
+      "description": "Outputs Dis - LV"
+    },
+    {
+      "enum": [
+        121,
+        "seEventShortActiveCriticalCode121"
+      ],
+      "description": "Outputs Dis - BIV"
+    },
+    {
+      "enum": [
+        122,
+        "seEventShortActiveCriticalCode122"
+      ],
+      "description": "4-stage Outputs Dis - LV"
+    },
+    {
+      "enum": [
+        123,
+        "seEventShortActiveCriticalCode123"
+      ],
+      "description": "4-stage Outputs Dis - BIV"
+    },
+    {
+      "enum": [
+        124,
+        "seEventShortActiveCriticalCode124"
+      ],
+      "description": "4-stage O24 VAC - SIF"
+    },
+    {
+      "enum": [
+        125,
+        "seEventShortActiveCriticalCode125"
+      ],
+      "description": "4-stage Com Fail"
+    },
+    {
+      "enum": [
+        126,
+        "seEventShortActiveCriticalCode126"
+      ],
+      "description": "Econ Com Fail"
+    },
+    {
+      "enum": [
+        127,
+        "seEventShortActiveCriticalCode127"
+      ],
+      "description": "Shutdown - Smoke, Cond"
+    },
+    {
+      "enum": [
+        128,
+        "seEventShortActiveCriticalCode128"
+      ],
+      "description": "Locked - APS"
+    },
+    {
+      "enum": [
+        129,
+        "seEventShortActiveCriticalCode129"
+      ],
+      "description": "DSP read low"
+    },
+    {
+      "enum": [
+        130,
+        "seEventShortActiveCriticalCode130"
+      ],
+      "description": "Locked - High DSP"
+    },
+    {
+      "enum": [
+        131,
+        "seEventShortActiveCriticalCode131"
+      ],
+      "description": "Locked - SFO"
+    },
+    {
+      "enum": [
+        132,
+        "seEventShortActiveCriticalCode132"
+      ],
+      "description": "Supply Fan VFD Failure"
+    },
+    {
+      "enum": [
+        133,
+        "seEventShortActiveCriticalCode133"
+      ],
+      "description": "No Heat-Cool - Bad ST"
+    },
+    {
+      "enum": [
+        134,
+        "seEventShortActiveCriticalCode134"
+      ],
+      "description": "Shutdown - Duct Pres Fail"
+    },
+    {
+      "enum": [
+        135,
+        "seEventShortActiveCriticalCode135"
+      ],
+      "description": "MFC HS1 Locked - Limit Switch"
+    },
+    {
+      "enum": [
+        136,
+        "seEventShortActiveCriticalCode136"
+      ],
+      "description": "MFC HS2 Locked - Limit Switch"
+    },
+    {
+      "enum": [
+        137,
+        "seEventShortActiveCriticalCode137"
+      ],
+      "description": "MFC HS3 Locked - Limit Switch"
+    },
+    {
+      "enum": [
+        138,
+        "seEventShortActiveCriticalCode138"
+      ],
+      "description": "MFC HS4 Locked - Limit Switch"
+    },
+    {
+      "enum": [
+        139,
+        "seEventShortActiveCriticalCode139"
+      ],
+      "description": "MFC HS1 Locked - Gas Valve"
+    },
+    {
+      "enum": [
+        140,
+        "seEventShortActiveCriticalCode140"
+      ],
+      "description": "MFC HS2 Locked - Gas Valve"
+    },
+    {
+      "enum": [
+        141,
+        "seEventShortActiveCriticalCode141"
+      ],
+      "description": "MFC HS3 Locked - Gas Valve"
+    },
+    {
+      "enum": [
+        142,
+        "seEventShortActiveCriticalCode142"
+      ],
+      "description": "MFC HS4 Locked - Gas Valve"
+    },
+    {
+      "enum": [
+        143,
+        "seEventShortActiveCriticalCode143"
+      ],
+      "description": "MFC Locked - No APS"
+    },
+    {
+      "enum": [
+        144,
+        "seEventShortActiveCriticalCode144"
+      ],
+      "description": "MFC Locked - APS Stuck Closed"
+    },
+    {
+      "enum": [
+        145,
+        "seEventShortActiveCriticalCode145"
+      ],
+      "description": "MFC Locked - Electronic Failure"
+    },
+    {
+      "enum": [
+        146,
+        "seEventShortActiveCriticalCode146"
+      ],
+      "description": "MFC Locked - Bad Firmware"
+    },
+    {
+      "enum": [
+        147,
+        "seEventShortActiveCriticalCode147"
+      ],
+      "description": "MFC Locked - Low Voltage"
+    }
+  ]
+}

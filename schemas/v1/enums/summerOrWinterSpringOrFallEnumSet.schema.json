@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/summerOrWinterSpringOrFallEnumSet.schema.json",
+  "title": "summerOrWinterSpringOrFallEnumSet",
+  "description": "Summer or Winter Spring or Fall",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Summer or Winter"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Spring or Fall"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

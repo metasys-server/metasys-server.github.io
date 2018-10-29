@@ -1,0 +1,288 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYpcCyclingCodeEnumSet.schema.json",
+  "title": "ltcLegacyYpcCyclingCodeEnumSet",
+  "description": "York LTC Legacy YPC Cycling Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYpcCyclingCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYpcCyclingCode1"
+      ],
+      "description": "HOT WATER FLOW FAULT"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYpcCyclingCode2"
+      ],
+      "description": "COND WATER FLOW FAULT"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYpcCyclingCode3"
+      ],
+      "description": "POWER FAILURE-AUTO RESTART"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYpcCyclingCode4"
+      ],
+      "description": "LOW WATER TEMP"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYpcCyclingCode5"
+      ],
+      "description": "REMOTE CYCLING"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYpcCyclingCode6"
+      ],
+      "description": "MULTI-UNIT CYCLING"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYpcCyclingCode7"
+      ],
+      "description": "TIME CLOCK"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYpcCyclingCode8"
+      ],
+      "description": "HOT WATER TEMP"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYpcCyclingCode9"
+      ],
+      "description": "UNIT LOADED ABOVE 10%"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYpcCyclingCode10"
+      ],
+      "description": "CHILLED WATER TEMP BELOW SETP"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYpcCyclingCode11"
+      ],
+      "description": "HOT WATER TEMP ABOVE SETP"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYpcCyclingCode12"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYpcCyclingCode13"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYpcCyclingCode14"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYpcCyclingCode15"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYpcCyclingCode16"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYpcCyclingCode17"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYpcCyclingCode18"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYpcCyclingCode19"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYpcCyclingCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYpcCyclingCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYpcCyclingCode22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYpcCyclingCode23"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYpcCyclingCode24"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYpcCyclingCode25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYpcCyclingCode26"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ltcLegacyYpcCyclingCode27"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ltcLegacyYpcCyclingCode28"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ltcLegacyYpcCyclingCode29"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ltcLegacyYpcCyclingCode30"
+      ],
+      "description": "RESERVED 30"
+    },
+    {
+      "enum": [
+        31,
+        "ltcLegacyYpcCyclingCode31"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ltcLegacyYpcCyclingCode32"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ltcLegacyYpcCyclingCode33"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ltcLegacyYpcCyclingCode34"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "ltcLegacyYpcCyclingCode35"
+      ],
+      "description": "RESERVED 35"
+    },
+    {
+      "enum": [
+        36,
+        "ltcLegacyYpcCyclingCode36"
+      ],
+      "description": "BURNER RATE FAULT"
+    },
+    {
+      "enum": [
+        37,
+        "ltcLegacyYpcCyclingCode37"
+      ],
+      "description": "RESERVED 37"
+    },
+    {
+      "enum": [
+        38,
+        "ltcLegacyYpcCyclingCode38"
+      ],
+      "description": "STANDBY POWER"
+    },
+    {
+      "enum": [
+        39,
+        "ltcLegacyYpcCyclingCode39"
+      ],
+      "description": "STANDBY LOCKOUT"
+    }
+  ]
+}

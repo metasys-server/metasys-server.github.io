@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatCoolModeEnumSet.schema.json",
+  "title": "heatCoolModeEnumSet",
+  "description": "Heat Cool Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hcModeHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        1,
+        "hcModeCool"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        2,
+        "hcModeFanOnly"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        3,
+        "hcModeBalancing"
+      ],
+      "description": "Balancing"
+    },
+    {
+      "enum": [
+        4,
+        "hcModeSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        5,
+        "hcModeOff"
+      ],
+      "description": "Off"
+    }
+  ]
+}

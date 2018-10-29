@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/radioStatusValueEnumSet.schema.json",
+  "title": "radioStatusValueEnumSet",
+  "description": "Radio Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "radioStatusOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        1,
+        "radioStatusNotAssociated"
+      ],
+      "description": "Not Associated"
+    },
+    {
+      "enum": [
+        2,
+        "radioStatusOnline"
+      ],
+      "description": "Online"
+    },
+    {
+      "enum": [
+        3,
+        "radioStatusRadioProcessorFault"
+      ],
+      "description": "Radio Processor Fault"
+    }
+  ]
+}

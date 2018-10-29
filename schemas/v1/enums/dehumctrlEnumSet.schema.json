@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dehumctrlEnumSet.schema.json",
+  "title": "dehumctrlEnumSet",
+  "description": "Dehum Ctrl",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Always"
+    }
+  ]
+}

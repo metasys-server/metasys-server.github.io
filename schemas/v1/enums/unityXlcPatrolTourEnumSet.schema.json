@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcPatrolTourEnumSet.schema.json",
+  "title": "unityXlcPatrolTourEnumSet",
+  "description": "Unity XLC Patrol Tour",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "APT"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "SPT"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "EPT"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "EPT1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, APT"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, SPT"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

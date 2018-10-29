@@ -1,0 +1,540 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc2EnumSet.schema.json",
+  "title": "optiviewYrSc2EnumSet",
+  "description": "Optiview YR Safety Fault Code SC.2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewYrSc20"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewYrSc21"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "optiviewYrSc22"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        3,
+        "optiviewYrSc23"
+      ],
+      "description": "EVAPORATOR - TEMPERATURE TRANSDUCER"
+    },
+    {
+      "enum": [
+        4,
+        "optiviewYrSc24"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        5,
+        "optiviewYrSc25"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "optiviewYrSc26"
+      ],
+      "description": "CONDENSER - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        7,
+        "optiviewYrSc27"
+      ],
+      "description": "AUXILIARY SAFETY - CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        8,
+        "optiviewYrSc28"
+      ],
+      "description": "DISCHARGE - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        9,
+        "optiviewYrSc29"
+      ],
+      "description": "DISCHARGE - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "optiviewYrSc210"
+      ],
+      "description": "OIL - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        11,
+        "optiviewYrSc211"
+      ],
+      "description": "OIL - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        12,
+        "optiviewYrSc212"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "optiviewYrSc213"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "optiviewYrSc214"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "optiviewYrSc215"
+      ],
+      "description": "OIL- HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        16,
+        "optiviewYrSc216"
+      ],
+      "description": "OIL- FILTER CLOGGED"
+    },
+    {
+      "enum": [
+        17,
+        "optiviewYrSc217"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "optiviewYrSc218"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "optiviewYrSc219"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "optiviewYrSc220"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "optiviewYrSc221"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        22,
+        "optiviewYrSc222"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "optiviewYrSc223"
+      ],
+      "description": "MOTOR OR STARTER - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        24,
+        "optiviewYrSc224"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        25,
+        "optiviewYrSc225"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE UNCALIBRATED"
+    },
+    {
+      "enum": [
+        26,
+        "optiviewYrSc226"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        27,
+        "optiviewYrSc227"
+      ],
+      "description": "HIGH OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        28,
+        "optiviewYrSc228"
+      ],
+      "description": "OIL TEMPERATURE PROBE - OUT OF RANGE"
+    },
+    {
+      "enum": [
+        29,
+        "optiviewYrSc229"
+      ],
+      "description": "VSD - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        30,
+        "optiviewYrSc230"
+      ],
+      "description": "VSD - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        31,
+        "optiviewYrSc231"
+      ],
+      "description": "VSD - HIGH PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        32,
+        "optiviewYrSc232"
+      ],
+      "description": "VSD - HIGH PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        33,
+        "optiviewYrSc233"
+      ],
+      "description": "VSD - HIGH PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        34,
+        "optiviewYrSc234"
+      ],
+      "description": "VSD - HIGH CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        35,
+        "optiviewYrSc235"
+      ],
+      "description": "VSD - PRECHARGE LOCKOUT"
+    },
+    {
+      "enum": [
+        36,
+        "optiviewYrSc236"
+      ],
+      "description": "HARMONIC FILTER - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        37,
+        "optiviewYrSc237"
+      ],
+      "description": "HARMONIC FILTER - HIGH TOTAL DEMAND DISTORTION"
+    },
+    {
+      "enum": [
+        38,
+        "optiviewYrSc238"
+      ],
+      "description": "LCSSS - PHASE ROTATION"
+    },
+    {
+      "enum": [
+        39,
+        "optiviewYrSc239"
+      ],
+      "description": "LCSSS - MOTOR OR STARTER - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        40,
+        "optiviewYrSc240"
+      ],
+      "description": "LCSSS - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        41,
+        "optiviewYrSc241"
+      ],
+      "description": "LCSSS - HIGH INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        42,
+        "optiviewYrSc242"
+      ],
+      "description": "LCSSS - OPEN SCR"
+    },
+    {
+      "enum": [
+        43,
+        "optiviewYrSc243"
+      ],
+      "description": "LCSSS - SHORTED PHASE A SCR"
+    },
+    {
+      "enum": [
+        44,
+        "optiviewYrSc244"
+      ],
+      "description": "LCSSS - SHORTED PHASE B SCR"
+    },
+    {
+      "enum": [
+        45,
+        "optiviewYrSc245"
+      ],
+      "description": "LCSSS - SHORTED PHASE C SCR"
+    },
+    {
+      "enum": [
+        46,
+        "optiviewYrSc246"
+      ],
+      "description": "LCSSS - HIGH PHASE A HEATSINK TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        47,
+        "optiviewYrSc247"
+      ],
+      "description": "LCSSS - HIGH PHASE B HEATSINK TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        48,
+        "optiviewYrSc248"
+      ],
+      "description": "LCSSS - HIGH PHASE C HEATSINK TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        49,
+        "optiviewYrSc249"
+      ],
+      "description": "STARTER - INVALID MOTOR SELECTION"
+    },
+    {
+      "enum": [
+        50,
+        "optiviewYrSc250"
+      ],
+      "description": "OIL OR CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        51,
+        "optiviewYrSc251"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        52,
+        "optiviewYrSc252"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    },
+    {
+      "enum": [
+        53,
+        "optiviewYrSc253"
+      ],
+      "description": "SURGE PROTECTION - EXCESS SURGE"
+    },
+    {
+      "enum": [
+        54,
+        "optiviewYrSc254"
+      ],
+      "description": "VSD - HIGH INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        55,
+        "optiviewYrSc255"
+      ],
+      "description": "HARMONIC FILTER - HIGH BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        56,
+        "optiviewYrSc256"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        57,
+        "optiviewYrSc257"
+      ],
+      "description": "THRUST BEARING - LIMIT SWITCH OPEN"
+    },
+    {
+      "enum": [
+        58,
+        "optiviewYrSc258"
+      ],
+      "description": "MOTOR - PHASE ROTATION"
+    },
+    {
+      "enum": [
+        59,
+        "optiviewYrSc259"
+      ],
+      "description": "MOTOR - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        60,
+        "optiviewYrSc260"
+      ],
+      "description": "DISCHARGE - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        61,
+        "optiviewYrSc261"
+      ],
+      "description": "HIGH MOTOR WINDING TEMPERATURE"
+    },
+    {
+      "enum": [
+        62,
+        "optiviewYrSc262"
+      ],
+      "description": "HIGH MOTOR BEARING TEMPERATURE"
+    },
+    {
+      "enum": [
+        63,
+        "optiviewYrSc263"
+      ],
+      "description": "VSD - HIGH PHASE A BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        64,
+        "optiviewYrSc264"
+      ],
+      "description": "VSD - HIGH PHASE B BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        65,
+        "optiviewYrSc265"
+      ],
+      "description": "VSD - HIGH PHASE C BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        66,
+        "optiviewYrSc266"
+      ],
+      "description": "VSD - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        67,
+        "optiviewYrSc267"
+      ],
+      "description": "CONDENSER HIGH PRESSURE STOPPED"
+    },
+    {
+      "enum": [
+        68,
+        "optiviewYrSc268"
+      ],
+      "description": "MOTOR - GROUND FAULT"
+    },
+    {
+      "enum": [
+        69,
+        "optiviewYrSc269"
+      ],
+      "description": "EXCESSIVE BEARING VIBRATION"
+    },
+    {
+      "enum": [
+        70,
+        "optiviewYrSc270"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        71,
+        "optiviewYrSc271"
+      ],
+      "description": "LCSSS - PHASE A OPEN SCR"
+    },
+    {
+      "enum": [
+        72,
+        "optiviewYrSc272"
+      ],
+      "description": "LCSSS - PHASE B OPEN SCR"
+    },
+    {
+      "enum": [
+        73,
+        "optiviewYrSc273"
+      ],
+      "description": "LCSSS - PHASE C OPEN SCR"
+    },
+    {
+      "enum": [
+        74,
+        "optiviewYrSc274"
+      ],
+      "description": "MOTOR LUBE NOT DONE"
+    },
+    {
+      "enum": [
+        75,
+        "optiviewYrSc275"
+      ],
+      "description": "VSD - LOW FREQUENCY"
+    }
+  ]
+}

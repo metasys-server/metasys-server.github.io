@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJ12ExioStatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJ12ExioStatEnumSet",
+  "description": "York LTC Legacy YIA J12 Exio Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJ12ExioStat0"
+      ],
+      "description": "English"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJ12ExioStat1"
+      ],
+      "description": "German"
+    }
+  ]
+}

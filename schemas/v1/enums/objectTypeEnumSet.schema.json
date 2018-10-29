@@ -1,0 +1,5223 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/objectTypeEnumSet.schema.json",
+  "title": "objectTypeEnumSet",
+  "description": "Object Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacAiClass"
+      ],
+      "description": "AI"
+    },
+    {
+      "enum": [
+        1,
+        "bacAoClass"
+      ],
+      "description": "AO"
+    },
+    {
+      "enum": [
+        2,
+        "bacAvClass"
+      ],
+      "description": "AV"
+    },
+    {
+      "enum": [
+        3,
+        "bacBiClass"
+      ],
+      "description": "BI"
+    },
+    {
+      "enum": [
+        4,
+        "bacBoClass"
+      ],
+      "description": "BO"
+    },
+    {
+      "enum": [
+        5,
+        "bacBvClass"
+      ],
+      "description": "BV"
+    },
+    {
+      "enum": [
+        6,
+        "bacCalendarClass"
+      ],
+      "description": "Calendar"
+    },
+    {
+      "enum": [
+        7,
+        "bacCommandClass"
+      ],
+      "description": "Command"
+    },
+    {
+      "enum": [
+        8,
+        "bacdeviceClass"
+      ],
+      "description": "Device"
+    },
+    {
+      "enum": [
+        9,
+        "bacEvntEnrolClass"
+      ],
+      "description": "Event Enrollment"
+    },
+    {
+      "enum": [
+        10,
+        "bacFileClass"
+      ],
+      "description": "File"
+    },
+    {
+      "enum": [
+        11,
+        "bacGroupClass"
+      ],
+      "description": "Group"
+    },
+    {
+      "enum": [
+        12,
+        "bacLoopClass"
+      ],
+      "description": "Loop"
+    },
+    {
+      "enum": [
+        13,
+        "bacMiClass"
+      ],
+      "description": "MI"
+    },
+    {
+      "enum": [
+        14,
+        "bacMoClass"
+      ],
+      "description": "MO"
+    },
+    {
+      "enum": [
+        15,
+        "bacNotificClass"
+      ],
+      "description": "Notification"
+    },
+    {
+      "enum": [
+        16,
+        "bacProgramClass"
+      ],
+      "description": "Program"
+    },
+    {
+      "enum": [
+        17,
+        "bacScheduleClass"
+      ],
+      "description": "Schedule"
+    },
+    {
+      "enum": [
+        18,
+        "bacAveragingClass"
+      ],
+      "description": "Averaging"
+    },
+    {
+      "enum": [
+        19,
+        "bacMvClass"
+      ],
+      "description": "MV"
+    },
+    {
+      "enum": [
+        20,
+        "bacTrendLogClass"
+      ],
+      "description": "Trend Log"
+    },
+    {
+      "enum": [
+        21,
+        "bacLspClass"
+      ],
+      "description": "Life Safety Point"
+    },
+    {
+      "enum": [
+        22,
+        "bacLszClass"
+      ],
+      "description": "Life Safety Zone"
+    },
+    {
+      "enum": [
+        23,
+        "bacAccumulatorClass"
+      ],
+      "description": "Accumulator"
+    },
+    {
+      "enum": [
+        24,
+        "bacPulseConverterClass"
+      ],
+      "description": "Pulse Converter"
+    },
+    {
+      "enum": [
+        25,
+        "bacEventLogClass"
+      ],
+      "description": "Event Log"
+    },
+    {
+      "enum": [
+        26,
+        "bacGlobalGroupClass"
+      ],
+      "description": "Global Group"
+    },
+    {
+      "enum": [
+        27,
+        "bacTrendLogMultipleClass"
+      ],
+      "description": "Trend Log Multiple"
+    },
+    {
+      "enum": [
+        28,
+        "bacLoadControlClass"
+      ],
+      "description": "Load Control"
+    },
+    {
+      "enum": [
+        29,
+        "bacStructuredViewClass"
+      ],
+      "description": "Structured View"
+    },
+    {
+      "enum": [
+        30,
+        "bacAccessDoorClass"
+      ],
+      "description": "Access Door"
+    },
+    {
+      "enum": [
+        31,
+        "bacTimerClass"
+      ],
+      "description": "BACnet Timer"
+    },
+    {
+      "enum": [
+        32,
+        "bacAccessCredentialClass"
+      ],
+      "description": "Access Credential"
+    },
+    {
+      "enum": [
+        33,
+        "bacAccessPointClass"
+      ],
+      "description": "Access Point"
+    },
+    {
+      "enum": [
+        34,
+        "bacAccessRightsClass"
+      ],
+      "description": "Access Rights"
+    },
+    {
+      "enum": [
+        35,
+        "bacAccessUserClass"
+      ],
+      "description": "Access User"
+    },
+    {
+      "enum": [
+        36,
+        "bacAccessZoneClass"
+      ],
+      "description": "Access Zone"
+    },
+    {
+      "enum": [
+        37,
+        "bacCredentialDataInputClass"
+      ],
+      "description": "Credential Data Input"
+    },
+    {
+      "enum": [
+        38,
+        "bacNetworkSecurityClass"
+      ],
+      "description": "Network Security"
+    },
+    {
+      "enum": [
+        39,
+        "bacBitstringValueClass"
+      ],
+      "description": "Bitstring Value"
+    },
+    {
+      "enum": [
+        40,
+        "bacCharacterstringValueClass"
+      ],
+      "description": "Characterstring Value"
+    },
+    {
+      "enum": [
+        41,
+        "bacDatePatternValueClass"
+      ],
+      "description": "Date Pattern Value"
+    },
+    {
+      "enum": [
+        42,
+        "bacDateValueClass"
+      ],
+      "description": "Date Value"
+    },
+    {
+      "enum": [
+        43,
+        "bacDatetimePatternValueClass"
+      ],
+      "description": "Datetime Pattern Value"
+    },
+    {
+      "enum": [
+        44,
+        "bacDatetimeValueClass"
+      ],
+      "description": "Datetime Value"
+    },
+    {
+      "enum": [
+        45,
+        "bacIntegerValueClass"
+      ],
+      "description": "Integer Value"
+    },
+    {
+      "enum": [
+        46,
+        "bacLargeAnalogValueClass"
+      ],
+      "description": "Large Analog Value"
+    },
+    {
+      "enum": [
+        47,
+        "bacOctetstringValueClass"
+      ],
+      "description": "Octetstring Value"
+    },
+    {
+      "enum": [
+        48,
+        "bacPositiveIntegerValueClass"
+      ],
+      "description": "Positive Integer Value"
+    },
+    {
+      "enum": [
+        49,
+        "bacTimePatternValueClass"
+      ],
+      "description": "Time Pattern Value"
+    },
+    {
+      "enum": [
+        50,
+        "bacTimeValueClass"
+      ],
+      "description": "Time Value"
+    },
+    {
+      "enum": [
+        51,
+        "bacNotificationForwarderClass"
+      ],
+      "description": "Notification Forwarder"
+    },
+    {
+      "enum": [
+        52,
+        "bacAlertEnrollmentClass"
+      ],
+      "description": "Alert Enrollment"
+    },
+    {
+      "enum": [
+        53,
+        "bacChannelClass"
+      ],
+      "description": "Channel"
+    },
+    {
+      "enum": [
+        54,
+        "bacLightingOutputClass"
+      ],
+      "description": "Lighting Output"
+    },
+    {
+      "enum": [
+        55,
+        "bacBinaryLightingOutputClass"
+      ],
+      "description": "Binary Lighting Output"
+    },
+    {
+      "enum": [
+        56,
+        "bacNetworkPortClass"
+      ],
+      "description": "Network Port"
+    },
+    {
+      "enum": [
+        57,
+        "bacElevatorGroupClass"
+      ],
+      "description": "Elevator Group"
+    },
+    {
+      "enum": [
+        58,
+        "bacEscalatorClass"
+      ],
+      "description": "Escalator"
+    },
+    {
+      "enum": [
+        59,
+        "bacLiftClass"
+      ],
+      "description": "Lift"
+    },
+    {
+      "enum": [
+        127,
+        "bacNullClass"
+      ],
+      "description": "Peer to Peer Disabled"
+    },
+    {
+      "enum": [
+        128,
+        "stdClass"
+      ],
+      "description": "Standard"
+    },
+    {
+      "enum": [
+        129,
+        "bacpeClass"
+      ],
+      "description": "BACPE"
+    },
+    {
+      "enum": [
+        130,
+        "spanClass"
+      ],
+      "description": "Electric Demand Monitoring"
+    },
+    {
+      "enum": [
+        131,
+        "testClass"
+      ],
+      "description": "Electric Demand Control"
+    },
+    {
+      "enum": [
+        132,
+        "smoClass"
+      ],
+      "description": "Generator Load Control"
+    },
+    {
+      "enum": [
+        133,
+        "paClass"
+      ],
+      "description": "PA"
+    },
+    {
+      "enum": [
+        134,
+        "devClass"
+      ],
+      "description": "DEV"
+    },
+    {
+      "enum": [
+        135,
+        "subscriptionServerClass"
+      ],
+      "description": "Subscription Server"
+    },
+    {
+      "enum": [
+        136,
+        "surrogateDeviceClass"
+      ],
+      "description": "Surrogate Device"
+    },
+    {
+      "enum": [
+        137,
+        "dllrClass"
+      ],
+      "description": "DLLR"
+    },
+    {
+      "enum": [
+        138,
+        "loadClass"
+      ],
+      "description": "Load"
+    },
+    {
+      "enum": [
+        139,
+        "taskobjClass"
+      ],
+      "description": "Taskobj"
+    },
+    {
+      "enum": [
+        140,
+        "rampClass"
+      ],
+      "description": "Ramp"
+    },
+    {
+      "enum": [
+        141,
+        "mvClass"
+      ],
+      "description": "JCI MV"
+    },
+    {
+      "enum": [
+        142,
+        "namelistClass"
+      ],
+      "description": "Namelist"
+    },
+    {
+      "enum": [
+        143,
+        "connClass"
+      ],
+      "description": "Conn"
+    },
+    {
+      "enum": [
+        144,
+        "mcClass"
+      ],
+      "description": "Multiple Command"
+    },
+    {
+      "enum": [
+        145,
+        "heavyEquipContrClass"
+      ],
+      "description": "Heavy Equip Contr"
+    },
+    {
+      "enum": [
+        146,
+        "intlClass"
+      ],
+      "description": "Interlock"
+    },
+    {
+      "enum": [
+        147,
+        "n2AiClass"
+      ],
+      "description": "N2 AI"
+    },
+    {
+      "enum": [
+        148,
+        "n2BiClass"
+      ],
+      "description": "N2 BI"
+    },
+    {
+      "enum": [
+        149,
+        "n2AoClass"
+      ],
+      "description": "N2 AO"
+    },
+    {
+      "enum": [
+        150,
+        "n2BoClass"
+      ],
+      "description": "N2 BO"
+    },
+    {
+      "enum": [
+        151,
+        "n2MsiClass"
+      ],
+      "description": "N2 MSI"
+    },
+    {
+      "enum": [
+        152,
+        "n2MsoClass"
+      ],
+      "description": "N2 MSO"
+    },
+    {
+      "enum": [
+        153,
+        "n2PcClass"
+      ],
+      "description": "N2 Pulse Counter"
+    },
+    {
+      "enum": [
+        154,
+        "gdoClass"
+      ],
+      "description": "Guaranteed Delivery"
+    },
+    {
+      "enum": [
+        155,
+        "trendLogClass"
+      ],
+      "description": "JCI Trend Log"
+    },
+    {
+      "enum": [
+        156,
+        "aaClass"
+      ],
+      "description": "Analog Alarm"
+    },
+    {
+      "enum": [
+        157,
+        "mrClass"
+      ],
+      "description": "Message Router"
+    },
+    {
+      "enum": [
+        158,
+        "rsClass"
+      ],
+      "description": "Report Server"
+    },
+    {
+      "enum": [
+        159,
+        "operatorClass"
+      ],
+      "description": "Operator"
+    },
+    {
+      "enum": [
+        160,
+        "siteTestClass"
+      ],
+      "description": "Site Test"
+    },
+    {
+      "enum": [
+        161,
+        "calendarClass"
+      ],
+      "description": "JCI Calendar"
+    },
+    {
+      "enum": [
+        162,
+        "modemConfigClass"
+      ],
+      "description": "Modem Config"
+    },
+    {
+      "enum": [
+        163,
+        "aiClass"
+      ],
+      "description": "JCI AI"
+    },
+    {
+      "enum": [
+        164,
+        "aoClass"
+      ],
+      "description": "JCI AO"
+    },
+    {
+      "enum": [
+        165,
+        "avClass"
+      ],
+      "description": "JCI AV"
+    },
+    {
+      "enum": [
+        166,
+        "biClass"
+      ],
+      "description": "JCI BI"
+    },
+    {
+      "enum": [
+        167,
+        "boClass"
+      ],
+      "description": "JCI BO"
+    },
+    {
+      "enum": [
+        168,
+        "bvClass"
+      ],
+      "description": "JCI BV"
+    },
+    {
+      "enum": [
+        169,
+        "miClass"
+      ],
+      "description": "JCI MI"
+    },
+    {
+      "enum": [
+        170,
+        "moClass"
+      ],
+      "description": "JCI MO"
+    },
+    {
+      "enum": [
+        171,
+        "jciDeviceClass"
+      ],
+      "description": "JCI Device"
+    },
+    {
+      "enum": [
+        172,
+        "maClass"
+      ],
+      "description": "Multistate Alarm"
+    },
+    {
+      "enum": [
+        173,
+        "broadcastManagementClass"
+      ],
+      "description": "Broadcast Management"
+    },
+    {
+      "enum": [
+        174,
+        "optimalStartClass"
+      ],
+      "description": "Optimal Start"
+    },
+    {
+      "enum": [
+        175,
+        "destinationClass"
+      ],
+      "description": "Destination"
+    },
+    {
+      "enum": [
+        176,
+        "containerClass"
+      ],
+      "description": "Folder"
+    },
+    {
+      "enum": [
+        177,
+        "globalDataClass"
+      ],
+      "description": "Global Data"
+    },
+    {
+      "enum": [
+        178,
+        "signalSelectClass"
+      ],
+      "description": "Signal Select"
+    },
+    {
+      "enum": [
+        179,
+        "utilityProfileClass"
+      ],
+      "description": "Utility Profile"
+    },
+    {
+      "enum": [
+        180,
+        "printerClass"
+      ],
+      "description": "Printer"
+    },
+    {
+      "enum": [
+        181,
+        "pulseMeterClass"
+      ],
+      "description": "Pulse Meter"
+    },
+    {
+      "enum": [
+        182,
+        "remoteDestinationClass"
+      ],
+      "description": "Remote Destination"
+    },
+    {
+      "enum": [
+        183,
+        "collectionClass"
+      ],
+      "description": "Collection"
+    },
+    {
+      "enum": [
+        184,
+        "modDcuClass"
+      ],
+      "description": "MicroTech II"
+    },
+    {
+      "enum": [
+        185,
+        "n50Class"
+      ],
+      "description": "NAE55-NIE59"
+    },
+    {
+      "enum": [
+        186,
+        "autoShutdownClass"
+      ],
+      "description": "Auto Shutdown"
+    },
+    {
+      "enum": [
+        187,
+        "snapshotClass"
+      ],
+      "description": "Snapshot"
+    },
+    {
+      "enum": [
+        188,
+        "emailClass"
+      ],
+      "description": "Email"
+    },
+    {
+      "enum": [
+        189,
+        "lmoClass"
+      ],
+      "description": "Lon Mapping Object"
+    },
+    {
+      "enum": [
+        190,
+        "eeClass"
+      ],
+      "description": "JCI Event Enrollment"
+    },
+    {
+      "enum": [
+        191,
+        "bgrpClass"
+      ],
+      "description": "BACnet Group"
+    },
+    {
+      "enum": [
+        192,
+        "nae45Class"
+      ],
+      "description": "NAE45-NIE49"
+    },
+    {
+      "enum": [
+        193,
+        "nce35Class"
+      ],
+      "description": "NCE35"
+    },
+    {
+      "enum": [
+        194,
+        "fecClass"
+      ],
+      "description": "FEC"
+    },
+    {
+      "enum": [
+        195,
+        "fieldBusClass"
+      ],
+      "description": "Field Bus MSTP"
+    },
+    {
+      "enum": [
+        196,
+        "sensorActuatorBusClass"
+      ],
+      "description": "Sensor/Actuator Bus"
+    },
+    {
+      "enum": [
+        197,
+        "fieldDeviceClass"
+      ],
+      "description": "JCI Family BACnet Device"
+    },
+    {
+      "enum": [
+        198,
+        "mapperClass"
+      ],
+      "description": "Mapper"
+    },
+    {
+      "enum": [
+        199,
+        "fcpDeviceClass"
+      ],
+      "description": "FCP Device"
+    },
+    {
+      "enum": [
+        200,
+        "xl5KIntegrationClass"
+      ],
+      "description": "XL5K Integration"
+    },
+    {
+      "enum": [
+        201,
+        "xl5KControllerClass"
+      ],
+      "description": "XL5K Controller"
+    },
+    {
+      "enum": [
+        202,
+        "xl5KAiClass"
+      ],
+      "description": "XL5K AI"
+    },
+    {
+      "enum": [
+        203,
+        "xl5KAoClass"
+      ],
+      "description": "XL5K AO"
+    },
+    {
+      "enum": [
+        204,
+        "xl5KBiClass"
+      ],
+      "description": "XL5K BI"
+    },
+    {
+      "enum": [
+        205,
+        "xl5KBoClass"
+      ],
+      "description": "XL5K BO"
+    },
+    {
+      "enum": [
+        206,
+        "xl5KMiClass"
+      ],
+      "description": "XL5K MI"
+    },
+    {
+      "enum": [
+        207,
+        "xl5KMoClass"
+      ],
+      "description": "XL5K MO"
+    },
+    {
+      "enum": [
+        208,
+        "xl5KPcClass"
+      ],
+      "description": "XL5K PC"
+    },
+    {
+      "enum": [
+        209,
+        "flexAccumulatorClass"
+      ],
+      "description": "Flex Accumulator"
+    },
+    {
+      "enum": [
+        210,
+        "wrsClass"
+      ],
+      "description": "Wireless Supervisor"
+    },
+    {
+      "enum": [
+        211,
+        "wrxClass"
+      ],
+      "description": "Wireless Receiver"
+    },
+    {
+      "enum": [
+        212,
+        "wtsClass"
+      ],
+      "description": "Wireless Sensor"
+    },
+    {
+      "enum": [
+        213,
+        "supstatusClass"
+      ],
+      "description": "Supervisor Status Primitive"
+    },
+    {
+      "enum": [
+        214,
+        "ieiejEdmClass"
+      ],
+      "description": "IEIEJ Electric Demand Monitoring"
+    },
+    {
+      "enum": [
+        215,
+        "ieiejEdcClass"
+      ],
+      "description": "IEIEJ Electric Demand Control"
+    },
+    {
+      "enum": [
+        216,
+        "ieiejGlcClass"
+      ],
+      "description": "IEIEJ Generator Load Control"
+    },
+    {
+      "enum": [
+        217,
+        "bacnetTrendClass"
+      ],
+      "description": "BACnet Trend"
+    },
+    {
+      "enum": [
+        218,
+        "eventLogClass"
+      ],
+      "description": "Event Log"
+    },
+    {
+      "enum": [
+        219,
+        "bacnetRouterClass"
+      ],
+      "description": "Router"
+    },
+    {
+      "enum": [
+        220,
+        "bacnetAccumulatorClass"
+      ],
+      "description": "BACnet Accumulator"
+    },
+    {
+      "enum": [
+        221,
+        "bacnetPulseConverterClass"
+      ],
+      "description": "BACnet Pulse Converter"
+    },
+    {
+      "enum": [
+        222,
+        "bacnetEventLogClass"
+      ],
+      "description": "BACnet Event Log"
+    },
+    {
+      "enum": [
+        223,
+        "bacnetGlobalGroupClass"
+      ],
+      "description": "BACnet Global Group"
+    },
+    {
+      "enum": [
+        224,
+        "bacnetTrendLogMultipleClass"
+      ],
+      "description": "BACnet Trend Log Multiple"
+    },
+    {
+      "enum": [
+        225,
+        "bacnetLoadControlClass"
+      ],
+      "description": "BACnet Load Control"
+    },
+    {
+      "enum": [
+        226,
+        "bacnetStructuredViewClass"
+      ],
+      "description": "BACnet Structured View"
+    },
+    {
+      "enum": [
+        227,
+        "bacnetEdmClass"
+      ],
+      "description": "BACnet EDM"
+    },
+    {
+      "enum": [
+        228,
+        "bacnetEdcClass"
+      ],
+      "description": "BACnet EDC"
+    },
+    {
+      "enum": [
+        229,
+        "bacnetGlcClass"
+      ],
+      "description": "BACnet GLC"
+    },
+    {
+      "enum": [
+        230,
+        "guaranteedWriteClass"
+      ],
+      "description": "Guaranteed Write"
+    },
+    {
+      "enum": [
+        231,
+        "oreClass"
+      ],
+      "description": "Object Runtime Environment"
+    },
+    {
+      "enum": [
+        232,
+        "ipCommunicationClass"
+      ],
+      "description": "IP Communication"
+    },
+    {
+      "enum": [
+        233,
+        "yorktalkSlaveClass"
+      ],
+      "description": "YorkTalk Slave"
+    },
+    {
+      "enum": [
+        234,
+        "assappClass"
+      ],
+      "description": "Assapp"
+    },
+    {
+      "enum": [
+        235,
+        "asClass"
+      ],
+      "description": "Assembly"
+    },
+    {
+      "enum": [
+        236,
+        "apClass"
+      ],
+      "description": "Application"
+    },
+    {
+      "enum": [
+        237,
+        "surrogateClass"
+      ],
+      "description": "Surrogate"
+    },
+    {
+      "enum": [
+        238,
+        "vmaClass"
+      ],
+      "description": "VMA"
+    },
+    {
+      "enum": [
+        239,
+        "boHwClass"
+      ],
+      "description": "BO HW Output"
+    },
+    {
+      "enum": [
+        240,
+        "aiHwClass"
+      ],
+      "description": "AI HW Input"
+    },
+    {
+      "enum": [
+        241,
+        "aoHwClass"
+      ],
+      "description": "AO HW Output"
+    },
+    {
+      "enum": [
+        242,
+        "biHwClass"
+      ],
+      "description": "BI HW Input"
+    },
+    {
+      "enum": [
+        243,
+        "ciHwClass"
+      ],
+      "description": "CI HW Input"
+    },
+    {
+      "enum": [
+        244,
+        "natClass"
+      ],
+      "description": "NAT00"
+    },
+    {
+      "enum": [
+        245,
+        "n1PcClass"
+      ],
+      "description": "N1 PC"
+    },
+    {
+      "enum": [
+        246,
+        "n2SlaveClass"
+      ],
+      "description": "N2 Slave"
+    },
+    {
+      "enum": [
+        247,
+        "modbusSlaveClass"
+      ],
+      "description": "Modbus Slave"
+    },
+    {
+      "enum": [
+        248,
+        "basInterfaceManagerClass"
+      ],
+      "description": "BAS Interface Manager"
+    },
+    {
+      "enum": [
+        249,
+        "solarClockClass"
+      ],
+      "description": "Solar Clock"
+    },
+    {
+      "enum": [
+        250,
+        "pracClass"
+      ],
+      "description": "PRAC"
+    },
+    {
+      "enum": [
+        251,
+        "paoHwClass"
+      ],
+      "description": "PAO"
+    },
+    {
+      "enum": [
+        252,
+        "pidClass"
+      ],
+      "description": "PID"
+    },
+    {
+      "enum": [
+        253,
+        "bipDlClass"
+      ],
+      "description": "BACnet IP Routing Datalink Object"
+    },
+    {
+      "enum": [
+        254,
+        "rcmdDevClass"
+      ],
+      "description": "Room Command Module Device"
+    },
+    {
+      "enum": [
+        255,
+        "diagClass"
+      ],
+      "description": "Diag"
+    },
+    {
+      "enum": [
+        256,
+        "cecEfficiencyClass"
+      ],
+      "description": "CEC Efficiency Class"
+    },
+    {
+      "enum": [
+        257,
+        "timerClass"
+      ],
+      "description": "Timer"
+    },
+    {
+      "enum": [
+        258,
+        "rcmSsoClass"
+      ],
+      "description": "RCM Server"
+    },
+    {
+      "enum": [
+        259,
+        "daoHwClass"
+      ],
+      "description": "DAO"
+    },
+    {
+      "enum": [
+        260,
+        "ehsClass"
+      ],
+      "description": "EHS"
+    },
+    {
+      "enum": [
+        261,
+        "summaryClass"
+      ],
+      "description": "Summary"
+    },
+    {
+      "enum": [
+        262,
+        "ampDevClass"
+      ],
+      "description": "Air Measuring Probe"
+    },
+    {
+      "enum": [
+        263,
+        "scheduleClass"
+      ],
+      "description": "JCI Schedule"
+    },
+    {
+      "enum": [
+        264,
+        "loopClass"
+      ],
+      "description": "JCI Loop"
+    },
+    {
+      "enum": [
+        265,
+        "vmaBalancerClass"
+      ],
+      "description": "VMA Balancer"
+    },
+    {
+      "enum": [
+        266,
+        "ewmaClass"
+      ],
+      "description": "EWMA"
+    },
+    {
+      "enum": [
+        267,
+        "sfsmClass"
+      ],
+      "description": "SFSM"
+    },
+    {
+      "enum": [
+        268,
+        "sensorServerClass"
+      ],
+      "description": "Sensor Server"
+    },
+    {
+      "enum": [
+        269,
+        "fewiClass"
+      ],
+      "description": "FEWI"
+    },
+    {
+      "enum": [
+        270,
+        "workstationClass"
+      ],
+      "description": "Workstation"
+    },
+    {
+      "enum": [
+        271,
+        "zsClass"
+      ],
+      "description": "N30"
+    },
+    {
+      "enum": [
+        272,
+        "comtestClass"
+      ],
+      "description": "Comtest"
+    },
+    {
+      "enum": [
+        273,
+        "groupClass"
+      ],
+      "description": "JCI Group"
+    },
+    {
+      "enum": [
+        274,
+        "totaClass"
+      ],
+      "description": "Analog Totalization"
+    },
+    {
+      "enum": [
+        275,
+        "totrClass"
+      ],
+      "description": "Runtime Totalization"
+    },
+    {
+      "enum": [
+        276,
+        "toteClass"
+      ],
+      "description": "Event Totalization"
+    },
+    {
+      "enum": [
+        277,
+        "coretestClass"
+      ],
+      "description": "Coretest"
+    },
+    {
+      "enum": [
+        278,
+        "controllerClass"
+      ],
+      "description": "Controller"
+    },
+    {
+      "enum": [
+        279,
+        "qryaClass"
+      ],
+      "description": "Query Agent"
+    },
+    {
+      "enum": [
+        280,
+        "qrybClass"
+      ],
+      "description": "Query Broker"
+    },
+    {
+      "enum": [
+        281,
+        "nsAoClass"
+      ],
+      "description": "Net Sensor AO"
+    },
+    {
+      "enum": [
+        282,
+        "gatewayClass"
+      ],
+      "description": "Gateway"
+    },
+    {
+      "enum": [
+        283,
+        "odsNClass"
+      ],
+      "description": "Workstation"
+    },
+    {
+      "enum": [
+        284,
+        "cieClass"
+      ],
+      "description": "CIE19"
+    },
+    {
+      "enum": [
+        285,
+        "siteDataClass"
+      ],
+      "description": "Site Data"
+    },
+    {
+      "enum": [
+        286,
+        "siteClass"
+      ],
+      "description": "Site"
+    },
+    {
+      "enum": [
+        287,
+        "redundantClass"
+      ],
+      "description": "Redundant"
+    },
+    {
+      "enum": [
+        288,
+        "siteDeviceClass"
+      ],
+      "description": "Site Device"
+    },
+    {
+      "enum": [
+        289,
+        "pcCieClass"
+      ],
+      "description": "CIE89"
+    },
+    {
+      "enum": [
+        290,
+        "n2Class"
+      ],
+      "description": "N2 Trunk"
+    },
+    {
+      "enum": [
+        291,
+        "serialClass"
+      ],
+      "description": "Serial"
+    },
+    {
+      "enum": [
+        292,
+        "ethIpClass"
+      ],
+      "description": "ETH IP"
+    },
+    {
+      "enum": [
+        293,
+        "eth88023Class"
+      ],
+      "description": "ETH 88023"
+    },
+    {
+      "enum": [
+        294,
+        "vt100Class"
+      ],
+      "description": "VT100"
+    },
+    {
+      "enum": [
+        295,
+        "snoClass"
+      ],
+      "description": "Status Notification"
+    },
+    {
+      "enum": [
+        296,
+        "alarmWorxDestClass"
+      ],
+      "description": "Alarm Worx Dest"
+    },
+    {
+      "enum": [
+        297,
+        "pcAttrClass"
+      ],
+      "description": "PC Attribute"
+    },
+    {
+      "enum": [
+        298,
+        "pcSiteClass"
+      ],
+      "description": "PC Site"
+    },
+    {
+      "enum": [
+        299,
+        "pcServerClass"
+      ],
+      "description": "PC Server"
+    },
+    {
+      "enum": [
+        300,
+        "trendLogMultipleClass"
+      ],
+      "description": "Trend Log Multiple"
+    },
+    {
+      "enum": [
+        301,
+        "vrfIbClass"
+      ],
+      "description": "VRF IB"
+    },
+    {
+      "enum": [
+        302,
+        "vrfObClass"
+      ],
+      "description": "VRF OB"
+    },
+    {
+      "enum": [
+        303,
+        "tempoccClass"
+      ],
+      "description": "Tempocc"
+    },
+    {
+      "enum": [
+        304,
+        "lanRemoteDestClass"
+      ],
+      "description": "LAN Remote Dest"
+    },
+    {
+      "enum": [
+        305,
+        "latchClass"
+      ],
+      "description": "Latch"
+    },
+    {
+      "enum": [
+        306,
+        "mstpSlaveClass"
+      ],
+      "description": "MSTP Slave"
+    },
+    {
+      "enum": [
+        307,
+        "mstpMasterClass"
+      ],
+      "description": "MSTP Master"
+    },
+    {
+      "enum": [
+        308,
+        "internalDlClass"
+      ],
+      "description": "Internal DL"
+    },
+    {
+      "enum": [
+        309,
+        "velpidClass"
+      ],
+      "description": "Velocity PID"
+    },
+    {
+      "enum": [
+        310,
+        "displayClass"
+      ],
+      "description": "Display"
+    },
+    {
+      "enum": [
+        311,
+        "pagerClass"
+      ],
+      "description": "Pager"
+    },
+    {
+      "enum": [
+        312,
+        "refClass"
+      ],
+      "description": "Reference"
+    },
+    {
+      "enum": [
+        313,
+        "notificationClass"
+      ],
+      "description": "JCI Notification"
+    },
+    {
+      "enum": [
+        314,
+        "hostClass"
+      ],
+      "description": "Host"
+    },
+    {
+      "enum": [
+        315,
+        "panelClass"
+      ],
+      "description": "Panel"
+    },
+    {
+      "enum": [
+        316,
+        "termClass"
+      ],
+      "description": "Terminal"
+    },
+    {
+      "enum": [
+        317,
+        "counterClass"
+      ],
+      "description": "Counter"
+    },
+    {
+      "enum": [
+        318,
+        "readerClass"
+      ],
+      "description": "Reader"
+    },
+    {
+      "enum": [
+        319,
+        "dataBroadcastClass"
+      ],
+      "description": "Data Broadcast"
+    },
+    {
+      "enum": [
+        320,
+        "bacCommonClass"
+      ],
+      "description": "BACnet Common"
+    },
+    {
+      "enum": [
+        321,
+        "bacPointClass"
+      ],
+      "description": "BACnet Point"
+    },
+    {
+      "enum": [
+        322,
+        "persistNotificationClass"
+      ],
+      "description": "Persist Notification"
+    },
+    {
+      "enum": [
+        323,
+        "sssiClass"
+      ],
+      "description": "Security Supervised Input"
+    },
+    {
+      "enum": [
+        324,
+        "ssboClass"
+      ],
+      "description": "Security Binary Output"
+    },
+    {
+      "enum": [
+        325,
+        "ydcuClass"
+      ],
+      "description": "York 50/90 DCU"
+    },
+    {
+      "enum": [
+        326,
+        "mathClass"
+      ],
+      "description": "Math"
+    },
+    {
+      "enum": [
+        327,
+        "booleanClass"
+      ],
+      "description": "Boolean"
+    },
+    {
+      "enum": [
+        328,
+        "comparisonClass"
+      ],
+      "description": "Comparison"
+    },
+    {
+      "enum": [
+        329,
+        "muxClass"
+      ],
+      "description": "Mux"
+    },
+    {
+      "enum": [
+        330,
+        "abhClass"
+      ],
+      "description": "ABH"
+    },
+    {
+      "enum": [
+        331,
+        "dpClass"
+      ],
+      "description": "DP"
+    },
+    {
+      "enum": [
+        332,
+        "enthClass"
+      ],
+      "description": "ENTH"
+    },
+    {
+      "enum": [
+        333,
+        "pwsClass"
+      ],
+      "description": "PWS"
+    },
+    {
+      "enum": [
+        334,
+        "rhClass"
+      ],
+      "description": "RH"
+    },
+    {
+      "enum": [
+        335,
+        "wbClass"
+      ],
+      "description": "WB"
+    },
+    {
+      "enum": [
+        336,
+        "systemClass"
+      ],
+      "description": "System"
+    },
+    {
+      "enum": [
+        337,
+        "numericConstantClass"
+      ],
+      "description": "Numeric Constant"
+    },
+    {
+      "enum": [
+        338,
+        "enumConstantClass"
+      ],
+      "description": "Enum Constant"
+    },
+    {
+      "enum": [
+        339,
+        "releaseObjectClass"
+      ],
+      "description": "Release Object"
+    },
+    {
+      "enum": [
+        340,
+        "asyncDelayClass"
+      ],
+      "description": "Async Delay"
+    },
+    {
+      "enum": [
+        341,
+        "rateLimiterClass"
+      ],
+      "description": "Rate Limiter"
+    },
+    {
+      "enum": [
+        342,
+        "triggerClass"
+      ],
+      "description": "Trigger Object"
+    },
+    {
+      "enum": [
+        343,
+        "bacnetIntegrationClass"
+      ],
+      "description": "BACnet IP"
+    },
+    {
+      "enum": [
+        344,
+        "graphicClass"
+      ],
+      "description": "Graphic"
+    },
+    {
+      "enum": [
+        345,
+        "trendStudyClass"
+      ],
+      "description": "Trend Study"
+    },
+    {
+      "enum": [
+        346,
+        "n1IntegrationClass"
+      ],
+      "description": "N1 Migration"
+    },
+    {
+      "enum": [
+        347,
+        "ncmClass"
+      ],
+      "description": "NCM"
+    },
+    {
+      "enum": [
+        348,
+        "navTreeClass"
+      ],
+      "description": "User View"
+    },
+    {
+      "enum": [
+        349,
+        "lonIntegrationClass"
+      ],
+      "description": "LON Trunk"
+    },
+    {
+      "enum": [
+        350,
+        "lonControllerClass"
+      ],
+      "description": "LON Controller"
+    },
+    {
+      "enum": [
+        351,
+        "lonAiClass"
+      ],
+      "description": "LON AI"
+    },
+    {
+      "enum": [
+        352,
+        "lonAoClass"
+      ],
+      "description": "LON AO"
+    },
+    {
+      "enum": [
+        353,
+        "lonBiClass"
+      ],
+      "description": "LON BI"
+    },
+    {
+      "enum": [
+        354,
+        "lonBoClass"
+      ],
+      "description": "LON BO"
+    },
+    {
+      "enum": [
+        355,
+        "lonMsiClass"
+      ],
+      "description": "LON MSI"
+    },
+    {
+      "enum": [
+        356,
+        "lonMsoClass"
+      ],
+      "description": "LON MSO"
+    },
+    {
+      "enum": [
+        357,
+        "resourceFileClass"
+      ],
+      "description": "Resource File"
+    },
+    {
+      "enum": [
+        358,
+        "n50IntClass"
+      ],
+      "description": "NIE55"
+    },
+    {
+      "enum": [
+        359,
+        "gioClass"
+      ],
+      "description": "GIO"
+    },
+    {
+      "enum": [
+        360,
+        "flowClass"
+      ],
+      "description": "Flow"
+    },
+    {
+      "enum": [
+        361,
+        "sequencerClass"
+      ],
+      "description": "Sequencer"
+    },
+    {
+      "enum": [
+        362,
+        "timeClass"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        363,
+        "doorSequenceClass"
+      ],
+      "description": "Door Sequence"
+    },
+    {
+      "enum": [
+        364,
+        "accessControlClass"
+      ],
+      "description": "Access Control"
+    },
+    {
+      "enum": [
+        365,
+        "ck722DeviceClass"
+      ],
+      "description": "CK722 Device"
+    },
+    {
+      "enum": [
+        366,
+        "ssncClass"
+      ],
+      "description": "Security Notification Class"
+    },
+    {
+      "enum": [
+        367,
+        "dEClass"
+      ],
+      "description": "Entity"
+    },
+    {
+      "enum": [
+        368,
+        "dApClass"
+      ],
+      "description": "Access Profile"
+    },
+    {
+      "enum": [
+        369,
+        "dBClass"
+      ],
+      "description": "Badge Identifier"
+    },
+    {
+      "enum": [
+        370,
+        "dBmClass"
+      ],
+      "description": "Biometric Identifier"
+    },
+    {
+      "enum": [
+        371,
+        "dEgClass"
+      ],
+      "description": "Entity Group"
+    },
+    {
+      "enum": [
+        372,
+        "dIgClass"
+      ],
+      "description": "Intrustion Group"
+    },
+    {
+      "enum": [
+        373,
+        "dAgClass"
+      ],
+      "description": "Access Group"
+    },
+    {
+      "enum": [
+        374,
+        "dPeClass"
+      ],
+      "description": "Panel Event"
+    },
+    {
+      "enum": [
+        375,
+        "dIfClass"
+      ],
+      "description": "Identifier Format"
+    },
+    {
+      "enum": [
+        376,
+        "dCClass"
+      ],
+      "description": "Common Data Record"
+    },
+    {
+      "enum": [
+        377,
+        "p2KServerClass"
+      ],
+      "description": "P2000 Server"
+    },
+    {
+      "enum": [
+        378,
+        "p2KPanelClass"
+      ],
+      "description": "P2000 Panel"
+    },
+    {
+      "enum": [
+        379,
+        "p2KPortalClass"
+      ],
+      "description": "P2000 Portal"
+    },
+    {
+      "enum": [
+        380,
+        "p2KDoorClass"
+      ],
+      "description": "P2000 Door"
+    },
+    {
+      "enum": [
+        381,
+        "p2KBiClass"
+      ],
+      "description": "P2000 BI"
+    },
+    {
+      "enum": [
+        382,
+        "p2KBoClass"
+      ],
+      "description": "P2000 BO"
+    },
+    {
+      "enum": [
+        383,
+        "p2KReportClass"
+      ],
+      "description": "P2000 Report"
+    },
+    {
+      "enum": [
+        384,
+        "p2KHostEngineClass"
+      ],
+      "description": "P2000 Host Engine"
+    },
+    {
+      "enum": [
+        385,
+        "mmaClass"
+      ],
+      "description": "Metasys MATLAB API"
+    },
+    {
+      "enum": [
+        386,
+        "weatherCollectorClass"
+      ],
+      "description": "Weather Collector"
+    },
+    {
+      "enum": [
+        387,
+        "energyPriceCollectorClass"
+      ],
+      "description": "Energy Price Collector"
+    },
+    {
+      "enum": [
+        388,
+        "emManagerClass"
+      ],
+      "description": "Equipment Model Manager"
+    },
+    {
+      "enum": [
+        389,
+        "stringEvalClass"
+      ],
+      "description": "String Evaluator"
+    },
+    {
+      "enum": [
+        390,
+        "computedPointClass"
+      ],
+      "description": "Computed Point"
+    },
+    {
+      "enum": [
+        391,
+        "vnmClass"
+      ],
+      "description": "Virtual Network Manager"
+    },
+    {
+      "enum": [
+        392,
+        "vdmClass"
+      ],
+      "description": "Virtual Device Manager"
+    },
+    {
+      "enum": [
+        416,
+        "n1PidlClass"
+      ],
+      "description": "N1 PID Loop"
+    },
+    {
+      "enum": [
+        417,
+        "n1AiClass"
+      ],
+      "description": "N1 AI"
+    },
+    {
+      "enum": [
+        418,
+        "n1BiClass"
+      ],
+      "description": "N1 BI"
+    },
+    {
+      "enum": [
+        419,
+        "n1AoClass"
+      ],
+      "description": "N1 AO"
+    },
+    {
+      "enum": [
+        420,
+        "n1BoClass"
+      ],
+      "description": "N1 BO"
+    },
+    {
+      "enum": [
+        421,
+        "n1MsiClass"
+      ],
+      "description": "N1 MSI"
+    },
+    {
+      "enum": [
+        422,
+        "n1MsoClass"
+      ],
+      "description": "N1 MSO"
+    },
+    {
+      "enum": [
+        423,
+        "n1CalendarClass"
+      ],
+      "description": "N1 Calendar"
+    },
+    {
+      "enum": [
+        424,
+        "n1ScheduleClass"
+      ],
+      "description": "N1 Schedule"
+    },
+    {
+      "enum": [
+        425,
+        "adsClass"
+      ],
+      "description": "ADS"
+    },
+    {
+      "enum": [
+        426,
+        "vndIntegrationClass"
+      ],
+      "description": "VND Integration"
+    },
+    {
+      "enum": [
+        427,
+        "vndControllerClass"
+      ],
+      "description": "VND Controller"
+    },
+    {
+      "enum": [
+        428,
+        "vndAiClass"
+      ],
+      "description": "VND AI"
+    },
+    {
+      "enum": [
+        429,
+        "vndAoClass"
+      ],
+      "description": "VND AO"
+    },
+    {
+      "enum": [
+        430,
+        "vndBiClass"
+      ],
+      "description": "VND BI"
+    },
+    {
+      "enum": [
+        431,
+        "vndBoClass"
+      ],
+      "description": "VND BO"
+    },
+    {
+      "enum": [
+        432,
+        "vndMiClass"
+      ],
+      "description": "VND MI"
+    },
+    {
+      "enum": [
+        433,
+        "vndMoClass"
+      ],
+      "description": "VND MO"
+    },
+    {
+      "enum": [
+        434,
+        "n2SharedClass"
+      ],
+      "description": "N2 Shared"
+    },
+    {
+      "enum": [
+        499,
+        "bacnetPointSharedClass"
+      ],
+      "description": "BACnet Point Shared"
+    },
+    {
+      "enum": [
+        500,
+        "bacnetAiClass"
+      ],
+      "description": "BACnet AI"
+    },
+    {
+      "enum": [
+        501,
+        "bacnetAoClass"
+      ],
+      "description": "BACnet AO"
+    },
+    {
+      "enum": [
+        502,
+        "bacnetAvClass"
+      ],
+      "description": "BACnet AV"
+    },
+    {
+      "enum": [
+        503,
+        "bacnetBiClass"
+      ],
+      "description": "BACnet BI"
+    },
+    {
+      "enum": [
+        504,
+        "bacnetBoClass"
+      ],
+      "description": "BACnet BO"
+    },
+    {
+      "enum": [
+        505,
+        "bacnetBvClass"
+      ],
+      "description": "BACnet BV"
+    },
+    {
+      "enum": [
+        506,
+        "bacnetCalendarClass"
+      ],
+      "description": "BACnet Calendar"
+    },
+    {
+      "enum": [
+        507,
+        "bacnetCommandClass"
+      ],
+      "description": "BACnet Command"
+    },
+    {
+      "enum": [
+        508,
+        "bacnetDeviceClass"
+      ],
+      "description": "General BACnet Device"
+    },
+    {
+      "enum": [
+        509,
+        "bacnetEvntEnrolClass"
+      ],
+      "description": "BACnet Event Enrollm"
+    },
+    {
+      "enum": [
+        510,
+        "bacnetFileClass"
+      ],
+      "description": "BACnet File"
+    },
+    {
+      "enum": [
+        511,
+        "bacnetGroupClass"
+      ],
+      "description": "BACnet Grp"
+    },
+    {
+      "enum": [
+        512,
+        "bacnetLoopClass"
+      ],
+      "description": "BACnet Loop"
+    },
+    {
+      "enum": [
+        513,
+        "bacnetMiClass"
+      ],
+      "description": "BACnet MI"
+    },
+    {
+      "enum": [
+        514,
+        "bacnetMoClass"
+      ],
+      "description": "BACnet MO"
+    },
+    {
+      "enum": [
+        515,
+        "bacnetNotificClass"
+      ],
+      "description": "BACnet Notification"
+    },
+    {
+      "enum": [
+        516,
+        "bacnetProgramClass"
+      ],
+      "description": "BACnet Program"
+    },
+    {
+      "enum": [
+        517,
+        "bacnetScheduleClass"
+      ],
+      "description": "BACnet Schedule"
+    },
+    {
+      "enum": [
+        518,
+        "bacnetAveragingClass"
+      ],
+      "description": "BACnet Averaging"
+    },
+    {
+      "enum": [
+        519,
+        "bacnetMvClass"
+      ],
+      "description": "BACnet MV"
+    },
+    {
+      "enum": [
+        520,
+        "bacnetTrendLogClass"
+      ],
+      "description": "BACnet Trend Log"
+    },
+    {
+      "enum": [
+        521,
+        "bacnetLspClass"
+      ],
+      "description": "BACnet Life Safety Point"
+    },
+    {
+      "enum": [
+        522,
+        "bacnetLszClass"
+      ],
+      "description": "BACnet Life Safety Zone"
+    },
+    {
+      "enum": [
+        523,
+        "zntsetpointdeterminationClass"
+      ],
+      "description": "ZN-T Setpoint Determination Primitive"
+    },
+    {
+      "enum": [
+        524,
+        "occModeClass"
+      ],
+      "description": "Occupancy Mode Determination Primitive"
+    },
+    {
+      "enum": [
+        525,
+        "activityseqClass"
+      ],
+      "description": "Activity Sequencer"
+    },
+    {
+      "enum": [
+        526,
+        "inputFloatBlockClass"
+      ],
+      "description": "Input Float Block"
+    },
+    {
+      "enum": [
+        527,
+        "outputFloatBlockClass"
+      ],
+      "description": "Output Float Block"
+    },
+    {
+      "enum": [
+        528,
+        "inputEnumBlockClass"
+      ],
+      "description": "Input Enumeration Bl"
+    },
+    {
+      "enum": [
+        529,
+        "outputEnumBlockClass"
+      ],
+      "description": "Output Enumeration B"
+    },
+    {
+      "enum": [
+        530,
+        "inputBoolBlockClass"
+      ],
+      "description": "Input Boolean Block"
+    },
+    {
+      "enum": [
+        531,
+        "outputBoolBlockClass"
+      ],
+      "description": "Output Boolean Block"
+    },
+    {
+      "enum": [
+        532,
+        "summerWinterClass"
+      ],
+      "description": "Summer Winter Compensation Primitive"
+    },
+    {
+      "enum": [
+        533,
+        "lightingControlClass"
+      ],
+      "description": "Lighting Control Primitive"
+    },
+    {
+      "enum": [
+        534,
+        "ck200DevClass"
+      ],
+      "description": "CK200 Device Object"
+    },
+    {
+      "enum": [
+        535,
+        "logicBlockClass"
+      ],
+      "description": "Logic Block"
+    },
+    {
+      "enum": [
+        536,
+        "activityClass"
+      ],
+      "description": "Control Activity"
+    },
+    {
+      "enum": [
+        538,
+        "lastValueClass"
+      ],
+      "description": "Last Value"
+    },
+    {
+      "enum": [
+        539,
+        "reliabilityCheckClass"
+      ],
+      "description": "Reliability Check Primitive"
+    },
+    {
+      "enum": [
+        540,
+        "stateSelectionClass"
+      ],
+      "description": "State Selection Primitive"
+    },
+    {
+      "enum": [
+        541,
+        "fsmClass"
+      ],
+      "description": "FSM Primitive"
+    },
+    {
+      "enum": [
+        542,
+        "ecoSuitabilityClass"
+      ],
+      "description": "Economizer Suitabili"
+    },
+    {
+      "enum": [
+        543,
+        "commandHierarchyClass"
+      ],
+      "description": "Command Hierarchy"
+    },
+    {
+      "enum": [
+        544,
+        "downloadManagerClass"
+      ],
+      "description": "Download Manager"
+    },
+    {
+      "enum": [
+        545,
+        "downloadObjectClass"
+      ],
+      "description": "Download Object"
+    },
+    {
+      "enum": [
+        546,
+        "lineSegmentClass"
+      ],
+      "description": "Line Segment Primitive"
+    },
+    {
+      "enum": [
+        547,
+        "mceLoadTestClass"
+      ],
+      "description": "MCE Load Test"
+    },
+    {
+      "enum": [
+        548,
+        "elementClass"
+      ],
+      "description": "Element Class"
+    },
+    {
+      "enum": [
+        549,
+        "hwManagerClass"
+      ],
+      "description": "HW Manager"
+    },
+    {
+      "enum": [
+        550,
+        "packageClass"
+      ],
+      "description": "Package"
+    },
+    {
+      "enum": [
+        551,
+        "floatConstantClass"
+      ],
+      "description": "Float Constant Primitive"
+    },
+    {
+      "enum": [
+        552,
+        "booleanConstantClass"
+      ],
+      "description": "Boolean Constant Primitive"
+    },
+    {
+      "enum": [
+        553,
+        "fecHardwareManagerClass"
+      ],
+      "description": "FEC Hardware Manager"
+    },
+    {
+      "enum": [
+        554,
+        "fileClass"
+      ],
+      "description": "File Class"
+    },
+    {
+      "enum": [
+        555,
+        "controlPointClass"
+      ],
+      "description": "Control Point Primitive"
+    },
+    {
+      "enum": [
+        556,
+        "sensorClass"
+      ],
+      "description": "Sensor Primitive"
+    },
+    {
+      "enum": [
+        557,
+        "pmacClass"
+      ],
+      "description": "PMAC Primitive"
+    },
+    {
+      "enum": [
+        558,
+        "timer2Class"
+      ],
+      "description": "Timer Primitive"
+    },
+    {
+      "enum": [
+        559,
+        "boolean2Class"
+      ],
+      "description": "Boolean Primitive"
+    },
+    {
+      "enum": [
+        560,
+        "comparison2Class"
+      ],
+      "description": "Comparison Primitive"
+    },
+    {
+      "enum": [
+        561,
+        "math2Class"
+      ],
+      "description": "Math Primitive"
+    },
+    {
+      "enum": [
+        562,
+        "mux2Class"
+      ],
+      "description": "Mux Primitive"
+    },
+    {
+      "enum": [
+        563,
+        "abh2Class"
+      ],
+      "description": "ABH Primitive"
+    },
+    {
+      "enum": [
+        564,
+        "dp2Class"
+      ],
+      "description": "DP Primitive"
+    },
+    {
+      "enum": [
+        565,
+        "enth2Class"
+      ],
+      "description": "ENTH Primitive"
+    },
+    {
+      "enum": [
+        566,
+        "rh2Class"
+      ],
+      "description": "RH Primitive"
+    },
+    {
+      "enum": [
+        567,
+        "wb2Class"
+      ],
+      "description": "WB Primitive"
+    },
+    {
+      "enum": [
+        568,
+        "enumConstant2Class"
+      ],
+      "description": "Enum Constant Primitive"
+    },
+    {
+      "enum": [
+        569,
+        "rateLimiter2Class"
+      ],
+      "description": "Rate Limiter Primitive"
+    },
+    {
+      "enum": [
+        570,
+        "flow2Class"
+      ],
+      "description": "Flow Primitive"
+    },
+    {
+      "enum": [
+        571,
+        "sequencer2Class"
+      ],
+      "description": "Sequencer Primitive"
+    },
+    {
+      "enum": [
+        572,
+        "time2Class"
+      ],
+      "description": "Time Primitive"
+    },
+    {
+      "enum": [
+        573,
+        "span2Class"
+      ],
+      "description": "Span Primitive"
+    },
+    {
+      "enum": [
+        574,
+        "latch2Class"
+      ],
+      "description": "Latch Primitive"
+    },
+    {
+      "enum": [
+        575,
+        "sequenceClass"
+      ],
+      "description": "Control Sequence"
+    },
+    {
+      "enum": [
+        576,
+        "patmClass"
+      ],
+      "description": "PATM Primitive"
+    },
+    {
+      "enum": [
+        577,
+        "btcClass"
+      ],
+      "description": "BTC"
+    },
+    {
+      "enum": [
+        578,
+        "iomClass"
+      ],
+      "description": "IOM"
+    },
+    {
+      "enum": [
+        579,
+        "pmacPrepClass"
+      ],
+      "description": "MSC Pre Processor Primitive"
+    },
+    {
+      "enum": [
+        580,
+        "multistagectrlClass"
+      ],
+      "description": "Multi-Stage Controller Primitive"
+    },
+    {
+      "enum": [
+        581,
+        "freeCoolingClass"
+      ],
+      "description": "Free Cooling Primitive"
+    },
+    {
+      "enum": [
+        582,
+        "pidPreProcClass"
+      ],
+      "description": "PID Pre Process"
+    },
+    {
+      "enum": [
+        583,
+        "boconstructorClass"
+      ],
+      "description": "BO Constructor"
+    },
+    {
+      "enum": [
+        584,
+        "pvdcClass"
+      ],
+      "description": "PVDC"
+    },
+    {
+      "enum": [
+        585,
+        "stdsTblClass"
+      ],
+      "description": "Standards Table Object"
+    },
+    {
+      "enum": [
+        586,
+        "lmeTestObjectClass"
+      ],
+      "description": "LME Test Object"
+    },
+    {
+      "enum": [
+        587,
+        "statClass"
+      ],
+      "description": "Statistic Primitive"
+    },
+    {
+      "enum": [
+        588,
+        "ost2Class"
+      ],
+      "description": "OST Primitive"
+    },
+    {
+      "enum": [
+        589,
+        "rankCalcClass"
+      ],
+      "description": "Rank Calc Primitive"
+    },
+    {
+      "enum": [
+        590,
+        "mvoClass"
+      ],
+      "description": "Multiple Value Output Primitive"
+    },
+    {
+      "enum": [
+        591,
+        "totalizationClass"
+      ],
+      "description": "Totalization Primitve"
+    },
+    {
+      "enum": [
+        592,
+        "passthroughClass"
+      ],
+      "description": "Pass Through Primitive"
+    },
+    {
+      "enum": [
+        593,
+        "textClass"
+      ],
+      "description": "Text Primitive"
+    },
+    {
+      "enum": [
+        594,
+        "bsmClass"
+      ],
+      "description": "Bounded Stepper Motor Output"
+    },
+    {
+      "enum": [
+        595,
+        "exestatusClass"
+      ],
+      "description": "Execution Status Primitive"
+    },
+    {
+      "enum": [
+        597,
+        "remDevClass"
+      ],
+      "description": "REM Dev"
+    },
+    {
+      "enum": [
+        598,
+        "riomDevClass"
+      ],
+      "description": "RIOM Dev"
+    },
+    {
+      "enum": [
+        599,
+        "aiMapperClass"
+      ],
+      "description": "AI Mapper"
+    },
+    {
+      "enum": [
+        600,
+        "aoMapperClass"
+      ],
+      "description": "AO Mapper"
+    },
+    {
+      "enum": [
+        601,
+        "avMapperClass"
+      ],
+      "description": "AV Mapper"
+    },
+    {
+      "enum": [
+        602,
+        "biMapperClass"
+      ],
+      "description": "BI Mapper"
+    },
+    {
+      "enum": [
+        603,
+        "boMapperClass"
+      ],
+      "description": "BO Mapper"
+    },
+    {
+      "enum": [
+        604,
+        "bvMapperClass"
+      ],
+      "description": "BV Mapper"
+    },
+    {
+      "enum": [
+        605,
+        "msiMapperClass"
+      ],
+      "description": "MSI Mapper"
+    },
+    {
+      "enum": [
+        606,
+        "msvMapperClass"
+      ],
+      "description": "MSV Mapper"
+    },
+    {
+      "enum": [
+        608,
+        "pcMapperClass"
+      ],
+      "description": "MS/TP Pulse Counter"
+    },
+    {
+      "enum": [
+        609,
+        "psClass"
+      ],
+      "description": "Persistent Storage"
+    },
+    {
+      "enum": [
+        610,
+        "pcNaeClass"
+      ],
+      "description": "NAE85-LCS85-NIE89"
+    },
+    {
+      "enum": [
+        611,
+        "pcNieClass"
+      ],
+      "description": "NIE85"
+    },
+    {
+      "enum": [
+        612,
+        "boxflowtestClass"
+      ],
+      "description": "Box Flow Test"
+    },
+    {
+      "enum": [
+        613,
+        "nae35Class"
+      ],
+      "description": "NAE35-NIE39"
+    },
+    {
+      "enum": [
+        614,
+        "reliabilityMergeClass"
+      ],
+      "description": "Reliability Merge Primitive"
+    },
+    {
+      "enum": [
+        615,
+        "bluetoothDlClass"
+      ],
+      "description": "Bluetooth Datalink Object"
+    },
+    {
+      "enum": [
+        616,
+        "testvalueClass"
+      ],
+      "description": "Test Value Primitive"
+    },
+    {
+      "enum": [
+        617,
+        "intrusionAreaClass"
+      ],
+      "description": "Intrusion Area"
+    },
+    {
+      "enum": [
+        618,
+        "intrusionZoneClass"
+      ],
+      "description": "Intrusion Zone"
+    },
+    {
+      "enum": [
+        619,
+        "intrusionAnnunciatorClass"
+      ],
+      "description": "Intrusion Annunciator"
+    },
+    {
+      "enum": [
+        620,
+        "intrusionKeypadDisplayClass"
+      ],
+      "description": "Intrusion Keypad Display"
+    },
+    {
+      "enum": [
+        621,
+        "antiPassbackClass"
+      ],
+      "description": "Anti-Passback"
+    },
+    {
+      "enum": [
+        622,
+        "occupancyClass"
+      ],
+      "description": "Occupancy"
+    },
+    {
+      "enum": [
+        623,
+        "antiLoiteringClass"
+      ],
+      "description": "Anti-Loitering"
+    },
+    {
+      "enum": [
+        624,
+        "s300TrunkClass"
+      ],
+      "description": "S300 Trunk"
+    },
+    {
+      "enum": [
+        625,
+        "s300HwModuleClass"
+      ],
+      "description": "S300 Hardware Module"
+    },
+    {
+      "enum": [
+        626,
+        "s300ReaderTerminalClass"
+      ],
+      "description": "S300 Reader Terminal"
+    },
+    {
+      "enum": [
+        627,
+        "nsdDevClass"
+      ],
+      "description": "Net Sensor Device"
+    },
+    {
+      "enum": [
+        628,
+        "nsAiClass"
+      ],
+      "description": "Net Sensor AI"
+    },
+    {
+      "enum": [
+        629,
+        "templateClass"
+      ],
+      "description": "Template"
+    },
+    {
+      "enum": [
+        630,
+        "templatesFolderClass"
+      ],
+      "description": "Templates Folder"
+    },
+    {
+      "enum": [
+        631,
+        "vavBalancerClass"
+      ],
+      "description": "Vav Balancer"
+    },
+    {
+      "enum": [
+        632,
+        "vsdDevClass"
+      ],
+      "description": "Variable Speed Drive"
+    },
+    {
+      "enum": [
+        633,
+        "standardDualDuctEndpointCalculationClass"
+      ],
+      "description": "Standard Dual Duct Endpoint Calculation"
+    },
+    {
+      "enum": [
+        634,
+        "addressClass"
+      ],
+      "description": "Address"
+    },
+    {
+      "enum": [
+        635,
+        "bdsoClass"
+      ],
+      "description": "BDSO"
+    },
+    {
+      "enum": [
+        636,
+        "cctSimDeviceClass"
+      ],
+      "description": "CCT Simulation Device"
+    },
+    {
+      "enum": [
+        637,
+        "controllerEventClass"
+      ],
+      "description": "Controller Event"
+    },
+    {
+      "enum": [
+        638,
+        "ethernetPortRedundancyClass"
+      ],
+      "description": "Ethernet Port Redundancy"
+    },
+    {
+      "enum": [
+        639,
+        "deliveryClass"
+      ],
+      "description": "Delivery"
+    },
+    {
+      "enum": [
+        640,
+        "rddevClass"
+      ],
+      "description": "RDDEV"
+    },
+    {
+      "enum": [
+        641,
+        "bifedClass"
+      ],
+      "description": "BI FED"
+    },
+    {
+      "enum": [
+        642,
+        "aofedClass"
+      ],
+      "description": "AO FED"
+    },
+    {
+      "enum": [
+        643,
+        "bofedClass"
+      ],
+      "description": "BO FED"
+    },
+    {
+      "enum": [
+        644,
+        "aifedClass"
+      ],
+      "description": "AI FED"
+    },
+    {
+      "enum": [
+        645,
+        "avfedClass"
+      ],
+      "description": "AV FED"
+    },
+    {
+      "enum": [
+        646,
+        "bvfedClass"
+      ],
+      "description": "BV FED"
+    },
+    {
+      "enum": [
+        647,
+        "mvfedClass"
+      ],
+      "description": "MV FED"
+    },
+    {
+      "enum": [
+        648,
+        "devHostClass"
+      ],
+      "description": "DEV HOST"
+    },
+    {
+      "enum": [
+        649,
+        "fedClass"
+      ],
+      "description": "FED"
+    },
+    {
+      "enum": [
+        650,
+        "cifedClass"
+      ],
+      "description": "CI FED"
+    },
+    {
+      "enum": [
+        651,
+        "nce25Class"
+      ],
+      "description": "NCE25-NIE29"
+    },
+    {
+      "enum": [
+        652,
+        "cabinetClass"
+      ],
+      "description": "Cabinet"
+    },
+    {
+      "enum": [
+        653,
+        "elevatorClass"
+      ],
+      "description": "Elevator"
+    },
+    {
+      "enum": [
+        654,
+        "koneIntegrationClass"
+      ],
+      "description": "KONE Integration"
+    },
+    {
+      "enum": [
+        655,
+        "koneControllerClass"
+      ],
+      "description": "KONE Controller"
+    },
+    {
+      "enum": [
+        656,
+        "otisIntegrationClass"
+      ],
+      "description": "Otis Integration"
+    },
+    {
+      "enum": [
+        657,
+        "otisControllerClass"
+      ],
+      "description": "Otis Controller"
+    },
+    {
+      "enum": [
+        658,
+        "analogLoadClass"
+      ],
+      "description": "Analog Load"
+    },
+    {
+      "enum": [
+        659,
+        "binaryLoadClass"
+      ],
+      "description": "Binary Load"
+    },
+    {
+      "enum": [
+        660,
+        "multistateLoadClass"
+      ],
+      "description": "Multistate Load"
+    },
+    {
+      "enum": [
+        661,
+        "subscriptionClientClass"
+      ],
+      "description": "Subscription Client"
+    },
+    {
+      "enum": [
+        662,
+        "zstackDlClass"
+      ],
+      "description": "Zstack Dl"
+    },
+    {
+      "enum": [
+        663,
+        "koneIpControllerClass"
+      ],
+      "description": "KONE IP Controller"
+    },
+    {
+      "enum": [
+        664,
+        "koneIpIntegrationClass"
+      ],
+      "description": "KONE IP Integration"
+    },
+    {
+      "enum": [
+        665,
+        "commonElevatorClass"
+      ],
+      "description": "Common Elevator"
+    },
+    {
+      "enum": [
+        666,
+        "koneElevatorClass"
+      ],
+      "description": "KONE Elevator"
+    },
+    {
+      "enum": [
+        667,
+        "otisElevatorClass"
+      ],
+      "description": "Otis Elevator"
+    },
+    {
+      "enum": [
+        668,
+        "koneIpCopClass"
+      ],
+      "description": "KONE IP COP"
+    },
+    {
+      "enum": [
+        669,
+        "koneIpDopClass"
+      ],
+      "description": "KONE IP DOP"
+    },
+    {
+      "enum": [
+        670,
+        "rioDevClass"
+      ],
+      "description": "RIO DEV"
+    },
+    {
+      "enum": [
+        671,
+        "raiClass"
+      ],
+      "description": "RAI"
+    },
+    {
+      "enum": [
+        672,
+        "raoClass"
+      ],
+      "description": "RAO"
+    },
+    {
+      "enum": [
+        673,
+        "rbiClass"
+      ],
+      "description": "RBI"
+    },
+    {
+      "enum": [
+        674,
+        "rboClass"
+      ],
+      "description": "RBO"
+    },
+    {
+      "enum": [
+        675,
+        "zigbeeDlClass"
+      ],
+      "description": "ZigBee Datalink"
+    },
+    {
+      "enum": [
+        676,
+        "metasysMstpClass"
+      ],
+      "description": "Metasys MS/TP"
+    },
+    {
+      "enum": [
+        677,
+        "averagingClass"
+      ],
+      "description": "JCI Averaging"
+    },
+    {
+      "enum": [
+        678,
+        "sicsCoordinatorClass"
+      ],
+      "description": "SICS Coordinator"
+    },
+    {
+      "enum": [
+        679,
+        "sicsZoneControllerClass"
+      ],
+      "description": "SICS Zone Controller"
+    },
+    {
+      "enum": [
+        680,
+        "sicsRemCoordClass"
+      ],
+      "description": "SICS Remote Coordinator"
+    },
+    {
+      "enum": [
+        681,
+        "sicsRemZoneCtrlerClass"
+      ],
+      "description": "SICS Remote Zone Controller"
+    },
+    {
+      "enum": [
+        682,
+        "sicsGroupClass"
+      ],
+      "description": "SICS Group"
+    },
+    {
+      "enum": [
+        683,
+        "sicsRemGroupClass"
+      ],
+      "description": "SICS Remote Group"
+    },
+    {
+      "enum": [
+        684,
+        "sicsCvRtuClass"
+      ],
+      "description": "SICS CV RTU"
+    },
+    {
+      "enum": [
+        685,
+        "sicsRemRtuClass"
+      ],
+      "description": "SICS Remote Roof Top Unit"
+    },
+    {
+      "enum": [
+        686,
+        "modbusClass"
+      ],
+      "description": "MODBUS"
+    },
+    {
+      "enum": [
+        687,
+        "modbusDevClass"
+      ],
+      "description": "MODBUS DEV"
+    },
+    {
+      "enum": [
+        688,
+        "modbusAiClass"
+      ],
+      "description": "MODBUS AI"
+    },
+    {
+      "enum": [
+        689,
+        "modbusAoClass"
+      ],
+      "description": "MODBUS AO"
+    },
+    {
+      "enum": [
+        690,
+        "modbusBiClass"
+      ],
+      "description": "MODBUS BI"
+    },
+    {
+      "enum": [
+        691,
+        "modbusBoClass"
+      ],
+      "description": "MODBUS BO"
+    },
+    {
+      "enum": [
+        692,
+        "modbusStringClass"
+      ],
+      "description": "MODBUS STRING"
+    },
+    {
+      "enum": [
+        693,
+        "sicsAlarmManagerClass"
+      ],
+      "description": "SICS Alarm Manager"
+    },
+    {
+      "enum": [
+        694,
+        "soTestClass"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        695,
+        "sicsBalancerModeClass"
+      ],
+      "description": "SICS Balancer Mode"
+    },
+    {
+      "enum": [
+        696,
+        "sicsDuctStaticSpResetClass"
+      ],
+      "description": "SICS Duct Static SP Reset"
+    },
+    {
+      "enum": [
+        697,
+        "sicsUnoccHtgClgDetClass"
+      ],
+      "description": "SICS Unocc Htg Clg Determination"
+    },
+    {
+      "enum": [
+        698,
+        "sicsDatSpResetClass"
+      ],
+      "description": "SICS DAT SP Reset"
+    },
+    {
+      "enum": [
+        699,
+        "sdClass"
+      ],
+      "description": "Summary Definition"
+    },
+    {
+      "enum": [
+        700,
+        "devIntegClass"
+      ],
+      "description": "Device Integration"
+    },
+    {
+      "enum": [
+        701,
+        "devEnableDetClass"
+      ],
+      "description": "Device Enable Determination Class"
+    },
+    {
+      "enum": [
+        702,
+        "equipmentInterlockClass"
+      ],
+      "description": "Equipment Interlock Class"
+    },
+    {
+      "enum": [
+        703,
+        "chlrSelStubClass"
+      ],
+      "description": "Chiller Selector Stub Class"
+    },
+    {
+      "enum": [
+        704,
+        "deviceAlarmClass"
+      ],
+      "description": "Device Alarm Class"
+    },
+    {
+      "enum": [
+        705,
+        "capacityCalculationClass"
+      ],
+      "description": "Capacity Calculation Class"
+    },
+    {
+      "enum": [
+        706,
+        "loadCalculatorClass"
+      ],
+      "description": "Load Calculator Class"
+    },
+    {
+      "enum": [
+        707,
+        "blockingProtectionClass"
+      ],
+      "description": "Blocking Protection Class"
+    },
+    {
+      "enum": [
+        708,
+        "pumpSelectorClass"
+      ],
+      "description": "Pump Selector Class"
+    },
+    {
+      "enum": [
+        709,
+        "chillerSelectorClass"
+      ],
+      "description": "Chiller Selector Class"
+    },
+    {
+      "enum": [
+        710,
+        "boschD9068IntegrationClass"
+      ],
+      "description": "Bosch D9068 Integration"
+    },
+    {
+      "enum": [
+        711,
+        "boschD9068DactClass"
+      ],
+      "description": "Bosch D9068 DACT"
+    },
+    {
+      "enum": [
+        712,
+        "intrusionAccountClass"
+      ],
+      "description": "Intrusion Account"
+    },
+    {
+      "enum": [
+        713,
+        "contactIdMessageIzClass"
+      ],
+      "description": "Contact ID Message IZ"
+    },
+    {
+      "enum": [
+        714,
+        "contactIdMessageIaClass"
+      ],
+      "description": "Contact ID Message IA"
+    },
+    {
+      "enum": [
+        715,
+        "analogOverrideCheckClass"
+      ],
+      "description": "Analog Override Check"
+    },
+    {
+      "enum": [
+        716,
+        "binaryOverrideCheckClass"
+      ],
+      "description": "Binary Override Check"
+    },
+    {
+      "enum": [
+        717,
+        "xamlGraphicClass"
+      ],
+      "description": "XAML Graphic"
+    },
+    {
+      "enum": [
+        718,
+        "metasysIoServiceClass"
+      ],
+      "description": "Metasys IO Service"
+    },
+    {
+      "enum": [
+        719,
+        "covCollectorClass"
+      ],
+      "description": "COV Collector"
+    },
+    {
+      "enum": [
+        720,
+        "discoveryClass"
+      ],
+      "description": "Discovery"
+    },
+    {
+      "enum": [
+        721,
+        "leadCompensatorClass"
+      ],
+      "description": "Lead Compensator"
+    },
+    {
+      "enum": [
+        722,
+        "sicsTecClass"
+      ],
+      "description": "SICS TEC"
+    },
+    {
+      "enum": [
+        723,
+        "sicsInterlockClass"
+      ],
+      "description": "SICS Interlock"
+    },
+    {
+      "enum": [
+        724,
+        "noolctcClass"
+      ],
+      "description": "Near Optimal Open Loop Cooling Tower Control"
+    },
+    {
+      "enum": [
+        725,
+        "cecOv2PlatformDeviceClass"
+      ],
+      "description": "CEC OV2 CEC Platform Device"
+    },
+    {
+      "enum": [
+        726,
+        "cecAuditMgrClass"
+      ],
+      "description": "CEC Audit Manager"
+    },
+    {
+      "enum": [
+        727,
+        "cecFaultMgrClass"
+      ],
+      "description": "CEC Fault Manager"
+    },
+    {
+      "enum": [
+        728,
+        "cecLoginMgrClass"
+      ],
+      "description": "CEC Authentication Manager (Login)"
+    },
+    {
+      "enum": [
+        729,
+        "cecUserClass"
+      ],
+      "description": "CEC User"
+    },
+    {
+      "enum": [
+        730,
+        "cecSimpleAvClass"
+      ],
+      "description": "CEC Simple Analog Value"
+    },
+    {
+      "enum": [
+        731,
+        "cecSimpleBvClass"
+      ],
+      "description": "CEC Simple Binary Value"
+    },
+    {
+      "enum": [
+        732,
+        "cecSimpleMvClass"
+      ],
+      "description": "CEC Simple Multi-state Value"
+    },
+    {
+      "enum": [
+        733,
+        "cecTrendViewClass"
+      ],
+      "description": "CEC Trend View Object"
+    },
+    {
+      "enum": [
+        734,
+        "cecTrendSupportClass"
+      ],
+      "description": "CEC Trend Support"
+    },
+    {
+      "enum": [
+        735,
+        "cecCappClass"
+      ],
+      "description": "CEC Control Application"
+    },
+    {
+      "enum": [
+        736,
+        "cecHwCheckoutClass"
+      ],
+      "description": "CEC Hardware Checkout"
+    },
+    {
+      "enum": [
+        737,
+        "cecLtcIoClass"
+      ],
+      "description": "CEC Remote LTC IO"
+    },
+    {
+      "enum": [
+        738,
+        "cecVsdClass"
+      ],
+      "description": "CEC Remote VSD"
+    },
+    {
+      "enum": [
+        739,
+        "cecSssClass"
+      ],
+      "description": "CEC Remote SSS"
+    },
+    {
+      "enum": [
+        740,
+        "cecDcmClass"
+      ],
+      "description": "CEC Remote DCM"
+    },
+    {
+      "enum": [
+        741,
+        "cecMmbClass"
+      ],
+      "description": "CEC Remote MMB"
+    },
+    {
+      "enum": [
+        742,
+        "cecDatalogClass"
+      ],
+      "description": "CEC Datalog Diagnostic"
+    },
+    {
+      "enum": [
+        743,
+        "cecEnergyCalcClass"
+      ],
+      "description": "CEC Energy Calculation"
+    },
+    {
+      "enum": [
+        744,
+        "sicsDcvMinPosResetClass"
+      ],
+      "description": "SICS DCV Min Pos Reset"
+    },
+    {
+      "enum": [
+        745,
+        "towerSelectorClass"
+      ],
+      "description": "Tower Selector"
+    },
+    {
+      "enum": [
+        746,
+        "cecHwMgrClass"
+      ],
+      "description": "CEC Hardware Manager"
+    },
+    {
+      "enum": [
+        747,
+        "cecRemoteIoDatalinkClass"
+      ],
+      "description": "CEC Remote IO Datalink"
+    },
+    {
+      "enum": [
+        748,
+        "mmsInterfaceClass"
+      ],
+      "description": "MMS Interface"
+    },
+    {
+      "enum": [
+        749,
+        "accessCtrlMgrClass"
+      ],
+      "description": "Access Control Manager"
+    },
+    {
+      "enum": [
+        750,
+        "cecDiagnosticLoggerProducerClass"
+      ],
+      "description": "CEC Diagnostic Logger Producer"
+    },
+    {
+      "enum": [
+        751,
+        "nae451LClass"
+      ],
+      "description": "NAE451L"
+    },
+    {
+      "enum": [
+        752,
+        "adsLEClass"
+      ],
+      "description": "ADS-L-E"
+    },
+    {
+      "enum": [
+        753,
+        "adsLAClass"
+      ],
+      "description": "ADS-L-A"
+    },
+    {
+      "enum": [
+        754,
+        "aperioTrunkClass"
+      ],
+      "description": "Aperio Trunk"
+    },
+    {
+      "enum": [
+        755,
+        "aperioDeviceClass"
+      ],
+      "description": "Aperio Device"
+    },
+    {
+      "enum": [
+        756,
+        "aperioReaderTerminalClass"
+      ],
+      "description": "Aperio Reader Terminal"
+    },
+    {
+      "enum": [
+        757,
+        "lmeTestClass"
+      ],
+      "description": "LME Test Primitive"
+    },
+    {
+      "enum": [
+        758,
+        "bacnetTrendLogExtClass"
+      ],
+      "description": "BACnet Trend Log Extension"
+    },
+    {
+      "enum": [
+        759,
+        "cecEventManagerClass"
+      ],
+      "description": "CEC Event Manager Class"
+    },
+    {
+      "enum": [
+        760,
+        "trendMapperClass"
+      ],
+      "description": "Trend Mapper"
+    },
+    {
+      "enum": [
+        761,
+        "scheduleMapperClass"
+      ],
+      "description": "Schedule Mapper"
+    },
+    {
+      "enum": [
+        762,
+        "calendarMapperClass"
+      ],
+      "description": "Calendar Mapper"
+    },
+    {
+      "enum": [
+        763,
+        "notificationClassMapperClass"
+      ],
+      "description": "Notification Class Mapper"
+    },
+    {
+      "enum": [
+        764,
+        "cecSecurityObjectClass"
+      ],
+      "description": "Security Object Class"
+    },
+    {
+      "enum": [
+        765,
+        "isExtensionClass"
+      ],
+      "description": "IS Extension Class"
+    },
+    {
+      "enum": [
+        766,
+        "globalDataMapperClass"
+      ],
+      "description": "Global Data Mapper"
+    },
+    {
+      "enum": [
+        767,
+        "eventRouterClass"
+      ],
+      "description": "Event Router"
+    },
+    {
+      "enum": [
+        768,
+        "heatExchangerSelectorClass"
+      ],
+      "description": "Heat Exchanger Selector Class"
+    },
+    {
+      "enum": [
+        769,
+        "odsClass"
+      ],
+      "description": "ODS"
+    },
+    {
+      "enum": [
+        770,
+        "filterClass"
+      ],
+      "description": "Filter"
+    },
+    {
+      "enum": [
+        771,
+        "remoteIoDatalinkClass"
+      ],
+      "description": "Remote IO Datalink"
+    },
+    {
+      "enum": [
+        772,
+        "cecMvvsdClass"
+      ],
+      "description": "CEC MVVSD"
+    },
+    {
+      "enum": [
+        773,
+        "cecMvsssClass"
+      ],
+      "description": "CEC MVSSS"
+    },
+    {
+      "enum": [
+        774,
+        "secClass"
+      ],
+      "description": "SEC Class"
+    },
+    {
+      "enum": [
+        775,
+        "cecFileTransferClass"
+      ],
+      "description": "File Transfer Class"
+    },
+    {
+      "enum": [
+        776,
+        "expressionClass"
+      ],
+      "description": "Expression Class"
+    },
+    {
+      "enum": [
+        777,
+        "cecRaptyrClass"
+      ],
+      "description": "CEC Raptyr Class"
+    },
+    {
+      "enum": [
+        778,
+        "sharedCntlrDeviceClass"
+      ],
+      "description": "Shared Controller Device Class"
+    },
+    {
+      "enum": [
+        779,
+        "faultManagerClass"
+      ],
+      "description": "Fault Manager Class"
+    },
+    {
+      "enum": [
+        780,
+        "enterpriseConnectionClass"
+      ],
+      "description": "Remote Services Connection"
+    },
+    {
+      "enum": [
+        781,
+        "economizerEnableClass"
+      ],
+      "description": "Economizer Enable"
+    },
+    {
+      "enum": [
+        782,
+        "defrostClass"
+      ],
+      "description": "Defrost Class"
+    },
+    {
+      "enum": [
+        783,
+        "minSetpointDiffClass"
+      ],
+      "description": "Min Setpoint Diff Class"
+    },
+    {
+      "enum": [
+        784,
+        "secEventsClass"
+      ],
+      "description": "SEC Events"
+    },
+    {
+      "enum": [
+        785,
+        "effectiveInputClass"
+      ],
+      "description": "Effective Input Class"
+    },
+    {
+      "enum": [
+        786,
+        "fdsiClass"
+      ],
+      "description": "FDSI"
+    },
+    {
+      "enum": [
+        787,
+        "provisionManagerClass"
+      ],
+      "description": "Provision Manager"
+    },
+    {
+      "enum": [
+        788,
+        "eiomClass"
+      ],
+      "description": "Expansion IO Monitor"
+    },
+    {
+      "enum": [
+        789,
+        "secTestClass"
+      ],
+      "description": "SEC Test Class"
+    },
+    {
+      "enum": [
+        790,
+        "netsensorPlugAndPlayClass"
+      ],
+      "description": "Net Sensor Plug And Play"
+    },
+    {
+      "enum": [
+        791,
+        "netactDevClass"
+      ],
+      "description": "Net Actuator Device"
+    },
+    {
+      "enum": [
+        792,
+        "equipmentClass"
+      ],
+      "description": "Equipment Model"
+    },
+    {
+      "enum": [
+        793,
+        "dataModelTestClass"
+      ],
+      "description": "Data Model Test"
+    },
+    {
+      "enum": [
+        794,
+        "mtgClass"
+      ],
+      "description": "MAP Gateway"
+    },
+    {
+      "enum": [
+        795,
+        "eventGeneratorClass"
+      ],
+      "description": "Event Generator"
+    },
+    {
+      "enum": [
+        796,
+        "fieldDeviceDiscoverClass"
+      ],
+      "description": "Field Device Discover Class"
+    },
+    {
+      "enum": [
+        797,
+        "occupancyStartClass"
+      ],
+      "description": "Occupancy Start"
+    },
+    {
+      "enum": [
+        798,
+        "globalSequencerClass"
+      ],
+      "description": "Global Sequencer"
+    },
+    {
+      "enum": [
+        799,
+        "exportTrendClass"
+      ],
+      "description": "Export Trend Class"
+    },
+    {
+      "enum": [
+        800,
+        "buadrateSupervisorClass"
+      ],
+      "description": "Baudrate Supervisor"
+    },
+    {
+      "enum": [
+        801,
+        "duplicateMacAddrHandlerClass"
+      ],
+      "description": "Duplicate MAC Address Handler"
+    },
+    {
+      "enum": [
+        802,
+        "seRtuStatusDeterminationClass"
+      ],
+      "description": "SE RTU Status Determination Class"
+    },
+    {
+      "enum": [
+        803,
+        "sicsCvRtuSeClass"
+      ],
+      "description": "SICS Smart Equip CV RTU"
+    },
+    {
+      "enum": [
+        804,
+        "sicsCoordinatorSeClass"
+      ],
+      "description": "SICS Smart Equip Coordinator"
+    },
+    {
+      "enum": [
+        805,
+        "legacyEquipmentClass"
+      ],
+      "description": "Equipment"
+    },
+    {
+      "enum": [
+        806,
+        "spaceClass"
+      ],
+      "description": "Space"
+    },
+    {
+      "enum": [
+        807,
+        "equipmentDefinitionClass"
+      ],
+      "description": "Equipment Definition"
+    },
+    {
+      "enum": [
+        808,
+        "pollMapperClass"
+      ],
+      "description": "Poll Mapper"
+    },
+    {
+      "enum": [
+        809,
+        "eiodiDloClass"
+      ],
+      "description": "Extended IO Datalink Class"
+    },
+    {
+      "enum": [
+        810,
+        "mappingDbClass"
+      ],
+      "description": "Mapping DB Class"
+    },
+    {
+      "enum": [
+        811,
+        "timezoneInfoDbClass"
+      ],
+      "description": "Time Zone Info DB Class"
+    },
+    {
+      "enum": [
+        812,
+        "deviceIdClass"
+      ],
+      "description": "Device Identification Class"
+    },
+    {
+      "enum": [
+        813,
+        "secProvisionManagerClass"
+      ],
+      "description": "SEC Provision Manager"
+    },
+    {
+      "enum": [
+        814,
+        "tecProvisionManagerClass"
+      ],
+      "description": "TEC Provision Manager"
+    },
+    {
+      "enum": [
+        815,
+        "osInfoClass"
+      ],
+      "description": "Operating System Info Class"
+    },
+    {
+      "enum": [
+        816,
+        "dictionaryClass"
+      ],
+      "description": "Dictionary Class"
+    },
+    {
+      "enum": [
+        817,
+        "secSharedDevClass"
+      ],
+      "description": "Smart Equipment Shared Device Class"
+    },
+    {
+      "enum": [
+        818,
+        "uiMgrClass"
+      ],
+      "description": "UI Manager Class"
+    },
+    {
+      "enum": [
+        819,
+        "bacnetBitstringValueClass"
+      ],
+      "description": "BACnet Bitstring Value"
+    },
+    {
+      "enum": [
+        820,
+        "bacnetCharacterstringValueClass"
+      ],
+      "description": "BACnet Character String Value"
+    },
+    {
+      "enum": [
+        821,
+        "bacnetDatePatternValueClass"
+      ],
+      "description": "BACnet Date Pattern Value"
+    },
+    {
+      "enum": [
+        822,
+        "bacnetDateValueClass"
+      ],
+      "description": "BACnet Date Value"
+    },
+    {
+      "enum": [
+        823,
+        "bacnetDatetimePatternValueClass"
+      ],
+      "description": "BACnet Datetime Pattern Value"
+    },
+    {
+      "enum": [
+        824,
+        "bacnetDatetimeValueClass"
+      ],
+      "description": "BACnet Datetime Value"
+    },
+    {
+      "enum": [
+        825,
+        "bacnetIntegerValueClass"
+      ],
+      "description": "BACnet Integer Value"
+    },
+    {
+      "enum": [
+        826,
+        "bacnetLargeAnalogValueClass"
+      ],
+      "description": "BACnet Large Analog Value"
+    },
+    {
+      "enum": [
+        827,
+        "bacnetOctetstringValueClass"
+      ],
+      "description": "BACnet Octetstring Value"
+    },
+    {
+      "enum": [
+        828,
+        "bacnetPositiveIntegerValueClass"
+      ],
+      "description": "BACnet Positive Integer Value"
+    },
+    {
+      "enum": [
+        829,
+        "bacnetTimePatternValueClass"
+      ],
+      "description": "BACnet Time Pattern Value"
+    },
+    {
+      "enum": [
+        830,
+        "bacnetTimeValueClass"
+      ],
+      "description": "BACnet Time Value"
+    },
+    {
+      "enum": [
+        831,
+        "resetMonitorClass"
+      ],
+      "description": "Reset Monitor Class"
+    },
+    {
+      "enum": [
+        832,
+        "equipPortMappingDbClass"
+      ],
+      "description": "Equipment Port Mapping Info Class"
+    },
+    {
+      "enum": [
+        833,
+        "basPortMappingDbClass"
+      ],
+      "description": "BAS Port Mapping Info Class"
+    },
+    {
+      "enum": [
+        834,
+        "intTempRiseCompClass"
+      ],
+      "description": "Internal Temperature Rise Compensation Class"
+    },
+    {
+      "enum": [
+        835,
+        "autoConfigCommsMngrClass"
+      ],
+      "description": "Auto Configure Comms Manager Class"
+    },
+    {
+      "enum": [
+        836,
+        "n2SlaveAutoConfigClass"
+      ],
+      "description": "N2 Slave Auto Configure Class"
+    },
+    {
+      "enum": [
+        837,
+        "modbusSlaveAutoConfigClass"
+      ],
+      "description": "Modbus Slave Auto Configure Class"
+    },
+    {
+      "enum": [
+        838,
+        "mstpMasterAutoConfigClass"
+      ],
+      "description": "MSTP Master Auto Configure Class"
+    },
+    {
+      "enum": [
+        839,
+        "yorktalkMasterDatalinkClass"
+      ],
+      "description": "YorkTalk Master Datalink Class"
+    },
+    {
+      "enum": [
+        840,
+        "availabilityDeterminationClass"
+      ],
+      "description": "Availability Determination Class"
+    },
+    {
+      "enum": [
+        841,
+        "simpleSvClass"
+      ],
+      "description": "Simple String Value Class"
+    },
+    {
+      "enum": [
+        842,
+        "modbusMasterDatalinkClass"
+      ],
+      "description": "Modbus Master Datalink Class"
+    },
+    {
+      "enum": [
+        843,
+        "taskPersistClass"
+      ],
+      "description": "Task Persist"
+    },
+    {
+      "enum": [
+        844,
+        "facilityGraphicClass"
+      ],
+      "description": "Facility Graphic"
+    },
+    {
+      "enum": [
+        845,
+        "networkOverrideClass"
+      ],
+      "description": "Network Override"
+    },
+    {
+      "enum": [
+        846,
+        "matlabAppClass"
+      ],
+      "description": "Matlab Application Class"
+    },
+    {
+      "enum": [
+        847,
+        "internalResourceFileClass"
+      ],
+      "description": "Internal Resource File"
+    },
+    {
+      "enum": [
+        848,
+        "nsdDetectClass"
+      ],
+      "description": "Netsensor Device Detect"
+    },
+    {
+      "enum": [
+        849,
+        "verasysZoneCoordinatorClass"
+      ],
+      "description": "Verasys Zone Coordinator"
+    },
+    {
+      "enum": [
+        850,
+        "verasysZoneControllerClass"
+      ],
+      "description": "Verasys Zone Controller"
+    },
+    {
+      "enum": [
+        851,
+        "verasysBypassDamperClass"
+      ],
+      "description": "Verasys Bypass Damper"
+    },
+    {
+      "enum": [
+        852,
+        "verasysRtuClass"
+      ],
+      "description": "Verasys RTU"
+    },
+    {
+      "enum": [
+        853,
+        "detectorClass"
+      ],
+      "description": "Detector"
+    },
+    {
+      "enum": [
+        854,
+        "sicsOccDetClass"
+      ],
+      "description": "Occupancy Determination"
+    },
+    {
+      "enum": [
+        855,
+        "sicsShutdownEnableClass"
+      ],
+      "description": "Shutdown Enable"
+    },
+    {
+      "enum": [
+        856,
+        "sicsTaggerClass"
+      ],
+      "description": "Tagger"
+    },
+    {
+      "enum": [
+        857,
+        "sicsOutlierClass"
+      ],
+      "description": "Outlier"
+    },
+    {
+      "enum": [
+        858,
+        "sicsSystemModeDetClass"
+      ],
+      "description": "System Mode Determination"
+    },
+    {
+      "enum": [
+        859,
+        "sicsModeSelect1Class"
+      ],
+      "description": "Mode Select 1"
+    },
+    {
+      "enum": [
+        860,
+        "sicsModeSelectClass"
+      ],
+      "description": "Mode Select"
+    },
+    {
+      "enum": [
+        861,
+        "loadShedManagerClass"
+      ],
+      "description": "Load Shed Manager"
+    },
+    {
+      "enum": [
+        862,
+        "ipFecClass"
+      ],
+      "description": "IP FEC"
+    },
+    {
+      "enum": [
+        863,
+        "ipFieldDeviceClass"
+      ],
+      "description": "JCI Family IP BACnet Device"
+    },
+    {
+      "enum": [
+        864,
+        "trendLogNoextensionClass"
+      ],
+      "description": "Standalone Trend Log"
+    },
+    {
+      "enum": [
+        865,
+        "simpleIntlClass"
+      ],
+      "description": "Simple Interlock"
+    },
+    {
+      "enum": [
+        866,
+        "smartEquipmentPlugAndPlayClass"
+      ],
+      "description": "Smart Equipment Plug And Play"
+    },
+    {
+      "enum": [
+        867,
+        "bacnetFieldDeviceClass"
+      ],
+      "description": "BACnet Device"
+    },
+    {
+      "enum": [
+        868,
+        "datashareManagerClass"
+      ],
+      "description": "Datashare Manager Class"
+    },
+    {
+      "enum": [
+        869,
+        "verasysGlobalDatashareClass"
+      ],
+      "description": "Verasys Global Datashare Class"
+    },
+    {
+      "enum": [
+        870,
+        "fieldEquipClass"
+      ],
+      "description": "Field Equipment Class"
+    },
+    {
+      "enum": [
+        871,
+        "nae45SmarcClass"
+      ],
+      "description": "NAE45-NIE49-3"
+    },
+    {
+      "enum": [
+        872,
+        "nae35SmarcClass"
+      ],
+      "description": "NAE35-NIE39-3"
+    },
+    {
+      "enum": [
+        873,
+        "nae451LSmarcClass"
+      ],
+      "description": "NAE451L-3"
+    },
+    {
+      "enum": [
+        874,
+        "fecSharedDevClass"
+      ],
+      "description": "Field Controller Shared Device Class"
+    },
+    {
+      "enum": [
+        875,
+        "routerManagerClass"
+      ],
+      "description": "BACnet IP Router Manager Class"
+    },
+    {
+      "enum": [
+        876,
+        "reportsClass"
+      ],
+      "description": "Reports"
+    },
+    {
+      "enum": [
+        877,
+        "nae55SmarcClass"
+      ],
+      "description": "NAE55-NIE59-4"
+    },
+    {
+      "enum": [
+        878,
+        "verasysScheduleClass"
+      ],
+      "description": "Verasys Schedule Class"
+    },
+    {
+      "enum": [
+        879,
+        "websocketNetworkPortClass"
+      ],
+      "description": "Websocket Network Port Class"
+    },
+    {
+      "enum": [
+        880,
+        "dnsSdNetworkPortClass"
+      ],
+      "description": "DNS-SD Network Port Class"
+    },
+    {
+      "enum": [
+        881,
+        "mstpNetworkPortClass"
+      ],
+      "description": "MSTP Network Port Class"
+    },
+    {
+      "enum": [
+        882,
+        "ipv4NetworkPortClass"
+      ],
+      "description": "IPv4 Network Port Class"
+    },
+    {
+      "enum": [
+        883,
+        "mapDownloadDirectorClass"
+      ],
+      "description": "Map BG Download Support Class"
+    },
+    {
+      "enum": [
+        884,
+        "twinningClass"
+      ],
+      "description": "Twinning"
+    },
+    {
+      "enum": [
+        885,
+        "signalSelectMapperClass"
+      ],
+      "description": "Signal Select Mapper"
+    },
+    {
+      "enum": [
+        1021,
+        "bacDeviceGroupClass"
+      ],
+      "description": "Device Group"
+    },
+    {
+      "enum": [
+        1022,
+        "bacDirectoryClass"
+      ],
+      "description": "Directory"
+    },
+    {
+      "enum": [
+        1023,
+        "noClass"
+      ],
+      "description": "No Class"
+    },
+    {
+      "enum": [
+        2000,
+        "archiveObjectClass"
+      ],
+      "description": "Archive Object"
+    },
+    {
+      "enum": [
+        2001,
+        "userVewFolderClass"
+      ],
+      "description": "User View Folder"
+    },
+    {
+      "enum": [
+        2002,
+        "fieldPointClass"
+      ],
+      "description": "Field Point"
+    },
+    {
+      "enum": [
+        2003,
+        "onBoxOnlyClass"
+      ],
+      "description": "On-box Only"
+    },
+    {
+      "enum": [
+        2004,
+        "initialDeviceConfiguration"
+      ],
+      "description": "Initial Device Configuration"
+    },
+    {
+      "enum": [
+        2005,
+        "deviceFolderTemplate"
+      ],
+      "description": "Device Folder Template"
+    },
+    {
+      "enum": [
+        2006,
+        "controllerFolderTemplate"
+      ],
+      "description": "Controller Folder Template"
+    },
+    {
+      "enum": [
+        2007,
+        "deviceTemplate"
+      ],
+      "description": "Device Template"
+    },
+    {
+      "enum": [
+        2008,
+        "controllerTemplate"
+      ],
+      "description": "Controller Template"
+    },
+    {
+      "enum": [
+        2009,
+        "dummyTemplateDevice"
+      ],
+      "description": "Dummy Template device"
+    },
+    {
+      "enum": [
+        2010,
+        "sctSdClass"
+      ],
+      "description": "SCT Summary Definition"
+    },
+    {
+      "enum": [
+        2011,
+        "sctSdFolderClass"
+      ],
+      "description": "SCT Summary Definition Folder"
+    },
+    {
+      "enum": [
+        2013,
+        "parameterSheetFolderClass"
+      ],
+      "description": "SCT Parameter Sheet Folder"
+    }
+  ]
+}

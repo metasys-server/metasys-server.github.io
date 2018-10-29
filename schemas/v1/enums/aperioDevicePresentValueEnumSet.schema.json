@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/aperioDevicePresentValueEnumSet.schema.json",
+  "title": "aperioDevicePresentValueEnumSet",
+  "description": "Aperio Device Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "aperioDeviceNotInitialized"
+      ],
+      "description": "Not initialized"
+    },
+    {
+      "enum": [
+        1,
+        "aperioDeviceOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "aperioDeviceOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        3,
+        "aperioDeviceFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

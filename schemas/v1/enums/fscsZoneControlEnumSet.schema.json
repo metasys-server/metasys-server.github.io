@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fscsZoneControlEnumSet.schema.json",
+  "title": "fscsZoneControlEnumSet",
+  "description": "FSCS Zone Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Pressurize"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Depressurize"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Purge"
+    }
+  ]
+}

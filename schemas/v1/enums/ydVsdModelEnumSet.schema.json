@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydVsdModelEnumSet.schema.json",
+  "title": "ydVsdModelEnumSet",
+  "description": "YD VSD Model",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ydVsdModel0"
+      ],
+      "description": "Invalid"
+    },
+    {
+      "enum": [
+        1,
+        "ydVsdModel1"
+      ],
+      "description": "Mod D"
+    },
+    {
+      "enum": [
+        2,
+        "ydVsdModel2"
+      ],
+      "description": "Vyper 460"
+    },
+    {
+      "enum": [
+        3,
+        "ydVsdModel3"
+      ],
+      "description": "Vyper 575"
+    },
+    {
+      "enum": [
+        4,
+        "ydVsdModel4"
+      ],
+      "description": "Raptyr"
+    },
+    {
+      "enum": [
+        5,
+        "ydVsdModel5"
+      ],
+      "description": "Mod D 400"
+    },
+    {
+      "enum": [
+        6,
+        "ydVsdModel6"
+      ],
+      "description": "Vyper 400"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uvDiscreteOutEnumSet.schema.json",
+  "title": "uvDiscreteOutEnumSet",
+  "description": "UV Discrete Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "uvDoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "uvDoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "uvDoLmtMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "uvDoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "uvDoInstantShutdown"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        5,
+        "uvDoCtrl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        6,
+        "uvDoCtrlLmt"
+      ],
+      "description": "Control Limit"
+    },
+    {
+      "enum": [
+        7,
+        "uvDoFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

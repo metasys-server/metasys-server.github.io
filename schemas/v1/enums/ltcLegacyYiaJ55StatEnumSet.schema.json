@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJ55StatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJ55StatEnumSet",
+  "description": "York LTC Legacy YIA J55 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJ55Stat0"
+      ],
+      "description": "Diagnostics Enabled"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJ55Stat1"
+      ],
+      "description": "Diagnostics Disabled"
+    }
+  ]
+}

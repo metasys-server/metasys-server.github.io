@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ccsVavCascadedFlowCtrlEnumSet.schema.json",
+  "title": "ccsVavCascadedFlowCtrlEnumSet",
+  "description": "CCS VAV Cascaded Flow Controller",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ccsVavCascadedFlowCtrlMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        1,
+        "ccsVavCascadedFlowCtrlMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ccsVavCascadedFlowCtrlHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "ccsVavCascadedFlowCtrlControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        4,
+        "ccsVavCascadedFlowCtrlHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        5,
+        "ccsVavCascadedFlowCtrlWarmup"
+      ],
+      "description": "Warmup"
+    },
+    {
+      "enum": [
+        6,
+        "ccsVavCascadedFlowCtrlFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        7,
+        "ccsVavCascadedFlowCtrlHtgFlowReset"
+      ],
+      "description": "Htg Flow Reset"
+    }
+  ]
+}

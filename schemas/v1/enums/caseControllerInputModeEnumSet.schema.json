@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/caseControllerInputModeEnumSet.schema.json",
+  "title": "caseControllerInputModeEnumSet",
+  "description": "Case Controller Input Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ccimFanToLowSpeed"
+      ],
+      "description": "Fan to Low Speed"
+    },
+    {
+      "enum": [
+        1,
+        "ccimShutDownCompressor"
+      ],
+      "description": "Shut Down Compressor"
+    },
+    {
+      "enum": [
+        2,
+        "ccimRefrigerationLeakMonitor"
+      ],
+      "description": "Refrigeration Leak Monitor"
+    },
+    {
+      "enum": [
+        3,
+        "ccimDoorAlarm"
+      ],
+      "description": "Door Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "ccimMonitorOnly"
+      ],
+      "description": "Monitor Only"
+    }
+  ]
+}

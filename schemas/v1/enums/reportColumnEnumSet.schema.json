@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reportColumnEnumSet.schema.json",
+  "title": "reportColumnEnumSet",
+  "description": "Report Column",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Item"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Description"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Value"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Type"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Parent Item"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Override Expiration Time"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Out of Service Expiration Time"
+    }
+  ]
+}

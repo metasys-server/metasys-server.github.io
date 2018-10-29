@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vvtBypassDamperControlStateEnumSet.schema.json",
+  "title": "vvtBypassDamperControlStateEnumSet",
+  "description": "VVT Bypass Damper Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vvtBypassDamperControlStateMin"
+      ],
+      "description": "Min Pressure"
+    },
+    {
+      "enum": [
+        1,
+        "vvtBypassDamperControlStateMax"
+      ],
+      "description": "Max Pressure"
+    },
+    {
+      "enum": [
+        2,
+        "vvtBypassDamperControlStateHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "vvtBypassDamperControlStatePos"
+      ],
+      "description": "Position"
+    },
+    {
+      "enum": [
+        4,
+        "vvtBypassDamperControlStateCtrl"
+      ],
+      "description": "SP Control"
+    }
+  ]
+}

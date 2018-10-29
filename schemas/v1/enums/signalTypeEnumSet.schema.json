@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/signalTypeEnumSet.schema.json",
+  "title": "signalTypeEnumSet",
+  "description": "Signal Types",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "signalTypeContact"
+      ],
+      "description": "Contact"
+    },
+    {
+      "enum": [
+        2,
+        "signalTypeCurrent"
+      ],
+      "description": "Current"
+    },
+    {
+      "enum": [
+        3,
+        "signalTypeEthernet"
+      ],
+      "description": "Ethernet"
+    },
+    {
+      "enum": [
+        4,
+        "signalTypeLon"
+      ],
+      "description": "LON"
+    },
+    {
+      "enum": [
+        5,
+        "signalTypeModem"
+      ],
+      "description": "MODEM"
+    },
+    {
+      "enum": [
+        6,
+        "signalTypeN2"
+      ],
+      "description": "N2"
+    },
+    {
+      "enum": [
+        7,
+        "signalTypeOther"
+      ],
+      "description": "Other"
+    },
+    {
+      "enum": [
+        8,
+        "signalTypePneumatic"
+      ],
+      "description": "Pneumatic"
+    },
+    {
+      "enum": [
+        9,
+        "signalTypePressure"
+      ],
+      "description": "Pressure"
+    },
+    {
+      "enum": [
+        10,
+        "signalTypePrinter"
+      ],
+      "description": "Printer"
+    },
+    {
+      "enum": [
+        11,
+        "signalTypeResistive"
+      ],
+      "description": "Resistive"
+    },
+    {
+      "enum": [
+        12,
+        "signalTypeSerial"
+      ],
+      "description": "Serial"
+    },
+    {
+      "enum": [
+        13,
+        "signalTypeTriac"
+      ],
+      "description": "Triac"
+    },
+    {
+      "enum": [
+        14,
+        "signalTypeUsb"
+      ],
+      "description": "USB"
+    },
+    {
+      "enum": [
+        15,
+        "signalTypeVoltage"
+      ],
+      "description": "Voltage"
+    },
+    {
+      "enum": [
+        16,
+        "signalTypeXp"
+      ],
+      "description": "XP"
+    },
+    {
+      "enum": [
+        17,
+        "signalTypeXt"
+      ],
+      "description": "XT"
+    },
+    {
+      "enum": [
+        18,
+        "signalTypeZoneBus"
+      ],
+      "description": "Zone Bus"
+    },
+    {
+      "enum": [
+        19,
+        "signalTypeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        20,
+        "signalTypeMstp"
+      ],
+      "description": "MSTP"
+    },
+    {
+      "enum": [
+        21,
+        "signalTypeIntegrated"
+      ],
+      "description": "Integrated"
+    },
+    {
+      "enum": [
+        22,
+        "signalTypeRelay"
+      ],
+      "description": "Relay"
+    },
+    {
+      "enum": [
+        23,
+        "signalTypePulse"
+      ],
+      "description": "Pulse"
+    },
+    {
+      "enum": [
+        24,
+        "signalTypeContactMaintained"
+      ],
+      "description": "Contact Maintained"
+    },
+    {
+      "enum": [
+        25,
+        "signalTypeContactPulsed"
+      ],
+      "description": "Contact Pulsed"
+    },
+    {
+      "enum": [
+        26,
+        "signalTypeNa"
+      ],
+      "description": "N/A"
+    }
+  ]
+}

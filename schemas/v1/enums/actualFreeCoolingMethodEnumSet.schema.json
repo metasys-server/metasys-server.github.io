@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/actualFreeCoolingMethodEnumSet.schema.json",
+  "title": "actualFreeCoolingMethodEnumSet",
+  "description": "Actual Economizer Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "actualDryBulbTemperature"
+      ],
+      "description": "Dry Bulb Temperature"
+    },
+    {
+      "enum": [
+        1,
+        "actualSingleEnthalpy"
+      ],
+      "description": "Single Enthalpy"
+    },
+    {
+      "enum": [
+        2,
+        "actualDualEnthalpy"
+      ],
+      "description": "Dual Enthalpy"
+    },
+    {
+      "enum": [
+        3,
+        "actualUnreliable"
+      ],
+      "description": "Unreliable"
+    }
+  ]
+}

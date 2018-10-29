@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sensorLocationEnumSet.schema.json",
+  "title": "sensorLocationEnumSet",
+  "description": "Sensor Location",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Return"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Space"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/typeOfScheduleEnumSet.schema.json",
+  "title": "typeOfScheduleEnumSet",
+  "description": "Type of Schedule",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "typeSchedBinary"
+      ],
+      "description": "Binary"
+    },
+    {
+      "enum": [
+        1,
+        "typeSchedAnalog"
+      ],
+      "description": "Analog"
+    },
+    {
+      "enum": [
+        2,
+        "typeSchedMultistate"
+      ],
+      "description": "Multistate"
+    },
+    {
+      "enum": [
+        3,
+        "typeSchedFromValues"
+      ],
+      "description": "Derived from Values"
+    },
+    {
+      "enum": [
+        4,
+        "typeSchedFromKeyItem"
+      ],
+      "description": "Derived from Key Item"
+    }
+  ]
+}

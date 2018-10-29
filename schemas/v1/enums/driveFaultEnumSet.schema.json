@@ -1,0 +1,582 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/driveFaultEnumSet.schema.json",
+  "title": "driveFaultEnumSet",
+  "description": "Drive Fault",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Fault"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Over Current"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Over Voltage"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Ground Fault"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Bypass Overload"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Charging Switch"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Emergency Stop"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Saturation Trip"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "System Fault 8"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Under Voltage"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Input Line Super"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Output Phase Super"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "System Fault 12"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Drive Under Temp"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Drive Over Temp"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Motor Stalled"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "Motor Over Temp"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "Motor Under Load"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "External Fault"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Comm Bus Fault"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "Drive Fault"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "Startup Prevented"
+    },
+    {
+      "enum": [
+        22,
+        "22"
+      ],
+      "description": "Thermistor Fault"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "Fan Cooling"
+    },
+    {
+      "enum": [
+        24,
+        "24"
+      ],
+      "description": "Compatibility Fault"
+    },
+    {
+      "enum": [
+        25,
+        "25"
+      ],
+      "description": "Device Change"
+    },
+    {
+      "enum": [
+        26,
+        "26"
+      ],
+      "description": "Device Added"
+    },
+    {
+      "enum": [
+        27,
+        "27"
+      ],
+      "description": "Device Removed"
+    },
+    {
+      "enum": [
+        28,
+        "28"
+      ],
+      "description": "Device Unknown"
+    },
+    {
+      "enum": [
+        29,
+        "29"
+      ],
+      "description": "Firing Module Over Temperature"
+    },
+    {
+      "enum": [
+        30,
+        "30"
+      ],
+      "description": "Encoder Fault"
+    },
+    {
+      "enum": [
+        31,
+        "31"
+      ],
+      "description": "Analog Input 4mA Fault"
+    },
+    {
+      "enum": [
+        32,
+        "32"
+      ],
+      "description": "Keypad Communication Fault"
+    },
+    {
+      "enum": [
+        33,
+        "33"
+      ],
+      "description": "Option Card Fault"
+    },
+    {
+      "enum": [
+        34,
+        "34"
+      ],
+      "description": "Real Time Clock Fault"
+    },
+    {
+      "enum": [
+        35,
+        "35"
+      ],
+      "description": "PT100 Fault"
+    },
+    {
+      "enum": [
+        36,
+        "36"
+      ],
+      "description": "Motor ID Fault"
+    },
+    {
+      "enum": [
+        37,
+        "37"
+      ],
+      "description": "Current Measure Fault"
+    },
+    {
+      "enum": [
+        38,
+        "38"
+      ],
+      "description": "Possible Power Wiring Error Detected"
+    },
+    {
+      "enum": [
+        39,
+        "39"
+      ],
+      "description": "Control Board Over Temp"
+    },
+    {
+      "enum": [
+        40,
+        "40"
+      ],
+      "description": "Internal Controller Supply"
+    },
+    {
+      "enum": [
+        41,
+        "41"
+      ],
+      "description": "Too Many Speed Search Restarts"
+    },
+    {
+      "enum": [
+        42,
+        "42"
+      ],
+      "description": "Current Unbalance"
+    },
+    {
+      "enum": [
+        43,
+        "43"
+      ],
+      "description": "Replace Battery"
+    },
+    {
+      "enum": [
+        44,
+        "44"
+      ],
+      "description": "Replace Fan"
+    },
+    {
+      "enum": [
+        45,
+        "45"
+      ],
+      "description": "Safety Torque Off"
+    },
+    {
+      "enum": [
+        46,
+        "46"
+      ],
+      "description": "Current Limit Control"
+    },
+    {
+      "enum": [
+        47,
+        "47"
+      ],
+      "description": "Over Voltage Control"
+    },
+    {
+      "enum": [
+        48,
+        "48"
+      ],
+      "description": "Thermistor SPI Fault"
+    },
+    {
+      "enum": [
+        49,
+        "49"
+      ],
+      "description": "DSP Parameter Fault"
+    },
+    {
+      "enum": [
+        50,
+        "50"
+      ],
+      "description": "Interconnection Fault"
+    },
+    {
+      "enum": [
+        51,
+        "51"
+      ],
+      "description": "EEPROM Initial Fault"
+    },
+    {
+      "enum": [
+        52,
+        "52"
+      ],
+      "description": "Internal FRAM Fault"
+    },
+    {
+      "enum": [
+        53,
+        "53"
+      ],
+      "description": "Framing Data Error"
+    },
+    {
+      "enum": [
+        54,
+        "54"
+      ],
+      "description": "Internal EEPROM Fault"
+    },
+    {
+      "enum": [
+        55,
+        "55"
+      ],
+      "description": "EEPROM Data Error"
+    },
+    {
+      "enum": [
+        56,
+        "56"
+      ],
+      "description": "Internal Serial Flash Fault"
+    },
+    {
+      "enum": [
+        57,
+        "57"
+      ],
+      "description": "Field Bus RTU Fault"
+    },
+    {
+      "enum": [
+        58,
+        "58"
+      ],
+      "description": "Field Bus TCP Fault"
+    },
+    {
+      "enum": [
+        59,
+        "59"
+      ],
+      "description": "Field Bus MSTP Fault"
+    },
+    {
+      "enum": [
+        60,
+        "60"
+      ],
+      "description": "Field Bus Ethernet IP Fault"
+    },
+    {
+      "enum": [
+        61,
+        "61"
+      ],
+      "description": "Field Bus Slot A Fault"
+    },
+    {
+      "enum": [
+        62,
+        "62"
+      ],
+      "description": "Field Bus Slot B Fault"
+    },
+    {
+      "enum": [
+        63,
+        "63"
+      ],
+      "description": "Under Voltage Stop"
+    },
+    {
+      "enum": [
+        64,
+        "64"
+      ],
+      "description": "Cold Weather Drive Under Temp"
+    },
+    {
+      "enum": [
+        65,
+        "65"
+      ],
+      "description": "Device Net External Powerfail Fault"
+    },
+    {
+      "enum": [
+        66,
+        "66"
+      ],
+      "description": "External Fault 2"
+    },
+    {
+      "enum": [
+        67,
+        "67"
+      ],
+      "description": "External Fault 3"
+    },
+    {
+      "enum": [
+        68,
+        "68"
+      ],
+      "description": "Field Bus Smart Wire Assist Fault"
+    },
+    {
+      "enum": [
+        69,
+        "69"
+      ],
+      "description": "SMDT Card Fault"
+    },
+    {
+      "enum": [
+        70,
+        "70"
+      ],
+      "description": "External Fault From Smart Wire Assist"
+    },
+    {
+      "enum": [
+        71,
+        "71"
+      ],
+      "description": "Drive Over Temp Warning"
+    },
+    {
+      "enum": [
+        72,
+        "72"
+      ],
+      "description": "DSP Firmware Compatibility Fault"
+    },
+    {
+      "enum": [
+        73,
+        "73"
+      ],
+      "description": "Keypad Firmware Compatibility Fault"
+    },
+    {
+      "enum": [
+        74,
+        "74"
+      ],
+      "description": "IO1 Firmware Compatibility Fault"
+    },
+    {
+      "enum": [
+        75,
+        "75"
+      ],
+      "description": "IO2 Firmware Compatibility Fault"
+    },
+    {
+      "enum": [
+        76,
+        "76"
+      ],
+      "description": "IO3 Firmware Compatibility Fault"
+    },
+    {
+      "enum": [
+        77,
+        "77"
+      ],
+      "description": "IO4 Firmware Compatibility Fault"
+    },
+    {
+      "enum": [
+        78,
+        "78"
+      ],
+      "description": "IO5 Firmware Compatibility Fault"
+    },
+    {
+      "enum": [
+        79,
+        "79"
+      ],
+      "description": "Profibus Firmware Compatibility Fault"
+    },
+    {
+      "enum": [
+        80,
+        "80"
+      ],
+      "description": "Device Network Firmware Incompatible"
+    },
+    {
+      "enum": [
+        81,
+        "81"
+      ],
+      "description": "CAN Open Firmware Compatibility Fault"
+    }
+  ]
+}

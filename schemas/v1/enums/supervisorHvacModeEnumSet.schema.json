@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/supervisorHvacModeEnumSet.schema.json",
+  "title": "supervisorHvacModeEnumSet",
+  "description": "Supervisor HVAC Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "supervisorHvacModeAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "supervisorHvacModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        2,
+        "supervisorHvacModeHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        3,
+        "supervisorHvacModeCool"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        4,
+        "supervisorHvacModeFanOnly"
+      ],
+      "description": "Fan Only"
+    }
+  ]
+}

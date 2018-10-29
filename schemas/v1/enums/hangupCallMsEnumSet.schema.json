@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hangupCallMsEnumSet.schema.json",
+  "title": "hangupCallMsEnumSet",
+  "description": "Hang Up/Call",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hangupCallHangup"
+      ],
+      "description": "Hang Up"
+    },
+    {
+      "enum": [
+        1,
+        "hangupCallCall"
+      ],
+      "description": "Call"
+    }
+  ]
+}

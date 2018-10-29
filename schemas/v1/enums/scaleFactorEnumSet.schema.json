@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scaleFactorEnumSet.schema.json",
+  "title": "scaleFactorEnumSet",
+  "description": "Scale Factor",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "scaleNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "scaleMediumSlow"
+      ],
+      "description": "Medium Slow"
+    },
+    {
+      "enum": [
+        2,
+        "scaleSlow"
+      ],
+      "description": "Slow"
+    },
+    {
+      "enum": [
+        3,
+        "scaleMediumFast"
+      ],
+      "description": "Medium Fast"
+    },
+    {
+      "enum": [
+        4,
+        "scaleFast"
+      ],
+      "description": "Fast"
+    }
+  ]
+}

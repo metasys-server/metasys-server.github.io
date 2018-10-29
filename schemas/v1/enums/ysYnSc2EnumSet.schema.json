@@ -1,0 +1,540 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ysYnSc2EnumSet.schema.json",
+  "title": "ysYnSc2EnumSet",
+  "description": "YS/YN Safety Code SC.2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ysYnSc20"
+      ],
+      "description": "NO SAFETY FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ysYnSc21"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "ysYnSc22"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        3,
+        "ysYnSc23"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        4,
+        "ysYnSc24"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        5,
+        "ysYnSc25"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "ysYnSc26"
+      ],
+      "description": "CONDENSER - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        7,
+        "ysYnSc27"
+      ],
+      "description": "AUXILIARY SAFETY - CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        8,
+        "ysYnSc28"
+      ],
+      "description": "DISCHARGE - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        9,
+        "ysYnSc29"
+      ],
+      "description": "DISCHARGE - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "ysYnSc210"
+      ],
+      "description": "OIL - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        11,
+        "ysYnSc211"
+      ],
+      "description": "OIL - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        12,
+        "ysYnSc212"
+      ],
+      "description": "OIL - HIGH DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        13,
+        "ysYnSc213"
+      ],
+      "description": "OIL - PUMP PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        14,
+        "ysYnSc214"
+      ],
+      "description": "OIL - SUMP PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        15,
+        "ysYnSc215"
+      ],
+      "description": "OIL - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        16,
+        "ysYnSc216"
+      ],
+      "description": "OIL - CLOGGED FILTER"
+    },
+    {
+      "enum": [
+        17,
+        "ysYnSc217"
+      ],
+      "description": "OIL - LOW DIFFERENTIAL SEAL PRESSURE"
+    },
+    {
+      "enum": [
+        18,
+        "ysYnSc218"
+      ],
+      "description": "OIL - DIFFERENTIAL PRESSURE CALIBRATION"
+    },
+    {
+      "enum": [
+        19,
+        "ysYnSc219"
+      ],
+      "description": "OIL SEPARATOR - LOW LEVEL"
+    },
+    {
+      "enum": [
+        20,
+        "ysYnSc220"
+      ],
+      "description": "OIL - VARIABLE SPEED PUMP - SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        21,
+        "ysYnSc221"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        22,
+        "ysYnSc222"
+      ],
+      "description": "MOTOR CONTROLLER FAULT"
+    },
+    {
+      "enum": [
+        23,
+        "ysYnSc223"
+      ],
+      "description": "MOTOR OR STARTER - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        24,
+        "ysYnSc224"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        25,
+        "ysYnSc225"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE UNCALIBRATED"
+    },
+    {
+      "enum": [
+        26,
+        "ysYnSc226"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        27,
+        "ysYnSc227"
+      ],
+      "description": "HIGH OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        28,
+        "ysYnSc228"
+      ],
+      "description": "OIL TEMPERATURE PROBE - OUT OF RANGE"
+    },
+    {
+      "enum": [
+        29,
+        "ysYnSc229"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ysYnSc230"
+      ],
+      "description": "RESERVED 30"
+    },
+    {
+      "enum": [
+        31,
+        "ysYnSc231"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ysYnSc232"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ysYnSc233"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ysYnSc234"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "ysYnSc235"
+      ],
+      "description": "RESERVED 35"
+    },
+    {
+      "enum": [
+        36,
+        "ysYnSc236"
+      ],
+      "description": "RESERVED 36"
+    },
+    {
+      "enum": [
+        37,
+        "ysYnSc237"
+      ],
+      "description": "RESERVED 37"
+    },
+    {
+      "enum": [
+        38,
+        "ysYnSc238"
+      ],
+      "description": "LCSSS - PHASE ROTATION"
+    },
+    {
+      "enum": [
+        39,
+        "ysYnSc239"
+      ],
+      "description": "LCSSS - MOTOR OR STARTER - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        40,
+        "ysYnSc240"
+      ],
+      "description": "LCSSS - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        41,
+        "ysYnSc241"
+      ],
+      "description": "LCSSS - HIGH INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        42,
+        "ysYnSc242"
+      ],
+      "description": "LCSSS - OPEN SCR"
+    },
+    {
+      "enum": [
+        43,
+        "ysYnSc243"
+      ],
+      "description": "LCSSS - SHORTED PHASE A SCR"
+    },
+    {
+      "enum": [
+        44,
+        "ysYnSc244"
+      ],
+      "description": "LCSSS - SHORTED PHASE B SCR"
+    },
+    {
+      "enum": [
+        45,
+        "ysYnSc245"
+      ],
+      "description": "LCSSS - SHORTED PHASE C SCR"
+    },
+    {
+      "enum": [
+        46,
+        "ysYnSc246"
+      ],
+      "description": "LCSSS - HIGH PHASE A HEATSINK TEMP - RUNNING"
+    },
+    {
+      "enum": [
+        47,
+        "ysYnSc247"
+      ],
+      "description": "LCSSS - HIGH PHASE B HEATSINK TEMP - RUNNING"
+    },
+    {
+      "enum": [
+        48,
+        "ysYnSc248"
+      ],
+      "description": "LCSSS - HIGH PHASE C HEATSINK TEMP- RUNNING"
+    },
+    {
+      "enum": [
+        49,
+        "ysYnSc249"
+      ],
+      "description": "STARTER - INVALID MOTOR SELECTION"
+    },
+    {
+      "enum": [
+        50,
+        "ysYnSc250"
+      ],
+      "description": "OIL OR CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        51,
+        "ysYnSc251"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        52,
+        "ysYnSc252"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    },
+    {
+      "enum": [
+        53,
+        "ysYnSc253"
+      ],
+      "description": "SURGE PROTECTION - EXCESS SURGE"
+    },
+    {
+      "enum": [
+        54,
+        "ysYnSc254"
+      ],
+      "description": "RESERVED 54"
+    },
+    {
+      "enum": [
+        55,
+        "ysYnSc255"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "ysYnSc256"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        57,
+        "ysYnSc257"
+      ],
+      "description": "THRUST BEARING - LIMIT SWITCH OPEN"
+    },
+    {
+      "enum": [
+        58,
+        "ysYnSc258"
+      ],
+      "description": "MOTOR - PHASE ROTATION"
+    },
+    {
+      "enum": [
+        59,
+        "ysYnSc259"
+      ],
+      "description": "MOTOR - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        60,
+        "ysYnSc260"
+      ],
+      "description": "DISCHARGE - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        61,
+        "ysYnSc261"
+      ],
+      "description": "HIGH MOTOR WINDING TEMPERATURE"
+    },
+    {
+      "enum": [
+        62,
+        "ysYnSc262"
+      ],
+      "description": "HIGH MOTOR BEARING TEMPERATURE"
+    },
+    {
+      "enum": [
+        63,
+        "ysYnSc263"
+      ],
+      "description": "RESERVED 63"
+    },
+    {
+      "enum": [
+        64,
+        "ysYnSc264"
+      ],
+      "description": "RESERVED 64"
+    },
+    {
+      "enum": [
+        65,
+        "ysYnSc265"
+      ],
+      "description": "RESERVED 65"
+    },
+    {
+      "enum": [
+        66,
+        "ysYnSc266"
+      ],
+      "description": "RESERVED 66"
+    },
+    {
+      "enum": [
+        67,
+        "ysYnSc267"
+      ],
+      "description": "CONDENSER HIGH PRESSURE STOPPED"
+    },
+    {
+      "enum": [
+        68,
+        "ysYnSc268"
+      ],
+      "description": "MOTOR - GROUND FAULT"
+    },
+    {
+      "enum": [
+        69,
+        "ysYnSc269"
+      ],
+      "description": "EXCESSIVE BEARING VIBRATION"
+    },
+    {
+      "enum": [
+        70,
+        "ysYnSc270"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        71,
+        "ysYnSc271"
+      ],
+      "description": "LCSSS - PHASE A OPEN SCR"
+    },
+    {
+      "enum": [
+        72,
+        "ysYnSc272"
+      ],
+      "description": "LCSSS - PHASE B OPEN SCR"
+    },
+    {
+      "enum": [
+        73,
+        "ysYnSc273"
+      ],
+      "description": "LCSSS - PHASE C OPEN SCR"
+    },
+    {
+      "enum": [
+        74,
+        "ysYnSc274"
+      ],
+      "description": "RESERVED 74"
+    },
+    {
+      "enum": [
+        75,
+        "ysYnSc275"
+      ],
+      "description": "RESERVED 75"
+    }
+  ]
+}

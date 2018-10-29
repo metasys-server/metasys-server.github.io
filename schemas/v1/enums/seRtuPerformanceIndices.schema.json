@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuPerformanceIndices.schema.json",
+  "title": "seRtuPerformanceIndices",
+  "description": "SE RTU Performance Indices",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuPerformanceIndicesEt"
+      ],
+      "description": "ET"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuPerformanceIndicesSh"
+      ],
+      "description": "SH"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuPerformanceIndicesCt"
+      ],
+      "description": "CT"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuPerformanceIndicesSc"
+      ],
+      "description": "SC"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuPerformanceIndicesPd"
+      ],
+      "description": "PD"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuPerformanceIndicesItd"
+      ],
+      "description": "ITD"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuPerformanceIndicesCoa"
+      ],
+      "description": "COA"
+    }
+  ]
+}

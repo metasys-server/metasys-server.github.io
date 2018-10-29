@@ -1,0 +1,2073 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacEventTypeEnumSet.schema.json",
+  "title": "bacEventTypeEnumSet",
+  "description": "BAC Event Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacEventChangeOfBitstring"
+      ],
+      "description": "Change of bitstring"
+    },
+    {
+      "enum": [
+        1,
+        "bacEventChangeOfState"
+      ],
+      "description": "Change of state"
+    },
+    {
+      "enum": [
+        2,
+        "bacEventChangeOfValue"
+      ],
+      "description": "Change of value"
+    },
+    {
+      "enum": [
+        3,
+        "bacEventCommandFailure"
+      ],
+      "description": "Command failure"
+    },
+    {
+      "enum": [
+        4,
+        "bacEventFloatingLimit"
+      ],
+      "description": "Floating limit"
+    },
+    {
+      "enum": [
+        5,
+        "bacEventOutOfRange"
+      ],
+      "description": "Out of range"
+    },
+    {
+      "enum": [
+        6,
+        "bacEventComplexEventType"
+      ],
+      "description": "Complex Event Type"
+    },
+    {
+      "enum": [
+        7,
+        "bacEventBufferWasReady"
+      ],
+      "description": "Buffer was ready"
+    },
+    {
+      "enum": [
+        8,
+        "bacEventChangeOfLifeSafety"
+      ],
+      "description": "Change of life safety"
+    },
+    {
+      "enum": [
+        9,
+        "bacEventExtended"
+      ],
+      "description": "Extended"
+    },
+    {
+      "enum": [
+        10,
+        "bacEventBufferReady"
+      ],
+      "description": "Buffer ready"
+    },
+    {
+      "enum": [
+        11,
+        "bacEventUnsignedRange"
+      ],
+      "description": "Unsigned range."
+    },
+    {
+      "enum": [
+        12,
+        "bacEventFuture"
+      ],
+      "description": "Future use."
+    },
+    {
+      "enum": [
+        13,
+        "bacEventAccess"
+      ],
+      "description": "Access event."
+    },
+    {
+      "enum": [
+        14,
+        "bacEventDoubleOutOfRange"
+      ],
+      "description": "Double out of range."
+    },
+    {
+      "enum": [
+        15,
+        "bacEventSignedOutOfRange"
+      ],
+      "description": "Signed out of range."
+    },
+    {
+      "enum": [
+        16,
+        "bacEventUnsignedOutOfRange"
+      ],
+      "description": "Unsigned out of range."
+    },
+    {
+      "enum": [
+        17,
+        "bacEventChangeOfCharacterstring"
+      ],
+      "description": "Change of character string."
+    },
+    {
+      "enum": [
+        18,
+        "bacEventChangeOfStatusFlags"
+      ],
+      "description": "Change of status flags."
+    },
+    {
+      "enum": [
+        19,
+        "bacEventChangeOfReliability"
+      ],
+      "description": "Change of reliability."
+    },
+    {
+      "enum": [
+        20,
+        "bacEventChangeNone"
+      ],
+      "description": "None."
+    },
+    {
+      "enum": [
+        21,
+        "bacEventChangeOfDiscreteValue"
+      ],
+      "description": "Change of discrete value."
+    },
+    {
+      "enum": [
+        22,
+        "bacEventChangeOfTimer"
+      ],
+      "description": "Change of timer."
+    },
+    {
+      "enum": [
+        64,
+        "bacEventStatusReport"
+      ],
+      "description": "Status report"
+    },
+    {
+      "enum": [
+        1000,
+        "bacEventInputSecure"
+      ],
+      "description": "Input Secure"
+    },
+    {
+      "enum": [
+        1001,
+        "bacEventInputSet"
+      ],
+      "description": "Input Set"
+    },
+    {
+      "enum": [
+        1002,
+        "bacEventInputShort"
+      ],
+      "description": "Input Short"
+    },
+    {
+      "enum": [
+        1003,
+        "bacEventInputOpen"
+      ],
+      "description": "Input Open"
+    },
+    {
+      "enum": [
+        1004,
+        "bacEventInputUnknown"
+      ],
+      "description": "Input Unknown"
+    },
+    {
+      "enum": [
+        1005,
+        "bacEventInputSuppressed"
+      ],
+      "description": "Input Suppressed"
+    },
+    {
+      "enum": [
+        1100,
+        "bacEventOutputReset"
+      ],
+      "description": "Output Reset"
+    },
+    {
+      "enum": [
+        1101,
+        "bacEventOutputSet"
+      ],
+      "description": "Output Set"
+    },
+    {
+      "enum": [
+        1102,
+        "bacEventOutputUnknown"
+      ],
+      "description": "Output Unknown"
+    },
+    {
+      "enum": [
+        1200,
+        "bacEventHostGrant"
+      ],
+      "description": "Host Grant"
+    },
+    {
+      "enum": [
+        1201,
+        "bacEventLocalGrant"
+      ],
+      "description": "Local Grant"
+    },
+    {
+      "enum": [
+        1202,
+        "bacEventExecutivePrivilege"
+      ],
+      "description": "Executive Privilege"
+    },
+    {
+      "enum": [
+        1203,
+        "bacEventSoftEntryExit"
+      ],
+      "description": "Soft Entry/Exit"
+    },
+    {
+      "enum": [
+        1204,
+        "bacEventValidUnauthorized"
+      ],
+      "description": "Valid & Unauthorized"
+    },
+    {
+      "enum": [
+        1205,
+        "bacEventManualReader"
+      ],
+      "description": "Manual Reader"
+    },
+    {
+      "enum": [
+        1206,
+        "bacEventManualControllerEvent"
+      ],
+      "description": "Manual Controller Event"
+    },
+    {
+      "enum": [
+        1207,
+        "bacEventAssetTracked"
+      ],
+      "description": "Asset Tracked"
+    },
+    {
+      "enum": [
+        1208,
+        "bacEventEntityTracked"
+      ],
+      "description": "Entity Tracked"
+    },
+    {
+      "enum": [
+        1209,
+        "bacEventEntityValidated"
+      ],
+      "description": "Entity Validated"
+    },
+    {
+      "enum": [
+        1210,
+        "bacEventTeamMemberValidated"
+      ],
+      "description": "Team Member Validated"
+    },
+    {
+      "enum": [
+        1211,
+        "bacEventAlternateAccessGranted"
+      ],
+      "description": "Alternate Access Granted"
+    },
+    {
+      "enum": [
+        1212,
+        "bacEventNoEntry"
+      ],
+      "description": "No Entry"
+    },
+    {
+      "enum": [
+        1300,
+        "bacEventInvalidBadge"
+      ],
+      "description": "Invalid Badge"
+    },
+    {
+      "enum": [
+        1301,
+        "bacEventAntipassbackOn"
+      ],
+      "description": "Anti-Passback On"
+    },
+    {
+      "enum": [
+        1302,
+        "bacEventInvalidReader"
+      ],
+      "description": "Invalid Reader"
+    },
+    {
+      "enum": [
+        1303,
+        "bacEventInvalidEntryExit"
+      ],
+      "description": "Invalid Entry/Exit"
+    },
+    {
+      "enum": [
+        1304,
+        "bacEventInvalidBadgeTimezone"
+      ],
+      "description": "Invalid Badge TZ"
+    },
+    {
+      "enum": [
+        1305,
+        "bacEventInvalidPin"
+      ],
+      "description": "Invalid PIN"
+    },
+    {
+      "enum": [
+        1306,
+        "bacEventInvalidIssueLevel"
+      ],
+      "description": "Invalid Issue Level"
+    },
+    {
+      "enum": [
+        1307,
+        "bacEventInvalidReaderTimezone"
+      ],
+      "description": "Invalid Reader TZ"
+    },
+    {
+      "enum": [
+        1308,
+        "bacEventFacilityCode"
+      ],
+      "description": "Invalid Facility Cod"
+    },
+    {
+      "enum": [
+        1309,
+        "bacEventInvalidIdentifier"
+      ],
+      "description": "Invalid Identifier"
+    },
+    {
+      "enum": [
+        1310,
+        "bacEventInvalidEntity"
+      ],
+      "description": "Invalid Entity"
+    },
+    {
+      "enum": [
+        1311,
+        "bacEventInvalidPinAttemptsExceeded"
+      ],
+      "description": "Invalid PIN Attempts Exceeded"
+    },
+    {
+      "enum": [
+        1312,
+        "bacEventInvalidAccessGroup"
+      ],
+      "description": "Invalid Access Group"
+    },
+    {
+      "enum": [
+        1313,
+        "bacEventInvalidAccessGroupTimezone"
+      ],
+      "description": "Invalid Access Group Timezone"
+    },
+    {
+      "enum": [
+        1314,
+        "bacEventInvalidAccessMask"
+      ],
+      "description": "Invalid Access Mask"
+    },
+    {
+      "enum": [
+        1315,
+        "bacEventInvalidAccessLevel"
+      ],
+      "description": "Invalid Access Level"
+    },
+    {
+      "enum": [
+        1316,
+        "bacEventInvalidSecurityMask"
+      ],
+      "description": "Invalid Security Mask"
+    },
+    {
+      "enum": [
+        1317,
+        "bacEventInvalidSecurityLevel"
+      ],
+      "description": "Invalid Security Level"
+    },
+    {
+      "enum": [
+        1318,
+        "bacEventOccupancyViolation"
+      ],
+      "description": "Occupancy Violation"
+    },
+    {
+      "enum": [
+        1319,
+        "bacEventInvalidOverrideTime"
+      ],
+      "description": "Invalid Override Time"
+    },
+    {
+      "enum": [
+        1320,
+        "bacEventInvalidOverridePrivilege"
+      ],
+      "description": "Invalid Override Privilege"
+    },
+    {
+      "enum": [
+        1321,
+        "bacEventCentralDataUnreachable"
+      ],
+      "description": "Central Data Unreachable"
+    },
+    {
+      "enum": [
+        1323,
+        "bacEventCentralStatusUnreachable"
+      ],
+      "description": "Central Status Unreachable"
+    },
+    {
+      "enum": [
+        1324,
+        "bacEventCentralAccessDenined"
+      ],
+      "description": "Central Access Denied"
+    },
+    {
+      "enum": [
+        1325,
+        "bacEventAccessRightsExpired"
+      ],
+      "description": "Access Rights Expired"
+    },
+    {
+      "enum": [
+        1326,
+        "bacEventEntityExpired"
+      ],
+      "description": "Entity Expired"
+    },
+    {
+      "enum": [
+        1327,
+        "bacEventUnaccompaniedAssetRule"
+      ],
+      "description": "Unaccompanied Asset Rule"
+    },
+    {
+      "enum": [
+        1328,
+        "bacEventUnaccompaniedEntityRule"
+      ],
+      "description": "Unaccompanied Entity Rule"
+    },
+    {
+      "enum": [
+        1329,
+        "bacEventIncompleteGroupRule"
+      ],
+      "description": "Incomplete Group Rule"
+    },
+    {
+      "enum": [
+        1330,
+        "bacEventPortalOpenViolation"
+      ],
+      "description": "Portal Open Violation"
+    },
+    {
+      "enum": [
+        1331,
+        "bacEventBiometricMismatch"
+      ],
+      "description": "Biometric Mismatch"
+    },
+    {
+      "enum": [
+        1332,
+        "bacEventInvalidAccessProfile"
+      ],
+      "description": "Invalid Access Profile"
+    },
+    {
+      "enum": [
+        1333,
+        "bacEventInconsistentIdentifiers"
+      ],
+      "description": "Inconsistent Identifiers"
+    },
+    {
+      "enum": [
+        1334,
+        "bacEventIntrusionAreaArmed"
+      ],
+      "description": "Intrusion Area Armed"
+    },
+    {
+      "enum": [
+        1335,
+        "bacEventInvalidSmartCardSignature"
+      ],
+      "description": "Invalid Smart Card Signature"
+    },
+    {
+      "enum": [
+        1336,
+        "bacEventAccessLocked"
+      ],
+      "description": "Access Locked"
+    },
+    {
+      "enum": [
+        1337,
+        "bacEventCredentialExpired"
+      ],
+      "description": "Event Credential Expired"
+    },
+    {
+      "enum": [
+        1338,
+        "bacEventInsufficientConfidenceLevel"
+      ],
+      "description": "Insufficient Confidence Level"
+    },
+    {
+      "enum": [
+        1339,
+        "bacEventOperatorAccessDenied"
+      ],
+      "description": "Operator Access Denied"
+    },
+    {
+      "enum": [
+        1340,
+        "bacEventInvalidInductionCertificate"
+      ],
+      "description": "Invalid Induction Certificate"
+    },
+    {
+      "enum": [
+        1341,
+        "bacEventInvalidMedicalCertificate"
+      ],
+      "description": "Invalid Medical Certificate"
+    },
+    {
+      "enum": [
+        1342,
+        "bacEventInvalidClearanceCertificate"
+      ],
+      "description": "Invalid Clearance Certificate"
+    },
+    {
+      "enum": [
+        1343,
+        "bacEventOnLeave"
+      ],
+      "description": "On Leave"
+    },
+    {
+      "enum": [
+        1500,
+        "bacEventTimedOverrideEnable"
+      ],
+      "description": "Timed Ovrd Enable"
+    },
+    {
+      "enum": [
+        1501,
+        "bacEventTimedOverrideEnableHost"
+      ],
+      "description": "Timed Ovrd Ena Host"
+    },
+    {
+      "enum": [
+        1502,
+        "bacEventTimedOverrideExpire"
+      ],
+      "description": "Timed Ovrd Expire"
+    },
+    {
+      "enum": [
+        1503,
+        "bacEventTimedOverrideDisable"
+      ],
+      "description": "Timed Ovrd Disable"
+    },
+    {
+      "enum": [
+        1504,
+        "bacEventTimedOverrideDisablHost"
+      ],
+      "description": "Timed Ovrd Dis Host"
+    },
+    {
+      "enum": [
+        1505,
+        "bacEventUserEventActivated"
+      ],
+      "description": "User Event Activated"
+    },
+    {
+      "enum": [
+        1506,
+        "bacEventUserEventDisabled"
+      ],
+      "description": "User Event Disabled"
+    },
+    {
+      "enum": [
+        1507,
+        "bacEventInvalidEvent"
+      ],
+      "description": "Invalid Event"
+    },
+    {
+      "enum": [
+        1508,
+        "bacEventInvalidEventPrivilege"
+      ],
+      "description": "Invalid Event Priv"
+    },
+    {
+      "enum": [
+        1509,
+        "bacEventPortalStatusChange"
+      ],
+      "description": "Portal Status Change"
+    },
+    {
+      "enum": [
+        1510,
+        "bacEventForcedOpen"
+      ],
+      "description": "Forced Open"
+    },
+    {
+      "enum": [
+        1511,
+        "bacEventProppedOpen"
+      ],
+      "description": "Propped Open"
+    },
+    {
+      "enum": [
+        1512,
+        "bacEventUnaccompaniedAsset"
+      ],
+      "description": "Unaccompanied Asset"
+    },
+    {
+      "enum": [
+        1513,
+        "bacEventUnaccompaniedEntity"
+      ],
+      "description": "Unaccompanied Entity"
+    },
+    {
+      "enum": [
+        1514,
+        "bacEventIncompleteGroup"
+      ],
+      "description": "Incomplete Group"
+    },
+    {
+      "enum": [
+        1515,
+        "bacEventFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        1516,
+        "bacEventError"
+      ],
+      "description": "Error"
+    },
+    {
+      "enum": [
+        1517,
+        "bacEventAntiLoiteringViolation"
+      ],
+      "description": "Anti-Loitering Violation"
+    },
+    {
+      "enum": [
+        1518,
+        "bacEventControllerEventActivated"
+      ],
+      "description": "Controller Event Activated"
+    },
+    {
+      "enum": [
+        1519,
+        "bacEventControllerEventDeactivated"
+      ],
+      "description": "Controller Event Deactivated"
+    },
+    {
+      "enum": [
+        1520,
+        "bacEventOccupancyWithinLimits"
+      ],
+      "description": "Occupancy within Limits"
+    },
+    {
+      "enum": [
+        1521,
+        "bacEventOccupancyAtLowLimit"
+      ],
+      "description": "Occupancy at Low Limit"
+    },
+    {
+      "enum": [
+        1522,
+        "bacEventOccupancyAtHighLimit"
+      ],
+      "description": "Occupancy at High Limit"
+    },
+    {
+      "enum": [
+        1523,
+        "bacEventOccupancyBelowLowLimit"
+      ],
+      "description": "Occupancy below Low Limit"
+    },
+    {
+      "enum": [
+        1524,
+        "bacEventOccupancyAboveHighLimit"
+      ],
+      "description": "Occupancy above High Limit"
+    },
+    {
+      "enum": [
+        1525,
+        "bacEventOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        1526,
+        "bacEventNotOperational"
+      ],
+      "description": "Not Operational"
+    },
+    {
+      "enum": [
+        1527,
+        "bacEventPeersOffline"
+      ],
+      "description": "Peer(s) Offline"
+    },
+    {
+      "enum": [
+        1528,
+        "bacEventStarCenterOffline"
+      ],
+      "description": "Star center Offline"
+    },
+    {
+      "enum": [
+        1529,
+        "bacEventLocked"
+      ],
+      "description": "Locked"
+    },
+    {
+      "enum": [
+        1530,
+        "bacEventLockedAndClosed"
+      ],
+      "description": "Locked and Closed"
+    },
+    {
+      "enum": [
+        1531,
+        "bacEventLockedAndOpen"
+      ],
+      "description": "Locked and Open"
+    },
+    {
+      "enum": [
+        1532,
+        "bacEventUnlocked"
+      ],
+      "description": "Unlocked"
+    },
+    {
+      "enum": [
+        1533,
+        "bacEventUnlockedAndClosed"
+      ],
+      "description": "Unlocked and Closed"
+    },
+    {
+      "enum": [
+        1534,
+        "bacEventUnlockedAndOpen"
+      ],
+      "description": "Unlocked and Open"
+    },
+    {
+      "enum": [
+        1535,
+        "bacEventUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1536,
+        "bacEventSuppressed"
+      ],
+      "description": "Suppressed"
+    },
+    {
+      "enum": [
+        1537,
+        "bacEventControllerEventTriggerLocked"
+      ],
+      "description": "Controller Event Trigger Locked"
+    },
+    {
+      "enum": [
+        1538,
+        "bacEventEntityResynchronizeRequest"
+      ],
+      "description": "Entity Resynchronize Request"
+    },
+    {
+      "enum": [
+        1539,
+        "bacEventEntityTransitionIn"
+      ],
+      "description": "Entity Transition In"
+    },
+    {
+      "enum": [
+        1540,
+        "bacEventEntityTransitionOut"
+      ],
+      "description": "Entity Transition Out"
+    },
+    {
+      "enum": [
+        1541,
+        "bacEventEntityTransitionUndefined"
+      ],
+      "description": "Entity Transition Undefined"
+    },
+    {
+      "enum": [
+        1542,
+        "bacEventEntityResetEntryTime"
+      ],
+      "description": "Entity Reset Entry Time"
+    },
+    {
+      "enum": [
+        1543,
+        "bacEventEntityResetExitTime"
+      ],
+      "description": "Entity Reset Exit Time"
+    },
+    {
+      "enum": [
+        1544,
+        "bacEventEntitySetToDefaultStatus"
+      ],
+      "description": "Entity set to Default Status"
+    },
+    {
+      "enum": [
+        1600,
+        "bacEventPanelUp"
+      ],
+      "description": "Panel Up"
+    },
+    {
+      "enum": [
+        1601,
+        "bacEventPanelUpDuplicate"
+      ],
+      "description": "Panel Up Duplicate"
+    },
+    {
+      "enum": [
+        1602,
+        "bacEventPanelDown"
+      ],
+      "description": "Panel Down"
+    },
+    {
+      "enum": [
+        1603,
+        "bacEventReaderUp"
+      ],
+      "description": "Reader Up"
+    },
+    {
+      "enum": [
+        1604,
+        "bacEventReaderDown"
+      ],
+      "description": "Reader Down"
+    },
+    {
+      "enum": [
+        1605,
+        "bacEventReaderUnknown"
+      ],
+      "description": "Reader Unknown"
+    },
+    {
+      "enum": [
+        1606,
+        "bacEventInputTerminalUp"
+      ],
+      "description": "Input Terminal Up"
+    },
+    {
+      "enum": [
+        1607,
+        "bacEventInputTerminalDown"
+      ],
+      "description": "Input Terminal Down"
+    },
+    {
+      "enum": [
+        1608,
+        "bacEventInputTerminalUnknown"
+      ],
+      "description": "Input Term Unknown"
+    },
+    {
+      "enum": [
+        1609,
+        "bacEventOutputTerminalUp"
+      ],
+      "description": "Output Terminal Up"
+    },
+    {
+      "enum": [
+        1610,
+        "bacEventOutputTerminalDown"
+      ],
+      "description": "Output Terminal Down"
+    },
+    {
+      "enum": [
+        1611,
+        "bacEventOutputTerminalUnknown"
+      ],
+      "description": "Output Term Unknown"
+    },
+    {
+      "enum": [
+        1612,
+        "bacEventDoorStrikeLocked"
+      ],
+      "description": "Door Strike Locked"
+    },
+    {
+      "enum": [
+        1613,
+        "bacEventDoorStrikeUnlocked"
+      ],
+      "description": "Door Strike Unlocked"
+    },
+    {
+      "enum": [
+        1614,
+        "bacEventHwModuleOperational"
+      ],
+      "description": "Hardware Module Operational"
+    },
+    {
+      "enum": [
+        1615,
+        "bacEventHwModuleOffline"
+      ],
+      "description": "Hardware Module Offline"
+    },
+    {
+      "enum": [
+        1616,
+        "bacEventHwModuleFault"
+      ],
+      "description": "Hardware Module Fault"
+    },
+    {
+      "enum": [
+        1617,
+        "bacEventHwModuleUpgrading"
+      ],
+      "description": "Hardware Module Upgrading"
+    },
+    {
+      "enum": [
+        1618,
+        "bacEventHwModuleUpgradeFailed"
+      ],
+      "description": "Hardware Module Upgrade Failed"
+    },
+    {
+      "enum": [
+        1700,
+        "bacEventExecuteApplication"
+      ],
+      "description": "Execute Application"
+    },
+    {
+      "enum": [
+        1701,
+        "bacEventUserLogon"
+      ],
+      "description": "User Logon"
+    },
+    {
+      "enum": [
+        1702,
+        "bacEventUserLogoff"
+      ],
+      "description": "User Logoff"
+    },
+    {
+      "enum": [
+        1703,
+        "bacEventDatabaseAdd"
+      ],
+      "description": "Database Add"
+    },
+    {
+      "enum": [
+        1704,
+        "bacEventDatabaseEdit"
+      ],
+      "description": "Database Edit"
+    },
+    {
+      "enum": [
+        1705,
+        "bacEventDatabaseDelete"
+      ],
+      "description": "Database Delete"
+    },
+    {
+      "enum": [
+        1706,
+        "bacEventPrintBadge"
+      ],
+      "description": "Print Badge"
+    },
+    {
+      "enum": [
+        1707,
+        "bacEventDownloadToPanel"
+      ],
+      "description": "Download To Panel"
+    },
+    {
+      "enum": [
+        1710,
+        "bacEventDoorLock"
+      ],
+      "description": "Door Lock"
+    },
+    {
+      "enum": [
+        1711,
+        "bacEventDoorUnlock"
+      ],
+      "description": "Door Unlock"
+    },
+    {
+      "enum": [
+        1712,
+        "bacEventDoorTimedUnlock"
+      ],
+      "description": "Door Timed Unlock [in minutes]"
+    },
+    {
+      "enum": [
+        1713,
+        "bacEventLockAllDoors"
+      ],
+      "description": "Lock All Doors"
+    },
+    {
+      "enum": [
+        1714,
+        "bacEventUnlockAllDoors"
+      ],
+      "description": "Unlock All Doors"
+    },
+    {
+      "enum": [
+        1715,
+        "bacEventPanelFirmwareUpdate"
+      ],
+      "description": "Panel Firmware Updat"
+    },
+    {
+      "enum": [
+        1716,
+        "bacEventPanelWriteFlash"
+      ],
+      "description": "Panel Write Flash"
+    },
+    {
+      "enum": [
+        1800,
+        "bacEventEventTriggered"
+      ],
+      "description": "Event Triggered"
+    },
+    {
+      "enum": [
+        1801,
+        "bacEventEventTriggeredManually"
+      ],
+      "description": "Event Trig Manually"
+    },
+    {
+      "enum": [
+        1900,
+        "bacEventEventLogError"
+      ],
+      "description": "Event Log Error"
+    },
+    {
+      "enum": [
+        1901,
+        "bacEventEventLogWarning"
+      ],
+      "description": "Event Log Warning"
+    },
+    {
+      "enum": [
+        1902,
+        "bacEventEventLogInformation"
+      ],
+      "description": "Event Log Info"
+    },
+    {
+      "enum": [
+        1903,
+        "bacEventStartMuster"
+      ],
+      "description": "Start Muster"
+    },
+    {
+      "enum": [
+        1904,
+        "bacEventStopMuster"
+      ],
+      "description": "Stop Muster"
+    },
+    {
+      "enum": [
+        1905,
+        "bacEventDemuster"
+      ],
+      "description": "Demuster"
+    },
+    {
+      "enum": [
+        1906,
+        "bacEventZoneReady"
+      ],
+      "description": "Zone Ready"
+    },
+    {
+      "enum": [
+        1907,
+        "bacEventStartMusterDrill"
+      ],
+      "description": "Start Muster Drill"
+    },
+    {
+      "enum": [
+        1908,
+        "bacEventPrintGroup"
+      ],
+      "description": "Print Group"
+    },
+    {
+      "enum": [
+        1909,
+        "bacEventRemoveBadge"
+      ],
+      "description": "Remove Badge"
+    },
+    {
+      "enum": [
+        1910,
+        "bacEventExpandZone"
+      ],
+      "description": "Expand Zone"
+    },
+    {
+      "enum": [
+        1911,
+        "bacEventEnablePrint"
+      ],
+      "description": "Enable Print"
+    },
+    {
+      "enum": [
+        1912,
+        "bacEventDisablePrint"
+      ],
+      "description": "Disable Print"
+    },
+    {
+      "enum": [
+        1913,
+        "bacEventSaveData"
+      ],
+      "description": "Save Data"
+    },
+    {
+      "enum": [
+        1914,
+        "bacEventPulse"
+      ],
+      "description": "Pulse"
+    },
+    {
+      "enum": [
+        1915,
+        "bacEventEnable"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        1916,
+        "bacEventClear"
+      ],
+      "description": "Clear"
+    },
+    {
+      "enum": [
+        1917,
+        "bacEventDisable"
+      ],
+      "description": "Disable"
+    },
+    {
+      "enum": [
+        1918,
+        "bacEventForce"
+      ],
+      "description": "Force"
+    },
+    {
+      "enum": [
+        1919,
+        "bacEventCalibrate"
+      ],
+      "description": "Calibrate"
+    },
+    {
+      "enum": [
+        1920,
+        "bacEventUncalibrate"
+      ],
+      "description": "Uncalibrate"
+    },
+    {
+      "enum": [
+        1921,
+        "bacEventSetInUse"
+      ],
+      "description": "Set in use"
+    },
+    {
+      "enum": [
+        1922,
+        "bacEventSetAvailable"
+      ],
+      "description": "Set Available"
+    },
+    {
+      "enum": [
+        1923,
+        "bacEventManualTrigger"
+      ],
+      "description": "Manual Trigger"
+    },
+    {
+      "enum": [
+        1924,
+        "bacEventStoredefault"
+      ],
+      "description": "Storedefault"
+    },
+    {
+      "enum": [
+        1925,
+        "bacEventSecuritylevel"
+      ],
+      "description": "Securitylevel"
+    },
+    {
+      "enum": [
+        1926,
+        "bacEventLogonInvalid"
+      ],
+      "description": "Logon Invalid"
+    },
+    {
+      "enum": [
+        1927,
+        "bacEventLogonDisabled"
+      ],
+      "description": "Logon Disabled"
+    },
+    {
+      "enum": [
+        1928,
+        "bacEventFdaBackup"
+      ],
+      "description": "FDA Backup"
+    },
+    {
+      "enum": [
+        1929,
+        "bacEventFdaViolation"
+      ],
+      "description": "FDA Violation"
+    },
+    {
+      "enum": [
+        1930,
+        "bacEventFdaChecksumCalc"
+      ],
+      "description": "FDA Checksum Calc"
+    },
+    {
+      "enum": [
+        1931,
+        "bacEventRedunFailover"
+      ],
+      "description": "Redun Failover"
+    },
+    {
+      "enum": [
+        1932,
+        "bacEventRedunOffline"
+      ],
+      "description": "Redun Offline"
+    },
+    {
+      "enum": [
+        1933,
+        "bacEventRedunOnline"
+      ],
+      "description": "Redun Online"
+    },
+    {
+      "enum": [
+        1934,
+        "bacEventRedunMirror"
+      ],
+      "description": "Redun Mirror"
+    },
+    {
+      "enum": [
+        1935,
+        "bacEventRedunMonitor"
+      ],
+      "description": "Redun Monitor"
+    },
+    {
+      "enum": [
+        1936,
+        "bacEventRedunAdmin"
+      ],
+      "description": "Redun Admin"
+    },
+    {
+      "enum": [
+        1937,
+        "bacEventRedunReboot"
+      ],
+      "description": "Redun Reboot"
+    },
+    {
+      "enum": [
+        1938,
+        "bacEventRedunConfigExport"
+      ],
+      "description": "Redun Config Export"
+    },
+    {
+      "enum": [
+        1939,
+        "bacEventRedunConfigImport"
+      ],
+      "description": "Redun Config Import"
+    },
+    {
+      "enum": [
+        1940,
+        "bacEventDownloadFirmware"
+      ],
+      "description": "Download Firmware"
+    },
+    {
+      "enum": [
+        1941,
+        "bacEventVerifyFirmware"
+      ],
+      "description": "Verify Firmware"
+    },
+    {
+      "enum": [
+        1942,
+        "bacEventApplyFirmware"
+      ],
+      "description": "Apply Firmware"
+    },
+    {
+      "enum": [
+        1943,
+        "bacEventEraseDatabase"
+      ],
+      "description": "Erase Database"
+    },
+    {
+      "enum": [
+        1944,
+        "bacEventReboot"
+      ],
+      "description": "Reboot"
+    },
+    {
+      "enum": [
+        1945,
+        "bacEventResyncIn"
+      ],
+      "description": "Resync in"
+    },
+    {
+      "enum": [
+        1946,
+        "bacEventResyncOut"
+      ],
+      "description": "Resync out"
+    },
+    {
+      "enum": [
+        1947,
+        "bacEventResyncUndefined"
+      ],
+      "description": "Resync undefined"
+    },
+    {
+      "enum": [
+        1948,
+        "bacEventSuppress"
+      ],
+      "description": "Suppress"
+    },
+    {
+      "enum": [
+        1949,
+        "bacEventEmergencyDisable"
+      ],
+      "description": "Emergency Disable"
+    },
+    {
+      "enum": [
+        1950,
+        "bacEventIntrAreaArm"
+      ],
+      "description": "Intr Area Arm"
+    },
+    {
+      "enum": [
+        1951,
+        "bacEventIntrAreaForcedarm"
+      ],
+      "description": "Intr Area Forcedarm"
+    },
+    {
+      "enum": [
+        1952,
+        "bacEventIntrAreaDisarm"
+      ],
+      "description": "Intr Area Disarm"
+    },
+    {
+      "enum": [
+        1953,
+        "bacEventIntrZoneBypassOn"
+      ],
+      "description": "Intr Zone Bypass On"
+    },
+    {
+      "enum": [
+        1954,
+        "bacEventIntrZoneBypassOff"
+      ],
+      "description": "Intr Zone Bypass Off"
+    },
+    {
+      "enum": [
+        1955,
+        "bacEventIntrZoneReset"
+      ],
+      "description": "Intr Zone Reset"
+    },
+    {
+      "enum": [
+        1956,
+        "bacEventIntrZoneResetack"
+      ],
+      "description": "Intr Zone Resetack"
+    },
+    {
+      "enum": [
+        1957,
+        "bacEventIntrAnnActivate"
+      ],
+      "description": "Intr Ann Activate"
+    },
+    {
+      "enum": [
+        1958,
+        "bacEventIntrAnnDeactivate"
+      ],
+      "description": "Intr Ann Deactivate"
+    },
+    {
+      "enum": [
+        1959,
+        "bacEventAssistedAccess"
+      ],
+      "description": "Assisted Access"
+    },
+    {
+      "enum": [
+        1960,
+        "bacEventAssistedAccessHost"
+      ],
+      "description": "Assisted Access Host"
+    },
+    {
+      "enum": [
+        1961,
+        "bacEventElevator"
+      ],
+      "description": "Elevator"
+    },
+    {
+      "enum": [
+        1962,
+        "bacEventReaderEgress"
+      ],
+      "description": "Reader Egress"
+    },
+    {
+      "enum": [
+        1963,
+        "bacEventDuressGrant"
+      ],
+      "description": "Duress Grant"
+    },
+    {
+      "enum": [
+        1964,
+        "bacEventInvalidSecurityLvl"
+      ],
+      "description": "Invalid Security lvl"
+    },
+    {
+      "enum": [
+        1965,
+        "bacEventBioMismatch"
+      ],
+      "description": "Bio Mismatch"
+    },
+    {
+      "enum": [
+        1966,
+        "bacEventDenyDoorOpen"
+      ],
+      "description": "Deny Door Open"
+    },
+    {
+      "enum": [
+        1967,
+        "bacEventElevatorInvalidFloor"
+      ],
+      "description": "Elevator Invalid Floor"
+    },
+    {
+      "enum": [
+        1968,
+        "bacEventElevatorInvalidTzone"
+      ],
+      "description": "Elevator Invalid Tzone"
+    },
+    {
+      "enum": [
+        1969,
+        "bacEventElevatorInvalidCard"
+      ],
+      "description": "Elevator Invalid Card"
+    },
+    {
+      "enum": [
+        1970,
+        "bacEventReaderOverride"
+      ],
+      "description": "Reader Override"
+    },
+    {
+      "enum": [
+        1971,
+        "bacEventNotificationStatus"
+      ],
+      "description": "Notification Status"
+    },
+    {
+      "enum": [
+        1972,
+        "bacEventIntrAcctNormal"
+      ],
+      "description": "Intrusion Account Normal"
+    },
+    {
+      "enum": [
+        1973,
+        "bacEventIntrAcctTest"
+      ],
+      "description": "Intrusion Account Test"
+    },
+    {
+      "enum": [
+        1974,
+        "bacEventAlarmDialerMessageForwarded"
+      ],
+      "description": "Alarm Dialer Message Forwarded"
+    },
+    {
+      "enum": [
+        1975,
+        "bacEventAlarmDialerMessageIgnored"
+      ],
+      "description": "Alarm Dialer Message Ignored"
+    },
+    {
+      "enum": [
+        1976,
+        "bacEventAlarmDialerMessageDelivered"
+      ],
+      "description": "Alarm Dialer Message Delivered"
+    },
+    {
+      "enum": [
+        1977,
+        "bacEventAlarmDialerMessageRejected"
+      ],
+      "description": "Alarm Dialer Message Rejected"
+    },
+    {
+      "enum": [
+        1978,
+        "bacEventAlarmDialerMessageDiscarded"
+      ],
+      "description": "Alarm Dialer Message Discarded"
+    },
+    {
+      "enum": [
+        1979,
+        "bacEventTestMessageDelivered"
+      ],
+      "description": "Test Message Delivered"
+    },
+    {
+      "enum": [
+        1980,
+        "bacEventTestMessageRejected"
+      ],
+      "description": "Test Message Rejected"
+    },
+    {
+      "enum": [
+        2000,
+        "bacEventCentralDataRequest"
+      ],
+      "description": "Central Data Request"
+    },
+    {
+      "enum": [
+        2001,
+        "bacEventCentralStatusRequest"
+      ],
+      "description": "Central Status Request"
+    },
+    {
+      "enum": [
+        2002,
+        "bacEventSsncFifoOverflow"
+      ],
+      "description": "SSNC FIFO Overflow"
+    },
+    {
+      "enum": [
+        2003,
+        "bacEventSszoAlarmStatus"
+      ],
+      "description": "Intrusion Zone Alarm Status"
+    },
+    {
+      "enum": [
+        2004,
+        "bacEventArmed"
+      ],
+      "description": "Armed"
+    },
+    {
+      "enum": [
+        2005,
+        "bacEventDisarmed"
+      ],
+      "description": "Disarmed"
+    },
+    {
+      "enum": [
+        2006,
+        "bacEventMixed"
+      ],
+      "description": "Mixed"
+    },
+    {
+      "enum": [
+        2007,
+        "bacEventArming"
+      ],
+      "description": "Arming"
+    },
+    {
+      "enum": [
+        2008,
+        "bacEventDisarming"
+      ],
+      "description": "Disarming"
+    },
+    {
+      "enum": [
+        2009,
+        "bacEventAlarm"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        2010,
+        "bacEventBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        2011,
+        "bacEventTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        2012,
+        "bacEventReset"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        2013,
+        "bacEventSilence"
+      ],
+      "description": "Silence"
+    },
+    {
+      "enum": [
+        2014,
+        "bacEventAcknowledge"
+      ],
+      "description": "Acknowledge"
+    },
+    {
+      "enum": [
+        2015,
+        "bacEventActive"
+      ],
+      "description": "Active"
+    },
+    {
+      "enum": [
+        2016,
+        "bacEventActivate"
+      ],
+      "description": "Activate"
+    },
+    {
+      "enum": [
+        2017,
+        "bacEventInactive"
+      ],
+      "description": "Inactive"
+    },
+    {
+      "enum": [
+        2018,
+        "bacEventAlarmTrouble"
+      ],
+      "description": "Alarm, Trouble"
+    },
+    {
+      "enum": [
+        2019,
+        "bacEventAlarmTamper"
+      ],
+      "description": "Alarm, Tamper"
+    },
+    {
+      "enum": [
+        2020,
+        "bacEventAlarmOpen"
+      ],
+      "description": "Alarm, Open"
+    },
+    {
+      "enum": [
+        2021,
+        "bacEventAlarmShort"
+      ],
+      "description": "Alarm, Short"
+    },
+    {
+      "enum": [
+        2022,
+        "bacEventNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        2023,
+        "bacEventMemoryLow"
+      ],
+      "description": "Memory Low"
+    },
+    {
+      "enum": [
+        2024,
+        "bacEventMemoryOk"
+      ],
+      "description": "Memory Ok"
+    },
+    {
+      "enum": [
+        2025,
+        "bacEventAlarmUnknown"
+      ],
+      "description": "Alarm Unknown"
+    },
+    {
+      "enum": [
+        2026,
+        "bacEventAttributeValue"
+      ],
+      "description": "Attribute Value"
+    },
+    {
+      "enum": [
+        2027,
+        "bacEventDbaseTransferStarted"
+      ],
+      "description": "Database Transfer Started"
+    },
+    {
+      "enum": [
+        2028,
+        "bacEventDbaseTransferFailed"
+      ],
+      "description": "Database Transfer Failed"
+    },
+    {
+      "enum": [
+        2029,
+        "bacEventDbaseTransferSuccessful"
+      ],
+      "description": "Database Transfer Successful"
+    },
+    {
+      "enum": [
+        2030,
+        "bacEventCalibrationUnknown"
+      ],
+      "description": "Calibration Unknown"
+    },
+    {
+      "enum": [
+        2031,
+        "bacEventCalibrationFailedResistanceTooLow"
+      ],
+      "description": "Calibration Failed, Resistance too Low"
+    },
+    {
+      "enum": [
+        2032,
+        "bacEventCalibrationFailedResistanceTooHigh"
+      ],
+      "description": "Calibration Failed, Resistance too High"
+    },
+    {
+      "enum": [
+        2033,
+        "bacEventCalibration2StateInput"
+      ],
+      "description": "Calibration OK, 2 State Input"
+    },
+    {
+      "enum": [
+        2034,
+        "bacEventCalibrationFailedOffline"
+      ],
+      "description": "Calibration Failed, Offline"
+    },
+    {
+      "enum": [
+        2035,
+        "bacEventCalibration4StateInput"
+      ],
+      "description": "Calibration OK, 4 State Input"
+    },
+    {
+      "enum": [
+        2036,
+        "bacEventCalibrationFailedNoCalibrationSupport"
+      ],
+      "description": "Calibration Failed, No Calibration Support"
+    },
+    {
+      "enum": [
+        2037,
+        "bacEventCalibrationFailedInputIs2StateOnly"
+      ],
+      "description": "Calibration Failed, Input is 2 State Only"
+    },
+    {
+      "enum": [
+        2038,
+        "bacEventCalibrationFailedOutOfService"
+      ],
+      "description": "Calibration Failed, Out of Service"
+    },
+    {
+      "enum": [
+        2039,
+        "bacEventTestStop"
+      ],
+      "description": "Test Stop"
+    },
+    {
+      "enum": [
+        2040,
+        "bacEventFirmwareRevision"
+      ],
+      "description": "Firmware Revision"
+    },
+    {
+      "enum": [
+        2041,
+        "bacEventFirmwareUpgradeValidating"
+      ],
+      "description": "Firmware Upgrade Validating"
+    },
+    {
+      "enum": [
+        2042,
+        "bacEventFirmwareUpgradeFailed"
+      ],
+      "description": "Firmware Upgrade Failed"
+    },
+    {
+      "enum": [
+        2043,
+        "bacEventHighCpuUsage"
+      ],
+      "description": "High CPU Usage"
+    }
+  ]
+}

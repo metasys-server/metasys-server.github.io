@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timeTypeEnumSet.schema.json",
+  "title": "timeTypeEnumSet",
+  "description": "Time Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "timeTypeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "timeTypeLocalTime"
+      ],
+      "description": "Local Time"
+    }
+  ]
+}

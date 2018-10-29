@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dayTypesEnumSet.schema.json",
+  "title": "dayTypesEnumSet",
+  "description": "Day Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "regularDay"
+      ],
+      "description": "Regular Day"
+    },
+    {
+      "enum": [
+        1,
+        "alternate1Day"
+      ],
+      "description": "Alternate 1 Day"
+    },
+    {
+      "enum": [
+        2,
+        "alternate2Day"
+      ],
+      "description": "Alternate 2 Day"
+    },
+    {
+      "enum": [
+        3,
+        "alternate3Day"
+      ],
+      "description": "Alternate 3 Day"
+    },
+    {
+      "enum": [
+        4,
+        "alternate4Day"
+      ],
+      "description": "Alternate 4 Day"
+    },
+    {
+      "enum": [
+        5,
+        "holidayDay"
+      ],
+      "description": "Holiday Day"
+    }
+  ]
+}

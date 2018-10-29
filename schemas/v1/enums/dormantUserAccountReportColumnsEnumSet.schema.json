@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dormantUserAccountReportColumnsEnumSet.schema.json",
+  "title": "dormantUserAccountReportColumnsEnumSet",
+  "description": "Dormant User Account Report Columns",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "deviceName"
+      ],
+      "description": "Device Name"
+    },
+    {
+      "enum": [
+        1,
+        "accountName"
+      ],
+      "description": "User Account Name"
+    },
+    {
+      "enum": [
+        2,
+        "userName"
+      ],
+      "description": "User Name"
+    },
+    {
+      "enum": [
+        3,
+        "role"
+      ],
+      "description": "Role"
+    },
+    {
+      "enum": [
+        4,
+        "accountType"
+      ],
+      "description": "Account Type"
+    },
+    {
+      "enum": [
+        5,
+        "lastLoginDate"
+      ],
+      "description": "Last Successful Login"
+    },
+    {
+      "enum": [
+        6,
+        "daysSinceLastLogin"
+      ],
+      "description": "Days Since Last Login"
+    },
+    {
+      "enum": [
+        7,
+        "statusReport"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        8,
+        "isDormant"
+      ],
+      "description": "Is Dormant"
+    },
+    {
+      "enum": [
+        9,
+        "daysDormant"
+      ],
+      "description": "Days Dormant"
+    },
+    {
+      "enum": [
+        10,
+        "dormantEventSent"
+      ],
+      "description": "Dormant Event Sent"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dllrAlarmReasonEnumSet.schema.json",
+  "title": "dllrAlarmReasonEnumSet",
+  "description": "DLLR Alarm Reason",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dllrNoAlarm"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "dllrLrNotShed"
+      ],
+      "description": "LR cannot meet target"
+    },
+    {
+      "enum": [
+        2,
+        "dllrDlNotShed"
+      ],
+      "description": "DL cannot meet target"
+    },
+    {
+      "enum": [
+        3,
+        "dllrMeterInAlarm"
+      ],
+      "description": "Meter Off Normal"
+    },
+    {
+      "enum": [
+        4,
+        "dllrEoiInAlarm"
+      ],
+      "description": "EOI Off Normal"
+    },
+    {
+      "enum": [
+        5,
+        "dllrDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        6,
+        "dllrMeterRequiredForDlStrategy"
+      ],
+      "description": "No meter defined for DL"
+    }
+  ]
+}

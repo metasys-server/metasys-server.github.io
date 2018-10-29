@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecOccCmdEnumSet.schema.json",
+  "title": "tecOccCmdEnumSet",
+  "description": "TEC Occupancy Command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecOccCmdNotUsed"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        1,
+        "tecOccCmdLocalOcc"
+      ],
+      "description": "Local Occupancy"
+    },
+    {
+      "enum": [
+        2,
+        "tecOccCmdOcc"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        3,
+        "tecOccCmdUnocc"
+      ],
+      "description": "Unoccupied"
+    }
+  ]
+}

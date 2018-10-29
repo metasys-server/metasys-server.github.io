@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/utilityEnumSet.schema.json",
+  "title": "utilityEnumSet",
+  "description": "Utility",
+  "oneOf": [
+    {
+      "enum": [
+        1000,
+        "utilityOther"
+      ],
+      "description": "Other"
+    },
+    {
+      "enum": [
+        1001,
+        "utilityElectricity"
+      ],
+      "description": "Electricity"
+    },
+    {
+      "enum": [
+        1002,
+        "utilityNaturalGas"
+      ],
+      "description": "Natural Gas"
+    },
+    {
+      "enum": [
+        1003,
+        "utilitySteam"
+      ],
+      "description": "Steam"
+    },
+    {
+      "enum": [
+        1004,
+        "utilityHotWater"
+      ],
+      "description": "Hot Water"
+    },
+    {
+      "enum": [
+        1005,
+        "utilityChilledWater"
+      ],
+      "description": "Chilled Water"
+    },
+    {
+      "enum": [
+        1006,
+        "utilityWater"
+      ],
+      "description": "Water"
+    },
+    {
+      "enum": [
+        1007,
+        "utilityBituminousCoal"
+      ],
+      "description": "Bituminous Coal"
+    },
+    {
+      "enum": [
+        1008,
+        "utilitySubituminousCoal"
+      ],
+      "description": "Subituminous Coal"
+    },
+    {
+      "enum": [
+        1009,
+        "utilityAnthraciteCoal"
+      ],
+      "description": "Anthracite Coal"
+    },
+    {
+      "enum": [
+        1010,
+        "utilityCoke"
+      ],
+      "description": "Coke"
+    },
+    {
+      "enum": [
+        1011,
+        "utilityLpgPropane"
+      ],
+      "description": "LPG/Propane"
+    },
+    {
+      "enum": [
+        1012,
+        "utilityDiesel"
+      ],
+      "description": "Diesel"
+    },
+    {
+      "enum": [
+        1013,
+        "utilityGasoline"
+      ],
+      "description": "Gasoline"
+    },
+    {
+      "enum": [
+        1014,
+        "utilityKerosene"
+      ],
+      "description": "Kerosene"
+    },
+    {
+      "enum": [
+        1015,
+        "utility1FuelOil"
+      ],
+      "description": "#1 Fuel Oil"
+    },
+    {
+      "enum": [
+        1016,
+        "utility2FuelOil"
+      ],
+      "description": "#2 Fuel Oil"
+    },
+    {
+      "enum": [
+        1017,
+        "utility3FuelOil"
+      ],
+      "description": "#3 Fuel Oil"
+    },
+    {
+      "enum": [
+        1018,
+        "utility4FuelOil"
+      ],
+      "description": "#4 Fuel Oil"
+    },
+    {
+      "enum": [
+        1019,
+        "utility5FuelOil"
+      ],
+      "description": "#5 Fuel Oil"
+    },
+    {
+      "enum": [
+        1020,
+        "utility6FuelOil"
+      ],
+      "description": "#6 Fuel Oil"
+    }
+  ]
+}

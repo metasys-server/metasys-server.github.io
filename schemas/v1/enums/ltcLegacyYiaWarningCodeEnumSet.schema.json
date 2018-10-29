@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaWarningCodeEnumSet.schema.json",
+  "title": "ltcLegacyYiaWarningCodeEnumSet",
+  "description": "York LTC Legacy YIA Warning Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaWarningCode0"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaWarningCode1"
+      ],
+      "description": "LOW REFRIGERANT TEMPERATURE"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYiaWarningCode2"
+      ],
+      "description": "HIGH GENERATOR SHELL PRESSURE"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYiaWarningCode3"
+      ],
+      "description": "HIGH STEAM / HOT WATER SUPPLY TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYiaWarningCode4"
+      ],
+      "description": "HIGH STEAM SUPPLY PRESSURE"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYiaWarningCode5"
+      ],
+      "description": "HIGH ENTERING CONDENSER WATER TEMPERATURE"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYiaWarningCode6"
+      ],
+      "description": "FAULTY STRONG SOLUTION TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYiaWarningCode7"
+      ],
+      "description": "PURGE PUMP OVERLOADS OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYiaWarningCode8"
+      ],
+      "description": "PURGE PUMP SERVICE RECOMMENDED"
+    }
+  ]
+}

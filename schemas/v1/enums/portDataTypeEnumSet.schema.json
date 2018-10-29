@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/portDataTypeEnumSet.schema.json",
+  "title": "portDataTypeEnumSet",
+  "description": "Port Data Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "portDataTypeAnalog"
+      ],
+      "description": "Analog"
+    },
+    {
+      "enum": [
+        1,
+        "portDataTypeBinary"
+      ],
+      "description": "Binary"
+    },
+    {
+      "enum": [
+        2,
+        "portDataTypeMultistate"
+      ],
+      "description": "MultiState"
+    },
+    {
+      "enum": [
+        3,
+        "portDataTypeUniversal"
+      ],
+      "description": "Universal"
+    },
+    {
+      "enum": [
+        4,
+        "portDataTypeRelay"
+      ],
+      "description": "Relay"
+    }
+  ]
+}

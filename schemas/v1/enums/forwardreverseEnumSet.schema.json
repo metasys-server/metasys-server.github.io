@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/forwardReverseEnumSet.schema.json",
+  "title": "forwardReverseEnumSet",
+  "description": "Forward/Reverse",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fwdRevForward"
+      ],
+      "description": "Forward"
+    },
+    {
+      "enum": [
+        1,
+        "fwdRevReverse"
+      ],
+      "description": "Reverse"
+    }
+  ]
+}rse"
+    },
+    {
+      "enum": [
+        2,
+        "forwardreverseHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaDilutionCodeEnumSet.schema.json",
+  "title": "ltcLegacyYiaDilutionCodeEnumSet",
+  "description": "York LTC Legacy YIA Dilution Cycle Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaDilutionCode0"
+      ],
+      "description": "DILUTION CYCLE NOT ACTIVE"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaDilutionCode1"
+      ],
+      "description": "DILUTION CYCLE ACTIVE"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYiaDilutionCode2"
+      ],
+      "description": "DILUTION INTERRUPTED - CHILLED WATER FLOW SWITCH"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYiaDilutionCode3"
+      ],
+      "description": "DILUTION INTERRUPTED - CONDENSER WATER FLOW SWITCH"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYiaDilutionCode4"
+      ],
+      "description": "DILUTION INTERRUPTED - REFRIGERANT LEVEL FLOAT SWITCH"
+    }
+  ]
+}

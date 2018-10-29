@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/badgeTypeEnumSet.schema.json",
+  "title": "badgeTypeEnumSet",
+  "description": "Badge Type",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "badgeTypeRealBadgeOnly"
+      ],
+      "description": "Real Badge Only"
+    },
+    {
+      "enum": [
+        2,
+        "badgeTypeKeypadNumberOnly"
+      ],
+      "description": "Keypad Number Only"
+    },
+    {
+      "enum": [
+        3,
+        "badgeTypeBothRealBadgeAndKeypadNumber"
+      ],
+      "description": "Both"
+    },
+    {
+      "enum": [
+        4,
+        "badgeTypeCommonPin"
+      ],
+      "description": "Common PIN"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/condWaterEnumSet.schema.json",
+  "title": "condWaterEnumSet",
+  "description": "Condenser Water",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cwOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "cwBypassControl"
+      ],
+      "description": "Bypass Control"
+    },
+    {
+      "enum": [
+        2,
+        "cwTowerControl"
+      ],
+      "description": "Tower Control"
+    },
+    {
+      "enum": [
+        3,
+        "cwSensorsUnreliable"
+      ],
+      "description": "Sensors Unreliable"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykMotorControllerTypeEnumSet.schema.json",
+  "title": "ykMotorControllerTypeEnumSet",
+  "description": "YK MOTOR CONTROLLER TYPE",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykMotorControllerType0"
+      ],
+      "description": "EM"
+    },
+    {
+      "enum": [
+        1,
+        "ykMotorControllerType1"
+      ],
+      "description": "SSS MOD A"
+    },
+    {
+      "enum": [
+        2,
+        "ykMotorControllerType2"
+      ],
+      "description": "LCSSS"
+    },
+    {
+      "enum": [
+        3,
+        "ykMotorControllerType3"
+      ],
+      "description": "Vyper/Mod D VSD 60HZ"
+    },
+    {
+      "enum": [
+        4,
+        "ykMotorControllerType4"
+      ],
+      "description": "Vyper/Mod D VSD 50HZ"
+    },
+    {
+      "enum": [
+        5,
+        "ykMotorControllerType5"
+      ],
+      "description": "MVVSD"
+    },
+    {
+      "enum": [
+        6,
+        "ykMotorControllerType6"
+      ],
+      "description": "MVSSS"
+    },
+    {
+      "enum": [
+        7,
+        "ykMotorControllerType7"
+      ],
+      "description": "RAPTYR VSD 60HZ"
+    },
+    {
+      "enum": [
+        8,
+        "ykMotorControllerType8"
+      ],
+      "description": "RAPTYR VSD 50HZ"
+    },
+    {
+      "enum": [
+        9,
+        "ykMotorControllerType9"
+      ],
+      "description": "UNKNOWN"
+    },
+    {
+      "enum": [
+        10,
+        "ykMotorControllerType10"
+      ],
+      "description": "INVALID"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/loadReleaseEnumSet.schema.json",
+  "title": "loadReleaseEnumSet",
+  "description": "Load Release",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Keep Load Shed"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Release Load"
+    }
+  ]
+}

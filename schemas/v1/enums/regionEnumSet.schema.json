@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/regionEnumSet.schema.json",
+  "title": "regionEnumSet",
+  "description": "Region Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "regionNorthAmerica"
+      ],
+      "description": "North America"
+    },
+    {
+      "enum": [
+        1,
+        "regionEurope"
+      ],
+      "description": "Europe"
+    },
+    {
+      "enum": [
+        2,
+        "regionJapan"
+      ],
+      "description": "Japan"
+    },
+    {
+      "enum": [
+        3,
+        "regionChina"
+      ],
+      "description": "China"
+    }
+  ]
+}

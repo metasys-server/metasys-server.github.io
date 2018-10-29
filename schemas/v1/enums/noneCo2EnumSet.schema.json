@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/noneCo2EnumSet.schema.json",
+  "title": "noneCo2EnumSet",
+  "description": "None/CO2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "nco2None"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "nco2Co2"
+      ],
+      "description": "CO2"
+    }
+  ]
+}

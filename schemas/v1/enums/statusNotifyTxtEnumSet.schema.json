@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/statusNotifyTxtEnumSet.schema.json",
+  "title": "statusNotifyTxtEnumSet",
+  "description": "Status Notify Txt",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sntCritical"
+      ],
+      "description": "CRIT"
+    },
+    {
+      "enum": [
+        1,
+        "sntSerious"
+      ],
+      "description": "SER"
+    },
+    {
+      "enum": [
+        2,
+        "sntImportant"
+      ],
+      "description": "IMP"
+    },
+    {
+      "enum": [
+        3,
+        "sntStatus"
+      ],
+      "description": "STAT"
+    }
+  ]
+}

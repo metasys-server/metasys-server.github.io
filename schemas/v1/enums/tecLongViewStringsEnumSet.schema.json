@@ -1,0 +1,1219 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecLongViewStringsEnumSet.schema.json",
+  "title": "tecLongViewStringsEnumSet",
+  "description": "TEC Long View Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecLongViewStringsIoSetup"
+      ],
+      "description": "IO Setup"
+    },
+    {
+      "enum": [
+        1,
+        "tecLongViewStringsSupplyFanConfiguration"
+      ],
+      "description": "Supply Fan Configuration"
+    },
+    {
+      "enum": [
+        2,
+        "tecLongViewStringsReheatConfiguration"
+      ],
+      "description": "Reheat Configuration"
+    },
+    {
+      "enum": [
+        3,
+        "tecLongViewStringsEconomizerConfiguration"
+      ],
+      "description": "Economizer Configuration"
+    },
+    {
+      "enum": [
+        4,
+        "tecLongViewStringsHeatPumpConfiguration"
+      ],
+      "description": "Heat Pump Configuration"
+    },
+    {
+      "enum": [
+        5,
+        "tecLongViewStringsOccCoolingSetpoint"
+      ],
+      "description": "Occupied Cooling"
+    },
+    {
+      "enum": [
+        6,
+        "tecLongViewStringsOccHeatingSetpoint"
+      ],
+      "description": "Occupied Heating"
+    },
+    {
+      "enum": [
+        7,
+        "tecLongViewStringsUnoccCoolingSetpoint"
+      ],
+      "description": "Unoccupied Cooling"
+    },
+    {
+      "enum": [
+        8,
+        "tecLongViewStringsUnoccHeatingSetpoint"
+      ],
+      "description": "Unoccupied Heating"
+    },
+    {
+      "enum": [
+        9,
+        "tecLongViewStringsStbyCoolingSetpoint"
+      ],
+      "description": "Standby Cooling"
+    },
+    {
+      "enum": [
+        10,
+        "tecLongViewStringsStbyHeatingSetpoint"
+      ],
+      "description": "Standby Heating"
+    },
+    {
+      "enum": [
+        11,
+        "tecLongViewStringsHumiditySetpoint"
+      ],
+      "description": "Dehumidification"
+    },
+    {
+      "enum": [
+        12,
+        "tecLongViewStringsHoldRun"
+      ],
+      "description": "Hold/Run"
+    },
+    {
+      "enum": [
+        13,
+        "tecLongViewStringsMorningWarmCoolEnable"
+      ],
+      "description": "Morning Warm/Cool Enable"
+    },
+    {
+      "enum": [
+        14,
+        "tecLongViewStringsTempOccDuration"
+      ],
+      "description": "Temp Occ Duration"
+    },
+    {
+      "enum": [
+        15,
+        "tecLongViewStringsPirTimeout"
+      ],
+      "description": "Motion Sensor Timeout"
+    },
+    {
+      "enum": [
+        16,
+        "tecLongViewStringsPasscodeEnabled"
+      ],
+      "description": "Passcode Enabled"
+    },
+    {
+      "enum": [
+        17,
+        "tecLongViewStringsPasscode"
+      ],
+      "description": "Passcode"
+    },
+    {
+      "enum": [
+        18,
+        "tecLongViewStringsSetpointPasscodeReqd"
+      ],
+      "description": "Setpoint Passcode Req'd"
+    },
+    {
+      "enum": [
+        19,
+        "tecLongViewStringsShowFanButton"
+      ],
+      "description": "Show Fan Button on Home"
+    },
+    {
+      "enum": [
+        20,
+        "tecLongViewStringsShowTemp"
+      ],
+      "description": "Show Temp on Home"
+    },
+    {
+      "enum": [
+        21,
+        "tecLongViewStringsShowHumidity"
+      ],
+      "description": "Show Humidity on Home"
+    },
+    {
+      "enum": [
+        22,
+        "tecLongViewStringsShowOffButton"
+      ],
+      "description": "Show Off Button on Home"
+    },
+    {
+      "enum": [
+        23,
+        "tecLongViewStringsShowSetpoint"
+      ],
+      "description": "Show Setpoint on Home"
+    },
+    {
+      "enum": [
+        24,
+        "tecLongViewStringsControlMode"
+      ],
+      "description": "Control Mode"
+    },
+    {
+      "enum": [
+        25,
+        "tecLongViewStringsUnitEnable"
+      ],
+      "description": "Unit Enable"
+    },
+    {
+      "enum": [
+        26,
+        "tecLongViewStringsFanMode"
+      ],
+      "description": "Fan Mode"
+    },
+    {
+      "enum": [
+        27,
+        "tecLongViewStringsFanSpeed"
+      ],
+      "description": "Fan Speed"
+    },
+    {
+      "enum": [
+        28,
+        "tecLongViewStringsMaxHeatingSetpoint"
+      ],
+      "description": "Max Heating Setpoint"
+    },
+    {
+      "enum": [
+        29,
+        "tecLongViewStringsMaxCoolingSetpoint"
+      ],
+      "description": "Max Cooling Setpoint"
+    },
+    {
+      "enum": [
+        30,
+        "tecLongViewStringsFanOnDelay"
+      ],
+      "description": "Fan On Delay"
+    },
+    {
+      "enum": [
+        31,
+        "tecLongViewStringsFanOffDelay"
+      ],
+      "description": "Fan Off Delay"
+    },
+    {
+      "enum": [
+        32,
+        "tecLongViewStringsFrostProtection"
+      ],
+      "description": "Frost Protection"
+    },
+    {
+      "enum": [
+        33,
+        "tecLongViewStringsResetPidTuning"
+      ],
+      "description": "Reset PID Tuning"
+    },
+    {
+      "enum": [
+        34,
+        "tecLongViewStringsAutoTuningEnable"
+      ],
+      "description": "Auto PID Tuning Enable"
+    },
+    {
+      "enum": [
+        35,
+        "tecLongViewStringsBi1Config"
+      ],
+      "description": "BI1 Config"
+    },
+    {
+      "enum": [
+        36,
+        "tecLongViewStringsBi2Config"
+      ],
+      "description": "BI2 Config"
+    },
+    {
+      "enum": [
+        37,
+        "tecLongViewStringsSupplyTempType"
+      ],
+      "description": "Supply Temp Type"
+    },
+    {
+      "enum": [
+        38,
+        "tecLongViewStringsSupplyTempSensor"
+      ],
+      "description": "Supply Temp Sensor"
+    },
+    {
+      "enum": [
+        39,
+        "tecLongViewStringsOaTempSensor"
+      ],
+      "description": "Outdoor Temp Sensor"
+    },
+    {
+      "enum": [
+        40,
+        "tecLongViewStringsZoneTempSensor"
+      ],
+      "description": "Zone Temp Sensor"
+    },
+    {
+      "enum": [
+        41,
+        "tecLongViewStringsSupplyTempOffset"
+      ],
+      "description": "Supply Temp Offset"
+    },
+    {
+      "enum": [
+        42,
+        "tecLongViewStringsResetSensors"
+      ],
+      "description": "Reset Sensors"
+    },
+    {
+      "enum": [
+        43,
+        "tecLongViewStringsFcCommMode"
+      ],
+      "description": "FC Bus Comm Mode"
+    },
+    {
+      "enum": [
+        44,
+        "tecLongViewStringsBacnetInstanceId"
+      ],
+      "description": "BACnet Instance ID"
+    },
+    {
+      "enum": [
+        45,
+        "tecLongViewStringsN2DeviceAddress"
+      ],
+      "description": "N2 Address"
+    },
+    {
+      "enum": [
+        46,
+        "tecLongViewStringsBacnetDeviceAddress"
+      ],
+      "description": "BACnet Address"
+    },
+    {
+      "enum": [
+        47,
+        "tecLongViewStringsMstpBaudRate"
+      ],
+      "description": "MSTP Baud Rate"
+    },
+    {
+      "enum": [
+        48,
+        "tecLongViewStringsUnitType"
+      ],
+      "description": "Unit Type"
+    },
+    {
+      "enum": [
+        49,
+        "tecLongViewStringsDehumEnable"
+      ],
+      "description": "Dehumidification Enable"
+    },
+    {
+      "enum": [
+        50,
+        "tecLongViewStringsHtgClgDeviceType"
+      ],
+      "description": "Htg/Clg Device Type"
+    },
+    {
+      "enum": [
+        51,
+        "tecLongViewStringsChangeoverMode"
+      ],
+      "description": "Changeover Mode"
+    },
+    {
+      "enum": [
+        52,
+        "tecLongViewStringsActuatorStrokeTime"
+      ],
+      "description": "Actuator Stroke Time"
+    },
+    {
+      "enum": [
+        53,
+        "tecLongViewStringsNumberOfCompressors"
+      ],
+      "description": "Number of Compressors"
+    },
+    {
+      "enum": [
+        54,
+        "tecLongViewStringsLeadLagEqualization"
+      ],
+      "description": "Runtime Equalization"
+    },
+    {
+      "enum": [
+        55,
+        "tecLongViewStringsNumberOfHeatingStages"
+      ],
+      "description": "Number of Heating Stages"
+    },
+    {
+      "enum": [
+        56,
+        "tecLongViewStringsCompressorMinOnTime"
+      ],
+      "description": "Compressor Min On Time"
+    },
+    {
+      "enum": [
+        57,
+        "tecLongViewStringsCompressorMinOffTime"
+      ],
+      "description": "Compressor Min Off Time"
+    },
+    {
+      "enum": [
+        58,
+        "tecLongViewStringsCoolingMinOnTime"
+      ],
+      "description": "Cooling Min On Time"
+    },
+    {
+      "enum": [
+        59,
+        "tecLongViewStringsCoolingMinOffTime"
+      ],
+      "description": "Cooling Min Off Time"
+    },
+    {
+      "enum": [
+        60,
+        "tecLongViewStringsHeatingMinOnTime"
+      ],
+      "description": "Heating Min On Time"
+    },
+    {
+      "enum": [
+        61,
+        "tecLongViewStringsHeatingMinOffTime"
+      ],
+      "description": "Heating Min Off Time"
+    },
+    {
+      "enum": [
+        62,
+        "tecLongViewStringsReheatMinOnTime"
+      ],
+      "description": "Reheat Min On Time"
+    },
+    {
+      "enum": [
+        63,
+        "tecLongViewStringsReheatMinOffTime"
+      ],
+      "description": "Reheat Min Off Time"
+    },
+    {
+      "enum": [
+        64,
+        "tecLongViewStringsCoolingLockoutTemp"
+      ],
+      "description": "Cooling Lockout Temp"
+    },
+    {
+      "enum": [
+        65,
+        "tecLongViewStringsHeatingLockoutTemp"
+      ],
+      "description": "Heating Lockout Temp"
+    },
+    {
+      "enum": [
+        66,
+        "tecLongViewStringsSupplyFanType"
+      ],
+      "description": "Supply Fan Type"
+    },
+    {
+      "enum": [
+        67,
+        "tecLongViewStringsStartVoltage"
+      ],
+      "description": "Start Voltage"
+    },
+    {
+      "enum": [
+        68,
+        "tecLongViewStringsFullSpeedVoltage"
+      ],
+      "description": "Full Speed Voltage"
+    },
+    {
+      "enum": [
+        69,
+        "tecLongViewStringsMinCommand"
+      ],
+      "description": "Minimum Command"
+    },
+    {
+      "enum": [
+        70,
+        "tecLongViewStringsMedFanSpeedOnCmd"
+      ],
+      "description": "Medium Speed On Cmd"
+    },
+    {
+      "enum": [
+        71,
+        "tecLongViewStringsHighFanSpeedOnCmd"
+      ],
+      "description": "High Speed On Cmd"
+    },
+    {
+      "enum": [
+        72,
+        "tecLongViewStringsSupplementalOutputs"
+      ],
+      "description": "Supplemental Outputs"
+    },
+    {
+      "enum": [
+        73,
+        "tecLongViewStringsReheatInstalled"
+      ],
+      "description": "Reheat Installed"
+    },
+    {
+      "enum": [
+        74,
+        "tecLongViewStringsReheatMinDamperPos"
+      ],
+      "description": "Reheat Min Damper Pos"
+    },
+    {
+      "enum": [
+        75,
+        "tecLongViewStringsEconomizerInstalled"
+      ],
+      "description": "Economizer Installed"
+    },
+    {
+      "enum": [
+        76,
+        "tecLongViewStringsEconomizerMinPos"
+      ],
+      "description": "Minimum Position"
+    },
+    {
+      "enum": [
+        77,
+        "tecLongViewStringsOadClosedVoltage"
+      ],
+      "description": "Closed Voltage"
+    },
+    {
+      "enum": [
+        78,
+        "tecLongViewStringsOadOpenVoltage"
+      ],
+      "description": "Opened Voltage"
+    },
+    {
+      "enum": [
+        79,
+        "tecLongViewStringsHeatPumpSupported"
+      ],
+      "description": "Heat Pump Supported"
+    },
+    {
+      "enum": [
+        80,
+        "tecLongViewStringsSuppHeatingInstalled"
+      ],
+      "description": "Supp Heating Installed"
+    },
+    {
+      "enum": [
+        81,
+        "tecLongViewStringsCompLowLockoutTemp"
+      ],
+      "description": "Comp Low Lockout Temp"
+    },
+    {
+      "enum": [
+        82,
+        "tecLongViewStringsCompHighLockoutTemp"
+      ],
+      "description": "Supp High Lockout Temp"
+    },
+    {
+      "enum": [
+        83,
+        "tecLongViewStringsRevValvePolarity"
+      ],
+      "description": "Reversing Valve Polarity"
+    },
+    {
+      "enum": [
+        84,
+        "tecLongViewStringsZoneTemperature"
+      ],
+      "description": "Zone Temperature"
+    },
+    {
+      "enum": [
+        85,
+        "tecLongViewStringsZoneHumidity"
+      ],
+      "description": "Zone Humidity"
+    },
+    {
+      "enum": [
+        86,
+        "tecLongViewStringsActiveSetpoint"
+      ],
+      "description": "Active Setpoint"
+    },
+    {
+      "enum": [
+        87,
+        "tecLongViewStringsOccupancyMode"
+      ],
+      "description": "Occupancy Mode"
+    },
+    {
+      "enum": [
+        88,
+        "tecLongViewStringsFanActive"
+      ],
+      "description": "Fan Active"
+    },
+    {
+      "enum": [
+        89,
+        "tecLongViewStringsCoolingCommand"
+      ],
+      "description": "Cooling % Command"
+    },
+    {
+      "enum": [
+        90,
+        "tecLongViewStringsHeatingCommand"
+      ],
+      "description": "Heating % Command"
+    },
+    {
+      "enum": [
+        91,
+        "tecLongViewStringsReheatCommand"
+      ],
+      "description": "Reheat % Command"
+    },
+    {
+      "enum": [
+        92,
+        "tecLongViewStringsEconomizerCommand"
+      ],
+      "description": "Economizer % Command"
+    },
+    {
+      "enum": [
+        93,
+        "tecLongViewStringsCoolStage1"
+      ],
+      "description": "Cool Stage 1"
+    },
+    {
+      "enum": [
+        94,
+        "tecLongViewStringsCoolStage2"
+      ],
+      "description": "Cool Stage 2"
+    },
+    {
+      "enum": [
+        95,
+        "tecLongViewStringsHeatStage1"
+      ],
+      "description": "Heat Stage 1"
+    },
+    {
+      "enum": [
+        96,
+        "tecLongViewStringsHeatStage2"
+      ],
+      "description": "Heat Stage 2"
+    },
+    {
+      "enum": [
+        97,
+        "tecLongViewStringsReheat"
+      ],
+      "description": "Reheat"
+    },
+    {
+      "enum": [
+        98,
+        "tecLongViewStringsFanCommand"
+      ],
+      "description": "Fan % Command"
+    },
+    {
+      "enum": [
+        99,
+        "tecLongViewStringsChangeoverState"
+      ],
+      "description": "Changeover State"
+    },
+    {
+      "enum": [
+        100,
+        "tecLongViewStringsOccupancySource"
+      ],
+      "description": "Occupancy Source"
+    },
+    {
+      "enum": [
+        101,
+        "tecLongViewStringsControlState"
+      ],
+      "description": "Control State"
+    },
+    {
+      "enum": [
+        102,
+        "tecLongViewStringsGeneralControlSetup"
+      ],
+      "description": "General Control Setup"
+    },
+    {
+      "enum": [
+        103,
+        "tecLongViewStringsGeneralEquipmentSetup"
+      ],
+      "description": "General Equipment Setup"
+    },
+    {
+      "enum": [
+        104,
+        "tecLongViewStringsOaTempSensorOffset"
+      ],
+      "description": "Outdoor Temp Offset"
+    },
+    {
+      "enum": [
+        105,
+        "tecLongViewStringsZoneTempOffset"
+      ],
+      "description": "Zone Temp Offset"
+    },
+    {
+      "enum": [
+        106,
+        "tecLongViewStringsSetpointOffset"
+      ],
+      "description": "Setpoint Offset"
+    },
+    {
+      "enum": [
+        107,
+        "tecLongViewStringsTempOcc"
+      ],
+      "description": "Temp Occ"
+    },
+    {
+      "enum": [
+        108,
+        "tecLongViewStringsManualOccupancyMode"
+      ],
+      "description": "Manual Occupancy Mode"
+    },
+    {
+      "enum": [
+        109,
+        "tecLongViewStringsShowAlarms"
+      ],
+      "description": "Show Alarms on Home"
+    },
+    {
+      "enum": [
+        110,
+        "tecLongViewStringsFanOverride"
+      ],
+      "description": "Fan Override"
+    },
+    {
+      "enum": [
+        111,
+        "tecLongViewStringsMaxSetpointOffset"
+      ],
+      "description": "Max Setpoint Offset"
+    },
+    {
+      "enum": [
+        112,
+        "tecLongViewStringsFanOn"
+      ],
+      "description": "Fan On"
+    },
+    {
+      "enum": [
+        113,
+        "tecLongViewStringsSoftwareVersion"
+      ],
+      "description": "Software Version"
+    },
+    {
+      "enum": [
+        114,
+        "tecLongViewStringsGeneralFirmwareStatistics"
+      ],
+      "description": "General Firmware Statistics"
+    },
+    {
+      "enum": [
+        115,
+        "tecLongViewStringsTroubleStatistics"
+      ],
+      "description": "Trouble Statistics"
+    },
+    {
+      "enum": [
+        116,
+        "tecLongViewStringsInformationalStatistics"
+      ],
+      "description": "Informational Statistics"
+    },
+    {
+      "enum": [
+        117,
+        "tecLongViewStringsOccupancyScheduleSource"
+      ],
+      "description": "Occupancy Schedule Source"
+    },
+    {
+      "enum": [
+        118,
+        "tecLongViewStringsLocalTempSensorOffset"
+      ],
+      "description": "Local Temp Sensor Offset"
+    },
+    {
+      "enum": [
+        119,
+        "tecLongViewStringsDryBulbSetpoint"
+      ],
+      "description": "Dry Bulb Setpoint"
+    },
+    {
+      "enum": [
+        120,
+        "tecLongViewStringsOaEnthalpySetpoint"
+      ],
+      "description": "Outdoor Enthalpy Setpoint"
+    },
+    {
+      "enum": [
+        121,
+        "tecLongViewStringsOutdoorAirTemperature"
+      ],
+      "description": "Outdoor Air Temperature"
+    },
+    {
+      "enum": [
+        122,
+        "tecLongViewStringsSupplyAirTemperature"
+      ],
+      "description": "Supply Air Temperature"
+    },
+    {
+      "enum": [
+        123,
+        "tecLongViewStringsScheduleSource"
+      ],
+      "description": "Schedule Source"
+    },
+    {
+      "enum": [
+        124,
+        "tecLongViewStringsSuppMinOnTime"
+      ],
+      "description": "Supp Min On Time"
+    },
+    {
+      "enum": [
+        125,
+        "tecLongViewStringsSuppMinOffTime"
+      ],
+      "description": "Supp Min Off Time"
+    },
+    {
+      "enum": [
+        126,
+        "tecLongViewStringsCoolingOaLockout"
+      ],
+      "description": "Cooling OAT Lockout"
+    },
+    {
+      "enum": [
+        127,
+        "tecLongViewStringsHeatingOaLockout"
+      ],
+      "description": "Heating OAT Lockout"
+    },
+    {
+      "enum": [
+        128,
+        "tecLongViewStringsCompLowOaLockout"
+      ],
+      "description": "Comp Low OAT Lockout"
+    },
+    {
+      "enum": [
+        129,
+        "tecLongViewStringsSupplyTemperature"
+      ],
+      "description": "Supply Temperature"
+    },
+    {
+      "enum": [
+        130,
+        "tecLongViewStringsSuppHighOaLockout"
+      ],
+      "description": "Supp High OAT Lockout"
+    },
+    {
+      "enum": [
+        131,
+        "tecLongViewStringsSupplyFan"
+      ],
+      "description": "Supply Fan"
+    },
+    {
+      "enum": [
+        132,
+        "tecLongViewStringsZoneTempSource"
+      ],
+      "description": "Zone Temp Source"
+    },
+    {
+      "enum": [
+        133,
+        "tecLongViewStringsSupplyTempSource"
+      ],
+      "description": "Supply Temp Source"
+    },
+    {
+      "enum": [
+        134,
+        "tecLongViewStringsOutdoorTempSource"
+      ],
+      "description": "Outdoor Temp Source"
+    },
+    {
+      "enum": [
+        135,
+        "tecLongViewStringsZoneHumiditySource"
+      ],
+      "description": "Zone Humidity Source"
+    },
+    {
+      "enum": [
+        136,
+        "tecLongViewStringsOutdoorHumiditySource"
+      ],
+      "description": "Outdoor Humidity Source"
+    },
+    {
+      "enum": [
+        137,
+        "tecLongViewStringsRadioPanId"
+      ],
+      "description": "PAN ID"
+    },
+    {
+      "enum": [
+        138,
+        "tecLongViewStringsRadioCodeVersion"
+      ],
+      "description": "Radio Code Version"
+    },
+    {
+      "enum": [
+        139,
+        "tecLongViewStringsActiveChannel"
+      ],
+      "description": "Active Channel"
+    },
+    {
+      "enum": [
+        140,
+        "tecLongViewStringsSignalStrength"
+      ],
+      "description": "Signal Strength"
+    },
+    {
+      "enum": [
+        141,
+        "tecLongViewStringsConnectionStatus"
+      ],
+      "description": "Connection Status"
+    },
+    {
+      "enum": [
+        142,
+        "tecLongViewStringsNetworkState"
+      ],
+      "description": "Network State"
+    },
+    {
+      "enum": [
+        143,
+        "tecLongViewStringsIeeeAddress"
+      ],
+      "description": "IEEE Address"
+    },
+    {
+      "enum": [
+        144,
+        "tecLongViewStringsNetworkAddress"
+      ],
+      "description": "Short Address"
+    },
+    {
+      "enum": [
+        145,
+        "tecLongViewStringsLostCoordinatorCounter"
+      ],
+      "description": "Lost Coordinator Counter"
+    },
+    {
+      "enum": [
+        146,
+        "tecLongViewStringsLowMemoryCounter"
+      ],
+      "description": "Low Memory Counter"
+    },
+    {
+      "enum": [
+        147,
+        "tecLongViewStringsDroppedMessageCounter"
+      ],
+      "description": "Dropped Message Counter"
+    },
+    {
+      "enum": [
+        148,
+        "tecLongViewStringsNetworkStatus"
+      ],
+      "description": "Network Status"
+    },
+    {
+      "enum": [
+        149,
+        "tecLongViewStringsReturnTempSensor"
+      ],
+      "description": "Return Temp Sensor"
+    },
+    {
+      "enum": [
+        150,
+        "tecLongViewStringsReturnTempOffset"
+      ],
+      "description": "Return Temp Offset"
+    },
+    {
+      "enum": [
+        151,
+        "tecLongViewStringsSupervisorStatus"
+      ],
+      "description": "Supervisor Status"
+    },
+    {
+      "enum": [
+        152,
+        "tecLongViewStringsHeatingIneffective"
+      ],
+      "description": "Heating Ineffective"
+    },
+    {
+      "enum": [
+        153,
+        "tecLongViewStringsCoolingIneffective"
+      ],
+      "description": "Cooling Ineffective"
+    },
+    {
+      "enum": [
+        154,
+        "tecLongViewStringsZoneTooHot"
+      ],
+      "description": "Zone Too Hot"
+    },
+    {
+      "enum": [
+        155,
+        "tecLongViewStringsZoneTooCold"
+      ],
+      "description": "Zone Too Cold"
+    },
+    {
+      "enum": [
+        156,
+        "tecLongViewStringsFanAlarmAction"
+      ],
+      "description": "Fan Alarm Action"
+    },
+    {
+      "enum": [
+        157,
+        "tecLongViewStringsFanAlarmDelay"
+      ],
+      "description": "Fan Alarm Delay"
+    },
+    {
+      "enum": [
+        158,
+        "tecLongViewStringsZoneTempAlarmEnabled"
+      ],
+      "description": "Zone Temp Alarm Enabled"
+    },
+    {
+      "enum": [
+        159,
+        "tecLongViewStringsZoneTempHighLimit"
+      ],
+      "description": "Zone Temp High Limit"
+    },
+    {
+      "enum": [
+        160,
+        "tecLongViewStringsZoneTempLowLimit"
+      ],
+      "description": "Zone Temp Low Limit"
+    },
+    {
+      "enum": [
+        161,
+        "tecLongViewStringsZoneTempLowAlarm"
+      ],
+      "description": "Zone Temp Low Alarm"
+    },
+    {
+      "enum": [
+        162,
+        "tecLongViewStringsZoneTempHighAlarm"
+      ],
+      "description": "Zone Temp High Alarm"
+    },
+    {
+      "enum": [
+        163,
+        "tecLongViewStringsDiagnostics"
+      ],
+      "description": "Diagnostics"
+    },
+    {
+      "enum": [
+        164,
+        "tecLongViewStringsSupplyTempAlarmEnable"
+      ],
+      "description": "Supply Temp Alarm Enable"
+    },
+    {
+      "enum": [
+        165,
+        "tecLongViewStringsSupplyTempAlarmDifferential"
+      ],
+      "description": "Supply Temp Alarm Differential"
+    },
+    {
+      "enum": [
+        166,
+        "tecLongViewStringsTable"
+      ],
+      "description": "Table"
+    },
+    {
+      "enum": [
+        167,
+        "tecLongViewStringsGraph"
+      ],
+      "description": "Graph"
+    },
+    {
+      "enum": [
+        168,
+        "tecLongViewStringsUnavailable"
+      ],
+      "description": "Unavailable"
+    },
+    {
+      "enum": [
+        169,
+        "tecLongViewStringsTempControlBand"
+      ],
+      "description": "Temp Control Band"
+    },
+    {
+      "enum": [
+        170,
+        "tecLongViewStringsEffectiveZoneHumidity"
+      ],
+      "description": "Effective Zone Humidity"
+    },
+    {
+      "enum": [
+        171,
+        "tecLongViewStringsLockoutLevel"
+      ],
+      "description": "Lockout Level"
+    },
+    {
+      "enum": [
+        172,
+        "tecLongViewStringsUnoccMinOnTime"
+      ],
+      "description": "Unocc Min On Time"
+    }
+  ]
+}

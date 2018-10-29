@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/andOrEnumSet.schema.json",
+  "title": "andOrEnumSet",
+  "description": "And/Or",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "andorAnd"
+      ],
+      "description": "And"
+    },
+    {
+      "enum": [
+        1,
+        "andorOr"
+      ],
+      "description": "Or"
+    }
+  ]
+}

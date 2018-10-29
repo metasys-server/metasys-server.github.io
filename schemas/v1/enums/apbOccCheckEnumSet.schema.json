@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/apbOccCheckEnumSet.schema.json",
+  "title": "apbOccCheckEnumSet",
+  "description": "APB OCC Check",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "apbOccCheckDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "apbOccCheckMonitorOnly"
+      ],
+      "description": "Monitor Only"
+    },
+    {
+      "enum": [
+        2,
+        "apbOccCheckEnforceOnlyWhenOperational"
+      ],
+      "description": "Enforce, Only When Operational"
+    },
+    {
+      "enum": [
+        3,
+        "apbOccCheckEnforceAndDenyDuringTrouble"
+      ],
+      "description": "Enforce, and Deny During Trouble"
+    }
+  ]
+}

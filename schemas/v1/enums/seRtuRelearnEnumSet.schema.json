@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuRelearnEnumSet.schema.json",
+  "title": "seRtuRelearnEnumSet",
+  "description": "Relearn",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuRelearnFalse"
+      ],
+      "description": "False"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuRelearnTrue"
+      ],
+      "description": "True"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/identifierTypeEnumSet.schema.json",
+  "title": "identifierTypeEnumSet",
+  "description": "Identifier Type Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "identifierTypeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "identifierTypeBadge"
+      ],
+      "description": "Badge"
+    },
+    {
+      "enum": [
+        2,
+        "identifierTypeCardId"
+      ],
+      "description": "Card ID"
+    },
+    {
+      "enum": [
+        3,
+        "identifierTypeBiometric"
+      ],
+      "description": "Biometric"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcSafeAlarmMntEnumSet.schema.json",
+  "title": "unityXlcSafeAlarmMntEnumSet",
+  "description": "Unity XLC Safe Alarm Mnt",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "MNT"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "MNT1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "MNT2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MNT3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, MNT"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, MNT1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/diagnosticLoggerFormatTypeEnumSet.schema.json",
+  "title": "diagnosticLoggerFormatTypeEnumSet",
+  "description": "Diagnostic Logger Format Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "diagnosticLoggerCsvFormatType"
+      ],
+      "description": "CSV"
+    },
+    {
+      "enum": [
+        1,
+        "diagnosticLoggerXmlFormatType"
+      ],
+      "description": "XML"
+    }
+  ]
+}

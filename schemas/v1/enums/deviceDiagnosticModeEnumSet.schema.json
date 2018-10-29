@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/deviceDiagnosticModeEnumSet.schema.json",
+  "title": "deviceDiagnosticModeEnumSet",
+  "description": "Device Diagnostic Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Time Method of an Object"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Time Period of an Object"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Time All Methods of a Class"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Time Worst Method of Every Class"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Time Nothing"
+    }
+  ]
+}

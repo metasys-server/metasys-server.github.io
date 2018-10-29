@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/windDir16EnumSet.schema.json",
+  "title": "windDir16EnumSet",
+  "description": "Wind Dir 16",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "windDir16N"
+      ],
+      "description": "N"
+    },
+    {
+      "enum": [
+        1,
+        "windDir16Nne"
+      ],
+      "description": "NNE"
+    },
+    {
+      "enum": [
+        2,
+        "windDir16Ne"
+      ],
+      "description": "NE"
+    },
+    {
+      "enum": [
+        3,
+        "windDir16Ene"
+      ],
+      "description": "ENE"
+    },
+    {
+      "enum": [
+        4,
+        "windDir16E"
+      ],
+      "description": "E"
+    },
+    {
+      "enum": [
+        5,
+        "windDir16Ese"
+      ],
+      "description": "ESE"
+    },
+    {
+      "enum": [
+        6,
+        "windDir16Se"
+      ],
+      "description": "SE"
+    },
+    {
+      "enum": [
+        7,
+        "windDir16Sse"
+      ],
+      "description": "SSE"
+    },
+    {
+      "enum": [
+        8,
+        "windDir16S"
+      ],
+      "description": "S"
+    },
+    {
+      "enum": [
+        9,
+        "windDir16Ssw"
+      ],
+      "description": "SSW"
+    },
+    {
+      "enum": [
+        10,
+        "windDir16Sw"
+      ],
+      "description": "SW"
+    },
+    {
+      "enum": [
+        11,
+        "windDir16Wsw"
+      ],
+      "description": "WSW"
+    },
+    {
+      "enum": [
+        12,
+        "windDir16W"
+      ],
+      "description": "W"
+    },
+    {
+      "enum": [
+        13,
+        "windDir16Wnw"
+      ],
+      "description": "WNW"
+    },
+    {
+      "enum": [
+        14,
+        "windDir16Nw"
+      ],
+      "description": "NW"
+    },
+    {
+      "enum": [
+        15,
+        "windDir16Nnw"
+      ],
+      "description": "NNW"
+    }
+  ]
+}

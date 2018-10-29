@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacRestartReasonEnumSet.schema.json",
+  "title": "bacRestartReasonEnumSet",
+  "description": "BAC Restart Reason",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "brrUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "brrColdstart"
+      ],
+      "description": "Cold Start"
+    },
+    {
+      "enum": [
+        2,
+        "brrWarmstart"
+      ],
+      "description": "Warm Start"
+    },
+    {
+      "enum": [
+        3,
+        "brrPowerLost"
+      ],
+      "description": "Detected Power Lost"
+    },
+    {
+      "enum": [
+        4,
+        "brrPowerOff"
+      ],
+      "description": "Detected Powered Off"
+    },
+    {
+      "enum": [
+        5,
+        "brrHwWatchdog"
+      ],
+      "description": "Hardware Watchdog"
+    },
+    {
+      "enum": [
+        6,
+        "brrSwWatchdog"
+      ],
+      "description": "Software Watchdog"
+    },
+    {
+      "enum": [
+        7,
+        "brrSuspended"
+      ],
+      "description": "Suspended"
+    },
+    {
+      "enum": [
+        8,
+        "brrActivateChanges"
+      ],
+      "description": "Activate Changes"
+    }
+  ]
+}

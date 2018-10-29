@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/grantDirectionEnumSet.schema.json",
+  "title": "grantDirectionEnumSet",
+  "description": "Grant Direction",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacGrantDirectionUnknown"
+      ],
+      "description": "Access entry or exit"
+    },
+    {
+      "enum": [
+        1,
+        "bacGrantDirectionIn"
+      ],
+      "description": "Access was entry"
+    },
+    {
+      "enum": [
+        2,
+        "bacGrantDirectionOut"
+      ],
+      "description": "Access was exit"
+    },
+    {
+      "enum": [
+        3,
+        "bacGrantDirectionToggle"
+      ],
+      "description": "Access toggled"
+    }
+  ]
+}

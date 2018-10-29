@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/controlStatusEnumSet.schema.json",
+  "title": "controlStatusEnumSet",
+  "description": "Control Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "csNormalStatus"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "csLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        2,
+        "csTimingLow"
+      ],
+      "description": "Timing Low"
+    },
+    {
+      "enum": [
+        3,
+        "csHigh"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        4,
+        "csTimingHigh"
+      ],
+      "description": "Timing High"
+    },
+    {
+      "enum": [
+        5,
+        "csDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        6,
+        "csOverridden"
+      ],
+      "description": "Overridden"
+    }
+  ]
+}

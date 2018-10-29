@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/correctionSelectionEnumSet.schema.json",
+  "title": "correctionSelectionEnumSet",
+  "description": "Correction Selection",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "correctionSelectionNone"
+      ],
+      "description": "No Detection Or Correction"
+    },
+    {
+      "enum": [
+        1,
+        "correctionSelectionDetectOnly"
+      ],
+      "description": "Detection Only"
+    },
+    {
+      "enum": [
+        2,
+        "correctionSelectionDetectAndCorrectProtect0To3"
+      ],
+      "description": "Detection And Correction With Addresses 0 To 3 Protected"
+    },
+    {
+      "enum": [
+        3,
+        "correctionSelectionDetectAndCorrectDoNotProtect0To3"
+      ],
+      "description": "Detection And Correction With Addresses 0 To 3 Unprotected"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtMotorStateEnumSet.schema.json",
+  "title": "snvtMotorStateEnumSet",
+  "description": "SNVT Motor State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Stopped"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Starting"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Accelerating"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Reference"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Decelerating"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Stopping"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

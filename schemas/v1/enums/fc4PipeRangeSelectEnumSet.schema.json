@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fc4PipeRangeSelectEnumSet.schema.json",
+  "title": "fc4PipeRangeSelectEnumSet",
+  "description": "FC 4-Pipe Range Select",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fprHtgClg"
+      ],
+      "description": "Heating/Cooling"
+    },
+    {
+      "enum": [
+        1,
+        "fprClgHtg"
+      ],
+      "description": "Cooling/Heating"
+    }
+  ]
+}

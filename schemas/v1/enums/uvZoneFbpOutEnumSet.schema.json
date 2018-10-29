@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uvZoneFbpOutEnumSet.schema.json",
+  "title": "uvZoneFbpOutEnumSet",
+  "description": "UV Zone FBP Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fbpOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "fbpMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "fbpLmtMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "fbpHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "fbpWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "fbpControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        6,
+        "fbpFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        7,
+        "fbpCooling"
+      ],
+      "description": "Cooling"
+    }
+  ]
+}

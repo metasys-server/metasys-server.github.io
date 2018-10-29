@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyDriveSelectEnumSet.schema.json",
+  "title": "ltcLegacyDriveSelectEnumSet",
+  "description": "York LTC Legacy Drive Selection",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyDriveSelect0"
+      ],
+      "description": "Variable Speed"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyDriveSelect1"
+      ],
+      "description": "Fixed Speed"
+    }
+  ]
+}

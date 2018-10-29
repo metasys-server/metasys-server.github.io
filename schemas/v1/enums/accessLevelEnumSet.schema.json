@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/accessLevelEnumSet.schema.json",
+  "title": "accessLevelEnumSet",
+  "description": "Access Level",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noAccess"
+      ],
+      "description": "No Access"
+    },
+    {
+      "enum": [
+        1,
+        "viewAccess"
+      ],
+      "description": "View"
+    },
+    {
+      "enum": [
+        2,
+        "operateAccess"
+      ],
+      "description": "Operate"
+    },
+    {
+      "enum": [
+        3,
+        "interveneAccess"
+      ],
+      "description": "Intervene"
+    },
+    {
+      "enum": [
+        4,
+        "superviseAccess"
+      ],
+      "description": "Supervise"
+    },
+    {
+      "enum": [
+        5,
+        "modifyAccess"
+      ],
+      "description": "Modify"
+    },
+    {
+      "enum": [
+        6,
+        "configureAccess"
+      ],
+      "description": "Configure"
+    }
+  ]
+}

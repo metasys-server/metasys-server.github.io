@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/utilityTypeEnumSet.schema.json",
+  "title": "utilityTypeEnumSet",
+  "description": "Utility Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "utilityTypeOther"
+      ],
+      "description": "Other"
+    },
+    {
+      "enum": [
+        1,
+        "utilityTypeWater"
+      ],
+      "description": "Water Dist."
+    },
+    {
+      "enum": [
+        2,
+        "utilityTypeElectricity"
+      ],
+      "description": "Electricity"
+    },
+    {
+      "enum": [
+        3,
+        "utilityTypeNaturalGas"
+      ],
+      "description": "Natural Gas"
+    },
+    {
+      "enum": [
+        4,
+        "utilityTypeSteam"
+      ],
+      "description": "Steam"
+    },
+    {
+      "enum": [
+        5,
+        "utilityTypeOil"
+      ],
+      "description": "Oil"
+    },
+    {
+      "enum": [
+        6,
+        "utilityTypeCoalCoke"
+      ],
+      "description": "Coal/Coke"
+    },
+    {
+      "enum": [
+        7,
+        "utilityTypeLiquidPetroGas"
+      ],
+      "description": "LP Gas"
+    },
+    {
+      "enum": [
+        8,
+        "utilityTypeWaterConsumption"
+      ],
+      "description": "Water Consumption"
+    }
+  ]
+}

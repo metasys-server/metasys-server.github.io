@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timeSyncStatus.schema.json",
+  "title": "timeSyncStatus",
+  "description": "Time Sync Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "timeSyncStatusUnsynced"
+      ],
+      "description": "Unsynced"
+    },
+    {
+      "enum": [
+        1,
+        "timeSyncStatusCloudSynced"
+      ],
+      "description": "Synced to Remote Services"
+    },
+    {
+      "enum": [
+        2,
+        "timeSyncStatusCloudLost"
+      ],
+      "description": "Remote Services time sync connection lost"
+    },
+    {
+      "enum": [
+        3,
+        "timeSyncStatusEqSynced"
+      ],
+      "description": "Equipment synced"
+    },
+    {
+      "enum": [
+        4,
+        "timeSyncStatusUiSynced"
+      ],
+      "description": "UI synced"
+    },
+    {
+      "enum": [
+        5,
+        "timeSyncStatusOther"
+      ],
+      "description": "Synced - other (unidentified)"
+    }
+  ]
+}

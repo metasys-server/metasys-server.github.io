@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/loadUseEnumSet.schema.json",
+  "title": "loadUseEnumSet",
+  "description": "Load Use",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "useForDlAndLr"
+      ],
+      "description": "For DL & LR"
+    },
+    {
+      "enum": [
+        1,
+        "useForDlOnly"
+      ],
+      "description": "For DL only"
+    },
+    {
+      "enum": [
+        2,
+        "useForLrOnly"
+      ],
+      "description": "For LR only"
+    }
+  ]
+}

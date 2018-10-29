@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydSc5EnumSet.schema.json",
+  "title": "ydSc5EnumSet",
+  "description": "YD Warning Code SC.5",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ydSc50"
+      ],
+      "description": "NO MODIFIED RUN CONDITIONS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ydSc51"
+      ],
+      "description": "LEAVING CHILLED LIQUID CONTROL"
+    },
+    {
+      "enum": [
+        2,
+        "ydSc52"
+      ],
+      "description": "SYSTEM UNLOADING BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "ydSc53"
+      ],
+      "description": "LAG COMPRESSOR UNLOADING BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        4,
+        "ydSc54"
+      ],
+      "description": "LEAD MOTOR - PULLDOWN LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "ydSc55"
+      ],
+      "description": "LEAD MOTOR - HIGH CURRENT LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "ydSc56"
+      ],
+      "description": "MOTOR #1 START INHIBIT - ANTI-RECYCLE"
+    },
+    {
+      "enum": [
+        7,
+        "ydSc57"
+      ],
+      "description": "MOTOR #2 START INHIBIT - ANTI-RECYCLE"
+    },
+    {
+      "enum": [
+        8,
+        "ydSc58"
+      ],
+      "description": "VANES #1 START INHIBIT - MOTOR SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "ydSc59"
+      ],
+      "description": "VANES #2 START INHIBIT - MOTOR SWITCH OPEN"
+    },
+    {
+      "enum": [
+        10,
+        "ydSc510"
+      ],
+      "description": "LAG COMPRESSOR PRELUBE"
+    },
+    {
+      "enum": [
+        11,
+        "ydSc511"
+      ],
+      "description": "LAG COMPRESSOR COASTDOWN"
+    },
+    {
+      "enum": [
+        12,
+        "ydSc512"
+      ],
+      "description": "SYSTEM IN LEAD COMPRESSOR PULLDOWN"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityEst3MessageEnumSet.schema.json",
+  "title": "unityEst3MessageEnumSet",
+  "description": "Unity EST3 Message",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ACTIVE"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "RESTORE"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "OFF, Channel 1"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "OFF, Channel 2"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "OFF, Channel 3"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "OFF, Channel 4"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "OFF, Channel 5"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "OFF, Channel 6"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "OFF, Channel 7"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "OFF, Channel 8"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "ON, Channel 1"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "ON, Channel 2"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "ON, Channel 3"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "ON, Channel 4"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "ON, Channel 5"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "ON, Channel 6"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "ON, Channel 7"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "ON, Channel 8"
+    }
+  ]
+}

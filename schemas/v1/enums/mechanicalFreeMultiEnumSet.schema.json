@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mechanicalFreeMultiEnumSet.schema.json",
+  "title": "mechanicalFreeMultiEnumSet",
+  "description": "Mechanical/Free",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mechFreeMsMechanical"
+      ],
+      "description": "Mechanical"
+    },
+    {
+      "enum": [
+        1,
+        "mechFreeMsFree"
+      ],
+      "description": "Free"
+    }
+  ]
+}

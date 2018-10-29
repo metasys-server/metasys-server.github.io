@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uvUnoccStatusEnumSet.schema.json",
+  "title": "uvUnoccStatusEnumSet",
+  "description": "UV Unocc Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "uvUnoccStatusUnoccCooling"
+      ],
+      "description": "Unocc Cooling"
+    },
+    {
+      "enum": [
+        1,
+        "uvUnoccStatusUnoccHeating"
+      ],
+      "description": "Unocc Heating"
+    },
+    {
+      "enum": [
+        2,
+        "uvUnoccStatusUnoccCntrlNotReqd"
+      ],
+      "description": "Unocc Cntrl Not Req'd"
+    },
+    {
+      "enum": [
+        3,
+        "uvUnoccStatusSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        4,
+        "uvUnoccStatusTemperatureUnreliable"
+      ],
+      "description": "Temperature Unreliable"
+    },
+    {
+      "enum": [
+        5,
+        "uvUnoccStatusLowOaT"
+      ],
+      "description": "Low OA-T"
+    }
+  ]
+}

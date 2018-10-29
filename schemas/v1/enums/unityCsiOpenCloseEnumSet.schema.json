@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityCsiOpenCloseEnumSet.schema.json",
+  "title": "unityCsiOpenCloseEnumSet",
+  "description": "Unity CSI Open Close",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Closed"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Manual On"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Manual Off"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Test On"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Test Off"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Test On-Manual On-Closed"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Test On-Manual Off-Closed"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Test Off-Manual On-Closed"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Test On-Manual On-Open"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Test On-Manual Off-Open"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Test Off-Manual On-Open"
+    }
+  ]
+}

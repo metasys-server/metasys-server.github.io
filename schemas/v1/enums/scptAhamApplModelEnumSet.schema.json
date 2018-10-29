@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scptAhamApplModelEnumSet.schema.json",
+  "title": "scptAhamApplModelEnumSet",
+  "description": "SCPT AHAM Appliance Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahamClothesWasher"
+      ],
+      "description": "Clothes Washer"
+    },
+    {
+      "enum": [
+        1,
+        "ahamRefrigeratorFreezer"
+      ],
+      "description": "Refrigerator Freezer"
+    },
+    {
+      "enum": [
+        2,
+        "ahamClothesDryer"
+      ],
+      "description": "Clothes Dryer"
+    },
+    {
+      "enum": [
+        3,
+        "ahamDishwasher"
+      ],
+      "description": "Dishwasher"
+    },
+    {
+      "enum": [
+        4,
+        "ahamRangeOvenCooktop"
+      ],
+      "description": "Range Oven Cooktop"
+    },
+    {
+      "enum": [
+        5,
+        "ahamCountertopMicrowaveOven"
+      ],
+      "description": "Countertop Microwave Oven"
+    },
+    {
+      "enum": [
+        6,
+        "ahamRoomAirConditioner"
+      ],
+      "description": "Room Air Conditioner"
+    },
+    {
+      "enum": [
+        255,
+        "ahamNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

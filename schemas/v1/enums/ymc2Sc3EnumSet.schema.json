@@ -1,0 +1,1142 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc3EnumSet.schema.json",
+  "title": "ymc2Sc3EnumSet",
+  "description": "YMC2 Cycling Fault Code SC.3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymc2Sc30"
+      ],
+      "description": "NO CYCLING FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ymc2Sc31"
+      ],
+      "description": "MULTIUNIT CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        2,
+        "ymc2Sc32"
+      ],
+      "description": "SYSTEM CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "ymc2Sc33"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "ymc2Sc34"
+      ],
+      "description": "RESERVED 4"
+    },
+    {
+      "enum": [
+        5,
+        "ymc2Sc35"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        6,
+        "ymc2Sc36"
+      ],
+      "description": "LEAVING CHILLED LIQUID - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        7,
+        "ymc2Sc37"
+      ],
+      "description": "CHILLED LIQUID - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "ymc2Sc38"
+      ],
+      "description": "CONDENSER - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "ymc2Sc39"
+      ],
+      "description": "LEAVING CONDENSER LIQUID - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "ymc2Sc310"
+      ],
+      "description": "AMBIENT DEW POINT - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        11,
+        "ymc2Sc311"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "ymc2Sc312"
+      ],
+      "description": "CONTROL PANEL - SCHEDULE"
+    },
+    {
+      "enum": [
+        13,
+        "ymc2Sc313"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ymc2Sc314"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ymc2Sc315"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ymc2Sc316"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ymc2Sc317"
+      ],
+      "description": "VSD - INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        18,
+        "ymc2Sc318"
+      ],
+      "description": "VSD SHUTDOWN - REQUESTING FAULT DATA..."
+    },
+    {
+      "enum": [
+        19,
+        "ymc2Sc319"
+      ],
+      "description": "VGD ACTUATOR - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        20,
+        "ymc2Sc320"
+      ],
+      "description": "UPS - LINE LOW BATTERY VOLTAGE"
+    },
+    {
+      "enum": [
+        21,
+        "ymc2Sc321"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ymc2Sc322"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ymc2Sc323"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "ymc2Sc324"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ymc2Sc325"
+      ],
+      "description": "VSD - SINGLE PHASE INPUT POWER"
+    },
+    {
+      "enum": [
+        26,
+        "ymc2Sc326"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        27,
+        "ymc2Sc327"
+      ],
+      "description": "VSD - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        28,
+        "ymc2Sc328"
+      ],
+      "description": "VSD - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        29,
+        "ymc2Sc329"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ymc2Sc330"
+      ],
+      "description": "VSD - HIGH INTERNAL AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        31,
+        "ymc2Sc331"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ymc2Sc332"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ymc2Sc333"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ymc2Sc334"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "ymc2Sc335"
+      ],
+      "description": "RESERVED 35"
+    },
+    {
+      "enum": [
+        36,
+        "ymc2Sc336"
+      ],
+      "description": "RESERVED 36"
+    },
+    {
+      "enum": [
+        37,
+        "ymc2Sc337"
+      ],
+      "description": "VSD - PRECHARGE - LOW DC BUS VOLTAGE 1"
+    },
+    {
+      "enum": [
+        38,
+        "ymc2Sc338"
+      ],
+      "description": "RESERVED 38"
+    },
+    {
+      "enum": [
+        39,
+        "ymc2Sc339"
+      ],
+      "description": "VSD - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        40,
+        "ymc2Sc340"
+      ],
+      "description": "VSD - SERIAL RECEIVE"
+    },
+    {
+      "enum": [
+        41,
+        "ymc2Sc341"
+      ],
+      "description": "VSD - FAULT CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        42,
+        "ymc2Sc342"
+      ],
+      "description": "RESERVED 42"
+    },
+    {
+      "enum": [
+        43,
+        "ymc2Sc343"
+      ],
+      "description": "RESERVED 43"
+    },
+    {
+      "enum": [
+        44,
+        "ymc2Sc344"
+      ],
+      "description": "RESERVED 44"
+    },
+    {
+      "enum": [
+        45,
+        "ymc2Sc345"
+      ],
+      "description": "RESERVED 45"
+    },
+    {
+      "enum": [
+        46,
+        "ymc2Sc346"
+      ],
+      "description": "RESERVED 46"
+    },
+    {
+      "enum": [
+        47,
+        "ymc2Sc347"
+      ],
+      "description": "RESERVED 47"
+    },
+    {
+      "enum": [
+        48,
+        "ymc2Sc348"
+      ],
+      "description": "RESERVED 48"
+    },
+    {
+      "enum": [
+        49,
+        "ymc2Sc349"
+      ],
+      "description": "RESERVED 49"
+    },
+    {
+      "enum": [
+        50,
+        "ymc2Sc350"
+      ],
+      "description": "RESERVED 50"
+    },
+    {
+      "enum": [
+        51,
+        "ymc2Sc351"
+      ],
+      "description": "RESERVED 51"
+    },
+    {
+      "enum": [
+        52,
+        "ymc2Sc352"
+      ],
+      "description": "RESERVED 52"
+    },
+    {
+      "enum": [
+        53,
+        "ymc2Sc353"
+      ],
+      "description": "RESERVED 53"
+    },
+    {
+      "enum": [
+        54,
+        "ymc2Sc354"
+      ],
+      "description": "RESERVED 54"
+    },
+    {
+      "enum": [
+        55,
+        "ymc2Sc355"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "ymc2Sc356"
+      ],
+      "description": "RESERVED 56"
+    },
+    {
+      "enum": [
+        57,
+        "ymc2Sc357"
+      ],
+      "description": "RESERVED 57"
+    },
+    {
+      "enum": [
+        58,
+        "ymc2Sc358"
+      ],
+      "description": "RESERVED 58"
+    },
+    {
+      "enum": [
+        59,
+        "ymc2Sc359"
+      ],
+      "description": "RESERVED 59"
+    },
+    {
+      "enum": [
+        60,
+        "ymc2Sc360"
+      ],
+      "description": "RESERVED 60"
+    },
+    {
+      "enum": [
+        61,
+        "ymc2Sc361"
+      ],
+      "description": "RESERVED 61"
+    },
+    {
+      "enum": [
+        62,
+        "ymc2Sc362"
+      ],
+      "description": "RESERVED 62"
+    },
+    {
+      "enum": [
+        63,
+        "ymc2Sc363"
+      ],
+      "description": "RESERVED 63"
+    },
+    {
+      "enum": [
+        64,
+        "ymc2Sc364"
+      ],
+      "description": "RESERVED 64"
+    },
+    {
+      "enum": [
+        65,
+        "ymc2Sc365"
+      ],
+      "description": "RESERVED 65"
+    },
+    {
+      "enum": [
+        66,
+        "ymc2Sc366"
+      ],
+      "description": "RESERVED 66"
+    },
+    {
+      "enum": [
+        67,
+        "ymc2Sc367"
+      ],
+      "description": "RESERVED 67"
+    },
+    {
+      "enum": [
+        68,
+        "ymc2Sc368"
+      ],
+      "description": "RESERVED 68"
+    },
+    {
+      "enum": [
+        69,
+        "ymc2Sc369"
+      ],
+      "description": "RESERVED 69"
+    },
+    {
+      "enum": [
+        70,
+        "ymc2Sc370"
+      ],
+      "description": "RESERVED 70"
+    },
+    {
+      "enum": [
+        71,
+        "ymc2Sc371"
+      ],
+      "description": "RESERVED 71"
+    },
+    {
+      "enum": [
+        72,
+        "ymc2Sc372"
+      ],
+      "description": "RESERVED 72"
+    },
+    {
+      "enum": [
+        73,
+        "ymc2Sc373"
+      ],
+      "description": "RESERVED 73"
+    },
+    {
+      "enum": [
+        74,
+        "ymc2Sc374"
+      ],
+      "description": "RESERVED 74"
+    },
+    {
+      "enum": [
+        75,
+        "ymc2Sc375"
+      ],
+      "description": "RESERVED 75"
+    },
+    {
+      "enum": [
+        76,
+        "ymc2Sc376"
+      ],
+      "description": "RESERVED 76"
+    },
+    {
+      "enum": [
+        77,
+        "ymc2Sc377"
+      ],
+      "description": "RESERVED 77"
+    },
+    {
+      "enum": [
+        78,
+        "ymc2Sc378"
+      ],
+      "description": "RESERVED 78"
+    },
+    {
+      "enum": [
+        79,
+        "ymc2Sc379"
+      ],
+      "description": "RESERVED 79"
+    },
+    {
+      "enum": [
+        80,
+        "ymc2Sc380"
+      ],
+      "description": "RESERVED 80"
+    },
+    {
+      "enum": [
+        81,
+        "ymc2Sc381"
+      ],
+      "description": "RESERVED 81"
+    },
+    {
+      "enum": [
+        82,
+        "ymc2Sc382"
+      ],
+      "description": "RESERVED 82"
+    },
+    {
+      "enum": [
+        83,
+        "ymc2Sc383"
+      ],
+      "description": "RESERVED 83"
+    },
+    {
+      "enum": [
+        84,
+        "ymc2Sc384"
+      ],
+      "description": "RESERVED 84"
+    },
+    {
+      "enum": [
+        85,
+        "ymc2Sc385"
+      ],
+      "description": "RESERVED 85"
+    },
+    {
+      "enum": [
+        86,
+        "ymc2Sc386"
+      ],
+      "description": "RESERVED 86"
+    },
+    {
+      "enum": [
+        87,
+        "ymc2Sc387"
+      ],
+      "description": "RESERVED 87"
+    },
+    {
+      "enum": [
+        88,
+        "ymc2Sc388"
+      ],
+      "description": "RESERVED 88"
+    },
+    {
+      "enum": [
+        89,
+        "ymc2Sc389"
+      ],
+      "description": "RESERVED 89"
+    },
+    {
+      "enum": [
+        90,
+        "ymc2Sc390"
+      ],
+      "description": "RESERVED 90"
+    },
+    {
+      "enum": [
+        91,
+        "ymc2Sc391"
+      ],
+      "description": "RESERVED 91"
+    },
+    {
+      "enum": [
+        92,
+        "ymc2Sc392"
+      ],
+      "description": "RESERVED 92"
+    },
+    {
+      "enum": [
+        93,
+        "ymc2Sc393"
+      ],
+      "description": "RESERVED 93"
+    },
+    {
+      "enum": [
+        94,
+        "ymc2Sc394"
+      ],
+      "description": "RESERVED 94"
+    },
+    {
+      "enum": [
+        95,
+        "ymc2Sc395"
+      ],
+      "description": "RESERVED 95"
+    },
+    {
+      "enum": [
+        96,
+        "ymc2Sc396"
+      ],
+      "description": "RESERVED 96"
+    },
+    {
+      "enum": [
+        97,
+        "ymc2Sc397"
+      ],
+      "description": "RESERVED 97"
+    },
+    {
+      "enum": [
+        98,
+        "ymc2Sc398"
+      ],
+      "description": "RESERVED 98"
+    },
+    {
+      "enum": [
+        99,
+        "ymc2Sc399"
+      ],
+      "description": "RESERVED 99"
+    },
+    {
+      "enum": [
+        100,
+        "ymc2Sc3100"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        101,
+        "ymc2Sc3101"
+      ],
+      "description": "MBC - V13 POSITION"
+    },
+    {
+      "enum": [
+        102,
+        "ymc2Sc3102"
+      ],
+      "description": "MBC - W13 POSITION"
+    },
+    {
+      "enum": [
+        103,
+        "ymc2Sc3103"
+      ],
+      "description": "MBC - V24 POSITION"
+    },
+    {
+      "enum": [
+        104,
+        "ymc2Sc3104"
+      ],
+      "description": "MBC - W24 POSITION"
+    },
+    {
+      "enum": [
+        105,
+        "ymc2Sc3105"
+      ],
+      "description": "MBC - Z12 POSITION"
+    },
+    {
+      "enum": [
+        106,
+        "ymc2Sc3106"
+      ],
+      "description": "MBC - V13 LOW FREQUENCY DISPLACEMENT"
+    },
+    {
+      "enum": [
+        107,
+        "ymc2Sc3107"
+      ],
+      "description": "MBC - W13 LOW FREQUENCY DISPLACEMENT"
+    },
+    {
+      "enum": [
+        108,
+        "ymc2Sc3108"
+      ],
+      "description": "MBC - V24 LOW FREQUENCY DISPLACEMENT"
+    },
+    {
+      "enum": [
+        109,
+        "ymc2Sc3109"
+      ],
+      "description": "MBC - W24 LOW FREQUENCY DISPLACEMENT"
+    },
+    {
+      "enum": [
+        110,
+        "ymc2Sc3110"
+      ],
+      "description": "MBC - Z12 LOW FREQUENCY DISPLACEMENT"
+    },
+    {
+      "enum": [
+        111,
+        "ymc2Sc3111"
+      ],
+      "description": "MBC - VW13 VIBRATION"
+    },
+    {
+      "enum": [
+        112,
+        "ymc2Sc3112"
+      ],
+      "description": "MBC - VW24 VIBRATION"
+    },
+    {
+      "enum": [
+        113,
+        "ymc2Sc3113"
+      ],
+      "description": "MBC - Z12 VIBRATION"
+    },
+    {
+      "enum": [
+        114,
+        "ymc2Sc3114"
+      ],
+      "description": "MBC - HIGH AMPLIFIER TEMPERATURE"
+    },
+    {
+      "enum": [
+        115,
+        "ymc2Sc3115"
+      ],
+      "description": "MBC - HIGH DC/DC TEMPERATURE"
+    },
+    {
+      "enum": [
+        116,
+        "ymc2Sc3116"
+      ],
+      "description": "MBC - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        117,
+        "ymc2Sc3117"
+      ],
+      "description": "MBC - SPEED SIGNAL FAULT"
+    },
+    {
+      "enum": [
+        118,
+        "ymc2Sc3118"
+      ],
+      "description": "MBC SHUTDOWN - REQUESTING FAULT DATA..."
+    },
+    {
+      "enum": [
+        119,
+        "ymc2Sc3119"
+      ],
+      "description": "MBC - FAULT CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        120,
+        "ymc2Sc3120"
+      ],
+      "description": "MBC - STARTUP FAILURE"
+    },
+    {
+      "enum": [
+        121,
+        "ymc2Sc3121"
+      ],
+      "description": "MBC - UNKNOWN PARAMETER FILE"
+    },
+    {
+      "enum": [
+        122,
+        "ymc2Sc3122"
+      ],
+      "description": "MBC - LOW INPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        123,
+        "ymc2Sc3123"
+      ],
+      "description": "RESERVED 123"
+    },
+    {
+      "enum": [
+        124,
+        "ymc2Sc3124"
+      ],
+      "description": "RESERVED 124"
+    },
+    {
+      "enum": [
+        125,
+        "ymc2Sc3125"
+      ],
+      "description": "RESERVED 125"
+    },
+    {
+      "enum": [
+        126,
+        "ymc2Sc3126"
+      ],
+      "description": "RESERVED 126"
+    },
+    {
+      "enum": [
+        127,
+        "ymc2Sc3127"
+      ],
+      "description": "RESERVED 127"
+    },
+    {
+      "enum": [
+        128,
+        "ymc2Sc3128"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        129,
+        "ymc2Sc3129"
+      ],
+      "description": "CONTROL PANEL - LOSS OF CONTROL VOLTAGE"
+    },
+    {
+      "enum": [
+        130,
+        "ymc2Sc3130"
+      ],
+      "description": "EXPANSION I/O - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        131,
+        "ymc2Sc3131"
+      ],
+      "description": "RESERVED 131"
+    },
+    {
+      "enum": [
+        132,
+        "ymc2Sc3132"
+      ],
+      "description": "VSD - HIGH PHASE A INPUT CURRENT"
+    },
+    {
+      "enum": [
+        133,
+        "ymc2Sc3133"
+      ],
+      "description": "VSD - HIGH PHASE B INPUT CURRENT"
+    },
+    {
+      "enum": [
+        134,
+        "ymc2Sc3134"
+      ],
+      "description": "VSD - HIGH PHASE C INPUT CURRENT"
+    },
+    {
+      "enum": [
+        135,
+        "ymc2Sc3135"
+      ],
+      "description": "VSD - HIGH PHASE A MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        136,
+        "ymc2Sc3136"
+      ],
+      "description": "VSD - HIGH PHASE B MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        137,
+        "ymc2Sc3137"
+      ],
+      "description": "VSD - HIGH PHASE C MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        138,
+        "ymc2Sc3138"
+      ],
+      "description": "VSD - PHASE A INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        139,
+        "ymc2Sc3139"
+      ],
+      "description": "VSD - PHASE B INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        140,
+        "ymc2Sc3140"
+      ],
+      "description": "VSD - PHASE C INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        141,
+        "ymc2Sc3141"
+      ],
+      "description": "VSD - PHASE A MOTOR GATE DRIVER"
+    },
+    {
+      "enum": [
+        142,
+        "ymc2Sc3142"
+      ],
+      "description": "VSD - PHASE B MOTOR GATE DRIVER"
+    },
+    {
+      "enum": [
+        143,
+        "ymc2Sc3143"
+      ],
+      "description": "VSD - PHASE C MOTOR GATE DRIVER"
+    },
+    {
+      "enum": [
+        144,
+        "ymc2Sc3144"
+      ],
+      "description": "VSD - LOW PHASE A INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        145,
+        "ymc2Sc3145"
+      ],
+      "description": "VSD - LOW PHASE B INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        146,
+        "ymc2Sc3146"
+      ],
+      "description": "VSD - LOW PHASE C INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        147,
+        "ymc2Sc3147"
+      ],
+      "description": "VSD - LOW PHASE A MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        148,
+        "ymc2Sc3148"
+      ],
+      "description": "VSD - LOW PHASE B MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        149,
+        "ymc2Sc3149"
+      ],
+      "description": "VSD - LOW PHASE C MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        150,
+        "ymc2Sc3150"
+      ],
+      "description": "RESERVED 150"
+    },
+    {
+      "enum": [
+        151,
+        "ymc2Sc3151"
+      ],
+      "description": "VSD - DC BUS PRE-REGULATION"
+    },
+    {
+      "enum": [
+        152,
+        "ymc2Sc3152"
+      ],
+      "description": "VSD - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        153,
+        "ymc2Sc3153"
+      ],
+      "description": "RESERVED 153"
+    },
+    {
+      "enum": [
+        154,
+        "ymc2Sc3154"
+      ],
+      "description": "VSD - NOT RUNNING"
+    },
+    {
+      "enum": [
+        155,
+        "ymc2Sc3155"
+      ],
+      "description": "VSD - PHASE A INPUT DCCT OFFSET"
+    },
+    {
+      "enum": [
+        156,
+        "ymc2Sc3156"
+      ],
+      "description": "VSD - PHASE B INPUT DCCT OFFSET"
+    },
+    {
+      "enum": [
+        157,
+        "ymc2Sc3157"
+      ],
+      "description": "VSD - PHASE C INPUT DCCT OFFSET"
+    },
+    {
+      "enum": [
+        158,
+        "ymc2Sc3158"
+      ],
+      "description": "VSD - PRECHARGE - LOW DC BUS VOLTAGE 2"
+    },
+    {
+      "enum": [
+        159,
+        "ymc2Sc3159"
+      ],
+      "description": "VSD - INVALID SETPOINTS"
+    },
+    {
+      "enum": [
+        160,
+        "ymc2Sc3160"
+      ],
+      "description": "CONDENSER - FREEZE THREAT - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        161,
+        "ymc2Sc3161"
+      ],
+      "description": "ISOLATION VALVES - NOT CLOSED"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/permanentTemporaryEnumSet.schema.json",
+  "title": "permanentTemporaryEnumSet",
+  "description": "Permanent Temporary",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Permanent"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Temporary"
+    }
+  ]
+}

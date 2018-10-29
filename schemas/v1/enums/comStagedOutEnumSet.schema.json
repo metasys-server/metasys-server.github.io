@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/comStagedOutEnumSet.schema.json",
+  "title": "comStagedOutEnumSet",
+  "description": "COM Staged Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "csoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "csoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "csoLmtMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "csoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "csoInstantShutdown"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        5,
+        "csoCtrl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        6,
+        "csoFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

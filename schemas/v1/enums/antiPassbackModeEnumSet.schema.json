@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/antiPassbackModeEnumSet.schema.json",
+  "title": "antiPassbackModeEnumSet",
+  "description": "Anti-Passback Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "antiPassbackModeLocal"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        1,
+        "antiPassbackModeShared"
+      ],
+      "description": "Shared"
+    },
+    {
+      "enum": [
+        2,
+        "antiPassbackModeCentral"
+      ],
+      "description": "Central"
+    },
+    {
+      "enum": [
+        3,
+        "antiPassbackModeInvalid"
+      ],
+      "description": "Invalid"
+    }
+  ]
+}

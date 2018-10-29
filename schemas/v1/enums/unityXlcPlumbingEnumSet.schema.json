@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcPlumbingEnumSet.schema.json",
+  "title": "unityXlcPlumbingEnumSet",
+  "description": "Unity XLC Plumbing",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "PLB"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "PLB1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "PLB2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "PLB3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, PLB"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, PLB1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

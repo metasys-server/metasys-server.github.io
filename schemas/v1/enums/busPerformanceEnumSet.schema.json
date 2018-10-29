@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/busPerformanceEnumSet.schema.json",
+  "title": "busPerformanceEnumSet",
+  "description": "SA Bus Performance",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "busPerformanceLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        1,
+        "busPerformanceMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        2,
+        "busPerformanceHigh"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        3,
+        "busPerformanceNa"
+      ],
+      "description": "Not Applicable"
+    }
+  ]
+}

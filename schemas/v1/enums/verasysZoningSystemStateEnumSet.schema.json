@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/verasysZoningSystemStateEnumSet.schema.json",
+  "title": "verasysZoningSystemStateEnumSet",
+  "description": "Verasys Zoning System State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "verasysZoningSystemStateOk"
+      ],
+      "description": "OK"
+    },
+    {
+      "enum": [
+        1,
+        "verasysZoningSystemStateMissingRooftop"
+      ],
+      "description": "Missing Rooftop"
+    },
+    {
+      "enum": [
+        2,
+        "verasysZoningSystemStateUnsupportedRooftop"
+      ],
+      "description": "Unsupported Rooftop"
+    },
+    {
+      "enum": [
+        3,
+        "verasysZoningSystemStateBypassDamperNotNeeded"
+      ],
+      "description": "Bypass Damper Not Needed"
+    },
+    {
+      "enum": [
+        4,
+        "verasysZoningSystemStateUnsupportedZone"
+      ],
+      "description": "Unsupported Zone"
+    },
+    {
+      "enum": [
+        5,
+        "verasysZoningSystemStateMissingBypassDamper"
+      ],
+      "description": "Missing Bypass Damper"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/picBasedIoDeviceTypeEnumSet.schema.json",
+  "title": "picBasedIoDeviceTypeEnumSet",
+  "description": "PIC_BASED_IO_DEVICE_TYPE_ENUM_SET",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ycalIoBoard"
+      ],
+      "description": "YCAL I/O Board, P/N 031-02550"
+    },
+    {
+      "enum": [
+        1,
+        "emvIoBoard"
+      ],
+      "description": "EMV I/O Board, P/N 031-02875"
+    },
+    {
+      "enum": [
+        2,
+        "motorMonitorBoard"
+      ],
+      "description": "Motor Monitor Board, P/N 031-02893"
+    },
+    {
+      "enum": [
+        3,
+        "ltcIoBoard"
+      ],
+      "description": "LTC I/O Board, P/N 031-02895"
+    },
+    {
+      "enum": [
+        4,
+        "unassignedIoDeviceType4"
+      ],
+      "description": "Unassigned I/O Device Type 4"
+    },
+    {
+      "enum": [
+        5,
+        "unassignedIoDeviceType5"
+      ],
+      "description": "Unassigned I/O Device Type 5"
+    },
+    {
+      "enum": [
+        6,
+        "unassignedIoDeviceType6"
+      ],
+      "description": "Unassigned I/O Device Type 6"
+    },
+    {
+      "enum": [
+        7,
+        "ov2CecBaseboard"
+      ],
+      "description": "OV2 CEC Baseboard, P/N 031-02930"
+    }
+  ]
+}

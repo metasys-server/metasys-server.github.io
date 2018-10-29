@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydSc1EnumSet.schema.json",
+  "title": "ydSc1EnumSet",
+  "description": "YD Operational Code SC.1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ydSc10"
+      ],
+      "description": "UNIT STOPPED - READY TO START"
+    },
+    {
+      "enum": [
+        1,
+        "ydSc11"
+      ],
+      "description": "UNIT STOPPED - LOCAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        2,
+        "ydSc12"
+      ],
+      "description": "UNIT STOPPED - REMOTE SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "ydSc13"
+      ],
+      "description": "UNIT STOPPED - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        4,
+        "ydSc14"
+      ],
+      "description": "UNIT START INHIBIT"
+    },
+    {
+      "enum": [
+        5,
+        "ydSc15"
+      ],
+      "description": "UNIT STOPPED - CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        6,
+        "ydSc16"
+      ],
+      "description": "UNIT STOPPED - SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        7,
+        "ydSc17"
+      ],
+      "description": "UNIT STOPPED - INTERNAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        8,
+        "ydSc18"
+      ],
+      "description": "UNIT STARTING"
+    },
+    {
+      "enum": [
+        9,
+        "ydSc19"
+      ],
+      "description": "UNIT RUNNING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        10,
+        "ydSc110"
+      ],
+      "description": "UNIT RUNNING - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        11,
+        "ydSc111"
+      ],
+      "description": "UNIT RUNNING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        12,
+        "ydSc112"
+      ],
+      "description": "UNIT COASTDOWN"
+    },
+    {
+      "enum": [
+        13,
+        "ydSc113"
+      ],
+      "description": "UNIT RUNNING - CHILLER UNLOAD BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        14,
+        "ydSc114"
+      ],
+      "description": "UNIT STARTING - MVVSD STARTUP - DRIVE NOT READY"
+    }
+  ]
+}

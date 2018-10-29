@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rcmSupCntlEnumSet.schema.json",
+  "title": "rcmSupCntlEnumSet",
+  "description": "Supervisor Control Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "allOperationsAreAvailable"
+      ],
+      "description": "All operations are available"
+    },
+    {
+      "enum": [
+        1,
+        "disableOnOffAndOffTimer"
+      ],
+      "description": "Disable On/Off and Off Timer"
+    },
+    {
+      "enum": [
+        2,
+        "disableSetpoint"
+      ],
+      "description": "Disable Setpoint"
+    },
+    {
+      "enum": [
+        3,
+        "disableOnOffOffTimerAndSetpoint"
+      ],
+      "description": "Disable On/Off, Off Timer, and Setpoint"
+    },
+    {
+      "enum": [
+        4,
+        "disableFlow"
+      ],
+      "description": "Disable Flow"
+    },
+    {
+      "enum": [
+        5,
+        "disableOnOffOffTimerAndFlow"
+      ],
+      "description": "Disable On/Off, Off Timer, and Flow"
+    },
+    {
+      "enum": [
+        6,
+        "disableSetpointAndFlow"
+      ],
+      "description": "Disable Setpoint and Flow"
+    },
+    {
+      "enum": [
+        7,
+        "disableOnOffOffTimerSetpointAndFlow"
+      ],
+      "description": "Disable all operations"
+    }
+  ]
+}

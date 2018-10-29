@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dataDisplayModeEnumSet.schema.json",
+  "title": "dataDisplayModeEnumSet",
+  "description": "Data Display Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dataDisplayModeEnglish"
+      ],
+      "description": "English"
+    },
+    {
+      "enum": [
+        1,
+        "dataDisplayModeMetric"
+      ],
+      "description": "Metric"
+    }
+  ]
+}

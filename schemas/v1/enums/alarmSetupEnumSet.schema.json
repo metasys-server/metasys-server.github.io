@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/alarmSetupEnumSet.schema.json",
+  "title": "alarmSetupEnumSet",
+  "description": "Alarm Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Slow"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Fast"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Off"
+    }
+  ]
+}

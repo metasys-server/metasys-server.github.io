@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHrHtEwEnumSet.schema.json",
+  "title": "ahuHrHtEwEnumSet",
+  "description": "AHU HR Ht EW",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahheOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahheMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ahheLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "ahheHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "ahheTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        5,
+        "ahheLlTControl"
+      ],
+      "description": "LL-T Control"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yvwaCompressorTypeEnumSet.schema.json",
+  "title": "yvwaCompressorTypeEnumSet",
+  "description": "YVWA Compressor Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yvwaCompressorType0"
+      ],
+      "description": "WTS"
+    },
+    {
+      "enum": [
+        1,
+        "yvwaCompressorType1"
+      ],
+      "description": "CTS"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatCoolTypeEnumSet.schema.json",
+  "title": "heatCoolTypeEnumSet",
+  "description": "Heat Cool Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hcTypeStgd"
+      ],
+      "description": "Staged"
+    },
+    {
+      "enum": [
+        1,
+        "hcTypeProp"
+      ],
+      "description": "Proportional"
+    }
+  ]
+}

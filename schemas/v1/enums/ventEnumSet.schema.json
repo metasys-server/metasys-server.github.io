@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ventEnumSet.schema.json",
+  "title": "ventEnumSet",
+  "description": "Vent",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Min Damper Pos"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Min Airflow"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "25/75 Airflow"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Full Airflow"
+    }
+  ]
+}

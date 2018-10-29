@@ -1,0 +1,2241 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/commandIdEnumSet.schema.json",
+  "title": "commandIdEnumSet",
+  "description": "Command ID",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "executeCommand"
+      ],
+      "description": "Execute"
+    },
+    {
+      "enum": [
+        2,
+        "resetCommand"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        3,
+        "archiveCommand"
+      ],
+      "description": "Archive"
+    },
+    {
+      "enum": [
+        4,
+        "triggerCommand"
+      ],
+      "description": "Trigger"
+    },
+    {
+      "enum": [
+        5,
+        "releaseAllCommand"
+      ],
+      "description": "Release All"
+    },
+    {
+      "enum": [
+        6,
+        "releaseCommand"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        7,
+        "overrideCommand"
+      ],
+      "description": "Operator Override"
+    },
+    {
+      "enum": [
+        8,
+        "overrideReleaseCommand"
+      ],
+      "description": "Release Operator Override"
+    },
+    {
+      "enum": [
+        9,
+        "setpointCommand"
+      ],
+      "description": "Setpoint"
+    },
+    {
+      "enum": [
+        10,
+        "adjustCommand"
+      ],
+      "description": "Adjust"
+    },
+    {
+      "enum": [
+        11,
+        "enableCommand"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        12,
+        "disableCommand"
+      ],
+      "description": "Disable"
+    },
+    {
+      "enum": [
+        13,
+        "forceReleaseLoadCommand"
+      ],
+      "description": "Force Release Load"
+    },
+    {
+      "enum": [
+        14,
+        "recommandCommand"
+      ],
+      "description": "Re-Command"
+    },
+    {
+      "enum": [
+        15,
+        "setTimeCommand"
+      ],
+      "description": "Set Time"
+    },
+    {
+      "enum": [
+        16,
+        "setDateCommand"
+      ],
+      "description": "Set Date"
+    },
+    {
+      "enum": [
+        17,
+        "changeAttributeCommand"
+      ],
+      "description": "Change Attribute"
+    },
+    {
+      "enum": [
+        18,
+        "clearStatisticsCommand"
+      ],
+      "description": "Clear Statistics"
+    },
+    {
+      "enum": [
+        19,
+        "latchStatisticsCommand"
+      ],
+      "description": "Latch Statistics"
+    },
+    {
+      "enum": [
+        20,
+        "state0Command"
+      ],
+      "description": "State 0"
+    },
+    {
+      "enum": [
+        21,
+        "state1Command"
+      ],
+      "description": "State 1"
+    },
+    {
+      "enum": [
+        22,
+        "state2Command"
+      ],
+      "description": "State 2"
+    },
+    {
+      "enum": [
+        23,
+        "state3Command"
+      ],
+      "description": "State 3"
+    },
+    {
+      "enum": [
+        24,
+        "state4Command"
+      ],
+      "description": "State 4"
+    },
+    {
+      "enum": [
+        25,
+        "state5Command"
+      ],
+      "description": "State 5"
+    },
+    {
+      "enum": [
+        26,
+        "state6Command"
+      ],
+      "description": "State 6"
+    },
+    {
+      "enum": [
+        27,
+        "state7Command"
+      ],
+      "description": "State 7"
+    },
+    {
+      "enum": [
+        28,
+        "state8Command"
+      ],
+      "description": "State 8"
+    },
+    {
+      "enum": [
+        29,
+        "state9Command"
+      ],
+      "description": "State 9"
+    },
+    {
+      "enum": [
+        30,
+        "state10Command"
+      ],
+      "description": "State 10"
+    },
+    {
+      "enum": [
+        31,
+        "state11Command"
+      ],
+      "description": "State 11"
+    },
+    {
+      "enum": [
+        32,
+        "state12Command"
+      ],
+      "description": "State 12"
+    },
+    {
+      "enum": [
+        33,
+        "state13Command"
+      ],
+      "description": "State 13"
+    },
+    {
+      "enum": [
+        34,
+        "state14Command"
+      ],
+      "description": "State 14"
+    },
+    {
+      "enum": [
+        35,
+        "state15Command"
+      ],
+      "description": "State 15"
+    },
+    {
+      "enum": [
+        36,
+        "inServiceCommand"
+      ],
+      "description": "In Service"
+    },
+    {
+      "enum": [
+        37,
+        "outOfServiceCommand"
+      ],
+      "description": "Out of Service"
+    },
+    {
+      "enum": [
+        38,
+        "dialCommand"
+      ],
+      "description": "Dial"
+    },
+    {
+      "enum": [
+        39,
+        "hangUpCommand"
+      ],
+      "description": "Hang Up"
+    },
+    {
+      "enum": [
+        40,
+        "abortCommand"
+      ],
+      "description": "Abort"
+    },
+    {
+      "enum": [
+        41,
+        "pumpCommand"
+      ],
+      "description": "Pump"
+    },
+    {
+      "enum": [
+        42,
+        "openPortCommand"
+      ],
+      "description": "Open Port"
+    },
+    {
+      "enum": [
+        43,
+        "closePortCommand"
+      ],
+      "description": "Close Port"
+    },
+    {
+      "enum": [
+        44,
+        "setStateCommand"
+      ],
+      "description": "Set State"
+    },
+    {
+      "enum": [
+        45,
+        "debugBreakCommand"
+      ],
+      "description": "Debug Break"
+    },
+    {
+      "enum": [
+        46,
+        "cancelPrestartCommand"
+      ],
+      "description": "Cancel Prestart"
+    },
+    {
+      "enum": [
+        47,
+        "cancelPrestopCommand"
+      ],
+      "description": "Cancel Prestop"
+    },
+    {
+      "enum": [
+        48,
+        "forceRegisterCommand"
+      ],
+      "description": "Force Register"
+    },
+    {
+      "enum": [
+        49,
+        "shedLoadCommand"
+      ],
+      "description": "Shed"
+    },
+    {
+      "enum": [
+        50,
+        "releaseLoadCommand"
+      ],
+      "description": "Release Load"
+    },
+    {
+      "enum": [
+        51,
+        "lockLoadCommand"
+      ],
+      "description": "Lock"
+    },
+    {
+      "enum": [
+        52,
+        "unlockLoadCommand"
+      ],
+      "description": "Unlock"
+    },
+    {
+      "enum": [
+        53,
+        "comtestStartCommand"
+      ],
+      "description": "Comtest Start"
+    },
+    {
+      "enum": [
+        54,
+        "comtestStopCommand"
+      ],
+      "description": "Comtest Stop"
+    },
+    {
+      "enum": [
+        55,
+        "rebindReferencesCommand"
+      ],
+      "description": "Rebind References"
+    },
+    {
+      "enum": [
+        56,
+        "changePasswordCommand"
+      ],
+      "description": "Change Password"
+    },
+    {
+      "enum": [
+        57,
+        "displayCommand"
+      ],
+      "description": "Display"
+    },
+    {
+      "enum": [
+        58,
+        "printCommand"
+      ],
+      "description": "Print"
+    },
+    {
+      "enum": [
+        59,
+        "resetPeriodCommand"
+      ],
+      "description": "Reset Period"
+    },
+    {
+      "enum": [
+        60,
+        "clearTaskExecutionTimersCommand"
+      ],
+      "description": "Clear Task Exe Timer"
+    },
+    {
+      "enum": [
+        61,
+        "readCounterCommand"
+      ],
+      "description": "Read Counter"
+    },
+    {
+      "enum": [
+        62,
+        "counterValueCommand"
+      ],
+      "description": "Counter Value"
+    },
+    {
+      "enum": [
+        63,
+        "formFeedCommand"
+      ],
+      "description": "Form Feed"
+    },
+    {
+      "enum": [
+        64,
+        "changeNameCommand"
+      ],
+      "description": "Change Name"
+    },
+    {
+      "enum": [
+        65,
+        "updateReferencesCommand"
+      ],
+      "description": "Update References"
+    },
+    {
+      "enum": [
+        66,
+        "queueClearCommand"
+      ],
+      "description": "Queue Clear"
+    },
+    {
+      "enum": [
+        67,
+        "cancelDelayTimeCommand"
+      ],
+      "description": "Cancel Delay Time"
+    },
+    {
+      "enum": [
+        68,
+        "multistate0Command"
+      ],
+      "description": "Ms0"
+    },
+    {
+      "enum": [
+        69,
+        "multistate1Command"
+      ],
+      "description": "Ms1"
+    },
+    {
+      "enum": [
+        70,
+        "multistate2Command"
+      ],
+      "description": "Ms2"
+    },
+    {
+      "enum": [
+        71,
+        "multistate3Command"
+      ],
+      "description": "Ms3"
+    },
+    {
+      "enum": [
+        72,
+        "multistate4Command"
+      ],
+      "description": "Ms4"
+    },
+    {
+      "enum": [
+        73,
+        "multistate5Command"
+      ],
+      "description": "Ms5"
+    },
+    {
+      "enum": [
+        74,
+        "multistate6Command"
+      ],
+      "description": "Ms6"
+    },
+    {
+      "enum": [
+        75,
+        "multistate7Command"
+      ],
+      "description": "Ms7"
+    },
+    {
+      "enum": [
+        76,
+        "multistate8Command"
+      ],
+      "description": "Ms8"
+    },
+    {
+      "enum": [
+        77,
+        "multistate9Command"
+      ],
+      "description": "Ms9"
+    },
+    {
+      "enum": [
+        78,
+        "multistate10Command"
+      ],
+      "description": "Ms10"
+    },
+    {
+      "enum": [
+        79,
+        "multistate11Command"
+      ],
+      "description": "Ms11"
+    },
+    {
+      "enum": [
+        80,
+        "multistate12Command"
+      ],
+      "description": "Ms12"
+    },
+    {
+      "enum": [
+        81,
+        "multistate13Command"
+      ],
+      "description": "Ms13"
+    },
+    {
+      "enum": [
+        82,
+        "multistate14Command"
+      ],
+      "description": "Ms14"
+    },
+    {
+      "enum": [
+        83,
+        "multistate15Command"
+      ],
+      "description": "Ms15"
+    },
+    {
+      "enum": [
+        84,
+        "multistate16Command"
+      ],
+      "description": "Ms16"
+    },
+    {
+      "enum": [
+        85,
+        "multistate17Command"
+      ],
+      "description": "Ms17"
+    },
+    {
+      "enum": [
+        86,
+        "multistate18Command"
+      ],
+      "description": "Ms18"
+    },
+    {
+      "enum": [
+        87,
+        "multistate19Command"
+      ],
+      "description": "Ms19"
+    },
+    {
+      "enum": [
+        88,
+        "multistate20Command"
+      ],
+      "description": "Ms20"
+    },
+    {
+      "enum": [
+        89,
+        "multistate21Command"
+      ],
+      "description": "Ms21"
+    },
+    {
+      "enum": [
+        90,
+        "multistate22Command"
+      ],
+      "description": "Ms22"
+    },
+    {
+      "enum": [
+        91,
+        "multistate23Command"
+      ],
+      "description": "Ms23"
+    },
+    {
+      "enum": [
+        92,
+        "multistate24Command"
+      ],
+      "description": "Ms24"
+    },
+    {
+      "enum": [
+        93,
+        "multistate25Command"
+      ],
+      "description": "Ms25"
+    },
+    {
+      "enum": [
+        94,
+        "multistate26Command"
+      ],
+      "description": "Ms26"
+    },
+    {
+      "enum": [
+        95,
+        "multistate27Command"
+      ],
+      "description": "Ms27"
+    },
+    {
+      "enum": [
+        96,
+        "multistate28Command"
+      ],
+      "description": "Ms28"
+    },
+    {
+      "enum": [
+        97,
+        "multistate29Command"
+      ],
+      "description": "Ms29"
+    },
+    {
+      "enum": [
+        98,
+        "multistate30Command"
+      ],
+      "description": "Ms30"
+    },
+    {
+      "enum": [
+        99,
+        "multistate31Command"
+      ],
+      "description": "Ms31"
+    },
+    {
+      "enum": [
+        100,
+        "startMeterCommand"
+      ],
+      "description": "Start Meter"
+    },
+    {
+      "enum": [
+        101,
+        "stopMeterCommand"
+      ],
+      "description": "Stop Meter"
+    },
+    {
+      "enum": [
+        102,
+        "presetCounterCommand"
+      ],
+      "description": "Preset Counter"
+    },
+    {
+      "enum": [
+        103,
+        "batteryTestCommand"
+      ],
+      "description": "Battery Test"
+    },
+    {
+      "enum": [
+        104,
+        "cancelPrintCommand"
+      ],
+      "description": "Cancel Print"
+    },
+    {
+      "enum": [
+        105,
+        "changeSetpointCommand"
+      ],
+      "description": "Change Setpoint"
+    },
+    {
+      "enum": [
+        106,
+        "cancelTimerCommand"
+      ],
+      "description": "Cancel Timer"
+    },
+    {
+      "enum": [
+        107,
+        "cancelRampCommand"
+      ],
+      "description": "Cancel Ramp"
+    },
+    {
+      "enum": [
+        108,
+        "clearArchivedErrorAttrsCommand"
+      ],
+      "description": "Clear Last Error"
+    },
+    {
+      "enum": [
+        109,
+        "releaseSetpointCommand"
+      ],
+      "description": "Release Setpoint"
+    },
+    {
+      "enum": [
+        110,
+        "cancelReportDelayCommand"
+      ],
+      "description": "Cancel Report Delay"
+    },
+    {
+      "enum": [
+        111,
+        "addRecipientCommand"
+      ],
+      "description": "Add Recipient"
+    },
+    {
+      "enum": [
+        112,
+        "removeRecipientCommand"
+      ],
+      "description": "Remove Recipient"
+    },
+    {
+      "enum": [
+        113,
+        "cancelDisplayCommand"
+      ],
+      "description": "Cancel Display"
+    },
+    {
+      "enum": [
+        114,
+        "fetchPointRefCommand"
+      ],
+      "description": "Fetch Point Ref"
+    },
+    {
+      "enum": [
+        115,
+        "rebindAllReferencesCommand"
+      ],
+      "description": "Rebind Site"
+    },
+    {
+      "enum": [
+        116,
+        "routeCommand"
+      ],
+      "description": "Route"
+    },
+    {
+      "enum": [
+        117,
+        "clearCommand"
+      ],
+      "description": "Clear"
+    },
+    {
+      "enum": [
+        118,
+        "changeAuditClassCommand"
+      ],
+      "description": "Change Audit Enabled Class Level"
+    },
+    {
+      "enum": [
+        119,
+        "resetDeviceCommand"
+      ],
+      "description": "Reset Device"
+    },
+    {
+      "enum": [
+        120,
+        "changeUnitsCommand"
+      ],
+      "description": "Change Units"
+    },
+    {
+      "enum": [
+        121,
+        "changeDispprecCommand"
+      ],
+      "description": "Change Display Precision"
+    },
+    {
+      "enum": [
+        122,
+        "attributeCommand"
+      ],
+      "description": "Attribute Command"
+    },
+    {
+      "enum": [
+        123,
+        "clearErrorLogCommand"
+      ],
+      "description": "Clear Error Log"
+    },
+    {
+      "enum": [
+        124,
+        "downloadCommand"
+      ],
+      "description": "Download"
+    },
+    {
+      "enum": [
+        125,
+        "uploadCommand"
+      ],
+      "description": "Upload"
+    },
+    {
+      "enum": [
+        126,
+        "synchronizeCommand"
+      ],
+      "description": "Synchronize"
+    },
+    {
+      "enum": [
+        127,
+        "updateBroadcastManagementCommand"
+      ],
+      "description": "Update Broadcast Management"
+    },
+    {
+      "enum": [
+        128,
+        "updateFlashUsageCommand"
+      ],
+      "description": "Update Flash Usage"
+    },
+    {
+      "enum": [
+        129,
+        "sendNullStateCommand"
+      ],
+      "description": "Send NULL State"
+    },
+    {
+      "enum": [
+        130,
+        "securityDatabaseBackupCommand"
+      ],
+      "description": "Security Database Backup"
+    },
+    {
+      "enum": [
+        131,
+        "securityDatabaseRestoreCommand"
+      ],
+      "description": "Security Database Restore"
+    },
+    {
+      "enum": [
+        132,
+        "devinfoCommand"
+      ],
+      "description": "Get CK200 Device Information"
+    },
+    {
+      "enum": [
+        133,
+        "bypassCommand"
+      ],
+      "description": "Bypass Command"
+    },
+    {
+      "enum": [
+        134,
+        "testCommand"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        135,
+        "restoreCommand"
+      ],
+      "description": "Restore"
+    },
+    {
+      "enum": [
+        136,
+        "lmeOverrideCommand"
+      ],
+      "description": "LME Override Release"
+    },
+    {
+      "enum": [
+        137,
+        "lmeReleaseCommand"
+      ],
+      "description": "LME Release"
+    },
+    {
+      "enum": [
+        138,
+        "writeElemPropCommand"
+      ],
+      "description": "Write Element Property"
+    },
+    {
+      "enum": [
+        139,
+        "readElemPropCommand"
+      ],
+      "description": "Read Element Property"
+    },
+    {
+      "enum": [
+        140,
+        "getMonitorDataCommand"
+      ],
+      "description": "Get Monitor Data"
+    },
+    {
+      "enum": [
+        141,
+        "startSessionCommand"
+      ],
+      "description": "Start Session"
+    },
+    {
+      "enum": [
+        142,
+        "endSessionCommand"
+      ],
+      "description": "End Session"
+    },
+    {
+      "enum": [
+        143,
+        "cancelBypassCommand"
+      ],
+      "description": "Cancel Bypass Command"
+    },
+    {
+      "enum": [
+        144,
+        "analyzeBusCommand"
+      ],
+      "description": "Analyze Field Bus"
+    },
+    {
+      "enum": [
+        145,
+        "instantShutdownCommand"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        146,
+        "releaseShutdownCommand"
+      ],
+      "description": "Release Shutdown"
+    },
+    {
+      "enum": [
+        147,
+        "rotateNowCommand"
+      ],
+      "description": "Rotate Now"
+    },
+    {
+      "enum": [
+        148,
+        "getDiagramDataCommand"
+      ],
+      "description": "Get Diagram Data"
+    },
+    {
+      "enum": [
+        149,
+        "getElementListCommand"
+      ],
+      "description": "Get Element List"
+    },
+    {
+      "enum": [
+        150,
+        "readElemPropMultCommand"
+      ],
+      "description": "Read Element Property Multiple"
+    },
+    {
+      "enum": [
+        151,
+        "presetCommand"
+      ],
+      "description": "Preset"
+    },
+    {
+      "enum": [
+        152,
+        "maintainSessionCommand"
+      ],
+      "description": "Maintain Session"
+    },
+    {
+      "enum": [
+        153,
+        "writeElemPropMultCommand"
+      ],
+      "description": "Write Element Property Multiple"
+    },
+    {
+      "enum": [
+        154,
+        "startTestCommand"
+      ],
+      "description": "Start Test"
+    },
+    {
+      "enum": [
+        155,
+        "cancelTestCommand"
+      ],
+      "description": "Cancel Test"
+    },
+    {
+      "enum": [
+        156,
+        "fileStoredCommand"
+      ],
+      "description": "File Stored"
+    },
+    {
+      "enum": [
+        157,
+        "fileRetrievedCommand"
+      ],
+      "description": "File Retrieved"
+    },
+    {
+      "enum": [
+        158,
+        "fileDeletedCommand"
+      ],
+      "description": "File Deleted"
+    },
+    {
+      "enum": [
+        159,
+        "getMonitorOverviewDataCommand"
+      ],
+      "description": "Get Monitor Overview Data"
+    },
+    {
+      "enum": [
+        160,
+        "startAutocalibrationCommand"
+      ],
+      "description": "Start Autocalibration"
+    },
+    {
+      "enum": [
+        161,
+        "configureFlowDataCommand"
+      ],
+      "description": "Configure Flow Data"
+    },
+    {
+      "enum": [
+        162,
+        "recalculateGainCommand"
+      ],
+      "description": "Recalculate Gain"
+    },
+    {
+      "enum": [
+        163,
+        "flowOverrideCommand"
+      ],
+      "description": "Flow Override"
+    },
+    {
+      "enum": [
+        164,
+        "getParameterDataCommand"
+      ],
+      "description": "Get Parameter Data"
+    },
+    {
+      "enum": [
+        165,
+        "startBoxFlowTestCommand"
+      ],
+      "description": "Start Box Flow Test"
+    },
+    {
+      "enum": [
+        166,
+        "pswdChangeAuthCommand"
+      ],
+      "description": "Password Change Auth"
+    },
+    {
+      "enum": [
+        167,
+        "resetFieldDeviceCommand"
+      ],
+      "description": "Reset Field Device"
+    },
+    {
+      "enum": [
+        168,
+        "changePasswordAuthCommand"
+      ],
+      "description": "Change Password Auth"
+    },
+    {
+      "enum": [
+        169,
+        "setModeCommand"
+      ],
+      "description": "Set Mode"
+    },
+    {
+      "enum": [
+        170,
+        "setTargetCommand"
+      ],
+      "description": "Set Target"
+    },
+    {
+      "enum": [
+        171,
+        "resetIntervalCommand"
+      ],
+      "description": "Reset Interval"
+    },
+    {
+      "enum": [
+        172,
+        "resetProfileCommand"
+      ],
+      "description": "Reset Profile"
+    },
+    {
+      "enum": [
+        173,
+        "comfortOverrideCommand"
+      ],
+      "description": "Comfort Override"
+    },
+    {
+      "enum": [
+        174,
+        "releaseComfortOverrideCommand"
+      ],
+      "description": "Release Comfort Override"
+    },
+    {
+      "enum": [
+        175,
+        "testHardwareUpdateCommand"
+      ],
+      "description": "Test Hardware Update"
+    },
+    {
+      "enum": [
+        176,
+        "resetRolloverCommand"
+      ],
+      "description": "Reset Rollover"
+    },
+    {
+      "enum": [
+        177,
+        "changeDefaultValueCommand"
+      ],
+      "description": "Change Default Value"
+    },
+    {
+      "enum": [
+        178,
+        "edmDemandStopCommand"
+      ],
+      "description": "Demand Stop"
+    },
+    {
+      "enum": [
+        179,
+        "edmDemandStartCommand"
+      ],
+      "description": "Demand Start"
+    },
+    {
+      "enum": [
+        180,
+        "edmDemandResetCommand"
+      ],
+      "description": "Demand Reset"
+    },
+    {
+      "enum": [
+        181,
+        "updateAllItemsCacheCommand"
+      ],
+      "description": "Update All Items Cache"
+    },
+    {
+      "enum": [
+        182,
+        "routeSamplesCommand"
+      ],
+      "description": "Route Samples"
+    },
+    {
+      "enum": [
+        183,
+        "presetValueCommand"
+      ],
+      "description": "Preset Value"
+    },
+    {
+      "enum": [
+        200,
+        "initiateLoadCommand"
+      ],
+      "description": "Initiate Load"
+    },
+    {
+      "enum": [
+        204,
+        "loadAbortCommand"
+      ],
+      "description": "Load Abort"
+    },
+    {
+      "enum": [
+        205,
+        "loadCompleteCommand"
+      ],
+      "description": "Load Completed"
+    },
+    {
+      "enum": [
+        281,
+        "sendTimeCommand"
+      ],
+      "description": "Send Time"
+    },
+    {
+      "enum": [
+        282,
+        "sendStringCommand"
+      ],
+      "description": "Send String"
+    },
+    {
+      "enum": [
+        358,
+        "useNewFileCommand"
+      ],
+      "description": "Use New File"
+    },
+    {
+      "enum": [
+        359,
+        "getLoadStatusCommand"
+      ],
+      "description": "Get Load Status"
+    },
+    {
+      "enum": [
+        362,
+        "getSecurityLoadStatusCommand"
+      ],
+      "description": "Get Security Load Status"
+    },
+    {
+      "enum": [
+        363,
+        "resetInitParamsCommand"
+      ],
+      "description": "Reset Initialization Parameters"
+    },
+    {
+      "enum": [
+        400,
+        "accessEnabledStartCommand"
+      ],
+      "description": "Access Enabled Start"
+    },
+    {
+      "enum": [
+        401,
+        "accessEnabledStopCommand"
+      ],
+      "description": "Access Enabled Stop"
+    },
+    {
+      "enum": [
+        402,
+        "pinSuppressedStartCommand"
+      ],
+      "description": "PIN Suppressed Start"
+    },
+    {
+      "enum": [
+        403,
+        "pinSuppressedStopCommand"
+      ],
+      "description": "PIN Suppressed Stop"
+    },
+    {
+      "enum": [
+        404,
+        "set1EnabledStartCommand"
+      ],
+      "description": "Set 1 Enabled Start"
+    },
+    {
+      "enum": [
+        405,
+        "set1EnabledStopCommand"
+      ],
+      "description": "Set 1 Enabled Stop"
+    },
+    {
+      "enum": [
+        406,
+        "set2EnabledStartCommand"
+      ],
+      "description": "Set 2 Enabled Start"
+    },
+    {
+      "enum": [
+        407,
+        "set2EnabledStopCommand"
+      ],
+      "description": "Set 2 Enabled Stop"
+    },
+    {
+      "enum": [
+        408,
+        "set3EnabledStartCommand"
+      ],
+      "description": "Set 3 Enabled Start"
+    },
+    {
+      "enum": [
+        409,
+        "set3EnabledStopCommand"
+      ],
+      "description": "Set 3 Enabled Stop"
+    },
+    {
+      "enum": [
+        410,
+        "set4EnabledStartCommand"
+      ],
+      "description": "Set 4 Enabled Start"
+    },
+    {
+      "enum": [
+        411,
+        "set4EnabledStopCommand"
+      ],
+      "description": "Set 4 Enabled Stop"
+    },
+    {
+      "enum": [
+        412,
+        "overrideStartCommand"
+      ],
+      "description": "Override Start"
+    },
+    {
+      "enum": [
+        413,
+        "override2Command"
+      ],
+      "description": "Override"
+    },
+    {
+      "enum": [
+        414,
+        "overrideRelease2Command"
+      ],
+      "description": "Override Release"
+    },
+    {
+      "enum": [
+        415,
+        "timedOverrideStartCommand"
+      ],
+      "description": "Timed Override Start"
+    },
+    {
+      "enum": [
+        416,
+        "timedOverrideCommand"
+      ],
+      "description": "Timed Override"
+    },
+    {
+      "enum": [
+        417,
+        "timedOverrideReleaseCommand"
+      ],
+      "description": "Timed Override Release"
+    },
+    {
+      "enum": [
+        418,
+        "lockdownStartCommand"
+      ],
+      "description": "Lockdown Start"
+    },
+    {
+      "enum": [
+        419,
+        "lockdownCommand"
+      ],
+      "description": "Lockdown"
+    },
+    {
+      "enum": [
+        420,
+        "lockdownReleaseCommand"
+      ],
+      "description": "Lockdown Release"
+    },
+    {
+      "enum": [
+        421,
+        "systemOverrideStartCommand"
+      ],
+      "description": "System Override Start"
+    },
+    {
+      "enum": [
+        422,
+        "systemOverrideCommand"
+      ],
+      "description": "System Override"
+    },
+    {
+      "enum": [
+        423,
+        "systemOverrideReleaseCommand"
+      ],
+      "description": "System Override Release"
+    },
+    {
+      "enum": [
+        424,
+        "portalModeCommand"
+      ],
+      "description": "Portal Mode"
+    },
+    {
+      "enum": [
+        425,
+        "releaseAllPortalModeCommand"
+      ],
+      "description": "Release All Portal Mode"
+    },
+    {
+      "enum": [
+        426,
+        "accessEnabledCommand"
+      ],
+      "description": "Access Enabled"
+    },
+    {
+      "enum": [
+        427,
+        "pinSuppressedCommand"
+      ],
+      "description": "PIN Suppressed"
+    },
+    {
+      "enum": [
+        428,
+        "set1EnabledCommand"
+      ],
+      "description": "Set 1 Enabled"
+    },
+    {
+      "enum": [
+        429,
+        "set2EnabledCommand"
+      ],
+      "description": "Set 2 Enabled"
+    },
+    {
+      "enum": [
+        430,
+        "set3EnabledCommand"
+      ],
+      "description": "Set 3 Enabled"
+    },
+    {
+      "enum": [
+        431,
+        "set4EnabledCommand"
+      ],
+      "description": "Set 4 Enabled"
+    },
+    {
+      "enum": [
+        432,
+        "suppressForcedDoorCommand"
+      ],
+      "description": "Suppress Forced Door"
+    },
+    {
+      "enum": [
+        433,
+        "releaseAllSuppressForcedDoorCommand"
+      ],
+      "description": "Release All Suppress Forced Door"
+    },
+    {
+      "enum": [
+        434,
+        "suppressProppedDoorCommand"
+      ],
+      "description": "Suppress Propped Door"
+    },
+    {
+      "enum": [
+        435,
+        "releaseAllSuppressProppedDoorCommand"
+      ],
+      "description": "Release All Suppress Propped Door"
+    },
+    {
+      "enum": [
+        436,
+        "suppressStartCommand"
+      ],
+      "description": "Suppress Start"
+    },
+    {
+      "enum": [
+        437,
+        "suppressStopCommand"
+      ],
+      "description": "Suppress Stop"
+    },
+    {
+      "enum": [
+        438,
+        "suppressReleaseCommand"
+      ],
+      "description": "Suppress Release"
+    },
+    {
+      "enum": [
+        439,
+        "suppressCommand"
+      ],
+      "description": "Suppress"
+    },
+    {
+      "enum": [
+        440,
+        "releaseAllSuppressCommand"
+      ],
+      "description": "Release All Suppress"
+    },
+    {
+      "enum": [
+        441,
+        "activateCommand"
+      ],
+      "description": "Activate"
+    },
+    {
+      "enum": [
+        442,
+        "slowFlashCommand"
+      ],
+      "description": "Slow Flash"
+    },
+    {
+      "enum": [
+        443,
+        "fastFlashCommand"
+      ],
+      "description": "Fast Flash"
+    },
+    {
+      "enum": [
+        444,
+        "timedActivateCommand"
+      ],
+      "description": "Timed Activate"
+    },
+    {
+      "enum": [
+        445,
+        "timedSlowFlashCommand"
+      ],
+      "description": "Timed Slow Flash"
+    },
+    {
+      "enum": [
+        446,
+        "timedFastFlashCommand"
+      ],
+      "description": "Timed Fast Flash"
+    },
+    {
+      "enum": [
+        447,
+        "deactivateCommand"
+      ],
+      "description": "Deactivate"
+    },
+    {
+      "enum": [
+        448,
+        "outputSetCommand"
+      ],
+      "description": "Output Set"
+    },
+    {
+      "enum": [
+        449,
+        "outputSetTimedCommand"
+      ],
+      "description": "Output Set Timed"
+    },
+    {
+      "enum": [
+        450,
+        "outputReleaseAllCommand"
+      ],
+      "description": "Output Release All"
+    },
+    {
+      "enum": [
+        451,
+        "setAllToDefaultStatusCommand"
+      ],
+      "description": "Set All To Default Status"
+    },
+    {
+      "enum": [
+        452,
+        "resetAllEntryAndExitTimesCommand"
+      ],
+      "description": "Reset All Entry And Exit Times"
+    },
+    {
+      "enum": [
+        453,
+        "resetAllEntryTimesCommand"
+      ],
+      "description": "Reset All Entry Times"
+    },
+    {
+      "enum": [
+        454,
+        "resetAllExitTimesCommand"
+      ],
+      "description": "Reset All Exit Times"
+    },
+    {
+      "enum": [
+        455,
+        "triggerLockOnCommand"
+      ],
+      "description": "Trigger Lock On"
+    },
+    {
+      "enum": [
+        456,
+        "triggerLockOffCommand"
+      ],
+      "description": "Trigger Lock Off"
+    },
+    {
+      "enum": [
+        457,
+        "armCommand"
+      ],
+      "description": "Arm"
+    },
+    {
+      "enum": [
+        458,
+        "disarmCommand"
+      ],
+      "description": "Disarm"
+    },
+    {
+      "enum": [
+        459,
+        "armStatusSetCommand"
+      ],
+      "description": "Arm Status Set"
+    },
+    {
+      "enum": [
+        460,
+        "acknowledgeCommand"
+      ],
+      "description": "Acknowledge"
+    },
+    {
+      "enum": [
+        461,
+        "bypass2Command"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        462,
+        "testStartCommand"
+      ],
+      "description": "Test Start"
+    },
+    {
+      "enum": [
+        463,
+        "testStopCommand"
+      ],
+      "description": "Test Stop"
+    },
+    {
+      "enum": [
+        464,
+        "resetStartCommand"
+      ],
+      "description": "Reset Start"
+    },
+    {
+      "enum": [
+        465,
+        "resetStopCommand"
+      ],
+      "description": "Reset Stop"
+    },
+    {
+      "enum": [
+        466,
+        "silenceCommand"
+      ],
+      "description": "Silence"
+    },
+    {
+      "enum": [
+        467,
+        "enableAlarmsCommand"
+      ],
+      "description": "Enable Alarms"
+    },
+    {
+      "enum": [
+        468,
+        "disableAlarmsCommand"
+      ],
+      "description": "Disable Alarms"
+    },
+    {
+      "enum": [
+        469,
+        "relearnDevicesCommand"
+      ],
+      "description": "Relearn Devices"
+    },
+    {
+      "enum": [
+        470,
+        "upgradeFromUsbCommand"
+      ],
+      "description": "Upgrade From USB"
+    },
+    {
+      "enum": [
+        471,
+        "generateTestReportCommand"
+      ],
+      "description": "Generate Test Report"
+    },
+    {
+      "enum": [
+        472,
+        "setTargetValueCommand"
+      ],
+      "description": "Set Target Value"
+    },
+    {
+      "enum": [
+        473,
+        "getSignupsCommand"
+      ],
+      "description": "Get Signups from Device"
+    },
+    {
+      "enum": [
+        474,
+        "clearContentsCommand"
+      ],
+      "description": "Clear Contents"
+    },
+    {
+      "enum": [
+        475,
+        "rediscoverTextStringsCommand"
+      ],
+      "description": "Rediscover Text Strings"
+    },
+    {
+      "enum": [
+        476,
+        "triggerStartCommand"
+      ],
+      "description": "Trigger Start"
+    },
+    {
+      "enum": [
+        477,
+        "triggerStopCommand"
+      ],
+      "description": "Trigger Stop"
+    },
+    {
+      "enum": [
+        478,
+        "lookupByIdCommand"
+      ],
+      "description": "Look-up by ID"
+    },
+    {
+      "enum": [
+        479,
+        "lookupByBadgeNumberAndFcCommand"
+      ],
+      "description": "Look-up by Badge Number and F/C"
+    },
+    {
+      "enum": [
+        480,
+        "lookupByBadgeNumberOnlyCommand"
+      ],
+      "description": "Look-up by Badge Number Only"
+    },
+    {
+      "enum": [
+        481,
+        "lookupByFullBadgeAndFcCommand"
+      ],
+      "description": "Look-up by Full Badge and F/C"
+    },
+    {
+      "enum": [
+        482,
+        "lookupByFullBadgeNumberOnlyCommand"
+      ],
+      "description": "Look-up by Full Badge Number Only"
+    },
+    {
+      "enum": [
+        483,
+        "lookupByBadgeIdCommand"
+      ],
+      "description": "Look-up by Badge ID"
+    },
+    {
+      "enum": [
+        484,
+        "lookupByAccessProfileIdCommand"
+      ],
+      "description": "Look-up by Access Profile ID"
+    },
+    {
+      "enum": [
+        485,
+        "hwChkoutCommand"
+      ],
+      "description": "Hardware Checkout Command"
+    },
+    {
+      "enum": [
+        486,
+        "trendViewCommand"
+      ],
+      "description": "Trend View Command"
+    },
+    {
+      "enum": [
+        487,
+        "eventManagerCommand"
+      ],
+      "description": "Event Manager Command"
+    },
+    {
+      "enum": [
+        488,
+        "restoreControllerStatesTextCommand"
+      ],
+      "description": "Restore Controller States Text"
+    },
+    {
+      "enum": [
+        489,
+        "securityCommand"
+      ],
+      "description": "Security Command"
+    },
+    {
+      "enum": [
+        490,
+        "surgemapCommand"
+      ],
+      "description": "Surgemap Command"
+    },
+    {
+      "enum": [
+        491,
+        "auditManagerCommand"
+      ],
+      "description": "Audit Manager Command"
+    },
+    {
+      "enum": [
+        492,
+        "debugGoCommand"
+      ],
+      "description": "Go"
+    },
+    {
+      "enum": [
+        493,
+        "debugSingleStepCommand"
+      ],
+      "description": "Single Step"
+    },
+    {
+      "enum": [
+        494,
+        "debugAdvOneSecCommand"
+      ],
+      "description": "Advance One Second"
+    },
+    {
+      "enum": [
+        495,
+        "globalTimeBdcastCommand"
+      ],
+      "description": "Global Time Broadcast"
+    },
+    {
+      "enum": [
+        496,
+        "syncFieldDeviceTimeCommand"
+      ],
+      "description": "Sync Field Device Time(s)"
+    },
+    {
+      "enum": [
+        497,
+        "patchCommand"
+      ],
+      "description": "Patch"
+    },
+    {
+      "enum": [
+        498,
+        "provisionManagerCommand"
+      ],
+      "description": "Provision Manager Command"
+    },
+    {
+      "enum": [
+        499,
+        "getTraceListCommand"
+      ],
+      "description": "Get Trace List"
+    },
+    {
+      "enum": [
+        500,
+        "clearTraceListCommand"
+      ],
+      "description": "Clear Trace List"
+    },
+    {
+      "enum": [
+        501,
+        "temporaryOverrideCommand"
+      ],
+      "description": "Temporary Override"
+    },
+    {
+      "enum": [
+        502,
+        "temporaryOutOfServiceCommand"
+      ],
+      "description": "Temporary Out of Service"
+    },
+    {
+      "enum": [
+        503,
+        "manualTuningCommand"
+      ],
+      "description": "Manual Tuning"
+    },
+    {
+      "enum": [
+        504,
+        "getNameCommand"
+      ],
+      "description": "Get Name"
+    },
+    {
+      "enum": [
+        5630,
+        "addToActionqCommand"
+      ],
+      "description": "Add to ActionQ"
+    },
+    {
+      "enum": [
+        5631,
+        "getActionqDataCommand"
+      ],
+      "description": "Get ActionQ Data"
+    },
+    {
+      "enum": [
+        5632,
+        "deleteActionqCommand"
+      ],
+      "description": "Delete ActionQ"
+    },
+    {
+      "enum": [
+        5633,
+        "disableActionqCommand"
+      ],
+      "description": "Disable ActionQ"
+    },
+    {
+      "enum": [
+        5634,
+        "enableActionqCommand"
+      ],
+      "description": "Enable ActionQ"
+    },
+    {
+      "enum": [
+        5635,
+        "rescheduleActionqCommand"
+      ],
+      "description": "Reschedule ActionQ"
+    },
+    {
+      "enum": [
+        5636,
+        "loginPassthruCommand"
+      ],
+      "description": "Login Passthru"
+    },
+    {
+      "enum": [
+        5637,
+        "setAutodeleteCommand"
+      ],
+      "description": "Set Autodelete"
+    },
+    {
+      "enum": [
+        5638,
+        "getSecurityDatabaseNamesCommand"
+      ],
+      "description": "Get Security Database Names"
+    },
+    {
+      "enum": [
+        5639,
+        "getActionqScheduleDataCommand"
+      ],
+      "description": "Get ActionQ Schedule Data"
+    },
+    {
+      "enum": [
+        5640,
+        "editActionqCommand"
+      ],
+      "description": "Edit ActionQ"
+    },
+    {
+      "enum": [
+        5641,
+        "backupToUsbCommand"
+      ],
+      "description": "Backup To USB"
+    },
+    {
+      "enum": [
+        5642,
+        "restoreFromUsbCommand"
+      ],
+      "description": "Restore From USB"
+    },
+    {
+      "enum": [
+        5643,
+        "loadFactorySettingsCommand"
+      ],
+      "description": "Load Factory Settings"
+    },
+    {
+      "enum": [
+        5644,
+        "cecDevObjCmd"
+      ],
+      "description": "CEC Dev Obj"
+    },
+    {
+      "enum": [
+        5645,
+        "actionqJobCompleteCommand"
+      ],
+      "description": "ActionQ Job Completed"
+    },
+    {
+      "enum": [
+        5646,
+        "actionqJobFailedCommand"
+      ],
+      "description": "ActionQ Job Failed"
+    },
+    {
+      "enum": [
+        5647,
+        "programChangeCommand"
+      ],
+      "description": "Program Change"
+    },
+    {
+      "enum": [
+        5648,
+        "loginMultipleDeviceCommand"
+      ],
+      "description": "Login multiple Devices"
+    },
+    {
+      "enum": [
+        5649,
+        "certificateUploadCommand"
+      ],
+      "description": "Certificate Upload"
+    },
+    {
+      "enum": [
+        5650,
+        "certificateDownloadCommand"
+      ],
+      "description": "Certificate Download"
+    },
+    {
+      "enum": [
+        5651,
+        "scheduleSwitchoverCommand"
+      ],
+      "description": "Apply Staged Files"
+    }
+  ]
+}

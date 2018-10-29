@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/automaticManualEnumSet.schema.json",
+  "title": "automaticManualEnumSet",
+  "description": "Automatic Manual",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "automatic"
+      ],
+      "description": "Automatic"
+    },
+    {
+      "enum": [
+        1,
+        "manual"
+      ],
+      "description": "Manual"
+    }
+  ]
+}

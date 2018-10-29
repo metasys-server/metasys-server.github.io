@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/coolingTypeEnumSet.schema.json",
+  "title": "coolingTypeEnumSet",
+  "description": "Cooling Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Compressorized Clg"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Chilled Water"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "F BP Ctrl"
+    }
+  ]
+}

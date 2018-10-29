@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityCsiDayNightEnumSet.schema.json",
+  "title": "unityCsiDayNightEnumSet",
+  "description": "Unity CSI Day Night",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Night"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Day"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Manual On"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Manual Off"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Test On"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Test Off"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Test On-Manual On-Night"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Test On-Manual Off-Night"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Test Off-Manual On-Night"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Test On-Manual On-Day"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Test On-Manual Off-Day"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Test Off-Manual On-Day"
+    }
+  ]
+}

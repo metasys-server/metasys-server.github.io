@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacLifsftyModeEnumSet.schema.json",
+  "title": "bacLifsftyModeEnumSet",
+  "description": "BAC LifSfty Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lifesftyModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "lifesftyModeOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "lifesftyModeTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        3,
+        "lifesftyModeManned"
+      ],
+      "description": "Manned"
+    },
+    {
+      "enum": [
+        4,
+        "lifesftyModeUnmanned"
+      ],
+      "description": "Unmanned"
+    },
+    {
+      "enum": [
+        5,
+        "lifesftyModeArmed"
+      ],
+      "description": "Armed"
+    },
+    {
+      "enum": [
+        6,
+        "lifesftyModeDisarmed"
+      ],
+      "description": "Disarmed"
+    },
+    {
+      "enum": [
+        7,
+        "lifesftyModePrearmed"
+      ],
+      "description": "Prearmed"
+    },
+    {
+      "enum": [
+        8,
+        "lifesftyModeSlow"
+      ],
+      "description": "Slow"
+    },
+    {
+      "enum": [
+        9,
+        "lifesftyModeFast"
+      ],
+      "description": "Fast"
+    },
+    {
+      "enum": [
+        10,
+        "lifesftyModeDisconnected"
+      ],
+      "description": "Disconnected"
+    },
+    {
+      "enum": [
+        11,
+        "lifesftyModeEnabled"
+      ],
+      "description": "Enabled"
+    },
+    {
+      "enum": [
+        12,
+        "lifesftyModeDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        13,
+        "lifesftyModeAutoReleaseDisable"
+      ],
+      "description": "AutoRelease Disabled"
+    },
+    {
+      "enum": [
+        14,
+        "lifesftyModeDefault"
+      ],
+      "description": "Default"
+    }
+  ]
+}

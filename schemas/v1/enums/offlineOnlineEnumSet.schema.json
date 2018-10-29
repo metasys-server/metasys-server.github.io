@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offlineOnlineEnumSet.schema.json",
+  "title": "offlineOnlineEnumSet",
+  "description": "Offline/Online",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ololOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        1,
+        "ololOnline"
+      ],
+      "description": "Online"
+    }
+  ]
+}

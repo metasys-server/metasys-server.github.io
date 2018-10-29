@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityPowOffOnAutoEnumSet.schema.json",
+  "title": "unityPowOffOnAutoEnumSet",
+  "description": "Unity POW Off/On/Auto",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ON"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "OFF"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "AUTO"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MANUAL, ON"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "MANUAL, OFF"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "MANUAL, AUTO"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

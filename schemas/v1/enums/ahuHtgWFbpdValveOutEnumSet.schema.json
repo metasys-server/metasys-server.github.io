@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHtgWFbpdValveOutEnumSet.schema.json",
+  "title": "ahuHtgWFbpdValveOutEnumSet",
+  "description": "AHU Htg w FBPD Valve Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahfvoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahfvoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ahfvoLimitedMaxValve"
+      ],
+      "description": "Limited Max Valve"
+    },
+    {
+      "enum": [
+        3,
+        "ahfvoLimitedMaxDamper"
+      ],
+      "description": "Limited Max Damper"
+    },
+    {
+      "enum": [
+        4,
+        "ahfvoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        5,
+        "ahfvoWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        6,
+        "ahfvoTControlValve"
+      ],
+      "description": "T Control Valve"
+    },
+    {
+      "enum": [
+        7,
+        "ahfvoTControlDamper"
+      ],
+      "description": "T Control Damper"
+    },
+    {
+      "enum": [
+        8,
+        "ahfvoLlTControlValve"
+      ],
+      "description": "LL-T Control Valve"
+    },
+    {
+      "enum": [
+        9,
+        "ahfvoLlTControlDamper"
+      ],
+      "description": "LL-T Control Damper"
+    },
+    {
+      "enum": [
+        10,
+        "ahfvoFailsoftValve"
+      ],
+      "description": "Failsoft Valve"
+    },
+    {
+      "enum": [
+        11,
+        "ahfvoFailsoftDamper"
+      ],
+      "description": "Failsoft Damper"
+    },
+    {
+      "enum": [
+        12,
+        "ahfvoLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        13,
+        "ahfvoRemainInCntrl"
+      ],
+      "description": "Remain In Control"
+    }
+  ]
+}

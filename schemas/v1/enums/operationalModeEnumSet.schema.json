@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/operationalModeEnumSet.schema.json",
+  "title": "operationalModeEnumSet",
+  "description": "Operational Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "modeInitialization"
+      ],
+      "description": "Initialization"
+    },
+    {
+      "enum": [
+        1,
+        "modeNonOperational"
+      ],
+      "description": "Non Operational"
+    },
+    {
+      "enum": [
+        2,
+        "modeNonOperationalPending"
+      ],
+      "description": "Non Operational Pending"
+    },
+    {
+      "enum": [
+        3,
+        "modeOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        4,
+        "modeOperationalPending"
+      ],
+      "description": "Operational Pending"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/booleanEnumSet.schema.json",
+  "title": "booleanEnumSet",
+  "description": "Boolean Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "not"
+      ],
+      "description": "NOT"
+    },
+    {
+      "enum": [
+        1,
+        "and"
+      ],
+      "description": "AND"
+    },
+    {
+      "enum": [
+        2,
+        "or"
+      ],
+      "description": "OR"
+    },
+    {
+      "enum": [
+        3,
+        "xor"
+      ],
+      "description": "XOR"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavZncStatesEnumSet.schema.json",
+  "title": "vavZncStatesEnumSet",
+  "description": "VAV ZNC States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavzngSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "vavzngSuppHtg"
+      ],
+      "description": "Supp Htg"
+    },
+    {
+      "enum": [
+        2,
+        "vavzngSuppBoxHtg"
+      ],
+      "description": "Supp Htg + Box Htg"
+    },
+    {
+      "enum": [
+        3,
+        "vavzngBoxHtg"
+      ],
+      "description": "Box Htg"
+    },
+    {
+      "enum": [
+        4,
+        "vavzngBoxSuppHtg"
+      ],
+      "description": "Box Htg + Supp Htg"
+    },
+    {
+      "enum": [
+        5,
+        "vavzngPrmyClg"
+      ],
+      "description": "Prmy Clg"
+    },
+    {
+      "enum": [
+        6,
+        "vavzngTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    }
+  ]
+}

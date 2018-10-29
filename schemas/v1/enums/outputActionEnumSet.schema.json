@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/outputActionEnumSet.schema.json",
+  "title": "outputActionEnumSet",
+  "description": "Output Action",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "positionalMode"
+      ],
+      "description": "Positional"
+    },
+    {
+      "enum": [
+        1,
+        "incrementalMode"
+      ],
+      "description": "Incremental"
+    }
+  ]
+}

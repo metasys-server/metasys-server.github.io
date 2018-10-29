@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lightingSet3EnumSet.schema.json",
+  "title": "lightingSet3EnumSet",
+  "description": "Lighting Set 3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ls3Normal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "ls3NormalUnocc"
+      ],
+      "description": "Normal - Unoccupied"
+    },
+    {
+      "enum": [
+        2,
+        "ls3AfterHours"
+      ],
+      "description": "After Hours"
+    },
+    {
+      "enum": [
+        3,
+        "ls3AfterHoursUnocc"
+      ],
+      "description": "After Hours - Unoccupied"
+    }
+  ]
+}

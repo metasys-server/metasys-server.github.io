@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJp1ExioStatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJp1ExioStatEnumSet",
+  "description": "York LTC Legacy YIA JP1 Exio Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJp1ExioStat0"
+      ],
+      "description": "Rotary Valve"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJp1ExioStat1"
+      ],
+      "description": "Cage Valve"
+    }
+  ]
+}

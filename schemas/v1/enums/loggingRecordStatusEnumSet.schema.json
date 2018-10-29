@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/loggingRecordStatusEnumSet.schema.json",
+  "title": "loggingRecordStatusEnumSet",
+  "description": "Logging Record Status Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "loggingRecordNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "loggingRecordStarting"
+      ],
+      "description": "Starting"
+    },
+    {
+      "enum": [
+        2,
+        "loggingRecordRecovered"
+      ],
+      "description": "Recovered"
+    },
+    {
+      "enum": [
+        3,
+        "loggingRecordAbnormal"
+      ],
+      "description": "Abnormal"
+    },
+    {
+      "enum": [
+        4,
+        "loggingRecordFailed"
+      ],
+      "description": "Failed"
+    }
+  ]
+}

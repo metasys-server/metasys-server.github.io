@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtSceneConfigEnumSet.schema.json",
+  "title": "snvtSceneConfigEnumSet",
+  "description": "SNVT Scene Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Save"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Clear"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Report"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Size"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Free"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

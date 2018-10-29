@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lightLogicStateEnumSet.schema.json",
+  "title": "lightLogicStateEnumSet",
+  "description": "Lighting Operation",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lightsOff"
+      ],
+      "description": "Lights Off"
+    },
+    {
+      "enum": [
+        1,
+        "lightsOn"
+      ],
+      "description": "Lights On"
+    },
+    {
+      "enum": [
+        2,
+        "lightsBlink"
+      ],
+      "description": "Lights Blink"
+    },
+    {
+      "enum": [
+        3,
+        "lightsWaitingToTurnOff"
+      ],
+      "description": "Waiting To Turn Off"
+    }
+  ]
+}

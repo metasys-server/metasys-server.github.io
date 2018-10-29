@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/minFlowWithResetEnumSet.schema.json",
+  "title": "minFlowWithResetEnumSet",
+  "description": "Min Flow with Reset States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "minflOccReset"
+      ],
+      "description": "Occupied with Reset"
+    },
+    {
+      "enum": [
+        1,
+        "minflOcc"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        2,
+        "minflUnocc"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        3,
+        "minflWarmupCooldown"
+      ],
+      "description": "Warmup/Cooldown"
+    }
+  ]
+}

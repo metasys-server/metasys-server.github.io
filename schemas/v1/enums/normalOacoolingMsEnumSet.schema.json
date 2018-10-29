@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalOacoolingMsEnumSet.schema.json",
+  "title": "normalOacoolingMsEnumSet",
+  "description": "Normal/OA Cooling",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normalOacoolingNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "normalOacoolingOacooling"
+      ],
+      "description": "OA Cooling"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/verasysIomPointNames.schema.json",
+  "title": "verasysIomPointNames",
+  "description": "Verasys IOM Point Names",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "verasysIomBi1"
+      ],
+      "description": "BI-1"
+    },
+    {
+      "enum": [
+        1,
+        "verasysIomBi2"
+      ],
+      "description": "BI-2"
+    },
+    {
+      "enum": [
+        2,
+        "verasysIomAi3"
+      ],
+      "description": "AI-3"
+    },
+    {
+      "enum": [
+        3,
+        "verasysIomAi4"
+      ],
+      "description": "AI-4"
+    },
+    {
+      "enum": [
+        4,
+        "verasysIomBo1"
+      ],
+      "description": "BO-1"
+    },
+    {
+      "enum": [
+        5,
+        "verasysIomBo2"
+      ],
+      "description": "BO-2"
+    },
+    {
+      "enum": [
+        6,
+        "verasysIomBo3"
+      ],
+      "description": "BO-3"
+    },
+    {
+      "enum": [
+        7,
+        "verasysIomBo4"
+      ],
+      "description": "BO-4"
+    },
+    {
+      "enum": [
+        8,
+        "verasysIomBi1Description"
+      ],
+      "description": "BI-1 Description"
+    },
+    {
+      "enum": [
+        9,
+        "verasysIomBi2Description"
+      ],
+      "description": "BI-2 Description"
+    },
+    {
+      "enum": [
+        10,
+        "verasysIomAi3Description"
+      ],
+      "description": "AI-3 Description"
+    },
+    {
+      "enum": [
+        11,
+        "verasysIomAi4Description"
+      ],
+      "description": "AI-4 Description"
+    },
+    {
+      "enum": [
+        12,
+        "verasysIomBo1Description"
+      ],
+      "description": "BO-1 Description"
+    },
+    {
+      "enum": [
+        13,
+        "verasysIomBo2Description"
+      ],
+      "description": "BO-2 Description"
+    },
+    {
+      "enum": [
+        14,
+        "verasysIomBo3Description"
+      ],
+      "description": "BO-3 Description"
+    },
+    {
+      "enum": [
+        15,
+        "verasysIomBo4Description"
+      ],
+      "description": "BO-4 Description"
+    }
+  ]
+}

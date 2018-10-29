@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/onForHtgOnForClgEnumSet.schema.json",
+  "title": "onForHtgOnForClgEnumSet",
+  "description": "On For Htg/On For Clg",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hcOnForHtg"
+      ],
+      "description": "On For Htg"
+    },
+    {
+      "enum": [
+        1,
+        "hcOnForClg"
+      ],
+      "description": "On For Clg"
+    }
+  ]
+}

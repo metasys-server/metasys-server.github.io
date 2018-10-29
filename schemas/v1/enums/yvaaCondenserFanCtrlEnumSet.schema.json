@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yvaaCondenserFanCtrlEnumSet.schema.json",
+  "title": "yvaaCondenserFanCtrlEnumSet",
+  "description": "YVAA Condenser Fan Ctrl",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yvaaCondenserFanCtrlInvalid"
+      ],
+      "description": "Invalid"
+    },
+    {
+      "enum": [
+        1,
+        "yvaaCondenserFanCtrlStdVsd"
+      ],
+      "description": "Std. VSD"
+    },
+    {
+      "enum": [
+        2,
+        "yvaaCondenserFanCtrlOptVsd"
+      ],
+      "description": "Opt. VSD"
+    },
+    {
+      "enum": [
+        3,
+        "yvaaCondenserFanCtrlStdStaged"
+      ],
+      "description": "Std. Staged"
+    },
+    {
+      "enum": [
+        4,
+        "yvaaCondenserFanCtrlOptStaged"
+      ],
+      "description": "Opt. Staged"
+    }
+  ]
+}

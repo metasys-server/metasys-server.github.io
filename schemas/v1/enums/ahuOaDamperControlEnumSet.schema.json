@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuOaDamperControlEnumSet.schema.json",
+  "title": "ahuOaDamperControlEnumSet",
+  "description": "AHU OA Damper Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuOaDcPressurize"
+      ],
+      "description": "Pressurize"
+    },
+    {
+      "enum": [
+        1,
+        "ahuOaDcDepressurize"
+      ],
+      "description": "Depressurize"
+    },
+    {
+      "enum": [
+        2,
+        "ahuOaDcClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        3,
+        "ahuOaDcPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        4,
+        "ahuOaDcMinOa"
+      ],
+      "description": "Min OA"
+    },
+    {
+      "enum": [
+        5,
+        "ahuOaDcHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        6,
+        "ahuOaDcRampMinOa"
+      ],
+      "description": "Ramp Min OA"
+    },
+    {
+      "enum": [
+        7,
+        "ahuOaDcRampOpen"
+      ],
+      "description": "Ramp Open"
+    },
+    {
+      "enum": [
+        8,
+        "ahuOaDcTControl"
+      ],
+      "description": "T Control"
+    }
+  ]
+}

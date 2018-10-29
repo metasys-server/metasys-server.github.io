@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecOccEnumSet.schema.json",
+  "title": "tecOccEnumSet",
+  "description": "TEC Occupancy",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecOccNotUsed"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        1,
+        "tecOccOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        2,
+        "tecOccUnocc"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        3,
+        "tecOccTempOcc"
+      ],
+      "description": "Temp Occ"
+    },
+    {
+      "enum": [
+        4,
+        "tecOccStandby"
+      ],
+      "description": "Standby"
+    }
+  ]
+}

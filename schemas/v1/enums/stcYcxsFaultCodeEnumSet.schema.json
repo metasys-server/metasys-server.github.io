@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcYcxsFaultCodeEnumSet.schema.json",
+  "title": "stcYcxsFaultCodeEnumSet",
+  "description": "York YCAS YCWS YCRS Fault Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcYcxsFaultCode0"
+      ],
+      "description": "NO FAULTS"
+    },
+    {
+      "enum": [
+        1,
+        "stcYcxsFaultCode1"
+      ],
+      "description": "VAC UNDER VOLTAGE"
+    },
+    {
+      "enum": [
+        2,
+        "stcYcxsFaultCode2"
+      ],
+      "description": "LOW AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        3,
+        "stcYcxsFaultCode3"
+      ],
+      "description": "HIGH AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "stcYcxsFaultCode4"
+      ],
+      "description": "LOW LEAVING CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "stcYcxsFaultCode5"
+      ],
+      "description": "HIGH DISCHARGE PRESSURE (SOFTWARE)"
+    },
+    {
+      "enum": [
+        6,
+        "stcYcxsFaultCode6"
+      ],
+      "description": "HIGH DIFFERENTIAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        7,
+        "stcYcxsFaultCode7"
+      ],
+      "description": "LOW SUCTION PRESSURE"
+    },
+    {
+      "enum": [
+        8,
+        "stcYcxsFaultCode8"
+      ],
+      "description": "HIGH MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        9,
+        "stcYcxsFaultCode9"
+      ],
+      "description": "PUMP FLOW FAULT (3,4 COMPRESSOR EUROCAT)"
+    },
+    {
+      "enum": [
+        10,
+        "stcYcxsFaultCode10"
+      ],
+      "description": "LOW BATTERY WARNING"
+    },
+    {
+      "enum": [
+        11,
+        "stcYcxsFaultCode11"
+      ],
+      "description": "HIGH OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        12,
+        "stcYcxsFaultCode12"
+      ],
+      "description": "HIGH DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        13,
+        "stcYcxsFaultCode13"
+      ],
+      "description": "IMPROPER PHASE ROTATION (RESERVED)"
+    },
+    {
+      "enum": [
+        14,
+        "stcYcxsFaultCode14"
+      ],
+      "description": "LOW MOTOR CURRENT | MP | HPCO"
+    },
+    {
+      "enum": [
+        15,
+        "stcYcxsFaultCode15"
+      ],
+      "description": "MOTOR CURRENT UNBALANCED (RESERVED)"
+    },
+    {
+      "enum": [
+        16,
+        "stcYcxsFaultCode16"
+      ],
+      "description": "LOW DIFFERENTIAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        17,
+        "stcYcxsFaultCode17"
+      ],
+      "description": "GROUND FAULT (RESERVED)"
+    },
+    {
+      "enum": [
+        18,
+        "stcYcxsFaultCode18"
+      ],
+      "description": "MP/HPCO (RESERVED)"
+    },
+    {
+      "enum": [
+        19,
+        "stcYcxsFaultCode19"
+      ],
+      "description": "LOW EVAPORATOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        20,
+        "stcYcxsFaultCode20"
+      ],
+      "description": "INCORRECT REFRIGERANT PROGRAMMED"
+    },
+    {
+      "enum": [
+        21,
+        "stcYcxsFaultCode21"
+      ],
+      "description": "POWER FAILURE, MANUAL RESET REQUIRED"
+    },
+    {
+      "enum": [
+        22,
+        "stcYcxsFaultCode22"
+      ],
+      "description": "I/O BOARD FAILURE (3,4 COMPRESSOR UNIT)"
+    },
+    {
+      "enum": [
+        23,
+        "stcYcxsFaultCode23"
+      ],
+      "description": "LOW SUCTION SUPERHEAT"
+    },
+    {
+      "enum": [
+        24,
+        "stcYcxsFaultCode24"
+      ],
+      "description": "SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        25,
+        "stcYcxsFaultCode25"
+      ],
+      "description": "REPROGRAM UNIT TYPE (2 COMPRESSOR UNIT)"
+    },
+    {
+      "enum": [
+        26,
+        "stcYcxsFaultCode26"
+      ],
+      "description": "MP/HPCO INHIBIT (RESERVED)"
+    },
+    {
+      "enum": [
+        27,
+        "stcYcxsFaultCode27"
+      ],
+      "description": "HEAT RECOVERY SELECT (2 COMPRESSOR UNIT)"
+    },
+    {
+      "enum": [
+        28,
+        "stcYcxsFaultCode28"
+      ],
+      "description": "PUMP FLOW FAULT (2 COMP)|MOTOR CURRENT AVG. (3,4 COMP)"
+    },
+    {
+      "enum": [
+        29,
+        "stcYcxsFaultCode29"
+      ],
+      "description": "MOTOR CURRENT AVERAGE (2 COMPRESSOR UNIT)"
+    },
+    {
+      "enum": [
+        30,
+        "stcYcxsFaultCode30"
+      ],
+      "description": "RESERVED 30"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrHeatingControlStatusEnumSet.schema.json",
+  "title": "hlrHeatingControlStatusEnumSet",
+  "description": "HLR Heating Control Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrHeatingControlStatusOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "hlrHeatingControlStatusOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "hlrHeatingControlStatusOffOatLockout"
+      ],
+      "description": "Off-OAT Lockout"
+    },
+    {
+      "enum": [
+        3,
+        "hlrHeatingControlStatusOffLockout"
+      ],
+      "description": "Off-Lockout"
+    },
+    {
+      "enum": [
+        4,
+        "hlrHeatingControlStatusOffLowSupplyVoltage"
+      ],
+      "description": "Off-Low Supply Voltage"
+    }
+  ]
+}

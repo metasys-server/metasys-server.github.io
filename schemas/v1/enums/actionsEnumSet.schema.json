@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/actionsEnumSet.schema.json",
+  "title": "actionsEnumSet",
+  "description": "Command Actions",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noAction"
+      ],
+      "description": "No Action"
+    },
+    {
+      "enum": [
+        1,
+        "action0"
+      ],
+      "description": "Action 0"
+    },
+    {
+      "enum": [
+        2,
+        "action1"
+      ],
+      "description": "Action 1"
+    },
+    {
+      "enum": [
+        3,
+        "action2"
+      ],
+      "description": "Action 2"
+    },
+    {
+      "enum": [
+        4,
+        "action3"
+      ],
+      "description": "Action 3"
+    },
+    {
+      "enum": [
+        5,
+        "action4"
+      ],
+      "description": "Action 4"
+    },
+    {
+      "enum": [
+        6,
+        "action5"
+      ],
+      "description": "Action 5"
+    },
+    {
+      "enum": [
+        7,
+        "action6"
+      ],
+      "description": "Action 6"
+    },
+    {
+      "enum": [
+        8,
+        "action7"
+      ],
+      "description": "Action 7"
+    },
+    {
+      "enum": [
+        9,
+        "action8"
+      ],
+      "description": "Action 8"
+    },
+    {
+      "enum": [
+        10,
+        "action9"
+      ],
+      "description": "Action 9"
+    },
+    {
+      "enum": [
+        11,
+        "action10"
+      ],
+      "description": "Action 10"
+    },
+    {
+      "enum": [
+        12,
+        "action11"
+      ],
+      "description": "Action 11"
+    },
+    {
+      "enum": [
+        13,
+        "action12"
+      ],
+      "description": "Action 12"
+    },
+    {
+      "enum": [
+        14,
+        "action13"
+      ],
+      "description": "Action 13"
+    },
+    {
+      "enum": [
+        15,
+        "action14"
+      ],
+      "description": "Action 14"
+    },
+    {
+      "enum": [
+        16,
+        "action15"
+      ],
+      "description": "Action 15"
+    },
+    {
+      "enum": [
+        17,
+        "action16"
+      ],
+      "description": "Action 16"
+    },
+    {
+      "enum": [
+        18,
+        "action17"
+      ],
+      "description": "Action 17"
+    },
+    {
+      "enum": [
+        19,
+        "action18"
+      ],
+      "description": "Action 18"
+    },
+    {
+      "enum": [
+        20,
+        "action19"
+      ],
+      "description": "Action 19"
+    },
+    {
+      "enum": [
+        21,
+        "action20"
+      ],
+      "description": "Action 20"
+    },
+    {
+      "enum": [
+        22,
+        "action21"
+      ],
+      "description": "Action 21"
+    },
+    {
+      "enum": [
+        23,
+        "action22"
+      ],
+      "description": "Action 22"
+    },
+    {
+      "enum": [
+        24,
+        "action23"
+      ],
+      "description": "Action 23"
+    },
+    {
+      "enum": [
+        25,
+        "action24"
+      ],
+      "description": "Action 24"
+    },
+    {
+      "enum": [
+        26,
+        "action25"
+      ],
+      "description": "Action 25"
+    },
+    {
+      "enum": [
+        27,
+        "action26"
+      ],
+      "description": "Action 26"
+    },
+    {
+      "enum": [
+        28,
+        "action27"
+      ],
+      "description": "Action 27"
+    },
+    {
+      "enum": [
+        29,
+        "action28"
+      ],
+      "description": "Action 28"
+    },
+    {
+      "enum": [
+        30,
+        "action29"
+      ],
+      "description": "Action 29"
+    },
+    {
+      "enum": [
+        31,
+        "action30"
+      ],
+      "description": "Action 30"
+    }
+  ]
+}

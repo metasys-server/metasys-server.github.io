@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/motorOverdriveModeEnumSet.schema.json",
+  "title": "motorOverdriveModeEnumSet",
+  "description": "Motor Overdrive Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "motorOdTimeBased"
+      ],
+      "description": "Time Based"
+    },
+    {
+      "enum": [
+        1,
+        "motorOdAtEachBound"
+      ],
+      "description": "At Each Bound"
+    },
+    {
+      "enum": [
+        2,
+        "motorOdStartupOnly"
+      ],
+      "description": "Start-up Only"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/decimalGroupSeparator.schema.json",
+  "title": "decimalGroupSeparator",
+  "description": "Decimal Group Separator",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "decimalGroupSeparatorSpace"
+      ],
+      "description": "Space"
+    },
+    {
+      "enum": [
+        1,
+        "decimalGroupSeparatorPeriod"
+      ],
+      "description": "Period"
+    },
+    {
+      "enum": [
+        2,
+        "decimalGroupSeparatorComma"
+      ],
+      "description": "Comma"
+    },
+    {
+      "enum": [
+        3,
+        "decimalGroupSeparatorNone"
+      ],
+      "description": "None"
+    }
+  ]
+}

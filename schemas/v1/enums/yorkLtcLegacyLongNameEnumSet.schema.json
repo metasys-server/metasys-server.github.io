@@ -1,0 +1,1401 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yorkLtcLegacyLongNameEnumSet.schema.json",
+  "title": "yorkLtcLegacyLongNameEnumSet",
+  "description": "York LTC Legacy Long Name Set",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "yorkLtcLegacyLongName1"
+      ],
+      "description": "Leaving Chilled Water Temp Setpoint"
+    },
+    {
+      "enum": [
+        2,
+        "yorkLtcLegacyLongName2"
+      ],
+      "description": "Remote Current Setpoint"
+    },
+    {
+      "enum": [
+        3,
+        "yorkLtcLegacyLongName3"
+      ],
+      "description": "Start/Stop"
+    },
+    {
+      "enum": [
+        4,
+        "yorkLtcLegacyLongName4"
+      ],
+      "description": "Frozen/Live Data Source"
+    },
+    {
+      "enum": [
+        5,
+        "yorkLtcLegacyLongName5"
+      ],
+      "description": "Fixed Variable Speed Selector [0=VariableSpd]"
+    },
+    {
+      "enum": [
+        6,
+        "yorkLtcLegacyLongName6"
+      ],
+      "description": "Leaving Chilled Water Temp"
+    },
+    {
+      "enum": [
+        7,
+        "yorkLtcLegacyLongName7"
+      ],
+      "description": "Entering Chilled Water Temp"
+    },
+    {
+      "enum": [
+        8,
+        "yorkLtcLegacyLongName8"
+      ],
+      "description": "Evaporator Pressure"
+    },
+    {
+      "enum": [
+        9,
+        "yorkLtcLegacyLongName9"
+      ],
+      "description": "Condenser Pressure"
+    },
+    {
+      "enum": [
+        10,
+        "yorkLtcLegacyLongName10"
+      ],
+      "description": "Oil Pressure"
+    },
+    {
+      "enum": [
+        11,
+        "yorkLtcLegacyLongName11"
+      ],
+      "description": "Entering Condenser Water Temp"
+    },
+    {
+      "enum": [
+        12,
+        "yorkLtcLegacyLongName12"
+      ],
+      "description": "Leaving Condenser Water Temp"
+    },
+    {
+      "enum": [
+        13,
+        "yorkLtcLegacyLongName13"
+      ],
+      "description": "Percent Motor Current"
+    },
+    {
+      "enum": [
+        14,
+        "yorkLtcLegacyLongName14"
+      ],
+      "description": "Phase A Motor Current"
+    },
+    {
+      "enum": [
+        15,
+        "yorkLtcLegacyLongName15"
+      ],
+      "description": "Phase B Motor Current"
+    },
+    {
+      "enum": [
+        16,
+        "yorkLtcLegacyLongName16"
+      ],
+      "description": "Phase C Motor Current"
+    },
+    {
+      "enum": [
+        17,
+        "yorkLtcLegacyLongName17"
+      ],
+      "description": "Phase A-B Line Voltage"
+    },
+    {
+      "enum": [
+        18,
+        "yorkLtcLegacyLongName18"
+      ],
+      "description": "Phase B-C Line Voltage"
+    },
+    {
+      "enum": [
+        19,
+        "yorkLtcLegacyLongName19"
+      ],
+      "description": "Phase C-A Line Voltage"
+    },
+    {
+      "enum": [
+        20,
+        "yorkLtcLegacyLongName20"
+      ],
+      "description": "Leaving Chilled Water Temp Actual Setpoint"
+    },
+    {
+      "enum": [
+        21,
+        "yorkLtcLegacyLongName21"
+      ],
+      "description": "Remote/Local Actual Current Setpoint"
+    },
+    {
+      "enum": [
+        22,
+        "yorkLtcLegacyLongName22"
+      ],
+      "description": "Evaporator Saturation Temp"
+    },
+    {
+      "enum": [
+        23,
+        "yorkLtcLegacyLongName23"
+      ],
+      "description": "Condenser Saturation Temp"
+    },
+    {
+      "enum": [
+        24,
+        "yorkLtcLegacyLongName24"
+      ],
+      "description": "Discharge Temp"
+    },
+    {
+      "enum": [
+        25,
+        "yorkLtcLegacyLongName25"
+      ],
+      "description": "Oil Temperature"
+    },
+    {
+      "enum": [
+        26,
+        "yorkLtcLegacyLongName26"
+      ],
+      "description": "Refrigerant Level"
+    },
+    {
+      "enum": [
+        27,
+        "yorkLtcLegacyLongName27"
+      ],
+      "description": "Accumulated Operating Hours"
+    },
+    {
+      "enum": [
+        28,
+        "yorkLtcLegacyLongName28"
+      ],
+      "description": "Accumulated System Starts"
+    },
+    {
+      "enum": [
+        29,
+        "yorkLtcLegacyLongName29"
+      ],
+      "description": "Low Oil Transducer Pressure"
+    },
+    {
+      "enum": [
+        30,
+        "yorkLtcLegacyLongName30"
+      ],
+      "description": "High Oil Transducer Pressure"
+    },
+    {
+      "enum": [
+        31,
+        "yorkLtcLegacyLongName31"
+      ],
+      "description": "Compressor Motor Status"
+    },
+    {
+      "enum": [
+        32,
+        "yorkLtcLegacyLongName32"
+      ],
+      "description": "Vent ValveStatus"
+    },
+    {
+      "enum": [
+        33,
+        "yorkLtcLegacyLongName33"
+      ],
+      "description": "Chilled Water Pump Status"
+    },
+    {
+      "enum": [
+        34,
+        "yorkLtcLegacyLongName34"
+      ],
+      "description": "Start Switch Status"
+    },
+    {
+      "enum": [
+        35,
+        "yorkLtcLegacyLongName35"
+      ],
+      "description": "Chilled Water Flow Switch Status"
+    },
+    {
+      "enum": [
+        36,
+        "yorkLtcLegacyLongName36"
+      ],
+      "description": "Adaptive Capacity Control Valid Surge Map"
+    },
+    {
+      "enum": [
+        37,
+        "yorkLtcLegacyLongName37"
+      ],
+      "description": "Adaptive Capacity Control New Surge Point"
+    },
+    {
+      "enum": [
+        38,
+        "yorkLtcLegacyLongName38"
+      ],
+      "description": "VSD Cooling Pump Running [Open=Stopped, Made=Running]"
+    },
+    {
+      "enum": [
+        39,
+        "yorkLtcLegacyLongName39"
+      ],
+      "description": "VSD IEEE 519 Filter Present [Open=Not Installed, Made=Installed]"
+    },
+    {
+      "enum": [
+        40,
+        "yorkLtcLegacyLongName40"
+      ],
+      "description": "Surge Detection Type [Open=Delta P/P, Made=Current]"
+    },
+    {
+      "enum": [
+        41,
+        "yorkLtcLegacyLongName41"
+      ],
+      "description": "Anti-Recycle Time Left"
+    },
+    {
+      "enum": [
+        42,
+        "yorkLtcLegacyLongName42"
+      ],
+      "description": "Operating Mode [1=Service, 2=Local, 3=Remote, 4=VSD]"
+    },
+    {
+      "enum": [
+        43,
+        "yorkLtcLegacyLongName43"
+      ],
+      "description": "Operation Code"
+    },
+    {
+      "enum": [
+        44,
+        "yorkLtcLegacyLongName44"
+      ],
+      "description": "Safety Shutdown Code"
+    },
+    {
+      "enum": [
+        45,
+        "yorkLtcLegacyLongName45"
+      ],
+      "description": "Cycling Shutdown Code"
+    },
+    {
+      "enum": [
+        46,
+        "yorkLtcLegacyLongName46"
+      ],
+      "description": "VSD Internal Temp"
+    },
+    {
+      "enum": [
+        47,
+        "yorkLtcLegacyLongName47"
+      ],
+      "description": "VSD Converter Heatsink Temp"
+    },
+    {
+      "enum": [
+        48,
+        "yorkLtcLegacyLongName48"
+      ],
+      "description": "ACC PRV Position"
+    },
+    {
+      "enum": [
+        49,
+        "yorkLtcLegacyLongName49"
+      ],
+      "description": "Adaptive Capacity Cntrl Frozen Output Frequency"
+    },
+    {
+      "enum": [
+        50,
+        "yorkLtcLegacyLongName50"
+      ],
+      "description": "Refrigerant Level Setpoint"
+    },
+    {
+      "enum": [
+        51,
+        "yorkLtcLegacyLongName51"
+      ],
+      "description": "Proximity Sensor Actual Position"
+    },
+    {
+      "enum": [
+        52,
+        "yorkLtcLegacyLongName52"
+      ],
+      "description": "Proximity Sensor Reference Position"
+    },
+    {
+      "enum": [
+        53,
+        "yorkLtcLegacyLongName53"
+      ],
+      "description": "Drain Line Thermocouple Temperature"
+    },
+    {
+      "enum": [
+        54,
+        "yorkLtcLegacyLongName54"
+      ],
+      "description": "Adaptive Capacity Control Frozen Delta P/P"
+    },
+    {
+      "enum": [
+        55,
+        "yorkLtcLegacyLongName55"
+      ],
+      "description": "VSD Output Voltage"
+    },
+    {
+      "enum": [
+        56,
+        "yorkLtcLegacyLongName56"
+      ],
+      "description": "VSD Input KW"
+    },
+    {
+      "enum": [
+        57,
+        "yorkLtcLegacyLongName57"
+      ],
+      "description": "VSD I/P MWH"
+    },
+    {
+      "enum": [
+        58,
+        "yorkLtcLegacyLongName58"
+      ],
+      "description": "VSD DC Link Voltage"
+    },
+    {
+      "enum": [
+        59,
+        "yorkLtcLegacyLongName59"
+      ],
+      "description": "VSD DC Link Current"
+    },
+    {
+      "enum": [
+        60,
+        "yorkLtcLegacyLongName60"
+      ],
+      "description": "VSD Surge Count"
+    },
+    {
+      "enum": [
+        61,
+        "yorkLtcLegacyLongName61"
+      ],
+      "description": "VSD Output Frequency"
+    },
+    {
+      "enum": [
+        62,
+        "yorkLtcLegacyLongName62"
+      ],
+      "description": "VSD Maximum Voltage THD"
+    },
+    {
+      "enum": [
+        63,
+        "yorkLtcLegacyLongName63"
+      ],
+      "description": "VSD Maximum Current TDD"
+    },
+    {
+      "enum": [
+        64,
+        "yorkLtcLegacyLongName64"
+      ],
+      "description": "VSD Input KVA"
+    },
+    {
+      "enum": [
+        65,
+        "yorkLtcLegacyLongName65"
+      ],
+      "description": "Purge Pressure"
+    },
+    {
+      "enum": [
+        66,
+        "yorkLtcLegacyLongName66"
+      ],
+      "description": "Differential Oil Pressure"
+    },
+    {
+      "enum": [
+        67,
+        "yorkLtcLegacyLongName67"
+      ],
+      "description": "Phase A Motor Current (SSS models Only)"
+    },
+    {
+      "enum": [
+        68,
+        "yorkLtcLegacyLongName68"
+      ],
+      "description": "Phase B Motor Current (SSS models Only)"
+    },
+    {
+      "enum": [
+        69,
+        "yorkLtcLegacyLongName69"
+      ],
+      "description": "Phase C Motor Current (SSS models Only)"
+    },
+    {
+      "enum": [
+        70,
+        "yorkLtcLegacyLongName70"
+      ],
+      "description": "Phase A-B Line Voltage (SSS models Only)"
+    },
+    {
+      "enum": [
+        71,
+        "yorkLtcLegacyLongName71"
+      ],
+      "description": "Phase B-C Line Voltage (SSS models Only)"
+    },
+    {
+      "enum": [
+        72,
+        "yorkLtcLegacyLongName72"
+      ],
+      "description": "Phase C-A Line Voltage (SSS models Only)"
+    },
+    {
+      "enum": [
+        73,
+        "yorkLtcLegacyLongName73"
+      ],
+      "description": "Current Limit Setpoint"
+    },
+    {
+      "enum": [
+        74,
+        "yorkLtcLegacyLongName74"
+      ],
+      "description": "Differential Filter Pressure"
+    },
+    {
+      "enum": [
+        75,
+        "yorkLtcLegacyLongName75"
+      ],
+      "description": "Minimum Current limit Setpoint"
+    },
+    {
+      "enum": [
+        76,
+        "yorkLtcLegacyLongName76"
+      ],
+      "description": "Percent Slide Valve"
+    },
+    {
+      "enum": [
+        77,
+        "yorkLtcLegacyLongName77"
+      ],
+      "description": "Oil Line Solenoid Status"
+    },
+    {
+      "enum": [
+        78,
+        "yorkLtcLegacyLongName78"
+      ],
+      "description": "Chiller Water Flow Switch Status"
+    },
+    {
+      "enum": [
+        79,
+        "yorkLtcLegacyLongName79"
+      ],
+      "description": "Eductor Solenoid Status"
+    },
+    {
+      "enum": [
+        80,
+        "yorkLtcLegacyLongName80"
+      ],
+      "description": "Low Oil Separator Status"
+    },
+    {
+      "enum": [
+        81,
+        "yorkLtcLegacyLongName81"
+      ],
+      "description": "Freeze Relay Status"
+    },
+    {
+      "enum": [
+        82,
+        "yorkLtcLegacyLongName82"
+      ],
+      "description": "Condenser Pump Status (Brine)"
+    },
+    {
+      "enum": [
+        83,
+        "yorkLtcLegacyLongName83"
+      ],
+      "description": "Condenser Flow Switch Status (Brine)"
+    },
+    {
+      "enum": [
+        84,
+        "yorkLtcLegacyLongName84"
+      ],
+      "description": "Ice Store Enable"
+    },
+    {
+      "enum": [
+        85,
+        "yorkLtcLegacyLongName85"
+      ],
+      "description": "Operating Mode [1=Local, 2=Remote, 3=Service]"
+    },
+    {
+      "enum": [
+        86,
+        "yorkLtcLegacyLongName86"
+      ],
+      "description": "Leaving Water Restart Offset"
+    },
+    {
+      "enum": [
+        87,
+        "yorkLtcLegacyLongName87"
+      ],
+      "description": "(Differential) Seal Oil Pressure"
+    },
+    {
+      "enum": [
+        88,
+        "yorkLtcLegacyLongName88"
+      ],
+      "description": "Leaving Chilled Water Setpoint"
+    },
+    {
+      "enum": [
+        89,
+        "yorkLtcLegacyLongName89"
+      ],
+      "description": "Hot Water Temp Setpoint"
+    },
+    {
+      "enum": [
+        90,
+        "yorkLtcLegacyLongName90"
+      ],
+      "description": "Remote Load Limit Setpoint"
+    },
+    {
+      "enum": [
+        91,
+        "yorkLtcLegacyLongName91"
+      ],
+      "description": "Display History Service Buffer #1 [0=No, 1=Yes]"
+    },
+    {
+      "enum": [
+        92,
+        "yorkLtcLegacyLongName92"
+      ],
+      "description": "Leaving Chilled Water Temperature"
+    },
+    {
+      "enum": [
+        93,
+        "yorkLtcLegacyLongName93"
+      ],
+      "description": "Entering Chilled Water Temperature"
+    },
+    {
+      "enum": [
+        94,
+        "yorkLtcLegacyLongName94"
+      ],
+      "description": "First Generator #1 Pressure"
+    },
+    {
+      "enum": [
+        95,
+        "yorkLtcLegacyLongName95"
+      ],
+      "description": "First Generator #1 Temp"
+    },
+    {
+      "enum": [
+        96,
+        "yorkLtcLegacyLongName96"
+      ],
+      "description": "First Generator #2 Pressure"
+    },
+    {
+      "enum": [
+        97,
+        "yorkLtcLegacyLongName97"
+      ],
+      "description": "Entering Condenser Water Temperature"
+    },
+    {
+      "enum": [
+        98,
+        "yorkLtcLegacyLongName98"
+      ],
+      "description": "Leaving Condenser Water Temperature"
+    },
+    {
+      "enum": [
+        99,
+        "yorkLtcLegacyLongName99"
+      ],
+      "description": "First Generator #2 Temp"
+    },
+    {
+      "enum": [
+        100,
+        "yorkLtcLegacyLongName100"
+      ],
+      "description": "Leaving Hot Water Temp"
+    },
+    {
+      "enum": [
+        101,
+        "yorkLtcLegacyLongName101"
+      ],
+      "description": "Entering Hot Water Temp"
+    },
+    {
+      "enum": [
+        102,
+        "yorkLtcLegacyLongName102"
+      ],
+      "description": "Burner Command (Gas/Oil) | Percent Loading (Steam)"
+    },
+    {
+      "enum": [
+        103,
+        "yorkLtcLegacyLongName103"
+      ],
+      "description": "Leaving Hot Water Temp Actual Setpoint"
+    },
+    {
+      "enum": [
+        104,
+        "yorkLtcLegacyLongName104"
+      ],
+      "description": "Refrigerant Temp"
+    },
+    {
+      "enum": [
+        105,
+        "yorkLtcLegacyLongName105"
+      ],
+      "description": "Solution Temperature"
+    },
+    {
+      "enum": [
+        106,
+        "yorkLtcLegacyLongName106"
+      ],
+      "description": "Purge Pump Pressure"
+    },
+    {
+      "enum": [
+        107,
+        "yorkLtcLegacyLongName107"
+      ],
+      "description": "Purge Tank Pressure"
+    },
+    {
+      "enum": [
+        108,
+        "yorkLtcLegacyLongName108"
+      ],
+      "description": "Automatic Lifetime Purge Count"
+    },
+    {
+      "enum": [
+        109,
+        "yorkLtcLegacyLongName109"
+      ],
+      "description": "Manual Lifetime Purge Count"
+    },
+    {
+      "enum": [
+        110,
+        "yorkLtcLegacyLongName110"
+      ],
+      "description": "Refrigerant Pump Status"
+    },
+    {
+      "enum": [
+        111,
+        "yorkLtcLegacyLongName111"
+      ],
+      "description": "Condenser Pump Status"
+    },
+    {
+      "enum": [
+        112,
+        "yorkLtcLegacyLongName112"
+      ],
+      "description": "Chilled Water Pump Status [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        113,
+        "yorkLtcLegacyLongName113"
+      ],
+      "description": "Hot Water Pump Status"
+    },
+    {
+      "enum": [
+        114,
+        "yorkLtcLegacyLongName114"
+      ],
+      "description": "Solution Pump 1 Status"
+    },
+    {
+      "enum": [
+        115,
+        "yorkLtcLegacyLongName115"
+      ],
+      "description": "Solution Pump 2 Status"
+    },
+    {
+      "enum": [
+        116,
+        "yorkLtcLegacyLongName116"
+      ],
+      "description": "Purge Pump Motor Status [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        117,
+        "yorkLtcLegacyLongName117"
+      ],
+      "description": "Chilled Water Flow Switch Status [0=Open, 1=Closed]"
+    },
+    {
+      "enum": [
+        118,
+        "yorkLtcLegacyLongName118"
+      ],
+      "description": "Hot Water Flow Switch Status"
+    },
+    {
+      "enum": [
+        119,
+        "yorkLtcLegacyLongName119"
+      ],
+      "description": "Condenser Water Flow Switch Status [0=Open, 1=Closed]"
+    },
+    {
+      "enum": [
+        120,
+        "yorkLtcLegacyLongName120"
+      ],
+      "description": "Dilution Cycle Active [0=No, 1=Yes]"
+    },
+    {
+      "enum": [
+        121,
+        "yorkLtcLegacyLongName121"
+      ],
+      "description": "Operating Code [0=Clg, 1=Htg, 2=Htg/Clg]"
+    },
+    {
+      "enum": [
+        122,
+        "yorkLtcLegacyLongName122"
+      ],
+      "description": "Operating Mode [1=Service, 2=Local, 3=Remote]"
+    },
+    {
+      "enum": [
+        123,
+        "yorkLtcLegacyLongName123"
+      ],
+      "description": "Operational Code"
+    },
+    {
+      "enum": [
+        124,
+        "yorkLtcLegacyLongName124"
+      ],
+      "description": "Remote Loading Setpoint"
+    },
+    {
+      "enum": [
+        125,
+        "yorkLtcLegacyLongName125"
+      ],
+      "description": "Maximum Loading"
+    },
+    {
+      "enum": [
+        126,
+        "yorkLtcLegacyLongName126"
+      ],
+      "description": "7 Day Purge Total"
+    },
+    {
+      "enum": [
+        127,
+        "yorkLtcLegacyLongName127"
+      ],
+      "description": "Pulldown Minutes Setpoint"
+    },
+    {
+      "enum": [
+        128,
+        "yorkLtcLegacyLongName128"
+      ],
+      "description": "Pulldown Minutes Left"
+    },
+    {
+      "enum": [
+        129,
+        "yorkLtcLegacyLongName129"
+      ],
+      "description": "Pulldown Loading Start Setpoint"
+    },
+    {
+      "enum": [
+        130,
+        "yorkLtcLegacyLongName130"
+      ],
+      "description": "Pulldown Loading Stop Setpoint"
+    },
+    {
+      "enum": [
+        131,
+        "yorkLtcLegacyLongName131"
+      ],
+      "description": "Present Calculated Pulldown Loading"
+    },
+    {
+      "enum": [
+        132,
+        "yorkLtcLegacyLongName132"
+      ],
+      "description": "Input Energy Supply [0=Gas/Oil, 1=Steam]"
+    },
+    {
+      "enum": [
+        133,
+        "yorkLtcLegacyLongName133"
+      ],
+      "description": "Remote Loading Actual Setpoint"
+    },
+    {
+      "enum": [
+        134,
+        "yorkLtcLegacyLongName134"
+      ],
+      "description": "Remote Engine Load Setpoint"
+    },
+    {
+      "enum": [
+        135,
+        "yorkLtcLegacyLongName135"
+      ],
+      "description": "Percent Engine Load"
+    },
+    {
+      "enum": [
+        136,
+        "yorkLtcLegacyLongName136"
+      ],
+      "description": "Percent Vanes Open"
+    },
+    {
+      "enum": [
+        137,
+        "yorkLtcLegacyLongName137"
+      ],
+      "description": "Engine Jacket Water Temp"
+    },
+    {
+      "enum": [
+        138,
+        "yorkLtcLegacyLongName138"
+      ],
+      "description": "Engine Speed"
+    },
+    {
+      "enum": [
+        139,
+        "yorkLtcLegacyLongName139"
+      ],
+      "description": "Engine Oil Pressure"
+    },
+    {
+      "enum": [
+        140,
+        "yorkLtcLegacyLongName140"
+      ],
+      "description": "Engine Manifold Pressure"
+    },
+    {
+      "enum": [
+        141,
+        "yorkLtcLegacyLongName141"
+      ],
+      "description": "Remote/Local Actual Engine Load Setpoint"
+    },
+    {
+      "enum": [
+        142,
+        "yorkLtcLegacyLongName142"
+      ],
+      "description": "Engine Panel Safety Shutdown Switch Status"
+    },
+    {
+      "enum": [
+        143,
+        "yorkLtcLegacyLongName143"
+      ],
+      "description": "Operating Mode"
+    },
+    {
+      "enum": [
+        144,
+        "yorkLtcLegacyLongName144"
+      ],
+      "description": "Engine Type"
+    },
+    {
+      "enum": [
+        145,
+        "yorkLtcLegacyLongName145"
+      ],
+      "description": "Drain Line Thermocouple Temp"
+    },
+    {
+      "enum": [
+        146,
+        "yorkLtcLegacyLongName146"
+      ],
+      "description": "Delta P/P"
+    },
+    {
+      "enum": [
+        147,
+        "yorkLtcLegacyLongName147"
+      ],
+      "description": "Surface Speed"
+    },
+    {
+      "enum": [
+        148,
+        "yorkLtcLegacyLongName148"
+      ],
+      "description": "Generator Shell Pressure"
+    },
+    {
+      "enum": [
+        149,
+        "yorkLtcLegacyLongName149"
+      ],
+      "description": "Automatic Decrystallization Temperature"
+    },
+    {
+      "enum": [
+        150,
+        "yorkLtcLegacyLongName150"
+      ],
+      "description": "Leaving Condenser Refrigerant Temperature"
+    },
+    {
+      "enum": [
+        151,
+        "yorkLtcLegacyLongName151"
+      ],
+      "description": "Steam / Hot Water Supply Temperature"
+    },
+    {
+      "enum": [
+        152,
+        "yorkLtcLegacyLongName152"
+      ],
+      "description": "Steam Supply Pressure (steam units only)"
+    },
+    {
+      "enum": [
+        153,
+        "yorkLtcLegacyLongName153"
+      ],
+      "description": "Steam / Hot Water Actuator Valve Position"
+    },
+    {
+      "enum": [
+        154,
+        "yorkLtcLegacyLongName154"
+      ],
+      "description": "Local Leaving Chilled Water Setpoint"
+    },
+    {
+      "enum": [
+        155,
+        "yorkLtcLegacyLongName155"
+      ],
+      "description": "Purge Pump Service Interval Setpoint"
+    },
+    {
+      "enum": [
+        156,
+        "yorkLtcLegacyLongName156"
+      ],
+      "description": "Active Leaving Chilled Water Setpoint"
+    },
+    {
+      "enum": [
+        157,
+        "yorkLtcLegacyLongName157"
+      ],
+      "description": "Refrigerant Temperature"
+    },
+    {
+      "enum": [
+        158,
+        "yorkLtcLegacyLongName158"
+      ],
+      "description": "Strong Solution Temperature"
+    },
+    {
+      "enum": [
+        159,
+        "yorkLtcLegacyLongName159"
+      ],
+      "description": "Solution Concentation %"
+    },
+    {
+      "enum": [
+        160,
+        "yorkLtcLegacyLongName160"
+      ],
+      "description": "Total Operating Hours"
+    },
+    {
+      "enum": [
+        161,
+        "yorkLtcLegacyLongName161"
+      ],
+      "description": "Total System Starts"
+    },
+    {
+      "enum": [
+        162,
+        "yorkLtcLegacyLongName162"
+      ],
+      "description": "Lifetime Purge Count"
+    },
+    {
+      "enum": [
+        163,
+        "yorkLtcLegacyLongName163"
+      ],
+      "description": "Refrigerant Pump Motor Status [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        164,
+        "yorkLtcLegacyLongName164"
+      ],
+      "description": "Condenser Water Pump Status [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        165,
+        "yorkLtcLegacyLongName165"
+      ],
+      "description": "Unit Switch Status [0=Stop, 1=Run]"
+    },
+    {
+      "enum": [
+        166,
+        "yorkLtcLegacyLongName166"
+      ],
+      "description": "Refrigerant & Solutn Pump Mtr Coolant Solnd Valve Status"
+    },
+    {
+      "enum": [
+        167,
+        "yorkLtcLegacyLongName167"
+      ],
+      "description": "Solution / Absorber Pump Motor Status [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        168,
+        "yorkLtcLegacyLongName168"
+      ],
+      "description": "Generator Pump Motor Status [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        169,
+        "yorkLtcLegacyLongName169"
+      ],
+      "description": "Chilled Water Flow Switch Status [0=Open, 1=Closed]"
+    },
+    {
+      "enum": [
+        170,
+        "yorkLtcLegacyLongName170"
+      ],
+      "description": "Refrigerant Stabilizer Solenoid Valve Status [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        171,
+        "yorkLtcLegacyLongName171"
+      ],
+      "description": "Refrigerant Level Float Switch Status [0=Open, 1=Closed]"
+    },
+    {
+      "enum": [
+        172,
+        "yorkLtcLegacyLongName172"
+      ],
+      "description": "J50 Status [0=Auto Restart, 1=Manual Restart]"
+    },
+    {
+      "enum": [
+        173,
+        "yorkLtcLegacyLongName173"
+      ],
+      "description": "J51 Status [0=Loading Ovrdes Active, 1=No Loading Overrides]"
+    },
+    {
+      "enum": [
+        174,
+        "yorkLtcLegacyLongName174"
+      ],
+      "description": "J52 Status [0=English Units, 1=Metric Units]"
+    },
+    {
+      "enum": [
+        175,
+        "yorkLtcLegacyLongName175"
+      ],
+      "description": "J54 Status [0=Limited CW Pump Cntrl, 1=Full CW Pump Cntrl]"
+    },
+    {
+      "enum": [
+        176,
+        "yorkLtcLegacyLongName176"
+      ],
+      "description": "J55 Status [0=Diagnostics Enabled, 1=Diagnostics Disabled]"
+    },
+    {
+      "enum": [
+        177,
+        "yorkLtcLegacyLongName177"
+      ],
+      "description": "J57 Status [0=RTC Disabled, 1=RTC Enabled]"
+    },
+    {
+      "enum": [
+        178,
+        "yorkLtcLegacyLongName178"
+      ],
+      "description": "J12 (Expansion I/O Board) [0=English, 1=German]"
+    },
+    {
+      "enum": [
+        179,
+        "yorkLtcLegacyLongName179"
+      ],
+      "description": "Dilution Cycle Code"
+    },
+    {
+      "enum": [
+        180,
+        "yorkLtcLegacyLongName180"
+      ],
+      "description": "Operating Mode [0=Service, 1=Local, 2=Remote]"
+    },
+    {
+      "enum": [
+        181,
+        "yorkLtcLegacyLongName181"
+      ],
+      "description": "Warning Message Code"
+    },
+    {
+      "enum": [
+        182,
+        "yorkLtcLegacyLongName182"
+      ],
+      "description": "Maximum Steam / Hot Water Valve Load Setpoint"
+    },
+    {
+      "enum": [
+        183,
+        "yorkLtcLegacyLongName183"
+      ],
+      "description": "Weekly Purge Counter"
+    },
+    {
+      "enum": [
+        184,
+        "yorkLtcLegacyLongName184"
+      ],
+      "description": "Pulldown Demand Setpoint - Minutes"
+    },
+    {
+      "enum": [
+        185,
+        "yorkLtcLegacyLongName185"
+      ],
+      "description": "Pulldown Demand - Minutes Left"
+    },
+    {
+      "enum": [
+        186,
+        "yorkLtcLegacyLongName186"
+      ],
+      "description": "Pulldown Demand Setpoint - Start Load Limit"
+    },
+    {
+      "enum": [
+        187,
+        "yorkLtcLegacyLongName187"
+      ],
+      "description": "Pulldown Demand Setpoint - Stop Load Limit"
+    },
+    {
+      "enum": [
+        188,
+        "yorkLtcLegacyLongName188"
+      ],
+      "description": "Pulldown Demand - Present Limit"
+    },
+    {
+      "enum": [
+        189,
+        "yorkLtcLegacyLongName189"
+      ],
+      "description": "Remote Temp Range Setpoint"
+    },
+    {
+      "enum": [
+        190,
+        "yorkLtcLegacyLongName190"
+      ],
+      "description": "Maximum Steam / Hot Water Valve Unload Setpoint"
+    },
+    {
+      "enum": [
+        191,
+        "yorkLtcLegacyLongName191"
+      ],
+      "description": "Maximum Entering Condenser Water Temperature Setpoint"
+    },
+    {
+      "enum": [
+        192,
+        "yorkLtcLegacyLongName192"
+      ],
+      "description": "JP1 Status [0=Steam Operation, 1=Hot Water Operation]"
+    },
+    {
+      "enum": [
+        193,
+        "yorkLtcLegacyLongName193"
+      ],
+      "description": "JP3 Status [0=Stndrd Model, 1=50 Hz Mdl YIA10E3 - YIA14F3]"
+    },
+    {
+      "enum": [
+        194,
+        "yorkLtcLegacyLongName194"
+      ],
+      "description": "JP1 (Expansion I/O Board) [0=Rotary Valve, 1=Cage Valve]"
+    },
+    {
+      "enum": [
+        195,
+        "yorkLtcLegacyLongName195"
+      ],
+      "description": "Refrigerant Level Solenoid Valve Status [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        196,
+        "yorkLtcLegacyLongName196"
+      ],
+      "description": "Low Entering Condenser Water Temp Limit Active [0=No, 1=Yes]"
+    },
+    {
+      "enum": [
+        197,
+        "yorkLtcLegacyLongName197"
+      ],
+      "description": "Automatic Decrystallization Active [0=No, 1=Yes]"
+    },
+    {
+      "enum": [
+        198,
+        "yorkLtcLegacyLongName198"
+      ],
+      "description": "Remote Load Limiting Active [0=No, 1=Yes]"
+    },
+    {
+      "enum": [
+        199,
+        "yorkLtcLegacyLongName199"
+      ],
+      "description": "Pulldown Limiting Active [0=No, 1=Yes]"
+    }
+  ]
+}

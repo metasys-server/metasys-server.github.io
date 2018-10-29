@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eprChannelStatusEnumSet.schema.json",
+  "title": "eprChannelStatusEnumSet",
+  "description": "EPR Channel Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "eprChannelStatusUninitialized"
+      ],
+      "description": "Uninitialized"
+    },
+    {
+      "enum": [
+        1,
+        "eprChannelStatusDown"
+      ],
+      "description": "Down"
+    },
+    {
+      "enum": [
+        2,
+        "eprChannelStatusUp"
+      ],
+      "description": "Up"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecIoEnumSet.schema.json",
+  "title": "tecIoEnumSet",
+  "description": "TEC IO",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecIoY1C"
+      ],
+      "description": "Y1-C"
+    },
+    {
+      "enum": [
+        1,
+        "tecIoY2C"
+      ],
+      "description": "Y2-C"
+    },
+    {
+      "enum": [
+        2,
+        "tecIoW1ObC"
+      ],
+      "description": "W1OB-C"
+    },
+    {
+      "enum": [
+        3,
+        "tecIoW2SupC"
+      ],
+      "description": "W2SUP-C"
+    },
+    {
+      "enum": [
+        4,
+        "tecIoAuxC"
+      ],
+      "description": "AUX-C"
+    },
+    {
+      "enum": [
+        5,
+        "tecIoFanC"
+      ],
+      "description": "FAN-C"
+    },
+    {
+      "enum": [
+        6,
+        "tecIoOadO"
+      ],
+      "description": "OAD-O"
+    },
+    {
+      "enum": [
+        7,
+        "tecIoClgoC"
+      ],
+      "description": "CLGO-C"
+    },
+    {
+      "enum": [
+        8,
+        "tecIoClgcC"
+      ],
+      "description": "CLGC-C"
+    },
+    {
+      "enum": [
+        9,
+        "tecIoHtgoC"
+      ],
+      "description": "HTGO-C"
+    },
+    {
+      "enum": [
+        10,
+        "tecIoHtgcC"
+      ],
+      "description": "HTGC-C"
+    },
+    {
+      "enum": [
+        11,
+        "tecIoClgO"
+      ],
+      "description": "CLG-O"
+    },
+    {
+      "enum": [
+        12,
+        "tecIoHtgO"
+      ],
+      "description": "HTG-O"
+    },
+    {
+      "enum": [
+        13,
+        "tecIoFanlC"
+      ],
+      "description": "FANL-C"
+    },
+    {
+      "enum": [
+        14,
+        "tecIoFanmC"
+      ],
+      "description": "FANM-C"
+    },
+    {
+      "enum": [
+        15,
+        "tecIoFanhC"
+      ],
+      "description": "FANH-C"
+    },
+    {
+      "enum": [
+        16,
+        "tecIoVsfO"
+      ],
+      "description": "VSF-O"
+    },
+    {
+      "enum": [
+        17,
+        "tecIoBi1S"
+      ],
+      "description": "BI1-S"
+    },
+    {
+      "enum": [
+        18,
+        "tecIoBi2S"
+      ],
+      "description": "BI2-S"
+    },
+    {
+      "enum": [
+        19,
+        "tecIoCosS"
+      ],
+      "description": "COS-S"
+    },
+    {
+      "enum": [
+        20,
+        "tecIoCosT"
+      ],
+      "description": "COS-T"
+    },
+    {
+      "enum": [
+        21,
+        "tecIoSatT"
+      ],
+      "description": "SAT-T"
+    },
+    {
+      "enum": [
+        22,
+        "tecIoOatT"
+      ],
+      "description": "OAT-T"
+    },
+    {
+      "enum": [
+        23,
+        "tecIoRsenT"
+      ],
+      "description": "RSEN-T"
+    }
+  ]
+}

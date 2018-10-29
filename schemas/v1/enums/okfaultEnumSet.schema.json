@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/okFaultEnumSet.schema.json",
+  "title": "okFaultEnumSet",
+  "description": "Ok/Fault",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "okFaultOk"
+      ],
+      "description": "Ok"
+    },
+    {
+      "enum": [
+        1,
+        "okFaultFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}num": [
+        2,
+        "ofHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

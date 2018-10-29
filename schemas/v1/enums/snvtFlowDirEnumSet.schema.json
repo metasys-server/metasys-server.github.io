@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtFlowDirEnumSet.schema.json",
+  "title": "snvtFlowDirEnumSet",
+  "description": "SNVT Flow Direction",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fdNone"
+      ],
+      "description": "No flow"
+    },
+    {
+      "enum": [
+        1,
+        "fdOut"
+      ],
+      "description": "Out"
+    },
+    {
+      "enum": [
+        2,
+        "fdIn"
+      ],
+      "description": "Entry"
+    },
+    {
+      "enum": [
+        3,
+        "fdAny"
+      ],
+      "description": "No restriction"
+    },
+    {
+      "enum": [
+        255,
+        "fdNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

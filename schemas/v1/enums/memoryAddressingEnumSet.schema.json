@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/memoryAddressingEnumSet.schema.json",
+  "title": "memoryAddressingEnumSet",
+  "description": "Memory Addressing",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "nonIntelOrder"
+      ],
+      "description": "Non Intel Order"
+    },
+    {
+      "enum": [
+        1,
+        "intelByteOrder"
+      ],
+      "description": "Intel Order"
+    }
+  ]
+}

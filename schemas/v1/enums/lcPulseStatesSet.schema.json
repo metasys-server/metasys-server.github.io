@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lcPulseStatesSet.schema.json",
+  "title": "lcPulseStatesSet",
+  "description": "Lighting Sync State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lcPresentValueSync"
+      ],
+      "description": "Present Value Synchronized"
+    },
+    {
+      "enum": [
+        1,
+        "lcPresentValueChanged"
+      ],
+      "description": "Present Value Changed"
+    },
+    {
+      "enum": [
+        2,
+        "lcSyncPulseRequired"
+      ],
+      "description": "Synchronization Pulse Required"
+    },
+    {
+      "enum": [
+        3,
+        "lcFailedToSynchronize"
+      ],
+      "description": "Failed To Synchronize"
+    }
+  ]
+}

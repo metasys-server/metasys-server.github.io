@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/debugModeEnumSet.schema.json",
+  "title": "debugModeEnumSet",
+  "description": "Debug Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "notInDebugMode"
+      ],
+      "description": "Not In Debug Mode"
+    },
+    {
+      "enum": [
+        1,
+        "debugInputsLocked"
+      ],
+      "description": "Inputs Locked"
+    },
+    {
+      "enum": [
+        2,
+        "debugInputsAllowed"
+      ],
+      "description": "Inputs Allowed"
+    }
+  ]
+}

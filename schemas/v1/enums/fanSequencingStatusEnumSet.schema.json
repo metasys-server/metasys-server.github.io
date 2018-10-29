@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fanSequencingStatusEnumSet.schema.json",
+  "title": "fanSequencingStatusEnumSet",
+  "description": "Fan Sequencing Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fanSequencingStatusOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "fanSequencingStatusOnDelay"
+      ],
+      "description": "On Delay"
+    },
+    {
+      "enum": [
+        2,
+        "fanSequencingStatusOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        3,
+        "fanSequencingStatusOffDelay"
+      ],
+      "description": "Off Delay"
+    },
+    {
+      "enum": [
+        4,
+        "fanSequencingStatusOnExternal"
+      ],
+      "description": "On External"
+    }
+  ]
+}

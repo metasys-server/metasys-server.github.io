@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorRdr8SOutputEnumSet.schema.json",
+  "title": "connectorRdr8SOutputEnumSet",
+  "description": "Connector RDR8S Output",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorRdr8SOutputReader1RedLed"
+      ],
+      "description": "Reader 1 Red LED (T1 OUT1)"
+    },
+    {
+      "enum": [
+        1,
+        "connectorRdr8SOutputReader1GreenLed"
+      ],
+      "description": "Reader 1 Green LED (T1 OUT2)"
+    },
+    {
+      "enum": [
+        2,
+        "connectorRdr8SOutputReader1Strike"
+      ],
+      "description": "Reader 1 Strike (T1 OUT5)"
+    },
+    {
+      "enum": [
+        3,
+        "connectorRdr8SOutputReader1Shunt"
+      ],
+      "description": "Reader 1 Shunt (T1 OUT3)"
+    },
+    {
+      "enum": [
+        4,
+        "connectorRdr8SOutputReader2RedLed"
+      ],
+      "description": "Reader 2 Red LED (T2 OUT1)"
+    },
+    {
+      "enum": [
+        5,
+        "connectorRdr8SOutputReader2GreenLed"
+      ],
+      "description": "Reader 2 Green LED (T2 OUT2)"
+    },
+    {
+      "enum": [
+        6,
+        "connectorRdr8SOutputReader2Strike"
+      ],
+      "description": "Reader 2 Strike (T2 OUT5)"
+    },
+    {
+      "enum": [
+        7,
+        "connectorRdr8SOutputReader2Shunt"
+      ],
+      "description": "Reader 2 Shunt (T2 OUT3)"
+    },
+    {
+      "enum": [
+        8,
+        "connectorRdr8SOutputReader3RedLed"
+      ],
+      "description": "Reader 3 Red LED (T3 OUT1)"
+    },
+    {
+      "enum": [
+        9,
+        "connectorRdr8SOutputReader3GreenLed"
+      ],
+      "description": "Reader 3 Green LED (T3 OUT2)"
+    },
+    {
+      "enum": [
+        10,
+        "connectorRdr8SOutputReader3Strike"
+      ],
+      "description": "Reader 3 Strike (T3 OUT5)"
+    },
+    {
+      "enum": [
+        11,
+        "connectorRdr8SOutputReader3Shunt"
+      ],
+      "description": "Reader 3 Shunt (T3 OUT3)"
+    },
+    {
+      "enum": [
+        12,
+        "connectorRdr8SOutputReader4RedLed"
+      ],
+      "description": "Reader 4 Red LED (T4 OUT1)"
+    },
+    {
+      "enum": [
+        13,
+        "connectorRdr8SOutputReader4GreenLed"
+      ],
+      "description": "Reader 4 Green LED (T4 OUT2)"
+    },
+    {
+      "enum": [
+        14,
+        "connectorRdr8SOutputReader4Strike"
+      ],
+      "description": "Reader 4 Strike (T4 OUT5)"
+    },
+    {
+      "enum": [
+        15,
+        "connectorRdr8SOutputReader4Shunt"
+      ],
+      "description": "Reader 4 Shunt (T4 OUT3)"
+    },
+    {
+      "enum": [
+        16,
+        "connectorRdr8SOutputReader5RedLed"
+      ],
+      "description": "Reader 5 Red LED (T5 OUT1)"
+    },
+    {
+      "enum": [
+        17,
+        "connectorRdr8SOutputReader5GreenLed"
+      ],
+      "description": "Reader 5 Green LED (T5 OUT2)"
+    },
+    {
+      "enum": [
+        18,
+        "connectorRdr8SOutputReader5Strike"
+      ],
+      "description": "Reader 5 Strike (T5 OUT5)"
+    },
+    {
+      "enum": [
+        19,
+        "connectorRdr8SOutputReader5Shunt"
+      ],
+      "description": "Reader 5 Shunt (T5 OUT3)"
+    },
+    {
+      "enum": [
+        20,
+        "connectorRdr8SOutputReader6RedLed"
+      ],
+      "description": "Reader 6 Red LED (T6 OUT1)"
+    },
+    {
+      "enum": [
+        21,
+        "connectorRdr8SOutputReader6GreenLed"
+      ],
+      "description": "Reader 6 Green LED (T6 OUT2)"
+    },
+    {
+      "enum": [
+        22,
+        "connectorRdr8SOutputReader6Strike"
+      ],
+      "description": "Reader 6 Strike (T6 OUT5)"
+    },
+    {
+      "enum": [
+        23,
+        "connectorRdr8SOutputReader6Shunt"
+      ],
+      "description": "Reader 6 Shunt (T6 OUT3)"
+    },
+    {
+      "enum": [
+        24,
+        "connectorRdr8SOutputReader7RedLed"
+      ],
+      "description": "Reader 7 Red LED (T7 OUT1)"
+    },
+    {
+      "enum": [
+        25,
+        "connectorRdr8SOutputReader7GreenLed"
+      ],
+      "description": "Reader 7 Green LED (T7 OUT2)"
+    },
+    {
+      "enum": [
+        26,
+        "connectorRdr8SOutputReader7Strike"
+      ],
+      "description": "Reader 7 Strike (T7 OUT5)"
+    },
+    {
+      "enum": [
+        27,
+        "connectorRdr8SOutputReader7Shunt"
+      ],
+      "description": "Reader 7 Shunt (T7 OUT3)"
+    },
+    {
+      "enum": [
+        28,
+        "connectorRdr8SOutputReader8RedLed"
+      ],
+      "description": "Reader 8 Red LED (T8 OUT1)"
+    },
+    {
+      "enum": [
+        29,
+        "connectorRdr8SOutputReader8GreenLed"
+      ],
+      "description": "Reader 8 Green LED (T8 OUT2)"
+    },
+    {
+      "enum": [
+        30,
+        "connectorRdr8SOutputReader8Strike"
+      ],
+      "description": "Reader 8 Strike (T8 OUT5)"
+    },
+    {
+      "enum": [
+        31,
+        "connectorRdr8SOutputReader8Shunt"
+      ],
+      "description": "Reader 8 Shunt (T8 OUT3)"
+    }
+  ]
+}

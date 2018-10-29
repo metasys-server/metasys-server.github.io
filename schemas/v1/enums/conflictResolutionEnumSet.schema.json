@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/conflictResolutionEnumSet.schema.json",
+  "title": "conflictResolutionEnumSet",
+  "description": "Conflict Resolution Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "crtControllerChnages"
+      ],
+      "description": "Controller Changes"
+    },
+    {
+      "enum": [
+        1,
+        "crtFdbChanges"
+      ],
+      "description": "Fdb Changes"
+    }
+  ]
+}

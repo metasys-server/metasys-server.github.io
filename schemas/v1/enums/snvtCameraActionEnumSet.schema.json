@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtCameraActionEnumSet.schema.json",
+  "title": "snvtCameraActionEnumSet",
+  "description": "SNVT Camera Action",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Save"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Call"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Read"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

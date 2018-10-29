@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yorktalkObjectTypeEnumSet.schema.json",
+  "title": "yorktalkObjectTypeEnumSet",
+  "description": "York Talk Protocol Object Types",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "ytObjAnalogInput"
+      ],
+      "description": "Analog Input"
+    },
+    {
+      "enum": [
+        2,
+        "ytObjAnalogOutput"
+      ],
+      "description": "Analog Output"
+    },
+    {
+      "enum": [
+        3,
+        "ytObjAnalogValue"
+      ],
+      "description": "Analog Value"
+    },
+    {
+      "enum": [
+        4,
+        "ytObjBinaryInput"
+      ],
+      "description": "Binary Input"
+    },
+    {
+      "enum": [
+        5,
+        "ytObjBinaryOutput"
+      ],
+      "description": "Binary Output"
+    },
+    {
+      "enum": [
+        6,
+        "ytObjBinaryValue"
+      ],
+      "description": "Binary Value"
+    },
+    {
+      "enum": [
+        7,
+        "ytObjStatusCode"
+      ],
+      "description": "Status Code"
+    },
+    {
+      "enum": [
+        8,
+        "ytObjSystemInfo"
+      ],
+      "description": "System Information"
+    },
+    {
+      "enum": [
+        9,
+        "ytObjSystemClock"
+      ],
+      "description": "System Clock"
+    },
+    {
+      "enum": [
+        10,
+        "ytObjSalesOrder"
+      ],
+      "description": "Sales Order"
+    },
+    {
+      "enum": [
+        11,
+        "ytObjOperationCode"
+      ],
+      "description": "Operation Code"
+    },
+    {
+      "enum": [
+        12,
+        "ytObjFile"
+      ],
+      "description": "File Object"
+    }
+  ]
+}

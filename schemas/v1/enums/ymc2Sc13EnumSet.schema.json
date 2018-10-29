@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc13EnumSet.schema.json",
+  "title": "ymc2Sc13EnumSet",
+  "description": "YMC2 Start Inhibit Code SC.13",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymc2Sc130"
+      ],
+      "description": "NO INHIBIT FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ymc2Sc131"
+      ],
+      "description": "ANTI-RECYCLE"
+    },
+    {
+      "enum": [
+        2,
+        "ymc2Sc132"
+      ],
+      "description": "RESERVED 2"
+    },
+    {
+      "enum": [
+        3,
+        "ymc2Sc133"
+      ],
+      "description": "VGD STROKE NOT CALIBRATED"
+    },
+    {
+      "enum": [
+        4,
+        "ymc2Sc134"
+      ],
+      "description": "VGD FEEDBACK NOT CALIBRATED"
+    },
+    {
+      "enum": [
+        5,
+        "ymc2Sc135"
+      ],
+      "description": "RESERVED 5"
+    },
+    {
+      "enum": [
+        6,
+        "ymc2Sc136"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "ymc2Sc137"
+      ],
+      "description": "RESERVED 7"
+    },
+    {
+      "enum": [
+        8,
+        "ymc2Sc138"
+      ],
+      "description": "RESERVED 8"
+    },
+    {
+      "enum": [
+        9,
+        "ymc2Sc139"
+      ],
+      "description": "RESERVED 9"
+    },
+    {
+      "enum": [
+        10,
+        "ymc2Sc1310"
+      ],
+      "description": "PRV NOT CALIBRATED"
+    },
+    {
+      "enum": [
+        11,
+        "ymc2Sc1311"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "ymc2Sc1312"
+      ],
+      "description": "VGD NOT CALIBRATED"
+    },
+    {
+      "enum": [
+        13,
+        "ymc2Sc1313"
+      ],
+      "description": "LINE VOLTAGE NOT SET"
+    },
+    {
+      "enum": [
+        14,
+        "ymc2Sc1314"
+      ],
+      "description": "LINE FREQUENCY NOT SET"
+    }
+  ]
+}

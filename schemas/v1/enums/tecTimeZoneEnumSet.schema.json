@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecTimeZoneEnumSet.schema.json",
+  "title": "tecTimeZoneEnumSet",
+  "description": "TEC Time Zone",
+  "oneOf": [
+    {
+      "enum": [
+        51,
+        "tecTimeZoneEastern"
+      ],
+      "description": "Eastern"
+    },
+    {
+      "enum": [
+        53,
+        "tecTimeZoneCentral"
+      ],
+      "description": "Central"
+    },
+    {
+      "enum": [
+        57,
+        "tecTimeZoneMountain"
+      ],
+      "description": "Mountain"
+    },
+    {
+      "enum": [
+        58,
+        "tecTimeZonePacific"
+      ],
+      "description": "Pacific"
+    },
+    {
+      "enum": [
+        60,
+        "tecTimeZoneSantiago"
+      ],
+      "description": "Santiago"
+    },
+    {
+      "enum": [
+        66,
+        "tecTimeZoneMexicoCity"
+      ],
+      "description": "Mexico City"
+    },
+    {
+      "enum": [
+        69,
+        "tecTimeZoneNewfoundland"
+      ],
+      "description": "Newfoundland"
+    },
+    {
+      "enum": [
+        70,
+        "tecTimeZoneAtlantic"
+      ],
+      "description": "Atlantic"
+    },
+    {
+      "enum": [
+        71,
+        "tecTimeZoneAlaska"
+      ],
+      "description": "Alaska"
+    },
+    {
+      "enum": [
+        72,
+        "tecTimeZoneHawaii"
+      ],
+      "description": "Hawaii"
+    },
+    {
+      "enum": [
+        77,
+        "tecTimeZoneCuiaba"
+      ],
+      "description": "Cuiaba"
+    },
+    {
+      "enum": [
+        82,
+        "tecTimeZoneBajaCalifornia"
+      ],
+      "description": "Baja California"
+    },
+    {
+      "enum": [
+        88,
+        "tecTimeZoneCaracas"
+      ],
+      "description": "Caracas"
+    },
+    {
+      "enum": [
+        93,
+        "tecTimeZoneAsuncion"
+      ],
+      "description": "Asuncion"
+    },
+    {
+      "enum": [
+        1051,
+        "tecTimeZoneEasternNoDst"
+      ],
+      "description": "Eastern (No DST)"
+    },
+    {
+      "enum": [
+        1053,
+        "tecTimeZoneCentralNoDst"
+      ],
+      "description": "Central (No DST)"
+    },
+    {
+      "enum": [
+        1057,
+        "tecTimeZoneMountainNoDst"
+      ],
+      "description": "Mountain (No DST)"
+    },
+    {
+      "enum": [
+        1058,
+        "tecTimeZonePacificNoDst"
+      ],
+      "description": "Pacific (No DST)"
+    },
+    {
+      "enum": [
+        1069,
+        "tecTimeZoneNewfoundlandNoDst"
+      ],
+      "description": "Newfoundland (No DST)"
+    },
+    {
+      "enum": [
+        1070,
+        "tecTimeZoneAtlanticNoDst"
+      ],
+      "description": "Atlantic (No DST)"
+    },
+    {
+      "enum": [
+        1071,
+        "tecTimeZoneAlaskaNoDst"
+      ],
+      "description": "Alaska (No DST)"
+    }
+  ]
+}

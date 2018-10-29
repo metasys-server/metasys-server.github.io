@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavExhaustFlowCtrlModeEnumSet.schema.json",
+  "title": "vavExhaustFlowCtrlModeEnumSet",
+  "description": "VAV Exhaust Flow Ctrl Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vefcmShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "vefcmClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        2,
+        "vefcmOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        3,
+        "vefcmHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "vefcmControl"
+      ],
+      "description": "Control"
+    }
+  ]
+}

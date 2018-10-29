@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/refusalEnumSet.schema.json",
+  "title": "refusalEnumSet",
+  "description": "Refusal",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "loadNoRefusal"
+      ],
+      "description": "No Refusal"
+    },
+    {
+      "enum": [
+        1,
+        "loadShedCheckInProgress"
+      ],
+      "description": "Checking to shed"
+    },
+    {
+      "enum": [
+        2,
+        "loadAlreadyShed"
+      ],
+      "description": "Already shed"
+    },
+    {
+      "enum": [
+        3,
+        "loadIsLocked"
+      ],
+      "description": "Load Locked"
+    },
+    {
+      "enum": [
+        4,
+        "loadMinRelTimeElapsing"
+      ],
+      "description": "Release timer active"
+    },
+    {
+      "enum": [
+        5,
+        "loadOutputNotDefined"
+      ],
+      "description": "Output not defined"
+    },
+    {
+      "enum": [
+        6,
+        "loadComfortInAlarm"
+      ],
+      "description": "Comfort in alarm"
+    },
+    {
+      "enum": [
+        7,
+        "loadOutputInAlarm"
+      ],
+      "description": "Output in alarm"
+    },
+    {
+      "enum": [
+        8,
+        "loadOutputToLowToShed"
+      ],
+      "description": "Output too low"
+    },
+    {
+      "enum": [
+        9,
+        "loadOutputDlOverridden"
+      ],
+      "description": "DL overridden"
+    },
+    {
+      "enum": [
+        10,
+        "loadOutputLrOverridden"
+      ],
+      "description": "LR overridden"
+    },
+    {
+      "enum": [
+        11,
+        "loadOutputCheckTimedOut"
+      ],
+      "description": "Output to slow"
+    },
+    {
+      "enum": [
+        12,
+        "loadForDlOnly"
+      ],
+      "description": "Load is for DL only"
+    },
+    {
+      "enum": [
+        13,
+        "loadForLrOnly"
+      ],
+      "description": "Load is for LR only"
+    },
+    {
+      "enum": [
+        14,
+        "loadIsDisabled"
+      ],
+      "description": "Load disabled"
+    },
+    {
+      "enum": [
+        15,
+        "loadOutputCannotBeRead"
+      ],
+      "description": "Output inaccessible"
+    },
+    {
+      "enum": [
+        16,
+        "loadMinShedTimeElapsing"
+      ],
+      "description": "Shed timer active"
+    },
+    {
+      "enum": [
+        17,
+        "loadAlreadyReleased"
+      ],
+      "description": "Already released"
+    },
+    {
+      "enum": [
+        18,
+        "loadDllrOffline"
+      ],
+      "description": "DLLR offline"
+    },
+    {
+      "enum": [
+        19,
+        "loadDllrInAlarm"
+      ],
+      "description": "DLLR in alarm"
+    }
+  ]
+}

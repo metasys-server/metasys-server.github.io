@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/refTypeEnumSet.schema.json",
+  "title": "refTypeEnumSet",
+  "description": "Reference Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "refFcBus"
+      ],
+      "description": "Field Controller Bus Reference"
+    },
+    {
+      "enum": [
+        1,
+        "refSaBus"
+      ],
+      "description": "Sensor Actuator Bus Reference"
+    },
+    {
+      "enum": [
+        2,
+        "refLocal"
+      ],
+      "description": "Local to Device"
+    },
+    {
+      "enum": [
+        3,
+        "refLocalPersist"
+      ],
+      "description": "Local to Device with Persist"
+    }
+  ]
+}

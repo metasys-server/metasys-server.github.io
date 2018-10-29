@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalLowLimitEnumSet.schema.json",
+  "title": "normalLowLimitEnumSet",
+  "description": "Normal/Low Limit",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "llNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "lowLmt"
+      ],
+      "description": "Low Limit"
+    }
+  ]
+}    },
+    {
+      "enum": [
+        2,
+        "normLlHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

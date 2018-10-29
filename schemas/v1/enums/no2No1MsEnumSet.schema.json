@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/no2No1MsEnumSet.schema.json",
+  "title": "no2No1MsEnumSet",
+  "description": "No2/No1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "no2No1No2"
+      ],
+      "description": "No.2"
+    },
+    {
+      "enum": [
+        1,
+        "no2No1No1"
+      ],
+      "description": "No.1"
+    }
+  ]
+}

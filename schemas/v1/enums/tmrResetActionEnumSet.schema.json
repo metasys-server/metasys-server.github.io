@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tmrResetActionEnumSet.schema.json",
+  "title": "tmrResetActionEnumSet",
+  "description": "Timer Reset Action",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tmrReseTandWait"
+      ],
+      "description": "Wait"
+    },
+    {
+      "enum": [
+        1,
+        "tmrReseTandRetrigger"
+      ],
+      "description": "Retrigger"
+    }
+  ]
+}

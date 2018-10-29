@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconExhaustSetupBasicEnumSet.schema.json",
+  "title": "seEconExhaustSetupBasicEnumSet",
+  "description": "SE ECON Exhaust Setup Basic",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconExhaustSetupBasicNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEconExhaustSetupBasicNonModulatingControl"
+      ],
+      "description": "Non Modulating Control"
+    }
+  ]
+}

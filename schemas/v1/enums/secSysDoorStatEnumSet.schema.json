@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/secSysDoorStatEnumSet.schema.json",
+  "title": "secSysDoorStatEnumSet",
+  "description": "Security System Secured Door Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "secSysDoorStatForcedOpen"
+      ],
+      "description": "Forced Open"
+    },
+    {
+      "enum": [
+        1,
+        "secSysDoorStatHeldOpen"
+      ],
+      "description": "Held Open"
+    },
+    {
+      "enum": [
+        2,
+        "secSysDoorStatLocked"
+      ],
+      "description": "Locked"
+    },
+    {
+      "enum": [
+        3,
+        "secSysDoorStatUnlocked"
+      ],
+      "description": "Unlocked"
+    },
+    {
+      "enum": [
+        4,
+        "secSysDoorStatUnknown"
+      ],
+      "description": "Unknown"
+    }
+  ]
+}

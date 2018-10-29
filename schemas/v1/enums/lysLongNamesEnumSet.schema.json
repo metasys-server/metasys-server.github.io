@@ -1,0 +1,519 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lysLongNamesEnumSet.schema.json",
+  "title": "lysLongNamesEnumSet",
+  "description": "LYS Long Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "lysLongNames1"
+      ],
+      "description": "Remote Unit Start"
+    },
+    {
+      "enum": [
+        2,
+        "lysLongNames2"
+      ],
+      "description": "Remote Unit Stop"
+    },
+    {
+      "enum": [
+        3,
+        "lysLongNames3"
+      ],
+      "description": "Chilled Liquid Flow Switch"
+    },
+    {
+      "enum": [
+        4,
+        "lysLongNames4"
+      ],
+      "description": "Condenser Liquid Flow Switch"
+    },
+    {
+      "enum": [
+        5,
+        "lysLongNames5"
+      ],
+      "description": "Start Cabinet Fault"
+    },
+    {
+      "enum": [
+        6,
+        "lysLongNames6"
+      ],
+      "description": "Low Oil Level Switch"
+    },
+    {
+      "enum": [
+        7,
+        "lysLongNames7"
+      ],
+      "description": "Emergency Stop"
+    },
+    {
+      "enum": [
+        8,
+        "lysLongNames8"
+      ],
+      "description": "Auxiliary Safety Switch"
+    },
+    {
+      "enum": [
+        9,
+        "lysLongNames9"
+      ],
+      "description": "Remote Leaving Temp. Reset"
+    },
+    {
+      "enum": [
+        10,
+        "lysLongNames10"
+      ],
+      "description": "Remote Current Unload Reset"
+    },
+    {
+      "enum": [
+        11,
+        "lysLongNames11"
+      ],
+      "description": "Compressor Feedback"
+    },
+    {
+      "enum": [
+        12,
+        "lysLongNames12"
+      ],
+      "description": "High Pressure Switch"
+    },
+    {
+      "enum": [
+        13,
+        "lysLongNames13"
+      ],
+      "description": "Control Mode Set 1"
+    },
+    {
+      "enum": [
+        14,
+        "lysLongNames14"
+      ],
+      "description": "Control Mode Set 2"
+    },
+    {
+      "enum": [
+        15,
+        "lysLongNames15"
+      ],
+      "description": "Multi-Unit Cycling"
+    },
+    {
+      "enum": [
+        16,
+        "lysLongNames16"
+      ],
+      "description": "System Cycling"
+    },
+    {
+      "enum": [
+        17,
+        "lysLongNames17"
+      ],
+      "description": "Slide Valve Load"
+    },
+    {
+      "enum": [
+        18,
+        "lysLongNames18"
+      ],
+      "description": "Slide Valve Unload"
+    },
+    {
+      "enum": [
+        19,
+        "lysLongNames19"
+      ],
+      "description": "Variable Orifice Solenoid 1"
+    },
+    {
+      "enum": [
+        20,
+        "lysLongNames20"
+      ],
+      "description": "Oil Heater"
+    },
+    {
+      "enum": [
+        21,
+        "lysLongNames21"
+      ],
+      "description": "Running Status"
+    },
+    {
+      "enum": [
+        22,
+        "lysLongNames22"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        23,
+        "lysLongNames23"
+      ],
+      "description": "Unit Start"
+    },
+    {
+      "enum": [
+        24,
+        "lysLongNames24"
+      ],
+      "description": "Hot Gas Bypass"
+    },
+    {
+      "enum": [
+        25,
+        "lysLongNames25"
+      ],
+      "description": "Chilled Liquid Pump"
+    },
+    {
+      "enum": [
+        26,
+        "lysLongNames26"
+      ],
+      "description": "Condenser Liquid Pump"
+    },
+    {
+      "enum": [
+        27,
+        "lysLongNames27"
+      ],
+      "description": "Oil Channel Solenoid"
+    },
+    {
+      "enum": [
+        28,
+        "lysLongNames28"
+      ],
+      "description": "Variable Orifice Solenoid 2"
+    },
+    {
+      "enum": [
+        29,
+        "lysLongNames29"
+      ],
+      "description": "Remote Mode Ready to Start"
+    },
+    {
+      "enum": [
+        30,
+        "lysLongNames30"
+      ],
+      "description": "Return Chilled Temp."
+    },
+    {
+      "enum": [
+        31,
+        "lysLongNames31"
+      ],
+      "description": "Leaving Chilled Temp."
+    },
+    {
+      "enum": [
+        32,
+        "lysLongNames32"
+      ],
+      "description": "Return Condenser Temp."
+    },
+    {
+      "enum": [
+        33,
+        "lysLongNames33"
+      ],
+      "description": "Percent-FLA"
+    },
+    {
+      "enum": [
+        34,
+        "lysLongNames34"
+      ],
+      "description": "Motor Current"
+    },
+    {
+      "enum": [
+        35,
+        "lysLongNames35"
+      ],
+      "description": "Oil Temperature"
+    },
+    {
+      "enum": [
+        36,
+        "lysLongNames36"
+      ],
+      "description": "Oil Pressure"
+    },
+    {
+      "enum": [
+        37,
+        "lysLongNames37"
+      ],
+      "description": "Oil Filter Pressure"
+    },
+    {
+      "enum": [
+        38,
+        "lysLongNames38"
+      ],
+      "description": "Leaving Condenser Temp."
+    },
+    {
+      "enum": [
+        39,
+        "lysLongNames39"
+      ],
+      "description": "Slide Valve Position"
+    },
+    {
+      "enum": [
+        40,
+        "lysLongNames40"
+      ],
+      "description": "Evaporator Pressure"
+    },
+    {
+      "enum": [
+        41,
+        "lysLongNames41"
+      ],
+      "description": "Discharge Temp."
+    },
+    {
+      "enum": [
+        42,
+        "lysLongNames42"
+      ],
+      "description": "Condenser Pressure"
+    },
+    {
+      "enum": [
+        43,
+        "lysLongNames43"
+      ],
+      "description": "Evaporator Saturation Temp."
+    },
+    {
+      "enum": [
+        44,
+        "lysLongNames44"
+      ],
+      "description": "Condenser Saturation Temp."
+    },
+    {
+      "enum": [
+        45,
+        "lysLongNames45"
+      ],
+      "description": "Discharge Superheat"
+    },
+    {
+      "enum": [
+        46,
+        "lysLongNames46"
+      ],
+      "description": "Seal Oil Pressure"
+    },
+    {
+      "enum": [
+        47,
+        "lysLongNames47"
+      ],
+      "description": "Evaporator Refrigerant Temp."
+    },
+    {
+      "enum": [
+        48,
+        "lysLongNames48"
+      ],
+      "description": "Evaporator Small Temp. Diff."
+    },
+    {
+      "enum": [
+        49,
+        "lysLongNames49"
+      ],
+      "description": "Condenser Small Temp. Diff."
+    },
+    {
+      "enum": [
+        50,
+        "lysLongNames50"
+      ],
+      "description": "Leaving Chiller Temp. Setpoint"
+    },
+    {
+      "enum": [
+        51,
+        "lysLongNames51"
+      ],
+      "description": "Chiller Stop Temp."
+    },
+    {
+      "enum": [
+        52,
+        "lysLongNames52"
+      ],
+      "description": "Control Mode"
+    },
+    {
+      "enum": [
+        53,
+        "lysLongNames53"
+      ],
+      "description": "Min Load Control Source"
+    },
+    {
+      "enum": [
+        54,
+        "lysLongNames54"
+      ],
+      "description": "Fault Status"
+    },
+    {
+      "enum": [
+        55,
+        "lysLongNames55"
+      ],
+      "description": "Leaving Temperature Setpoint"
+    },
+    {
+      "enum": [
+        56,
+        "lysLongNames56"
+      ],
+      "description": "Max Load FLA"
+    },
+    {
+      "enum": [
+        57,
+        "lysLongNames57"
+      ],
+      "description": "Start Temp. Offset Setpoint"
+    },
+    {
+      "enum": [
+        58,
+        "lysLongNames58"
+      ],
+      "description": "Pulldown Demand Time"
+    },
+    {
+      "enum": [
+        59,
+        "lysLongNames59"
+      ],
+      "description": "Pulldown Demand Limit"
+    },
+    {
+      "enum": [
+        60,
+        "lysLongNames60"
+      ],
+      "description": "Stop Temp. Offset Setpoint"
+    },
+    {
+      "enum": [
+        61,
+        "lysLongNames61"
+      ],
+      "description": "Min Load FLA"
+    },
+    {
+      "enum": [
+        62,
+        "lysLongNames62"
+      ],
+      "description": "Leaving Chiller Temp. Setpoint (HP)"
+    },
+    {
+      "enum": [
+        63,
+        "lysLongNames63"
+      ],
+      "description": "Start Temp. Offset Setpoint (HP)"
+    },
+    {
+      "enum": [
+        64,
+        "lysLongNames64"
+      ],
+      "description": "Stop Temp. Offset Setpoint (HP)"
+    },
+    {
+      "enum": [
+        65,
+        "lysLongNames65"
+      ],
+      "description": "Scheduled On/Off"
+    },
+    {
+      "enum": [
+        66,
+        "lysLongNames66"
+      ],
+      "description": "Remote Start"
+    },
+    {
+      "enum": [
+        67,
+        "lysLongNames67"
+      ],
+      "description": "Remote Stop"
+    },
+    {
+      "enum": [
+        68,
+        "lysLongNames68"
+      ],
+      "description": "Cooling Tower Fan"
+    },
+    {
+      "enum": [
+        69,
+        "lysLongNames69"
+      ],
+      "description": "FLA Percent"
+    },
+    {
+      "enum": [
+        70,
+        "lysLongNames70"
+      ],
+      "description": "FLA (Air Condition)"
+    },
+    {
+      "enum": [
+        71,
+        "lysLongNames71"
+      ],
+      "description": "Leaving Chiller Temp. Setpoint (Ice Storage)"
+    },
+    {
+      "enum": [
+        72,
+        "lysLongNames72"
+      ],
+      "description": "FLA (Ice Storage)"
+    },
+    {
+      "enum": [
+        73,
+        "lysLongNames73"
+      ],
+      "description": "FLA (Heat Pump)"
+    }
+  ]
+}

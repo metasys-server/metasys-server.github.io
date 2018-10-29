@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/surdStatusEnumSet.schema.json",
+  "title": "surdStatusEnumSet",
+  "description": "Surd Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "surdNotMonitoring"
+      ],
+      "description": "Not Monitoring"
+    },
+    {
+      "enum": [
+        1,
+        "surdOnline"
+      ],
+      "description": "Online"
+    },
+    {
+      "enum": [
+        2,
+        "surdOffline"
+      ],
+      "description": "Offline"
+    }
+  ]
+}

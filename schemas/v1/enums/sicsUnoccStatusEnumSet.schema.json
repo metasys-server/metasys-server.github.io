@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sicsUnoccStatusEnumSet.schema.json",
+  "title": "sicsUnoccStatusEnumSet",
+  "description": "SICS Unocc Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sicsUnoccStatusHeat"
+      ],
+      "description": "Unocc Heat"
+    },
+    {
+      "enum": [
+        1,
+        "sicsUnoccStatusCool"
+      ],
+      "description": "Unocc Cool"
+    },
+    {
+      "enum": [
+        2,
+        "sicsUnoccStatusCntlNotReqd"
+      ],
+      "description": "Unocc Cntrl Not Req'd"
+    },
+    {
+      "enum": [
+        3,
+        "sicsUnoccStatusSatisfied"
+      ],
+      "description": "Satisfied"
+    }
+  ]
+}

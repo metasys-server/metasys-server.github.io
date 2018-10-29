@@ -1,0 +1,533 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reliabilityEnumSet.schema.json",
+  "title": "reliabilityEnumSet",
+  "description": "Reliability",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "reliable"
+      ],
+      "description": "Reliable"
+    },
+    {
+      "enum": [
+        1,
+        "noInput"
+      ],
+      "description": "No Input"
+    },
+    {
+      "enum": [
+        2,
+        "unreliableHigh"
+      ],
+      "description": "Out of range high"
+    },
+    {
+      "enum": [
+        3,
+        "unreliableLow"
+      ],
+      "description": "Out of range low"
+    },
+    {
+      "enum": [
+        4,
+        "open"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        5,
+        "shorted"
+      ],
+      "description": "Shorted"
+    },
+    {
+      "enum": [
+        6,
+        "noOutput"
+      ],
+      "description": "No Output"
+    },
+    {
+      "enum": [
+        7,
+        "unreliable"
+      ],
+      "description": "Unreliable"
+    },
+    {
+      "enum": [
+        8,
+        "processError"
+      ],
+      "description": "Process Error"
+    },
+    {
+      "enum": [
+        9,
+        "multiStateFault"
+      ],
+      "description": "Multi-State Fault"
+    },
+    {
+      "enum": [
+        10,
+        "configurationError"
+      ],
+      "description": "Configuration Error"
+    },
+    {
+      "enum": [
+        12,
+        "communicationsFailure"
+      ],
+      "description": "Communications failure"
+    },
+    {
+      "enum": [
+        13,
+        "memberFault"
+      ],
+      "description": "Member fault"
+    },
+    {
+      "enum": [
+        14,
+        "monitoredObjectFault"
+      ],
+      "description": "Monitored Object fault"
+    },
+    {
+      "enum": [
+        15,
+        "tripped"
+      ],
+      "description": "Tripped"
+    },
+    {
+      "enum": [
+        16,
+        "lampFailure"
+      ],
+      "description": "Lamp Failure"
+    },
+    {
+      "enum": [
+        17,
+        "activationFailure"
+      ],
+      "description": "Activation Failure"
+    },
+    {
+      "enum": [
+        18,
+        "renewDhcpFailure"
+      ],
+      "description": "Renew DHCP Failure"
+    },
+    {
+      "enum": [
+        19,
+        "renewFdRegistrationFailure"
+      ],
+      "description": "Renew F. D. Registration Failure"
+    },
+    {
+      "enum": [
+        20,
+        "restartAutoNegotiationFailure"
+      ],
+      "description": "Restart Auto-negotiation Failure"
+    },
+    {
+      "enum": [
+        21,
+        "restartFailure"
+      ],
+      "description": "Restart Failure"
+    },
+    {
+      "enum": [
+        22,
+        "proprietaryCommandFailure"
+      ],
+      "description": "Proprietary Command Failure"
+    },
+    {
+      "enum": [
+        23,
+        "faultsListedFailure"
+      ],
+      "description": "Faults Listed Failure"
+    },
+    {
+      "enum": [
+        24,
+        "referencedObjectFault"
+      ],
+      "description": "Referenced Object Fault"
+    },
+    {
+      "enum": [
+        64,
+        "unreliableRate"
+      ],
+      "description": "Unreliable rate"
+    },
+    {
+      "enum": [
+        65,
+        "mathError"
+      ],
+      "description": "Math error"
+    },
+    {
+      "enum": [
+        66,
+        "mathOverflow"
+      ],
+      "description": "Math overflow"
+    },
+    {
+      "enum": [
+        67,
+        "mathUnderflow"
+      ],
+      "description": "Math underflow"
+    },
+    {
+      "enum": [
+        68,
+        "stringOverflow"
+      ],
+      "description": "String overflow"
+    },
+    {
+      "enum": [
+        69,
+        "divideByZero"
+      ],
+      "description": "Divide by zero"
+    },
+    {
+      "enum": [
+        70,
+        "commLoss"
+      ],
+      "description": "Comm loss"
+    },
+    {
+      "enum": [
+        71,
+        "memoryOverflow"
+      ],
+      "description": "Memory overflow"
+    },
+    {
+      "enum": [
+        72,
+        "deviceError"
+      ],
+      "description": "Device error"
+    },
+    {
+      "enum": [
+        73,
+        "mathNotANumber"
+      ],
+      "description": "Not a number"
+    },
+    {
+      "enum": [
+        74,
+        "inputOutOfRange"
+      ],
+      "description": "Input out of range"
+    },
+    {
+      "enum": [
+        75,
+        "inconsistentInputs"
+      ],
+      "description": "Inconsistent inputs"
+    },
+    {
+      "enum": [
+        76,
+        "dataConvertError"
+      ],
+      "description": "Data Convert Error"
+    },
+    {
+      "enum": [
+        77,
+        "convertOverflow"
+      ],
+      "description": "Convert Overflow"
+    },
+    {
+      "enum": [
+        78,
+        "readError"
+      ],
+      "description": "Read Error"
+    },
+    {
+      "enum": [
+        79,
+        "writeError"
+      ],
+      "description": "Write Error"
+    },
+    {
+      "enum": [
+        80,
+        "executeError"
+      ],
+      "description": "Execute Error"
+    },
+    {
+      "enum": [
+        81,
+        "pcodeError"
+      ],
+      "description": "Pcode Error"
+    },
+    {
+      "enum": [
+        82,
+        "stalledDuringPositioning"
+      ],
+      "description": "Stall During Post"
+    },
+    {
+      "enum": [
+        83,
+        "didNotStall"
+      ],
+      "description": "Did Not Stall"
+    },
+    {
+      "enum": [
+        84,
+        "calibrateStrokeTooLarge"
+      ],
+      "description": "Cal Stroke too Big"
+    },
+    {
+      "enum": [
+        85,
+        "calibrateStrokeTooSmall"
+      ],
+      "description": "Cal Stroke too Small"
+    },
+    {
+      "enum": [
+        86,
+        "notCalibrated"
+      ],
+      "description": "Not Calibrated"
+    },
+    {
+      "enum": [
+        87,
+        "connectionFailed"
+      ],
+      "description": "Connections Failed"
+    },
+    {
+      "enum": [
+        88,
+        "initializationError"
+      ],
+      "description": "Initialization Error"
+    },
+    {
+      "enum": [
+        89,
+        "attrInitError"
+      ],
+      "description": "Attr Init Error"
+    },
+    {
+      "enum": [
+        90,
+        "noObjectName"
+      ],
+      "description": "No Object Name"
+    },
+    {
+      "enum": [
+        91,
+        "invalidLinearizationTable"
+      ],
+      "description": "Invalid Lin Table"
+    },
+    {
+      "enum": [
+        92,
+        "nullDataReturned"
+      ],
+      "description": "Null Data Returned"
+    },
+    {
+      "enum": [
+        93,
+        "inputUnreliable"
+      ],
+      "description": "Input Unreliable"
+    },
+    {
+      "enum": [
+        94,
+        "objDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        95,
+        "inputsCannotBeEqual"
+      ],
+      "description": "Inputs cannot be equal"
+    },
+    {
+      "enum": [
+        96,
+        "setpointUnreliable"
+      ],
+      "description": "Setpoint Unreliable"
+    },
+    {
+      "enum": [
+        97,
+        "commandUnreliable"
+      ],
+      "description": "Command Unreliable"
+    },
+    {
+      "enum": [
+        98,
+        "requiredInputUnavailable"
+      ],
+      "description": "Required Input Unavailable"
+    },
+    {
+      "enum": [
+        99,
+        "failedToSynchronize"
+      ],
+      "description": "Failed to Synchronize"
+    },
+    {
+      "enum": [
+        100,
+        "invalidInput"
+      ],
+      "description": "Invalid Input"
+    },
+    {
+      "enum": [
+        101,
+        "outputCannotBeDetermined"
+      ],
+      "description": "Output cannot be determined"
+    },
+    {
+      "enum": [
+        102,
+        "internalError"
+      ],
+      "description": "Internal Error"
+    },
+    {
+      "enum": [
+        103,
+        "destinationsUnavailable"
+      ],
+      "description": "Destinations Unavailable"
+    },
+    {
+      "enum": [
+        104,
+        "writeFailed"
+      ],
+      "description": "Write Failed"
+    },
+    {
+      "enum": [
+        105,
+        "dataTypeMismatch"
+      ],
+      "description": "Data Type Mismatch"
+    },
+    {
+      "enum": [
+        106,
+        "sourceUnavailable"
+      ],
+      "description": "Source Unavailable"
+    },
+    {
+      "enum": [
+        107,
+        "roundOffError"
+      ],
+      "description": "Round Off Error"
+    },
+    {
+      "enum": [
+        108,
+        "clampedLow"
+      ],
+      "description": "Clamped Low"
+    },
+    {
+      "enum": [
+        109,
+        "clampedHigh"
+      ],
+      "description": "Clamped High"
+    },
+    {
+      "enum": [
+        110,
+        "valueTimedOut"
+      ],
+      "description": "Value Timed Out"
+    },
+    {
+      "enum": [
+        111,
+        "dataModelTemplateNotFound"
+      ],
+      "description": "Data Model Template Not Found"
+    },
+    {
+      "enum": [
+        112,
+        "notPresent"
+      ],
+      "description": "Not Present"
+    },
+    {
+      "enum": [
+        113,
+        "outputOutOfRange"
+      ],
+      "description": "Output out of range"
+    },
+    {
+      "enum": [
+        114,
+        "valueNotSet"
+      ],
+      "description": "Value Not Set"
+    }
+  ]
+}

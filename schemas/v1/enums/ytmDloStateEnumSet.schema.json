@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ytmDloStateEnumSet.schema.json",
+  "title": "ytmDloStateEnumSet",
+  "description": "YorkTalk Master Datalink Object States",
+  "oneOf": [
+    {
+      "enum": [
+        10,
+        "ytmDloCommState"
+      ],
+      "description": "Normal Communication"
+    },
+    {
+      "enum": [
+        11,
+        "ytmDloConfirmProtocolState"
+      ],
+      "description": "Confirming Protocol"
+    },
+    {
+      "enum": [
+        12,
+        "ytmDloConfirmPortState"
+      ],
+      "description": "Confirming Port Info"
+    },
+    {
+      "enum": [
+        13,
+        "ytmDloConfirmMappingState"
+      ],
+      "description": "Confirming Mapping Info"
+    },
+    {
+      "enum": [
+        14,
+        "ytmDloReadEquipmentIdState"
+      ],
+      "description": "Reading Equipment ID"
+    },
+    {
+      "enum": [
+        15,
+        "ytmDloRequireMappingState"
+      ],
+      "description": "Require Mapping Info"
+    },
+    {
+      "enum": [
+        16,
+        "ytmDloStartupErrorState"
+      ],
+      "description": "Startup Error"
+    },
+    {
+      "enum": [
+        17,
+        "ytmDloAcmoShutdownState"
+      ],
+      "description": "Auto Config Major Error"
+    }
+  ]
+}

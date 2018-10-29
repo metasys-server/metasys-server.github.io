@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dvsbEnumSet.schema.json",
+  "title": "dvsbEnumSet",
+  "description": "DVSB",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dvsbInProgress"
+      ],
+      "description": "Device Verification In Progress"
+    },
+    {
+      "enum": [
+        1,
+        "dvsbVerifyComplete"
+      ],
+      "description": "Device Verification Complete"
+    },
+    {
+      "enum": [
+        2,
+        "dvsbInvalidModel"
+      ],
+      "description": "Device Verification Invalid Model"
+    },
+    {
+      "enum": [
+        3,
+        "dvsbInvalidVendor"
+      ],
+      "description": "Device Verification Invalid Vendor ID"
+    },
+    {
+      "enum": [
+        4,
+        "dvsbReadError"
+      ],
+      "description": "Device Verification Read Error"
+    },
+    {
+      "enum": [
+        5,
+        "dvsbConfigError"
+      ],
+      "description": "Device Verification Configuration Error"
+    },
+    {
+      "enum": [
+        6,
+        "dvsbInvalidDmcsVersion"
+      ],
+      "description": "Device model class version mismatch"
+    }
+  ]
+}

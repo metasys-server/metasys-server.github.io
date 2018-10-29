@@ -1,0 +1,400 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/oemReznorShortNamesEnumSet.schema.json",
+  "title": "oemReznorShortNamesEnumSet",
+  "description": "OEM Reznor Short Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "oemReznorShortNames1"
+      ],
+      "description": "HSO"
+    },
+    {
+      "enum": [
+        2,
+        "oemReznorShortNames2"
+      ],
+      "description": "DP1"
+    },
+    {
+      "enum": [
+        3,
+        "oemReznorShortNames3"
+      ],
+      "description": "DCH"
+    },
+    {
+      "enum": [
+        4,
+        "oemReznorShortNames4"
+      ],
+      "description": "DHL"
+    },
+    {
+      "enum": [
+        5,
+        "oemReznorShortNames5"
+      ],
+      "description": "RCP"
+    },
+    {
+      "enum": [
+        6,
+        "oemReznorShortNames6"
+      ],
+      "description": "RHP"
+    },
+    {
+      "enum": [
+        7,
+        "oemReznorShortNames7"
+      ],
+      "description": "DCL"
+    },
+    {
+      "enum": [
+        8,
+        "oemReznorShortNames8"
+      ],
+      "description": "DHH"
+    },
+    {
+      "enum": [
+        9,
+        "oemReznorShortNames9"
+      ],
+      "description": "OH2"
+    },
+    {
+      "enum": [
+        10,
+        "oemReznorShortNames10"
+      ],
+      "description": "OH3"
+    },
+    {
+      "enum": [
+        11,
+        "oemReznorShortNames11"
+      ],
+      "description": "OC2"
+    },
+    {
+      "enum": [
+        12,
+        "oemReznorShortNames12"
+      ],
+      "description": "OC3"
+    },
+    {
+      "enum": [
+        13,
+        "oemReznorShortNames13"
+      ],
+      "description": "SCP"
+    },
+    {
+      "enum": [
+        14,
+        "oemReznorShortNames14"
+      ],
+      "description": "SHP"
+    },
+    {
+      "enum": [
+        15,
+        "oemReznorShortNames15"
+      ],
+      "description": "CPP"
+    },
+    {
+      "enum": [
+        16,
+        "oemReznorShortNames16"
+      ],
+      "description": "HDB"
+    },
+    {
+      "enum": [
+        17,
+        "oemReznorShortNames17"
+      ],
+      "description": "OC1"
+    },
+    {
+      "enum": [
+        18,
+        "oemReznorShortNames18"
+      ],
+      "description": "OH1"
+    },
+    {
+      "enum": [
+        19,
+        "oemReznorShortNames19"
+      ],
+      "description": "ROL"
+    },
+    {
+      "enum": [
+        20,
+        "oemReznorShortNames20"
+      ],
+      "description": "ROH"
+    },
+    {
+      "enum": [
+        21,
+        "oemReznorShortNames21"
+      ],
+      "description": "LSP"
+    },
+    {
+      "enum": [
+        22,
+        "oemReznorShortNames22"
+      ],
+      "description": "EN1"
+    },
+    {
+      "enum": [
+        23,
+        "oemReznorShortNames23"
+      ],
+      "description": "EN2"
+    },
+    {
+      "enum": [
+        24,
+        "oemReznorShortNames24"
+      ],
+      "description": "EN3"
+    },
+    {
+      "enum": [
+        25,
+        "oemReznorShortNames25"
+      ],
+      "description": "NSU"
+    },
+    {
+      "enum": [
+        26,
+        "oemReznorShortNames26"
+      ],
+      "description": "NSB"
+    },
+    {
+      "enum": [
+        27,
+        "oemReznorShortNames27"
+      ],
+      "description": "RSP"
+    },
+    {
+      "enum": [
+        28,
+        "oemReznorShortNames28"
+      ],
+      "description": "UOT"
+    },
+    {
+      "enum": [
+        29,
+        "oemReznorShortNames29"
+      ],
+      "description": "HHR"
+    },
+    {
+      "enum": [
+        30,
+        "oemReznorShortNames30"
+      ],
+      "description": "HTGINTSTG DELAY"
+    },
+    {
+      "enum": [
+        31,
+        "oemReznorShortNames31"
+      ],
+      "description": "CLGINTSTG DELAY"
+    },
+    {
+      "enum": [
+        32,
+        "oemReznorShortNames32"
+      ],
+      "description": "MIN CLG ON TIME"
+    },
+    {
+      "enum": [
+        33,
+        "oemReznorShortNames33"
+      ],
+      "description": "RHE"
+    },
+    {
+      "enum": [
+        34,
+        "oemReznorShortNames34"
+      ],
+      "description": "SSPHI"
+    },
+    {
+      "enum": [
+        35,
+        "oemReznorShortNames35"
+      ],
+      "description": "SSPLO"
+    },
+    {
+      "enum": [
+        36,
+        "oemReznorShortNames36"
+      ],
+      "description": "RMTO"
+    },
+    {
+      "enum": [
+        37,
+        "oemReznorShortNames37"
+      ],
+      "description": "DAO"
+    },
+    {
+      "enum": [
+        38,
+        "oemReznorShortNames38"
+      ],
+      "description": "HTG POLARITY"
+    },
+    {
+      "enum": [
+        39,
+        "oemReznorShortNames39"
+      ],
+      "description": "HTGOUTLOWLIMIT"
+    },
+    {
+      "enum": [
+        40,
+        "oemReznorShortNames40"
+      ],
+      "description": "HTGOUTHIGHLIMIT"
+    },
+    {
+      "enum": [
+        41,
+        "oemReznorShortNames41"
+      ],
+      "description": "DA WCSP"
+    },
+    {
+      "enum": [
+        42,
+        "oemReznorShortNames42"
+      ],
+      "description": "DA WHSP"
+    },
+    {
+      "enum": [
+        43,
+        "oemReznorShortNames43"
+      ],
+      "description": "MODE"
+    },
+    {
+      "enum": [
+        44,
+        "oemReznorShortNames44"
+      ],
+      "description": "OCC STATUS"
+    },
+    {
+      "enum": [
+        45,
+        "oemReznorShortNames45"
+      ],
+      "description": "OCC OVRD STAT"
+    },
+    {
+      "enum": [
+        46,
+        "oemReznorShortNames46"
+      ],
+      "description": "DA CNTRL MODE"
+    },
+    {
+      "enum": [
+        47,
+        "oemReznorShortNames47"
+      ],
+      "description": "RM WHSP"
+    },
+    {
+      "enum": [
+        48,
+        "oemReznorShortNames48"
+      ],
+      "description": "RM WCSP"
+    },
+    {
+      "enum": [
+        49,
+        "oemReznorShortNames49"
+      ],
+      "description": "HTG OUTPUT PCT"
+    },
+    {
+      "enum": [
+        50,
+        "oemReznorShortNames50"
+      ],
+      "description": "SSP"
+    },
+    {
+      "enum": [
+        51,
+        "oemReznorShortNames51"
+      ],
+      "description": "Enth"
+    },
+    {
+      "enum": [
+        52,
+        "oemReznorShortNames52"
+      ],
+      "description": "DP"
+    },
+    {
+      "enum": [
+        53,
+        "oemReznorShortNames53"
+      ],
+      "description": "OA HUM PERC"
+    },
+    {
+      "enum": [
+        54,
+        "oemReznorShortNames54"
+      ],
+      "description": "HPP"
+    },
+    {
+      "enum": [
+        55,
+        "oemReznorShortNames55"
+      ],
+      "description": "ICT"
+    },
+    {
+      "enum": [
+        56,
+        "oemReznorShortNames56"
+      ],
+      "description": "SPCT"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/controllerStatusEnumSet.schema.json",
+  "title": "controllerStatusEnumSet",
+  "description": "Controller Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "csOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        1,
+        "csOnline"
+      ],
+      "description": "Online"
+    },
+    {
+      "enum": [
+        2,
+        "csPassthru"
+      ],
+      "description": "Pass Through"
+    },
+    {
+      "enum": [
+        3,
+        "csCommDisable"
+      ],
+      "description": "Comm Disabled"
+    },
+    {
+      "enum": [
+        4,
+        "csCommEnable"
+      ],
+      "description": "Comm Enabled"
+    }
+  ]
+}

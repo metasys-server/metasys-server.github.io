@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mstpdlPortStatusEnumSet.schema.json",
+  "title": "mstpdlPortStatusEnumSet",
+  "description": "MSTPDL Port Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mstpdlPortStatusNotConfigured"
+      ],
+      "description": "Not Configured"
+    },
+    {
+      "enum": [
+        1,
+        "mstpdlPortStatusActive"
+      ],
+      "description": "Active"
+    },
+    {
+      "enum": [
+        2,
+        "mstpdlPortStatusWaitingForPfm"
+      ],
+      "description": "Waiting For Poll For Master"
+    },
+    {
+      "enum": [
+        3,
+        "mstpdlPortStatusNotRecdTokenForLong"
+      ],
+      "description": "Not Received Token For Long"
+    },
+    {
+      "enum": [
+        4,
+        "mstpdlPortStatusDuplicateMacAddress"
+      ],
+      "description": "Duplicate MAC Address"
+    },
+    {
+      "enum": [
+        5,
+        "mstpdlPortStatusForcingBaud"
+      ],
+      "description": "Forcing BAUD"
+    },
+    {
+      "enum": [
+        6,
+        "mstpdlPortStatusRemoteTrunk"
+      ],
+      "description": "Remote Trunk"
+    }
+  ]
+}

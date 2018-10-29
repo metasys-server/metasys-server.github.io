@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecBasCommEnumSet.schema.json",
+  "title": "tecBasCommEnumSet",
+  "description": "TEC BAS Comm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecBasCommBacnet"
+      ],
+      "description": "BACnet"
+    },
+    {
+      "enum": [
+        2,
+        "tecBasCommN2"
+      ],
+      "description": "N2"
+    }
+  ]
+}

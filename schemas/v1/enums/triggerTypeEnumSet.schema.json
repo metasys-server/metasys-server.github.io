@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/triggerTypeEnumSet.schema.json",
+  "title": "triggerTypeEnumSet",
+  "description": "Trigger Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "triggerTypeAlwaysOnUnidentified"
+      ],
+      "description": "Always On Unidentified"
+    },
+    {
+      "enum": [
+        1,
+        "triggerTypeAlwaysOnPositiveDecision"
+      ],
+      "description": "Always On Positive Decision"
+    },
+    {
+      "enum": [
+        2,
+        "triggerTypeAlsoRequirePositiveDecision"
+      ],
+      "description": "Also Require Positive Decision"
+    },
+    {
+      "enum": [
+        3,
+        "triggerTypeDoNotRequirePositiveDecision"
+      ],
+      "description": "Do not Require Positive Decision"
+    },
+    {
+      "enum": [
+        4,
+        "triggerTypeAlwaysOnNegativeDecision"
+      ],
+      "description": "Always On Negative Decision"
+    },
+    {
+      "enum": [
+        5,
+        "triggerTypeAlwaysOnAnyDecision"
+      ],
+      "description": "Always On Any Decision"
+    },
+    {
+      "enum": [
+        6,
+        "triggerTypeAlwaysOnPositiveOrNegativeDecision"
+      ],
+      "description": "Always on Positive or Negative Decision"
+    },
+    {
+      "enum": [
+        7,
+        "triggerTypeAlwaysOnDeferredDecision"
+      ],
+      "description": "Always on Deferred Decision"
+    }
+  ]
+}

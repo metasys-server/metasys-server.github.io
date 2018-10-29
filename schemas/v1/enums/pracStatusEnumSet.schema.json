@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pracStatusEnumSet.schema.json",
+  "title": "pracStatusEnumSet",
+  "description": "PRAC Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "psNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "changeMonitoringSetpointChange"
+      ],
+      "description": "Monitoring Setpoint Change"
+    },
+    {
+      "enum": [
+        2,
+        "monitoringLoadDisturbance"
+      ],
+      "description": "Monitoring Load Disturbance"
+    },
+    {
+      "enum": [
+        3,
+        "tuningNotUpdated"
+      ],
+      "description": "Tuning NOT Updated"
+    },
+    {
+      "enum": [
+        4,
+        "normalTuningUpdate"
+      ],
+      "description": "Normal Tuning Update"
+    },
+    {
+      "enum": [
+        5,
+        "gainDecreased"
+      ],
+      "description": "Gain Decreased"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/classCategoryEnumSet.schema.json",
+  "title": "classCategoryEnumSet",
+  "description": "Class Category",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ccStandardObject"
+      ],
+      "description": "Standard Object"
+    },
+    {
+      "enum": [
+        1,
+        "ccAssemblyObject"
+      ],
+      "description": "Assembly Object"
+    },
+    {
+      "enum": [
+        2,
+        "ccApplicationObject"
+      ],
+      "description": "Application Object"
+    },
+    {
+      "enum": [
+        3,
+        "ccSiteDevice"
+      ],
+      "description": "Site Device"
+    },
+    {
+      "enum": [
+        4,
+        "ccOtherDevice"
+      ],
+      "description": "Other Device"
+    },
+    {
+      "enum": [
+        5,
+        "ccGroupObject"
+      ],
+      "description": "Group Object"
+    }
+  ]
+}

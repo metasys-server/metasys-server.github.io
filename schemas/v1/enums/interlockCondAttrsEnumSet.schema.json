@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/interlockCondAttrsEnumSet.schema.json",
+  "title": "interlockCondAttrsEnumSet",
+  "description": "Interlock Condition Attr",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ilkAttrsDat"
+      ],
+      "description": "Discharge Air Temp"
+    },
+    {
+      "enum": [
+        1,
+        "ilkAttrsOat"
+      ],
+      "description": "Outdoor Air Temp"
+    },
+    {
+      "enum": [
+        2,
+        "ilkAttrsRat"
+      ],
+      "description": "Return Air Temp"
+    },
+    {
+      "enum": [
+        3,
+        "ilkAttrsCo2"
+      ],
+      "description": "CO2"
+    },
+    {
+      "enum": [
+        4,
+        "ilkAttrsHumidity"
+      ],
+      "description": "Humidity"
+    },
+    {
+      "enum": [
+        5,
+        "ilkAttrsFan"
+      ],
+      "description": "Fan"
+    },
+    {
+      "enum": [
+        6,
+        "ilkAttrsOcc"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        7,
+        "ilkAttrsCtrlmode"
+      ],
+      "description": "Control Mode"
+    }
+  ]
+}

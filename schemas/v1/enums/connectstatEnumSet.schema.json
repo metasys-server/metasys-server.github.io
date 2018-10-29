@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectstatEnumSet.schema.json",
+  "title": "connectstatEnumSet",
+  "description": "Connect Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectFree"
+      ],
+      "description": "Free"
+    },
+    {
+      "enum": [
+        1,
+        "connectConnected"
+      ],
+      "description": "Connected"
+    },
+    {
+      "enum": [
+        2,
+        "connectAvaliable"
+      ],
+      "description": "Available"
+    },
+    {
+      "enum": [
+        3,
+        "connectFailed"
+      ],
+      "description": "Failed"
+    }
+  ]
+}

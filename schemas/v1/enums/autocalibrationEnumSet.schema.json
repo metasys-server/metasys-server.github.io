@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/autocalibrationEnumSet.schema.json",
+  "title": "autocalibrationEnumSet",
+  "description": "Autocalibration",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "acUncalibrated"
+      ],
+      "description": "Uncalibrated"
+    },
+    {
+      "enum": [
+        1,
+        "acWaitingCal"
+      ],
+      "description": "Waiting to Calibrate"
+    },
+    {
+      "enum": [
+        2,
+        "acWaitingDamp"
+      ],
+      "description": "Waiting for Damper"
+    },
+    {
+      "enum": [
+        3,
+        "acAutocalibrate"
+      ],
+      "description": "Autocalibrate"
+    },
+    {
+      "enum": [
+        4,
+        "acNormal"
+      ],
+      "description": "Normal"
+    }
+  ]
+}

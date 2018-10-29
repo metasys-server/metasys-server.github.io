@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuRfBspModeUlEnumSet.schema.json",
+  "title": "ahuRfBspModeUlEnumSet",
+  "description": "AHU RF BSP Mode UL",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuRfbspModeulOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuRfbspModeulMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "ahuRfbspModeulBsPControl"
+      ],
+      "description": "BS-P Control"
+    },
+    {
+      "enum": [
+        3,
+        "ahuRfbspModeulEmergencyBsPControl"
+      ],
+      "description": "Emergency BS-P Control"
+    },
+    {
+      "enum": [
+        4,
+        "ahuRfbspModeulEmergencyOff"
+      ],
+      "description": "Emergency Off"
+    }
+  ]
+}

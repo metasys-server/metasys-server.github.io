@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/zncAshrae2StatesEnumSet.schema.json",
+  "title": "zncAshrae2StatesEnumSet",
+  "description": "ZNC ASHRAE 2 States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "znc2ZoneDamper"
+      ],
+      "description": "Zone Damper"
+    },
+    {
+      "enum": [
+        1,
+        "znc2Htg"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        2,
+        "znc2Satisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        3,
+        "znc2Econ"
+      ],
+      "description": "Economizer"
+    },
+    {
+      "enum": [
+        4,
+        "znc2EconClg"
+      ],
+      "description": "Economizer + Cooling"
+    },
+    {
+      "enum": [
+        5,
+        "znc2ClgOnly"
+      ],
+      "description": "Cooling Only"
+    },
+    {
+      "enum": [
+        6,
+        "znc2DallEcon"
+      ],
+      "description": "DALL Economizer"
+    },
+    {
+      "enum": [
+        7,
+        "znc2DallHtg"
+      ],
+      "description": "DALL Heating"
+    },
+    {
+      "enum": [
+        8,
+        "znc2DallDamper"
+      ],
+      "description": "DALL Damper"
+    },
+    {
+      "enum": [
+        9,
+        "znc2ZoneUnrel"
+      ],
+      "description": "Zone Temperature Unreliable"
+    }
+  ]
+}

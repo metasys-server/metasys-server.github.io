@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hpCompressorModeEnumSet.schema.json",
+  "title": "hpCompressorModeEnumSet",
+  "description": "HP Compressor Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hpCompModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hpCompModeCtrlHtg"
+      ],
+      "description": "Control Heating"
+    },
+    {
+      "enum": [
+        2,
+        "hpCompModeCtrlClg"
+      ],
+      "description": "Control Cooling"
+    },
+    {
+      "enum": [
+        3,
+        "hpCompModeMaxHtg"
+      ],
+      "description": "Max Heating"
+    }
+  ]
+}

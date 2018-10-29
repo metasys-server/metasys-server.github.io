@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/minoatypeEnumSet.schema.json",
+  "title": "minoatypeEnumSet",
+  "description": "Min OA Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Ext mA"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Ext V"
+    }
+  ]
+}

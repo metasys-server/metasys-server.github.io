@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/terminalUnitTypeEnumSet.schema.json",
+  "title": "terminalUnitTypeEnumSet",
+  "description": "Terminal Unit Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "singleDuctVav"
+      ],
+      "description": "Single Duct VAV"
+    },
+    {
+      "enum": [
+        1,
+        "dualDuctVav"
+      ],
+      "description": "Dual Duct VAV"
+    },
+    {
+      "enum": [
+        2,
+        "heatPump"
+      ],
+      "description": "Heat Pump"
+    },
+    {
+      "enum": [
+        3,
+        "fanCoil"
+      ],
+      "description": "Fan Coil"
+    },
+    {
+      "enum": [
+        4,
+        "chilledBeam"
+      ],
+      "description": "Chilled Beam"
+    },
+    {
+      "enum": [
+        5,
+        "packagedTerminalAirConditioner"
+      ],
+      "description": "Packaged Terminal Air Conditioner"
+    },
+    {
+      "enum": [
+        6,
+        "unitVentilator"
+      ],
+      "description": "Unit Ventilator"
+    }
+  ]
+}

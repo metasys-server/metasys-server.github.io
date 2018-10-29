@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHtgFbpdOutEnumSet.schema.json",
+  "title": "ahuHtgFbpdOutEnumSet",
+  "description": "AHU Htg FBPD Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuFbpdOOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuFbpdOMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ahuFbpdOLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "ahuFbpdOHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "ahuFbpdOWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "ahuFbpdOTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        6,
+        "ahuFbpdOLlTControl"
+      ],
+      "description": "LL-T Control"
+    },
+    {
+      "enum": [
+        7,
+        "ahuFbpdOFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        8,
+        "ahuFbpdOLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        9,
+        "ahuFbpdOLowOaTemperatureStartup"
+      ],
+      "description": "Low OA Temperature Startup"
+    }
+  ]
+}

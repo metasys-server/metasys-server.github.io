@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pagerDatabitsEnumSet.schema.json",
+  "title": "pagerDatabitsEnumSet",
+  "description": "Pager Databits",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pagerDatabits7"
+      ],
+      "description": "7"
+    },
+    {
+      "enum": [
+        1,
+        "pagerDatabits8"
+      ],
+      "description": "8"
+    }
+  ]
+}

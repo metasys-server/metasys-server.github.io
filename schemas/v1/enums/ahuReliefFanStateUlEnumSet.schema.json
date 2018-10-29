@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuReliefFanStateUlEnumSet.schema.json",
+  "title": "ahuReliefFanStateUlEnumSet",
+  "description": "AHU Relief Fan State UL",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuReliefFanStateulOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuReliefFanStateulMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "ahuReliefFanStateulBsPControl"
+      ],
+      "description": "BS-P Control"
+    },
+    {
+      "enum": [
+        3,
+        "ahuReliefFanStateulEmergencyOn"
+      ],
+      "description": "Emergency On"
+    }
+  ]
+}

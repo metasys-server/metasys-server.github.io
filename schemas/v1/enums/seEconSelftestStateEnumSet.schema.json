@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconSelftestStateEnumSet.schema.json",
+  "title": "seEconSelftestStateEnumSet",
+  "description": "SE ECON SelfTest State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconSelftestStateOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seEconSelftestStateTestAlarm"
+      ],
+      "description": "Test Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "seEconSelftestStateTestDamper"
+      ],
+      "description": "Test Damper"
+    },
+    {
+      "enum": [
+        3,
+        "seEconSelftestStateTestC1"
+      ],
+      "description": "Test C1"
+    },
+    {
+      "enum": [
+        4,
+        "seEconSelftestStateTestC2"
+      ],
+      "description": "Test C2"
+    },
+    {
+      "enum": [
+        5,
+        "seEconSelftestStateTestExhaust"
+      ],
+      "description": "Test Exhaust"
+    },
+    {
+      "enum": [
+        6,
+        "seEconSelftestStateTestErv"
+      ],
+      "description": "Test ERV"
+    },
+    {
+      "enum": [
+        7,
+        "seEconSelftestStateTestVfd"
+      ],
+      "description": "Test VFD"
+    },
+    {
+      "enum": [
+        8,
+        "seEconSelftestStateTestAcceptance"
+      ],
+      "description": "Test Acceptance"
+    }
+  ]
+}

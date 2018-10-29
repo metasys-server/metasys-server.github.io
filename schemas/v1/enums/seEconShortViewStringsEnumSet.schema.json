@@ -1,0 +1,617 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconShortViewStringsEnumSet.schema.json",
+  "title": "seEconShortViewStringsEnumSet",
+  "description": "SE ECON Short View Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconShortViewStringsBldgPressure"
+      ],
+      "description": "Bldg Pressure"
+    },
+    {
+      "enum": [
+        1,
+        "seEconShortViewStringsBldgPressStpt"
+      ],
+      "description": "Bldg Press Stpt"
+    },
+    {
+      "enum": [
+        2,
+        "seEconShortViewStringsCalFaultState"
+      ],
+      "description": "Cal Fault State"
+    },
+    {
+      "enum": [
+        3,
+        "seEconShortViewStringsCompAvailState"
+      ],
+      "description": "Comp Avail State"
+    },
+    {
+      "enum": [
+        4,
+        "seEconShortViewStringsComp1Lockout"
+      ],
+      "description": "Comp 1 Lockout"
+    },
+    {
+      "enum": [
+        5,
+        "seEconShortViewStringsComp2Lockout"
+      ],
+      "description": "Comp 2 Lockout"
+    },
+    {
+      "enum": [
+        6,
+        "seEconShortViewStringsComp1Status"
+      ],
+      "description": "Comp 1 Status"
+    },
+    {
+      "enum": [
+        7,
+        "seEconShortViewStringsComp2Status"
+      ],
+      "description": "Comp 2 Status"
+    },
+    {
+      "enum": [
+        8,
+        "seEconShortViewStringsCompCtrlMode"
+      ],
+      "description": "Comp Ctrl Mode"
+    },
+    {
+      "enum": [
+        9,
+        "seEconShortViewStringsCompEnable"
+      ],
+      "description": "Comp Enable"
+    },
+    {
+      "enum": [
+        10,
+        "seEconShortViewStringsCmpMinOffTime"
+      ],
+      "description": "Cmp Min Off Time"
+    },
+    {
+      "enum": [
+        11,
+        "seEconShortViewStringsCmpMinOnTime"
+      ],
+      "description": "Cmp Min On Time"
+    },
+    {
+      "enum": [
+        12,
+        "seEconShortViewStringsCompStatus"
+      ],
+      "description": "Comp Status"
+    },
+    {
+      "enum": [
+        13,
+        "seEconShortViewStringsCompressor1"
+      ],
+      "description": "Compressor 1"
+    },
+    {
+      "enum": [
+        14,
+        "seEconShortViewStringsCompressor2"
+      ],
+      "description": "Compressor 2"
+    },
+    {
+      "enum": [
+        15,
+        "seEconShortViewStringsCompStages"
+      ],
+      "description": "Comp Stages"
+    },
+    {
+      "enum": [
+        16,
+        "seEconShortViewStringsDamperFanOff"
+      ],
+      "description": "Damper % Fan Off"
+    },
+    {
+      "enum": [
+        17,
+        "seEconShortViewStringsDamperFanOn"
+      ],
+      "description": "Damper % Fan On"
+    },
+    {
+      "enum": [
+        18,
+        "seEconShortViewStringsDamperCommand"
+      ],
+      "description": "Damper Command"
+    },
+    {
+      "enum": [
+        19,
+        "seEconShortViewStringsDamperFeedback"
+      ],
+      "description": "Damper Feedback"
+    },
+    {
+      "enum": [
+        20,
+        "seEconShortViewStringsDamperIntTime"
+      ],
+      "description": "Damper Int Time"
+    },
+    {
+      "enum": [
+        21,
+        "seEconShortViewStringsDamperLoAmbEn"
+      ],
+      "description": "Damper Lo Amb En"
+    },
+    {
+      "enum": [
+        22,
+        "seEconShortViewStringsDamperMinPos"
+      ],
+      "description": "Damper Min Pos"
+    },
+    {
+      "enum": [
+        23,
+        "seEconShortViewStringsDamperMode"
+      ],
+      "description": "Damper Mode"
+    },
+    {
+      "enum": [
+        24,
+        "seEconShortViewStringsDamperPropBand"
+      ],
+      "description": "Damper Prop Band"
+    },
+    {
+      "enum": [
+        25,
+        "seEconShortViewStringsDamperState"
+      ],
+      "description": "Damper State"
+    },
+    {
+      "enum": [
+        26,
+        "seEconShortViewStringsDryBulbStpt"
+      ],
+      "description": "Dry Bulb Stpt"
+    },
+    {
+      "enum": [
+        27,
+        "seEconShortViewStringsEconEnable"
+      ],
+      "description": "Econ Enable"
+    },
+    {
+      "enum": [
+        28,
+        "seEconShortViewStringsEconFaultState"
+      ],
+      "description": "Econ Fault State"
+    },
+    {
+      "enum": [
+        29,
+        "seEconShortViewStringsEconStatus"
+      ],
+      "description": "Econ Status"
+    },
+    {
+      "enum": [
+        30,
+        "seEconShortViewStringsEquipmentType"
+      ],
+      "description": "Equipment Type"
+    },
+    {
+      "enum": [
+        31,
+        "seEconShortViewStringsErvStatus"
+      ],
+      "description": "ERV Status"
+    },
+    {
+      "enum": [
+        32,
+        "seEconShortViewStringsExhDetState"
+      ],
+      "description": "Exh Det State"
+    },
+    {
+      "enum": [
+        33,
+        "seEconShortViewStringsExcessSatState"
+      ],
+      "description": "Excess SAT State"
+    },
+    {
+      "enum": [
+        34,
+        "seEconShortViewStringsExcessSatStpt"
+      ],
+      "description": "Excess SAT Stpt"
+    },
+    {
+      "enum": [
+        35,
+        "seEconShortViewStringsExhaustCommand"
+      ],
+      "description": "Exhaust Command"
+    },
+    {
+      "enum": [
+        36,
+        "seEconShortViewStringsExhaustFan"
+      ],
+      "description": "Exhaust Fan"
+    },
+    {
+      "enum": [
+        37,
+        "seEconShortViewStringsExhIntTime"
+      ],
+      "description": "Exh Int Time"
+    },
+    {
+      "enum": [
+        38,
+        "seEconShortViewStringsExhaustMode"
+      ],
+      "description": "Exhaust Mode"
+    },
+    {
+      "enum": [
+        39,
+        "seEconShortViewStringsExhPropBand"
+      ],
+      "description": "Exh Prop Band"
+    },
+    {
+      "enum": [
+        40,
+        "seEconShortViewStringsExhaustSetup"
+      ],
+      "description": "Exhaust Setup"
+    },
+    {
+      "enum": [
+        41,
+        "seEconShortViewStringsExhaustState"
+      ],
+      "description": "Exhaust State"
+    },
+    {
+      "enum": [
+        42,
+        "seEconShortViewStringsExhaustStatus"
+      ],
+      "description": "Exhaust Status"
+    },
+    {
+      "enum": [
+        43,
+        "seEconShortViewStringsFanControlType"
+      ],
+      "description": "Fan Control Type"
+    },
+    {
+      "enum": [
+        44,
+        "seEconShortViewStringsFaultDetectEn"
+      ],
+      "description": "Fault Detect En"
+    },
+    {
+      "enum": [
+        45,
+        "seEconShortViewStringsFreeClgAvail"
+      ],
+      "description": "Free Clg Avail"
+    },
+    {
+      "enum": [
+        46,
+        "seEconShortViewStringsFreeClgSelect"
+      ],
+      "description": "Free Clg Select"
+    },
+    {
+      "enum": [
+        47,
+        "seEconShortViewStringsFreshAirActive"
+      ],
+      "description": "Fresh Air Active"
+    },
+    {
+      "enum": [
+        48,
+        "seEconShortViewStringsFreshAirEnable"
+      ],
+      "description": "Fresh Air Enable"
+    },
+    {
+      "enum": [
+        49,
+        "seEconShortViewStringsFreshAirFlow"
+      ],
+      "description": "Fresh Air Flow"
+    },
+    {
+      "enum": [
+        50,
+        "seEconShortViewStringsFreshAirStpt"
+      ],
+      "description": "Fresh Air Stpt"
+    },
+    {
+      "enum": [
+        51,
+        "seEconShortViewStringsHighOaShutoff"
+      ],
+      "description": "High OA Shutoff"
+    },
+    {
+      "enum": [
+        52,
+        "seEconShortViewStringsIndoorQuality"
+      ],
+      "description": "Indoor Quality"
+    },
+    {
+      "enum": [
+        53,
+        "seEconShortViewStringsLoAmbientEn"
+      ],
+      "description": "Lo Ambient En"
+    },
+    {
+      "enum": [
+        54,
+        "seEconShortViewStringsLoAmbMinPos"
+      ],
+      "description": "Lo Amb Min Pos"
+    },
+    {
+      "enum": [
+        55,
+        "seEconShortViewStringsLoAmbientStpt"
+      ],
+      "description": "Lo Ambient Stpt"
+    },
+    {
+      "enum": [
+        56,
+        "seEconShortViewStringsLowSpdMinPos"
+      ],
+      "description": "Low Spd Min Pos"
+    },
+    {
+      "enum": [
+        57,
+        "seEconShortViewStringsMechTstatState"
+      ],
+      "description": "Mech Tstat State"
+    },
+    {
+      "enum": [
+        58,
+        "seEconShortViewStringsOaEnthSetpt"
+      ],
+      "description": "OA Enth Setpt"
+    },
+    {
+      "enum": [
+        59,
+        "seEconShortViewStringsOccupancy"
+      ],
+      "description": "Occupancy"
+    },
+    {
+      "enum": [
+        60,
+        "seEconShortViewStringsOutdoorHumidity"
+      ],
+      "description": "Outdoor Humidity"
+    },
+    {
+      "enum": [
+        61,
+        "seEconShortViewStringsOutdoorQuality"
+      ],
+      "description": "Outdoor Quality"
+    },
+    {
+      "enum": [
+        62,
+        "seEconShortViewStringsOutdoorTemp"
+      ],
+      "description": "Outdoor Temp"
+    },
+    {
+      "enum": [
+        63,
+        "seEconShortViewStringsPidTuningReset"
+      ],
+      "description": "PID Tuning Reset"
+    },
+    {
+      "enum": [
+        64,
+        "seEconShortViewStringsPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        65,
+        "seEconShortViewStringsReturnHumidity"
+      ],
+      "description": "Return Humidity"
+    },
+    {
+      "enum": [
+        66,
+        "seEconShortViewStringsReturnTemp"
+      ],
+      "description": "Return Temp"
+    },
+    {
+      "enum": [
+        67,
+        "seEconShortViewStringsShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        68,
+        "seEconShortViewStringsStagedOutState"
+      ],
+      "description": "Staged Out State"
+    },
+    {
+      "enum": [
+        69,
+        "seEconShortViewStringsStrtDelayState"
+      ],
+      "description": "Strt Delay State"
+    },
+    {
+      "enum": [
+        70,
+        "seEconShortViewStringsSupplyTemp"
+      ],
+      "description": "Supply Temp"
+    },
+    {
+      "enum": [
+        71,
+        "seEconShortViewStringsSupplyTempStpt"
+      ],
+      "description": "Supply Temp Stpt"
+    },
+    {
+      "enum": [
+        72,
+        "seEconShortViewStringsThermostatType"
+      ],
+      "description": "Thermostat Type"
+    },
+    {
+      "enum": [
+        73,
+        "seEconShortViewStringsUnitStatus"
+      ],
+      "description": "Unit Status"
+    },
+    {
+      "enum": [
+        74,
+        "seEconShortViewStringsVentMaxPos"
+      ],
+      "description": "Vent Max Pos"
+    },
+    {
+      "enum": [
+        75,
+        "seEconShortViewStringsVentMinPosHi"
+      ],
+      "description": "Vent Min Pos Hi"
+    },
+    {
+      "enum": [
+        76,
+        "seEconShortViewStringsVentMinPosLo"
+      ],
+      "description": "Vent Min Pos Lo"
+    },
+    {
+      "enum": [
+        77,
+        "seEconShortViewStringsVentMode"
+      ],
+      "description": "Vent Mode"
+    },
+    {
+      "enum": [
+        78,
+        "seEconShortViewStringsVentIaqStpt"
+      ],
+      "description": "Vent IAQ Stpt"
+    },
+    {
+      "enum": [
+        79,
+        "seEconShortViewStringsVentStatus"
+      ],
+      "description": "Vent Status"
+    },
+    {
+      "enum": [
+        80,
+        "seEconShortViewStringsDamperMinValue"
+      ],
+      "description": "Damper Min Value"
+    },
+    {
+      "enum": [
+        81,
+        "seEconShortViewStringsFeedbackMinValue"
+      ],
+      "description": "Feedback Min Value"
+    },
+    {
+      "enum": [
+        82,
+        "seEconShortViewStringsFreshAirRange"
+      ],
+      "description": "Fresh Air Range"
+    },
+    {
+      "enum": [
+        83,
+        "seEconShortViewStringsDamperFanOffHiSpd"
+      ],
+      "description": "Damper % Fan Off Hi Spd"
+    },
+    {
+      "enum": [
+        84,
+        "seEconShortViewStringsDamperFanOnHiSpd"
+      ],
+      "description": "Damper % Fan On Hi Spd"
+    },
+    {
+      "enum": [
+        85,
+        "seEconShortViewStringsDamperFanOffLoSpd"
+      ],
+      "description": "Damper % Fan Off Lo Spd"
+    },
+    {
+      "enum": [
+        86,
+        "seEconShortViewStringsDamperFanOnLoSpd"
+      ],
+      "description": "Damper % Fan On Lo Spd"
+    }
+  ]
+}

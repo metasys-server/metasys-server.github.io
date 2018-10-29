@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mzUnoccStatusEnumSet.schema.json",
+  "title": "mzUnoccStatusEnumSet",
+  "description": "MZ Unocc Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mzUnoccStsUnoccCntrlNotReqd"
+      ],
+      "description": "Unocc Cntrl Not Req'd"
+    },
+    {
+      "enum": [
+        1,
+        "mzUnoccStsSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        2,
+        "mzUnoccStsUnoccHtgClg"
+      ],
+      "description": "Unocc Htg Clg"
+    },
+    {
+      "enum": [
+        3,
+        "mzUnoccStsUnoccHeating"
+      ],
+      "description": "Unocc Heating"
+    },
+    {
+      "enum": [
+        4,
+        "mzUnoccStsUnoccCooling"
+      ],
+      "description": "Unocc Cooling"
+    }
+  ]
+}

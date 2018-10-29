@@ -1,0 +1,715 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/modTacAppVersionEnumSet.schema.json",
+  "title": "modTacAppVersionEnumSet",
+  "description": "MOD TAC App Version",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "0.0"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "0.1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "0.2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "0.3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "0.4"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "0.5"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "0.6"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "0.7"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "0.8"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "0.9"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "1.0"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "1.1"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "1.2"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "1.3"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "1.4"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "1.5"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "1.6"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "1.7"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "1.8"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "1.9"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "2.0"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "2.1"
+    },
+    {
+      "enum": [
+        22,
+        "22"
+      ],
+      "description": "2.2"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "2.3"
+    },
+    {
+      "enum": [
+        24,
+        "24"
+      ],
+      "description": "2.4"
+    },
+    {
+      "enum": [
+        25,
+        "25"
+      ],
+      "description": "2.5"
+    },
+    {
+      "enum": [
+        26,
+        "26"
+      ],
+      "description": "2.6"
+    },
+    {
+      "enum": [
+        27,
+        "27"
+      ],
+      "description": "2.7"
+    },
+    {
+      "enum": [
+        28,
+        "28"
+      ],
+      "description": "2.8"
+    },
+    {
+      "enum": [
+        29,
+        "29"
+      ],
+      "description": "2.9"
+    },
+    {
+      "enum": [
+        30,
+        "30"
+      ],
+      "description": "3.0"
+    },
+    {
+      "enum": [
+        31,
+        "31"
+      ],
+      "description": "3.1"
+    },
+    {
+      "enum": [
+        32,
+        "32"
+      ],
+      "description": "3.2"
+    },
+    {
+      "enum": [
+        33,
+        "33"
+      ],
+      "description": "3.3"
+    },
+    {
+      "enum": [
+        34,
+        "34"
+      ],
+      "description": "3.4"
+    },
+    {
+      "enum": [
+        35,
+        "35"
+      ],
+      "description": "3.5"
+    },
+    {
+      "enum": [
+        36,
+        "36"
+      ],
+      "description": "3.6"
+    },
+    {
+      "enum": [
+        37,
+        "37"
+      ],
+      "description": "3.7"
+    },
+    {
+      "enum": [
+        38,
+        "38"
+      ],
+      "description": "3.8"
+    },
+    {
+      "enum": [
+        39,
+        "39"
+      ],
+      "description": "3.9"
+    },
+    {
+      "enum": [
+        40,
+        "40"
+      ],
+      "description": "4.0"
+    },
+    {
+      "enum": [
+        41,
+        "41"
+      ],
+      "description": "4.1"
+    },
+    {
+      "enum": [
+        42,
+        "42"
+      ],
+      "description": "4.2"
+    },
+    {
+      "enum": [
+        43,
+        "43"
+      ],
+      "description": "4.3"
+    },
+    {
+      "enum": [
+        44,
+        "44"
+      ],
+      "description": "4.4"
+    },
+    {
+      "enum": [
+        45,
+        "45"
+      ],
+      "description": "4.5"
+    },
+    {
+      "enum": [
+        46,
+        "46"
+      ],
+      "description": "4.6"
+    },
+    {
+      "enum": [
+        47,
+        "47"
+      ],
+      "description": "4.7"
+    },
+    {
+      "enum": [
+        48,
+        "48"
+      ],
+      "description": "4.8"
+    },
+    {
+      "enum": [
+        49,
+        "49"
+      ],
+      "description": "4.9"
+    },
+    {
+      "enum": [
+        50,
+        "50"
+      ],
+      "description": "5.0"
+    },
+    {
+      "enum": [
+        51,
+        "51"
+      ],
+      "description": "5.1"
+    },
+    {
+      "enum": [
+        52,
+        "52"
+      ],
+      "description": "5.2"
+    },
+    {
+      "enum": [
+        53,
+        "53"
+      ],
+      "description": "5.3"
+    },
+    {
+      "enum": [
+        54,
+        "54"
+      ],
+      "description": "5.4"
+    },
+    {
+      "enum": [
+        55,
+        "55"
+      ],
+      "description": "5.5"
+    },
+    {
+      "enum": [
+        56,
+        "56"
+      ],
+      "description": "5.6"
+    },
+    {
+      "enum": [
+        57,
+        "57"
+      ],
+      "description": "5.7"
+    },
+    {
+      "enum": [
+        58,
+        "58"
+      ],
+      "description": "5.8"
+    },
+    {
+      "enum": [
+        59,
+        "59"
+      ],
+      "description": "5.9"
+    },
+    {
+      "enum": [
+        60,
+        "60"
+      ],
+      "description": "6.0"
+    },
+    {
+      "enum": [
+        61,
+        "61"
+      ],
+      "description": "6.1"
+    },
+    {
+      "enum": [
+        62,
+        "62"
+      ],
+      "description": "6.2"
+    },
+    {
+      "enum": [
+        63,
+        "63"
+      ],
+      "description": "6.3"
+    },
+    {
+      "enum": [
+        64,
+        "64"
+      ],
+      "description": "6.4"
+    },
+    {
+      "enum": [
+        65,
+        "65"
+      ],
+      "description": "6.5"
+    },
+    {
+      "enum": [
+        66,
+        "66"
+      ],
+      "description": "6.6"
+    },
+    {
+      "enum": [
+        67,
+        "67"
+      ],
+      "description": "6.7"
+    },
+    {
+      "enum": [
+        68,
+        "68"
+      ],
+      "description": "6.8"
+    },
+    {
+      "enum": [
+        69,
+        "69"
+      ],
+      "description": "6.9"
+    },
+    {
+      "enum": [
+        70,
+        "70"
+      ],
+      "description": "7.0"
+    },
+    {
+      "enum": [
+        71,
+        "71"
+      ],
+      "description": "7.1"
+    },
+    {
+      "enum": [
+        72,
+        "72"
+      ],
+      "description": "7.2"
+    },
+    {
+      "enum": [
+        73,
+        "73"
+      ],
+      "description": "7.3"
+    },
+    {
+      "enum": [
+        74,
+        "74"
+      ],
+      "description": "7.4"
+    },
+    {
+      "enum": [
+        75,
+        "75"
+      ],
+      "description": "7.5"
+    },
+    {
+      "enum": [
+        76,
+        "76"
+      ],
+      "description": "7.6"
+    },
+    {
+      "enum": [
+        77,
+        "77"
+      ],
+      "description": "7.7"
+    },
+    {
+      "enum": [
+        78,
+        "78"
+      ],
+      "description": "7.8"
+    },
+    {
+      "enum": [
+        79,
+        "79"
+      ],
+      "description": "7.9"
+    },
+    {
+      "enum": [
+        80,
+        "80"
+      ],
+      "description": "8.0"
+    },
+    {
+      "enum": [
+        81,
+        "81"
+      ],
+      "description": "8.1"
+    },
+    {
+      "enum": [
+        82,
+        "82"
+      ],
+      "description": "8.2"
+    },
+    {
+      "enum": [
+        83,
+        "83"
+      ],
+      "description": "8.3"
+    },
+    {
+      "enum": [
+        84,
+        "84"
+      ],
+      "description": "8.4"
+    },
+    {
+      "enum": [
+        85,
+        "85"
+      ],
+      "description": "8.5"
+    },
+    {
+      "enum": [
+        86,
+        "86"
+      ],
+      "description": "8.6"
+    },
+    {
+      "enum": [
+        87,
+        "87"
+      ],
+      "description": "8.7"
+    },
+    {
+      "enum": [
+        88,
+        "88"
+      ],
+      "description": "8.8"
+    },
+    {
+      "enum": [
+        89,
+        "89"
+      ],
+      "description": "8.9"
+    },
+    {
+      "enum": [
+        90,
+        "90"
+      ],
+      "description": "9.0"
+    },
+    {
+      "enum": [
+        91,
+        "91"
+      ],
+      "description": "9.1"
+    },
+    {
+      "enum": [
+        92,
+        "92"
+      ],
+      "description": "9.2"
+    },
+    {
+      "enum": [
+        93,
+        "93"
+      ],
+      "description": "9.3"
+    },
+    {
+      "enum": [
+        94,
+        "94"
+      ],
+      "description": "9.4"
+    },
+    {
+      "enum": [
+        95,
+        "95"
+      ],
+      "description": "9.5"
+    },
+    {
+      "enum": [
+        96,
+        "96"
+      ],
+      "description": "9.6"
+    },
+    {
+      "enum": [
+        97,
+        "97"
+      ],
+      "description": "9.7"
+    },
+    {
+      "enum": [
+        98,
+        "98"
+      ],
+      "description": "9.8"
+    },
+    {
+      "enum": [
+        99,
+        "99"
+      ],
+      "description": "9.9"
+    },
+    {
+      "enum": [
+        100,
+        "100"
+      ],
+      "description": "10.0"
+    }
+  ]
+}

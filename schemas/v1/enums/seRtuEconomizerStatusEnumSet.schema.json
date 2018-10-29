@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuEconomizerStatusEnumSet.schema.json",
+  "title": "seRtuEconomizerStatusEnumSet",
+  "description": "SE RTU Economizer Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuEconomizerStatusDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuEconomizerStatusDamperNotFunctional"
+      ],
+      "description": "Damper Not Functional"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuEconomizerStatusPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuEconomizerStatusUnavailSensorFault"
+      ],
+      "description": "Unavailable-Sensor Fault"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuEconomizerStatusEconLoading"
+      ],
+      "description": "Econ Loading"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuEconomizerStatusSatHighLimit"
+      ],
+      "description": "SA-T High Limit"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuEconomizerStatusMixedAirLl"
+      ],
+      "description": "Mixed Air Low Limit Cycle"
+    },
+    {
+      "enum": [
+        7,
+        "seRtuEconomizerStatusDemandVentAirQuality"
+      ],
+      "description": "Demand Ventilation Air Quality"
+    },
+    {
+      "enum": [
+        8,
+        "seRtuEconomizerStatusOutdoorAirflowCntl"
+      ],
+      "description": "Outdoor Airflow Control"
+    },
+    {
+      "enum": [
+        9,
+        "seRtuEconomizerStatusFreeClgIsAvail"
+      ],
+      "description": "Free Cooling is Active"
+    },
+    {
+      "enum": [
+        10,
+        "seRtuEconomizerStatusMinPosition"
+      ],
+      "description": "Minimum Position"
+    },
+    {
+      "enum": [
+        11,
+        "seRtuEconomizerStatusTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        12,
+        "seRtuEconomizerStatusComfortVentilation"
+      ],
+      "description": "Comfort Ventilation"
+    },
+    {
+      "enum": [
+        13,
+        "seRtuEconomizerStatusLowOaAmbient"
+      ],
+      "description": "Low OA Ambient"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorRdr2SInputEnumSet.schema.json",
+  "title": "connectorRdr2SInputEnumSet",
+  "description": "Connector RDR2S Input",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorRdr2SInputIn11"
+      ],
+      "description": "IN11"
+    },
+    {
+      "enum": [
+        1,
+        "connectorRdr2SInputIn12"
+      ],
+      "description": "IN12"
+    },
+    {
+      "enum": [
+        2,
+        "connectorRdr2SInputIn21"
+      ],
+      "description": "IN21"
+    },
+    {
+      "enum": [
+        3,
+        "connectorRdr2SInputIn22"
+      ],
+      "description": "IN22"
+    },
+    {
+      "enum": [
+        4,
+        "connectorRdr2SInputIn01"
+      ],
+      "description": "IN01"
+    },
+    {
+      "enum": [
+        5,
+        "connectorRdr2SInputIn02"
+      ],
+      "description": "IN02"
+    }
+  ]
+}

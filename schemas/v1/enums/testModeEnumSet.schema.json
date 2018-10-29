@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/testModeEnumSet.schema.json",
+  "title": "testModeEnumSet",
+  "description": "Test Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tmNormalOperation"
+      ],
+      "description": "Normal Operation"
+    },
+    {
+      "enum": [
+        1,
+        "tmTestActive"
+      ],
+      "description": "Test Active"
+    },
+    {
+      "enum": [
+        2,
+        "tmTestTimeoutPending"
+      ],
+      "description": "Test Timeout Pending"
+    }
+  ]
+}

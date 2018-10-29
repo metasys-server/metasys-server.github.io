@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offOnCntrlEnumSet.schema.json",
+  "title": "offOnCntrlEnumSet",
+  "description": "Off/On/Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "offOnCntrlOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "offOnCntrlOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "offOnCntrlControl"
+      ],
+      "description": "Control"
+    }
+  ]
+}

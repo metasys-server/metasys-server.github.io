@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000DetailedControlStatus2EnumSet.schema.json",
+  "title": "tec3000DetailedControlStatus2EnumSet",
+  "description": "TEC3000 Detailed Control Status2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000DetailedControlStatus2SystemFault"
+      ],
+      "description": "System Fault"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000DetailedControlStatus2AirflowFault"
+      ],
+      "description": "Airflow Fault"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000DetailedControlStatus2OpenWindow"
+      ],
+      "description": "Open Window"
+    },
+    {
+      "enum": [
+        3,
+        "tec3000DetailedControlStatus2ControlOff"
+      ],
+      "description": "Control Off"
+    },
+    {
+      "enum": [
+        4,
+        "tec3000DetailedControlStatus2UnreliableTemperature"
+      ],
+      "description": "Unreliable Temperature"
+    },
+    {
+      "enum": [
+        5,
+        "tec3000DetailedControlStatus2Dehumidification"
+      ],
+      "description": "Dehumidification"
+    },
+    {
+      "enum": [
+        6,
+        "tec3000DetailedControlStatus2Idle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        7,
+        "tec3000DetailedControlStatus2Cooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        8,
+        "tec3000DetailedControlStatus2Heating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        9,
+        "tec3000DetailedControlStatus2CoolingUnavailable"
+      ],
+      "description": "Cooling Unavailable"
+    },
+    {
+      "enum": [
+        10,
+        "tec3000DetailedControlStatus2HeatingUnavailable"
+      ],
+      "description": "Heating Unavailable"
+    },
+    {
+      "enum": [
+        11,
+        "tec3000DetailedControlStatus2CoolingUnavailableDueToChangeover"
+      ],
+      "description": "Cooling Unavailable due to Changeover"
+    },
+    {
+      "enum": [
+        12,
+        "tec3000DetailedControlStatus2CoolingUnavailableDueToOaTemp"
+      ],
+      "description": "Cooling Unavailable due to OA Temp"
+    },
+    {
+      "enum": [
+        13,
+        "tec3000DetailedControlStatus2CoolingUnavailableDueToControlMode"
+      ],
+      "description": "Cooling Unavailable due to Control Mode"
+    },
+    {
+      "enum": [
+        14,
+        "tec3000DetailedControlStatus2HeatingUnavailableDueToChangeover"
+      ],
+      "description": "Heating Unavailable due to Changeover"
+    },
+    {
+      "enum": [
+        15,
+        "tec3000DetailedControlStatus2HeatingUnavailableDueToOaTemp"
+      ],
+      "description": "Heating Unavailable due to OA Temp"
+    },
+    {
+      "enum": [
+        16,
+        "tec3000DetailedControlStatus2HeatingUnavailableDueToControlMode"
+      ],
+      "description": "Heating Unavailable due to Control Mode"
+    },
+    {
+      "enum": [
+        17,
+        "tec3000DetailedControlStatus2IdleDueToLoadShed"
+      ],
+      "description": "Load Shed Active"
+    }
+  ]
+}

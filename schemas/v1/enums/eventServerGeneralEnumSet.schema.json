@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eventServerGeneralEnumSet.schema.json",
+  "title": "eventServerGeneralEnumSet",
+  "description": "Event Server General",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "messageStr"
+      ],
+      "description": "Message"
+    },
+    {
+      "enum": [
+        1,
+        "alarmStr"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "transactionStr"
+      ],
+      "description": "Transaction"
+    },
+    {
+      "enum": [
+        3,
+        "generalAlarmStr"
+      ],
+      "description": "General Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "generalEventStr"
+      ],
+      "description": "General Event"
+    },
+    {
+      "enum": [
+        5,
+        "generalTransactionStr"
+      ],
+      "description": "General Transaction"
+    },
+    {
+      "enum": [
+        6,
+        "generalMessageStr"
+      ],
+      "description": "General Message"
+    },
+    {
+      "enum": [
+        7,
+        "deviceFailureAlarmStr"
+      ],
+      "description": "Device Failure"
+    },
+    {
+      "enum": [
+        8,
+        "communicationErrorStr"
+      ],
+      "description": "Communication Error"
+    },
+    {
+      "enum": [
+        9,
+        "connectedStr"
+      ],
+      "description": "Connected"
+    }
+  ]
+}

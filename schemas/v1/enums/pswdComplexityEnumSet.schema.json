@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pswdComplexityEnumSet.schema.json",
+  "title": "pswdComplexityEnumSet",
+  "description": "Password Complexity Level",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pswdCmplxFixedUser"
+      ],
+      "description": "Fixed"
+    },
+    {
+      "enum": [
+        1,
+        "pswdCmplxMultiUser"
+      ],
+      "description": "Multi"
+    }
+  ]
+}

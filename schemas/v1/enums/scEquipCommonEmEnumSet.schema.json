@@ -1,0 +1,323 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scEquipCommonEmEnumSet.schema.json",
+  "title": "scEquipCommonEmEnumSet",
+  "description": "SC-Equip Common EM Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "scEquipJciSystemStatus"
+      ],
+      "description": "JCI System Status"
+    },
+    {
+      "enum": [
+        1,
+        "scEquipModelNumber"
+      ],
+      "description": "Model Number"
+    },
+    {
+      "enum": [
+        2,
+        "scEquipModelName"
+      ],
+      "description": "Model Name"
+    },
+    {
+      "enum": [
+        3,
+        "scEquipSerialNumber"
+      ],
+      "description": "Serial Number"
+    },
+    {
+      "enum": [
+        4,
+        "scEquipDescription"
+      ],
+      "description": "Description"
+    },
+    {
+      "enum": [
+        5,
+        "scEquipLocation"
+      ],
+      "description": "Location"
+    },
+    {
+      "enum": [
+        6,
+        "scEquipTime"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        7,
+        "scEquipDate"
+      ],
+      "description": "Date"
+    },
+    {
+      "enum": [
+        8,
+        "scEquipTimezone"
+      ],
+      "description": "Timezone"
+    },
+    {
+      "enum": [
+        9,
+        "scEquipAddress"
+      ],
+      "description": "Address"
+    },
+    {
+      "enum": [
+        10,
+        "scEquipDeviceOid"
+      ],
+      "description": "Device Oid"
+    },
+    {
+      "enum": [
+        11,
+        "scEquipBacnetEncodeType"
+      ],
+      "description": "BACnet Encode Type"
+    },
+    {
+      "enum": [
+        12,
+        "scEquipLanguage"
+      ],
+      "description": "Language"
+    },
+    {
+      "enum": [
+        13,
+        "scEquipUnits"
+      ],
+      "description": "Units"
+    },
+    {
+      "enum": [
+        14,
+        "scEquipEqPortActiveProtocol"
+      ],
+      "description": "EQ Port Active Protocol"
+    },
+    {
+      "enum": [
+        15,
+        "scEquipBasPortActiveProtocol"
+      ],
+      "description": "BAS Port Active Protocol"
+    },
+    {
+      "enum": [
+        16,
+        "scEquipCsPortActiveProtocol"
+      ],
+      "description": "CS Port Active Protocol"
+    },
+    {
+      "enum": [
+        17,
+        "scEquipFirmwareVersion"
+      ],
+      "description": "Firmware Version"
+    },
+    {
+      "enum": [
+        18,
+        "scEquipAppVersion"
+      ],
+      "description": "App Version"
+    },
+    {
+      "enum": [
+        19,
+        "scEquipDictionaryVersion"
+      ],
+      "description": "Dictionary Version"
+    },
+    {
+      "enum": [
+        20,
+        "scEquipEmArchiveVersion"
+      ],
+      "description": "EM Archive Version"
+    },
+    {
+      "enum": [
+        21,
+        "scEquipEmTemplateVersion"
+      ],
+      "description": "EM Template Version"
+    },
+    {
+      "enum": [
+        22,
+        "scEquipEmViewVersion"
+      ],
+      "description": "EM View Version"
+    },
+    {
+      "enum": [
+        23,
+        "scEquipFirmwareStatus"
+      ],
+      "description": "Firmware Status"
+    },
+    {
+      "enum": [
+        24,
+        "scEquipCpuUsage"
+      ],
+      "description": "CPU Usage"
+    },
+    {
+      "enum": [
+        25,
+        "scEquipMemoryUsage"
+      ],
+      "description": "Memory Usage"
+    },
+    {
+      "enum": [
+        26,
+        "scEquipProvisioningCommand"
+      ],
+      "description": "Provisioning Command"
+    },
+    {
+      "enum": [
+        27,
+        "scEquipProvisioningStatus"
+      ],
+      "description": "Provisioning Status"
+    },
+    {
+      "enum": [
+        28,
+        "scEquipProvisioningOperation"
+      ],
+      "description": "Provisioning Operation"
+    },
+    {
+      "enum": [
+        29,
+        "scEquipProvisioningStatusCode"
+      ],
+      "description": "Provisioning Status Code"
+    },
+    {
+      "enum": [
+        30,
+        "scEquipProvisioningTotalProgress"
+      ],
+      "description": "Provisioning Total Progress"
+    },
+    {
+      "enum": [
+        31,
+        "scEquipBacnetInstanceId"
+      ],
+      "description": "BACnet Instance ID"
+    },
+    {
+      "enum": [
+        32,
+        "scEquipEqPortConnectedStatus"
+      ],
+      "description": "EQ Port Connected Status"
+    },
+    {
+      "enum": [
+        33,
+        "scEquipBasPortConnectedStatus"
+      ],
+      "description": "BAS Port Connected Status"
+    },
+    {
+      "enum": [
+        34,
+        "scEquipCsPortConnectedStatus"
+      ],
+      "description": "CS Port Connected Status"
+    },
+    {
+      "enum": [
+        35,
+        "scEquipBacnetInstanceIdMode"
+      ],
+      "description": "BACnet Instance ID Mode"
+    },
+    {
+      "enum": [
+        36,
+        "scEquipCurrentlyLoadedEquipModel"
+      ],
+      "description": "Currently Loaded Equipment Model"
+    },
+    {
+      "enum": [
+        37,
+        "scEquipAutoDetectedChillerProtocol"
+      ],
+      "description": "Auto Detected Chiller Protocol"
+    },
+    {
+      "enum": [
+        38,
+        "scEquipAutoDetectedChillerModel"
+      ],
+      "description": "Auto Detected Chiller Model"
+    },
+    {
+      "enum": [
+        39,
+        "scEquipManuallySelectedChillerModel"
+      ],
+      "description": "Manually Selected Chiller Model"
+    },
+    {
+      "enum": [
+        40,
+        "scEquipEquipModelLoadStatus"
+      ],
+      "description": "Equipment Model Load Status"
+    },
+    {
+      "enum": [
+        41,
+        "scEquipCurrentlyLoadedEquipId"
+      ],
+      "description": "Currently Selected Chiller Model"
+    },
+    {
+      "enum": [
+        42,
+        "scEquipCsPortMacAddress"
+      ],
+      "description": "Connected Services Port Mac Address"
+    },
+    {
+      "enum": [
+        43,
+        "scEquipBasPortMacAddress"
+      ],
+      "description": "BAS Port Mac Address"
+    },
+    {
+      "enum": [
+        44,
+        "scEquipBacnetDeviceName"
+      ],
+      "description": "BACnet Device Name"
+    }
+  ]
+}

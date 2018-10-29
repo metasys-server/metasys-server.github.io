@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seCvCoolingTypeEnumSet.schema.json",
+  "title": "seCvCoolingTypeEnumSet",
+  "description": "SE CV Cooling Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seCvCoolingTypeEnumSet0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seCvCoolingTypeEnumSet1"
+      ],
+      "description": "Proportional"
+    },
+    {
+      "enum": [
+        2,
+        "seCvCoolingTypeEnumSet2"
+      ],
+      "description": "Staged"
+    },
+    {
+      "enum": [
+        3,
+        "seCvCoolingTypeEnumSet3"
+      ],
+      "description": "Heat Pump"
+    }
+  ]
+}

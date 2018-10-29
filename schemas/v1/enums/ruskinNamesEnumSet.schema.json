@@ -1,0 +1,1156 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ruskinNamesEnumSet.schema.json",
+  "title": "ruskinNamesEnumSet",
+  "description": "Ruskin Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "ruskinNames1"
+      ],
+      "description": "wheelFailureSignalInput"
+    },
+    {
+      "enum": [
+        2,
+        "ruskinNames2"
+      ],
+      "description": "wheelModulatingSIgnalOutput"
+    },
+    {
+      "enum": [
+        3,
+        "ruskinNames3"
+      ],
+      "description": "saVFDEnableOutput"
+    },
+    {
+      "enum": [
+        4,
+        "ruskinNames4"
+      ],
+      "description": "wheelEnableOutput"
+    },
+    {
+      "enum": [
+        5,
+        "ruskinNames5"
+      ],
+      "description": "pivotEnableOutput"
+    },
+    {
+      "enum": [
+        6,
+        "ruskinNames6"
+      ],
+      "description": "saTempSignalInput"
+    },
+    {
+      "enum": [
+        7,
+        "ruskinNames7"
+      ],
+      "description": "eaTempSignalInput"
+    },
+    {
+      "enum": [
+        8,
+        "ruskinNames8"
+      ],
+      "description": "oaTempSignalInput"
+    },
+    {
+      "enum": [
+        9,
+        "ruskinNames9"
+      ],
+      "description": "pivotSignalInput"
+    },
+    {
+      "enum": [
+        10,
+        "ruskinNames10"
+      ],
+      "description": "mohEnableOutput"
+    },
+    {
+      "enum": [
+        11,
+        "ruskinNames11"
+      ],
+      "description": "raTempSignalInput"
+    },
+    {
+      "enum": [
+        12,
+        "ruskinNames12"
+      ],
+      "description": "eaVFDEnableOutput"
+    },
+    {
+      "enum": [
+        13,
+        "ruskinNames13"
+      ],
+      "description": "occupiedSignalInput"
+    },
+    {
+      "enum": [
+        14,
+        "ruskinNames14"
+      ],
+      "description": "mehEnableOutput"
+    },
+    {
+      "enum": [
+        15,
+        "ruskinNames15"
+      ],
+      "description": "dirtyFilterStatusInput"
+    },
+    {
+      "enum": [
+        16,
+        "ruskinNames16"
+      ],
+      "description": "preHeatEnableOutput"
+    },
+    {
+      "enum": [
+        17,
+        "ruskinNames17"
+      ],
+      "description": "steinhart_C"
+    },
+    {
+      "enum": [
+        18,
+        "ruskinNames18"
+      ],
+      "description": "steinhart_B"
+    },
+    {
+      "enum": [
+        19,
+        "ruskinNames19"
+      ],
+      "description": "steinhart_A"
+    },
+    {
+      "enum": [
+        20,
+        "ruskinNames20"
+      ],
+      "description": "laMinTemp"
+    },
+    {
+      "enum": [
+        21,
+        "ruskinNames21"
+      ],
+      "description": "pivotTime"
+    },
+    {
+      "enum": [
+        22,
+        "ruskinNames22"
+      ],
+      "description": "ssjTimeOffTime"
+    },
+    {
+      "enum": [
+        23,
+        "ruskinNames23"
+      ],
+      "description": "ssjTimeOnTime"
+    },
+    {
+      "enum": [
+        24,
+        "ruskinNames24"
+      ],
+      "description": "ssjMinTemp"
+    },
+    {
+      "enum": [
+        25,
+        "ruskinNames25"
+      ],
+      "description": "ssjMaxTemp"
+    },
+    {
+      "enum": [
+        26,
+        "ruskinNames26"
+      ],
+      "description": "useLowAmbientMode"
+    },
+    {
+      "enum": [
+        27,
+        "ruskinNames27"
+      ],
+      "description": "useStartStopJogMode"
+    },
+    {
+      "enum": [
+        28,
+        "ruskinNames28"
+      ],
+      "description": "laControlMode"
+    },
+    {
+      "enum": [
+        29,
+        "ruskinNames29"
+      ],
+      "description": "pivotControlMode"
+    },
+    {
+      "enum": [
+        30,
+        "ruskinNames30"
+      ],
+      "description": "ssjControlMode"
+    },
+    {
+      "enum": [
+        31,
+        "ruskinNames31"
+      ],
+      "description": "oaTempValue"
+    },
+    {
+      "enum": [
+        32,
+        "ruskinNames32"
+      ],
+      "description": "raTempValue"
+    },
+    {
+      "enum": [
+        33,
+        "ruskinNames33"
+      ],
+      "description": "saTempValue"
+    },
+    {
+      "enum": [
+        34,
+        "ruskinNames34"
+      ],
+      "description": "wheelFailureAlarm"
+    },
+    {
+      "enum": [
+        35,
+        "ruskinNames35"
+      ],
+      "description": "laTempDeadBand"
+    },
+    {
+      "enum": [
+        36,
+        "ruskinNames36"
+      ],
+      "description": "ssjDeadBand"
+    },
+    {
+      "enum": [
+        37,
+        "ruskinNames37"
+      ],
+      "description": "startUpInput"
+    },
+    {
+      "enum": [
+        38,
+        "ruskinNames38"
+      ],
+      "description": "wheelStatus"
+    },
+    {
+      "enum": [
+        39,
+        "ruskinNames39"
+      ],
+      "description": "useBacnetControl"
+    },
+    {
+      "enum": [
+        40,
+        "ruskinNames40"
+      ],
+      "description": "occupied"
+    },
+    {
+      "enum": [
+        41,
+        "ruskinNames41"
+      ],
+      "description": "startUp"
+    },
+    {
+      "enum": [
+        42,
+        "ruskinNames42"
+      ],
+      "description": "usePivotControlMode"
+    },
+    {
+      "enum": [
+        43,
+        "ruskinNames43"
+      ],
+      "description": "usepreHeatMode"
+    },
+    {
+      "enum": [
+        44,
+        "ruskinNames44"
+      ],
+      "description": "pivotFailureAlarm"
+    },
+    {
+      "enum": [
+        45,
+        "ruskinNames45"
+      ],
+      "description": "pivotStatus"
+    },
+    {
+      "enum": [
+        46,
+        "ruskinNames46"
+      ],
+      "description": "preHeatDeadbandInput"
+    },
+    {
+      "enum": [
+        47,
+        "ruskinNames47"
+      ],
+      "description": "oaTempSetpointInput"
+    },
+    {
+      "enum": [
+        48,
+        "ruskinNames48"
+      ],
+      "description": "preHeatControl"
+    },
+    {
+      "enum": [
+        49,
+        "ruskinNames49"
+      ],
+      "description": "useModulatingWheelInput"
+    },
+    {
+      "enum": [
+        50,
+        "ruskinNames50"
+      ],
+      "description": "wheelModulationMode"
+    },
+    {
+      "enum": [
+        51,
+        "ruskinNames51"
+      ],
+      "description": "eaTempValue"
+    },
+    {
+      "enum": [
+        52,
+        "ruskinNames52"
+      ],
+      "description": "co2SignalInput"
+    },
+    {
+      "enum": [
+        53,
+        "ruskinNames53"
+      ],
+      "description": "saDPSignalInput"
+    },
+    {
+      "enum": [
+        54,
+        "ruskinNames54"
+      ],
+      "description": "eaVFDSignalOutput"
+    },
+    {
+      "enum": [
+        55,
+        "ruskinNames55"
+      ],
+      "description": "saVFDSignalOutput"
+    },
+    {
+      "enum": [
+        56,
+        "ruskinNames56"
+      ],
+      "description": "eaDPSignalInput"
+    },
+    {
+      "enum": [
+        57,
+        "ruskinNames57"
+      ],
+      "description": "saVFDStatusInput"
+    },
+    {
+      "enum": [
+        58,
+        "ruskinNames58"
+      ],
+      "description": "eaVFDStatusInput"
+    },
+    {
+      "enum": [
+        59,
+        "ruskinNames59"
+      ],
+      "description": "mohStatusInput"
+    },
+    {
+      "enum": [
+        60,
+        "ruskinNames60"
+      ],
+      "description": "mehStatusInput"
+    },
+    {
+      "enum": [
+        61,
+        "ruskinNames61"
+      ],
+      "description": "smokeSignalInput"
+    },
+    {
+      "enum": [
+        62,
+        "ruskinNames62"
+      ],
+      "description": "dampersFailureOutput"
+    },
+    {
+      "enum": [
+        63,
+        "ruskinNames63"
+      ],
+      "description": "wheelFailureOutput"
+    },
+    {
+      "enum": [
+        64,
+        "ruskinNames64"
+      ],
+      "description": "vfdFailureOutput"
+    },
+    {
+      "enum": [
+        65,
+        "ruskinNames65"
+      ],
+      "description": "postHeatEnableOutput"
+    },
+    {
+      "enum": [
+        66,
+        "ruskinNames66"
+      ],
+      "description": "bypassFailureOutput"
+    },
+    {
+      "enum": [
+        67,
+        "ruskinNames67"
+      ],
+      "description": "cool2EnableOutput"
+    },
+    {
+      "enum": [
+        68,
+        "ruskinNames68"
+      ],
+      "description": "postHeatSignalOutput"
+    },
+    {
+      "enum": [
+        69,
+        "ruskinNames69"
+      ],
+      "description": "bypassEnable"
+    },
+    {
+      "enum": [
+        70,
+        "ruskinNames70"
+      ],
+      "description": "airProvingInput"
+    },
+    {
+      "enum": [
+        71,
+        "ruskinNames71"
+      ],
+      "description": "economizerSignalInput"
+    },
+    {
+      "enum": [
+        72,
+        "ruskinNames72"
+      ],
+      "description": "oaDirtyFilterStatusInput"
+    },
+    {
+      "enum": [
+        73,
+        "ruskinNames73"
+      ],
+      "description": "raDirtyFilterStatusInput"
+    },
+    {
+      "enum": [
+        74,
+        "ruskinNames74"
+      ],
+      "description": "bypassStatusInput"
+    },
+    {
+      "enum": [
+        75,
+        "ruskinNames75"
+      ],
+      "description": "postHeatFailureOutput"
+    },
+    {
+      "enum": [
+        76,
+        "ruskinNames76"
+      ],
+      "description": "cool1EnableOutput"
+    },
+    {
+      "enum": [
+        77,
+        "ruskinNames77"
+      ],
+      "description": "pivotFailureOutput"
+    },
+    {
+      "enum": [
+        78,
+        "ruskinNames78"
+      ],
+      "description": "postHeatStage1EnableOutput"
+    },
+    {
+      "enum": [
+        79,
+        "ruskinNames79"
+      ],
+      "description": "postHeatStage2EnableOutput"
+    },
+    {
+      "enum": [
+        80,
+        "ruskinNames80"
+      ],
+      "description": "cool1SignalInput"
+    },
+    {
+      "enum": [
+        81,
+        "ruskinNames81"
+      ],
+      "description": "cool2Signal Input"
+    },
+    {
+      "enum": [
+        82,
+        "ruskinNames82"
+      ],
+      "description": "postHeat1SignalInput"
+    },
+    {
+      "enum": [
+        83,
+        "ruskinNames83"
+      ],
+      "description": "postHeat2SignalInput"
+    },
+    {
+      "enum": [
+        84,
+        "ruskinNames84"
+      ],
+      "description": "co2SensorSlope"
+    },
+    {
+      "enum": [
+        85,
+        "ruskinNames85"
+      ],
+      "description": "wheelIntercept"
+    },
+    {
+      "enum": [
+        86,
+        "ruskinNames86"
+      ],
+      "description": "co2Intercept"
+    },
+    {
+      "enum": [
+        87,
+        "ruskinNames87"
+      ],
+      "description": "dpSensorIntercept"
+    },
+    {
+      "enum": [
+        88,
+        "ruskinNames88"
+      ],
+      "description": "dpSensorSlope"
+    },
+    {
+      "enum": [
+        89,
+        "ruskinNames89"
+      ],
+      "description": "wheelSlope"
+    },
+    {
+      "enum": [
+        90,
+        "ruskinNames90"
+      ],
+      "description": "eaCFMSetPointInput"
+    },
+    {
+      "enum": [
+        91,
+        "ruskinNames91"
+      ],
+      "description": "co2Value"
+    },
+    {
+      "enum": [
+        92,
+        "ruskinNames92"
+      ],
+      "description": "co2SetPointInput"
+    },
+    {
+      "enum": [
+        93,
+        "ruskinNames93"
+      ],
+      "description": "saCFMSetPointInput"
+    },
+    {
+      "enum": [
+        94,
+        "ruskinNames94"
+      ],
+      "description": "useCO2ControlMode"
+    },
+    {
+      "enum": [
+        95,
+        "ruskinNames95"
+      ],
+      "description": "co2ControlMode"
+    },
+    {
+      "enum": [
+        96,
+        "ruskinNames96"
+      ],
+      "description": "smokeControlMode"
+    },
+    {
+      "enum": [
+        97,
+        "ruskinNames97"
+      ],
+      "description": "saDPValue"
+    },
+    {
+      "enum": [
+        98,
+        "ruskinNames98"
+      ],
+      "description": "eaDPValue"
+    },
+    {
+      "enum": [
+        99,
+        "ruskinNames99"
+      ],
+      "description": "eaCFMValue"
+    },
+    {
+      "enum": [
+        100,
+        "ruskinNames100"
+      ],
+      "description": "saCFMValue"
+    },
+    {
+      "enum": [
+        101,
+        "ruskinNames101"
+      ],
+      "description": "co2DeadBand"
+    },
+    {
+      "enum": [
+        102,
+        "ruskinNames102"
+      ],
+      "description": "maxCFMValue"
+    },
+    {
+      "enum": [
+        103,
+        "ruskinNames103"
+      ],
+      "description": "minCFMValue"
+    },
+    {
+      "enum": [
+        104,
+        "ruskinNames104"
+      ],
+      "description": "useSmokeControlMode"
+    },
+    {
+      "enum": [
+        105,
+        "ruskinNames105"
+      ],
+      "description": "saBlowerStatus"
+    },
+    {
+      "enum": [
+        106,
+        "ruskinNames106"
+      ],
+      "description": "eaBlowerStatus"
+    },
+    {
+      "enum": [
+        107,
+        "ruskinNames107"
+      ],
+      "description": "mehStatus"
+    },
+    {
+      "enum": [
+        108,
+        "ruskinNames108"
+      ],
+      "description": "mohStatus"
+    },
+    {
+      "enum": [
+        109,
+        "ruskinNames109"
+      ],
+      "description": "mehFailureAlarm"
+    },
+    {
+      "enum": [
+        110,
+        "ruskinNames110"
+      ],
+      "description": "mohFailureAlarm"
+    },
+    {
+      "enum": [
+        111,
+        "ruskinNames111"
+      ],
+      "description": "eaBlowerFailureAlarm"
+    },
+    {
+      "enum": [
+        112,
+        "ruskinNames112"
+      ],
+      "description": "saBlowerFailureAlarm"
+    },
+    {
+      "enum": [
+        113,
+        "ruskinNames113"
+      ],
+      "description": "saCFMSetPoint"
+    },
+    {
+      "enum": [
+        114,
+        "ruskinNames114"
+      ],
+      "description": "eaCFMSetPoint"
+    },
+    {
+      "enum": [
+        115,
+        "ruskinNames115"
+      ],
+      "description": "co2SetPoint"
+    },
+    {
+      "enum": [
+        116,
+        "ruskinNames116"
+      ],
+      "description": "damperTimer"
+    },
+    {
+      "enum": [
+        117,
+        "ruskinNames117"
+      ],
+      "description": "useCommissionMode"
+    },
+    {
+      "enum": [
+        118,
+        "ruskinNames118"
+      ],
+      "description": "commission"
+    },
+    {
+      "enum": [
+        119,
+        "ruskinNames119"
+      ],
+      "description": "commissionMode"
+    },
+    {
+      "enum": [
+        120,
+        "ruskinNames120"
+      ],
+      "description": "saTempSetPoint"
+    },
+    {
+      "enum": [
+        121,
+        "ruskinNames121"
+      ],
+      "description": "oaTempSetPoint"
+    },
+    {
+      "enum": [
+        122,
+        "ruskinNames122"
+      ],
+      "description": "useModulatingPostHeatMode"
+    },
+    {
+      "enum": [
+        123,
+        "ruskinNames123"
+      ],
+      "description": "preHeatMode"
+    },
+    {
+      "enum": [
+        124,
+        "ruskinNames124"
+      ],
+      "description": "postHeatMode"
+    },
+    {
+      "enum": [
+        125,
+        "ruskinNames125"
+      ],
+      "description": "preHeatDeadBand"
+    },
+    {
+      "enum": [
+        126,
+        "ruskinNames126"
+      ],
+      "description": "postHeatEnableInput"
+    },
+    {
+      "enum": [
+        127,
+        "ruskinNames127"
+      ],
+      "description": "postHeatDeadBand"
+    },
+    {
+      "enum": [
+        128,
+        "ruskinNames128"
+      ],
+      "description": "usePivotMode"
+    },
+    {
+      "enum": [
+        129,
+        "ruskinNames129"
+      ],
+      "description": "cooling1EnableInput"
+    },
+    {
+      "enum": [
+        130,
+        "ruskinNames130"
+      ],
+      "description": "cooling2EnableInput"
+    },
+    {
+      "enum": [
+        131,
+        "ruskinNames131"
+      ],
+      "description": "useCoolingControlMode"
+    },
+    {
+      "enum": [
+        132,
+        "ruskinNames132"
+      ],
+      "description": "useBypassMode"
+    },
+    {
+      "enum": [
+        133,
+        "ruskinNames133"
+      ],
+      "description": "pivotMode"
+    },
+    {
+      "enum": [
+        134,
+        "ruskinNames134"
+      ],
+      "description": "coolingMode"
+    },
+    {
+      "enum": [
+        135,
+        "ruskinNames135"
+      ],
+      "description": "bypassMode"
+    },
+    {
+      "enum": [
+        136,
+        "ruskinNames136"
+      ],
+      "description": "pivotModeBlowerSpeed"
+    },
+    {
+      "enum": [
+        137,
+        "ruskinNames137"
+      ],
+      "description": "pivotTimerInput"
+    },
+    {
+      "enum": [
+        138,
+        "ruskinNames138"
+      ],
+      "description": "bypassTimer"
+    },
+    {
+      "enum": [
+        139,
+        "ruskinNames139"
+      ],
+      "description": "useModulatingWheelMode"
+    },
+    {
+      "enum": [
+        140,
+        "ruskinNames140"
+      ],
+      "description": "smokeControlEAMaxSpeed"
+    },
+    {
+      "enum": [
+        141,
+        "ruskinNames141"
+      ],
+      "description": "smokeControlSAMaxSpeed"
+    },
+    {
+      "enum": [
+        142,
+        "ruskinNames142"
+      ],
+      "description": "bypassFailureAlarm"
+    },
+    {
+      "enum": [
+        143,
+        "ruskinNames143"
+      ],
+      "description": "postHeatCheckDelay"
+    },
+    {
+      "enum": [
+        144,
+        "ruskinNames144"
+      ],
+      "description": "postHeatDeltaTempCheck"
+    },
+    {
+      "enum": [
+        145,
+        "ruskinNames145"
+      ],
+      "description": "bypassStatus"
+    },
+    {
+      "enum": [
+        146,
+        "ruskinNames146"
+      ],
+      "description": "commissionModeFinished"
+    },
+    {
+      "enum": [
+        147,
+        "ruskinNames147"
+      ],
+      "description": "commsionModeTimer"
+    },
+    {
+      "enum": [
+        148,
+        "ruskinNames148"
+      ],
+      "description": "postHeatFailureAlarm"
+    },
+    {
+      "enum": [
+        149,
+        "ruskinNames149"
+      ],
+      "description": "postHeatStatus"
+    },
+    {
+      "enum": [
+        150,
+        "ruskinNames150"
+      ],
+      "description": "useDirtyFilterIndication"
+    },
+    {
+      "enum": [
+        151,
+        "ruskinNames151"
+      ],
+      "description": "oaDirtyFilterAlarm"
+    },
+    {
+      "enum": [
+        152,
+        "ruskinNames152"
+      ],
+      "description": "raDirtyFilterAlarm"
+    },
+    {
+      "enum": [
+        153,
+        "ruskinNames153"
+      ],
+      "description": "useStagedPostHeat"
+    },
+    {
+      "enum": [
+        154,
+        "ruskinNames154"
+      ],
+      "description": "postHeatMaxDeltaTemp"
+    },
+    {
+      "enum": [
+        155,
+        "ruskinNames155"
+      ],
+      "description": "saSetPointOutOfRange"
+    },
+    {
+      "enum": [
+        156,
+        "ruskinNames156"
+      ],
+      "description": "eaSetPointOutOfRange"
+    },
+    {
+      "enum": [
+        157,
+        "ruskinNames157"
+      ],
+      "description": "co2SetPointOutOfRange"
+    },
+    {
+      "enum": [
+        158,
+        "ruskinNames158"
+      ],
+      "description": "fixedCFMUnit"
+    },
+    {
+      "enum": [
+        159,
+        "ruskinNames159"
+      ],
+      "description": "scheduleroptions"
+    },
+    {
+      "enum": [
+        160,
+        "ruskinNames160"
+      ],
+      "description": "pivotModeBlowerMaxSpeed"
+    },
+    {
+      "enum": [
+        161,
+        "ruskinNames161"
+      ],
+      "description": "saVFDStatus"
+    },
+    {
+      "enum": [
+        162,
+        "ruskinNames162"
+      ],
+      "description": "eaVFDStatus"
+    },
+    {
+      "enum": [
+        163,
+        "ruskinNames163"
+      ],
+      "description": "eaVFDFailureAlarm"
+    },
+    {
+      "enum": [
+        164,
+        "ruskinNames164"
+      ],
+      "description": "saVFDFailureAlarm"
+    }
+  ]
+}

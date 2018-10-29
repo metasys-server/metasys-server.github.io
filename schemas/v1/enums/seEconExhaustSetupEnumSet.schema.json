@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconExhaustSetupEnumSet.schema.json",
+  "title": "seEconExhaustSetupEnumSet",
+  "description": "SE ECON Exhaust Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconExhaustSetupNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEconExhaustSetupNonModulatingControl"
+      ],
+      "description": "Non Modulating Control"
+    },
+    {
+      "enum": [
+        2,
+        "seEconExhaustSetupVariableFrequencyFan"
+      ],
+      "description": "Variable Frequency Fan"
+    },
+    {
+      "enum": [
+        3,
+        "seEconExhaustSetupErv"
+      ],
+      "description": "ERV"
+    }
+  ]
+}

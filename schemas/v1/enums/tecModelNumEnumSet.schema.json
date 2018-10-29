@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecModelNumEnumSet.schema.json",
+  "title": "tecModelNumEnumSet",
+  "description": "TEC Model Number",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "TEC2264"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "TEC2261"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "TEC2262"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "TEC2263"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "TEC2204"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "TEC2203"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "TEC2201"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "TEC2202"
+    },
+    {
+      "enum": [
+        41,
+        "41"
+      ],
+      "description": "TEC2216"
+    },
+    {
+      "enum": [
+        42,
+        "42"
+      ],
+      "description": "TEC2216H"
+    },
+    {
+      "enum": [
+        43,
+        "43"
+      ],
+      "description": "TEC2236"
+    },
+    {
+      "enum": [
+        44,
+        "44"
+      ],
+      "description": "TEC2226"
+    },
+    {
+      "enum": [
+        45,
+        "45"
+      ],
+      "description": "TEC2236H"
+    },
+    {
+      "enum": [
+        46,
+        "46"
+      ],
+      "description": "TEC2226H"
+    },
+    {
+      "enum": [
+        47,
+        "47"
+      ],
+      "description": "TEC2256"
+    },
+    {
+      "enum": [
+        48,
+        "48"
+      ],
+      "description": "TEC2246"
+    },
+    {
+      "enum": [
+        49,
+        "49"
+      ],
+      "description": "TEC2256H"
+    },
+    {
+      "enum": [
+        50,
+        "50"
+      ],
+      "description": "TEC2246H"
+    },
+    {
+      "enum": [
+        51,
+        "51"
+      ],
+      "description": "TEC2245"
+    },
+    {
+      "enum": [
+        60,
+        "60"
+      ],
+      "description": "TEC2227"
+    },
+    {
+      "enum": [
+        61,
+        "61"
+      ],
+      "description": "TEC2247"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "NULL"
+    }
+  ]
+}

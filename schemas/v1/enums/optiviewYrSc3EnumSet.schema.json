@@ -1,0 +1,575 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc3EnumSet.schema.json",
+  "title": "optiviewYrSc3EnumSet",
+  "description": "Optiview YR Cycling Fault Code SC.3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewYrSc30"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewYrSc31"
+      ],
+      "description": "MULTI-UNIT CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        2,
+        "optiviewYrSc32"
+      ],
+      "description": "SYSTEM CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "optiviewYrSc33"
+      ],
+      "description": "OIL - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "optiviewYrSc34"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        5,
+        "optiviewYrSc35"
+      ],
+      "description": "LEAVING CHILLED LIQUID - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        6,
+        "optiviewYrSc36"
+      ],
+      "description": "LEAVING CHILLED LIQUID - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        7,
+        "optiviewYrSc37"
+      ],
+      "description": "CONDENSER - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "optiviewYrSc38"
+      ],
+      "description": "MOTOR CONTROLLER - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "optiviewYrSc39"
+      ],
+      "description": "MOTOR CONTROLLER - LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        10,
+        "optiviewYrSc310"
+      ],
+      "description": "POWER FAULT"
+    },
+    {
+      "enum": [
+        11,
+        "optiviewYrSc311"
+      ],
+      "description": "CONTROL PANEL - SCHEDULE"
+    },
+    {
+      "enum": [
+        12,
+        "optiviewYrSc312"
+      ],
+      "description": "STARTER - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        13,
+        "optiviewYrSc313"
+      ],
+      "description": "STARTER - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        14,
+        "optiviewYrSc314"
+      ],
+      "description": "PROXIMITY PROBE - LOW SUPPLY VOLTAGE"
+    },
+    {
+      "enum": [
+        15,
+        "optiviewYrSc315"
+      ],
+      "description": "OIL - VARIABLE SPEED PUMP - DRIVE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        16,
+        "optiviewYrSc316"
+      ],
+      "description": "VSD INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        17,
+        "optiviewYrSc317"
+      ],
+      "description": "VSD SHUTDOWN - REQUESTING FAULT DATA"
+    },
+    {
+      "enum": [
+        18,
+        "optiviewYrSc318"
+      ],
+      "description": "VSD - HIGH PHASE A INSTANANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        19,
+        "optiviewYrSc319"
+      ],
+      "description": "VSD - HIGH PHASE B INSTANANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        20,
+        "optiviewYrSc320"
+      ],
+      "description": "VSD - HIGH PHASE C INSTANANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        21,
+        "optiviewYrSc321"
+      ],
+      "description": "VSD - PHASE A GATE DRIVER"
+    },
+    {
+      "enum": [
+        22,
+        "optiviewYrSc322"
+      ],
+      "description": "VSD - PHASE B GATE DRIVER"
+    },
+    {
+      "enum": [
+        23,
+        "optiviewYrSc323"
+      ],
+      "description": "VSD - PHASE C GATE DRIVER"
+    },
+    {
+      "enum": [
+        24,
+        "optiviewYrSc324"
+      ],
+      "description": "VSD - SINGLE PHASE INPUT POWER"
+    },
+    {
+      "enum": [
+        25,
+        "optiviewYrSc325"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        26,
+        "optiviewYrSc326"
+      ],
+      "description": "VSD - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        27,
+        "optiviewYrSc327"
+      ],
+      "description": "VSD - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        28,
+        "optiviewYrSc328"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        29,
+        "optiviewYrSc329"
+      ],
+      "description": "VSD - HIGH INTERNAL AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        30,
+        "optiviewYrSc330"
+      ],
+      "description": "VSD - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        31,
+        "optiviewYrSc331"
+      ],
+      "description": "VSD - LOW PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        32,
+        "optiviewYrSc332"
+      ],
+      "description": "VSD - LOW PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        33,
+        "optiviewYrSc333"
+      ],
+      "description": "VSD - LOW PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        34,
+        "optiviewYrSc334"
+      ],
+      "description": "VSD - LOW CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        35,
+        "optiviewYrSc335"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        36,
+        "optiviewYrSc336"
+      ],
+      "description": "VSD - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        37,
+        "optiviewYrSc337"
+      ],
+      "description": "VSD - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        38,
+        "optiviewYrSc338"
+      ],
+      "description": "VSD - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        39,
+        "optiviewYrSc339"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        40,
+        "optiviewYrSc340"
+      ],
+      "description": "VSD - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        41,
+        "optiviewYrSc341"
+      ],
+      "description": "HARMONIC FILTER - LOGIC BOARD OR COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        42,
+        "optiviewYrSc342"
+      ],
+      "description": "HARMONIC FILTER - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        43,
+        "optiviewYrSc343"
+      ],
+      "description": "HARMONIC FILTER - HIGH PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        44,
+        "optiviewYrSc344"
+      ],
+      "description": "HARMONIC FILTER - HIGH PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        45,
+        "optiviewYrSc345"
+      ],
+      "description": "HARMONIC FILTER - HIGH PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        46,
+        "optiviewYrSc346"
+      ],
+      "description": "HARMONIC FILTER - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        47,
+        "optiviewYrSc347"
+      ],
+      "description": "HARMONIC FILTER - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        48,
+        "optiviewYrSc348"
+      ],
+      "description": "HARMONIC FILTER - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        49,
+        "optiviewYrSc349"
+      ],
+      "description": "HARMONIC FILTER - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        50,
+        "optiviewYrSc350"
+      ],
+      "description": "HARMONIC FILTER - 110% INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        51,
+        "optiviewYrSc351"
+      ],
+      "description": "HARMONIC FILTER - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        52,
+        "optiviewYrSc352"
+      ],
+      "description": "HARMONIC FILTER - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        53,
+        "optiviewYrSc353"
+      ],
+      "description": "HARMONIC FILTER - DC CURRENT TRANSFORMER 1"
+    },
+    {
+      "enum": [
+        54,
+        "optiviewYrSc354"
+      ],
+      "description": "HARMONIC FILTER - DC CURRENT TRANSFORMER 2"
+    },
+    {
+      "enum": [
+        55,
+        "optiviewYrSc355"
+      ],
+      "description": "LCSSS INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        56,
+        "optiviewYrSc356"
+      ],
+      "description": "LCSSS SHUTDOWN - REQUESTING FAULT DATA…"
+    },
+    {
+      "enum": [
+        57,
+        "optiviewYrSc357"
+      ],
+      "description": "LCSSS - LOW PHASE A TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        58,
+        "optiviewYrSc358"
+      ],
+      "description": "LCSSS - LOW PHASE B TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        59,
+        "optiviewYrSc359"
+      ],
+      "description": "LCSSS - LOW PHASE C TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        60,
+        "optiviewYrSc360"
+      ],
+      "description": "LCSSS - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        61,
+        "optiviewYrSc361"
+      ],
+      "description": "LCSSS - POWER FAULT"
+    },
+    {
+      "enum": [
+        62,
+        "optiviewYrSc362"
+      ],
+      "description": "LCSSS - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        63,
+        "optiviewYrSc363"
+      ],
+      "description": "LCSSS - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        64,
+        "optiviewYrSc364"
+      ],
+      "description": "LCSSS - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        65,
+        "optiviewYrSc365"
+      ],
+      "description": "LCSSS - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        66,
+        "optiviewYrSc366"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        67,
+        "optiviewYrSc367"
+      ],
+      "description": "LCSSS - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        68,
+        "optiviewYrSc368"
+      ],
+      "description": "LCSSS - INVALID FLA"
+    },
+    {
+      "enum": [
+        69,
+        "optiviewYrSc369"
+      ],
+      "description": "LCSSS - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        70,
+        "optiviewYrSc370"
+      ],
+      "description": "LCSSS - DSP COMMUNICATION FAILURE"
+    },
+    {
+      "enum": [
+        71,
+        "optiviewYrSc371"
+      ],
+      "description": "LCSSS - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        72,
+        "optiviewYrSc372"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        73,
+        "optiviewYrSc373"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        74,
+        "optiviewYrSc374"
+      ],
+      "description": "LCSSS - PHASE LOSS"
+    },
+    {
+      "enum": [
+        75,
+        "optiviewYrSc375"
+      ],
+      "description": "VSD - LOW INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        76,
+        "optiviewYrSc376"
+      ],
+      "description": "MOTOR HIGH WINDING TEMPERATURE"
+    },
+    {
+      "enum": [
+        77,
+        "optiviewYrSc377"
+      ],
+      "description": "VSD - LOW PHASE A BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        78,
+        "optiviewYrSc378"
+      ],
+      "description": "VSD - LOW PHASE B BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        79,
+        "optiviewYrSc379"
+      ],
+      "description": "VSD - LOW PHASE C BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        80,
+        "optiviewYrSc380"
+      ],
+      "description": "SSS SHUTDOWN - REQUESTING FAULT DATA"
+    }
+  ]
+}

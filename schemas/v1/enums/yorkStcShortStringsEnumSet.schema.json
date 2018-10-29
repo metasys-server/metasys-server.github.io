@@ -1,0 +1,2157 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yorkStcShortStringsEnumSet.schema.json",
+  "title": "yorkStcShortStringsEnumSet",
+  "description": "York Small Tonnage Short Strings",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "yorkStcShortStrings1"
+      ],
+      "description": "REMOTE SETPOINT"
+    },
+    {
+      "enum": [
+        2,
+        "yorkStcShortStrings2"
+      ],
+      "description": "REM CURRENT LIMIT SETP"
+    },
+    {
+      "enum": [
+        3,
+        "yorkStcShortStrings3"
+      ],
+      "description": "REMOTE SOUND LIMIT"
+    },
+    {
+      "enum": [
+        4,
+        "yorkStcShortStrings4"
+      ],
+      "description": "REM START STOP CMD"
+    },
+    {
+      "enum": [
+        5,
+        "yorkStcShortStrings5"
+      ],
+      "description": "HISTORY REQUEST"
+    },
+    {
+      "enum": [
+        6,
+        "yorkStcShortStrings6"
+      ],
+      "description": "LEAVING CHILLED LIQ TEMP"
+    },
+    {
+      "enum": [
+        7,
+        "yorkStcShortStrings7"
+      ],
+      "description": "ENTERING CHILLED LIQ TEMP"
+    },
+    {
+      "enum": [
+        8,
+        "yorkStcShortStrings8"
+      ],
+      "description": "VSD INT AMBIENT TEMP"
+    },
+    {
+      "enum": [
+        9,
+        "yorkStcShortStrings9"
+      ],
+      "description": "SYS 1 COND TEMP"
+    },
+    {
+      "enum": [
+        10,
+        "yorkStcShortStrings10"
+      ],
+      "description": "SYS 1 DISCH TEMP"
+    },
+    {
+      "enum": [
+        11,
+        "yorkStcShortStrings11"
+      ],
+      "description": "OUTSIDE AMBIENT AIR TEMP"
+    },
+    {
+      "enum": [
+        12,
+        "yorkStcShortStrings12"
+      ],
+      "description": "SYS 1 EDUCTOR TEMP"
+    },
+    {
+      "enum": [
+        13,
+        "yorkStcShortStrings13"
+      ],
+      "description": "SYS 1 OIL PRESS"
+    },
+    {
+      "enum": [
+        14,
+        "yorkStcShortStrings14"
+      ],
+      "description": "SYS 1 SUCT PRESS"
+    },
+    {
+      "enum": [
+        15,
+        "yorkStcShortStrings15"
+      ],
+      "description": "SYS 1 DISCH PRESS"
+    },
+    {
+      "enum": [
+        16,
+        "yorkStcShortStrings16"
+      ],
+      "description": "SYS 1 COMP PCT FLA"
+    },
+    {
+      "enum": [
+        17,
+        "yorkStcShortStrings17"
+      ],
+      "description": "SYS 1 HOURS"
+    },
+    {
+      "enum": [
+        18,
+        "yorkStcShortStrings18"
+      ],
+      "description": "SYS 1 STARTS"
+    },
+    {
+      "enum": [
+        19,
+        "yorkStcShortStrings19"
+      ],
+      "description": "SYS 1 HIGHEST MOTOR TEMP"
+    },
+    {
+      "enum": [
+        20,
+        "yorkStcShortStrings20"
+      ],
+      "description": "SYS 2 HIGHEST MOTOR TEMP"
+    },
+    {
+      "enum": [
+        21,
+        "yorkStcShortStrings21"
+      ],
+      "description": "SYS 2 EDUCTOR TEMP"
+    },
+    {
+      "enum": [
+        22,
+        "yorkStcShortStrings22"
+      ],
+      "description": "SYS 2 OIL PRESS"
+    },
+    {
+      "enum": [
+        23,
+        "yorkStcShortStrings23"
+      ],
+      "description": "SYS 2 SUCT PRESS"
+    },
+    {
+      "enum": [
+        24,
+        "yorkStcShortStrings24"
+      ],
+      "description": "SYS 2 DISCH PRESS"
+    },
+    {
+      "enum": [
+        25,
+        "yorkStcShortStrings25"
+      ],
+      "description": "SYS 2 COMP PCT FLA"
+    },
+    {
+      "enum": [
+        26,
+        "yorkStcShortStrings26"
+      ],
+      "description": "SYS 2 HOURS"
+    },
+    {
+      "enum": [
+        27,
+        "yorkStcShortStrings27"
+      ],
+      "description": "SYS 2 STARTS"
+    },
+    {
+      "enum": [
+        28,
+        "yorkStcShortStrings28"
+      ],
+      "description": "VSD OUTPUT FREQUENCY"
+    },
+    {
+      "enum": [
+        29,
+        "yorkStcShortStrings29"
+      ],
+      "description": "SYS 1 COND DRAIN VALVE PCT"
+    },
+    {
+      "enum": [
+        30,
+        "yorkStcShortStrings30"
+      ],
+      "description": "SYS 2 COND DRAIN VALVE PCT"
+    },
+    {
+      "enum": [
+        31,
+        "yorkStcShortStrings31"
+      ],
+      "description": "CHILLER RUN"
+    },
+    {
+      "enum": [
+        32,
+        "yorkStcShortStrings32"
+      ],
+      "description": "CHILLER ALARM"
+    },
+    {
+      "enum": [
+        33,
+        "yorkStcShortStrings33"
+      ],
+      "description": "EVAPORATOR HEATER STATUS"
+    },
+    {
+      "enum": [
+        34,
+        "yorkStcShortStrings34"
+      ],
+      "description": "EVAPORATOR PUMP STATUS"
+    },
+    {
+      "enum": [
+        35,
+        "yorkStcShortStrings35"
+      ],
+      "description": "SYS 1 COMP RUN STATUS"
+    },
+    {
+      "enum": [
+        36,
+        "yorkStcShortStrings36"
+      ],
+      "description": "SYS 2 COMP RUN STATUS"
+    },
+    {
+      "enum": [
+        37,
+        "yorkStcShortStrings37"
+      ],
+      "description": "SYS 1 VI STEP SOL VALVE 1 STATUS"
+    },
+    {
+      "enum": [
+        38,
+        "yorkStcShortStrings38"
+      ],
+      "description": "SYS 2 VI STEP SOL VALVE 1 STATUS"
+    },
+    {
+      "enum": [
+        39,
+        "yorkStcShortStrings39"
+      ],
+      "description": "SYS 1 VI STEP SOL VALVE 2 STATUS"
+    },
+    {
+      "enum": [
+        40,
+        "yorkStcShortStrings40"
+      ],
+      "description": "SYS 2 VI STEP SOL VALVE 2 STATUS"
+    },
+    {
+      "enum": [
+        41,
+        "yorkStcShortStrings41"
+      ],
+      "description": "COOLING TYPE"
+    },
+    {
+      "enum": [
+        42,
+        "yorkStcShortStrings42"
+      ],
+      "description": "LOCAL REMOTE CONTROL MODE"
+    },
+    {
+      "enum": [
+        43,
+        "yorkStcShortStrings43"
+      ],
+      "description": "DISPLAY UNITS"
+    },
+    {
+      "enum": [
+        44,
+        "yorkStcShortStrings44"
+      ],
+      "description": "SYS 1 OPERATIONAL CODE"
+    },
+    {
+      "enum": [
+        45,
+        "yorkStcShortStrings45"
+      ],
+      "description": "SYS 1 FAULT CODE"
+    },
+    {
+      "enum": [
+        46,
+        "yorkStcShortStrings46"
+      ],
+      "description": "SYS 2 OPERATIONAL CODE"
+    },
+    {
+      "enum": [
+        47,
+        "yorkStcShortStrings47"
+      ],
+      "description": "SYS 2 FAULT CODE"
+    },
+    {
+      "enum": [
+        48,
+        "yorkStcShortStrings48"
+      ],
+      "description": "SYS 1 COND FAN STAGES RUN"
+    },
+    {
+      "enum": [
+        49,
+        "yorkStcShortStrings49"
+      ],
+      "description": "SYS 1 COND FAN SPEED PCT"
+    },
+    {
+      "enum": [
+        50,
+        "yorkStcShortStrings50"
+      ],
+      "description": "SYS 2 COND FAN STAGES RUN"
+    },
+    {
+      "enum": [
+        51,
+        "yorkStcShortStrings51"
+      ],
+      "description": "SYS 2 COND FAN SPEED PCT"
+    },
+    {
+      "enum": [
+        52,
+        "yorkStcShortStrings52"
+      ],
+      "description": "LEAD SYSTEM NUMBER"
+    },
+    {
+      "enum": [
+        53,
+        "yorkStcShortStrings53"
+      ],
+      "description": "LOCAL LEAVING CHILL LIQ SETP"
+    },
+    {
+      "enum": [
+        54,
+        "yorkStcShortStrings54"
+      ],
+      "description": "LOW LEAVING CHILL LIQ CUTOUT"
+    },
+    {
+      "enum": [
+        55,
+        "yorkStcShortStrings55"
+      ],
+      "description": "SYS 1 ECON VALVE PCT"
+    },
+    {
+      "enum": [
+        56,
+        "yorkStcShortStrings56"
+      ],
+      "description": "SYS 2 ECON VALVE PCT"
+    },
+    {
+      "enum": [
+        57,
+        "yorkStcShortStrings57"
+      ],
+      "description": "LOW SUCT PRESS CUTOUT"
+    },
+    {
+      "enum": [
+        58,
+        "yorkStcShortStrings58"
+      ],
+      "description": "VSD DC BUS VOLT"
+    },
+    {
+      "enum": [
+        59,
+        "yorkStcShortStrings59"
+      ],
+      "description": "REM LEAVING CHILL LIQ SETP"
+    },
+    {
+      "enum": [
+        60,
+        "yorkStcShortStrings60"
+      ],
+      "description": "SYS 1 SUBCOOLING"
+    },
+    {
+      "enum": [
+        61,
+        "yorkStcShortStrings61"
+      ],
+      "description": "SYS 1 CONDENSER LEVEL"
+    },
+    {
+      "enum": [
+        62,
+        "yorkStcShortStrings62"
+      ],
+      "description": "COOLING RANGE"
+    },
+    {
+      "enum": [
+        63,
+        "yorkStcShortStrings63"
+      ],
+      "description": "SYS 1 DISCH SUPERHEAT"
+    },
+    {
+      "enum": [
+        64,
+        "yorkStcShortStrings64"
+      ],
+      "description": "SYS 2 COND TEMP"
+    },
+    {
+      "enum": [
+        65,
+        "yorkStcShortStrings65"
+      ],
+      "description": "SYS 2 DISCH TEMP"
+    },
+    {
+      "enum": [
+        66,
+        "yorkStcShortStrings66"
+      ],
+      "description": "SYS 2 SUBCOOLING"
+    },
+    {
+      "enum": [
+        67,
+        "yorkStcShortStrings67"
+      ],
+      "description": "SYS 2 CONDENSER LEVEL"
+    },
+    {
+      "enum": [
+        68,
+        "yorkStcShortStrings68"
+      ],
+      "description": "SYS 2 DISCH SUPERHEAT"
+    },
+    {
+      "enum": [
+        69,
+        "yorkStcShortStrings69"
+      ],
+      "description": "SYS 1 LOCKOUT"
+    },
+    {
+      "enum": [
+        70,
+        "yorkStcShortStrings70"
+      ],
+      "description": "SYS 2 LOCKOUT"
+    },
+    {
+      "enum": [
+        71,
+        "yorkStcShortStrings71"
+      ],
+      "description": "EVAP ENTER LIQ TEMP"
+    },
+    {
+      "enum": [
+        72,
+        "yorkStcShortStrings72"
+      ],
+      "description": "VSD COMMAND FREQUENCY"
+    },
+    {
+      "enum": [
+        73,
+        "yorkStcShortStrings73"
+      ],
+      "description": "FREE COOLING VALVE"
+    },
+    {
+      "enum": [
+        74,
+        "yorkStcShortStrings74"
+      ],
+      "description": "SOFT SHUTDOWN"
+    },
+    {
+      "enum": [
+        75,
+        "yorkStcShortStrings75"
+      ],
+      "description": "REMOTE EVAPORATOR"
+    },
+    {
+      "enum": [
+        76,
+        "yorkStcShortStrings76"
+      ],
+      "description": "QUICK START"
+    },
+    {
+      "enum": [
+        77,
+        "yorkStcShortStrings77"
+      ],
+      "description": "FREE COOLING MODE"
+    },
+    {
+      "enum": [
+        78,
+        "yorkStcShortStrings78"
+      ],
+      "description": "OPTION INDICATOR"
+    },
+    {
+      "enum": [
+        79,
+        "yorkStcShortStrings79"
+      ],
+      "description": "FRAME E F"
+    },
+    {
+      "enum": [
+        80,
+        "yorkStcShortStrings80"
+      ],
+      "description": "SOUND LIMIT OPTION"
+    },
+    {
+      "enum": [
+        81,
+        "yorkStcShortStrings81"
+      ],
+      "description": "SCC AUTO DETECT DIGIT 1"
+    },
+    {
+      "enum": [
+        82,
+        "yorkStcShortStrings82"
+      ],
+      "description": "SCC AUTO DETECT DIGIT 2"
+    },
+    {
+      "enum": [
+        83,
+        "yorkStcShortStrings83"
+      ],
+      "description": "SCC AUTO DETECT DIGIT 3"
+    },
+    {
+      "enum": [
+        84,
+        "yorkStcShortStrings84"
+      ],
+      "description": "SCC AUTO DETECT DIGIT 4"
+    },
+    {
+      "enum": [
+        85,
+        "yorkStcShortStrings85"
+      ],
+      "description": "SCC AUTO DETECT DIGIT 5"
+    },
+    {
+      "enum": [
+        86,
+        "yorkStcShortStrings86"
+      ],
+      "description": "SCC AUTO DETECT DIGIT 6"
+    },
+    {
+      "enum": [
+        87,
+        "yorkStcShortStrings87"
+      ],
+      "description": "CONDENSER FAN CONTROL TYPE"
+    },
+    {
+      "enum": [
+        88,
+        "yorkStcShortStrings88"
+      ],
+      "description": "UNITS INDICATOR"
+    },
+    {
+      "enum": [
+        89,
+        "yorkStcShortStrings89"
+      ],
+      "description": "SYS 1 REM SETP"
+    },
+    {
+      "enum": [
+        90,
+        "yorkStcShortStrings90"
+      ],
+      "description": "REM LOAD LIMIT STAGE"
+    },
+    {
+      "enum": [
+        91,
+        "yorkStcShortStrings91"
+      ],
+      "description": "REM COOLING RANGE"
+    },
+    {
+      "enum": [
+        92,
+        "yorkStcShortStrings92"
+      ],
+      "description": "REM HEATING SETP"
+    },
+    {
+      "enum": [
+        93,
+        "yorkStcShortStrings93"
+      ],
+      "description": "SYS 2 REM SETP"
+    },
+    {
+      "enum": [
+        94,
+        "yorkStcShortStrings94"
+      ],
+      "description": "REM HEATPUMP MODE"
+    },
+    {
+      "enum": [
+        95,
+        "yorkStcShortStrings95"
+      ],
+      "description": "SYS1 REM START STOP CMD"
+    },
+    {
+      "enum": [
+        96,
+        "yorkStcShortStrings96"
+      ],
+      "description": "SYS2 REM START STOP CMD"
+    },
+    {
+      "enum": [
+        97,
+        "yorkStcShortStrings97"
+      ],
+      "description": "LEAVING LIQ TEMP HOT"
+    },
+    {
+      "enum": [
+        98,
+        "yorkStcShortStrings98"
+      ],
+      "description": "DISCHARGE AIR TEMP"
+    },
+    {
+      "enum": [
+        99,
+        "yorkStcShortStrings99"
+      ],
+      "description": "RETURN LIQ TEMP HOT"
+    },
+    {
+      "enum": [
+        100,
+        "yorkStcShortStrings100"
+      ],
+      "description": "SYS 1 SUCT SUPERHEAT"
+    },
+    {
+      "enum": [
+        101,
+        "yorkStcShortStrings101"
+      ],
+      "description": "SYS 1 RUN TIME"
+    },
+    {
+      "enum": [
+        102,
+        "yorkStcShortStrings102"
+      ],
+      "description": "SYS 1 SUCT TEMP COND UNIT"
+    },
+    {
+      "enum": [
+        103,
+        "yorkStcShortStrings103"
+      ],
+      "description": "SYS 1 COOLER INLET REF TEMP"
+    },
+    {
+      "enum": [
+        104,
+        "yorkStcShortStrings104"
+      ],
+      "description": "SYS 1 DEFROST TEMP"
+    },
+    {
+      "enum": [
+        105,
+        "yorkStcShortStrings105"
+      ],
+      "description": "SYS 1 EEV OUTPUT PCT"
+    },
+    {
+      "enum": [
+        106,
+        "yorkStcShortStrings106"
+      ],
+      "description": "SYS 1 ANTI RECYCLE TIMER"
+    },
+    {
+      "enum": [
+        107,
+        "yorkStcShortStrings107"
+      ],
+      "description": "ANTI COINCIDENT TIMER"
+    },
+    {
+      "enum": [
+        108,
+        "yorkStcShortStrings108"
+      ],
+      "description": "SYS 2 SUCT TEMP"
+    },
+    {
+      "enum": [
+        109,
+        "yorkStcShortStrings109"
+      ],
+      "description": "SYS 2 RUN TIME"
+    },
+    {
+      "enum": [
+        110,
+        "yorkStcShortStrings110"
+      ],
+      "description": "SYS 2 SUCT TEMP COND UNIT"
+    },
+    {
+      "enum": [
+        111,
+        "yorkStcShortStrings111"
+      ],
+      "description": "SYS 2 COOLER INLET REF TEMP"
+    },
+    {
+      "enum": [
+        112,
+        "yorkStcShortStrings112"
+      ],
+      "description": "SYS 2 DEFROST TEMP"
+    },
+    {
+      "enum": [
+        113,
+        "yorkStcShortStrings113"
+      ],
+      "description": "SYS 2 SUCT SUPERHEAT"
+    },
+    {
+      "enum": [
+        114,
+        "yorkStcShortStrings114"
+      ],
+      "description": "SYS 2 ANTI RECYCLE TIMER"
+    },
+    {
+      "enum": [
+        115,
+        "yorkStcShortStrings115"
+      ],
+      "description": "SYS 2 EEV OUTPUT PCT"
+    },
+    {
+      "enum": [
+        116,
+        "yorkStcShortStrings116"
+      ],
+      "description": "NUMBER COMPRESSORS"
+    },
+    {
+      "enum": [
+        117,
+        "yorkStcShortStrings117"
+      ],
+      "description": "SYS 1 ALARM"
+    },
+    {
+      "enum": [
+        118,
+        "yorkStcShortStrings118"
+      ],
+      "description": "SYS 2 ALARM"
+    },
+    {
+      "enum": [
+        119,
+        "yorkStcShortStrings119"
+      ],
+      "description": "SYS 1 COMP 1 RUN"
+    },
+    {
+      "enum": [
+        120,
+        "yorkStcShortStrings120"
+      ],
+      "description": "SYS 2 COMP 1 RUN"
+    },
+    {
+      "enum": [
+        121,
+        "yorkStcShortStrings121"
+      ],
+      "description": "SYS 1 LIQUID LINE SOL VALVE"
+    },
+    {
+      "enum": [
+        122,
+        "yorkStcShortStrings122"
+      ],
+      "description": "SYS 1 MODE SOL VALVE"
+    },
+    {
+      "enum": [
+        123,
+        "yorkStcShortStrings123"
+      ],
+      "description": "SYS 1 HOT GAS BYPASS VALVE"
+    },
+    {
+      "enum": [
+        124,
+        "yorkStcShortStrings124"
+      ],
+      "description": "BIVALENT HT SOURCE TRAY HT"
+    },
+    {
+      "enum": [
+        125,
+        "yorkStcShortStrings125"
+      ],
+      "description": "SYS 1 COMP 2 RUN"
+    },
+    {
+      "enum": [
+        126,
+        "yorkStcShortStrings126"
+      ],
+      "description": "SYS 2 COMP 2 RUN"
+    },
+    {
+      "enum": [
+        127,
+        "yorkStcShortStrings127"
+      ],
+      "description": "SYS 2 LIQUID LINE SOL VALVE"
+    },
+    {
+      "enum": [
+        128,
+        "yorkStcShortStrings128"
+      ],
+      "description": "SYS 2 MODE SOL VALVE"
+    },
+    {
+      "enum": [
+        129,
+        "yorkStcShortStrings129"
+      ],
+      "description": "SYS 1 COMP 3 RUN"
+    },
+    {
+      "enum": [
+        130,
+        "yorkStcShortStrings130"
+      ],
+      "description": "SYS 2 COMP 3 RUN"
+    },
+    {
+      "enum": [
+        131,
+        "yorkStcShortStrings131"
+      ],
+      "description": "AMBIENT CONTROL MODE"
+    },
+    {
+      "enum": [
+        132,
+        "yorkStcShortStrings132"
+      ],
+      "description": "LEAD LAG CONTROL MODE"
+    },
+    {
+      "enum": [
+        133,
+        "yorkStcShortStrings133"
+      ],
+      "description": "SYS 2 HOT GAS BYPASS VALVE"
+    },
+    {
+      "enum": [
+        134,
+        "yorkStcShortStrings134"
+      ],
+      "description": "UNIT CONTROL MODE"
+    },
+    {
+      "enum": [
+        135,
+        "yorkStcShortStrings135"
+      ],
+      "description": "ANTI RECYCLE TIME PROG"
+    },
+    {
+      "enum": [
+        136,
+        "yorkStcShortStrings136"
+      ],
+      "description": "LOW AMBIENT TEMP CUTOUT"
+    },
+    {
+      "enum": [
+        137,
+        "yorkStcShortStrings137"
+      ],
+      "description": "LOW SUCT PRESS CUTOUT HEATING"
+    },
+    {
+      "enum": [
+        138,
+        "yorkStcShortStrings138"
+      ],
+      "description": "LOW SUCT PRESS CUTOUT COOLING"
+    },
+    {
+      "enum": [
+        139,
+        "yorkStcShortStrings139"
+      ],
+      "description": "HIGH DISCH PRESS CUTOUT"
+    },
+    {
+      "enum": [
+        140,
+        "yorkStcShortStrings140"
+      ],
+      "description": "COOLING SETPOINT"
+    },
+    {
+      "enum": [
+        141,
+        "yorkStcShortStrings141"
+      ],
+      "description": "SYS 1 COOLING SETPOINT"
+    },
+    {
+      "enum": [
+        142,
+        "yorkStcShortStrings142"
+      ],
+      "description": "SYS 1 COOLING RANGE"
+    },
+    {
+      "enum": [
+        143,
+        "yorkStcShortStrings143"
+      ],
+      "description": "SYS 2 COOLING SETPOINT"
+    },
+    {
+      "enum": [
+        144,
+        "yorkStcShortStrings144"
+      ],
+      "description": "HEATING SETPOINT"
+    },
+    {
+      "enum": [
+        145,
+        "yorkStcShortStrings145"
+      ],
+      "description": "SYS 2 COOLING RANGE"
+    },
+    {
+      "enum": [
+        146,
+        "yorkStcShortStrings146"
+      ],
+      "description": "HEATING RANGE"
+    },
+    {
+      "enum": [
+        147,
+        "yorkStcShortStrings147"
+      ],
+      "description": "EXP VALVE TYPE"
+    },
+    {
+      "enum": [
+        148,
+        "yorkStcShortStrings148"
+      ],
+      "description": "YCWL MODE"
+    },
+    {
+      "enum": [
+        149,
+        "yorkStcShortStrings149"
+      ],
+      "description": "REFRIGERANT"
+    },
+    {
+      "enum": [
+        150,
+        "yorkStcShortStrings150"
+      ],
+      "description": "REM CHILLED LIQ SETPOINT"
+    },
+    {
+      "enum": [
+        151,
+        "yorkStcShortStrings151"
+      ],
+      "description": "REM HEATING SETPOINT"
+    },
+    {
+      "enum": [
+        152,
+        "yorkStcShortStrings152"
+      ],
+      "description": "REM OPERATING MODE"
+    },
+    {
+      "enum": [
+        153,
+        "yorkStcShortStrings153"
+      ],
+      "description": "LEAVING COND LIQ TEMP"
+    },
+    {
+      "enum": [
+        154,
+        "yorkStcShortStrings154"
+      ],
+      "description": "ENTERING COND LIQ TEMP"
+    },
+    {
+      "enum": [
+        155,
+        "yorkStcShortStrings155"
+      ],
+      "description": "SYS 1 EVAP PRESS"
+    },
+    {
+      "enum": [
+        156,
+        "yorkStcShortStrings156"
+      ],
+      "description": "SYS 1 ECON TEMP"
+    },
+    {
+      "enum": [
+        157,
+        "yorkStcShortStrings157"
+      ],
+      "description": "SYS 2 EVAP PRESS"
+    },
+    {
+      "enum": [
+        158,
+        "yorkStcShortStrings158"
+      ],
+      "description": "SYS 1 COND LEVEL VALVE PCT"
+    },
+    {
+      "enum": [
+        159,
+        "yorkStcShortStrings159"
+      ],
+      "description": "SYS 2 COND LEVEL VALVE PCT"
+    },
+    {
+      "enum": [
+        160,
+        "yorkStcShortStrings160"
+      ],
+      "description": "VSD AUX COOLANT PUMP"
+    },
+    {
+      "enum": [
+        161,
+        "yorkStcShortStrings161"
+      ],
+      "description": "EVAP COND PUMP STATUS"
+    },
+    {
+      "enum": [
+        162,
+        "yorkStcShortStrings162"
+      ],
+      "description": "SYS 1 OIL LEVEL SWITCH STATUS"
+    },
+    {
+      "enum": [
+        163,
+        "yorkStcShortStrings163"
+      ],
+      "description": "SYS 2 OIL LEVEL SWITCH STATUS"
+    },
+    {
+      "enum": [
+        164,
+        "yorkStcShortStrings164"
+      ],
+      "description": "SYS 1 LIQ REF INJ VALVE STATUS"
+    },
+    {
+      "enum": [
+        165,
+        "yorkStcShortStrings165"
+      ],
+      "description": "SYS 2 LIQ REF INJ VALVE STATUS"
+    },
+    {
+      "enum": [
+        166,
+        "yorkStcShortStrings166"
+      ],
+      "description": "SYS 1 HOT GAS BYPASS VALVE STATUS"
+    },
+    {
+      "enum": [
+        167,
+        "yorkStcShortStrings167"
+      ],
+      "description": "SYS 2 HOT GAS BYPASS VALVE STATUS"
+    },
+    {
+      "enum": [
+        168,
+        "yorkStcShortStrings168"
+      ],
+      "description": "HEATPUMP"
+    },
+    {
+      "enum": [
+        169,
+        "yorkStcShortStrings169"
+      ],
+      "description": "LOCAL LVG CHILL COND LIQ SETP"
+    },
+    {
+      "enum": [
+        170,
+        "yorkStcShortStrings170"
+      ],
+      "description": "LOW LEAVING CHILL COND LIQ CUT"
+    },
+    {
+      "enum": [
+        171,
+        "yorkStcShortStrings171"
+      ],
+      "description": "SYS 2 ECON TEMP"
+    },
+    {
+      "enum": [
+        172,
+        "yorkStcShortStrings172"
+      ],
+      "description": "REM LVG CHILL COND LIQ SETP"
+    },
+    {
+      "enum": [
+        173,
+        "yorkStcShortStrings173"
+      ],
+      "description": "SYS 1 SUBCOOLED LIQ REF TEMP"
+    },
+    {
+      "enum": [
+        174,
+        "yorkStcShortStrings174"
+      ],
+      "description": "COOLING HEATING RANGE"
+    },
+    {
+      "enum": [
+        175,
+        "yorkStcShortStrings175"
+      ],
+      "description": "SYS 1 ECON PRESS"
+    },
+    {
+      "enum": [
+        176,
+        "yorkStcShortStrings176"
+      ],
+      "description": "SYS 2 ECON PRESS"
+    },
+    {
+      "enum": [
+        177,
+        "yorkStcShortStrings177"
+      ],
+      "description": "SYS 2 SUBCOOLED LIQ REF TEMP"
+    },
+    {
+      "enum": [
+        178,
+        "yorkStcShortStrings178"
+      ],
+      "description": "SYS 1 ECON DRAIN VALVE"
+    },
+    {
+      "enum": [
+        179,
+        "yorkStcShortStrings179"
+      ],
+      "description": "SYS 2 ECON DRAIN VALVE"
+    },
+    {
+      "enum": [
+        180,
+        "yorkStcShortStrings180"
+      ],
+      "description": "AUX COOL PUMP OPT"
+    },
+    {
+      "enum": [
+        181,
+        "yorkStcShortStrings181"
+      ],
+      "description": "OIL LEVEL OPT"
+    },
+    {
+      "enum": [
+        182,
+        "yorkStcShortStrings182"
+      ],
+      "description": "HOT GAS BYPASS OPT"
+    },
+    {
+      "enum": [
+        183,
+        "yorkStcShortStrings183"
+      ],
+      "description": "COMPRESSOR TYPE"
+    },
+    {
+      "enum": [
+        184,
+        "yorkStcShortStrings184"
+      ],
+      "description": "FAULT CODE"
+    },
+    {
+      "enum": [
+        185,
+        "yorkStcShortStrings185"
+      ],
+      "description": "SYS 1 SUCT TEMP"
+    },
+    {
+      "enum": [
+        186,
+        "yorkStcShortStrings186"
+      ],
+      "description": "SYS 1 OIL TEMP"
+    },
+    {
+      "enum": [
+        187,
+        "yorkStcShortStrings187"
+      ],
+      "description": "SYS 2 OIL TEMP"
+    },
+    {
+      "enum": [
+        188,
+        "yorkStcShortStrings188"
+      ],
+      "description": "SYS 1 FLASH TANK FEED VALVE PCT"
+    },
+    {
+      "enum": [
+        189,
+        "yorkStcShortStrings189"
+      ],
+      "description": "SYS 2 FLASH TANK FEED VALVE PCT"
+    },
+    {
+      "enum": [
+        190,
+        "yorkStcShortStrings190"
+      ],
+      "description": "SYS 1 ECON VALVE STATUS"
+    },
+    {
+      "enum": [
+        191,
+        "yorkStcShortStrings191"
+      ],
+      "description": "SYS 2 ECON VALVE STATUS"
+    },
+    {
+      "enum": [
+        192,
+        "yorkStcShortStrings192"
+      ],
+      "description": "SYS 1 FLASH TANK LEVEL PCT"
+    },
+    {
+      "enum": [
+        193,
+        "yorkStcShortStrings193"
+      ],
+      "description": "SYS 2 FLASH TANK LEVEL PCT"
+    },
+    {
+      "enum": [
+        194,
+        "yorkStcShortStrings194"
+      ],
+      "description": "SYS 1 FLASH TANK DRAIN VALVE PCT"
+    },
+    {
+      "enum": [
+        195,
+        "yorkStcShortStrings195"
+      ],
+      "description": "SYS 2 FLASH TANK DRAIN VALVE PCT"
+    },
+    {
+      "enum": [
+        196,
+        "yorkStcShortStrings196"
+      ],
+      "description": "SYS 3 SUCT TEMP"
+    },
+    {
+      "enum": [
+        197,
+        "yorkStcShortStrings197"
+      ],
+      "description": "SYS 3 DISCH TEMP"
+    },
+    {
+      "enum": [
+        198,
+        "yorkStcShortStrings198"
+      ],
+      "description": "SYS 3 OIL TEMP"
+    },
+    {
+      "enum": [
+        199,
+        "yorkStcShortStrings199"
+      ],
+      "description": "SYS 3 OIL PRESS"
+    },
+    {
+      "enum": [
+        200,
+        "yorkStcShortStrings200"
+      ],
+      "description": "SYS 3 SUCT PRESS"
+    },
+    {
+      "enum": [
+        201,
+        "yorkStcShortStrings201"
+      ],
+      "description": "SYS 3 DISCH PRESS"
+    },
+    {
+      "enum": [
+        202,
+        "yorkStcShortStrings202"
+      ],
+      "description": "SYS 3 COMP PCT FLA"
+    },
+    {
+      "enum": [
+        203,
+        "yorkStcShortStrings203"
+      ],
+      "description": "SYS 3 HOURS"
+    },
+    {
+      "enum": [
+        204,
+        "yorkStcShortStrings204"
+      ],
+      "description": "SYS 3 STARTS"
+    },
+    {
+      "enum": [
+        205,
+        "yorkStcShortStrings205"
+      ],
+      "description": "SYS 3 HIGHEST MOTOR TEMP"
+    },
+    {
+      "enum": [
+        206,
+        "yorkStcShortStrings206"
+      ],
+      "description": "SYS 4 HIGHEST MOTOR TEMP"
+    },
+    {
+      "enum": [
+        207,
+        "yorkStcShortStrings207"
+      ],
+      "description": "SYS 4 OIL TEMP"
+    },
+    {
+      "enum": [
+        208,
+        "yorkStcShortStrings208"
+      ],
+      "description": "SYS 4 OIL PRESS"
+    },
+    {
+      "enum": [
+        209,
+        "yorkStcShortStrings209"
+      ],
+      "description": "SYS 4 SUCT PRESS"
+    },
+    {
+      "enum": [
+        210,
+        "yorkStcShortStrings210"
+      ],
+      "description": "SYS 4 DISCH PRESS"
+    },
+    {
+      "enum": [
+        211,
+        "yorkStcShortStrings211"
+      ],
+      "description": "SYS 4 COMP PCT FLA"
+    },
+    {
+      "enum": [
+        212,
+        "yorkStcShortStrings212"
+      ],
+      "description": "SYS 4 HOURS"
+    },
+    {
+      "enum": [
+        213,
+        "yorkStcShortStrings213"
+      ],
+      "description": "SYS 4 STARTS"
+    },
+    {
+      "enum": [
+        214,
+        "yorkStcShortStrings214"
+      ],
+      "description": "VSD 2 OUTPUT FREQUENCY"
+    },
+    {
+      "enum": [
+        215,
+        "yorkStcShortStrings215"
+      ],
+      "description": "SYS 3 FLASH TANK FEED VALVE PCT"
+    },
+    {
+      "enum": [
+        216,
+        "yorkStcShortStrings216"
+      ],
+      "description": "SYS 4 FLASH TANK FEED VALVE PCT"
+    },
+    {
+      "enum": [
+        217,
+        "yorkStcShortStrings217"
+      ],
+      "description": "SYS 3 COMP RUN STATUS"
+    },
+    {
+      "enum": [
+        218,
+        "yorkStcShortStrings218"
+      ],
+      "description": "SYS 4 COMP RUN STATUS"
+    },
+    {
+      "enum": [
+        219,
+        "yorkStcShortStrings219"
+      ],
+      "description": "SYS 3 ECON VALVE STATUS"
+    },
+    {
+      "enum": [
+        220,
+        "yorkStcShortStrings220"
+      ],
+      "description": "SYS 4 ECON VALVE STATUS"
+    },
+    {
+      "enum": [
+        221,
+        "yorkStcShortStrings221"
+      ],
+      "description": "SYS 3 OPERATIONAL CODE"
+    },
+    {
+      "enum": [
+        222,
+        "yorkStcShortStrings222"
+      ],
+      "description": "SYS 3 FAULT CODE"
+    },
+    {
+      "enum": [
+        223,
+        "yorkStcShortStrings223"
+      ],
+      "description": "SYS 4 OPERATIONAL CODE"
+    },
+    {
+      "enum": [
+        224,
+        "yorkStcShortStrings224"
+      ],
+      "description": "SYS 4 FAULT CODE"
+    },
+    {
+      "enum": [
+        225,
+        "yorkStcShortStrings225"
+      ],
+      "description": "SYS 3 FLASH TANK LEVEL PCT"
+    },
+    {
+      "enum": [
+        226,
+        "yorkStcShortStrings226"
+      ],
+      "description": "SYS 3 COND FAN STAGES RUN"
+    },
+    {
+      "enum": [
+        227,
+        "yorkStcShortStrings227"
+      ],
+      "description": "SYS 4 FLASH TANK LEVEL PCT"
+    },
+    {
+      "enum": [
+        228,
+        "yorkStcShortStrings228"
+      ],
+      "description": "SYS 4 COND FAN STAGES RUN"
+    },
+    {
+      "enum": [
+        229,
+        "yorkStcShortStrings229"
+      ],
+      "description": "SYS 3 FLASH TANK DRAIN VALVE PCT"
+    },
+    {
+      "enum": [
+        230,
+        "yorkStcShortStrings230"
+      ],
+      "description": "SYS 4 FLASH TANK DRAIN VALVE PCT"
+    },
+    {
+      "enum": [
+        231,
+        "yorkStcShortStrings231"
+      ],
+      "description": "VSD DC BUS VOLT 2"
+    },
+    {
+      "enum": [
+        232,
+        "yorkStcShortStrings232"
+      ],
+      "description": "SYS 3 SUCT SUPERHEAT"
+    },
+    {
+      "enum": [
+        233,
+        "yorkStcShortStrings233"
+      ],
+      "description": "SYS 3 DISCH SUPERHEAT"
+    },
+    {
+      "enum": [
+        234,
+        "yorkStcShortStrings234"
+      ],
+      "description": "SYS 4 SUCT TEMP"
+    },
+    {
+      "enum": [
+        235,
+        "yorkStcShortStrings235"
+      ],
+      "description": "SYS 4 DISCH TEMP"
+    },
+    {
+      "enum": [
+        236,
+        "yorkStcShortStrings236"
+      ],
+      "description": "SYS 4 SUCT SUPERHEAT"
+    },
+    {
+      "enum": [
+        237,
+        "yorkStcShortStrings237"
+      ],
+      "description": "SYS 4 DISCH SUPERHEAT"
+    },
+    {
+      "enum": [
+        238,
+        "yorkStcShortStrings238"
+      ],
+      "description": "SYS 3 LOCKOUT"
+    },
+    {
+      "enum": [
+        239,
+        "yorkStcShortStrings239"
+      ],
+      "description": "SYS 4 LOCKOUT"
+    },
+    {
+      "enum": [
+        240,
+        "yorkStcShortStrings240"
+      ],
+      "description": "SCC AUTO DETECT AVAILABLE"
+    },
+    {
+      "enum": [
+        241,
+        "yorkStcShortStrings241"
+      ],
+      "description": "EVAPORATOR LIQ TEMP"
+    },
+    {
+      "enum": [
+        242,
+        "yorkStcShortStrings242"
+      ],
+      "description": "SYS 1 RUN HOURS"
+    },
+    {
+      "enum": [
+        243,
+        "yorkStcShortStrings243"
+      ],
+      "description": "SYS 2 RUN HOURS"
+    },
+    {
+      "enum": [
+        244,
+        "yorkStcShortStrings244"
+      ],
+      "description": "SYS 1 COMP RUN"
+    },
+    {
+      "enum": [
+        245,
+        "yorkStcShortStrings245"
+      ],
+      "description": "SYS 1 SV MIN LOAD"
+    },
+    {
+      "enum": [
+        246,
+        "yorkStcShortStrings246"
+      ],
+      "description": "SYS 1 SV LOAD"
+    },
+    {
+      "enum": [
+        247,
+        "yorkStcShortStrings247"
+      ],
+      "description": "SYS 1 SV UNLOAD"
+    },
+    {
+      "enum": [
+        248,
+        "yorkStcShortStrings248"
+      ],
+      "description": "SYS 2 COMP RUN"
+    },
+    {
+      "enum": [
+        249,
+        "yorkStcShortStrings249"
+      ],
+      "description": "SYS 2 SV MIN LOAD"
+    },
+    {
+      "enum": [
+        250,
+        "yorkStcShortStrings250"
+      ],
+      "description": "SYS 2 SV LOAD"
+    },
+    {
+      "enum": [
+        251,
+        "yorkStcShortStrings251"
+      ],
+      "description": "SYS 2 SV UNLOAD"
+    },
+    {
+      "enum": [
+        252,
+        "yorkStcShortStrings252"
+      ],
+      "description": "REM HOT SETPOINT"
+    },
+    {
+      "enum": [
+        253,
+        "yorkStcShortStrings253"
+      ],
+      "description": "MIXED LIQ TEMP"
+    },
+    {
+      "enum": [
+        254,
+        "yorkStcShortStrings254"
+      ],
+      "description": "LEAVING HOT LIQ TEMP"
+    },
+    {
+      "enum": [
+        255,
+        "yorkStcShortStrings255"
+      ],
+      "description": "HOT LIQUID TEMP"
+    },
+    {
+      "enum": [
+        256,
+        "yorkStcShortStrings256"
+      ],
+      "description": "SYS 1 2 HOT LIQUID FLOW SWITCH"
+    },
+    {
+      "enum": [
+        257,
+        "yorkStcShortStrings257"
+      ],
+      "description": "SYS 1 DISCH COOLING SOL STATUS"
+    },
+    {
+      "enum": [
+        258,
+        "yorkStcShortStrings258"
+      ],
+      "description": "SYS 1 LIQUID LINE SOL STATUS"
+    },
+    {
+      "enum": [
+        259,
+        "yorkStcShortStrings259"
+      ],
+      "description": "SYS 1 OIL COOL SOL VALVE STATUS"
+    },
+    {
+      "enum": [
+        260,
+        "yorkStcShortStrings260"
+      ],
+      "description": "SYS 1 COND SOL VALVE STATUS"
+    },
+    {
+      "enum": [
+        261,
+        "yorkStcShortStrings261"
+      ],
+      "description": "SYS 1 HEAT REC SOL STATUS"
+    },
+    {
+      "enum": [
+        262,
+        "yorkStcShortStrings262"
+      ],
+      "description": "SYS 1 WYE DELTA RELAY"
+    },
+    {
+      "enum": [
+        263,
+        "yorkStcShortStrings263"
+      ],
+      "description": "SYS 2 DISCH COOLING SOL STATUS"
+    },
+    {
+      "enum": [
+        264,
+        "yorkStcShortStrings264"
+      ],
+      "description": "SYS 2 LIQUID LINE SOL STATUS"
+    },
+    {
+      "enum": [
+        265,
+        "yorkStcShortStrings265"
+      ],
+      "description": "SYS 2 OIL COOL SOL VALVE STATUS"
+    },
+    {
+      "enum": [
+        266,
+        "yorkStcShortStrings266"
+      ],
+      "description": "SYS 2 COND SOL VALVE STATUS"
+    },
+    {
+      "enum": [
+        267,
+        "yorkStcShortStrings267"
+      ],
+      "description": "SYS 2 HEAT REC SOL STATUS"
+    },
+    {
+      "enum": [
+        268,
+        "yorkStcShortStrings268"
+      ],
+      "description": "SYS 2 WYE DELTA RELAY"
+    },
+    {
+      "enum": [
+        269,
+        "yorkStcShortStrings269"
+      ],
+      "description": "SYS 3 4 HOT LIQ FLOW SWITCH"
+    },
+    {
+      "enum": [
+        270,
+        "yorkStcShortStrings270"
+      ],
+      "description": "AMBIENT CONTROL"
+    },
+    {
+      "enum": [
+        271,
+        "yorkStcShortStrings271"
+      ],
+      "description": "REFRIGERANT TYPE"
+    },
+    {
+      "enum": [
+        272,
+        "yorkStcShortStrings272"
+      ],
+      "description": "UNIT TYPE"
+    },
+    {
+      "enum": [
+        273,
+        "yorkStcShortStrings273"
+      ],
+      "description": "MOTOR CURRENT AVERAGING"
+    },
+    {
+      "enum": [
+        274,
+        "yorkStcShortStrings274"
+      ],
+      "description": "HEAT RECOVERY"
+    },
+    {
+      "enum": [
+        275,
+        "yorkStcShortStrings275"
+      ],
+      "description": "SYS 1 SLIDE VALVE STEP"
+    },
+    {
+      "enum": [
+        276,
+        "yorkStcShortStrings276"
+      ],
+      "description": "SYS 2 SLIDE VALVE STEP"
+    },
+    {
+      "enum": [
+        277,
+        "yorkStcShortStrings277"
+      ],
+      "description": "SYS 1 EEV PCT"
+    },
+    {
+      "enum": [
+        278,
+        "yorkStcShortStrings278"
+      ],
+      "description": "SYS 2 EEV PCT"
+    },
+    {
+      "enum": [
+        279,
+        "yorkStcShortStrings279"
+      ],
+      "description": "SYS 3 4 LEAVING HOT LIQ TEMP"
+    },
+    {
+      "enum": [
+        280,
+        "yorkStcShortStrings280"
+      ],
+      "description": "EXPANSION VALVE TYPE"
+    },
+    {
+      "enum": [
+        281,
+        "yorkStcShortStrings281"
+      ],
+      "description": "BASILDON OPTIONS"
+    },
+    {
+      "enum": [
+        282,
+        "yorkStcShortStrings282"
+      ],
+      "description": "LOCAL REMOTE SETPOINT"
+    },
+    {
+      "enum": [
+        283,
+        "yorkStcShortStrings283"
+      ],
+      "description": "SYS 3 ANTI RECYCLE TIMER"
+    },
+    {
+      "enum": [
+        284,
+        "yorkStcShortStrings284"
+      ],
+      "description": "SYS 4 ANTI RECYCLE TIMER"
+    },
+    {
+      "enum": [
+        285,
+        "yorkStcShortStrings285"
+      ],
+      "description": "SYS 3 COOLER INLET REF TEMP"
+    },
+    {
+      "enum": [
+        286,
+        "yorkStcShortStrings286"
+      ],
+      "description": "SYS 4 COOLER INLET REF TEMP"
+    },
+    {
+      "enum": [
+        287,
+        "yorkStcShortStrings287"
+      ],
+      "description": "SYS 3 DISCH COOLING SOL STATUS"
+    },
+    {
+      "enum": [
+        288,
+        "yorkStcShortStrings288"
+      ],
+      "description": "SYS 3 LIQUID LINE SOL STATUS"
+    },
+    {
+      "enum": [
+        289,
+        "yorkStcShortStrings289"
+      ],
+      "description": "SYS 3 COND SOL VALVE STATUS"
+    },
+    {
+      "enum": [
+        290,
+        "yorkStcShortStrings290"
+      ],
+      "description": "SYS 3 HEAT REC SOL VALVE STATUS"
+    },
+    {
+      "enum": [
+        291,
+        "yorkStcShortStrings291"
+      ],
+      "description": "SYS 3 WYE DELTA RELAY"
+    },
+    {
+      "enum": [
+        292,
+        "yorkStcShortStrings292"
+      ],
+      "description": "SYS 4 DISCH COOLING SOL STATUS"
+    },
+    {
+      "enum": [
+        293,
+        "yorkStcShortStrings293"
+      ],
+      "description": "SYS 4 LIQUID LINE SOL STATUS"
+    },
+    {
+      "enum": [
+        294,
+        "yorkStcShortStrings294"
+      ],
+      "description": "SYS 4 COND SOL VALVE STATUS"
+    },
+    {
+      "enum": [
+        295,
+        "yorkStcShortStrings295"
+      ],
+      "description": "SYS 4 HEAT REC SOL VALVE STATUS"
+    },
+    {
+      "enum": [
+        296,
+        "yorkStcShortStrings296"
+      ],
+      "description": "SYS 4 WYE DELTA RELAY"
+    },
+    {
+      "enum": [
+        297,
+        "yorkStcShortStrings297"
+      ],
+      "description": "SYS 3 SLIDE VALVE STEP"
+    },
+    {
+      "enum": [
+        298,
+        "yorkStcShortStrings298"
+      ],
+      "description": "SYS 4 SLIDE VALVE STEP"
+    },
+    {
+      "enum": [
+        299,
+        "yorkStcShortStrings299"
+      ],
+      "description": "SYS 3 EEV PCT"
+    },
+    {
+      "enum": [
+        300,
+        "yorkStcShortStrings300"
+      ],
+      "description": "SYS 4 EEV PCT"
+    },
+    {
+      "enum": [
+        301,
+        "yorkStcShortStrings301"
+      ],
+      "description": "MIX LIQ TEMP HOT LIQ TEMP"
+    },
+    {
+      "enum": [
+        302,
+        "yorkStcShortStrings302"
+      ],
+      "description": "SYS 1 ECON OIL C COND SOL STATUS"
+    },
+    {
+      "enum": [
+        303,
+        "yorkStcShortStrings303"
+      ],
+      "description": "SYS 2 ECON OIL C COND SOL STATUS"
+    },
+    {
+      "enum": [
+        304,
+        "yorkStcShortStrings304"
+      ],
+      "description": "SYS 1 HR SOL SYS 3 4 HOT LIQ FL SW"
+    },
+    {
+      "enum": [
+        305,
+        "yorkStcShortStrings305"
+      ],
+      "description": "SYS 3 ECON SOL COND SOL STATUS"
+    },
+    {
+      "enum": [
+        306,
+        "yorkStcShortStrings306"
+      ],
+      "description": "SYS 4 ECON SOL COND SOL STATUS"
+    },
+    {
+      "enum": [
+        307,
+        "yorkStcShortStrings307"
+      ],
+      "description": "SYS 2 HEAT REC SOL"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/actFeedbackTypeEnumSet.schema.json",
+  "title": "actFeedbackTypeEnumSet",
+  "description": "Act Feedback Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "2 Wire"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "3 Wire"
+    }
+  ]
+}

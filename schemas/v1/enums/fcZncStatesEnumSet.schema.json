@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fcZncStatesEnumSet.schema.json",
+  "title": "fcZncStatesEnumSet",
+  "description": "FC ZNC States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "zncStatesHtg"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        1,
+        "zncStatesSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        2,
+        "zncStatesClg"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        3,
+        "zncStatesTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    }
+  ]
+}

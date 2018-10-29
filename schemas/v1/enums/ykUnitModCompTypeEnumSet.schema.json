@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykUnitModCompTypeEnumSet.schema.json",
+  "title": "ykUnitModCompTypeEnumSet",
+  "description": "YK Unit Mod Compressor Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykUnitModCompType0"
+      ],
+      "description": "YK Mod CDE / GHJ Comp"
+    },
+    {
+      "enum": [
+        1,
+        "ykUnitModCompType1"
+      ],
+      "description": "YK Mod E / P Comp"
+    },
+    {
+      "enum": [
+        2,
+        "ykUnitModCompType2"
+      ],
+      "description": "YK Mod F / GH5-8 Comp"
+    },
+    {
+      "enum": [
+        3,
+        "ykUnitModCompType3"
+      ],
+      "description": "YK Mod F / J1-5H3 Comp"
+    },
+    {
+      "enum": [
+        4,
+        "ykUnitModCompType4"
+      ],
+      "description": "YK Mod FGH / PQVH9 Comp"
+    },
+    {
+      "enum": [
+        5,
+        "ykUnitModCompType5"
+      ],
+      "description": "YK Mod F / J7 Comp"
+    },
+    {
+      "enum": [
+        6,
+        "ykUnitModCompType6"
+      ],
+      "description": "YK Mod GH / K1-K4 Comp"
+    },
+    {
+      "enum": [
+        7,
+        "ykUnitModCompType7"
+      ],
+      "description": "YK Mod GH / K6-K7 Comp"
+    },
+    {
+      "enum": [
+        8,
+        "ykUnitModCompType8"
+      ],
+      "description": "YK Mod GH / U1-2 Comp"
+    },
+    {
+      "enum": [
+        9,
+        "ykUnitModCompType9"
+      ],
+      "description": "YK Mod GH / U3-4,7 Comp"
+    }
+  ]
+}

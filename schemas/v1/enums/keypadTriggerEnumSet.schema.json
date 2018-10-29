@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/keypadTriggerEnumSet.schema.json",
+  "title": "keypadTriggerEnumSet",
+  "description": "Keypad Trigger",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "keypadTriggerPoundKeyOnly"
+      ],
+      "description": "Pound Key Only"
+    },
+    {
+      "enum": [
+        1,
+        "keypadTriggerPrimaryChannel"
+      ],
+      "description": "Primary Channel"
+    },
+    {
+      "enum": [
+        2,
+        "keypadTriggerSecondaryChannel"
+      ],
+      "description": "Secondary Channel"
+    },
+    {
+      "enum": [
+        3,
+        "keypadTriggerAnyChannel"
+      ],
+      "description": "Any Channel"
+    },
+    {
+      "enum": [
+        4,
+        "keypadTriggerAllChannels"
+      ],
+      "description": "All Channels"
+    }
+  ]
+}

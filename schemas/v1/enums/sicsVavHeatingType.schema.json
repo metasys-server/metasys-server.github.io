@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sicsVavHeatingType.schema.json",
+  "title": "sicsVavHeatingType",
+  "description": "SICS VAV Heating Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavHtgNone"
+      ],
+      "description": "No Heat"
+    },
+    {
+      "enum": [
+        1,
+        "vavHtg1StgElectric"
+      ],
+      "description": "1 Stage Electric"
+    },
+    {
+      "enum": [
+        2,
+        "vavHtg2StgElectric"
+      ],
+      "description": "2 Stage Electric"
+    },
+    {
+      "enum": [
+        3,
+        "vavHtgModHwVlv"
+      ],
+      "description": "Modulating Hot Water Valve"
+    },
+    {
+      "enum": [
+        4,
+        "vavHtg3StgElectric"
+      ],
+      "description": "3 Stage Electric"
+    }
+  ]
+}

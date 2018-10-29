@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/commandChangeEnumSet.schema.json",
+  "title": "commandChangeEnumSet",
+  "description": "Command Change",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cceEnable"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        1,
+        "cceDisable"
+      ],
+      "description": "Disable"
+    },
+    {
+      "enum": [
+        2,
+        "cceAbort"
+      ],
+      "description": "Abort"
+    },
+    {
+      "enum": [
+        3,
+        "cceDelete"
+      ],
+      "description": "Delete"
+    }
+  ]
+}

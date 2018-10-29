@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seUnOpp.schema.json",
+  "title": "seUnOpp",
+  "description": "SE RTU Unoccupied Operation State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seUnOppNotUnocc"
+      ],
+      "description": "Not Unoccupied"
+    },
+    {
+      "enum": [
+        1,
+        "seUnOppTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    },
+    {
+      "enum": [
+        2,
+        "seUnOppUnoccHtgClgCheck"
+      ],
+      "description": "Unoccupied Htg/Clg Check"
+    },
+    {
+      "enum": [
+        3,
+        "seUnOppOff"
+      ],
+      "description": "Off"
+    }
+  ]
+}

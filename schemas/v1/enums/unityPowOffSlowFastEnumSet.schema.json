@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityPowOffSlowFastEnumSet.schema.json",
+  "title": "unityPowOffSlowFastEnumSet",
+  "description": "Unity POW Off/Slow/Fast",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "SLOW"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "OFF"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "FAST"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MANUAL, SLOW"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "MANUAL, OFF"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "MANUAL, FAST"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

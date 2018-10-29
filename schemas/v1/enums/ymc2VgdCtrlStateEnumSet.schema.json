@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymc2VgdCtrlStateEnumSet.schema.json",
+  "title": "ymc2VgdCtrlStateEnumSet",
+  "description": "YMC2 VGD Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymc2VgdCtrlStateUnused0"
+      ],
+      "description": "[Unused 0]"
+    },
+    {
+      "enum": [
+        1,
+        "ymc2VgdCtrlStateProbingOrCapacityControl"
+      ],
+      "description": "Probing or Capacity Control"
+    },
+    {
+      "enum": [
+        2,
+        "ymc2VgdCtrlStateStallReacting"
+      ],
+      "description": "Stall Reacting"
+    },
+    {
+      "enum": [
+        3,
+        "ymc2VgdCtrlStateStallWaiting"
+      ],
+      "description": "Stall Waiting"
+    },
+    {
+      "enum": [
+        4,
+        "ymc2VgdCtrlStateSurgeReacting"
+      ],
+      "description": "Surge Reacting"
+    },
+    {
+      "enum": [
+        5,
+        "ymc2VgdCtrlStateSurgeWaiting"
+      ],
+      "description": "Surge Waiting"
+    },
+    {
+      "enum": [
+        6,
+        "ymc2VgdCtrlStateSensorOverride"
+      ],
+      "description": "Sensor Override"
+    },
+    {
+      "enum": [
+        7,
+        "ymc2VgdCtrlStateUnused7"
+      ],
+      "description": "[Unused 7]"
+    },
+    {
+      "enum": [
+        8,
+        "ymc2VgdCtrlStatePrvPositionOverride"
+      ],
+      "description": "PRV Position Override"
+    }
+  ]
+}

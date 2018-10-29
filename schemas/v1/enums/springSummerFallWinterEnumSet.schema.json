@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/springSummerFallWinterEnumSet.schema.json",
+  "title": "springSummerFallWinterEnumSet",
+  "description": "Spring/Summer/Fall/Winter",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "springSummerFallWinterSpring"
+      ],
+      "description": "Spring"
+    },
+    {
+      "enum": [
+        1,
+        "springSummerFallWinterSummer"
+      ],
+      "description": "Summer"
+    },
+    {
+      "enum": [
+        2,
+        "springSummerFallWinterFall"
+      ],
+      "description": "Fall"
+    },
+    {
+      "enum": [
+        3,
+        "springSummerFallWinterWinter"
+      ],
+      "description": "Winter"
+    }
+  ]
+}

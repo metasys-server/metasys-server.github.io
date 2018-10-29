@@ -1,0 +1,1275 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dataModelViewIdEnumSet.schema.json",
+  "title": "dataModelViewIdEnumSet",
+  "description": "Data Model View Identifiers",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dmViewIdStatusView"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        1,
+        "dmViewIdSummaryView"
+      ],
+      "description": "Summary"
+    },
+    {
+      "enum": [
+        2,
+        "dmViewIdCommisionView"
+      ],
+      "description": "Commissioning"
+    },
+    {
+      "enum": [
+        3,
+        "dmViewIdControllerView"
+      ],
+      "description": "Controller"
+    },
+    {
+      "enum": [
+        4,
+        "dmViewIdDetailsView"
+      ],
+      "description": "Details"
+    },
+    {
+      "enum": [
+        5,
+        "dmViewIdCloneView"
+      ],
+      "description": "Clone"
+    },
+    {
+      "enum": [
+        6,
+        "dmViewIdCloneFullView"
+      ],
+      "description": "Full Clone"
+    },
+    {
+      "enum": [
+        7,
+        "dmViewIdClonePartial1View"
+      ],
+      "description": "Partial Clone 1"
+    },
+    {
+      "enum": [
+        8,
+        "dmViewIdBacnetObjs"
+      ],
+      "description": "BACnet Objects"
+    },
+    {
+      "enum": [
+        9,
+        "dmViewIdNetworkOverride"
+      ],
+      "description": "Network Override"
+    },
+    {
+      "enum": [
+        10,
+        "dmViewIdSelfTestResults"
+      ],
+      "description": "Self Test Results"
+    },
+    {
+      "enum": [
+        11,
+        "dmViewIdSetpoints"
+      ],
+      "description": "Setpoints"
+    },
+    {
+      "enum": [
+        12,
+        "dmViewIdScheduling"
+      ],
+      "description": "Schedule Options"
+    },
+    {
+      "enum": [
+        13,
+        "dmViewIdUiSetup"
+      ],
+      "description": "Display Settings"
+    },
+    {
+      "enum": [
+        14,
+        "dmViewIdControlSetup"
+      ],
+      "description": "Control Setup"
+    },
+    {
+      "enum": [
+        15,
+        "dmViewIdNetworkSetup"
+      ],
+      "description": "Network Setup"
+    },
+    {
+      "enum": [
+        16,
+        "dmViewIdEquipmentSetup"
+      ],
+      "description": "Equipment Setup"
+    },
+    {
+      "enum": [
+        17,
+        "dmViewIdBoardSetup"
+      ],
+      "description": "Board Setup"
+    },
+    {
+      "enum": [
+        18,
+        "dmViewIdGeneralControlStatus"
+      ],
+      "description": "System Status"
+    },
+    {
+      "enum": [
+        19,
+        "dmViewIdAdvancedControlStatus"
+      ],
+      "description": "Control Status"
+    },
+    {
+      "enum": [
+        20,
+        "dmViewIdFaultsStatus"
+      ],
+      "description": "Faults Status"
+    },
+    {
+      "enum": [
+        21,
+        "dmViewIdCommsStatus"
+      ],
+      "description": "Comms Status"
+    },
+    {
+      "enum": [
+        22,
+        "dmViewIdInputs"
+      ],
+      "description": "Inputs"
+    },
+    {
+      "enum": [
+        23,
+        "dmViewIdGeneral"
+      ],
+      "description": "General"
+    },
+    {
+      "enum": [
+        24,
+        "dmViewIdTrend"
+      ],
+      "description": "Trend"
+    },
+    {
+      "enum": [
+        25,
+        "dmViewIdSchedule"
+      ],
+      "description": "Set Schedule"
+    },
+    {
+      "enum": [
+        26,
+        "dmViewIdControllerInfo"
+      ],
+      "description": "Controller Info"
+    },
+    {
+      "enum": [
+        27,
+        "dmViewIdFirmwareDiagnostics"
+      ],
+      "description": "Firmware Diagnostics"
+    },
+    {
+      "enum": [
+        28,
+        "dmViewIdSystemStatus"
+      ],
+      "description": "System Status"
+    },
+    {
+      "enum": [
+        29,
+        "dmViewIdHome"
+      ],
+      "description": "Home"
+    },
+    {
+      "enum": [
+        30,
+        "dmViewIdEvaporator"
+      ],
+      "description": "Evaporator"
+    },
+    {
+      "enum": [
+        31,
+        "dmViewIdCondenser"
+      ],
+      "description": "Condenser"
+    },
+    {
+      "enum": [
+        32,
+        "dmViewIdCompressor"
+      ],
+      "description": "Compressor"
+    },
+    {
+      "enum": [
+        33,
+        "dmViewIdCapacityControl"
+      ],
+      "description": "Capacity Control"
+    },
+    {
+      "enum": [
+        34,
+        "dmViewIdVsd"
+      ],
+      "description": "VSD"
+    },
+    {
+      "enum": [
+        35,
+        "dmViewIdConfiguration"
+      ],
+      "description": "Configuration"
+    },
+    {
+      "enum": [
+        36,
+        "dmViewIdSalesOrder"
+      ],
+      "description": "Sales Order"
+    },
+    {
+      "enum": [
+        37,
+        "dmViewIdSystem"
+      ],
+      "description": "System"
+    },
+    {
+      "enum": [
+        38,
+        "dmViewIdUnitData"
+      ],
+      "description": "Unit Data"
+    },
+    {
+      "enum": [
+        39,
+        "dmViewIdSystem1Data"
+      ],
+      "description": "System 1 Data"
+    },
+    {
+      "enum": [
+        40,
+        "dmViewIdSystem2Data"
+      ],
+      "description": "System 2 Data"
+    },
+    {
+      "enum": [
+        41,
+        "dmViewIdVsdData"
+      ],
+      "description": "VSD Data"
+    },
+    {
+      "enum": [
+        42,
+        "dmViewIdOpHrsStartCntr"
+      ],
+      "description": "Operating Hours, start Counter"
+    },
+    {
+      "enum": [
+        43,
+        "dmViewIdProgram"
+      ],
+      "description": "Program"
+    },
+    {
+      "enum": [
+        44,
+        "dmViewIdOptions"
+      ],
+      "description": "Options"
+    },
+    {
+      "enum": [
+        45,
+        "dmViewIdSetting"
+      ],
+      "description": "Setting"
+    },
+    {
+      "enum": [
+        46,
+        "dmViewIdYork011"
+      ],
+      "description": "YORK011"
+    },
+    {
+      "enum": [
+        47,
+        "dmViewId1York013"
+      ],
+      "description": "1# YORK013"
+    },
+    {
+      "enum": [
+        48,
+        "dmViewId2York013"
+      ],
+      "description": "2# YORK013"
+    },
+    {
+      "enum": [
+        49,
+        "dmViewIdFaultSnapshot"
+      ],
+      "description": "Fault Snapshot"
+    },
+    {
+      "enum": [
+        50,
+        "dmViewIdMotorControl"
+      ],
+      "description": "Motor Controller / Motor"
+    },
+    {
+      "enum": [
+        51,
+        "dmViewIdScEquipData"
+      ],
+      "description": "SC-Equip Data"
+    },
+    {
+      "enum": [
+        52,
+        "dmViewIdSchedules"
+      ],
+      "description": "Schedule"
+    },
+    {
+      "enum": [
+        53,
+        "dmViewIdChangeover"
+      ],
+      "description": "Changeover"
+    },
+    {
+      "enum": [
+        54,
+        "dmViewIdOilSystem"
+      ],
+      "description": "Oil System"
+    },
+    {
+      "enum": [
+        55,
+        "dmViewId01York003"
+      ],
+      "description": "1#YORK003"
+    },
+    {
+      "enum": [
+        56,
+        "dmViewId02York003"
+      ],
+      "description": "2#YORK003"
+    },
+    {
+      "enum": [
+        57,
+        "dmViewIdEconSystem"
+      ],
+      "description": "Economizer System"
+    },
+    {
+      "enum": [
+        58,
+        "dmViewIdEconCompressor"
+      ],
+      "description": "Economizer Compressor"
+    },
+    {
+      "enum": [
+        59,
+        "dmViewIdEconMotor"
+      ],
+      "description": "Economizer Motor"
+    },
+    {
+      "enum": [
+        60,
+        "dmViewIdEconConfiguration"
+      ],
+      "description": "Economizer Configuration"
+    },
+    {
+      "enum": [
+        61,
+        "dmViewIdEconSalesOrder"
+      ],
+      "description": "Economizer Sales Order"
+    },
+    {
+      "enum": [
+        62,
+        "dmViewIdSelfTest"
+      ],
+      "description": "Self Test"
+    },
+    {
+      "enum": [
+        63,
+        "dmViewIdCalibrate"
+      ],
+      "description": "Calibrate"
+    },
+    {
+      "enum": [
+        64,
+        "dmViewIdSystemInfo"
+      ],
+      "description": "System Info"
+    },
+    {
+      "enum": [
+        65,
+        "dmViewIdSystemSettings"
+      ],
+      "description": "System Settings"
+    },
+    {
+      "enum": [
+        66,
+        "dmViewIdStatusSection1"
+      ],
+      "description": "Status Section 1"
+    },
+    {
+      "enum": [
+        67,
+        "dmViewIdDataSection1"
+      ],
+      "description": "Data Section 1"
+    },
+    {
+      "enum": [
+        68,
+        "dmViewIdStatusSection2"
+      ],
+      "description": "Status Section 2"
+    },
+    {
+      "enum": [
+        69,
+        "dmViewIdDataSection2"
+      ],
+      "description": "Data Section 2"
+    },
+    {
+      "enum": [
+        70,
+        "dmViewIdDamperSetup"
+      ],
+      "description": "Damper Setup"
+    },
+    {
+      "enum": [
+        71,
+        "dmViewIdDemandVentilationSetup"
+      ],
+      "description": "Demand Ventilation Setup"
+    },
+    {
+      "enum": [
+        72,
+        "dmViewIdLoadShedSetup"
+      ],
+      "description": "Load Shed Setup"
+    },
+    {
+      "enum": [
+        73,
+        "dmViewIdGeneralSetup"
+      ],
+      "description": "General Setup"
+    },
+    {
+      "enum": [
+        74,
+        "dmViewIdBalance"
+      ],
+      "description": "Balance"
+    },
+    {
+      "enum": [
+        75,
+        "dmViewIdBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        76,
+        "dmViewIdService"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        77,
+        "dmViewIdOperatingData"
+      ],
+      "description": "Operating Data"
+    },
+    {
+      "enum": [
+        78,
+        "dmViewIdSystem3Data"
+      ],
+      "description": "System 3 Data"
+    },
+    {
+      "enum": [
+        79,
+        "dmViewIdSystem4Data"
+      ],
+      "description": "System 4 Data"
+    },
+    {
+      "enum": [
+        80,
+        "dmViewIdNetworkCommands"
+      ],
+      "description": "Network Commands"
+    },
+    {
+      "enum": [
+        81,
+        "dmViewIdOverview"
+      ],
+      "description": "Overview"
+    },
+    {
+      "enum": [
+        82,
+        "dmViewIdFlow"
+      ],
+      "description": "Flow"
+    },
+    {
+      "enum": [
+        83,
+        "dmViewIdTemperature"
+      ],
+      "description": "Temperature"
+    },
+    {
+      "enum": [
+        84,
+        "dmViewIdDcv"
+      ],
+      "description": "DCV"
+    },
+    {
+      "enum": [
+        85,
+        "dmViewIdBbmd"
+      ],
+      "description": "BBMD"
+    },
+    {
+      "enum": [
+        86,
+        "dmViewIdAuroraUnit1Data"
+      ],
+      "description": "Aurora Unit 1 Data"
+    },
+    {
+      "enum": [
+        87,
+        "dmViewIdAuroraUnit2Data"
+      ],
+      "description": "Aurora Unit 2 Data"
+    },
+    {
+      "enum": [
+        88,
+        "dmViewIdAmbientTemp"
+      ],
+      "description": "Ambient Temp"
+    },
+    {
+      "enum": [
+        89,
+        "dmViewIdMotorCurrent"
+      ],
+      "description": "Motor Current"
+    },
+    {
+      "enum": [
+        90,
+        "dmViewIdDiagnostics"
+      ],
+      "description": "Diagnostics"
+    },
+    {
+      "enum": [
+        91,
+        "dmViewIdModASss"
+      ],
+      "description": "Mod 'A' Solid State Starter"
+    },
+    {
+      "enum": [
+        92,
+        "dmViewIdModBSss"
+      ],
+      "description": "Mod 'B' Solid State Starter"
+    },
+    {
+      "enum": [
+        93,
+        "dmViewIdEvaporatorAbsorber"
+      ],
+      "description": "Evaporator|Absorber"
+    },
+    {
+      "enum": [
+        94,
+        "dmViewIdGeneratorCondenser"
+      ],
+      "description": "Generator|Condenser"
+    },
+    {
+      "enum": [
+        95,
+        "dmViewIdPurgeSystem"
+      ],
+      "description": "Purge System"
+    },
+    {
+      "enum": [
+        96,
+        "dmViewIdOilSeparator"
+      ],
+      "description": "Oil Separator"
+    },
+    {
+      "enum": [
+        97,
+        "dmViewIdOilSump"
+      ],
+      "description": "Oil Sump"
+    },
+    {
+      "enum": [
+        98,
+        "dmViewIdSteamSystem"
+      ],
+      "description": "Steam System"
+    },
+    {
+      "enum": [
+        99,
+        "dmViewIdCondensate"
+      ],
+      "description": "Condensate"
+    },
+    {
+      "enum": [
+        100,
+        "dmViewIdCpoEquipData"
+      ],
+      "description": "CPO-Equip Data"
+    },
+    {
+      "enum": [
+        101,
+        "dmViewIdCh1Input"
+      ],
+      "description": "Chiller 1 Input"
+    },
+    {
+      "enum": [
+        102,
+        "dmViewIdCh2Input"
+      ],
+      "description": "Chiller 2 Input"
+    },
+    {
+      "enum": [
+        103,
+        "dmViewIdCh3Input"
+      ],
+      "description": "Chiller 3 Input"
+    },
+    {
+      "enum": [
+        104,
+        "dmViewIdCh4Input"
+      ],
+      "description": "Chiller 4 Input"
+    },
+    {
+      "enum": [
+        105,
+        "dmViewIdChilledWater"
+      ],
+      "description": "Chilled Water"
+    },
+    {
+      "enum": [
+        106,
+        "dmViewIdChillerPlant"
+      ],
+      "description": "Chiller Plant"
+    },
+    {
+      "enum": [
+        107,
+        "dmViewIdCondenserWater"
+      ],
+      "description": "Condenser Water"
+    },
+    {
+      "enum": [
+        108,
+        "dmViewIdCoolingTower"
+      ],
+      "description": "Cooling Tower"
+    },
+    {
+      "enum": [
+        109,
+        "dmViewIdOutportData"
+      ],
+      "description": "Outport Data"
+    },
+    {
+      "enum": [
+        110,
+        "dmViewIdTowerControl"
+      ],
+      "description": "Tower Control"
+    },
+    {
+      "enum": [
+        111,
+        "dmViewIdTower1"
+      ],
+      "description": "Tower 1"
+    },
+    {
+      "enum": [
+        112,
+        "dmViewIdTower2"
+      ],
+      "description": "Tower 2"
+    },
+    {
+      "enum": [
+        113,
+        "dmViewIdTower3"
+      ],
+      "description": "Tower 3"
+    },
+    {
+      "enum": [
+        114,
+        "dmViewIdTower4"
+      ],
+      "description": "Tower 4"
+    },
+    {
+      "enum": [
+        115,
+        "dmViewIdChwPumpControl"
+      ],
+      "description": "CHW Pump Control"
+    },
+    {
+      "enum": [
+        116,
+        "dmViewIdChwPump1"
+      ],
+      "description": "CHW Pump 1"
+    },
+    {
+      "enum": [
+        117,
+        "dmViewIdChwPump2"
+      ],
+      "description": "CHW Pump 2"
+    },
+    {
+      "enum": [
+        118,
+        "dmViewIdChwPump3"
+      ],
+      "description": "CHW Pump 3"
+    },
+    {
+      "enum": [
+        119,
+        "dmViewIdChwPump4"
+      ],
+      "description": "CHW Pump 4"
+    },
+    {
+      "enum": [
+        120,
+        "dmViewIdCwPumpControl"
+      ],
+      "description": "CW Pump Control"
+    },
+    {
+      "enum": [
+        121,
+        "dmViewIdCwPump1"
+      ],
+      "description": "CW Pump 1"
+    },
+    {
+      "enum": [
+        122,
+        "dmViewIdCwPump2"
+      ],
+      "description": "CW Pump 2"
+    },
+    {
+      "enum": [
+        123,
+        "dmViewIdCwPump3"
+      ],
+      "description": "CW Pump 3"
+    },
+    {
+      "enum": [
+        124,
+        "dmViewIdCwPump4"
+      ],
+      "description": "CW Pump 4"
+    },
+    {
+      "enum": [
+        125,
+        "dmViewIdChillerControl"
+      ],
+      "description": "Chiller Control"
+    },
+    {
+      "enum": [
+        126,
+        "dmViewIdChiller1"
+      ],
+      "description": "Chiller 1"
+    },
+    {
+      "enum": [
+        127,
+        "dmViewIdChiller2"
+      ],
+      "description": "Chiller 2"
+    },
+    {
+      "enum": [
+        128,
+        "dmViewIdChiller3"
+      ],
+      "description": "Chiller 3"
+    },
+    {
+      "enum": [
+        129,
+        "dmViewIdChiller4"
+      ],
+      "description": "Chiller 4"
+    },
+    {
+      "enum": [
+        130,
+        "dmViewIdChillerFlowCalculator"
+      ],
+      "description": "Chiller Flow Calculator"
+    },
+    {
+      "enum": [
+        131,
+        "dmViewIdFlowMeter"
+      ],
+      "description": "Flow Meter"
+    },
+    {
+      "enum": [
+        132,
+        "dmViewIdForcedUpstage"
+      ],
+      "description": "Forced Upstage"
+    },
+    {
+      "enum": [
+        133,
+        "dmViewIdInterlock"
+      ],
+      "description": "Interlock"
+    },
+    {
+      "enum": [
+        134,
+        "dmViewIdMinFlow"
+      ],
+      "description": "Min Flow"
+    },
+    {
+      "enum": [
+        135,
+        "dmViewIdChillerSelector"
+      ],
+      "description": "Chiller Selector"
+    },
+    {
+      "enum": [
+        136,
+        "dmViewIdChillerSelectorOutput"
+      ],
+      "description": "Chiller Selector Output"
+    },
+    {
+      "enum": [
+        137,
+        "dmViewIdChwSupplyTempCalculator"
+      ],
+      "description": "CHW Supply Temp Calculator"
+    },
+    {
+      "enum": [
+        138,
+        "dmViewIdChwSupplyReturnCalculator"
+      ],
+      "description": "CHW Supply Return Calculator"
+    },
+    {
+      "enum": [
+        139,
+        "dmViewIdCwSupplyTempCalculator"
+      ],
+      "description": "CW Supply Temp Calculator"
+    },
+    {
+      "enum": [
+        140,
+        "dmViewIdBypassValveControl"
+      ],
+      "description": "Bypass Valve Control"
+    },
+    {
+      "enum": [
+        141,
+        "dmViewIdCwSequencerTowerControls"
+      ],
+      "description": "CW Sequencer Tower controls"
+    },
+    {
+      "enum": [
+        142,
+        "dmViewIdTowerInterlock"
+      ],
+      "description": "Tower Interlock"
+    },
+    {
+      "enum": [
+        143,
+        "dmViewIdOpenLoopTowerControl"
+      ],
+      "description": "Open Loop Tower Control"
+    },
+    {
+      "enum": [
+        144,
+        "dmViewIdTowerSelector"
+      ],
+      "description": "Tower Selector"
+    },
+    {
+      "enum": [
+        145,
+        "dmViewIdTowerStartDetermination"
+      ],
+      "description": "Tower Start Determination"
+    },
+    {
+      "enum": [
+        146,
+        "dmViewIdChwPumpInterlock"
+      ],
+      "description": "CHW Pump Interlock"
+    },
+    {
+      "enum": [
+        147,
+        "dmViewIdChwPumpSelector"
+      ],
+      "description": "CHW Pump Selector"
+    },
+    {
+      "enum": [
+        148,
+        "dmViewIdChwDpPumpControl"
+      ],
+      "description": "CHW DP Pump Control"
+    },
+    {
+      "enum": [
+        149,
+        "dmViewIdCwPumpInterlock"
+      ],
+      "description": "CW Pump Interlock"
+    },
+    {
+      "enum": [
+        150,
+        "dmViewIdCwPumpSelector"
+      ],
+      "description": "CW Pump Selector"
+    },
+    {
+      "enum": [
+        151,
+        "dmViewIdFlowCalculator"
+      ],
+      "description": "Flow Calculator"
+    },
+    {
+      "enum": [
+        152,
+        "dmViewIdLoadCalculator"
+      ],
+      "description": "Load Calculator"
+    },
+    {
+      "enum": [
+        153,
+        "dmViewIdPlant"
+      ],
+      "description": "Plant"
+    },
+    {
+      "enum": [
+        154,
+        "dmViewIdOutputs"
+      ],
+      "description": "Outputs"
+    },
+    {
+      "enum": [
+        155,
+        "dmViewIdPercentLoadReset"
+      ],
+      "description": "Percent Load Reset"
+    },
+    {
+      "enum": [
+        156,
+        "dmViewIdChwReturnTempCalculator"
+      ],
+      "description": "CHW Return Temp Calculator"
+    },
+    {
+      "enum": [
+        157,
+        "dmViewIdCwSequencer"
+      ],
+      "description": "CW Sequencer"
+    },
+    {
+      "enum": [
+        158,
+        "dmViewIdOperateCommission"
+      ],
+      "description": "Operate Commission"
+    },
+    {
+      "enum": [
+        159,
+        "dmViewIdAlarmPoints"
+      ],
+      "description": "Alarm Points"
+    },
+    {
+      "enum": [
+        160,
+        "dmViewIdChilledWaterBypassValveControl"
+      ],
+      "description": "Chilled Water Bypass Valve Control"
+    },
+    {
+      "enum": [
+        161,
+        "dmViewIdIntegralAction"
+      ],
+      "description": "Integral Action"
+    },
+    {
+      "enum": [
+        162,
+        "dmViewIdStratification"
+      ],
+      "description": "Stratification"
+    },
+    {
+      "enum": [
+        163,
+        "dmViewIdDischargeLimit"
+      ],
+      "description": "Discharge Limit"
+    },
+    {
+      "enum": [
+        164,
+        "dmViewIdRoomModule"
+      ],
+      "description": "Room Module"
+    },
+    {
+      "enum": [
+        165,
+        "dmViewIdLockButtons"
+      ],
+      "description": "Lock Buttons"
+    },
+    {
+      "enum": [
+        166,
+        "dmViewIdCalibration"
+      ],
+      "description": "Calibration"
+    },
+    {
+      "enum": [
+        167,
+        "dmViewIdChiller1ScEquip11"
+      ],
+      "description": "Chiller 1 (SC-Equip-11)"
+    },
+    {
+      "enum": [
+        168,
+        "dmViewIdChiller2ScEquip12"
+      ],
+      "description": "Chiller 2 (SC-Equip-12)"
+    },
+    {
+      "enum": [
+        169,
+        "dmViewIdChiller3ScEquip13"
+      ],
+      "description": "Chiller 3 (SC-Equip-13)"
+    },
+    {
+      "enum": [
+        170,
+        "dmViewIdChiller4ScEquip14"
+      ],
+      "description": "Chiller 4 (SC-Equip-14)"
+    },
+    {
+      "enum": [
+        171,
+        "dmViewIdUnitInfo"
+      ],
+      "description": "Unit Info"
+    },
+    {
+      "enum": [
+        172,
+        "dmViewId1Compressor"
+      ],
+      "description": "1# Compressor"
+    },
+    {
+      "enum": [
+        173,
+        "dmViewIdLiquidLevelControl"
+      ],
+      "description": "Liquid Level Control"
+    },
+    {
+      "enum": [
+        174,
+        "dmViewId1Vsd"
+      ],
+      "description": "1# VSD"
+    },
+    {
+      "enum": [
+        175,
+        "dmViewId2Compressor"
+      ],
+      "description": "2# Compressor"
+    },
+    {
+      "enum": [
+        176,
+        "dmViewId2Vsd"
+      ],
+      "description": "2# VSD"
+    },
+    {
+      "enum": [
+        177,
+        "dmViewIdEnergyMeter1"
+      ],
+      "description": "Energy Meter 1"
+    },
+    {
+      "enum": [
+        178,
+        "dmViewIdEnergyMeter2"
+      ],
+      "description": "Energy Meter 2"
+    },
+    {
+      "enum": [
+        179,
+        "dmViewIdEnergyMeter3"
+      ],
+      "description": "Energy Meter 3"
+    },
+    {
+      "enum": [
+        180,
+        "dmViewIdEnergyMeter4"
+      ],
+      "description": "Energy Meter 4"
+    }
+  ]
+}

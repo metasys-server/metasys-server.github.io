@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcFalseTrueEnumSet.schema.json",
+  "title": "unityXlcFalseTrueEnumSet",
+  "description": "Unity XLC False/True",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "TRUE"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "FALSE"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "FALSE1"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "TRUE1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, TRUE"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, FALSE"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

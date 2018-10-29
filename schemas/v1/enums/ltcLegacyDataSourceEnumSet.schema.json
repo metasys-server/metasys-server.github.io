@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyDataSourceEnumSet.schema.json",
+  "title": "ltcLegacyDataSourceEnumSet",
+  "description": "York LTC Legacy Data Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyDataSource0"
+      ],
+      "description": "Live Data"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyDataSource1"
+      ],
+      "description": "Frozen Data"
+    }
+  ]
+}

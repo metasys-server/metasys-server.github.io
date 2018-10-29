@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/summaryTypeEnumSet.schema.json",
+  "title": "summaryTypeEnumSet",
+  "description": "Summary Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sumAlarm"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        1,
+        "sumOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        2,
+        "sumDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        3,
+        "sumInvolvement"
+      ],
+      "description": "Involvement"
+    },
+    {
+      "enum": [
+        4,
+        "sumOverridden"
+      ],
+      "description": "Overridden"
+    },
+    {
+      "enum": [
+        5,
+        "sumTotalization"
+      ],
+      "description": "Totalization"
+    }
+  ]
+}

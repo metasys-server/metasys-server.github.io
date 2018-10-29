@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/peerStatusEnumSet.schema.json",
+  "title": "peerStatusEnumSet",
+  "description": "Peer Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "peerStatusUnused"
+      ],
+      "description": "Unused"
+    },
+    {
+      "enum": [
+        1,
+        "peerStatusOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "peerStatusNotOperational"
+      ],
+      "description": "Not operational"
+    },
+    {
+      "enum": [
+        3,
+        "peerStatusOffline"
+      ],
+      "description": "Offline"
+    }
+  ]
+}

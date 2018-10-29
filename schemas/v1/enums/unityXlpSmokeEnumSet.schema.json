@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlpSmokeEnumSet.schema.json",
+  "title": "unityXlpSmokeEnumSet",
+  "description": "Unity XLP Smoke",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "SMOKE"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "CLEAR"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "TROUBLE"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "SMOKE1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, SMOKE"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "FIXED, CLEAR"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "FIXED, TROUBLE"
+    }
+  ]
+}

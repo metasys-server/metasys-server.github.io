@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ystSc3EnumSet.schema.json",
+  "title": "ystSc3EnumSet",
+  "description": "YST Cycling Fault Code SC.3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ystSc30"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ystSc31"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "ystSc32"
+      ],
+      "description": "REMOTE CYCLING"
+    },
+    {
+      "enum": [
+        3,
+        "ystSc33"
+      ],
+      "description": "LOW COMPRESSR OIL DIFFERENTIAL TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "ystSc34"
+      ],
+      "description": "LOW COMPRESSR SUMP OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "ystSc35"
+      ],
+      "description": "CONTROL PANEL - POWER FAIL (AUTOSTART)"
+    },
+    {
+      "enum": [
+        6,
+        "ystSc36"
+      ],
+      "description": "EVAPORATOR - LOW CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        7,
+        "ystSc37"
+      ],
+      "description": "EVAPORATOR - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "ystSc38"
+      ],
+      "description": "CHILLER CONDENSER - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "ystSc39"
+      ],
+      "description": "CONTROL PANEL - SCHEDULE SHUTDOWN"
+    },
+    {
+      "enum": [
+        10,
+        "ystSc310"
+      ],
+      "description": "PROXIMITY PROBE - LOW SUPPLY VOLTAGE"
+    },
+    {
+      "enum": [
+        11,
+        "ystSc311"
+      ],
+      "description": "OIL - VARIABLE SPEED PUMP - DRIVE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        12,
+        "ystSc312"
+      ],
+      "description": "EXPANSION I/O SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        13,
+        "ystSc313"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ystSc314"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ystSc315"
+      ],
+      "description": "RESERVED 15"
+    }
+  ]
+}

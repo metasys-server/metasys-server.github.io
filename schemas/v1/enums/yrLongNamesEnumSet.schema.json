@@ -1,0 +1,281 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yrLongNamesEnumSet.schema.json",
+  "title": "yrLongNamesEnumSet",
+  "description": "YR Long Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "yrLongNames1"
+      ],
+      "description": "Remote Start Stop"
+    },
+    {
+      "enum": [
+        2,
+        "yrLongNames2"
+      ],
+      "description": "Leaving Chilled Liquid Setpoint"
+    },
+    {
+      "enum": [
+        3,
+        "yrLongNames3"
+      ],
+      "description": "Motor Current Limit Setpoint"
+    },
+    {
+      "enum": [
+        4,
+        "yrLongNames4"
+      ],
+      "description": "Reserved 4"
+    },
+    {
+      "enum": [
+        5,
+        "yrLongNames5"
+      ],
+      "description": "Reserved 5"
+    },
+    {
+      "enum": [
+        6,
+        "yrLongNames6"
+      ],
+      "description": "Leaving Chilled Liquid Temperature"
+    },
+    {
+      "enum": [
+        7,
+        "yrLongNames7"
+      ],
+      "description": "Return Chilled Liquid Temperature"
+    },
+    {
+      "enum": [
+        8,
+        "yrLongNames8"
+      ],
+      "description": "Evaporator Pressure"
+    },
+    {
+      "enum": [
+        9,
+        "yrLongNames9"
+      ],
+      "description": "Condenser Pressure"
+    },
+    {
+      "enum": [
+        10,
+        "yrLongNames10"
+      ],
+      "description": "Oil Pressure Differential"
+    },
+    {
+      "enum": [
+        11,
+        "yrLongNames11"
+      ],
+      "description": "Return Condenser Liquid Temperature"
+    },
+    {
+      "enum": [
+        12,
+        "yrLongNames12"
+      ],
+      "description": "Leaving Condenser Liquid Temperature"
+    },
+    {
+      "enum": [
+        13,
+        "yrLongNames13"
+      ],
+      "description": "Motor Current Percent FLA"
+    },
+    {
+      "enum": [
+        14,
+        "yrLongNames14"
+      ],
+      "description": "SSS Phase A Current"
+    },
+    {
+      "enum": [
+        15,
+        "yrLongNames15"
+      ],
+      "description": "SSS Phase B Current"
+    },
+    {
+      "enum": [
+        16,
+        "yrLongNames16"
+      ],
+      "description": "SSS Phase C Current"
+    },
+    {
+      "enum": [
+        17,
+        "yrLongNames17"
+      ],
+      "description": "SSS Phase A Voltage"
+    },
+    {
+      "enum": [
+        18,
+        "yrLongNames18"
+      ],
+      "description": "SSS Phase B Voltage"
+    },
+    {
+      "enum": [
+        19,
+        "yrLongNames19"
+      ],
+      "description": "SSS Phase C Voltage"
+    },
+    {
+      "enum": [
+        20,
+        "yrLongNames20"
+      ],
+      "description": "Active Leaving Chilled Liquid Setpoint"
+    },
+    {
+      "enum": [
+        21,
+        "yrLongNames21"
+      ],
+      "description": "Active Motor Current Limit Setpoint"
+    },
+    {
+      "enum": [
+        22,
+        "yrLongNames22"
+      ],
+      "description": "Evaporator Saturation Temperature"
+    },
+    {
+      "enum": [
+        23,
+        "yrLongNames23"
+      ],
+      "description": "Condenser Saturation Temperature"
+    },
+    {
+      "enum": [
+        24,
+        "yrLongNames24"
+      ],
+      "description": "Discharge Temperature"
+    },
+    {
+      "enum": [
+        25,
+        "yrLongNames25"
+      ],
+      "description": "Filter Pressure Differential"
+    },
+    {
+      "enum": [
+        26,
+        "yrLongNames26"
+      ],
+      "description": "Unit Operating Hours"
+    },
+    {
+      "enum": [
+        27,
+        "yrLongNames27"
+      ],
+      "description": "Unit System Starts"
+    },
+    {
+      "enum": [
+        28,
+        "yrLongNames28"
+      ],
+      "description": "Minimum Load Control Motor FLA Limit"
+    },
+    {
+      "enum": [
+        29,
+        "yrLongNames29"
+      ],
+      "description": "Refrigerant Level"
+    },
+    {
+      "enum": [
+        30,
+        "yrLongNames30"
+      ],
+      "description": "Unit Warning Fault Code"
+    },
+    {
+      "enum": [
+        31,
+        "yrLongNames31"
+      ],
+      "description": "Operation Code"
+    },
+    {
+      "enum": [
+        32,
+        "yrLongNames32"
+      ],
+      "description": "Unit Safety Fault Code"
+    },
+    {
+      "enum": [
+        33,
+        "yrLongNames33"
+      ],
+      "description": "Unit Cycling Fault Code"
+    },
+    {
+      "enum": [
+        34,
+        "yrLongNames34"
+      ],
+      "description": "Motor Run Contacts"
+    },
+    {
+      "enum": [
+        35,
+        "yrLongNames35"
+      ],
+      "description": "Oil Return Solenoid"
+    },
+    {
+      "enum": [
+        36,
+        "yrLongNames36"
+      ],
+      "description": "Chilled Liquid Pump"
+    },
+    {
+      "enum": [
+        37,
+        "yrLongNames37"
+      ],
+      "description": "Panel Stop Switch"
+    },
+    {
+      "enum": [
+        38,
+        "yrLongNames38"
+      ],
+      "description": "Chiller Liquid Flow Switch"
+    },
+    {
+      "enum": [
+        39,
+        "yrLongNames39"
+      ],
+      "description": "Ice Storage Mode"
+    }
+  ]
+}

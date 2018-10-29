@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydUnitModCompTypeEnumSet.schema.json",
+  "title": "ydUnitModCompTypeEnumSet",
+  "description": "YD Unit Mod Compressor Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ydUnitModCompType0"
+      ],
+      "description": "J1-15"
+    },
+    {
+      "enum": [
+        1,
+        "ydUnitModCompType1"
+      ],
+      "description": "J7"
+    }
+  ]
+}

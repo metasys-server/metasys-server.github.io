@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetEncodingEnumSet.schema.json",
+  "title": "bacnetEncodingEnumSet",
+  "description": "BACnet Encoding",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "unicodeEncoding"
+      ],
+      "description": "ISO 10646 (UCS-2)"
+    },
+    {
+      "enum": [
+        1,
+        "asciiEncoding"
+      ],
+      "description": "ANSI X3.4 (US-ASCII)"
+    },
+    {
+      "enum": [
+        2,
+        "dbcsCodepage932"
+      ],
+      "description": "Microsoft DBCS code page 932 (Japanese Shift JIS)"
+    },
+    {
+      "enum": [
+        3,
+        "utf8Encoding"
+      ],
+      "description": "ISO 10646 (UTF-8)"
+    }
+  ]
+}

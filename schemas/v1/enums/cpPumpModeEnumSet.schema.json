@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpPumpModeEnumSet.schema.json",
+  "title": "cpPumpModeEnumSet",
+  "description": "CP Pump Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpPumpModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "cpPumpModeMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "cpPumpModeControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "cpPumpModeHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "cpPumpModeLimitedMax"
+      ],
+      "description": "Limited Max"
+    }
+  ]
+}

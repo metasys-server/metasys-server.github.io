@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/calibrate2EnumSet.schema.json",
+  "title": "calibrate2EnumSet",
+  "description": "Calibrate 2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "calibrateUncalibrate"
+      ],
+      "description": "Uncalibrate"
+    },
+    {
+      "enum": [
+        1,
+        "calibrateCalibrate"
+      ],
+      "description": "Calibrate"
+    },
+    {
+      "enum": [
+        2,
+        "calibrateCalibrateToCalResistor"
+      ],
+      "description": "Calibrate to Cal Resistor"
+    }
+  ]
+}

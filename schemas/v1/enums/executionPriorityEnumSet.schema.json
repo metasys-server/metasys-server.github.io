@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/executionPriorityEnumSet.schema.json",
+  "title": "executionPriorityEnumSet",
+  "description": "Execution Priority",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normalPriority"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "urgentPriority"
+      ],
+      "description": "Urgent"
+    },
+    {
+      "enum": [
+        2,
+        "criticalEquipmentPriority"
+      ],
+      "description": "Critical"
+    },
+    {
+      "enum": [
+        3,
+        "lifeSafetyPriority"
+      ],
+      "description": "Life Safety"
+    }
+  ]
+}

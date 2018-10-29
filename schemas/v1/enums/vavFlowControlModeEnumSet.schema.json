@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavFlowControlModeEnumSet.schema.json",
+  "title": "vavFlowControlModeEnumSet",
+  "description": "VAV Flow Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vfcmClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "vfcmOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "vfcmHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "vfcmControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        4,
+        "vfcmBoxFlowTest"
+      ],
+      "description": "Box Flow Test"
+    },
+    {
+      "enum": [
+        5,
+        "vfcmFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

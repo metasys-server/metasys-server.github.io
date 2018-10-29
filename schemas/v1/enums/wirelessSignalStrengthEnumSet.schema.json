@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/wirelessSignalStrengthEnumSet.schema.json",
+  "title": "wirelessSignalStrengthEnumSet",
+  "description": "Wireless Signal Strength",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "wirelessSignalNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "wirelessSignalWeak"
+      ],
+      "description": "Weak"
+    },
+    {
+      "enum": [
+        2,
+        "wirelessSignalAverage"
+      ],
+      "description": "Average"
+    },
+    {
+      "enum": [
+        3,
+        "wirelessSignalStrong"
+      ],
+      "description": "Strong"
+    }
+  ]
+}

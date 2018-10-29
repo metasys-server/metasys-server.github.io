@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/oaEnthalpyEnumSet.schema.json",
+  "title": "oaEnthalpyEnumSet",
+  "description": "OA Enthalpy",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Low"
+    }
+  ]
+}

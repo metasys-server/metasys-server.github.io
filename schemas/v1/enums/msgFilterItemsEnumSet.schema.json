@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/msgFilterItemsEnumSet.schema.json",
+  "title": "msgFilterItemsEnumSet",
+  "description": "Msg Filter Items",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "currentStatusFilter"
+      ],
+      "description": "Current Status"
+    },
+    {
+      "enum": [
+        1,
+        "priorityFilter"
+      ],
+      "description": "Priority"
+    },
+    {
+      "enum": [
+        2,
+        "itemCategoryFilter"
+      ],
+      "description": "Item Category"
+    },
+    {
+      "enum": [
+        3,
+        "ackRequiredFilter"
+      ],
+      "description": "Acknowledge Required"
+    },
+    {
+      "enum": [
+        4,
+        "previousStatusFilter"
+      ],
+      "description": "Previous Status"
+    },
+    {
+      "enum": [
+        5,
+        "startDayOfWeekFilter"
+      ],
+      "description": "Start Day Of Week"
+    },
+    {
+      "enum": [
+        6,
+        "startTimeFilter"
+      ],
+      "description": "Start Time"
+    },
+    {
+      "enum": [
+        7,
+        "endDayOfWeekFilter"
+      ],
+      "description": "End Day Of Week"
+    },
+    {
+      "enum": [
+        8,
+        "endTimeFilter"
+      ],
+      "description": "End Time"
+    }
+  ]
+}

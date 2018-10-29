@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/zntRemoteSetpointModeEnumSet.schema.json",
+  "title": "zntRemoteSetpointModeEnumSet",
+  "description": "ZN-T Remote Setpoint Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "zntNoRemoteSetpoint"
+      ],
+      "description": "No Remote Setpoint"
+    },
+    {
+      "enum": [
+        1,
+        "zntHardwareOnly"
+      ],
+      "description": "Hardware Only"
+    },
+    {
+      "enum": [
+        2,
+        "zntNetworkOnly"
+      ],
+      "description": "Network Only"
+    },
+    {
+      "enum": [
+        3,
+        "zntNetworkWithHardware"
+      ],
+      "description": "Network With Hardware Backup"
+    }
+  ]
+}

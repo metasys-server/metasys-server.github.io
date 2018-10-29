@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexHvacModeEnumSet.schema.json",
+  "title": "unityNexHvacModeEnumSet",
+  "description": "Unity NEX HVAC Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Auto"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Off"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Auto"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Warmup"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Precool"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Emergency"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Fan Only"
+    }
+  ]
+}

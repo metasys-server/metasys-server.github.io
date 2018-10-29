@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcTestAlarmEnumSet.schema.json",
+  "title": "unityXlcTestAlarmEnumSet",
+  "description": "Unity XLC Test Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "TEST"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "TEST1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "TEST2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "TEST3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, TEST"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, TEST1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

@@ -1,0 +1,1282 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykSc3EnumSet.schema.json",
+  "title": "ykSc3EnumSet",
+  "description": "YK Cycling Fault Code SC.3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykSc30"
+      ],
+      "description": "NO CYCLING FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ykSc31"
+      ],
+      "description": "MULTIUNIT CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        2,
+        "ykSc32"
+      ],
+      "description": "SYSTEM CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "ykSc33"
+      ],
+      "description": "OIL - LOW TEMPERATURE DIFFERENTIAL"
+    },
+    {
+      "enum": [
+        4,
+        "ykSc34"
+      ],
+      "description": "OIL - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "ykSc35"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        6,
+        "ykSc36"
+      ],
+      "description": "LEAVING CHILLED LIQUID - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        7,
+        "ykSc37"
+      ],
+      "description": "LEAVING CHILLED LIQUID - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "ykSc38"
+      ],
+      "description": "CONDENSER - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "ykSc39"
+      ],
+      "description": "MOTOR CONTROLLER - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        10,
+        "ykSc310"
+      ],
+      "description": "MOTOR CONTROLLER - LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        11,
+        "ykSc311"
+      ],
+      "description": "POWER FAULT"
+    },
+    {
+      "enum": [
+        12,
+        "ykSc312"
+      ],
+      "description": "CONTROL PANEL - SCHEDULE"
+    },
+    {
+      "enum": [
+        13,
+        "ykSc313"
+      ],
+      "description": "STARTER - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        14,
+        "ykSc314"
+      ],
+      "description": "STARTER - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        15,
+        "ykSc315"
+      ],
+      "description": "PROXIMITY PROBE - LOW SUPPLY VOLTAGE"
+    },
+    {
+      "enum": [
+        16,
+        "ykSc316"
+      ],
+      "description": "OIL - VARIABLE SPEED PUMP - DRIVE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        17,
+        "ykSc317"
+      ],
+      "description": "VSD - INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        18,
+        "ykSc318"
+      ],
+      "description": "VSD SHUTDOWN - REQUESTING FAULT DATA..."
+    },
+    {
+      "enum": [
+        19,
+        "ykSc319"
+      ],
+      "description": "VSD - HIGH PHASE A INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        20,
+        "ykSc320"
+      ],
+      "description": "VSD - HIGH PHASE B INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        21,
+        "ykSc321"
+      ],
+      "description": "VSD - HIGH PHASE C INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        22,
+        "ykSc322"
+      ],
+      "description": "VSD - PHASE A GATE DRIVER"
+    },
+    {
+      "enum": [
+        23,
+        "ykSc323"
+      ],
+      "description": "VSD - PHASE B GATE DRIVER"
+    },
+    {
+      "enum": [
+        24,
+        "ykSc324"
+      ],
+      "description": "VSD - PHASE C GATE DRIVER"
+    },
+    {
+      "enum": [
+        25,
+        "ykSc325"
+      ],
+      "description": "VSD - SINGLE PHASE INPUT POWER"
+    },
+    {
+      "enum": [
+        26,
+        "ykSc326"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        27,
+        "ykSc327"
+      ],
+      "description": "VSD - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        28,
+        "ykSc328"
+      ],
+      "description": "VSD - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        29,
+        "ykSc329"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        30,
+        "ykSc330"
+      ],
+      "description": "VSD - HIGH INTERNAL AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        31,
+        "ykSc331"
+      ],
+      "description": "VSD - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        32,
+        "ykSc332"
+      ],
+      "description": "VSD - LOW PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        33,
+        "ykSc333"
+      ],
+      "description": "VSD - LOW PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        34,
+        "ykSc334"
+      ],
+      "description": "VSD - LOW PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        35,
+        "ykSc335"
+      ],
+      "description": "VSD - LOW CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        36,
+        "ykSc336"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        37,
+        "ykSc337"
+      ],
+      "description": "VSD - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        38,
+        "ykSc338"
+      ],
+      "description": "VSD - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        39,
+        "ykSc339"
+      ],
+      "description": "VSD - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        40,
+        "ykSc340"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        41,
+        "ykSc341"
+      ],
+      "description": "VSD - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        42,
+        "ykSc342"
+      ],
+      "description": "HARMONIC FILTER - LOGIC BOARD OR COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        43,
+        "ykSc343"
+      ],
+      "description": "HARMONIC FILTER - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        44,
+        "ykSc344"
+      ],
+      "description": "HARMONIC FILTER - HIGH PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        45,
+        "ykSc345"
+      ],
+      "description": "HARMONIC FILTER - HIGH PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        46,
+        "ykSc346"
+      ],
+      "description": "HARMONIC FILTER - HIGH PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        47,
+        "ykSc347"
+      ],
+      "description": "HARMONIC FILTER - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        48,
+        "ykSc348"
+      ],
+      "description": "HARMONIC FILTER - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        49,
+        "ykSc349"
+      ],
+      "description": "HARMONIC FILTER - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        50,
+        "ykSc350"
+      ],
+      "description": "HARMONIC FILTER - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        51,
+        "ykSc351"
+      ],
+      "description": "HARMONIC FILTER - INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        52,
+        "ykSc352"
+      ],
+      "description": "HARMONIC FILTER - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        53,
+        "ykSc353"
+      ],
+      "description": "HARMONIC FILTER - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        54,
+        "ykSc354"
+      ],
+      "description": "HARMONIC FILTER - DC CURRENT TRANSFORMER 1"
+    },
+    {
+      "enum": [
+        55,
+        "ykSc355"
+      ],
+      "description": "HARMONIC FILTER - DC CURRENT TRANSFORMER 2"
+    },
+    {
+      "enum": [
+        56,
+        "ykSc356"
+      ],
+      "description": "LCSSS INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        57,
+        "ykSc357"
+      ],
+      "description": "LCSSS SHUTDOWN - REQUESTING FAULT DATA..."
+    },
+    {
+      "enum": [
+        58,
+        "ykSc358"
+      ],
+      "description": "LCSSS - LOW PHASE A TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        59,
+        "ykSc359"
+      ],
+      "description": "LCSSS - LOW PHASE B TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        60,
+        "ykSc360"
+      ],
+      "description": "LCSSS - LOW PHASE C TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        61,
+        "ykSc361"
+      ],
+      "description": "LCSSS - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        62,
+        "ykSc362"
+      ],
+      "description": "LCSSS - POWER FAULT"
+    },
+    {
+      "enum": [
+        63,
+        "ykSc363"
+      ],
+      "description": "LCSSS - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        64,
+        "ykSc364"
+      ],
+      "description": "LCSSS - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        65,
+        "ykSc365"
+      ],
+      "description": "LCSSS - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        66,
+        "ykSc366"
+      ],
+      "description": "LCSSS - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        67,
+        "ykSc367"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        68,
+        "ykSc368"
+      ],
+      "description": "LCSSS - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        69,
+        "ykSc369"
+      ],
+      "description": "MOTOR AUTO LUBRICATION IN PROGRESS"
+    },
+    {
+      "enum": [
+        70,
+        "ykSc370"
+      ],
+      "description": "CONTROL PANEL - LOSS OF CONTROL VOLTAGE"
+    },
+    {
+      "enum": [
+        71,
+        "ykSc371"
+      ],
+      "description": "LCSSS - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        72,
+        "ykSc372"
+      ],
+      "description": "LCSSS - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        73,
+        "ykSc373"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        74,
+        "ykSc374"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        75,
+        "ykSc375"
+      ],
+      "description": "LCSSS - PHASE LOSS"
+    },
+    {
+      "enum": [
+        76,
+        "ykSc376"
+      ],
+      "description": "VSD - LOW INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        77,
+        "ykSc377"
+      ],
+      "description": "EXPANSION I/O - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        78,
+        "ykSc378"
+      ],
+      "description": "VSD - LOW PHASE A INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        79,
+        "ykSc379"
+      ],
+      "description": "VSD - LOW PHASE B INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        80,
+        "ykSc380"
+      ],
+      "description": "VSD - LOW PHASE C INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        81,
+        "ykSc381"
+      ],
+      "description": "MOTOR CONTROLLER - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        82,
+        "ykSc382"
+      ],
+      "description": "MVVSD - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        83,
+        "ykSc383"
+      ],
+      "description": "VSD - INPUT POWER TRANSFORMER"
+    },
+    {
+      "enum": [
+        84,
+        "ykSc384"
+      ],
+      "description": "VSD - INPUT OVER-VOLTAGE"
+    },
+    {
+      "enum": [
+        85,
+        "ykSc385"
+      ],
+      "description": "VSD - LOSS OF COOLING FAN"
+    },
+    {
+      "enum": [
+        86,
+        "ykSc386"
+      ],
+      "description": "VSD - HIGH INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        87,
+        "ykSc387"
+      ],
+      "description": "MVSSS - INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        88,
+        "ykSc388"
+      ],
+      "description": "MVSSS SHUTDOWN - REQUESTING FAULT DATA..."
+    },
+    {
+      "enum": [
+        89,
+        "ykSc389"
+      ],
+      "description": "MVSSS - POWER FAULT"
+    },
+    {
+      "enum": [
+        90,
+        "ykSc390"
+      ],
+      "description": "MVSSS - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        91,
+        "ykSc391"
+      ],
+      "description": "MVSSS - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        92,
+        "ykSc392"
+      ],
+      "description": "MVSSS - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        93,
+        "ykSc393"
+      ],
+      "description": "MVSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        94,
+        "ykSc394"
+      ],
+      "description": "MVSSS - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        95,
+        "ykSc395"
+      ],
+      "description": "MVSSS - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        96,
+        "ykSc396"
+      ],
+      "description": "MVSSS - PHASE LOSS"
+    },
+    {
+      "enum": [
+        97,
+        "ykSc397"
+      ],
+      "description": "RESERVED 97"
+    },
+    {
+      "enum": [
+        98,
+        "ykSc398"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS VYPER"
+    },
+    {
+      "enum": [
+        99,
+        "ykSc399"
+      ],
+      "description": "LCSSS - SERIAL COMMS"
+    },
+    {
+      "enum": [
+        100,
+        "ykSc3100"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS RAPTYR"
+    },
+    {
+      "enum": [
+        101,
+        "ykSc3101"
+      ],
+      "description": "AUTODETECT - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        102,
+        "ykSc3102"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE - AU"
+    },
+    {
+      "enum": [
+        103,
+        "ykSc3103"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE - AL"
+    },
+    {
+      "enum": [
+        104,
+        "ykSc3104"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE - BU"
+    },
+    {
+      "enum": [
+        105,
+        "ykSc3105"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE - BL"
+    },
+    {
+      "enum": [
+        106,
+        "ykSc3106"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE - CU"
+    },
+    {
+      "enum": [
+        107,
+        "ykSc3107"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE - CL"
+    },
+    {
+      "enum": [
+        108,
+        "ykSc3108"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE - AU"
+    },
+    {
+      "enum": [
+        109,
+        "ykSc3109"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE - AL"
+    },
+    {
+      "enum": [
+        110,
+        "ykSc3110"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE - BU"
+    },
+    {
+      "enum": [
+        111,
+        "ykSc3111"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE - BL"
+    },
+    {
+      "enum": [
+        112,
+        "ykSc3112"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE - CU"
+    },
+    {
+      "enum": [
+        113,
+        "ykSc3113"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE - CL"
+    },
+    {
+      "enum": [
+        114,
+        "ykSc3114"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE - AU"
+    },
+    {
+      "enum": [
+        115,
+        "ykSc3115"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE - AL"
+    },
+    {
+      "enum": [
+        116,
+        "ykSc3116"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE - BU"
+    },
+    {
+      "enum": [
+        117,
+        "ykSc3117"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE - BL"
+    },
+    {
+      "enum": [
+        118,
+        "ykSc3118"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE - CU"
+    },
+    {
+      "enum": [
+        119,
+        "ykSc3119"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE - CL"
+    },
+    {
+      "enum": [
+        120,
+        "ykSc3120"
+      ],
+      "description": "VSD - GATE DRIVER - ANU"
+    },
+    {
+      "enum": [
+        121,
+        "ykSc3121"
+      ],
+      "description": "VSD - GATE DRIVER - ANL"
+    },
+    {
+      "enum": [
+        122,
+        "ykSc3122"
+      ],
+      "description": "VSD - GATE DRIVER - AMU"
+    },
+    {
+      "enum": [
+        123,
+        "ykSc3123"
+      ],
+      "description": "VSD - GATE DRIVER - AML"
+    },
+    {
+      "enum": [
+        124,
+        "ykSc3124"
+      ],
+      "description": "VSD - GATE DRIVER - BNU"
+    },
+    {
+      "enum": [
+        125,
+        "ykSc3125"
+      ],
+      "description": "VSD - GATE DRIVER - BNL"
+    },
+    {
+      "enum": [
+        126,
+        "ykSc3126"
+      ],
+      "description": "VSD - GATE DRIVER - BMU"
+    },
+    {
+      "enum": [
+        127,
+        "ykSc3127"
+      ],
+      "description": "VSD - GATE DRIVER - BML"
+    },
+    {
+      "enum": [
+        128,
+        "ykSc3128"
+      ],
+      "description": "VSD - GATE DRIVER - CNU"
+    },
+    {
+      "enum": [
+        129,
+        "ykSc3129"
+      ],
+      "description": "VSD - GATE DRIVER - CNL"
+    },
+    {
+      "enum": [
+        130,
+        "ykSc3130"
+      ],
+      "description": "VSD - GATE DRIVER - CMU"
+    },
+    {
+      "enum": [
+        131,
+        "ykSc3131"
+      ],
+      "description": "VSD - GATE DRIVER - CML"
+    },
+    {
+      "enum": [
+        132,
+        "ykSc3132"
+      ],
+      "description": "VSD - INPUT POWER SUPPLY"
+    },
+    {
+      "enum": [
+        133,
+        "ykSc3133"
+      ],
+      "description": "VSD - HIGH PHASE A INPUT CURRENT"
+    },
+    {
+      "enum": [
+        134,
+        "ykSc3134"
+      ],
+      "description": "VSD - HIGH PHASE B INPUT CURRENT"
+    },
+    {
+      "enum": [
+        135,
+        "ykSc3135"
+      ],
+      "description": "VSD - HIGH PHASE C INPUT CURRENT"
+    },
+    {
+      "enum": [
+        136,
+        "ykSc3136"
+      ],
+      "description": "VSD - HIGH PHASE A MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        137,
+        "ykSc3137"
+      ],
+      "description": "VSD - HIGH PHASE B MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        138,
+        "ykSc3138"
+      ],
+      "description": "VSD - HIGH PHASE C MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        139,
+        "ykSc3139"
+      ],
+      "description": "VSD - PHASE A INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        140,
+        "ykSc3140"
+      ],
+      "description": "VSD - PHASE B INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        141,
+        "ykSc3141"
+      ],
+      "description": "VSD - PHASE C INPUT GATE DRIVER"
+    },
+    {
+      "enum": [
+        142,
+        "ykSc3142"
+      ],
+      "description": "RESERVED 142"
+    },
+    {
+      "enum": [
+        143,
+        "ykSc3143"
+      ],
+      "description": "RESERVED 143"
+    },
+    {
+      "enum": [
+        144,
+        "ykSc3144"
+      ],
+      "description": "RESERVED 144"
+    },
+    {
+      "enum": [
+        145,
+        "ykSc3145"
+      ],
+      "description": "VSD - LOW PHASE A INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        146,
+        "ykSc3146"
+      ],
+      "description": "VSD - LOW PHASE B INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        147,
+        "ykSc3147"
+      ],
+      "description": "VSD - LOW PHASE C INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        148,
+        "ykSc3148"
+      ],
+      "description": "RESERVED 148"
+    },
+    {
+      "enum": [
+        149,
+        "ykSc3149"
+      ],
+      "description": "RESERVED 149"
+    },
+    {
+      "enum": [
+        150,
+        "ykSc3150"
+      ],
+      "description": "RESERVED 150"
+    },
+    {
+      "enum": [
+        151,
+        "ykSc3151"
+      ],
+      "description": "RESERVED 151"
+    },
+    {
+      "enum": [
+        152,
+        "ykSc3152"
+      ],
+      "description": "VSD - DC BUS VOLTAGE PRE-REGULATION FAULT"
+    },
+    {
+      "enum": [
+        153,
+        "ykSc3153"
+      ],
+      "description": "VSD - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        154,
+        "ykSc3154"
+      ],
+      "description": "RESERVED 154"
+    },
+    {
+      "enum": [
+        155,
+        "ykSc3155"
+      ],
+      "description": "VSD - IDENTIFYING DRIVE..."
+    },
+    {
+      "enum": [
+        156,
+        "ykSc3156"
+      ],
+      "description": "LEAVING CONDENSER LIQUID - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        157,
+        "ykSc3157"
+      ],
+      "description": "CONDENSER - FREEZE THREAT - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        158,
+        "ykSc3158"
+      ],
+      "description": "ISOLATION VALVES - NOT CLOSED"
+    },
+    {
+      "enum": [
+        159,
+        "ykSc3159"
+      ],
+      "description": "VSD - PHASE A INPUT DCCT OFFSET"
+    },
+    {
+      "enum": [
+        160,
+        "ykSc3160"
+      ],
+      "description": "VSD - PHASE B INPUT DCCT OFFSET"
+    },
+    {
+      "enum": [
+        161,
+        "ykSc3161"
+      ],
+      "description": "VSD - PHASE C INPUT DCCT OFFSET"
+    },
+    {
+      "enum": [
+        162,
+        "ykSc3162"
+      ],
+      "description": "VSD - INVALID SETPOINTS"
+    },
+    {
+      "enum": [
+        163,
+        "ykSc3163"
+      ],
+      "description": "VSD - PRECHARGE - LOW DC BUS VOLTAGE 2"
+    },
+    {
+      "enum": [
+        164,
+        "ykSc3164"
+      ],
+      "description": "VSD - SERIAL RECEIVE"
+    },
+    {
+      "enum": [
+        165,
+        "ykSc3165"
+      ],
+      "description": "VSD - PHASE A MOTOR GATE DRIVER"
+    },
+    {
+      "enum": [
+        166,
+        "ykSc3166"
+      ],
+      "description": "VSD - PHASE B MOTOR GATE DRIVER"
+    },
+    {
+      "enum": [
+        167,
+        "ykSc3167"
+      ],
+      "description": "VSD - PHASE C MOTOR GATE DRIVER"
+    },
+    {
+      "enum": [
+        168,
+        "ykSc3168"
+      ],
+      "description": "VSD - LOW PHASE A MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        169,
+        "ykSc3169"
+      ],
+      "description": "VSD - LOW PHASE B MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        170,
+        "ykSc3170"
+      ],
+      "description": "VSD - LOW PHASE C MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        171,
+        "ykSc3171"
+      ],
+      "description": "VSD - NOT RUNNING"
+    },
+    {
+      "enum": [
+        172,
+        "ykSc3172"
+      ],
+      "description": "MOTOR - LACK OF BEARING LUBRICATION"
+    },
+    {
+      "enum": [
+        173,
+        "ykSc3173"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        174,
+        "ykSc3174"
+      ],
+      "description": "RESERVED 174"
+    },
+    {
+      "enum": [
+        175,
+        "ykSc3175"
+      ],
+      "description": "RESERVED 175"
+    },
+    {
+      "enum": [
+        176,
+        "ykSc3176"
+      ],
+      "description": "RESERVED 176"
+    },
+    {
+      "enum": [
+        177,
+        "ykSc3177"
+      ],
+      "description": "RESERVED 177"
+    },
+    {
+      "enum": [
+        178,
+        "ykSc3178"
+      ],
+      "description": "RESERVED 178"
+    },
+    {
+      "enum": [
+        179,
+        "ykSc3179"
+      ],
+      "description": "RESERVED 179"
+    },
+    {
+      "enum": [
+        180,
+        "ykSc3180"
+      ],
+      "description": "RESERVED 180"
+    },
+    {
+      "enum": [
+        181,
+        "ykSc3181"
+      ],
+      "description": "RESERVED 181"
+    }
+  ]
+}

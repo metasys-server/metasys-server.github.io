@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/otherTypesEnumSet.schema.json",
+  "title": "otherTypesEnumSet",
+  "description": "Other Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "exhaustFan"
+      ],
+      "description": "Exhaust Fan"
+    },
+    {
+      "enum": [
+        1,
+        "pump"
+      ],
+      "description": "Pump"
+    },
+    {
+      "enum": [
+        2,
+        "vfd"
+      ],
+      "description": "VFD"
+    },
+    {
+      "enum": [
+        3,
+        "furnace"
+      ],
+      "description": "Furnace"
+    },
+    {
+      "enum": [
+        4,
+        "fumeHood"
+      ],
+      "description": "Fume Hood"
+    },
+    {
+      "enum": [
+        5,
+        "heatExchanger"
+      ],
+      "description": "Heat Exchanger"
+    },
+    {
+      "enum": [
+        6,
+        "unitHeater"
+      ],
+      "description": "Unit Heater"
+    }
+  ]
+}

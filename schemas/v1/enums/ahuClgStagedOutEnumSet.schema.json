@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuClgStagedOutEnumSet.schema.json",
+  "title": "ahuClgStagedOutEnumSet",
+  "description": "AHU Clg Staged Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "acsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "acsMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "acsLmtMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "acsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "acsInstShtdwn"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        5,
+        "acsTCtrl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        6,
+        "acsHCtrl"
+      ],
+      "description": "H Control"
+    }
+  ]
+}

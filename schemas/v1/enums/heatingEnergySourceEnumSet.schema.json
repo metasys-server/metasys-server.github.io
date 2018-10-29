@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatingEnergySourceEnumSet.schema.json",
+  "title": "heatingEnergySourceEnumSet",
+  "description": "Heating Energy Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "heatingEnergySourceNaturalGas"
+      ],
+      "description": "Natural Gas"
+    },
+    {
+      "enum": [
+        1,
+        "heatingEnergySourceElectric"
+      ],
+      "description": "Electric"
+    },
+    {
+      "enum": [
+        2,
+        "heatingEnergySourcePropane"
+      ],
+      "description": "Propane"
+    },
+    {
+      "enum": [
+        3,
+        "heatingEnergySourceOil"
+      ],
+      "description": "Oil"
+    },
+    {
+      "enum": [
+        4,
+        "heatingEnergySourceIDontKnow"
+      ],
+      "description": "I Don't Know"
+    }
+  ]
+}

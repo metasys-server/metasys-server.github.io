@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ssaoArmStatusEnumSet.schema.json",
+  "title": "ssaoArmStatusEnumSet",
+  "description": "SSAO Arm Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ssaoAsDisarmed"
+      ],
+      "description": "Disarmed"
+    },
+    {
+      "enum": [
+        1,
+        "ssaoAsArmed"
+      ],
+      "description": "Armed"
+    },
+    {
+      "enum": [
+        2,
+        "ssaoAsArming"
+      ],
+      "description": "Arming"
+    },
+    {
+      "enum": [
+        3,
+        "ssaoAsDisarming"
+      ],
+      "description": "Disarming"
+    },
+    {
+      "enum": [
+        4,
+        "ssaoAsFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        5,
+        "ssaoAsMixed"
+      ],
+      "description": "Mixed"
+    }
+  ]
+}

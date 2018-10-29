@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdStandbyOccEnumSet.schema.json",
+  "title": "mccdStandbyOccEnumSet",
+  "description": "MCCD Standby Occ",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Stby"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Occ"
+    }
+  ]
+}

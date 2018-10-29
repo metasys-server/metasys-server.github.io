@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/executionStateEnumSet.schema.json",
+  "title": "executionStateEnumSet",
+  "description": "Execution State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "idle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "executing"
+      ],
+      "description": "Executing"
+    },
+    {
+      "enum": [
+        2,
+        "readRelinquish"
+      ],
+      "description": "Read Relinquish"
+    },
+    {
+      "enum": [
+        3,
+        "debugModeStopped"
+      ],
+      "description": "Debug Mode Stopped"
+    },
+    {
+      "enum": [
+        4,
+        "executeRelinquish"
+      ],
+      "description": "Execute Relinquish"
+    },
+    {
+      "enum": [
+        5,
+        "waitRelinquish"
+      ],
+      "description": "Wait Relinquish"
+    },
+    {
+      "enum": [
+        6,
+        "timeSlicedOut"
+      ],
+      "description": "Time Sliced Out"
+    },
+    {
+      "enum": [
+        7,
+        "stopped"
+      ],
+      "description": "Stopped"
+    },
+    {
+      "enum": [
+        8,
+        "readpriorityRelinquish"
+      ],
+      "description": "Read Priority Relinq"
+    },
+    {
+      "enum": [
+        9,
+        "debugModePaused"
+      ],
+      "description": "Debug Mode Paused"
+    },
+    {
+      "enum": [
+        10,
+        "haltedDueToError"
+      ],
+      "description": "Halted Due to Error"
+    },
+    {
+      "enum": [
+        11,
+        "writeRelinquish"
+      ],
+      "description": "Write Relinquish"
+    }
+  ]
+}

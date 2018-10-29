@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityTrnHeatingCoolingEnumSet.schema.json",
+  "title": "unityTrnHeatingCoolingEnumSet",
+  "description": "Unity TRN Heating Cooling",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual Cool"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Manual Heat"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Auto Restore-Heat"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto Restore-Cool"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Release"
+    }
+  ]
+}

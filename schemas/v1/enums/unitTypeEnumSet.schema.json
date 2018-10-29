@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unitTypeEnumSet.schema.json",
+  "title": "unitTypeEnumSet",
+  "description": "Unit Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "RA Zone Control"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "RA DAT Control"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "100 OA Zone Control"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "100 OA DAT Control"
+    }
+  ]
+}

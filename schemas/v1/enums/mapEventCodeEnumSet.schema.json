@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mapEventCodeEnumSet.schema.json",
+  "title": "mapEventCodeEnumSet",
+  "description": "MAP Event Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mapEventUndefined"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "mapEventNoReliableTimeSyncReceived"
+      ],
+      "description": "No Reliable Time Sync Received"
+    }
+  ]
+}

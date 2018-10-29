@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/recalculateGainStatusEnumSet.schema.json",
+  "title": "recalculateGainStatusEnumSet",
+  "description": "Recalculate Gain Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rgsNoCommand"
+      ],
+      "description": "No Command"
+    },
+    {
+      "enum": [
+        1,
+        "rgsCommandSuccessful"
+      ],
+      "description": "Command Successful"
+    },
+    {
+      "enum": [
+        2,
+        "rgsDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        3,
+        "rgsNoBalancerOverride"
+      ],
+      "description": "No Balancer Override"
+    },
+    {
+      "enum": [
+        4,
+        "rgsNoFlowUpdate"
+      ],
+      "description": "No Flow Update"
+    },
+    {
+      "enum": [
+        5,
+        "rgsFlowUnreliable"
+      ],
+      "description": "Flow Unreliable"
+    },
+    {
+      "enum": [
+        6,
+        "rgsPickupGainOutOfRange"
+      ],
+      "description": "Pickup Gain Out of Range"
+    },
+    {
+      "enum": [
+        7,
+        "rgsInProgress"
+      ],
+      "description": "In Progress"
+    }
+  ]
+}

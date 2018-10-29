@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dlModeEnumSet.schema.json",
+  "title": "dlModeEnumSet",
+  "description": "DL Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dlShedding"
+      ],
+      "description": "DL Shedding"
+    },
+    {
+      "enum": [
+        1,
+        "dlMonitorOnly"
+      ],
+      "description": "DL Monitor Only"
+    }
+  ]
+}

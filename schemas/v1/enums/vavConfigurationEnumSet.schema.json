@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavConfigurationEnumSet.schema.json",
+  "title": "vavConfigurationEnumSet",
+  "description": "VAV Configuration",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavConfSingleDuct"
+      ],
+      "description": "Single Duct"
+    },
+    {
+      "enum": [
+        1,
+        "vavConfSingleDuctWithExhaust"
+      ],
+      "description": "Single Duct with Exhaust"
+    },
+    {
+      "enum": [
+        2,
+        "vavConfDualDuct"
+      ],
+      "description": "Dual Duct"
+    },
+    {
+      "enum": [
+        3,
+        "vavConfDualDuctWithExhaust"
+      ],
+      "description": "Dual Duct with Exhaust"
+    }
+  ]
+}

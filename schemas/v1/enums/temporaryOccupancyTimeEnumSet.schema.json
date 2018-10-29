@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/temporaryOccupancyTimeEnumSet.schema.json",
+  "title": "temporaryOccupancyTimeEnumSet",
+  "description": "Temporary Occupancy Time",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "0 hours"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "1 hours"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "2 hours"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "3 hours"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "4 hours"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "5 hours"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "6 hours"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "7 hours"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "8 hours"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "9 hours"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "10 hours"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "11 hours"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "12 hours"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "13 hours"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "14 hours"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "15 hours"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "16 hours"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "17 hours"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "18 hours"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "19 hours"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "20 hours"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "21 hours"
+    },
+    {
+      "enum": [
+        22,
+        "22"
+      ],
+      "description": "22 hours"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "23 hours"
+    },
+    {
+      "enum": [
+        24,
+        "24"
+      ],
+      "description": "24 hours"
+    }
+  ]
+}

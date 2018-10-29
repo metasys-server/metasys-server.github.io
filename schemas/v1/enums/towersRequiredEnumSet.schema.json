@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/towersRequiredEnumSet.schema.json",
+  "title": "towersRequiredEnumSet",
+  "description": "TOWERS REQUIRED",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "towersRequired0"
+      ],
+      "description": "NO TOWERS"
+    },
+    {
+      "enum": [
+        1,
+        "towersRequired1"
+      ],
+      "description": "TOWER 1"
+    },
+    {
+      "enum": [
+        2,
+        "towersRequired2"
+      ],
+      "description": "TOWER 2"
+    },
+    {
+      "enum": [
+        3,
+        "towersRequired3"
+      ],
+      "description": "TOWER 1 & 2"
+    },
+    {
+      "enum": [
+        4,
+        "towersRequired4"
+      ],
+      "description": "TOWER 3"
+    },
+    {
+      "enum": [
+        5,
+        "towersRequired5"
+      ],
+      "description": "TOWER 1 & 3"
+    },
+    {
+      "enum": [
+        6,
+        "towersRequired6"
+      ],
+      "description": "TOWER 2 & 3"
+    },
+    {
+      "enum": [
+        7,
+        "towersRequired7"
+      ],
+      "description": "TOWER 1 & 2 & 3"
+    },
+    {
+      "enum": [
+        8,
+        "towersRequired8"
+      ],
+      "description": "TOWER 4"
+    },
+    {
+      "enum": [
+        9,
+        "towersRequired9"
+      ],
+      "description": "TOWER 1 & 4"
+    },
+    {
+      "enum": [
+        10,
+        "towersRequired10"
+      ],
+      "description": "TOWER 2 & 4"
+    },
+    {
+      "enum": [
+        11,
+        "towersRequired11"
+      ],
+      "description": "TOWER 1 & 2 & 4"
+    },
+    {
+      "enum": [
+        12,
+        "towersRequired12"
+      ],
+      "description": "TOWER 3 & 4"
+    },
+    {
+      "enum": [
+        13,
+        "towersRequired13"
+      ],
+      "description": "TOWER 1 & 3 & 4"
+    },
+    {
+      "enum": [
+        14,
+        "towersRequired14"
+      ],
+      "description": "TOWER 2 & 3 & 4"
+    },
+    {
+      "enum": [
+        15,
+        "towersRequired15"
+      ],
+      "description": "TOWER 1 & 2 & 3 & 4"
+    }
+  ]
+}

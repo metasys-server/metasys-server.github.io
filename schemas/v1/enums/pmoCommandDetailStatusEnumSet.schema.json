@@ -1,0 +1,498 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pmoCommandDetailStatusEnumSet.schema.json",
+  "title": "pmoCommandDetailStatusEnumSet",
+  "description": "PMO Command Detailed Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pmoDetailNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "pmoUpdatingFirmware"
+      ],
+      "description": "Updating Firmware"
+    },
+    {
+      "enum": [
+        2,
+        "pmoSavingBackupConfig"
+      ],
+      "description": "Saving Backup Configuration"
+    },
+    {
+      "enum": [
+        3,
+        "pmoRestoringBackupConfig"
+      ],
+      "description": "Restoring Backup Configuration"
+    },
+    {
+      "enum": [
+        4,
+        "pmoCreatingFactoryDefaults"
+      ],
+      "description": "Creating Factory Defaults"
+    },
+    {
+      "enum": [
+        5,
+        "pmoRestoringFactoryDefaults"
+      ],
+      "description": "Restoring Factory Defaults"
+    },
+    {
+      "enum": [
+        6,
+        "pmoReadingSystemInfo"
+      ],
+      "description": "Reading System Information"
+    },
+    {
+      "enum": [
+        7,
+        "pmoReadingPackageInfo"
+      ],
+      "description": "Reading Package Information"
+    },
+    {
+      "enum": [
+        8,
+        "pmoComparingInfos"
+      ],
+      "description": "Comparing Version Information"
+    },
+    {
+      "enum": [
+        9,
+        "pmoUpdatingSystemImages"
+      ],
+      "description": "Updating System Images"
+    },
+    {
+      "enum": [
+        10,
+        "pmoProgrammingUcbMain"
+      ],
+      "description": "Programming UCB Main"
+    },
+    {
+      "enum": [
+        11,
+        "pmoProgrammingUcbBoot"
+      ],
+      "description": "Programming UCB Boot"
+    },
+    {
+      "enum": [
+        12,
+        "pmoProgrammingUcbApp"
+      ],
+      "description": "Programming UCB App"
+    },
+    {
+      "enum": [
+        13,
+        "pmoProgrammingUcbDicta"
+      ],
+      "description": "Programming UCB Dictionary A"
+    },
+    {
+      "enum": [
+        14,
+        "pmoProgrammingUcbDictb"
+      ],
+      "description": "Programming UCB Dictionary B"
+    },
+    {
+      "enum": [
+        15,
+        "pmoProgrammingUcbDictc"
+      ],
+      "description": "Programming UCB Dictionary C"
+    },
+    {
+      "enum": [
+        16,
+        "pmoProgrammingUcbEqArchive"
+      ],
+      "description": "Programming UCB Equipment Archive"
+    },
+    {
+      "enum": [
+        17,
+        "pmoProgrammingUcbDataModelTemplate"
+      ],
+      "description": "Programming UCB Data Model Template"
+    },
+    {
+      "enum": [
+        18,
+        "pmoProgrammingUcbViewDef"
+      ],
+      "description": "Programming UCB Data Model View Definition"
+    },
+    {
+      "enum": [
+        19,
+        "pmoProgrammingUcbOther"
+      ],
+      "description": "Programming UCB Other Component"
+    },
+    {
+      "enum": [
+        20,
+        "pmoProgrammingEconMain"
+      ],
+      "description": "Programming ECON Main"
+    },
+    {
+      "enum": [
+        21,
+        "pmoProgrammingEconBoot"
+      ],
+      "description": "Programming ECON Boot"
+    },
+    {
+      "enum": [
+        22,
+        "pmoProgrammingEconApp"
+      ],
+      "description": "Programming ECON App"
+    },
+    {
+      "enum": [
+        23,
+        "pmoProgrammingEconOther"
+      ],
+      "description": "Programming ECON Other Component"
+    },
+    {
+      "enum": [
+        24,
+        "pmoProgrammingFddMain"
+      ],
+      "description": "Programming Master FDD Main"
+    },
+    {
+      "enum": [
+        25,
+        "pmoProgrammingFddBoot"
+      ],
+      "description": "Programming Master FDD Boot"
+    },
+    {
+      "enum": [
+        26,
+        "pmoProgrammingFddApp"
+      ],
+      "description": "Programming Master FDD App"
+    },
+    {
+      "enum": [
+        27,
+        "pmoProgrammingFddOther"
+      ],
+      "description": "Programming Master FDD Other Component"
+    },
+    {
+      "enum": [
+        28,
+        "pmoProgrammingFddsMain"
+      ],
+      "description": "Programming Slave FDD Main"
+    },
+    {
+      "enum": [
+        29,
+        "pmoProgrammingFddsBoot"
+      ],
+      "description": "Programming Slave FDD Boot"
+    },
+    {
+      "enum": [
+        30,
+        "pmoProgrammingFddsApp"
+      ],
+      "description": "Programming Slave FDD App"
+    },
+    {
+      "enum": [
+        31,
+        "pmoProgrammingFddsOther"
+      ],
+      "description": "Programming Slave FDD Other Component"
+    },
+    {
+      "enum": [
+        32,
+        "pmoProgramming4StgMain"
+      ],
+      "description": "Programming 4 Stage Main"
+    },
+    {
+      "enum": [
+        33,
+        "pmoProgramming4StgBoot"
+      ],
+      "description": "Programming 4 Stage Boot"
+    },
+    {
+      "enum": [
+        34,
+        "pmoProgramming4StgApp"
+      ],
+      "description": "Programming 4 Stage App"
+    },
+    {
+      "enum": [
+        35,
+        "pmoProgramming4StgOther"
+      ],
+      "description": "Programming 4 Stage Other Component"
+    },
+    {
+      "enum": [
+        36,
+        "pmoProgrammingOther"
+      ],
+      "description": "Programming Other Components"
+    },
+    {
+      "enum": [
+        37,
+        "pmoFinalizingProcess"
+      ],
+      "description": "Finalizing Process"
+    },
+    {
+      "enum": [
+        38,
+        "pmoRebootingDevice"
+      ],
+      "description": "Rebooting Device"
+    },
+    {
+      "enum": [
+        39,
+        "pmoReadingUsbFiles"
+      ],
+      "description": "Reading USB"
+    },
+    {
+      "enum": [
+        40,
+        "pmoUnpackPartFile"
+      ],
+      "description": "Unpacking Partition"
+    },
+    {
+      "enum": [
+        41,
+        "pmoPartialRestoreComplete"
+      ],
+      "description": "Partial Restore Complete"
+    },
+    {
+      "enum": [
+        42,
+        "pmoCloningConfig"
+      ],
+      "description": "Cloning Configuration"
+    },
+    {
+      "enum": [
+        43,
+        "pmoPreparingForUpdateProcess"
+      ],
+      "description": "Preparing For Update"
+    },
+    {
+      "enum": [
+        44,
+        "pmoProgrammingMain"
+      ],
+      "description": "Programming Main"
+    },
+    {
+      "enum": [
+        45,
+        "pmoProgrammingBoot"
+      ],
+      "description": "Programming Boot"
+    },
+    {
+      "enum": [
+        46,
+        "pmoProgrammingApp"
+      ],
+      "description": "Programming App"
+    },
+    {
+      "enum": [
+        47,
+        "pmoProgrammingDicta"
+      ],
+      "description": "Programming Dictionary A"
+    },
+    {
+      "enum": [
+        48,
+        "pmoProgrammingDictb"
+      ],
+      "description": "Programming Dictionary B"
+    },
+    {
+      "enum": [
+        49,
+        "pmoProgrammingDictc"
+      ],
+      "description": "Programming Dictionary C"
+    },
+    {
+      "enum": [
+        50,
+        "pmoProgrammingEqArchive"
+      ],
+      "description": "Programming Equipment Archive"
+    },
+    {
+      "enum": [
+        51,
+        "pmoProgrammingDataModelTemplate"
+      ],
+      "description": "Programming Data Model Template"
+    },
+    {
+      "enum": [
+        52,
+        "pmoProgrammingViewDef"
+      ],
+      "description": "Programming Data Model View Definition"
+    },
+    {
+      "enum": [
+        53,
+        "pmoProgrammingGui1"
+      ],
+      "description": "Programming User Interface 1/3"
+    },
+    {
+      "enum": [
+        54,
+        "pmoProgrammingGui2"
+      ],
+      "description": "Programming User Interface 2/3"
+    },
+    {
+      "enum": [
+        55,
+        "pmoProgrammingGui3"
+      ],
+      "description": "Programming User Interface 3/3"
+    },
+    {
+      "enum": [
+        56,
+        "pmoTestSubCmdFileCopy"
+      ],
+      "description": "PMO File Copy Test Command"
+    },
+    {
+      "enum": [
+        57,
+        "pmoTestSubCmdFileDelete"
+      ],
+      "description": "PMO File Delete Test Command"
+    },
+    {
+      "enum": [
+        58,
+        "pmoTestSubCmdFileRename"
+      ],
+      "description": "PMO File Rename Test Command"
+    },
+    {
+      "enum": [
+        59,
+        "pmoTestSubCmdFileCopyInternal"
+      ],
+      "description": "PMO File Copy Internal Test Command"
+    },
+    {
+      "enum": [
+        60,
+        "pmoTestSubCmdSysRead"
+      ],
+      "description": "PMO System Read Test Command"
+    },
+    {
+      "enum": [
+        61,
+        "pmoTestSubCmdUsbRead"
+      ],
+      "description": "PMO USB Read Test Command"
+    },
+    {
+      "enum": [
+        62,
+        "pmoTestSubCmdTocRead"
+      ],
+      "description": "PMO TOC Read Test Command"
+    },
+    {
+      "enum": [
+        63,
+        "pmoTestSubCmdPartitionCopy"
+      ],
+      "description": "PMO Partition Copy Test Command"
+    },
+    {
+      "enum": [
+        64,
+        "pmoTestSubCmdColdReboot"
+      ],
+      "description": "PMO Cold Reboot Test Command"
+    },
+    {
+      "enum": [
+        65,
+        "pmoTestSubCmdMakeDir"
+      ],
+      "description": "PMO Make Directory Test Command"
+    },
+    {
+      "enum": [
+        66,
+        "pmoTestSubCmdDeleteDir"
+      ],
+      "description": "PMO Delete Directory Test Command"
+    },
+    {
+      "enum": [
+        67,
+        "pmoProgrammingAutoUpdatePkg"
+      ],
+      "description": "Programming Auto Update Package"
+    },
+    {
+      "enum": [
+        68,
+        "pmoProgrammingDictd"
+      ],
+      "description": "Programming Dictionary D"
+    },
+    {
+      "enum": [
+        69,
+        "pmoProgrammingEmPackage"
+      ],
+      "description": "Programming Equipment Model Package"
+    }
+  ]
+}

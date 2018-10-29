@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYgYbSafetyCodeEnumSet.schema.json",
+  "title": "ltcLegacyYgYbSafetyCodeEnumSet",
+  "description": "York LTC Legacy YG/YB Safety Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYgYbSafetyCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYgYbSafetyCode1"
+      ],
+      "description": "REMOTE CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYgYbSafetyCode2"
+      ],
+      "description": "MULTI-UNIT CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYgYbSafetyCode3"
+      ],
+      "description": "LOW WATER TEMPERATURE SHUTDOWN"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYgYbSafetyCode4"
+      ],
+      "description": "TIME CLOCK"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYgYbSafetyCode5"
+      ],
+      "description": "POWER FAIL - AUTOSTART"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYgYbSafetyCode6"
+      ],
+      "description": "VANE MOTOR SWITCH OPEN"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYgYbSafetyCode7"
+      ],
+      "description": "LOW OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYgYbSafetyCode8"
+      ],
+      "description": "LOW OIL TEMPERATURE - DIFFERENTIAL"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYgYbSafetyCode9"
+      ],
+      "description": "DC UNDERVOLTAGE"
+    }
+  ]
+}

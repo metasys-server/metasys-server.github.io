@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cecStatusReportIntervalEnumSet.schema.json",
+  "title": "cecStatusReportIntervalEnumSet",
+  "description": "CEC Status Report Interval",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cecReportIntervalNoReport"
+      ],
+      "description": "No Report"
+    },
+    {
+      "enum": [
+        1,
+        "cecReportIntervalEvery01Minute"
+      ],
+      "description": "1 Min"
+    },
+    {
+      "enum": [
+        2,
+        "cecReportIntervalEvery15Minutes"
+      ],
+      "description": "15 Mins"
+    },
+    {
+      "enum": [
+        3,
+        "cecReportIntervalEvery01Hour"
+      ],
+      "description": "1 Hour"
+    },
+    {
+      "enum": [
+        4,
+        "cecReportIntervalEvery12Hours"
+      ],
+      "description": "12 Hours"
+    },
+    {
+      "enum": [
+        5,
+        "cecReportIntervalEvery24Hours"
+      ],
+      "description": "24 Hours"
+    }
+  ]
+}

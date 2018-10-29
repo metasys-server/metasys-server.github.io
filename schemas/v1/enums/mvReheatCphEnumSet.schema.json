@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mvReheatCphEnumSet.schema.json",
+  "title": "mvReheatCphEnumSet",
+  "description": "MV Reheat CPH",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "10 Seconds"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "3 CPH"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "4 CPH"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "5 CPH"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "6 CPH"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "7 CPH"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "8 CPH"
+    }
+  ]
+}

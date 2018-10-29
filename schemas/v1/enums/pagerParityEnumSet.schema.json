@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pagerParityEnumSet.schema.json",
+  "title": "pagerParityEnumSet",
+  "description": "Pager Parity",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pagerParityNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "pagerParityOdd"
+      ],
+      "description": "Odd"
+    },
+    {
+      "enum": [
+        2,
+        "pagerParityEven"
+      ],
+      "description": "Even"
+    },
+    {
+      "enum": [
+        3,
+        "pagerParityMark"
+      ],
+      "description": "Mark"
+    },
+    {
+      "enum": [
+        4,
+        "pagerParitySpace"
+      ],
+      "description": "Space"
+    }
+  ]
+}

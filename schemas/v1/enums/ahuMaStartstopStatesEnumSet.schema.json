@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuMaStartstopStatesEnumSet.schema.json",
+  "title": "ahuMaStartstopStatesEnumSet",
+  "description": "AHU MA StartStop States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuMaSssOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuMaSssSfStartsFirst"
+      ],
+      "description": "SF Starts First"
+    },
+    {
+      "enum": [
+        2,
+        "ahuMaSssRfStartsFirst"
+      ],
+      "description": "RF Starts First"
+    },
+    {
+      "enum": [
+        3,
+        "ahuMaSssRampSf"
+      ],
+      "description": "Ramp SF"
+    },
+    {
+      "enum": [
+        4,
+        "ahuMaSssStabilizeSystem"
+      ],
+      "description": "Stabilize System"
+    },
+    {
+      "enum": [
+        5,
+        "ahuMaSssRampMinOa"
+      ],
+      "description": "Ramp Min OA"
+    },
+    {
+      "enum": [
+        6,
+        "ahuMaSssOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        7,
+        "ahuMaSssCloseDampers"
+      ],
+      "description": "Close Dampers"
+    },
+    {
+      "enum": [
+        8,
+        "ahuMaSssRfStopsFirst"
+      ],
+      "description": "RF Stops First"
+    },
+    {
+      "enum": [
+        9,
+        "ahuMaSssSfStopsFirst"
+      ],
+      "description": "SF Stops First"
+    },
+    {
+      "enum": [
+        10,
+        "ahuMaSssFansOff"
+      ],
+      "description": "Fans Off"
+    },
+    {
+      "enum": [
+        11,
+        "ahuMaSssFanFault"
+      ],
+      "description": "Fan Fault"
+    }
+  ]
+}

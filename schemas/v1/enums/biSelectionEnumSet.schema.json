@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/biSelectionEnumSet.schema.json",
+  "title": "biSelectionEnumSet",
+  "description": "BI Selection",
+  "oneOf": [
+    {
+      "enum": [
+        374,
+        "biSelectionNormalAlarm"
+      ],
+      "description": "Normal/Alarm"
+    },
+    {
+      "enum": [
+        647,
+        "biSelectionOffOn"
+      ],
+      "description": "Off/On"
+    },
+    {
+      "enum": [
+        939,
+        "biSelectionCloseOpen"
+      ],
+      "description": "Close/Open"
+    },
+    {
+      "enum": [
+        1686,
+        "biSelectionOnOff"
+      ],
+      "description": "On/Off"
+    },
+    {
+      "enum": [
+        1696,
+        "biSelectionAlarmNormal"
+      ],
+      "description": "Alarm/Normal"
+    },
+    {
+      "enum": [
+        1699,
+        "biSelectionOpenClose"
+      ],
+      "description": "Open/Close"
+    }
+  ]
+}

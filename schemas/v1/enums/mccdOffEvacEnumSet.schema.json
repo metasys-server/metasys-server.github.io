@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdOffEvacEnumSet.schema.json",
+  "title": "mccdOffEvacEnumSet",
+  "description": "MCCD Off Evac",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "OFF"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "EVAC"
+    }
+  ]
+}

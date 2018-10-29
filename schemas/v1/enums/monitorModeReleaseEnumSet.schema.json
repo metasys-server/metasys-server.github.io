@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/monitorModeReleaseEnumSet.schema.json",
+  "title": "monitorModeReleaseEnumSet",
+  "description": "Monitor Mode Release",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "monitorModeReleaseNow"
+      ],
+      "description": "Release Immediately"
+    },
+    {
+      "enum": [
+        1,
+        "monitorModeReleaseAfterTimer"
+      ],
+      "description": "Release After Min Shed Time"
+    }
+  ]
+}

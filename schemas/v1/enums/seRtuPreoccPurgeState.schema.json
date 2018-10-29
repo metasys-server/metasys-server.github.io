@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuPreoccPurgeState.schema.json",
+  "title": "seRtuPreoccPurgeState",
+  "description": "SE RTU PreOcc Purge State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuPreoccPurgeStateOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuPreoccPurgeStatePurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuPreoccPurgeStatePurgeSatHigh"
+      ],
+      "description": "Purge SA-T High"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuPreoccPurgeStatePurgeSatLow"
+      ],
+      "description": "Purge SA-T Low"
+    }
+  ]
+}

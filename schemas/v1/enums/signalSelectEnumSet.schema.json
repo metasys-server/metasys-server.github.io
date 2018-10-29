@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/signalSelectEnumSet.schema.json",
+  "title": "signalSelectEnumSet",
+  "description": "Signal Select",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "signalSelectHighSignal"
+      ],
+      "description": "High Signal"
+    },
+    {
+      "enum": [
+        1,
+        "signalSelectLowSignal"
+      ],
+      "description": "Low Signal"
+    },
+    {
+      "enum": [
+        2,
+        "signalSelectAverage"
+      ],
+      "description": "Average"
+    },
+    {
+      "enum": [
+        3,
+        "signalSelectSingleSensor"
+      ],
+      "description": "Single Sensor"
+    }
+  ]
+}

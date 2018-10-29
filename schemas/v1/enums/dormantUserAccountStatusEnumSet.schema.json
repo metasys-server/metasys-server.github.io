@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dormantUserAccountStatusEnumSet.schema.json",
+  "title": "dormantUserAccountStatusEnumSet",
+  "description": "Dormant User Account Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "accountStatusActive"
+      ],
+      "description": "Active"
+    },
+    {
+      "enum": [
+        1,
+        "accountStatusSuspended"
+      ],
+      "description": "Suspended"
+    },
+    {
+      "enum": [
+        2,
+        "accountStatusLockedout"
+      ],
+      "description": "Locked Out"
+    },
+    {
+      "enum": [
+        3,
+        "accountStatusDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        4,
+        "accountStatusDisabledAndLockedout"
+      ],
+      "description": "Disabled & Locked Out"
+    },
+    {
+      "enum": [
+        5,
+        "accountStatusSuspendedAndLockedout"
+      ],
+      "description": "Suspended & Locked Out"
+    }
+  ]
+}

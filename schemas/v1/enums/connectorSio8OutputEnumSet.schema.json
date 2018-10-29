@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorSio8OutputEnumSet.schema.json",
+  "title": "connectorSio8OutputEnumSet",
+  "description": "Connector SIO8 Output",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorSio8Output1"
+      ],
+      "description": "OUTPUT 1 NO / NC"
+    },
+    {
+      "enum": [
+        1,
+        "connectorSio8Output2"
+      ],
+      "description": "OUTPUT 2 NO / NC"
+    },
+    {
+      "enum": [
+        2,
+        "connectorSio8Output3"
+      ],
+      "description": "OUTPUT 3 NO / NC"
+    },
+    {
+      "enum": [
+        3,
+        "connectorSio8Output4"
+      ],
+      "description": "OUTPUT 4 NO / NC"
+    },
+    {
+      "enum": [
+        4,
+        "connectorSio8Output5"
+      ],
+      "description": "OUTPUT 5 NO / NC"
+    },
+    {
+      "enum": [
+        5,
+        "connectorSio8Output6"
+      ],
+      "description": "OUTPUT 6 NO / NC"
+    },
+    {
+      "enum": [
+        6,
+        "connectorSio8Output7"
+      ],
+      "description": "OUTPUT 7 NO / NC"
+    },
+    {
+      "enum": [
+        7,
+        "connectorSio8Output8"
+      ],
+      "description": "OUTPUT 8 NO / NC"
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/attributeCategoryEnumSet.schema.json",
+  "title": "attributeCategoryEnumSet",
+  "description": "Attribute Category",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "defaultCategory"
+      ],
+      "description": "Default"
+    },
+    {
+      "enum": [
+        1,
+        "commandReferenceStructCategory"
+      ],
+      "description": "Command Reference"
+    },
+    {
+      "enum": [
+        2,
+        "functionalNameStructCategory"
+      ],
+      "description": "Functional Name"
+    },
+    {
+      "enum": [
+        4,
+        "versionStructCategory"
+      ],
+      "description": "Version"
+    },
+    {
+      "enum": [
+        5,
+        "percentIoStructCategory"
+      ],
+      "description": "TCU Percent IO"
+    },
+    {
+      "enum": [
+        6,
+        "snvtSwitchStructCategory"
+      ],
+      "description": "TCU SNVT_switch"
+    },
+    {
+      "enum": [
+        7,
+        "tempSetptStructCategory"
+      ],
+      "description": "TCU SNVT_temp_setpt"
+    },
+    {
+      "enum": [
+        8,
+        "todEventStructCategory"
+      ],
+      "description": "TCU SNVT_tod_event"
+    },
+    {
+      "enum": [
+        9,
+        "snvtHvacOvrdStructCategory"
+      ],
+      "description": "TCU SNVT_hvac_overid"
+    },
+    {
+      "enum": [
+        10,
+        "unitStatusStructCategory"
+      ],
+      "description": "Unit Status"
+    },
+    {
+      "enum": [
+        11,
+        "objectNameCategory"
+      ],
+      "description": "Object Name"
+    },
+    {
+      "enum": [
+        12,
+        "ipAddressCategory"
+      ],
+      "description": "IP Address"
+    },
+    {
+      "enum": [
+        13,
+        "ipMaskCategory"
+      ],
+      "description": "IP Subnet Mask"
+    },
+    {
+      "enum": [
+        14,
+        "hostnameCategory"
+      ],
+      "description": "DNS Hostname"
+    },
+    {
+      "enum": [
+        15,
+        "tableCategory"
+      ],
+      "description": "Table"
+    },
+    {
+      "enum": [
+        16,
+        "logicEquationCategory"
+      ],
+      "description": "Logic Equation"
+    },
+    {
+      "enum": [
+        17,
+        "netN2AddressCategory"
+      ],
+      "description": "N2 Controller Address"
+    },
+    {
+      "enum": [
+        18,
+        "netN2PointAddressCategory"
+      ],
+      "description": "N2 Point Address"
+    },
+    {
+      "enum": [
+        19,
+        "minMaxValueCategory"
+      ],
+      "description": "Min and Max Value"
+    },
+    {
+      "enum": [
+        20,
+        "minMaxPrestartCategory"
+      ],
+      "description": "Min and Max Prestart"
+    },
+    {
+      "enum": [
+        21,
+        "bacnetDevPropertyRefCategory"
+      ],
+      "description": "BACnet Device Object Property Reference"
+    },
+    {
+      "enum": [
+        22,
+        "bacnetPropertyRefCategory"
+      ],
+      "description": "BACnet Property Object Reference"
+    },
+    {
+      "enum": [
+        23,
+        "fileCategory"
+      ],
+      "description": "File Data"
+    },
+    {
+      "enum": [
+        24,
+        "unqualifiedHostnameCategory"
+      ],
+      "description": "Unqualified DNS Hostname"
+    },
+    {
+      "enum": [
+        25,
+        "hostnameOrIpaddrCategory"
+      ],
+      "description": "Host name or IP Address"
+    },
+    {
+      "enum": [
+        26,
+        "modemConfigCategory"
+      ],
+      "description": "Modem Configuration Info"
+    },
+    {
+      "enum": [
+        27,
+        "phoneNumberCategory"
+      ],
+      "description": "Phone Number"
+    },
+    {
+      "enum": [
+        28,
+        "passwordCategory"
+      ],
+      "description": "Password"
+    },
+    {
+      "enum": [
+        29,
+        "emailAddressCategory"
+      ],
+      "description": "Email Address"
+    },
+    {
+      "enum": [
+        30,
+        "lstOfReadAccessRsltCategory"
+      ],
+      "description": "List of Read Access Result"
+    },
+    {
+      "enum": [
+        31,
+        "lstOfReadAccessSpecifCategory"
+      ],
+      "description": "List of Read Access Specification"
+    },
+    {
+      "enum": [
+        32,
+        "nameCategory"
+      ],
+      "description": "User Name"
+    },
+    {
+      "enum": [
+        33,
+        "parentalInputCategory"
+      ],
+      "description": "Parental Input"
+    },
+    {
+      "enum": [
+        34,
+        "textBlockCategory"
+      ],
+      "description": "Text Block"
+    },
+    {
+      "enum": [
+        35,
+        "multistateStatesTextCategory"
+      ],
+      "description": "States Text"
+    },
+    {
+      "enum": [
+        36,
+        "multistateNumberOfStatesCategory"
+      ],
+      "description": "Number of States"
+    },
+    {
+      "enum": [
+        37,
+        "ddaFiltersCategory"
+      ],
+      "description": "Destination Delivery Agent Filters"
+    },
+    {
+      "enum": [
+        38,
+        "macAddressCategory"
+      ],
+      "description": "MAC Address"
+    },
+    {
+      "enum": [
+        39,
+        "dynamicEnumSetCategory"
+      ],
+      "description": "Dynamic Enum Set"
+    },
+    {
+      "enum": [
+        40,
+        "colorValueCategory"
+      ],
+      "description": "RGB Color"
+    },
+    {
+      "enum": [
+        41,
+        "filenameExeTypeCategory"
+      ],
+      "description": "Executable File"
+    },
+    {
+      "enum": [
+        42,
+        "filenameAnyTypeCategory"
+      ],
+      "description": "File Type"
+    },
+    {
+      "enum": [
+        43,
+        "uiViewContentCategory"
+      ],
+      "description": "UI View Content"
+    },
+    {
+      "enum": [
+        44,
+        "editableClassIdsCategory"
+      ],
+      "description": "Editable Class IDs"
+    },
+    {
+      "enum": [
+        45,
+        "objectCategoryCategory"
+      ],
+      "description": "Authorization Category"
+    },
+    {
+      "enum": [
+        46,
+        "wildcardDateCategory"
+      ],
+      "description": "Wildcard Dates"
+    },
+    {
+      "enum": [
+        47,
+        "refreshRateCategory"
+      ],
+      "description": "Refresh Rate"
+    },
+    {
+      "enum": [
+        48,
+        "siteDirectorCategory"
+      ],
+      "description": "Site Director"
+    },
+    {
+      "enum": [
+        49,
+        "emailAddressListCategory"
+      ],
+      "description": "Email Address List"
+    },
+    {
+      "enum": [
+        50,
+        "textBlockWrapCategory"
+      ],
+      "description": "Wrap Around Text Box"
+    },
+    {
+      "enum": [
+        51,
+        "ssDataRecordIdCategory"
+      ],
+      "description": "Data record ID"
+    },
+    {
+      "enum": [
+        52,
+        "ssEntityIdCategory"
+      ],
+      "description": "Entity ID"
+    },
+    {
+      "enum": [
+        53,
+        "ssAccessProfileIdCategory"
+      ],
+      "description": "Access Profile ID"
+    },
+    {
+      "enum": [
+        54,
+        "ssIdentifierIdCategory"
+      ],
+      "description": "Identifier ID"
+    },
+    {
+      "enum": [
+        55,
+        "ssBadgeIdCategory"
+      ],
+      "description": "Badge ID"
+    },
+    {
+      "enum": [
+        56,
+        "ssBiometricIdCategory"
+      ],
+      "description": "Biometric ID"
+    },
+    {
+      "enum": [
+        57,
+        "ssEntityGroupIdCategory"
+      ],
+      "description": "Entity Group ID"
+    },
+    {
+      "enum": [
+        58,
+        "ssIntrusionGroupIdCategory"
+      ],
+      "description": "Intrusion Group ID"
+    },
+    {
+      "enum": [
+        59,
+        "ssAccessGroupIdCategory"
+      ],
+      "description": "Access Group ID"
+    },
+    {
+      "enum": [
+        61,
+        "ssIdentifierFormatIdCategory"
+      ],
+      "description": "Identifier Format ID"
+    },
+    {
+      "enum": [
+        62,
+        "encryptedPasswordCategory"
+      ],
+      "description": "Encrypted Password"
+    },
+    {
+      "enum": [
+        64,
+        "tagSensitiveStringCategory"
+      ],
+      "description": "Tag Sensitive String"
+    },
+    {
+      "enum": [
+        65,
+        "privilegeMaskCategory"
+      ],
+      "description": "Privilege Mask"
+    },
+    {
+      "enum": [
+        66,
+        "mcoRelinquishDefaultCategory"
+      ],
+      "description": "Special Case UI Nees"
+    },
+    {
+      "enum": [
+        67,
+        "restoreCommandPriorityCategory"
+      ],
+      "description": "UI for Command Persistence"
+    },
+    {
+      "enum": [
+        68,
+        "utilityProfileCategory"
+      ],
+      "description": "UI Format for DLLR Profile Attrs"
+    },
+    {
+      "enum": [
+        69,
+        "bacnetDateTimeCategory"
+      ],
+      "description": "UI Format for Data and Time"
+    },
+    {
+      "enum": [
+        70,
+        "scheduleValuesCategory"
+      ],
+      "description": "UI for Schedule Object"
+    },
+    {
+      "enum": [
+        71,
+        "loadRatingListCategory"
+      ],
+      "description": "UI for Load Rating Lists"
+    },
+    {
+      "enum": [
+        72,
+        "alarmValuesCategory"
+      ],
+      "description": "UI for Alarm Values"
+    },
+    {
+      "enum": [
+        73,
+        "editableReferenceCategory"
+      ],
+      "description": "UI for Graphic Alias"
+    },
+    {
+      "enum": [
+        74,
+        "alarmValuesTextCategory"
+      ],
+      "description": "Limit Alarm String Length"
+    },
+    {
+      "enum": [
+        75,
+        "bacnetRecipientCategory"
+      ],
+      "description": "UI Format for BACnet Recipients"
+    },
+    {
+      "enum": [
+        76,
+        "networkDestinationCategory"
+      ],
+      "description": "UI Format for Network Destination"
+    },
+    {
+      "enum": [
+        77,
+        "amountOfTimeCategory"
+      ],
+      "description": "UI Format for Window Interval"
+    },
+    {
+      "enum": [
+        78,
+        "unreliableAsUndefinedCategory"
+      ],
+      "description": "UI Format for Avg, Min, and Max Values"
+    },
+    {
+      "enum": [
+        79,
+        "editableNameCategory"
+      ],
+      "description": "UI Format for References"
+    },
+    {
+      "enum": [
+        80,
+        "typeAndAttrCategory"
+      ],
+      "description": "UI Format for Column Definition"
+    },
+    {
+      "enum": [
+        81,
+        "includeLonNullStateCategory"
+      ],
+      "description": "UI Validation for LON Null State"
+    },
+    {
+      "enum": [
+        82,
+        "includeLonHoldStateCategory"
+      ],
+      "description": "UI Validation for LON Hold State"
+    },
+    {
+      "enum": [
+        83,
+        "noEditInUiCategory"
+      ],
+      "description": "Prevent Edit of Value from UI"
+    },
+    {
+      "enum": [
+        84,
+        "positiveValueCategory"
+      ],
+      "description": "Positive Value Category"
+    },
+    {
+      "enum": [
+        85,
+        "useDefaultEditUiCategory"
+      ],
+      "description": "Use default edit in UI"
+    },
+    {
+      "enum": [
+        86,
+        "listofUniqueCategory"
+      ],
+      "description": "List Of Unique Value"
+    },
+    {
+      "enum": [
+        87,
+        "ddaAuditFiltersCategory"
+      ],
+      "description": "Destination Delivery Agent Audit Filters"
+    },
+    {
+      "enum": [
+        88,
+        "bacnetDateTimePatternCategory"
+      ],
+      "description": "UI Format for DateTime Pattern"
+    },
+    {
+      "enum": [
+        89,
+        "bacnetDatePatternCategory"
+      ],
+      "description": "UI Format for Date Pattern"
+    },
+    {
+      "enum": [
+        90,
+        "bacnetTimePatternCategory"
+      ],
+      "description": "UI Format for Time Pattern"
+    },
+    {
+      "enum": [
+        91,
+        "bacnetDateTimeUnspecifiedCategory"
+      ],
+      "description": "UI Format for Unspecified DateTime"
+    },
+    {
+      "enum": [
+        92,
+        "bacnetDateUnspecifiedCategory"
+      ],
+      "description": "UI Format for Unspecified Date"
+    },
+    {
+      "enum": [
+        93,
+        "bacnetTimeUnspecifiedCategory"
+      ],
+      "description": "UI Format for Unspecified Time"
+    },
+    {
+      "enum": [
+        94,
+        "usernameMask"
+      ],
+      "description": "Username Mask"
+    }
+  ]
+}

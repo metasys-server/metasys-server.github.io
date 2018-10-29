@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seHeatType2.schema.json",
+  "title": "seHeatType2",
+  "description": "SE RTU Heat Type 2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuHt2None"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuHt2Gaselec"
+      ],
+      "description": "Gas/Electric"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuHt2Hp"
+      ],
+      "description": "Heat Pump"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuHt2Hyd"
+      ],
+      "description": "Hydronic"
+    }
+  ]
+}

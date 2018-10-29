@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occupancyEffectiveStateEnumSet.schema.json",
+  "title": "occupancyEffectiveStateEnumSet",
+  "description": "Occupancy Effective State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "occupancyEffectiveStateOccOverride"
+      ],
+      "description": "Occupancy Override"
+    },
+    {
+      "enum": [
+        1,
+        "occupancyEffectiveStateBypassTimer"
+      ],
+      "description": "Bypass Timer"
+    },
+    {
+      "enum": [
+        2,
+        "occupancyEffectiveStateOccSchedule"
+      ],
+      "description": "Occupancy Schedule"
+    },
+    {
+      "enum": [
+        3,
+        "occupancyEffectiveStateOccSensor"
+      ],
+      "description": "Occupancy Sensor"
+    },
+    {
+      "enum": [
+        4,
+        "occupancyEffectiveStateDefault"
+      ],
+      "description": "Default Occupancy"
+    }
+  ]
+}

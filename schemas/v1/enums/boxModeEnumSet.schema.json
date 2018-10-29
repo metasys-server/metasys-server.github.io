@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/boxModeEnumSet.schema.json",
+  "title": "boxModeEnumSet",
+  "description": "Box Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Shutdown Closed"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Shutdown Open"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Warmup"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Water System Flush"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Low Limit"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Heating"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pmoRemoteFirmwarePkgStatusEnumSet.schema.json",
+  "title": "pmoRemoteFirmwarePkgStatusEnumSet",
+  "description": "Remote Firmware Package Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pmoRemoteFwPkgStatusFileNotFound"
+      ],
+      "description": "Remote Package Not Found"
+    },
+    {
+      "enum": [
+        1,
+        "pmoRemoteFwPkgStatusDownloadInProgress"
+      ],
+      "description": "Remote Package Download In Progress"
+    },
+    {
+      "enum": [
+        2,
+        "pmoRemoteFwPkgStatusAvailable"
+      ],
+      "description": "Remote Package Available"
+    },
+    {
+      "enum": [
+        3,
+        "pmoRemoteFwPkgStatusPasswordFailure"
+      ],
+      "description": "Remote Package Password Mismatch"
+    },
+    {
+      "enum": [
+        4,
+        "pmoRemoteFwPkgStatusFilepathNotFound"
+      ],
+      "description": "Remote Package Path Incorrect"
+    },
+    {
+      "enum": [
+        5,
+        "pmoRemoteFwPkgStatusInvalidPackage"
+      ],
+      "description": "Remote Package Invalid"
+    },
+    {
+      "enum": [
+        6,
+        "pmoRemoteFwPkgStatusDownloadError"
+      ],
+      "description": "Remote Package Download Error"
+    },
+    {
+      "enum": [
+        7,
+        "pmoRemoteFwPkgStatusProvisioningInProgress"
+      ],
+      "description": "Remote Package Provisioning in Progress"
+    },
+    {
+      "enum": [
+        8,
+        "pmoRemoteFwPkgStatusProvisioningRequestSent"
+      ],
+      "description": "Remote Package Provisioning Request Sent"
+    },
+    {
+      "enum": [
+        9,
+        "pmoRemoteFwPkgStatusProvisioningRequestFailed"
+      ],
+      "description": "Remote Package Provisioning Request Failed"
+    },
+    {
+      "enum": [
+        10,
+        "pmoRemoteFwPkgStatusProvisioningRequestAllUpToDate"
+      ],
+      "description": "Remote Package Provisioning Request - All Up To Date"
+    },
+    {
+      "enum": [
+        11,
+        "pmoRemoteFwPkgStatusDownloadErrorAlreadyInProgress"
+      ],
+      "description": "Remote Package Download Error - Download Already In Progress"
+    },
+    {
+      "enum": [
+        12,
+        "pmoRemoteFwPkgStatusDownloadErrorTimedout"
+      ],
+      "description": "Remote Package Download Error - Request Timed Out"
+    },
+    {
+      "enum": [
+        13,
+        "pmoRemoteFwPkgStatusDownloadErrorOutOfSequence"
+      ],
+      "description": "Remote Package Download Error - Request Out Of Sequence"
+    },
+    {
+      "enum": [
+        14,
+        "pmoRemoteFwPkgStatusDownloadErrorFilesizemismatch"
+      ],
+      "description": "Remote Package Download Error - File Size Mismatch"
+    },
+    {
+      "enum": [
+        15,
+        "pmoRemoteFwPkgStatusDownloadErrorFilesizezero"
+      ],
+      "description": "Remote Package Download Error - File Size Zero"
+    },
+    {
+      "enum": [
+        16,
+        "pmoRemoteFwPkgStatusDownloadErrorBadParameters"
+      ],
+      "description": "Remote Package Download Error - Invalid Parameters"
+    },
+    {
+      "enum": [
+        17,
+        "pmoRemoteFwPkgStatusInternalErrorInvalidpackagepath"
+      ],
+      "description": "Remote Package Internal Error - Invalid Package Path"
+    },
+    {
+      "enum": [
+        18,
+        "pmoRemoteFwPkgStatusInternalErrorInvalidFileInvokedid"
+      ],
+      "description": "Remote Package Internal Error - Invalid File Invokeid"
+    },
+    {
+      "enum": [
+        19,
+        "pmoRemoteFwPkgStatusInternalErrorUnableToOpenRemotePackageFile"
+      ],
+      "description": "Remote Package Internal Error - Unable to Open Remote Package"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offAutoCoolHeat.schema.json",
+  "title": "offAutoCoolHeat",
+  "description": "Off Auto Cool Heat",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "offautocoolheatOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "offautocoolheatAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        2,
+        "offautocoolheatCool"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        3,
+        "offautocoolheatHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        4,
+        "offautocoolheatHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/loadEligibilityEnumSet.schema.json",
+  "title": "loadEligibilityEnumSet",
+  "description": "Load Eligibility",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "notEligible"
+      ],
+      "description": "Ineligible"
+    },
+    {
+      "enum": [
+        1,
+        "eligibleForLrOnly"
+      ],
+      "description": "Eligible for LR only"
+    },
+    {
+      "enum": [
+        2,
+        "eligibleForDlOnly"
+      ],
+      "description": "Eligible for DL only"
+    },
+    {
+      "enum": [
+        3,
+        "eligibleForDlAndLr"
+      ],
+      "description": "Eligible for DL & LR"
+    }
+  ]
+}

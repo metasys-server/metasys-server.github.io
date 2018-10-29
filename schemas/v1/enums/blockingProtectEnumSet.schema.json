@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/blockingProtectEnumSet.schema.json",
+  "title": "blockingProtectEnumSet",
+  "description": "Blocking Protect",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bpOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "bpProtect"
+      ],
+      "description": "Protect"
+    }
+  ]
+}

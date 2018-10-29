@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rotationEnumSet.schema.json",
+  "title": "rotationEnumSet",
+  "description": "Rotation",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rotationOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "rotationHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        2,
+        "rotationStageUp"
+      ],
+      "description": "Stage Up"
+    },
+    {
+      "enum": [
+        3,
+        "rotationStageDown"
+      ],
+      "description": "Stage Down"
+    },
+    {
+      "enum": [
+        4,
+        "rotationRotateNow"
+      ],
+      "description": "Rotate Now"
+    }
+  ]
+}

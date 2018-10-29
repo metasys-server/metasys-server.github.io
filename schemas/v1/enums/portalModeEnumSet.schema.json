@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/portalModeEnumSet.schema.json",
+  "title": "portalModeEnumSet",
+  "description": "Portal Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "portalModeNormal"
+      ],
+      "description": "Normal (Access Mode)"
+    },
+    {
+      "enum": [
+        1,
+        "portalModeOverride"
+      ],
+      "description": "Override (Open Mode)"
+    },
+    {
+      "enum": [
+        2,
+        "portalModeLockdown"
+      ],
+      "description": "Lockdown (Secure Mode)"
+    },
+    {
+      "enum": [
+        3,
+        "portalModeUnknown"
+      ],
+      "description": "Unknown"
+    }
+  ]
+}

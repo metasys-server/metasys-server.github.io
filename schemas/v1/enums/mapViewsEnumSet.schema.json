@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mapViewsEnumSet.schema.json",
+  "title": "mapViewsEnumSet",
+  "description": "MAP Views",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mapNoView"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "mapInputsView"
+      ],
+      "description": "Inputs"
+    },
+    {
+      "enum": [
+        2,
+        "mapOutputsView"
+      ],
+      "description": "Outputs"
+    },
+    {
+      "enum": [
+        3,
+        "mapParametersView"
+      ],
+      "description": "Parameters"
+    },
+    {
+      "enum": [
+        4,
+        "mapSchedulesView"
+      ],
+      "description": "Schedules"
+    },
+    {
+      "enum": [
+        5,
+        "mapTrendsView"
+      ],
+      "description": "Trends"
+    },
+    {
+      "enum": [
+        6,
+        "mapEventsView"
+      ],
+      "description": "Events"
+    },
+    {
+      "enum": [
+        7,
+        "mapConfigView"
+      ],
+      "description": "Configuration"
+    }
+  ]
+}

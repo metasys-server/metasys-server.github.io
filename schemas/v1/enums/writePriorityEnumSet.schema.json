@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/writePriorityEnumSet.schema.json",
+  "title": "writePriorityEnumSet",
+  "description": "Write Priority",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "priorityNone"
+      ],
+      "description": "0 (No Priority)"
+    },
+    {
+      "enum": [
+        1,
+        "priorityManualEmergency"
+      ],
+      "description": "1 (Manual Life Safety)"
+    },
+    {
+      "enum": [
+        2,
+        "priorityFireApplications"
+      ],
+      "description": "2 (Auto Life Safety)"
+    },
+    {
+      "enum": [
+        3,
+        "priority3"
+      ],
+      "description": "3 (Application)"
+    },
+    {
+      "enum": [
+        4,
+        "priority4"
+      ],
+      "description": "4 (Application)"
+    },
+    {
+      "enum": [
+        5,
+        "priorityCriticalEquipment"
+      ],
+      "description": "5 (Critical Equipment)"
+    },
+    {
+      "enum": [
+        6,
+        "priorityMinimumOnOff"
+      ],
+      "description": "6 (Minimum On Off)"
+    },
+    {
+      "enum": [
+        7,
+        "priorityHeavyEquipDelay"
+      ],
+      "description": "7 (Heavy Equip Delay)"
+    },
+    {
+      "enum": [
+        8,
+        "priorityOperatorOverride"
+      ],
+      "description": "8 (Operator Override)"
+    },
+    {
+      "enum": [
+        9,
+        "priority9"
+      ],
+      "description": "9 (Application)"
+    },
+    {
+      "enum": [
+        10,
+        "priority10"
+      ],
+      "description": "10 (Application)"
+    },
+    {
+      "enum": [
+        11,
+        "priorityDemandLimiting"
+      ],
+      "description": "11 (Demand Limiting)"
+    },
+    {
+      "enum": [
+        12,
+        "priority12"
+      ],
+      "description": "12 (Application)"
+    },
+    {
+      "enum": [
+        13,
+        "priorityLoadRolling"
+      ],
+      "description": "13 (Load Rolling)"
+    },
+    {
+      "enum": [
+        14,
+        "priority14"
+      ],
+      "description": "14 (Application)"
+    },
+    {
+      "enum": [
+        15,
+        "prioritySchedulingOst"
+      ],
+      "description": "15 (Scheduling)"
+    },
+    {
+      "enum": [
+        16,
+        "priorityDefault"
+      ],
+      "description": "16 (Default)"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuMfcAlarms.schema.json",
+  "title": "seRtuMfcAlarms",
+  "description": "SE RTU MFC Alarms",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mfcAlrmsNoAlarm"
+      ],
+      "description": "No Alarm"
+    },
+    {
+      "enum": [
+        1,
+        "mfcAlrmsHs1LoLs"
+      ],
+      "description": "HS1 LO Limit Switch"
+    },
+    {
+      "enum": [
+        2,
+        "mfcAlrmsHs2LoLs"
+      ],
+      "description": "HS2 LO Limit Switch"
+    },
+    {
+      "enum": [
+        3,
+        "mfcAlrmsHs3LoLs"
+      ],
+      "description": "HS3 LO Limit Switch"
+    },
+    {
+      "enum": [
+        4,
+        "mfcAlrmsHs4LoLs"
+      ],
+      "description": "HS4 LO Limit Switch"
+    },
+    {
+      "enum": [
+        5,
+        "mfcAlrmsHs1LoGv"
+      ],
+      "description": "HS1 LO Gas Valve"
+    },
+    {
+      "enum": [
+        6,
+        "mfcAlrmsHs2LoGv"
+      ],
+      "description": "HS2 LO Gas Valve"
+    },
+    {
+      "enum": [
+        7,
+        "mfcAlrmsHs3LoGv"
+      ],
+      "description": "HS3 LO Gas Valve"
+    },
+    {
+      "enum": [
+        8,
+        "mfcAlrmsHs4LoGv"
+      ],
+      "description": "HS4 LO Gas Valve"
+    },
+    {
+      "enum": [
+        9,
+        "mfcAlrmsModregFail"
+      ],
+      "description": "Mod Reg Failure"
+    },
+    {
+      "enum": [
+        10,
+        "mfcAlrmsSatFail"
+      ],
+      "description": "SAT Failure"
+    },
+    {
+      "enum": [
+        11,
+        "mfcAlrmsMatFail"
+      ],
+      "description": "MAT Failure"
+    },
+    {
+      "enum": [
+        12,
+        "mfcAlrmsNoAps"
+      ],
+      "description": "No APS"
+    },
+    {
+      "enum": [
+        13,
+        "mfcAlrmsApsSc"
+      ],
+      "description": "APS Stuck Closed"
+    },
+    {
+      "enum": [
+        14,
+        "mfcAlrmsEfd"
+      ],
+      "description": "Electronic Failure Defaults"
+    },
+    {
+      "enum": [
+        15,
+        "mfcAlrmsEfLo"
+      ],
+      "description": "Electronic Failure LO"
+    },
+    {
+      "enum": [
+        16,
+        "mfcAlrmsLowVolt"
+      ],
+      "description": "Low Voltage"
+    },
+    {
+      "enum": [
+        17,
+        "mfcAlrmsMcLo"
+      ],
+      "description": "Mech Cooling LO"
+    },
+    {
+      "enum": [
+        18,
+        "mfcAlrmsNhRti"
+      ],
+      "description": "No Heat Runtime Info"
+    }
+  ]
+}

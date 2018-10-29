@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewBvOpenclosedEnumSet.schema.json",
+  "title": "optiviewBvOpenclosedEnumSet",
+  "description": "OptiView BV Open Closed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewBvOpenclosedOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewBvOpenclosedClosed"
+      ],
+      "description": "Closed"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/accessModeEnumSet.schema.json",
+  "title": "accessModeEnumSet",
+  "description": "Access Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "localAccess"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        1,
+        "sharedAccess"
+      ],
+      "description": "Shared"
+    },
+    {
+      "enum": [
+        2,
+        "centralAccess"
+      ],
+      "description": "Central"
+    }
+  ]
+}

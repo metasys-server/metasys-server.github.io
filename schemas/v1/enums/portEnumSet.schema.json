@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/portEnumSet.schema.json",
+  "title": "portEnumSet",
+  "description": "Port",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "port0"
+      ],
+      "description": "Port 0"
+    },
+    {
+      "enum": [
+        1,
+        "port1"
+      ],
+      "description": "Port 1"
+    },
+    {
+      "enum": [
+        2,
+        "port2"
+      ],
+      "description": "Port 2"
+    },
+    {
+      "enum": [
+        3,
+        "port3"
+      ],
+      "description": "Port 3"
+    }
+  ]
+}

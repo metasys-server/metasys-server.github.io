@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/minimumHourlyRuntimeEnumSet.schema.json",
+  "title": "minimumHourlyRuntimeEnumSet",
+  "description": "Minimum Hourly Runtime",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "minimumHourlyRuntimeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "minimumHourlyRuntime5Minutes"
+      ],
+      "description": "5 Minutes"
+    },
+    {
+      "enum": [
+        2,
+        "minimumHourlyRuntime10Minutes"
+      ],
+      "description": "10 Minutes"
+    },
+    {
+      "enum": [
+        3,
+        "minimumHourlyRuntime15Minutes"
+      ],
+      "description": "15 Minutes"
+    },
+    {
+      "enum": [
+        4,
+        "minimumHourlyRuntime20Minutes"
+      ],
+      "description": "20 Minutes"
+    },
+    {
+      "enum": [
+        5,
+        "minimumHourlyRuntime30Minutes"
+      ],
+      "description": "30 Minutes"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecBaudEnumSet.schema.json",
+  "title": "tecBaudEnumSet",
+  "description": "TEC Baud",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecBaud9600"
+      ],
+      "description": "9600"
+    },
+    {
+      "enum": [
+        1,
+        "tecBaud19200"
+      ],
+      "description": "19200"
+    },
+    {
+      "enum": [
+        2,
+        "tecBaud38400"
+      ],
+      "description": "38400"
+    },
+    {
+      "enum": [
+        3,
+        "tecBaud76800"
+      ],
+      "description": "76800"
+    },
+    {
+      "enum": [
+        4,
+        "tecBaudAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lastModemStatusEnumSet.schema.json",
+  "title": "lastModemStatusEnumSet",
+  "description": "Last Modem Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sdlModemNoModemDetected"
+      ],
+      "description": "No Modem Detected"
+    },
+    {
+      "enum": [
+        1,
+        "sdlModemModemDetected"
+      ],
+      "description": "Modem Detected"
+    },
+    {
+      "enum": [
+        2,
+        "sdlModemInitializing"
+      ],
+      "description": "Initializing"
+    },
+    {
+      "enum": [
+        3,
+        "sdlModemDialing"
+      ],
+      "description": "Dialing"
+    },
+    {
+      "enum": [
+        4,
+        "sdlModemWaiting"
+      ],
+      "description": "Waiting"
+    },
+    {
+      "enum": [
+        5,
+        "sdlModemConnected"
+      ],
+      "description": "Connected"
+    },
+    {
+      "enum": [
+        6,
+        "sdlModemNotConnected"
+      ],
+      "description": "Not Connected"
+    },
+    {
+      "enum": [
+        7,
+        "sdlModemBusy"
+      ],
+      "description": "Busy"
+    },
+    {
+      "enum": [
+        8,
+        "sdlModemNoCarrier"
+      ],
+      "description": "No Carrier"
+    },
+    {
+      "enum": [
+        9,
+        "sdlModemOther"
+      ],
+      "description": "Other"
+    }
+  ]
+}

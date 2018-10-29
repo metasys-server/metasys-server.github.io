@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecSfControlMode.schema.json",
+  "title": "tecSfControlMode",
+  "description": "TEC SF Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tscmOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "tscmMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "tscmMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        3,
+        "tscmRampMin"
+      ],
+      "description": "Ramp Min"
+    },
+    {
+      "enum": [
+        4,
+        "tscmControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        5,
+        "tscmHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

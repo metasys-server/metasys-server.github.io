@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/genericBaudRateEnumSet.schema.json",
+  "title": "genericBaudRateEnumSet",
+  "description": "Generic Baud Rate",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "genBaud1200"
+      ],
+      "description": "1200"
+    },
+    {
+      "enum": [
+        1,
+        "genBaud2400"
+      ],
+      "description": "2400"
+    },
+    {
+      "enum": [
+        2,
+        "genBaud4800"
+      ],
+      "description": "4800"
+    },
+    {
+      "enum": [
+        3,
+        "genBaud9600"
+      ],
+      "description": "9600"
+    },
+    {
+      "enum": [
+        4,
+        "genBaud19200"
+      ],
+      "description": "19200"
+    },
+    {
+      "enum": [
+        5,
+        "genBaud38400"
+      ],
+      "description": "38400"
+    },
+    {
+      "enum": [
+        6,
+        "genBaud57600"
+      ],
+      "description": "57600"
+    },
+    {
+      "enum": [
+        7,
+        "genBaud76800"
+      ],
+      "description": "76800"
+    },
+    {
+      "enum": [
+        8,
+        "genBaud115200"
+      ],
+      "description": "115200"
+    },
+    {
+      "enum": [
+        65535,
+        "genBaudAuto"
+      ],
+      "description": "Auto Baud"
+    }
+  ]
+}

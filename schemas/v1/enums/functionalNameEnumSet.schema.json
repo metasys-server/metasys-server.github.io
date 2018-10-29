@@ -1,0 +1,2087 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/functionalNameEnumSet.schema.json",
+  "title": "functionalNameEnumSet",
+  "description": "Functional Name",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fnVoid"
+      ],
+      "description": "Void"
+    },
+    {
+      "enum": [
+        1,
+        "devdiag"
+      ],
+      "description": "Device Diagnostic"
+    },
+    {
+      "enum": [
+        2,
+        "mo"
+      ],
+      "description": "Migration Object"
+    },
+    {
+      "enum": [
+        3,
+        "vmaBalancer"
+      ],
+      "description": "VMA Balancer"
+    },
+    {
+      "enum": [
+        4,
+        "fnConnection"
+      ],
+      "description": "Connection"
+    },
+    {
+      "enum": [
+        5,
+        "fnSelf"
+      ],
+      "description": "Self"
+    },
+    {
+      "enum": [
+        6,
+        "restartDelay"
+      ],
+      "description": "Restart Delay"
+    },
+    {
+      "enum": [
+        7,
+        "namelist"
+      ],
+      "description": "Name List"
+    },
+    {
+      "enum": [
+        8,
+        "fnSurrogateDevice"
+      ],
+      "description": "Surrogate Device"
+    },
+    {
+      "enum": [
+        9,
+        "fnN2"
+      ],
+      "description": "N2"
+    },
+    {
+      "enum": [
+        10,
+        "fnSchedule"
+      ],
+      "description": "Schedule"
+    },
+    {
+      "enum": [
+        11,
+        "fnGdo"
+      ],
+      "description": "Guaranteed Delivery"
+    },
+    {
+      "enum": [
+        12,
+        "n2BmasterDl"
+      ],
+      "description": "N2M Datalink"
+    },
+    {
+      "enum": [
+        13,
+        "n2BslaveDl"
+      ],
+      "description": "N2S Datalink"
+    },
+    {
+      "enum": [
+        14,
+        "n3MasterDl"
+      ],
+      "description": "N3M Datalink"
+    },
+    {
+      "enum": [
+        15,
+        "n3SlaveDl"
+      ],
+      "description": "N3S Datalink"
+    },
+    {
+      "enum": [
+        16,
+        "internalPcDl"
+      ],
+      "description": "Int PC Datalink"
+    },
+    {
+      "enum": [
+        17,
+        "echelonDl"
+      ],
+      "description": "Echelon Datalink"
+    },
+    {
+      "enum": [
+        18,
+        "directConnectDl"
+      ],
+      "description": "Direct Conn Datalink"
+    },
+    {
+      "enum": [
+        19,
+        "dialUpDl"
+      ],
+      "description": "Dial Up Datalink"
+    },
+    {
+      "enum": [
+        20,
+        "rawethernDl"
+      ],
+      "description": "Eth Raw Datalink"
+    },
+    {
+      "enum": [
+        21,
+        "fnSystem"
+      ],
+      "description": "System"
+    },
+    {
+      "enum": [
+        22,
+        "ipnewDl"
+      ],
+      "description": "Eth IP Datalink"
+    },
+    {
+      "enum": [
+        23,
+        "serialDl"
+      ],
+      "description": "Serial Datalink"
+    },
+    {
+      "enum": [
+        24,
+        "fnProgramming"
+      ],
+      "description": "Programming"
+    },
+    {
+      "enum": [
+        25,
+        "fnEnergy"
+      ],
+      "description": "Energy"
+    },
+    {
+      "enum": [
+        26,
+        "bacprotoc"
+      ],
+      "description": "BACnet Protocol Eng"
+    },
+    {
+      "enum": [
+        27,
+        "fnOperatorDevices"
+      ],
+      "description": "Operator Devices"
+    },
+    {
+      "enum": [
+        28,
+        "fnGroup"
+      ],
+      "description": "Group"
+    },
+    {
+      "enum": [
+        29,
+        "fnCalendar"
+      ],
+      "description": "Calendar"
+    },
+    {
+      "enum": [
+        30,
+        "devclock"
+      ],
+      "description": "Clock"
+    },
+    {
+      "enum": [
+        31,
+        "sitedata"
+      ],
+      "description": "Site Data"
+    },
+    {
+      "enum": [
+        32,
+        "operator"
+      ],
+      "description": "Operator"
+    },
+    {
+      "enum": [
+        33,
+        "fnContainer"
+      ],
+      "description": "Container"
+    },
+    {
+      "enum": [
+        34,
+        "fnComm"
+      ],
+      "description": "Comm"
+    },
+    {
+      "enum": [
+        35,
+        "fnInternals"
+      ],
+      "description": "Internals"
+    },
+    {
+      "enum": [
+        36,
+        "fnVt100"
+      ],
+      "description": "VT100"
+    },
+    {
+      "enum": [
+        37,
+        "fnPrinter"
+      ],
+      "description": "Printer"
+    },
+    {
+      "enum": [
+        38,
+        "fnOperators"
+      ],
+      "description": "Operators"
+    },
+    {
+      "enum": [
+        39,
+        "fnRouting"
+      ],
+      "description": "Routing"
+    },
+    {
+      "enum": [
+        40,
+        "copy"
+      ],
+      "description": "Copy Objects"
+    },
+    {
+      "enum": [
+        41,
+        "fnAi"
+      ],
+      "description": "AI"
+    },
+    {
+      "enum": [
+        42,
+        "fnBi"
+      ],
+      "description": "BI"
+    },
+    {
+      "enum": [
+        43,
+        "fnAo"
+      ],
+      "description": "AO"
+    },
+    {
+      "enum": [
+        44,
+        "fnBo"
+      ],
+      "description": "BO"
+    },
+    {
+      "enum": [
+        45,
+        "fnMsi"
+      ],
+      "description": "MSI"
+    },
+    {
+      "enum": [
+        46,
+        "fnMso"
+      ],
+      "description": "MSO"
+    },
+    {
+      "enum": [
+        47,
+        "fnPc"
+      ],
+      "description": "PC"
+    },
+    {
+      "enum": [
+        48,
+        "fnAv"
+      ],
+      "description": "AV"
+    },
+    {
+      "enum": [
+        49,
+        "fnBv"
+      ],
+      "description": "BV"
+    },
+    {
+      "enum": [
+        50,
+        "fnMsv"
+      ],
+      "description": "MSV"
+    },
+    {
+      "enum": [
+        51,
+        "fnAhu"
+      ],
+      "description": "AHU"
+    },
+    {
+      "enum": [
+        52,
+        "fnVav"
+      ],
+      "description": "VAV"
+    },
+    {
+      "enum": [
+        53,
+        "fnUnt"
+      ],
+      "description": "UNT"
+    },
+    {
+      "enum": [
+        54,
+        "fnPhx"
+      ],
+      "description": "PHX"
+    },
+    {
+      "enum": [
+        55,
+        "fnVnd"
+      ],
+      "description": "VND"
+    },
+    {
+      "enum": [
+        56,
+        "fnMig"
+      ],
+      "description": "MIG"
+    },
+    {
+      "enum": [
+        57,
+        "fnVma"
+      ],
+      "description": "VMA"
+    },
+    {
+      "enum": [
+        58,
+        "fnDx"
+      ],
+      "description": "DX"
+    },
+    {
+      "enum": [
+        59,
+        "fnTc"
+      ],
+      "description": "TC"
+    },
+    {
+      "enum": [
+        60,
+        "fnXtn"
+      ],
+      "description": "XTM"
+    },
+    {
+      "enum": [
+        61,
+        "fnLcp"
+      ],
+      "description": "LCP"
+    },
+    {
+      "enum": [
+        62,
+        "fnIlc"
+      ],
+      "description": "ILC"
+    },
+    {
+      "enum": [
+        63,
+        "fnIfc"
+      ],
+      "description": "IFC"
+    },
+    {
+      "enum": [
+        64,
+        "fnNotif"
+      ],
+      "description": "Notification"
+    },
+    {
+      "enum": [
+        65,
+        "fnTot"
+      ],
+      "description": "Totalization"
+    },
+    {
+      "enum": [
+        66,
+        "fnTrendLog"
+      ],
+      "description": "Trend Log"
+    },
+    {
+      "enum": [
+        67,
+        "fnBio"
+      ],
+      "description": "Binary IO"
+    },
+    {
+      "enum": [
+        68,
+        "fnDllr"
+      ],
+      "description": "DLLR"
+    },
+    {
+      "enum": [
+        69,
+        "fnLoad"
+      ],
+      "description": "Load"
+    },
+    {
+      "enum": [
+        70,
+        "fnHardwareIo"
+      ],
+      "description": "Hardware I/O"
+    },
+    {
+      "enum": [
+        71,
+        "fnAlarm"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        72,
+        "fnOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        73,
+        "fnDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        74,
+        "fnInvolvement"
+      ],
+      "description": "Involvement"
+    },
+    {
+      "enum": [
+        75,
+        "fnInterlock"
+      ],
+      "description": "Interlock"
+    },
+    {
+      "enum": [
+        76,
+        "fnOst"
+      ],
+      "description": "Ost"
+    },
+    {
+      "enum": [
+        77,
+        "fnHec"
+      ],
+      "description": "Hec"
+    },
+    {
+      "enum": [
+        78,
+        "fnMultiCmd"
+      ],
+      "description": "Multi Cmd"
+    },
+    {
+      "enum": [
+        79,
+        "fnSummaries"
+      ],
+      "description": "Summaries"
+    },
+    {
+      "enum": [
+        80,
+        "fnGlobdata"
+      ],
+      "description": "Global Data"
+    },
+    {
+      "enum": [
+        81,
+        "fnSs"
+      ],
+      "description": "Signal Select"
+    },
+    {
+      "enum": [
+        82,
+        "fnUprof"
+      ],
+      "description": "Utility Profile"
+    },
+    {
+      "enum": [
+        83,
+        "fnWorkstation"
+      ],
+      "description": "Workstation"
+    },
+    {
+      "enum": [
+        84,
+        "fnCntrl"
+      ],
+      "description": "Controller"
+    },
+    {
+      "enum": [
+        85,
+        "fnPulseMeter"
+      ],
+      "description": "Pulse Meter"
+    },
+    {
+      "enum": [
+        86,
+        "fnAdf"
+      ],
+      "description": "ADF"
+    },
+    {
+      "enum": [
+        87,
+        "fnAdi"
+      ],
+      "description": "ADI"
+    },
+    {
+      "enum": [
+        88,
+        "fnBd"
+      ],
+      "description": "BD"
+    },
+    {
+      "enum": [
+        89,
+        "fnLrs"
+      ],
+      "description": "LRS"
+    },
+    {
+      "enum": [
+        90,
+        "fnPmk"
+      ],
+      "description": "PMK"
+    },
+    {
+      "enum": [
+        91,
+        "fnPmo"
+      ],
+      "description": "PMO"
+    },
+    {
+      "enum": [
+        92,
+        "fnPml"
+      ],
+      "description": "PML"
+    },
+    {
+      "enum": [
+        93,
+        "fnPma"
+      ],
+      "description": "PMA"
+    },
+    {
+      "enum": [
+        94,
+        "fnOverriden"
+      ],
+      "description": "Overridden"
+    },
+    {
+      "enum": [
+        95,
+        "fnBbmd"
+      ],
+      "description": "BBMD"
+    },
+    {
+      "enum": [
+        96,
+        "fnModemConfig"
+      ],
+      "description": "Modem Config"
+    },
+    {
+      "enum": [
+        97,
+        "fnSite"
+      ],
+      "description": "SITE"
+    },
+    {
+      "enum": [
+        98,
+        "fnRs"
+      ],
+      "description": "RS"
+    },
+    {
+      "enum": [
+        99,
+        "fnMr"
+      ],
+      "description": "MR"
+    },
+    {
+      "enum": [
+        100,
+        "fnTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        101,
+        "fnPrac"
+      ],
+      "description": "Prac"
+    },
+    {
+      "enum": [
+        102,
+        "fnPid"
+      ],
+      "description": "PID"
+    },
+    {
+      "enum": [
+        103,
+        "fnVelpid"
+      ],
+      "description": "Velocity PID"
+    },
+    {
+      "enum": [
+        104,
+        "mstpSlaveDl"
+      ],
+      "description": "MSTP slave datalink"
+    },
+    {
+      "enum": [
+        105,
+        "mstpMasterDl"
+      ],
+      "description": "MSTP master datalink"
+    },
+    {
+      "enum": [
+        106,
+        "fnSfsm"
+      ],
+      "description": "SFSM"
+    },
+    {
+      "enum": [
+        107,
+        "fnRamp"
+      ],
+      "description": "RAMP"
+    },
+    {
+      "enum": [
+        108,
+        "fnRemoteDestination"
+      ],
+      "description": "Remote Destination"
+    },
+    {
+      "enum": [
+        109,
+        "fnPager"
+      ],
+      "description": "Pager"
+    },
+    {
+      "enum": [
+        110,
+        "fnNew"
+      ],
+      "description": "New"
+    },
+    {
+      "enum": [
+        111,
+        "fnBigCntrl"
+      ],
+      "description": "BIG Controller"
+    },
+    {
+      "enum": [
+        112,
+        "fnN2Ui"
+      ],
+      "description": "N2UI"
+    },
+    {
+      "enum": [
+        113,
+        "fnOnboard"
+      ],
+      "description": "Onboard"
+    },
+    {
+      "enum": [
+        300,
+        "fnAutocalibration"
+      ],
+      "description": "Autocalibration"
+    },
+    {
+      "enum": [
+        301,
+        "fnBoxHeatingCmd"
+      ],
+      "description": "Box Heating Cmd"
+    },
+    {
+      "enum": [
+        302,
+        "fnBoxHeatingPid"
+      ],
+      "description": "Box Heating PID"
+    },
+    {
+      "enum": [
+        303,
+        "fnBoxHeatingPrac"
+      ],
+      "description": "Box Heating PRAC"
+    },
+    {
+      "enum": [
+        304,
+        "fnBoxSupplyTemp"
+      ],
+      "description": "Box Supply Temp"
+    },
+    {
+      "enum": [
+        305,
+        "fnCoolingPid"
+      ],
+      "description": "Cooling PID"
+    },
+    {
+      "enum": [
+        306,
+        "fnCoolingPrac"
+      ],
+      "description": "Cooling PRAC"
+    },
+    {
+      "enum": [
+        307,
+        "fnDpMode"
+      ],
+      "description": "DP Mode"
+    },
+    {
+      "enum": [
+        308,
+        "fnDamperCommand"
+      ],
+      "description": "Damper Command"
+    },
+    {
+      "enum": [
+        309,
+        "fnFanStartDelay"
+      ],
+      "description": "Fan Start Delay"
+    },
+    {
+      "enum": [
+        310,
+        "fnFlowControl"
+      ],
+      "description": "Flow Control"
+    },
+    {
+      "enum": [
+        311,
+        "fnFlowController"
+      ],
+      "description": "Flow Controller"
+    },
+    {
+      "enum": [
+        312,
+        "fnLighting"
+      ],
+      "description": "Lighting"
+    },
+    {
+      "enum": [
+        313,
+        "fnLights"
+      ],
+      "description": "Lights"
+    },
+    {
+      "enum": [
+        314,
+        "fnOccupancyButton"
+      ],
+      "description": "Occupancy Button"
+    },
+    {
+      "enum": [
+        315,
+        "fnOccupancyIndicator"
+      ],
+      "description": "Occupancy Indicator"
+    },
+    {
+      "enum": [
+        316,
+        "fnOccupancyLed"
+      ],
+      "description": "Occupancy LED"
+    },
+    {
+      "enum": [
+        317,
+        "fnOccupancyMode"
+      ],
+      "description": "Occupancy Mode"
+    },
+    {
+      "enum": [
+        318,
+        "fnOccupancyModeOut"
+      ],
+      "description": "Occupancy Mode Out"
+    },
+    {
+      "enum": [
+        319,
+        "fnOccupancySensor"
+      ],
+      "description": "Occupancy Sensor"
+    },
+    {
+      "enum": [
+        320,
+        "fnOccupancyTimer"
+      ],
+      "description": "Occupancy Timer"
+    },
+    {
+      "enum": [
+        321,
+        "fnParallelFan"
+      ],
+      "description": "Parallel Fan"
+    },
+    {
+      "enum": [
+        322,
+        "fnRemoteAdjust"
+      ],
+      "description": "Remote Adjust"
+    },
+    {
+      "enum": [
+        323,
+        "fnRemoteSetpoint"
+      ],
+      "description": "Remote Setpoint"
+    },
+    {
+      "enum": [
+        324,
+        "fnSeriesFan"
+      ],
+      "description": "Series Fan"
+    },
+    {
+      "enum": [
+        325,
+        "fnSupplHeatingCmd"
+      ],
+      "description": "Suppl Heating Cmd"
+    },
+    {
+      "enum": [
+        326,
+        "fnSupplHeatingPid"
+      ],
+      "description": "Suppl Heating PID"
+    },
+    {
+      "enum": [
+        327,
+        "fnSupplHeatingPrac"
+      ],
+      "description": "Suppl Heating PRAC"
+    },
+    {
+      "enum": [
+        328,
+        "fnSupplyDeltaP"
+      ],
+      "description": "Supply Delta P"
+    },
+    {
+      "enum": [
+        329,
+        "fnTwoMinuteDelay"
+      ],
+      "description": "Two Minute Delay"
+    },
+    {
+      "enum": [
+        330,
+        "fnTwoSecondDelay"
+      ],
+      "description": "Two Second Delay"
+    },
+    {
+      "enum": [
+        331,
+        "fnVavBox"
+      ],
+      "description": "VAV Box"
+    },
+    {
+      "enum": [
+        332,
+        "fnVmaDevice"
+      ],
+      "description": "VMA Device"
+    },
+    {
+      "enum": [
+        333,
+        "fnVmaMode"
+      ],
+      "description": "VMA Mode"
+    },
+    {
+      "enum": [
+        334,
+        "fnWindowContact"
+      ],
+      "description": "Window Contact"
+    },
+    {
+      "enum": [
+        335,
+        "fnZtMode"
+      ],
+      "description": "Zt Mode"
+    },
+    {
+      "enum": [
+        336,
+        "fnZoneTemperature"
+      ],
+      "description": "Zone Temperature"
+    },
+    {
+      "enum": [
+        341,
+        "fnSideloopCmd"
+      ],
+      "description": "Sideloop Cmd"
+    },
+    {
+      "enum": [
+        342,
+        "fnSideloopInput"
+      ],
+      "description": "Sideloop Input"
+    },
+    {
+      "enum": [
+        343,
+        "fnSideloopPid"
+      ],
+      "description": "Sideloop PID"
+    },
+    {
+      "enum": [
+        344,
+        "fnSideloopPrac"
+      ],
+      "description": "Sideloop PRAC"
+    },
+    {
+      "enum": [
+        345,
+        "fnStarvedBox"
+      ],
+      "description": "Starved Box"
+    },
+    {
+      "enum": [
+        346,
+        "fnLightOut"
+      ],
+      "description": "Light Out"
+    },
+    {
+      "enum": [
+        347,
+        "fnLightStatus"
+      ],
+      "description": "Light Status"
+    },
+    {
+      "enum": [
+        348,
+        "fnHeatingFlow"
+      ],
+      "description": "Heating Flow PID"
+    },
+    {
+      "enum": [
+        349,
+        "fnHeatingFlowPrac"
+      ],
+      "description": "Heating Flow PRAC"
+    },
+    {
+      "enum": [
+        350,
+        "fnVavBoxMode"
+      ],
+      "description": "VAV Box Mode"
+    },
+    {
+      "enum": [
+        351,
+        "fnFlowLoop"
+      ],
+      "description": "Flow Loop"
+    },
+    {
+      "enum": [
+        352,
+        "fnTemperatureLoop"
+      ],
+      "description": "Temperature Loop"
+    },
+    {
+      "enum": [
+        353,
+        "fnFan"
+      ],
+      "description": "Fan"
+    },
+    {
+      "enum": [
+        354,
+        "fnAseq"
+      ],
+      "description": "ASEQ"
+    },
+    {
+      "enum": [
+        355,
+        "fnNetm"
+      ],
+      "description": "NETM"
+    },
+    {
+      "enum": [
+        356,
+        "fnBiLearnmode"
+      ],
+      "description": "BI LearnMode"
+    },
+    {
+      "enum": [
+        357,
+        "fnBoDecrstatic"
+      ],
+      "description": "BO DecrStatic"
+    },
+    {
+      "enum": [
+        358,
+        "fnBoIncrstatic"
+      ],
+      "description": "BO IncrStatic"
+    },
+    {
+      "enum": [
+        359,
+        "fnBoLowertemps"
+      ],
+      "description": "BO LowerTemps"
+    },
+    {
+      "enum": [
+        360,
+        "fnBoRaisetemps"
+      ],
+      "description": "BO RaiseTemps"
+    },
+    {
+      "enum": [
+        361,
+        "fnBoStartfan"
+      ],
+      "description": "BO StartFan"
+    },
+    {
+      "enum": [
+        362,
+        "fnBoWarmupreq"
+      ],
+      "description": "BO WarmupReq"
+    },
+    {
+      "enum": [
+        363,
+        "fnEncoderAi"
+      ],
+      "description": "Encoder AI"
+    },
+    {
+      "enum": [
+        364,
+        "fnOutdoorairtempAi"
+      ],
+      "description": "OutdoorAirTemp AI"
+    },
+    {
+      "enum": [
+        365,
+        "fnReturnairAi"
+      ],
+      "description": "ReturnAir AI"
+    },
+    {
+      "enum": [
+        366,
+        "fnSpacesetpointAi"
+      ],
+      "description": "SpaceSetpoint AI"
+    },
+    {
+      "enum": [
+        367,
+        "fnSupplyairAi"
+      ],
+      "description": "SupplyAir AI"
+    },
+    {
+      "enum": [
+        368,
+        "fnBoSh"
+      ],
+      "description": "BO SH"
+    },
+    {
+      "enum": [
+        369,
+        "fnBoSleh3"
+      ],
+      "description": "BO SLEH3"
+    },
+    {
+      "enum": [
+        370,
+        "fnCo2"
+      ],
+      "description": "CO2"
+    },
+    {
+      "enum": [
+        371,
+        "fnCo2Pfan"
+      ],
+      "description": "CO2 Pfan"
+    },
+    {
+      "enum": [
+        372,
+        "fnTempAi"
+      ],
+      "description": "Temp AI"
+    },
+    {
+      "enum": [
+        373,
+        "fnVoltAi"
+      ],
+      "description": "Volt AI"
+    },
+    {
+      "enum": [
+        374,
+        "fnUnitStatus"
+      ],
+      "description": "UnitStatus"
+    },
+    {
+      "enum": [
+        375,
+        "fnFanType"
+      ],
+      "description": "Fan Type"
+    },
+    {
+      "enum": [
+        376,
+        "fnAppequiptype"
+      ],
+      "description": "AppEquipType"
+    },
+    {
+      "enum": [
+        377,
+        "fnInternalUseOnly1"
+      ],
+      "description": "Internal Use Only 1"
+    },
+    {
+      "enum": [
+        378,
+        "fnInternalUseOnly2"
+      ],
+      "description": "Internal Use Only 2"
+    },
+    {
+      "enum": [
+        500,
+        "fnAutoCooling"
+      ],
+      "description": "Auto Cooling"
+    },
+    {
+      "enum": [
+        506,
+        "fnAnalogOut"
+      ],
+      "description": "Analog Output"
+    },
+    {
+      "enum": [
+        515,
+        "fnCoolingBo"
+      ],
+      "description": "Cooling BO"
+    },
+    {
+      "enum": [
+        519,
+        "fnFanBo"
+      ],
+      "description": "Fan BO"
+    },
+    {
+      "enum": [
+        520,
+        "fnFilterDeltaP"
+      ],
+      "description": "Filter Delta P"
+    },
+    {
+      "enum": [
+        521,
+        "fnHeat1Ao"
+      ],
+      "description": "Heat1 AO"
+    },
+    {
+      "enum": [
+        522,
+        "fnHeat2Ao"
+      ],
+      "description": "Heat2 AO"
+    },
+    {
+      "enum": [
+        523,
+        "fnHeatingCommand"
+      ],
+      "description": "Heating Command"
+    },
+    {
+      "enum": [
+        524,
+        "fnHtg1Prac"
+      ],
+      "description": "Htg1 PRAC"
+    },
+    {
+      "enum": [
+        525,
+        "fnHtg2Prac"
+      ],
+      "description": "Htg2 PRAC"
+    },
+    {
+      "enum": [
+        526,
+        "fnHtg1Pid"
+      ],
+      "description": "Htg1 PID"
+    },
+    {
+      "enum": [
+        527,
+        "fnHtg2Pid"
+      ],
+      "description": "Htg2 PID"
+    },
+    {
+      "enum": [
+        528,
+        "fnLoopControl"
+      ],
+      "description": "Loop Control"
+    },
+    {
+      "enum": [
+        529,
+        "fnMode"
+      ],
+      "description": "Mode"
+    },
+    {
+      "enum": [
+        530,
+        "fnOccBi"
+      ],
+      "description": "Occ BI"
+    },
+    {
+      "enum": [
+        533,
+        "fnPidFlow"
+      ],
+      "description": "PID Flow"
+    },
+    {
+      "enum": [
+        537,
+        "fnSmo1"
+      ],
+      "description": "SMO 1"
+    },
+    {
+      "enum": [
+        540,
+        "fnSinglePid"
+      ],
+      "description": "Single PID"
+    },
+    {
+      "enum": [
+        541,
+        "fnSinglePrac"
+      ],
+      "description": "Single PRAC"
+    },
+    {
+      "enum": [
+        542,
+        "fnSquareOut"
+      ],
+      "description": "Square Out"
+    },
+    {
+      "enum": [
+        544,
+        "fnSensorObserver"
+      ],
+      "description": "Sensor Observer"
+    },
+    {
+      "enum": [
+        545,
+        "fnObserverPid"
+      ],
+      "description": "Observer PID"
+    },
+    {
+      "enum": [
+        546,
+        "fnAoPh"
+      ],
+      "description": "AO PH"
+    },
+    {
+      "enum": [
+        547,
+        "fnAoSh"
+      ],
+      "description": "AO SH"
+    },
+    {
+      "enum": [
+        548,
+        "fnAoSl1"
+      ],
+      "description": "AO SL1"
+    },
+    {
+      "enum": [
+        549,
+        "fnAppmode"
+      ],
+      "description": "AppMode"
+    },
+    {
+      "enum": [
+        550,
+        "fnOccupancy"
+      ],
+      "description": "Occupancy"
+    },
+    {
+      "enum": [
+        551,
+        "fnTempocc"
+      ],
+      "description": "TempOcc"
+    },
+    {
+      "enum": [
+        552,
+        "fnBiwindowcontact"
+      ],
+      "description": "BIWindowContact"
+    },
+    {
+      "enum": [
+        553,
+        "fnBoFan"
+      ],
+      "description": "BO Fan"
+    },
+    {
+      "enum": [
+        554,
+        "fnBoPeh1"
+      ],
+      "description": "BO PEH1"
+    },
+    {
+      "enum": [
+        555,
+        "fnBoPeh2"
+      ],
+      "description": "BO PEH2"
+    },
+    {
+      "enum": [
+        556,
+        "fnBoPeh3"
+      ],
+      "description": "BO PEH3"
+    },
+    {
+      "enum": [
+        557,
+        "fnBoPh"
+      ],
+      "description": "BO PH"
+    },
+    {
+      "enum": [
+        558,
+        "fnBoSeh1"
+      ],
+      "description": "BO SEH1"
+    },
+    {
+      "enum": [
+        559,
+        "fnBoSeh2"
+      ],
+      "description": "BO SEH2"
+    },
+    {
+      "enum": [
+        560,
+        "fnBoSeh3"
+      ],
+      "description": "BO SEH3"
+    },
+    {
+      "enum": [
+        562,
+        "fnBoShe"
+      ],
+      "description": "BO SHE"
+    },
+    {
+      "enum": [
+        563,
+        "fnBoSl1"
+      ],
+      "description": "BO SL1"
+    },
+    {
+      "enum": [
+        564,
+        "fnBoSleh1"
+      ],
+      "description": "BO SLEH1"
+    },
+    {
+      "enum": [
+        565,
+        "fnBoSleh2"
+      ],
+      "description": "BO SLEH2"
+    },
+    {
+      "enum": [
+        566,
+        "fnBoSelh3"
+      ],
+      "description": "BO SELH3"
+    },
+    {
+      "enum": [
+        567,
+        "fnBo6Led"
+      ],
+      "description": "BO6 LED"
+    },
+    {
+      "enum": [
+        568,
+        "fnBo7DamperOpen"
+      ],
+      "description": "BO7 Damper Open"
+    },
+    {
+      "enum": [
+        569,
+        "fnBo8DamperClose"
+      ],
+      "description": "BO8 Damper Close"
+    },
+    {
+      "enum": [
+        570,
+        "fnCoolingPracpi"
+      ],
+      "description": "Cooling PRACPI"
+    },
+    {
+      "enum": [
+        571,
+        "fnDamperPao"
+      ],
+      "description": "Damper PAO"
+    },
+    {
+      "enum": [
+        572,
+        "fnHwSensorAi"
+      ],
+      "description": "HW Sensor AI"
+    },
+    {
+      "enum": [
+        573,
+        "fnEwmaDutycycle"
+      ],
+      "description": "EWMA DutyCycle"
+    },
+    {
+      "enum": [
+        574,
+        "fnEwmaFlow"
+      ],
+      "description": "EWMA Flow"
+    },
+    {
+      "enum": [
+        575,
+        "fnEwmaReversals"
+      ],
+      "description": "EWMA Reversals"
+    },
+    {
+      "enum": [
+        576,
+        "fnEwmaSpaceTemp"
+      ],
+      "description": "EWMA Space Temp"
+    },
+    {
+      "enum": [
+        577,
+        "fnEwmaTotalruntime"
+      ],
+      "description": "EWMA TotalRunTime"
+    },
+    {
+      "enum": [
+        578,
+        "fnFanController"
+      ],
+      "description": "Fan Controller"
+    },
+    {
+      "enum": [
+        579,
+        "fnHtgclgseq"
+      ],
+      "description": "HtgClgSeq"
+    },
+    {
+      "enum": [
+        580,
+        "fnInterlock1"
+      ],
+      "description": "Interlock1"
+    },
+    {
+      "enum": [
+        581,
+        "fnInterlock2"
+      ],
+      "description": "Interlock2"
+    },
+    {
+      "enum": [
+        582,
+        "fnLowlimit"
+      ],
+      "description": "LowLimit"
+    },
+    {
+      "enum": [
+        583,
+        "fnOccmode"
+      ],
+      "description": "OccMode"
+    },
+    {
+      "enum": [
+        584,
+        "fnPaoPh1"
+      ],
+      "description": "PAO PH1"
+    },
+    {
+      "enum": [
+        585,
+        "fnPaoPh2"
+      ],
+      "description": "PAO PH2"
+    },
+    {
+      "enum": [
+        586,
+        "fnPaoSh1"
+      ],
+      "description": "PAO SH1"
+    },
+    {
+      "enum": [
+        587,
+        "fnPaoSh2"
+      ],
+      "description": "PAO SH2"
+    },
+    {
+      "enum": [
+        588,
+        "fnPaoSl1"
+      ],
+      "description": "PAO SL1"
+    },
+    {
+      "enum": [
+        589,
+        "fnPaoSl2"
+      ],
+      "description": "PAO SL2"
+    },
+    {
+      "enum": [
+        590,
+        "fnPrimaryHeatAo"
+      ],
+      "description": "Primary Heat AO"
+    },
+    {
+      "enum": [
+        591,
+        "fnPrimaryHeatBo1"
+      ],
+      "description": "Primary Heat BO1"
+    },
+    {
+      "enum": [
+        592,
+        "fnPrimaryHeatBo2"
+      ],
+      "description": "Primary Heat BO2"
+    },
+    {
+      "enum": [
+        593,
+        "fnPrimaryHeatBo3"
+      ],
+      "description": "Primary Heat BO3"
+    },
+    {
+      "enum": [
+        594,
+        "fnPrimaryHeatPao"
+      ],
+      "description": "Primary Heat PAO"
+    },
+    {
+      "enum": [
+        595,
+        "fnPrimaryHeatPracpi"
+      ],
+      "description": "Primary Heat PRACPI"
+    },
+    {
+      "enum": [
+        596,
+        "fnSecondaryHeatAo"
+      ],
+      "description": "Secondary Heat AO"
+    },
+    {
+      "enum": [
+        597,
+        "fnSecondaryHeatBo1"
+      ],
+      "description": "Secondary Heat BO1"
+    },
+    {
+      "enum": [
+        598,
+        "fnSecondaryHeatBo2"
+      ],
+      "description": "Secondary Heat BO2"
+    },
+    {
+      "enum": [
+        599,
+        "fnSecondaryHeatBo3"
+      ],
+      "description": "Secondary Heat BO3"
+    },
+    {
+      "enum": [
+        600,
+        "fnSecondaryHeatPao"
+      ],
+      "description": "Secondary Heat PAO"
+    },
+    {
+      "enum": [
+        601,
+        "fnSecondaryHeatPracpi"
+      ],
+      "description": "Secondary Ht PRACPI"
+    },
+    {
+      "enum": [
+        602,
+        "fnSetpointAi"
+      ],
+      "description": "Setpoint AI"
+    },
+    {
+      "enum": [
+        603,
+        "fnSetpointCalc"
+      ],
+      "description": "SetpointCalc"
+    },
+    {
+      "enum": [
+        604,
+        "fnSideloop1Ai"
+      ],
+      "description": "Sideloop1 AI"
+    },
+    {
+      "enum": [
+        605,
+        "fnSideloop1"
+      ],
+      "description": "Sideloop1"
+    },
+    {
+      "enum": [
+        606,
+        "fnSideloopAo"
+      ],
+      "description": "Sideloop AO"
+    },
+    {
+      "enum": [
+        607,
+        "fnSideloop1Bo1"
+      ],
+      "description": "Sideloop1 BO1"
+    },
+    {
+      "enum": [
+        608,
+        "fnSideloop1Bo2"
+      ],
+      "description": "Sideloop1 BO2"
+    },
+    {
+      "enum": [
+        609,
+        "fnSideloop1Bo3"
+      ],
+      "description": "Sideloop1 BO3"
+    },
+    {
+      "enum": [
+        610,
+        "fnSideloop1Pao"
+      ],
+      "description": "Sideloop1 PAO"
+    },
+    {
+      "enum": [
+        611,
+        "fnSpacetempAi"
+      ],
+      "description": "SpaceTemp AI"
+    },
+    {
+      "enum": [
+        612,
+        "fnSummerwinter"
+      ],
+      "description": "SummerWinter"
+    },
+    {
+      "enum": [
+        613,
+        "fnSwAiFilter"
+      ],
+      "description": "SW AI Filter"
+    },
+    {
+      "enum": [
+        614,
+        "fnTcvVavApp"
+      ],
+      "description": "TCV VAV App"
+    },
+    {
+      "enum": [
+        615,
+        "fnTmzStat"
+      ],
+      "description": "TMZ stat"
+    },
+    {
+      "enum": [
+        616,
+        "fnPersist"
+      ],
+      "description": "Persistent Storage"
+    },
+    {
+      "enum": [
+        700,
+        "fnDrAccessGroup"
+      ],
+      "description": "Access Group"
+    },
+    {
+      "enum": [
+        701,
+        "fnDrAccessProfile"
+      ],
+      "description": "Access Profile"
+    },
+    {
+      "enum": [
+        702,
+        "fnDrBadge"
+      ],
+      "description": "Badge"
+    },
+    {
+      "enum": [
+        703,
+        "fnDrBiometrics"
+      ],
+      "description": "Biometrics"
+    },
+    {
+      "enum": [
+        704,
+        "fnDrEntityGroup"
+      ],
+      "description": "Entity Group"
+    },
+    {
+      "enum": [
+        705,
+        "fnDrEntity"
+      ],
+      "description": "Entity"
+    },
+    {
+      "enum": [
+        706,
+        "fnDrIdentifierFormat"
+      ],
+      "description": "Identifier Format"
+    },
+    {
+      "enum": [
+        708,
+        "fnDrIntrusionGroup"
+      ],
+      "description": "Intrustion Group"
+    },
+    {
+      "enum": [
+        709,
+        "fnNotification"
+      ],
+      "description": "Notif"
+    },
+    {
+      "enum": [
+        710,
+        "fnMainCodeFile"
+      ],
+      "description": "Main Code File"
+    },
+    {
+      "enum": [
+        711,
+        "fnArchiveMoiFile"
+      ],
+      "description": "Archive MOI File"
+    },
+    {
+      "enum": [
+        712,
+        "fnCreateMoiFile"
+      ],
+      "description": "Create MOI File"
+    },
+    {
+      "enum": [
+        713,
+        "fnDeleteMoiFile"
+      ],
+      "description": "Delete MOI File"
+    },
+    {
+      "enum": [
+        714,
+        "fnWriteMoiFile"
+      ],
+      "description": "Write MOI File"
+    },
+    {
+      "enum": [
+        715,
+        "fnRdr2SFirmwareFile"
+      ],
+      "description": "RDR2S Firmware File"
+    },
+    {
+      "enum": [
+        716,
+        "fnKeypadFirmwareFile"
+      ],
+      "description": "Keypad Firmware File"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yrSc4EnumSet.schema.json",
+  "title": "yrSc4EnumSet",
+  "description": "YR Unit Warning Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yrSc40"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "yrSc41"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "yrSc42"
+      ],
+      "description": "RESERVED 2"
+    },
+    {
+      "enum": [
+        3,
+        "yrSc43"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "yrSc44"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "yrSc45"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "yrSc46"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "yrSc47"
+      ],
+      "description": "CONDENSER - FREEZE THREAT"
+    },
+    {
+      "enum": [
+        8,
+        "yrSc48"
+      ],
+      "description": "REFRIGERANT LEVEL OUT OF RANGE"
+    },
+    {
+      "enum": [
+        9,
+        "yrSc49"
+      ],
+      "description": "ANTI RECYCLING"
+    },
+    {
+      "enum": [
+        10,
+        "yrSc410"
+      ],
+      "description": "COMPRESSOR DISCHARGE HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        11,
+        "yrSc411"
+      ],
+      "description": "PULLDOWN LIMIT"
+    },
+    {
+      "enum": [
+        12,
+        "yrSc412"
+      ],
+      "description": "REMOTE START SWITCH IN OFF"
+    },
+    {
+      "enum": [
+        13,
+        "yrSc413"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "yrSc414"
+      ],
+      "description": "MOTOR - HIGH CURRENT LIMIT"
+    },
+    {
+      "enum": [
+        15,
+        "yrSc415"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "yrSc416"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "yrSc417"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "yrSc418"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "yrSc419"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "yrSc420"
+      ],
+      "description": "OIL - FILTER DIRTY"
+    },
+    {
+      "enum": [
+        21,
+        "yrSc421"
+      ],
+      "description": "MAXIMUM LOAD - LOAD LIMIT"
+    },
+    {
+      "enum": [
+        22,
+        "yrSc422"
+      ],
+      "description": "MINIMUM LOAD - LOAD LIMIT"
+    },
+    {
+      "enum": [
+        23,
+        "yrSc423"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT LIMIT"
+    },
+    {
+      "enum": [
+        24,
+        "yrSc424"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT DETECTED"
+    },
+    {
+      "enum": [
+        25,
+        "yrSc425"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "yrSc426"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "yrSc427"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "yrSc428"
+      ],
+      "description": "FREEZE THREAT - CONDENSER FLOW SWITCH"
+    }
+  ]
+}

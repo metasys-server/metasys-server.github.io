@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/datTypeEnumSet.schema.json",
+  "title": "datTypeEnumSet",
+  "description": "DAT Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Nearest"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Average"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/d9068DactPvEnumSet.schema.json",
+  "title": "d9068DactPvEnumSet",
+  "description": "D9068 DACT Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "d9068DactPresentValueNotInitialized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "d9068DactPresentValueOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "d9068DactPresentValueOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        3,
+        "d9068DactPresentValueFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

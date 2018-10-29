@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/failPassEnumSet.schema.json",
+  "title": "failPassEnumSet",
+  "description": "Fail Pass Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fpFail"
+      ],
+      "description": "Fail"
+    },
+    {
+      "enum": [
+        1,
+        "fpPass"
+      ],
+      "description": "Pass"
+    },
+    {
+      "enum": [
+        2,
+        "fpTip"
+      ],
+      "description": "Test In Progress"
+    },
+    {
+      "enum": [
+        3,
+        "fpWait"
+      ],
+      "description": "Waiting For Test To Start"
+    }
+  ]
+}

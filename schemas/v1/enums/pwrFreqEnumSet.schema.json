@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pwrFreqEnumSet.schema.json",
+  "title": "pwrFreqEnumSet",
+  "description": "Pwr Frequency",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "frequency50Hz"
+      ],
+      "description": "50 Hz"
+    },
+    {
+      "enum": [
+        1,
+        "frequency60Hz"
+      ],
+      "description": "60 Hz"
+    }
+  ]
+}

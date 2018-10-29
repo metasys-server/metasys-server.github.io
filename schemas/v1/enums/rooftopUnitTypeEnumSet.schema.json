@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rooftopUnitTypeEnumSet.schema.json",
+  "title": "rooftopUnitTypeEnumSet",
+  "description": "Rooftop Unit Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rutNoHeatNoCool"
+      ],
+      "description": "0 Heat - 0 Cool"
+    },
+    {
+      "enum": [
+        1,
+        "rutOneHeatNoCool"
+      ],
+      "description": "1 Heat - 0 Cool"
+    },
+    {
+      "enum": [
+        2,
+        "rutTwoHeatNoCool"
+      ],
+      "description": "2 Heat - 0 Cool"
+    },
+    {
+      "enum": [
+        3,
+        "rutThreeHeatNoCool"
+      ],
+      "description": "3 Heat - 0 Cool"
+    },
+    {
+      "enum": [
+        4,
+        "rutNoHeatOneCool"
+      ],
+      "description": "0 Heat - 1 Cool"
+    },
+    {
+      "enum": [
+        5,
+        "rutOneHeatOneCool"
+      ],
+      "description": "1 Heat - 1 Cool"
+    },
+    {
+      "enum": [
+        6,
+        "rutTwoHeatOneCool"
+      ],
+      "description": "2 Heat - 1 Cool"
+    },
+    {
+      "enum": [
+        7,
+        "rutThreeHeatOneCool"
+      ],
+      "description": "3 Heat - 1 Cool"
+    },
+    {
+      "enum": [
+        8,
+        "rutNoHeatTwoCool"
+      ],
+      "description": "0 Heat - 2 Cool"
+    },
+    {
+      "enum": [
+        9,
+        "rutOneHeatTwoCool"
+      ],
+      "description": "1 Heat - 2 Cool"
+    },
+    {
+      "enum": [
+        10,
+        "rutTwoHeatTwoCool"
+      ],
+      "description": "2 Heat - 2 Cool"
+    },
+    {
+      "enum": [
+        11,
+        "rutThreeHeatTwoCool"
+      ],
+      "description": "3 Heat - 2 Cool"
+    },
+    {
+      "enum": [
+        12,
+        "rutNoHeatThreeCool"
+      ],
+      "description": "0 Heat - 3 Cool"
+    },
+    {
+      "enum": [
+        13,
+        "rutOneHeatThreeCool"
+      ],
+      "description": "1 Heat - 3 Cool"
+    },
+    {
+      "enum": [
+        14,
+        "rutTwoHeatThreeCool"
+      ],
+      "description": "2 Heat - 3 Cool"
+    },
+    {
+      "enum": [
+        15,
+        "rutThreeHeatThreeCool"
+      ],
+      "description": "3 Heat - 3 Cool"
+    },
+    {
+      "enum": [
+        16,
+        "rutNoHeatFourCool"
+      ],
+      "description": "0 Heat - 4 Cool"
+    },
+    {
+      "enum": [
+        17,
+        "rutOneHeatFourCool"
+      ],
+      "description": "1 Heat - 4 Cool"
+    },
+    {
+      "enum": [
+        18,
+        "rutTwoHeatFourCool"
+      ],
+      "description": "2 Heat - 4 Cool"
+    },
+    {
+      "enum": [
+        19,
+        "rutThreeHeatFourCool"
+      ],
+      "description": "3 Heat - 4 Cool"
+    }
+  ]
+}

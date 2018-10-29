@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seUnoccDetailed.schema.json",
+  "title": "seUnoccDetailed",
+  "description": "SE RTU Unoccupied Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seUnoccControlStateStatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "seUnoccControlStateWait"
+      ],
+      "description": "Wait"
+    },
+    {
+      "enum": [
+        2,
+        "seUnoccControlStateHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        3,
+        "seUnoccControlStateEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        4,
+        "seUnoccControlStateEconandmech"
+      ],
+      "description": "EconAndMech"
+    },
+    {
+      "enum": [
+        5,
+        "seUnoccControlStateMech"
+      ],
+      "description": "Mech"
+    }
+  ]
+}

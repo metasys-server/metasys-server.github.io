@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auditMsgFilterItemsEnumSet.schema.json",
+  "title": "auditMsgFilterItemsEnumSet",
+  "description": "Audit Msg Filter Items",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "auditItemFilter"
+      ],
+      "description": "Item"
+    },
+    {
+      "enum": [
+        1,
+        "auditUserFilter"
+      ],
+      "description": "User"
+    },
+    {
+      "enum": [
+        2,
+        "auditDescriptionFilter"
+      ],
+      "description": "Description"
+    },
+    {
+      "enum": [
+        3,
+        "auditPostValueFilter"
+      ],
+      "description": "Post Value"
+    },
+    {
+      "enum": [
+        4,
+        "auditStartDayOfWeekFilter"
+      ],
+      "description": "Start Day Of Week"
+    },
+    {
+      "enum": [
+        5,
+        "auditStartTimeFilter"
+      ],
+      "description": "Start Time"
+    },
+    {
+      "enum": [
+        6,
+        "auditEndDayOfWeekFilter"
+      ],
+      "description": "End Day Of Week"
+    },
+    {
+      "enum": [
+        7,
+        "auditEndTimeFilter"
+      ],
+      "description": "End Time"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/processingDetailEnumSet.schema.json",
+  "title": "processingDetailEnumSet",
+  "description": "Processing Detail",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "processingDetailNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "processingDetailUnaccompaniedAsset"
+      ],
+      "description": "Unaccompanied Asset"
+    },
+    {
+      "enum": [
+        2,
+        "processingDetailUnaccompaniedEntity"
+      ],
+      "description": "Unaccompanied Entity"
+    },
+    {
+      "enum": [
+        3,
+        "processingDetailIncompleteGroup"
+      ],
+      "description": "Incomplete Group"
+    }
+  ]
+}

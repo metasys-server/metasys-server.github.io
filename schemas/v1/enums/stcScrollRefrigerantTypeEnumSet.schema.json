@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcScrollRefrigerantTypeEnumSet.schema.json",
+  "title": "stcScrollRefrigerantTypeEnumSet",
+  "description": "York Scroll Refrigerant Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcScrollRefrigerantType0"
+      ],
+      "description": "R-22"
+    },
+    {
+      "enum": [
+        1,
+        "stcScrollRefrigerantType1"
+      ],
+      "description": "R-407c"
+    },
+    {
+      "enum": [
+        2,
+        "stcScrollRefrigerantType2"
+      ],
+      "description": "R-410a"
+    }
+  ]
+}

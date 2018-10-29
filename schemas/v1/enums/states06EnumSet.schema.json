@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/states06EnumSet.schema.json",
+  "title": "states06EnumSet",
+  "description": "States (0-6)",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "state60"
+      ],
+      "description": "State 0"
+    },
+    {
+      "enum": [
+        1,
+        "state61"
+      ],
+      "description": "State 1"
+    },
+    {
+      "enum": [
+        2,
+        "state62"
+      ],
+      "description": "State 2"
+    },
+    {
+      "enum": [
+        3,
+        "state63"
+      ],
+      "description": "State 3"
+    },
+    {
+      "enum": [
+        4,
+        "state64"
+      ],
+      "description": "State 4"
+    },
+    {
+      "enum": [
+        5,
+        "state65"
+      ],
+      "description": "State 5"
+    },
+    {
+      "enum": [
+        6,
+        "state66"
+      ],
+      "description": "State 6"
+    }
+  ]
+}

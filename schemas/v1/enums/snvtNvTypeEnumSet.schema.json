@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtNvTypeEnumSet.schema.json",
+  "title": "snvtNvTypeEnumSet",
+  "description": "SNVT NV Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "none"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "signed char"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "unsigned char"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "signed short"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "unsigned short"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "signed long"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "unsigned long"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "enumeration"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "array"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "structure"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "union"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "bitfield"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "float"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "signed quad"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "reference"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

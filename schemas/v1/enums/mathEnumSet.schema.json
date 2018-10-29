@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mathEnumSet.schema.json",
+  "title": "mathEnumSet",
+  "description": "Math Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "neg"
+      ],
+      "description": "Neg"
+    },
+    {
+      "enum": [
+        1,
+        "abs"
+      ],
+      "description": "ABS"
+    },
+    {
+      "enum": [
+        2,
+        "acos"
+      ],
+      "description": "ACOS"
+    },
+    {
+      "enum": [
+        3,
+        "asin"
+      ],
+      "description": "ASIN"
+    },
+    {
+      "enum": [
+        4,
+        "atan"
+      ],
+      "description": "ATAN"
+    },
+    {
+      "enum": [
+        5,
+        "cos"
+      ],
+      "description": "COS"
+    },
+    {
+      "enum": [
+        6,
+        "exp"
+      ],
+      "description": "EXP"
+    },
+    {
+      "enum": [
+        7,
+        "log"
+      ],
+      "description": "LOG"
+    },
+    {
+      "enum": [
+        8,
+        "log10"
+      ],
+      "description": "LOG10"
+    },
+    {
+      "enum": [
+        9,
+        "sin"
+      ],
+      "description": "SIN"
+    },
+    {
+      "enum": [
+        10,
+        "sqr"
+      ],
+      "description": "SQRT"
+    },
+    {
+      "enum": [
+        11,
+        "tan"
+      ],
+      "description": "TAN"
+    },
+    {
+      "enum": [
+        12,
+        "divide"
+      ],
+      "description": "/"
+    },
+    {
+      "enum": [
+        13,
+        "subtract"
+      ],
+      "description": "-"
+    },
+    {
+      "enum": [
+        14,
+        "add"
+      ],
+      "description": "+"
+    },
+    {
+      "enum": [
+        15,
+        "multiply"
+      ],
+      "description": "*"
+    },
+    {
+      "enum": [
+        16,
+        "average"
+      ],
+      "description": "AVG"
+    },
+    {
+      "enum": [
+        17,
+        "maximum"
+      ],
+      "description": "MAX"
+    },
+    {
+      "enum": [
+        18,
+        "minimum"
+      ],
+      "description": "MIN"
+    },
+    {
+      "enum": [
+        19,
+        "power"
+      ],
+      "description": "x^y"
+    },
+    {
+      "enum": [
+        20,
+        "round"
+      ],
+      "description": "Round"
+    },
+    {
+      "enum": [
+        21,
+        "rand"
+      ],
+      "description": "Rand"
+    }
+  ]
+}

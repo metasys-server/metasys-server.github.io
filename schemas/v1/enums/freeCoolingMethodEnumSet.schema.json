@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/freeCoolingMethodEnumSet.schema.json",
+  "title": "freeCoolingMethodEnumSet",
+  "description": "Economizer Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dryBulbTemperature"
+      ],
+      "description": "Dry Bulb Temperature"
+    },
+    {
+      "enum": [
+        1,
+        "singleEnthalpy"
+      ],
+      "description": "Single Enthalpy"
+    },
+    {
+      "enum": [
+        2,
+        "dualEnthalpy"
+      ],
+      "description": "Dual Enthalpy"
+    },
+    {
+      "enum": [
+        3,
+        "auto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

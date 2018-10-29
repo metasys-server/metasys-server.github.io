@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/weekOfMonthEnumSet.schema.json",
+  "title": "weekOfMonthEnumSet",
+  "description": "Week Of Month",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "days1To7"
+      ],
+      "description": "Days 1-7"
+    },
+    {
+      "enum": [
+        2,
+        "days8To14"
+      ],
+      "description": "Days 8-14"
+    },
+    {
+      "enum": [
+        3,
+        "days15To21"
+      ],
+      "description": "Days 15-21"
+    },
+    {
+      "enum": [
+        4,
+        "days22To28"
+      ],
+      "description": "Days 22-28"
+    },
+    {
+      "enum": [
+        5,
+        "days29To31"
+      ],
+      "description": "Days 29-31"
+    },
+    {
+      "enum": [
+        6,
+        "last7Days"
+      ],
+      "description": "Last seven days"
+    },
+    {
+      "enum": [
+        255,
+        "anyWeek"
+      ],
+      "description": "Any week of month"
+    }
+  ]
+}

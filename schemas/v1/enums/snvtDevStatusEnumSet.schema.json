@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtDevStatusEnumSet.schema.json",
+  "title": "snvtDevStatusEnumSet",
+  "description": "SNVT Device Select",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dvPumpCtrl"
+      ],
+      "description": "SFPTpumpController values"
+    },
+    {
+      "enum": [
+        1,
+        "dvValuePos"
+      ],
+      "description": "SFPTvalvePositioner values"
+    },
+    {
+      "enum": [
+        255,
+        "dvNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pvTypeEnumSet.schema.json",
+  "title": "pvTypeEnumSet",
+  "description": "Process Variable Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pvType0"
+      ],
+      "description": "Temperature"
+    },
+    {
+      "enum": [
+        1,
+        "pvType1"
+      ],
+      "description": "Pressure"
+    }
+  ]
+}

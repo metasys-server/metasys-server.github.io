@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/relationEnumSet.schema.json",
+  "title": "relationEnumSet",
+  "description": "Relation",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sfEqual"
+      ],
+      "description": "Equal"
+    },
+    {
+      "enum": [
+        1,
+        "sfNotEqual"
+      ],
+      "description": "Not Equal"
+    },
+    {
+      "enum": [
+        2,
+        "sfGreaterThan"
+      ],
+      "description": "Greater Than"
+    },
+    {
+      "enum": [
+        3,
+        "sfLessThan"
+      ],
+      "description": "Less Than"
+    },
+    {
+      "enum": [
+        4,
+        "sfGreaterOrEqual"
+      ],
+      "description": "Greater Or Equal"
+    },
+    {
+      "enum": [
+        5,
+        "sfLessOrEqual"
+      ],
+      "description": "Less Or Equal"
+    }
+  ]
+}

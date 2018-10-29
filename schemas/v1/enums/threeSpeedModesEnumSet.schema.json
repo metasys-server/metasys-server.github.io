@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/threeSpeedModesEnumSet.schema.json",
+  "title": "threeSpeedModesEnumSet",
+  "description": "Three Speed Modes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "threeSpdModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "threeSpdModeLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        2,
+        "threeSpdModeMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        3,
+        "threeSpdModeHigh"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        4,
+        "threeSpdModeAutoOff"
+      ],
+      "description": "Auto-Off"
+    },
+    {
+      "enum": [
+        5,
+        "threeSpdModeAutoLow"
+      ],
+      "description": "Auto-Low"
+    },
+    {
+      "enum": [
+        6,
+        "threeSpdModeAutoMedium"
+      ],
+      "description": "Auto-Medium"
+    },
+    {
+      "enum": [
+        7,
+        "threeSpdModeAutoHigh"
+      ],
+      "description": "Auto-High"
+    }
+  ]
+}

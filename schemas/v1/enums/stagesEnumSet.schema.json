@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stagesEnumSet.schema.json",
+  "title": "stagesEnumSet",
+  "description": "Stages",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stage0"
+      ],
+      "description": "Stage 0"
+    },
+    {
+      "enum": [
+        1,
+        "stage1"
+      ],
+      "description": "Stage 1"
+    },
+    {
+      "enum": [
+        2,
+        "stage2"
+      ],
+      "description": "Stage 2"
+    },
+    {
+      "enum": [
+        3,
+        "stage3"
+      ],
+      "description": "Stage 3"
+    },
+    {
+      "enum": [
+        4,
+        "stage4"
+      ],
+      "description": "Stage 4"
+    },
+    {
+      "enum": [
+        5,
+        "stage5"
+      ],
+      "description": "Stage 5"
+    },
+    {
+      "enum": [
+        6,
+        "stage6"
+      ],
+      "description": "Stage 6"
+    },
+    {
+      "enum": [
+        7,
+        "stage7"
+      ],
+      "description": "Stage 7"
+    },
+    {
+      "enum": [
+        8,
+        "stage8"
+      ],
+      "description": "Stage 8"
+    }
+  ]
+}

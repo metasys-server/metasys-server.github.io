@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/btcvtEthernetDetailCodesEnumSet.schema.json",
+  "title": "btcvtEthernetDetailCodesEnumSet",
+  "description": "BTCVT/Ethernet Detail Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "btethDcBtdlNoerror"
+      ],
+      "description": "BTDL_NOERROR"
+    },
+    {
+      "enum": [
+        1,
+        "btethDcBtdlInvalidComPort"
+      ],
+      "description": "BTDL_INVALID_COM_PORT"
+    },
+    {
+      "enum": [
+        2,
+        "btethDcBtdlValidComPortInvalidDevice"
+      ],
+      "description": "BTDL_VALID_COM_PORT_INVALID_DEVICE"
+    },
+    {
+      "enum": [
+        3,
+        "btethDcBtdlEstablishingConnection"
+      ],
+      "description": "BTDL_ESTABLISHING_CONNECTION"
+    },
+    {
+      "enum": [
+        4,
+        "btethDcBtdlWirelessConnectedMstpBaudSeeking"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_BAUD_SEEKING"
+    },
+    {
+      "enum": [
+        5,
+        "btethDcBtdlWirelessConnectedMstpBaudSetting"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_BAUD_SETTING"
+    },
+    {
+      "enum": [
+        6,
+        "btethDcBtdlWirelessConnectedMstpBaud9600"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_BAUD_9600"
+    },
+    {
+      "enum": [
+        7,
+        "btethDcBtdlWirelessConnectedMstpBaud19200"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_BAUD_19200"
+    },
+    {
+      "enum": [
+        8,
+        "btethDcBtdlWirelessConnectedMstpBaud38400"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_BAUD_38400"
+    },
+    {
+      "enum": [
+        9,
+        "btethDcBtdlWirelessConnectedMstpBaud76800"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_BAUD_76800"
+    },
+    {
+      "enum": [
+        10,
+        "btethDcBtdlWirelessSeeking"
+      ],
+      "description": "BTDL_WIRELESS_SEEKING"
+    },
+    {
+      "enum": [
+        11,
+        "btethDcBtdlWirelessConnectedMstpWaitingForPfm"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_WAITING_FOR_PFM"
+    },
+    {
+      "enum": [
+        12,
+        "btethDcBtdlWirelessConnectedMstpNotReceivedToken"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_NOT_RECEIVED_TOKEN"
+    },
+    {
+      "enum": [
+        13,
+        "btethDcBtdlWirelessConnectedMstpDuplicateMacAddress"
+      ],
+      "description": "BTDL_WIRELESS_CONNECTED_MSTP_DUPLICATE_MAC_ADDRESS"
+    },
+    {
+      "enum": [
+        14,
+        "btethDcBtdlConnectionHandlerSoftwareProblem"
+      ],
+      "description": "BTDL_CONNECTION_HANDLER_SOFTWARE_PROBLEM"
+    },
+    {
+      "enum": [
+        15,
+        "btethDcBtdlWirelessDisconnected"
+      ],
+      "description": "BTDL_WIRELESS_DISCONNECTED"
+    },
+    {
+      "enum": [
+        16,
+        "btethDcBtdlAttemptingDisconnect"
+      ],
+      "description": "BTDL_ATTEMPTING_DISCONNECT"
+    },
+    {
+      "enum": [
+        17,
+        "btethDcDownloadUploadInProgress"
+      ],
+      "description": "DOWNLOAD_UPLOAD_IN_PROGRESS"
+    },
+    {
+      "enum": [
+        18,
+        "btethDcServiceNotAvailableInEthernetMode"
+      ],
+      "description": "Service Not available in Ethernet mode"
+    },
+    {
+      "enum": [
+        19,
+        "btethDcBluetoothmceAlreadyLoadedByAnotherProcess"
+      ],
+      "description": "The connection is being used by another application"
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/decisionDetailEnumSet.schema.json",
+  "title": "decisionDetailEnumSet",
+  "description": "Decision Detail",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "decisionDetailNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "decisionDetailCentralDataRequest"
+      ],
+      "description": "Central Data Request"
+    },
+    {
+      "enum": [
+        2,
+        "decisionDetailCentralStatusRequest"
+      ],
+      "description": "Central Status Request"
+    },
+    {
+      "enum": [
+        3,
+        "decisionDetailManualControllerEvent"
+      ],
+      "description": "Manual Controller Event"
+    },
+    {
+      "enum": [
+        4,
+        "decisionDetailManualReader"
+      ],
+      "description": "Manual Reader"
+    },
+    {
+      "enum": [
+        5,
+        "decisionDetailAssetTracked"
+      ],
+      "description": "Asset Tracked"
+    },
+    {
+      "enum": [
+        6,
+        "decisionDetailEntityTracked"
+      ],
+      "description": "Entity Tracked"
+    },
+    {
+      "enum": [
+        7,
+        "decisionDetailEntityValidated"
+      ],
+      "description": "Entity Validated"
+    },
+    {
+      "enum": [
+        8,
+        "decisionDetailTeamMemberValidated"
+      ],
+      "description": "Team Member Validated"
+    },
+    {
+      "enum": [
+        9,
+        "decisionDetailAlternateAccessGranted"
+      ],
+      "description": "Alternate Access Granted"
+    },
+    {
+      "enum": [
+        10,
+        "decisionDetailAccessGranted"
+      ],
+      "description": "Access Granted"
+    },
+    {
+      "enum": [
+        11,
+        "decisionDetailInvalidFacilityCode"
+      ],
+      "description": "Invalid Facility Code"
+    },
+    {
+      "enum": [
+        12,
+        "decisionDetailInvalidIdentifier"
+      ],
+      "description": "Invalid Identifier"
+    },
+    {
+      "enum": [
+        13,
+        "decisionDetailInvalidEntity"
+      ],
+      "description": "Invalid Entity"
+    },
+    {
+      "enum": [
+        14,
+        "decisionDetailInvalidIssueLevel"
+      ],
+      "description": "Invalid Issue Level"
+    },
+    {
+      "enum": [
+        15,
+        "decisionDetailInvalidPin"
+      ],
+      "description": "Invalid PIN"
+    },
+    {
+      "enum": [
+        16,
+        "decisionDetailInvalidPinAttemptsExceeded"
+      ],
+      "description": "Invalid PIN Attempts Exceeded"
+    },
+    {
+      "enum": [
+        17,
+        "decisionDetailInvalidReader"
+      ],
+      "description": "Invalid Reader"
+    },
+    {
+      "enum": [
+        18,
+        "decisionDetailInvalidAccessGroup"
+      ],
+      "description": "Invalid Access Group"
+    },
+    {
+      "enum": [
+        19,
+        "decisionDetailInvalidAccessGroupTimezone"
+      ],
+      "description": "Invalid Access Group Timezone"
+    },
+    {
+      "enum": [
+        20,
+        "decisionDetailInvalidAccessMask"
+      ],
+      "description": "Invalid Access Mask"
+    },
+    {
+      "enum": [
+        21,
+        "decisionDetailInvalidAccessLevel"
+      ],
+      "description": "Invalid Access Level"
+    },
+    {
+      "enum": [
+        22,
+        "decisionDetailInvalidSecurityMask"
+      ],
+      "description": "Invalid Security Mask"
+    },
+    {
+      "enum": [
+        23,
+        "decisionDetailInvalidSecurityLevel"
+      ],
+      "description": "Invalid Security Level"
+    },
+    {
+      "enum": [
+        24,
+        "decisionDetailAntiPassbackViolation"
+      ],
+      "description": "Anti-Passback Violation"
+    },
+    {
+      "enum": [
+        25,
+        "decisionDetailEntryExitViolation"
+      ],
+      "description": "Entry/Exit Violation"
+    },
+    {
+      "enum": [
+        26,
+        "decisionDetailOccupancyViolation"
+      ],
+      "description": "Occupancy Violation"
+    },
+    {
+      "enum": [
+        27,
+        "decisionDetailInvalidOverrideTime"
+      ],
+      "description": "Invalid Override Time"
+    },
+    {
+      "enum": [
+        28,
+        "decisionDetailInvalidOverridePrivilege"
+      ],
+      "description": "Invalid Override Privilege"
+    },
+    {
+      "enum": [
+        29,
+        "decisionDetailInvalidEvent"
+      ],
+      "description": "Invalid Event"
+    },
+    {
+      "enum": [
+        30,
+        "decisionDetailInvalidEventPrivilege"
+      ],
+      "description": "Invalid Event Privilege"
+    },
+    {
+      "enum": [
+        31,
+        "decisionDetailCentralDataUnreachable"
+      ],
+      "description": "Central Data Unreachable"
+    },
+    {
+      "enum": [
+        32,
+        "decisionDetailCentralStatusUnreachable"
+      ],
+      "description": "Central Status Unreachable"
+    },
+    {
+      "enum": [
+        33,
+        "decisionDetailCentralAccessDenied"
+      ],
+      "description": "Central Access Denied"
+    },
+    {
+      "enum": [
+        34,
+        "decisionDetailAccessRightsExpired"
+      ],
+      "description": "Access Rights Expired"
+    },
+    {
+      "enum": [
+        35,
+        "decisionDetailEntityExpired"
+      ],
+      "description": "Entity Expired"
+    },
+    {
+      "enum": [
+        36,
+        "decisionDetailPortalOpenViolation"
+      ],
+      "description": "Portal Open Violation"
+    },
+    {
+      "enum": [
+        37,
+        "decisionDetailUnaccompaniedAssetRule"
+      ],
+      "description": "Unaccompanied Asset Rule"
+    },
+    {
+      "enum": [
+        38,
+        "decisionDetailUnaccompaniedEntityRule"
+      ],
+      "description": "Unaccompanied Entity Rule"
+    },
+    {
+      "enum": [
+        39,
+        "decisionDetailIncompleteGroupRule"
+      ],
+      "description": "Incomplete Group Rule"
+    },
+    {
+      "enum": [
+        40,
+        "decisionDetailBiometricMismatch"
+      ],
+      "description": "Biometric Mismatch"
+    },
+    {
+      "enum": [
+        41,
+        "decisionDetailInvalidAccessProfile"
+      ],
+      "description": "Invalid Access Profile"
+    },
+    {
+      "enum": [
+        42,
+        "decisionDetailInconsistentIdentifiers"
+      ],
+      "description": "Inconsistent Identifiers"
+    },
+    {
+      "enum": [
+        43,
+        "decisionDetailIntrusionAreaArmed"
+      ],
+      "description": "Intrusion Area Armed"
+    },
+    {
+      "enum": [
+        44,
+        "decisionDetailInvalidSmartCardSignature"
+      ],
+      "description": "Invalid Smart Card Signature"
+    },
+    {
+      "enum": [
+        45,
+        "decisionDetailControllerEventTriggerLocked"
+      ],
+      "description": "Controller Event Trigger Locked"
+    },
+    {
+      "enum": [
+        46,
+        "decisionDetailCredentialExpired"
+      ],
+      "description": "Credential Expired"
+    },
+    {
+      "enum": [
+        47,
+        "decisionDetailInsufficientConfidenceLevel"
+      ],
+      "description": "Insufficient Confidence Level"
+    },
+    {
+      "enum": [
+        48,
+        "decisionDetailOperatorAccessDenied"
+      ],
+      "description": "Operator Access Denied"
+    },
+    {
+      "enum": [
+        49,
+        "decisionDetailInvalidInductionCertificate"
+      ],
+      "description": "Invalid Induction Certificate"
+    },
+    {
+      "enum": [
+        50,
+        "decisionDetailInvalidMedicalCertificate"
+      ],
+      "description": "Invalid Medical Certificate"
+    },
+    {
+      "enum": [
+        51,
+        "decisionDetailInvalidClearanceCertificate"
+      ],
+      "description": "Invalid Clearance Certificate"
+    },
+    {
+      "enum": [
+        52,
+        "decisionDetailOnLeave"
+      ],
+      "description": "On Leave"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/senvaAlarmsEnumSet.schema.json",
+  "title": "senvaAlarmsEnumSet",
+  "description": "Senva Alarms",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "senvaAlarmsMismatchedVoltage"
+      ],
+      "description": "Mismatched Voltage"
+    },
+    {
+      "enum": [
+        1,
+        "senvaAlarmsReverseRstOrder"
+      ],
+      "description": "Reverse RST Order"
+    },
+    {
+      "enum": [
+        2,
+        "senvaAlarmsNotThreePhase"
+      ],
+      "description": "Not Three Phase"
+    },
+    {
+      "enum": [
+        3,
+        "senvaAlarmsFrequencyDrift"
+      ],
+      "description": "Frequency Drift"
+    },
+    {
+      "enum": [
+        4,
+        "senvaAlarmsPhaseDrift"
+      ],
+      "description": "Phase Drift"
+    },
+    {
+      "enum": [
+        5,
+        "senvaAlarmsNegativePower"
+      ],
+      "description": "Negative Power"
+    },
+    {
+      "enum": [
+        6,
+        "senvaAlarmsPhaseLoss"
+      ],
+      "description": "Phase Loss"
+    },
+    {
+      "enum": [
+        7,
+        "senvaAlarmsBadFrequency"
+      ],
+      "description": "Bad Frequency"
+    },
+    {
+      "enum": [
+        8,
+        "senvaAlarmsLowPowerFactor"
+      ],
+      "description": "Low Power Factor"
+    },
+    {
+      "enum": [
+        9,
+        "senvaAlarmsOverCurrent"
+      ],
+      "description": "Over Current"
+    },
+    {
+      "enum": [
+        10,
+        "senvaAlarmsOverVoltage"
+      ],
+      "description": "Over Voltage"
+    },
+    {
+      "enum": [
+        11,
+        "senvaAlarmsHighHarmonics"
+      ],
+      "description": "High Harmonics"
+    },
+    {
+      "enum": [
+        12,
+        "senvaAlarmsUnexpectedSensor"
+      ],
+      "description": "Unexpected Sensor"
+    },
+    {
+      "enum": [
+        13,
+        "senvaAlarmsSurgeVoltage"
+      ],
+      "description": "Surge Voltage"
+    },
+    {
+      "enum": [
+        14,
+        "senvaAlarmsBrownoutVoltage"
+      ],
+      "description": "Brownout Voltage"
+    }
+  ]
+}

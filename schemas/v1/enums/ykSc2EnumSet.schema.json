@@ -1,0 +1,1030 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykSc2EnumSet.schema.json",
+  "title": "ykSc2EnumSet",
+  "description": "YK Safety Fault Code SC.2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykSc20"
+      ],
+      "description": "NO SAFETY FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ykSc21"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "ykSc22"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        3,
+        "ykSc23"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        4,
+        "ykSc24"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        5,
+        "ykSc25"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "ykSc26"
+      ],
+      "description": "CONDENSER - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        7,
+        "ykSc27"
+      ],
+      "description": "AUXILIARY SAFETY - CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        8,
+        "ykSc28"
+      ],
+      "description": "DISCHARGE - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        9,
+        "ykSc29"
+      ],
+      "description": "DISCHARGE - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "ykSc210"
+      ],
+      "description": "OIL - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        11,
+        "ykSc211"
+      ],
+      "description": "OIL - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        12,
+        "ykSc212"
+      ],
+      "description": "OIL - HIGH DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        13,
+        "ykSc213"
+      ],
+      "description": "OIL - PUMP PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        14,
+        "ykSc214"
+      ],
+      "description": "OIL - SUMP PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        15,
+        "ykSc215"
+      ],
+      "description": "MOTOR - LACK OF MOTOR OIL CHANGE"
+    },
+    {
+      "enum": [
+        16,
+        "ykSc216"
+      ],
+      "description": "SALES ORDER - INVALID COMPRESSOR MODEL"
+    },
+    {
+      "enum": [
+        17,
+        "ykSc217"
+      ],
+      "description": "SALES ORDER - INVALID GEAR CODE"
+    },
+    {
+      "enum": [
+        18,
+        "ykSc218"
+      ],
+      "description": "OIL - DIFFERENTIAL PRESSURE CALIBRATION"
+    },
+    {
+      "enum": [
+        19,
+        "ykSc219"
+      ],
+      "description": "SAFETY STOP"
+    },
+    {
+      "enum": [
+        20,
+        "ykSc220"
+      ],
+      "description": "OIL - VARIABLE SPEED PUMP - SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        21,
+        "ykSc221"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        22,
+        "ykSc222"
+      ],
+      "description": "CONTROL PANEL - LOSS OF CONTROL VOLTAGE"
+    },
+    {
+      "enum": [
+        23,
+        "ykSc223"
+      ],
+      "description": "MOTOR OR STARTER - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        24,
+        "ykSc224"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        25,
+        "ykSc225"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE UNCALIBRATED"
+    },
+    {
+      "enum": [
+        26,
+        "ykSc226"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        27,
+        "ykSc227"
+      ],
+      "description": "THRUST BEARING - HIGH OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        28,
+        "ykSc228"
+      ],
+      "description": "THRUST BEARING - OIL TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        29,
+        "ykSc229"
+      ],
+      "description": "VSD - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        30,
+        "ykSc230"
+      ],
+      "description": "VSD - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        31,
+        "ykSc231"
+      ],
+      "description": "VSD - HIGH PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        32,
+        "ykSc232"
+      ],
+      "description": "VSD - HIGH PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        33,
+        "ykSc233"
+      ],
+      "description": "VSD - HIGH PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        34,
+        "ykSc234"
+      ],
+      "description": "VSD - HIGH CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        35,
+        "ykSc235"
+      ],
+      "description": "VSD - PRECHARGE LOCKOUT"
+    },
+    {
+      "enum": [
+        36,
+        "ykSc236"
+      ],
+      "description": "HARMONIC FILTER - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        37,
+        "ykSc237"
+      ],
+      "description": "HARMONIC FILTER - HIGH TOTAL DEMAND DISTORTION"
+    },
+    {
+      "enum": [
+        38,
+        "ykSc238"
+      ],
+      "description": "LCSSS - PHASE ROTATION"
+    },
+    {
+      "enum": [
+        39,
+        "ykSc239"
+      ],
+      "description": "LCSSS - MOTOR OR STARTER - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        40,
+        "ykSc240"
+      ],
+      "description": "LCSSS - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        41,
+        "ykSc241"
+      ],
+      "description": "LCSSS - HIGH INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        42,
+        "ykSc242"
+      ],
+      "description": "LCSSS - OPEN SCR"
+    },
+    {
+      "enum": [
+        43,
+        "ykSc243"
+      ],
+      "description": "LCSSS - PHASE A SHORTED SCR"
+    },
+    {
+      "enum": [
+        44,
+        "ykSc244"
+      ],
+      "description": "LCSSS - PHASE B SHORTED SCR"
+    },
+    {
+      "enum": [
+        45,
+        "ykSc245"
+      ],
+      "description": "LCSSS - PHASE C SHORTED SCR"
+    },
+    {
+      "enum": [
+        46,
+        "ykSc246"
+      ],
+      "description": "LCSSS - HIGH PHASE A HEATSINK TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        47,
+        "ykSc247"
+      ],
+      "description": "LCSSS - HIGH PHASE B HEATSINK TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        48,
+        "ykSc248"
+      ],
+      "description": "LCSSS - HIGH PHASE C HEATSINK TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        49,
+        "ykSc249"
+      ],
+      "description": "STARTER - INVALID MOTOR SELECTION"
+    },
+    {
+      "enum": [
+        50,
+        "ykSc250"
+      ],
+      "description": "OIL OR CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        51,
+        "ykSc251"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        52,
+        "ykSc252"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    },
+    {
+      "enum": [
+        53,
+        "ykSc253"
+      ],
+      "description": "SURGE PROTECTION - EXCESS SURGE"
+    },
+    {
+      "enum": [
+        54,
+        "ykSc254"
+      ],
+      "description": "VSD - HIGH INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        55,
+        "ykSc255"
+      ],
+      "description": "HARMONIC FILTER - HIGH BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        56,
+        "ykSc256"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        57,
+        "ykSc257"
+      ],
+      "description": "THRUST BEARING - LIMIT SWITCH OPEN"
+    },
+    {
+      "enum": [
+        58,
+        "ykSc258"
+      ],
+      "description": "RESERVED 58"
+    },
+    {
+      "enum": [
+        59,
+        "ykSc259"
+      ],
+      "description": "RESERVED 59"
+    },
+    {
+      "enum": [
+        60,
+        "ykSc260"
+      ],
+      "description": "RESERVED 60"
+    },
+    {
+      "enum": [
+        61,
+        "ykSc261"
+      ],
+      "description": "MOTOR - HIGH WINDING TEMPERATURE"
+    },
+    {
+      "enum": [
+        62,
+        "ykSc262"
+      ],
+      "description": "MOTOR - HIGH BEARING TEMPERATURE"
+    },
+    {
+      "enum": [
+        63,
+        "ykSc263"
+      ],
+      "description": "VSD - HIGH PHASE A INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        64,
+        "ykSc264"
+      ],
+      "description": "VSD - HIGH PHASE B INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        65,
+        "ykSc265"
+      ],
+      "description": "VSD - HIGH PHASE C INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        66,
+        "ykSc266"
+      ],
+      "description": "VSD - MOTOR CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        67,
+        "ykSc267"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE - STOPPED"
+    },
+    {
+      "enum": [
+        68,
+        "ykSc268"
+      ],
+      "description": "RESERVED 68"
+    },
+    {
+      "enum": [
+        69,
+        "ykSc269"
+      ],
+      "description": "MOTOR - HIGH BEARING VIBRATION"
+    },
+    {
+      "enum": [
+        70,
+        "ykSc270"
+      ],
+      "description": "RESERVED 70"
+    },
+    {
+      "enum": [
+        71,
+        "ykSc271"
+      ],
+      "description": "LCSSS - PHASE A OPEN SCR"
+    },
+    {
+      "enum": [
+        72,
+        "ykSc272"
+      ],
+      "description": "LCSSS - PHASE B OPEN SCR"
+    },
+    {
+      "enum": [
+        73,
+        "ykSc273"
+      ],
+      "description": "LCSSS - PHASE C OPEN SCR"
+    },
+    {
+      "enum": [
+        74,
+        "ykSc274"
+      ],
+      "description": "MOTOR - LACK OF BEARING LUBRICATION"
+    },
+    {
+      "enum": [
+        75,
+        "ykSc275"
+      ],
+      "description": "VSD - LOW FREQUENCY DETECTED"
+    },
+    {
+      "enum": [
+        76,
+        "ykSc276"
+      ],
+      "description": "VSD - FEEDBACK SENSOR"
+    },
+    {
+      "enum": [
+        77,
+        "ykSc277"
+      ],
+      "description": "VSD - CONTROL FAULT"
+    },
+    {
+      "enum": [
+        78,
+        "ykSc278"
+      ],
+      "description": "VSD - DRIVE BOOT FAILURE"
+    },
+    {
+      "enum": [
+        79,
+        "ykSc279"
+      ],
+      "description": "MVSSS - PHASE ROTATION"
+    },
+    {
+      "enum": [
+        80,
+        "ykSc280"
+      ],
+      "description": "MVSSS - MOTOR OR STARTER - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        81,
+        "ykSc281"
+      ],
+      "description": "MVSSS - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        82,
+        "ykSc282"
+      ],
+      "description": "MVSSS - HIGH INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        83,
+        "ykSc283"
+      ],
+      "description": "MVSSS - FAILED SCR"
+    },
+    {
+      "enum": [
+        84,
+        "ykSc284"
+      ],
+      "description": "MVSSS - HIGH HEATSINK TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        85,
+        "ykSc285"
+      ],
+      "description": "MVSSS - GROUND FAULT"
+    },
+    {
+      "enum": [
+        86,
+        "ykSc286"
+      ],
+      "description": "MVSSS - CONTACTOR FAULT"
+    },
+    {
+      "enum": [
+        87,
+        "ykSc287"
+      ],
+      "description": "MVSSS - MOTOR DRIVE FAULT"
+    },
+    {
+      "enum": [
+        88,
+        "ykSc288"
+      ],
+      "description": "MVSSS - DISCONNECT"
+    },
+    {
+      "enum": [
+        89,
+        "ykSc289"
+      ],
+      "description": "VSD - POWER TRANSFORMER HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        90,
+        "ykSc290"
+      ],
+      "description": "VSD - HIGH OUTPUT FREQUENCY"
+    },
+    {
+      "enum": [
+        91,
+        "ykSc291"
+      ],
+      "description": "MVVSD - GROUND FAULT"
+    },
+    {
+      "enum": [
+        92,
+        "ykSc292"
+      ],
+      "description": "VSD - MAIN CONTROL BOARD FAULT"
+    },
+    {
+      "enum": [
+        93,
+        "ykSc293"
+      ],
+      "description": "MVVSD - CONTACTOR FAULT"
+    },
+    {
+      "enum": [
+        94,
+        "ykSc294"
+      ],
+      "description": "MVVSD - INTERLOCK FAULT"
+    },
+    {
+      "enum": [
+        95,
+        "ykSc295"
+      ],
+      "description": "VSD - LOGIC BOARD PLUG FAULT"
+    },
+    {
+      "enum": [
+        96,
+        "ykSc296"
+      ],
+      "description": "VSD - INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        97,
+        "ykSc297"
+      ],
+      "description": "VSD - HIGH PHASE A INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        98,
+        "ykSc298"
+      ],
+      "description": "VSD - HIGH PHASE B INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        99,
+        "ykSc299"
+      ],
+      "description": "VSD - HIGH PHASE C INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        100,
+        "ykSc2100"
+      ],
+      "description": "RESERVED 100"
+    },
+    {
+      "enum": [
+        101,
+        "ykSc2101"
+      ],
+      "description": "RESERVED 101"
+    },
+    {
+      "enum": [
+        102,
+        "ykSc2102"
+      ],
+      "description": "RESERVED 102"
+    },
+    {
+      "enum": [
+        103,
+        "ykSc2103"
+      ],
+      "description": "VSD - DC BUS PRE-REGULATION LOCKOUT"
+    },
+    {
+      "enum": [
+        104,
+        "ykSc2104"
+      ],
+      "description": "VSD - GROUND FAULT"
+    },
+    {
+      "enum": [
+        105,
+        "ykSc2105"
+      ],
+      "description": "RESERVED 105"
+    },
+    {
+      "enum": [
+        106,
+        "ykSc2106"
+      ],
+      "description": "RESERVED 106"
+    },
+    {
+      "enum": [
+        107,
+        "ykSc2107"
+      ],
+      "description": "RESERVED 107"
+    },
+    {
+      "enum": [
+        108,
+        "ykSc2108"
+      ],
+      "description": "VSD - PHASE A INPUT DCCT"
+    },
+    {
+      "enum": [
+        109,
+        "ykSc2109"
+      ],
+      "description": "VSD - PHASE B INPUT DCCT"
+    },
+    {
+      "enum": [
+        110,
+        "ykSc2110"
+      ],
+      "description": "VSD - PHASE C INPUT DCCT"
+    },
+    {
+      "enum": [
+        111,
+        "ykSc2111"
+      ],
+      "description": "VSD - HIGH TOTAL DEMAND DISTORTION"
+    },
+    {
+      "enum": [
+        112,
+        "ykSc2112"
+      ],
+      "description": "MOTOR - COOLING COIL LEAK"
+    },
+    {
+      "enum": [
+        113,
+        "ykSc2113"
+      ],
+      "description": "MVVSD - EXCESSIVE SHUTDOWNS"
+    },
+    {
+      "enum": [
+        114,
+        "ykSc2114"
+      ],
+      "description": "ISOLATION VALVES - NOT OPENED"
+    },
+    {
+      "enum": [
+        115,
+        "ykSc2115"
+      ],
+      "description": "VSD - OUTPUT PHASE ROTATION"
+    },
+    {
+      "enum": [
+        116,
+        "ykSc2116"
+      ],
+      "description": "VSD - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        117,
+        "ykSc2117"
+      ],
+      "description": "VSD - HIGH PHASE A OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        118,
+        "ykSc2118"
+      ],
+      "description": "VSD - HIGH PHASE B OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        119,
+        "ykSc2119"
+      ],
+      "description": "VSD - HIGH PHASE C OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        120,
+        "ykSc2120"
+      ],
+      "description": "VSD - LINE VOLTAGE PHASE ROTATION"
+    },
+    {
+      "enum": [
+        121,
+        "ykSc2121"
+      ],
+      "description": "VSD - INPUT DCCT OFFSET LOCKOUT"
+    },
+    {
+      "enum": [
+        122,
+        "ykSc2122"
+      ],
+      "description": "VSD - LOGIC BOARD HARDWARE"
+    },
+    {
+      "enum": [
+        123,
+        "ykSc2123"
+      ],
+      "description": "VSD - RECTIFIER PROGRAM FAULT"
+    },
+    {
+      "enum": [
+        124,
+        "ykSc2124"
+      ],
+      "description": "VSD - INVERTER PROGRAM FAULT"
+    },
+    {
+      "enum": [
+        125,
+        "ykSc2125"
+      ],
+      "description": "VSD - DC BUS LOCKOUT - DO NOT CYCLE POWER"
+    },
+    {
+      "enum": [
+        126,
+        "ykSc2126"
+      ],
+      "description": "VSD - MOTOR CURRENT THD FAULT"
+    },
+    {
+      "enum": [
+        127,
+        "ykSc2127"
+      ],
+      "description": "VSD - HIGH PHASE A MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        128,
+        "ykSc2128"
+      ],
+      "description": "VSD - HIGH PHASE B MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        129,
+        "ykSc2129"
+      ],
+      "description": "VSD - HIGH PHASE C MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        130,
+        "ykSc2130"
+      ],
+      "description": "VSD - HIGH PHASE A MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        131,
+        "ykSc2131"
+      ],
+      "description": "VSD - HIGH PHASE B MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        132,
+        "ykSc2132"
+      ],
+      "description": "VSD - HIGH PHASE C MOTOR BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        133,
+        "ykSc2133"
+      ],
+      "description": "VSD - PHASE A MOTOR DCCT"
+    },
+    {
+      "enum": [
+        134,
+        "ykSc2134"
+      ],
+      "description": "VSD - PHASE B MOTOR DCCT"
+    },
+    {
+      "enum": [
+        135,
+        "ykSc2135"
+      ],
+      "description": "VSD - PHASE C MOTOR DCCT"
+    },
+    {
+      "enum": [
+        136,
+        "ykSc2136"
+      ],
+      "description": "HIGH AUXILIARY CONDENSER PRESSURE"
+    },
+    {
+      "enum": [
+        137,
+        "ykSc2137"
+      ],
+      "description": "RESERVED 137"
+    },
+    {
+      "enum": [
+        138,
+        "ykSc2138"
+      ],
+      "description": "RESERVED 138"
+    },
+    {
+      "enum": [
+        139,
+        "ykSc2139"
+      ],
+      "description": "RESERVED 139"
+    },
+    {
+      "enum": [
+        140,
+        "ykSc2140"
+      ],
+      "description": "RESERVED 140"
+    },
+    {
+      "enum": [
+        141,
+        "ykSc2141"
+      ],
+      "description": "RESERVED 141"
+    },
+    {
+      "enum": [
+        142,
+        "ykSc2142"
+      ],
+      "description": "RESERVED 142"
+    },
+    {
+      "enum": [
+        143,
+        "ykSc2143"
+      ],
+      "description": "RESERVED 143"
+    },
+    {
+      "enum": [
+        144,
+        "ykSc2144"
+      ],
+      "description": "RESERVED 144"
+    },
+    {
+      "enum": [
+        145,
+        "ykSc2145"
+      ],
+      "description": "RESERVED 145"
+    }
+  ]
+}

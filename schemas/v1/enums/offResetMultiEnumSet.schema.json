@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offResetMultiEnumSet.schema.json",
+  "title": "offResetMultiEnumSet",
+  "description": "Off/Reset",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "offRstMsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "offRstMsReset"
+      ],
+      "description": "Reset"
+    }
+  ]
+}

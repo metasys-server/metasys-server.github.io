@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcBatteryEnumSet.schema.json",
+  "title": "unityXlcBatteryEnumSet",
+  "description": "Unity XLC Battery",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "BAT"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "BAT1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "BAT2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "BAT3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, BAT"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, BAT1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

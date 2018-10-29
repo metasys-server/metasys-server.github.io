@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/threeSpeedStatesEnumSet.schema.json",
+  "title": "threeSpeedStatesEnumSet",
+  "description": "Three Speed States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "threeSpdStatesOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "threeSpdStatesLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        2,
+        "threeSpdStatesMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        3,
+        "threeSpdStatesHigh"
+      ],
+      "description": "High"
+    }
+  ]
+}

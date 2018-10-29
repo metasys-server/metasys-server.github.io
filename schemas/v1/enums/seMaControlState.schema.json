@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seMaControlState.schema.json",
+  "title": "seMaControlState",
+  "description": "SE RTU Mixed Air Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seMaControlStateSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "seMaControlStateWait"
+      ],
+      "description": "Wait"
+    },
+    {
+      "enum": [
+        2,
+        "seMaControlStateHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        3,
+        "seMaControlStateMaxHeat"
+      ],
+      "description": "Max Heat"
+    },
+    {
+      "enum": [
+        4,
+        "seMaControlStateEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        5,
+        "seMaControlStateEconandmech"
+      ],
+      "description": "EconAndMech"
+    },
+    {
+      "enum": [
+        6,
+        "seMaControlStateMech"
+      ],
+      "description": "Mech"
+    },
+    {
+      "enum": [
+        7,
+        "seMaControlStateProcessVarUnrel"
+      ],
+      "description": "Process Variable Unreliable"
+    },
+    {
+      "enum": [
+        8,
+        "seMaControlStateCoolToHeat"
+      ],
+      "description": "Cool to Heat Delay"
+    }
+  ]
+}

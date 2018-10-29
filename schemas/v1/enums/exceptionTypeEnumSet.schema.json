@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/exceptionTypeEnumSet.schema.json",
+  "title": "exceptionTypeEnumSet",
+  "description": "Exception Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "singleDateParm"
+      ],
+      "description": "Single Date"
+    },
+    {
+      "enum": [
+        1,
+        "dateRangeParm"
+      ],
+      "description": "Date Range"
+    },
+    {
+      "enum": [
+        2,
+        "weekAndDayParm"
+      ],
+      "description": "Week and Day"
+    },
+    {
+      "enum": [
+        3,
+        "calendarRefParm"
+      ],
+      "description": "Calendar Ref"
+    }
+  ]
+}

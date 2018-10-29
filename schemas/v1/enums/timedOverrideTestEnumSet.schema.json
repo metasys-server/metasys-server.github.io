@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timedOverrideTestEnumSet.schema.json",
+  "title": "timedOverrideTestEnumSet",
+  "description": "Timed Override Test",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "timedOverrideTestOk"
+      ],
+      "description": "OK"
+    },
+    {
+      "enum": [
+        1,
+        "timedOverrideTestInvalidOverrideTime"
+      ],
+      "description": "Test Invalid Override Time"
+    },
+    {
+      "enum": [
+        2,
+        "timedOverrideTestInvalidOverridePrivilege"
+      ],
+      "description": "Test Invalid Override Privilege"
+    },
+    {
+      "enum": [
+        3,
+        "timedOverrideTestInvalidSecurityLevel"
+      ],
+      "description": "Test Invalid Security Level"
+    }
+  ]
+}

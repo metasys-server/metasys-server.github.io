@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuSfStateOvr.schema.json",
+  "title": "seRtuSfStateOvr",
+  "description": "SE RTU SF State OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seSfStOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seSfStMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "seSfStEmerOn"
+      ],
+      "description": "Emergency On"
+    },
+    {
+      "enum": [
+        3,
+        "seSfStRamp"
+      ],
+      "description": "Ramp"
+    },
+    {
+      "enum": [
+        4,
+        "seSfStSP"
+      ],
+      "description": "S-P Control"
+    },
+    {
+      "enum": [
+        5,
+        "seSfStHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        6,
+        "seSfStFvs"
+      ],
+      "description": "Fixed Variable Speed"
+    },
+    {
+      "enum": [
+        7,
+        "seSfStTs"
+      ],
+      "description": "Two Speed"
+    },
+    {
+      "enum": [
+        8,
+        "seSfStTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        9,
+        "seSfStSzVavMin"
+      ],
+      "description": "SZ VAV Min"
+    },
+    {
+      "enum": [
+        10,
+        "seSfStSzVavHeating"
+      ],
+      "description": "SZ VAV Heating"
+    },
+    {
+      "enum": [
+        11,
+        "seSfStSzVavControl"
+      ],
+      "description": "SZ VAV Control"
+    }
+  ]
+}

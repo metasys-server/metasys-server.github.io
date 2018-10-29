@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewUnitCtrlSrcEnumSet.schema.json",
+  "title": "optiviewUnitCtrlSrcEnumSet",
+  "description": "Optiview Unit Control Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewUnitCtrlSrcLocal"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewUnitCtrlSrcIsnBas"
+      ],
+      "description": "ISN (BAS)"
+    },
+    {
+      "enum": [
+        2,
+        "optiviewUnitCtrlSrcAnalog"
+      ],
+      "description": "Analog"
+    },
+    {
+      "enum": [
+        3,
+        "optiviewUnitCtrlSrcDigital"
+      ],
+      "description": "Digital"
+    },
+    {
+      "enum": [
+        4,
+        "optiviewUnitCtrlSrcModem"
+      ],
+      "description": "Modem"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/econSuitabilTypeEnumSet.schema.json",
+  "title": "econSuitabilTypeEnumSet",
+  "description": "Economizer Suitability Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "econSuitDryBulb"
+      ],
+      "description": "Dry Bulb"
+    },
+    {
+      "enum": [
+        1,
+        "econSuitOae"
+      ],
+      "description": "Outside Air Enthalpy"
+    },
+    {
+      "enum": [
+        2,
+        "econSuitDualEnth"
+      ],
+      "description": "Dual Enthalpy"
+    }
+  ]
+}

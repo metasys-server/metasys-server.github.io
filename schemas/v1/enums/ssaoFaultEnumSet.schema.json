@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ssaoFaultEnumSet.schema.json",
+  "title": "ssaoFaultEnumSet",
+  "description": "SSAO Fault",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ssaoNofault"
+      ],
+      "description": "No Fault"
+    },
+    {
+      "enum": [
+        1,
+        "ssaoOffline"
+      ],
+      "description": "Offline"
+    }
+  ]
+}

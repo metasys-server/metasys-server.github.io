@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lysMinLoadCtrlSrcEnumSet.schema.json",
+  "title": "lysMinLoadCtrlSrcEnumSet",
+  "description": "LYS Minimum Load Control Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lysMinLoadCtrlSrcSlideValve"
+      ],
+      "description": "Slide Valve"
+    },
+    {
+      "enum": [
+        1,
+        "lysMinLoadCtrlSrcFla"
+      ],
+      "description": "FLA"
+    }
+  ]
+}

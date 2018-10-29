@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/deviceAlarmEnumSet.schema.json",
+  "title": "deviceAlarmEnumSet",
+  "description": "Device Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sesNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "sesEventDetected"
+      ],
+      "description": "Event Detected"
+    },
+    {
+      "enum": [
+        2,
+        "sesLockout"
+      ],
+      "description": "Lockout"
+    }
+  ]
+}

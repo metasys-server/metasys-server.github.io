@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityD1KSubsystemCommunicationEnumSet.schema.json",
+  "title": "unityD1KSubsystemCommunicationEnumSet",
+  "description": "Unity D1K Subsystem Communication",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Down"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Up"
+    }
+  ]
+}

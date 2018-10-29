@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000OccupancySourceEnumSet.schema.json",
+  "title": "tec3000OccupancySourceEnumSet",
+  "description": "TEC3000 Occupancy Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000OccupancySourceOccupancyBi"
+      ],
+      "description": "Occupancy BI"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000OccupancySourceTempOccBi"
+      ],
+      "description": "Temp Occ BI"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000OccupancySourceTempOcc"
+      ],
+      "description": "Temp Occ"
+    },
+    {
+      "enum": [
+        3,
+        "tec3000OccupancySourceOccOverride"
+      ],
+      "description": "Occ Override"
+    },
+    {
+      "enum": [
+        4,
+        "tec3000OccupancySourceLocalSchedule"
+      ],
+      "description": "Local Schedule"
+    },
+    {
+      "enum": [
+        5,
+        "tec3000OccupancySourceBasSchedule"
+      ],
+      "description": "BAS Schedule"
+    },
+    {
+      "enum": [
+        6,
+        "tec3000OccupancySourceOccupancySensor"
+      ],
+      "description": "Occupancy Sensor"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/specificUseEnumSet.schema.json",
+  "title": "specificUseEnumSet",
+  "description": "Specific Use",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "suStructureUnknown"
+      ],
+      "description": "Structure Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "suCommandReference"
+      ],
+      "description": "Command Reference"
+    },
+    {
+      "enum": [
+        2,
+        "suFunctionalName"
+      ],
+      "description": "Functional Name"
+    },
+    {
+      "enum": [
+        3,
+        "suReferenceName"
+      ],
+      "description": "Reference Name"
+    },
+    {
+      "enum": [
+        4,
+        "suVersion"
+      ],
+      "description": "Version"
+    }
+  ]
+}

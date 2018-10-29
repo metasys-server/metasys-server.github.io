@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/diagnosticLoggerProducerStateEnumSet.schema.json",
+  "title": "diagnosticLoggerProducerStateEnumSet",
+  "description": "Diagnostic Logger Producer States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "diagnosticLoggerProducerWaitingForConsumerTaskInitializedState"
+      ],
+      "description": "Waiting for Consumer Task Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "diagnosticLoggerProducerWaitingForEnableOrTriggerState"
+      ],
+      "description": "Waiting for Enable or Trigger"
+    },
+    {
+      "enum": [
+        2,
+        "diagnosticLoggerProducerWaitingForTriggerState"
+      ],
+      "description": "Waiting for Trigger"
+    },
+    {
+      "enum": [
+        3,
+        "diagnosticLoggerProducerWaitingForEnableState"
+      ],
+      "description": "Waiting for Enable"
+    },
+    {
+      "enum": [
+        4,
+        "diagnosticLoggerProducerProcessingDataNormallyState"
+      ],
+      "description": "Processing Data Normally"
+    },
+    {
+      "enum": [
+        5,
+        "diagnosticLoggerProducerProcessingDataThrottledState"
+      ],
+      "description": "Processing Data Throttled"
+    },
+    {
+      "enum": [
+        6,
+        "diagnosticLoggerProducerProcessingDataPausedState"
+      ],
+      "description": "Processing Data Paused"
+    }
+  ]
+}

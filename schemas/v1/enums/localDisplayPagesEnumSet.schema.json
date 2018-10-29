@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/localDisplayPagesEnumSet.schema.json",
+  "title": "localDisplayPagesEnumSet",
+  "description": "Local Display Pages",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ldpIdlePage"
+      ],
+      "description": "Idle Page"
+    },
+    {
+      "enum": [
+        1,
+        "ldpInputsOutputsPage"
+      ],
+      "description": "Inputs/Outputs Page"
+    },
+    {
+      "enum": [
+        2,
+        "ldpParametersPage"
+      ],
+      "description": "Parameters Page"
+    },
+    {
+      "enum": [
+        3,
+        "ldpUserDefinedPage"
+      ],
+      "description": "User Defined Page"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sszoInputStatusEnumSet.schema.json",
+  "title": "sszoInputStatusEnumSet",
+  "description": "SSZO Input Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sszoInputStatusSecure"
+      ],
+      "description": "Secure"
+    },
+    {
+      "enum": [
+        1,
+        "sszoInputStatusActive"
+      ],
+      "description": "Active"
+    },
+    {
+      "enum": [
+        2,
+        "sszoInputStatusTrouble"
+      ],
+      "description": "Trouble"
+    },
+    {
+      "enum": [
+        3,
+        "sszoInputStatusTamper"
+      ],
+      "description": "Tamper"
+    },
+    {
+      "enum": [
+        4,
+        "sszoInputStatusOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        5,
+        "sszoInputStatusShort"
+      ],
+      "description": "Short"
+    },
+    {
+      "enum": [
+        6,
+        "sszoInputStatusUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        7,
+        "sszoInputStatusMisconfigured"
+      ],
+      "description": "Misconfigured"
+    }
+  ]
+}

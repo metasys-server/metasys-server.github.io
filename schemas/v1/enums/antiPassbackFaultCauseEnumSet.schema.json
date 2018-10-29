@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/antiPassbackFaultCauseEnumSet.schema.json",
+  "title": "antiPassbackFaultCauseEnumSet",
+  "description": "Anti-Passback Fault Cause",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "antiPassbackFaultCauseNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "antiPassbackFaultCauseInvalidConfiguration"
+      ],
+      "description": "Invalid Configuration"
+    },
+    {
+      "enum": [
+        2,
+        "antiPassbackFaultCauseOutOfMemory"
+      ],
+      "description": "Out Of Memory"
+    }
+  ]
+}

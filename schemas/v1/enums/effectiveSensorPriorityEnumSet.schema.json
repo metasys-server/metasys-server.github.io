@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/effectiveSensorPriorityEnumSet.schema.json",
+  "title": "effectiveSensorPriorityEnumSet",
+  "description": "Effective Sensor Priority",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "effectiveSensorPriorityUnreliable"
+      ],
+      "description": "Unreliable"
+    },
+    {
+      "enum": [
+        1,
+        "effectiveSensorPriorityInternalSensor1"
+      ],
+      "description": "Internal Sensor"
+    },
+    {
+      "enum": [
+        2,
+        "effectiveSensorPriorityInternalSensor2"
+      ],
+      "description": "Internal Sensor"
+    },
+    {
+      "enum": [
+        3,
+        "effectiveSensorPriorityRemoteSensor"
+      ],
+      "description": "Remote Sensor"
+    },
+    {
+      "enum": [
+        4,
+        "effectiveSensorPriorityNetworkOverride"
+      ],
+      "description": "Network Override"
+    },
+    {
+      "enum": [
+        5,
+        "effectiveSensorPriorityInputNotInstalled"
+      ],
+      "description": "Input Not Installed"
+    }
+  ]
+}

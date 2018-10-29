@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sszoAlarmStatusEnumSet.schema.json",
+  "title": "sszoAlarmStatusEnumSet",
+  "description": "SSZO Alarm Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sszoAlarmStatusNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "sszoAlarmStatusAlarmed"
+      ],
+      "description": "Alarmed"
+    },
+    {
+      "enum": [
+        2,
+        "sszoAlarmStatusAlarmedTrouble"
+      ],
+      "description": "Alarmed, Trouble"
+    },
+    {
+      "enum": [
+        3,
+        "sszoAlarmStatusAlarmedTamper"
+      ],
+      "description": "Alarmed, Tamper"
+    },
+    {
+      "enum": [
+        4,
+        "sszoAlarmStatusAlarmedOpen"
+      ],
+      "description": "Alarmed, Open"
+    },
+    {
+      "enum": [
+        5,
+        "sszoAlarmStatusAlarmedShort"
+      ],
+      "description": "Alarmed, Short"
+    },
+    {
+      "enum": [
+        6,
+        "sszoAlarmStatusAlarmedUnknown"
+      ],
+      "description": "Alarmed, Unknown"
+    }
+  ]
+}

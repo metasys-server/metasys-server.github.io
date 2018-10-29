@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuPropHCtrlEnumSet.schema.json",
+  "title": "ahuPropHCtrlEnumSet",
+  "description": "AHU Prop H Ctrl",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuPhctrlOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuPhctrlHControl"
+      ],
+      "description": "H Control"
+    }
+  ]
+}

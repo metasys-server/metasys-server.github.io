@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/statusNotificationPriEnumSet.schema.json",
+  "title": "statusNotificationPriEnumSet",
+  "description": "Status Notification",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "snoCritical"
+      ],
+      "description": "Critical"
+    },
+    {
+      "enum": [
+        1,
+        "snoSerious"
+      ],
+      "description": "Serious"
+    },
+    {
+      "enum": [
+        2,
+        "snoImportant"
+      ],
+      "description": "Important"
+    },
+    {
+      "enum": [
+        3,
+        "snoStatus"
+      ],
+      "description": "Status"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ytSc1EnumSet.schema.json",
+  "title": "ytSc1EnumSet",
+  "description": "YT Operational Code SC.1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ytSc10"
+      ],
+      "description": "UNIT STOPPED - READY TO START"
+    },
+    {
+      "enum": [
+        1,
+        "ytSc11"
+      ],
+      "description": "UNIT STOPPED - LOCAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        2,
+        "ytSc12"
+      ],
+      "description": "UNIT STOPPED - REMOTE SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "ytSc13"
+      ],
+      "description": "UNIT STOPPED - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        4,
+        "ytSc14"
+      ],
+      "description": "UNIT STOPPED - CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        5,
+        "ytSc15"
+      ],
+      "description": "UNIT STOPPED - SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        6,
+        "ytSc16"
+      ],
+      "description": "UNIT START INHIBIT"
+    },
+    {
+      "enum": [
+        7,
+        "ytSc17"
+      ],
+      "description": "UNIT STARTING"
+    },
+    {
+      "enum": [
+        8,
+        "ytSc18"
+      ],
+      "description": "UNIT RUNNING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        9,
+        "ytSc19"
+      ],
+      "description": "UNIT RUNNING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        10,
+        "ytSc110"
+      ],
+      "description": "UNIT RUNNING - CHILLER UNLOAD BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        11,
+        "ytSc111"
+      ],
+      "description": "UNIT COASTDOWN"
+    }
+  ]
+}

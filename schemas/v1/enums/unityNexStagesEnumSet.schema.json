@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexStagesEnumSet.schema.json",
+  "title": "unityNexStagesEnumSet",
+  "description": "Unity NEX Stages",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Stage 1"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Off"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Stage 1"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Off"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Stage 3"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Stage 4"
+    }
+  ]
+}

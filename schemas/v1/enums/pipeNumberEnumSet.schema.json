@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pipeNumberEnumSet.schema.json",
+  "title": "pipeNumberEnumSet",
+  "description": "Pipe Number",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "2 Pipe"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "4 Pipe"
+    }
+  ]
+}

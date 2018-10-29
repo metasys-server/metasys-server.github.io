@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/discoveryStatusEnumSet.schema.json",
+  "title": "discoveryStatusEnumSet",
+  "description": "Discovery Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "discoveryNeverCompleted"
+      ],
+      "description": "Discovery Never Completed"
+    },
+    {
+      "enum": [
+        1,
+        "discoveryInProgress"
+      ],
+      "description": "Discovery in Progress"
+    },
+    {
+      "enum": [
+        2,
+        "discoveryComplete"
+      ],
+      "description": "Discovery Complete"
+    },
+    {
+      "enum": [
+        3,
+        "discoveryAborted"
+      ],
+      "description": "Discovery Aborted"
+    },
+    {
+      "enum": [
+        4,
+        "discoveryCanNotStart"
+      ],
+      "description": "Discovery Can Not Start"
+    }
+  ]
+}

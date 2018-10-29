@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pmoFwVersionsStatus.schema.json",
+  "title": "pmoFwVersionsStatus",
+  "description": "PMO Firmware Versions Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pmoFwVersionsStatusOk"
+      ],
+      "description": "Firmware Versions OK"
+    },
+    {
+      "enum": [
+        1,
+        "pmoFwVersionsStatusDoNotMatchPkg"
+      ],
+      "description": "Firmware Versions Do Not Match the Package"
+    }
+  ]
+}

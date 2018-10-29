@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtThermModeEnumSet.schema.json",
+  "title": "snvtThermModeEnumSet",
+  "description": "SNVT Thermostat Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Control"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "In/Out"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Modulating"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

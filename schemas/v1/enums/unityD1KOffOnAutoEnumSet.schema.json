@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityD1KOffOnAutoEnumSet.schema.json",
+  "title": "unityD1KOffOnAutoEnumSet",
+  "description": "Unity D1K Off/On/Auto",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ON"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "OFF"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "AOFF"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "AON"
+    }
+  ]
+}

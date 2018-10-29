@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000EquipmentTypeEnumSet.schema.json",
+  "title": "tec3000EquipmentTypeEnumSet",
+  "description": "TEC3000 Equipment Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000EquipmentTypeOnoff"
+      ],
+      "description": "On-Off"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000EquipmentTypeFloating"
+      ],
+      "description": "Floating"
+    }
+  ]
+}

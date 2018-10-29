@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timeSyncChoiceEnumSet.schema.json",
+  "title": "timeSyncChoiceEnumSet",
+  "description": "Time Sync Choice",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tscNoTimeBcast"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "tscLocalTimeBcast"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        2,
+        "tscUtcTimeBcast"
+      ],
+      "description": "UTC"
+    },
+    {
+      "enum": [
+        3,
+        "tscAutoTimeBcast"
+      ],
+      "description": "Automatic"
+    }
+  ]
+}

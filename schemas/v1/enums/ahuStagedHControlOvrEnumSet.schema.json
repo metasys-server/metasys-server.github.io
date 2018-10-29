@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuStagedHControlOvrEnumSet.schema.json",
+  "title": "ahuStagedHControlOvrEnumSet",
+  "description": "AHU Staged H Control OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ashcontrOvrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ashcontrOvrInstantShutdown"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        2,
+        "ashcontrOvrHControl"
+      ],
+      "description": "H Control"
+    },
+    {
+      "enum": [
+        3,
+        "ashcontrOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

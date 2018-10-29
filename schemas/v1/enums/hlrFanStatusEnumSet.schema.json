@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrFanStatusEnumSet.schema.json",
+  "title": "hlrFanStatusEnumSet",
+  "description": "HLR Fan Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrFanStatusOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "hlrFanStatusOffSmoke"
+      ],
+      "description": "Off-Smoke"
+    },
+    {
+      "enum": [
+        2,
+        "hlrFanStatusOffPurge"
+      ],
+      "description": "Off-Purge"
+    },
+    {
+      "enum": [
+        3,
+        "hlrFanStatusOffAirFlowProof"
+      ],
+      "description": "Off-Air Flow Proof"
+    },
+    {
+      "enum": [
+        4,
+        "hlrFanStatusOffLowSupplyVoltage"
+      ],
+      "description": "Off-Low Supply Voltage"
+    },
+    {
+      "enum": [
+        5,
+        "hlrFanStatusStartDelay"
+      ],
+      "description": "Start Delay"
+    },
+    {
+      "enum": [
+        6,
+        "hlrFanStatusStopDelay"
+      ],
+      "description": "Stop Delay"
+    },
+    {
+      "enum": [
+        7,
+        "hlrFanStatusRestartDelay"
+      ],
+      "description": "Restart Delay"
+    },
+    {
+      "enum": [
+        8,
+        "hlrFanStatusOn"
+      ],
+      "description": "On"
+    }
+  ]
+}

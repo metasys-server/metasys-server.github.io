@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ui3ConfigurationEnumSet.schema.json",
+  "title": "ui3ConfigurationEnumSet",
+  "description": "UI 3 Configuration",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "COC/NH"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "COC/NC"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "COS"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "SS"
+    }
+  ]
+}

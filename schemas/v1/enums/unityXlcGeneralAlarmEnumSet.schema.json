@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcGeneralAlarmEnumSet.schema.json",
+  "title": "unityXlcGeneralAlarmEnumSet",
+  "description": "Unity XLC General Alarm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "GEN"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "GEN1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "GEN2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "GEN3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, GEN"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, GEN1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorRdr2SOutputEnumSet.schema.json",
+  "title": "connectorRdr2SOutputEnumSet",
+  "description": "Connector RDR2S Output",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorRdr2SOutputOut11"
+      ],
+      "description": "OUT11"
+    },
+    {
+      "enum": [
+        1,
+        "connectorRdr2SOutputOut12"
+      ],
+      "description": "OUT12"
+    },
+    {
+      "enum": [
+        2,
+        "connectorRdr2SOutputOut13"
+      ],
+      "description": "OUT13"
+    },
+    {
+      "enum": [
+        3,
+        "connectorRdr2SOutputOut01"
+      ],
+      "description": "OUT01"
+    },
+    {
+      "enum": [
+        4,
+        "connectorRdr2SOutputNoNcTop"
+      ],
+      "description": "NO / NC (top)"
+    },
+    {
+      "enum": [
+        5,
+        "connectorRdr2SOutputOut21"
+      ],
+      "description": "OUT21"
+    },
+    {
+      "enum": [
+        6,
+        "connectorRdr2SOutputOut22"
+      ],
+      "description": "OUT22"
+    },
+    {
+      "enum": [
+        7,
+        "connectorRdr2SOutputOut23"
+      ],
+      "description": "OUT23"
+    },
+    {
+      "enum": [
+        8,
+        "connectorRdr2SOutputOut02"
+      ],
+      "description": "OUT02"
+    },
+    {
+      "enum": [
+        9,
+        "connectorRdr2SOutputNoNcBottom"
+      ],
+      "description": "NO / NC (bottom)"
+    }
+  ]
+}

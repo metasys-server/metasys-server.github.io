@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/adsConnectionTypeEnumSet.schema.json",
+  "title": "adsConnectionTypeEnumSet",
+  "description": "Ads Connection Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lanAdsConnection"
+      ],
+      "description": "LAN"
+    },
+    {
+      "enum": [
+        1,
+        "dialAdsConnection"
+      ],
+      "description": "Dial"
+    }
+  ]
+}

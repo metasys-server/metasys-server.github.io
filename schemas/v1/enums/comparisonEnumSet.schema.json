@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/comparisonEnumSet.schema.json",
+  "title": "comparisonEnumSet",
+  "description": "Comparison Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lessThan"
+      ],
+      "description": "<"
+    },
+    {
+      "enum": [
+        1,
+        "greaterThan"
+      ],
+      "description": ">"
+    },
+    {
+      "enum": [
+        2,
+        "lessAndEqual"
+      ],
+      "description": "<="
+    },
+    {
+      "enum": [
+        3,
+        "greaterAndEqual"
+      ],
+      "description": ">="
+    },
+    {
+      "enum": [
+        4,
+        "notEqual"
+      ],
+      "description": "<>"
+    },
+    {
+      "enum": [
+        5,
+        "equal"
+      ],
+      "description": "="
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/boxFlowTestStatusEnumSet.schema.json",
+  "title": "boxFlowTestStatusEnumSet",
+  "description": "Box Flow Test Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bftsNoTestData"
+      ],
+      "description": "No Test Data"
+    },
+    {
+      "enum": [
+        1,
+        "bftsTestInProgress"
+      ],
+      "description": "Test In Progress"
+    },
+    {
+      "enum": [
+        2,
+        "bftsTestCompleteNormal"
+      ],
+      "description": "Test Complete Normal"
+    },
+    {
+      "enum": [
+        3,
+        "bftsErrorsDuringTest"
+      ],
+      "description": "Errors during Test"
+    },
+    {
+      "enum": [
+        4,
+        "bftsTestCancelled"
+      ],
+      "description": "Test Cancelled"
+    }
+  ]
+}

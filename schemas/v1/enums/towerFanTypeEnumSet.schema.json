@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/towerFanTypeEnumSet.schema.json",
+  "title": "towerFanTypeEnumSet",
+  "description": "Tower Fan Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "twrFanTypeVfd"
+      ],
+      "description": "VFD"
+    },
+    {
+      "enum": [
+        1,
+        "twrFanTypeOneSpd"
+      ],
+      "description": "One Speed"
+    },
+    {
+      "enum": [
+        2,
+        "twrFanTypeTwoSpd"
+      ],
+      "description": "Two Speed"
+    },
+    {
+      "enum": [
+        3,
+        "twrFanTypeThreeSpd"
+      ],
+      "description": "Three Speed"
+    },
+    {
+      "enum": [
+        4,
+        "twrFanTypeVernier"
+      ],
+      "description": "Vernier"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/oemActiveModeEnumSet.schema.json",
+  "title": "oemActiveModeEnumSet",
+  "description": "OEM Active Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "oemActiveModeClg1"
+      ],
+      "description": "CLG1"
+    },
+    {
+      "enum": [
+        1,
+        "oemActiveModeClg2"
+      ],
+      "description": "CLG2"
+    },
+    {
+      "enum": [
+        2,
+        "oemActiveModeClg3"
+      ],
+      "description": "CLG3"
+    },
+    {
+      "enum": [
+        3,
+        "oemActiveModeHtg1"
+      ],
+      "description": "HTG1"
+    },
+    {
+      "enum": [
+        4,
+        "oemActiveModeHtg2"
+      ],
+      "description": "HTG2"
+    },
+    {
+      "enum": [
+        5,
+        "oemActiveModeHtg3"
+      ],
+      "description": "HTG3"
+    },
+    {
+      "enum": [
+        6,
+        "oemActiveModeReheat"
+      ],
+      "description": "Reheat"
+    },
+    {
+      "enum": [
+        7,
+        "oemActiveModeOff"
+      ],
+      "description": "OFF"
+    }
+  ]
+}

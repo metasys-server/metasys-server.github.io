@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/emmoCommandStatusEnumSet.schema.json",
+  "title": "emmoCommandStatusEnumSet",
+  "description": "EMMO Command Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "emmoStatusNone"
+      ],
+      "description": "No Load request received yet"
+    },
+    {
+      "enum": [
+        1,
+        "emmoStatusSuccessLoaded"
+      ],
+      "description": "(SUCCESS) Requested EM currently loaded"
+    },
+    {
+      "enum": [
+        2,
+        "emmoStatusSuccessLoading"
+      ],
+      "description": "(SUCCESS) Requested EM loading now"
+    },
+    {
+      "enum": [
+        3,
+        "emmoStatusSuccessAvailable"
+      ],
+      "description": "(SUCCESS) Requested EM available (send load command to switch)"
+    },
+    {
+      "enum": [
+        101,
+        "emmoStatusErrorNotAvailable"
+      ],
+      "description": "(ERROR) Requested EM not available"
+    },
+    {
+      "enum": [
+        102,
+        "emmoStatusErrorFailedLoading"
+      ],
+      "description": "(ERROR) Requested EM available but failed loading"
+    },
+    {
+      "enum": [
+        103,
+        "emmoStatusErrorBadParameters"
+      ],
+      "description": "(ERROR) Invalid command parameters"
+    },
+    {
+      "enum": [
+        104,
+        "emmoStatusErrorSystemNotOperational"
+      ],
+      "description": "(ERROR) System is not operational"
+    }
+  ]
+}

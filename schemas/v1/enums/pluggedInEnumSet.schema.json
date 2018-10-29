@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pluggedInEnumSet.schema.json",
+  "title": "pluggedInEnumSet",
+  "description": "Plugged In",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "piOther"
+      ],
+      "description": "Other"
+    },
+    {
+      "enum": [
+        1,
+        "piPrinter"
+      ],
+      "description": "Printer"
+    }
+  ]
+}

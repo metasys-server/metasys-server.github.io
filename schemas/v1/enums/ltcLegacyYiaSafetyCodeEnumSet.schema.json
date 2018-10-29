@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaSafetyCodeEnumSet.schema.json",
+  "title": "ltcLegacyYiaSafetyCodeEnumSet",
+  "description": "York LTC Legacy YIA Safety Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaSafetyCode0"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaSafetyCode1"
+      ],
+      "description": "CRYSTALLIZATION LOCKOUT - POWER FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYiaSafetyCode2"
+      ],
+      "description": "CRYSTALLIZATION LOCKOUT - PUMP OVERLOAD"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYiaSafetyCode3"
+      ],
+      "description": "CRYSTALLIZATION LOCKOUT - CHILLED WATER FLOW SWITCH"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYiaSafetyCode4"
+      ],
+      "description": "CRYSTALLIZATION LOCKOUT - COND WATER FLOW SWITCH"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYiaSafetyCode5"
+      ],
+      "description": "CRYSTALLIZATION LOCKOUT - LOW REFRIGERANT TEMP"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYiaSafetyCode6"
+      ],
+      "description": "CRYSTALLIZATION LOCKOUT - MOTOR COOLANT FLOAT SWITCH"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYiaSafetyCode7"
+      ],
+      "description": "POWER FAILURE (MANUAL RESTART MODE)"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYiaSafetyCode8"
+      ],
+      "description": "CHILLED WATER FLOAT SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYiaSafetyCode9"
+      ],
+      "description": "SOLUTION / ABSORBER PUMP OVERLOADS OPEN"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYiaSafetyCode10"
+      ],
+      "description": "REFRIGERANT PUMP OVERLOADS OPEN"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYiaSafetyCode11"
+      ],
+      "description": "GENERATOR PUMP OVERLOADS OPEN"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYiaSafetyCode12"
+      ],
+      "description": "SOLUTION / REFRIGERANT MOTOR COOLANT SWITCH OPEN"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYiaSafetyCode13"
+      ],
+      "description": "HIGH STEAM / HOT WATER HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYiaSafetyCode14"
+      ],
+      "description": "HIGH STEAM SUPPLY PRESSURE"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYiaSafetyCode15"
+      ],
+      "description": "HIGH GENERATOR SHELL PRESSURE"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYiaSafetyCode16"
+      ],
+      "description": "HIGH GENERATOR SHELL TEMPERATURE"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYiaSafetyCode17"
+      ],
+      "description": "LOW REFRIGERANT TEMPERATURE"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYiaSafetyCode18"
+      ],
+      "description": "AUXILIARY SAFETY SHUTDOWN"
+    }
+  ]
+}

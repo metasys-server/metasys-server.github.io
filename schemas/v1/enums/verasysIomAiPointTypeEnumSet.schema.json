@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/verasysIomAiPointTypeEnumSet.schema.json",
+  "title": "verasysIomAiPointTypeEnumSet",
+  "description": "Verasys IOM AI Point Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "verasysIomUndefined"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "verasysIomTemp"
+      ],
+      "description": "Temperature"
+    },
+    {
+      "enum": [
+        2,
+        "verasysIomHumidity"
+      ],
+      "description": "Humidity"
+    },
+    {
+      "enum": [
+        3,
+        "verasysIomCo2"
+      ],
+      "description": "CO2"
+    },
+    {
+      "enum": [
+        4,
+        "verasysIomLightSensor"
+      ],
+      "description": "Light Sensor"
+    },
+    {
+      "enum": [
+        5,
+        "verasysIomRefrigerant"
+      ],
+      "description": "Refrigerant"
+    },
+    {
+      "enum": [
+        6,
+        "verasysIomBuildPres1"
+      ],
+      "description": "Building Pressure 1"
+    },
+    {
+      "enum": [
+        7,
+        "verasysIomBuildPres2"
+      ],
+      "description": "Building Pressure 2"
+    },
+    {
+      "enum": [
+        8,
+        "verasysIomBuildPres3"
+      ],
+      "description": "Building Pressure 3"
+    }
+  ]
+}

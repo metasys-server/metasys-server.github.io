@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuTimeZoneEnumSet.schema.json",
+  "title": "seRtuTimeZoneEnumSet",
+  "description": "SE RTU Time Zone",
+  "oneOf": [
+    {
+      "enum": [
+        51,
+        "seRtuEasternTime"
+      ],
+      "description": "Eastern"
+    },
+    {
+      "enum": [
+        53,
+        "seRtuCentralTime"
+      ],
+      "description": "Central"
+    },
+    {
+      "enum": [
+        57,
+        "seRtuMountainTime"
+      ],
+      "description": "Mountain"
+    },
+    {
+      "enum": [
+        58,
+        "seRtuPacificTime"
+      ],
+      "description": "Pacific"
+    },
+    {
+      "enum": [
+        69,
+        "seRtuNewfoundlandTime"
+      ],
+      "description": "Newfoundland"
+    },
+    {
+      "enum": [
+        70,
+        "seRtuAtlanticTime"
+      ],
+      "description": "Atlantic"
+    },
+    {
+      "enum": [
+        71,
+        "seRtuAlaskaTime"
+      ],
+      "description": "Alaska"
+    },
+    {
+      "enum": [
+        72,
+        "seRtuHawaiiTime"
+      ],
+      "description": "Hawaii"
+    }
+  ]
+}

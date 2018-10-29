@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tsSupportedAttrsEnumSet.schema.json",
+  "title": "tsSupportedAttrsEnumSet",
+  "description": "Tailored Summary Supported Attrs",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fullList"
+      ],
+      "description": "(No Filter)"
+    },
+    {
+      "enum": [
+        1,
+        "commonAttrs"
+      ],
+      "description": "Common Attributes"
+    },
+    {
+      "enum": [
+        2,
+        "fieldPoints"
+      ],
+      "description": "Field Points (General)"
+    },
+    {
+      "enum": [
+        3,
+        "extensions"
+      ],
+      "description": "Alarms"
+    },
+    {
+      "enum": [
+        4,
+        "devices"
+      ],
+      "description": "Field Devices (General)"
+    },
+    {
+      "enum": [
+        5,
+        "userDefined"
+      ],
+      "description": "User Definable Attributes"
+    },
+    {
+      "enum": [
+        6,
+        "supervisoryDevices"
+      ],
+      "description": "Supervisory Devices"
+    },
+    {
+      "enum": [
+        7,
+        "bacnet"
+      ],
+      "description": "BACnet"
+    },
+    {
+      "enum": [
+        8,
+        "lonDevices"
+      ],
+      "description": "Field Devices (LON)"
+    },
+    {
+      "enum": [
+        9,
+        "lonPoints"
+      ],
+      "description": "Field Points (LON)"
+    },
+    {
+      "enum": [
+        10,
+        "energy"
+      ],
+      "description": "Averaging and Totalization"
+    },
+    {
+      "enum": [
+        11,
+        "mstpInt"
+      ],
+      "description": "Integrations (MSTP)"
+    },
+    {
+      "enum": [
+        12,
+        "n2Int"
+      ],
+      "description": "Integrations (N2)"
+    },
+    {
+      "enum": [
+        13,
+        "lonInt"
+      ],
+      "description": "Integrations (LON)"
+    },
+    {
+      "enum": [
+        14,
+        "trends"
+      ],
+      "description": "Trends"
+    },
+    {
+      "enum": [
+        15,
+        "mstpDevices"
+      ],
+      "description": "Field Devices (MSTP)"
+    },
+    {
+      "enum": [
+        16,
+        "n1Devices"
+      ],
+      "description": "Field Devices (N1)"
+    },
+    {
+      "enum": [
+        17,
+        "n2Devices"
+      ],
+      "description": "Field Devices (N2)"
+    },
+    {
+      "enum": [
+        18,
+        "bacnetAlarm"
+      ],
+      "description": "BACnet Alarm"
+    },
+    {
+      "enum": [
+        19,
+        "n2Points"
+      ],
+      "description": "Field Points (N1)"
+    },
+    {
+      "enum": [
+        20,
+        "spaces"
+      ],
+      "description": "Spaces"
+    },
+    {
+      "enum": [
+        21,
+        "equipment"
+      ],
+      "description": "Equipment"
+    }
+  ]
+}

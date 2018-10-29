@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/viewTypeEnumSet.schema.json",
+  "title": "viewTypeEnumSet",
+  "description": "View Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "focusViewType"
+      ],
+      "description": "Focus View"
+    },
+    {
+      "enum": [
+        1,
+        "configViewType"
+      ],
+      "description": "Configuration View"
+    },
+    {
+      "enum": [
+        2,
+        "commandViewType"
+      ],
+      "description": "Command View"
+    },
+    {
+      "enum": [
+        3,
+        "infoViewType"
+      ],
+      "description": "Information View"
+    },
+    {
+      "enum": [
+        4,
+        "extensionViewType"
+      ],
+      "description": "Extension View"
+    }
+  ]
+}

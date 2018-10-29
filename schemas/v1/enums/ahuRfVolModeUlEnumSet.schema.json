@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuRfVolModeUlEnumSet.schema.json",
+  "title": "ahuRfVolModeUlEnumSet",
+  "description": "AHU RF VOL Mode UL",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuRfvolModeUlOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuRfvolModeUlMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "ahuRfvolModeUlVolControl"
+      ],
+      "description": "VOL Control"
+    },
+    {
+      "enum": [
+        3,
+        "ahuRfvolModeUlZeroVolControl"
+      ],
+      "description": "Zero Vol Control"
+    },
+    {
+      "enum": [
+        4,
+        "ahuRfvolModeUlEmergencyVolControl"
+      ],
+      "description": "Emergency VOL Control"
+    },
+    {
+      "enum": [
+        5,
+        "ahuRfvolModeUlEmergencyOff"
+      ],
+      "description": "Emergency Off"
+    },
+    {
+      "enum": [
+        6,
+        "ahuRfvolModeUlFanTrack"
+      ],
+      "description": "Fan Track"
+    }
+  ]
+}

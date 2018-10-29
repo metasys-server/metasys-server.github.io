@@ -1,0 +1,575 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ygwhVShortNamesEnumSet.schema.json",
+  "title": "ygwhVShortNamesEnumSet",
+  "description": "YGWH-V Short Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "ygwhVShortNames1"
+      ],
+      "description": "START|STOP"
+    },
+    {
+      "enum": [
+        2,
+        "ygwhVShortNames2"
+      ],
+      "description": "RUN MODE"
+    },
+    {
+      "enum": [
+        3,
+        "ygwhVShortNames3"
+      ],
+      "description": "LEAVING CHILLED LIQUID SETPOINT AC"
+    },
+    {
+      "enum": [
+        4,
+        "ygwhVShortNames4"
+      ],
+      "description": "LEAVING CHILLED LIQUID SETPOINT ICS"
+    },
+    {
+      "enum": [
+        5,
+        "ygwhVShortNames5"
+      ],
+      "description": "LEAVING HEAT LIQUID SETPOINT HP"
+    },
+    {
+      "enum": [
+        6,
+        "ygwhVShortNames6"
+      ],
+      "description": "LEAVING HEAT LIQUID SETPOINT HTHP"
+    },
+    {
+      "enum": [
+        7,
+        "ygwhVShortNames7"
+      ],
+      "description": "OVER CURRENT PERCENT AC"
+    },
+    {
+      "enum": [
+        8,
+        "ygwhVShortNames8"
+      ],
+      "description": "OVER CURRENT PERCENT ICS"
+    },
+    {
+      "enum": [
+        9,
+        "ygwhVShortNames9"
+      ],
+      "description": "OVER CURRENT PERCENT HP"
+    },
+    {
+      "enum": [
+        10,
+        "ygwhVShortNames10"
+      ],
+      "description": "FAULT"
+    },
+    {
+      "enum": [
+        11,
+        "ygwhVShortNames11"
+      ],
+      "description": "TIME LIMITATION"
+    },
+    {
+      "enum": [
+        12,
+        "ygwhVShortNames12"
+      ],
+      "description": "PREHEAT"
+    },
+    {
+      "enum": [
+        13,
+        "ygwhVShortNames13"
+      ],
+      "description": "CONTROL MODE"
+    },
+    {
+      "enum": [
+        14,
+        "ygwhVShortNames14"
+      ],
+      "description": "SYS 1 DIGITAL OUTPUT"
+    },
+    {
+      "enum": [
+        15,
+        "ygwhVShortNames15"
+      ],
+      "description": "SYS 1 DIGITAL INPUT"
+    },
+    {
+      "enum": [
+        16,
+        "ygwhVShortNames16"
+      ],
+      "description": "LEAVING CONDENSER LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        17,
+        "ygwhVShortNames17"
+      ],
+      "description": "RETURN CONDENSER LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        18,
+        "ygwhVShortNames18"
+      ],
+      "description": "LEAVING CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        19,
+        "ygwhVShortNames19"
+      ],
+      "description": "RETURN CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        20,
+        "ygwhVShortNames20"
+      ],
+      "description": "SYS 1 DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        21,
+        "ygwhVShortNames21"
+      ],
+      "description": "SYS 1 EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        22,
+        "ygwhVShortNames22"
+      ],
+      "description": "SYS 1 CONDENSER PRESSURE"
+    },
+    {
+      "enum": [
+        23,
+        "ygwhVShortNames23"
+      ],
+      "description": "SYS 1 OIL PRESSURE"
+    },
+    {
+      "enum": [
+        24,
+        "ygwhVShortNames24"
+      ],
+      "description": "SYS 1 MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        25,
+        "ygwhVShortNames25"
+      ],
+      "description": "SYS 1 DIGITAL INPUT FAULT"
+    },
+    {
+      "enum": [
+        26,
+        "ygwhVShortNames26"
+      ],
+      "description": "SYS 1 ANALOG INPUT FAULT"
+    },
+    {
+      "enum": [
+        27,
+        "ygwhVShortNames27"
+      ],
+      "description": "SYS 1 FAULT"
+    },
+    {
+      "enum": [
+        28,
+        "ygwhVShortNames28"
+      ],
+      "description": "WATER PUMP WORK HOURS"
+    },
+    {
+      "enum": [
+        29,
+        "ygwhVShortNames29"
+      ],
+      "description": "SYS 1 COMPRESSOR WORK HOURS"
+    },
+    {
+      "enum": [
+        30,
+        "ygwhVShortNames30"
+      ],
+      "description": "SYS 1 PERCENT FLA"
+    },
+    {
+      "enum": [
+        31,
+        "ygwhVShortNames31"
+      ],
+      "description": "EVAPORATOR SATURATION TEMPERATURE"
+    },
+    {
+      "enum": [
+        32,
+        "ygwhVShortNames32"
+      ],
+      "description": "CONDENSER SATURATION TEMPERATURE"
+    },
+    {
+      "enum": [
+        33,
+        "ygwhVShortNames33"
+      ],
+      "description": "DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        34,
+        "ygwhVShortNames34"
+      ],
+      "description": "SYS 1 MOTOR TEMPERATURE A"
+    },
+    {
+      "enum": [
+        35,
+        "ygwhVShortNames35"
+      ],
+      "description": "SYS 1 MOTOR TEMPERATURE B"
+    },
+    {
+      "enum": [
+        36,
+        "ygwhVShortNames36"
+      ],
+      "description": "SYS 1 MOTOR TEMPERATURE C"
+    },
+    {
+      "enum": [
+        37,
+        "ygwhVShortNames37"
+      ],
+      "description": "LIQUID LEVEL"
+    },
+    {
+      "enum": [
+        38,
+        "ygwhVShortNames38"
+      ],
+      "description": "LEVEL CONTROL AO"
+    },
+    {
+      "enum": [
+        39,
+        "ygwhVShortNames39"
+      ],
+      "description": "LEVEL SETPOINT"
+    },
+    {
+      "enum": [
+        40,
+        "ygwhVShortNames40"
+      ],
+      "description": "LEVEL CONTROL PB"
+    },
+    {
+      "enum": [
+        41,
+        "ygwhVShortNames41"
+      ],
+      "description": "LEVEL CONTROL TN"
+    },
+    {
+      "enum": [
+        42,
+        "ygwhVShortNames42"
+      ],
+      "description": "LEVEL CONTROL PERIOD"
+    },
+    {
+      "enum": [
+        43,
+        "ygwhVShortNames43"
+      ],
+      "description": "SYS 1 VSD RUN STATUS"
+    },
+    {
+      "enum": [
+        44,
+        "ygwhVShortNames44"
+      ],
+      "description": "SYS 1 FREQUENCY COMMAND"
+    },
+    {
+      "enum": [
+        45,
+        "ygwhVShortNames45"
+      ],
+      "description": "SYS 1 VSD FREQUENCY RUNNING"
+    },
+    {
+      "enum": [
+        46,
+        "ygwhVShortNames46"
+      ],
+      "description": "SYS 1 VSD BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        47,
+        "ygwhVShortNames47"
+      ],
+      "description": "SYS 1 VSD OUTPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        48,
+        "ygwhVShortNames48"
+      ],
+      "description": "SYS 1 VSD OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        49,
+        "ygwhVShortNames49"
+      ],
+      "description": "SYS 1 VSD OUTPUT POWER"
+    },
+    {
+      "enum": [
+        50,
+        "ygwhVShortNames50"
+      ],
+      "description": "SYS 1 VSD HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        51,
+        "ygwhVShortNames51"
+      ],
+      "description": "SYS 1 VSD FAULT CODE"
+    },
+    {
+      "enum": [
+        52,
+        "ygwhVShortNames52"
+      ],
+      "description": "SYS 1 FAIL RATE"
+    },
+    {
+      "enum": [
+        53,
+        "ygwhVShortNames53"
+      ],
+      "description": "VSD COMMAND PERIOD"
+    },
+    {
+      "enum": [
+        54,
+        "ygwhVShortNames54"
+      ],
+      "description": "VSD PB"
+    },
+    {
+      "enum": [
+        55,
+        "ygwhVShortNames55"
+      ],
+      "description": "VSD TN"
+    },
+    {
+      "enum": [
+        56,
+        "ygwhVShortNames56"
+      ],
+      "description": "SYS 2 DIGITAL OUTPUT"
+    },
+    {
+      "enum": [
+        57,
+        "ygwhVShortNames57"
+      ],
+      "description": "SYS 2 DIGITAL INPUT"
+    },
+    {
+      "enum": [
+        58,
+        "ygwhVShortNames58"
+      ],
+      "description": "SYS 2 DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        59,
+        "ygwhVShortNames59"
+      ],
+      "description": "SYS 2 EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        60,
+        "ygwhVShortNames60"
+      ],
+      "description": "SYS 2 CONDENSER PRESSURE"
+    },
+    {
+      "enum": [
+        61,
+        "ygwhVShortNames61"
+      ],
+      "description": "SYS 2 OIL PRESSURE"
+    },
+    {
+      "enum": [
+        62,
+        "ygwhVShortNames62"
+      ],
+      "description": "SYS 2 MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        63,
+        "ygwhVShortNames63"
+      ],
+      "description": "SYS 2 DIGITAL INPUT FAULT"
+    },
+    {
+      "enum": [
+        64,
+        "ygwhVShortNames64"
+      ],
+      "description": "SYS 2 ANALOG INPUT FAULT"
+    },
+    {
+      "enum": [
+        65,
+        "ygwhVShortNames65"
+      ],
+      "description": "SYS 2 FAULT"
+    },
+    {
+      "enum": [
+        66,
+        "ygwhVShortNames66"
+      ],
+      "description": "SYS 2 COMPRESSOR WORK HOURS"
+    },
+    {
+      "enum": [
+        67,
+        "ygwhVShortNames67"
+      ],
+      "description": "SYS 2 PERCENT FLA"
+    },
+    {
+      "enum": [
+        68,
+        "ygwhVShortNames68"
+      ],
+      "description": "SYS 2 DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        69,
+        "ygwhVShortNames69"
+      ],
+      "description": "SYS 2 MOTOR TEMPERATURE A"
+    },
+    {
+      "enum": [
+        70,
+        "ygwhVShortNames70"
+      ],
+      "description": "SYS 2 MOTOR TEMPERATURE B"
+    },
+    {
+      "enum": [
+        71,
+        "ygwhVShortNames71"
+      ],
+      "description": "SYS 2 MOTOR TEMPERATURE C"
+    },
+    {
+      "enum": [
+        72,
+        "ygwhVShortNames72"
+      ],
+      "description": "SYS 2 VSD RUN STATUS"
+    },
+    {
+      "enum": [
+        73,
+        "ygwhVShortNames73"
+      ],
+      "description": "SYS 2 VSD FREQUENCY COMMAND"
+    },
+    {
+      "enum": [
+        74,
+        "ygwhVShortNames74"
+      ],
+      "description": "SYS 2 VSD FREQUENCY RUNNING"
+    },
+    {
+      "enum": [
+        75,
+        "ygwhVShortNames75"
+      ],
+      "description": "SYS 2 VSD BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        76,
+        "ygwhVShortNames76"
+      ],
+      "description": "SYS 2 VSD OUTPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        77,
+        "ygwhVShortNames77"
+      ],
+      "description": "SYS 2 VSD OUTPUT CURRENT"
+    },
+    {
+      "enum": [
+        78,
+        "ygwhVShortNames78"
+      ],
+      "description": "SYS 2 VSD OUTPUT POWER"
+    },
+    {
+      "enum": [
+        79,
+        "ygwhVShortNames79"
+      ],
+      "description": "SYS 2 VSD HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        80,
+        "ygwhVShortNames80"
+      ],
+      "description": "SYS 2 VSD FAULT CODE"
+    },
+    {
+      "enum": [
+        81,
+        "ygwhVShortNames81"
+      ],
+      "description": "SYS 2 FAIL RATE"
+    }
+  ]
+}

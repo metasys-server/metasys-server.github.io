@@ -1,0 +1,435 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cecHmiMmsMessageIdsEnumSet.schema.json",
+  "title": "cecHmiMmsMessageIdsEnumSet",
+  "description": "CEC HMI MMS Message IDS",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "registerEventsRequest"
+      ],
+      "description": "Register Events Request"
+    },
+    {
+      "enum": [
+        1,
+        "purgeEventsRequest"
+      ],
+      "description": "Purge Events Request"
+    },
+    {
+      "enum": [
+        2,
+        "clearEventsRequest"
+      ],
+      "description": "Clear Events Request"
+    },
+    {
+      "enum": [
+        3,
+        "eventHistoryRequest"
+      ],
+      "description": "History Request"
+    },
+    {
+      "enum": [
+        4,
+        "eventMotorWaveformHistoryRequest"
+      ],
+      "description": "Motor Waveform History Request"
+    },
+    {
+      "enum": [
+        5,
+        "eventMotorHistoryRequest"
+      ],
+      "description": "Motor History Request"
+    },
+    {
+      "enum": [
+        6,
+        "deregisterEventsRequest"
+      ],
+      "description": "Deregister Events Request"
+    },
+    {
+      "enum": [
+        7,
+        "createEventsRequest"
+      ],
+      "description": "Create Events Request"
+    },
+    {
+      "enum": [
+        8,
+        "deleteEventsRequest"
+      ],
+      "description": "Delete Events Request"
+    },
+    {
+      "enum": [
+        9,
+        "updateEventsRequest"
+      ],
+      "description": "Update Events Request"
+    },
+    {
+      "enum": [
+        10,
+        "eventHistoryResponse"
+      ],
+      "description": "History Response"
+    },
+    {
+      "enum": [
+        11,
+        "eventMotorWaveformHistoryResponse"
+      ],
+      "description": "Motor Waveform History Response"
+    },
+    {
+      "enum": [
+        12,
+        "eventMotorHistoryResponse"
+      ],
+      "description": "Motor History Response"
+    },
+    {
+      "enum": [
+        13,
+        "registerTrendsRequest"
+      ],
+      "description": "Register Trends Request"
+    },
+    {
+      "enum": [
+        14,
+        "deregisterTrendsRequest"
+      ],
+      "description": "Deregister Trends Request"
+    },
+    {
+      "enum": [
+        15,
+        "trendSamplesResponse"
+      ],
+      "description": "Trend Samples Response"
+    },
+    {
+      "enum": [
+        16,
+        "errorResponse"
+      ],
+      "description": "Error Response"
+    },
+    {
+      "enum": [
+        17,
+        "servDiagClearMotorStats"
+      ],
+      "description": "Clear Motor Stats"
+    },
+    {
+      "enum": [
+        18,
+        "servDiagClearExpansionStats"
+      ],
+      "description": "Clear Expansion Stats"
+    },
+    {
+      "enum": [
+        19,
+        "servDiagClearBasStats"
+      ],
+      "description": "Clear BAS Stats"
+    },
+    {
+      "enum": [
+        20,
+        "servDiagWriteOutputDigital"
+      ],
+      "description": "Write Output Digital"
+    },
+    {
+      "enum": [
+        21,
+        "servDiagWriteOutputPercent"
+      ],
+      "description": "Write Output Percent"
+    },
+    {
+      "enum": [
+        22,
+        "servDiagWriteOutputVoltage"
+      ],
+      "description": "Write Output Voltage"
+    },
+    {
+      "enum": [
+        23,
+        "servDiagWriteOutputValue"
+      ],
+      "description": "Write Output Value"
+    },
+    {
+      "enum": [
+        24,
+        "servDiagStartExpCommTest"
+      ],
+      "description": "Start EXP Comm Test"
+    },
+    {
+      "enum": [
+        25,
+        "servDiagStartMotorCommTest"
+      ],
+      "description": "Start Motor Comm Test"
+    },
+    {
+      "enum": [
+        26,
+        "servDiagStartExpSpareCommTest"
+      ],
+      "description": "Start EXP Comm Test"
+    },
+    {
+      "enum": [
+        27,
+        "servDiagStopExpCommTest"
+      ],
+      "description": "Stop EXP Comm Test"
+    },
+    {
+      "enum": [
+        28,
+        "servDiagStopMotorCommTest"
+      ],
+      "description": "Stop Motor Comm Test"
+    },
+    {
+      "enum": [
+        29,
+        "servDiagStopExpSpareCommTest"
+      ],
+      "description": "Stop EXP Spare Comm Test"
+    },
+    {
+      "enum": [
+        30,
+        "servDiagStartCecUsbTest"
+      ],
+      "description": "Start CEC USB Test"
+    },
+    {
+      "enum": [
+        31,
+        "servDiagStopCecUsbTest"
+      ],
+      "description": "Stop CEC USB Test"
+    },
+    {
+      "enum": [
+        32,
+        "servDiagClearSpareExpansionStats"
+      ],
+      "description": "Clear Spare Expansion Stats"
+    },
+    {
+      "enum": [
+        33,
+        "securityRegisterRequest"
+      ],
+      "description": "Security Register Request"
+    },
+    {
+      "enum": [
+        34,
+        "securityDeregisterRequest"
+      ],
+      "description": "Security DeRegister Request"
+    },
+    {
+      "enum": [
+        35,
+        "securityLoginUserRequest"
+      ],
+      "description": "Security Login User Request"
+    },
+    {
+      "enum": [
+        36,
+        "securityLogoutUserRequest"
+      ],
+      "description": "Security Logout User Request"
+    },
+    {
+      "enum": [
+        37,
+        "securityGetUsersListRequest"
+      ],
+      "description": "Security Get Users List Request"
+    },
+    {
+      "enum": [
+        38,
+        "securityAddUsersRequest"
+      ],
+      "description": "Security Add Users Request"
+    },
+    {
+      "enum": [
+        39,
+        "securityModifyUsersRequest"
+      ],
+      "description": "Security Modify Users Request"
+    },
+    {
+      "enum": [
+        40,
+        "securityDeleteUsersRequest"
+      ],
+      "description": "Security Delete Users Request"
+    },
+    {
+      "enum": [
+        41,
+        "securityDisableFactoryUserRequest"
+      ],
+      "description": "Security Disable Factory User Request"
+    },
+    {
+      "enum": [
+        42,
+        "securityEnableFactoryUserRequest"
+      ],
+      "description": "Security Enable Factory User Request"
+    },
+    {
+      "enum": [
+        43,
+        "securityUsersListAsyncResponse"
+      ],
+      "description": "Security Users List Asycn Response"
+    },
+    {
+      "enum": [
+        44,
+        "registerSurgemapRequest"
+      ],
+      "description": "Register Surgemap Request"
+    },
+    {
+      "enum": [
+        45,
+        "deregisterSurgemapRequest"
+      ],
+      "description": "Deregister Surgemap Request"
+    },
+    {
+      "enum": [
+        46,
+        "manualSurgemapEntryRequest"
+      ],
+      "description": "Manual Surgemap Entry Request"
+    },
+    {
+      "enum": [
+        47,
+        "clearSurgemapEntryRequest"
+      ],
+      "description": "Clear Surgemap Entry Request"
+    },
+    {
+      "enum": [
+        48,
+        "clearallSurgemapRequest"
+      ],
+      "description": "Clear All Surgemap Request"
+    },
+    {
+      "enum": [
+        49,
+        "surgemapSingleAsyncResponse"
+      ],
+      "description": "Surgemap Single Async Response"
+    },
+    {
+      "enum": [
+        50,
+        "surgemapAllAsyncResponse"
+      ],
+      "description": "Surgemap All Async Response"
+    },
+    {
+      "enum": [
+        51,
+        "securityCurrentUserAsyncResponse"
+      ],
+      "description": "Security Current User Async Response"
+    },
+    {
+      "enum": [
+        52,
+        "securityAllUsersAsyncResponse"
+      ],
+      "description": "Security All Users Async Response"
+    },
+    {
+      "enum": [
+        53,
+        "securitySetDefaultUserPreferences"
+      ],
+      "description": "Security Set Default User Preferences"
+    },
+    {
+      "enum": [
+        54,
+        "registerAudit"
+      ],
+      "description": "Register For Audits"
+    },
+    {
+      "enum": [
+        55,
+        "deregisterAudit"
+      ],
+      "description": "De-Register For Audits"
+    },
+    {
+      "enum": [
+        56,
+        "createUserFileTransferAudit"
+      ],
+      "description": "Create User File Transfer Audit"
+    },
+    {
+      "enum": [
+        57,
+        "purgeAuditLog"
+      ],
+      "description": "Purge Audit Log"
+    },
+    {
+      "enum": [
+        58,
+        "auditAddAsync"
+      ],
+      "description": "Add Audit"
+    },
+    {
+      "enum": [
+        59,
+        "auditAllAsync"
+      ],
+      "description": "Add All Audits"
+    },
+    {
+      "enum": [
+        60,
+        "auditRemoveAsync"
+      ],
+      "description": "Remove Audit"
+    }
+  ]
+}

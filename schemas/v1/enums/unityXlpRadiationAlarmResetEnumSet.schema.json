@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlpRadiationAlarmResetEnumSet.schema.json",
+  "title": "unityXlpRadiationAlarmResetEnumSet",
+  "description": "Unity XLP Radiation Alarm Reset",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "RESET"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "RESET1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "RESET2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "RESET3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, RESET"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "FIXED, RESET1"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "FIXED, RESET2"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "FIXED, RESET3"
+    }
+  ]
+}

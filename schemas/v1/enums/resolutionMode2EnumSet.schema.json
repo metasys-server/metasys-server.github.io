@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/resolutionMode2EnumSet.schema.json",
+  "title": "resolutionMode2EnumSet",
+  "description": "Resolution Mode2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "res2Either"
+      ],
+      "description": "Either Can Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "res2NetworkPriority"
+      ],
+      "description": "Network Priority"
+    },
+    {
+      "enum": [
+        2,
+        "res2HardwarePriority"
+      ],
+      "description": "Hardware Priority"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uvDamperCtrlModeEnumSet.schema.json",
+  "title": "uvDamperCtrlModeEnumSet",
+  "description": "UV Damper Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dcmClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "dcmOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "dcmMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        3,
+        "dcmHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "dcmCtrlEcon"
+      ],
+      "description": "Control Econ"
+    },
+    {
+      "enum": [
+        5,
+        "dcmCtrlMin"
+      ],
+      "description": "Control Min"
+    },
+    {
+      "enum": [
+        6,
+        "dcmCtrlEconLmt"
+      ],
+      "description": "Control Econ Limit"
+    },
+    {
+      "enum": [
+        7,
+        "dcmCtrlMinLmt"
+      ],
+      "description": "Control Min Limit"
+    }
+  ]
+}

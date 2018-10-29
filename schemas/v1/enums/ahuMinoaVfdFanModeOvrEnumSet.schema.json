@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuMinoaVfdFanModeOvrEnumSet.schema.json",
+  "title": "ahuMinoaVfdFanModeOvrEnumSet",
+  "description": "AHU MinOA VFD Fan Mode OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuMinoaVfdFmOvrNoFlow"
+      ],
+      "description": "No Flow"
+    },
+    {
+      "enum": [
+        1,
+        "ahuMinoaVfdFmOvrMaxFlow"
+      ],
+      "description": "Max Flow"
+    },
+    {
+      "enum": [
+        2,
+        "ahuMinoaVfdFmOvrMinFlowControl"
+      ],
+      "description": "Min Flow Control"
+    },
+    {
+      "enum": [
+        3,
+        "ahuMinoaVfdFmOvrEmergencyFlow"
+      ],
+      "description": "Emergency Flow"
+    },
+    {
+      "enum": [
+        4,
+        "ahuMinoaVfdFmOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

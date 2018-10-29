@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lccsEquipmentTypeEnumSet.schema.json",
+  "title": "lccsEquipmentTypeEnumSet",
+  "description": "LCCS Equipment Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lccsEquipTypeUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "lccsEquipTypeRtu"
+      ],
+      "description": "RTU"
+    },
+    {
+      "enum": [
+        2,
+        "lccsEquipTypeSplit"
+      ],
+      "description": "Split"
+    },
+    {
+      "enum": [
+        3,
+        "lccsEquipTypeHeatpump"
+      ],
+      "description": "HeatPump"
+    }
+  ]
+}

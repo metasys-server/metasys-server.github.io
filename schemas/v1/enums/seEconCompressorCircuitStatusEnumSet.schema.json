@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconCompressorCircuitStatusEnumSet.schema.json",
+  "title": "seEconCompressorCircuitStatusEnumSet",
+  "description": "SE ECON Compressor Circuit Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconCompressorCircuitStatusOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seEconCompressorCircuitStatusOnMinimumOnTime"
+      ],
+      "description": "On-Minimum On Time"
+    },
+    {
+      "enum": [
+        2,
+        "seEconCompressorCircuitStatusOnNormalCommand"
+      ],
+      "description": "On-Normal Command"
+    },
+    {
+      "enum": [
+        3,
+        "seEconCompressorCircuitStatusOffCompressorIsDisabled"
+      ],
+      "description": "Off-Compressor is Disabled"
+    },
+    {
+      "enum": [
+        4,
+        "seEconCompressorCircuitStatusOffOatCutout"
+      ],
+      "description": "Off-OAT Cutout"
+    },
+    {
+      "enum": [
+        5,
+        "seEconCompressorCircuitStatusOffLowSupplyVoltage"
+      ],
+      "description": "Off-Low Supply Voltage"
+    },
+    {
+      "enum": [
+        6,
+        "seEconCompressorCircuitStatusOffAntiShortCycleDelay"
+      ],
+      "description": "Off-Anti Short Cycle Delay"
+    },
+    {
+      "enum": [
+        7,
+        "seEconCompressorCircuitStatusOffCompressorStageIsDisabled"
+      ],
+      "description": "Off-Compressor Stage is Disabled"
+    }
+  ]
+}

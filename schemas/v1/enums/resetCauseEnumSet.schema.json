@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/resetCauseEnumSet.schema.json",
+  "title": "resetCauseEnumSet",
+  "description": "Neuron Reset Cause",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "nrcCleared"
+      ],
+      "description": "Cleared"
+    },
+    {
+      "enum": [
+        1,
+        "nrcPowerup"
+      ],
+      "description": "Power-up"
+    },
+    {
+      "enum": [
+        2,
+        "nrcExternal"
+      ],
+      "description": "External"
+    },
+    {
+      "enum": [
+        3,
+        "nrcWatchdog"
+      ],
+      "description": "Watchdog"
+    },
+    {
+      "enum": [
+        4,
+        "nrcSoftware"
+      ],
+      "description": "Software"
+    }
+  ]
+}

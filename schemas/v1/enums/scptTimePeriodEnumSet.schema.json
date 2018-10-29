@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scptTimePeriodEnumSet.schema.json",
+  "title": "scptTimePeriodEnumSet",
+  "description": "SCPT Interval of a month",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "iomMinute"
+      ],
+      "description": "Interval in minutes"
+    },
+    {
+      "enum": [
+        1,
+        "iomHour"
+      ],
+      "description": "Interval in hours"
+    },
+    {
+      "enum": [
+        2,
+        "iomDay"
+      ],
+      "description": "Interval in days"
+    },
+    {
+      "enum": [
+        3,
+        "iomWeek"
+      ],
+      "description": "Interval in weeks"
+    },
+    {
+      "enum": [
+        4,
+        "iomMonth"
+      ],
+      "description": "Interval in months"
+    },
+    {
+      "enum": [
+        255,
+        "iomNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

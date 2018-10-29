@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/chillersRequiredEnumSet.schema.json",
+  "title": "chillersRequiredEnumSet",
+  "description": "CHILLERS REQUIRED",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "chillersRequired0"
+      ],
+      "description": "NO CHILLERS"
+    },
+    {
+      "enum": [
+        1,
+        "chillersRequired1"
+      ],
+      "description": "CHILLER 1"
+    },
+    {
+      "enum": [
+        2,
+        "chillersRequired2"
+      ],
+      "description": "CHILLER 2"
+    },
+    {
+      "enum": [
+        3,
+        "chillersRequired3"
+      ],
+      "description": "CHILLER 1 & 2"
+    },
+    {
+      "enum": [
+        4,
+        "chillersRequired4"
+      ],
+      "description": "CHILLER 3"
+    },
+    {
+      "enum": [
+        5,
+        "chillersRequired5"
+      ],
+      "description": "CHILLER 1 & 3"
+    },
+    {
+      "enum": [
+        6,
+        "chillersRequired6"
+      ],
+      "description": "CHILLER 2 & 3"
+    },
+    {
+      "enum": [
+        7,
+        "chillersRequired7"
+      ],
+      "description": "CHILLER 1 & 2 & 3"
+    },
+    {
+      "enum": [
+        8,
+        "chillersRequired8"
+      ],
+      "description": "CHILLER 4"
+    },
+    {
+      "enum": [
+        9,
+        "chillersRequired9"
+      ],
+      "description": "CHILLER 1 & 4"
+    },
+    {
+      "enum": [
+        10,
+        "chillersRequired10"
+      ],
+      "description": "CHILLER 2 & 4"
+    },
+    {
+      "enum": [
+        11,
+        "chillersRequired11"
+      ],
+      "description": "CHILLER 1 & 2 & 4"
+    },
+    {
+      "enum": [
+        12,
+        "chillersRequired12"
+      ],
+      "description": "CHILLER 3 & 4"
+    },
+    {
+      "enum": [
+        13,
+        "chillersRequired13"
+      ],
+      "description": "CHILLER 1 & 3 & 4"
+    },
+    {
+      "enum": [
+        14,
+        "chillersRequired14"
+      ],
+      "description": "CHILLER 2 & 3 & 4"
+    },
+    {
+      "enum": [
+        15,
+        "chillersRequired15"
+      ],
+      "description": "CHILLER 1 & 2 & 3 & 4"
+    }
+  ]
+}

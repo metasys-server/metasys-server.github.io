@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auditActionTypeEnumSet.schema.json",
+  "title": "auditActionTypeEnumSet",
+  "description": "Audit Action Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "writeAuditActionType"
+      ],
+      "description": "Write"
+    },
+    {
+      "enum": [
+        1,
+        "commandAuditActionType"
+      ],
+      "description": "Command"
+    },
+    {
+      "enum": [
+        2,
+        "createAuditActionType"
+      ],
+      "description": "Create"
+    },
+    {
+      "enum": [
+        3,
+        "deleteAuditActionType"
+      ],
+      "description": "Delete"
+    },
+    {
+      "enum": [
+        4,
+        "errorAuditActionType"
+      ],
+      "description": "Error"
+    },
+    {
+      "enum": [
+        5,
+        "subsystemAuditActionType"
+      ],
+      "description": "Subsystem"
+    }
+  ]
+}

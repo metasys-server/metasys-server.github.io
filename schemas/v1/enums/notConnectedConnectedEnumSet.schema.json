@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/notConnectedConnectedEnumSet.schema.json",
+  "title": "notConnectedConnectedEnumSet",
+  "description": "Not Connected/Connected",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "notConnectedConnectedNotConnected"
+      ],
+      "description": "Not Connected"
+    },
+    {
+      "enum": [
+        1,
+        "notConnectedConnectedConnected"
+      ],
+      "description": "Connected"
+    }
+  ]
+}

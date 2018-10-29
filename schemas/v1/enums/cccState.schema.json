@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cccState.schema.json",
+  "title": "cccState",
+  "description": "CCC state",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cccUndefined"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "cccDiagnostics"
+      ],
+      "description": "Diagnostics"
+    },
+    {
+      "enum": [
+        2,
+        "cccStopped"
+      ],
+      "description": "Stopped"
+    },
+    {
+      "enum": [
+        3,
+        "cccPrelube"
+      ],
+      "description": "Prelube"
+    },
+    {
+      "enum": [
+        4,
+        "cccRunning"
+      ],
+      "description": "Running"
+    },
+    {
+      "enum": [
+        5,
+        "cccSoftshutdown"
+      ],
+      "description": "Soft Shutdown"
+    },
+    {
+      "enum": [
+        6,
+        "cccCoastdown"
+      ],
+      "description": "Coastdown"
+    }
+  ]
+}

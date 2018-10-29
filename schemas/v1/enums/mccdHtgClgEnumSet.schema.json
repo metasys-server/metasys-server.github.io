@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdHtgClgEnumSet.schema.json",
+  "title": "mccdHtgClgEnumSet",
+  "description": "MCCD HTG CLG",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Opt"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Clg"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Htg"
+    }
+  ]
+}

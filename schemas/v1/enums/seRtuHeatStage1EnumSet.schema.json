@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuHeatStage1EnumSet.schema.json",
+  "title": "seRtuHeatStage1EnumSet",
+  "description": "SE RTU Heating Stage 1 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuHeatStage1OffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuHeatStage1OnMinRuntime"
+      ],
+      "description": "On-Minimum Runtime Timer"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuHeatStage1OnNormalCommand"
+      ],
+      "description": "On-Normal Command"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuHeatStage1OffHeatingDisabled"
+      ],
+      "description": "Off-Heating Is Disabled"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuHeatStage1OffGasValveLostProof"
+      ],
+      "description": "Off-Gas Valve Lost Proof"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuHeatStage1OffGasValveFalseProof"
+      ],
+      "description": "Off-Gas Valve False Proof"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuHeatStage1OffHeatLimitLockout"
+      ],
+      "description": "Off-Heating Limit Lockout"
+    },
+    {
+      "enum": [
+        7,
+        "seRtuHeatStage1OffAntiShortCylce"
+      ],
+      "description": "Off-Anti-Short Cycle Timer"
+    },
+    {
+      "enum": [
+        8,
+        "seRtuHeatStage1OffHeatStageDisabled"
+      ],
+      "description": "Off-Heating Stage Is Disabled"
+    }
+  ]
+}

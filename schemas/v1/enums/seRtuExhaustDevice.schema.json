@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuExhaustDevice.schema.json",
+  "title": "seRtuExhaustDevice",
+  "description": "SE RTU Exhaust Device",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuExhaustDeviceNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuExhaustDeviceBarometric"
+      ],
+      "description": "Barometric"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuExhaustDeviceModulatingDamper"
+      ],
+      "description": "Modulating Damper"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuExhaustDeviceVariableFrequencyFan"
+      ],
+      "description": "Variable Frequency Fan"
+    }
+  ]
+}

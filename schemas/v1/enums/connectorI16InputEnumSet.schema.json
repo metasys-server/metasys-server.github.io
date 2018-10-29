@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorI16InputEnumSet.schema.json",
+  "title": "connectorI16InputEnumSet",
+  "description": "Connector I16 Input",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorI16InputAl1"
+      ],
+      "description": "AL1"
+    },
+    {
+      "enum": [
+        1,
+        "connectorI16InputAl2"
+      ],
+      "description": "AL2"
+    },
+    {
+      "enum": [
+        2,
+        "connectorI16InputAl3"
+      ],
+      "description": "AL3"
+    },
+    {
+      "enum": [
+        3,
+        "connectorI16InputAl4"
+      ],
+      "description": "AL4"
+    },
+    {
+      "enum": [
+        4,
+        "connectorI16InputAl5"
+      ],
+      "description": "AL5"
+    },
+    {
+      "enum": [
+        5,
+        "connectorI16InputAl6"
+      ],
+      "description": "AL6"
+    },
+    {
+      "enum": [
+        6,
+        "connectorI16InputAl7"
+      ],
+      "description": "AL7"
+    },
+    {
+      "enum": [
+        7,
+        "connectorI16InputAl8"
+      ],
+      "description": "AL8"
+    },
+    {
+      "enum": [
+        8,
+        "connectorI16InputAl9"
+      ],
+      "description": "AL9"
+    },
+    {
+      "enum": [
+        9,
+        "connectorI16InputAl10"
+      ],
+      "description": "AL10"
+    },
+    {
+      "enum": [
+        10,
+        "connectorI16InputAl11"
+      ],
+      "description": "AL11"
+    },
+    {
+      "enum": [
+        11,
+        "connectorI16InputAl12"
+      ],
+      "description": "AL12"
+    },
+    {
+      "enum": [
+        12,
+        "connectorI16InputAl13"
+      ],
+      "description": "AL13"
+    },
+    {
+      "enum": [
+        13,
+        "connectorI16InputAl14"
+      ],
+      "description": "AL14"
+    },
+    {
+      "enum": [
+        14,
+        "connectorI16InputAl15"
+      ],
+      "description": "AL15"
+    },
+    {
+      "enum": [
+        15,
+        "connectorI16InputAl16"
+      ],
+      "description": "AL16"
+    }
+  ]
+}

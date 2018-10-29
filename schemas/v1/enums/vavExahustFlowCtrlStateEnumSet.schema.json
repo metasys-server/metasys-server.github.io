@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavExahustFlowCtrlStateEnumSet.schema.json",
+  "title": "vavExahustFlowCtrlStateEnumSet",
+  "description": "VAV Exhaust Flow Ctrl State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vefcsShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "vefcsClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        2,
+        "vefcsOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        3,
+        "vefcsHoldPosition"
+      ],
+      "description": "Hold Position"
+    },
+    {
+      "enum": [
+        4,
+        "vefcsControlFlowUnrel"
+      ],
+      "description": "Control Flow Unreliable"
+    },
+    {
+      "enum": [
+        5,
+        "vefcsControlFlowRel"
+      ],
+      "description": "Control Flow Reliable"
+    }
+  ]
+}

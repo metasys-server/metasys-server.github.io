@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecFanEnumSet.schema.json",
+  "title": "tecFanEnumSet",
+  "description": "TEC Fan",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "High"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/propertyIdEnumSet.schema.json",
+  "title": "propertyIdEnumSet",
+  "description": "Property ID",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "rangeCheckProperty"
+      ],
+      "description": "Range Check"
+    },
+    {
+      "enum": [
+        2,
+        "signupProperty"
+      ],
+      "description": "Signup"
+    },
+    {
+      "enum": [
+        3,
+        "pmiRefreshProperty"
+      ],
+      "description": "PMI Refresh"
+    },
+    {
+      "enum": [
+        4,
+        "assocToRelabilityProperty"
+      ],
+      "description": "Assoc To Reliability"
+    },
+    {
+      "enum": [
+        5,
+        "databaseProperty"
+      ],
+      "description": "Database"
+    },
+    {
+      "enum": [
+        6,
+        "indentifierProperty"
+      ],
+      "description": "Identifier"
+    },
+    {
+      "enum": [
+        7,
+        "attributeNumberProperty"
+      ],
+      "description": "Attribute Number"
+    },
+    {
+      "enum": [
+        8,
+        "dataTypeProperty"
+      ],
+      "description": "Data Type"
+    },
+    {
+      "enum": [
+        9,
+        "initialValueProperty"
+      ],
+      "description": "Initial Value"
+    },
+    {
+      "enum": [
+        10,
+        "keyAttributeProperty"
+      ],
+      "description": "Key Attribute"
+    },
+    {
+      "enum": [
+        11,
+        "inputProperty"
+      ],
+      "description": "Input"
+    },
+    {
+      "enum": [
+        12,
+        "writeableProperty"
+      ],
+      "description": "Writeable"
+    },
+    {
+      "enum": [
+        13,
+        "priorityOnWriteProperty"
+      ],
+      "description": "Priority On Write"
+    },
+    {
+      "enum": [
+        14,
+        "triggerOnWriteProperty"
+      ],
+      "description": "Trigger On Write"
+    },
+    {
+      "enum": [
+        15,
+        "defaultAttrbuteProperty"
+      ],
+      "description": "Default Attribute"
+    },
+    {
+      "enum": [
+        16,
+        "internalProperty"
+      ],
+      "description": "Internal"
+    },
+    {
+      "enum": [
+        17,
+        "valueNotRequiredProperty"
+      ],
+      "description": "Value Not Required"
+    },
+    {
+      "enum": [
+        18,
+        "configurableProperty"
+      ],
+      "description": "Configurable"
+    },
+    {
+      "enum": [
+        19,
+        "archiveProperty"
+      ],
+      "description": "Archive"
+    },
+    {
+      "enum": [
+        20,
+        "minValueProperty"
+      ],
+      "description": "Min Value"
+    },
+    {
+      "enum": [
+        21,
+        "maxValueProperty"
+      ],
+      "description": "Max Value"
+    },
+    {
+      "enum": [
+        22,
+        "covSensitivityProperty"
+      ],
+      "description": "COV Sensitivity"
+    },
+    {
+      "enum": [
+        23,
+        "unitsProperty"
+      ],
+      "description": "Units"
+    },
+    {
+      "enum": [
+        24,
+        "displayPrecisionProperty"
+      ],
+      "description": "Display Precision"
+    },
+    {
+      "enum": [
+        25,
+        "maximumLengthProperty"
+      ],
+      "description": "Maximum Length"
+    },
+    {
+      "enum": [
+        26,
+        "enumerationSizeProperty"
+      ],
+      "description": "Enumeration Size"
+    },
+    {
+      "enum": [
+        27,
+        "enumerationSetProperty"
+      ],
+      "description": "Enumeration Set"
+    },
+    {
+      "enum": [
+        28,
+        "elementDataTypeProperty"
+      ],
+      "description": "Element Data Type"
+    },
+    {
+      "enum": [
+        29,
+        "numberOfElementsProperty"
+      ],
+      "description": "Number Of Elements"
+    },
+    {
+      "enum": [
+        30,
+        "elementsDataTypesProperty"
+      ],
+      "description": "Element Data Types"
+    },
+    {
+      "enum": [
+        31,
+        "elementIdsProperty"
+      ],
+      "description": "Element Ids"
+    },
+    {
+      "enum": [
+        32,
+        "totalBitsProperty"
+      ],
+      "description": "Total Bits"
+    },
+    {
+      "enum": [
+        33,
+        "totalBytesProperty"
+      ],
+      "description": "Total Bytes"
+    },
+    {
+      "enum": [
+        34,
+        "enumerationDictProperty"
+      ],
+      "description": "Enumeration Dict"
+    },
+    {
+      "enum": [
+        35,
+        "infoProperty"
+      ],
+      "description": "Info"
+    },
+    {
+      "enum": [
+        36,
+        "covRefNumProperty"
+      ],
+      "description": "COV Ref Num"
+    },
+    {
+      "enum": [
+        37,
+        "lowlimitAttrNumProperty"
+      ],
+      "description": "Low Limit Attr Num"
+    },
+    {
+      "enum": [
+        38,
+        "hilimitAttrProperty"
+      ],
+      "description": "Hi Limit Attr Num"
+    },
+    {
+      "enum": [
+        39,
+        "dictNumProperty"
+      ],
+      "description": "Dict Num"
+    },
+    {
+      "enum": [
+        40,
+        "totalElementsProperty"
+      ],
+      "description": "Total Elements"
+    },
+    {
+      "enum": [
+        41,
+        "categoryProperty"
+      ],
+      "description": "Category"
+    },
+    {
+      "enum": [
+        42,
+        "elementTypeProperty"
+      ],
+      "description": "Element Type"
+    },
+    {
+      "enum": [
+        43,
+        "elementOffsetProperty"
+      ],
+      "description": "Element Offset"
+    },
+    {
+      "enum": [
+        44,
+        "elementInfoProperty"
+      ],
+      "description": "Element Info"
+    },
+    {
+      "enum": [
+        45,
+        "elementSizeProperty"
+      ],
+      "description": "Element Size"
+    },
+    {
+      "enum": [
+        46,
+        "commandIdProperty"
+      ],
+      "description": "Command ID"
+    },
+    {
+      "enum": [
+        47,
+        "numberOfParmsProperty"
+      ],
+      "description": "Number Of Parms"
+    },
+    {
+      "enum": [
+        48,
+        "accessLelvelProperty"
+      ],
+      "description": "Access Level"
+    },
+    {
+      "enum": [
+        49,
+        "assocAttrProperty"
+      ],
+      "description": "Assoc Attr"
+    },
+    {
+      "enum": [
+        50,
+        "assocValProperty"
+      ],
+      "description": "Assoc Val"
+    },
+    {
+      "enum": [
+        51,
+        "assocAsNameProperty"
+      ],
+      "description": "Assoc As Name"
+    },
+    {
+      "enum": [
+        52,
+        "assocWritesProperty"
+      ],
+      "description": "Assoc Writes"
+    },
+    {
+      "enum": [
+        53,
+        "defaultCommandProperty"
+      ],
+      "description": "Default Command"
+    },
+    {
+      "enum": [
+        54,
+        "accepstCommandProperty"
+      ],
+      "description": "Accepts Priority"
+    },
+    {
+      "enum": [
+        55,
+        "parmIdProperty"
+      ],
+      "description": "Parm ID"
+    },
+    {
+      "enum": [
+        56,
+        "defaultTypeProperty"
+      ],
+      "description": "Default Type"
+    },
+    {
+      "enum": [
+        57,
+        "defaultValueProperty"
+      ],
+      "description": "Default Value"
+    }
+  ]
+}

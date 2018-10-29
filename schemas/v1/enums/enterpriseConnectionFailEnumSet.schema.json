@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/enterpriseConnectionFailEnumSet.schema.json",
+  "title": "enterpriseConnectionFailEnumSet",
+  "description": "Enterprise Connection Fail",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "authFailedString"
+      ],
+      "description": "Authentication Failed"
+    },
+    {
+      "enum": [
+        1,
+        "connectionTimeout"
+      ],
+      "description": "Connection Timeout"
+    },
+    {
+      "enum": [
+        2,
+        "proxyFailed"
+      ],
+      "description": "Proxy Failed"
+    }
+  ]
+}

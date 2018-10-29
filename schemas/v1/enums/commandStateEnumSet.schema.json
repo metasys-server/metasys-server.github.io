@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/commandStateEnumSet.schema.json",
+  "title": "commandStateEnumSet",
+  "description": "Command State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cseAll"
+      ],
+      "description": "All"
+    },
+    {
+      "enum": [
+        1,
+        "cseDownloading"
+      ],
+      "description": "Downloading"
+    },
+    {
+      "enum": [
+        2,
+        "cseUploading"
+      ],
+      "description": "Uploading"
+    },
+    {
+      "enum": [
+        3,
+        "cseSynchronizing"
+      ],
+      "description": "Synchronizing"
+    },
+    {
+      "enum": [
+        4,
+        "cseFindingConflicts"
+      ],
+      "description": "Finding Conflicts"
+    },
+    {
+      "enum": [
+        5,
+        "cseWaiting"
+      ],
+      "description": "Waiting"
+    },
+    {
+      "enum": [
+        6,
+        "cseDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        7,
+        "cseCompletedSuccessfully"
+      ],
+      "description": "Completed Successfully"
+    },
+    {
+      "enum": [
+        8,
+        "cseFailed"
+      ],
+      "description": "Failed"
+    },
+    {
+      "enum": [
+        9,
+        "cseAborted"
+      ],
+      "description": "Aborted"
+    },
+    {
+      "enum": [
+        10,
+        "cseNoDataAvailable"
+      ],
+      "description": "No Data Available"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtCalendarTypeEnumSet.schema.json",
+  "title": "snvtCalendarTypeEnumSet",
+  "description": "SNVT Calendar Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Gregorian"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Julian"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "MEU"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

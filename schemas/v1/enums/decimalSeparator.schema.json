@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/decimalSeparator.schema.json",
+  "title": "decimalSeparator",
+  "description": "Decimal Separator",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "decimalSeparatorPeriod"
+      ],
+      "description": "Period"
+    },
+    {
+      "enum": [
+        1,
+        "decimalSeparatorComma"
+      ],
+      "description": "Comma"
+    }
+  ]
+}

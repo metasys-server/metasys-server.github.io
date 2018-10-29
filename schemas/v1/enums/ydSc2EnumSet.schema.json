@@ -1,0 +1,890 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydSc2EnumSet.schema.json",
+  "title": "ydSc2EnumSet",
+  "description": "YD Safety Fault Code SC.2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ydSc20"
+      ],
+      "description": "NO SAFETY FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ydSc21"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "ydSc22"
+      ],
+      "description": "AUXILIARY SAFETY - CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        3,
+        "ydSc23"
+      ],
+      "description": "DISCHARGE #1 - HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        4,
+        "ydSc24"
+      ],
+      "description": "DISCHARGE #1 - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "ydSc25"
+      ],
+      "description": "DISCHARGE #1 - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        6,
+        "ydSc26"
+      ],
+      "description": "DISCHARGE #1 - VALVE NOT OPENED"
+    },
+    {
+      "enum": [
+        7,
+        "ydSc27"
+      ],
+      "description": "DISCHARGE #2 - HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "ydSc28"
+      ],
+      "description": "DISCHARGE #2 - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        9,
+        "ydSc29"
+      ],
+      "description": "DISCHARGE #2 - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "ydSc210"
+      ],
+      "description": "DISCHARGE #2 - VALVE NOT OPENED"
+    },
+    {
+      "enum": [
+        11,
+        "ydSc211"
+      ],
+      "description": "THRUST BEARING #1 - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        12,
+        "ydSc212"
+      ],
+      "description": "THRUST BEARING #1 - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        13,
+        "ydSc213"
+      ],
+      "description": "THRUST BEARING #1 - PROXIMITY PROBE UNCALIBRATED"
+    },
+    {
+      "enum": [
+        14,
+        "ydSc214"
+      ],
+      "description": "THRUST BEARING #1 - PROXIMITY PROBE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        15,
+        "ydSc215"
+      ],
+      "description": "THRUST BEARING #2 - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        16,
+        "ydSc216"
+      ],
+      "description": "THRUST BEARING #2 - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        17,
+        "ydSc217"
+      ],
+      "description": "THRUST BEARING #2 - PROXIMITY PROBE UNCALIBRATED"
+    },
+    {
+      "enum": [
+        18,
+        "ydSc218"
+      ],
+      "description": "THRUST BEARING #2 - PROXIMITY PROBE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        19,
+        "ydSc219"
+      ],
+      "description": "SURGE PROTECTION - EXCESS SURGE"
+    },
+    {
+      "enum": [
+        20,
+        "ydSc220"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        21,
+        "ydSc221"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        22,
+        "ydSc222"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    },
+    {
+      "enum": [
+        23,
+        "ydSc223"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        24,
+        "ydSc224"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        25,
+        "ydSc225"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        26,
+        "ydSc226"
+      ],
+      "description": "CONDENSER - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        27,
+        "ydSc227"
+      ],
+      "description": "OIL - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        28,
+        "ydSc228"
+      ],
+      "description": "OIL SUMP - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        29,
+        "ydSc229"
+      ],
+      "description": "OIL PUMP #1 - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        30,
+        "ydSc230"
+      ],
+      "description": "OIL PUMP #1 - HIGH DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        31,
+        "ydSc231"
+      ],
+      "description": "OIL PUMP #1 - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        32,
+        "ydSc232"
+      ],
+      "description": "OIL PUMP #1 - DIFFERENTIAL PRESSURE CALIBRATION"
+    },
+    {
+      "enum": [
+        33,
+        "ydSc233"
+      ],
+      "description": "OIL PUMP #1 - SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        34,
+        "ydSc234"
+      ],
+      "description": "OIL PUMP #2 - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        35,
+        "ydSc235"
+      ],
+      "description": "OIL PUMP #2 - HIGH DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        36,
+        "ydSc236"
+      ],
+      "description": "OIL PUMP #2 - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        37,
+        "ydSc237"
+      ],
+      "description": "OIL PUMP #2 - DIFFERENTIAL PRESSURE CALIBRATION"
+    },
+    {
+      "enum": [
+        38,
+        "ydSc238"
+      ],
+      "description": "OIL PUMP #2 - SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        39,
+        "ydSc239"
+      ],
+      "description": "MOTOR - LACK OF BEARING LUBRICATION"
+    },
+    {
+      "enum": [
+        40,
+        "ydSc240"
+      ],
+      "description": "POSSIBLE LEAK IN COMPRESSOR 1 DISCHARGE VALVE"
+    },
+    {
+      "enum": [
+        41,
+        "ydSc241"
+      ],
+      "description": "POSSIBLE LEAK IN COMPRESSOR 2 DISCHARGE VALVE"
+    },
+    {
+      "enum": [
+        42,
+        "ydSc242"
+      ],
+      "description": "VSD #1 - LOW FREQUENCY DETECTED"
+    },
+    {
+      "enum": [
+        43,
+        "ydSc243"
+      ],
+      "description": "VSD #2 - LOW FREQUENCY DETECTED"
+    },
+    {
+      "enum": [
+        44,
+        "ydSc244"
+      ],
+      "description": "VSD #1 - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        45,
+        "ydSc245"
+      ],
+      "description": "VSD #2 - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        46,
+        "ydSc246"
+      ],
+      "description": "VSD #1 - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        47,
+        "ydSc247"
+      ],
+      "description": "VSD #2 - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        48,
+        "ydSc248"
+      ],
+      "description": "MOTOR OR STARTER #1 - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        49,
+        "ydSc249"
+      ],
+      "description": "MOTOR OR STARTER #2 - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        50,
+        "ydSc250"
+      ],
+      "description": "VSD #1 - HIGH PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        51,
+        "ydSc251"
+      ],
+      "description": "VSD #2 - HIGH PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        52,
+        "ydSc252"
+      ],
+      "description": "VSD #1 - HIGH PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        53,
+        "ydSc253"
+      ],
+      "description": "VSD #2 - HIGH PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        54,
+        "ydSc254"
+      ],
+      "description": "VSD #1 - HIGH PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        55,
+        "ydSc255"
+      ],
+      "description": "VSD #2 - HIGH PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        56,
+        "ydSc256"
+      ],
+      "description": "VSD #1 - HIGH CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        57,
+        "ydSc257"
+      ],
+      "description": "VSD #2 - HIGH CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        58,
+        "ydSc258"
+      ],
+      "description": "VSD #1 - PRECHARGE LOCKOUT"
+    },
+    {
+      "enum": [
+        59,
+        "ydSc259"
+      ],
+      "description": "VSD #2 - PRECHARGE LOCKOUT"
+    },
+    {
+      "enum": [
+        60,
+        "ydSc260"
+      ],
+      "description": "VSD #1 - DRIVE BOOT FAILURE"
+    },
+    {
+      "enum": [
+        61,
+        "ydSc261"
+      ],
+      "description": "VSD #2 - DRIVE BOOT FAILURE"
+    },
+    {
+      "enum": [
+        62,
+        "ydSc262"
+      ],
+      "description": "VSD #1 - FEEDBACK SENSOR"
+    },
+    {
+      "enum": [
+        63,
+        "ydSc263"
+      ],
+      "description": "VSD #2 - FEEDBACK SENSOR"
+    },
+    {
+      "enum": [
+        64,
+        "ydSc264"
+      ],
+      "description": "VSD #1 - CONTROL FAULT"
+    },
+    {
+      "enum": [
+        65,
+        "ydSc265"
+      ],
+      "description": "VSD #2 - CONTROL FAULT"
+    },
+    {
+      "enum": [
+        66,
+        "ydSc266"
+      ],
+      "description": "VSD #1 - POWER TRANSFORMER HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        67,
+        "ydSc267"
+      ],
+      "description": "VSD #2 - POWER TRANSFORMER HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        68,
+        "ydSc268"
+      ],
+      "description": "VSD #1 - HIGH PHASE A INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        69,
+        "ydSc269"
+      ],
+      "description": "VSD #2 - HIGH PHASE A INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        70,
+        "ydSc270"
+      ],
+      "description": "VSD #1 - HIGH PHASE B INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        71,
+        "ydSc271"
+      ],
+      "description": "VSD #2 - HIGH PHASE B INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        72,
+        "ydSc272"
+      ],
+      "description": "VSD #1 - HIGH PHASE C INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        73,
+        "ydSc273"
+      ],
+      "description": "VSD #2 - HIGH PHASE C INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        74,
+        "ydSc274"
+      ],
+      "description": "VSD #1 - MAIN CONTROL BOARD FAULT"
+    },
+    {
+      "enum": [
+        75,
+        "ydSc275"
+      ],
+      "description": "VSD #2 - MAIN CONTROL BOARD FAULT"
+    },
+    {
+      "enum": [
+        76,
+        "ydSc276"
+      ],
+      "description": "VSD #1 - HIGH OUTPUT FREQUENCY"
+    },
+    {
+      "enum": [
+        77,
+        "ydSc277"
+      ],
+      "description": "VSD #2 - HIGH OUTPUT FREQUENCY"
+    },
+    {
+      "enum": [
+        78,
+        "ydSc278"
+      ],
+      "description": "MVVSD #1 - GROUND FAULT"
+    },
+    {
+      "enum": [
+        79,
+        "ydSc279"
+      ],
+      "description": "MVVSD #2 - GROUND FAULT"
+    },
+    {
+      "enum": [
+        80,
+        "ydSc280"
+      ],
+      "description": "MVVSD #1 - CONTACTOR FAULT"
+    },
+    {
+      "enum": [
+        81,
+        "ydSc281"
+      ],
+      "description": "MVVSD #2 - CONTACTOR FAULT"
+    },
+    {
+      "enum": [
+        82,
+        "ydSc282"
+      ],
+      "description": "MVVSD #1 - INTERLOCK FAULT"
+    },
+    {
+      "enum": [
+        83,
+        "ydSc283"
+      ],
+      "description": "MVVSD #2 - INTERLOCK FAULT"
+    },
+    {
+      "enum": [
+        84,
+        "ydSc284"
+      ],
+      "description": "VSD #1 - LOGIC BOARD PLUG"
+    },
+    {
+      "enum": [
+        85,
+        "ydSc285"
+      ],
+      "description": "VSD #2 - LOGIC BOARD PLUG"
+    },
+    {
+      "enum": [
+        86,
+        "ydSc286"
+      ],
+      "description": "VSD #1 - INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        87,
+        "ydSc287"
+      ],
+      "description": "VSD #2 - INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        88,
+        "ydSc288"
+      ],
+      "description": "VSD #1 - HIGH PHASE A INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        89,
+        "ydSc289"
+      ],
+      "description": "VSD #2 - HIGH PHASE A INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        90,
+        "ydSc290"
+      ],
+      "description": "VSD #1 - HIGH PHASE B INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        91,
+        "ydSc291"
+      ],
+      "description": "VSD #2 - HIGH PHASE B INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        92,
+        "ydSc292"
+      ],
+      "description": "VSD #1 - HIGH PHASE C INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        93,
+        "ydSc293"
+      ],
+      "description": "VSD #2 - HIGH PHASE C INPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        94,
+        "ydSc294"
+      ],
+      "description": "VSD #1 - HIGH PHASE A OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        95,
+        "ydSc295"
+      ],
+      "description": "VSD #2 - HIGH PHASE A OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        96,
+        "ydSc296"
+      ],
+      "description": "VSD #1 - HIGH PHASE B OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        97,
+        "ydSc297"
+      ],
+      "description": "VSD #2 - HIGH PHASE B OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        98,
+        "ydSc298"
+      ],
+      "description": "VSD #1 - HIGH PHASE C OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        99,
+        "ydSc299"
+      ],
+      "description": "VSD #2 - HIGH PHASE C OUTPUT BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        100,
+        "ydSc2100"
+      ],
+      "description": "VSD #1 - DC BUS PRE-REGULATION LOCKOUT"
+    },
+    {
+      "enum": [
+        101,
+        "ydSc2101"
+      ],
+      "description": "VSD #2 - DC BUS PRE-REGULATION LOCKOUT"
+    },
+    {
+      "enum": [
+        102,
+        "ydSc2102"
+      ],
+      "description": "VSD #1 - GROUND FAULT"
+    },
+    {
+      "enum": [
+        103,
+        "ydSc2103"
+      ],
+      "description": "VSD #2 - GROUND FAULT"
+    },
+    {
+      "enum": [
+        104,
+        "ydSc2104"
+      ],
+      "description": "VSD #1 - PHASE A INPUT DCCT"
+    },
+    {
+      "enum": [
+        105,
+        "ydSc2105"
+      ],
+      "description": "VSD #2 - PHASE A INPUT DCCT"
+    },
+    {
+      "enum": [
+        106,
+        "ydSc2106"
+      ],
+      "description": "VSD #1 - PHASE B INPUT DCCT"
+    },
+    {
+      "enum": [
+        107,
+        "ydSc2107"
+      ],
+      "description": "VSD #2 - PHASE B INPUT DCCT"
+    },
+    {
+      "enum": [
+        108,
+        "ydSc2108"
+      ],
+      "description": "VSD #1 - PHASE C INPUT DCCT"
+    },
+    {
+      "enum": [
+        109,
+        "ydSc2109"
+      ],
+      "description": "VSD #2 - PHASE C INPUT DCCT"
+    },
+    {
+      "enum": [
+        110,
+        "ydSc2110"
+      ],
+      "description": "VSD #1 - PHASE A OUTPUT DCCT"
+    },
+    {
+      "enum": [
+        111,
+        "ydSc2111"
+      ],
+      "description": "VSD #2 - PHASE A OUTPUT DCCT"
+    },
+    {
+      "enum": [
+        112,
+        "ydSc2112"
+      ],
+      "description": "VSD #1 - PHASE B OUTPUT DCCT"
+    },
+    {
+      "enum": [
+        113,
+        "ydSc2113"
+      ],
+      "description": "VSD #2 - PHASE B OUTPUT DCCT"
+    },
+    {
+      "enum": [
+        114,
+        "ydSc2114"
+      ],
+      "description": "VSD #1 - PHASE C OUTPUT DCCT"
+    },
+    {
+      "enum": [
+        115,
+        "ydSc2115"
+      ],
+      "description": "VSD #2 - PHASE C OUTPUT DCCT"
+    },
+    {
+      "enum": [
+        116,
+        "ydSc2116"
+      ],
+      "description": "VSD #1 - HIGH INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        117,
+        "ydSc2117"
+      ],
+      "description": "VSD #2 - HIGH INVERTER BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        118,
+        "ydSc2118"
+      ],
+      "description": "HARMONIC FILTER #1 - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        119,
+        "ydSc2119"
+      ],
+      "description": "HARMONIC FILTER #2 - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        120,
+        "ydSc2120"
+      ],
+      "description": "HARMONIC FILTER #1 - HIGH BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        121,
+        "ydSc2121"
+      ],
+      "description": "HARMONIC FILTER #2 - HIGH BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        122,
+        "ydSc2122"
+      ],
+      "description": "HARMONIC FILTER #1 - HIGH TOTAL DEMAND DISTORTION"
+    },
+    {
+      "enum": [
+        123,
+        "ydSc2123"
+      ],
+      "description": "HARMONIC FILTER #2 - HIGH TOTAL DEMAND DISTORTION"
+    },
+    {
+      "enum": [
+        124,
+        "ydSc2124"
+      ],
+      "description": "VSD #1 - HIGH TOTAL DEMAND DISTORTION"
+    },
+    {
+      "enum": [
+        125,
+        "ydSc2125"
+      ],
+      "description": "VSD #2 - HIGH TOTAL DEMAND DISTORTION"
+    }
+  ]
+}

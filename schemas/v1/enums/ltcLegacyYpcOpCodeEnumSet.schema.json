@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYpcOpCodeEnumSet.schema.json",
+  "title": "ltcLegacyYpcOpCodeEnumSet",
+  "description": "York LTC Legacy YPC Operational Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYpcOpCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYpcOpCode1"
+      ],
+      "description": "BAD BATTERY"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYpcOpCode2"
+      ],
+      "description": "REFRIGERANT TEMP < 40.0 F"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYpcOpCode3"
+      ],
+      "description": "GEN PRESS > 12.76 PSIA"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYpcOpCode4"
+      ],
+      "description": "GEN 1 PRESS > 12.76 PSIA"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYpcOpCode5"
+      ],
+      "description": "GEN 2 PRESS > 12.76 PSIA"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYpcOpCode6"
+      ],
+      "description": "GEN TEMP > 326.0 F"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYpcOpCode7"
+      ],
+      "description": "GEN 1 TEMP > 326.0 F"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYpcOpCode8"
+      ],
+      "description": "GEN 2 TEMP > 326.0 F"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYpcOpCode9"
+      ],
+      "description": "LOW COND WATER TEMP"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYpcOpCode10"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYpcOpCode11"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYpcOpCode12"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYpcOpCode13"
+      ],
+      "description": "PURGE PUMP OVERLOADS OPEN"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYpcOpCode14"
+      ],
+      "description": "PURGE TRANSDUCER FAULT"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYpcOpCode15"
+      ],
+      "description": "PURGE PUMP FAULT"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYpcOpCode16"
+      ],
+      "description": "SOLUTION SENSOR FAULT"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYpcOpCode17"
+      ],
+      "description": "HI COND WATER TEMP"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYpcOpCode18"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYpcOpCode19"
+      ],
+      "description": "EXCESS PURGE"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYpcOpCode20"
+      ],
+      "description": "HIGH CONCENTRATION WARNING"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYpcOpCode21"
+      ],
+      "description": "HIGH PURGE PRESSURE WARNING"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYpcOpCode22"
+      ],
+      "description": "AUTO PURGE FAULT"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYpcOpCode23"
+      ],
+      "description": "PURGE PUMP ERROR"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYpcOpCode24"
+      ],
+      "description": "SOLENOID 2 FAULT"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYpcOpCode25"
+      ],
+      "description": "SOLENOID 2 ABSORBER"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYpcOpCode26"
+      ],
+      "description": "PURGE PUMP ABSORBER"
+    }
+  ]
+}

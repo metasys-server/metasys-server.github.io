@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tempLoopEnumSet.schema.json",
+  "title": "tempLoopEnumSet",
+  "description": "Temp Loop",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Hold Outputs"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Full Heating"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Full Cooling"
+    }
+  ]
+}

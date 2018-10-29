@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavCascadedFlowCtrllrEnumSet.schema.json",
+  "title": "vavCascadedFlowCtrllrEnumSet",
+  "description": "VAV Cascaded Flow Controller",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vcfcntrlMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        1,
+        "vcfcntrlMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "vcfcntrlHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "vcfcntrlControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        4,
+        "vcfcntrlHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        5,
+        "vcfcntrlWarmup"
+      ],
+      "description": "Warmup"
+    },
+    {
+      "enum": [
+        6,
+        "vcfcntrlFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

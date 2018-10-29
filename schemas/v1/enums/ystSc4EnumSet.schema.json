@@ -1,0 +1,323 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ystSc4EnumSet.schema.json",
+  "title": "ystSc4EnumSet",
+  "description": "YST Warning Code SC.4",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ystSc40"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ystSc41"
+      ],
+      "description": "REAL-TIME CLOCK FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "ystSc42"
+      ],
+      "description": "SETPOINT OVERRIDE"
+    },
+    {
+      "enum": [
+        3,
+        "ystSc43"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "ystSc44"
+      ],
+      "description": "CONDENSER OR EVAPORATOR TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        5,
+        "ystSc45"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "ystSc46"
+      ],
+      "description": "CONSENSER - HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        7,
+        "ystSc47"
+      ],
+      "description": "CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        8,
+        "ystSc48"
+      ],
+      "description": "FREEZE THREAT FROM OPERATING CHILLER"
+    },
+    {
+      "enum": [
+        9,
+        "ystSc49"
+      ],
+      "description": "REFRIGERANT LEVEL OUT OF RANGE"
+    },
+    {
+      "enum": [
+        10,
+        "ystSc410"
+      ],
+      "description": "SEAL LUBRICATION IN PROCESS"
+    },
+    {
+      "enum": [
+        11,
+        "ystSc411"
+      ],
+      "description": "STANDBY LUBE - LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        12,
+        "ystSc412"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "ystSc413"
+      ],
+      "description": "TURBINE - HIGH CONDENSATE LEVEL"
+    },
+    {
+      "enum": [
+        14,
+        "ystSc414"
+      ],
+      "description": "TURBINE - OIL LOW PRESSURE"
+    },
+    {
+      "enum": [
+        15,
+        "ystSc415"
+      ],
+      "description": "TURBINE - AUXILIARY OIL LOW PRESSURE"
+    },
+    {
+      "enum": [
+        16,
+        "ystSc416"
+      ],
+      "description": "TURBINE - OIL HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        17,
+        "ystSc417"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ystSc418"
+      ],
+      "description": "TURBINE - AUXILIARY OIL PUMP OVERRUN"
+    },
+    {
+      "enum": [
+        19,
+        "ystSc419"
+      ],
+      "description": "TURBINE - SPEED SENSOR DIFFERENTIAL"
+    },
+    {
+      "enum": [
+        20,
+        "ystSc420"
+      ],
+      "description": "TURBINE - GOVERNOR END BEARING HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        21,
+        "ystSc421"
+      ],
+      "description": "TURBINE - SHAFT END BEARING HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        22,
+        "ystSc422"
+      ],
+      "description": "TURBINE - GOVERNOR END VIBRATION"
+    },
+    {
+      "enum": [
+        23,
+        "ystSc423"
+      ],
+      "description": "TURBINE - SHAFT END VIBRATION"
+    },
+    {
+      "enum": [
+        24,
+        "ystSc424"
+      ],
+      "description": "TURBINE - INLET STEAM HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        25,
+        "ystSc425"
+      ],
+      "description": "TURBINE - EXHAUST STEAM HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        26,
+        "ystSc426"
+      ],
+      "description": "TURBINE - HOTWELL LOW LEVEL"
+    },
+    {
+      "enum": [
+        27,
+        "ystSc427"
+      ],
+      "description": "TURBINE - HOTWELL HIGH LEVEL"
+    },
+    {
+      "enum": [
+        28,
+        "ystSc428"
+      ],
+      "description": "TURBINE - HOTWELL LEAD PUMP"
+    },
+    {
+      "enum": [
+        29,
+        "ystSc429"
+      ],
+      "description": "TURBINE - VACUUM LEAD SEAL"
+    },
+    {
+      "enum": [
+        30,
+        "ystSc430"
+      ],
+      "description": "TURBINE - VACUUM LEAD PUMP"
+    },
+    {
+      "enum": [
+        31,
+        "ystSc431"
+      ],
+      "description": "TURBINE - VACUUM HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        32,
+        "ystSc432"
+      ],
+      "description": "TURBINE - HIGH CONDENSATE DRAIN LEVEL"
+    },
+    {
+      "enum": [
+        33,
+        "ystSc433"
+      ],
+      "description": "MECHANICAL OVERSPEED TEST IN PROGRESS"
+    },
+    {
+      "enum": [
+        34,
+        "ystSc434"
+      ],
+      "description": "VACUUM PUMP OVERRRUN"
+    },
+    {
+      "enum": [
+        35,
+        "ystSc435"
+      ],
+      "description": "TURBINE - GOVERNOR END HORIZONTAL VIBRATION"
+    },
+    {
+      "enum": [
+        36,
+        "ystSc436"
+      ],
+      "description": "TURBINE - GOVERNOR END VERTICAL VIBRATION"
+    },
+    {
+      "enum": [
+        37,
+        "ystSc437"
+      ],
+      "description": "TURBINE - SHAFT END HORIZONTAL VIBRATION"
+    },
+    {
+      "enum": [
+        38,
+        "ystSc438"
+      ],
+      "description": "TURBINE - GOVERNOR END VERTICAL VIBRATION"
+    },
+    {
+      "enum": [
+        39,
+        "ystSc439"
+      ],
+      "description": "EVAPORATOR LOW PRESSURE OVERRIDE"
+    },
+    {
+      "enum": [
+        40,
+        "ystSc440"
+      ],
+      "description": "CONDENSER HIGH PRESSURE OVERRIDE"
+    },
+    {
+      "enum": [
+        41,
+        "ystSc441"
+      ],
+      "description": "TURBINE POWER LIMITER OVERRIDE"
+    },
+    {
+      "enum": [
+        42,
+        "ystSc442"
+      ],
+      "description": "AUTO CAPACITY CONTROL UNAVAILABLE"
+    },
+    {
+      "enum": [
+        43,
+        "ystSc443"
+      ],
+      "description": "CONDENSER OR VGD SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        44,
+        "ystSc444"
+      ],
+      "description": "CONDITIONS OVERRIDE VGD"
+    }
+  ]
+}

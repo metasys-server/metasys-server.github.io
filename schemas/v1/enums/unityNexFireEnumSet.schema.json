@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexFireEnumSet.schema.json",
+  "title": "unityNexFireEnumSet",
+  "description": "Unity NEX Fire",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Fire"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Clear"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Fire"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Clear"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Trouble"
+    }
+  ]
+}

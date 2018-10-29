@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sicsChangeoverEnumSet.schema.json",
+  "title": "sicsChangeoverEnumSet",
+  "description": "SICS Changeover",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "changeoverNotRequested"
+      ],
+      "description": "No Changeover Requested"
+    },
+    {
+      "enum": [
+        1,
+        "changeoverTiming"
+      ],
+      "description": "Timing"
+    },
+    {
+      "enum": [
+        2,
+        "changeoverHeatingTimerExpired"
+      ],
+      "description": "Heating Timer Expired"
+    },
+    {
+      "enum": [
+        3,
+        "changeoverCoolingTimerExpired"
+      ],
+      "description": "Cooling Timer Expired"
+    }
+  ]
+}

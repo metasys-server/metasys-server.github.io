@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vvtZoneModeEnumSet.schema.json",
+  "title": "vvtZoneModeEnumSet",
+  "description": "VVT Zone Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vvtZoneModeHeat"
+      ],
+      "description": "Heat Mode"
+    },
+    {
+      "enum": [
+        1,
+        "vvtZoneModeCool"
+      ],
+      "description": "Cool Mode"
+    }
+  ]
+}

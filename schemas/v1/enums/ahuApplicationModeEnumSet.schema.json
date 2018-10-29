@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuApplicationModeEnumSet.schema.json",
+  "title": "ahuApplicationModeEnumSet",
+  "description": "AHU Application Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "aamCoolOnly"
+      ],
+      "description": "Cool Only"
+    },
+    {
+      "enum": [
+        1,
+        "aamHeatOnly"
+      ],
+      "description": "Heat Only"
+    },
+    {
+      "enum": [
+        2,
+        "aamFanOnly"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        3,
+        "aamWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        4,
+        "aamPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        5,
+        "aamVent"
+      ],
+      "description": "Vent"
+    },
+    {
+      "enum": [
+        6,
+        "aamAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

@@ -1,0 +1,2290 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yorkStcLongStringsEnumSet.schema.json",
+  "title": "yorkStcLongStringsEnumSet",
+  "description": "York Small Tonnage Long Strings",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "yorkStcLongStrings1"
+      ],
+      "description": "Remote Setpoint"
+    },
+    {
+      "enum": [
+        2,
+        "yorkStcLongStrings2"
+      ],
+      "description": "Remote Current Limit Setpoint"
+    },
+    {
+      "enum": [
+        3,
+        "yorkStcLongStrings3"
+      ],
+      "description": "Remote Sound Limit"
+    },
+    {
+      "enum": [
+        4,
+        "yorkStcLongStrings4"
+      ],
+      "description": "Remote Start / Stop Command [0=Stop, 1=Run]"
+    },
+    {
+      "enum": [
+        5,
+        "yorkStcLongStrings5"
+      ],
+      "description": "History Buffer 1 Request [0=Live Data, 1=History 1 Data]"
+    },
+    {
+      "enum": [
+        6,
+        "yorkStcLongStrings6"
+      ],
+      "description": "Leaving Chilled Liquid Temp"
+    },
+    {
+      "enum": [
+        7,
+        "yorkStcLongStrings7"
+      ],
+      "description": "Entering Chilled Liquid Temp"
+    },
+    {
+      "enum": [
+        8,
+        "yorkStcLongStrings8"
+      ],
+      "description": "VSD Internal Ambient Temp"
+    },
+    {
+      "enum": [
+        9,
+        "yorkStcLongStrings9"
+      ],
+      "description": "Sys 1 Condenser Temperature"
+    },
+    {
+      "enum": [
+        10,
+        "yorkStcLongStrings10"
+      ],
+      "description": "Sys 1 Discharge Temperature"
+    },
+    {
+      "enum": [
+        11,
+        "yorkStcLongStrings11"
+      ],
+      "description": "Outside Ambient Air Temperature"
+    },
+    {
+      "enum": [
+        12,
+        "yorkStcLongStrings12"
+      ],
+      "description": "Sys 1 Eductor Temperature"
+    },
+    {
+      "enum": [
+        13,
+        "yorkStcLongStrings13"
+      ],
+      "description": "Sys 1 Oil Pressure"
+    },
+    {
+      "enum": [
+        14,
+        "yorkStcLongStrings14"
+      ],
+      "description": "Sys 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        15,
+        "yorkStcLongStrings15"
+      ],
+      "description": "Sys 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        16,
+        "yorkStcLongStrings16"
+      ],
+      "description": "Sys 1 Compressor % Full Load Amps"
+    },
+    {
+      "enum": [
+        17,
+        "yorkStcLongStrings17"
+      ],
+      "description": "Sys 1 Total Run Hours"
+    },
+    {
+      "enum": [
+        18,
+        "yorkStcLongStrings18"
+      ],
+      "description": "Sys 1 Total Number of Starts"
+    },
+    {
+      "enum": [
+        19,
+        "yorkStcLongStrings19"
+      ],
+      "description": "Sys 1 Highest Motor Temp"
+    },
+    {
+      "enum": [
+        20,
+        "yorkStcLongStrings20"
+      ],
+      "description": "Sys 2 Highest Motor Temp"
+    },
+    {
+      "enum": [
+        21,
+        "yorkStcLongStrings21"
+      ],
+      "description": "Sys 2 Eductor Temperature"
+    },
+    {
+      "enum": [
+        22,
+        "yorkStcLongStrings22"
+      ],
+      "description": "Sys 2 Oil Pressure"
+    },
+    {
+      "enum": [
+        23,
+        "yorkStcLongStrings23"
+      ],
+      "description": "Sys 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        24,
+        "yorkStcLongStrings24"
+      ],
+      "description": "Sys 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        25,
+        "yorkStcLongStrings25"
+      ],
+      "description": "Sys 2 Compressor % Full Load Amps"
+    },
+    {
+      "enum": [
+        26,
+        "yorkStcLongStrings26"
+      ],
+      "description": "Sys 2 Total Run Hours"
+    },
+    {
+      "enum": [
+        27,
+        "yorkStcLongStrings27"
+      ],
+      "description": "Sys 2 Total Number of Starts"
+    },
+    {
+      "enum": [
+        28,
+        "yorkStcLongStrings28"
+      ],
+      "description": "VSD Output Frequency"
+    },
+    {
+      "enum": [
+        29,
+        "yorkStcLongStrings29"
+      ],
+      "description": "Sys 1 Condenser Drain Valve % Open"
+    },
+    {
+      "enum": [
+        30,
+        "yorkStcLongStrings30"
+      ],
+      "description": "Sys 2 Condenser Drain Valve % Open"
+    },
+    {
+      "enum": [
+        31,
+        "yorkStcLongStrings31"
+      ],
+      "description": "Chiller Run"
+    },
+    {
+      "enum": [
+        32,
+        "yorkStcLongStrings32"
+      ],
+      "description": "Chiller Alarm [0=No Alarm,1 = Alarm]"
+    },
+    {
+      "enum": [
+        33,
+        "yorkStcLongStrings33"
+      ],
+      "description": "Evaporator Heater Status"
+    },
+    {
+      "enum": [
+        34,
+        "yorkStcLongStrings34"
+      ],
+      "description": "Evaporator Pump Status"
+    },
+    {
+      "enum": [
+        35,
+        "yorkStcLongStrings35"
+      ],
+      "description": "Sys 1 Compressor Run Status"
+    },
+    {
+      "enum": [
+        36,
+        "yorkStcLongStrings36"
+      ],
+      "description": "Sys 2 Compressor Run Status"
+    },
+    {
+      "enum": [
+        37,
+        "yorkStcLongStrings37"
+      ],
+      "description": "Sys 1 VI Step Solenoid Valve 1 Status"
+    },
+    {
+      "enum": [
+        38,
+        "yorkStcLongStrings38"
+      ],
+      "description": "Sys 2 VI Step Solenoid Valve 1 Status"
+    },
+    {
+      "enum": [
+        39,
+        "yorkStcLongStrings39"
+      ],
+      "description": "Sys 1 VI Step Solenoid Valve 2 Status"
+    },
+    {
+      "enum": [
+        40,
+        "yorkStcLongStrings40"
+      ],
+      "description": "Sys 2 VI Step Solenoid Valve 2 Status"
+    },
+    {
+      "enum": [
+        41,
+        "yorkStcLongStrings41"
+      ],
+      "description": "Cooling Type [0=Water, 1=Glycol]"
+    },
+    {
+      "enum": [
+        42,
+        "yorkStcLongStrings42"
+      ],
+      "description": "Local Remote Control Mode [0=Local,1=Remote]"
+    },
+    {
+      "enum": [
+        43,
+        "yorkStcLongStrings43"
+      ],
+      "description": "Display Units [0=Imperial,1=SI]"
+    },
+    {
+      "enum": [
+        44,
+        "yorkStcLongStrings44"
+      ],
+      "description": "Sys 1 Operational Code"
+    },
+    {
+      "enum": [
+        45,
+        "yorkStcLongStrings45"
+      ],
+      "description": "Sys 1 Fault Code"
+    },
+    {
+      "enum": [
+        46,
+        "yorkStcLongStrings46"
+      ],
+      "description": "Sys 2 Operational Code"
+    },
+    {
+      "enum": [
+        47,
+        "yorkStcLongStrings47"
+      ],
+      "description": "Sys 2 Fault Code"
+    },
+    {
+      "enum": [
+        48,
+        "yorkStcLongStrings48"
+      ],
+      "description": "Sys 1 Condenser Fan Stage [0-14]"
+    },
+    {
+      "enum": [
+        49,
+        "yorkStcLongStrings49"
+      ],
+      "description": "Sys 1 Condenser Fan Speed [VSD]"
+    },
+    {
+      "enum": [
+        50,
+        "yorkStcLongStrings50"
+      ],
+      "description": "Sys 2 Condenser Fan Stage [0-14]"
+    },
+    {
+      "enum": [
+        51,
+        "yorkStcLongStrings51"
+      ],
+      "description": "Sys 2 Condenser Fan Speed [VSD]"
+    },
+    {
+      "enum": [
+        52,
+        "yorkStcLongStrings52"
+      ],
+      "description": "Lead System Number"
+    },
+    {
+      "enum": [
+        53,
+        "yorkStcLongStrings53"
+      ],
+      "description": "Local Leaving Chilled Liquid Setpoint"
+    },
+    {
+      "enum": [
+        54,
+        "yorkStcLongStrings54"
+      ],
+      "description": "Low Leaving Chilled Liquid Temp Cutout"
+    },
+    {
+      "enum": [
+        55,
+        "yorkStcLongStrings55"
+      ],
+      "description": "Sys 1 Economizer Valve % Open"
+    },
+    {
+      "enum": [
+        56,
+        "yorkStcLongStrings56"
+      ],
+      "description": "Sys 2 Economizer Valve % Open"
+    },
+    {
+      "enum": [
+        57,
+        "yorkStcLongStrings57"
+      ],
+      "description": "Low Suction Pressure Cutout"
+    },
+    {
+      "enum": [
+        58,
+        "yorkStcLongStrings58"
+      ],
+      "description": "VSD DC Bus Voltage"
+    },
+    {
+      "enum": [
+        59,
+        "yorkStcLongStrings59"
+      ],
+      "description": "Remote Leaving Chilled Liquid Setpoint"
+    },
+    {
+      "enum": [
+        60,
+        "yorkStcLongStrings60"
+      ],
+      "description": "Sys 1 Subcooling"
+    },
+    {
+      "enum": [
+        61,
+        "yorkStcLongStrings61"
+      ],
+      "description": "Sys 1 Condenser Level"
+    },
+    {
+      "enum": [
+        62,
+        "yorkStcLongStrings62"
+      ],
+      "description": "Cooling Range"
+    },
+    {
+      "enum": [
+        63,
+        "yorkStcLongStrings63"
+      ],
+      "description": "Sys 1 Discharge Superheat"
+    },
+    {
+      "enum": [
+        64,
+        "yorkStcLongStrings64"
+      ],
+      "description": "Sys 2 Condenser Temperature"
+    },
+    {
+      "enum": [
+        65,
+        "yorkStcLongStrings65"
+      ],
+      "description": "Sys 2 Discharge Temperature"
+    },
+    {
+      "enum": [
+        66,
+        "yorkStcLongStrings66"
+      ],
+      "description": "Sys 2 Subcooling"
+    },
+    {
+      "enum": [
+        67,
+        "yorkStcLongStrings67"
+      ],
+      "description": "Sys 2 Condenser Level"
+    },
+    {
+      "enum": [
+        68,
+        "yorkStcLongStrings68"
+      ],
+      "description": "Sys 2 Discharge Superheat"
+    },
+    {
+      "enum": [
+        69,
+        "yorkStcLongStrings69"
+      ],
+      "description": "Sys 1 Lockout"
+    },
+    {
+      "enum": [
+        70,
+        "yorkStcLongStrings70"
+      ],
+      "description": "Sys 2 Lockout"
+    },
+    {
+      "enum": [
+        71,
+        "yorkStcLongStrings71"
+      ],
+      "description": "Evaporator Entering Liquid Temp"
+    },
+    {
+      "enum": [
+        72,
+        "yorkStcLongStrings72"
+      ],
+      "description": "VSD Command Frequency"
+    },
+    {
+      "enum": [
+        73,
+        "yorkStcLongStrings73"
+      ],
+      "description": "Free Cooling Valve [0=Off, 1=On]"
+    },
+    {
+      "enum": [
+        74,
+        "yorkStcLongStrings74"
+      ],
+      "description": "Soft Shutdown [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        75,
+        "yorkStcLongStrings75"
+      ],
+      "description": "Remote Evaporator [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        76,
+        "yorkStcLongStrings76"
+      ],
+      "description": "Quick Start [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        77,
+        "yorkStcLongStrings77"
+      ],
+      "description": "Free Cooling Mode [0=M,1=Fc,2=Hy]"
+    },
+    {
+      "enum": [
+        78,
+        "yorkStcLongStrings78"
+      ],
+      "description": "Option Indicator"
+    },
+    {
+      "enum": [
+        79,
+        "yorkStcLongStrings79"
+      ],
+      "description": "Frame E/F [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        80,
+        "yorkStcLongStrings80"
+      ],
+      "description": "Sound Limit Option [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        81,
+        "yorkStcLongStrings81"
+      ],
+      "description": "SCC Auto Detect Digit 1"
+    },
+    {
+      "enum": [
+        82,
+        "yorkStcLongStrings82"
+      ],
+      "description": "SCC Auto Detect Digit 2"
+    },
+    {
+      "enum": [
+        83,
+        "yorkStcLongStrings83"
+      ],
+      "description": "SCC Auto Detect Digit 3"
+    },
+    {
+      "enum": [
+        84,
+        "yorkStcLongStrings84"
+      ],
+      "description": "SCC Auto Detect Digit 4"
+    },
+    {
+      "enum": [
+        85,
+        "yorkStcLongStrings85"
+      ],
+      "description": "SCC Auto Detect Digit 5"
+    },
+    {
+      "enum": [
+        86,
+        "yorkStcLongStrings86"
+      ],
+      "description": "SCC Auto Detect Digit 6"
+    },
+    {
+      "enum": [
+        87,
+        "yorkStcLongStrings87"
+      ],
+      "description": "Condenser Fan Control Type [1-4]"
+    },
+    {
+      "enum": [
+        88,
+        "yorkStcLongStrings88"
+      ],
+      "description": "Units [0=Imperial, 1=Metric]"
+    },
+    {
+      "enum": [
+        89,
+        "yorkStcLongStrings89"
+      ],
+      "description": "Remote Setpoint [99=Auto]"
+    },
+    {
+      "enum": [
+        90,
+        "yorkStcLongStrings90"
+      ],
+      "description": "Sys 1 Remote Setpoint"
+    },
+    {
+      "enum": [
+        91,
+        "yorkStcLongStrings91"
+      ],
+      "description": "Remote Load Limit Stage [0, 1, 2]"
+    },
+    {
+      "enum": [
+        92,
+        "yorkStcLongStrings92"
+      ],
+      "description": "Remote Cooling Range"
+    },
+    {
+      "enum": [
+        93,
+        "yorkStcLongStrings93"
+      ],
+      "description": "Remote Heating Setpoint [999=Auto]"
+    },
+    {
+      "enum": [
+        94,
+        "yorkStcLongStrings94"
+      ],
+      "description": "Sys 2 Remote Setpoint"
+    },
+    {
+      "enum": [
+        95,
+        "yorkStcLongStrings95"
+      ],
+      "description": "Remote Heatpump Mode [0=Pnl, 1=Cool, 2=Heat]"
+    },
+    {
+      "enum": [
+        96,
+        "yorkStcLongStrings96"
+      ],
+      "description": "Sys 1 Remote Start / Stop Command [0=Stop, 1=Run]"
+    },
+    {
+      "enum": [
+        97,
+        "yorkStcLongStrings97"
+      ],
+      "description": "Sys 2 Remote Start / Stop Command [0=Stop, 1=Run]"
+    },
+    {
+      "enum": [
+        98,
+        "yorkStcLongStrings98"
+      ],
+      "description": "Leaving Liquid Temp Hot"
+    },
+    {
+      "enum": [
+        99,
+        "yorkStcLongStrings99"
+      ],
+      "description": "Discharge Air Temp"
+    },
+    {
+      "enum": [
+        100,
+        "yorkStcLongStrings100"
+      ],
+      "description": "Return Liquid Temp Hot"
+    },
+    {
+      "enum": [
+        101,
+        "yorkStcLongStrings101"
+      ],
+      "description": "Sys 1 Suction Superheat"
+    },
+    {
+      "enum": [
+        102,
+        "yorkStcLongStrings102"
+      ],
+      "description": "Sys 1 Run Time [Sec]"
+    },
+    {
+      "enum": [
+        103,
+        "yorkStcLongStrings103"
+      ],
+      "description": "Sys 1 Suction Temperature [Cond Unit]"
+    },
+    {
+      "enum": [
+        104,
+        "yorkStcLongStrings104"
+      ],
+      "description": "Sys 1 Cooler Inlet Refrigerant Temp"
+    },
+    {
+      "enum": [
+        105,
+        "yorkStcLongStrings105"
+      ],
+      "description": "Sys 1 Defrost Temperature"
+    },
+    {
+      "enum": [
+        106,
+        "yorkStcLongStrings106"
+      ],
+      "description": "Sys 1 EEV Output Percent"
+    },
+    {
+      "enum": [
+        107,
+        "yorkStcLongStrings107"
+      ],
+      "description": "Sys 1 Anti-Recycle Timer [Sec]"
+    },
+    {
+      "enum": [
+        108,
+        "yorkStcLongStrings108"
+      ],
+      "description": "Anti-Coincident Timer [Sec]"
+    },
+    {
+      "enum": [
+        109,
+        "yorkStcLongStrings109"
+      ],
+      "description": "Sys 2 Suction Temperature"
+    },
+    {
+      "enum": [
+        110,
+        "yorkStcLongStrings110"
+      ],
+      "description": "Sys 2 Run Time [Sec]"
+    },
+    {
+      "enum": [
+        111,
+        "yorkStcLongStrings111"
+      ],
+      "description": "Sys 2 Suction Temperature [Cond Unit]"
+    },
+    {
+      "enum": [
+        112,
+        "yorkStcLongStrings112"
+      ],
+      "description": "Sys 2 Cooler Inlet Refrigerant Temp"
+    },
+    {
+      "enum": [
+        113,
+        "yorkStcLongStrings113"
+      ],
+      "description": "Sys 2 Defrost Temperature"
+    },
+    {
+      "enum": [
+        114,
+        "yorkStcLongStrings114"
+      ],
+      "description": "Sys 2 Suction Superheat"
+    },
+    {
+      "enum": [
+        115,
+        "yorkStcLongStrings115"
+      ],
+      "description": "Sys 2 Anti-Recycle Timer [Sec]"
+    },
+    {
+      "enum": [
+        116,
+        "yorkStcLongStrings116"
+      ],
+      "description": "Sys 2 EEV Output Percent"
+    },
+    {
+      "enum": [
+        117,
+        "yorkStcLongStrings117"
+      ],
+      "description": "Number of Compressors"
+    },
+    {
+      "enum": [
+        118,
+        "yorkStcLongStrings118"
+      ],
+      "description": "Sys 1 Alarm [0=No Alarm, 1=Alarm]"
+    },
+    {
+      "enum": [
+        119,
+        "yorkStcLongStrings119"
+      ],
+      "description": "Sys 2 Alarm [0=No Alarm, 1=Alarm]"
+    },
+    {
+      "enum": [
+        120,
+        "yorkStcLongStrings120"
+      ],
+      "description": "Sys 1 Comp 1 Run"
+    },
+    {
+      "enum": [
+        121,
+        "yorkStcLongStrings121"
+      ],
+      "description": "Sys 2 Comp 1 Run"
+    },
+    {
+      "enum": [
+        122,
+        "yorkStcLongStrings122"
+      ],
+      "description": "Sys 1 Liquid Line Solenoid Valve"
+    },
+    {
+      "enum": [
+        123,
+        "yorkStcLongStrings123"
+      ],
+      "description": "Sys 1 Mode Solenoid Valve"
+    },
+    {
+      "enum": [
+        124,
+        "yorkStcLongStrings124"
+      ],
+      "description": "Sys 1 Hot Gas Bypass Valve"
+    },
+    {
+      "enum": [
+        125,
+        "yorkStcLongStrings125"
+      ],
+      "description": "Bivalent Heat Source/Tray Heater"
+    },
+    {
+      "enum": [
+        126,
+        "yorkStcLongStrings126"
+      ],
+      "description": "Sys 1 Comp 2 Run"
+    },
+    {
+      "enum": [
+        127,
+        "yorkStcLongStrings127"
+      ],
+      "description": "Sys 2 Comp 2 Run"
+    },
+    {
+      "enum": [
+        128,
+        "yorkStcLongStrings128"
+      ],
+      "description": "Sys 2 Liquid Line Solenoid Valve"
+    },
+    {
+      "enum": [
+        129,
+        "yorkStcLongStrings129"
+      ],
+      "description": "Sys 2 Mode Solenoid Valve"
+    },
+    {
+      "enum": [
+        130,
+        "yorkStcLongStrings130"
+      ],
+      "description": "Lead System Number [0=Sys1, 1=Sys2]"
+    },
+    {
+      "enum": [
+        131,
+        "yorkStcLongStrings131"
+      ],
+      "description": "Sys 1 Comp 3 Run"
+    },
+    {
+      "enum": [
+        132,
+        "yorkStcLongStrings132"
+      ],
+      "description": "Sys 2 Comp 3 Run"
+    },
+    {
+      "enum": [
+        133,
+        "yorkStcLongStrings133"
+      ],
+      "description": "Ambient Control Mode [0=StdAmb, 1=LowAmb]"
+    },
+    {
+      "enum": [
+        134,
+        "yorkStcLongStrings134"
+      ],
+      "description": "Lead Lag Control Mode [0=Manual, 1=Auto]"
+    },
+    {
+      "enum": [
+        135,
+        "yorkStcLongStrings135"
+      ],
+      "description": "Sys 2 Hot Gas Bypass Valve"
+    },
+    {
+      "enum": [
+        136,
+        "yorkStcLongStrings136"
+      ],
+      "description": "Sys 1 Condenser Fan Stage"
+    },
+    {
+      "enum": [
+        137,
+        "yorkStcLongStrings137"
+      ],
+      "description": "Sys 2 Condenser Fan Stage"
+    },
+    {
+      "enum": [
+        138,
+        "yorkStcLongStrings138"
+      ],
+      "description": "Unit Ctrl Mode [0=LW, 1=RW, 2=DA, 3=SP, 4=HC, 5=HP]"
+    },
+    {
+      "enum": [
+        139,
+        "yorkStcLongStrings139"
+      ],
+      "description": "Anti-Recycle Time Programmed"
+    },
+    {
+      "enum": [
+        140,
+        "yorkStcLongStrings140"
+      ],
+      "description": "Low Ambient Temp Cutout"
+    },
+    {
+      "enum": [
+        141,
+        "yorkStcLongStrings141"
+      ],
+      "description": "Low Suction Press Cutout Heating"
+    },
+    {
+      "enum": [
+        142,
+        "yorkStcLongStrings142"
+      ],
+      "description": "Low Suction Press Cutout Cooling"
+    },
+    {
+      "enum": [
+        143,
+        "yorkStcLongStrings143"
+      ],
+      "description": "High Discharge Press Cutout"
+    },
+    {
+      "enum": [
+        144,
+        "yorkStcLongStrings144"
+      ],
+      "description": "Cooling Setpoint"
+    },
+    {
+      "enum": [
+        145,
+        "yorkStcLongStrings145"
+      ],
+      "description": "Sys 1 Cooling Setpoint"
+    },
+    {
+      "enum": [
+        146,
+        "yorkStcLongStrings146"
+      ],
+      "description": "Sys 1 Cooling Range"
+    },
+    {
+      "enum": [
+        147,
+        "yorkStcLongStrings147"
+      ],
+      "description": "Sys 2 Cooling Setpoint"
+    },
+    {
+      "enum": [
+        148,
+        "yorkStcLongStrings148"
+      ],
+      "description": "Heating Setpoint"
+    },
+    {
+      "enum": [
+        149,
+        "yorkStcLongStrings149"
+      ],
+      "description": "Sys 2 Cooling Range"
+    },
+    {
+      "enum": [
+        150,
+        "yorkStcLongStrings150"
+      ],
+      "description": "Heating Range"
+    },
+    {
+      "enum": [
+        151,
+        "yorkStcLongStrings151"
+      ],
+      "description": "Expansion Valve Type [0=TXV, 1=EEV]"
+    },
+    {
+      "enum": [
+        152,
+        "yorkStcLongStrings152"
+      ],
+      "description": "YCWL Mode [0=Chiller, 1=Heatpump]"
+    },
+    {
+      "enum": [
+        153,
+        "yorkStcLongStrings153"
+      ],
+      "description": "Refrigerant [0=R-22, 1=R-407c, 2=R-410a]"
+    },
+    {
+      "enum": [
+        154,
+        "yorkStcLongStrings154"
+      ],
+      "description": "Remote Chilled Liquid Setpoint"
+    },
+    {
+      "enum": [
+        155,
+        "yorkStcLongStrings155"
+      ],
+      "description": "Remote Heating Setpoint"
+    },
+    {
+      "enum": [
+        156,
+        "yorkStcLongStrings156"
+      ],
+      "description": "Remote Operating Mode [0=Chiller, 1=Heatpump]"
+    },
+    {
+      "enum": [
+        157,
+        "yorkStcLongStrings157"
+      ],
+      "description": "Leaving Condenser Liquid Temp"
+    },
+    {
+      "enum": [
+        158,
+        "yorkStcLongStrings158"
+      ],
+      "description": "Entering Condenser Liquid Temp"
+    },
+    {
+      "enum": [
+        159,
+        "yorkStcLongStrings159"
+      ],
+      "description": "Sys 1 Evaporator Pressure"
+    },
+    {
+      "enum": [
+        160,
+        "yorkStcLongStrings160"
+      ],
+      "description": "Sys 1 Economizer Temperature"
+    },
+    {
+      "enum": [
+        161,
+        "yorkStcLongStrings161"
+      ],
+      "description": "Sys 2 Evaporator Pressure"
+    },
+    {
+      "enum": [
+        162,
+        "yorkStcLongStrings162"
+      ],
+      "description": "Sys 1 Condenser Level Control Valve % Open"
+    },
+    {
+      "enum": [
+        163,
+        "yorkStcLongStrings163"
+      ],
+      "description": "Sys 2 Condenser Level Control Valve % Open"
+    },
+    {
+      "enum": [
+        164,
+        "yorkStcLongStrings164"
+      ],
+      "description": "VSD Aux Coolant Pump"
+    },
+    {
+      "enum": [
+        165,
+        "yorkStcLongStrings165"
+      ],
+      "description": "Evaporator/Condenser Pump Status"
+    },
+    {
+      "enum": [
+        166,
+        "yorkStcLongStrings166"
+      ],
+      "description": "Sys 1 Oil Level Switch Status"
+    },
+    {
+      "enum": [
+        167,
+        "yorkStcLongStrings167"
+      ],
+      "description": "Sys 2 Oil Level Switch Status"
+    },
+    {
+      "enum": [
+        168,
+        "yorkStcLongStrings168"
+      ],
+      "description": "Sys 1 Liquid Refrigerant Injection Valve Status"
+    },
+    {
+      "enum": [
+        169,
+        "yorkStcLongStrings169"
+      ],
+      "description": "Sys 2 Liquid Refrigerant Injection Valve Status"
+    },
+    {
+      "enum": [
+        170,
+        "yorkStcLongStrings170"
+      ],
+      "description": "Sys 1 Hot Gas Bypass Valve Status"
+    },
+    {
+      "enum": [
+        171,
+        "yorkStcLongStrings171"
+      ],
+      "description": "Sys 2 Hot Gas Bypass Valve Status"
+    },
+    {
+      "enum": [
+        172,
+        "yorkStcLongStrings172"
+      ],
+      "description": "Heatpump [0=No, 1=Yes]"
+    },
+    {
+      "enum": [
+        173,
+        "yorkStcLongStrings173"
+      ],
+      "description": "Local Leaving Chilled/Condenser Liquid Setpoint"
+    },
+    {
+      "enum": [
+        174,
+        "yorkStcLongStrings174"
+      ],
+      "description": "Low Leaving Chilled/Condenser Liquid Temp Cutout"
+    },
+    {
+      "enum": [
+        175,
+        "yorkStcLongStrings175"
+      ],
+      "description": "Sys 2 Economizer Temperature"
+    },
+    {
+      "enum": [
+        176,
+        "yorkStcLongStrings176"
+      ],
+      "description": "Remote Leaving Chilled/Condenser Liquid Setpoint"
+    },
+    {
+      "enum": [
+        177,
+        "yorkStcLongStrings177"
+      ],
+      "description": "Sys 1 Subcooled Liquid Refrigerant Temperature"
+    },
+    {
+      "enum": [
+        178,
+        "yorkStcLongStrings178"
+      ],
+      "description": "Cooling/Heating Range"
+    },
+    {
+      "enum": [
+        179,
+        "yorkStcLongStrings179"
+      ],
+      "description": "Sys 1 Economizer Pressure"
+    },
+    {
+      "enum": [
+        180,
+        "yorkStcLongStrings180"
+      ],
+      "description": "Sys 2 Economizer Pressure"
+    },
+    {
+      "enum": [
+        181,
+        "yorkStcLongStrings181"
+      ],
+      "description": "Sys 2 Subcooled Liquid Refrigerant Temperature"
+    },
+    {
+      "enum": [
+        182,
+        "yorkStcLongStrings182"
+      ],
+      "description": "Sys 1 Economizer Drain Solenoid Valve"
+    },
+    {
+      "enum": [
+        183,
+        "yorkStcLongStrings183"
+      ],
+      "description": "Sys 2 Economizer Drain Solenoid Valve"
+    },
+    {
+      "enum": [
+        184,
+        "yorkStcLongStrings184"
+      ],
+      "description": "Aux Coolant Pump Option [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        185,
+        "yorkStcLongStrings185"
+      ],
+      "description": "Oil Level Option [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        186,
+        "yorkStcLongStrings186"
+      ],
+      "description": "Hot Gas Bypass Option [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        187,
+        "yorkStcLongStrings187"
+      ],
+      "description": "Compressor Type [0=WTS, 1=CTS]"
+    },
+    {
+      "enum": [
+        188,
+        "yorkStcLongStrings188"
+      ],
+      "description": "Fault Code"
+    },
+    {
+      "enum": [
+        189,
+        "yorkStcLongStrings189"
+      ],
+      "description": "Sys 1 Suction Temperature"
+    },
+    {
+      "enum": [
+        190,
+        "yorkStcLongStrings190"
+      ],
+      "description": "Sys 1 Oil Temperature"
+    },
+    {
+      "enum": [
+        191,
+        "yorkStcLongStrings191"
+      ],
+      "description": "Sys 2 Oil Temperature"
+    },
+    {
+      "enum": [
+        192,
+        "yorkStcLongStrings192"
+      ],
+      "description": "Sys 1 Flash Tank Feed Valve % Open"
+    },
+    {
+      "enum": [
+        193,
+        "yorkStcLongStrings193"
+      ],
+      "description": "Sys 2 Flash Tank Feed Valve % Open"
+    },
+    {
+      "enum": [
+        194,
+        "yorkStcLongStrings194"
+      ],
+      "description": "Sys 1 Economizer Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        195,
+        "yorkStcLongStrings195"
+      ],
+      "description": "Sys 2 Economizer Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        196,
+        "yorkStcLongStrings196"
+      ],
+      "description": "Sys 1 Flash Tank Level %"
+    },
+    {
+      "enum": [
+        197,
+        "yorkStcLongStrings197"
+      ],
+      "description": "Sys 1 Condenser Fan Stage [0-7]"
+    },
+    {
+      "enum": [
+        198,
+        "yorkStcLongStrings198"
+      ],
+      "description": "Sys 2 Flash Tank Level %"
+    },
+    {
+      "enum": [
+        199,
+        "yorkStcLongStrings199"
+      ],
+      "description": "Sys 2 Condenser Fan Stage [0-7]"
+    },
+    {
+      "enum": [
+        200,
+        "yorkStcLongStrings200"
+      ],
+      "description": "Sys 1 Flash Tank Drain Valve % Open"
+    },
+    {
+      "enum": [
+        201,
+        "yorkStcLongStrings201"
+      ],
+      "description": "Sys 2 Flash Tank Drain Valve % Open"
+    },
+    {
+      "enum": [
+        202,
+        "yorkStcLongStrings202"
+      ],
+      "description": "Sys 3 Suction Temperature"
+    },
+    {
+      "enum": [
+        203,
+        "yorkStcLongStrings203"
+      ],
+      "description": "Sys 3 Discharge Temperature"
+    },
+    {
+      "enum": [
+        204,
+        "yorkStcLongStrings204"
+      ],
+      "description": "Sys 3 Oil Temperature"
+    },
+    {
+      "enum": [
+        205,
+        "yorkStcLongStrings205"
+      ],
+      "description": "Sys 3 Oil Pressure"
+    },
+    {
+      "enum": [
+        206,
+        "yorkStcLongStrings206"
+      ],
+      "description": "Sys 3 Suction Pressure"
+    },
+    {
+      "enum": [
+        207,
+        "yorkStcLongStrings207"
+      ],
+      "description": "Sys 3 Discharge Pressure"
+    },
+    {
+      "enum": [
+        208,
+        "yorkStcLongStrings208"
+      ],
+      "description": "Sys 3 Compressor % Full Load Amps"
+    },
+    {
+      "enum": [
+        209,
+        "yorkStcLongStrings209"
+      ],
+      "description": "Sys 3 Total Run Hours"
+    },
+    {
+      "enum": [
+        210,
+        "yorkStcLongStrings210"
+      ],
+      "description": "Sys 3 Total Number of Starts"
+    },
+    {
+      "enum": [
+        211,
+        "yorkStcLongStrings211"
+      ],
+      "description": "Sys 3 Highest Motor Temp"
+    },
+    {
+      "enum": [
+        212,
+        "yorkStcLongStrings212"
+      ],
+      "description": "Sys 4 Highest Motor Temp"
+    },
+    {
+      "enum": [
+        213,
+        "yorkStcLongStrings213"
+      ],
+      "description": "Sys 4 Oil Temperature"
+    },
+    {
+      "enum": [
+        214,
+        "yorkStcLongStrings214"
+      ],
+      "description": "Sys 4 Oil Pressure"
+    },
+    {
+      "enum": [
+        215,
+        "yorkStcLongStrings215"
+      ],
+      "description": "Sys 4 Suction Pressure"
+    },
+    {
+      "enum": [
+        216,
+        "yorkStcLongStrings216"
+      ],
+      "description": "Sys 4 Discharge Pressure"
+    },
+    {
+      "enum": [
+        217,
+        "yorkStcLongStrings217"
+      ],
+      "description": "Sys 4 Compressor % Full Load Amps"
+    },
+    {
+      "enum": [
+        218,
+        "yorkStcLongStrings218"
+      ],
+      "description": "Sys 4 Total Run Hours"
+    },
+    {
+      "enum": [
+        219,
+        "yorkStcLongStrings219"
+      ],
+      "description": "Sys 4 Total Number of Starts"
+    },
+    {
+      "enum": [
+        220,
+        "yorkStcLongStrings220"
+      ],
+      "description": "VSD 2 Output Frequency"
+    },
+    {
+      "enum": [
+        221,
+        "yorkStcLongStrings221"
+      ],
+      "description": "Sys 3 Flash Tank Feed Valve % Open"
+    },
+    {
+      "enum": [
+        222,
+        "yorkStcLongStrings222"
+      ],
+      "description": "Sys 4 Flash Tank Feed Valve % Open"
+    },
+    {
+      "enum": [
+        223,
+        "yorkStcLongStrings223"
+      ],
+      "description": "Sys 3 Compressor Run Status"
+    },
+    {
+      "enum": [
+        224,
+        "yorkStcLongStrings224"
+      ],
+      "description": "Sys 4 Compressor Run Status"
+    },
+    {
+      "enum": [
+        225,
+        "yorkStcLongStrings225"
+      ],
+      "description": "Sys 3 Economizer Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        226,
+        "yorkStcLongStrings226"
+      ],
+      "description": "Sys 4 Economizer Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        227,
+        "yorkStcLongStrings227"
+      ],
+      "description": "Sys 3 Operational Code"
+    },
+    {
+      "enum": [
+        228,
+        "yorkStcLongStrings228"
+      ],
+      "description": "Sys 3 Fault Code"
+    },
+    {
+      "enum": [
+        229,
+        "yorkStcLongStrings229"
+      ],
+      "description": "Sys 4 Operational Code"
+    },
+    {
+      "enum": [
+        230,
+        "yorkStcLongStrings230"
+      ],
+      "description": "Sys 4 Fault Code"
+    },
+    {
+      "enum": [
+        231,
+        "yorkStcLongStrings231"
+      ],
+      "description": "Sys 3 Flash Tank Level %"
+    },
+    {
+      "enum": [
+        232,
+        "yorkStcLongStrings232"
+      ],
+      "description": "Sys 3 Condenser Fan Stage [0-7]"
+    },
+    {
+      "enum": [
+        233,
+        "yorkStcLongStrings233"
+      ],
+      "description": "Sys 4 Flash Tank Level %"
+    },
+    {
+      "enum": [
+        234,
+        "yorkStcLongStrings234"
+      ],
+      "description": "Sys 4 Condenser Fan Stage [0-7]"
+    },
+    {
+      "enum": [
+        235,
+        "yorkStcLongStrings235"
+      ],
+      "description": "Sys 3 Flash Tank Drain Valve % Open"
+    },
+    {
+      "enum": [
+        236,
+        "yorkStcLongStrings236"
+      ],
+      "description": "Sys 4 Flash Tank Drain Valve % Open"
+    },
+    {
+      "enum": [
+        237,
+        "yorkStcLongStrings237"
+      ],
+      "description": "VSD DC Bus Voltage 2"
+    },
+    {
+      "enum": [
+        238,
+        "yorkStcLongStrings238"
+      ],
+      "description": "Sys 3 Suction Superheat"
+    },
+    {
+      "enum": [
+        239,
+        "yorkStcLongStrings239"
+      ],
+      "description": "Sys 3 Discharge Superheat"
+    },
+    {
+      "enum": [
+        240,
+        "yorkStcLongStrings240"
+      ],
+      "description": "Sys 4 Suction Temperature"
+    },
+    {
+      "enum": [
+        241,
+        "yorkStcLongStrings241"
+      ],
+      "description": "Sys 4 Discharge Temperature"
+    },
+    {
+      "enum": [
+        242,
+        "yorkStcLongStrings242"
+      ],
+      "description": "Sys 4 Suction Superheat"
+    },
+    {
+      "enum": [
+        243,
+        "yorkStcLongStrings243"
+      ],
+      "description": "Sys 4 Discharge Superheat"
+    },
+    {
+      "enum": [
+        244,
+        "yorkStcLongStrings244"
+      ],
+      "description": "Sys 3 Lockout"
+    },
+    {
+      "enum": [
+        245,
+        "yorkStcLongStrings245"
+      ],
+      "description": "Sys 4 Lockout"
+    },
+    {
+      "enum": [
+        246,
+        "yorkStcLongStrings246"
+      ],
+      "description": "SCC Auto Detect Available"
+    },
+    {
+      "enum": [
+        247,
+        "yorkStcLongStrings247"
+      ],
+      "description": "Evaporator Liquid Temp"
+    },
+    {
+      "enum": [
+        248,
+        "yorkStcLongStrings248"
+      ],
+      "description": "Sys 1 Run Hours"
+    },
+    {
+      "enum": [
+        249,
+        "yorkStcLongStrings249"
+      ],
+      "description": "Sys 2 Run Hours"
+    },
+    {
+      "enum": [
+        250,
+        "yorkStcLongStrings250"
+      ],
+      "description": "Sys 1 Comp Run"
+    },
+    {
+      "enum": [
+        251,
+        "yorkStcLongStrings251"
+      ],
+      "description": "Sys 1 SV Min Load"
+    },
+    {
+      "enum": [
+        252,
+        "yorkStcLongStrings252"
+      ],
+      "description": "Sys 1 SV Load"
+    },
+    {
+      "enum": [
+        253,
+        "yorkStcLongStrings253"
+      ],
+      "description": "Sys 1 SV Unload"
+    },
+    {
+      "enum": [
+        254,
+        "yorkStcLongStrings254"
+      ],
+      "description": "Sys 2 Comp Run"
+    },
+    {
+      "enum": [
+        255,
+        "yorkStcLongStrings255"
+      ],
+      "description": "Sys 2 SV Min Load"
+    },
+    {
+      "enum": [
+        256,
+        "yorkStcLongStrings256"
+      ],
+      "description": "Sys 2 SV Load"
+    },
+    {
+      "enum": [
+        257,
+        "yorkStcLongStrings257"
+      ],
+      "description": "Sys 2 SV Unload"
+    },
+    {
+      "enum": [
+        258,
+        "yorkStcLongStrings258"
+      ],
+      "description": "Remote Hot Setpoint"
+    },
+    {
+      "enum": [
+        259,
+        "yorkStcLongStrings259"
+      ],
+      "description": "Mixed Liq Temp"
+    },
+    {
+      "enum": [
+        260,
+        "yorkStcLongStrings260"
+      ],
+      "description": "Leaving Hot Liq Temp"
+    },
+    {
+      "enum": [
+        261,
+        "yorkStcLongStrings261"
+      ],
+      "description": "Hot Liquid Temp"
+    },
+    {
+      "enum": [
+        262,
+        "yorkStcLongStrings262"
+      ],
+      "description": "Sys 1 Anti-Recycle Timer"
+    },
+    {
+      "enum": [
+        263,
+        "yorkStcLongStrings263"
+      ],
+      "description": "Anti-Coincident Timer"
+    },
+    {
+      "enum": [
+        264,
+        "yorkStcLongStrings264"
+      ],
+      "description": "Sys 2 Anti-Recycle Timer"
+    },
+    {
+      "enum": [
+        265,
+        "yorkStcLongStrings265"
+      ],
+      "description": "Sys 1 Cooler Inlet Refrigerant Temperature"
+    },
+    {
+      "enum": [
+        266,
+        "yorkStcLongStrings266"
+      ],
+      "description": "Sys 2 Cooler Inlet Refrigerant Temperature"
+    },
+    {
+      "enum": [
+        267,
+        "yorkStcLongStrings267"
+      ],
+      "description": "Sys 1, 2 Hot Liquid Flow Switch"
+    },
+    {
+      "enum": [
+        268,
+        "yorkStcLongStrings268"
+      ],
+      "description": "Sys 1 Discharge Cooling Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        269,
+        "yorkStcLongStrings269"
+      ],
+      "description": "Sys 1 Liquid Line Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        270,
+        "yorkStcLongStrings270"
+      ],
+      "description": "Sys 1 Oil Cool Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        271,
+        "yorkStcLongStrings271"
+      ],
+      "description": "Sys 1 Condenser Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        272,
+        "yorkStcLongStrings272"
+      ],
+      "description": "Sys 1 Heat Recovery Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        273,
+        "yorkStcLongStrings273"
+      ],
+      "description": "Sys 1 Wye Delta Relay"
+    },
+    {
+      "enum": [
+        274,
+        "yorkStcLongStrings274"
+      ],
+      "description": "Sys 2 Discharge Cooling Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        275,
+        "yorkStcLongStrings275"
+      ],
+      "description": "Sys 2 Liquid Line Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        276,
+        "yorkStcLongStrings276"
+      ],
+      "description": "Sys 2 Oil Cool Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        277,
+        "yorkStcLongStrings277"
+      ],
+      "description": "Sys 2 Condenser Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        278,
+        "yorkStcLongStrings278"
+      ],
+      "description": "Sys 2 Heat Recovery Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        279,
+        "yorkStcLongStrings279"
+      ],
+      "description": "Sys 2 Wye Delta Relay"
+    },
+    {
+      "enum": [
+        280,
+        "yorkStcLongStrings280"
+      ],
+      "description": "Sys 3, 4 Hot Liquid Flow Switch"
+    },
+    {
+      "enum": [
+        281,
+        "yorkStcLongStrings281"
+      ],
+      "description": "Sys 1 Heat Recovery Solenoid Status"
+    },
+    {
+      "enum": [
+        282,
+        "yorkStcLongStrings282"
+      ],
+      "description": "S1-1 Cooling Type [0=Water, 1=Glycol]"
+    },
+    {
+      "enum": [
+        283,
+        "yorkStcLongStrings283"
+      ],
+      "description": "S1-2 Ambient Control [0=Standard, 1=Low Ambient]"
+    },
+    {
+      "enum": [
+        284,
+        "yorkStcLongStrings284"
+      ],
+      "description": "S1-3 Refrigerant Type [0=R-407C, 1=R-22]"
+    },
+    {
+      "enum": [
+        285,
+        "yorkStcLongStrings285"
+      ],
+      "description": "S1-4 Unit Type [0=YCWS, 1=YCAS]"
+    },
+    {
+      "enum": [
+        286,
+        "yorkStcLongStrings286"
+      ],
+      "description": "S1-5 Motor Current Averaging [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        287,
+        "yorkStcLongStrings287"
+      ],
+      "description": "S1-6 Heat Recovery [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        288,
+        "yorkStcLongStrings288"
+      ],
+      "description": "Sys 1 Slide Valve Step"
+    },
+    {
+      "enum": [
+        289,
+        "yorkStcLongStrings289"
+      ],
+      "description": "Sys 1 Condenser Fan Stages Running [0-6]"
+    },
+    {
+      "enum": [
+        290,
+        "yorkStcLongStrings290"
+      ],
+      "description": "Sys 2 Slide Valve Step"
+    },
+    {
+      "enum": [
+        291,
+        "yorkStcLongStrings291"
+      ],
+      "description": "Sys 2 Condenser Fan Stages Running [0-6]"
+    },
+    {
+      "enum": [
+        292,
+        "yorkStcLongStrings292"
+      ],
+      "description": "Sys 1 EEV Output %"
+    },
+    {
+      "enum": [
+        293,
+        "yorkStcLongStrings293"
+      ],
+      "description": "Sys 2 EEV Output %"
+    },
+    {
+      "enum": [
+        294,
+        "yorkStcLongStrings294"
+      ],
+      "description": "Sys 3, 4 Leaving Hot Liquid Temp"
+    },
+    {
+      "enum": [
+        295,
+        "yorkStcLongStrings295"
+      ],
+      "description": "High Discharge Pressure Cutout"
+    },
+    {
+      "enum": [
+        296,
+        "yorkStcLongStrings296"
+      ],
+      "description": "S1-7 Expansion Valve Type [0=TXV, 1=EEV]"
+    },
+    {
+      "enum": [
+        297,
+        "yorkStcLongStrings297"
+      ],
+      "description": "S1-8 Basildon Options [0=Disabled, 1=Enabled]"
+    },
+    {
+      "enum": [
+        298,
+        "yorkStcLongStrings298"
+      ],
+      "description": "RESERVED_298"
+    },
+    {
+      "enum": [
+        299,
+        "yorkStcLongStrings299"
+      ],
+      "description": "Local Remote Setpoint [0=Local, 1=Remote]"
+    },
+    {
+      "enum": [
+        300,
+        "yorkStcLongStrings300"
+      ],
+      "description": "Sys 3 Anti-Recycle Timer"
+    },
+    {
+      "enum": [
+        301,
+        "yorkStcLongStrings301"
+      ],
+      "description": "Sys 4 Anti-Recycle Timer"
+    },
+    {
+      "enum": [
+        302,
+        "yorkStcLongStrings302"
+      ],
+      "description": "Sys 3 Cooler Inlet Refrigerant Temperature"
+    },
+    {
+      "enum": [
+        303,
+        "yorkStcLongStrings303"
+      ],
+      "description": "Sys 4 Cooler Inlet Refrigerant Temperature"
+    },
+    {
+      "enum": [
+        304,
+        "yorkStcLongStrings304"
+      ],
+      "description": "Sys 3 Discharge Cooling Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        305,
+        "yorkStcLongStrings305"
+      ],
+      "description": "Sys 3 Liquid Line Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        306,
+        "yorkStcLongStrings306"
+      ],
+      "description": "Sys 3 Condenser Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        307,
+        "yorkStcLongStrings307"
+      ],
+      "description": "Sys 3 Heat Recovery Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        308,
+        "yorkStcLongStrings308"
+      ],
+      "description": "Sys 3 Wye-Delta Relay"
+    },
+    {
+      "enum": [
+        309,
+        "yorkStcLongStrings309"
+      ],
+      "description": "Sys 4 Discharge Cooling Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        310,
+        "yorkStcLongStrings310"
+      ],
+      "description": "Sys 4 Liquid Line Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        311,
+        "yorkStcLongStrings311"
+      ],
+      "description": "Sys 4 Condenser Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        312,
+        "yorkStcLongStrings312"
+      ],
+      "description": "Sys 4 Heat Recovery Solenoid Valve Status"
+    },
+    {
+      "enum": [
+        313,
+        "yorkStcLongStrings313"
+      ],
+      "description": "Sys 4 Wye Delta Relay"
+    },
+    {
+      "enum": [
+        314,
+        "yorkStcLongStrings314"
+      ],
+      "description": "Sys 3 Slide Valve Step"
+    },
+    {
+      "enum": [
+        315,
+        "yorkStcLongStrings315"
+      ],
+      "description": "Sys 3 Condenser Fan Stages Running [0-6]"
+    },
+    {
+      "enum": [
+        316,
+        "yorkStcLongStrings316"
+      ],
+      "description": "Sys 4 Slide Valve Step"
+    },
+    {
+      "enum": [
+        317,
+        "yorkStcLongStrings317"
+      ],
+      "description": "Sys 4 Condenser Fan Stages Running [0-6]"
+    },
+    {
+      "enum": [
+        318,
+        "yorkStcLongStrings318"
+      ],
+      "description": "Sys 3 EEV Output %"
+    },
+    {
+      "enum": [
+        319,
+        "yorkStcLongStrings319"
+      ],
+      "description": "Sys 4 EEV Output %"
+    },
+    {
+      "enum": [
+        320,
+        "yorkStcLongStrings320"
+      ],
+      "description": "Mixed Liq Temp Hot Liq Temp"
+    },
+    {
+      "enum": [
+        321,
+        "yorkStcLongStrings321"
+      ],
+      "description": "Sys 1 Econ, Oil Cool, Cond Sol Valve Status"
+    },
+    {
+      "enum": [
+        322,
+        "yorkStcLongStrings322"
+      ],
+      "description": "Sys 2 Econ, Oil Cool, Cond Sol Valve Status"
+    },
+    {
+      "enum": [
+        323,
+        "yorkStcLongStrings323"
+      ],
+      "description": "Sys 1 HR Sol, Sys 3, 4 Hot Liq Flow Sw Status"
+    },
+    {
+      "enum": [
+        324,
+        "yorkStcLongStrings324"
+      ],
+      "description": "Sys 3 Econ Sol Cond Sol Valve Status"
+    },
+    {
+      "enum": [
+        325,
+        "yorkStcLongStrings325"
+      ],
+      "description": "Sys 4 Econ Sol Cond Sol Valve Status"
+    },
+    {
+      "enum": [
+        326,
+        "yorkStcLongStrings326"
+      ],
+      "description": "Sys 2 Heat Recovery Solenoid"
+    }
+  ]
+}

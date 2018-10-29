@@ -1,0 +1,267 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/loadExceptionTextEnumSet.schema.json",
+  "title": "loadExceptionTextEnumSet",
+  "description": "Load Exception Text",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "synchronizeNotAllowedLoadExceptionText"
+      ],
+      "description": "A device must be uploaded or downloaded before a synchronize can be performed."
+    },
+    {
+      "enum": [
+        2,
+        "errorBuildingDlFilesLoadExceptionText"
+      ],
+      "description": "Error building download files for"
+    },
+    {
+      "enum": [
+        3,
+        "errorObjectLoadExceptionText"
+      ],
+      "description": "Error occurred with object:"
+    },
+    {
+      "enum": [
+        4,
+        "errorAttributeLoadExceptionText"
+      ],
+      "description": "problem attribute:"
+    },
+    {
+      "enum": [
+        5,
+        "deviceResetNotOccurLoadExceptionText"
+      ],
+      "description": "Device reset did not occur."
+    },
+    {
+      "enum": [
+        6,
+        "commLostAfterResetLoadExceptionText"
+      ],
+      "description": "Communication lost after reset."
+    },
+    {
+      "enum": [
+        7,
+        "finalDeviceStatusLoadExceptionText"
+      ],
+      "description": "Final device status:"
+    },
+    {
+      "enum": [
+        8,
+        "loadAbortedByOperatorLoadExceptionText"
+      ],
+      "description": "Load aborted by operator."
+    },
+    {
+      "enum": [
+        9,
+        "errorMergingFilesLoadExceptionText"
+      ],
+      "description": "Error synchronizing objects for"
+    },
+    {
+      "enum": [
+        10,
+        "errorUploadingFilesLoadExceptionText"
+      ],
+      "description": "Error uploading files for"
+    },
+    {
+      "enum": [
+        11,
+        "unableToCommunicateLoadExceptionText"
+      ],
+      "description": "Unable to communicate with device via name or address -"
+    },
+    {
+      "enum": [
+        12,
+        "deviceTypeMismatchLoadExceptionText"
+      ],
+      "description": "Destination device type does not match the device type in the System Configuration Tool database."
+    },
+    {
+      "enum": [
+        13,
+        "versionMismatchLoadExceptionText"
+      ],
+      "description": "Destination device/server version does not match the device/server version in the System Configuration Tool database."
+    },
+    {
+      "enum": [
+        14,
+        "securityRestoreNotCompleteLoadExceptionText"
+      ],
+      "description": "Security database restore did not complete."
+    },
+    {
+      "enum": [
+        15,
+        "errorStatusLoadExceptionText"
+      ],
+      "description": "Error status ="
+    },
+    {
+      "enum": [
+        16,
+        "authorizationFailureLoadExceptionText"
+      ],
+      "description": "Load authorization failed because unable to login to Site Director or load destination for User:"
+    },
+    {
+      "enum": [
+        17,
+        "synchronizeNotCompleteLoadExceptionText"
+      ],
+      "description": "The Synchronize was unable to complete due to the above error.  A full download is necessary to finish the synchronization."
+    },
+    {
+      "enum": [
+        18,
+        "nameComErrorLoadExceptionText"
+      ],
+      "description": "Name communication error:"
+    },
+    {
+      "enum": [
+        19,
+        "addressComErrorLoadExceptionText"
+      ],
+      "description": "Address communication error:"
+    },
+    {
+      "enum": [
+        20,
+        "deviceArchiveFailText"
+      ],
+      "description": "The upload could not complete because the device archive failed.  Please check the device's errorlog to determine the problem."
+    },
+    {
+      "enum": [
+        21,
+        "duplicateScheduleText"
+      ],
+      "description": "Duplicate schedule"
+    },
+    {
+      "enum": [
+        22,
+        "reportCreatedWithErrorsText"
+      ],
+      "description": "Report created with errors"
+    },
+    {
+      "enum": [
+        23,
+        "repeatingScheduleExpiredText"
+      ],
+      "description": "Repeating schedule expired"
+    },
+    {
+      "enum": [
+        24,
+        "unableToOutputDataText"
+      ],
+      "description": "Unable to output data"
+    },
+    {
+      "enum": [
+        25,
+        "sqlVersionMismatchText"
+      ],
+      "description": "The SCT archive cannot be restored. It was created/upgraded to a SQL version that is later than the one loaded on this machine."
+    },
+    {
+      "enum": [
+        26,
+        "nutNotInstalled"
+      ],
+      "description": "Code download aborted because the NAE Update Tool (NUT) is not installed. Please install NUT first."
+    },
+    {
+      "enum": [
+        27,
+        "codeDownloadException"
+      ],
+      "description": "Unexpected exception, code download aborted prematurely."
+    },
+    {
+      "enum": [
+        28,
+        "diskImageNotFound"
+      ],
+      "description": "Code download aborted because corresponding disk image file is not found."
+    },
+    {
+      "enum": [
+        29,
+        "codeDownloadLoginFailure"
+      ],
+      "description": "Code download aborted. Unable to login to device, check network settings."
+    },
+    {
+      "enum": [
+        30,
+        "abortingLoadNoValidDiskImageFile"
+      ],
+      "description": "Aborting code load because no valid disk image file found for release"
+    },
+    {
+      "enum": [
+        31,
+        "codeLoadSocketNotAvailable"
+      ],
+      "description": "Needed Socket is used by another process.  Close the NUT if it is running."
+    },
+    {
+      "enum": [
+        32,
+        "codeLoadUnableToReadMacAddr"
+      ],
+      "description": "Unable to read MAC address from device"
+    },
+    {
+      "enum": [
+        33,
+        "codeLoadNutServerError"
+      ],
+      "description": "Unable to start the update due to a NUT server error - check the SCT log file."
+    },
+    {
+      "enum": [
+        34,
+        "codeAbortSelectEthernetAdapter"
+      ],
+      "description": "Please select an Ethernet adapter from the Tools menu."
+    },
+    {
+      "enum": [
+        35,
+        "deviceAuthorizationFailureLoadExceptionText"
+      ],
+      "description": "Load authorization failed because unable to login to load destination for User:"
+    },
+    {
+      "enum": [
+        36,
+        "deviceNotRespondingScheduledDormantAccountError"
+      ],
+      "description": "Device not responding OR device is prior to Release 8.0"
+    },
+    {
+      "enum": [
+        37,
+        "deviceAuthenticationFailureLoadExceptionText"
+      ],
+      "description": "Authentication failed because of invalid credentials source Device :"
+    }
+  ]
+}

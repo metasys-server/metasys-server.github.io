@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/controlExclusionEnumSet.schema.json",
+  "title": "controlExclusionEnumSet",
+  "description": "Control Exclusion",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Exclusion"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

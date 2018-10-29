@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unoccStatusEnumSet.schema.json",
+  "title": "unoccStatusEnumSet",
+  "description": "Unocc Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "usClg"
+      ],
+      "description": "Unocc Cooling"
+    },
+    {
+      "enum": [
+        1,
+        "usHtg"
+      ],
+      "description": "Unocc Heating"
+    },
+    {
+      "enum": [
+        2,
+        "usCtrlNotReqd"
+      ],
+      "description": "Unocc Cntrl Not Req'd"
+    },
+    {
+      "enum": [
+        3,
+        "usSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        4,
+        "usTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    }
+  ]
+}

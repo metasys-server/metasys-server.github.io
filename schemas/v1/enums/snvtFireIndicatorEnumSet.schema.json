@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtFireIndicatorEnumSet.schema.json",
+  "title": "snvtFireIndicatorEnumSet",
+  "description": "SNVT Fire Indicator",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Strobe UnSync"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Strobe Sync"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Horn"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Chime"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Bell"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Sounder"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Speaker"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Universal"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

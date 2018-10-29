@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/comDamperControlStateEnumSet.schema.json",
+  "title": "comDamperControlStateEnumSet",
+  "description": "COM Damper Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "comdcsClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "comdcsOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "comdcsMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        3,
+        "comdcsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "comdcsCtrl"
+      ],
+      "description": "Control"
+    }
+  ]
+}

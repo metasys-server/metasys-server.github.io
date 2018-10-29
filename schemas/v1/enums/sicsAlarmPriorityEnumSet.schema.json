@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sicsAlarmPriorityEnumSet.schema.json",
+  "title": "sicsAlarmPriorityEnumSet",
+  "description": "SICS Alarm Priority",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "almPriDisable"
+      ],
+      "description": "Disable"
+    },
+    {
+      "enum": [
+        1,
+        "almPriCritical"
+      ],
+      "description": "Critical"
+    },
+    {
+      "enum": [
+        2,
+        "almPriServicePriority"
+      ],
+      "description": "Service Priority"
+    },
+    {
+      "enum": [
+        3,
+        "almPriService"
+      ],
+      "description": "Service"
+    }
+  ]
+}

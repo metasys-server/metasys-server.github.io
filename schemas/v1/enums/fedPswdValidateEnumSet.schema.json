@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fedPswdValidateEnumSet.schema.json",
+  "title": "fedPswdValidateEnumSet",
+  "description": "FED Password Validate",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fedPswdValUserOk"
+      ],
+      "description": "User OK"
+    },
+    {
+      "enum": [
+        1,
+        "fedPswdValMaintOk"
+      ],
+      "description": "Maint OK"
+    },
+    {
+      "enum": [
+        2,
+        "fedPswdValSiteOk"
+      ],
+      "description": "Site OK"
+    },
+    {
+      "enum": [
+        3,
+        "fedPswdValInvalidUser"
+      ],
+      "description": "Invalid User"
+    },
+    {
+      "enum": [
+        4,
+        "fedPswdValInvalidPswd"
+      ],
+      "description": "Invalid Pass"
+    }
+  ]
+}

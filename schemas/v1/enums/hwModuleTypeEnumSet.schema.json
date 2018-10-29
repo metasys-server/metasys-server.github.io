@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hwModuleTypeEnumSet.schema.json",
+  "title": "hwModuleTypeEnumSet",
+  "description": "HW Module Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hwModuleGeneric"
+      ],
+      "description": "Generic"
+    },
+    {
+      "enum": [
+        1,
+        "hwModuleRdr2S"
+      ],
+      "description": "RDR2S"
+    },
+    {
+      "enum": [
+        2,
+        "hwModuleRdr2"
+      ],
+      "description": "RDR2"
+    },
+    {
+      "enum": [
+        3,
+        "hwModuleIo8"
+      ],
+      "description": "IO8"
+    },
+    {
+      "enum": [
+        4,
+        "hwModuleSio8"
+      ],
+      "description": "SIO8"
+    },
+    {
+      "enum": [
+        5,
+        "hwModuleSi8"
+      ],
+      "description": "SI8"
+    },
+    {
+      "enum": [
+        6,
+        "hwModuleI16"
+      ],
+      "description": "I16"
+    },
+    {
+      "enum": [
+        7,
+        "hwModuleKeypadDisplay"
+      ],
+      "description": "Keypad Display"
+    },
+    {
+      "enum": [
+        8,
+        "hwModuleCk722"
+      ],
+      "description": "CK722"
+    },
+    {
+      "enum": [
+        9,
+        "hwModuleRdr2SA"
+      ],
+      "description": "RDR2S-A (I8O4)"
+    },
+    {
+      "enum": [
+        10,
+        "hwModuleRdr8S"
+      ],
+      "description": "RDR8S (I32O16)"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auditMessageTypeEnumSet.schema.json",
+  "title": "auditMessageTypeEnumSet",
+  "description": "Audit Message Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "auditMessageTypeUserCommand"
+      ],
+      "description": "User Command"
+    },
+    {
+      "enum": [
+        1,
+        "auditMessageTypeSystemReset"
+      ],
+      "description": "System Reset"
+    },
+    {
+      "enum": [
+        2,
+        "auditMessageTypeUserFileTransfer"
+      ],
+      "description": "User File Transfer"
+    },
+    {
+      "enum": [
+        3,
+        "auditMessageTypeSystemChangeValue"
+      ],
+      "description": "System Change Value"
+    },
+    {
+      "enum": [
+        4,
+        "auditMessageTypeUserChangeValue"
+      ],
+      "description": "User Change Value"
+    },
+    {
+      "enum": [
+        5,
+        "auditMessageTypeSystemAccountCommand"
+      ],
+      "description": "System Account Command"
+    },
+    {
+      "enum": [
+        6,
+        "auditMessageTypeUserAccountCommand"
+      ],
+      "description": "User Account Command"
+    },
+    {
+      "enum": [
+        7,
+        "auditMessageTypeUserAccountChangeValue"
+      ],
+      "description": "User Account Change Value"
+    },
+    {
+      "enum": [
+        8,
+        "auditMessageTypeSystemTimeChange"
+      ],
+      "description": "System Time Change"
+    },
+    {
+      "enum": [
+        9,
+        "auditMessageTypeUserResetEvent"
+      ],
+      "description": "User Reset Event"
+    }
+  ]
+}

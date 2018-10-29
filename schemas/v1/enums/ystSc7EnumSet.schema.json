@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ystSc7EnumSet.schema.json",
+  "title": "ystSc7EnumSet",
+  "description": "YST Turbine Status Code SC.7",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ystSc70"
+      ],
+      "description": "STOPPED"
+    },
+    {
+      "enum": [
+        1,
+        "ystSc71"
+      ],
+      "description": "SYSTEM STARTING"
+    },
+    {
+      "enum": [
+        2,
+        "ystSc72"
+      ],
+      "description": "READY TO BEGIN SLOW ROLL (MANUAL)"
+    },
+    {
+      "enum": [
+        3,
+        "ystSc73"
+      ],
+      "description": "WAITING FOR STEAM FLOW (M)|SYSTEM STARTING (A)|SLOW ROLLING"
+    },
+    {
+      "enum": [
+        4,
+        "ystSc74"
+      ],
+      "description": "TURBINE IDLING - HIGH EXHAUST PRESSURE"
+    },
+    {
+      "enum": [
+        5,
+        "ystSc75"
+      ],
+      "description": "READY TO RUN (MANUAL)"
+    },
+    {
+      "enum": [
+        6,
+        "ystSc76"
+      ],
+      "description": "READY TO RUN (AUTO) / RAMPING TO RATED SPEED"
+    },
+    {
+      "enum": [
+        7,
+        "ystSc77"
+      ],
+      "description": "STABILIZING"
+    },
+    {
+      "enum": [
+        8,
+        "ystSc78"
+      ],
+      "description": "RUNNING"
+    },
+    {
+      "enum": [
+        9,
+        "ystSc79"
+      ],
+      "description": "UNLOADING BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        10,
+        "ystSc710"
+      ],
+      "description": "COMPRESSOR SHUTDOWN; TURBINE COOLDOWN"
+    },
+    {
+      "enum": [
+        11,
+        "ystSc711"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "ystSc712"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "ystSc713"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ystSc714"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ystSc715"
+      ],
+      "description": "RESERVED 15"
+    }
+  ]
+}

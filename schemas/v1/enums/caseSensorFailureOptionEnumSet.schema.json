@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/caseSensorFailureOptionEnumSet.schema.json",
+  "title": "caseSensorFailureOptionEnumSet",
+  "description": "Case Sensor Failure Option",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "csfoOutputDeEnergized"
+      ],
+      "description": "Output De-energized"
+    },
+    {
+      "enum": [
+        1,
+        "csfoOutputEnergized"
+      ],
+      "description": "Output Energized"
+    }
+  ]
+}

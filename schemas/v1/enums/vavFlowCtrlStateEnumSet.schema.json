@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavFlowCtrlStateEnumSet.schema.json",
+  "title": "vavFlowCtrlStateEnumSet",
+  "description": "VAV Flow Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavfcsBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        1,
+        "vavfcsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        2,
+        "vavfcsControlFlowUnreliable"
+      ],
+      "description": "Control Flow Unreliable"
+    },
+    {
+      "enum": [
+        3,
+        "vavfcsControlFlowReliable"
+      ],
+      "description": "Control Flow Reliable"
+    }
+  ]
+}

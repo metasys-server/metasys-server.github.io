@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/outputCmdEnumSet.schema.json",
+  "title": "outputCmdEnumSet",
+  "description": "Output",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "outputCmdRelease"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        1,
+        "outputCmdActivate"
+      ],
+      "description": "Activate"
+    },
+    {
+      "enum": [
+        2,
+        "outputCmdDeactivate"
+      ],
+      "description": "Deactivate"
+    },
+    {
+      "enum": [
+        3,
+        "outputCmdSlowFlash"
+      ],
+      "description": "Slow Flash"
+    },
+    {
+      "enum": [
+        4,
+        "outputCmdFastFlash"
+      ],
+      "description": "Fast Flash"
+    },
+    {
+      "enum": [
+        5,
+        "outputCmdSteady"
+      ],
+      "description": "Steady"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bvFanOptionsEnumSet.schema.json",
+  "title": "bvFanOptionsEnumSet",
+  "description": "BV Fan Options",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "On Heat"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Auto heat"
+    }
+  ]
+}

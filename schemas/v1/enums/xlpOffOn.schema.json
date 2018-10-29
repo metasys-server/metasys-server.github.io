@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/xlpOffOn.schema.json",
+  "title": "xlpOffOn",
+  "description": "XLP Off On",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "xlpOoNa"
+      ],
+      "description": "N/A"
+    },
+    {
+      "enum": [
+        1,
+        "xlpOoOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "xlpOoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        3,
+        "xlpOoOff2"
+      ],
+      "description": "Off."
+    },
+    {
+      "enum": [
+        4,
+        "xlpOoOn2"
+      ],
+      "description": "On."
+    },
+    {
+      "enum": [
+        5,
+        "xlpOoNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        6,
+        "xlpOoFixedOn"
+      ],
+      "description": "Fixed, On"
+    },
+    {
+      "enum": [
+        7,
+        "xlpOoFixedOff"
+      ],
+      "description": "Fixed, Off"
+    },
+    {
+      "enum": [
+        8,
+        "xlpOoFixedOff2"
+      ],
+      "description": "Fixed - Off"
+    },
+    {
+      "enum": [
+        9,
+        "xlpOoFixedOn2"
+      ],
+      "description": "Fixed - On"
+    }
+  ]
+}

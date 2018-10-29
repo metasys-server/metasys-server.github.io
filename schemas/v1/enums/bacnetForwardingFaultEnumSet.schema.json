@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetForwardingFaultEnumSet.schema.json",
+  "title": "bacnetForwardingFaultEnumSet",
+  "description": "BACnet Forwarding Fault",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetForwardingFaultNone"
+      ],
+      "description": "No Fault"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetForwardingFaultNoTransport"
+      ],
+      "description": "No Transport"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetForwardingFaultNoResources"
+      ],
+      "description": "No Resources"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetForwardingFaultNetworkAddressNotFound"
+      ],
+      "description": "Address Not Found"
+    },
+    {
+      "enum": [
+        4,
+        "bacnetForwardingFaultInsufficientSequrity"
+      ],
+      "description": "Insufficient Sequrity"
+    },
+    {
+      "enum": [
+        5,
+        "bacnetForwardingFaultNoConnection"
+      ],
+      "description": "No Connection"
+    }
+  ]
+}

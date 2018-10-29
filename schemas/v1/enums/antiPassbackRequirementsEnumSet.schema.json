@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/antiPassbackRequirementsEnumSet.schema.json",
+  "title": "antiPassbackRequirementsEnumSet",
+  "description": "Anti-Passback Requirements",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "apbEntryExitStatusOnly"
+      ],
+      "description": "Entry-Exit Status Only"
+    },
+    {
+      "enum": [
+        1,
+        "apbElapsedTimeOnly"
+      ],
+      "description": "Elapsed Time Only"
+    },
+    {
+      "enum": [
+        2,
+        "apbEntryExitStatusOrTimeElapsed"
+      ],
+      "description": "Entry-Exit Status or Time Elapsed"
+    },
+    {
+      "enum": [
+        3,
+        "apbEntryExitStatusAndTimeElapsed"
+      ],
+      "description": "Entry-Exit Status and Time Elapsed"
+    }
+  ]
+}

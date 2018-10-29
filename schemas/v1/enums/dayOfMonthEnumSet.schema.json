@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dayOfMonthEnumSet.schema.json",
+  "title": "dayOfMonthEnumSet",
+  "description": "Day of Month",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "domOne"
+      ],
+      "description": "1"
+    },
+    {
+      "enum": [
+        2,
+        "domTwo"
+      ],
+      "description": "2"
+    },
+    {
+      "enum": [
+        3,
+        "domThree"
+      ],
+      "description": "3"
+    },
+    {
+      "enum": [
+        4,
+        "domFour"
+      ],
+      "description": "4"
+    },
+    {
+      "enum": [
+        5,
+        "domFive"
+      ],
+      "description": "5"
+    },
+    {
+      "enum": [
+        6,
+        "domSix"
+      ],
+      "description": "6"
+    },
+    {
+      "enum": [
+        7,
+        "domSeven"
+      ],
+      "description": "7"
+    },
+    {
+      "enum": [
+        8,
+        "domEight"
+      ],
+      "description": "8"
+    },
+    {
+      "enum": [
+        9,
+        "domNine"
+      ],
+      "description": "9"
+    },
+    {
+      "enum": [
+        10,
+        "domTen"
+      ],
+      "description": "10"
+    },
+    {
+      "enum": [
+        11,
+        "domEleven"
+      ],
+      "description": "11"
+    },
+    {
+      "enum": [
+        12,
+        "domTwelve"
+      ],
+      "description": "12"
+    },
+    {
+      "enum": [
+        13,
+        "domThirteen"
+      ],
+      "description": "13"
+    },
+    {
+      "enum": [
+        14,
+        "domFourteen"
+      ],
+      "description": "14"
+    },
+    {
+      "enum": [
+        15,
+        "domFifteen"
+      ],
+      "description": "15"
+    },
+    {
+      "enum": [
+        16,
+        "domSixteen"
+      ],
+      "description": "16"
+    },
+    {
+      "enum": [
+        17,
+        "domSeventeen"
+      ],
+      "description": "17"
+    },
+    {
+      "enum": [
+        18,
+        "domEighteen"
+      ],
+      "description": "18"
+    },
+    {
+      "enum": [
+        19,
+        "domNineteen"
+      ],
+      "description": "19"
+    },
+    {
+      "enum": [
+        20,
+        "domTwenty"
+      ],
+      "description": "20"
+    },
+    {
+      "enum": [
+        21,
+        "domTwentyOne"
+      ],
+      "description": "21"
+    },
+    {
+      "enum": [
+        22,
+        "domTwentyTwo"
+      ],
+      "description": "22"
+    },
+    {
+      "enum": [
+        23,
+        "domTwentyThree"
+      ],
+      "description": "23"
+    },
+    {
+      "enum": [
+        24,
+        "domTwentyFour"
+      ],
+      "description": "24"
+    },
+    {
+      "enum": [
+        25,
+        "domTwentyFive"
+      ],
+      "description": "25"
+    },
+    {
+      "enum": [
+        26,
+        "domTwentySix"
+      ],
+      "description": "26"
+    },
+    {
+      "enum": [
+        27,
+        "domTwentySeven"
+      ],
+      "description": "27"
+    },
+    {
+      "enum": [
+        28,
+        "domTwentyEight"
+      ],
+      "description": "28"
+    },
+    {
+      "enum": [
+        29,
+        "domTwentyNine"
+      ],
+      "description": "29"
+    },
+    {
+      "enum": [
+        30,
+        "domThirty"
+      ],
+      "description": "30"
+    },
+    {
+      "enum": [
+        31,
+        "domThirtyOne"
+      ],
+      "description": "31"
+    },
+    {
+      "enum": [
+        255,
+        "domLast"
+      ],
+      "description": "Last"
+    }
+  ]
+}

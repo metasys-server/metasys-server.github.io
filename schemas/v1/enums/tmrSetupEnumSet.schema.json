@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tmrSetupEnumSet.schema.json",
+  "title": "tmrSetupEnumSet",
+  "description": "Timer Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tmrSetupPulse"
+      ],
+      "description": "Pulse"
+    },
+    {
+      "enum": [
+        1,
+        "tmrSetupRetriggerable"
+      ],
+      "description": "Retriggerable Pulse"
+    },
+    {
+      "enum": [
+        2,
+        "tmrSetupOnDelay"
+      ],
+      "description": "On Delay"
+    },
+    {
+      "enum": [
+        3,
+        "tmrSetupOnDelayWithMem"
+      ],
+      "description": "On Delay With Memory"
+    },
+    {
+      "enum": [
+        4,
+        "tmrSetupOffDelay"
+      ],
+      "description": "Off Delay"
+    },
+    {
+      "enum": [
+        5,
+        "tmrSetupFreeRunning"
+      ],
+      "description": "Free Running"
+    },
+    {
+      "enum": [
+        6,
+        "tmrSetupMinimumOn"
+      ],
+      "description": "Minimum On"
+    },
+    {
+      "enum": [
+        7,
+        "tmrSetupMinimumOff"
+      ],
+      "description": "Minimum Off"
+    },
+    {
+      "enum": [
+        8,
+        "tmrSetupCancelablePulse"
+      ],
+      "description": "Cancelable Pulse"
+    }
+  ]
+}

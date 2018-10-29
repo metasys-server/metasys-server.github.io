@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/racoolingEnumSet.schema.json",
+  "title": "racoolingEnumSet",
+  "description": "RA Cooling",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Cooling Required"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Cooling Start"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Economizer"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Mechanical Econ Max"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Mechanical Econ Min"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/spaceTypesEnumSet.schema.json",
+  "title": "spaceTypesEnumSet",
+  "description": "Space Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "generic"
+      ],
+      "description": "Generic"
+    },
+    {
+      "enum": [
+        1,
+        "building"
+      ],
+      "description": "Building"
+    },
+    {
+      "enum": [
+        2,
+        "floor"
+      ],
+      "description": "Floor"
+    },
+    {
+      "enum": [
+        3,
+        "room"
+      ],
+      "description": "Room"
+    }
+  ]
+}

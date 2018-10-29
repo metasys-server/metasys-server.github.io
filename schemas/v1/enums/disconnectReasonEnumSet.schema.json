@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/disconnectReasonEnumSet.schema.json",
+  "title": "disconnectReasonEnumSet",
+  "description": "Disconnect Reason",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sdlJustInitialized"
+      ],
+      "description": "Just Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "sdlInitiatorRequest"
+      ],
+      "description": "Initiator Request"
+    },
+    {
+      "enum": [
+        2,
+        "sdlConnCouldNotBeEst"
+      ],
+      "description": "Could Not Establish Connection"
+    },
+    {
+      "enum": [
+        3,
+        "sdlConnBreakdown"
+      ],
+      "description": "Connection Breakdown"
+    },
+    {
+      "enum": [
+        4,
+        "sdlOther"
+      ],
+      "description": "Other"
+    }
+  ]
+}

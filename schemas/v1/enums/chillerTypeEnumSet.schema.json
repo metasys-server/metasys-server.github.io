@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/chillerTypeEnumSet.schema.json",
+  "title": "chillerTypeEnumSet",
+  "description": "Chiller Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "chillerTypeA"
+      ],
+      "description": "Type A"
+    },
+    {
+      "enum": [
+        1,
+        "chillerTypeB"
+      ],
+      "description": "Type B"
+    },
+    {
+      "enum": [
+        2,
+        "chillerTypeC"
+      ],
+      "description": "Type C"
+    },
+    {
+      "enum": [
+        3,
+        "chillerTypeD"
+      ],
+      "description": "Type D"
+    },
+    {
+      "enum": [
+        4,
+        "chillerTypeE"
+      ],
+      "description": "Type E"
+    },
+    {
+      "enum": [
+        5,
+        "chillerTypeF"
+      ],
+      "description": "Type F"
+    },
+    {
+      "enum": [
+        6,
+        "chillerTypeG"
+      ],
+      "description": "Type G"
+    },
+    {
+      "enum": [
+        7,
+        "chillerTypeH"
+      ],
+      "description": "Type H"
+    },
+    {
+      "enum": [
+        8,
+        "chillerTypeI"
+      ],
+      "description": "Type I"
+    },
+    {
+      "enum": [
+        9,
+        "chillerTypeJ"
+      ],
+      "description": "Type J"
+    },
+    {
+      "enum": [
+        10,
+        "chillerTypeK"
+      ],
+      "description": "Type K"
+    },
+    {
+      "enum": [
+        11,
+        "chillerTypeL"
+      ],
+      "description": "Type L"
+    },
+    {
+      "enum": [
+        12,
+        "chillerTypeM"
+      ],
+      "description": "Type M"
+    },
+    {
+      "enum": [
+        13,
+        "chillerTypeN"
+      ],
+      "description": "Type N"
+    },
+    {
+      "enum": [
+        14,
+        "chillerTypeO"
+      ],
+      "description": "Type O"
+    },
+    {
+      "enum": [
+        15,
+        "chillerTypeP"
+      ],
+      "description": "Type P"
+    }
+  ]
+}

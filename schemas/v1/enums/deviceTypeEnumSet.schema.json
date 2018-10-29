@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/deviceTypeEnumSet.schema.json",
+  "title": "deviceTypeEnumSet",
+  "description": "Device Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dteAll"
+      ],
+      "description": "All"
+    },
+    {
+      "enum": [
+        1,
+        "dteNae"
+      ],
+      "description": "NAE"
+    },
+    {
+      "enum": [
+        2,
+        "dteNce"
+      ],
+      "description": "NCE"
+    },
+    {
+      "enum": [
+        3,
+        "dteNie"
+      ],
+      "description": "NIE"
+    },
+    {
+      "enum": [
+        4,
+        "dteNae45"
+      ],
+      "description": "NAE45"
+    },
+    {
+      "enum": [
+        5,
+        "dteFec"
+      ],
+      "description": "FEC"
+    },
+    {
+      "enum": [
+        6,
+        "dteVma"
+      ],
+      "description": "VMA"
+    },
+    {
+      "enum": [
+        7,
+        "dteIom"
+      ],
+      "description": "IOM"
+    }
+  ]
+}

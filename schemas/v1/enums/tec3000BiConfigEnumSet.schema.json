@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000BiConfigEnumSet.schema.json",
+  "title": "tec3000BiConfigEnumSet",
+  "description": "TEC3000 BI Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000BiConfigDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000BiConfigOccupancy"
+      ],
+      "description": "Occupancy"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000BiConfigTempOcc"
+      ],
+      "description": "Temp Occ"
+    },
+    {
+      "enum": [
+        3,
+        "tec3000BiConfigMotionNo"
+      ],
+      "description": "Motion NO"
+    },
+    {
+      "enum": [
+        4,
+        "tec3000BiConfigMotionNc"
+      ],
+      "description": "Motion NC"
+    },
+    {
+      "enum": [
+        5,
+        "tec3000BiConfigDirtyFilter"
+      ],
+      "description": "Dirty Filter"
+    },
+    {
+      "enum": [
+        6,
+        "tec3000BiConfigService"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        7,
+        "tec3000BiConfigFanLock"
+      ],
+      "description": "Fan Lock"
+    },
+    {
+      "enum": [
+        8,
+        "tec3000BiConfigOpenDoor"
+      ],
+      "description": "Open Door"
+    },
+    {
+      "enum": [
+        9,
+        "tec3000BiConfigOpenWindow"
+      ],
+      "description": "Open Window"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorKdmOutputEnumSet.schema.json",
+  "title": "connectorKdmOutputEnumSet",
+  "description": "Connector KDM Output",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorKdmOutputBuzzer"
+      ],
+      "description": "Buzzer"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/baudRateEnumSet.schema.json",
+  "title": "baudRateEnumSet",
+  "description": "Baud Rate",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sphBaud9600"
+      ],
+      "description": "9600"
+    },
+    {
+      "enum": [
+        1,
+        "sphBaud19200"
+      ],
+      "description": "19200"
+    },
+    {
+      "enum": [
+        2,
+        "sphBaud38400"
+      ],
+      "description": "38400"
+    },
+    {
+      "enum": [
+        3,
+        "sphBaud57600"
+      ],
+      "description": "57600"
+    },
+    {
+      "enum": [
+        4,
+        "sphBaud115200"
+      ],
+      "description": "115200"
+    }
+  ]
+}

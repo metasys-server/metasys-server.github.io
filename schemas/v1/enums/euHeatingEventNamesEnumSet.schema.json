@@ -1,0 +1,1212 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/euHeatingEventNamesEnumSet.schema.json",
+  "title": "euHeatingEventNamesEnumSet",
+  "description": "EU Heating Event Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "euHeatingEventNames1"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        2,
+        "euHeatingEventNames2"
+      ],
+      "description": "Boiler Fault"
+    },
+    {
+      "enum": [
+        3,
+        "euHeatingEventNames3"
+      ],
+      "description": "Boiler 1 Fault"
+    },
+    {
+      "enum": [
+        4,
+        "euHeatingEventNames4"
+      ],
+      "description": "Boiler 2 Fault"
+    },
+    {
+      "enum": [
+        5,
+        "euHeatingEventNames5"
+      ],
+      "description": "Boiler 3 Fault"
+    },
+    {
+      "enum": [
+        6,
+        "euHeatingEventNames6"
+      ],
+      "description": "Boiler 4 Fault"
+    },
+    {
+      "enum": [
+        7,
+        "euHeatingEventNames7"
+      ],
+      "description": "Boiler 5 Fault"
+    },
+    {
+      "enum": [
+        8,
+        "euHeatingEventNames8"
+      ],
+      "description": "Boiler 6 Fault"
+    },
+    {
+      "enum": [
+        9,
+        "euHeatingEventNames9"
+      ],
+      "description": "Boiler 7 Fault"
+    },
+    {
+      "enum": [
+        10,
+        "euHeatingEventNames10"
+      ],
+      "description": "Boiler 8 Fault"
+    },
+    {
+      "enum": [
+        11,
+        "euHeatingEventNames11"
+      ],
+      "description": "Circulation Pump Fault"
+    },
+    {
+      "enum": [
+        12,
+        "euHeatingEventNames12"
+      ],
+      "description": "Circulation Pump 1 Fault"
+    },
+    {
+      "enum": [
+        13,
+        "euHeatingEventNames13"
+      ],
+      "description": "Circulation Pump 2 Fault"
+    },
+    {
+      "enum": [
+        14,
+        "euHeatingEventNames14"
+      ],
+      "description": "Circulation Pump 3 Fault"
+    },
+    {
+      "enum": [
+        15,
+        "euHeatingEventNames15"
+      ],
+      "description": "Circulation Pump 4 Fault"
+    },
+    {
+      "enum": [
+        16,
+        "euHeatingEventNames16"
+      ],
+      "description": "Circulation Pump 5 Fault"
+    },
+    {
+      "enum": [
+        17,
+        "euHeatingEventNames17"
+      ],
+      "description": "Circulation Pump 6 Fault"
+    },
+    {
+      "enum": [
+        18,
+        "euHeatingEventNames18"
+      ],
+      "description": "Circulation Pump 7 Fault"
+    },
+    {
+      "enum": [
+        19,
+        "euHeatingEventNames19"
+      ],
+      "description": "Circulation Pump 8 Fault"
+    },
+    {
+      "enum": [
+        20,
+        "euHeatingEventNames20"
+      ],
+      "description": "Consumer Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        21,
+        "euHeatingEventNames21"
+      ],
+      "description": "Consumer 1 Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        22,
+        "euHeatingEventNames22"
+      ],
+      "description": "Consumer 2 Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        23,
+        "euHeatingEventNames23"
+      ],
+      "description": "Consumer 3 Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        24,
+        "euHeatingEventNames24"
+      ],
+      "description": "Consumer 4 Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        25,
+        "euHeatingEventNames25"
+      ],
+      "description": "Consumer 5 Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        26,
+        "euHeatingEventNames26"
+      ],
+      "description": "Consumer 6 Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        27,
+        "euHeatingEventNames27"
+      ],
+      "description": "Consumer 7 Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        28,
+        "euHeatingEventNames28"
+      ],
+      "description": "Consumer 8 Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        29,
+        "euHeatingEventNames29"
+      ],
+      "description": "Consumer Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        30,
+        "euHeatingEventNames30"
+      ],
+      "description": "Consumer 1 Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        31,
+        "euHeatingEventNames31"
+      ],
+      "description": "Consumer 2 Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        32,
+        "euHeatingEventNames32"
+      ],
+      "description": "Consumer 3 Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        33,
+        "euHeatingEventNames33"
+      ],
+      "description": "Consumer 4 Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        34,
+        "euHeatingEventNames34"
+      ],
+      "description": "Consumer 5 Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        35,
+        "euHeatingEventNames35"
+      ],
+      "description": "Consumer 6 Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        36,
+        "euHeatingEventNames36"
+      ],
+      "description": "Consumer 7 Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        37,
+        "euHeatingEventNames37"
+      ],
+      "description": "Consumer 8 Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        38,
+        "euHeatingEventNames38"
+      ],
+      "description": "Emergency Shutdown Alarm"
+    },
+    {
+      "enum": [
+        39,
+        "euHeatingEventNames39"
+      ],
+      "description": "Frost Alarm"
+    },
+    {
+      "enum": [
+        40,
+        "euHeatingEventNames40"
+      ],
+      "description": "Hot Water Pump Fault"
+    },
+    {
+      "enum": [
+        41,
+        "euHeatingEventNames41"
+      ],
+      "description": "Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        42,
+        "euHeatingEventNames42"
+      ],
+      "description": "Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        43,
+        "euHeatingEventNames43"
+      ],
+      "description": "Hot Water Pump 3 Fault"
+    },
+    {
+      "enum": [
+        44,
+        "euHeatingEventNames44"
+      ],
+      "description": "Hot Water Pump 4 Fault"
+    },
+    {
+      "enum": [
+        45,
+        "euHeatingEventNames45"
+      ],
+      "description": "Hot Water Pump 5 Fault"
+    },
+    {
+      "enum": [
+        46,
+        "euHeatingEventNames46"
+      ],
+      "description": "Hot Water Pump 6 Fault"
+    },
+    {
+      "enum": [
+        47,
+        "euHeatingEventNames47"
+      ],
+      "description": "Hot Water Pump 7 Fault"
+    },
+    {
+      "enum": [
+        48,
+        "euHeatingEventNames48"
+      ],
+      "description": "Hot Water Pump 8 Fault"
+    },
+    {
+      "enum": [
+        49,
+        "euHeatingEventNames49"
+      ],
+      "description": "Hot Water Return Temperature High Alarm"
+    },
+    {
+      "enum": [
+        50,
+        "euHeatingEventNames50"
+      ],
+      "description": "Hot Water Return Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        51,
+        "euHeatingEventNames51"
+      ],
+      "description": "Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        52,
+        "euHeatingEventNames52"
+      ],
+      "description": "Load Lock Enable Alarm"
+    },
+    {
+      "enum": [
+        53,
+        "euHeatingEventNames53"
+      ],
+      "description": "Primary Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        54,
+        "euHeatingEventNames54"
+      ],
+      "description": "Primary Circuit 1 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        55,
+        "euHeatingEventNames55"
+      ],
+      "description": "Primary Circuit 2 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        56,
+        "euHeatingEventNames56"
+      ],
+      "description": "Primary Circuit 3 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        57,
+        "euHeatingEventNames57"
+      ],
+      "description": "Primary Circuit 4 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        58,
+        "euHeatingEventNames58"
+      ],
+      "description": "Primary Circuit 5 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        59,
+        "euHeatingEventNames59"
+      ],
+      "description": "Primary Circuit 6 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        60,
+        "euHeatingEventNames60"
+      ],
+      "description": "Primary Circuit 7 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        61,
+        "euHeatingEventNames61"
+      ],
+      "description": "Primary Circuit 8 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        62,
+        "euHeatingEventNames62"
+      ],
+      "description": "Primary Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        63,
+        "euHeatingEventNames63"
+      ],
+      "description": "Primary Circuit 1 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        64,
+        "euHeatingEventNames64"
+      ],
+      "description": "Primary Circuit 2 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        65,
+        "euHeatingEventNames65"
+      ],
+      "description": "Primary Circuit 3 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        66,
+        "euHeatingEventNames66"
+      ],
+      "description": "Primary Circuit 4 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        67,
+        "euHeatingEventNames67"
+      ],
+      "description": "Primary Circuit 5 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        68,
+        "euHeatingEventNames68"
+      ],
+      "description": "Primary Circuit 6 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        69,
+        "euHeatingEventNames69"
+      ],
+      "description": "Primary Circuit 7 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        70,
+        "euHeatingEventNames70"
+      ],
+      "description": "Primary Circuit 8 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        71,
+        "euHeatingEventNames71"
+      ],
+      "description": "Primary Circuit Pump Fault"
+    },
+    {
+      "enum": [
+        72,
+        "euHeatingEventNames72"
+      ],
+      "description": "Primary Circuit 1 Pump Fault"
+    },
+    {
+      "enum": [
+        73,
+        "euHeatingEventNames73"
+      ],
+      "description": "Primary Circuit 2 Pump Fault"
+    },
+    {
+      "enum": [
+        74,
+        "euHeatingEventNames74"
+      ],
+      "description": "Primary Circuit 3 Pump Fault"
+    },
+    {
+      "enum": [
+        75,
+        "euHeatingEventNames75"
+      ],
+      "description": "Primary Circuit 4 Pump Fault"
+    },
+    {
+      "enum": [
+        76,
+        "euHeatingEventNames76"
+      ],
+      "description": "Primary Circuit 5 Pump Fault"
+    },
+    {
+      "enum": [
+        77,
+        "euHeatingEventNames77"
+      ],
+      "description": "Primary Circuit 6 Pump Fault"
+    },
+    {
+      "enum": [
+        78,
+        "euHeatingEventNames78"
+      ],
+      "description": "Primary Circuit 7 Pump Fault"
+    },
+    {
+      "enum": [
+        79,
+        "euHeatingEventNames79"
+      ],
+      "description": "Primary Circuit 8 Pump Fault"
+    },
+    {
+      "enum": [
+        80,
+        "euHeatingEventNames80"
+      ],
+      "description": "Primary Hot Water Pump Fault"
+    },
+    {
+      "enum": [
+        81,
+        "euHeatingEventNames81"
+      ],
+      "description": "Primary Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        82,
+        "euHeatingEventNames82"
+      ],
+      "description": "Primary Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        83,
+        "euHeatingEventNames83"
+      ],
+      "description": "Primary Hot Water Pump 3 Fault"
+    },
+    {
+      "enum": [
+        84,
+        "euHeatingEventNames84"
+      ],
+      "description": "Primary Hot Water Pump 4 Fault"
+    },
+    {
+      "enum": [
+        85,
+        "euHeatingEventNames85"
+      ],
+      "description": "Primary Hot Water Pump 5 Fault"
+    },
+    {
+      "enum": [
+        86,
+        "euHeatingEventNames86"
+      ],
+      "description": "Primary Hot Water Pump 6 Fault"
+    },
+    {
+      "enum": [
+        87,
+        "euHeatingEventNames87"
+      ],
+      "description": "Primary Hot Water Pump 7 Fault"
+    },
+    {
+      "enum": [
+        88,
+        "euHeatingEventNames88"
+      ],
+      "description": "Primary Hot Water Pump 8 Fault"
+    },
+    {
+      "enum": [
+        89,
+        "euHeatingEventNames89"
+      ],
+      "description": "Secondary Circuit Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        90,
+        "euHeatingEventNames90"
+      ],
+      "description": "Secondary Circuit 1 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        91,
+        "euHeatingEventNames91"
+      ],
+      "description": "Secondary Circuit 2 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        92,
+        "euHeatingEventNames92"
+      ],
+      "description": "Secondary Circuit 3 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        93,
+        "euHeatingEventNames93"
+      ],
+      "description": "Secondary Circuit 4 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        94,
+        "euHeatingEventNames94"
+      ],
+      "description": "Secondary Circuit 5 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        95,
+        "euHeatingEventNames95"
+      ],
+      "description": "Secondary Circuit 6 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        96,
+        "euHeatingEventNames96"
+      ],
+      "description": "Secondary Circuit 7 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        97,
+        "euHeatingEventNames97"
+      ],
+      "description": "Secondary Circuit 8 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        98,
+        "euHeatingEventNames98"
+      ],
+      "description": "Secondary Circuit Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        99,
+        "euHeatingEventNames99"
+      ],
+      "description": "Secondary Circuit 1 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        100,
+        "euHeatingEventNames100"
+      ],
+      "description": "Secondary Circuit 2 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        101,
+        "euHeatingEventNames101"
+      ],
+      "description": "Secondary Circuit 3 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        102,
+        "euHeatingEventNames102"
+      ],
+      "description": "Secondary Circuit 4 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        103,
+        "euHeatingEventNames103"
+      ],
+      "description": "Secondary Circuit 5 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        104,
+        "euHeatingEventNames104"
+      ],
+      "description": "Secondary Circuit 6 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        105,
+        "euHeatingEventNames105"
+      ],
+      "description": "Secondary Circuit 7 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        106,
+        "euHeatingEventNames106"
+      ],
+      "description": "Secondary Circuit 8 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        107,
+        "euHeatingEventNames107"
+      ],
+      "description": "Secondary Circuit Pump Fault"
+    },
+    {
+      "enum": [
+        108,
+        "euHeatingEventNames108"
+      ],
+      "description": "Secondary Circuit 1 Pump Fault"
+    },
+    {
+      "enum": [
+        109,
+        "euHeatingEventNames109"
+      ],
+      "description": "Secondary Circuit 2 Pump Fault"
+    },
+    {
+      "enum": [
+        110,
+        "euHeatingEventNames110"
+      ],
+      "description": "Secondary Circuit 3 Pump Fault"
+    },
+    {
+      "enum": [
+        111,
+        "euHeatingEventNames111"
+      ],
+      "description": "Secondary Circuit 4 Pump Fault"
+    },
+    {
+      "enum": [
+        112,
+        "euHeatingEventNames112"
+      ],
+      "description": "Secondary Circuit 5 Pump Fault"
+    },
+    {
+      "enum": [
+        113,
+        "euHeatingEventNames113"
+      ],
+      "description": "Secondary Circuit 6 Pump Fault"
+    },
+    {
+      "enum": [
+        114,
+        "euHeatingEventNames114"
+      ],
+      "description": "Secondary Circuit 7 Pump Fault"
+    },
+    {
+      "enum": [
+        115,
+        "euHeatingEventNames115"
+      ],
+      "description": "Secondary Circuit 8 Pump Fault"
+    },
+    {
+      "enum": [
+        116,
+        "euHeatingEventNames116"
+      ],
+      "description": "Zone Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        117,
+        "euHeatingEventNames117"
+      ],
+      "description": "Zone 1 Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        118,
+        "euHeatingEventNames118"
+      ],
+      "description": "Zone 2 Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        119,
+        "euHeatingEventNames119"
+      ],
+      "description": "Zone 3 Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        120,
+        "euHeatingEventNames120"
+      ],
+      "description": "Zone 4 Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        121,
+        "euHeatingEventNames121"
+      ],
+      "description": "Zone 5 Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        122,
+        "euHeatingEventNames122"
+      ],
+      "description": "Zone 6 Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        123,
+        "euHeatingEventNames123"
+      ],
+      "description": "Zone 7 Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        124,
+        "euHeatingEventNames124"
+      ],
+      "description": "Zone 8 Hot Water Pump 1 Fault"
+    },
+    {
+      "enum": [
+        125,
+        "euHeatingEventNames125"
+      ],
+      "description": "Zone Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        126,
+        "euHeatingEventNames126"
+      ],
+      "description": "Zone 1 Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        127,
+        "euHeatingEventNames127"
+      ],
+      "description": "Zone 2 Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        128,
+        "euHeatingEventNames128"
+      ],
+      "description": "Zone 3 Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        129,
+        "euHeatingEventNames129"
+      ],
+      "description": "Zone 4 Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        130,
+        "euHeatingEventNames130"
+      ],
+      "description": "Zone 5 Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        131,
+        "euHeatingEventNames131"
+      ],
+      "description": "Zone 6 Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        132,
+        "euHeatingEventNames132"
+      ],
+      "description": "Zone 7 Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        133,
+        "euHeatingEventNames133"
+      ],
+      "description": "Zone 8 Hot Water Pump 2 Fault"
+    },
+    {
+      "enum": [
+        134,
+        "euHeatingEventNames134"
+      ],
+      "description": "Zone Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        135,
+        "euHeatingEventNames135"
+      ],
+      "description": "Zone 1 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        136,
+        "euHeatingEventNames136"
+      ],
+      "description": "Zone 2 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        137,
+        "euHeatingEventNames137"
+      ],
+      "description": "Zone 3 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        138,
+        "euHeatingEventNames138"
+      ],
+      "description": "Zone 4 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        139,
+        "euHeatingEventNames139"
+      ],
+      "description": "Zone 5 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        140,
+        "euHeatingEventNames140"
+      ],
+      "description": "Zone 6 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        141,
+        "euHeatingEventNames141"
+      ],
+      "description": "Zone 7 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        142,
+        "euHeatingEventNames142"
+      ],
+      "description": "Zone 8 Hot Water Supply Temperature High Alarm"
+    },
+    {
+      "enum": [
+        143,
+        "euHeatingEventNames143"
+      ],
+      "description": "Zone Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        144,
+        "euHeatingEventNames144"
+      ],
+      "description": "Zone 1 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        145,
+        "euHeatingEventNames145"
+      ],
+      "description": "Zone 2 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        146,
+        "euHeatingEventNames146"
+      ],
+      "description": "Zone 3 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        147,
+        "euHeatingEventNames147"
+      ],
+      "description": "Zone 4 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        148,
+        "euHeatingEventNames148"
+      ],
+      "description": "Zone 5 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        149,
+        "euHeatingEventNames149"
+      ],
+      "description": "Zone 6 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        150,
+        "euHeatingEventNames150"
+      ],
+      "description": "Zone 7 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        151,
+        "euHeatingEventNames151"
+      ],
+      "description": "Zone 8 Hot Water Supply Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        152,
+        "euHeatingEventNames152"
+      ],
+      "description": "Primary Hot Water Pump Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        153,
+        "euHeatingEventNames153"
+      ],
+      "description": "Primary Hot Water Pump 1 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        154,
+        "euHeatingEventNames154"
+      ],
+      "description": "Primary Hot Water Pump 2 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        155,
+        "euHeatingEventNames155"
+      ],
+      "description": "Primary Hot Water Pump 3 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        156,
+        "euHeatingEventNames156"
+      ],
+      "description": "Primary Hot Water Pump 4 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        157,
+        "euHeatingEventNames157"
+      ],
+      "description": "Primary Hot Water Pump 5 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        158,
+        "euHeatingEventNames158"
+      ],
+      "description": "Primary Hot Water Pump 6 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        159,
+        "euHeatingEventNames159"
+      ],
+      "description": "Primary Hot Water Pump 7 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        160,
+        "euHeatingEventNames160"
+      ],
+      "description": "Primary Hot Water Pump 8 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        161,
+        "euHeatingEventNames161"
+      ],
+      "description": "Boiler Pump Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        162,
+        "euHeatingEventNames162"
+      ],
+      "description": "Boiler Pump 1 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        163,
+        "euHeatingEventNames163"
+      ],
+      "description": "Boiler Pump 2 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        164,
+        "euHeatingEventNames164"
+      ],
+      "description": "Boiler Pump 3 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        165,
+        "euHeatingEventNames165"
+      ],
+      "description": "Boiler Pump 4 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        166,
+        "euHeatingEventNames166"
+      ],
+      "description": "Boiler Pump 5 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        167,
+        "euHeatingEventNames167"
+      ],
+      "description": "Boiler Pump 6 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        168,
+        "euHeatingEventNames168"
+      ],
+      "description": "Boiler Pump 7 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        169,
+        "euHeatingEventNames169"
+      ],
+      "description": "Boiler Pump 8 Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        170,
+        "euHeatingEventNames170"
+      ],
+      "description": "Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        171,
+        "euHeatingEventNames171"
+      ],
+      "description": "Hot Water Loop Pressure High Alarm"
+    },
+    {
+      "enum": [
+        172,
+        "euHeatingEventNames172"
+      ],
+      "description": "Hot Water Loop Pressure Low Alarm"
+    }
+  ]
+}

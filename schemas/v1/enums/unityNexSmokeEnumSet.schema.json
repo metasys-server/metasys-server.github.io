@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexSmokeEnumSet.schema.json",
+  "title": "unityNexSmokeEnumSet",
+  "description": "Unity NEX Smoke",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Smoke"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Clear"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Smoke"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Clear"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Trouble"
+    }
+  ]
+}

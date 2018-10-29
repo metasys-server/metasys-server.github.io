@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/globalTimeSyncTypeEnumSet.schema.json",
+  "title": "globalTimeSyncTypeEnumSet",
+  "description": "Global Time Sync Type Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "gtstUtc"
+      ],
+      "description": "UTC"
+    },
+    {
+      "enum": [
+        1,
+        "gtstLocal"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        2,
+        "gtstBoth"
+      ],
+      "description": "Both"
+    }
+  ]
+}

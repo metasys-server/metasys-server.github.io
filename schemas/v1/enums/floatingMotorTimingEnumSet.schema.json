@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/floatingMotorTimingEnumSet.schema.json",
+  "title": "floatingMotorTimingEnumSet",
+  "description": "Floating Motor Timing",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "0.5 minutes"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "1 minutes"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "1.5 minutes"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "2 minutes"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "2.5 minutes"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "3 minutes"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "3.5 minutes"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "4 minutes"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "4.5 minutes"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "5 minutes"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "5.5 minutes"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "6 minutes"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "6.5 minutes"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "7 minutes"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "7.5 minutes"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "8 minutes"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "8.5 minutes"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "9 minutes"
+    }
+  ]
+}

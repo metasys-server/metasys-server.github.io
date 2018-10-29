@@ -1,0 +1,358 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtHvacOveridEnumSet.schema.json",
+  "title": "snvtHvacOveridEnumSet",
+  "description": "SNVT HVAC Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hvacOveridHvoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hvacOveridHvoPosition"
+      ],
+      "description": "Position"
+    },
+    {
+      "enum": [
+        2,
+        "hvacOveridHvoFlowValue"
+      ],
+      "description": "Flow Value"
+    },
+    {
+      "enum": [
+        3,
+        "hvacOveridHvoFlowPercent"
+      ],
+      "description": "Flow Percent"
+    },
+    {
+      "enum": [
+        4,
+        "hvacOveridHvoOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        5,
+        "hvacOveridHvoClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        6,
+        "hvacOveridHvoMinimum"
+      ],
+      "description": "Minimum"
+    },
+    {
+      "enum": [
+        7,
+        "hvacOveridHvoMaximum"
+      ],
+      "description": "Maximum"
+    },
+    {
+      "enum": [
+        8,
+        "hvacOveridHvo8"
+      ],
+      "description": "Unused 8"
+    },
+    {
+      "enum": [
+        9,
+        "hvacOveridHvo9"
+      ],
+      "description": "Unused 9"
+    },
+    {
+      "enum": [
+        10,
+        "hvacOveridHvo10"
+      ],
+      "description": "Unused 10"
+    },
+    {
+      "enum": [
+        11,
+        "hvacOveridHvo11"
+      ],
+      "description": "Unused 11"
+    },
+    {
+      "enum": [
+        12,
+        "hvacOveridHvo12"
+      ],
+      "description": "Unused 12"
+    },
+    {
+      "enum": [
+        13,
+        "hvacOveridHvo13"
+      ],
+      "description": "Unused 13"
+    },
+    {
+      "enum": [
+        14,
+        "hvacOveridHvo14"
+      ],
+      "description": "Unused 14"
+    },
+    {
+      "enum": [
+        15,
+        "hvacOveridHvo15"
+      ],
+      "description": "Unused 15"
+    },
+    {
+      "enum": [
+        16,
+        "hvacOveridHvo16"
+      ],
+      "description": "Unused 16"
+    },
+    {
+      "enum": [
+        17,
+        "hvacOveridHvoPosition1"
+      ],
+      "description": "Position 1"
+    },
+    {
+      "enum": [
+        18,
+        "hvacOveridHvoFlowValue1"
+      ],
+      "description": "Flow Value 1"
+    },
+    {
+      "enum": [
+        19,
+        "hvacOveridHvoFlowPercent1"
+      ],
+      "description": "Flow Percent 1"
+    },
+    {
+      "enum": [
+        20,
+        "hvacOveridHvoOpen1"
+      ],
+      "description": "Open 1"
+    },
+    {
+      "enum": [
+        21,
+        "hvacOveridHvoClose1"
+      ],
+      "description": "Close 1"
+    },
+    {
+      "enum": [
+        22,
+        "hvacOveridHvoMinimum1"
+      ],
+      "description": "Minimum 1"
+    },
+    {
+      "enum": [
+        23,
+        "hvacOveridHvoMaximum1"
+      ],
+      "description": "Maximum 1"
+    },
+    {
+      "enum": [
+        24,
+        "hvacOveridHvo24"
+      ],
+      "description": "Unused 24"
+    },
+    {
+      "enum": [
+        25,
+        "hvacOveridHvo25"
+      ],
+      "description": "Unused 25"
+    },
+    {
+      "enum": [
+        26,
+        "hvacOveridHvo26"
+      ],
+      "description": "Unused 26"
+    },
+    {
+      "enum": [
+        27,
+        "hvacOveridHvo27"
+      ],
+      "description": "Unused 27"
+    },
+    {
+      "enum": [
+        28,
+        "hvacOveridHvo28"
+      ],
+      "description": "Unused 28"
+    },
+    {
+      "enum": [
+        29,
+        "hvacOveridHvo29"
+      ],
+      "description": "Unused 29"
+    },
+    {
+      "enum": [
+        30,
+        "hvacOveridHvo30"
+      ],
+      "description": "Unused 30"
+    },
+    {
+      "enum": [
+        31,
+        "hvacOveridHvo31"
+      ],
+      "description": "Unused 31"
+    },
+    {
+      "enum": [
+        32,
+        "hvacOveridHvo32"
+      ],
+      "description": "Unused 32"
+    },
+    {
+      "enum": [
+        33,
+        "hvacOveridHvoPosition2"
+      ],
+      "description": "Position 2"
+    },
+    {
+      "enum": [
+        34,
+        "hvacOveridHvoFlowValue2"
+      ],
+      "description": "Flow Value 2"
+    },
+    {
+      "enum": [
+        35,
+        "hvacOveridHvoFlowPercent2"
+      ],
+      "description": "Flow Percent 2"
+    },
+    {
+      "enum": [
+        36,
+        "hvacOveridHvoOpen2"
+      ],
+      "description": "Open 2"
+    },
+    {
+      "enum": [
+        37,
+        "hvacOveridHvoClose2"
+      ],
+      "description": "Close 2"
+    },
+    {
+      "enum": [
+        38,
+        "hvacOveridHvoMinimum2"
+      ],
+      "description": "Minimum 2"
+    },
+    {
+      "enum": [
+        39,
+        "hvacOveridHvoMaximum2"
+      ],
+      "description": "Maximum 2"
+    },
+    {
+      "enum": [
+        40,
+        "hvacOveridHvo40"
+      ],
+      "description": "Unused 40"
+    },
+    {
+      "enum": [
+        41,
+        "hvacOveridHvo41"
+      ],
+      "description": "Unused 41"
+    },
+    {
+      "enum": [
+        42,
+        "hvacOveridHvo42"
+      ],
+      "description": "Unused 42"
+    },
+    {
+      "enum": [
+        43,
+        "hvacOveridHvo43"
+      ],
+      "description": "Unused 43"
+    },
+    {
+      "enum": [
+        44,
+        "hvacOveridHvo44"
+      ],
+      "description": "Unused 44"
+    },
+    {
+      "enum": [
+        45,
+        "hvacOveridHvo45"
+      ],
+      "description": "Unused 45"
+    },
+    {
+      "enum": [
+        46,
+        "hvacOveridHvo46"
+      ],
+      "description": "Unused 46"
+    },
+    {
+      "enum": [
+        47,
+        "hvacOveridHvo47"
+      ],
+      "description": "Unused 47"
+    },
+    {
+      "enum": [
+        48,
+        "hvacOveridHvo48"
+      ],
+      "description": "Unused 48"
+    },
+    {
+      "enum": [
+        255,
+        "hvacOveridHvoNull"
+      ],
+      "description": "Null"
+    }
+  ]
+}

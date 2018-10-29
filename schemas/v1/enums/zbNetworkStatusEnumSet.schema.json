@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/zbNetworkStatusEnumSet.schema.json",
+  "title": "zbNetworkStatusEnumSet",
+  "description": "Wireless Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "zbNetworkStatusNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "zbNetworkStatusLostCoordinator"
+      ],
+      "description": "Lost Coordinator"
+    },
+    {
+      "enum": [
+        2,
+        "zbNetworkStatusReforming"
+      ],
+      "description": "Network Reforming"
+    },
+    {
+      "enum": [
+        3,
+        "zbNetworkStatusSingleNeighbor"
+      ],
+      "description": "Single Neighbor"
+    },
+    {
+      "enum": [
+        4,
+        "zbNetworkStatusDuplicateDeviceAddress"
+      ],
+      "description": "Duplicate Address"
+    },
+    {
+      "enum": [
+        5,
+        "zbNetworkStatusInvalidPan"
+      ],
+      "description": "Invalid PAN ID"
+    },
+    {
+      "enum": [
+        6,
+        "zbNetworkStatusWeakPath"
+      ],
+      "description": "Weak Route"
+    },
+    {
+      "enum": [
+        7,
+        "zbNetworkStatusNoNeighbors"
+      ],
+      "description": "No Neighbors"
+    }
+  ]
+}

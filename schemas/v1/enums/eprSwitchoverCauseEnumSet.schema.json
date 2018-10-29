@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eprSwitchoverCauseEnumSet.schema.json",
+  "title": "eprSwitchoverCauseEnumSet",
+  "description": "EPR SwitchOver Cause",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "eprSwitchoverCauseNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "eprSwitchoverCauseUsePreferredChannel"
+      ],
+      "description": "Use Preferred Channel"
+    },
+    {
+      "enum": [
+        2,
+        "eprSwitchoverCausePreferredChannelDown"
+      ],
+      "description": "Preferred Channel Down"
+    },
+    {
+      "enum": [
+        3,
+        "eprSwitchoverCauseRevertedBackToPreferredChannel"
+      ],
+      "description": "Reverted Back to Preferred Channel"
+    },
+    {
+      "enum": [
+        4,
+        "eprSwitchoverCauseActiveChannelFailure"
+      ],
+      "description": "Active Channel Failure"
+    },
+    {
+      "enum": [
+        5,
+        "eprSwitchoverCauseOperatorInitiated"
+      ],
+      "description": "Operator Initiated"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/angularMeasurementEnumSet.schema.json",
+  "title": "angularMeasurementEnumSet",
+  "description": "Angular Measurement",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Degrees"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Radians"
+    }
+  ]
+}

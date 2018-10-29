@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hpZncStatesEnumSet.schema.json",
+  "title": "hpZncStatesEnumSet",
+  "description": "HP ZNC States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hpzncHtg"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        1,
+        "hpzncSupplementalHtg"
+      ],
+      "description": "Supplemental Heating"
+    },
+    {
+      "enum": [
+        2,
+        "hpzncSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        3,
+        "hpzncEcon"
+      ],
+      "description": "Economizer"
+    },
+    {
+      "enum": [
+        4,
+        "hpzncEconAndClg"
+      ],
+      "description": "Economizer + Cooling"
+    },
+    {
+      "enum": [
+        5,
+        "hpzncClg"
+      ],
+      "description": "Cooling Only"
+    },
+    {
+      "enum": [
+        6,
+        "hpzncDallEcon"
+      ],
+      "description": "DALL Economizer"
+    },
+    {
+      "enum": [
+        7,
+        "hpzncZoneTUnrel"
+      ],
+      "description": "Zone Temperature Unreliable"
+    }
+  ]
+}

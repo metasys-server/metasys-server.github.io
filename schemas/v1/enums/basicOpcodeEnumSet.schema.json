@@ -1,0 +1,610 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/basicOpcodeEnumSet.schema.json",
+  "title": "basicOpcodeEnumSet",
+  "description": "Basic OpCode",
+  "oneOf": [
+    {
+      "enum": [
+        129,
+        "opPws"
+      ],
+      "description": "PWS"
+    },
+    {
+      "enum": [
+        133,
+        "opAbshumid"
+      ],
+      "description": "ABSHUMID"
+    },
+    {
+      "enum": [
+        134,
+        "opDewpoint"
+      ],
+      "description": "DEWPOINT"
+    },
+    {
+      "enum": [
+        135,
+        "opEnthalpy"
+      ],
+      "description": "ENTHALPY"
+    },
+    {
+      "enum": [
+        136,
+        "opRelhumid"
+      ],
+      "description": "RELHUMID"
+    },
+    {
+      "enum": [
+        137,
+        "opWetbulb"
+      ],
+      "description": "WETBULB"
+    },
+    {
+      "enum": [
+        138,
+        "opAtan"
+      ],
+      "description": "ATAN"
+    },
+    {
+      "enum": [
+        139,
+        "opAcos"
+      ],
+      "description": "ACOS"
+    },
+    {
+      "enum": [
+        140,
+        "opAsin"
+      ],
+      "description": "ASIN"
+    },
+    {
+      "enum": [
+        141,
+        "opTan"
+      ],
+      "description": "TAN"
+    },
+    {
+      "enum": [
+        142,
+        "opCos"
+      ],
+      "description": "COS"
+    },
+    {
+      "enum": [
+        143,
+        "opSin"
+      ],
+      "description": "SIN"
+    },
+    {
+      "enum": [
+        144,
+        "opRestart"
+      ],
+      "description": "RESTART"
+    },
+    {
+      "enum": [
+        145,
+        "opCompenum"
+      ],
+      "description": "COMPENUM"
+    },
+    {
+      "enum": [
+        163,
+        "opCompnull"
+      ],
+      "description": "COMPNULL"
+    },
+    {
+      "enum": [
+        164,
+        "opWritelog"
+      ],
+      "description": "WRITELOG"
+    },
+    {
+      "enum": [
+        165,
+        "opWritearray"
+      ],
+      "description": "WRITEARRAY"
+    },
+    {
+      "enum": [
+        166,
+        "opReadarray"
+      ],
+      "description": "READARRAY"
+    },
+    {
+      "enum": [
+        167,
+        "opClearlog"
+      ],
+      "description": "CLEARLOG"
+    },
+    {
+      "enum": [
+        168,
+        "opPriority"
+      ],
+      "description": "PRIORITY"
+    },
+    {
+      "enum": [
+        169,
+        "opLogerror"
+      ],
+      "description": "LOGERROR"
+    },
+    {
+      "enum": [
+        170,
+        "opError"
+      ],
+      "description": "ERROR"
+    },
+    {
+      "enum": [
+        171,
+        "opChkers"
+      ],
+      "description": "CHKERS"
+    },
+    {
+      "enum": [
+        172,
+        "opResumen"
+      ],
+      "description": "RESUMEN"
+    },
+    {
+      "enum": [
+        173,
+        "opResume"
+      ],
+      "description": "RESUME"
+    },
+    {
+      "enum": [
+        174,
+        "opSettrap"
+      ],
+      "description": "SETTRAP"
+    },
+    {
+      "enum": [
+        175,
+        "opErr"
+      ],
+      "description": "ERR"
+    },
+    {
+      "enum": [
+        176,
+        "opDelta"
+      ],
+      "description": "DELTA"
+    },
+    {
+      "enum": [
+        177,
+        "opTrigger"
+      ],
+      "description": "TRIGGER"
+    },
+    {
+      "enum": [
+        178,
+        "opExecute"
+      ],
+      "description": "EXECUTE"
+    },
+    {
+      "enum": [
+        180,
+        "opCmd"
+      ],
+      "description": "CMD"
+    },
+    {
+      "enum": [
+        181,
+        "opOwnwrite"
+      ],
+      "description": "OWNWRITE"
+    },
+    {
+      "enum": [
+        183,
+        "opWrite"
+      ],
+      "description": "WRITE"
+    },
+    {
+      "enum": [
+        185,
+        "opRead"
+      ],
+      "description": "READ"
+    },
+    {
+      "enum": [
+        186,
+        "opEquta"
+      ],
+      "description": "EQUTA"
+    },
+    {
+      "enum": [
+        187,
+        "opEqufa"
+      ],
+      "description": "EQUFA"
+    },
+    {
+      "enum": [
+        188,
+        "opWait"
+      ],
+      "description": "WAIT"
+    },
+    {
+      "enum": [
+        189,
+        "opStop"
+      ],
+      "description": "STOP"
+    },
+    {
+      "enum": [
+        190,
+        "opJmp"
+      ],
+      "description": "JMP"
+    },
+    {
+      "enum": [
+        191,
+        "opOngoto"
+      ],
+      "description": "ONGOTO"
+    },
+    {
+      "enum": [
+        206,
+        "opCnjmp"
+      ],
+      "description": "CNJMP"
+    },
+    {
+      "enum": [
+        207,
+        "opCjmp"
+      ],
+      "description": "CJMP"
+    },
+    {
+      "enum": [
+        211,
+        "opBitnot"
+      ],
+      "description": "BITNOT"
+    },
+    {
+      "enum": [
+        212,
+        "opBitxor"
+      ],
+      "description": "BITXOR"
+    },
+    {
+      "enum": [
+        213,
+        "opBitor"
+      ],
+      "description": "BITOR"
+    },
+    {
+      "enum": [
+        214,
+        "opBitand"
+      ],
+      "description": "BITAND"
+    },
+    {
+      "enum": [
+        215,
+        "opBcm"
+      ],
+      "description": "BCM"
+    },
+    {
+      "enum": [
+        216,
+        "opPower"
+      ],
+      "description": "PWR"
+    },
+    {
+      "enum": [
+        217,
+        "opRetg"
+      ],
+      "description": "RETG"
+    },
+    {
+      "enum": [
+        218,
+        "opRet"
+      ],
+      "description": "RET"
+    },
+    {
+      "enum": [
+        219,
+        "opOngoinline"
+      ],
+      "description": "ONGOINLINE"
+    },
+    {
+      "enum": [
+        220,
+        "opGoinline"
+      ],
+      "description": "GOINLINE"
+    },
+    {
+      "enum": [
+        221,
+        "opGosub"
+      ],
+      "description": "GOSUB"
+    },
+    {
+      "enum": [
+        222,
+        "opGogsub"
+      ],
+      "description": "GOGSUB"
+    },
+    {
+      "enum": [
+        223,
+        "opDefsub"
+      ],
+      "description": "DEFSUB"
+    },
+    {
+      "enum": [
+        224,
+        "opNeg"
+      ],
+      "description": "NEG"
+    },
+    {
+      "enum": [
+        225,
+        "opComps"
+      ],
+      "description": "COMPS"
+    },
+    {
+      "enum": [
+        227,
+        "opSel4B"
+      ],
+      "description": "SEL4B"
+    },
+    {
+      "enum": [
+        228,
+        "opSub"
+      ],
+      "description": "SUB"
+    },
+    {
+      "enum": [
+        229,
+        "opSqrt"
+      ],
+      "description": "SQRT"
+    },
+    {
+      "enum": [
+        230,
+        "opMul"
+      ],
+      "description": "MUL"
+    },
+    {
+      "enum": [
+        231,
+        "opMin"
+      ],
+      "description": "MIN"
+    },
+    {
+      "enum": [
+        232,
+        "opMax"
+      ],
+      "description": "MAX"
+    },
+    {
+      "enum": [
+        233,
+        "opInc"
+      ],
+      "description": "INC"
+    },
+    {
+      "enum": [
+        234,
+        "opDiv"
+      ],
+      "description": "DIV"
+    },
+    {
+      "enum": [
+        235,
+        "opDec"
+      ],
+      "description": "DEC"
+    },
+    {
+      "enum": [
+        236,
+        "opConv"
+      ],
+      "description": "CONV"
+    },
+    {
+      "enum": [
+        237,
+        "opAve"
+      ],
+      "description": "AVE"
+    },
+    {
+      "enum": [
+        238,
+        "opAdd"
+      ],
+      "description": "ADD"
+    },
+    {
+      "enum": [
+        239,
+        "opAbs"
+      ],
+      "description": "ABS"
+    },
+    {
+      "enum": [
+        240,
+        "opSpan"
+      ],
+      "description": "SPAN"
+    },
+    {
+      "enum": [
+        241,
+        "opSel2B"
+      ],
+      "description": "SEL2B"
+    },
+    {
+      "enum": [
+        242,
+        "opSel2"
+      ],
+      "description": "SEL2"
+    },
+    {
+      "enum": [
+        243,
+        "opSel4"
+      ],
+      "description": "SEL4"
+    },
+    {
+      "enum": [
+        244,
+        "opSeg"
+      ],
+      "description": "SEG"
+    },
+    {
+      "enum": [
+        245,
+        "opFlow"
+      ],
+      "description": "FLOW"
+    },
+    {
+      "enum": [
+        246,
+        "opEqub"
+      ],
+      "description": "EQUB"
+    },
+    {
+      "enum": [
+        247,
+        "opEqu"
+      ],
+      "description": "EQU"
+    },
+    {
+      "enum": [
+        248,
+        "opComp"
+      ],
+      "description": "COMP"
+    },
+    {
+      "enum": [
+        249,
+        "opSet"
+      ],
+      "description": "SET"
+    },
+    {
+      "enum": [
+        250,
+        "opOr"
+      ],
+      "description": "OR"
+    },
+    {
+      "enum": [
+        251,
+        "opNot"
+      ],
+      "description": "NOT"
+    },
+    {
+      "enum": [
+        252,
+        "opXor"
+      ],
+      "description": "XOR"
+    },
+    {
+      "enum": [
+        253,
+        "opClr"
+      ],
+      "description": "CLR"
+    },
+    {
+      "enum": [
+        254,
+        "opAnd"
+      ],
+      "description": "AND"
+    },
+    {
+      "enum": [
+        255,
+        "opEnd"
+      ],
+      "description": "END"
+    }
+  ]
+}

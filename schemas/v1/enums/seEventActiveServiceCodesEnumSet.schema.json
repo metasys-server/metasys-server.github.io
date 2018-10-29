@@ -1,0 +1,2024 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEventActiveServiceCodesEnumSet.schema.json",
+  "title": "seEventActiveServiceCodesEnumSet",
+  "description": "SE Event Active Service Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEventActiveServiceCodeUndefined"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEventActiveCodeReboot"
+      ],
+      "description": "Reboot"
+    },
+    {
+      "enum": [
+        100,
+        "seEventActiveServiceCode100"
+      ],
+      "description": "Econ Not Economizing When It Should"
+    },
+    {
+      "enum": [
+        101,
+        "seEventActiveServiceCode101"
+      ],
+      "description": "Econ Economizing When It Should Not"
+    },
+    {
+      "enum": [
+        102,
+        "seEventActiveServiceCode102"
+      ],
+      "description": "Economizer Damper Not Modulating"
+    },
+    {
+      "enum": [
+        103,
+        "seEventActiveServiceCode103"
+      ],
+      "description": "Economizer Letting In Excess Outdoor Air"
+    },
+    {
+      "enum": [
+        104,
+        "seEventActiveServiceCode104"
+      ],
+      "description": "Duct Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        105,
+        "seEventActiveServiceCode105"
+      ],
+      "description": "Return Air Humidity Sensor Failure"
+    },
+    {
+      "enum": [
+        106,
+        "seEventActiveServiceCode106"
+      ],
+      "description": "Outdoor Air Humidity Sensor Failure"
+    },
+    {
+      "enum": [
+        107,
+        "seEventActiveServiceCode107"
+      ],
+      "description": "Supply Humidity Sensor Failure"
+    },
+    {
+      "enum": [
+        108,
+        "seEventActiveServiceCode108"
+      ],
+      "description": "Indoor Air Quality Sensor Failure"
+    },
+    {
+      "enum": [
+        109,
+        "seEventActiveServiceCode109"
+      ],
+      "description": "Outdoor Air Quality Sensor Failure"
+    },
+    {
+      "enum": [
+        110,
+        "seEventActiveServiceCode110"
+      ],
+      "description": "Fresh Air Intake Sensor Failure"
+    },
+    {
+      "enum": [
+        111,
+        "seEventActiveServiceCode111"
+      ],
+      "description": "Mixed Air Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        112,
+        "seEventActiveServiceCode112"
+      ],
+      "description": "Space Indoor Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        113,
+        "seEventActiveServiceCode113"
+      ],
+      "description": "Space Offset Sensor Failure"
+    },
+    {
+      "enum": [
+        114,
+        "seEventActiveServiceCode114"
+      ],
+      "description": "C1 Liquid Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        115,
+        "seEventActiveServiceCode115"
+      ],
+      "description": "C1 Suction Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        116,
+        "seEventActiveServiceCode116"
+      ],
+      "description": "C1 Evap Saturation Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        117,
+        "seEventActiveServiceCode117"
+      ],
+      "description": "C1 Cond Saturation Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        118,
+        "seEventActiveServiceCode118"
+      ],
+      "description": "C2 Liquid Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        119,
+        "seEventActiveServiceCode119"
+      ],
+      "description": "C2 Suction Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        120,
+        "seEventActiveServiceCode120"
+      ],
+      "description": "C2 Evap Saturation Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        121,
+        "seEventActiveServiceCode121"
+      ],
+      "description": "C2 Cond Saturation Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        122,
+        "seEventActiveServiceCode122"
+      ],
+      "description": "C3 Liquid Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        123,
+        "seEventActiveServiceCode123"
+      ],
+      "description": "C3 Suction Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        124,
+        "seEventActiveServiceCode124"
+      ],
+      "description": "C3 Evap Saturation Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        125,
+        "seEventActiveServiceCode125"
+      ],
+      "description": "C3 Cond Saturation Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        126,
+        "seEventActiveServiceCode126"
+      ],
+      "description": "C4 Liquid Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        127,
+        "seEventActiveServiceCode127"
+      ],
+      "description": "C4 Suction Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        128,
+        "seEventActiveServiceCode128"
+      ],
+      "description": "C4 Evap Saturation Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        129,
+        "seEventActiveServiceCode129"
+      ],
+      "description": "C4 Cond Saturation Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        130,
+        "seEventActiveServiceCode130"
+      ],
+      "description": "Air Proving Switch is Stuck Closed"
+    },
+    {
+      "enum": [
+        131,
+        "seEventActiveServiceCode131"
+      ],
+      "description": "Duplicate MSTP Address - No Comm"
+    },
+    {
+      "enum": [
+        132,
+        "seEventActiveServiceCode132"
+      ],
+      "description": "C1 Shutdown Due to High Pressure"
+    },
+    {
+      "enum": [
+        133,
+        "seEventActiveServiceCode133"
+      ],
+      "description": "C2 Shutdown Due to High Pressure"
+    },
+    {
+      "enum": [
+        134,
+        "seEventActiveServiceCode134"
+      ],
+      "description": "C3 Shutdown Due to High Pressure"
+    },
+    {
+      "enum": [
+        135,
+        "seEventActiveServiceCode135"
+      ],
+      "description": "C4 Shutdown Due to High Pressure"
+    },
+    {
+      "enum": [
+        136,
+        "seEventActiveServiceCode136"
+      ],
+      "description": "C1 Shutdown Due to Low Pressure"
+    },
+    {
+      "enum": [
+        137,
+        "seEventActiveServiceCode137"
+      ],
+      "description": "C2 Shutdown Due to Low Pressure"
+    },
+    {
+      "enum": [
+        138,
+        "seEventActiveServiceCode138"
+      ],
+      "description": "C3 Shutdown Due to Low Pressure"
+    },
+    {
+      "enum": [
+        139,
+        "seEventActiveServiceCode139"
+      ],
+      "description": "C4 Shutdown Due to Low Pressure"
+    },
+    {
+      "enum": [
+        140,
+        "seEventActiveServiceCode140"
+      ],
+      "description": "C1 Shutdown Due to Coil Freeze"
+    },
+    {
+      "enum": [
+        141,
+        "seEventActiveServiceCode141"
+      ],
+      "description": "C2 Shutdown Due to Coil Freeze"
+    },
+    {
+      "enum": [
+        142,
+        "seEventActiveServiceCode142"
+      ],
+      "description": "C3 Shutdown Due to Coil Freeze"
+    },
+    {
+      "enum": [
+        143,
+        "seEventActiveServiceCode143"
+      ],
+      "description": "C4 Shutdown Due to Coil Freeze"
+    },
+    {
+      "enum": [
+        144,
+        "seEventActiveServiceCode144"
+      ],
+      "description": "Excessive Supply Air Temp Cooling"
+    },
+    {
+      "enum": [
+        145,
+        "seEventActiveServiceCode145"
+      ],
+      "description": "Low Outdoor Air Temp Cooling Cutout"
+    },
+    {
+      "enum": [
+        146,
+        "seEventActiveServiceCode146"
+      ],
+      "description": "Not Economizing - No Outdoor Air Sensor"
+    },
+    {
+      "enum": [
+        147,
+        "seEventActiveServiceCode147"
+      ],
+      "description": "Not Economizing - No Supply Air Sensor"
+    },
+    {
+      "enum": [
+        148,
+        "seEventActiveServiceCode148"
+      ],
+      "description": "Excess Outdoor Air"
+    },
+    {
+      "enum": [
+        149,
+        "seEventActiveServiceCode149"
+      ],
+      "description": "HS1 Shutdown Due to Limit Switch"
+    },
+    {
+      "enum": [
+        150,
+        "seEventActiveServiceCode150"
+      ],
+      "description": "HS2 Shutdown Due to Limit Switch"
+    },
+    {
+      "enum": [
+        151,
+        "seEventActiveServiceCode151"
+      ],
+      "description": "HS3 Shutdown Due to Limit Switch"
+    },
+    {
+      "enum": [
+        152,
+        "seEventActiveServiceCode152"
+      ],
+      "description": "HS1 Off Due to Gas Valve"
+    },
+    {
+      "enum": [
+        153,
+        "seEventActiveServiceCode153"
+      ],
+      "description": "HS2 Off Due to Gas Valve"
+    },
+    {
+      "enum": [
+        154,
+        "seEventActiveServiceCode154"
+      ],
+      "description": "HS3 Off Due to Gas Valve"
+    },
+    {
+      "enum": [
+        155,
+        "seEventActiveServiceCode155"
+      ],
+      "description": "HS1 Gas Valve Failure"
+    },
+    {
+      "enum": [
+        156,
+        "seEventActiveServiceCode156"
+      ],
+      "description": "HS2 Gas Valve Failure"
+    },
+    {
+      "enum": [
+        157,
+        "seEventActiveServiceCode157"
+      ],
+      "description": "HS3 Gas Valve Failure"
+    },
+    {
+      "enum": [
+        158,
+        "seEventActiveServiceCode158"
+      ],
+      "description": "Hot H2o FS Open to Prevent Coil Freeze"
+    },
+    {
+      "enum": [
+        159,
+        "seEventActiveServiceCode159"
+      ],
+      "description": "Hot H2o FS Opened When It Should Not"
+    },
+    {
+      "enum": [
+        160,
+        "seEventActiveServiceCode160"
+      ],
+      "description": "Excessive Supply Air Temp Heating"
+    },
+    {
+      "enum": [
+        161,
+        "seEventActiveServiceCode161"
+      ],
+      "description": "Heating Locked Out Due to OA Temp"
+    },
+    {
+      "enum": [
+        162,
+        "seEventActiveServiceCode162"
+      ],
+      "description": "FDD 1 Communication Failure"
+    },
+    {
+      "enum": [
+        163,
+        "seEventActiveServiceCode163"
+      ],
+      "description": "FDD 2 Communication Failure"
+    },
+    {
+      "enum": [
+        164,
+        "seEventActiveServiceCode164"
+      ],
+      "description": "Stepped Heat Communication Failure"
+    },
+    {
+      "enum": [
+        165,
+        "seEventActiveServiceCode165"
+      ],
+      "description": "Unit is Starting"
+    },
+    {
+      "enum": [
+        166,
+        "seEventActiveServiceCode166"
+      ],
+      "description": "Unit has Received a Purge Request"
+    },
+    {
+      "enum": [
+        167,
+        "seEventActiveServiceCode167"
+      ],
+      "description": "Dirty Filter"
+    },
+    {
+      "enum": [
+        168,
+        "seEventActiveServiceCode168"
+      ],
+      "description": "Using Return Instead of Space Temp"
+    },
+    {
+      "enum": [
+        169,
+        "seEventActiveServiceCode169"
+      ],
+      "description": "Space Temperature Cooling Alarm"
+    },
+    {
+      "enum": [
+        170,
+        "seEventActiveServiceCode170"
+      ],
+      "description": "Real Time Clock Not Set"
+    },
+    {
+      "enum": [
+        171,
+        "seEventActiveServiceCode171"
+      ],
+      "description": "C1 Basic Data Not Available"
+    },
+    {
+      "enum": [
+        172,
+        "seEventActiveServiceCode172"
+      ],
+      "description": "C2 Basic Data Not Available"
+    },
+    {
+      "enum": [
+        173,
+        "seEventActiveServiceCode173"
+      ],
+      "description": "C3 Basic Data Not Available"
+    },
+    {
+      "enum": [
+        174,
+        "seEventActiveServiceCode174"
+      ],
+      "description": "C4 Basic Data Not Available"
+    },
+    {
+      "enum": [
+        175,
+        "seEventActiveServiceCode175"
+      ],
+      "description": "C1 Return Air Wet-Bulb Temp Out Of Range"
+    },
+    {
+      "enum": [
+        176,
+        "seEventActiveServiceCode176"
+      ],
+      "description": "C2 Return Air Wet-Bulb Temp Out Of Range"
+    },
+    {
+      "enum": [
+        177,
+        "seEventActiveServiceCode177"
+      ],
+      "description": "C3 Return Air Wet-Bulb Temp Out Of Range"
+    },
+    {
+      "enum": [
+        178,
+        "seEventActiveServiceCode178"
+      ],
+      "description": "C4 Return Air Wet-Bulb Temp Out Of Range"
+    },
+    {
+      "enum": [
+        179,
+        "seEventActiveServiceCode179"
+      ],
+      "description": "C1 Ambient Temp Too Low"
+    },
+    {
+      "enum": [
+        180,
+        "seEventActiveServiceCode180"
+      ],
+      "description": "C2 Ambient Temp Too Low"
+    },
+    {
+      "enum": [
+        181,
+        "seEventActiveServiceCode181"
+      ],
+      "description": "C3 Ambient Temp Too Low"
+    },
+    {
+      "enum": [
+        182,
+        "seEventActiveServiceCode182"
+      ],
+      "description": "C4 Ambient Temp Too Low"
+    },
+    {
+      "enum": [
+        183,
+        "seEventActiveServiceCode183"
+      ],
+      "description": "C1 Ambient Temp Too High"
+    },
+    {
+      "enum": [
+        184,
+        "seEventActiveServiceCode184"
+      ],
+      "description": "C2 Ambient Temp Too High"
+    },
+    {
+      "enum": [
+        185,
+        "seEventActiveServiceCode185"
+      ],
+      "description": "C3 Ambient Temp Too High"
+    },
+    {
+      "enum": [
+        186,
+        "seEventActiveServiceCode186"
+      ],
+      "description": "C4 Ambient Temp Too High"
+    },
+    {
+      "enum": [
+        187,
+        "seEventActiveServiceCode187"
+      ],
+      "description": "C1 Return Air Wet-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        188,
+        "seEventActiveServiceCode188"
+      ],
+      "description": "C2 Return Air Wet-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        189,
+        "seEventActiveServiceCode189"
+      ],
+      "description": "C3 Return Air Wet-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        190,
+        "seEventActiveServiceCode190"
+      ],
+      "description": "C4 Return Air Wet-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        191,
+        "seEventActiveServiceCode191"
+      ],
+      "description": "C1 Return Air Wet-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        192,
+        "seEventActiveServiceCode192"
+      ],
+      "description": "C2 Return Air Wet-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        193,
+        "seEventActiveServiceCode193"
+      ],
+      "description": "C3 Return Air Wet-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        194,
+        "seEventActiveServiceCode194"
+      ],
+      "description": "C4 Return Air Wet-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        195,
+        "seEventActiveServiceCode195"
+      ],
+      "description": "C1 Condensing Temp Less Than Ambient"
+    },
+    {
+      "enum": [
+        196,
+        "seEventActiveServiceCode196"
+      ],
+      "description": "C2 Condensing Temp Less Than Ambient"
+    },
+    {
+      "enum": [
+        197,
+        "seEventActiveServiceCode197"
+      ],
+      "description": "C3 Condensing Temp Less Than Ambient"
+    },
+    {
+      "enum": [
+        198,
+        "seEventActiveServiceCode198"
+      ],
+      "description": "C4 Condensing Temp Less Than Ambient"
+    },
+    {
+      "enum": [
+        199,
+        "seEventActiveServiceCode199"
+      ],
+      "description": "C1 Liquid Temp Greater Than Cond Temp"
+    },
+    {
+      "enum": [
+        200,
+        "seEventActiveServiceCode200"
+      ],
+      "description": "C2 Liquid Temp Greater Than Cond Temp"
+    },
+    {
+      "enum": [
+        201,
+        "seEventActiveServiceCode201"
+      ],
+      "description": "C3 Liquid Temp Greater Than Cond Temp"
+    },
+    {
+      "enum": [
+        202,
+        "seEventActiveServiceCode202"
+      ],
+      "description": "C4 Liquid Temp Greater Than Cond Temp"
+    },
+    {
+      "enum": [
+        203,
+        "seEventActiveServiceCode203"
+      ],
+      "description": "C1 Suction Temp Less Than Evap Temp"
+    },
+    {
+      "enum": [
+        204,
+        "seEventActiveServiceCode204"
+      ],
+      "description": "C2 Suction Temp Less Than Evap Temp"
+    },
+    {
+      "enum": [
+        205,
+        "seEventActiveServiceCode205"
+      ],
+      "description": "C3 Suction Temp Less Than Evap Temp"
+    },
+    {
+      "enum": [
+        206,
+        "seEventActiveServiceCode206"
+      ],
+      "description": "C4 Suction Temp Less Than Evap Temp"
+    },
+    {
+      "enum": [
+        207,
+        "seEventActiveServiceCode207"
+      ],
+      "description": "C1 Evap Temp Greater Than Ambient Temp"
+    },
+    {
+      "enum": [
+        208,
+        "seEventActiveServiceCode208"
+      ],
+      "description": "C2 Evap Temp Greater Than Ambient Temp"
+    },
+    {
+      "enum": [
+        209,
+        "seEventActiveServiceCode209"
+      ],
+      "description": "C3 Evap Temp Greater Than Ambient Temp"
+    },
+    {
+      "enum": [
+        210,
+        "seEventActiveServiceCode210"
+      ],
+      "description": "C4 Evap Temp Greater Than Ambient Temp"
+    },
+    {
+      "enum": [
+        211,
+        "seEventActiveServiceCode211"
+      ],
+      "description": "C1 Liquid Temp Less Than Ambient Temp"
+    },
+    {
+      "enum": [
+        212,
+        "seEventActiveServiceCode212"
+      ],
+      "description": "C2 Liquid Temp Less Than Ambient Temp"
+    },
+    {
+      "enum": [
+        213,
+        "seEventActiveServiceCode213"
+      ],
+      "description": "C3 Liquid Temp Less Than Ambient Temp"
+    },
+    {
+      "enum": [
+        214,
+        "seEventActiveServiceCode214"
+      ],
+      "description": "C4 Liquid Temp Less Than Ambient Temp"
+    },
+    {
+      "enum": [
+        215,
+        "seEventActiveServiceCode215"
+      ],
+      "description": "C1 Invalid Suction or Ambient Temp"
+    },
+    {
+      "enum": [
+        216,
+        "seEventActiveServiceCode216"
+      ],
+      "description": "C2 Invalid Suction or Ambient Temp"
+    },
+    {
+      "enum": [
+        217,
+        "seEventActiveServiceCode217"
+      ],
+      "description": "C3 Invalid Suction or Ambient Temp"
+    },
+    {
+      "enum": [
+        218,
+        "seEventActiveServiceCode218"
+      ],
+      "description": "C4 Invalid Suction or Ambient Temp"
+    },
+    {
+      "enum": [
+        219,
+        "seEventActiveServiceCode219"
+      ],
+      "description": "C1 Invalid RA Dry-Bulb or Wet-Bulb Temp"
+    },
+    {
+      "enum": [
+        220,
+        "seEventActiveServiceCode220"
+      ],
+      "description": "C2 Invalid RA Dry-Bulb or Wet-Bulb Temp"
+    },
+    {
+      "enum": [
+        221,
+        "seEventActiveServiceCode221"
+      ],
+      "description": "C3 Invalid RA Dry-Bulb or Wet-Bulb Temp"
+    },
+    {
+      "enum": [
+        222,
+        "seEventActiveServiceCode222"
+      ],
+      "description": "C4 Invalid RA Dry-Bulb or Wet-Bulb Temp"
+    },
+    {
+      "enum": [
+        223,
+        "seEventActiveServiceCode223"
+      ],
+      "description": "C1 Invalid Liquid and Suction Pressure"
+    },
+    {
+      "enum": [
+        224,
+        "seEventActiveServiceCode224"
+      ],
+      "description": "C2 Invalid Liquid and Suction Pressure"
+    },
+    {
+      "enum": [
+        225,
+        "seEventActiveServiceCode225"
+      ],
+      "description": "C3 Invalid Liquid and Suction Pressure"
+    },
+    {
+      "enum": [
+        226,
+        "seEventActiveServiceCode226"
+      ],
+      "description": "C4 Invalid Liquid and Suction Pressure"
+    },
+    {
+      "enum": [
+        227,
+        "seEventActiveServiceCode227"
+      ],
+      "description": "C1 Invalid Suction Temp"
+    },
+    {
+      "enum": [
+        228,
+        "seEventActiveServiceCode228"
+      ],
+      "description": "C2 Invalid Suction Temp"
+    },
+    {
+      "enum": [
+        229,
+        "seEventActiveServiceCode229"
+      ],
+      "description": "C3 Invalid Suction Temp"
+    },
+    {
+      "enum": [
+        230,
+        "seEventActiveServiceCode230"
+      ],
+      "description": "C4 Invalid Suction Temp"
+    },
+    {
+      "enum": [
+        231,
+        "seEventActiveServiceCode231"
+      ],
+      "description": "C1 Invalid Liquid and Suction Temp"
+    },
+    {
+      "enum": [
+        232,
+        "seEventActiveServiceCode232"
+      ],
+      "description": "C2 Invalid Liquid and Suction Temp"
+    },
+    {
+      "enum": [
+        233,
+        "seEventActiveServiceCode233"
+      ],
+      "description": "C3 Invalid Liquid and Suction Temp"
+    },
+    {
+      "enum": [
+        234,
+        "seEventActiveServiceCode234"
+      ],
+      "description": "C4 Invalid Liquid and Suction Temp"
+    },
+    {
+      "enum": [
+        235,
+        "seEventActiveServiceCode235"
+      ],
+      "description": "C1 Refrigerant Low"
+    },
+    {
+      "enum": [
+        236,
+        "seEventActiveServiceCode236"
+      ],
+      "description": "C2 Refrigerant Low"
+    },
+    {
+      "enum": [
+        237,
+        "seEventActiveServiceCode237"
+      ],
+      "description": "C3 Refrigerant Low"
+    },
+    {
+      "enum": [
+        238,
+        "seEventActiveServiceCode238"
+      ],
+      "description": "C4 Refrigerant Low"
+    },
+    {
+      "enum": [
+        239,
+        "seEventActiveServiceCode239"
+      ],
+      "description": "C1 Excessive Refrigerant Flow"
+    },
+    {
+      "enum": [
+        240,
+        "seEventActiveServiceCode240"
+      ],
+      "description": "C2 Excessive Refrigerant Flow"
+    },
+    {
+      "enum": [
+        241,
+        "seEventActiveServiceCode241"
+      ],
+      "description": "C3 Excessive Refrigerant Flow"
+    },
+    {
+      "enum": [
+        242,
+        "seEventActiveServiceCode242"
+      ],
+      "description": "C4 Excessive Refrigerant Flow"
+    },
+    {
+      "enum": [
+        243,
+        "seEventActiveServiceCode243"
+      ],
+      "description": "C1 Inefficient Compressor"
+    },
+    {
+      "enum": [
+        244,
+        "seEventActiveServiceCode244"
+      ],
+      "description": "C2 Inefficient Compressor"
+    },
+    {
+      "enum": [
+        245,
+        "seEventActiveServiceCode245"
+      ],
+      "description": "C3 Inefficient Compressor"
+    },
+    {
+      "enum": [
+        246,
+        "seEventActiveServiceCode246"
+      ],
+      "description": "C4 Inefficient Compressor"
+    },
+    {
+      "enum": [
+        247,
+        "seEventActiveServiceCode247"
+      ],
+      "description": "C1 Refrigerant Flow Restriction"
+    },
+    {
+      "enum": [
+        248,
+        "seEventActiveServiceCode248"
+      ],
+      "description": "C2 Refrigerant Flow Restriction"
+    },
+    {
+      "enum": [
+        249,
+        "seEventActiveServiceCode249"
+      ],
+      "description": "C3 Refrigerant Flow Restriction"
+    },
+    {
+      "enum": [
+        250,
+        "seEventActiveServiceCode250"
+      ],
+      "description": "C4 Refrigerant Flow Restriction"
+    },
+    {
+      "enum": [
+        251,
+        "seEventActiveServiceCode251"
+      ],
+      "description": "C1 High Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        252,
+        "seEventActiveServiceCode252"
+      ],
+      "description": "C2 High Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        253,
+        "seEventActiveServiceCode253"
+      ],
+      "description": "C3 High Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        254,
+        "seEventActiveServiceCode254"
+      ],
+      "description": "C4 High Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        255,
+        "seEventActiveServiceCode255"
+      ],
+      "description": "C1 Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        256,
+        "seEventActiveServiceCode256"
+      ],
+      "description": "C2 Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        257,
+        "seEventActiveServiceCode257"
+      ],
+      "description": "C3 Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        258,
+        "seEventActiveServiceCode258"
+      ],
+      "description": "C4 Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        259,
+        "seEventActiveServiceCode259"
+      ],
+      "description": "C1 Reduce Evaporator Airflow"
+    },
+    {
+      "enum": [
+        260,
+        "seEventActiveServiceCode260"
+      ],
+      "description": "C2 Reduce Evaporator Airflow"
+    },
+    {
+      "enum": [
+        261,
+        "seEventActiveServiceCode261"
+      ],
+      "description": "C3 Reduce Evaporator Airflow"
+    },
+    {
+      "enum": [
+        262,
+        "seEventActiveServiceCode262"
+      ],
+      "description": "C4 Reduce Evaporator Airflow"
+    },
+    {
+      "enum": [
+        263,
+        "seEventActiveServiceCode263"
+      ],
+      "description": "C1 Add Charge"
+    },
+    {
+      "enum": [
+        264,
+        "seEventActiveServiceCode264"
+      ],
+      "description": "C2 Add Charge"
+    },
+    {
+      "enum": [
+        265,
+        "seEventActiveServiceCode265"
+      ],
+      "description": "C3 Add Charge"
+    },
+    {
+      "enum": [
+        266,
+        "seEventActiveServiceCode266"
+      ],
+      "description": "C4 Add Charge"
+    },
+    {
+      "enum": [
+        267,
+        "seEventActiveServiceCode267"
+      ],
+      "description": "C1 Insufficient Refrigerant Flow"
+    },
+    {
+      "enum": [
+        268,
+        "seEventActiveServiceCode268"
+      ],
+      "description": "C2 Insufficient Refrigerant Flow"
+    },
+    {
+      "enum": [
+        269,
+        "seEventActiveServiceCode269"
+      ],
+      "description": "C3 Insufficient Refrigerant Flow"
+    },
+    {
+      "enum": [
+        270,
+        "seEventActiveServiceCode270"
+      ],
+      "description": "C4 Insufficient Refrigerant Flow"
+    },
+    {
+      "enum": [
+        271,
+        "seEventActiveServiceCode271"
+      ],
+      "description": "C1 Recover Charge"
+    },
+    {
+      "enum": [
+        272,
+        "seEventActiveServiceCode272"
+      ],
+      "description": "C2 Recover Charge"
+    },
+    {
+      "enum": [
+        273,
+        "seEventActiveServiceCode273"
+      ],
+      "description": "C3 Recover Charge"
+    },
+    {
+      "enum": [
+        274,
+        "seEventActiveServiceCode274"
+      ],
+      "description": "C4 Recover Charge"
+    },
+    {
+      "enum": [
+        275,
+        "seEventActiveServiceCode275"
+      ],
+      "description": "C1 Safe And Reasonable Performance"
+    },
+    {
+      "enum": [
+        276,
+        "seEventActiveServiceCode276"
+      ],
+      "description": "C2 Safe And Reasonable Performance"
+    },
+    {
+      "enum": [
+        277,
+        "seEventActiveServiceCode277"
+      ],
+      "description": "C3 Safe And Reasonable Performance"
+    },
+    {
+      "enum": [
+        278,
+        "seEventActiveServiceCode278"
+      ],
+      "description": "C4 Safe And Reasonable Performance"
+    },
+    {
+      "enum": [
+        279,
+        "seEventActiveServiceCode279"
+      ],
+      "description": "C1 Return Air Dry-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        280,
+        "seEventActiveServiceCode280"
+      ],
+      "description": "C2 Return Air Dry-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        281,
+        "seEventActiveServiceCode281"
+      ],
+      "description": "C3 Return Air Dry-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        282,
+        "seEventActiveServiceCode282"
+      ],
+      "description": "C4 Return Air Dry-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        283,
+        "seEventActiveServiceCode283"
+      ],
+      "description": "C1 Return Air Dry-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        284,
+        "seEventActiveServiceCode284"
+      ],
+      "description": "C2 Return Air Dry-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        285,
+        "seEventActiveServiceCode285"
+      ],
+      "description": "C3 Return Air Dry-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        286,
+        "seEventActiveServiceCode286"
+      ],
+      "description": "C4 Return Air Dry-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        287,
+        "seEventActiveServiceCode287"
+      ],
+      "description": "C1 FDD Not Functioning Sensor Unreliable"
+    },
+    {
+      "enum": [
+        288,
+        "seEventActiveServiceCode288"
+      ],
+      "description": "C2 FDD Not Functioning Sensor Unreliable"
+    },
+    {
+      "enum": [
+        289,
+        "seEventActiveServiceCode289"
+      ],
+      "description": "C3 FDD Not Functioning Sensor Unreliable"
+    },
+    {
+      "enum": [
+        290,
+        "seEventActiveServiceCode290"
+      ],
+      "description": "C4 FDD Not Monitoring Sensor Unreliable"
+    },
+    {
+      "enum": [
+        291,
+        "seEventActiveServiceCode291"
+      ],
+      "description": "C1 FDD Not Monitoring Conditions"
+    },
+    {
+      "enum": [
+        292,
+        "seEventActiveServiceCode292"
+      ],
+      "description": "C2 FDD Not Monitoring Conditions"
+    },
+    {
+      "enum": [
+        293,
+        "seEventActiveServiceCode293"
+      ],
+      "description": "C3 FDD Not Monitoring Conditions"
+    },
+    {
+      "enum": [
+        294,
+        "seEventActiveServiceCode294"
+      ],
+      "description": "C4 FDD Not Monitoring Conditions"
+    },
+    {
+      "enum": [
+        295,
+        "seEventActiveServiceCode295"
+      ],
+      "description": "C1 FDD Not Monitoring Equipment Data"
+    },
+    {
+      "enum": [
+        296,
+        "seEventActiveServiceCode296"
+      ],
+      "description": "C2 FDD Not Monitoring Equipment Data"
+    },
+    {
+      "enum": [
+        297,
+        "seEventActiveServiceCode297"
+      ],
+      "description": "C3 FDD Not Monitoring Equipment Data"
+    },
+    {
+      "enum": [
+        298,
+        "seEventActiveServiceCode298"
+      ],
+      "description": "C4 FDD Not Monitoring Equipment Data"
+    },
+    {
+      "enum": [
+        299,
+        "seEventActiveServiceCode299"
+      ],
+      "description": "C1 Non-Condensables Present"
+    },
+    {
+      "enum": [
+        300,
+        "seEventActiveServiceCode300"
+      ],
+      "description": "C2 Non-Condensables Present"
+    },
+    {
+      "enum": [
+        301,
+        "seEventActiveServiceCode301"
+      ],
+      "description": "C3 Non-Condensables Present"
+    },
+    {
+      "enum": [
+        302,
+        "seEventActiveServiceCode302"
+      ],
+      "description": "C4 Non-Condensables Present"
+    },
+    {
+      "enum": [
+        303,
+        "seEventActiveServiceCode303"
+      ],
+      "description": "C1 Unit Off"
+    },
+    {
+      "enum": [
+        304,
+        "seEventActiveServiceCode304"
+      ],
+      "description": "C2 Unit Off"
+    },
+    {
+      "enum": [
+        305,
+        "seEventActiveServiceCode305"
+      ],
+      "description": "C3 Unit Off"
+    },
+    {
+      "enum": [
+        306,
+        "seEventActiveServiceCode306"
+      ],
+      "description": "C4 Unit Off"
+    },
+    {
+      "enum": [
+        307,
+        "seEventActiveServiceCode307"
+      ],
+      "description": "Parameter Corruption Using Defaults"
+    },
+    {
+      "enum": [
+        308,
+        "seEventActiveServiceCode308"
+      ],
+      "description": "FDD Test Not Functioning Basic Data N/A"
+    },
+    {
+      "enum": [
+        309,
+        "seEventActiveServiceCode309"
+      ],
+      "description": "C1 FDD Test Inconsistent Sensors"
+    },
+    {
+      "enum": [
+        310,
+        "seEventActiveServiceCode310"
+      ],
+      "description": "C2 FDD Test Inconsistent Sensors"
+    },
+    {
+      "enum": [
+        311,
+        "seEventActiveServiceCode311"
+      ],
+      "description": "C3 FDD Test Inconsistent Sensors"
+    },
+    {
+      "enum": [
+        312,
+        "seEventActiveServiceCode312"
+      ],
+      "description": "C1 Faulty TxV valve"
+    },
+    {
+      "enum": [
+        313,
+        "seEventActiveServiceCode313"
+      ],
+      "description": "Space Temperature Heating Alarm"
+    },
+    {
+      "enum": [
+        314,
+        "seEventActiveServiceCode314"
+      ],
+      "description": "C1 EI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        315,
+        "seEventActiveServiceCode315"
+      ],
+      "description": "C2 EI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        316,
+        "seEventActiveServiceCode316"
+      ],
+      "description": "C3 EI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        317,
+        "seEventActiveServiceCode317"
+      ],
+      "description": "C4 EI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        318,
+        "seEventActiveServiceCode318"
+      ],
+      "description": "C1 CI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        319,
+        "seEventActiveServiceCode319"
+      ],
+      "description": "C2 CI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        320,
+        "seEventActiveServiceCode320"
+      ],
+      "description": "C3 CI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        321,
+        "seEventActiveServiceCode321"
+      ],
+      "description": "C4 CI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        322,
+        "seEventActiveServiceCode322"
+      ],
+      "description": "C1 EI+CI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        323,
+        "seEventActiveServiceCode323"
+      ],
+      "description": "C2 EI+CI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        324,
+        "seEventActiveServiceCode324"
+      ],
+      "description": "C3 EI+CI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        325,
+        "seEventActiveServiceCode325"
+      ],
+      "description": "C4 EI+CI Below 75% Expected Performance"
+    },
+    {
+      "enum": [
+        326,
+        "seEventActiveServiceCode326"
+      ],
+      "description": "C1 Unknown Status"
+    },
+    {
+      "enum": [
+        327,
+        "seEventActiveServiceCode327"
+      ],
+      "description": "C2 Unknown Status"
+    },
+    {
+      "enum": [
+        328,
+        "seEventActiveServiceCode328"
+      ],
+      "description": "C3 Unknown Status"
+    },
+    {
+      "enum": [
+        329,
+        "seEventActiveServiceCode329"
+      ],
+      "description": "C4 Unknown Status"
+    },
+    {
+      "enum": [
+        330,
+        "seEventActiveServiceCode330"
+      ],
+      "description": "C1 RAT and Humidity Not Avail"
+    },
+    {
+      "enum": [
+        331,
+        "seEventActiveServiceCode331"
+      ],
+      "description": "C2 RAT and Humidity Not Avail"
+    },
+    {
+      "enum": [
+        332,
+        "seEventActiveServiceCode332"
+      ],
+      "description": "C3 RAT and Humidity Not Avail"
+    },
+    {
+      "enum": [
+        333,
+        "seEventActiveServiceCode333"
+      ],
+      "description": "C4 RAT and Humidity Not Avail"
+    },
+    {
+      "enum": [
+        334,
+        "seEventActiveServiceCode334"
+      ],
+      "description": "C1 Ambient Temp Out of Range"
+    },
+    {
+      "enum": [
+        335,
+        "seEventActiveServiceCode335"
+      ],
+      "description": "C2 Ambient Temp Out of Range"
+    },
+    {
+      "enum": [
+        336,
+        "seEventActiveServiceCode336"
+      ],
+      "description": "C3 Ambient Temp Out of Range"
+    },
+    {
+      "enum": [
+        337,
+        "seEventActiveServiceCode337"
+      ],
+      "description": "C4 Ambient Temp Out of Range"
+    },
+    {
+      "enum": [
+        338,
+        "seEventActiveServiceCode338"
+      ],
+      "description": "C1 Ambient and RAT WB Out of Range"
+    },
+    {
+      "enum": [
+        339,
+        "seEventActiveServiceCode339"
+      ],
+      "description": "C2 Ambient and RAT WB Out of Range"
+    },
+    {
+      "enum": [
+        340,
+        "seEventActiveServiceCode340"
+      ],
+      "description": "C3 Ambient and RAT WB Out of Range"
+    },
+    {
+      "enum": [
+        341,
+        "seEventActiveServiceCode341"
+      ],
+      "description": "C4 Ambient and RAT WB Out of Range"
+    },
+    {
+      "enum": [
+        342,
+        "seEventActiveServiceCode342"
+      ],
+      "description": "C1 Invalid Suction Pressure or RAT"
+    },
+    {
+      "enum": [
+        343,
+        "seEventActiveServiceCode343"
+      ],
+      "description": "C2 Invalid Suction Pressure or RAT"
+    },
+    {
+      "enum": [
+        344,
+        "seEventActiveServiceCode344"
+      ],
+      "description": "C3 Invalid Suction Pressure or RAT"
+    },
+    {
+      "enum": [
+        345,
+        "seEventActiveServiceCode345"
+      ],
+      "description": "C4 Invalid Suction Pressure or RAT"
+    },
+    {
+      "enum": [
+        346,
+        "seEventActiveServiceCode346"
+      ],
+      "description": "C1 Invalid Liquid Temp or RAT"
+    },
+    {
+      "enum": [
+        347,
+        "seEventActiveServiceCode347"
+      ],
+      "description": "C2 Invalid Liquid Temp or RAT"
+    },
+    {
+      "enum": [
+        348,
+        "seEventActiveServiceCode348"
+      ],
+      "description": "C3 Invalid Liquid Temp or RAT"
+    },
+    {
+      "enum": [
+        349,
+        "seEventActiveServiceCode349"
+      ],
+      "description": "C4 Invalid Liquid Temp or RAT"
+    },
+    {
+      "enum": [
+        350,
+        "seEventActiveServiceCode350"
+      ],
+      "description": "C1 Invalid Liquid Pressure or Ambient"
+    },
+    {
+      "enum": [
+        351,
+        "seEventActiveServiceCode351"
+      ],
+      "description": "C2 Invalid Liquid Pressure or Ambient"
+    },
+    {
+      "enum": [
+        352,
+        "seEventActiveServiceCode352"
+      ],
+      "description": "C3 Invalid Liquid Pressure or Ambient"
+    },
+    {
+      "enum": [
+        353,
+        "seEventActiveServiceCode353"
+      ],
+      "description": "C4 Invalid Liquid Pressure or Ambient"
+    },
+    {
+      "enum": [
+        354,
+        "seEventActiveServiceCode354"
+      ],
+      "description": "C1 Invalid RAT or SAT"
+    },
+    {
+      "enum": [
+        355,
+        "seEventActiveServiceCode355"
+      ],
+      "description": "C2 Invalid RAT or SAT"
+    },
+    {
+      "enum": [
+        356,
+        "seEventActiveServiceCode356"
+      ],
+      "description": "C3 Invalid RAT or SAT"
+    },
+    {
+      "enum": [
+        357,
+        "seEventActiveServiceCode357"
+      ],
+      "description": "C4 Invalid RAT or SAT"
+    },
+    {
+      "enum": [
+        358,
+        "seEventActiveServiceCode358"
+      ],
+      "description": "C1 Invalid SAT or Suction Pressure"
+    },
+    {
+      "enum": [
+        359,
+        "seEventActiveServiceCode359"
+      ],
+      "description": "C2 Invalid SAT or Suction Pressure"
+    },
+    {
+      "enum": [
+        360,
+        "seEventActiveServiceCode360"
+      ],
+      "description": "C3 Invalid SAT or Suction Pressure"
+    },
+    {
+      "enum": [
+        361,
+        "seEventActiveServiceCode361"
+      ],
+      "description": "C4 Invalid SAT or Suction Pressure"
+    },
+    {
+      "enum": [
+        362,
+        "seEventActiveServiceCode362"
+      ],
+      "description": "C1 Invalid SAT or SAT WB"
+    },
+    {
+      "enum": [
+        363,
+        "seEventActiveServiceCode363"
+      ],
+      "description": "C2 Invalid SAT or SAT WB"
+    },
+    {
+      "enum": [
+        364,
+        "seEventActiveServiceCode364"
+      ],
+      "description": "C3 Invalid SAT or SAT WB"
+    },
+    {
+      "enum": [
+        365,
+        "seEventActiveServiceCode365"
+      ],
+      "description": "C4 Invalid SAT or SAT WB"
+    },
+    {
+      "enum": [
+        366,
+        "seEventActiveServiceCode366"
+      ],
+      "description": "C1 Invalid RAT WB or SAT WB"
+    },
+    {
+      "enum": [
+        367,
+        "seEventActiveServiceCode367"
+      ],
+      "description": "C2 Invalid RAT WB or SAT WB"
+    },
+    {
+      "enum": [
+        368,
+        "seEventActiveServiceCode368"
+      ],
+      "description": "C3 Invalid RAT WB or SAT WB"
+    },
+    {
+      "enum": [
+        369,
+        "seEventActiveServiceCode369"
+      ],
+      "description": "C4 Invalid RAT WB or SAT WB"
+    },
+    {
+      "enum": [
+        370,
+        "seEventActiveServiceCode370"
+      ],
+      "description": "C1 Unfavorable Test Conditions - Retest"
+    },
+    {
+      "enum": [
+        371,
+        "seEventActiveServiceCode371"
+      ],
+      "description": "C2 Unfavorable Test Conditions - Retest"
+    },
+    {
+      "enum": [
+        372,
+        "seEventActiveServiceCode372"
+      ],
+      "description": "C3 Unfavorable Test Conditions - Retest"
+    },
+    {
+      "enum": [
+        373,
+        "seEventActiveServiceCode373"
+      ],
+      "description": "C4 Unfavorable Test Conditions - Retest"
+    },
+    {
+      "enum": [
+        374,
+        "seEventActiveServiceCode374"
+      ],
+      "description": "C1 Unit Energy Efficiency Ratio Too Low"
+    },
+    {
+      "enum": [
+        375,
+        "seEventActiveServiceCode375"
+      ],
+      "description": "C2 Unit Energy Efficiency Ratio Too Low"
+    },
+    {
+      "enum": [
+        376,
+        "seEventActiveServiceCode376"
+      ],
+      "description": "C3 Unit Energy Efficiency Ratio Too Low"
+    },
+    {
+      "enum": [
+        377,
+        "seEventActiveServiceCode377"
+      ],
+      "description": "C4 Unit Energy Efficiency Ratio Too Low"
+    },
+    {
+      "enum": [
+        378,
+        "seEventActiveServiceCode378"
+      ],
+      "description": "C1 Unit Energy Efficiency Ratio Too High"
+    },
+    {
+      "enum": [
+        379,
+        "seEventActiveServiceCode379"
+      ],
+      "description": "C2 Unit Energy Efficiency Ratio Too High"
+    },
+    {
+      "enum": [
+        380,
+        "seEventActiveServiceCode380"
+      ],
+      "description": "C3 Unit Energy Efficiency Ratio Too High"
+    },
+    {
+      "enum": [
+        381,
+        "seEventActiveServiceCode381"
+      ],
+      "description": "C4 Unit Energy Efficiency Ratio Too High"
+    },
+    {
+      "enum": [
+        382,
+        "seEventActiveServiceCode382"
+      ],
+      "description": "Self Test Alarm"
+    },
+    {
+      "enum": [
+        383,
+        "seEventActiveServiceCode383"
+      ],
+      "description": "Fan Runtime Alarm"
+    },
+    {
+      "enum": [
+        384,
+        "seEventActiveServiceCode384"
+      ],
+      "description": "SAT High Temp Alarm"
+    },
+    {
+      "enum": [
+        385,
+        "seEventActiveServiceCode385"
+      ],
+      "description": "SAT Low Temp Alarm"
+    }
+  ]
+}

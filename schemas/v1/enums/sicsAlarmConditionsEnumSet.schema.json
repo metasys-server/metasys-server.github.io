@@ -1,0 +1,617 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sicsAlarmConditionsEnumSet.schema.json",
+  "title": "sicsAlarmConditionsEnumSet",
+  "description": "SICS Alarm Conditions",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "almCondUnknown"
+      ],
+      "description": "Unrecognized Error"
+    },
+    {
+      "enum": [
+        1,
+        "almCond1"
+      ],
+      "description": "Compressor 1 HP Lock"
+    },
+    {
+      "enum": [
+        2,
+        "almCond2"
+      ],
+      "description": "Compressor 2 HP Lock"
+    },
+    {
+      "enum": [
+        3,
+        "almCond3"
+      ],
+      "description": "Compressor 3 HP Lock"
+    },
+    {
+      "enum": [
+        4,
+        "almCond4"
+      ],
+      "description": "Compressor 4 HP Lock"
+    },
+    {
+      "enum": [
+        5,
+        "almCond5"
+      ],
+      "description": "Compressor 1 LP Lock"
+    },
+    {
+      "enum": [
+        6,
+        "almCond6"
+      ],
+      "description": "Compressor 2 LP Lock"
+    },
+    {
+      "enum": [
+        7,
+        "almCond7"
+      ],
+      "description": "Compressor 3 LP Lock"
+    },
+    {
+      "enum": [
+        8,
+        "almCond8"
+      ],
+      "description": "Compressor 4 LP Lock"
+    },
+    {
+      "enum": [
+        9,
+        "almCond9"
+      ],
+      "description": "Compressr 1 Overload"
+    },
+    {
+      "enum": [
+        10,
+        "almCond10"
+      ],
+      "description": "Compressr 2 Overload"
+    },
+    {
+      "enum": [
+        11,
+        "almCond11"
+      ],
+      "description": "Compressr 3 Overload"
+    },
+    {
+      "enum": [
+        12,
+        "almCond12"
+      ],
+      "description": "Compressr 4 Overload"
+    },
+    {
+      "enum": [
+        13,
+        "almCond13"
+      ],
+      "description": "Heat 1 Limit Switch"
+    },
+    {
+      "enum": [
+        14,
+        "almCond14"
+      ],
+      "description": "Heat 2 Limit Switch"
+    },
+    {
+      "enum": [
+        15,
+        "almCond15"
+      ],
+      "description": "Heat 3 Limit Switch"
+    },
+    {
+      "enum": [
+        16,
+        "almCond16"
+      ],
+      "description": "Heat 1 Gas Valve Off"
+    },
+    {
+      "enum": [
+        17,
+        "almCond17"
+      ],
+      "description": "Heat 2 Gas Valve Off"
+    },
+    {
+      "enum": [
+        18,
+        "almCond18"
+      ],
+      "description": "Heat 3 Gas Valve Off"
+    },
+    {
+      "enum": [
+        19,
+        "almCond19"
+      ],
+      "description": "Space Tmp Open/Short"
+    },
+    {
+      "enum": [
+        20,
+        "almCond20"
+      ],
+      "description": "Supply Tmp Open/Shrt"
+    },
+    {
+      "enum": [
+        21,
+        "almCond21"
+      ],
+      "description": "Return Tmp Open/Shrt"
+    },
+    {
+      "enum": [
+        22,
+        "almCond22"
+      ],
+      "description": "OutdoorAir Open/Shrt"
+    },
+    {
+      "enum": [
+        23,
+        "almCond23"
+      ],
+      "description": "Dirty Filter"
+    },
+    {
+      "enum": [
+        24,
+        "almCond24"
+      ],
+      "description": "APS Lock"
+    },
+    {
+      "enum": [
+        25,
+        "almCond25"
+      ],
+      "description": "APS Stuck Closed"
+    },
+    {
+      "enum": [
+        26,
+        "almCond26"
+      ],
+      "description": "Control w/ Defaults"
+    },
+    {
+      "enum": [
+        27,
+        "almCond27"
+      ],
+      "description": "Control Shut Down"
+    },
+    {
+      "enum": [
+        28,
+        "almCond28"
+      ],
+      "description": "Fan Overload Trip"
+    },
+    {
+      "enum": [
+        29,
+        "almCond29"
+      ],
+      "description": "OAH Out of Range"
+    },
+    {
+      "enum": [
+        30,
+        "almCond30"
+      ],
+      "description": "RAH Out of Range"
+    },
+    {
+      "enum": [
+        31,
+        "almCond31"
+      ],
+      "description": "IAQ Out of Range"
+    },
+    {
+      "enum": [
+        32,
+        "almCond32"
+      ],
+      "description": "Real Time Clock Fail"
+    },
+    {
+      "enum": [
+        33,
+        "almCond33"
+      ],
+      "description": "Space SP Offset >20K"
+    },
+    {
+      "enum": [
+        34,
+        "almCond34"
+      ],
+      "description": "CV/VAV Out of Range"
+    },
+    {
+      "enum": [
+        35,
+        "almCond35"
+      ],
+      "description": "Low Voltage on 24VAC"
+    },
+    {
+      "enum": [
+        36,
+        "almCond36"
+      ],
+      "description": "Purge Shutdown"
+    },
+    {
+      "enum": [
+        37,
+        "almCond37"
+      ],
+      "description": "Static Pressure High"
+    },
+    {
+      "enum": [
+        38,
+        "almCond38"
+      ],
+      "description": "SAT Cooling Fault"
+    },
+    {
+      "enum": [
+        39,
+        "almCond39"
+      ],
+      "description": "SAT Heating Fault"
+    },
+    {
+      "enum": [
+        40,
+        "almCond40"
+      ],
+      "description": "Min Economizer Fault"
+    },
+    {
+      "enum": [
+        41,
+        "almCond41"
+      ],
+      "description": "Space Temp Alarm"
+    },
+    {
+      "enum": [
+        42,
+        "almCond42"
+      ],
+      "description": "Static Pressure Low"
+    },
+    {
+      "enum": [
+        43,
+        "almCond43"
+      ],
+      "description": "Hot Water Freeze Opn"
+    },
+    {
+      "enum": [
+        44,
+        "almCond44"
+      ],
+      "description": "Compressor 1 Freeze"
+    },
+    {
+      "enum": [
+        45,
+        "almCond45"
+      ],
+      "description": "Compressor 2 Freeze"
+    },
+    {
+      "enum": [
+        46,
+        "almCond46"
+      ],
+      "description": "Compressor 3 Freeze"
+    },
+    {
+      "enum": [
+        47,
+        "almCond47"
+      ],
+      "description": "Compressor 4 Freeze"
+    },
+    {
+      "enum": [
+        48,
+        "almCond48"
+      ],
+      "description": "4Stage Board Offline"
+    },
+    {
+      "enum": [
+        49,
+        "almCond49"
+      ],
+      "description": "VAV Board Offline"
+    },
+    {
+      "enum": [
+        80,
+        "almCond80"
+      ],
+      "description": "Fan On Delay-Heat"
+    },
+    {
+      "enum": [
+        81,
+        "almCond81"
+      ],
+      "description": "Fan Off Delay-Heat"
+    },
+    {
+      "enum": [
+        82,
+        "almCond82"
+      ],
+      "description": "Fan On Delay-Cool"
+    },
+    {
+      "enum": [
+        83,
+        "almCond83"
+      ],
+      "description": "Fan Off Delay-Cool"
+    },
+    {
+      "enum": [
+        84,
+        "almCond84"
+      ],
+      "description": "Min Run Time-Cooling"
+    },
+    {
+      "enum": [
+        85,
+        "almCond85"
+      ],
+      "description": "Address Corrupted"
+    },
+    {
+      "enum": [
+        86,
+        "almCond86"
+      ],
+      "description": "Compressor 1 Runtime"
+    },
+    {
+      "enum": [
+        87,
+        "almCond87"
+      ],
+      "description": "Compressor 2 Runtime"
+    },
+    {
+      "enum": [
+        88,
+        "almCond88"
+      ],
+      "description": "Compressor 3 Runtime"
+    },
+    {
+      "enum": [
+        89,
+        "almCond89"
+      ],
+      "description": "Compressor 4 Runtime"
+    },
+    {
+      "enum": [
+        90,
+        "almCond90"
+      ],
+      "description": "Accumul Heat Runtime"
+    },
+    {
+      "enum": [
+        91,
+        "almCond91"
+      ],
+      "description": "Option Byte 1 Bad"
+    },
+    {
+      "enum": [
+        92,
+        "almCond92"
+      ],
+      "description": "Unit Name Corrupted"
+    },
+    {
+      "enum": [
+        93,
+        "almCond93"
+      ],
+      "description": "Attached Device Bad"
+    },
+    {
+      "enum": [
+        94,
+        "almCond94"
+      ],
+      "description": "Model Number Corrupt"
+    },
+    {
+      "enum": [
+        95,
+        "almCond95"
+      ],
+      "description": "Serial # Corrupted"
+    },
+    {
+      "enum": [
+        256,
+        "almCond256"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        257,
+        "almCond257"
+      ],
+      "description": "Online"
+    },
+    {
+      "enum": [
+        258,
+        "almCond258"
+      ],
+      "description": "RTU Offline"
+    },
+    {
+      "enum": [
+        259,
+        "almCond259"
+      ],
+      "description": "RTU Online"
+    },
+    {
+      "enum": [
+        260,
+        "almCond260"
+      ],
+      "description": "Bypass Offline"
+    },
+    {
+      "enum": [
+        261,
+        "almCond261"
+      ],
+      "description": "Bypass Online"
+    },
+    {
+      "enum": [
+        262,
+        "almCond262"
+      ],
+      "description": "Application Mismatch"
+    },
+    {
+      "enum": [
+        263,
+        "almCond263"
+      ],
+      "description": "TEC Offline"
+    },
+    {
+      "enum": [
+        264,
+        "almCond264"
+      ],
+      "description": "TEC Online"
+    },
+    {
+      "enum": [
+        265,
+        "almCond265"
+      ],
+      "description": "Filter Clean"
+    },
+    {
+      "enum": [
+        266,
+        "almCond266"
+      ],
+      "description": "Unsupported Device"
+    },
+    {
+      "enum": [
+        267,
+        "almCond267"
+      ],
+      "description": "Too Many Bus Devices"
+    },
+    {
+      "enum": [
+        268,
+        "almCond268"
+      ],
+      "description": "VAV Expected -is COB"
+    },
+    {
+      "enum": [
+        269,
+        "almCond269"
+      ],
+      "description": "COB Expected -is VAV"
+    },
+    {
+      "enum": [
+        270,
+        "almCond270"
+      ],
+      "description": "CV Expected -is COB"
+    },
+    {
+      "enum": [
+        271,
+        "almCond271"
+      ],
+      "description": "COB Expected -is CV"
+    },
+    {
+      "enum": [
+        272,
+        "almCond272"
+      ],
+      "description": "VAV Expected -is CV"
+    },
+    {
+      "enum": [
+        273,
+        "almCond273"
+      ],
+      "description": "CV Expected -is VAV"
+    },
+    {
+      "enum": [
+        274,
+        "almCond274"
+      ],
+      "description": "Unit Set written"
+    },
+    {
+      "enum": [
+        275,
+        "almCond275"
+      ],
+      "description": "Schedule Disabled"
+    },
+    {
+      "enum": [
+        276,
+        "almCond276"
+      ],
+      "description": "UCB board expected"
+    }
+  ]
+}

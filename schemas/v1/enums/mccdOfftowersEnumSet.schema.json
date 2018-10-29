@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdOfftowersEnumSet.schema.json",
+  "title": "mccdOfftowersEnumSet",
+  "description": "MCCD Off-Towers",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Towers"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Pumps"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "On"
+    }
+  ]
+}

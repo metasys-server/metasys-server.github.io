@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seBasComm.schema.json",
+  "title": "seBasComm",
+  "description": "BAS Communication",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "commNotInstalled"
+      ],
+      "description": "Not Installed"
+    },
+    {
+      "enum": [
+        1,
+        "commBacnet"
+      ],
+      "description": "BACnet"
+    },
+    {
+      "enum": [
+        2,
+        "commN2"
+      ],
+      "description": "N2"
+    },
+    {
+      "enum": [
+        3,
+        "commModbus"
+      ],
+      "description": "Modbus"
+    }
+  ]
+}

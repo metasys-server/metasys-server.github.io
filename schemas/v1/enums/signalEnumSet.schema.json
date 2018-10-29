@@ -1,0 +1,386 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/signalEnumSet.schema.json",
+  "title": "signalEnumSet",
+  "description": "Signals",
+  "oneOf": [
+    {
+      "enum": [
+        50,
+        "signal010Vdc"
+      ],
+      "description": "0-10VDC"
+    },
+    {
+      "enum": [
+        51,
+        "signal24VacIncremental"
+      ],
+      "description": "24VAC Incremental"
+    },
+    {
+      "enum": [
+        52,
+        "signal24Vac240VacMaintained"
+      ],
+      "description": "24VAC-240VAC Maintained"
+    },
+    {
+      "enum": [
+        53,
+        "signalResistive"
+      ],
+      "description": "Resistive"
+    },
+    {
+      "enum": [
+        54,
+        "signalNickel1KRtd"
+      ],
+      "description": "Nickel 1K RTD"
+    },
+    {
+      "enum": [
+        55,
+        "signal225KNtcType2Thermistor"
+      ],
+      "description": "2.25K NTC Type 2 Thermistor"
+    },
+    {
+      "enum": [
+        56,
+        "signalPlatinum1KRtd"
+      ],
+      "description": "Platinum 1K RTD"
+    },
+    {
+      "enum": [
+        57,
+        "signalSiliconA99B"
+      ],
+      "description": "Silicon A99B"
+    },
+    {
+      "enum": [
+        58,
+        "signal420Ma"
+      ],
+      "description": "4-20mA"
+    },
+    {
+      "enum": [
+        59,
+        "signalDryContactPulsed"
+      ],
+      "description": "Dry Contact Pulsed"
+    },
+    {
+      "enum": [
+        60,
+        "signalDryContactMaintained"
+      ],
+      "description": "Dry Contact Maintained"
+    },
+    {
+      "enum": [
+        61,
+        "signalNa"
+      ],
+      "description": "N/A"
+    },
+    {
+      "enum": [
+        62,
+        "signalAll"
+      ],
+      "description": "All"
+    },
+    {
+      "enum": [
+        63,
+        "signalSab"
+      ],
+      "description": "SAB"
+    },
+    {
+      "enum": [
+        64,
+        "signalFcb"
+      ],
+      "description": "FCB"
+    },
+    {
+      "enum": [
+        65,
+        "signalIntegrated"
+      ],
+      "description": "Integrated"
+    },
+    {
+      "enum": [
+        66,
+        "signalIntegratedVelocityPressure"
+      ],
+      "description": "Integrated Velocity Pressure"
+    },
+    {
+      "enum": [
+        67,
+        "signalVavVelocityPressure"
+      ],
+      "description": "VAV Velocity Pressure"
+    },
+    {
+      "enum": [
+        68,
+        "signal10KNtcTypeLThermistor"
+      ],
+      "description": "10K NTC Type L Thermistor"
+    },
+    {
+      "enum": [
+        69,
+        "signal24VacStartStop"
+      ],
+      "description": "24VAC Start Stop"
+    },
+    {
+      "enum": [
+        70,
+        "signal24VacPulse"
+      ],
+      "description": "24VAC Pulse"
+    },
+    {
+      "enum": [
+        71,
+        "signal24VacMaintained"
+      ],
+      "description": "24VAC Maintained"
+    },
+    {
+      "enum": [
+        72,
+        "signal24Vac240VacPulse"
+      ],
+      "description": "24VAC-240VAC Pulse"
+    },
+    {
+      "enum": [
+        73,
+        "signal24Vac240VacStartStop"
+      ],
+      "description": "24VAC-240VAC Start Stop"
+    },
+    {
+      "enum": [
+        74,
+        "signalWirelessEthernet"
+      ],
+      "description": "Wireless Ethernet"
+    },
+    {
+      "enum": [
+        75,
+        "signal24Vac240VacIncremental"
+      ],
+      "description": "24VAC-240VAC Incremental"
+    },
+    {
+      "enum": [
+        76,
+        "signalRtSiliconA99B"
+      ],
+      "description": "RT Silicon A99B"
+    },
+    {
+      "enum": [
+        77,
+        "signalRtPlatinum1KRtd"
+      ],
+      "description": "RT Platinum 1K RTD"
+    },
+    {
+      "enum": [
+        78,
+        "signalRtNickel1KRtdJci"
+      ],
+      "description": "RT Nickel 1K RTD (JCI)"
+    },
+    {
+      "enum": [
+        79,
+        "signalRtNickel1KRtdJciExt"
+      ],
+      "description": "RT Nickel 1K RTD (JCI ext)"
+    },
+    {
+      "enum": [
+        80,
+        "signalRtNickel1KRtdLg"
+      ],
+      "description": "RT Nickel 1K RTD (L&G)"
+    },
+    {
+      "enum": [
+        81,
+        "signalRtNickel1KRtdDin"
+      ],
+      "description": "RT Nickel 1K RTD DIN"
+    },
+    {
+      "enum": [
+        82,
+        "signalRt10KNtcTypeLThermistor"
+      ],
+      "description": "RT 10K NTC Type L Thermistor (Obsolete)"
+    },
+    {
+      "enum": [
+        83,
+        "signalRt010Vdc"
+      ],
+      "description": "RT 0-10VDC"
+    },
+    {
+      "enum": [
+        84,
+        "signalRt020Ma"
+      ],
+      "description": "RT 0-20mA"
+    },
+    {
+      "enum": [
+        85,
+        "signalRtDryContactMaintained"
+      ],
+      "description": "RT Dry Contact Maintained"
+    },
+    {
+      "enum": [
+        86,
+        "signalRt24Vac240VacMaintained"
+      ],
+      "description": "RT 24VAC-240VAC Maintained"
+    },
+    {
+      "enum": [
+        87,
+        "signalLedDriver"
+      ],
+      "description": "LED Driver"
+    },
+    {
+      "enum": [
+        88,
+        "signalIntegratedDigitalVelocityPressure"
+      ],
+      "description": "Integrated Digital Velocity Pressure"
+    },
+    {
+      "enum": [
+        89,
+        "signalIntegratedTemporaryOccupancy"
+      ],
+      "description": "Integrated Temporary Occupancy"
+    },
+    {
+      "enum": [
+        90,
+        "signal100VacStartStop"
+      ],
+      "description": "100VAC Start Stop"
+    },
+    {
+      "enum": [
+        91,
+        "signal100VacPulse"
+      ],
+      "description": "100VAC Pulse"
+    },
+    {
+      "enum": [
+        92,
+        "signal100VacMaintained"
+      ],
+      "description": "100VAC Maintained"
+    },
+    {
+      "enum": [
+        93,
+        "signal100VacIncremental"
+      ],
+      "description": "100VAC Incremental"
+    },
+    {
+      "enum": [
+        94,
+        "signalResistive1500"
+      ],
+      "description": "Resistive_1500"
+    },
+    {
+      "enum": [
+        95,
+        "signal10KNtcType3Thermistor"
+      ],
+      "description": "10K NTC Type 3 Thermistor"
+    },
+    {
+      "enum": [
+        96,
+        "signal10KNtcType3ThermistorSe"
+      ],
+      "description": "10K NTC Type 3 Thermistor SE"
+    },
+    {
+      "enum": [
+        97,
+        "signal24VdcStartStop"
+      ],
+      "description": "24VDC Start Stop"
+    },
+    {
+      "enum": [
+        98,
+        "signalIntegratedDigitalHumidity"
+      ],
+      "description": "Integrated Digital Humidity"
+    },
+    {
+      "enum": [
+        99,
+        "signalResistive20K"
+      ],
+      "description": "Resistive 20k"
+    },
+    {
+      "enum": [
+        100,
+        "signal24VdcMaintained"
+      ],
+      "description": "24VDC Maintained"
+    },
+    {
+      "enum": [
+        101,
+        "signalIntegratedDigitalTemperature"
+      ],
+      "description": "Integrated Digital Temperature"
+    },
+    {
+      "enum": [
+        102,
+        "signal24VacDetect"
+      ],
+      "description": "24VAC Detect"
+    },
+    {
+      "enum": [
+        103,
+        "signalPulseWidthModulated"
+      ],
+      "description": "Pulse Width Modulated"
+    }
+  ]
+}

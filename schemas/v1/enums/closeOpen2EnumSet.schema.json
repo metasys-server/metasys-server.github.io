@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/closeOpen2EnumSet.schema.json",
+  "title": "closeOpen2EnumSet",
+  "description": "Close/Open",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "coClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "coOpen"
+      ],
+      "description": "Open"
+    }
+  ]
+}

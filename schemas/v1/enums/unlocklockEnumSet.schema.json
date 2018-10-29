@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unlockLockEnumSet.schema.json",
+  "title": "unlockLockEnumSet",
+  "description": "Unlock/Lock",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "unlklkUnlock"
+      ],
+      "description": "Unlock"
+    },
+    {
+      "enum": [
+        1,
+        "unlklkLock"
+      ],
+      "description": "Lock"
+    }
+  ]
+}      2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

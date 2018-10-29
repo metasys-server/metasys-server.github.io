@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/chillerStartstopEnumSet.schema.json",
+  "title": "chillerStartstopEnumSet",
+  "description": "Chiller StartStop",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cssOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "cssOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "cssCwIsovlvOpen"
+      ],
+      "description": "CW Isolation Valve Open"
+    },
+    {
+      "enum": [
+        3,
+        "cssCwIsovlvClose"
+      ],
+      "description": "CW Isolation Valve Close"
+    },
+    {
+      "enum": [
+        4,
+        "cssCwPumpOn"
+      ],
+      "description": "CW Pump On"
+    },
+    {
+      "enum": [
+        5,
+        "cssCwPumpOff"
+      ],
+      "description": "CW Pump Off"
+    },
+    {
+      "enum": [
+        6,
+        "cssChwIsovlvOpen"
+      ],
+      "description": "CHW Isolation Valve Open"
+    },
+    {
+      "enum": [
+        7,
+        "cssChwIsovlvClose"
+      ],
+      "description": "CHW Isolation Valve Close"
+    },
+    {
+      "enum": [
+        8,
+        "cssChwPumpOn"
+      ],
+      "description": "CHW Pump On"
+    },
+    {
+      "enum": [
+        9,
+        "cssChwPumpOff"
+      ],
+      "description": "CHW Pump Off"
+    },
+    {
+      "enum": [
+        10,
+        "cssPumpDown"
+      ],
+      "description": "Pump Down"
+    }
+  ]
+}

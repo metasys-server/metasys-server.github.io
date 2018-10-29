@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ysYnSc1EnumSet.schema.json",
+  "title": "ysYnSc1EnumSet",
+  "description": "YS/YN Operational Code SC.1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ysYnSc10"
+      ],
+      "description": "UNIT STOPPED - READY TO START"
+    },
+    {
+      "enum": [
+        1,
+        "ysYnSc11"
+      ],
+      "description": "UNIT STOPPED - LOCAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        2,
+        "ysYnSc12"
+      ],
+      "description": "UNIT STOPPED - REMOTE SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "ysYnSc13"
+      ],
+      "description": "UNIT STOPPED - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        4,
+        "ysYnSc14"
+      ],
+      "description": "UNIT STOPPED - CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        5,
+        "ysYnSc15"
+      ],
+      "description": "UNIT STOPPED - SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        6,
+        "ysYnSc16"
+      ],
+      "description": "UNIT START INHIBIT"
+    },
+    {
+      "enum": [
+        7,
+        "ysYnSc17"
+      ],
+      "description": "UNIT STARTING"
+    },
+    {
+      "enum": [
+        8,
+        "ysYnSc18"
+      ],
+      "description": "UNIT RUNNING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        9,
+        "ysYnSc19"
+      ],
+      "description": "UNIT RUNNING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        10,
+        "ysYnSc110"
+      ],
+      "description": "UNIT RUNNING - CHILLER UNLOAD BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        11,
+        "ysYnSc111"
+      ],
+      "description": "UNIT LOCKOUT DELAY"
+    },
+    {
+      "enum": [
+        12,
+        "ysYnSc112"
+      ],
+      "description": "UNIT RUNNING- MODIFIED RUN"
+    },
+    {
+      "enum": [
+        13,
+        "ysYnSc113"
+      ],
+      "description": "UNIT STOPPED- INTERNAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        14,
+        "ysYnSc114"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ysYnSc115"
+      ],
+      "description": "RESERVED 15"
+    }
+  ]
+}

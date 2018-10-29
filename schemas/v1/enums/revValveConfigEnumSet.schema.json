@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/revValveConfigEnumSet.schema.json",
+  "title": "revValveConfigEnumSet",
+  "description": "Reversing Valve Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "revValveNormHeat"
+      ],
+      "description": "Normally Heat"
+    },
+    {
+      "enum": [
+        1,
+        "revValveNormCool"
+      ],
+      "description": "Normally Cool"
+    }
+  ]
+}

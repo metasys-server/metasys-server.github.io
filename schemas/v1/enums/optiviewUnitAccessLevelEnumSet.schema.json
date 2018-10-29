@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewUnitAccessLevelEnumSet.schema.json",
+  "title": "optiviewUnitAccessLevelEnumSet",
+  "description": "Optiview Unit Access Level",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewUnitAccLvlView"
+      ],
+      "description": "View"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewUnitAccLvlOperator"
+      ],
+      "description": "Operator"
+    },
+    {
+      "enum": [
+        2,
+        "optiviewUnitAccLvlService"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        3,
+        "optiviewUnitAccLvlTestOp"
+      ],
+      "description": "Test Op"
+    },
+    {
+      "enum": [
+        4,
+        "optiviewUnitAccLvlAdmin"
+      ],
+      "description": "Admin"
+    },
+    {
+      "enum": [
+        5,
+        "optiviewUnitAccLvlReserved5"
+      ],
+      "description": "Reserved 5"
+    }
+  ]
+}

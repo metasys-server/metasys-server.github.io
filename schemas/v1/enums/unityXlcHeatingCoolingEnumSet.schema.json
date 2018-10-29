@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcHeatingCoolingEnumSet.schema.json",
+  "title": "unityXlcHeatingCoolingEnumSet",
+  "description": "Unity XLC Heating/Cooling",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "COOL"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "HEAT"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "HEAT1"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "COOL1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, COOL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, HEAT"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

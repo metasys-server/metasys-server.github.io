@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecDoorTimeEnumSet.schema.json",
+  "title": "tecDoorTimeEnumSet",
+  "description": "Door Time",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "1 minutes"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "2 minutes"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "3 minutes"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "4 minutes"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "5 minutes"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "6 minutes"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "7 minutes"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "8 minutes"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "9 minutes"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "10 minutes"
+    }
+  ]
+}

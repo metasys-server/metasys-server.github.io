@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewBvDeltappcurrentEnumSet.schema.json",
+  "title": "optiviewBvDeltappcurrentEnumSet",
+  "description": "Optiview BV Delta P/P Current",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewBvDeltappcurrent0"
+      ],
+      "description": "Delta P/P"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewBvDeltappcurrent1"
+      ],
+      "description": "Current"
+    }
+  ]
+}

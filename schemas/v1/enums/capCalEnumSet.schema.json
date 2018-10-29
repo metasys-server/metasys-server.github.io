@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/capCalEnumSet.schema.json",
+  "title": "capCalEnumSet",
+  "description": "Capacity Calculation",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "capCalRatedFlow"
+      ],
+      "description": "Rated Flow"
+    },
+    {
+      "enum": [
+        1,
+        "capCalMeasuredFlow"
+      ],
+      "description": "Measured Flow"
+    },
+    {
+      "enum": [
+        2,
+        "capCalAmps"
+      ],
+      "description": "Amp"
+    },
+    {
+      "enum": [
+        3,
+        "capCalFla"
+      ],
+      "description": "Percent FLA"
+    }
+  ]
+}

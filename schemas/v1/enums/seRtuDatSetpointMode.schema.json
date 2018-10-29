@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuDatSetpointMode.schema.json",
+  "title": "seRtuDatSetpointMode",
+  "description": "SE RTU DAT Setpoint Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuDatSetpointModeFixed"
+      ],
+      "description": "Fixed"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuDatSetpointModeOaTempReset"
+      ],
+      "description": "OA Temp Reset"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuDatSetpointModeSupplyFanReset"
+      ],
+      "description": "Supply Fan Reset"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuDatSetpointModeZoneTempReset"
+      ],
+      "description": "Zone Temp Reset"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuDatSetpointModeExternal"
+      ],
+      "description": "External"
+    }
+  ]
+}

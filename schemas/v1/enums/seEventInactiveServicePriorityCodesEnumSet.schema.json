@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEventInactiveServicePriorityCodesEnumSet.schema.json",
+  "title": "seEventInactiveServicePriorityCodesEnumSet",
+  "description": "SE Event Inactive Service Priority Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEventInactiveServicePriorityCodeUndefined"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEventInactiveServicePriorityCodeFirmwareVersionsOk"
+      ],
+      "description": "Firmware versions do not match package"
+    },
+    {
+      "enum": [
+        100,
+        "seEventInactiveServicePriorityCode100"
+      ],
+      "description": "FDD Firmware Failure"
+    },
+    {
+      "enum": [
+        101,
+        "seEventInactiveServicePriorityCode101"
+      ],
+      "description": "No Dehum Due to Space Humidity"
+    },
+    {
+      "enum": [
+        102,
+        "seEventInactiveServicePriorityCode102"
+      ],
+      "description": "No Air Quality Control Due to IAQ"
+    },
+    {
+      "enum": [
+        103,
+        "seEventInactiveServicePriorityCode103"
+      ],
+      "description": "Building Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        104,
+        "seEventInactiveServicePriorityCode104"
+      ],
+      "description": "Outdoor Air Temperature Sensor Failure"
+    },
+    {
+      "enum": [
+        105,
+        "seEventInactiveServicePriorityCode105"
+      ],
+      "description": "Return Air Temperature Sensor Failure"
+    },
+    {
+      "enum": [
+        106,
+        "seEventInactiveServicePriorityCode106"
+      ],
+      "description": "Supply Air Temperature Sensor Failure"
+    },
+    {
+      "enum": [
+        107,
+        "seEventInactiveServicePriorityCode107"
+      ],
+      "description": "24 VAC Supply Input Failure"
+    },
+    {
+      "enum": [
+        108,
+        "seEventInactiveServicePriorityCode108"
+      ],
+      "description": "Evaporator Coil Temp 1 Sensor Failure"
+    },
+    {
+      "enum": [
+        109,
+        "seEventInactiveServicePriorityCode109"
+      ],
+      "description": "Condenser Coil Temp 1 Sensor Failure"
+    },
+    {
+      "enum": [
+        110,
+        "seEventInactiveServicePriorityCode110"
+      ],
+      "description": "Evaporator Coil Temp 2 Sensor Failure"
+    },
+    {
+      "enum": [
+        111,
+        "seEventInactiveServicePriorityCode111"
+      ],
+      "description": "Condenser Coil Temp 2 Sensor Failure"
+    },
+    {
+      "enum": [
+        112,
+        "seEventInactiveServicePriorityCode112"
+      ],
+      "description": "Evaporator Coil Temp 3 Sensor Failure"
+    },
+    {
+      "enum": [
+        113,
+        "seEventInactiveServicePriorityCode113"
+      ],
+      "description": "Condenser Coil Temp 3 Sensor Failure"
+    },
+    {
+      "enum": [
+        114,
+        "seEventInactiveServicePriorityCode114"
+      ],
+      "description": "Evaporator Coil Temp 4 Sensor Failure"
+    },
+    {
+      "enum": [
+        115,
+        "seEventInactiveServicePriorityCode115"
+      ],
+      "description": "Condenser Coil Temp 4 Sensor Failure"
+    },
+    {
+      "enum": [
+        116,
+        "seEventInactiveServicePriorityCode116"
+      ],
+      "description": "Unit Shutdown Due to Air Proving Switch"
+    },
+    {
+      "enum": [
+        117,
+        "seEventInactiveServicePriorityCode117"
+      ],
+      "description": "Unit Shutdown Due to Supply Fan Overload"
+    },
+    {
+      "enum": [
+        118,
+        "seEventInactiveServicePriorityCode118"
+      ],
+      "description": "Main Controller Calibration Error"
+    },
+    {
+      "enum": [
+        119,
+        "seEventInactiveServicePriorityCode119"
+      ],
+      "description": "FDDM Controller Calibration Error"
+    },
+    {
+      "enum": [
+        120,
+        "seEventInactiveServicePriorityCode120"
+      ],
+      "description": "Econ Controller Calibration Error"
+    },
+    {
+      "enum": [
+        121,
+        "seEventInactiveServicePriorityCode121"
+      ],
+      "description": "4 Stage Controller Calibration Error"
+    },
+    {
+      "enum": [
+        122,
+        "seEventInactiveServicePriorityCode122"
+      ],
+      "description": "Duct Pressure Sensor Failure"
+    },
+    {
+      "enum": [
+        123,
+        "seEventInactiveServicePriorityCode123"
+      ],
+      "description": "FDDS Controller Calibration Error"
+    },
+    {
+      "enum": [
+        124,
+        "seEventInactiveServicePriorityCode124"
+      ],
+      "description": "MFC SAT Sensor Failure"
+    },
+    {
+      "enum": [
+        125,
+        "seEventInactiveServicePriorityCode125"
+      ],
+      "description": "MFC MAT Sensor Failure"
+    },
+    {
+      "enum": [
+        126,
+        "seEventInactiveServicePriorityCode126"
+      ],
+      "description": "MFC Jumper Set to Elite"
+    },
+    {
+      "enum": [
+        127,
+        "seEventInactiveServicePriorityCode127"
+      ],
+      "description": "Leaving Water Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        128,
+        "seEventInactiveServicePriorityCode128"
+      ],
+      "description": "C1 Shutdown Due to Condensate Overflow"
+    },
+    {
+      "enum": [
+        129,
+        "seEventInactiveServicePriorityCode129"
+      ],
+      "description": "C1 Shutdown Due to Water Coil Freeze"
+    },
+    {
+      "enum": [
+        130,
+        "seEventInactiveServicePriorityCode130"
+      ],
+      "description": "C1 Shutdown Due to Air Coil Freeze"
+    },
+    {
+      "enum": [
+        131,
+        "seEventInactiveServicePriorityCode131"
+      ],
+      "description": "SAT Out of Bounds, Check Unit Operation"
+    },
+    {
+      "enum": [
+        132,
+        "seEventInactiveServicePriorityCode132"
+      ],
+      "description": "Entering Water Temp Sensor Failure"
+    }
+  ]
+}

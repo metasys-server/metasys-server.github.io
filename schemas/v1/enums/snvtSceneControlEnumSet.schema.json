@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtSceneControlEnumSet.schema.json",
+  "title": "snvtSceneControlEnumSet",
+  "description": "SNVT Scene Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Recall"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Learn"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Display"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Group Off"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Group On"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Status Off"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Status On"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Status Mixed"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Group Status"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Flick"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Timeout"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Timeout Flick"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Delay Off"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Delay Off Flick"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Delay On"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Enable Group"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "Disable Group"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "Clean On"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "Clean Off"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Wink"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "Mode 1"
+    },
+    {
+      "enum": [
+        22,
+        "22"
+      ],
+      "description": "Mode 2"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "Mode 3"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

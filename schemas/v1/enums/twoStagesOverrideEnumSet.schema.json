@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/twoStagesOverrideEnumSet.schema.json",
+  "title": "twoStagesOverrideEnumSet",
+  "description": "Two Stages Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "twoStagesOverrideAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "twoStagesOverrideNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        2,
+        "twoStagesOverrideOne"
+      ],
+      "description": "One"
+    },
+    {
+      "enum": [
+        3,
+        "twoStagesOverrideTwo"
+      ],
+      "description": "Two"
+    }
+  ]
+}

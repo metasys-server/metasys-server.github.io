@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/humidityStatesEnumSet.schema.json",
+  "title": "humidityStatesEnumSet",
+  "description": "Humidity States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "humidityStatesNoHumidDehumid"
+      ],
+      "description": "No Humid-Dehumid"
+    },
+    {
+      "enum": [
+        1,
+        "humidityStatesNormalHumid"
+      ],
+      "description": "Normal Humid"
+    },
+    {
+      "enum": [
+        2,
+        "humidityStatesLimitedHumid"
+      ],
+      "description": "Limited Humid"
+    },
+    {
+      "enum": [
+        3,
+        "humidityStatesNormalDehumid"
+      ],
+      "description": "Normal Dehumid"
+    },
+    {
+      "enum": [
+        4,
+        "humidityStatesHumUnrel"
+      ],
+      "description": "Humidity Sensors Unrel"
+    },
+    {
+      "enum": [
+        5,
+        "humidityStatesDehumUnrel"
+      ],
+      "description": "Dehumid Sensor Unrel"
+    }
+  ]
+}

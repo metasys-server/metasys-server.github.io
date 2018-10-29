@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexOccupancyEnumSet.schema.json",
+  "title": "unityNexOccupancyEnumSet",
+  "description": "Unity NEX Occupancy",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Unoccupy"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Occupy"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Unoccupy"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Occupy"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Standby"
+    }
+  ]
+}

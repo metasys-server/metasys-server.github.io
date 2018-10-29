@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/modemTypeEnumSet.schema.json",
+  "title": "modemTypeEnumSet",
+  "description": "Modem Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "internalModemType"
+      ],
+      "description": "Internal modem"
+    },
+    {
+      "enum": [
+        1,
+        "externalModemType"
+      ],
+      "description": "External modem"
+    }
+  ]
+}

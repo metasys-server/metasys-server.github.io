@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuClgFbpdOutEnumSet.schema.json",
+  "title": "ahuClgFbpdOutEnumSet",
+  "description": "AHU Clg FBPD Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "acfoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "acfoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "acfoLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "acfoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "acfoWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "acfoTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        6,
+        "acfoHControl"
+      ],
+      "description": "H Control"
+    },
+    {
+      "enum": [
+        7,
+        "acfoFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        8,
+        "acfoLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        9,
+        "acfoFace"
+      ],
+      "description": "Face"
+    }
+  ]
+}

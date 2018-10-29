@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/supervisorFanSpeedEnumSet.schema.json",
+  "title": "supervisorFanSpeedEnumSet",
+  "description": "Supervisor Fan Speed",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "supervisorFanSpeedLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        2,
+        "supervisorFanSpeedMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        3,
+        "supervisorFanSpeedHigh"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        4,
+        "supervisorFanSpeedAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

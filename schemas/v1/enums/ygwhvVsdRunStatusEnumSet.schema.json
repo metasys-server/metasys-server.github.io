@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ygwhvVsdRunStatusEnumSet.schema.json",
+  "title": "ygwhvVsdRunStatusEnumSet",
+  "description": "YGWHV VSD Run Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ygwhvVsdRunStatus0"
+      ],
+      "description": "No Communication"
+    },
+    {
+      "enum": [
+        1,
+        "ygwhvVsdRunStatus1"
+      ],
+      "description": "Forward Running"
+    },
+    {
+      "enum": [
+        2,
+        "ygwhvVsdRunStatus2"
+      ],
+      "description": "Reverse Running"
+    },
+    {
+      "enum": [
+        3,
+        "ygwhvVsdRunStatus3"
+      ],
+      "description": "Stopped"
+    },
+    {
+      "enum": [
+        4,
+        "ygwhvVsdRunStatus4"
+      ],
+      "description": "Tuned"
+    },
+    {
+      "enum": [
+        5,
+        "ygwhvVsdRunStatus5"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

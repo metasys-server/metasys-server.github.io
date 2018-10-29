@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityEst3LedEnumSet.schema.json",
+  "title": "unityEst3LedEnumSet",
+  "description": "Unity EST3 LED",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "OFF"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "ON"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "SLOW"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "FAST"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "OFF, LATCH"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "OFF, LOW"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "OFF, HIGH"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "ON, LATCH"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "ON, LOW"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "ON, HIGH"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "SLOW, LATCH"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "SLOW, LOW"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "SLOW, HIGH"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "FAST, LATCH"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "FAST, LOW"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "FAST, HIGH"
+    }
+  ]
+}

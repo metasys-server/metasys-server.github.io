@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/calibrateEnumSet.schema.json",
+  "title": "calibrateEnumSet",
+  "description": "Calibrate",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Not Calibrating"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Drive Open"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Read Open Values"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Drive Closed"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Read Closed Values"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Calculate Ranges"
+    }
+  ]
+}

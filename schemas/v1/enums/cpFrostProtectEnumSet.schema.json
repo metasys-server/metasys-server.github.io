@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpFrostProtectEnumSet.schema.json",
+  "title": "cpFrostProtectEnumSet",
+  "description": "CP Frost Protect",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpFrostProtectNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "cpFrostProtectLowOatOne"
+      ],
+      "description": "Low OAT 1"
+    },
+    {
+      "enum": [
+        2,
+        "cpFrostProtectLowOatTwo"
+      ],
+      "description": "Low OAT 2"
+    },
+    {
+      "enum": [
+        3,
+        "cpFrostProtectLowOatAndLowZone"
+      ],
+      "description": "Low OAT and Low Zone"
+    }
+  ]
+}

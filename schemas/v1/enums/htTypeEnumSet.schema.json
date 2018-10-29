@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/htTypeEnumSet.schema.json",
+  "title": "htTypeEnumSet",
+  "description": "Ht Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Single Stage Local"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Two Stage Local"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Multi-Stage Remote"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Steam or Hot Water"
+    }
+  ]
+}

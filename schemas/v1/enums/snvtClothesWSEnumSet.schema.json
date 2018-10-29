@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtClothesWSEnumSet.schema.json",
+  "title": "snvtClothesWSEnumSet",
+  "description": "SNVT Clothes Washer Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cwsLoadSensing"
+      ],
+      "description": "Sensing Load"
+    },
+    {
+      "enum": [
+        1,
+        "cwsWetting"
+      ],
+      "description": "Wetting"
+    },
+    {
+      "enum": [
+        2,
+        "cwsDetergent"
+      ],
+      "description": "Detergent"
+    },
+    {
+      "enum": [
+        3,
+        "cwsWashing"
+      ],
+      "description": "Washing"
+    },
+    {
+      "enum": [
+        4,
+        "cwsWatering"
+      ],
+      "description": "Watering"
+    },
+    {
+      "enum": [
+        5,
+        "cwsRinsing"
+      ],
+      "description": "Rinsing"
+    },
+    {
+      "enum": [
+        6,
+        "cwsArranging"
+      ],
+      "description": "Arranging"
+    },
+    {
+      "enum": [
+        7,
+        "cwsDrain"
+      ],
+      "description": "Drain"
+    },
+    {
+      "enum": [
+        8,
+        "cwsSpinning"
+      ],
+      "description": "Spinning"
+    },
+    {
+      "enum": [
+        9,
+        "cwsFinalSpinning"
+      ],
+      "description": "In Final Spin"
+    },
+    {
+      "enum": [
+        10,
+        "cwsFluffing"
+      ],
+      "description": "Fluffing"
+    },
+    {
+      "enum": [
+        11,
+        "cwsDrying"
+      ],
+      "description": "Drying"
+    },
+    {
+      "enum": [
+        12,
+        "cwsCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        255,
+        "cwsNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

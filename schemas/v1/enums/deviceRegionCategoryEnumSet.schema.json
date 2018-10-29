@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/deviceRegionCategoryEnumSet.schema.json",
+  "title": "deviceRegionCategoryEnumSet",
+  "description": "Device Region Category",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "deviceRegionCategoryAsiaMstpN2"
+      ],
+      "description": "Asia MSTP/N2"
+    },
+    {
+      "enum": [
+        1,
+        "deviceRegionCategoryEuropeRomutec"
+      ],
+      "description": "Europe Romutec"
+    },
+    {
+      "enum": [
+        2,
+        "deviceRegionCategoryGlobalMstp"
+      ],
+      "description": "Global MSTP"
+    },
+    {
+      "enum": [
+        3,
+        "deviceRegionCategoryGlobalMstpN2"
+      ],
+      "description": "Global MSTP/N2"
+    },
+    {
+      "enum": [
+        4,
+        "deviceRegionCategoryJapanMstp"
+      ],
+      "description": "Japan MSTP"
+    },
+    {
+      "enum": [
+        5,
+        "deviceRegionCategoryJapanMstpN2"
+      ],
+      "description": "Japan MSTP/N2"
+    },
+    {
+      "enum": [
+        6,
+        "deviceRegionCategoryFxMstp"
+      ],
+      "description": "FX MSTP"
+    },
+    {
+      "enum": [
+        7,
+        "deviceRegionCategoryFxMstpN2"
+      ],
+      "description": "FX MSTP/N2"
+    },
+    {
+      "enum": [
+        8,
+        "deviceRegionCategoryGlobalIp"
+      ],
+      "description": "Global IP"
+    },
+    {
+      "enum": [
+        9,
+        "deviceRegionCategoryAsiaMstp"
+      ],
+      "description": "Asia MSTP"
+    },
+    {
+      "enum": [
+        10,
+        "deviceRegionCategoryGlobalN2"
+      ],
+      "description": "Global N2"
+    },
+    {
+      "enum": [
+        11,
+        "deviceRegionCategoryFxN2"
+      ],
+      "description": "FX N2"
+    }
+  ]
+}

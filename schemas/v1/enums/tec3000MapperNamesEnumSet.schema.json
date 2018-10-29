@@ -1,0 +1,778 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000MapperNamesEnumSet.schema.json",
+  "title": "tec3000MapperNamesEnumSet",
+  "description": "TEC3000 Mapper Names",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000MapperNamesSystemMode"
+      ],
+      "description": "SYSTEM-MODE"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000MapperNamesUnitenMode"
+      ],
+      "description": "UNITEN-MODE"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000MapperNamesClgoccSp"
+      ],
+      "description": "CLGOCC-SP"
+    },
+    {
+      "enum": [
+        3,
+        "tec3000MapperNamesHtgoccSp"
+      ],
+      "description": "HTGOCC-SP"
+    },
+    {
+      "enum": [
+        4,
+        "tec3000MapperNamesClgunoccSp"
+      ],
+      "description": "CLGUNOCC-SP"
+    },
+    {
+      "enum": [
+        5,
+        "tec3000MapperNamesHtgunoccSp"
+      ],
+      "description": "HTGUNOCC-SP"
+    },
+    {
+      "enum": [
+        6,
+        "tec3000MapperNamesClgstbySp"
+      ],
+      "description": "CLGSTBY-SP"
+    },
+    {
+      "enum": [
+        7,
+        "tec3000MapperNamesHtgstbySp"
+      ],
+      "description": "HTGSTBY-SP"
+    },
+    {
+      "enum": [
+        8,
+        "tec3000MapperNamesWcAdj"
+      ],
+      "description": "WC-ADJ"
+    },
+    {
+      "enum": [
+        9,
+        "tec3000MapperNamesHoldrunMode"
+      ],
+      "description": "HOLDRUN-MODE"
+    },
+    {
+      "enum": [
+        10,
+        "tec3000MapperNamesZnhSp"
+      ],
+      "description": "ZNH-SP"
+    },
+    {
+      "enum": [
+        11,
+        "tec3000MapperNamesDbSp"
+      ],
+      "description": "DB-SP"
+    },
+    {
+      "enum": [
+        12,
+        "tec3000MapperNamesOaenthSp"
+      ],
+      "description": "OAENTH-SP"
+    },
+    {
+      "enum": [
+        13,
+        "tec3000MapperNamesOaT"
+      ],
+      "description": "NET-OAT"
+    },
+    {
+      "enum": [
+        14,
+        "tec3000MapperNamesOaH"
+      ],
+      "description": "NET-OAH"
+    },
+    {
+      "enum": [
+        15,
+        "tec3000MapperNamesZnT"
+      ],
+      "description": "NET-ZNT"
+    },
+    {
+      "enum": [
+        16,
+        "tec3000MapperNamesZnH"
+      ],
+      "description": "NET-ZNH"
+    },
+    {
+      "enum": [
+        17,
+        "tec3000MapperNamesSaT"
+      ],
+      "description": "NET-SAT"
+    },
+    {
+      "enum": [
+        18,
+        "tec3000MapperNamesTempoccEn"
+      ],
+      "description": "TEMPOCC-EN"
+    },
+    {
+      "enum": [
+        19,
+        "tec3000MapperNamesOccovrdMode"
+      ],
+      "description": "OCCOVRD-MODE"
+    },
+    {
+      "enum": [
+        20,
+        "tec3000MapperNamesOccConfig"
+      ],
+      "description": "OCC-CONFIG"
+    },
+    {
+      "enum": [
+        21,
+        "tec3000MapperNamesPassEn"
+      ],
+      "description": "PASS-EN"
+    },
+    {
+      "enum": [
+        22,
+        "tec3000MapperNamesPasscode"
+      ],
+      "description": "PASSCODE"
+    },
+    {
+      "enum": [
+        23,
+        "tec3000MapperNamesCgovrMode"
+      ],
+      "description": "CGOVR-MODE"
+    },
+    {
+      "enum": [
+        24,
+        "tec3000MapperNamesFanMode"
+      ],
+      "description": "FAN-MODE"
+    },
+    {
+      "enum": [
+        25,
+        "tec3000MapperNamesFanovrdMode"
+      ],
+      "description": "FANOVRD-MODE"
+    },
+    {
+      "enum": [
+        26,
+        "tec3000MapperNamesUnitS"
+      ],
+      "description": "UNIT-S"
+    },
+    {
+      "enum": [
+        27,
+        "tec3000MapperNamesEffZnt"
+      ],
+      "description": "EFF-ZNT"
+    },
+    {
+      "enum": [
+        28,
+        "tec3000MapperNamesEffZnh"
+      ],
+      "description": "EFF-ZNH"
+    },
+    {
+      "enum": [
+        29,
+        "tec3000MapperNamesEffSetpoint"
+      ],
+      "description": "EFF-SETPOINT"
+    },
+    {
+      "enum": [
+        30,
+        "tec3000MapperNamesEffOcc"
+      ],
+      "description": "EFF-OCC"
+    },
+    {
+      "enum": [
+        31,
+        "tec3000MapperNamesOccsourceS"
+      ],
+      "description": "OCCSOURCE-S"
+    },
+    {
+      "enum": [
+        32,
+        "tec3000MapperNamesCgovrS"
+      ],
+      "description": "CGOVR-S"
+    },
+    {
+      "enum": [
+        33,
+        "tec3000MapperNamesSfO"
+      ],
+      "description": "SF-O"
+    },
+    {
+      "enum": [
+        34,
+        "tec3000MapperNamesFanspdS"
+      ],
+      "description": "FANSPD-S"
+    },
+    {
+      "enum": [
+        35,
+        "tec3000MapperNamesOadO"
+      ],
+      "description": "OAD-O"
+    },
+    {
+      "enum": [
+        36,
+        "tec3000MapperNamesClgO"
+      ],
+      "description": "CLG-O"
+    },
+    {
+      "enum": [
+        37,
+        "tec3000MapperNamesClg1C"
+      ],
+      "description": "CLG1-C"
+    },
+    {
+      "enum": [
+        38,
+        "tec3000MapperNamesClg2C"
+      ],
+      "description": "CLG2-C"
+    },
+    {
+      "enum": [
+        39,
+        "tec3000MapperNamesHtgO"
+      ],
+      "description": "HTG-O"
+    },
+    {
+      "enum": [
+        40,
+        "tec3000MapperNamesHtg1C"
+      ],
+      "description": "HTG1-C"
+    },
+    {
+      "enum": [
+        41,
+        "tec3000MapperNamesHtg2C"
+      ],
+      "description": "HTG2-C"
+    },
+    {
+      "enum": [
+        42,
+        "tec3000MapperNamesRhO"
+      ],
+      "description": "RH-O"
+    },
+    {
+      "enum": [
+        43,
+        "tec3000MapperNamesRhC"
+      ],
+      "description": "RH-C"
+    },
+    {
+      "enum": [
+        44,
+        "tec3000MapperNamesNetOcc"
+      ],
+      "description": "NET-OCC"
+    },
+    {
+      "enum": [
+        45,
+        "tec3000MapperNamesTuningReset"
+      ],
+      "description": "TUNING-RESET"
+    },
+    {
+      "enum": [
+        46,
+        "tec3000MapperNamesMemUsage"
+      ],
+      "description": "MEM-USAGE"
+    },
+    {
+      "enum": [
+        47,
+        "tec3000MapperNamesEffclgSp"
+      ],
+      "description": "EFFCLG-SP"
+    },
+    {
+      "enum": [
+        48,
+        "tec3000MapperNamesEffhtgSp"
+      ],
+      "description": "EFFHTG-SP"
+    },
+    {
+      "enum": [
+        49,
+        "tec3000MapperNamesEffSat"
+      ],
+      "description": "EFF-SAT"
+    },
+    {
+      "enum": [
+        50,
+        "tec3000MapperNamesEffOat"
+      ],
+      "description": "EFF-OAT"
+    },
+    {
+      "enum": [
+        51,
+        "tec3000MapperNamesEncodeType"
+      ],
+      "description": "ENCODE-TYPE"
+    },
+    {
+      "enum": [
+        52,
+        "tec3000MapperNamesLocalOcc"
+      ],
+      "description": "LOCAL-OCC"
+    },
+    {
+      "enum": [
+        53,
+        "tec3000MapperNamesCompatMode"
+      ],
+      "description": "COMPAT-MODE"
+    },
+    {
+      "enum": [
+        54,
+        "tec3000MapperNamesAuxMode"
+      ],
+      "description": "AUX-MODE"
+    },
+    {
+      "enum": [
+        55,
+        "tec3000MapperNamesSuphtgC"
+      ],
+      "description": "SUPHTG-C"
+    },
+    {
+      "enum": [
+        56,
+        "tec3000MapperNamesSuphtgO"
+      ],
+      "description": "SUPHTG-O"
+    },
+    {
+      "enum": [
+        57,
+        "tec3000MapperNamesTempUnits"
+      ],
+      "description": "TEMP-UNITS"
+    },
+    {
+      "enum": [
+        58,
+        "tec3000MapperNamesMaxspOffset"
+      ],
+      "description": "MAXSP-OFFSET"
+    },
+    {
+      "enum": [
+        59,
+        "tec3000MapperNamesCgovrSp"
+      ],
+      "description": "CGOVR-SP"
+    },
+    {
+      "enum": [
+        60,
+        "tec3000MapperNamesClgpidPct"
+      ],
+      "description": "CLGPID-%"
+    },
+    {
+      "enum": [
+        61,
+        "tec3000MapperNamesHtgpidPct"
+      ],
+      "description": "HTGPID-%"
+    },
+    {
+      "enum": [
+        62,
+        "tec3000MapperNamesOadpidPct"
+      ],
+      "description": "OADPID-%"
+    },
+    {
+      "enum": [
+        63,
+        "tec3000MapperNamesFanspdPct"
+      ],
+      "description": "FANSPD-%"
+    },
+    {
+      "enum": [
+        64,
+        "tec3000MapperNamesSuphtgpidPct"
+      ],
+      "description": "SUPHTGPID-%"
+    },
+    {
+      "enum": [
+        65,
+        "tec3000MapperNamesRhpidPct"
+      ],
+      "description": "RHPID-%"
+    },
+    {
+      "enum": [
+        66,
+        "tec3000MapperNamesCommRssi"
+      ],
+      "description": "COMM-RSSI"
+    },
+    {
+      "enum": [
+        67,
+        "tec3000MapperNamesLoadshedEn"
+      ],
+      "description": "LOADSHED-EN"
+    },
+    {
+      "enum": [
+        68,
+        "tec3000MapperNamesLoadshedAdj"
+      ],
+      "description": "LOADSHED-ADJ"
+    },
+    {
+      "enum": [
+        69,
+        "tec3000MapperNamesLoadshedRl"
+      ],
+      "description": "LOADSHED-RL"
+    },
+    {
+      "enum": [
+        70,
+        "tec3000MapperNamesTempoccLen"
+      ],
+      "description": "TEMPOCC-LEN"
+    },
+    {
+      "enum": [
+        71,
+        "tec3000MapperNamesUnoccMinOn"
+      ],
+      "description": "UNOCC-MIN-ON"
+    },
+    {
+      "enum": [
+        72,
+        "tec3000MapperNamesLockLvl"
+      ],
+      "description": "LOCK-LVL"
+    },
+    {
+      "enum": [
+        73,
+        "tec3000MapperNamesMinhtgSp"
+      ],
+      "description": "MINHTG-SP"
+    },
+    {
+      "enum": [
+        74,
+        "tec3000MapperNamesMinclgSp"
+      ],
+      "description": "MINCLG-SP"
+    },
+    {
+      "enum": [
+        75,
+        "tec3000MapperNamesMaxhtgSp"
+      ],
+      "description": "MAXHTG-SP"
+    },
+    {
+      "enum": [
+        76,
+        "tec3000MapperNamesMaxclgSp"
+      ],
+      "description": "MAXCLG-SP"
+    },
+    {
+      "enum": [
+        77,
+        "tec3000MapperNamesUnoccOffDly"
+      ],
+      "description": "UNOCC-OFF-DLY"
+    },
+    {
+      "enum": [
+        78,
+        "tec3000MapperNamesOccspSel"
+      ],
+      "description": "OCCSP-SEL"
+    },
+    {
+      "enum": [
+        79,
+        "tec3000MapperNamesHtgclgspMode"
+      ],
+      "description": "HTGCLGSP-MODE"
+    },
+    {
+      "enum": [
+        80,
+        "tec3000MapperNamesTempctrlSetup"
+      ],
+      "description": "TEMPCTRL-SETUP"
+    },
+    {
+      "enum": [
+        81,
+        "tec3000MapperNamesMaxSp"
+      ],
+      "description": "MAX-SP"
+    },
+    {
+      "enum": [
+        82,
+        "tec3000MapperNamesMinSp"
+      ],
+      "description": "MIN-SP"
+    },
+    {
+      "enum": [
+        83,
+        "tec3000MapperNamesClgPropBand"
+      ],
+      "description": "CLG-PROP-BAND"
+    },
+    {
+      "enum": [
+        84,
+        "tec3000MapperNamesClgIntTime"
+      ],
+      "description": "CLG-INT-TIME"
+    },
+    {
+      "enum": [
+        85,
+        "tec3000MapperNamesClgProcRange"
+      ],
+      "description": "CLG-PROC-RANGE"
+    },
+    {
+      "enum": [
+        86,
+        "tec3000MapperNamesClgSatTime"
+      ],
+      "description": "CLG-SAT-TIME"
+    },
+    {
+      "enum": [
+        87,
+        "tec3000MapperNamesClgTimeConst"
+      ],
+      "description": "CLG-TIME-CONST"
+    },
+    {
+      "enum": [
+        88,
+        "tec3000MapperNamesClgDeadTime"
+      ],
+      "description": "CLG-DEAD-TIME"
+    },
+    {
+      "enum": [
+        89,
+        "tec3000MapperNamesClgPeriod"
+      ],
+      "description": "CLG-PERIOD"
+    },
+    {
+      "enum": [
+        90,
+        "tec3000MapperNamesHtgPropBand"
+      ],
+      "description": "HTG-PROP-BAND"
+    },
+    {
+      "enum": [
+        91,
+        "tec3000MapperNamesHtgIntTime"
+      ],
+      "description": "HTG-INT-TIME"
+    },
+    {
+      "enum": [
+        92,
+        "tec3000MapperNamesHtgProcRange"
+      ],
+      "description": "HTG-PROC-RANGE"
+    },
+    {
+      "enum": [
+        93,
+        "tec3000MapperNamesHtgSatTime"
+      ],
+      "description": "HTG-SAT-TIME"
+    },
+    {
+      "enum": [
+        94,
+        "tec3000MapperNamesHtgTimeConst"
+      ],
+      "description": "HTG-TIME-CONST"
+    },
+    {
+      "enum": [
+        95,
+        "tec3000MapperNamesHtgDeadTime"
+      ],
+      "description": "HTG-DEAD-TIME"
+    },
+    {
+      "enum": [
+        96,
+        "tec3000MapperNamesHtgPeriod"
+      ],
+      "description": "HTG-PERIOD"
+    },
+    {
+      "enum": [
+        97,
+        "tec3000MapperNamesEconPropBand"
+      ],
+      "description": "ECON-PROP-BAND"
+    },
+    {
+      "enum": [
+        98,
+        "tec3000MapperNamesEconIntTime"
+      ],
+      "description": "ECON-INT-TIME"
+    },
+    {
+      "enum": [
+        99,
+        "tec3000MapperNamesEconProcRange"
+      ],
+      "description": "ECON-PROC-RANGE"
+    },
+    {
+      "enum": [
+        100,
+        "tec3000MapperNamesEconSatTime"
+      ],
+      "description": "ECON-SAT-TIME"
+    },
+    {
+      "enum": [
+        101,
+        "tec3000MapperNamesEconTimeConst"
+      ],
+      "description": "ECON-TIME-CONST"
+    },
+    {
+      "enum": [
+        102,
+        "tec3000MapperNamesEconDeadTime"
+      ],
+      "description": "ECON-DEAD-TIME"
+    },
+    {
+      "enum": [
+        103,
+        "tec3000MapperNamesEconPeriod"
+      ],
+      "description": "ECON-PERIOD"
+    },
+    {
+      "enum": [
+        104,
+        "tec3000MapperNamesEconAutoEn"
+      ],
+      "description": "AUTO-ECON-EN"
+    },
+    {
+      "enum": [
+        105,
+        "tec3000MapperNamesDeadband"
+      ],
+      "description": "DEADBAND"
+    },
+    {
+      "enum": [
+        106,
+        "tec3000MapperNamesCommonSp"
+      ],
+      "description": "COMMON-SP"
+    },
+    {
+      "enum": [
+        107,
+        "tec3000MapperNamesTempctrlSetup2"
+      ],
+      "description": "TEMPCTRL-SETUP2"
+    },
+    {
+      "enum": [
+        108,
+        "tec3000MapperNamesFanMode2"
+      ],
+      "description": "FAN-MODE2"
+    },
+    {
+      "enum": [
+        109,
+        "tec3000MapperNamesFanovrdMode2"
+      ],
+      "description": "FAN-OVRD2"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcLeadSysNumberEnumSet.schema.json",
+  "title": "stcLeadSysNumberEnumSet",
+  "description": "York STC Lead System Number",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcLeadSysNumber0"
+      ],
+      "description": "Sys1"
+    },
+    {
+      "enum": [
+        1,
+        "stcLeadSysNumber1"
+      ],
+      "description": "Sys2"
+    }
+  ]
+}

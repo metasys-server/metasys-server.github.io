@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offlineCardTypeEnumSet.schema.json",
+  "title": "offlineCardTypeEnumSet",
+  "description": "Offline Card Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "offlineCardTypeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "offlineCardTypeStandardWiegand"
+      ],
+      "description": "Standard Wiegand"
+    },
+    {
+      "enum": [
+        2,
+        "offlineCardTypeEncryptedWiegand"
+      ],
+      "description": "Encrypted Wiegand"
+    },
+    {
+      "enum": [
+        3,
+        "offlineCardTypeBinaryBafe"
+      ],
+      "description": "Binary BaFe"
+    },
+    {
+      "enum": [
+        4,
+        "offlineCardTypeMagneticStripe"
+      ],
+      "description": "Magnetic Stripe"
+    },
+    {
+      "enum": [
+        5,
+        "offlineCardTypeEyecamProx"
+      ],
+      "description": "Eyecam Prox"
+    },
+    {
+      "enum": [
+        6,
+        "offlineCardType26BitSensorForward"
+      ],
+      "description": "26 bit Sensor Forward"
+    },
+    {
+      "enum": [
+        7,
+        "offlineCardType26BitSensorReverse"
+      ],
+      "description": "26 bit Sensor Reverse"
+    },
+    {
+      "enum": [
+        8,
+        "offlineCardTypeHidCorporate1000Enum"
+      ],
+      "description": "HID Corporate 1000"
+    },
+    {
+      "enum": [
+        9,
+        "offlineCardTypeCustomEnum"
+      ],
+      "description": "Custom"
+    }
+  ]
+}

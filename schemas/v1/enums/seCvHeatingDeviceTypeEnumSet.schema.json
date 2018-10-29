@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seCvHeatingDeviceTypeEnumSet.schema.json",
+  "title": "seCvHeatingDeviceTypeEnumSet",
+  "description": "SE CV Heating Device Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seCvHeatingDeviceTypeEnumSet0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seCvHeatingDeviceTypeEnumSet1"
+      ],
+      "description": "Proportional"
+    },
+    {
+      "enum": [
+        2,
+        "seCvHeatingDeviceTypeEnumSet2"
+      ],
+      "description": "Staged"
+    }
+  ]
+}

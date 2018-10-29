@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/threeSpeedOverrideEnumSet.schema.json",
+  "title": "threeSpeedOverrideEnumSet",
+  "description": "Three Speed Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "threeSpdOvrAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "threeSpdOvrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        2,
+        "threeSpdOvrLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        3,
+        "threeSpdOvrMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        4,
+        "threeSpdOvrHigh"
+      ],
+      "description": "High"
+    }
+  ]
+}

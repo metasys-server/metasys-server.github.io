@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lightingScheduleModeEnumSet.schema.json",
+  "title": "lightingScheduleModeEnumSet",
+  "description": "Lighting Schedule Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lightingSchedMode0"
+      ],
+      "description": "Sensor Only"
+    },
+    {
+      "enum": [
+        1,
+        "lightingSchedMode1"
+      ],
+      "description": "Schedule Only"
+    },
+    {
+      "enum": [
+        2,
+        "lightingSchedMode2"
+      ],
+      "description": "Both ON/Both OFF"
+    },
+    {
+      "enum": [
+        3,
+        "lightingSchedMode3"
+      ],
+      "description": "Both ON/Schedule OFF"
+    },
+    {
+      "enum": [
+        4,
+        "lightingSchedMode4"
+      ],
+      "description": "Schedule ON/Both OFF"
+    },
+    {
+      "enum": [
+        5,
+        "lightingSchedMode5"
+      ],
+      "description": "Both ON/Any OFF"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/acmoStateEnumSet.schema.json",
+  "title": "acmoStateEnumSet",
+  "description": "Auto Cfg Comms Manager Object States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "autoCfgCommsStateIllegal"
+      ],
+      "description": "Illegal State"
+    },
+    {
+      "enum": [
+        1,
+        "autoCfgCommsStateInitialization"
+      ],
+      "description": "Initialization State"
+    },
+    {
+      "enum": [
+        2,
+        "autoCfgCommsStateStartup"
+      ],
+      "description": "Startup State"
+    },
+    {
+      "enum": [
+        3,
+        "autoCfgCommsStateWaitForResult"
+      ],
+      "description": "Wait For Result State"
+    },
+    {
+      "enum": [
+        4,
+        "autoCfgCommsStateDormant"
+      ],
+      "description": "Dormant State"
+    },
+    {
+      "enum": [
+        5,
+        "autoCfgCommsStateDormantWithLock"
+      ],
+      "description": "Dormant With Lock State"
+    },
+    {
+      "enum": [
+        6,
+        "autoCfgCommsStateDeleteDelay"
+      ],
+      "description": "Delete Delay State"
+    },
+    {
+      "enum": [
+        7,
+        "autoCfgCommsStateDisabled"
+      ],
+      "description": "Disabled State"
+    }
+  ]
+}

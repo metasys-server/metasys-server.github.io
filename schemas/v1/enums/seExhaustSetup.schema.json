@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seExhaustSetup.schema.json",
+  "title": "seExhaustSetup",
+  "description": "SE RTU Exhaust Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seExhaustSetupNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seExhaustSetupNonModulating"
+      ],
+      "description": "Non-Modulating"
+    },
+    {
+      "enum": [
+        2,
+        "seExhaustSetupModulatingDamper"
+      ],
+      "description": "Modulating Damper"
+    },
+    {
+      "enum": [
+        3,
+        "seExhaustSetupVariableFrequencyFan"
+      ],
+      "description": "Variable Frequency Fan"
+    }
+  ]
+}

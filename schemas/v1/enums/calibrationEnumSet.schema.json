@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/calibrationEnumSet.schema.json",
+  "title": "calibrationEnumSet",
+  "description": "Calibration",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "calibrationUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "calibrationFailedResistanceTooLow"
+      ],
+      "description": "Failed, Resistance Too Low"
+    },
+    {
+      "enum": [
+        2,
+        "calibrationFailedResistanceTooHigh"
+      ],
+      "description": "Failed, Resistance Too High"
+    },
+    {
+      "enum": [
+        3,
+        "calibration2StateInput"
+      ],
+      "description": "2 state input"
+    },
+    {
+      "enum": [
+        4,
+        "calibrationFailedOffline"
+      ],
+      "description": "Failed, Offline"
+    },
+    {
+      "enum": [
+        5,
+        "calibration4StateInput"
+      ],
+      "description": "4 state input"
+    },
+    {
+      "enum": [
+        6,
+        "calibrationFailedNoCalibrationSupport"
+      ],
+      "description": "Failed, No Calibration Support"
+    },
+    {
+      "enum": [
+        7,
+        "calibrationFailedInputIs2StateOnly"
+      ],
+      "description": "Failed, Input is 2 State Only"
+    },
+    {
+      "enum": [
+        8,
+        "calibrationFailedOutOfService"
+      ],
+      "description": "Failed, Out-Of-Service"
+    }
+  ]
+}

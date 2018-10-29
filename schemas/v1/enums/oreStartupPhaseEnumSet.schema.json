@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/oreStartupPhaseEnumSet.schema.json",
+  "title": "oreStartupPhaseEnumSet",
+  "description": "ORE Startup Phases",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "coldStartPhase"
+      ],
+      "description": "Cold Start"
+    },
+    {
+      "enum": [
+        1,
+        "warmStartPhase"
+      ],
+      "description": "Warm Start"
+    },
+    {
+      "enum": [
+        2,
+        "startupPhase"
+      ],
+      "description": "Startup"
+    },
+    {
+      "enum": [
+        3,
+        "startInputsPhase"
+      ],
+      "description": "Start Inputs"
+    },
+    {
+      "enum": [
+        4,
+        "enableCommPhase"
+      ],
+      "description": "Enable Communications"
+    },
+    {
+      "enum": [
+        5,
+        "restartLogicPhase"
+      ],
+      "description": "Restart Logic"
+    },
+    {
+      "enum": [
+        6,
+        "featureStartPhase"
+      ],
+      "description": "Feature Start"
+    },
+    {
+      "enum": [
+        7,
+        "enableFieldCmdsPhase"
+      ],
+      "description": "Enable Field Commands"
+    }
+  ]
+}

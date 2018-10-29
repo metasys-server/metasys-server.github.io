@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tstatResistorInputFunctionEnumSet.schema.json",
+  "title": "tstatResistorInputFunctionEnumSet",
+  "description": "Thermostat Resistor Input Function",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tstatResistorInputFuncJciTypeIi10KNtc"
+      ],
+      "description": "JCI Type II 10K NTC"
+    },
+    {
+      "enum": [
+        1,
+        "tstatResistorInputFuncNormal10KNtc"
+      ],
+      "description": "Normal 10K NTC"
+    },
+    {
+      "enum": [
+        2,
+        "tstatResistorInputFuncAutomaticChangeoverJci"
+      ],
+      "description": "Automatic Changeover JCI"
+    },
+    {
+      "enum": [
+        3,
+        "tstatResistorInputFuncPt100"
+      ],
+      "description": "PT100"
+    }
+  ]
+}

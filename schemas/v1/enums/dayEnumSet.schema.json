@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dayEnumSet.schema.json",
+  "title": "dayEnumSet",
+  "description": "Day",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "dayMon"
+      ],
+      "description": "Mon"
+    },
+    {
+      "enum": [
+        2,
+        "dayTue"
+      ],
+      "description": "Tue"
+    },
+    {
+      "enum": [
+        3,
+        "dayWed"
+      ],
+      "description": "Wed"
+    },
+    {
+      "enum": [
+        4,
+        "dayThu"
+      ],
+      "description": "Thu"
+    },
+    {
+      "enum": [
+        5,
+        "dayFri"
+      ],
+      "description": "Fri"
+    },
+    {
+      "enum": [
+        6,
+        "daySat"
+      ],
+      "description": "Sat"
+    },
+    {
+      "enum": [
+        7,
+        "daySun"
+      ],
+      "description": "Sun"
+    }
+  ]
+}

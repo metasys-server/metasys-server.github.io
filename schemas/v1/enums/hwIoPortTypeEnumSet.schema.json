@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hwIoPortTypeEnumSet.schema.json",
+  "title": "hwIoPortTypeEnumSet",
+  "description": "HW IO Port Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "localHwPort"
+      ],
+      "description": "Local I/O Hardware Port"
+    },
+    {
+      "enum": [
+        1,
+        "remoteExpansionIoPort"
+      ],
+      "description": "Expansion I/O Port"
+    },
+    {
+      "enum": [
+        2,
+        "remoteMotorIoPort"
+      ],
+      "description": "Motor I/O Port"
+    },
+    {
+      "enum": [
+        3,
+        "remoteExpansionIoPort2"
+      ],
+      "description": "Expansion I/O Port #2"
+    },
+    {
+      "enum": [
+        4,
+        "remoteMotorIoPort2"
+      ],
+      "description": "Motor I/O Port #2"
+    },
+    {
+      "enum": [
+        5,
+        "basCommPort"
+      ],
+      "description": "BAS Communication Port"
+    },
+    {
+      "enum": [
+        6,
+        "localControlPort"
+      ],
+      "description": "Local Control Port"
+    }
+  ]
+}

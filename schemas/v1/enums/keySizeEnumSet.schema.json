@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/keySizeEnumSet.schema.json",
+  "title": "keySizeEnumSet",
+  "description": "Key Size",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "keySize64Bits"
+      ],
+      "description": "64 Bits"
+    },
+    {
+      "enum": [
+        1,
+        "keySize128Bits"
+      ],
+      "description": "128 Bits"
+    },
+    {
+      "enum": [
+        2,
+        "keySize192Bits"
+      ],
+      "description": "192 Bits"
+    },
+    {
+      "enum": [
+        3,
+        "keySize256Bits"
+      ],
+      "description": "256 Bits"
+    }
+  ]
+}

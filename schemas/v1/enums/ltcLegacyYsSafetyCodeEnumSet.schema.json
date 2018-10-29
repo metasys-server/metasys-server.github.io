@@ -1,0 +1,267 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYsSafetyCodeEnumSet.schema.json",
+  "title": "ltcLegacyYsSafetyCodeEnumSet",
+  "description": "York LTC Legacy YS Safety Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYsSafetyCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYsSafetyCode1"
+      ],
+      "description": "LOW EVAP PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYsSafetyCode2"
+      ],
+      "description": "LOW EVAP PRESSURE-BRINE"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYsSafetyCode3"
+      ],
+      "description": "LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYsSafetyCode4"
+      ],
+      "description": "HIGH COND PRESSURE"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYsSafetyCode5"
+      ],
+      "description": "EVAP TRANSDUCER OR PROBE ERROR"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYsSafetyCode6"
+      ],
+      "description": "HIGH DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYsSafetyCode7"
+      ],
+      "description": "HIGH OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYsSafetyCode8"
+      ],
+      "description": "POWER FAILURE"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYsSafetyCode9"
+      ],
+      "description": "FAULTY OIL OR COND TRANSDUCER"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYsSafetyCode10"
+      ],
+      "description": "STARTER MALFUNCTION DETECTED"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYsSafetyCode11"
+      ],
+      "description": "AUXILIARY SAFETY"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYsSafetyCode12"
+      ],
+      "description": "DISCHARGE PROBE FAILURE"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYsSafetyCode13"
+      ],
+      "description": "CURRENT UNBALANCE"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYsSafetyCode14"
+      ],
+      "description": "CLOGGED OIL FILTER"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYsSafetyCode15"
+      ],
+      "description": "LOW SEPARATOR OIL LEVEL"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYsSafetyCode16"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYsSafetyCode17"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYsSafetyCode18"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYsSafetyCode19"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYsSafetyCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYsSafetyCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYsSafetyCode22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYsSafetyCode23"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYsSafetyCode24"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYsSafetyCode25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYsSafetyCode26"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ltcLegacyYsSafetyCode27"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ltcLegacyYsSafetyCode28"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ltcLegacyYsSafetyCode29"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ltcLegacyYsSafetyCode30"
+      ],
+      "description": "RESERVED 30"
+    },
+    {
+      "enum": [
+        31,
+        "ltcLegacyYsSafetyCode31"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ltcLegacyYsSafetyCode32"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ltcLegacyYsSafetyCode33"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ltcLegacyYsSafetyCode34"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "ltcLegacyYsSafetyCode35"
+      ],
+      "description": "LOW SEAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        36,
+        "ltcLegacyYsSafetyCode36"
+      ],
+      "description": "CONDENSER WATER FLOW SWITCH (BRINE)"
+    }
+  ]
+}

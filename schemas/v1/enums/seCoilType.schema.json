@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seCoilType.schema.json",
+  "title": "seCoilType",
+  "description": "Cooling Coil Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "microchannel"
+      ],
+      "description": "MicroChannel"
+    },
+    {
+      "enum": [
+        1,
+        "tubeAndFin"
+      ],
+      "description": "Tube and Fin"
+    }
+  ]
+}

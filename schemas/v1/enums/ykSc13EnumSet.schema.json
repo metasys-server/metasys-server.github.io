@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykSc13EnumSet.schema.json",
+  "title": "ykSc13EnumSet",
+  "description": "YK Start Inhibit Code SC.13",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykSc130"
+      ],
+      "description": "NO INHIBIT FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ykSc131"
+      ],
+      "description": "ANTI-RECYCLE"
+    },
+    {
+      "enum": [
+        2,
+        "ykSc132"
+      ],
+      "description": "VANE MOTOR SWITCH OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "ykSc133"
+      ],
+      "description": "MOTOR CURRENT > 15% FLA"
+    },
+    {
+      "enum": [
+        4,
+        "ykSc134"
+      ],
+      "description": "LCSSS - HIGH PHASE A HEATSINK TEMPERATURE - STOPPED"
+    },
+    {
+      "enum": [
+        5,
+        "ykSc135"
+      ],
+      "description": "LCSSS - HIGH PHASE B HEATSINK TEMPERATURE - STOPPED"
+    },
+    {
+      "enum": [
+        6,
+        "ykSc136"
+      ],
+      "description": "LCSSS - HIGH PHASE C HEATSINK TEMPERATURE - STOPPED"
+    },
+    {
+      "enum": [
+        7,
+        "ykSc137"
+      ],
+      "description": "RESERVED 7"
+    },
+    {
+      "enum": [
+        8,
+        "ykSc138"
+      ],
+      "description": "VSD - FREQUENCY > 0 HZ"
+    },
+    {
+      "enum": [
+        9,
+        "ykSc139"
+      ],
+      "description": "MVSSS - HIGH HEATSINK TEMPERATURE - STOPPED"
+    },
+    {
+      "enum": [
+        10,
+        "ykSc1310"
+      ],
+      "description": "LINE VOLTAGE NOT SET"
+    },
+    {
+      "enum": [
+        11,
+        "ykSc1311"
+      ],
+      "description": "LINE FREQUENCY NOT SET"
+    },
+    {
+      "enum": [
+        12,
+        "ykSc1312"
+      ],
+      "description": "HIGH AUXILIARY CONDENSER PRESSURE - STOPPED"
+    },
+    {
+      "enum": [
+        13,
+        "ykSc1313"
+      ],
+      "description": "VGD NOT CALIBRATED"
+    },
+    {
+      "enum": [
+        14,
+        "ykSc1314"
+      ],
+      "description": "VGD ACTUATOR SWITCH OPEN"
+    },
+    {
+      "enum": [
+        15,
+        "ykSc1315"
+      ],
+      "description": "PRV NOT CALIBRATED"
+    }
+  ]
+}

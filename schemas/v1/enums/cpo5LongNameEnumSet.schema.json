@@ -1,0 +1,5650 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpo5LongNameEnumSet.schema.json",
+  "title": "cpo5LongNameEnumSet",
+  "description": "CPO5 LONG NAME",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpo5LongNameChiller1ModelName"
+      ],
+      "description": "Chiller 1 Model Name"
+    },
+    {
+      "enum": [
+        1,
+        "cpo5LongNameChiller1Mti"
+      ],
+      "description": "Chiller 1 MTI"
+    },
+    {
+      "enum": [
+        2,
+        "cpo5LongNameChiller1ChilledWaterDifferentialPressure"
+      ],
+      "description": "Chiller 1 Chilled Water Differential Pressure"
+    },
+    {
+      "enum": [
+        3,
+        "cpo5LongNameChiller1ChilledWaterMaxFlow"
+      ],
+      "description": "Chiller 1 Chilled Water Max Flow"
+    },
+    {
+      "enum": [
+        4,
+        "cpo5LongNameChiller1ChilledWaterMinFlow"
+      ],
+      "description": "Chiller 1 Chilled Water Min Flow"
+    },
+    {
+      "enum": [
+        5,
+        "cpo5LongNameChiller1ChilledWaterReturnTemperature"
+      ],
+      "description": "Chiller 1 Chilled Water Return Temperature"
+    },
+    {
+      "enum": [
+        6,
+        "cpo5LongNameChiller1ChilledWaterSupplyTemperature"
+      ],
+      "description": "Chiller 1 Chilled Water Supply Temperature"
+    },
+    {
+      "enum": [
+        7,
+        "cpo5LongNameChiller1ConstantSpeedLowerOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 1 Constant Speed Lower Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        8,
+        "cpo5LongNameChiller1ConstantSpeedUpperOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 1 Constant Speed Upper Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        9,
+        "cpo5LongNameChiller1CondenserWaterMinimumFlow"
+      ],
+      "description": "Chiller 1 Condenser Water Minimum Flow"
+    },
+    {
+      "enum": [
+        10,
+        "cpo5LongNameChiller1CondenserWaterReturnTemperature"
+      ],
+      "description": "Chiller 1 Condenser Water Return Temperature"
+    },
+    {
+      "enum": [
+        11,
+        "cpo5LongNameChiller1CondenserWaterSupplyTemperature"
+      ],
+      "description": "Chiller 1 Condenser Water Supply Temperature"
+    },
+    {
+      "enum": [
+        12,
+        "cpo5LongNameChiller1DesignLift"
+      ],
+      "description": "Chiller 1 Design Lift"
+    },
+    {
+      "enum": [
+        13,
+        "cpo5LongNameChiller1TubeInsideDiameter"
+      ],
+      "description": "Chiller 1 Tube Inside Diameter"
+    },
+    {
+      "enum": [
+        14,
+        "cpo5LongNameChiller1TubeFrictionCoefficientX"
+      ],
+      "description": "Chiller 1 Tube Friction Coefficient X"
+    },
+    {
+      "enum": [
+        15,
+        "cpo5LongNameChiller1TubeFrictionCoefficientY"
+      ],
+      "description": "Chiller 1 Tube Friction Coefficient Y"
+    },
+    {
+      "enum": [
+        16,
+        "cpo5LongNameChiller1InterstageTransitionDelay"
+      ],
+      "description": "Chiller 1 Interstage Transition Delay"
+    },
+    {
+      "enum": [
+        17,
+        "cpo5LongNameChiller1LiftHighRange"
+      ],
+      "description": "Chiller 1 Lift High Range"
+    },
+    {
+      "enum": [
+        18,
+        "cpo5LongNameChiller1LiftLowRange"
+      ],
+      "description": "Chiller 1 Lift Low Range"
+    },
+    {
+      "enum": [
+        19,
+        "cpo5LongNameChiller1LiftSensitivity"
+      ],
+      "description": "Chiller 1 Lift Sensitivity"
+    },
+    {
+      "enum": [
+        20,
+        "cpo5LongNameChiller1EvaporatorShellLength"
+      ],
+      "description": "Chiller 1 Evaporator Shell Length"
+    },
+    {
+      "enum": [
+        21,
+        "cpo5LongNameChiller1LowerOptimalSetpointHighRange"
+      ],
+      "description": "Chiller 1 Lower Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        22,
+        "cpo5LongNameChiller1LowerOptimalSetpointLowRange"
+      ],
+      "description": "Chiller 1 Lower Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        23,
+        "cpo5LongNameChiller1MaximumPercentLoad"
+      ],
+      "description": "Chiller 1 Maximum Percent Load"
+    },
+    {
+      "enum": [
+        24,
+        "cpo5LongNameChiller1MaximumPercentLoadCop"
+      ],
+      "description": "Chiller 1 Maximum Percent Load COP"
+    },
+    {
+      "enum": [
+        25,
+        "cpo5LongNameChiller1EvaporatorMediaType"
+      ],
+      "description": "Chiller 1 Evaporator Media Type"
+    },
+    {
+      "enum": [
+        26,
+        "cpo5LongNameChiller1MinimumPercentLoad"
+      ],
+      "description": "Chiller 1 Minimum Percent Load"
+    },
+    {
+      "enum": [
+        27,
+        "cpo5LongNameChiller1MinimumPercentLoadCop"
+      ],
+      "description": "Chiller 1 Minimum Percent load COP"
+    },
+    {
+      "enum": [
+        28,
+        "cpo5LongNameChiller1MaintenanceSwitch"
+      ],
+      "description": "Chiller 1 Maintenance Switch"
+    },
+    {
+      "enum": [
+        29,
+        "cpo5LongNameChiller1OperationalCode"
+      ],
+      "description": "Chiller 1 Operational Code"
+    },
+    {
+      "enum": [
+        30,
+        "cpo5LongNameChiller1EvaporatorPasses"
+      ],
+      "description": "Chiller 1 Evaporator Passes"
+    },
+    {
+      "enum": [
+        31,
+        "cpo5LongNameChiller1PercentLoadSetpointResetEnable"
+      ],
+      "description": "Chiller 1 Percent Load Setpoint Reset Enable"
+    },
+    {
+      "enum": [
+        32,
+        "cpo5LongNameChiller1PeakCop"
+      ],
+      "description": "Chiller 1 Peak COP"
+    },
+    {
+      "enum": [
+        33,
+        "cpo5LongNameChiller1ProductFamilyCode"
+      ],
+      "description": "Chiller 1 Product Family Code"
+    },
+    {
+      "enum": [
+        34,
+        "cpo5LongNameChiller1RatedCapacity"
+      ],
+      "description": "Chiller 1 Rated Capacity"
+    },
+    {
+      "enum": [
+        35,
+        "cpo5LongNameChiller1RatedChilledWaterFlow"
+      ],
+      "description": "Chiller 1 Rated Chilled Water Flow"
+    },
+    {
+      "enum": [
+        36,
+        "cpo5LongNameChiller1RatedCondenserWaterFlow"
+      ],
+      "description": "Chiller 1 Rated Condenser Water Flow"
+    },
+    {
+      "enum": [
+        37,
+        "cpo5LongNameChiller1RatedPower"
+      ],
+      "description": "Chiller 1 Rated Power"
+    },
+    {
+      "enum": [
+        38,
+        "cpo5LongNameChiller1Runtime"
+      ],
+      "description": "Chiller 1 Runtime"
+    },
+    {
+      "enum": [
+        39,
+        "cpo5LongNameChiller1StabilizeTime"
+      ],
+      "description": "Chiller 1 Stabilize Time"
+    },
+    {
+      "enum": [
+        40,
+        "cpo5LongNameChiller1Status"
+      ],
+      "description": "Chiller 1 Status"
+    },
+    {
+      "enum": [
+        41,
+        "cpo5LongNameChiller1EvaporatorTubeCount"
+      ],
+      "description": "Chiller 1 Evaporator Tube Count"
+    },
+    {
+      "enum": [
+        42,
+        "cpo5LongNameChiller1UpperOptimalSetpointHighRange"
+      ],
+      "description": "Chiller 1 Upper Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        43,
+        "cpo5LongNameChiller1UpperOptimalSetpointLowRange"
+      ],
+      "description": "Chiller 1 Upper Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        44,
+        "cpo5LongNameChiller1CompressorDriveType"
+      ],
+      "description": "Chiller 1 Compressor Drive Type"
+    },
+    {
+      "enum": [
+        45,
+        "cpo5LongNameChiller1VariableSpeedLowerOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 1 Variable Speed Lower Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        46,
+        "cpo5LongNameChiller1VariableSpeedUpperOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 1 Variable Speed Upper Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        47,
+        "cpo5LongNameChiller1InterlockSetup"
+      ],
+      "description": "Chiller 1 Interlock Setup"
+    },
+    {
+      "enum": [
+        48,
+        "cpo5LongNameChiller1EvaporatorMediaConcentration"
+      ],
+      "description": "Chiller 1 Evaporator Media Concentration"
+    },
+    {
+      "enum": [
+        49,
+        "cpo5LongNameChiller2ModelName"
+      ],
+      "description": "Chiller 2 Model Name"
+    },
+    {
+      "enum": [
+        50,
+        "cpo5LongNameChiller2Mti"
+      ],
+      "description": "Chiller 2 MTI"
+    },
+    {
+      "enum": [
+        51,
+        "cpo5LongNameChiller2ChilledWaterDifferentialPressure"
+      ],
+      "description": "Chiller 2 Chilled Water Differential Pressure"
+    },
+    {
+      "enum": [
+        52,
+        "cpo5LongNameChiller2ChilledWaterMaxFlow"
+      ],
+      "description": "Chiller 2 Chilled Water Max Flow"
+    },
+    {
+      "enum": [
+        53,
+        "cpo5LongNameChiller2ChilledWaterMinFlow"
+      ],
+      "description": "Chiller 2 Chilled Water Min Flow"
+    },
+    {
+      "enum": [
+        54,
+        "cpo5LongNameChiller2ChilledWaterReturnTemperature"
+      ],
+      "description": "Chiller 2 Chilled Water Return Temperature"
+    },
+    {
+      "enum": [
+        55,
+        "cpo5LongNameChiller2ChilledWaterSupplyTemperature"
+      ],
+      "description": "Chiller 2 Chilled Water Supply Temperature"
+    },
+    {
+      "enum": [
+        56,
+        "cpo5LongNameChiller2ConstantSpeedLowerOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 2 Constant Speed Lower Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        57,
+        "cpo5LongNameChiller2ConstantSpeedUpperOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 2 Constant Speed Upper Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        58,
+        "cpo5LongNameChiller2CondenserWaterMinimumFlow"
+      ],
+      "description": "Chiller 2 Condenser Water Minimum Flow"
+    },
+    {
+      "enum": [
+        59,
+        "cpo5LongNameChiller2CondenserWaterReturnTemperature"
+      ],
+      "description": "Chiller 2 Condenser Water Return Temperature"
+    },
+    {
+      "enum": [
+        60,
+        "cpo5LongNameChiller2CondenserWaterSupplyTemperature"
+      ],
+      "description": "Chiller 2 Condenser Water Supply Temperature"
+    },
+    {
+      "enum": [
+        61,
+        "cpo5LongNameChiller2DesignLift"
+      ],
+      "description": "Chiller 2 Design Lift"
+    },
+    {
+      "enum": [
+        62,
+        "cpo5LongNameChiller2TubeInsideDiameter"
+      ],
+      "description": "Chiller 2 Tube Inside Diameter"
+    },
+    {
+      "enum": [
+        63,
+        "cpo5LongNameChiller2TubeFrictionCoefficientX"
+      ],
+      "description": "Chiller 2 Tube Friction Coefficient X"
+    },
+    {
+      "enum": [
+        64,
+        "cpo5LongNameChiller2TubeFrictionCoefficientY"
+      ],
+      "description": "Chiller 2 Tube Friction Coefficient Y"
+    },
+    {
+      "enum": [
+        65,
+        "cpo5LongNameChiller2InterstageTransitionDelay"
+      ],
+      "description": "Chiller 2 Interstage Transition Delay"
+    },
+    {
+      "enum": [
+        66,
+        "cpo5LongNameChiller2LiftHighRange"
+      ],
+      "description": "Chiller 2 Lift High Range"
+    },
+    {
+      "enum": [
+        67,
+        "cpo5LongNameChiller2LiftLowRange"
+      ],
+      "description": "Chiller 2 Lift Low Range"
+    },
+    {
+      "enum": [
+        68,
+        "cpo5LongNameChiller2LiftSensitivity"
+      ],
+      "description": "Chiller 2 Lift Sensitivity"
+    },
+    {
+      "enum": [
+        69,
+        "cpo5LongNameChiller2EvaporatorShellLength"
+      ],
+      "description": "Chiller 2 Evaporator Shell Length"
+    },
+    {
+      "enum": [
+        70,
+        "cpo5LongNameChiller2LowerOptimalSetpointHighRange"
+      ],
+      "description": "Chiller 2 Lower Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        71,
+        "cpo5LongNameChiller2LowerOptimalSetpointLowRange"
+      ],
+      "description": "Chiller 2 Lower Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        72,
+        "cpo5LongNameChiller2MaximumPercentLoad"
+      ],
+      "description": "Chiller 2 Maximum Percent Load"
+    },
+    {
+      "enum": [
+        73,
+        "cpo5LongNameChiller2MaximumPercentLoadCop"
+      ],
+      "description": "Chiller 2 Maximum Percent Load COP"
+    },
+    {
+      "enum": [
+        74,
+        "cpo5LongNameChiller2EvaporatorMediaType"
+      ],
+      "description": "Chiller 2 Evaporator Media Type"
+    },
+    {
+      "enum": [
+        75,
+        "cpo5LongNameChiller2MinimumPercentLoad"
+      ],
+      "description": "Chiller 2 Minimum Percent Load"
+    },
+    {
+      "enum": [
+        76,
+        "cpo5LongNameChiller2MinimumPercentLoadCop"
+      ],
+      "description": "Chiller 2 Minimum Percent load COP"
+    },
+    {
+      "enum": [
+        77,
+        "cpo5LongNameChiller2MaintenanceSwitch"
+      ],
+      "description": "Chiller 2 Maintenance Switch"
+    },
+    {
+      "enum": [
+        78,
+        "cpo5LongNameChiller2OperationalCode"
+      ],
+      "description": "Chiller 2 Operational Code"
+    },
+    {
+      "enum": [
+        79,
+        "cpo5LongNameChiller2EvaporatorPasses"
+      ],
+      "description": "Chiller 2 Evaporator Passes"
+    },
+    {
+      "enum": [
+        80,
+        "cpo5LongNameChiller2PercentLoadSetpointResetEnable"
+      ],
+      "description": "Chiller 2 Percent load Setpoint Reset Enable"
+    },
+    {
+      "enum": [
+        81,
+        "cpo5LongNameChiller2PeakCop"
+      ],
+      "description": "Chiller 2 Peak COP"
+    },
+    {
+      "enum": [
+        82,
+        "cpo5LongNameChiller2ProductFamilyCode"
+      ],
+      "description": "Chiller 2 Product Family Code"
+    },
+    {
+      "enum": [
+        83,
+        "cpo5LongNameChiller2RatedCapacity"
+      ],
+      "description": "Chiller 2 Rated Capacity"
+    },
+    {
+      "enum": [
+        84,
+        "cpo5LongNameChiller2RatedChilledWaterFlow"
+      ],
+      "description": "Chiller 2 Rated Chilled Water Flow"
+    },
+    {
+      "enum": [
+        85,
+        "cpo5LongNameChiller2RatedCondenserWaterFlow"
+      ],
+      "description": "Chiller 2 Rated Condenser Water Flow"
+    },
+    {
+      "enum": [
+        86,
+        "cpo5LongNameChiller2RatedPower"
+      ],
+      "description": "Chiller 2 Rated Power"
+    },
+    {
+      "enum": [
+        87,
+        "cpo5LongNameChiller2Runtime"
+      ],
+      "description": "Chiller 2 Runtime"
+    },
+    {
+      "enum": [
+        88,
+        "cpo5LongNameChiller2StabilizeTime"
+      ],
+      "description": "Chiller 2 Stabilize Time"
+    },
+    {
+      "enum": [
+        89,
+        "cpo5LongNameChiller2Status"
+      ],
+      "description": "Chiller 2 Status"
+    },
+    {
+      "enum": [
+        90,
+        "cpo5LongNameChiller2EvaporatorTubeCount"
+      ],
+      "description": "Chiller 2 Evaporator Tube Count"
+    },
+    {
+      "enum": [
+        91,
+        "cpo5LongNameChiller2UpperOptimalSetpointHighRange"
+      ],
+      "description": "Chiller 2 Upper Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        92,
+        "cpo5LongNameChiller2UpperOptimalSetpointLowRange"
+      ],
+      "description": "Chiller 2 Upper Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        93,
+        "cpo5LongNameChiller2CompressorDriveType"
+      ],
+      "description": "Chiller 2 Compressor Drive Type"
+    },
+    {
+      "enum": [
+        94,
+        "cpo5LongNameChiller2VariableSpeedLowerOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 2 Variable Speed Lower Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        95,
+        "cpo5LongNameChiller2VariableSpeedUpperOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 2 Variable Speed Upper Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        96,
+        "cpo5LongNameChiller2InterlockSetup"
+      ],
+      "description": "Chiller 2 Interlock Setup"
+    },
+    {
+      "enum": [
+        97,
+        "cpo5LongNameChiller2EvaporatorMediaConcentration"
+      ],
+      "description": "Chiller 2 Evaporator Media Concentration"
+    },
+    {
+      "enum": [
+        98,
+        "cpo5LongNameChiller3ModelName"
+      ],
+      "description": "Chiller 3 Model Name"
+    },
+    {
+      "enum": [
+        99,
+        "cpo5LongNameChiller3Mti"
+      ],
+      "description": "Chiller 3 MTI"
+    },
+    {
+      "enum": [
+        100,
+        "cpo5LongNameChiller3ChilledWaterDifferentialPressure"
+      ],
+      "description": "Chiller 3 Chilled Water Differential Pressure"
+    },
+    {
+      "enum": [
+        101,
+        "cpo5LongNameChiller3ChilledWaterMaxFlow"
+      ],
+      "description": "Chiller 3 Chilled Water Max Flow"
+    },
+    {
+      "enum": [
+        102,
+        "cpo5LongNameChiller3ChilledWaterMinFlow"
+      ],
+      "description": "Chiller 3 Chilled Water Min Flow"
+    },
+    {
+      "enum": [
+        103,
+        "cpo5LongNameChiller3ChilledWaterReturnTemperature"
+      ],
+      "description": "Chiller 3 Chilled Water Return Temperature"
+    },
+    {
+      "enum": [
+        104,
+        "cpo5LongNameChiller3ChilledWaterSupplyTemperature"
+      ],
+      "description": "Chiller 3 Chilled Water Supply Temperature"
+    },
+    {
+      "enum": [
+        105,
+        "cpo5LongNameChiller3ConstantSpeedLowerOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 3 Constant Speed Lower Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        106,
+        "cpo5LongNameChiller3ConstantSpeedUpperOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 3 Constant Speed Upper Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        107,
+        "cpo5LongNameChiller3CondenserWaterMinimumFlow"
+      ],
+      "description": "Chiller 3 Condenser Water Minimum Flow"
+    },
+    {
+      "enum": [
+        108,
+        "cpo5LongNameChiller3CondenserWaterReturnTemperature"
+      ],
+      "description": "Chiller 3 Condenser Water Return Temperature"
+    },
+    {
+      "enum": [
+        109,
+        "cpo5LongNameChiller3CondenserWaterSupplyTemperature"
+      ],
+      "description": "Chiller 3 Condenser Water Supply Temperature"
+    },
+    {
+      "enum": [
+        110,
+        "cpo5LongNameChiller3DesignLift"
+      ],
+      "description": "Chiller 3 Design Lift"
+    },
+    {
+      "enum": [
+        111,
+        "cpo5LongNameChiller3TubeInsideDiameter"
+      ],
+      "description": "Chiller 3 Tube Inside Diameter"
+    },
+    {
+      "enum": [
+        112,
+        "cpo5LongNameChiller3TubeFrictionCoefficientX"
+      ],
+      "description": "Chiller 3 Tube Friction Coefficient X"
+    },
+    {
+      "enum": [
+        113,
+        "cpo5LongNameChiller3TubeFrictionCoefficientY"
+      ],
+      "description": "Chiller 3 Tube Friction Coefficient Y"
+    },
+    {
+      "enum": [
+        114,
+        "cpo5LongNameChiller3InterstageTransitionDelay"
+      ],
+      "description": "Chiller 3 Interstage Transition Delay"
+    },
+    {
+      "enum": [
+        115,
+        "cpo5LongNameChiller3LiftHighRange"
+      ],
+      "description": "Chiller 3 Lift High Range"
+    },
+    {
+      "enum": [
+        116,
+        "cpo5LongNameChiller3LiftLowRange"
+      ],
+      "description": "Chiller 3 Lift Low Range"
+    },
+    {
+      "enum": [
+        117,
+        "cpo5LongNameChiller3LiftSensitivity"
+      ],
+      "description": "Chiller 3 Lift Sensitivity"
+    },
+    {
+      "enum": [
+        118,
+        "cpo5LongNameChiller3EvaporatorShellLength"
+      ],
+      "description": "Chiller 3 Evaporator Shell Length"
+    },
+    {
+      "enum": [
+        119,
+        "cpo5LongNameChiller3LowerOptimalSetpointHighRange"
+      ],
+      "description": "Chiller 3 Lower Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        120,
+        "cpo5LongNameChiller3LowerOptimalSetpointLowRange"
+      ],
+      "description": "Chiller 3 Lower Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        121,
+        "cpo5LongNameChiller3MaximumPercentLoad"
+      ],
+      "description": "Chiller 3 Maximum Percent Load"
+    },
+    {
+      "enum": [
+        122,
+        "cpo5LongNameChiller3MaximumPercentLoadCop"
+      ],
+      "description": "Chiller 3 Maximum Percent Load COP"
+    },
+    {
+      "enum": [
+        123,
+        "cpo5LongNameChiller3EvaporatorMediaType"
+      ],
+      "description": "Chiller 3 Evaporator Media Type"
+    },
+    {
+      "enum": [
+        124,
+        "cpo5LongNameChiller3MinimumPercentLoad"
+      ],
+      "description": "Chiller 3 Minimum Percent Load"
+    },
+    {
+      "enum": [
+        125,
+        "cpo5LongNameChiller3MinimumPercentLoadCop"
+      ],
+      "description": "Chiller 3 Minimum Percent load COP"
+    },
+    {
+      "enum": [
+        126,
+        "cpo5LongNameChiller3MaintenanceSwitch"
+      ],
+      "description": "Chiller 3 Maintenance Switch"
+    },
+    {
+      "enum": [
+        127,
+        "cpo5LongNameChiller3OperationalCode"
+      ],
+      "description": "Chiller 3 Operational Code"
+    },
+    {
+      "enum": [
+        128,
+        "cpo5LongNameChiller3EvaporatorPasses"
+      ],
+      "description": "Chiller 3 Evaporator Passes"
+    },
+    {
+      "enum": [
+        129,
+        "cpo5LongNameChiller3PercentLoadSetpointResetEnable"
+      ],
+      "description": "Chiller 3 Percent load Setpoint Reset Enable"
+    },
+    {
+      "enum": [
+        130,
+        "cpo5LongNameChiller3PeakCop"
+      ],
+      "description": "Chiller 3 Peak COP"
+    },
+    {
+      "enum": [
+        131,
+        "cpo5LongNameChiller3ProductFamilyCode"
+      ],
+      "description": "Chiller 3 Product Family Code"
+    },
+    {
+      "enum": [
+        132,
+        "cpo5LongNameChiller3RatedCapacity"
+      ],
+      "description": "Chiller 3 Rated Capacity"
+    },
+    {
+      "enum": [
+        133,
+        "cpo5LongNameChiller3RatedChilledWaterFlow"
+      ],
+      "description": "Chiller 3 Rated Chilled Water Flow"
+    },
+    {
+      "enum": [
+        134,
+        "cpo5LongNameChiller3RatedCondenserWaterFlow"
+      ],
+      "description": "Chiller 3 Rated Condenser Water Flow"
+    },
+    {
+      "enum": [
+        135,
+        "cpo5LongNameChiller3RatedPower"
+      ],
+      "description": "Chiller 3 Rated Power"
+    },
+    {
+      "enum": [
+        136,
+        "cpo5LongNameChiller3Runtime"
+      ],
+      "description": "Chiller 3 Runtime"
+    },
+    {
+      "enum": [
+        137,
+        "cpo5LongNameChiller3StabilizeTime"
+      ],
+      "description": "Chiller 3 Stabilize Time"
+    },
+    {
+      "enum": [
+        138,
+        "cpo5LongNameChiller3Status"
+      ],
+      "description": "Chiller 3 Status"
+    },
+    {
+      "enum": [
+        139,
+        "cpo5LongNameChiller3EvaporatorTubeCount"
+      ],
+      "description": "Chiller 3 Evaporator Tube Count"
+    },
+    {
+      "enum": [
+        140,
+        "cpo5LongNameChiller3UpperOptimalSetpointHighRange"
+      ],
+      "description": "Chiller 3 Upper Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        141,
+        "cpo5LongNameChiller3UpperOptimalSetpointLowRange"
+      ],
+      "description": "Chiller 3 Upper Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        142,
+        "cpo5LongNameChiller3CompressorDriveType"
+      ],
+      "description": "Chiller 3 Compressor Drive Type"
+    },
+    {
+      "enum": [
+        143,
+        "cpo5LongNameChiller3VariableSpeedLowerOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 3 Variable Speed Lower Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        144,
+        "cpo5LongNameChiller3VariableSpeedUpperOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 3 Variable Speed Upper Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        145,
+        "cpo5LongNameChiller3InterlockSetup"
+      ],
+      "description": "Chiller 3 Interlock Setup"
+    },
+    {
+      "enum": [
+        146,
+        "cpo5LongNameChiller3EvaporatorMediaConcentration"
+      ],
+      "description": "Chiller 3 Evaporator Media Concentration"
+    },
+    {
+      "enum": [
+        147,
+        "cpo5LongNameChiller4ModelName"
+      ],
+      "description": "Chiller 4 Model Name"
+    },
+    {
+      "enum": [
+        148,
+        "cpo5LongNameChiller4Mti"
+      ],
+      "description": "Chiller 4 MTI"
+    },
+    {
+      "enum": [
+        149,
+        "cpo5LongNameChiller4ChilledWaterDifferentialPressure"
+      ],
+      "description": "Chiller 4 Chilled Water Differential Pressure"
+    },
+    {
+      "enum": [
+        150,
+        "cpo5LongNameChiller4ChilledWaterMaxFlow"
+      ],
+      "description": "Chiller 4 Chilled Water Max Flow"
+    },
+    {
+      "enum": [
+        151,
+        "cpo5LongNameChiller4ChilledWaterMinFlow"
+      ],
+      "description": "Chiller 4 Chilled Water Min Flow"
+    },
+    {
+      "enum": [
+        152,
+        "cpo5LongNameChiller4ChilledWaterReturnTemperature"
+      ],
+      "description": "Chiller 4 Chilled Water Return Temperature"
+    },
+    {
+      "enum": [
+        153,
+        "cpo5LongNameChiller4ChilledWaterSupplyTemperature"
+      ],
+      "description": "Chiller 4 Chilled Water Supply Temperature"
+    },
+    {
+      "enum": [
+        154,
+        "cpo5LongNameChiller4ConstantSpeedLowerOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 4 Constant Speed Lower Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        155,
+        "cpo5LongNameChiller4ConstantSpeedUpperOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 4 Constant Speed Upper Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        156,
+        "cpo5LongNameChiller4CondenserWaterMinimumFlow"
+      ],
+      "description": "Chiller 4 Condenser Water Minimum Flow"
+    },
+    {
+      "enum": [
+        157,
+        "cpo5LongNameChiller4CondenserWaterReturnTemperature"
+      ],
+      "description": "Chiller 4 Condenser Water Return Temperature"
+    },
+    {
+      "enum": [
+        158,
+        "cpo5LongNameChiller4CondenserWaterSupplyTemperature"
+      ],
+      "description": "Chiller 4 Condenser Water Supply Temperature"
+    },
+    {
+      "enum": [
+        159,
+        "cpo5LongNameChiller4DesignLift"
+      ],
+      "description": "Chiller 4 Design Lift"
+    },
+    {
+      "enum": [
+        160,
+        "cpo5LongNameChiller4TubeInsideDiameter"
+      ],
+      "description": "Chiller 4 Tube Inside Diameter"
+    },
+    {
+      "enum": [
+        161,
+        "cpo5LongNameChiller4TubeFrictionCoefficientX"
+      ],
+      "description": "Chiller 4 Tube Friction Coefficient X"
+    },
+    {
+      "enum": [
+        162,
+        "cpo5LongNameChiller4TubeFrictionCoefficientY"
+      ],
+      "description": "Chiller 4 Tube Friction Coefficient Y"
+    },
+    {
+      "enum": [
+        163,
+        "cpo5LongNameChiller4InterstageTransitionDelay"
+      ],
+      "description": "Chiller 4 Interstage Transition Delay"
+    },
+    {
+      "enum": [
+        164,
+        "cpo5LongNameChiller4LiftHighRange"
+      ],
+      "description": "Chiller 4 Lift High Range"
+    },
+    {
+      "enum": [
+        165,
+        "cpo5LongNameChiller4LiftLowRange"
+      ],
+      "description": "Chiller 4 Lift Low Range"
+    },
+    {
+      "enum": [
+        166,
+        "cpo5LongNameChiller4LiftSensitivity"
+      ],
+      "description": "Chiller 4 Lift Sensitivity"
+    },
+    {
+      "enum": [
+        167,
+        "cpo5LongNameChiller4EvaporatorShellLength"
+      ],
+      "description": "Chiller 4 Evaporator Shell Length"
+    },
+    {
+      "enum": [
+        168,
+        "cpo5LongNameChiller4LowerOptimalSetpointHighRange"
+      ],
+      "description": "Chiller 4 Lower Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        169,
+        "cpo5LongNameChiller4LowerOptimalSetpointLowRange"
+      ],
+      "description": "Chiller 4 Lower Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        170,
+        "cpo5LongNameChiller4MaximumPercentLoad"
+      ],
+      "description": "Chiller 4 Maximum Percent Load"
+    },
+    {
+      "enum": [
+        171,
+        "cpo5LongNameChiller4MaximumPercentLoadCop"
+      ],
+      "description": "Chiller 4 Maximum Percent Load COP"
+    },
+    {
+      "enum": [
+        172,
+        "cpo5LongNameChiller4EvaporatorMediaType"
+      ],
+      "description": "Chiller 4 Evaporator Media Type"
+    },
+    {
+      "enum": [
+        173,
+        "cpo5LongNameChiller4MinimumPercentLoad"
+      ],
+      "description": "Chiller 4 Minimum Percent Load"
+    },
+    {
+      "enum": [
+        174,
+        "cpo5LongNameChiller4MinimumPercentLoadCop"
+      ],
+      "description": "Chiller 4 Minimum Percent load COP"
+    },
+    {
+      "enum": [
+        175,
+        "cpo5LongNameChiller4MaintenanceSwitch"
+      ],
+      "description": "Chiller 4 Maintenance Switch"
+    },
+    {
+      "enum": [
+        176,
+        "cpo5LongNameChiller4OperationalCode"
+      ],
+      "description": "Chiller 4 Operational Code"
+    },
+    {
+      "enum": [
+        177,
+        "cpo5LongNameChiller4EvaporatorPasses"
+      ],
+      "description": "Chiller 4 Evaporator Passes"
+    },
+    {
+      "enum": [
+        178,
+        "cpo5LongNameChiller4PercentLoadSetpointResetEnable"
+      ],
+      "description": "Chiller 4 Percent load Setpoint Reset Enable"
+    },
+    {
+      "enum": [
+        179,
+        "cpo5LongNameChiller4PeakCop"
+      ],
+      "description": "Chiller 4 Peak COP"
+    },
+    {
+      "enum": [
+        180,
+        "cpo5LongNameChiller4ProductFamilyCode"
+      ],
+      "description": "Chiller 4 Product Family Code"
+    },
+    {
+      "enum": [
+        181,
+        "cpo5LongNameChiller4RatedCapacity"
+      ],
+      "description": "Chiller 4 Rated Capacity"
+    },
+    {
+      "enum": [
+        182,
+        "cpo5LongNameChiller4RatedChilledWaterFlow"
+      ],
+      "description": "Chiller 4 Rated Chilled Water Flow"
+    },
+    {
+      "enum": [
+        183,
+        "cpo5LongNameChiller4RatedCondenserWaterFlow"
+      ],
+      "description": "Chiller 4 Rated Condenser Water Flow"
+    },
+    {
+      "enum": [
+        184,
+        "cpo5LongNameChiller4RatedPower"
+      ],
+      "description": "Chiller 4 Rated Power"
+    },
+    {
+      "enum": [
+        185,
+        "cpo5LongNameChiller4Runtime"
+      ],
+      "description": "Chiller 4 Runtime"
+    },
+    {
+      "enum": [
+        186,
+        "cpo5LongNameChiller4StabilizeTime"
+      ],
+      "description": "Chiller 4 Stabilize Time"
+    },
+    {
+      "enum": [
+        187,
+        "cpo5LongNameChiller4Status"
+      ],
+      "description": "Chiller 4 Status"
+    },
+    {
+      "enum": [
+        188,
+        "cpo5LongNameChiller4EvaporatorTubeCount"
+      ],
+      "description": "Chiller 4 Evaporator Tube Count"
+    },
+    {
+      "enum": [
+        189,
+        "cpo5LongNameChiller4UpperOptimalSetpointHighRange"
+      ],
+      "description": "Chiller 4 Upper Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        190,
+        "cpo5LongNameChiller4UpperOptimalSetpointLowRange"
+      ],
+      "description": "Chiller 4 Upper Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        191,
+        "cpo5LongNameChiller4CompressorDriveType"
+      ],
+      "description": "Chiller 4 Compressor Drive Type"
+    },
+    {
+      "enum": [
+        192,
+        "cpo5LongNameChiller4VariableSpeedLowerOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 4 Variable Speed Lower Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        193,
+        "cpo5LongNameChiller4VariableSpeedUpperOptimalPercentSetpoint"
+      ],
+      "description": "Chiller 4 Variable Speed Upper Optimal Percent Setpoint"
+    },
+    {
+      "enum": [
+        194,
+        "cpo5LongNameChiller4InterlockSetup"
+      ],
+      "description": "Chiller 4 Interlock Setup"
+    },
+    {
+      "enum": [
+        195,
+        "cpo5LongNameChiller4EvaporatorMediaConcentration"
+      ],
+      "description": "Chiller 4 Evaporator Media Concentration"
+    },
+    {
+      "enum": [
+        196,
+        "cpo5LongNameChillerForcedUpstageDelay"
+      ],
+      "description": "Chiller Forced Upstage Delay"
+    },
+    {
+      "enum": [
+        197,
+        "cpo5LongNameChillerInterlockLostStatusDelay"
+      ],
+      "description": "Chiller Interlock Lost Status Delay"
+    },
+    {
+      "enum": [
+        198,
+        "cpo5LongNameChillerInterlockOutputDelay"
+      ],
+      "description": "Chiller Interlock Output Delay"
+    },
+    {
+      "enum": [
+        199,
+        "cpo5LongNameChillerInterlockRetryAttempts"
+      ],
+      "description": "Chiller Interlock Retry Attempts"
+    },
+    {
+      "enum": [
+        200,
+        "cpo5LongNameChillerInterlockRetryInterval"
+      ],
+      "description": "Chiller Interlock Retry Interval"
+    },
+    {
+      "enum": [
+        201,
+        "cpo5LongNameChillerInterlockCcom"
+      ],
+      "description": "Chiller Interlock CCOM"
+    },
+    {
+      "enum": [
+        202,
+        "cpo5LongNameIsoValveStrokeTime"
+      ],
+      "description": "Iso Valve Stroke Time"
+    },
+    {
+      "enum": [
+        203,
+        "cpo5LongNameChillerPercentLoadSetpointResetPeriod"
+      ],
+      "description": "Chiller Percent Load Setpoint Reset Period"
+    },
+    {
+      "enum": [
+        204,
+        "cpo5LongNameChillerCoast"
+      ],
+      "description": "Chiller Coast"
+    },
+    {
+      "enum": [
+        205,
+        "cpo5LongNameChillerInterstageOnDelay"
+      ],
+      "description": "Chiller Interstage On Delay"
+    },
+    {
+      "enum": [
+        206,
+        "cpo5LongNameChillerPlantBaseLoad"
+      ],
+      "description": "Chiller Plant Base Load"
+    },
+    {
+      "enum": [
+        207,
+        "cpo5LongNameChillerMinimumOffTime"
+      ],
+      "description": "Chiller Minimum Off Time"
+    },
+    {
+      "enum": [
+        208,
+        "cpo5LongNameChillerMinimumOnTime"
+      ],
+      "description": "Chiller Minimum On Time"
+    },
+    {
+      "enum": [
+        209,
+        "cpo5LongNameChillerPumpDelay"
+      ],
+      "description": "Chiller Pump Delay"
+    },
+    {
+      "enum": [
+        210,
+        "cpo5LongNameChillerPumpdownTime"
+      ],
+      "description": "Chiller Pumpdown Time"
+    },
+    {
+      "enum": [
+        211,
+        "cpo5LongNameSystemStartDelay"
+      ],
+      "description": "System Start Delay"
+    },
+    {
+      "enum": [
+        212,
+        "cpo5LongNameChillerRotationMode"
+      ],
+      "description": "Chiller Rotation Mode"
+    },
+    {
+      "enum": [
+        213,
+        "cpo5LongNameChillerCapacityLimitHoldTime"
+      ],
+      "description": "Chiller Capacity Limit Hold Time"
+    },
+    {
+      "enum": [
+        214,
+        "cpo5LongNameChillerCapacityLimitSetup"
+      ],
+      "description": "Chiller Capacity Limit Setup"
+    },
+    {
+      "enum": [
+        215,
+        "cpo5LongNameChillerCapacityLimitUserInput"
+      ],
+      "description": "Chiller Capacity Limit User Input"
+    },
+    {
+      "enum": [
+        216,
+        "cpo5LongNameChillerForcedUpstageEnable"
+      ],
+      "description": "Chiller Forced Upstage Enable"
+    },
+    {
+      "enum": [
+        217,
+        "cpo5LongNameChillerLoadFilterStartupDelay"
+      ],
+      "description": "Chiller Load Filter Startup Delay"
+    },
+    {
+      "enum": [
+        218,
+        "cpo5LongNameChillerLoadFilterTimeConstant"
+      ],
+      "description": "Chiller Load Filter Time Constant"
+    },
+    {
+      "enum": [
+        219,
+        "cpo5LongNameOutsideAirHumidityHw"
+      ],
+      "description": "Outside Air Humidity HW"
+    },
+    {
+      "enum": [
+        220,
+        "cpo5LongNameOutsideAirHumiditySw"
+      ],
+      "description": "Outside Air Humidity SW"
+    },
+    {
+      "enum": [
+        221,
+        "cpo5LongNameOutsideAirTemperatureHw"
+      ],
+      "description": "Outside Air Temperature HW"
+    },
+    {
+      "enum": [
+        222,
+        "cpo5LongNameOutsideAirTemperatureSw"
+      ],
+      "description": "Outside Air Temperature SW"
+    },
+    {
+      "enum": [
+        223,
+        "cpo5LongNameRotateChillers"
+      ],
+      "description": "Rotate Chillers"
+    },
+    {
+      "enum": [
+        224,
+        "cpo5LongNameSystemEnabled"
+      ],
+      "description": "System Enabled"
+    },
+    {
+      "enum": [
+        225,
+        "cpo5LongNameSystemReset"
+      ],
+      "description": "System Reset"
+    },
+    {
+      "enum": [
+        226,
+        "cpo5LongNameFlowmeterAvailable"
+      ],
+      "description": "Flowmeter Available"
+    },
+    {
+      "enum": [
+        227,
+        "cpo5LongNameFlowmeterFlow"
+      ],
+      "description": "Flowmeter Flow"
+    },
+    {
+      "enum": [
+        228,
+        "cpo5LongNameChilledWaterBypassValvePidTuningReset"
+      ],
+      "description": "Chilled Water Bypass Valve PID Tuning Reset"
+    },
+    {
+      "enum": [
+        229,
+        "cpo5LongNameChilledWaterBypassValveControlProcessRange"
+      ],
+      "description": "Chilled Water Bypass Valve Control Process Range"
+    },
+    {
+      "enum": [
+        230,
+        "cpo5LongNameChilledWaterBypassValveControlProcessTimeConstant"
+      ],
+      "description": "Chilled Water Bypass Valve Control Process Time Constant"
+    },
+    {
+      "enum": [
+        231,
+        "cpo5LongNameChilledWaterDifferentialPressure"
+      ],
+      "description": "Chilled Water Differential Pressure"
+    },
+    {
+      "enum": [
+        232,
+        "cpo5LongNameChilledWaterDifferentialPressureSetpoint"
+      ],
+      "description": "Chilled Water Differential Pressure Setpoint"
+    },
+    {
+      "enum": [
+        233,
+        "cpo5LongNameChilledWaterPumpLowerOptimalPercentLoad"
+      ],
+      "description": "Chilled Water Pump Lower Optimal Percent load"
+    },
+    {
+      "enum": [
+        234,
+        "cpo5LongNameChilledWaterPumpUpperOptimalPercentLoad"
+      ],
+      "description": "Chilled Water Pump Upper Optimal Percent Load"
+    },
+    {
+      "enum": [
+        235,
+        "cpo5LongNameChilledWaterPump1MaintenanceSwitch"
+      ],
+      "description": "Chilled Water Pump 1 Maintenance Switch"
+    },
+    {
+      "enum": [
+        236,
+        "cpo5LongNameChilledWaterPump1Status"
+      ],
+      "description": "Chilled Water Pump 1 Status"
+    },
+    {
+      "enum": [
+        237,
+        "cpo5LongNameChilledWaterPump2MaintenanceSwitch"
+      ],
+      "description": "Chilled Water Pump 2 Maintenance Switch"
+    },
+    {
+      "enum": [
+        238,
+        "cpo5LongNameChilledWaterPump2Status"
+      ],
+      "description": "Chilled Water Pump 2 Status"
+    },
+    {
+      "enum": [
+        239,
+        "cpo5LongNameChilledWaterPump3MaintenanceSwitch"
+      ],
+      "description": "Chilled Water Pump 3 Maintenance Switch"
+    },
+    {
+      "enum": [
+        240,
+        "cpo5LongNameChilledWaterPump3Status"
+      ],
+      "description": "Chilled Water Pump 3 Status"
+    },
+    {
+      "enum": [
+        241,
+        "cpo5LongNameChilledWaterPump4MaintenanceSwitch"
+      ],
+      "description": "Chilled Water Pump 4 Maintenance Switch"
+    },
+    {
+      "enum": [
+        242,
+        "cpo5LongNameChilledWaterPump4Status"
+      ],
+      "description": "Chilled Water Pump 4 Status"
+    },
+    {
+      "enum": [
+        243,
+        "cpo5LongNameChilledWaterPumpMinSpeed"
+      ],
+      "description": "Chilled Water Pump Min Speed"
+    },
+    {
+      "enum": [
+        244,
+        "cpo5LongNameChilledWaterPumpRampTime"
+      ],
+      "description": "Chilled Water Pump Ramp Time"
+    },
+    {
+      "enum": [
+        245,
+        "cpo5LongNameChilledWaterDifferentialPressurePidTuningReset"
+      ],
+      "description": "Chilled Water Differential Pressure PID Tuning Reset"
+    },
+    {
+      "enum": [
+        246,
+        "cpo5LongNameChilledWaterDifferentialPressureProcessRange"
+      ],
+      "description": "Chilled Water Differential Pressure Process Range"
+    },
+    {
+      "enum": [
+        247,
+        "cpo5LongNameChilledWaterDifferentialPressureTimeConstant"
+      ],
+      "description": "Chilled Water Differential Pressure Process Time Constant"
+    },
+    {
+      "enum": [
+        248,
+        "cpo5LongNameChilledWaterPumpIntrlkLostStatusDly"
+      ],
+      "description": "Chilled Water Pump Interlock Lost Status Delay"
+    },
+    {
+      "enum": [
+        249,
+        "cpo5LongNameChilledWaterPumpIntrlkOutDly"
+      ],
+      "description": "Chilled Water Pump Interlock Out Delay"
+    },
+    {
+      "enum": [
+        250,
+        "cpo5LongNameChilledWaterPumpIntrlkRetryAttempts"
+      ],
+      "description": "Chilled Water Pump Interlock Retry Attempts"
+    },
+    {
+      "enum": [
+        251,
+        "cpo5LongNameChilledWaterPumpIntrlkRetryInterval"
+      ],
+      "description": "Chilled Water Pump Interlock Retry Interval"
+    },
+    {
+      "enum": [
+        252,
+        "cpo5LongNameChilledWaterPumpInterlockSetup"
+      ],
+      "description": "Chilled Water Pump Interlock Setup"
+    },
+    {
+      "enum": [
+        253,
+        "cpo5LongNameChillerWaterPumpInterlockCcom"
+      ],
+      "description": "Chiller Water Pump Interlock CCOM"
+    },
+    {
+      "enum": [
+        254,
+        "cpo5LongNameChilledWaterPumpMinimumOffTime"
+      ],
+      "description": "Chilled Water Pump Minimum Off Time"
+    },
+    {
+      "enum": [
+        255,
+        "cpo5LongNameChilledWaterPumpMinimumOnTime"
+      ],
+      "description": "Chilled Water Pump Minimum On Time"
+    },
+    {
+      "enum": [
+        256,
+        "cpo5LongNameChilledWaterPump1PeakEff"
+      ],
+      "description": "Chilled Water Pump 1 Peak Efficiency"
+    },
+    {
+      "enum": [
+        257,
+        "cpo5LongNameChilledWaterPump1RatedCap"
+      ],
+      "description": "Chilled Water Pump 1 Rated Capacity"
+    },
+    {
+      "enum": [
+        258,
+        "cpo5LongNameChilledWaterPump2PeakEff"
+      ],
+      "description": "Chilled Water Pump 2 Peak Efficiency"
+    },
+    {
+      "enum": [
+        259,
+        "cpo5LongNameChilledWaterPump2RatedCap"
+      ],
+      "description": "Chilled Water Pump 2 Rated Capacity"
+    },
+    {
+      "enum": [
+        260,
+        "cpo5LongNameChilledWaterPump3PeakEff"
+      ],
+      "description": "Chilled Water Pump 3 Peak Efficiency"
+    },
+    {
+      "enum": [
+        261,
+        "cpo5LongNameChilledWaterPump3RatedCap"
+      ],
+      "description": "Chilled Water Pump 3 Rated Capacity"
+    },
+    {
+      "enum": [
+        262,
+        "cpo5LongNameChilledWaterPump4PeakEff"
+      ],
+      "description": "Chilled Water Pump 4 Peak Efficiency"
+    },
+    {
+      "enum": [
+        263,
+        "cpo5LongNameChilledWaterPump4RatedCap"
+      ],
+      "description": "Chilled Water Pump 4 Rated Capacity"
+    },
+    {
+      "enum": [
+        264,
+        "cpo5LongNameChilledWaterPumpStabilizeTime"
+      ],
+      "description": "Chilled Water Pump Stabilize Time"
+    },
+    {
+      "enum": [
+        265,
+        "cpo5LongNameChilledWaterSupplyTemperatureSetpoint"
+      ],
+      "description": "Chilled Water Supply Temperature Setpoint"
+    },
+    {
+      "enum": [
+        266,
+        "cpo5LongNameChillerWaterNoOfDevices"
+      ],
+      "description": "Chiller Water No of Devices"
+    },
+    {
+      "enum": [
+        267,
+        "cpo5LongNameRotateChilledWaterPumps"
+      ],
+      "description": "Rotate Chilled Water Pumps"
+    },
+    {
+      "enum": [
+        268,
+        "cpo5LongNameCoolingTower1MaintenanceSwitch"
+      ],
+      "description": "Cooling Tower 1 Maintenance Switch"
+    },
+    {
+      "enum": [
+        269,
+        "cpo5LongNameCoolingTower1PeakEff"
+      ],
+      "description": "Cooling Tower 1 Peak Efficiency"
+    },
+    {
+      "enum": [
+        270,
+        "cpo5LongNameCoolingTower1RatedCap"
+      ],
+      "description": "Cooling Tower 1 Rated Capacity"
+    },
+    {
+      "enum": [
+        271,
+        "cpo5LongNameCoolingTower1RatedPow"
+      ],
+      "description": "Cooling Tower 1 Rated Power"
+    },
+    {
+      "enum": [
+        272,
+        "cpo5LongNameCoolingTower1Status"
+      ],
+      "description": "Cooling Tower 1 Status"
+    },
+    {
+      "enum": [
+        273,
+        "cpo5LongNameCoolingTower2MaintenanceSwitch"
+      ],
+      "description": "Cooling Tower 2 Maintenance Switch"
+    },
+    {
+      "enum": [
+        274,
+        "cpo5LongNameCoolingTower2PeakEff"
+      ],
+      "description": "Cooling Tower 2 Peak Efficiency"
+    },
+    {
+      "enum": [
+        275,
+        "cpo5LongNameCoolingTower2RatedCap"
+      ],
+      "description": "Cooling Tower 2 Rated Capacity"
+    },
+    {
+      "enum": [
+        276,
+        "cpo5LongNameCoolingTower2RatedPow"
+      ],
+      "description": "Cooling Tower 2 Rated Power"
+    },
+    {
+      "enum": [
+        277,
+        "cpo5LongNameCoolingTower2Status"
+      ],
+      "description": "Cooling Tower 2 Status"
+    },
+    {
+      "enum": [
+        278,
+        "cpo5LongNameCoolingTower3MaintenanceSwitch"
+      ],
+      "description": "Cooling Tower 3 Maintenance Switch"
+    },
+    {
+      "enum": [
+        279,
+        "cpo5LongNameCoolingTower3PeakEff"
+      ],
+      "description": "Cooling Tower 3 Peak Efficiency"
+    },
+    {
+      "enum": [
+        280,
+        "cpo5LongNameCoolingTower3RatedCap"
+      ],
+      "description": "Cooling Tower 3 Rated Capacity"
+    },
+    {
+      "enum": [
+        281,
+        "cpo5LongNameCoolingTower3RatedPow"
+      ],
+      "description": "Cooling Tower 3 Rated Power"
+    },
+    {
+      "enum": [
+        282,
+        "cpo5LongNameCoolingTower3Status"
+      ],
+      "description": "Cooling Tower 3 Status"
+    },
+    {
+      "enum": [
+        283,
+        "cpo5LongNameCoolingTower4MaintenanceSwitch"
+      ],
+      "description": "Cooling Tower 4 Maintenance Switch"
+    },
+    {
+      "enum": [
+        284,
+        "cpo5LongNameCoolingTower4PeakEff"
+      ],
+      "description": "Cooling Tower 4 Peak Efficiency"
+    },
+    {
+      "enum": [
+        285,
+        "cpo5LongNameCoolingTower4RatedCap"
+      ],
+      "description": "Cooling Tower 4 Rated Capacity"
+    },
+    {
+      "enum": [
+        286,
+        "cpo5LongNameCoolingTower4RatedPow"
+      ],
+      "description": "Cooling Tower 4 Rated Power"
+    },
+    {
+      "enum": [
+        287,
+        "cpo5LongNameCoolingTower4Status"
+      ],
+      "description": "Cooling Tower 4 Status"
+    },
+    {
+      "enum": [
+        288,
+        "cpo5LongNameCoolingTowerApproach"
+      ],
+      "description": "Cooling Tower Approach"
+    },
+    {
+      "enum": [
+        289,
+        "cpo5LongNameCoolingTowerInterlockSetup"
+      ],
+      "description": "Cooling Tower Interlock Setup"
+    },
+    {
+      "enum": [
+        290,
+        "cpo5LongNameCoolingTowerInterlockInterstageDelay"
+      ],
+      "description": "Cooling Tower Interlock Interstage Delay"
+    },
+    {
+      "enum": [
+        291,
+        "cpo5LongNameCoolingTowerInterlockCcom"
+      ],
+      "description": "Cooling Tower Interlock CCOM"
+    },
+    {
+      "enum": [
+        292,
+        "cpo5LongNameCoolingTowerInterlockLostStatusDly"
+      ],
+      "description": "Cooling Tower Interlock Lost Status Delay"
+    },
+    {
+      "enum": [
+        293,
+        "cpo5LongNameCoolingTowerInterlockOutDly"
+      ],
+      "description": "Cooling Tower Interlock Out Delay"
+    },
+    {
+      "enum": [
+        294,
+        "cpo5LongNameCoolingTowerInterstageOnDelay"
+      ],
+      "description": "Cooling Tower Interstage On Delay"
+    },
+    {
+      "enum": [
+        295,
+        "cpo5LongNameCoolingTowerInterstageOffDelay"
+      ],
+      "description": "Cooling Tower Interstage Off Delay"
+    },
+    {
+      "enum": [
+        296,
+        "cpo5LongNameCoolingTowerInterlockRetryAttempts"
+      ],
+      "description": "Cooling Tower Interlock Retry Attempts"
+    },
+    {
+      "enum": [
+        297,
+        "cpo5LongNameCoolingTowerInterlockRetryInterval"
+      ],
+      "description": "Cooling Tower Interlock Retry Interval"
+    },
+    {
+      "enum": [
+        298,
+        "cpo5LongNameCoolingTowerIsoValveStrokeTime"
+      ],
+      "description": "Cooling Tower Iso Valve Stroke Time"
+    },
+    {
+      "enum": [
+        299,
+        "cpo5LongNameCoolingTowerRange"
+      ],
+      "description": "Cooling Tower Range"
+    },
+    {
+      "enum": [
+        300,
+        "cpo5LongNameCoolingTowerMinimumOffTime"
+      ],
+      "description": "Cooling Tower Minimum Off Time"
+    },
+    {
+      "enum": [
+        301,
+        "cpo5LongNameCoolingTowerMinimumOnTime"
+      ],
+      "description": "Cooling Tower Minimum On Time"
+    },
+    {
+      "enum": [
+        302,
+        "cpo5LongNameCondenserWaterPumpDelay"
+      ],
+      "description": "Condenser Water Pump Delay"
+    },
+    {
+      "enum": [
+        303,
+        "cpo5LongNameCondenserWaterBypassControlValvePidTuningReset"
+      ],
+      "description": "Condenser Water Bypass Control Valve PID Tuning Reset"
+    },
+    {
+      "enum": [
+        304,
+        "cpo5LongNameOpenLoopTowerControlLowLimitSpDiff"
+      ],
+      "description": "Open Loop Tower Control Low Limit Sp-Diff"
+    },
+    {
+      "enum": [
+        305,
+        "cpo5LongNameOpenLoopTowerControlMinSpeed"
+      ],
+      "description": "Open Loop Tower Control Min Speed"
+    },
+    {
+      "enum": [
+        306,
+        "cpo5LongNameOpenLoopTowerControlLlPidTuningReset"
+      ],
+      "description": "Open Loop Tower Control LL PID Tuning Reset"
+    },
+    {
+      "enum": [
+        307,
+        "cpo5LongNameRotateTowers"
+      ],
+      "description": "Rotate Towers"
+    },
+    {
+      "enum": [
+        308,
+        "cpo5LongNameCondenserWaterPump1MaintenanceSwitch"
+      ],
+      "description": "Condenser Water Pump 1 Maintenance Switch"
+    },
+    {
+      "enum": [
+        309,
+        "cpo5LongNameCondenserWaterPump1Status"
+      ],
+      "description": "Condenser Water Pump 1 Status"
+    },
+    {
+      "enum": [
+        310,
+        "cpo5LongNameCondenserWaterPump2MaintenanceSwitch"
+      ],
+      "description": "Condenser Water Pump 2 Maintenance Switch"
+    },
+    {
+      "enum": [
+        311,
+        "cpo5LongNameCondenserWaterPump2Status"
+      ],
+      "description": "Condenser Water Pump 2 Status"
+    },
+    {
+      "enum": [
+        312,
+        "cpo5LongNameCondenserWaterPump3MaintenanceSwitch"
+      ],
+      "description": "Condenser Water Pump 3 Maintenance Switch"
+    },
+    {
+      "enum": [
+        313,
+        "cpo5LongNameCondenserWaterPump3Status"
+      ],
+      "description": "Condenser Water Pump 3 Status"
+    },
+    {
+      "enum": [
+        314,
+        "cpo5LongNameCondenserWaterPump4MaintenanceSwitch"
+      ],
+      "description": "Condenser Water Pump 4 Maintenance Switch"
+    },
+    {
+      "enum": [
+        315,
+        "cpo5LongNameCondenserWaterPump4Status"
+      ],
+      "description": "Condenser Water Pump 4 Status"
+    },
+    {
+      "enum": [
+        316,
+        "cpo5LongNameCondenserWaterPumpInterlockCcom"
+      ],
+      "description": "Condenser Water Pump Interlock CCOM"
+    },
+    {
+      "enum": [
+        317,
+        "cpo5LongNameCondenserWaterPumpInterlockLostStatusDly"
+      ],
+      "description": "Condenser Water Pump Interlock Lost Status Delay"
+    },
+    {
+      "enum": [
+        318,
+        "cpo5LongNameCondenserWaterPumpInterlockOutDly"
+      ],
+      "description": "Condenser Water Pump Interlock Out Delay"
+    },
+    {
+      "enum": [
+        319,
+        "cpo5LongNameCondenserWaterPumpInterlockRetryAttempts"
+      ],
+      "description": "Condenser Water Pump Interlock Retry Attempts"
+    },
+    {
+      "enum": [
+        320,
+        "cpo5LongNameCondenserWaterPumpInterlockRetryInterval"
+      ],
+      "description": "Condenser Water Pump Interlock Retry Interval"
+    },
+    {
+      "enum": [
+        321,
+        "cpo5LongNameCondenserWaterPumpInterlockSetup"
+      ],
+      "description": "Condenser Water Pump Interlock Setup"
+    },
+    {
+      "enum": [
+        322,
+        "cpo5LongNameCondenserWaterPumpMinimumOffTime"
+      ],
+      "description": "Condenser Water Pump Minimum Off Time"
+    },
+    {
+      "enum": [
+        323,
+        "cpo5LongNameCondenserWaterPumpMinimumOnTime"
+      ],
+      "description": "Condenser Water Pump Minimum On Time"
+    },
+    {
+      "enum": [
+        324,
+        "cpo5LongNameCondenserWaterPump1PeakEff"
+      ],
+      "description": "Condenser Water Pump 1 Peak Efficiency"
+    },
+    {
+      "enum": [
+        325,
+        "cpo5LongNameCondenserWaterPump1RatedCap"
+      ],
+      "description": "Condenser Water Pump 1 Rated Capacity"
+    },
+    {
+      "enum": [
+        326,
+        "cpo5LongNameCondenserWaterPump2PeakEff"
+      ],
+      "description": "Condenser Water Pump 2 Peak Efficiency"
+    },
+    {
+      "enum": [
+        327,
+        "cpo5LongNameCondenserWaterPump2RatedCap"
+      ],
+      "description": "Condenser Water Pump 2 Rated Capacity"
+    },
+    {
+      "enum": [
+        328,
+        "cpo5LongNameCondenserWaterPump3PeakEff"
+      ],
+      "description": "Condenser Water Pump 3 Peak Efficiency"
+    },
+    {
+      "enum": [
+        329,
+        "cpo5LongNameCondenserWaterPump3RatedCap"
+      ],
+      "description": "Condenser Water Pump 3 Rated Capacity"
+    },
+    {
+      "enum": [
+        330,
+        "cpo5LongNameCondenserWaterPump4PeakEff"
+      ],
+      "description": "Condenser Water Pump 4 Peak Efficiency"
+    },
+    {
+      "enum": [
+        331,
+        "cpo5LongNameCondenserWaterPump4RatedCap"
+      ],
+      "description": "Condenser Water Pump 4 Rated Capacity"
+    },
+    {
+      "enum": [
+        332,
+        "cpo5LongNameCondenserWaterSeqSwitchDiff"
+      ],
+      "description": "Condenser Water Seq Switch-Diff"
+    },
+    {
+      "enum": [
+        333,
+        "cpo5LongNameCondenserWaterSeqSwitchSp"
+      ],
+      "description": "Condenser Water Seq Switch-Sp"
+    },
+    {
+      "enum": [
+        334,
+        "cpo5LongNameCondenserWaterLowLimitTemperatureSetpoint"
+      ],
+      "description": "Condenser Water Low Limit Temperature Setpoint"
+    },
+    {
+      "enum": [
+        335,
+        "cpo5LongNameCondenserWaterNoOfDevices"
+      ],
+      "description": "Condenser Water No of Devices"
+    },
+    {
+      "enum": [
+        336,
+        "cpo5LongNameRotateCondenserWaterPumps"
+      ],
+      "description": "Rotate Condenser Water Pumps"
+    },
+    {
+      "enum": [
+        337,
+        "cpo5LongNameBuildingLoad"
+      ],
+      "description": "Building Load"
+    },
+    {
+      "enum": [
+        338,
+        "cpo5LongNameEffectiveOaH"
+      ],
+      "description": "Effective OA-H"
+    },
+    {
+      "enum": [
+        339,
+        "cpo5LongNameEffectiveOaT"
+      ],
+      "description": "Effective OA-T"
+    },
+    {
+      "enum": [
+        340,
+        "cpo5LongNameChilledWaterReturnTemperature"
+      ],
+      "description": "Chilled Water Return Temperature"
+    },
+    {
+      "enum": [
+        341,
+        "cpo5LongNameChiller1ChilledWaterFlowOutput"
+      ],
+      "description": "Chiller 1 Chilled Water Flow Output"
+    },
+    {
+      "enum": [
+        342,
+        "cpo5LongNameChiller1CondenserWaterReturnTemperatureOut"
+      ],
+      "description": "Chiller 1 Condenser Water Return Temperature Out"
+    },
+    {
+      "enum": [
+        343,
+        "cpo5LongNameChiller1ControlOnoffCommand"
+      ],
+      "description": "Chiller 1 Control OnOff Command"
+    },
+    {
+      "enum": [
+        344,
+        "cpo5LongNameChiller1IsolationValveOutput"
+      ],
+      "description": "Chiller 1 Isolation Valve Output"
+    },
+    {
+      "enum": [
+        345,
+        "cpo5LongNameChillerCurrentState"
+      ],
+      "description": "Chiller Current State"
+    },
+    {
+      "enum": [
+        346,
+        "cpo5LongNameChillerNextState"
+      ],
+      "description": "Chiller Target State"
+    },
+    {
+      "enum": [
+        347,
+        "cpo5LongNameChilledWaterPumpCurrentState"
+      ],
+      "description": "Chilled Water Pump Current State"
+    },
+    {
+      "enum": [
+        348,
+        "cpo5LongNameChilledWaterPumpNextState"
+      ],
+      "description": "Chilled Water Pump Target State"
+    },
+    {
+      "enum": [
+        349,
+        "cpo5LongNameCondenserWaterPumpCurrentState"
+      ],
+      "description": "Condenser Water Pump Current State"
+    },
+    {
+      "enum": [
+        350,
+        "cpo5LongNameCondenserWaterPumpNextState"
+      ],
+      "description": "Condenser Water Pump Target State"
+    },
+    {
+      "enum": [
+        351,
+        "cpo5LongNameCoolingTowerCurrentState"
+      ],
+      "description": "Cooling Tower Current State"
+    },
+    {
+      "enum": [
+        352,
+        "cpo5LongNameCoolingTowerNextState"
+      ],
+      "description": "Cooling Tower Target State"
+    },
+    {
+      "enum": [
+        353,
+        "cpo5LongNameChiller1IsolationValvePercentCommand"
+      ],
+      "description": "Chiller 1 Isolation Valve Percent Command"
+    },
+    {
+      "enum": [
+        354,
+        "cpo5LongNameChiller1InterlockAlarm"
+      ],
+      "description": "Chiller 1 Interlock Alarm"
+    },
+    {
+      "enum": [
+        355,
+        "cpo5LongNameChiller1InterlockEnableStatus"
+      ],
+      "description": "Chiller 1 Interlock Enable Status"
+    },
+    {
+      "enum": [
+        356,
+        "cpo5LongNameChiller1InterlockOutput"
+      ],
+      "description": "Effective Chiller 1 Status"
+    },
+    {
+      "enum": [
+        357,
+        "cpo5LongNameChiller1InterlockRetryCount"
+      ],
+      "description": "Chiller 1 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        358,
+        "cpo5LongNameChiller1LowerOptimalPercentLoad"
+      ],
+      "description": "Chiller 1 Lower Optimal Percent Load"
+    },
+    {
+      "enum": [
+        359,
+        "cpo5LongNameChiller1PercentLoadSetpointResetState"
+      ],
+      "description": "Chiller 1 Percent Load Setpoint Reset State"
+    },
+    {
+      "enum": [
+        360,
+        "cpo5LongNameChiller1UpperOptimalPercentLoad"
+      ],
+      "description": "Chiller 1 Upper Optimal Percent Load"
+    },
+    {
+      "enum": [
+        361,
+        "cpo5LongNameChiller2ChilledWaterFlowOutput"
+      ],
+      "description": "Chiller 2 Chilled Water Flow Output"
+    },
+    {
+      "enum": [
+        362,
+        "cpo5LongNameChiller2CondenserWaterReturnTemperatureOut"
+      ],
+      "description": "Chiller 2 Condenser Water Return Temperature Out"
+    },
+    {
+      "enum": [
+        363,
+        "cpo5LongNameChiller2ControlOnoffCommand"
+      ],
+      "description": "Chiller 2 Control OnOff Command"
+    },
+    {
+      "enum": [
+        364,
+        "cpo5LongNameChiller2IsolationValveOutput"
+      ],
+      "description": "Chiller 2 Isolation Valve Output"
+    },
+    {
+      "enum": [
+        365,
+        "cpo5LongNameChiller2IsolationValvePercentCommand"
+      ],
+      "description": "Chiller 2 Isolation Valve Percent Command"
+    },
+    {
+      "enum": [
+        366,
+        "cpo5LongNameChiller2InterlockAlarm"
+      ],
+      "description": "Chiller 2 Interlock Alarm"
+    },
+    {
+      "enum": [
+        367,
+        "cpo5LongNameChiller2InterlockEnableStatus"
+      ],
+      "description": "Chiller 2 Interlock Enable Status"
+    },
+    {
+      "enum": [
+        368,
+        "cpo5LongNameChiller2InterlockOutput"
+      ],
+      "description": "Effective Chiller 2 Status"
+    },
+    {
+      "enum": [
+        369,
+        "cpo5LongNameChiller2InterlockRetryCount"
+      ],
+      "description": "Chiller 2 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        370,
+        "cpo5LongNameChiller2LowerOptimalPercentLoad"
+      ],
+      "description": "Chiller 2 Lower Optimal Percent Load"
+    },
+    {
+      "enum": [
+        371,
+        "cpo5LongNameChiller2PercentLoadSetpointResetState"
+      ],
+      "description": "Chiller 2 Percent Load Setpoint Reset State"
+    },
+    {
+      "enum": [
+        372,
+        "cpo5LongNameChiller2UpperOptimalPercentLoad"
+      ],
+      "description": "Chiller 2 Upper Optimal Percent Load"
+    },
+    {
+      "enum": [
+        373,
+        "cpo5LongNameChiller3ChilledWaterFlowOutput"
+      ],
+      "description": "Chiller 3 Chilled Water Flow Output"
+    },
+    {
+      "enum": [
+        374,
+        "cpo5LongNameChiller3CondenserWaterReturnTemperatureOut"
+      ],
+      "description": "Chiller 3 Condenser Water Return Temperature Out"
+    },
+    {
+      "enum": [
+        375,
+        "cpo5LongNameChiller3ControlOnoffCommand"
+      ],
+      "description": "Chiller 3 Control OnOff Command"
+    },
+    {
+      "enum": [
+        376,
+        "cpo5LongNameChiller3IsolationValveOutput"
+      ],
+      "description": "Chiller 3 Isolation Valve Output"
+    },
+    {
+      "enum": [
+        377,
+        "cpo5LongNameChiller3IsolationValvePercentCommand"
+      ],
+      "description": "Chiller 3 Isolation Valve Percent Command"
+    },
+    {
+      "enum": [
+        378,
+        "cpo5LongNameChiller3InterlockAlarm"
+      ],
+      "description": "Chiller 3 Interlock Alarm"
+    },
+    {
+      "enum": [
+        379,
+        "cpo5LongNameChiller3InterlockEnableStatus"
+      ],
+      "description": "Chiller 3 Interlock Enable Status"
+    },
+    {
+      "enum": [
+        380,
+        "cpo5LongNameChiller3InterlockOutput"
+      ],
+      "description": "Effective Chiller 3 Status"
+    },
+    {
+      "enum": [
+        381,
+        "cpo5LongNameChiller3InterlockRetryCount"
+      ],
+      "description": "Chiller 3 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        382,
+        "cpo5LongNameChiller3LowerOptimalPercentLoad"
+      ],
+      "description": "Chiller 3 Lower Optimal Percent Load"
+    },
+    {
+      "enum": [
+        383,
+        "cpo5LongNameChiller3PercentLoadSetpointResetState"
+      ],
+      "description": "Chiller 3 Percent Load Setpoint Reset State"
+    },
+    {
+      "enum": [
+        384,
+        "cpo5LongNameChiller3UpperOptimalPercentLoad"
+      ],
+      "description": "Chiller 3 Upper Optimal Percent Load"
+    },
+    {
+      "enum": [
+        385,
+        "cpo5LongNameChiller4ChilledWaterFlowOutput"
+      ],
+      "description": "Chiller 4 Chilled Water Flow Output"
+    },
+    {
+      "enum": [
+        386,
+        "cpo5LongNameChiller4CondenserWaterReturnTemperatureOut"
+      ],
+      "description": "Chiller 4 Condenser Water Return Temperature Out"
+    },
+    {
+      "enum": [
+        387,
+        "cpo5LongNameChiller4ControlOnoffCommand"
+      ],
+      "description": "Chiller 4 Control OnOff Command"
+    },
+    {
+      "enum": [
+        388,
+        "cpo5LongNameChiller4IsolationValveOutput"
+      ],
+      "description": "Chiller 4 Isolation Valve Output"
+    },
+    {
+      "enum": [
+        389,
+        "cpo5LongNameChiller4IsolationValvePercentCommand"
+      ],
+      "description": "Chiller 4 Isolation Valve Percent Command"
+    },
+    {
+      "enum": [
+        390,
+        "cpo5LongNameChiller4InterlockAlarm"
+      ],
+      "description": "Chiller 4 Interlock Alarm"
+    },
+    {
+      "enum": [
+        391,
+        "cpo5LongNameChiller4InterlockEnableStatus"
+      ],
+      "description": "Chiller 4 Interlock Enable Status"
+    },
+    {
+      "enum": [
+        392,
+        "cpo5LongNameChiller4InterlockOutput"
+      ],
+      "description": "Effective Chiller 4 Status"
+    },
+    {
+      "enum": [
+        393,
+        "cpo5LongNameChiller4InterlockRetryCount"
+      ],
+      "description": "Chiller 4 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        394,
+        "cpo5LongNameChiller4LowerOptimalPercentLoad"
+      ],
+      "description": "Chiller 4 Lower Optimal Percent Load"
+    },
+    {
+      "enum": [
+        395,
+        "cpo5LongNameChiller4PercentLoadSetpointResetState"
+      ],
+      "description": "Chiller 4 Percent Load Setpoint Reset State"
+    },
+    {
+      "enum": [
+        396,
+        "cpo5LongNameChiller4UpperOptimalPercentLoad"
+      ],
+      "description": "Chiller 4 Upper Optimal Percent Load"
+    },
+    {
+      "enum": [
+        397,
+        "cpo5LongNameChiller1EnableDeterminationEnableOutput"
+      ],
+      "description": "Chiller 1 Enable Determination Enable Output"
+    },
+    {
+      "enum": [
+        398,
+        "cpo5LongNameChiller2EnableDeterminationEnableOutput"
+      ],
+      "description": "Chiller 2 Enable Determination Enable Output"
+    },
+    {
+      "enum": [
+        399,
+        "cpo5LongNameChiller3EnableDeterminationEnableOutput"
+      ],
+      "description": "Chiller 3 Enable Determination Enable Output"
+    },
+    {
+      "enum": [
+        400,
+        "cpo5LongNameChiller4EnableDeterminationEnableOutput"
+      ],
+      "description": "Chiller 4 Enable Determination Enable Output"
+    },
+    {
+      "enum": [
+        401,
+        "cpo5LongNameChillerForcedUpstageDerateNow"
+      ],
+      "description": "Chiller Forced Upstage Derate Now"
+    },
+    {
+      "enum": [
+        402,
+        "cpo5LongNameChillerForcedUpstageDerateReset"
+      ],
+      "description": "Chiller Forced Upstage Derate Reset"
+    },
+    {
+      "enum": [
+        403,
+        "cpo5LongNameAvailableCapacity"
+      ],
+      "description": "Available Capacity"
+    },
+    {
+      "enum": [
+        404,
+        "cpo5LongNameChillerPlantCapacityLimit"
+      ],
+      "description": "Chiller Plant Capacity Limit"
+    },
+    {
+      "enum": [
+        405,
+        "cpo5LongNameChiller1OnoffCommand"
+      ],
+      "description": "Chiller 1 OnOff Command"
+    },
+    {
+      "enum": [
+        406,
+        "cpo5LongNameChiller2OnoffCommand"
+      ],
+      "description": "Chiller 2 OnOff Command"
+    },
+    {
+      "enum": [
+        407,
+        "cpo5LongNameChiller3OnoffCommand"
+      ],
+      "description": "Chiller 3 OnOff Command"
+    },
+    {
+      "enum": [
+        408,
+        "cpo5LongNameChiller4OnoffCommand"
+      ],
+      "description": "Chiller 4 OnOff Command"
+    },
+    {
+      "enum": [
+        409,
+        "cpo5LongNameChiller1IsolationValveCommand"
+      ],
+      "description": "Chiller 1 Isolation Valve Command"
+    },
+    {
+      "enum": [
+        410,
+        "cpo5LongNameChiller2IsolationValveCommand"
+      ],
+      "description": "Chiller 2 Isolation Valve Command"
+    },
+    {
+      "enum": [
+        411,
+        "cpo5LongNameChiller3IsolationValveCommand"
+      ],
+      "description": "Chiller 3 Isolation Valve Command"
+    },
+    {
+      "enum": [
+        412,
+        "cpo5LongNameChiller4IsolationValveCommand"
+      ],
+      "description": "Chiller 4 Isolation Valve Command"
+    },
+    {
+      "enum": [
+        413,
+        "cpo5LongNameChillerCurrentCapacity"
+      ],
+      "description": "Chiller Current Capacity"
+    },
+    {
+      "enum": [
+        414,
+        "cpo5LongNameChillerCurrentPerformanceIndex"
+      ],
+      "description": "Chiller Current Performance Index"
+    },
+    {
+      "enum": [
+        415,
+        "cpo5LongNameChillerDeratingPercent"
+      ],
+      "description": "Chiller Derating Percent"
+    },
+    {
+      "enum": [
+        416,
+        "cpo5LongNameChillerInterimDevices"
+      ],
+      "description": "Chiller Interim Devices"
+    },
+    {
+      "enum": [
+        417,
+        "cpo5LongNameChillerInternalLoad"
+      ],
+      "description": "Chiller Internal Load"
+    },
+    {
+      "enum": [
+        418,
+        "cpo5LongNameSystemStable"
+      ],
+      "description": "System Stable"
+    },
+    {
+      "enum": [
+        419,
+        "cpo5LongNameChilledWaterMaxFlow"
+      ],
+      "description": "Chilled Water Max Flow"
+    },
+    {
+      "enum": [
+        420,
+        "cpo5LongNameCurrentPercentLoad"
+      ],
+      "description": "Current Percent Load"
+    },
+    {
+      "enum": [
+        421,
+        "cpo5LongNameChillerPredictedAdjustedPerformanceIndex"
+      ],
+      "description": "Chiller Predicted Adjusted Performance Index"
+    },
+    {
+      "enum": [
+        422,
+        "cpo5LongNameChillerPredictedPercentLoad"
+      ],
+      "description": "Chiller Predicted Percent Load"
+    },
+    {
+      "enum": [
+        423,
+        "cpo5LongNameChillerSelectorReliability"
+      ],
+      "description": "Chiller Selector Reliability"
+    },
+    {
+      "enum": [
+        424,
+        "cpo5LongNameChilledWaterRequiredFlow"
+      ],
+      "description": "Chilled Water Required Flow"
+    },
+    {
+      "enum": [
+        425,
+        "cpo5LongNameChilledWaterRequiredMinimumFlow"
+      ],
+      "description": "Chilled Water Required Minimum Flow"
+    },
+    {
+      "enum": [
+        426,
+        "cpo5LongNameCondenserWaterRequiredFlow"
+      ],
+      "description": "Condenser Water Required Flow"
+    },
+    {
+      "enum": [
+        427,
+        "cpo5LongNameCondenserWaterRequiredMinimumFlow"
+      ],
+      "description": "Condenser Water Required Minimum Flow"
+    },
+    {
+      "enum": [
+        428,
+        "cpo5LongNameRequiredCoolingTowerFlow"
+      ],
+      "description": "Required Cooling Tower Flow"
+    },
+    {
+      "enum": [
+        429,
+        "cpo5LongNameChillerSystemEnable"
+      ],
+      "description": "Chiller System Enable"
+    },
+    {
+      "enum": [
+        430,
+        "cpo5LongNameTargetChillerDevices"
+      ],
+      "description": "Target Chiller Devices"
+    },
+    {
+      "enum": [
+        431,
+        "cpo5LongNameChillerTargetPerformanceIndex"
+      ],
+      "description": "Chiller Target Performance Index"
+    },
+    {
+      "enum": [
+        432,
+        "cpo5LongNameChillerTimeUntilDevOn"
+      ],
+      "description": "Chiller Time Until Device On"
+    },
+    {
+      "enum": [
+        433,
+        "cpo5LongNameChillerTotalCurrentPower"
+      ],
+      "description": "Chiller Total Current Power"
+    },
+    {
+      "enum": [
+        434,
+        "cpo5LongNameWaitingForCommandedFlow"
+      ],
+      "description": "Waiting for Commanded Flow"
+    },
+    {
+      "enum": [
+        435,
+        "cpo5LongNameChilledWaterBypassValvePercentCommand"
+      ],
+      "description": "Chilled Water Bypass Valve Percent Command"
+    },
+    {
+      "enum": [
+        436,
+        "cpo5LongNameChilledWaterFlow"
+      ],
+      "description": "Chilled Water Flow"
+    },
+    {
+      "enum": [
+        437,
+        "cpo5LongNameChilledWaterLoad"
+      ],
+      "description": "Chilled Water Load"
+    },
+    {
+      "enum": [
+        438,
+        "cpo5LongNameChilledWaterPump1ControlOnoff"
+      ],
+      "description": "Chilled Water Pump 1 Control OnOff"
+    },
+    {
+      "enum": [
+        439,
+        "cpo5LongNameChilledWaterPump1ControlPercentCommand"
+      ],
+      "description": "Chilled Water Pump 1 Control Percent Command"
+    },
+    {
+      "enum": [
+        440,
+        "cpo5LongNameChilledWaterPump1State"
+      ],
+      "description": "Chilled Water Pump 1 State"
+    },
+    {
+      "enum": [
+        441,
+        "cpo5LongNameChilledWaterPump1InterlockAlarm"
+      ],
+      "description": "Chilled Water Pump 1 Interlock Alarm"
+    },
+    {
+      "enum": [
+        442,
+        "cpo5LongNameChilledWaterPump1InterlockEnableStatus"
+      ],
+      "description": "Chilled Water Pump 1 Interlock Enable Status"
+    },
+    {
+      "enum": [
+        443,
+        "cpo5LongNameChilledWaterPump1InterlockOnoff"
+      ],
+      "description": "Chilled Water Pump 1 Interlock OnOff"
+    },
+    {
+      "enum": [
+        444,
+        "cpo5LongNameChilledWaterPump1InterlockRetryCount"
+      ],
+      "description": "Chilled Water Pump 1 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        445,
+        "cpo5LongNameChilledWaterPump1InterlockUsage"
+      ],
+      "description": "Chilled Water Pump 1 Interlock Usage"
+    },
+    {
+      "enum": [
+        446,
+        "cpo5LongNameChilledWaterPump2ControlOnoff"
+      ],
+      "description": "Chilled Water Pump 2 Control OnOff"
+    },
+    {
+      "enum": [
+        447,
+        "cpo5LongNameChilledWaterPump2ControlPercentCommand"
+      ],
+      "description": "Chilled Water Pump 2 Control Percent Command"
+    },
+    {
+      "enum": [
+        448,
+        "cpo5LongNameChilledWaterPump2State"
+      ],
+      "description": "Chilled Water Pump 2 State"
+    },
+    {
+      "enum": [
+        449,
+        "cpo5LongNameChilledWaterPump2InterlockAlarm"
+      ],
+      "description": "Chilled Water Pump 2 Interlock Alarm"
+    },
+    {
+      "enum": [
+        450,
+        "cpo5LongNameChilledWaterPump2InterlockEnableStatus"
+      ],
+      "description": "Chilled Water Pump 2 Interlock Enable Status"
+    },
+    {
+      "enum": [
+        451,
+        "cpo5LongNameChilledWaterPump2InterlockOnoff"
+      ],
+      "description": "Chilled Water Pump 2 Interlock OnOff"
+    },
+    {
+      "enum": [
+        452,
+        "cpo5LongNameChilledWaterPump2InterlockRetryCount"
+      ],
+      "description": "Chilled Water Pump 2 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        453,
+        "cpo5LongNameChilledWaterPump2InterlockUsage"
+      ],
+      "description": "Chilled Water Pump 2 Interlock Usage"
+    },
+    {
+      "enum": [
+        454,
+        "cpo5LongNameChilledWaterPump3ControlOnoff"
+      ],
+      "description": "Chilled Water Pump 3 Control OnOff"
+    },
+    {
+      "enum": [
+        455,
+        "cpo5LongNameChilledWaterPump3ControlPercentCommand"
+      ],
+      "description": "Chilled Water Pump 3 Control Percent Command"
+    },
+    {
+      "enum": [
+        456,
+        "cpo5LongNameChilledWaterPump3State"
+      ],
+      "description": "Chilled Water Pump 3 State"
+    },
+    {
+      "enum": [
+        457,
+        "cpo5LongNameChilledWaterPump3InterlockAlarm"
+      ],
+      "description": "Chilled Water Pump 3 Interlock Alarm"
+    },
+    {
+      "enum": [
+        458,
+        "cpo5LongNameChilledWaterPump3InterlockEnableStatus"
+      ],
+      "description": "Chilled Water Pump 3 Interlock Enable Status"
+    },
+    {
+      "enum": [
+        459,
+        "cpo5LongNameChilledWaterPump3InterlockOnoff"
+      ],
+      "description": "Chilled Water Pump 3 Interlock OnOff"
+    },
+    {
+      "enum": [
+        460,
+        "cpo5LongNameChilledWaterPump3InterlockRetryCount"
+      ],
+      "description": "Chilled Water Pump 3 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        461,
+        "cpo5LongNameChilledWaterPump3InterlockUsage"
+      ],
+      "description": "Chilled Water Pump 3 Interlock Usage"
+    },
+    {
+      "enum": [
+        462,
+        "cpo5LongNameChilledWaterPump4ControlOnoff"
+      ],
+      "description": "Chilled Water Pump 4 Control OnOff"
+    },
+    {
+      "enum": [
+        463,
+        "cpo5LongNameChilledWaterPump4ControlPercentCommand"
+      ],
+      "description": "Chilled Water Pump 4 Control Percent Command"
+    },
+    {
+      "enum": [
+        464,
+        "cpo5LongNameChilledWaterPump4State"
+      ],
+      "description": "Chilled Water Pump 4 State"
+    },
+    {
+      "enum": [
+        465,
+        "cpo5LongNameChilledWaterPump4InterlockAlarm"
+      ],
+      "description": "Chilled Water Pump 4 Interlock Alarm"
+    },
+    {
+      "enum": [
+        466,
+        "cpo5LongNameChilledWaterPump4InterlockEnableStatus"
+      ],
+      "description": "Chilled Water Pump 4 Interlock Enable Status"
+    },
+    {
+      "enum": [
+        467,
+        "cpo5LongNameChilledWaterPump4InterlockOnoff"
+      ],
+      "description": "Chilled Water Pump 4 Interlock OnOff"
+    },
+    {
+      "enum": [
+        468,
+        "cpo5LongNameChilledWaterPump4InterlockRetryCount"
+      ],
+      "description": "Chilled Water Pump 4 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        469,
+        "cpo5LongNameChilledWaterPump4InterlockUsage"
+      ],
+      "description": "Chilled Water Pump 4 Interlock Usage"
+    },
+    {
+      "enum": [
+        470,
+        "cpo5LongNameChilledWaterPumpPercentCommand"
+      ],
+      "description": "Chilled Water Pump Percent Command"
+    },
+    {
+      "enum": [
+        471,
+        "cpo5LongNameChilledWaterPumpAvailableCapacity"
+      ],
+      "description": "Chilled Water Pump Available Capacity"
+    },
+    {
+      "enum": [
+        472,
+        "cpo5LongNameChilledWaterPumpCurrentCapacity"
+      ],
+      "description": "Chilled Water Pump Current Capacity"
+    },
+    {
+      "enum": [
+        473,
+        "cpo5LongNameChilledWaterPumpCurrentEfficiency"
+      ],
+      "description": "Chilled Water Pump Current Efficiency"
+    },
+    {
+      "enum": [
+        474,
+        "cpo5LongNameChilledWaterPumpCurrentPercentLoad"
+      ],
+      "description": "Chilled Water Pump Current Percent Load"
+    },
+    {
+      "enum": [
+        475,
+        "cpo5LongNameChilledWaterPump1Command"
+      ],
+      "description": "Chilled Water Pump 1 Command"
+    },
+    {
+      "enum": [
+        476,
+        "cpo5LongNameChilledWaterPump2Command"
+      ],
+      "description": "Chilled Water Pump 2 Command"
+    },
+    {
+      "enum": [
+        477,
+        "cpo5LongNameChilledWaterPump3Command"
+      ],
+      "description": "Chilled Water Pump 3 Command"
+    },
+    {
+      "enum": [
+        478,
+        "cpo5LongNameChilledWaterPump4Command"
+      ],
+      "description": "Chilled Water Pump 4 Command"
+    },
+    {
+      "enum": [
+        479,
+        "cpo5LongNameChilledWaterPumpPredictedAdjustedEfficiency"
+      ],
+      "description": "Chilled Water Pump Predicted Adjusted Efficiency"
+    },
+    {
+      "enum": [
+        480,
+        "cpo5LongNameChilledWaterPumpPredictedEfficiency"
+      ],
+      "description": "Chilled Water Pump Predicted Efficiency"
+    },
+    {
+      "enum": [
+        481,
+        "cpo5LongNameChilledWaterPumpPredictedPercentLoad"
+      ],
+      "description": "Chilled Water Pump Predicted Percent Load"
+    },
+    {
+      "enum": [
+        482,
+        "cpo5LongNameChilledWaterPumpSelectorReliability"
+      ],
+      "description": "Chilled Water Pump Selector Reliability"
+    },
+    {
+      "enum": [
+        483,
+        "cpo5LongNameChilledWaterPumpInterimDevices"
+      ],
+      "description": "Chilled Water Pump Interim Devices"
+    },
+    {
+      "enum": [
+        484,
+        "cpo5LongNameChilledWaterPumpTargetDevices"
+      ],
+      "description": "Chilled Water Pump Target Devices"
+    },
+    {
+      "enum": [
+        485,
+        "cpo5LongNameChilledWaterPumpCalculatedNumberOfDevices"
+      ],
+      "description": "Chilled Water Pump Calculated Number of Devices"
+    },
+    {
+      "enum": [
+        486,
+        "cpo5LongNameChilledWaterSupplyTemperature"
+      ],
+      "description": "Chilled Water Supply Temperature"
+    },
+    {
+      "enum": [
+        487,
+        "cpo5LongNameCoolingTower1ControlFanCommand"
+      ],
+      "description": "Cooling Tower 1 Control Fan Command"
+    },
+    {
+      "enum": [
+        488,
+        "cpo5LongNameCoolingTower1ControlFanPercentCommand"
+      ],
+      "description": "Cooling Tower 1 Control Fan Percent Command"
+    },
+    {
+      "enum": [
+        489,
+        "cpo5LongNameCoolingTower1ControlIsoValveOpencloseCommand"
+      ],
+      "description": "Cooling Tower 1 Control Iso Valve OpenClose Command"
+    },
+    {
+      "enum": [
+        490,
+        "cpo5LongNameCoolingTower1ControlState"
+      ],
+      "description": "Cooling Tower 1 Control State"
+    },
+    {
+      "enum": [
+        491,
+        "cpo5LongNameCoolingTower1InterlockAlarm"
+      ],
+      "description": "Cooling Tower 1 Interlock Alarm"
+    },
+    {
+      "enum": [
+        492,
+        "cpo5LongNameCoolingTower1InterlockEnabled"
+      ],
+      "description": "Cooling Tower 1 Interlock Enabled"
+    },
+    {
+      "enum": [
+        493,
+        "cpo5LongNameCoolingTower1InterlockOutput"
+      ],
+      "description": "Cooling Tower 1 Interlock Output"
+    },
+    {
+      "enum": [
+        494,
+        "cpo5LongNameCoolingTower2ControlFanCommand"
+      ],
+      "description": "Cooling Tower 2 Control Fan Command"
+    },
+    {
+      "enum": [
+        495,
+        "cpo5LongNameCoolingTower2ControlFanPercentCommand"
+      ],
+      "description": "Cooling Tower 2 Control Fan Percent Command"
+    },
+    {
+      "enum": [
+        496,
+        "cpo5LongNameCoolingTower2ControlIsoValveOpencloseCommand"
+      ],
+      "description": "Cooling Tower 2 Control Iso Valve OpenClose Command"
+    },
+    {
+      "enum": [
+        497,
+        "cpo5LongNameCoolingTower2ControlState"
+      ],
+      "description": "Cooling Tower 2 Control State"
+    },
+    {
+      "enum": [
+        498,
+        "cpo5LongNameCoolingTower2InterlockAlarm"
+      ],
+      "description": "Cooling Tower 2 Interlock Alarm"
+    },
+    {
+      "enum": [
+        499,
+        "cpo5LongNameCoolingTower2InterlockEnabled"
+      ],
+      "description": "Cooling Tower 2 Interlock Enabled"
+    },
+    {
+      "enum": [
+        500,
+        "cpo5LongNameCoolingTower2InterlockOutput"
+      ],
+      "description": "Cooling Tower 2 Interlock Output"
+    },
+    {
+      "enum": [
+        501,
+        "cpo5LongNameCoolingTower3ControlFanCommand"
+      ],
+      "description": "Cooling Tower 3 Control Fan Command"
+    },
+    {
+      "enum": [
+        502,
+        "cpo5LongNameCoolingTower3ControlFanPercentCommand"
+      ],
+      "description": "Cooling Tower 3 Control Fan Percent Command"
+    },
+    {
+      "enum": [
+        503,
+        "cpo5LongNameCoolingTower3ControlIsoValveOpencloseCommand"
+      ],
+      "description": "Cooling Tower 3 Control Iso Valve OpenClose Command"
+    },
+    {
+      "enum": [
+        504,
+        "cpo5LongNameCoolingTower3ControlState"
+      ],
+      "description": "Cooling Tower 3 Control State"
+    },
+    {
+      "enum": [
+        505,
+        "cpo5LongNameCoolingTower3InterlockAlarm"
+      ],
+      "description": "Cooling Tower 3 Interlock Alarm"
+    },
+    {
+      "enum": [
+        506,
+        "cpo5LongNameCoolingTower3InterlockEnabled"
+      ],
+      "description": "Cooling Tower 3 Interlock Enabled"
+    },
+    {
+      "enum": [
+        507,
+        "cpo5LongNameCoolingTower3InterlockOutput"
+      ],
+      "description": "Cooling Tower 3 Interlock Output"
+    },
+    {
+      "enum": [
+        508,
+        "cpo5LongNameCoolingTower4ControlFanCommand"
+      ],
+      "description": "Cooling Tower 4 Control Fan Command"
+    },
+    {
+      "enum": [
+        509,
+        "cpo5LongNameCoolingTower4ControlFanPercentCommand"
+      ],
+      "description": "Cooling Tower 4 Control Fan Percent Command"
+    },
+    {
+      "enum": [
+        510,
+        "cpo5LongNameCoolingTower4ControlIsoValveOpencloseCommand"
+      ],
+      "description": "Cooling Tower 4 Control Iso Valve OpenClose Command"
+    },
+    {
+      "enum": [
+        511,
+        "cpo5LongNameCoolingTower4ControlState"
+      ],
+      "description": "Cooling Tower 4 Control State"
+    },
+    {
+      "enum": [
+        512,
+        "cpo5LongNameCoolingTower4InterlockAlarm"
+      ],
+      "description": "Cooling Tower 4 Interlock Alarm"
+    },
+    {
+      "enum": [
+        513,
+        "cpo5LongNameCoolingTower4InterlockEnabled"
+      ],
+      "description": "Cooling Tower 4 Interlock Enabled"
+    },
+    {
+      "enum": [
+        514,
+        "cpo5LongNameCoolingTower4InterlockOutput"
+      ],
+      "description": "Cooling Tower 4 Interlock Output"
+    },
+    {
+      "enum": [
+        515,
+        "cpo5LongNameCoolingTower1Enable"
+      ],
+      "description": "Cooling Tower 1 Enable"
+    },
+    {
+      "enum": [
+        516,
+        "cpo5LongNameCoolingTower2Enable"
+      ],
+      "description": "Cooling Tower 2 Enable"
+    },
+    {
+      "enum": [
+        517,
+        "cpo5LongNameCoolingTower3Enable"
+      ],
+      "description": "Cooling Tower 3 Enable"
+    },
+    {
+      "enum": [
+        518,
+        "cpo5LongNameCoolingTower4Enable"
+      ],
+      "description": "Cooling Tower 4 Enable"
+    },
+    {
+      "enum": [
+        519,
+        "cpo5LongNameCoolingTowerAvailableCapacity"
+      ],
+      "description": "Cooling Tower Available Capacity"
+    },
+    {
+      "enum": [
+        520,
+        "cpo5LongNameCoolingTowerCurrentCapacity"
+      ],
+      "description": "Cooling Tower Current Capacity"
+    },
+    {
+      "enum": [
+        521,
+        "cpo5LongNameCoolingTowerCurrentEfficiency"
+      ],
+      "description": "Cooling Tower Current Efficiency"
+    },
+    {
+      "enum": [
+        522,
+        "cpo5LongNameCoolingTower1Command"
+      ],
+      "description": "Cooling Tower 1 Command"
+    },
+    {
+      "enum": [
+        523,
+        "cpo5LongNameCoolingTower2Command"
+      ],
+      "description": "Cooling Tower 2 Command"
+    },
+    {
+      "enum": [
+        524,
+        "cpo5LongNameCoolingTower3Command"
+      ],
+      "description": "Cooling Tower 3 Command"
+    },
+    {
+      "enum": [
+        525,
+        "cpo5LongNameCoolingTower4Command"
+      ],
+      "description": "Cooling Tower 4 Command"
+    },
+    {
+      "enum": [
+        526,
+        "cpo5LongNameInterimCoolingTowers"
+      ],
+      "description": "Interim Cooling Towers"
+    },
+    {
+      "enum": [
+        527,
+        "cpo5LongNameCoolingTower1IsolationValveCommand"
+      ],
+      "description": "Cooling Tower 1 Isolation Valve Command"
+    },
+    {
+      "enum": [
+        528,
+        "cpo5LongNameCoolingTower2IsolationValveCommand"
+      ],
+      "description": "Cooling Tower 2 Isolation Valve Command"
+    },
+    {
+      "enum": [
+        529,
+        "cpo5LongNameCoolingTower3IsolationValveCommand"
+      ],
+      "description": "Cooling Tower 3 Isolation Valve Command"
+    },
+    {
+      "enum": [
+        530,
+        "cpo5LongNameCoolingTower4IsolationValveCommand"
+      ],
+      "description": "Cooling Tower 4 Isolation Valve Command"
+    },
+    {
+      "enum": [
+        531,
+        "cpo5LongNameCoolingTowerPredictedAdjustedEfficiency"
+      ],
+      "description": "Cooling Tower Predicted Adjusted Efficiency"
+    },
+    {
+      "enum": [
+        532,
+        "cpo5LongNameCoolingTowerPredictedEfficiency"
+      ],
+      "description": "Cooling Tower Predicted Efficiency"
+    },
+    {
+      "enum": [
+        533,
+        "cpo5LongNameCoolingTowerSelectorReliability"
+      ],
+      "description": "Cooling Tower Selector Reliability"
+    },
+    {
+      "enum": [
+        534,
+        "cpo5LongNameCoolingTowerTargetDevices"
+      ],
+      "description": "Cooling Tower Target Devices"
+    },
+    {
+      "enum": [
+        535,
+        "cpo5LongNameCoolingTowerTotalCurrentPower"
+      ],
+      "description": "Cooling Tower Total Current Power"
+    },
+    {
+      "enum": [
+        536,
+        "cpo5LongNameCoolingTowerState"
+      ],
+      "description": "Cooling Tower State"
+    },
+    {
+      "enum": [
+        537,
+        "cpo5LongNameCondenserWaterBypassValveControlStatus"
+      ],
+      "description": "Condenser Water Bypass Valve Control Status"
+    },
+    {
+      "enum": [
+        538,
+        "cpo5LongNameCondenserWaterBypassValvePercentOutput"
+      ],
+      "description": "Condenser Water Bypass Valve Percent Output"
+    },
+    {
+      "enum": [
+        539,
+        "cpo5LongNameCondenserWaterValveControlState"
+      ],
+      "description": "Condenser Water Valve Control State"
+    },
+    {
+      "enum": [
+        540,
+        "cpo5LongNameCondenserWaterPump1ControlOnoff"
+      ],
+      "description": "Condenser Water Pump 1 Control OnOff"
+    },
+    {
+      "enum": [
+        541,
+        "cpo5LongNameCondenserWaterPump1ControlState"
+      ],
+      "description": "Condenser Water Pump 1 Control State"
+    },
+    {
+      "enum": [
+        542,
+        "cpo5LongNameCondenserWaterPump1InterlockAlarm"
+      ],
+      "description": "Condenser Water Pump 1 Interlock Alarm"
+    },
+    {
+      "enum": [
+        543,
+        "cpo5LongNameCondenserWaterPump1InterlockEnabled"
+      ],
+      "description": "Condenser Water Pump 1 Interlock Enabled"
+    },
+    {
+      "enum": [
+        544,
+        "cpo5LongNameCondenserWaterPump1InterlockOutput"
+      ],
+      "description": "Condenser Water Pump 1 Interlock Output"
+    },
+    {
+      "enum": [
+        545,
+        "cpo5LongNameCondenserWaterPump2ControlOnoff"
+      ],
+      "description": "Condenser Water Pump 2 Control OnOff"
+    },
+    {
+      "enum": [
+        546,
+        "cpo5LongNameCondenserWaterPump2ControlState"
+      ],
+      "description": "Condenser Water Pump 2 Control State"
+    },
+    {
+      "enum": [
+        547,
+        "cpo5LongNameCondenserWaterPump2InterlockAlarm"
+      ],
+      "description": "Condenser Water Pump 2 Interlock Alarm"
+    },
+    {
+      "enum": [
+        548,
+        "cpo5LongNameCondenserWaterPump2InterlockEnabled"
+      ],
+      "description": "Condenser Water Pump 2 Interlock Enabled"
+    },
+    {
+      "enum": [
+        549,
+        "cpo5LongNameCondenserWaterPump2InterlockOn"
+      ],
+      "description": "Condenser Water Pump 2 Interlock On"
+    },
+    {
+      "enum": [
+        550,
+        "cpo5LongNameCondenserWaterPump3ControlOnoff"
+      ],
+      "description": "Condenser Water Pump 3 Control OnOff"
+    },
+    {
+      "enum": [
+        551,
+        "cpo5LongNameCondenserWaterPump3ControlState"
+      ],
+      "description": "Condenser Water Pump 3 Control State"
+    },
+    {
+      "enum": [
+        552,
+        "cpo5LongNameCondenserWaterPump3InterlockAlarm"
+      ],
+      "description": "Condenser Water Pump 3 Interlock Alarm"
+    },
+    {
+      "enum": [
+        553,
+        "cpo5LongNameCondenserWaterPump3InterlockEnabled"
+      ],
+      "description": "Condenser Water Pump 3 Interlock Enabled"
+    },
+    {
+      "enum": [
+        554,
+        "cpo5LongNameCondenserWaterPump3InterlockOn"
+      ],
+      "description": "Condenser Water Pump 3 Interlock On"
+    },
+    {
+      "enum": [
+        555,
+        "cpo5LongNameCondenserWaterPump4ControlOnoff"
+      ],
+      "description": "Condenser Water Pump 4 Control OnOff"
+    },
+    {
+      "enum": [
+        556,
+        "cpo5LongNameCondenserWaterPump4ControlState"
+      ],
+      "description": "Condenser Water Pump 4 Control State"
+    },
+    {
+      "enum": [
+        557,
+        "cpo5LongNameCondenserWaterPump4InterlockAlarm"
+      ],
+      "description": "Condenser Water Pump 4 Interlock Alarm"
+    },
+    {
+      "enum": [
+        558,
+        "cpo5LongNameCondenserWaterPump4InterlockEnabled"
+      ],
+      "description": "Condenser Water Pump 4 Interlock Enabled"
+    },
+    {
+      "enum": [
+        559,
+        "cpo5LongNameCondenserWaterPump4InterlockOn"
+      ],
+      "description": "Condenser Water Pump 4 Interlock On"
+    },
+    {
+      "enum": [
+        560,
+        "cpo5LongNameCondenserWaterPumpAvailableCapacity"
+      ],
+      "description": "Condenser Water Pump Available Capacity"
+    },
+    {
+      "enum": [
+        561,
+        "cpo5LongNameCondenserWaterPumpCurrentCapacity"
+      ],
+      "description": "Condenser Water Pump Current Capacity"
+    },
+    {
+      "enum": [
+        562,
+        "cpo5LongNameCondenserWaterPumpCurrentEfficiency"
+      ],
+      "description": "Condenser Water Pump Current Efficiency"
+    },
+    {
+      "enum": [
+        563,
+        "cpo5LongNameCondenserWaterPumpCurrentPercentLoad"
+      ],
+      "description": "Condenser Water Pump Current Percent Load"
+    },
+    {
+      "enum": [
+        564,
+        "cpo5LongNameCondenserWaterPump1Command"
+      ],
+      "description": "Condenser Water Pump 1 Command"
+    },
+    {
+      "enum": [
+        565,
+        "cpo5LongNameCondenserWaterPump2Command"
+      ],
+      "description": "Condenser Water Pump 2 Command"
+    },
+    {
+      "enum": [
+        566,
+        "cpo5LongNameCondenserWaterPump3Command"
+      ],
+      "description": "Condenser Water Pump 3 Command"
+    },
+    {
+      "enum": [
+        567,
+        "cpo5LongNameCondenserWaterPump4Command"
+      ],
+      "description": "Condenser Water Pump 4 Command"
+    },
+    {
+      "enum": [
+        568,
+        "cpo5LongNameCondenserWaterPumpPredictedAdjustedEfficiency"
+      ],
+      "description": "Condenser Water Pump Predicted Adjusted Efficiency"
+    },
+    {
+      "enum": [
+        569,
+        "cpo5LongNameCondenserWaterPumpPredictedEfficiency"
+      ],
+      "description": "Condenser Water Pump Predicted Efficiency"
+    },
+    {
+      "enum": [
+        570,
+        "cpo5LongNameCondenserWaterPumpPredictedPercentLoad"
+      ],
+      "description": "Condenser Water Pump Predicted Percent Load"
+    },
+    {
+      "enum": [
+        571,
+        "cpo5LongNameCondenserWaterPumpSelectorReliability"
+      ],
+      "description": "Condenser Water Pump Selector Reliability"
+    },
+    {
+      "enum": [
+        572,
+        "cpo5LongNameTargetCondenserPumps"
+      ],
+      "description": "Target Condenser Pumps"
+    },
+    {
+      "enum": [
+        573,
+        "cpo5LongNameInterimCondenserPumps"
+      ],
+      "description": "Interim Condenser Pumps"
+    },
+    {
+      "enum": [
+        574,
+        "cpo5LongNameCondenserWaterPumpCapacityCheckCount"
+      ],
+      "description": "Condenser Water Pump Capacity Check Count"
+    },
+    {
+      "enum": [
+        575,
+        "cpo5LongNameCondenserWaterSequencerState"
+      ],
+      "description": "Condenser Water Sequencer State"
+    },
+    {
+      "enum": [
+        576,
+        "cpo5LongNameCondenserWaterSupplyTemperature"
+      ],
+      "description": "Condenser Water Supply Temperature"
+    },
+    {
+      "enum": [
+        577,
+        "cpo5LongNameNumberChillersEnabled"
+      ],
+      "description": "Number Chillers Enabled"
+    },
+    {
+      "enum": [
+        578,
+        "cpo5LongNameLoadCalculatorReliability"
+      ],
+      "description": "Load Calculator Reliability"
+    },
+    {
+      "enum": [
+        579,
+        "cpo5LongNameLoadFilterEwma"
+      ],
+      "description": "Load Filter EWMA"
+    },
+    {
+      "enum": [
+        580,
+        "cpo5LongNameLoadFilterState"
+      ],
+      "description": "Load Filter State"
+    },
+    {
+      "enum": [
+        581,
+        "cpo5LongNameOpenLoopTowerControlLowLimitControlStatus"
+      ],
+      "description": "Open Loop Tower Control Low Limit Control Status"
+    },
+    {
+      "enum": [
+        582,
+        "cpo5LongNameOpenLoopTowerControlLowLimitState"
+      ],
+      "description": "Open Loop Tower Control Low Limit State"
+    },
+    {
+      "enum": [
+        583,
+        "cpo5LongNameOpenLoopTowerControlPercentCommand"
+      ],
+      "description": "Open Loop Tower Control Percent Command"
+    },
+    {
+      "enum": [
+        584,
+        "cpo5LongNamePumpStartDeterminationOutput"
+      ],
+      "description": "Pump Start Determination Output"
+    },
+    {
+      "enum": [
+        585,
+        "cpo5LongNameStateTableVfPrimaryMinimumFlowControlMode"
+      ],
+      "description": "State Table VF Primary Minimum Flow Control Mode"
+    },
+    {
+      "enum": [
+        586,
+        "cpo5LongNameChilledWaterPumpDifferentialPressureControlMode"
+      ],
+      "description": "Chilled Water Pump Differential Pressure Control Mode"
+    },
+    {
+      "enum": [
+        587,
+        "cpo5LongNameCondenserWaterBypassValveControlMode"
+      ],
+      "description": "Condenser Water Bypass Valve Control Mode"
+    },
+    {
+      "enum": [
+        588,
+        "cpo5LongNameCoolingTower1InterlockRetryCount"
+      ],
+      "description": "Cooling Tower 1 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        589,
+        "cpo5LongNameCoolingTower2InterlockRetryCount"
+      ],
+      "description": "Cooling Tower 2 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        590,
+        "cpo5LongNameCoolingTower3InterlockRetryCount"
+      ],
+      "description": "Cooling Tower 3 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        591,
+        "cpo5LongNameCoolingTower4InterlockRetryCount"
+      ],
+      "description": "Cooling Tower 4 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        592,
+        "cpo5LongNameCondenserWaterPump1InterlockRetryCount"
+      ],
+      "description": "Condenser Water Pump 1 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        593,
+        "cpo5LongNameCondenserWaterPump2InterlockRetryCount"
+      ],
+      "description": "Condenser Water Pump 2 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        594,
+        "cpo5LongNameCondenserWaterPump3InterlockRetryCount"
+      ],
+      "description": "Condenser Water Pump 3 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        595,
+        "cpo5LongNameCondenserWaterPump4InterlockRetryCount"
+      ],
+      "description": "Condenser Water Pump 4 Interlock Retry Count"
+    },
+    {
+      "enum": [
+        596,
+        "cpo5LongNameCondenserWaterBypassValveControlProcessRange"
+      ],
+      "description": "Condenser Water Bypass Valve Control Process Range"
+    },
+    {
+      "enum": [
+        597,
+        "cpo5LongNameChiller1ChilledWaterDpFailure"
+      ],
+      "description": "Chiller 1 Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        598,
+        "cpo5LongNameChiller2ChilledWaterDpFailure"
+      ],
+      "description": "Chiller 2 Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        599,
+        "cpo5LongNameChiller3ChilledWaterDpFailure"
+      ],
+      "description": "Chiller 3 Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        600,
+        "cpo5LongNameChiller4ChilledWaterDpFailure"
+      ],
+      "description": "Chiller 4 Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        601,
+        "cpo5LongNameBuildingChilledWaterDpFailure"
+      ],
+      "description": "Building Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        602,
+        "cpo5LongNamePrimaryChilledWaterFlowFailure"
+      ],
+      "description": "Primary Chilled Water Flow Failure"
+    },
+    {
+      "enum": [
+        603,
+        "cpo5LongNameChiller1ChilledWaterSupplyTemperatureFailure"
+      ],
+      "description": "Chiller 1 Chilled Water Supply Temperature Failure"
+    },
+    {
+      "enum": [
+        604,
+        "cpo5LongNameChiller2ChilledWaterSupplyTemperatureFailure"
+      ],
+      "description": "Chiller 2 Chilled Water Supply Temperature Failure"
+    },
+    {
+      "enum": [
+        605,
+        "cpo5LongNameChiller3ChilledWaterSupplyTemperatureFailure"
+      ],
+      "description": "Chiller 3 Chilled Water Supply Temperature Failure"
+    },
+    {
+      "enum": [
+        606,
+        "cpo5LongNameChiller4ChilledWaterSupplyTemperatureFailure"
+      ],
+      "description": "Chiller 4 Chilled Water Supply Temperature Failure"
+    },
+    {
+      "enum": [
+        607,
+        "cpo5LongNameChiller1ChilledWaterReturnTemperatureFailure"
+      ],
+      "description": "Chiller 1 Chilled Water Return Temperature Failure"
+    },
+    {
+      "enum": [
+        608,
+        "cpo5LongNameChiller2ChilledWaterReturnTemperatureFailure"
+      ],
+      "description": "Chiller 2 Chilled Water Return Temperature Failure"
+    },
+    {
+      "enum": [
+        609,
+        "cpo5LongNameChiller3ChilledWaterReturnTemperatureFailure"
+      ],
+      "description": "Chiller 3 Chilled Water Return Temperature Failure"
+    },
+    {
+      "enum": [
+        610,
+        "cpo5LongNameChiller4ChilledWaterReturnTemperatureFailure"
+      ],
+      "description": "Chiller 4 Chilled Water Return Temperature Failure"
+    },
+    {
+      "enum": [
+        611,
+        "cpo5LongNameChiller1CondenserWaterSupplyTemperatureFailure"
+      ],
+      "description": "Chiller 1 Condenser Water Supply Temperature Failure"
+    },
+    {
+      "enum": [
+        612,
+        "cpo5LongNameChiller2CondenserWaterSupplyTemperatureFailure"
+      ],
+      "description": "Chiller 2 Condenser Water Supply Temperature Failure"
+    },
+    {
+      "enum": [
+        613,
+        "cpo5LongNameChiller3CondenserWaterSupplyTemperatureFailure"
+      ],
+      "description": "Chiller 3 Condenser Water Supply Temperature Failure"
+    },
+    {
+      "enum": [
+        614,
+        "cpo5LongNameChiller4CondenserWaterSupplyTemperatureFailure"
+      ],
+      "description": "Chiller 4 Condenser Water Supply Temperature Failure"
+    },
+    {
+      "enum": [
+        615,
+        "cpo5LongNameOutsideAirTemperatureFailure"
+      ],
+      "description": "Outside Air Temperature Failure"
+    },
+    {
+      "enum": [
+        616,
+        "cpo5LongNameOutsideAirHumidityFailure"
+      ],
+      "description": "Outside Air Humidity Failure"
+    },
+    {
+      "enum": [
+        617,
+        "cpo5LongNameChiller1IomCommFailure"
+      ],
+      "description": "Chiller 1 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        618,
+        "cpo5LongNameChiller2IomCommFailure"
+      ],
+      "description": "Chiller 2 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        619,
+        "cpo5LongNameChiller3IomCommFailure"
+      ],
+      "description": "Chiller 3 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        620,
+        "cpo5LongNameChiller4IomCommFailure"
+      ],
+      "description": "Chiller 4 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        621,
+        "cpo5LongNameCoolingTower1And2IomCommFailure"
+      ],
+      "description": "Cooling Tower 1 and 2 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        622,
+        "cpo5LongNameCoolingTower3And4IomCommFailure"
+      ],
+      "description": "Cooling Tower 3 and 4 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        623,
+        "cpo5LongNameChiller1ScEquipCommFailure"
+      ],
+      "description": "Chiller 1 SC-Equip Comm Failure"
+    },
+    {
+      "enum": [
+        624,
+        "cpo5LongNameChiller2ScEquipCommFailure"
+      ],
+      "description": "Chiller 2 SC-Equip Comm Failure"
+    },
+    {
+      "enum": [
+        625,
+        "cpo5LongNameChiller3ScEquipCommFailure"
+      ],
+      "description": "Chiller 3 SC-Equip Comm Failure"
+    },
+    {
+      "enum": [
+        626,
+        "cpo5LongNameChiller4ScEquipCommFailure"
+      ],
+      "description": "Chiller 4 SC-Equip Comm Failure"
+    },
+    {
+      "enum": [
+        627,
+        "cpo5LongNameChilledWaterPumpDevicesInstalled"
+      ],
+      "description": "Chilled Water Pump Devices Installed"
+    },
+    {
+      "enum": [
+        628,
+        "cpo5LongNameCoolingTowerDevicesInstalled"
+      ],
+      "description": "Cooling Tower Devices Installed"
+    },
+    {
+      "enum": [
+        629,
+        "cpo5LongNameCondenserWaterPumpDevicesInstalled"
+      ],
+      "description": "Condenser Water Pump Devices Installed"
+    },
+    {
+      "enum": [
+        630,
+        "cpo5LongNameChillerDevicesInstalled"
+      ],
+      "description": "Chiller Devices Installed"
+    },
+    {
+      "enum": [
+        631,
+        "cpo5LongNameOutsideAirTemperatureLockoutSetpoint"
+      ],
+      "description": "Outside Air Temperature Lockout Setpoint"
+    },
+    {
+      "enum": [
+        632,
+        "cpo5LongNameOutsideAirTemperatureLockoutEnable"
+      ],
+      "description": "Outside Air Temperature Lockout Enable"
+    },
+    {
+      "enum": [
+        633,
+        "cpo5LongNameNotUsed633"
+      ],
+      "description": "Not Used 633"
+    },
+    {
+      "enum": [
+        634,
+        "cpo5LongNameNotUsed634"
+      ],
+      "description": "Not Used 634"
+    },
+    {
+      "enum": [
+        635,
+        "cpo5LongNameScEquip1Communications"
+      ],
+      "description": "SC Equip 1 Communications"
+    },
+    {
+      "enum": [
+        636,
+        "cpo5LongNameScEquip2Communications"
+      ],
+      "description": "SC Equip 2 Communications"
+    },
+    {
+      "enum": [
+        637,
+        "cpo5LongNameScEquip3Communications"
+      ],
+      "description": "SC Equip 3 Communications"
+    },
+    {
+      "enum": [
+        638,
+        "cpo5LongNameScEquip4Communications"
+      ],
+      "description": "SC Equip 4 Communications"
+    },
+    {
+      "enum": [
+        639,
+        "cpo5LongNameChiller1IomCommunications"
+      ],
+      "description": "Chiller 1 IOM Communications"
+    },
+    {
+      "enum": [
+        640,
+        "cpo5LongNameChiller2IomCommunications"
+      ],
+      "description": "Chiller 2 IOM Communications"
+    },
+    {
+      "enum": [
+        641,
+        "cpo5LongNameChiller3IomCommunications"
+      ],
+      "description": "Chiller 3 IOM Communications"
+    },
+    {
+      "enum": [
+        642,
+        "cpo5LongNameChiller4IomCommunications"
+      ],
+      "description": "Chiller 4 IOM Communications"
+    },
+    {
+      "enum": [
+        643,
+        "cpo5LongNameCoolingTower1And2IomCommunications"
+      ],
+      "description": "Cooling Tower 1 and 2 IOM Communications"
+    },
+    {
+      "enum": [
+        644,
+        "cpo5LongNameCoolingTower3And4IomCommunications"
+      ],
+      "description": "Cooling Tower 3 and 4 IOM Communications"
+    },
+    {
+      "enum": [
+        645,
+        "cpo5LongNameChiller1InterlockUsage"
+      ],
+      "description": "Chiller 1 Interlock Usage"
+    },
+    {
+      "enum": [
+        646,
+        "cpo5LongNameChiller1InterlockRunStatus"
+      ],
+      "description": "Chiller 1 Interlock Run Status"
+    },
+    {
+      "enum": [
+        647,
+        "cpo5LongNameChiller2InterlockUsage"
+      ],
+      "description": "Chiller 2 Interlock Usage"
+    },
+    {
+      "enum": [
+        648,
+        "cpo5LongNameChiller2InterlockRunStatus"
+      ],
+      "description": "Chiller 2 Interlock Run Status"
+    },
+    {
+      "enum": [
+        649,
+        "cpo5LongNameChiller3InterlockUsage"
+      ],
+      "description": "Chiller 3 Interlock Usage"
+    },
+    {
+      "enum": [
+        650,
+        "cpo5LongNameChiller3InterlockRunStatus"
+      ],
+      "description": "Chiller 3 Interlock Run Status"
+    },
+    {
+      "enum": [
+        651,
+        "cpo5LongNameChiller4InterlockUsage"
+      ],
+      "description": "Chiller 4 Interlock Usage"
+    },
+    {
+      "enum": [
+        652,
+        "cpo5LongNameChiller4InterlockRunStatus"
+      ],
+      "description": "Chiller 4 Interlock Run Status"
+    },
+    {
+      "enum": [
+        653,
+        "cpo5LongNameCondenserWaterIsoValvePmp1Command"
+      ],
+      "description": "Condenser Water Iso Valve PMP-1 Command"
+    },
+    {
+      "enum": [
+        654,
+        "cpo5LongNameCondenserWaterIsoValvePmp2Command"
+      ],
+      "description": "Condenser Water Iso Valve PMP-2 Command"
+    },
+    {
+      "enum": [
+        655,
+        "cpo5LongNameCondenserWaterIsoValvePmp3Command"
+      ],
+      "description": "Condenser Water Iso Valve PMP-3 Command"
+    },
+    {
+      "enum": [
+        656,
+        "cpo5LongNameCondenserWaterIsoValvePmp4Command"
+      ],
+      "description": "Condenser Water Iso Valve PMP-4 Command"
+    },
+    {
+      "enum": [
+        657,
+        "cpo5LongNameChiller1CurrentPowerOut"
+      ],
+      "description": "Chiller 1 Current Power Out"
+    },
+    {
+      "enum": [
+        658,
+        "cpo5LongNameChiller2CurrentPowerOut"
+      ],
+      "description": "Chiller 2 Current Power Out"
+    },
+    {
+      "enum": [
+        659,
+        "cpo5LongNameChiller3CurrentPowerOut"
+      ],
+      "description": "Chiller 3 Current Power Out"
+    },
+    {
+      "enum": [
+        660,
+        "cpo5LongNameChiller4CurrentPowerOut"
+      ],
+      "description": "Chiller 4 Current Power Out"
+    },
+    {
+      "enum": [
+        661,
+        "cpo5LongNameOpenLoopTowerControlLlPidAdaptiveTuning"
+      ],
+      "description": "Open Loop Tower Control LL PID Adaptive Tuning"
+    },
+    {
+      "enum": [
+        662,
+        "cpo5LongNameOpenLoopTowerControlLlPidDeadTime"
+      ],
+      "description": "Open Loop Tower Control LL PID Dead Time"
+    },
+    {
+      "enum": [
+        663,
+        "cpo5LongNameOpenLoopTowerControlLlPidIntegralTime"
+      ],
+      "description": "Open Loop Tower Control LL PID Integral Time"
+    },
+    {
+      "enum": [
+        664,
+        "cpo5LongNameOpenLoopTowerControlLlPidProportionalBand"
+      ],
+      "description": "Open Loop Tower Control LL PID Proportional Band"
+    },
+    {
+      "enum": [
+        665,
+        "cpo5LongNameOpenLoopTowerControlLlPidStandardTuning"
+      ],
+      "description": "Open Loop Tower Control LL PID Standard Tuning"
+    },
+    {
+      "enum": [
+        666,
+        "cpo5LongNameOpenLoopTowerControlLlPidSaturationTime"
+      ],
+      "description": "Open Loop Tower Control LL PID Saturation Time"
+    },
+    {
+      "enum": [
+        667,
+        "cpo5LongNameOpenLoopTowerControlLlPidTimeConstant"
+      ],
+      "description": "Open Loop Tower Control LL PID Time Constant"
+    },
+    {
+      "enum": [
+        668,
+        "cpo5LongNameChilledWaterBypassValveControlAdaptiveTuning"
+      ],
+      "description": "Chilled Water Bypass Valve Control Adaptive Tuning"
+    },
+    {
+      "enum": [
+        669,
+        "cpo5LongNameChilledWaterBypassValveControlStatus"
+      ],
+      "description": "Chilled Water Bypass Valve Control Status"
+    },
+    {
+      "enum": [
+        670,
+        "cpo5LongNameChilledWaterPumpSelectorIsStable"
+      ],
+      "description": "Chilled Water Pump Selector Is Stable"
+    },
+    {
+      "enum": [
+        671,
+        "cpo5LongNameChilledWaterPumpDpControlAdaptiveTuning"
+      ],
+      "description": "Chilled Water Pump dP Control Adaptive Tuning"
+    },
+    {
+      "enum": [
+        672,
+        "cpo5LongNameChilledWaterPumpDpControlStatus"
+      ],
+      "description": "Chilled Water Pump dP Control Status"
+    },
+    {
+      "enum": [
+        673,
+        "cpo5LongNameChilledWaterPumpDpControlState"
+      ],
+      "description": "Chilled Water Pump dP Control State"
+    },
+    {
+      "enum": [
+        674,
+        "cpo5LongNameCondenserWaterBypassValveControlAdaptiveTuning"
+      ],
+      "description": "Condenser Water Bypass Valve Control Adaptive Tuning"
+    },
+    {
+      "enum": [
+        675,
+        "cpo5LongNameCondenserWaterBypassValveControlDeadTime"
+      ],
+      "description": "Condenser Water Bypass Valve Control Dead Time"
+    },
+    {
+      "enum": [
+        676,
+        "cpo5LongNameCondenserWaterBypassValveControlIntegralTime"
+      ],
+      "description": "Condenser Water Bypass Valve Control Integral Time"
+    },
+    {
+      "enum": [
+        677,
+        "cpo5LongNameCondenserWaterBypassValveControlProportionalBand"
+      ],
+      "description": "Condenser Water Bypass Valve Control Proportional Band"
+    },
+    {
+      "enum": [
+        678,
+        "cpo5LongNameCondenserWaterBypassValveControlStandardTuning"
+      ],
+      "description": "Condenser Water Bypass Valve Control Standard Tuning"
+    },
+    {
+      "enum": [
+        679,
+        "cpo5LongNameCondenserWaterBypassValveControlSaturationTime"
+      ],
+      "description": "Condenser Water Bypass Valve Control Saturation Time"
+    },
+    {
+      "enum": [
+        680,
+        "cpo5LongNameCondenserWaterBypassValveControlTimeConstant"
+      ],
+      "description": "Condenser Water Bypass Valve Control Time Constant"
+    },
+    {
+      "enum": [
+        681,
+        "cpo5LongNameCondenserWaterBypassValveControlCompensatorCommand"
+      ],
+      "description": "Condenser Water Bypass Valve Control Compensator Command"
+    },
+    {
+      "enum": [
+        682,
+        "cpo5LongNameCoolingLoadUnits"
+      ],
+      "description": "Cooling Load Units"
+    },
+    {
+      "enum": [
+        683,
+        "cpo5LongNameCondenserWaterPumpSelectorIsStable"
+      ],
+      "description": "Condenser Water Pump Selector is Stable"
+    },
+    {
+      "enum": [
+        684,
+        "cpo5LongNameTemperatureProcessUnits"
+      ],
+      "description": "Temperature Process Units"
+    },
+    {
+      "enum": [
+        685,
+        "cpo5LongNameChiller1NozzleDiameter"
+      ],
+      "description": "Chiller 1 Nozzle Diameter"
+    },
+    {
+      "enum": [
+        686,
+        "cpo5LongNameChiller2NozzleDiameter"
+      ],
+      "description": "Chiller 2 Nozzle Diameter"
+    },
+    {
+      "enum": [
+        687,
+        "cpo5LongNameChiller3NozzleDiameter"
+      ],
+      "description": "Chiller 3 Nozzle Diameter"
+    },
+    {
+      "enum": [
+        688,
+        "cpo5LongNameChiller4NozzleDiameter"
+      ],
+      "description": "Chiller 4 Nozzle Diameter"
+    },
+    {
+      "enum": [
+        689,
+        "cpo5LongNameChiller1CondenserWaterIsoValvePercentCommand"
+      ],
+      "description": "Chiller 1 Condenser Water Iso Valve Percent Command"
+    },
+    {
+      "enum": [
+        690,
+        "cpo5LongNameChiller2CondenserWaterIsoValvePercentCommand"
+      ],
+      "description": "Chiller 2 Condenser Water Iso Valve Percent Command"
+    },
+    {
+      "enum": [
+        691,
+        "cpo5LongNameChiller3CondenserWaterIsoValvePercentCommand"
+      ],
+      "description": "Chiller 3 Condenser Water Iso Valve Percent Command"
+    },
+    {
+      "enum": [
+        692,
+        "cpo5LongNameChiller4CondenserWaterIsoValvePercentCommand"
+      ],
+      "description": "Chiller 4 Condenser Water Iso Valve Percent Command"
+    },
+    {
+      "enum": [
+        693,
+        "cpo5LongName693"
+      ],
+      "description": "CPO Present"
+    },
+    {
+      "enum": [
+        694,
+        "cpo5LongName694"
+      ],
+      "description": "CPO System Enable"
+    },
+    {
+      "enum": [
+        695,
+        "cpo5LongName695"
+      ],
+      "description": "Time Until Chiller On"
+    },
+    {
+      "enum": [
+        696,
+        "cpo5LongName696"
+      ],
+      "description": "Chiller Next State"
+    },
+    {
+      "enum": [
+        697,
+        "cpo5LongName697"
+      ],
+      "description": "Chilled Water Pump Next State"
+    },
+    {
+      "enum": [
+        698,
+        "cpo5LongName698"
+      ],
+      "description": "Condenser Water Pump Next State"
+    },
+    {
+      "enum": [
+        699,
+        "cpo5LongName699"
+      ],
+      "description": "Cooling Tower Next State"
+    },
+    {
+      "enum": [
+        700,
+        "cpo5LongName700"
+      ],
+      "description": "Chiller 1 Present"
+    },
+    {
+      "enum": [
+        701,
+        "cpo5LongName701"
+      ],
+      "description": "Chiller 1 Device Name"
+    },
+    {
+      "enum": [
+        702,
+        "cpo5LongName702"
+      ],
+      "description": "Chiller 1 Enable Command"
+    },
+    {
+      "enum": [
+        703,
+        "cpo5LongName703"
+      ],
+      "description": "Chiller 1 Chilled Water Flow"
+    },
+    {
+      "enum": [
+        704,
+        "cpo5LongName704"
+      ],
+      "description": "Chilled Water Pump 1 Speed Command"
+    },
+    {
+      "enum": [
+        705,
+        "cpo5LongName705"
+      ],
+      "description": "Cooling Tower 1 Fan Speed Command"
+    },
+    {
+      "enum": [
+        706,
+        "cpo5LongName706"
+      ],
+      "description": "Chiller 2 Present"
+    },
+    {
+      "enum": [
+        707,
+        "cpo5LongName707"
+      ],
+      "description": "Chiller 2 Device Name"
+    },
+    {
+      "enum": [
+        708,
+        "cpo5LongName708"
+      ],
+      "description": "Chiller 2 Enable Command"
+    },
+    {
+      "enum": [
+        709,
+        "cpo5LongName709"
+      ],
+      "description": "Chiller 2 Chilled Water Flow"
+    },
+    {
+      "enum": [
+        710,
+        "cpo5LongName710"
+      ],
+      "description": "Chilled Water Pump 2 Speed Command"
+    },
+    {
+      "enum": [
+        711,
+        "cpo5LongName711"
+      ],
+      "description": "Cooling Tower 2 Fan Speed Command"
+    },
+    {
+      "enum": [
+        712,
+        "cpo5LongName712"
+      ],
+      "description": "Chiller 3 Present"
+    },
+    {
+      "enum": [
+        713,
+        "cpo5LongName713"
+      ],
+      "description": "Chiller 3 Device Name"
+    },
+    {
+      "enum": [
+        714,
+        "cpo5LongName714"
+      ],
+      "description": "Chiller 3 Enable Command"
+    },
+    {
+      "enum": [
+        715,
+        "cpo5LongName715"
+      ],
+      "description": "Chiller 3 Chilled Water Flow"
+    },
+    {
+      "enum": [
+        716,
+        "cpo5LongName716"
+      ],
+      "description": "Chilled Water Pump 3 Speed Command"
+    },
+    {
+      "enum": [
+        717,
+        "cpo5LongName717"
+      ],
+      "description": "Cooling Tower 3 Fan Speed Command"
+    },
+    {
+      "enum": [
+        718,
+        "cpo5LongName718"
+      ],
+      "description": "Chiller 4 Present"
+    },
+    {
+      "enum": [
+        719,
+        "cpo5LongName719"
+      ],
+      "description": "Chiller 4 Device Name"
+    },
+    {
+      "enum": [
+        720,
+        "cpo5LongName720"
+      ],
+      "description": "Chiller 4 Enable Command"
+    },
+    {
+      "enum": [
+        721,
+        "cpo5LongName721"
+      ],
+      "description": "Chiller 4 Chilled Water Flow"
+    },
+    {
+      "enum": [
+        722,
+        "cpo5LongName722"
+      ],
+      "description": "Chilled Water Pump 4 Speed Command"
+    },
+    {
+      "enum": [
+        723,
+        "cpo5LongName723"
+      ],
+      "description": "Cooling Tower 4 Fan Speed Command"
+    },
+    {
+      "enum": [
+        724,
+        "cpo5LongName724"
+      ],
+      "description": "Alias Remote Leaving Chilled Liquid Setpoint"
+    },
+    {
+      "enum": [
+        725,
+        "cpo5LongName725"
+      ],
+      "description": "Alias Remote Current Limit Setpoint"
+    },
+    {
+      "enum": [
+        726,
+        "cpo5LongName726"
+      ],
+      "description": "Alias Remote Run/Stop [0=Stop, 1=Run]"
+    },
+    {
+      "enum": [
+        727,
+        "cpo5LongName727"
+      ],
+      "description": "Alias Model Number"
+    },
+    {
+      "enum": [
+        728,
+        "cpo5LongName728"
+      ],
+      "description": "Alias Evaporator Passes"
+    },
+    {
+      "enum": [
+        729,
+        "cpo5LongName729"
+      ],
+      "description": "Alias Evaporator Tube Code"
+    },
+    {
+      "enum": [
+        730,
+        "cpo5LongName730"
+      ],
+      "description": "Alias Liquid Type"
+    },
+    {
+      "enum": [
+        731,
+        "cpo5LongName731"
+      ],
+      "description": "Alias Brine Percent"
+    },
+    {
+      "enum": [
+        732,
+        "cpo5LongName732"
+      ],
+      "description": "Alias Kilowatts Input"
+    },
+    {
+      "enum": [
+        733,
+        "cpo5LongName733"
+      ],
+      "description": "Alias Condenser GPM"
+    },
+    {
+      "enum": [
+        734,
+        "cpo5LongName734"
+      ],
+      "description": "Alias Evaporator GPM"
+    },
+    {
+      "enum": [
+        735,
+        "cpo5LongName735"
+      ],
+      "description": "Alias Tons"
+    },
+    {
+      "enum": [
+        736,
+        "cpo5LongName736"
+      ],
+      "description": "Alias Product Family Code"
+    },
+    {
+      "enum": [
+        737,
+        "cpo5LongName737"
+      ],
+      "description": "Alias MOTOR CONTROLLER TYPE"
+    },
+    {
+      "enum": [
+        738,
+        "cpo5LongName738"
+      ],
+      "description": "Alias Leaving Condenser Liquid Temperature"
+    },
+    {
+      "enum": [
+        739,
+        "cpo5LongName739"
+      ],
+      "description": "Alias Entering Condenser Liquid Temperature"
+    },
+    {
+      "enum": [
+        740,
+        "cpo5LongName740"
+      ],
+      "description": "Alias Leaving Chilled Liquid Temperature"
+    },
+    {
+      "enum": [
+        741,
+        "cpo5LongName741"
+      ],
+      "description": "Alias Entering Chilled Liquid Temperature"
+    },
+    {
+      "enum": [
+        742,
+        "cpo5LongName742"
+      ],
+      "description": "Alias Unit Operation Code AV"
+    },
+    {
+      "enum": [
+        743,
+        "cpo5LongNameChilledWaterFlowDifferential"
+      ],
+      "description": "Chilled Water Flow Differential"
+    },
+    {
+      "enum": [
+        744,
+        "cpo5LongNameChilledWaterTempDifferential"
+      ],
+      "description": "Chilled Water Temp Differential"
+    },
+    {
+      "enum": [
+        745,
+        "cpo5LongNameChiller1ParametersAvailable"
+      ],
+      "description": "Chiller 1 Parameters Available"
+    },
+    {
+      "enum": [
+        746,
+        "cpo5LongNameChiller2ParametersAvailable"
+      ],
+      "description": "Chiller 2 Parameters Available"
+    },
+    {
+      "enum": [
+        747,
+        "cpo5LongNameChiller3ParametersAvailable"
+      ],
+      "description": "Chiller 3 Parameters Available"
+    },
+    {
+      "enum": [
+        748,
+        "cpo5LongNameChiller4ParametersAvailable"
+      ],
+      "description": "Chiller 4 Parameters Available"
+    },
+    {
+      "enum": [
+        749,
+        "cpo5LongNameChilledWaterBypassValveRampRate"
+      ],
+      "description": "Chilled Water Bypass Valve Ramp Rate"
+    },
+    {
+      "enum": [
+        750,
+        "cpo5LongNameChilledWaterBypassValveLimitActive"
+      ],
+      "description": "Chilled Water Bypass Valve Limit Active"
+    },
+    {
+      "enum": [
+        751,
+        "cpo5LongNameChilledWaterPumpRampRate"
+      ],
+      "description": "Chilled Water Pump Ramp Rate"
+    },
+    {
+      "enum": [
+        752,
+        "cpo5LongNameChilledWaterPumpLimitActive"
+      ],
+      "description": "Chilled Water Pump Limit Active"
+    },
+    {
+      "enum": [
+        753,
+        "cpo5LongNameOpenLoopTowerControlLowLimitEnable"
+      ],
+      "description": "Open Loop Tower Control Low Limit Enable"
+    },
+    {
+      "enum": [
+        754,
+        "cpo5LongNameOpenLoopTowerControlHighTempSp"
+      ],
+      "description": "Open Loop Tower Control High Temp SP"
+    },
+    {
+      "enum": [
+        755,
+        "cpo5LongNameChillerSelectorHysteresis"
+      ],
+      "description": "Chiller Selector Hysteresis"
+    },
+    {
+      "enum": [
+        756,
+        "cpo5LongNameChillerSelectorStageMargin"
+      ],
+      "description": "Chiller Selector Stage Margin"
+    },
+    {
+      "enum": [
+        757,
+        "cpo5LongNameOatIomOffset"
+      ],
+      "description": "OAT_IOM_Offset"
+    },
+    {
+      "enum": [
+        758,
+        "cpo5LongNameOahIomOffset"
+      ],
+      "description": "OAH_IOM_Offset"
+    },
+    {
+      "enum": [
+        759,
+        "cpo5LongNameChiller1DiffPressureOffset"
+      ],
+      "description": "Chiller 1 Diff Pressure Offset"
+    },
+    {
+      "enum": [
+        760,
+        "cpo5LongNameChiller2DiffPressureOffset"
+      ],
+      "description": "Chiller 2 Diff Pressure Offset"
+    },
+    {
+      "enum": [
+        761,
+        "cpo5LongNameChiller3DiffPressureOffset"
+      ],
+      "description": "Chiller 3 Diff Pressure Offset"
+    },
+    {
+      "enum": [
+        762,
+        "cpo5LongNameChiller4DiffPressureOffset"
+      ],
+      "description": "Chiller 4 Diff Pressure Offset"
+    },
+    {
+      "enum": [
+        763,
+        "cpo5LongNameChilledWaterDiffPressureOffset"
+      ],
+      "description": "Chilled Water Diff Pressure Offset"
+    },
+    {
+      "enum": [
+        764,
+        "cpo5LongNameChilledWaterDiffPressureOutputRangeLow"
+      ],
+      "description": "Chilled Water Diff Pressure Output Range Low"
+    },
+    {
+      "enum": [
+        765,
+        "cpo5LongNameChilledWaterDiffPressureOutputRangeHigh"
+      ],
+      "description": "Chilled Water Diff Pressure Output Range High"
+    },
+    {
+      "enum": [
+        766,
+        "cpo5LongNameFlowMeterOffset"
+      ],
+      "description": "Flow Meter Offset"
+    },
+    {
+      "enum": [
+        767,
+        "cpo5LongNameFlowMeterOutputRangeLow"
+      ],
+      "description": "Flow Meter Output Range Low"
+    },
+    {
+      "enum": [
+        768,
+        "cpo5LongNameFlowMeterOutputRangeHigh"
+      ],
+      "description": "Flow Meter Output Range High"
+    },
+    {
+      "enum": [
+        769,
+        "cpo5LongNameChiller1ChwIsoValveMinOutValue"
+      ],
+      "description": "Chiller 1 CHW Iso Valve Min Out Value"
+    },
+    {
+      "enum": [
+        770,
+        "cpo5LongNameChiller1ChwIsoValveMaxOutValue"
+      ],
+      "description": "Chiller 1 CHW Iso Valve Max Out Value"
+    },
+    {
+      "enum": [
+        771,
+        "cpo5LongNameChiller2ChwIsoValveMinOutValue"
+      ],
+      "description": "Chiller 2 CHW Iso Valve Min Out Value"
+    },
+    {
+      "enum": [
+        772,
+        "cpo5LongNameChiller2ChwIsoValveMaxOutValue"
+      ],
+      "description": "Chiller 2 CHW Iso Valve Max Out Value"
+    },
+    {
+      "enum": [
+        773,
+        "cpo5LongNameChiller3ChwIsoValveMinOutValue"
+      ],
+      "description": "Chiller 3 CHW Iso Valve Min Out Value"
+    },
+    {
+      "enum": [
+        774,
+        "cpo5LongNameChiller3ChwIsoValveMaxOutValue"
+      ],
+      "description": "Chiller 3 CHW Iso Valve Max Out Value"
+    },
+    {
+      "enum": [
+        775,
+        "cpo5LongNameChiller4ChwIsoValveMinOutValue"
+      ],
+      "description": "Chiller 4 CHW Iso Valve Min Out Value"
+    },
+    {
+      "enum": [
+        776,
+        "cpo5LongNameChiller4ChwIsoValveMaxOutValue"
+      ],
+      "description": "Chiller 4 CHW Iso Valve Max Out Value"
+    },
+    {
+      "enum": [
+        777,
+        "cpo5LongNameChwBypassValveMinOutValue"
+      ],
+      "description": "CHW Bypass Valve Min Out Value"
+    },
+    {
+      "enum": [
+        778,
+        "cpo5LongNameChwBypassValveMaxOutValue"
+      ],
+      "description": "CHW Bypass Valve Max Out Value"
+    },
+    {
+      "enum": [
+        779,
+        "cpo5LongNameCwBypassValveMinOutValue"
+      ],
+      "description": "CW Bypass Valve Min Out Value"
+    },
+    {
+      "enum": [
+        780,
+        "cpo5LongNameCwBypassValveMaxOutValue"
+      ],
+      "description": "CW Bypass Valve Max Out Value"
+    },
+    {
+      "enum": [
+        781,
+        "cpo5LongNameChiller1CwIsoValveMinOutValue"
+      ],
+      "description": "Chiller 1 CW Iso Valve Min Out Value"
+    },
+    {
+      "enum": [
+        782,
+        "cpo5LongNameChiller1CwIsoValveMaxOutValue"
+      ],
+      "description": "Chiller 1 CW Iso Valve Max Out Value"
+    },
+    {
+      "enum": [
+        783,
+        "cpo5LongNameChiller2CwIsoValveMinOutValue"
+      ],
+      "description": "Chiller 2 CW Iso Valve Min Out Value"
+    },
+    {
+      "enum": [
+        784,
+        "cpo5LongNameChiller2CwIsoValveMaxOutValue"
+      ],
+      "description": "Chiller 2 CW Iso Valve Max Out Value"
+    },
+    {
+      "enum": [
+        785,
+        "cpo5LongNameChiller3CwIsoValveMinOutValue"
+      ],
+      "description": "Chiller 3 CW Iso Valve Min Out Value"
+    },
+    {
+      "enum": [
+        786,
+        "cpo5LongNameChiller3CwIsoValveMaxOutValue"
+      ],
+      "description": "Chiller 3 CW Iso Valve Max Out Value"
+    },
+    {
+      "enum": [
+        787,
+        "cpo5LongNameChiller4CwIsoValveMinOutValue"
+      ],
+      "description": "Chiller 4 CW Iso Valve Min Out Value"
+    },
+    {
+      "enum": [
+        788,
+        "cpo5LongNameChiller4CwIsoValveMaxOutValue"
+      ],
+      "description": "Chiller 4 CW Iso Valve Max Out Value"
+    },
+    {
+      "enum": [
+        789,
+        "cpo5LongNameChilledWaterBypassControlEffPropBand"
+      ],
+      "description": "Chilled Water Bypass Valve Control Eff Prop Band"
+    },
+    {
+      "enum": [
+        790,
+        "cpo5LongNameChilledWaterBypassControlEffIntTime"
+      ],
+      "description": "Chilled Water Bypass Valve Control Eff Int Time"
+    },
+    {
+      "enum": [
+        791,
+        "cpo5LongNameChilledWaterPumpDpControlEffPropBand"
+      ],
+      "description": "Chilled Water Pump dP Control Eff Prop Band"
+    },
+    {
+      "enum": [
+        792,
+        "cpo5LongNameChilledWaterPumpDpControlEffIntTime"
+      ],
+      "description": "Chilled Water Pump dP Control Eff Int Time"
+    },
+    {
+      "enum": [
+        793,
+        "cpo5LongNameOpenLoopTowerControlLowLimitEffPropBand"
+      ],
+      "description": "Open Loop Tower Control Low Limit Eff Prop Band"
+    },
+    {
+      "enum": [
+        794,
+        "cpo5LongNameOpenLoopTowerControlLowLimitEffIntTime"
+      ],
+      "description": "Open Loop Tower Control Low Limit Eff Int Time"
+    },
+    {
+      "enum": [
+        795,
+        "cpo5LongNameCondenserWaterBypassValveControlEffPropBand"
+      ],
+      "description": "Condenser Water Bypass Valve Control Eff Prop Band"
+    },
+    {
+      "enum": [
+        796,
+        "cpo5LongNameCondenserWaterBypassValveControlEffIntTime"
+      ],
+      "description": "Condenser Water Bypass Valve Control Eff Int Time"
+    },
+    {
+      "enum": [
+        797,
+        "cpo5LongNameTowerBypassValveInstalled"
+      ],
+      "description": "Tower Bypass Valve Installed"
+    },
+    {
+      "enum": [
+        798,
+        "cpo5LongNameChiller1ChwIsoValveCommand"
+      ],
+      "description": "Chiller 1 CHW Iso Valve Command"
+    },
+    {
+      "enum": [
+        799,
+        "cpo5LongNameChiller2ChwIsoValveCommand"
+      ],
+      "description": "Chiller 2 CHW Iso Valve Command"
+    },
+    {
+      "enum": [
+        800,
+        "cpo5LongNameChiller3ChwIsoValveCommand"
+      ],
+      "description": "Chiller 3 CHW Iso Valve Command"
+    },
+    {
+      "enum": [
+        801,
+        "cpo5LongNameChiller4ChwIsoValveCommand"
+      ],
+      "description": "Chiller 4 CHW Iso Valve Command"
+    },
+    {
+      "enum": [
+        802,
+        "cpo5LongNameChiller1CwIsoValveCommand"
+      ],
+      "description": "Chiller 1 CW Iso Valve Command"
+    },
+    {
+      "enum": [
+        803,
+        "cpo5LongNameChiller2CwIsoValveCommand"
+      ],
+      "description": "Chiller 2 CW Iso Valve Command"
+    },
+    {
+      "enum": [
+        804,
+        "cpo5LongNameChiller3CwIsoValveCommand"
+      ],
+      "description": "Chiller 3 CW Iso Valve Command"
+    },
+    {
+      "enum": [
+        805,
+        "cpo5LongNameChiller4CwIsoValveCommand"
+      ],
+      "description": "Chiller 4 CW Iso Valve Command"
+    }
+  ]
+}

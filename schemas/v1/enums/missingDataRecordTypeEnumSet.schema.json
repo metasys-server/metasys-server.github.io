@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/missingDataRecordTypeEnumSet.schema.json",
+  "title": "missingDataRecordTypeEnumSet",
+  "description": "Missing Data Record Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "missingDataRecordTypeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "missingDataRecordTypeEntity"
+      ],
+      "description": "Entity"
+    },
+    {
+      "enum": [
+        2,
+        "missingDataRecordTypeAccessProfile"
+      ],
+      "description": "Access Profile"
+    },
+    {
+      "enum": [
+        3,
+        "missingDataRecordTypeBadgeIdentifier"
+      ],
+      "description": "Badge Identifier"
+    },
+    {
+      "enum": [
+        4,
+        "missingDataRecordTypeBiometricsIdentifier"
+      ],
+      "description": "Biometrics Identifier"
+    },
+    {
+      "enum": [
+        5,
+        "missingDataRecordTypeEntityGroup"
+      ],
+      "description": "Entity Group"
+    },
+    {
+      "enum": [
+        6,
+        "missingDataRecordTypeIntrusionGroup"
+      ],
+      "description": "Intrusion Group"
+    },
+    {
+      "enum": [
+        7,
+        "missingDataRecordTypeAccessGroup"
+      ],
+      "description": "Access Group"
+    },
+    {
+      "enum": [
+        8,
+        "missingDataRecordTypeIdentifierFormat"
+      ],
+      "description": "Identifier Format"
+    }
+  ]
+}

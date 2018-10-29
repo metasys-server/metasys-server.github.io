@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/releaseStopMsEnumSet.schema.json",
+  "title": "releaseStopMsEnumSet",
+  "description": "Release/Stop",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "releaseStopRelease"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        1,
+        "releaseStopStop"
+      ],
+      "description": "Stop"
+    }
+  ]
+}

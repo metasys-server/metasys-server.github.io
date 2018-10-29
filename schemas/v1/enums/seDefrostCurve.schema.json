@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seDefrostCurve.schema.json",
+  "title": "seDefrostCurve",
+  "description": "SE RTU Defrost Curves",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seDefrostCurve1"
+      ],
+      "description": "Curve 1"
+    },
+    {
+      "enum": [
+        1,
+        "seDefrostCurve2"
+      ],
+      "description": "Curve 2"
+    },
+    {
+      "enum": [
+        2,
+        "seDefrostCurve3"
+      ],
+      "description": "Curve 3"
+    },
+    {
+      "enum": [
+        3,
+        "seDefrostCurve4"
+      ],
+      "description": "Curve 4"
+    },
+    {
+      "enum": [
+        4,
+        "seDefrostCurve5"
+      ],
+      "description": "Curve 5"
+    },
+    {
+      "enum": [
+        5,
+        "seDefrostCurve6"
+      ],
+      "description": "Curve 6"
+    }
+  ]
+}

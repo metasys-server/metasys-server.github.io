@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ssacFaultCauseEnumSet.schema.json",
+  "title": "ssacFaultCauseEnumSet",
+  "description": "SSAC Fault Cause",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ssacFaultCauseNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "ssacFaultCauseOutOfMemory"
+      ],
+      "description": "Out Of Memory"
+    },
+    {
+      "enum": [
+        2,
+        "ssacFaultCauseDoorSequence"
+      ],
+      "description": "Door Sequence"
+    },
+    {
+      "enum": [
+        3,
+        "ssacFaultCausePrimaryReader"
+      ],
+      "description": "Primary Reader"
+    },
+    {
+      "enum": [
+        4,
+        "ssacFaultCauseSecondaryReader"
+      ],
+      "description": "Secondary Reader"
+    }
+  ]
+}

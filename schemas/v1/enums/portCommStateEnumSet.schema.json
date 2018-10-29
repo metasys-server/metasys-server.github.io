@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/portCommStateEnumSet.schema.json",
+  "title": "portCommStateEnumSet",
+  "description": "Port_Comm_State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "portCommResponding"
+      ],
+      "description": "Responding"
+    },
+    {
+      "enum": [
+        1,
+        "portCommNoResponse"
+      ],
+      "description": "No Response"
+    }
+  ]
+}

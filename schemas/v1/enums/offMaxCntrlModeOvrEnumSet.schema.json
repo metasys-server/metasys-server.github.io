@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offMaxCntrlModeOvrEnumSet.schema.json",
+  "title": "offMaxCntrlModeOvrEnumSet",
+  "description": "Off/Max/Control OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "offMaxCntrlOvrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "offMaxCntrlOvrMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "offMaxCntrlOvrControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "offMaxCntrlOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

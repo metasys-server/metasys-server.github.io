@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fedAckCmdEnumSet.schema.json",
+  "title": "fedAckCmdEnumSet",
+  "description": "FED ACK CMD",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fedAcOk"
+      ],
+      "description": "OK"
+    },
+    {
+      "enum": [
+        1,
+        "fedAcError"
+      ],
+      "description": "Error"
+    },
+    {
+      "enum": [
+        2,
+        "fedAcInfo"
+      ],
+      "description": "Info"
+    },
+    {
+      "enum": [
+        3,
+        "fedAcSabAlarm"
+      ],
+      "description": "SAB Alarm"
+    }
+  ]
+}

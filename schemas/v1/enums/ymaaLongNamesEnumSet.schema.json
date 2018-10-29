@@ -1,0 +1,3354 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymaaLongNamesEnumSet.schema.json",
+  "title": "ymaaLongNamesEnumSet",
+  "description": "YMAA Long Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "ymaaLongNames1"
+      ],
+      "description": "Chiller On|Off (Command)"
+    },
+    {
+      "enum": [
+        2,
+        "ymaaLongNames2"
+      ],
+      "description": "Running Mode"
+    },
+    {
+      "enum": [
+        3,
+        "ymaaLongNames3"
+      ],
+      "description": "Cool Entering Water Temperature Setpoint"
+    },
+    {
+      "enum": [
+        4,
+        "ymaaLongNames4"
+      ],
+      "description": "Heat Entering Water Temperature Setpoint"
+    },
+    {
+      "enum": [
+        5,
+        "ymaaLongNames5"
+      ],
+      "description": "Cool Leaving Water Temperature Setpoint"
+    },
+    {
+      "enum": [
+        6,
+        "ymaaLongNames6"
+      ],
+      "description": "Heat Leaving Water Temperature Setpoint"
+    },
+    {
+      "enum": [
+        7,
+        "ymaaLongNames7"
+      ],
+      "description": "Noise Reduction"
+    },
+    {
+      "enum": [
+        8,
+        "ymaaLongNames8"
+      ],
+      "description": "Fault Restore"
+    },
+    {
+      "enum": [
+        9,
+        "ymaaLongNames9"
+      ],
+      "description": "Cooling Control Select"
+    },
+    {
+      "enum": [
+        10,
+        "ymaaLongNames10"
+      ],
+      "description": "Heating Control Select"
+    },
+    {
+      "enum": [
+        11,
+        "ymaaLongNames11"
+      ],
+      "description": "Temperature Control Cycle"
+    },
+    {
+      "enum": [
+        12,
+        "ymaaLongNames12"
+      ],
+      "description": "Water Temperature Control Differential"
+    },
+    {
+      "enum": [
+        13,
+        "ymaaLongNames13"
+      ],
+      "description": "Entering Water Temperature Pulldown Rate Select"
+    },
+    {
+      "enum": [
+        14,
+        "ymaaLongNames14"
+      ],
+      "description": "Module Number"
+    },
+    {
+      "enum": [
+        15,
+        "ymaaLongNames15"
+      ],
+      "description": "Chiller On|Off (Status)"
+    },
+    {
+      "enum": [
+        16,
+        "ymaaLongNames16"
+      ],
+      "description": "System Status"
+    },
+    {
+      "enum": [
+        17,
+        "ymaaLongNames17"
+      ],
+      "description": "Other Status"
+    },
+    {
+      "enum": [
+        18,
+        "ymaaLongNames18"
+      ],
+      "description": "Human Machine Interface Communication Status"
+    },
+    {
+      "enum": [
+        19,
+        "ymaaLongNames19"
+      ],
+      "description": "Unit Network Status (1-16)"
+    },
+    {
+      "enum": [
+        20,
+        "ymaaLongNames20"
+      ],
+      "description": "Unit Fault Status (1-16)"
+    },
+    {
+      "enum": [
+        21,
+        "ymaaLongNames21"
+      ],
+      "description": "Chiller Entering Water Temperature"
+    },
+    {
+      "enum": [
+        22,
+        "ymaaLongNames22"
+      ],
+      "description": "Chiller Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        23,
+        "ymaaLongNames23"
+      ],
+      "description": "Ambient Temperature"
+    },
+    {
+      "enum": [
+        24,
+        "ymaaLongNames24"
+      ],
+      "description": "Chiller Loading"
+    },
+    {
+      "enum": [
+        25,
+        "ymaaLongNames25"
+      ],
+      "description": "Available Mode"
+    },
+    {
+      "enum": [
+        26,
+        "ymaaLongNames26"
+      ],
+      "description": "Total Run Hours"
+    },
+    {
+      "enum": [
+        27,
+        "ymaaLongNames27"
+      ],
+      "description": "Unit Network Status (17-32)"
+    },
+    {
+      "enum": [
+        28,
+        "ymaaLongNames28"
+      ],
+      "description": "Unit Fault Status (17-32)"
+    },
+    {
+      "enum": [
+        29,
+        "ymaaLongNames29"
+      ],
+      "description": "Unit Quantity"
+    },
+    {
+      "enum": [
+        30,
+        "ymaaLongNames30"
+      ],
+      "description": "Circuit 1 Coil Temperature"
+    },
+    {
+      "enum": [
+        31,
+        "ymaaLongNames31"
+      ],
+      "description": "Circuit 2 Coil Temperature"
+    },
+    {
+      "enum": [
+        32,
+        "ymaaLongNames32"
+      ],
+      "description": "Unit Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        33,
+        "ymaaLongNames33"
+      ],
+      "description": "Circuit 1 Suction Temperature"
+    },
+    {
+      "enum": [
+        34,
+        "ymaaLongNames34"
+      ],
+      "description": "Circuit 2 Suction Temperature"
+    },
+    {
+      "enum": [
+        35,
+        "ymaaLongNames35"
+      ],
+      "description": "Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        36,
+        "ymaaLongNames36"
+      ],
+      "description": "Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        37,
+        "ymaaLongNames37"
+      ],
+      "description": "Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        38,
+        "ymaaLongNames38"
+      ],
+      "description": "Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        39,
+        "ymaaLongNames39"
+      ],
+      "description": "Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        40,
+        "ymaaLongNames40"
+      ],
+      "description": "Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        41,
+        "ymaaLongNames41"
+      ],
+      "description": "Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        42,
+        "ymaaLongNames42"
+      ],
+      "description": "Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        43,
+        "ymaaLongNames43"
+      ],
+      "description": "DI17-32"
+    },
+    {
+      "enum": [
+        44,
+        "ymaaLongNames44"
+      ],
+      "description": "DI1-16"
+    },
+    {
+      "enum": [
+        45,
+        "ymaaLongNames45"
+      ],
+      "description": "DO17-32"
+    },
+    {
+      "enum": [
+        46,
+        "ymaaLongNames46"
+      ],
+      "description": "DO1-16"
+    },
+    {
+      "enum": [
+        47,
+        "ymaaLongNames47"
+      ],
+      "description": "Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        48,
+        "ymaaLongNames48"
+      ],
+      "description": "Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        49,
+        "ymaaLongNames49"
+      ],
+      "description": "Circuit 1 Fan Speed"
+    },
+    {
+      "enum": [
+        50,
+        "ymaaLongNames50"
+      ],
+      "description": "Circuit 2 Fan Speed"
+    },
+    {
+      "enum": [
+        51,
+        "ymaaLongNames51"
+      ],
+      "description": "Dial Switch Status"
+    },
+    {
+      "enum": [
+        52,
+        "ymaaLongNames52"
+      ],
+      "description": "Inverter Compressor Frequency"
+    },
+    {
+      "enum": [
+        53,
+        "ymaaLongNames53"
+      ],
+      "description": "Fault Status 1"
+    },
+    {
+      "enum": [
+        54,
+        "ymaaLongNames54"
+      ],
+      "description": "Fault Status 2"
+    },
+    {
+      "enum": [
+        55,
+        "ymaaLongNames55"
+      ],
+      "description": "Fault Status 3"
+    },
+    {
+      "enum": [
+        56,
+        "ymaaLongNames56"
+      ],
+      "description": "Fault Status 4"
+    },
+    {
+      "enum": [
+        57,
+        "ymaaLongNames57"
+      ],
+      "description": "Fault Status 5"
+    },
+    {
+      "enum": [
+        58,
+        "ymaaLongNames58"
+      ],
+      "description": "Fault Status 6"
+    },
+    {
+      "enum": [
+        59,
+        "ymaaLongNames59"
+      ],
+      "description": "Fault Status 7"
+    },
+    {
+      "enum": [
+        60,
+        "ymaaLongNames60"
+      ],
+      "description": "Fault Status 8"
+    },
+    {
+      "enum": [
+        61,
+        "ymaaLongNames61"
+      ],
+      "description": "Model Number"
+    },
+    {
+      "enum": [
+        62,
+        "ymaaLongNames62"
+      ],
+      "description": "Unit 1 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        63,
+        "ymaaLongNames63"
+      ],
+      "description": "Unit 1 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        64,
+        "ymaaLongNames64"
+      ],
+      "description": "Unit 1 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        65,
+        "ymaaLongNames65"
+      ],
+      "description": "Unit 1 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        66,
+        "ymaaLongNames66"
+      ],
+      "description": "Unit 1 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        67,
+        "ymaaLongNames67"
+      ],
+      "description": "Unit 1 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        68,
+        "ymaaLongNames68"
+      ],
+      "description": "Unit 1 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        69,
+        "ymaaLongNames69"
+      ],
+      "description": "Unit 1 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        70,
+        "ymaaLongNames70"
+      ],
+      "description": "Unit 1 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        71,
+        "ymaaLongNames71"
+      ],
+      "description": "Unit 1 DO17-32"
+    },
+    {
+      "enum": [
+        72,
+        "ymaaLongNames72"
+      ],
+      "description": "Unit 1 DO1-16"
+    },
+    {
+      "enum": [
+        73,
+        "ymaaLongNames73"
+      ],
+      "description": "Unit 1 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        74,
+        "ymaaLongNames74"
+      ],
+      "description": "Unit 1 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        75,
+        "ymaaLongNames75"
+      ],
+      "description": "Unit 2 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        76,
+        "ymaaLongNames76"
+      ],
+      "description": "Unit 2 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        77,
+        "ymaaLongNames77"
+      ],
+      "description": "Unit 2 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        78,
+        "ymaaLongNames78"
+      ],
+      "description": "Unit 2 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        79,
+        "ymaaLongNames79"
+      ],
+      "description": "Unit 2 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        80,
+        "ymaaLongNames80"
+      ],
+      "description": "Unit 2 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        81,
+        "ymaaLongNames81"
+      ],
+      "description": "Unit 2 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        82,
+        "ymaaLongNames82"
+      ],
+      "description": "Unit 2 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        83,
+        "ymaaLongNames83"
+      ],
+      "description": "Unit 2 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        84,
+        "ymaaLongNames84"
+      ],
+      "description": "Unit 2 DO17-32"
+    },
+    {
+      "enum": [
+        85,
+        "ymaaLongNames85"
+      ],
+      "description": "Unit 2 DO1-16"
+    },
+    {
+      "enum": [
+        86,
+        "ymaaLongNames86"
+      ],
+      "description": "Unit 2 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        87,
+        "ymaaLongNames87"
+      ],
+      "description": "Unit 2 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        88,
+        "ymaaLongNames88"
+      ],
+      "description": "Unit 3 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        89,
+        "ymaaLongNames89"
+      ],
+      "description": "Unit 3 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        90,
+        "ymaaLongNames90"
+      ],
+      "description": "Unit 3 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        91,
+        "ymaaLongNames91"
+      ],
+      "description": "Unit 3 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        92,
+        "ymaaLongNames92"
+      ],
+      "description": "Unit 3 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        93,
+        "ymaaLongNames93"
+      ],
+      "description": "Unit 3 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        94,
+        "ymaaLongNames94"
+      ],
+      "description": "Unit 3 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        95,
+        "ymaaLongNames95"
+      ],
+      "description": "Unit 3 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        96,
+        "ymaaLongNames96"
+      ],
+      "description": "Unit 3 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        97,
+        "ymaaLongNames97"
+      ],
+      "description": "Unit 3 DO17-32"
+    },
+    {
+      "enum": [
+        98,
+        "ymaaLongNames98"
+      ],
+      "description": "Unit 3 DO1-16"
+    },
+    {
+      "enum": [
+        99,
+        "ymaaLongNames99"
+      ],
+      "description": "Unit 3 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        100,
+        "ymaaLongNames100"
+      ],
+      "description": "Unit 3 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        101,
+        "ymaaLongNames101"
+      ],
+      "description": "Unit 4 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        102,
+        "ymaaLongNames102"
+      ],
+      "description": "Unit 4 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        103,
+        "ymaaLongNames103"
+      ],
+      "description": "Unit 4 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        104,
+        "ymaaLongNames104"
+      ],
+      "description": "Unit 4 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        105,
+        "ymaaLongNames105"
+      ],
+      "description": "Unit 4 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        106,
+        "ymaaLongNames106"
+      ],
+      "description": "Unit 4 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        107,
+        "ymaaLongNames107"
+      ],
+      "description": "Unit 4 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        108,
+        "ymaaLongNames108"
+      ],
+      "description": "Unit 4 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        109,
+        "ymaaLongNames109"
+      ],
+      "description": "Unit 4 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        110,
+        "ymaaLongNames110"
+      ],
+      "description": "Unit 4 DO17-32"
+    },
+    {
+      "enum": [
+        111,
+        "ymaaLongNames111"
+      ],
+      "description": "Unit 4 DO1-16"
+    },
+    {
+      "enum": [
+        112,
+        "ymaaLongNames112"
+      ],
+      "description": "Unit 4 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        113,
+        "ymaaLongNames113"
+      ],
+      "description": "Unit 4 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        114,
+        "ymaaLongNames114"
+      ],
+      "description": "Unit 5 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        115,
+        "ymaaLongNames115"
+      ],
+      "description": "Unit 5 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        116,
+        "ymaaLongNames116"
+      ],
+      "description": "Unit 5 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        117,
+        "ymaaLongNames117"
+      ],
+      "description": "Unit 5 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        118,
+        "ymaaLongNames118"
+      ],
+      "description": "Unit 5 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        119,
+        "ymaaLongNames119"
+      ],
+      "description": "Unit 5 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        120,
+        "ymaaLongNames120"
+      ],
+      "description": "Unit 5 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        121,
+        "ymaaLongNames121"
+      ],
+      "description": "Unit 5 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        122,
+        "ymaaLongNames122"
+      ],
+      "description": "Unit 5 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        123,
+        "ymaaLongNames123"
+      ],
+      "description": "Unit 5 DO17-32"
+    },
+    {
+      "enum": [
+        124,
+        "ymaaLongNames124"
+      ],
+      "description": "Unit 5 DO1-16"
+    },
+    {
+      "enum": [
+        125,
+        "ymaaLongNames125"
+      ],
+      "description": "Unit 5 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        126,
+        "ymaaLongNames126"
+      ],
+      "description": "Unit 5 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        127,
+        "ymaaLongNames127"
+      ],
+      "description": "Unit 6 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        128,
+        "ymaaLongNames128"
+      ],
+      "description": "Unit 6 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        129,
+        "ymaaLongNames129"
+      ],
+      "description": "Unit 6 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        130,
+        "ymaaLongNames130"
+      ],
+      "description": "Unit 6 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        131,
+        "ymaaLongNames131"
+      ],
+      "description": "Unit 6 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        132,
+        "ymaaLongNames132"
+      ],
+      "description": "Unit 6 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        133,
+        "ymaaLongNames133"
+      ],
+      "description": "Unit 6 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        134,
+        "ymaaLongNames134"
+      ],
+      "description": "Unit 6 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        135,
+        "ymaaLongNames135"
+      ],
+      "description": "Unit 6 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        136,
+        "ymaaLongNames136"
+      ],
+      "description": "Unit 6 DO17-32"
+    },
+    {
+      "enum": [
+        137,
+        "ymaaLongNames137"
+      ],
+      "description": "Unit 6 DO1-16"
+    },
+    {
+      "enum": [
+        138,
+        "ymaaLongNames138"
+      ],
+      "description": "Unit 6 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        139,
+        "ymaaLongNames139"
+      ],
+      "description": "Unit 6 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        140,
+        "ymaaLongNames140"
+      ],
+      "description": "Unit 7 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        141,
+        "ymaaLongNames141"
+      ],
+      "description": "Unit 7 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        142,
+        "ymaaLongNames142"
+      ],
+      "description": "Unit 7 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        143,
+        "ymaaLongNames143"
+      ],
+      "description": "Unit 7 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        144,
+        "ymaaLongNames144"
+      ],
+      "description": "Unit 7 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        145,
+        "ymaaLongNames145"
+      ],
+      "description": "Unit 7 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        146,
+        "ymaaLongNames146"
+      ],
+      "description": "Unit 7 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        147,
+        "ymaaLongNames147"
+      ],
+      "description": "Unit 7 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        148,
+        "ymaaLongNames148"
+      ],
+      "description": "Unit 7 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        149,
+        "ymaaLongNames149"
+      ],
+      "description": "Unit 7 DO17-32"
+    },
+    {
+      "enum": [
+        150,
+        "ymaaLongNames150"
+      ],
+      "description": "Unit 7 DO1-16"
+    },
+    {
+      "enum": [
+        151,
+        "ymaaLongNames151"
+      ],
+      "description": "Unit 7 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        152,
+        "ymaaLongNames152"
+      ],
+      "description": "Unit 7 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        153,
+        "ymaaLongNames153"
+      ],
+      "description": "Unit 8 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        154,
+        "ymaaLongNames154"
+      ],
+      "description": "Unit 8 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        155,
+        "ymaaLongNames155"
+      ],
+      "description": "Unit 8 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        156,
+        "ymaaLongNames156"
+      ],
+      "description": "Unit 8 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        157,
+        "ymaaLongNames157"
+      ],
+      "description": "Unit 8 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        158,
+        "ymaaLongNames158"
+      ],
+      "description": "Unit 8 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        159,
+        "ymaaLongNames159"
+      ],
+      "description": "Unit 8 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        160,
+        "ymaaLongNames160"
+      ],
+      "description": "Unit 8 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        161,
+        "ymaaLongNames161"
+      ],
+      "description": "Unit 8 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        162,
+        "ymaaLongNames162"
+      ],
+      "description": "Unit 8 DO17-32"
+    },
+    {
+      "enum": [
+        163,
+        "ymaaLongNames163"
+      ],
+      "description": "Unit 8 DO1-16"
+    },
+    {
+      "enum": [
+        164,
+        "ymaaLongNames164"
+      ],
+      "description": "Unit 8 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        165,
+        "ymaaLongNames165"
+      ],
+      "description": "Unit 8 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        166,
+        "ymaaLongNames166"
+      ],
+      "description": "Unit 9 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        167,
+        "ymaaLongNames167"
+      ],
+      "description": "Unit 9 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        168,
+        "ymaaLongNames168"
+      ],
+      "description": "Unit 9 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        169,
+        "ymaaLongNames169"
+      ],
+      "description": "Unit 9 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        170,
+        "ymaaLongNames170"
+      ],
+      "description": "Unit 9 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        171,
+        "ymaaLongNames171"
+      ],
+      "description": "Unit 9 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        172,
+        "ymaaLongNames172"
+      ],
+      "description": "Unit 9 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        173,
+        "ymaaLongNames173"
+      ],
+      "description": "Unit 9 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        174,
+        "ymaaLongNames174"
+      ],
+      "description": "Unit 9 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        175,
+        "ymaaLongNames175"
+      ],
+      "description": "Unit 9 DO17-32"
+    },
+    {
+      "enum": [
+        176,
+        "ymaaLongNames176"
+      ],
+      "description": "Unit 9 DO1-16"
+    },
+    {
+      "enum": [
+        177,
+        "ymaaLongNames177"
+      ],
+      "description": "Unit 9 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        178,
+        "ymaaLongNames178"
+      ],
+      "description": "Unit 9 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        179,
+        "ymaaLongNames179"
+      ],
+      "description": "Unit 10 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        180,
+        "ymaaLongNames180"
+      ],
+      "description": "Unit 10 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        181,
+        "ymaaLongNames181"
+      ],
+      "description": "Unit 10 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        182,
+        "ymaaLongNames182"
+      ],
+      "description": "Unit 10 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        183,
+        "ymaaLongNames183"
+      ],
+      "description": "Unit 10 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        184,
+        "ymaaLongNames184"
+      ],
+      "description": "Unit 10 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        185,
+        "ymaaLongNames185"
+      ],
+      "description": "Unit 10 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        186,
+        "ymaaLongNames186"
+      ],
+      "description": "Unit 10 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        187,
+        "ymaaLongNames187"
+      ],
+      "description": "Unit 10 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        188,
+        "ymaaLongNames188"
+      ],
+      "description": "Unit 10 DO17-32"
+    },
+    {
+      "enum": [
+        189,
+        "ymaaLongNames189"
+      ],
+      "description": "Unit 10 DO1-16"
+    },
+    {
+      "enum": [
+        190,
+        "ymaaLongNames190"
+      ],
+      "description": "Unit 10 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        191,
+        "ymaaLongNames191"
+      ],
+      "description": "Unit 10 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        192,
+        "ymaaLongNames192"
+      ],
+      "description": "Unit 11 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        193,
+        "ymaaLongNames193"
+      ],
+      "description": "Unit 11 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        194,
+        "ymaaLongNames194"
+      ],
+      "description": "Unit 11 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        195,
+        "ymaaLongNames195"
+      ],
+      "description": "Unit 11 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        196,
+        "ymaaLongNames196"
+      ],
+      "description": "Unit 11 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        197,
+        "ymaaLongNames197"
+      ],
+      "description": "Unit 11 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        198,
+        "ymaaLongNames198"
+      ],
+      "description": "Unit 11 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        199,
+        "ymaaLongNames199"
+      ],
+      "description": "Unit 11 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        200,
+        "ymaaLongNames200"
+      ],
+      "description": "Unit 11 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        201,
+        "ymaaLongNames201"
+      ],
+      "description": "Unit 11 DO17-32"
+    },
+    {
+      "enum": [
+        202,
+        "ymaaLongNames202"
+      ],
+      "description": "Unit 11 DO1-16"
+    },
+    {
+      "enum": [
+        203,
+        "ymaaLongNames203"
+      ],
+      "description": "Unit 11 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        204,
+        "ymaaLongNames204"
+      ],
+      "description": "Unit 11 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        205,
+        "ymaaLongNames205"
+      ],
+      "description": "Unit 12 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        206,
+        "ymaaLongNames206"
+      ],
+      "description": "Unit 12 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        207,
+        "ymaaLongNames207"
+      ],
+      "description": "Unit 12 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        208,
+        "ymaaLongNames208"
+      ],
+      "description": "Unit 12 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        209,
+        "ymaaLongNames209"
+      ],
+      "description": "Unit 12 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        210,
+        "ymaaLongNames210"
+      ],
+      "description": "Unit 12 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        211,
+        "ymaaLongNames211"
+      ],
+      "description": "Unit 12 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        212,
+        "ymaaLongNames212"
+      ],
+      "description": "Unit 12 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        213,
+        "ymaaLongNames213"
+      ],
+      "description": "Unit 12 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        214,
+        "ymaaLongNames214"
+      ],
+      "description": "Unit 12 DO17-32"
+    },
+    {
+      "enum": [
+        215,
+        "ymaaLongNames215"
+      ],
+      "description": "Unit 12 DO1-16"
+    },
+    {
+      "enum": [
+        216,
+        "ymaaLongNames216"
+      ],
+      "description": "Unit 12 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        217,
+        "ymaaLongNames217"
+      ],
+      "description": "Unit 12 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        218,
+        "ymaaLongNames218"
+      ],
+      "description": "Unit 13 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        219,
+        "ymaaLongNames219"
+      ],
+      "description": "Unit 13 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        220,
+        "ymaaLongNames220"
+      ],
+      "description": "Unit 13 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        221,
+        "ymaaLongNames221"
+      ],
+      "description": "Unit 13 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        222,
+        "ymaaLongNames222"
+      ],
+      "description": "Unit 13 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        223,
+        "ymaaLongNames223"
+      ],
+      "description": "Unit 13 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        224,
+        "ymaaLongNames224"
+      ],
+      "description": "Unit 13 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        225,
+        "ymaaLongNames225"
+      ],
+      "description": "Unit 13 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        226,
+        "ymaaLongNames226"
+      ],
+      "description": "Unit 13 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        227,
+        "ymaaLongNames227"
+      ],
+      "description": "Unit 13 DO17-32"
+    },
+    {
+      "enum": [
+        228,
+        "ymaaLongNames228"
+      ],
+      "description": "Unit 13 DO1-16"
+    },
+    {
+      "enum": [
+        229,
+        "ymaaLongNames229"
+      ],
+      "description": "Unit 13 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        230,
+        "ymaaLongNames230"
+      ],
+      "description": "Unit 13 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        231,
+        "ymaaLongNames231"
+      ],
+      "description": "Unit 14 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        232,
+        "ymaaLongNames232"
+      ],
+      "description": "Unit 14 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        233,
+        "ymaaLongNames233"
+      ],
+      "description": "Unit 14 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        234,
+        "ymaaLongNames234"
+      ],
+      "description": "Unit 14 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        235,
+        "ymaaLongNames235"
+      ],
+      "description": "Unit 14 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        236,
+        "ymaaLongNames236"
+      ],
+      "description": "Unit 14 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        237,
+        "ymaaLongNames237"
+      ],
+      "description": "Unit 14 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        238,
+        "ymaaLongNames238"
+      ],
+      "description": "Unit 14 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        239,
+        "ymaaLongNames239"
+      ],
+      "description": "Unit 14 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        240,
+        "ymaaLongNames240"
+      ],
+      "description": "Unit 14 DO17-32"
+    },
+    {
+      "enum": [
+        241,
+        "ymaaLongNames241"
+      ],
+      "description": "Unit 14 DO1-16"
+    },
+    {
+      "enum": [
+        242,
+        "ymaaLongNames242"
+      ],
+      "description": "Unit 14 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        243,
+        "ymaaLongNames243"
+      ],
+      "description": "Unit 14 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        244,
+        "ymaaLongNames244"
+      ],
+      "description": "Unit 15 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        245,
+        "ymaaLongNames245"
+      ],
+      "description": "Unit 15 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        246,
+        "ymaaLongNames246"
+      ],
+      "description": "Unit 15 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        247,
+        "ymaaLongNames247"
+      ],
+      "description": "Unit 15 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        248,
+        "ymaaLongNames248"
+      ],
+      "description": "Unit 15 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        249,
+        "ymaaLongNames249"
+      ],
+      "description": "Unit 15 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        250,
+        "ymaaLongNames250"
+      ],
+      "description": "Unit 15 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        251,
+        "ymaaLongNames251"
+      ],
+      "description": "Unit 15 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        252,
+        "ymaaLongNames252"
+      ],
+      "description": "Unit 15 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        253,
+        "ymaaLongNames253"
+      ],
+      "description": "Unit 15 DO17-32"
+    },
+    {
+      "enum": [
+        254,
+        "ymaaLongNames254"
+      ],
+      "description": "Unit 15 DO1-16"
+    },
+    {
+      "enum": [
+        255,
+        "ymaaLongNames255"
+      ],
+      "description": "Unit 15 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        256,
+        "ymaaLongNames256"
+      ],
+      "description": "Unit 15 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        257,
+        "ymaaLongNames257"
+      ],
+      "description": "Unit 16 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        258,
+        "ymaaLongNames258"
+      ],
+      "description": "Unit 16 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        259,
+        "ymaaLongNames259"
+      ],
+      "description": "Unit 16 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        260,
+        "ymaaLongNames260"
+      ],
+      "description": "Unit 16 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        261,
+        "ymaaLongNames261"
+      ],
+      "description": "Unit 16 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        262,
+        "ymaaLongNames262"
+      ],
+      "description": "Unit 16 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        263,
+        "ymaaLongNames263"
+      ],
+      "description": "Unit 16 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        264,
+        "ymaaLongNames264"
+      ],
+      "description": "Unit 16 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        265,
+        "ymaaLongNames265"
+      ],
+      "description": "Unit 16 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        266,
+        "ymaaLongNames266"
+      ],
+      "description": "Unit 16 DO17-32"
+    },
+    {
+      "enum": [
+        267,
+        "ymaaLongNames267"
+      ],
+      "description": "Unit 16 DO1-16"
+    },
+    {
+      "enum": [
+        268,
+        "ymaaLongNames268"
+      ],
+      "description": "Unit 16 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        269,
+        "ymaaLongNames269"
+      ],
+      "description": "Unit 16 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        270,
+        "ymaaLongNames270"
+      ],
+      "description": "Unit 17 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        271,
+        "ymaaLongNames271"
+      ],
+      "description": "Unit 17 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        272,
+        "ymaaLongNames272"
+      ],
+      "description": "Unit 17 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        273,
+        "ymaaLongNames273"
+      ],
+      "description": "Unit 17 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        274,
+        "ymaaLongNames274"
+      ],
+      "description": "Unit 17 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        275,
+        "ymaaLongNames275"
+      ],
+      "description": "Unit 17 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        276,
+        "ymaaLongNames276"
+      ],
+      "description": "Unit 17 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        277,
+        "ymaaLongNames277"
+      ],
+      "description": "Unit 17 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        278,
+        "ymaaLongNames278"
+      ],
+      "description": "Unit 17 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        279,
+        "ymaaLongNames279"
+      ],
+      "description": "Unit 17 DO17-32"
+    },
+    {
+      "enum": [
+        280,
+        "ymaaLongNames280"
+      ],
+      "description": "Unit 17 DO1-16"
+    },
+    {
+      "enum": [
+        281,
+        "ymaaLongNames281"
+      ],
+      "description": "Unit 17 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        282,
+        "ymaaLongNames282"
+      ],
+      "description": "Unit 17 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        283,
+        "ymaaLongNames283"
+      ],
+      "description": "Unit 18 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        284,
+        "ymaaLongNames284"
+      ],
+      "description": "Unit 18 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        285,
+        "ymaaLongNames285"
+      ],
+      "description": "Unit 18 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        286,
+        "ymaaLongNames286"
+      ],
+      "description": "Unit 18 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        287,
+        "ymaaLongNames287"
+      ],
+      "description": "Unit 18 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        288,
+        "ymaaLongNames288"
+      ],
+      "description": "Unit 18 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        289,
+        "ymaaLongNames289"
+      ],
+      "description": "Unit 18 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        290,
+        "ymaaLongNames290"
+      ],
+      "description": "Unit 18 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        291,
+        "ymaaLongNames291"
+      ],
+      "description": "Unit 18 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        292,
+        "ymaaLongNames292"
+      ],
+      "description": "Unit 18 DO17-32"
+    },
+    {
+      "enum": [
+        293,
+        "ymaaLongNames293"
+      ],
+      "description": "Unit 18 DO1-16"
+    },
+    {
+      "enum": [
+        294,
+        "ymaaLongNames294"
+      ],
+      "description": "Unit 18 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        295,
+        "ymaaLongNames295"
+      ],
+      "description": "Unit 18 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        296,
+        "ymaaLongNames296"
+      ],
+      "description": "Unit 19 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        297,
+        "ymaaLongNames297"
+      ],
+      "description": "Unit 19 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        298,
+        "ymaaLongNames298"
+      ],
+      "description": "Unit 19 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        299,
+        "ymaaLongNames299"
+      ],
+      "description": "Unit 19 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        300,
+        "ymaaLongNames300"
+      ],
+      "description": "Unit 19 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        301,
+        "ymaaLongNames301"
+      ],
+      "description": "Unit 19 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        302,
+        "ymaaLongNames302"
+      ],
+      "description": "Unit 19 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        303,
+        "ymaaLongNames303"
+      ],
+      "description": "Unit 19 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        304,
+        "ymaaLongNames304"
+      ],
+      "description": "Unit 19 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        305,
+        "ymaaLongNames305"
+      ],
+      "description": "Unit 19 DO17-32"
+    },
+    {
+      "enum": [
+        306,
+        "ymaaLongNames306"
+      ],
+      "description": "Unit 19 DO1-16"
+    },
+    {
+      "enum": [
+        307,
+        "ymaaLongNames307"
+      ],
+      "description": "Unit 19 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        308,
+        "ymaaLongNames308"
+      ],
+      "description": "Unit 19 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        309,
+        "ymaaLongNames309"
+      ],
+      "description": "Unit 20 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        310,
+        "ymaaLongNames310"
+      ],
+      "description": "Unit 20 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        311,
+        "ymaaLongNames311"
+      ],
+      "description": "Unit 20 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        312,
+        "ymaaLongNames312"
+      ],
+      "description": "Unit 20 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        313,
+        "ymaaLongNames313"
+      ],
+      "description": "Unit 20 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        314,
+        "ymaaLongNames314"
+      ],
+      "description": "Unit 20 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        315,
+        "ymaaLongNames315"
+      ],
+      "description": "Unit 20 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        316,
+        "ymaaLongNames316"
+      ],
+      "description": "Unit 20 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        317,
+        "ymaaLongNames317"
+      ],
+      "description": "Unit 20 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        318,
+        "ymaaLongNames318"
+      ],
+      "description": "Unit 20 DO17-32"
+    },
+    {
+      "enum": [
+        319,
+        "ymaaLongNames319"
+      ],
+      "description": "Unit 20 DO1-16"
+    },
+    {
+      "enum": [
+        320,
+        "ymaaLongNames320"
+      ],
+      "description": "Unit 20 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        321,
+        "ymaaLongNames321"
+      ],
+      "description": "Unit 20 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        322,
+        "ymaaLongNames322"
+      ],
+      "description": "Unit 21 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        323,
+        "ymaaLongNames323"
+      ],
+      "description": "Unit 21 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        324,
+        "ymaaLongNames324"
+      ],
+      "description": "Unit 21 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        325,
+        "ymaaLongNames325"
+      ],
+      "description": "Unit 21 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        326,
+        "ymaaLongNames326"
+      ],
+      "description": "Unit 21 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        327,
+        "ymaaLongNames327"
+      ],
+      "description": "Unit 21 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        328,
+        "ymaaLongNames328"
+      ],
+      "description": "Unit 21 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        329,
+        "ymaaLongNames329"
+      ],
+      "description": "Unit 21 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        330,
+        "ymaaLongNames330"
+      ],
+      "description": "Unit 21 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        331,
+        "ymaaLongNames331"
+      ],
+      "description": "Unit 21 DO17-32"
+    },
+    {
+      "enum": [
+        332,
+        "ymaaLongNames332"
+      ],
+      "description": "Unit 21 DO1-16"
+    },
+    {
+      "enum": [
+        333,
+        "ymaaLongNames333"
+      ],
+      "description": "Unit 21 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        334,
+        "ymaaLongNames334"
+      ],
+      "description": "Unit 21 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        335,
+        "ymaaLongNames335"
+      ],
+      "description": "Unit 22 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        336,
+        "ymaaLongNames336"
+      ],
+      "description": "Unit 22 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        337,
+        "ymaaLongNames337"
+      ],
+      "description": "Unit 22 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        338,
+        "ymaaLongNames338"
+      ],
+      "description": "Unit 22 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        339,
+        "ymaaLongNames339"
+      ],
+      "description": "Unit 22 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        340,
+        "ymaaLongNames340"
+      ],
+      "description": "Unit 22 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        341,
+        "ymaaLongNames341"
+      ],
+      "description": "Unit 22 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        342,
+        "ymaaLongNames342"
+      ],
+      "description": "Unit 22 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        343,
+        "ymaaLongNames343"
+      ],
+      "description": "Unit 22 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        344,
+        "ymaaLongNames344"
+      ],
+      "description": "Unit 22 DO17-32"
+    },
+    {
+      "enum": [
+        345,
+        "ymaaLongNames345"
+      ],
+      "description": "Unit 22 DO1-16"
+    },
+    {
+      "enum": [
+        346,
+        "ymaaLongNames346"
+      ],
+      "description": "Unit 22 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        347,
+        "ymaaLongNames347"
+      ],
+      "description": "Unit 22 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        348,
+        "ymaaLongNames348"
+      ],
+      "description": "Unit 23 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        349,
+        "ymaaLongNames349"
+      ],
+      "description": "Unit 23 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        350,
+        "ymaaLongNames350"
+      ],
+      "description": "Unit 23 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        351,
+        "ymaaLongNames351"
+      ],
+      "description": "Unit 23 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        352,
+        "ymaaLongNames352"
+      ],
+      "description": "Unit 23 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        353,
+        "ymaaLongNames353"
+      ],
+      "description": "Unit 23 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        354,
+        "ymaaLongNames354"
+      ],
+      "description": "Unit 23 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        355,
+        "ymaaLongNames355"
+      ],
+      "description": "Unit 23 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        356,
+        "ymaaLongNames356"
+      ],
+      "description": "Unit 23 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        357,
+        "ymaaLongNames357"
+      ],
+      "description": "Unit 23 DO17-32"
+    },
+    {
+      "enum": [
+        358,
+        "ymaaLongNames358"
+      ],
+      "description": "Unit 23 DO1-16"
+    },
+    {
+      "enum": [
+        359,
+        "ymaaLongNames359"
+      ],
+      "description": "Unit 23 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        360,
+        "ymaaLongNames360"
+      ],
+      "description": "Unit 23 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        361,
+        "ymaaLongNames361"
+      ],
+      "description": "Unit 24 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        362,
+        "ymaaLongNames362"
+      ],
+      "description": "Unit 24 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        363,
+        "ymaaLongNames363"
+      ],
+      "description": "Unit 24 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        364,
+        "ymaaLongNames364"
+      ],
+      "description": "Unit 24 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        365,
+        "ymaaLongNames365"
+      ],
+      "description": "Unit 24 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        366,
+        "ymaaLongNames366"
+      ],
+      "description": "Unit 24 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        367,
+        "ymaaLongNames367"
+      ],
+      "description": "Unit 24 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        368,
+        "ymaaLongNames368"
+      ],
+      "description": "Unit 24 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        369,
+        "ymaaLongNames369"
+      ],
+      "description": "Unit 24 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        370,
+        "ymaaLongNames370"
+      ],
+      "description": "Unit 24 DO17-32"
+    },
+    {
+      "enum": [
+        371,
+        "ymaaLongNames371"
+      ],
+      "description": "Unit 24 DO1-16"
+    },
+    {
+      "enum": [
+        372,
+        "ymaaLongNames372"
+      ],
+      "description": "Unit 24 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        373,
+        "ymaaLongNames373"
+      ],
+      "description": "Unit 24 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        374,
+        "ymaaLongNames374"
+      ],
+      "description": "Unit 25 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        375,
+        "ymaaLongNames375"
+      ],
+      "description": "Unit 25 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        376,
+        "ymaaLongNames376"
+      ],
+      "description": "Unit 25 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        377,
+        "ymaaLongNames377"
+      ],
+      "description": "Unit 25 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        378,
+        "ymaaLongNames378"
+      ],
+      "description": "Unit 25 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        379,
+        "ymaaLongNames379"
+      ],
+      "description": "Unit 25 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        380,
+        "ymaaLongNames380"
+      ],
+      "description": "Unit 25 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        381,
+        "ymaaLongNames381"
+      ],
+      "description": "Unit 25 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        382,
+        "ymaaLongNames382"
+      ],
+      "description": "Unit 25 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        383,
+        "ymaaLongNames383"
+      ],
+      "description": "Unit 25 DO17-32"
+    },
+    {
+      "enum": [
+        384,
+        "ymaaLongNames384"
+      ],
+      "description": "Unit 25 DO1-16"
+    },
+    {
+      "enum": [
+        385,
+        "ymaaLongNames385"
+      ],
+      "description": "Unit 25 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        386,
+        "ymaaLongNames386"
+      ],
+      "description": "Unit 25 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        387,
+        "ymaaLongNames387"
+      ],
+      "description": "Unit 26 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        388,
+        "ymaaLongNames388"
+      ],
+      "description": "Unit 26 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        389,
+        "ymaaLongNames389"
+      ],
+      "description": "Unit 26 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        390,
+        "ymaaLongNames390"
+      ],
+      "description": "Unit 26 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        391,
+        "ymaaLongNames391"
+      ],
+      "description": "Unit 26 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        392,
+        "ymaaLongNames392"
+      ],
+      "description": "Unit 26 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        393,
+        "ymaaLongNames393"
+      ],
+      "description": "Unit 26 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        394,
+        "ymaaLongNames394"
+      ],
+      "description": "Unit 26 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        395,
+        "ymaaLongNames395"
+      ],
+      "description": "Unit 26 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        396,
+        "ymaaLongNames396"
+      ],
+      "description": "Unit 26 DO17-32"
+    },
+    {
+      "enum": [
+        397,
+        "ymaaLongNames397"
+      ],
+      "description": "Unit 26 DO1-16"
+    },
+    {
+      "enum": [
+        398,
+        "ymaaLongNames398"
+      ],
+      "description": "Unit 26 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        399,
+        "ymaaLongNames399"
+      ],
+      "description": "Unit 26 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        400,
+        "ymaaLongNames400"
+      ],
+      "description": "Unit 27 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        401,
+        "ymaaLongNames401"
+      ],
+      "description": "Unit 27 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        402,
+        "ymaaLongNames402"
+      ],
+      "description": "Unit 27 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        403,
+        "ymaaLongNames403"
+      ],
+      "description": "Unit 27 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        404,
+        "ymaaLongNames404"
+      ],
+      "description": "Unit 27 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        405,
+        "ymaaLongNames405"
+      ],
+      "description": "Unit 27 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        406,
+        "ymaaLongNames406"
+      ],
+      "description": "Unit 27 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        407,
+        "ymaaLongNames407"
+      ],
+      "description": "Unit 27 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        408,
+        "ymaaLongNames408"
+      ],
+      "description": "Unit 27 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        409,
+        "ymaaLongNames409"
+      ],
+      "description": "Unit 27 DO17-32"
+    },
+    {
+      "enum": [
+        410,
+        "ymaaLongNames410"
+      ],
+      "description": "Unit 27 DO1-16"
+    },
+    {
+      "enum": [
+        411,
+        "ymaaLongNames411"
+      ],
+      "description": "Unit 27 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        412,
+        "ymaaLongNames412"
+      ],
+      "description": "Unit 27 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        413,
+        "ymaaLongNames413"
+      ],
+      "description": "Unit 28 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        414,
+        "ymaaLongNames414"
+      ],
+      "description": "Unit 28 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        415,
+        "ymaaLongNames415"
+      ],
+      "description": "Unit 28 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        416,
+        "ymaaLongNames416"
+      ],
+      "description": "Unit 28 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        417,
+        "ymaaLongNames417"
+      ],
+      "description": "Unit 28 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        418,
+        "ymaaLongNames418"
+      ],
+      "description": "Unit 28 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        419,
+        "ymaaLongNames419"
+      ],
+      "description": "Unit 28 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        420,
+        "ymaaLongNames420"
+      ],
+      "description": "Unit 28 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        421,
+        "ymaaLongNames421"
+      ],
+      "description": "Unit 28 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        422,
+        "ymaaLongNames422"
+      ],
+      "description": "Unit 28 DO17-32"
+    },
+    {
+      "enum": [
+        423,
+        "ymaaLongNames423"
+      ],
+      "description": "Unit 28 DO1-16"
+    },
+    {
+      "enum": [
+        424,
+        "ymaaLongNames424"
+      ],
+      "description": "Unit 28 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        425,
+        "ymaaLongNames425"
+      ],
+      "description": "Unit 28 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        426,
+        "ymaaLongNames426"
+      ],
+      "description": "Unit 29 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        427,
+        "ymaaLongNames427"
+      ],
+      "description": "Unit 29 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        428,
+        "ymaaLongNames428"
+      ],
+      "description": "Unit 29 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        429,
+        "ymaaLongNames429"
+      ],
+      "description": "Unit 29 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        430,
+        "ymaaLongNames430"
+      ],
+      "description": "Unit 29 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        431,
+        "ymaaLongNames431"
+      ],
+      "description": "Unit 29 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        432,
+        "ymaaLongNames432"
+      ],
+      "description": "Unit 29 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        433,
+        "ymaaLongNames433"
+      ],
+      "description": "Unit 29 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        434,
+        "ymaaLongNames434"
+      ],
+      "description": "Unit 29 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        435,
+        "ymaaLongNames435"
+      ],
+      "description": "Unit 29 DO17-32"
+    },
+    {
+      "enum": [
+        436,
+        "ymaaLongNames436"
+      ],
+      "description": "Unit 29 DO1-16"
+    },
+    {
+      "enum": [
+        437,
+        "ymaaLongNames437"
+      ],
+      "description": "Unit 29 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        438,
+        "ymaaLongNames438"
+      ],
+      "description": "Unit 29 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        439,
+        "ymaaLongNames439"
+      ],
+      "description": "Unit 30 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        440,
+        "ymaaLongNames440"
+      ],
+      "description": "Unit 30 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        441,
+        "ymaaLongNames441"
+      ],
+      "description": "Unit 30 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        442,
+        "ymaaLongNames442"
+      ],
+      "description": "Unit 30 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        443,
+        "ymaaLongNames443"
+      ],
+      "description": "Unit 30 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        444,
+        "ymaaLongNames444"
+      ],
+      "description": "Unit 30 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        445,
+        "ymaaLongNames445"
+      ],
+      "description": "Unit 30 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        446,
+        "ymaaLongNames446"
+      ],
+      "description": "Unit 30 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        447,
+        "ymaaLongNames447"
+      ],
+      "description": "Unit 30 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        448,
+        "ymaaLongNames448"
+      ],
+      "description": "Unit 30 DO17-32"
+    },
+    {
+      "enum": [
+        449,
+        "ymaaLongNames449"
+      ],
+      "description": "Unit 30 DO1-16"
+    },
+    {
+      "enum": [
+        450,
+        "ymaaLongNames450"
+      ],
+      "description": "Unit 30 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        451,
+        "ymaaLongNames451"
+      ],
+      "description": "Unit 30 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        452,
+        "ymaaLongNames452"
+      ],
+      "description": "Unit 31 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        453,
+        "ymaaLongNames453"
+      ],
+      "description": "Unit 31 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        454,
+        "ymaaLongNames454"
+      ],
+      "description": "Unit 31 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        455,
+        "ymaaLongNames455"
+      ],
+      "description": "Unit 31 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        456,
+        "ymaaLongNames456"
+      ],
+      "description": "Unit 31 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        457,
+        "ymaaLongNames457"
+      ],
+      "description": "Unit 31 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        458,
+        "ymaaLongNames458"
+      ],
+      "description": "Unit 31 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        459,
+        "ymaaLongNames459"
+      ],
+      "description": "Unit 31 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        460,
+        "ymaaLongNames460"
+      ],
+      "description": "Unit 31 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        461,
+        "ymaaLongNames461"
+      ],
+      "description": "Unit 31 DO17-32"
+    },
+    {
+      "enum": [
+        462,
+        "ymaaLongNames462"
+      ],
+      "description": "Unit 31 DO1-16"
+    },
+    {
+      "enum": [
+        463,
+        "ymaaLongNames463"
+      ],
+      "description": "Unit 31 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        464,
+        "ymaaLongNames464"
+      ],
+      "description": "Unit 31 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        465,
+        "ymaaLongNames465"
+      ],
+      "description": "Unit 32 Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        466,
+        "ymaaLongNames466"
+      ],
+      "description": "Unit 32 Circuit 1 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        467,
+        "ymaaLongNames467"
+      ],
+      "description": "Unit 32 Circuit 1 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        468,
+        "ymaaLongNames468"
+      ],
+      "description": "Unit 32 Circuit 2 Compressor 1 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        469,
+        "ymaaLongNames469"
+      ],
+      "description": "Unit 32 Circuit 2 Compressor 2 Discharge Line Temperature"
+    },
+    {
+      "enum": [
+        470,
+        "ymaaLongNames470"
+      ],
+      "description": "Unit 32 Circuit 1 Suction Pressure"
+    },
+    {
+      "enum": [
+        471,
+        "ymaaLongNames471"
+      ],
+      "description": "Unit 32 Circuit 2 Suction Pressure"
+    },
+    {
+      "enum": [
+        472,
+        "ymaaLongNames472"
+      ],
+      "description": "Unit 32 Circuit 1 Discharge Pressure"
+    },
+    {
+      "enum": [
+        473,
+        "ymaaLongNames473"
+      ],
+      "description": "Unit 32 Circuit 2 Discharge Pressure"
+    },
+    {
+      "enum": [
+        474,
+        "ymaaLongNames474"
+      ],
+      "description": "Unit 32 DO17-32"
+    },
+    {
+      "enum": [
+        475,
+        "ymaaLongNames475"
+      ],
+      "description": "Unit 32 DO1-16"
+    },
+    {
+      "enum": [
+        476,
+        "ymaaLongNames476"
+      ],
+      "description": "Unit 32 Circuit 1 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        477,
+        "ymaaLongNames477"
+      ],
+      "description": "Unit 32 Circuit 2 Electronic Expansion Valve"
+    },
+    {
+      "enum": [
+        478,
+        "ymaaLongNames478"
+      ],
+      "description": "Unit Ambient Temperature"
+    }
+  ]
+}

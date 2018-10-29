@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/plantSequencingEnumSet.schema.json",
+  "title": "plantSequencingEnumSet",
+  "description": "Plant Sequencing",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "plntSeqOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "plntSeqPumpOnly"
+      ],
+      "description": "Pump Only"
+    },
+    {
+      "enum": [
+        2,
+        "plntSeqSystemInterlock"
+      ],
+      "description": "System Interlock"
+    },
+    {
+      "enum": [
+        3,
+        "plntSeq1Stage"
+      ],
+      "description": "1 Stage"
+    },
+    {
+      "enum": [
+        4,
+        "plntSeq2Stages"
+      ],
+      "description": "2 Stages"
+    },
+    {
+      "enum": [
+        5,
+        "plntSeq3Stages"
+      ],
+      "description": "3 Stages"
+    },
+    {
+      "enum": [
+        6,
+        "plntSeq4Stages"
+      ],
+      "description": "4 Stages"
+    },
+    {
+      "enum": [
+        7,
+        "plntSeq5Stages"
+      ],
+      "description": "5 Stages"
+    },
+    {
+      "enum": [
+        8,
+        "plntSeq6Stages"
+      ],
+      "description": "6 Stages"
+    },
+    {
+      "enum": [
+        9,
+        "plntSeq7Stages"
+      ],
+      "description": "7 Stages"
+    },
+    {
+      "enum": [
+        10,
+        "plntSeq8Stages"
+      ],
+      "description": "8 Stages"
+    }
+  ]
+}

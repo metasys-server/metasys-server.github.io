@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fanTypeEnumSet.schema.json",
+  "title": "fanTypeEnumSet",
+  "description": "Fan Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ftNoFan"
+      ],
+      "description": "No Fan"
+    },
+    {
+      "enum": [
+        1,
+        "ftSeriesFan"
+      ],
+      "description": "Series Fan"
+    },
+    {
+      "enum": [
+        2,
+        "ftParallelTemp"
+      ],
+      "description": "Parallel Temp"
+    },
+    {
+      "enum": [
+        3,
+        "ftParallelFlow"
+      ],
+      "description": "Parallel Flow"
+    }
+  ]
+}

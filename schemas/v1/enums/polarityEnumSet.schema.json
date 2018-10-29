@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/polarityEnumSet.schema.json",
+  "title": "polarityEnumSet",
+  "description": "Polarity",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "plrNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "plrReverse"
+      ],
+      "description": "Reverse"
+    }
+  ]
+}

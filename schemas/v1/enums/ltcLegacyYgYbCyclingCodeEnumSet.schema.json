@@ -1,0 +1,246 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYgYbCyclingCodeEnumSet.schema.json",
+  "title": "ltcLegacyYgYbCyclingCodeEnumSet",
+  "description": "York LTC Legacy YG/YB Cycling Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYgYbCyclingCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYgYbCyclingCode1"
+      ],
+      "description": "LOW DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYgYbCyclingCode2"
+      ],
+      "description": "HIGH DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYgYbCyclingCode3"
+      ],
+      "description": "LOW EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYgYbCyclingCode4"
+      ],
+      "description": "LOW EVAPORATOR PRESSURE - BRINE"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYgYbCyclingCode5"
+      ],
+      "description": "HIGH EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYgYbCyclingCode6"
+      ],
+      "description": "HIGH CONDENSER PRESSURE"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYgYbCyclingCode7"
+      ],
+      "description": "FAULTY CONDENSER TRANSDUCER"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYgYbCyclingCode8"
+      ],
+      "description": "LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYgYbCyclingCode9"
+      ],
+      "description": "HIGH OIL PRESSURE"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYgYbCyclingCode10"
+      ],
+      "description": "HIGH OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYgYbCyclingCode11"
+      ],
+      "description": "FAULTY OIL TRANSDUCER"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYgYbCyclingCode12"
+      ],
+      "description": "OIL TRANSDUCER DIFFERENTIAL ERROR"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYgYbCyclingCode13"
+      ],
+      "description": "PROXIMITY SENSOR FAULT"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYgYbCyclingCode14"
+      ],
+      "description": "HIGH DRAIN LINE TEMPERATURE"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYgYbCyclingCode15"
+      ],
+      "description": "OPEN THERMOCOUPLE"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYgYbCyclingCode16"
+      ],
+      "description": "FAULTY PROXIMITY SENSOR"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYgYbCyclingCode17"
+      ],
+      "description": "POWER FAIL - MANUAL RESTART"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYgYbCyclingCode18"
+      ],
+      "description": "AUXILIARY SHUTDOWN"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYgYbCyclingCode19"
+      ],
+      "description": "CHILLED WATER FLOW FAULT"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYgYbCyclingCode20"
+      ],
+      "description": "COMPRESSOR OVERSPEED FAULT"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYgYbCyclingCode21"
+      ],
+      "description": "COMPRESSOR ROTATION FAULT"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYgYbCyclingCode22"
+      ],
+      "description": "ENGINE CLUTCH FAILURE"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYgYbCyclingCode23"
+      ],
+      "description": "ENGINE CRANKING FAULT"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYgYbCyclingCode24"
+      ],
+      "description": "ENGINE HIGH GLYCOL TEMPERATURE"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYgYbCyclingCode25"
+      ],
+      "description": "ENGINE HIGH JACKET WATER TEMPERATURE"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYgYbCyclingCode26"
+      ],
+      "description": "ENGINE LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        27,
+        "ltcLegacyYgYbCyclingCode27"
+      ],
+      "description": "ENGINE MANUAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        28,
+        "ltcLegacyYgYbCyclingCode28"
+      ],
+      "description": "ENGINE OVERLOAD FAULT"
+    },
+    {
+      "enum": [
+        29,
+        "ltcLegacyYgYbCyclingCode29"
+      ],
+      "description": "ENGINE OVERSPEED FAULT"
+    },
+    {
+      "enum": [
+        30,
+        "ltcLegacyYgYbCyclingCode30"
+      ],
+      "description": "ENGINE PANEL SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        31,
+        "ltcLegacyYgYbCyclingCode31"
+      ],
+      "description": "ENGINE PLC CONTROLLER FAULT"
+    },
+    {
+      "enum": [
+        32,
+        "ltcLegacyYgYbCyclingCode32"
+      ],
+      "description": "SURGE SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        33,
+        "ltcLegacyYgYbCyclingCode33"
+      ],
+      "description": "24 VOLT DC POWER FAULT"
+    }
+  ]
+}

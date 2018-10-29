@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJ51StatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJ51StatEnumSet",
+  "description": "York LTC Legacy YIA J51 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJ51Stat0"
+      ],
+      "description": "Loading Ovrdes Active"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJ51Stat1"
+      ],
+      "description": "No Loading Overrides"
+    }
+  ]
+}

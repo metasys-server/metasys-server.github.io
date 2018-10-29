@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reversingValveTypeEnumSet.schema.json",
+  "title": "reversingValveTypeEnumSet",
+  "description": "Reversing Valve Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "reversingValveTypeOType"
+      ],
+      "description": "O-Type"
+    },
+    {
+      "enum": [
+        1,
+        "reversingValveTypeBType"
+      ],
+      "description": "B-Type"
+    }
+  ]
+}

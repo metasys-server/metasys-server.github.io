@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/provPersistState.schema.json",
+  "title": "provPersistState",
+  "description": "Prov Persist State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "provPersistNotStarted"
+      ],
+      "description": "Not Started"
+    },
+    {
+      "enum": [
+        1,
+        "provPersistStarted"
+      ],
+      "description": "Started"
+    },
+    {
+      "enum": [
+        2,
+        "provPersistFailed"
+      ],
+      "description": "Failed"
+    },
+    {
+      "enum": [
+        3,
+        "provPersistComplete"
+      ],
+      "description": "Complete"
+    }
+  ]
+}

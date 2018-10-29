@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mzZoneModeEnumSet.schema.json",
+  "title": "mzZoneModeEnumSet",
+  "description": "MZ Zone Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mzZnModeShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "mzZnModeControl"
+      ],
+      "description": "Control"
+    }
+  ]
+}

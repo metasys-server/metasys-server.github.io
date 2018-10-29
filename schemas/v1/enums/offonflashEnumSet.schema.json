@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offonflashEnumSet.schema.json",
+  "title": "offonflashEnumSet",
+  "description": "Off On Flash",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "oofOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "oofOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "oofFlash"
+      ],
+      "description": "Flash"
+    }
+  ]
+}

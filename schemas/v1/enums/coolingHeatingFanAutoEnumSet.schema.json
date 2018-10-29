@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/coolingHeatingFanAutoEnumSet.schema.json",
+  "title": "coolingHeatingFanAutoEnumSet",
+  "description": "Cooling/Heating/Fan/Auto",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "coolingHeatingFanAutoCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        1,
+        "coolingHeatingFanAutoHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        2,
+        "coolingHeatingFanAutoFan"
+      ],
+      "description": "Fan"
+    },
+    {
+      "enum": [
+        3,
+        "coolingHeatingFanAutoAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

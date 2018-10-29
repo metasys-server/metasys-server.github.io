@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtSblndStateErrorEnumSet.schema.json",
+  "title": "snvtSblndStateErrorEnumSet",
+  "description": "SNVT Sblnd State Error",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sbeNoError"
+      ],
+      "description": "No error"
+    },
+    {
+      "enum": [
+        1,
+        "sbeInProgress"
+      ],
+      "description": "In progress"
+    },
+    {
+      "enum": [
+        2,
+        "sbeLimits"
+      ],
+      "description": "Limits"
+    },
+    {
+      "enum": [
+        3,
+        "sbeObstacleUp"
+      ],
+      "description": "Obstacle up"
+    },
+    {
+      "enum": [
+        4,
+        "sbeObstacleDown"
+      ],
+      "description": "Obstacle down"
+    },
+    {
+      "enum": [
+        5,
+        "sbeOverheat"
+      ],
+      "description": "Overheat"
+    },
+    {
+      "enum": [
+        6,
+        "sbePower"
+      ],
+      "description": "Power"
+    },
+    {
+      "enum": [
+        7,
+        "sbeSensor"
+      ],
+      "description": "Sensor"
+    },
+    {
+      "enum": [
+        8,
+        "sbeMotorCircuit"
+      ],
+      "description": "Motor circuit"
+    },
+    {
+      "enum": [
+        9,
+        "sbeFuse"
+      ],
+      "description": "Fuse"
+    },
+    {
+      "enum": [
+        10,
+        "sbeReferenceLost"
+      ],
+      "description": "Reference lost"
+    },
+    {
+      "enum": [
+        11,
+        "sbeHostComm"
+      ],
+      "description": "Host communication"
+    },
+    {
+      "enum": [
+        12,
+        "sbeVoltage1"
+      ],
+      "description": "Voltage 1"
+    },
+    {
+      "enum": [
+        13,
+        "sbeVoltage2"
+      ],
+      "description": "Voltage 2"
+    },
+    {
+      "enum": [
+        14,
+        "sbeController"
+      ],
+      "description": "Controller"
+    },
+    {
+      "enum": [
+        255,
+        "sbeNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

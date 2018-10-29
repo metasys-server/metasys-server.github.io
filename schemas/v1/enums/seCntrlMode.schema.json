@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seCntrlMode.schema.json",
+  "title": "seCntrlMode",
+  "description": "SE RTU Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seCntrlModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seCntrlModeOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "seCntrlModeUnrelSensor"
+      ],
+      "description": "Unreliable Sensor"
+    }
+  ]
+}

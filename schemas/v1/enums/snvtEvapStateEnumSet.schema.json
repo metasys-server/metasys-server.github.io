@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtEvapStateEnumSet.schema.json",
+  "title": "snvtEvapStateEnumSet",
+  "description": "SNVT Evaporation State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Cooling"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Emergency Cooling"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

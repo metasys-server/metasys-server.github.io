@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconCompressorControlStatusEnumSet.schema.json",
+  "title": "seEconCompressorControlStatusEnumSet",
+  "description": "SE ECON Compressor Control Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconCompressorControlStatusOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seEconCompressorControlStatusUnoccupiedOperation"
+      ],
+      "description": "Unoccupied Operation"
+    },
+    {
+      "enum": [
+        2,
+        "seEconCompressorControlStatusOccupiedOperation"
+      ],
+      "description": "Occupied Operation"
+    },
+    {
+      "enum": [
+        3,
+        "seEconCompressorControlStatusOffOatLockout"
+      ],
+      "description": "Off-OAT Lockout"
+    },
+    {
+      "enum": [
+        4,
+        "seEconCompressorControlStatusOffDisabled"
+      ],
+      "description": "Off-Disabled"
+    },
+    {
+      "enum": [
+        5,
+        "seEconCompressorControlStatusOffLockout"
+      ],
+      "description": "Off-Lockout"
+    },
+    {
+      "enum": [
+        6,
+        "seEconCompressorControlStatusOffLowSupplyVoltage"
+      ],
+      "description": "Off-Low Supply Voltage"
+    },
+    {
+      "enum": [
+        7,
+        "seEconCompressorControlStatusOffWaitingForChangeoverDelay"
+      ],
+      "description": "Off-Waiting for Changeover Delay"
+    },
+    {
+      "enum": [
+        8,
+        "seEconCompressorControlStatusOffFreeCooling"
+      ],
+      "description": "Off-Free Cooling"
+    }
+  ]
+}

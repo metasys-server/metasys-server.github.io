@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/enumSetCategorySet.schema.json",
+  "title": "enumSetCategorySet",
+  "description": "Enum Set Category",
+  "oneOf": [
+    {
+      "enum": [
+        801,
+        "twostateEnumSetCategory"
+      ],
+      "description": "Two State"
+    },
+    {
+      "enum": [
+        802,
+        "multistateEnumSetCategory"
+      ],
+      "description": "Multi State"
+    }
+  ]
+}

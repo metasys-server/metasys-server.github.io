@@ -1,0 +1,316 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/protocolSerSupportEnumSet.schema.json",
+  "title": "protocolSerSupportEnumSet",
+  "description": "Protocol Ser Support",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pssAcknowledgeAlarm"
+      ],
+      "description": "Acknowledge Alarm"
+    },
+    {
+      "enum": [
+        1,
+        "pssConfirmedCovNotify"
+      ],
+      "description": "Confirmed COV Notify"
+    },
+    {
+      "enum": [
+        2,
+        "pssComfirmEventNotify"
+      ],
+      "description": "Confirm Event Notify"
+    },
+    {
+      "enum": [
+        3,
+        "pssGetAlarmSummary"
+      ],
+      "description": "Get Alarm Summary"
+    },
+    {
+      "enum": [
+        4,
+        "pssGetEnrollmentSum"
+      ],
+      "description": "Get Enrollment Sum"
+    },
+    {
+      "enum": [
+        5,
+        "pssSubscribeCov"
+      ],
+      "description": "Subscribe COV"
+    },
+    {
+      "enum": [
+        6,
+        "pssAtomicReadFile"
+      ],
+      "description": "Atomic Read File"
+    },
+    {
+      "enum": [
+        7,
+        "pssAtomicWriteFile"
+      ],
+      "description": "Atomic Write File"
+    },
+    {
+      "enum": [
+        8,
+        "pssAddListElement"
+      ],
+      "description": "Add List Element"
+    },
+    {
+      "enum": [
+        9,
+        "pssRemoveListElement"
+      ],
+      "description": "Remove List Element"
+    },
+    {
+      "enum": [
+        10,
+        "pssCreateObject"
+      ],
+      "description": "Create Object"
+    },
+    {
+      "enum": [
+        11,
+        "pssDeleteObject"
+      ],
+      "description": "Delete Object"
+    },
+    {
+      "enum": [
+        12,
+        "pssReadProperty"
+      ],
+      "description": "Read Property"
+    },
+    {
+      "enum": [
+        13,
+        "pssReadPropertyCond"
+      ],
+      "description": "Unassigned13"
+    },
+    {
+      "enum": [
+        14,
+        "pssReadPropertyMult"
+      ],
+      "description": "Read Property Mult"
+    },
+    {
+      "enum": [
+        15,
+        "pssWriteProperty"
+      ],
+      "description": "Write Property"
+    },
+    {
+      "enum": [
+        16,
+        "pssWritePropertyMult"
+      ],
+      "description": "Write Property Mult"
+    },
+    {
+      "enum": [
+        17,
+        "pssDeviceCommControl"
+      ],
+      "description": "Device Comm Control"
+    },
+    {
+      "enum": [
+        18,
+        "pssConfirmPrivateXfer"
+      ],
+      "description": "Confirm Private Xfer"
+    },
+    {
+      "enum": [
+        19,
+        "pssConfirmTextMessage"
+      ],
+      "description": "Confirm Text Message"
+    },
+    {
+      "enum": [
+        20,
+        "pssReinitializeDevice"
+      ],
+      "description": "Reinitialize Device"
+    },
+    {
+      "enum": [
+        21,
+        "pssVtOpen"
+      ],
+      "description": "VT Open"
+    },
+    {
+      "enum": [
+        22,
+        "pssVtClose"
+      ],
+      "description": "VT Close"
+    },
+    {
+      "enum": [
+        23,
+        "pssVtData"
+      ],
+      "description": "VT Date"
+    },
+    {
+      "enum": [
+        24,
+        "pssAuthenticate"
+      ],
+      "description": "Unassigned24"
+    },
+    {
+      "enum": [
+        25,
+        "pssRequestKey"
+      ],
+      "description": "Unassigned25"
+    },
+    {
+      "enum": [
+        26,
+        "pssIAm"
+      ],
+      "description": "I Am"
+    },
+    {
+      "enum": [
+        27,
+        "pssIHave"
+      ],
+      "description": "I Have"
+    },
+    {
+      "enum": [
+        28,
+        "pssUnconfCovNotify"
+      ],
+      "description": "Unconf COV Notify"
+    },
+    {
+      "enum": [
+        29,
+        "pssUnconfEventNotify"
+      ],
+      "description": "Unconf Event Notify"
+    },
+    {
+      "enum": [
+        30,
+        "pssUnconfPrivateXfer"
+      ],
+      "description": "Unconf Private Xfer"
+    },
+    {
+      "enum": [
+        31,
+        "pssUnconfTextMessage"
+      ],
+      "description": "Unconf Text Message"
+    },
+    {
+      "enum": [
+        32,
+        "pssTimeSynchronization"
+      ],
+      "description": "Time Synchronization"
+    },
+    {
+      "enum": [
+        33,
+        "pssWhoHas"
+      ],
+      "description": "Who Has"
+    },
+    {
+      "enum": [
+        34,
+        "pssWhoIs"
+      ],
+      "description": "Who Is"
+    },
+    {
+      "enum": [
+        35,
+        "pssReadRange"
+      ],
+      "description": "Read Range"
+    },
+    {
+      "enum": [
+        36,
+        "pssUtcTimeSync"
+      ],
+      "description": "UTC Time Sync"
+    },
+    {
+      "enum": [
+        37,
+        "pssLifeSafetyOper"
+      ],
+      "description": "Life Safety Oper"
+    },
+    {
+      "enum": [
+        38,
+        "pssSubscribeCovProp"
+      ],
+      "description": "Subscribe COV Prop"
+    },
+    {
+      "enum": [
+        39,
+        "pssGetEventInfo"
+      ],
+      "description": "Get Event Info"
+    },
+    {
+      "enum": [
+        40,
+        "pssWriteGroup"
+      ],
+      "description": "Write Group"
+    },
+    {
+      "enum": [
+        41,
+        "pssSubscribeCovPropMult"
+      ],
+      "description": "Subscribe COV Prop Mult"
+    },
+    {
+      "enum": [
+        42,
+        "pssConfirmedCovNotifyMult"
+      ],
+      "description": "Confirmed COV Notify Mult"
+    },
+    {
+      "enum": [
+        43,
+        "pssUnconfCovNotifyMult"
+      ],
+      "description": "Unconf COV Notify Mult"
+    }
+  ]
+}

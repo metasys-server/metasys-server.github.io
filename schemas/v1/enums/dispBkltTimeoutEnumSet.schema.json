@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dispBkltTimeoutEnumSet.schema.json",
+  "title": "dispBkltTimeoutEnumSet",
+  "description": "Display Backlight Timeout",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dispBkltTout1Min"
+      ],
+      "description": "1 min"
+    },
+    {
+      "enum": [
+        1,
+        "dispBkltTout5Min"
+      ],
+      "description": "5 mins"
+    },
+    {
+      "enum": [
+        2,
+        "dispBkltTout1Hr"
+      ],
+      "description": "1 hour"
+    },
+    {
+      "enum": [
+        3,
+        "dispBkltTout8Hr"
+      ],
+      "description": "8 hours"
+    }
+  ]
+}

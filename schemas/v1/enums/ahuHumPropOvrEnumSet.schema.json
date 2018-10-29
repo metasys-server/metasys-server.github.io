@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHumPropOvrEnumSet.schema.json",
+  "title": "ahuHumPropOvrEnumSet",
+  "description": "AHU Hum Prop OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahpOvrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahpOvrHControl"
+      ],
+      "description": "H Control"
+    },
+    {
+      "enum": [
+        2,
+        "ahpOvrLmtHControl"
+      ],
+      "description": "Limited H Control"
+    },
+    {
+      "enum": [
+        3,
+        "ahpOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timeFormatEnumSet.schema.json",
+  "title": "timeFormatEnumSet",
+  "description": "Time Format",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "time12Mm"
+      ],
+      "description": "12 MM"
+    },
+    {
+      "enum": [
+        1,
+        "time12MmSs"
+      ],
+      "description": "12 MM SS"
+    },
+    {
+      "enum": [
+        2,
+        "time12MmAmpm"
+      ],
+      "description": "12 MM AMPM"
+    },
+    {
+      "enum": [
+        3,
+        "time12MmSsAmpm"
+      ],
+      "description": "12 MM SS AMPM"
+    },
+    {
+      "enum": [
+        4,
+        "time24Mm"
+      ],
+      "description": "24 MM"
+    },
+    {
+      "enum": [
+        5,
+        "time24MmSs"
+      ],
+      "description": "24 MM SS"
+    }
+  ]
+}

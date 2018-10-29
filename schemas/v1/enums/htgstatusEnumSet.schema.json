@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/htgstatusEnumSet.schema.json",
+  "title": "htgstatusEnumSet",
+  "description": "Htg Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Htg Ena"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Off Amb"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Off Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Off None"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Off Bal"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Off Sw"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Off Net"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Off Man"
+    }
+  ]
+}

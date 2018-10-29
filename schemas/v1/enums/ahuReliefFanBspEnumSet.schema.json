@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuReliefFanBspEnumSet.schema.json",
+  "title": "ahuReliefFanBspEnumSet",
+  "description": "AHU Relief Fan BSP",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "arfbOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "arfbMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "arfbMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        3,
+        "arfbHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "arfbBsPControl"
+      ],
+      "description": "BS-P Control"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/commandParmsEnumSet.schema.json",
+  "title": "commandParmsEnumSet",
+  "description": "Command Parms",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "valueCmdparm"
+      ],
+      "description": "Value"
+    },
+    {
+      "enum": [
+        1,
+        "priorityCmdparm"
+      ],
+      "description": "Priority"
+    },
+    {
+      "enum": [
+        2,
+        "attributeCmdparm"
+      ],
+      "description": "Attribute"
+    },
+    {
+      "enum": [
+        3,
+        "phoneNumberCmdparm"
+      ],
+      "description": "Phone Number"
+    },
+    {
+      "enum": [
+        4,
+        "connectToCmdparm"
+      ],
+      "description": "Connect To"
+    },
+    {
+      "enum": [
+        5,
+        "modemInitStringCmdparm"
+      ],
+      "description": "Modem Init String"
+    },
+    {
+      "enum": [
+        6,
+        "appendCrlfCmdparm"
+      ],
+      "description": "Append CRLF"
+    },
+    {
+      "enum": [
+        7,
+        "pumpStringCmdparm"
+      ],
+      "description": "Pump String"
+    },
+    {
+      "enum": [
+        8,
+        "connectionIdCmdparm"
+      ],
+      "description": "Connection ID"
+    },
+    {
+      "enum": [
+        9,
+        "dllrForCmdparm"
+      ],
+      "description": "DLLR For"
+    },
+    {
+      "enum": [
+        10,
+        "loginIdCmdparm"
+      ],
+      "description": "Login ID"
+    },
+    {
+      "enum": [
+        11,
+        "passwordCmdparm"
+      ],
+      "description": "Password"
+    },
+    {
+      "enum": [
+        12,
+        "newPasswordCmdparm"
+      ],
+      "description": "New Password"
+    },
+    {
+      "enum": [
+        13,
+        "confirmNewPasswordCmdparm"
+      ],
+      "description": "Confirm New Password"
+    },
+    {
+      "enum": [
+        14,
+        "destinationCmdparm"
+      ],
+      "description": "Destination"
+    },
+    {
+      "enum": [
+        15,
+        "originalNameCmdparm"
+      ],
+      "description": "Original Name"
+    },
+    {
+      "enum": [
+        16,
+        "updatedNameCmdparm"
+      ],
+      "description": "Updated Name"
+    },
+    {
+      "enum": [
+        17,
+        "newnameCmdparm"
+      ],
+      "description": "New Name"
+    },
+    {
+      "enum": [
+        18,
+        "updaterefCmdparm"
+      ],
+      "description": "Update References"
+    },
+    {
+      "enum": [
+        19,
+        "validDaysCmdparm"
+      ],
+      "description": "Valid Days"
+    },
+    {
+      "enum": [
+        20,
+        "fromTimeCmdparm"
+      ],
+      "description": "From Time"
+    },
+    {
+      "enum": [
+        21,
+        "toTimeCmdparm"
+      ],
+      "description": "To Time"
+    },
+    {
+      "enum": [
+        22,
+        "recChoiceCmdparm"
+      ],
+      "description": "Recipient Choice"
+    },
+    {
+      "enum": [
+        23,
+        "confNotifCmdparm"
+      ],
+      "description": "Confirmed Notif"
+    },
+    {
+      "enum": [
+        24,
+        "toNormalCmdparm"
+      ],
+      "description": "Transition to Normal"
+    },
+    {
+      "enum": [
+        25,
+        "toFaultCmdparm"
+      ],
+      "description": "Transition to Fault"
+    },
+    {
+      "enum": [
+        26,
+        "toOffnormalCmdparm"
+      ],
+      "description": "Trans to Off Normal"
+    },
+    {
+      "enum": [
+        27,
+        "indexCmdparm"
+      ],
+      "description": "Index"
+    },
+    {
+      "enum": [
+        28,
+        "n2AddrCmdparm"
+      ],
+      "description": "Network N2 Address"
+    },
+    {
+      "enum": [
+        29,
+        "trunknumCmdparm"
+      ],
+      "description": "Trunk Number"
+    },
+    {
+      "enum": [
+        30,
+        "commonLoadDataCmdparm"
+      ],
+      "description": "Common Load Data"
+    },
+    {
+      "enum": [
+        31,
+        "archiveCmdparm"
+      ],
+      "description": "Archive"
+    },
+    {
+      "enum": [
+        32,
+        "scheduledTimeCmdparm"
+      ],
+      "description": "Scheduled Time"
+    },
+    {
+      "enum": [
+        33,
+        "unitsCmdparm"
+      ],
+      "description": "New Units"
+    },
+    {
+      "enum": [
+        34,
+        "displayPrecisionCmdparm"
+      ],
+      "description": "New Display Precision"
+    },
+    {
+      "enum": [
+        35,
+        "sessionIdCmdparm"
+      ],
+      "description": "Session ID"
+    },
+    {
+      "enum": [
+        36,
+        "elemPropCmdparm"
+      ],
+      "description": "Element Property"
+    },
+    {
+      "enum": [
+        37,
+        "flowOverrideCmdparm"
+      ],
+      "description": "Flow Override"
+    },
+    {
+      "enum": [
+        38,
+        "balanceOverrideCmdparam"
+      ],
+      "description": "Balancer Override"
+    },
+    {
+      "enum": [
+        39,
+        "ductSelectionCmdparam"
+      ],
+      "description": "Duct Selection"
+    },
+    {
+      "enum": [
+        40,
+        "dataSelectionCmdparam"
+      ],
+      "description": "Data Selection"
+    },
+    {
+      "enum": [
+        41,
+        "currentFlowCmdparam"
+      ],
+      "description": "Current Flow"
+    },
+    {
+      "enum": [
+        42,
+        "typeCmdparm"
+      ],
+      "description": "Type"
+    },
+    {
+      "enum": [
+        43,
+        "targetLevelCmdparm"
+      ],
+      "description": "Target Level"
+    },
+    {
+      "enum": [
+        44,
+        "targetDescriptionCmdparm"
+      ],
+      "description": "Target Description"
+    },
+    {
+      "enum": [
+        45,
+        "modeCmdparm"
+      ],
+      "description": "Mode"
+    },
+    {
+      "enum": [
+        46,
+        "reliabilityCmdparm"
+      ],
+      "description": "Reliability"
+    },
+    {
+      "enum": [
+        47,
+        "overriddenCmdparm"
+      ],
+      "description": "Overridden"
+    },
+    {
+      "enum": [
+        48,
+        "secondsCmdparm"
+      ],
+      "description": "Seconds"
+    },
+    {
+      "enum": [
+        49,
+        "actionCmdparm"
+      ],
+      "description": "Action"
+    },
+    {
+      "enum": [
+        50,
+        "setToCmdparm"
+      ],
+      "description": "Set to"
+    },
+    {
+      "enum": [
+        51,
+        "areYouSureCmdparm"
+      ],
+      "description": "Are You Sure?"
+    },
+    {
+      "enum": [
+        52,
+        "idCmdparm"
+      ],
+      "description": "ID"
+    },
+    {
+      "enum": [
+        53,
+        "facilityCodeCmdparm"
+      ],
+      "description": "Facility Code"
+    },
+    {
+      "enum": [
+        54,
+        "badgeNumberCmdparm"
+      ],
+      "description": "Badge Number"
+    },
+    {
+      "enum": [
+        55,
+        "fullBadgeNumberCmdparm"
+      ],
+      "description": "Full Badge Number"
+    },
+    {
+      "enum": [
+        56,
+        "instanceCmdparm"
+      ],
+      "description": "Instance"
+    },
+    {
+      "enum": [
+        57,
+        "hoursCmdparm"
+      ],
+      "description": "Hours"
+    },
+    {
+      "enum": [
+        58,
+        "minutesCmdparm"
+      ],
+      "description": "Minutes"
+    },
+    {
+      "enum": [
+        59,
+        "connectionQualityCmdprm"
+      ],
+      "description": "Connection Quality"
+    }
+  ]
+}

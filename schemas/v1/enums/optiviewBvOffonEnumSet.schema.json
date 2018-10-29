@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewBvOffonEnumSet.schema.json",
+  "title": "optiviewBvOffonEnumSet",
+  "description": "OptiView BV Off On",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewBvOffonOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewBvOffonOn"
+      ],
+      "description": "On"
+    }
+  ]
+}

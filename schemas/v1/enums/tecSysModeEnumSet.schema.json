@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecSysModeEnumSet.schema.json",
+  "title": "tecSysModeEnumSet",
+  "description": "TEC System Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecSysModeNotUsed"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        1,
+        "tecSysModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        2,
+        "tecSysModeAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        3,
+        "tecSysModeClg"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "tecSysModeHtg"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        5,
+        "tecSysModeEmgHeat"
+      ],
+      "description": "Emergency Heat"
+    }
+  ]
+}

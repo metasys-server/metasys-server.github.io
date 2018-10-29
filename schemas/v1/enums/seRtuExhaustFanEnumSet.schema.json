@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuExhaustFanEnumSet.schema.json",
+  "title": "seRtuExhaustFanEnumSet",
+  "description": "SE RTU Exhaust Fan",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuExhaustFanOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuExhaustFanOnNormalCommand"
+      ],
+      "description": "On-Normal Command"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuExhaustFanOffDisabled"
+      ],
+      "description": "Off-Disabled"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuExhaustFanOffVfdFault"
+      ],
+      "description": "Off-VFD Fault"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuExhaustFanOffLowBldgStaticPressure"
+      ],
+      "description": "Off-Low Building Static Pressure"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuExhaustFanOffEconDampterPos"
+      ],
+      "description": "Off-Economizer Damper Position"
+    }
+  ]
+}

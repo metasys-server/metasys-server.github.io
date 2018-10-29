@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/analogAlarmValueEnumSet.schema.json",
+  "title": "analogAlarmValueEnumSet",
+  "description": "Analog Alarm Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "anaNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "anaLoWarn"
+      ],
+      "description": "Low Warning"
+    },
+    {
+      "enum": [
+        2,
+        "anaHiWarn"
+      ],
+      "description": "High Warning"
+    },
+    {
+      "enum": [
+        3,
+        "anaLoAlarm"
+      ],
+      "description": "Low Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "anaHiAlarm"
+      ],
+      "description": "High Alarm"
+    },
+    {
+      "enum": [
+        5,
+        "anaAboveSetpoint"
+      ],
+      "description": "Above Setpoint"
+    },
+    {
+      "enum": [
+        6,
+        "anaBelowSetpoint"
+      ],
+      "description": "Below Setpoint"
+    },
+    {
+      "enum": [
+        7,
+        "anaUnoccupied"
+      ],
+      "description": "Unoccupied"
+    }
+  ]
+}

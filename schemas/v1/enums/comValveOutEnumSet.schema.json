@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/comValveOutEnumSet.schema.json",
+  "title": "comValveOutEnumSet",
+  "description": "COM Valve Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cvoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "cvoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "cvoLmtMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "cvoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "cvoWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "cvoCtrl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        6,
+        "cvoFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

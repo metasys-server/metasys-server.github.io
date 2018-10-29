@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vmaBalancerAutocalEnumSet.schema.json",
+  "title": "vmaBalancerAutocalEnumSet",
+  "description": "VMA Balancer Autocal",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vmaBalHeat"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        1,
+        "vmaBalCool"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "vmaBalDischarge"
+      ],
+      "description": "Discharge Air"
+    },
+    {
+      "enum": [
+        3,
+        "vmaBalReturn"
+      ],
+      "description": "Return Air"
+    }
+  ]
+}

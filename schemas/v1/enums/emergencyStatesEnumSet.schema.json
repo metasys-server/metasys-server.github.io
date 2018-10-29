@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/emergencyStatesEnumSet.schema.json",
+  "title": "emergencyStatesEnumSet",
+  "description": "Emergency States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "esNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "esPressurize"
+      ],
+      "description": "Pressurize"
+    },
+    {
+      "enum": [
+        2,
+        "esDepressurize"
+      ],
+      "description": "Depressurize"
+    },
+    {
+      "enum": [
+        3,
+        "esPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        4,
+        "esShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        5,
+        "esPreShutdown"
+      ],
+      "description": "Pre-Shutdown"
+    }
+  ]
+}

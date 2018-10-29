@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fieldDeviceTypeEnumSet.schema.json",
+  "title": "fieldDeviceTypeEnumSet",
+  "description": "Field Device Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "N2 Controller"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "LON Controller"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "BACnet IP Device"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "N1 Supervisor (NCM)"
+    }
+  ]
+}

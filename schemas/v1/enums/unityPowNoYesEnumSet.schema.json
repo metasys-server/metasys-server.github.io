@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityPowNoYesEnumSet.schema.json",
+  "title": "unityPowNoYesEnumSet",
+  "description": "Unity POW No/Yes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "YES"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "NO"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "MANUAL, YES"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MANUAL, NO"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

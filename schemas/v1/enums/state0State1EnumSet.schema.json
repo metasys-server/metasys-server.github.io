@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/state0State1EnumSet.schema.json",
+  "title": "state0State1EnumSet",
+  "description": "State0 State1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "State0"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "State1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

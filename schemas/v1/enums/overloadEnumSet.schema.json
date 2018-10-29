@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/overloadEnumSet.schema.json",
+  "title": "overloadEnumSet",
+  "description": "Overload",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "overloadNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "overloadMemoryResources"
+      ],
+      "description": "Memory Overload"
+    },
+    {
+      "enum": [
+        2,
+        "overloadCpuUtilization"
+      ],
+      "description": "CPU Overload"
+    },
+    {
+      "enum": [
+        3,
+        "overloadSignupDb"
+      ],
+      "description": "Signup Overload"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/threeSpeedFsmEnumSet.schema.json",
+  "title": "threeSpeedFsmEnumSet",
+  "description": "Three Speed FSM",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tsfsmNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "tsfsmStageDown1"
+      ],
+      "description": "Stage Down 1"
+    },
+    {
+      "enum": [
+        2,
+        "tsfsmStageDown2"
+      ],
+      "description": "Stage Down 2"
+    },
+    {
+      "enum": [
+        3,
+        "tsfsmStageUp"
+      ],
+      "description": "Stage Up"
+    }
+  ]
+}

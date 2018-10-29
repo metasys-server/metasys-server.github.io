@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydcuModelEnumSet.schema.json",
+  "title": "ydcuModelEnumSet",
+  "description": "YDCU Model",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "york5090Dcu"
+      ],
+      "description": "York 50/90 DCU"
+    }
+  ]
+}

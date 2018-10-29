@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hxRotationModeEnumSet.schema.json",
+  "title": "hxRotationModeEnumSet",
+  "description": "HX Rotation Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "none"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "runTime"
+      ],
+      "description": "Run Time"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/coresenseAlarmCodesEnumSet.schema.json",
+  "title": "coresenseAlarmCodesEnumSet",
+  "description": "CoreSense Alarm Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "coresenseAlarmCodesNormalOperation"
+      ],
+      "description": "Normal Operation"
+    },
+    {
+      "enum": [
+        1,
+        "coresenseAlarmCodesLossOfCommunicationToE2"
+      ],
+      "description": "Loss of Communication to E2"
+    },
+    {
+      "enum": [
+        2,
+        "coresenseAlarmCodesOpenOrShortSpareThermistorWarning"
+      ],
+      "description": "Open OR Short Spare Thermistor Warning"
+    },
+    {
+      "enum": [
+        3,
+        "coresenseAlarmCodesOpenOrShortScrollThermistorWarning"
+      ],
+      "description": "Open OR Short Scroll Thermistor Warning"
+    },
+    {
+      "enum": [
+        4,
+        "coresenseAlarmCodesShortCycleWarning"
+      ],
+      "description": "Short Cycle Warning"
+    },
+    {
+      "enum": [
+        5,
+        "coresenseAlarmCodesModuleLowVoltageTrip"
+      ],
+      "description": "Module Low Voltage Trip"
+    },
+    {
+      "enum": [
+        6,
+        "coresenseAlarmCodesSpareHighTemperatureTrip"
+      ],
+      "description": "Spare High Temperature Trip"
+    },
+    {
+      "enum": [
+        7,
+        "coresenseAlarmCodesMissingPhaseTrip"
+      ],
+      "description": "Missing Phase Trip"
+    },
+    {
+      "enum": [
+        8,
+        "coresenseAlarmCodesScrollHighTemperatureTrip"
+      ],
+      "description": "Scroll High Temperature Trip"
+    },
+    {
+      "enum": [
+        9,
+        "coresenseAlarmCodesMotorThermistorOpenOrShortTrip"
+      ],
+      "description": "Motor Thermistor Open OR Short Trip"
+    },
+    {
+      "enum": [
+        10,
+        "coresenseAlarmCodesMotorHighTemperatureTrip"
+      ],
+      "description": "Motor High Temperature Trip"
+    },
+    {
+      "enum": [
+        11,
+        "coresenseAlarmCodesShortCycleLockout"
+      ],
+      "description": "Short Cycle Lockout"
+    },
+    {
+      "enum": [
+        12,
+        "coresenseAlarmCodesSpareHighTemperatureLockout"
+      ],
+      "description": "Spare High Temperature Lockout"
+    },
+    {
+      "enum": [
+        13,
+        "coresenseAlarmCodesMotorHighTempOpenOrShortLockout"
+      ],
+      "description": "Motor High Temp Open OR Short Lockout"
+    },
+    {
+      "enum": [
+        14,
+        "coresenseAlarmCodesReversePhaseLockout"
+      ],
+      "description": "Reverse Phase Lockout"
+    },
+    {
+      "enum": [
+        15,
+        "coresenseAlarmCodesMissingPhaseLockout"
+      ],
+      "description": "Missing Phase Lockout"
+    },
+    {
+      "enum": [
+        16,
+        "coresenseAlarmCodesScrollHighTemperatureLockout"
+      ],
+      "description": "Scroll High Temperature Lockout"
+    },
+    {
+      "enum": [
+        17,
+        "coresenseAlarmCodesMotorHighTemperatureTripLockout"
+      ],
+      "description": "Motor High Temperature Trip Lockout"
+    },
+    {
+      "enum": [
+        18,
+        "coresenseAlarmCodesP47ModuleFailure"
+      ],
+      "description": "P47 Module Failure"
+    }
+  ]
+}

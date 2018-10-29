@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normal100EnumSet.schema.json",
+  "title": "normal100EnumSet",
+  "description": "100 Normal",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Not Operating"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Normal Start"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Minimum DAT Control"
+    }
+  ]
+}

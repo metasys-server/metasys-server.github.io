@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc1EnumSet.schema.json",
+  "title": "optiviewYrSc1EnumSet",
+  "description": "Optiview YR Operation Code SC.1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewYrSc10"
+      ],
+      "description": "UNIT STOPPED - READY TO START"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewYrSc11"
+      ],
+      "description": "UNIT STOPPED - LOCAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        2,
+        "optiviewYrSc12"
+      ],
+      "description": "UNIT STOPPED - REMOTE SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "optiviewYrSc13"
+      ],
+      "description": "UNIT STOPPED - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        4,
+        "optiviewYrSc14"
+      ],
+      "description": "UNIT STOPPED - CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        5,
+        "optiviewYrSc15"
+      ],
+      "description": "UNIT STOPPED - SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        6,
+        "optiviewYrSc16"
+      ],
+      "description": "UNIT START INHIBIT"
+    },
+    {
+      "enum": [
+        7,
+        "optiviewYrSc17"
+      ],
+      "description": "UNIT STARTING"
+    },
+    {
+      "enum": [
+        8,
+        "optiviewYrSc18"
+      ],
+      "description": "UNIT RUNNING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        9,
+        "optiviewYrSc19"
+      ],
+      "description": "UNIT RUNNING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        10,
+        "optiviewYrSc110"
+      ],
+      "description": "UNIT RUNNING - CHILLER UNLOAD BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        11,
+        "optiviewYrSc111"
+      ],
+      "description": "UNIT LOCKOUT DELAY"
+    },
+    {
+      "enum": [
+        12,
+        "optiviewYrSc112"
+      ],
+      "description": "UNIT RUNNING - MODIFIED RUN*"
+    },
+    {
+      "enum": [
+        13,
+        "optiviewYrSc113"
+      ],
+      "description": "UNIT STOPPED - INTERNAL SHUTDOWN*"
+    },
+    {
+      "enum": [
+        14,
+        "optiviewYrSc114"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "optiviewYrSc115"
+      ],
+      "description": "RESERVED 15"
+    }
+  ]
+}

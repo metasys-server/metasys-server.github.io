@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dllrcStatusEnumSet.schema.json",
+  "title": "dllrcStatusEnumSet",
+  "description": "DLLRC Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Not used"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "In Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Register"
+    }
+  ]
+}

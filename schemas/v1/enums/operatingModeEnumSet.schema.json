@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/operatingModeEnumSet.schema.json",
+  "title": "operatingModeEnumSet",
+  "description": "Operating Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "unoccupiedMode"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        1,
+        "cooldownMode"
+      ],
+      "description": "Cooldown"
+    },
+    {
+      "enum": [
+        2,
+        "warmupMode"
+      ],
+      "description": "Warmup"
+    },
+    {
+      "enum": [
+        3,
+        "normalMode"
+      ],
+      "description": "Normal"
+    }
+  ]
+}

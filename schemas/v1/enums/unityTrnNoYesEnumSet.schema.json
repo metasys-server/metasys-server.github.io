@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityTrnNoYesEnumSet.schema.json",
+  "title": "unityTrnNoYesEnumSet",
+  "description": "Unity TRN No Yes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual Yes"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Manual No"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Auto Restore-Yes"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto Restore-No"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Yes"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "No"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Release"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occupancySourceEnumSet.schema.json",
+  "title": "occupancySourceEnumSet",
+  "description": "Occupancy Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Int Schedule"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Net Schedule"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Occ Mode"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Remote Sw"
+    }
+  ]
+}

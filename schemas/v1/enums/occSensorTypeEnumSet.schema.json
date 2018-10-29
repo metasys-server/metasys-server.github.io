@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occSensorTypeEnumSet.schema.json",
+  "title": "occSensorTypeEnumSet",
+  "description": "Occ Sensor Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Comfort"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Energy"
+    }
+  ]
+}

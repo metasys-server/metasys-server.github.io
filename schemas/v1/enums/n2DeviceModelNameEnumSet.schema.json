@@ -1,0 +1,288 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/n2DeviceModelNameEnumSet.schema.json",
+  "title": "n2DeviceModelNameEnumSet",
+  "description": "N2 Device Model Name",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "devmodelUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "devmodelDr9100"
+      ],
+      "description": "DR-9100"
+    },
+    {
+      "enum": [
+        2,
+        "devmodelDo9100"
+      ],
+      "description": "DO-9100"
+    },
+    {
+      "enum": [
+        3,
+        "devmodelDx9100"
+      ],
+      "description": "DX-9100"
+    },
+    {
+      "enum": [
+        4,
+        "devmodelDc9100"
+      ],
+      "description": "DC-9100"
+    },
+    {
+      "enum": [
+        5,
+        "devmodelTc9100"
+      ],
+      "description": "TC-9100"
+    },
+    {
+      "enum": [
+        6,
+        "devmodelXt9100"
+      ],
+      "description": "XT-9100"
+    },
+    {
+      "enum": [
+        7,
+        "devmodelRc9100"
+      ],
+      "description": "RC-9100"
+    },
+    {
+      "enum": [
+        8,
+        "devmodelUi9100"
+      ],
+      "description": "UI-9100"
+    },
+    {
+      "enum": [
+        9,
+        "devmodelXtm105"
+      ],
+      "description": "XTM-105"
+    },
+    {
+      "enum": [
+        10,
+        "devmodelXtm905"
+      ],
+      "description": "XTM-905"
+    },
+    {
+      "enum": [
+        11,
+        "devmodelMig"
+      ],
+      "description": "Metasys Integrator"
+    },
+    {
+      "enum": [
+        12,
+        "devmodelVnd"
+      ],
+      "description": "Vendor Device"
+    },
+    {
+      "enum": [
+        13,
+        "devmodelLdt"
+      ],
+      "description": "LTD"
+    },
+    {
+      "enum": [
+        14,
+        "devmodelDcm"
+      ],
+      "description": "PIDC"
+    },
+    {
+      "enum": [
+        15,
+        "devmodelDcm140"
+      ],
+      "description": "DCM-140"
+    },
+    {
+      "enum": [
+        16,
+        "devmodelUnt"
+      ],
+      "description": "UNT"
+    },
+    {
+      "enum": [
+        17,
+        "devmodelVav"
+      ],
+      "description": "VAV"
+    },
+    {
+      "enum": [
+        18,
+        "devmodelAhu"
+      ],
+      "description": "AHU"
+    },
+    {
+      "enum": [
+        19,
+        "devmodelVma"
+      ],
+      "description": "VMA"
+    },
+    {
+      "enum": [
+        20,
+        "devmodelNdm"
+      ],
+      "description": "NDM"
+    },
+    {
+      "enum": [
+        21,
+        "devmodelPhx"
+      ],
+      "description": "Phoenix Fume Hood"
+    },
+    {
+      "enum": [
+        22,
+        "devmodelIlc"
+      ],
+      "description": "Lighting Controller"
+    },
+    {
+      "enum": [
+        23,
+        "devmodelIac"
+      ],
+      "description": "Access Controller"
+    },
+    {
+      "enum": [
+        24,
+        "devmodelIfc"
+      ],
+      "description": "IFC 1010/2020"
+    },
+    {
+      "enum": [
+        25,
+        "devmodelXmbin32"
+      ],
+      "description": "XM BIN-32"
+    },
+    {
+      "enum": [
+        26,
+        "devmodelXmroe2X2"
+      ],
+      "description": "XM ROE-2x2"
+    },
+    {
+      "enum": [
+        27,
+        "devmodelXmroe2X3"
+      ],
+      "description": "XM ROE-2x3"
+    },
+    {
+      "enum": [
+        28,
+        "devmodelXmroe8"
+      ],
+      "description": "XM ROE-8"
+    },
+    {
+      "enum": [
+        29,
+        "devmodelXmrol2X2"
+      ],
+      "description": "XM ROL-2x2"
+    },
+    {
+      "enum": [
+        30,
+        "devmodelXmrol2X3"
+      ],
+      "description": "XM ROL-2x3"
+    },
+    {
+      "enum": [
+        31,
+        "devmodelXmrol8"
+      ],
+      "description": "XM ROL-8"
+    },
+    {
+      "enum": [
+        32,
+        "devmodelXmrsm2X2"
+      ],
+      "description": "XM RSM-2x2"
+    },
+    {
+      "enum": [
+        33,
+        "devmodelXmrsm2X3"
+      ],
+      "description": "XM RSM-2x3"
+    },
+    {
+      "enum": [
+        34,
+        "devmodelXmrsm8"
+      ],
+      "description": "XM RSM-8"
+    },
+    {
+      "enum": [
+        35,
+        "devmodelDx9100Fac"
+      ],
+      "description": "DX-9100 Fac"
+    },
+    {
+      "enum": [
+        36,
+        "devmodelTc9100Fac"
+      ],
+      "description": "TC-9100 Fac"
+    },
+    {
+      "enum": [
+        37,
+        "devmodelUntfac"
+      ],
+      "description": "UNT Fac"
+    },
+    {
+      "enum": [
+        38,
+        "devmodelVavfac"
+      ],
+      "description": "VAV Fac"
+    },
+    {
+      "enum": [
+        39,
+        "devmodelAhufac"
+      ],
+      "description": "AHU Fac"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occupancyScheduleEnumSet.schema.json",
+  "title": "occupancyScheduleEnumSet",
+  "description": "Occ Schedule",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "occupancyScheduleOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "occupancyScheduleUnoccupied"
+      ],
+      "description": "UnOccupied"
+    },
+    {
+      "enum": [
+        2,
+        "occupancyScheduleStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        3,
+        "occupancyScheduleNotSet"
+      ],
+      "description": "Not Set"
+    }
+  ]
+}

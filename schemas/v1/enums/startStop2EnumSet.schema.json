@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/startStop2EnumSet.schema.json",
+  "title": "startStop2EnumSet",
+  "description": "Start/Stop",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "strtStpStart"
+      ],
+      "description": "Start"
+    },
+    {
+      "enum": [
+        1,
+        "strtStpStop"
+      ],
+      "description": "Stop"
+    }
+  ]
+}

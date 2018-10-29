@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/airHandlerTypeEnumSet.schema.json",
+  "title": "airHandlerTypeEnumSet",
+  "description": "Air Handler Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "maSinglePath"
+      ],
+      "description": "Mixed Air Single Path"
+    },
+    {
+      "enum": [
+        1,
+        "maDualPath"
+      ],
+      "description": "Mixed Air Dual Path"
+    },
+    {
+      "enum": [
+        2,
+        "hundPcSinglePath"
+      ],
+      "description": "100% OA Single Path"
+    },
+    {
+      "enum": [
+        3,
+        "hundPcDualPath"
+      ],
+      "description": "100% OA Dual Path"
+    },
+    {
+      "enum": [
+        4,
+        "multizone"
+      ],
+      "description": "Multizone"
+    },
+    {
+      "enum": [
+        5,
+        "computerRoomAirConditioner"
+      ],
+      "description": "Computer Room Air Conditioner"
+    },
+    {
+      "enum": [
+        6,
+        "packagedRooftop"
+      ],
+      "description": "Packaged Rooftop"
+    },
+    {
+      "enum": [
+        7,
+        "makeUpAirUnit"
+      ],
+      "description": "Make Up Air Unit"
+    }
+  ]
+}

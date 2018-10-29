@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectionTypeEnumSet.schema.json",
+  "title": "connectionTypeEnumSet",
+  "description": "Connection Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Connection"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Ethernet Connection"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Direct Connection"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Dial Connection"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "N2 Bus Connection"
+    }
+  ]
+}

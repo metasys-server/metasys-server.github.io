@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/exitEnterEnumSet.schema.json",
+  "title": "exitEnterEnumSet",
+  "description": "Exit Enter",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Exit"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Enter"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

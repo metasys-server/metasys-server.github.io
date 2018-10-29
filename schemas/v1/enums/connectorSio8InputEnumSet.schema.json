@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorSio8InputEnumSet.schema.json",
+  "title": "connectorSio8InputEnumSet",
+  "description": "Connector SIO8 Input",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorSio8InputAl1"
+      ],
+      "description": "AL1"
+    },
+    {
+      "enum": [
+        1,
+        "connectorSio8InputAl2"
+      ],
+      "description": "AL2"
+    },
+    {
+      "enum": [
+        2,
+        "connectorSio8InputAl3"
+      ],
+      "description": "AL3"
+    },
+    {
+      "enum": [
+        3,
+        "connectorSio8InputAl4"
+      ],
+      "description": "AL4"
+    },
+    {
+      "enum": [
+        4,
+        "connectorSio8InputAl5"
+      ],
+      "description": "AL5"
+    },
+    {
+      "enum": [
+        5,
+        "connectorSio8InputAl6"
+      ],
+      "description": "AL6"
+    },
+    {
+      "enum": [
+        6,
+        "connectorSio8InputAl7"
+      ],
+      "description": "AL7"
+    },
+    {
+      "enum": [
+        7,
+        "connectorSio8InputAl8"
+      ],
+      "description": "AL8"
+    }
+  ]
+}

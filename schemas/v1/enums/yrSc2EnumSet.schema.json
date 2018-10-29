@@ -1,0 +1,463 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yrSc2EnumSet.schema.json",
+  "title": "yrSc2EnumSet",
+  "description": "YR Unit Safety Fault Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yrSc20"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "yrSc21"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "yrSc22"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        3,
+        "yrSc23"
+      ],
+      "description": "EVAPORATOR - TEMPERATURE TRANSDUCER"
+    },
+    {
+      "enum": [
+        4,
+        "yrSc24"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        5,
+        "yrSc25"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "yrSc26"
+      ],
+      "description": "CONDENSER - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        7,
+        "yrSc27"
+      ],
+      "description": "AUXILIARY SAFETY - CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        8,
+        "yrSc28"
+      ],
+      "description": "DISCHARGE - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        9,
+        "yrSc29"
+      ],
+      "description": "DISCHARGE - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "yrSc210"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "yrSc211"
+      ],
+      "description": "OIL - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        12,
+        "yrSc212"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "yrSc213"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "yrSc214"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "yrSc215"
+      ],
+      "description": "OIL - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        16,
+        "yrSc216"
+      ],
+      "description": "OIL - FILTER CLOGGED"
+    },
+    {
+      "enum": [
+        17,
+        "yrSc217"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "yrSc218"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "yrSc219"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "yrSc220"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "yrSc221"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "yrSc222"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "yrSc223"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "yrSc224"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "yrSc225"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "yrSc226"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "yrSc227"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "yrSc228"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "yrSc229"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "yrSc230"
+      ],
+      "description": "RESERVED 30"
+    },
+    {
+      "enum": [
+        31,
+        "yrSc231"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "yrSc232"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "yrSc233"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "yrSc234"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "yrSc235"
+      ],
+      "description": "RESERVED 35"
+    },
+    {
+      "enum": [
+        36,
+        "yrSc236"
+      ],
+      "description": "RESERVED 36"
+    },
+    {
+      "enum": [
+        37,
+        "yrSc237"
+      ],
+      "description": "RESERVED 37"
+    },
+    {
+      "enum": [
+        38,
+        "yrSc238"
+      ],
+      "description": "LCSSS - PHASE LOSS"
+    },
+    {
+      "enum": [
+        39,
+        "yrSc239"
+      ],
+      "description": "LCSSS - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        40,
+        "yrSc240"
+      ],
+      "description": "LCSSS - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        41,
+        "yrSc241"
+      ],
+      "description": "LCSSS - HIGH CURRENT"
+    },
+    {
+      "enum": [
+        42,
+        "yrSc242"
+      ],
+      "description": "LCSSS - OPEN SCR"
+    },
+    {
+      "enum": [
+        43,
+        "yrSc243"
+      ],
+      "description": "LCSSS - SHORTED PHASE A SCR"
+    },
+    {
+      "enum": [
+        44,
+        "yrSc244"
+      ],
+      "description": "LCSSS - SHORTED PHASE B SCR"
+    },
+    {
+      "enum": [
+        45,
+        "yrSc245"
+      ],
+      "description": "LCSSS - SHORTED PHASE C SCR"
+    },
+    {
+      "enum": [
+        46,
+        "yrSc246"
+      ],
+      "description": "LCSSS - HIGH PHASE A TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        47,
+        "yrSc247"
+      ],
+      "description": "LCSSS - HIGH PHASE B TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        48,
+        "yrSc248"
+      ],
+      "description": "LCSSS - HIGH PHASE C TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        49,
+        "yrSc249"
+      ],
+      "description": "STARTER - INVALID MOTOR SELECTION"
+    },
+    {
+      "enum": [
+        50,
+        "yrSc250"
+      ],
+      "description": "OIL OR CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        51,
+        "yrSc251"
+      ],
+      "description": "RESERVED 51"
+    },
+    {
+      "enum": [
+        52,
+        "yrSc252"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    },
+    {
+      "enum": [
+        53,
+        "yrSc253"
+      ],
+      "description": "RESERVED 53"
+    },
+    {
+      "enum": [
+        54,
+        "yrSc254"
+      ],
+      "description": "RESERVED 54"
+    },
+    {
+      "enum": [
+        55,
+        "yrSc255"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "yrSc256"
+      ],
+      "description": "RESERVED 56"
+    },
+    {
+      "enum": [
+        57,
+        "yrSc257"
+      ],
+      "description": "RESERVED 57"
+    },
+    {
+      "enum": [
+        58,
+        "yrSc258"
+      ],
+      "description": "MOTOR - PHASE ROTATION"
+    },
+    {
+      "enum": [
+        59,
+        "yrSc259"
+      ],
+      "description": "MOTOR - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        60,
+        "yrSc260"
+      ],
+      "description": "DISCHARGE - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        61,
+        "yrSc261"
+      ],
+      "description": "RESERVED 61"
+    },
+    {
+      "enum": [
+        62,
+        "yrSc262"
+      ],
+      "description": "RESERVED 62"
+    },
+    {
+      "enum": [
+        63,
+        "yrSc263"
+      ],
+      "description": "MOTOR - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        64,
+        "yrSc264"
+      ],
+      "description": "MOTOR - LOW SUPPLY LINE VOLTAGE"
+    }
+  ]
+}

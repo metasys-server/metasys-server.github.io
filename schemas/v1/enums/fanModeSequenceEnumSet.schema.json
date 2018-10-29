@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fanModeSequenceEnumSet.schema.json",
+  "title": "fanModeSequenceEnumSet",
+  "description": "Fan Mode Sequence",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Low-Med-High"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Low-High"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Low-Med-High-Auto"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Low-High-Auto"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "On-Auto"
+    }
+  ]
+}

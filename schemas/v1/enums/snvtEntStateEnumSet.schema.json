@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtEntStateEnumSet.schema.json",
+  "title": "snvtEntStateEnumSet",
+  "description": "SNVT Entry State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "esUndefined"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "esOpenPlus"
+      ],
+      "description": "Open and Close"
+    },
+    {
+      "enum": [
+        2,
+        "esOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        3,
+        "esClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        4,
+        "esStop"
+      ],
+      "description": "Stop"
+    },
+    {
+      "enum": [
+        5,
+        "esStopResume"
+      ],
+      "description": "Continue after stop"
+    },
+    {
+      "enum": [
+        6,
+        "esEntryReq"
+      ],
+      "description": "Entry request"
+    },
+    {
+      "enum": [
+        7,
+        "esExitReq"
+      ],
+      "description": "Exit request"
+    },
+    {
+      "enum": [
+        8,
+        "esKeyReq"
+      ],
+      "description": "Key request"
+    },
+    {
+      "enum": [
+        9,
+        "esSafetyExtReq"
+      ],
+      "description": "Safety request"
+    },
+    {
+      "enum": [
+        10,
+        "esEmergencyReq"
+      ],
+      "description": "Emergency request"
+    },
+    {
+      "enum": [
+        11,
+        "esUpdateState"
+      ],
+      "description": "Update state"
+    },
+    {
+      "enum": [
+        12,
+        "esSafExtResume"
+      ],
+      "description": "Resume after Safety"
+    },
+    {
+      "enum": [
+        13,
+        "esEmergResume"
+      ],
+      "description": "Resume after Emergency"
+    },
+    {
+      "enum": [
+        255,
+        "esNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

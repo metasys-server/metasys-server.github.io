@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtDefrModeEnumSet.schema.json",
+  "title": "snvtDefrModeEnumSet",
+  "description": "SNVT Defrost Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Ambient"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Forced"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Synchronized"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

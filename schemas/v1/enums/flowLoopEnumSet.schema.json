@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/flowLoopEnumSet.schema.json",
+  "title": "flowLoopEnumSet",
+  "description": "Flow Loop",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Reliable"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Incr to Posn"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Unreliable"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Posn to Incr"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Dep to Ind"
+    }
+  ]
+}

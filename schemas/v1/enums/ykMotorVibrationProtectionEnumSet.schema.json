@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykMotorVibrationProtectionEnumSet.schema.json",
+  "title": "ykMotorVibrationProtectionEnumSet",
+  "description": "YK Motor Vibration Protection",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykMotorVibrationProtection0"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "ykMotorVibrationProtection1"
+      ],
+      "description": "Rolling Element"
+    }
+  ]
+}

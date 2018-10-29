@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/saturationStatusEnumSet.schema.json",
+  "title": "saturationStatusEnumSet",
+  "description": "Saturation Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ssNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "ssLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        2,
+        "ssHigh"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        3,
+        "ssTimingHigh"
+      ],
+      "description": "Timing High"
+    },
+    {
+      "enum": [
+        4,
+        "ssTimingLow"
+      ],
+      "description": "Timing Low"
+    }
+  ]
+}

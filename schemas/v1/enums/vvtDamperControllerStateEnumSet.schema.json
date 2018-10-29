@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vvtDamperControllerStateEnumSet.schema.json",
+  "title": "vvtDamperControllerStateEnumSet",
+  "description": "VVT Damper Controller State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vvtDamperCntlrStateClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "vvtDamperCntlrStateOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "vvtDamperCntlrStateHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "vvtDamperCntlrStateClgMin"
+      ],
+      "description": "Cooling Min"
+    },
+    {
+      "enum": [
+        4,
+        "vvtDamperCntlrStateHtgMin"
+      ],
+      "description": "Heating Min"
+    },
+    {
+      "enum": [
+        5,
+        "vvtDamperCntlrStateDprMax"
+      ],
+      "description": "Damper Max"
+    },
+    {
+      "enum": [
+        6,
+        "vvtDamperCntlrStateModeMismatch"
+      ],
+      "description": "Mode Mismatch"
+    },
+    {
+      "enum": [
+        7,
+        "vvtDamperCntlrStateClg"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        8,
+        "vvtDamperCntlrStateHtg"
+      ],
+      "description": "Heating"
+    }
+  ]
+}

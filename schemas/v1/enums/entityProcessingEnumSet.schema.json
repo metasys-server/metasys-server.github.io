@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/entityProcessingEnumSet.schema.json",
+  "title": "entityProcessingEnumSet",
+  "description": "Entity Processing",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "entityProcessingDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "entityProcessingEntityTrackingOnly"
+      ],
+      "description": "Entity Tracking Only"
+    },
+    {
+      "enum": [
+        2,
+        "entityProcessingDenyUnaccompaniedEntity"
+      ],
+      "description": "Deny Unaccompanied Entity"
+    },
+    {
+      "enum": [
+        3,
+        "entityProcessingDenyAllOnUnaccompaniedEntity"
+      ],
+      "description": "Deny All on Unaccompanied Entity"
+    }
+  ]
+}

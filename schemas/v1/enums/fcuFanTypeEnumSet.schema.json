@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fcuFanTypeEnumSet.schema.json",
+  "title": "fcuFanTypeEnumSet",
+  "description": "FCU Fan Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fcuFanTypeNoFan"
+      ],
+      "description": "No Fan"
+    },
+    {
+      "enum": [
+        1,
+        "fcuFanTypeOneSpeed"
+      ],
+      "description": "One Speed Fan"
+    },
+    {
+      "enum": [
+        2,
+        "fcuFanTypeTwoSpeed"
+      ],
+      "description": "Two Speed Fan"
+    },
+    {
+      "enum": [
+        3,
+        "fcuFanTypeThreeSpeed"
+      ],
+      "description": "Three Speed Fan"
+    }
+  ]
+}

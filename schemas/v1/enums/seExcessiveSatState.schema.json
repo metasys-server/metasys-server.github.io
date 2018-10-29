@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seExcessiveSatState.schema.json",
+  "title": "seExcessiveSatState",
+  "description": "SE RTU Excessive SAT State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seExcessiveSatStateNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "seExcessiveSatStateDropStage"
+      ],
+      "description": "Drop Stage"
+    },
+    {
+      "enum": [
+        2,
+        "seExcessiveSatStateWait"
+      ],
+      "description": "Wait"
+    },
+    {
+      "enum": [
+        3,
+        "seExcessiveSatStateSatUnreliable"
+      ],
+      "description": "SAT Unreliable"
+    }
+  ]
+}

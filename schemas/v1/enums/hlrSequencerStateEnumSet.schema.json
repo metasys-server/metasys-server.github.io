@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrSequencerStateEnumSet.schema.json",
+  "title": "hlrSequencerStateEnumSet",
+  "description": "HLR Sequencer State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrSequencerStateStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        1,
+        "hlrSequencerStateScrubbing"
+      ],
+      "description": "Scrubbing"
+    },
+    {
+      "enum": [
+        2,
+        "hlrSequencerStateScrubbingDamper"
+      ],
+      "description": "Scrubbing_Damper"
+    },
+    {
+      "enum": [
+        3,
+        "hlrSequencerStateShortFlush"
+      ],
+      "description": "Short Flush"
+    },
+    {
+      "enum": [
+        4,
+        "hlrSequencerStateOccRegeneration"
+      ],
+      "description": "Occ Regeneration"
+    },
+    {
+      "enum": [
+        5,
+        "hlrSequencerStateUnoccRegeneration"
+      ],
+      "description": "Unocc Regeneration"
+    }
+  ]
+}

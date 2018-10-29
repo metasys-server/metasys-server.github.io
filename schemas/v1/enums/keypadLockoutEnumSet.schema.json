@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/keypadLockoutEnumSet.schema.json",
+  "title": "keypadLockoutEnumSet",
+  "description": "Keypad Lockout",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Lockout"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Level 1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Level 2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Level 3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Level 4"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Level 5"
+    }
+  ]
+}

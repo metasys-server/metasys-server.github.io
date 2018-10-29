@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlpDayNightEnumSet.schema.json",
+  "title": "unityXlpDayNightEnumSet",
+  "description": "Unity XLP Day/Night",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "NIGHT"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "DAY"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "DAY1"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "NIGHT1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, NIGHT"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "FIXED, DAY"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "FIXED, DAY1"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "FIXED, NIGHT1"
+    }
+  ]
+}

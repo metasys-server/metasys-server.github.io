@@ -1,0 +1,414 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEventActiveCriticalCodesEnumSet.schema.json",
+  "title": "seEventActiveCriticalCodesEnumSet",
+  "description": "SE Event Active Critical Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEventActiveCriticalCodeUndefined"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEventActiveCodeEventGeneratorConfigError"
+      ],
+      "description": "Event Generator Configuration Error"
+    },
+    {
+      "enum": [
+        2,
+        "seEventActiveCodeCalibrationError"
+      ],
+      "description": "Calibration Error"
+    },
+    {
+      "enum": [
+        100,
+        "seEventActiveCriticalCode100"
+      ],
+      "description": "Parameters Not Configured, Use Default"
+    },
+    {
+      "enum": [
+        101,
+        "seEventActiveCriticalCode101"
+      ],
+      "description": "Economizer Firmware Failure"
+    },
+    {
+      "enum": [
+        102,
+        "seEventActiveCriticalCode102"
+      ],
+      "description": "4-Stage Firmware Failure"
+    },
+    {
+      "enum": [
+        103,
+        "seEventActiveCriticalCode103"
+      ],
+      "description": "Main Controller Firmware Failure"
+    },
+    {
+      "enum": [
+        104,
+        "seEventActiveCriticalCode104"
+      ],
+      "description": "C1 Locked Out Due to High Pressure"
+    },
+    {
+      "enum": [
+        105,
+        "seEventActiveCriticalCode105"
+      ],
+      "description": "C2 Locked Out Due to High Pressure"
+    },
+    {
+      "enum": [
+        106,
+        "seEventActiveCriticalCode106"
+      ],
+      "description": "C3 Locked Out Due to High Pressure"
+    },
+    {
+      "enum": [
+        107,
+        "seEventActiveCriticalCode107"
+      ],
+      "description": "C4 Locked Out Due to High Pressure"
+    },
+    {
+      "enum": [
+        108,
+        "seEventActiveCriticalCode108"
+      ],
+      "description": "C1 Locked Out Due to Low Pressure"
+    },
+    {
+      "enum": [
+        109,
+        "seEventActiveCriticalCode109"
+      ],
+      "description": "C2 Locked Out Due to Low Pressure"
+    },
+    {
+      "enum": [
+        110,
+        "seEventActiveCriticalCode110"
+      ],
+      "description": "C3 Locked Out Due to Low Pressure"
+    },
+    {
+      "enum": [
+        111,
+        "seEventActiveCriticalCode111"
+      ],
+      "description": "C4 Locked Out Due to Low Pressure"
+    },
+    {
+      "enum": [
+        112,
+        "seEventActiveCriticalCode112"
+      ],
+      "description": "C1 Locked Out Due to Coil Freeze"
+    },
+    {
+      "enum": [
+        113,
+        "seEventActiveCriticalCode113"
+      ],
+      "description": "C2 Locked Out Due to Coil Freeze"
+    },
+    {
+      "enum": [
+        114,
+        "seEventActiveCriticalCode114"
+      ],
+      "description": "C3 Locked Out Due to Coil Freeze"
+    },
+    {
+      "enum": [
+        115,
+        "seEventActiveCriticalCode115"
+      ],
+      "description": "C4 Locked Out Due to Coil Freeze"
+    },
+    {
+      "enum": [
+        116,
+        "seEventActiveCriticalCode116"
+      ],
+      "description": "Exhaust Fan VFD Failure"
+    },
+    {
+      "enum": [
+        117,
+        "seEventActiveCriticalCode117"
+      ],
+      "description": "HS1 Locked Out Due to Limit Switch"
+    },
+    {
+      "enum": [
+        118,
+        "seEventActiveCriticalCode118"
+      ],
+      "description": "HS2 Locked Out Due to Limit Switch"
+    },
+    {
+      "enum": [
+        119,
+        "seEventActiveCriticalCode119"
+      ],
+      "description": "HS3 Locked Out Due to Limit Switch"
+    },
+    {
+      "enum": [
+        120,
+        "seEventActiveCriticalCode120"
+      ],
+      "description": "Outputs Disabled Due to Low Input V"
+    },
+    {
+      "enum": [
+        121,
+        "seEventActiveCriticalCode121"
+      ],
+      "description": "Outputs Limited Due to Brownout Input V"
+    },
+    {
+      "enum": [
+        122,
+        "seEventActiveCriticalCode122"
+      ],
+      "description": "4-Stg Outs Disabled Due to Low Input V"
+    },
+    {
+      "enum": [
+        123,
+        "seEventActiveCriticalCode123"
+      ],
+      "description": "4-Stg Outs Limited Due to Brownout V"
+    },
+    {
+      "enum": [
+        124,
+        "seEventActiveCriticalCode124"
+      ],
+      "description": "4-Stage O24 VAC Supply Input Failure"
+    },
+    {
+      "enum": [
+        125,
+        "seEventActiveCriticalCode125"
+      ],
+      "description": "4-Stage Communication Failure"
+    },
+    {
+      "enum": [
+        126,
+        "seEventActiveCriticalCode126"
+      ],
+      "description": "Economizer Communication Failure"
+    },
+    {
+      "enum": [
+        127,
+        "seEventActiveCriticalCode127"
+      ],
+      "description": "Unit Shutdown Due to Smoke, etc"
+    },
+    {
+      "enum": [
+        128,
+        "seEventActiveCriticalCode128"
+      ],
+      "description": "Unit Locked Out Due to APS"
+    },
+    {
+      "enum": [
+        129,
+        "seEventActiveCriticalCode129"
+      ],
+      "description": "Duct-P Incorrectly Reading Low"
+    },
+    {
+      "enum": [
+        130,
+        "seEventActiveCriticalCode130"
+      ],
+      "description": "Unit Locked Out Due to High Duct-P"
+    },
+    {
+      "enum": [
+        131,
+        "seEventActiveCriticalCode131"
+      ],
+      "description": "Unit Locked Out Due to Supply Fan OL"
+    },
+    {
+      "enum": [
+        132,
+        "seEventActiveCriticalCode132"
+      ],
+      "description": "Supply Fan VFD Failure"
+    },
+    {
+      "enum": [
+        133,
+        "seEventActiveCriticalCode133"
+      ],
+      "description": "No Heat-Cool Due to Unreliable Space-T"
+    },
+    {
+      "enum": [
+        134,
+        "seEventActiveCriticalCode134"
+      ],
+      "description": "Unit Has Shutdown-Duct-P Sensor Failure"
+    },
+    {
+      "enum": [
+        135,
+        "seEventActiveCriticalCode135"
+      ],
+      "description": "MFC HS1 Locked Out Due to Limit Switch"
+    },
+    {
+      "enum": [
+        136,
+        "seEventActiveCriticalCode136"
+      ],
+      "description": "MFC HS2 Locked Out Due to Limit Switch"
+    },
+    {
+      "enum": [
+        137,
+        "seEventActiveCriticalCode137"
+      ],
+      "description": "MFC HS3 Locked Out Due to Limit Switch"
+    },
+    {
+      "enum": [
+        138,
+        "seEventActiveCriticalCode138"
+      ],
+      "description": "MFC HS4 Locked Out Due to Limit Switch"
+    },
+    {
+      "enum": [
+        139,
+        "seEventActiveCriticalCode139"
+      ],
+      "description": "MFC HS1 Locked Out Due to Gas Valve"
+    },
+    {
+      "enum": [
+        140,
+        "seEventActiveCriticalCode140"
+      ],
+      "description": "MFC HS2 Locked Out Due to Gas Valve"
+    },
+    {
+      "enum": [
+        141,
+        "seEventActiveCriticalCode141"
+      ],
+      "description": "MFC HS3 Locked Out Due to Gas Valve"
+    },
+    {
+      "enum": [
+        142,
+        "seEventActiveCriticalCode142"
+      ],
+      "description": "MFC HS4 Locked Out Due to Gas Valve"
+    },
+    {
+      "enum": [
+        143,
+        "seEventActiveCriticalCode143"
+      ],
+      "description": "MFC Locked Out Due to No APS"
+    },
+    {
+      "enum": [
+        144,
+        "seEventActiveCriticalCode144"
+      ],
+      "description": "MFC Locked Out Due to APS Stuck Closed"
+    },
+    {
+      "enum": [
+        145,
+        "seEventActiveCriticalCode145"
+      ],
+      "description": "MFC Microelectronics Failure"
+    },
+    {
+      "enum": [
+        146,
+        "seEventActiveCriticalCode146"
+      ],
+      "description": "MFC Shutdown Due to Bad Firmware"
+    },
+    {
+      "enum": [
+        147,
+        "seEventActiveCriticalCode147"
+      ],
+      "description": "MFC Locked Out Due to Low Input V"
+    },
+    {
+      "enum": [
+        148,
+        "seEventActiveCriticalCode148"
+      ],
+      "description": "C1 Locked Out Due to Condensate Overflow"
+    },
+    {
+      "enum": [
+        149,
+        "seEventActiveCriticalCode149"
+      ],
+      "description": "Outputs Disabled Due to High Input V"
+    },
+    {
+      "enum": [
+        150,
+        "seEventActiveCriticalCode150"
+      ],
+      "description": "EWT Out of Bounds, Comp Oper Suspended"
+    },
+    {
+      "enum": [
+        151,
+        "seEventActiveCriticalCode151"
+      ],
+      "description": "LWT Out of Bounds, Comp Oper Suspended"
+    },
+    {
+      "enum": [
+        152,
+        "seEventActiveCriticalCode152"
+      ],
+      "description": "SAT Out of Bounds, Comp Oper Suspended"
+    },
+    {
+      "enum": [
+        153,
+        "seEventActiveCriticalCode153"
+      ],
+      "description": "C1 Locked Out Due to Water Coil Freeze"
+    },
+    {
+      "enum": [
+        154,
+        "seEventActiveCriticalCode154"
+      ],
+      "description": "C1 Locked Out Due to Air Coil Freeze"
+    }
+  ]
+}

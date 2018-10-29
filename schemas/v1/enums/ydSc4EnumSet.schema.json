@@ -1,0 +1,484 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydSc4EnumSet.schema.json",
+  "title": "ydSc4EnumSet",
+  "description": "YD Warning Code SC.4",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ydSc40"
+      ],
+      "description": "NO WARNINGS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ydSc41"
+      ],
+      "description": "REAL TIME CLOCK FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "ydSc42"
+      ],
+      "description": "SETPOINT OVERRIDE"
+    },
+    {
+      "enum": [
+        3,
+        "ydSc43"
+      ],
+      "description": "COMPRESSOR #1 LOCKED OUT"
+    },
+    {
+      "enum": [
+        4,
+        "ydSc44"
+      ],
+      "description": "COMPRESSOR #2 LOCKED OUT"
+    },
+    {
+      "enum": [
+        5,
+        "ydSc45"
+      ],
+      "description": "VANES #1 - UNCALIBRATED"
+    },
+    {
+      "enum": [
+        6,
+        "ydSc46"
+      ],
+      "description": "VANES #2 - UNCALIBRATED"
+    },
+    {
+      "enum": [
+        7,
+        "ydSc47"
+      ],
+      "description": "SURGE PROTECTION - EXCESS SURGE LIMIT"
+    },
+    {
+      "enum": [
+        8,
+        "ydSc48"
+      ],
+      "description": "EXCESS SURGE DETECTED"
+    },
+    {
+      "enum": [
+        9,
+        "ydSc49"
+      ],
+      "description": "CONDENSER OR EVAPORATOR TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        10,
+        "ydSc410"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        11,
+        "ydSc411"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        12,
+        "ydSc412"
+      ],
+      "description": "OIL PUMP #1 - SEAL LUBRICATION - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        13,
+        "ydSc413"
+      ],
+      "description": "OIL PUMP #1 - SEAL LUBRICATION IN PROGRESS"
+    },
+    {
+      "enum": [
+        14,
+        "ydSc414"
+      ],
+      "description": "OIL PUMP #2 - SEAL LUBRICATION - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        15,
+        "ydSc415"
+      ],
+      "description": "OIL PUMP #2 - SEAL LUBRICATION IN PROGRESS"
+    },
+    {
+      "enum": [
+        16,
+        "ydSc416"
+      ],
+      "description": "HEAD PRESSURE - HIGH HEAD LAG START LIMIT"
+    },
+    {
+      "enum": [
+        17,
+        "ydSc417"
+      ],
+      "description": "VGD #1 - UNCALIBRATED"
+    },
+    {
+      "enum": [
+        18,
+        "ydSc418"
+      ],
+      "description": "VGD #2 - UNCALIBRATED"
+    },
+    {
+      "enum": [
+        19,
+        "ydSc419"
+      ],
+      "description": "OIL - LOW LEVEL"
+    },
+    {
+      "enum": [
+        20,
+        "ydSc420"
+      ],
+      "description": "(RESERVED)"
+    },
+    {
+      "enum": [
+        21,
+        "ydSc421"
+      ],
+      "description": "(RESERVED)"
+    },
+    {
+      "enum": [
+        22,
+        "ydSc422"
+      ],
+      "description": "(RESERVED)"
+    },
+    {
+      "enum": [
+        23,
+        "ydSc423"
+      ],
+      "description": "ANTI SURGE - EXCESS SURGE LIMIT"
+    },
+    {
+      "enum": [
+        24,
+        "ydSc424"
+      ],
+      "description": "ANTI SURGE - SURGE COUNT EXCEEDED"
+    },
+    {
+      "enum": [
+        25,
+        "ydSc425"
+      ],
+      "description": "MOTOR BEARING LUBE SUGGESTED"
+    },
+    {
+      "enum": [
+        26,
+        "ydSc426"
+      ],
+      "description": "MOTOR BEARING LUBE REQUIRED"
+    },
+    {
+      "enum": [
+        27,
+        "ydSc427"
+      ],
+      "description": "CONDENSER OR VGD #1 SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        28,
+        "ydSc428"
+      ],
+      "description": "CONDITIONS OVERRIDE VGD #1"
+    },
+    {
+      "enum": [
+        29,
+        "ydSc429"
+      ],
+      "description": "CONDENSER OR VGD #2 SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        30,
+        "ydSc430"
+      ],
+      "description": "CONDITIONS OVERRIDE VGD #2"
+    },
+    {
+      "enum": [
+        31,
+        "ydSc431"
+      ],
+      "description": "POSSIBLE LEAK IN COMPRESSOR 1 DISCHARGE VALVE"
+    },
+    {
+      "enum": [
+        32,
+        "ydSc432"
+      ],
+      "description": "POSSIBLE LEAK IN COMPRESSOR 2 DISCHARGE VALVE"
+    },
+    {
+      "enum": [
+        33,
+        "ydSc433"
+      ],
+      "description": "MOTOR BEARING LUBE NOT DONE"
+    },
+    {
+      "enum": [
+        34,
+        "ydSc434"
+      ],
+      "description": "OIL PUMP #1 - DRIVE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        35,
+        "ydSc435"
+      ],
+      "description": "OIL PUMP #2 - DRIVE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        36,
+        "ydSc436"
+      ],
+      "description": "MOTOR CONTROLLER #1 - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        37,
+        "ydSc437"
+      ],
+      "description": "MOTOR CONTROLLER #2 - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        38,
+        "ydSc438"
+      ],
+      "description": "DISCHARGE #1 - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        39,
+        "ydSc439"
+      ],
+      "description": "DISCHARGE #1 - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        40,
+        "ydSc440"
+      ],
+      "description": "DISCHARGE #2 - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        41,
+        "ydSc441"
+      ],
+      "description": "DISCHARGE #2 - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        42,
+        "ydSc442"
+      ],
+      "description": "THRUST BEARING #1 - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        43,
+        "ydSc443"
+      ],
+      "description": "THRUST BEARING #1 - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        44,
+        "ydSc444"
+      ],
+      "description": "THRUST BEARING #1 - PROXIMITY PROBE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        45,
+        "ydSc445"
+      ],
+      "description": "THRUST BEARING #2 - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        46,
+        "ydSc446"
+      ],
+      "description": "THRUST BEARING #2 - PROXIMITY PROBE CLEARANCE"
+    },
+    {
+      "enum": [
+        47,
+        "ydSc447"
+      ],
+      "description": "THRUST BEARING #2 - PROXIMITY PROBE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        48,
+        "ydSc448"
+      ],
+      "description": "OIL PUMP #1 - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        49,
+        "ydSc449"
+      ],
+      "description": "OIL PUMP #2 - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        50,
+        "ydSc450"
+      ],
+      "description": "CONDENSER - FREEZE THREAT FROM LOW PRESS"
+    },
+    {
+      "enum": [
+        51,
+        "ydSc451"
+      ],
+      "description": "MV VSD #1 - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        52,
+        "ydSc452"
+      ],
+      "description": "MV VSD #2 - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        53,
+        "ydSc453"
+      ],
+      "description": "VSD #1 - INPUT VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        54,
+        "ydSc454"
+      ],
+      "description": "VSD #2 - INPUT VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        55,
+        "ydSc455"
+      ],
+      "description": "HARMONIC FILTER #1 - DATA LOSS"
+    },
+    {
+      "enum": [
+        56,
+        "ydSc456"
+      ],
+      "description": "HARMONIC FILTER #2 - DATA LOSS"
+    },
+    {
+      "enum": [
+        57,
+        "ydSc457"
+      ],
+      "description": "HARMONIC FILTER #1 - OPERATION INHIBITED"
+    },
+    {
+      "enum": [
+        58,
+        "ydSc458"
+      ],
+      "description": "HARMONIC FILTER #2 - OPERATION INHIBITED"
+    },
+    {
+      "enum": [
+        59,
+        "ydSc459"
+      ],
+      "description": "HARMONIC FILTER #1 - NOT RUNNING"
+    },
+    {
+      "enum": [
+        60,
+        "ydSc460"
+      ],
+      "description": "HARMONIC FILTER #2 - NOT RUNNING"
+    },
+    {
+      "enum": [
+        61,
+        "ydSc461"
+      ],
+      "description": "VSD #1 - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        62,
+        "ydSc462"
+      ],
+      "description": "VSD #2 - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        63,
+        "ydSc463"
+      ],
+      "description": "VSD #1 - DC BUS ACTIVE"
+    },
+    {
+      "enum": [
+        64,
+        "ydSc464"
+      ],
+      "description": "VSD #2 - DC BUS ACTIVE"
+    },
+    {
+      "enum": [
+        65,
+        "ydSc465"
+      ],
+      "description": "REDUCED SPEED LAG START OVERRIDE"
+    },
+    {
+      "enum": [
+        66,
+        "ydSc466"
+      ],
+      "description": "VANES #1 UNCALIBRATED - FIXED SPEED"
+    },
+    {
+      "enum": [
+        67,
+        "ydSc467"
+      ],
+      "description": "VANES #2 UNCALIBRATED - FIXED SPEED"
+    }
+  ]
+}

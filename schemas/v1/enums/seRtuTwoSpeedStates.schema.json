@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuTwoSpeedStates.schema.json",
+  "title": "seRtuTwoSpeedStates",
+  "description": "SE RTU Two Speed States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuTwoSpeedStatesLowSpeed"
+      ],
+      "description": "Low Speed"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuTwoSpeedStatesSwitch2High1"
+      ],
+      "description": "Switch2High1"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuTwoSpeedStatesSwitch2High2"
+      ],
+      "description": "Switch2High2"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuTwoSpeedStatesHighSpeed"
+      ],
+      "description": "High Speed"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuTwoSpeedStatesSwitch2Low1"
+      ],
+      "description": "Switch2Low1"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuTwoSpeedStatesSwitch2Low2"
+      ],
+      "description": "Switch2Low2"
+    }
+  ]
+}

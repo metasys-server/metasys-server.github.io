@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/processIdEmumSet.schema.json",
+  "title": "processIdEmumSet",
+  "description": "Process ID",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pidAirflow"
+      ],
+      "description": "Airflow"
+    },
+    {
+      "enum": [
+        1,
+        "pidAirflowPercent"
+      ],
+      "description": "Airflow %"
+    },
+    {
+      "enum": [
+        2,
+        "pidAirflowDiff"
+      ],
+      "description": "Airflow Diff"
+    },
+    {
+      "enum": [
+        3,
+        "pidBldgStatic"
+      ],
+      "description": "Bldg Static"
+    },
+    {
+      "enum": [
+        4,
+        "pidChwsTHex"
+      ],
+      "description": "CHWS-T HEX"
+    },
+    {
+      "enum": [
+        5,
+        "pidChwsTMixing"
+      ],
+      "description": "CHWS-T Mixing"
+    },
+    {
+      "enum": [
+        6,
+        "pidCwsT"
+      ],
+      "description": "CWS-T"
+    },
+    {
+      "enum": [
+        7,
+        "pidDaH"
+      ],
+      "description": "DA-H"
+    },
+    {
+      "enum": [
+        8,
+        "pidDaT"
+      ],
+      "description": "DA-T"
+    },
+    {
+      "enum": [
+        9,
+        "pidDuctStatic"
+      ],
+      "description": "Duct Static"
+    },
+    {
+      "enum": [
+        10,
+        "pidHwsTHwHex"
+      ],
+      "description": "HWS-T HW HEX"
+    },
+    {
+      "enum": [
+        11,
+        "pidHwsTMixing"
+      ],
+      "description": "HWS-T Mixing"
+    },
+    {
+      "enum": [
+        12,
+        "pidHwsTSteamHex"
+      ],
+      "description": "HWS-T Steam HEX"
+    },
+    {
+      "enum": [
+        13,
+        "pidMaT"
+      ],
+      "description": "MA-T"
+    },
+    {
+      "enum": [
+        14,
+        "pidPumpDiff"
+      ],
+      "description": "Pump Diff P"
+    },
+    {
+      "enum": [
+        15,
+        "pidRaH"
+      ],
+      "description": "RA-H"
+    },
+    {
+      "enum": [
+        16,
+        "pidZnH"
+      ],
+      "description": "ZN-H"
+    },
+    {
+      "enum": [
+        17,
+        "pidZnT"
+      ],
+      "description": "ZN-T"
+    },
+    {
+      "enum": [
+        18,
+        "pidOther"
+      ],
+      "description": "Other"
+    },
+    {
+      "enum": [
+        19,
+        "pidZnTLc"
+      ],
+      "description": "ZN-T LC"
+    },
+    {
+      "enum": [
+        20,
+        "pidZnHLc"
+      ],
+      "description": "ZN-H LC"
+    }
+  ]
+}

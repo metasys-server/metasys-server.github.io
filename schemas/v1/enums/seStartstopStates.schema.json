@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seStartstopStates.schema.json",
+  "title": "seStartstopStates",
+  "description": "SE RTU Start Stop Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seStartstopOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seStartstopWaitForHeatProof"
+      ],
+      "description": "Wait for Heat Proof"
+    },
+    {
+      "enum": [
+        2,
+        "seStartstopHeatFanOnDelay"
+      ],
+      "description": "Heat Fan On Delay"
+    },
+    {
+      "enum": [
+        3,
+        "seStartstopWaitForHeatProofRestart"
+      ],
+      "description": "Wait for Heat Proof Restart"
+    },
+    {
+      "enum": [
+        4,
+        "seStartstopHeatFanRestartDelay"
+      ],
+      "description": "Heat Fan Restart Delay"
+    },
+    {
+      "enum": [
+        5,
+        "seStartstopHeatFanOffDelay"
+      ],
+      "description": "Heat Fan Off Delay"
+    },
+    {
+      "enum": [
+        6,
+        "seStartstopCoolFanOnDelay"
+      ],
+      "description": "Cool Fan On Delay"
+    },
+    {
+      "enum": [
+        7,
+        "seStartstopCoolFanRestartDelay"
+      ],
+      "description": "Cool Fan Restart Delay"
+    },
+    {
+      "enum": [
+        8,
+        "seStartstopCoolFanOffDelay"
+      ],
+      "description": "Cool Fan Off Delay"
+    },
+    {
+      "enum": [
+        9,
+        "seStartstopRampSf"
+      ],
+      "description": "Ramp SF"
+    },
+    {
+      "enum": [
+        10,
+        "seStartstopStabilizeSystem"
+      ],
+      "description": "Stabilize System"
+    },
+    {
+      "enum": [
+        11,
+        "seStartstopRampMinOa"
+      ],
+      "description": "Ramp Min OA"
+    },
+    {
+      "enum": [
+        12,
+        "seStartstopRampSfRestart"
+      ],
+      "description": "Ramp SF Restart"
+    },
+    {
+      "enum": [
+        13,
+        "seStartstopStabSysRestart"
+      ],
+      "description": "Stabilize System Restart"
+    },
+    {
+      "enum": [
+        14,
+        "seStartstopOn"
+      ],
+      "description": "On"
+    }
+  ]
+}

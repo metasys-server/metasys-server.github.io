@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/oemDatControlModeEnumSet.schema.json",
+  "title": "oemDatControlModeEnumSet",
+  "description": "OEM DAT Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "oemDatControlMode1"
+      ],
+      "description": "Neutral Air Heating"
+    },
+    {
+      "enum": [
+        1,
+        "oemDatControlMode2"
+      ],
+      "description": "Neutral Air Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "oemDatControlMode3"
+      ],
+      "description": "Room Air Cooling"
+    },
+    {
+      "enum": [
+        3,
+        "oemDatControlMode4"
+      ],
+      "description": "Room Air Heating"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/s300RtPresentValueEnumSet.schema.json",
+  "title": "s300RtPresentValueEnumSet",
+  "description": "S300 RT Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "s300RtNotInitialized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "s300RtLocked"
+      ],
+      "description": "Locked"
+    },
+    {
+      "enum": [
+        2,
+        "s300RtLockedAndClosed"
+      ],
+      "description": "Locked and Closed"
+    },
+    {
+      "enum": [
+        3,
+        "s300RtLockedAndOpen"
+      ],
+      "description": "Locked and Open"
+    },
+    {
+      "enum": [
+        4,
+        "s300RtUnlocked"
+      ],
+      "description": "Unlocked"
+    },
+    {
+      "enum": [
+        5,
+        "s300RtUnlockedAndClosed"
+      ],
+      "description": "Unlocked and Closed"
+    },
+    {
+      "enum": [
+        6,
+        "s300RtUnlockedAndOpen"
+      ],
+      "description": "Unlocked and Open"
+    },
+    {
+      "enum": [
+        7,
+        "s300RtForcedOpen"
+      ],
+      "description": "Forced Open"
+    },
+    {
+      "enum": [
+        8,
+        "s300RtProppedOpen"
+      ],
+      "description": "Propped Open"
+    },
+    {
+      "enum": [
+        9,
+        "s300RtUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        10,
+        "s300RtFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

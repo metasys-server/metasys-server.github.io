@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrStartstopStatesIp2EnumSet.schema.json",
+  "title": "hlrStartstopStatesIp2EnumSet",
+  "description": "HLR StartStop States IP2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrStartstopStatesIp2Off"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hlrStartstopStatesIp2StartDelay"
+      ],
+      "description": "Start Delay"
+    },
+    {
+      "enum": [
+        2,
+        "hlrStartstopStatesIp2OnScrub"
+      ],
+      "description": "On Scrub"
+    },
+    {
+      "enum": [
+        3,
+        "hlrStartstopStatesIp2OnRegen"
+      ],
+      "description": "On Regen"
+    },
+    {
+      "enum": [
+        4,
+        "hlrStartstopStatesIp2StopDelayScrub"
+      ],
+      "description": "Stop Delay Scrub"
+    },
+    {
+      "enum": [
+        5,
+        "hlrStartstopStatesIp2StopDelayRegen"
+      ],
+      "description": "Stop Delay Regen"
+    },
+    {
+      "enum": [
+        6,
+        "hlrStartstopStatesIp2TransitionFanOff"
+      ],
+      "description": "Transition Fan Off"
+    },
+    {
+      "enum": [
+        7,
+        "hlrStartstopStatesIp2TransitionHtgOff"
+      ],
+      "description": "Transition Htg Off"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auxConfigurationEnumSet.schema.json",
+  "title": "auxConfigurationEnumSet",
+  "description": "AUX Configuration",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Not used"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "NO with Occ"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "NC with Occ"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "NO with Occ & Fan"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NC with Occ & Fan"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Network Controlled"
+    }
+  ]
+}

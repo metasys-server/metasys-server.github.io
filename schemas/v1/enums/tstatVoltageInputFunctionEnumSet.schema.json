@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tstatVoltageInputFunctionEnumSet.schema.json",
+  "title": "tstatVoltageInputFunctionEnumSet",
+  "description": "Thermostat Voltage Input Function",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tstatVoltageInputFuncCo2Sensor"
+      ],
+      "description": "CO2 Sensor"
+    },
+    {
+      "enum": [
+        1,
+        "tstatVoltageInputFuncPm25Sensor"
+      ],
+      "description": "PM2.5 Sensor"
+    },
+    {
+      "enum": [
+        2,
+        "tstatVoltageInputFuncTempSensor"
+      ],
+      "description": "Temperature Sensor"
+    },
+    {
+      "enum": [
+        3,
+        "tstatVoltageInputFuncHumiditySensor"
+      ],
+      "description": "Humidity Sensor"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/aiFilterSetupEnumSet.schema.json",
+  "title": "aiFilterSetupEnumSet",
+  "description": "AI Filter Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "aifsProcessId"
+      ],
+      "description": "Process ID"
+    },
+    {
+      "enum": [
+        1,
+        "aifsProcessData"
+      ],
+      "description": "Process Data"
+    },
+    {
+      "enum": [
+        2,
+        "aifsMonitorOnly"
+      ],
+      "description": "Monitor Only"
+    },
+    {
+      "enum": [
+        3,
+        "aifsVavFlowCtrl"
+      ],
+      "description": "VAV Flow Control"
+    },
+    {
+      "enum": [
+        4,
+        "aifsCustom"
+      ],
+      "description": "Custom"
+    }
+  ]
+}

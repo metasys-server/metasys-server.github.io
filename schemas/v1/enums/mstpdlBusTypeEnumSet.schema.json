@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mstpdlBusTypeEnumSet.schema.json",
+  "title": "mstpdlBusTypeEnumSet",
+  "description": "MSTPDL Bus Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mstpdlBusTypeFieldControllerBus"
+      ],
+      "description": "Field / Controller Bus"
+    },
+    {
+      "enum": [
+        1,
+        "mstpdlBusTypeSensorActuatorBus"
+      ],
+      "description": "Sensor / Actuator Bus"
+    }
+  ]
+}

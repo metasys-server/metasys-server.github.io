@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/minFullEnumSet.schema.json",
+  "title": "minFullEnumSet",
+  "description": "Min Full",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Full"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "1/4-3/4"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Minimum"
+    }
+  ]
+}

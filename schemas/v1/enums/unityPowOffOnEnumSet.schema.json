@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityPowOffOnEnumSet.schema.json",
+  "title": "unityPowOffOnEnumSet",
+  "description": "Unity POW Off/On",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ON"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "OFF"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "MANUAL, ON"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MANUAL, OFF"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

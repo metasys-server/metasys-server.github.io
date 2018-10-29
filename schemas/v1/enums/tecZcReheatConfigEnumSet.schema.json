@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecZcReheatConfigEnumSet.schema.json",
+  "title": "tecZcReheatConfigEnumSet",
+  "description": "TEC ZC Reheat Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Analog Duct Heater Only"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "On/Off Duct Heater Only"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "On/Off Peripheral Heating Only"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Analog Duct and On/Off Peripheral Heating"
+    }
+  ]
+}

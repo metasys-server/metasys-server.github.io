@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/t8800TemperatureDisplayEnumSet.schema.json",
+  "title": "t8800TemperatureDisplayEnumSet",
+  "description": "T8800 Temperature Display",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "t8800TemperatureDisplayRoomTemperature"
+      ],
+      "description": "Room Temperature"
+    },
+    {
+      "enum": [
+        1,
+        "t8800TemperatureDisplaySetpoint"
+      ],
+      "description": "Setpoint"
+    }
+  ]
+}

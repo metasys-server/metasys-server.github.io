@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/plantControlEnumSet.schema.json",
+  "title": "plantControlEnumSet",
+  "description": "Plant Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "plntCntrlOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "plntCntrlControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        2,
+        "plntCntrlInstantShutdown"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        3,
+        "plntCntrlInterlockOnly"
+      ],
+      "description": "Interlock Only"
+    }
+  ]
+}

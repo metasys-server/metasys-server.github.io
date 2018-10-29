@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/trueFalse2EnumSet.schema.json",
+  "title": "trueFalse2EnumSet",
+  "description": "True/False",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tfTrue"
+      ],
+      "description": "True"
+    },
+    {
+      "enum": [
+        1,
+        "tfFalse"
+      ],
+      "description": "False"
+    }
+  ]
+}

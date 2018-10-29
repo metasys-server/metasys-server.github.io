@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetDirectoryModeEnumSet.schema.json",
+  "title": "bacnetDirectoryModeEnumSet",
+  "description": "BACnet Directory Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetDirectoryModeNoBds"
+      ],
+      "description": "No BDS"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetDirectoryModeNoFallback"
+      ],
+      "description": "No Fallback"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetDirectoryModeFallback"
+      ],
+      "description": "Fallback"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetDirectoryModeBdsAlways"
+      ],
+      "description": "BDS Always"
+    },
+    {
+      "enum": [
+        4,
+        "bacnetDirectoryModeBoth"
+      ],
+      "description": "Both"
+    }
+  ]
+}

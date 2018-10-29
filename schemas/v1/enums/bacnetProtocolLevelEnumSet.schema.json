@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetProtocolLevelEnumSet.schema.json",
+  "title": "bacnetProtocolLevelEnumSet",
+  "description": "BACnet Protocol Level",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetProtocolLevelPhysical"
+      ],
+      "description": "Physical"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetProtocolLevelProtocol"
+      ],
+      "description": "Protocol"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetProtocolLevelBacnetAppl"
+      ],
+      "description": "BACnet application"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetProtocolLevelNonBacnetAppl"
+      ],
+      "description": "Non-BACnet application"
+    }
+  ]
+}

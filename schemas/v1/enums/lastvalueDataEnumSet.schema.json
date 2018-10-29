@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lastvalueDataEnumSet.schema.json",
+  "title": "lastvalueDataEnumSet",
+  "description": "LastValue Data Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bfmFloatDataType"
+      ],
+      "description": "Float"
+    },
+    {
+      "enum": [
+        1,
+        "bfmBoolDataType"
+      ],
+      "description": "Bool"
+    },
+    {
+      "enum": [
+        2,
+        "bfmEnumDataType"
+      ],
+      "description": "Multistate"
+    }
+  ]
+}

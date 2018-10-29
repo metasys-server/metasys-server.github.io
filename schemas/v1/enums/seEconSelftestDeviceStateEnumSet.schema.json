@@ -1,0 +1,176 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconSelftestDeviceStateEnumSet.schema.json",
+  "title": "seEconSelftestDeviceStateEnumSet",
+  "description": "SE ECON SelfTest Device State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconSelftestDeviceStateStabilize"
+      ],
+      "description": "Stabilize"
+    },
+    {
+      "enum": [
+        1,
+        "seEconSelftestDeviceStateWait"
+      ],
+      "description": "Wait"
+    },
+    {
+      "enum": [
+        2,
+        "seEconSelftestDeviceStateCheck"
+      ],
+      "description": "Check"
+    },
+    {
+      "enum": [
+        3,
+        "seEconSelftestDeviceStateAvailable"
+      ],
+      "description": "Available"
+    },
+    {
+      "enum": [
+        4,
+        "seEconSelftestDeviceStateNotRun"
+      ],
+      "description": "Not Run"
+    },
+    {
+      "enum": [
+        5,
+        "seEconSelftestDeviceStatePass"
+      ],
+      "description": "Pass"
+    },
+    {
+      "enum": [
+        6,
+        "seEconSelftestDeviceStateFailAlarmNotAcknowledged"
+      ],
+      "description": "Fail-Alarm Not Acknowledged"
+    },
+    {
+      "enum": [
+        7,
+        "seEconSelftestDeviceStateFailShutdownStatus"
+      ],
+      "description": "Fail-Shutdown Status"
+    },
+    {
+      "enum": [
+        8,
+        "seEconSelftestDeviceStateWarningSatNotDropped"
+      ],
+      "description": "Warning-SAT Not Dropped"
+    },
+    {
+      "enum": [
+        9,
+        "seEconSelftestDeviceStateWarningExhaustFanNotAcknowledged"
+      ],
+      "description": "Warning-Exhaust Fan Not Acknowledged"
+    },
+    {
+      "enum": [
+        10,
+        "seEconSelftestDeviceStateWarningExhaustFanVfdNotAcknowledged"
+      ],
+      "description": "Warning-Exhaust Fan VFD Not Acknowledged"
+    },
+    {
+      "enum": [
+        11,
+        "seEconSelftestDeviceStateFailErvPivotNotAcknowledged"
+      ],
+      "description": "Fail-ERV Pivot Not Acknowledged"
+    },
+    {
+      "enum": [
+        12,
+        "seEconSelftestDeviceStateWarningBspNotDropped"
+      ],
+      "description": "Warning-BSP Not Dropped"
+    },
+    {
+      "enum": [
+        13,
+        "seEconSelftestDeviceStateWarningCheckDamperPositionFeedback"
+      ],
+      "description": "Warning-Check Damper Position Feedback"
+    },
+    {
+      "enum": [
+        14,
+        "seEconSelftestDeviceStateFailOaFlowNotMeasured"
+      ],
+      "description": "Fail-OA Flow Not Measured"
+    },
+    {
+      "enum": [
+        15,
+        "seEconSelftestDeviceStateFailRtuPromptNotAcknowledged"
+      ],
+      "description": "Fail-RTU Prompt Not Acknowledged"
+    },
+    {
+      "enum": [
+        16,
+        "seEconSelftestDeviceStateFailOaDamperNotModulating"
+      ],
+      "description": "Fail-OA Damper Not Modulating"
+    },
+    {
+      "enum": [
+        17,
+        "seEconSelftestDeviceStateFailRaDamperNotModulating"
+      ],
+      "description": "Fail-RA Damper Not Modulating"
+    },
+    {
+      "enum": [
+        18,
+        "seEconSelftestDeviceStateFailNoIntegratedEconomizerOperation"
+      ],
+      "description": "Fail-No Integrated Economizer Operation"
+    },
+    {
+      "enum": [
+        19,
+        "seEconSelftestDeviceStateFailPromptResponseNotReceived"
+      ],
+      "description": "Fail-Prompt Response Not Received"
+    },
+    {
+      "enum": [
+        20,
+        "seEconSelftestDeviceStateFailDcvNotFunctioning"
+      ],
+      "description": "Fail-DCV Not Functioning"
+    },
+    {
+      "enum": [
+        21,
+        "seEconSelftestDeviceStateFailFaultsNotDetected"
+      ],
+      "description": "Fail-Faults Not Detected"
+    },
+    {
+      "enum": [
+        22,
+        "seEconSelftestDeviceStateFailFaultsNotCleared"
+      ],
+      "description": "Fail-Faults Not Cleared"
+    },
+    {
+      "enum": [
+        23,
+        "seEconSelftestDeviceStateFailFail"
+      ],
+      "description": "Fail-Fail"
+    }
+  ]
+}

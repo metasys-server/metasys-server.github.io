@@ -1,0 +1,337 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/twoToThreeStateMappingEnumSet.schema.json",
+  "title": "twoToThreeStateMappingEnumSet",
+  "description": "Two to Three State Mapping",
+  "oneOf": [
+    {
+      "enum": [
+        344,
+        "twoToThreeStateMappingOccSensor"
+      ],
+      "description": "610"
+    },
+    {
+      "enum": [
+        349,
+        "twoToThreeStateMappingShutdownEnable"
+      ],
+      "description": "674"
+    },
+    {
+      "enum": [
+        350,
+        "twoToThreeStateMappingHeatingCooling"
+      ],
+      "description": "159"
+    },
+    {
+      "enum": [
+        352,
+        "twoToThreeStateMappingPolarity"
+      ],
+      "description": "3"
+    },
+    {
+      "enum": [
+        370,
+        "twoToThreeStateMappingNoflowFlow"
+      ],
+      "description": "234"
+    },
+    {
+      "enum": [
+        374,
+        "twoToThreeStateMappingNormalAlarm"
+      ],
+      "description": "95"
+    },
+    {
+      "enum": [
+        386,
+        "twoToThreeStateMappingSummerWinter"
+      ],
+      "description": "154"
+    },
+    {
+      "enum": [
+        647,
+        "twoToThreeStateMappingOffOn"
+      ],
+      "description": "83"
+    },
+    {
+      "enum": [
+        649,
+        "twoToThreeStateMappingInactiveActive"
+      ],
+      "description": "6"
+    },
+    {
+      "enum": [
+        655,
+        "twoToThreeStateMappingAbsentPresent"
+      ],
+      "description": "88"
+    },
+    {
+      "enum": [
+        656,
+        "twoToThreeStateMappingCleanDirty"
+      ],
+      "description": "810"
+    },
+    {
+      "enum": [
+        657,
+        "twoToThreeStateMappingClosedMinimum"
+      ],
+      "description": "57"
+    },
+    {
+      "enum": [
+        658,
+        "twoToThreeStateMappingDisableEnable"
+      ],
+      "description": "92"
+    },
+    {
+      "enum": [
+        659,
+        "twoToThreeStateMappingForwardReverse"
+      ],
+      "description": "155"
+    },
+    {
+      "enum": [
+        660,
+        "twoToThreeStateMappingLagLead"
+      ],
+      "description": "162"
+    },
+    {
+      "enum": [
+        661,
+        "twoToThreeStateMappingMechanicalFree"
+      ],
+      "description": "615"
+    },
+    {
+      "enum": [
+        662,
+        "twoToThreeStateMappingOffAuto"
+      ],
+      "description": "617"
+    },
+    {
+      "enum": [
+        663,
+        "twoToThreeStateMappingOffReset"
+      ],
+      "description": "619"
+    },
+    {
+      "enum": [
+        664,
+        "twoToThreeStateMappingOfflineOnline"
+      ],
+      "description": "91"
+    },
+    {
+      "enum": [
+        665,
+        "twoToThreeStateMappingOkFault"
+      ],
+      "description": "161"
+    },
+    {
+      "enum": [
+        666,
+        "twoToThreeStateMappingStandbyRun"
+      ],
+      "description": "156"
+    },
+    {
+      "enum": [
+        667,
+        "twoToThreeStateMappingStopRun"
+      ],
+      "description": "160"
+    },
+    {
+      "enum": [
+        668,
+        "twoToThreeStateMappingStopStart"
+      ],
+      "description": "84"
+    },
+    {
+      "enum": [
+        841,
+        "twoToThreeStateMappingOffOnHold"
+      ],
+      "description": "83"
+    },
+    {
+      "enum": [
+        854,
+        "twoToThreeStateMappingNoYes"
+      ],
+      "description": "94"
+    },
+    {
+      "enum": [
+        857,
+        "twoToThreeStateMappingNormalLowLimit"
+      ],
+      "description": "671"
+    },
+    {
+      "enum": [
+        858,
+        "twoToThreeStateMappingNormalEnergyHoldOff"
+      ],
+      "description": "670"
+    },
+    {
+      "enum": [
+        934,
+        "twoToThreeStateMappingNotAvailableAvailable"
+      ],
+      "description": "673"
+    },
+    {
+      "enum": [
+        939,
+        "twoToThreeStateMappingCloseOpen"
+      ],
+      "description": "180"
+    },
+    {
+      "enum": [
+        969,
+        "twoToThreeStateMappingColdHot"
+      ],
+      "description": "669"
+    },
+    {
+      "enum": [
+        970,
+        "twoToThreeStateMappingNormalTrigger"
+      ],
+      "description": "672"
+    },
+    {
+      "enum": [
+        1025,
+        "twoToThreeStateMappingStates01"
+      ],
+      "description": "305"
+    },
+    {
+      "enum": [
+        1388,
+        "twoToThreeStateMappingAutomaticManual"
+      ],
+      "description": "87"
+    },
+    {
+      "enum": [
+        1505,
+        "twoToThreeStateMappingLowHigh"
+      ],
+      "description": "164"
+    },
+    {
+      "enum": [
+        1506,
+        "twoToThreeStateMappingUnlockLock"
+      ],
+      "description": "93"
+    },
+    {
+      "enum": [
+        1551,
+        "twoToThreeStateMappingLocalRemote"
+      ],
+      "description": "157"
+    },
+    {
+      "enum": [
+        1560,
+        "twoToThreeStateMappingNormalFanOnly"
+      ],
+      "description": "1702"
+    },
+    {
+      "enum": [
+        1568,
+        "twoToThreeStateMappingNormalLow"
+      ],
+      "description": "612"
+    },
+    {
+      "enum": [
+        1686,
+        "twoToThreeStateMappingOnOff"
+      ],
+      "description": "153"
+    },
+    {
+      "enum": [
+        1695,
+        "twoToThreeStateMappingActiveInactive"
+      ],
+      "description": "69"
+    },
+    {
+      "enum": [
+        1696,
+        "twoToThreeStateMappingAlarmNormal"
+      ],
+      "description": "600"
+    },
+    {
+      "enum": [
+        1697,
+        "twoToThreeStateMappingStartStop"
+      ],
+      "description": "608"
+    },
+    {
+      "enum": [
+        1698,
+        "twoToThreeStateMappingYesNo"
+      ],
+      "description": "599"
+    },
+    {
+      "enum": [
+        1699,
+        "twoToThreeStateMappingOpenClose"
+      ],
+      "description": "85"
+    },
+    {
+      "enum": [
+        1700,
+        "twoToThreeStateMappingTrueFalse"
+      ],
+      "description": "592"
+    },
+    {
+      "enum": [
+        1701,
+        "twoToThreeStateMappingFalseTrue"
+      ],
+      "description": "90"
+    },
+    {
+      "enum": [
+        1734,
+        "twoToThreeStateMappingLowNormal"
+      ],
+      "description": "611"
+    }
+  ]
+}

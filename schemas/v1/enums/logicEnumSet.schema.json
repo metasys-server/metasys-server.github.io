@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/logicEnumSet.schema.json",
+  "title": "logicEnumSet",
+  "description": "Logic",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "logicNot"
+      ],
+      "description": "NOT"
+    },
+    {
+      "enum": [
+        1,
+        "logicAnd"
+      ],
+      "description": "AND"
+    },
+    {
+      "enum": [
+        2,
+        "logicOr"
+      ],
+      "description": "OR"
+    },
+    {
+      "enum": [
+        3,
+        "logicXor"
+      ],
+      "description": "XOR"
+    }
+  ]
+}

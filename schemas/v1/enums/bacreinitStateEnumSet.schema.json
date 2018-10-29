@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacreinitStateEnumSet.schema.json",
+  "title": "bacreinitStateEnumSet",
+  "description": "BAC Init State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacreinitColdstart"
+      ],
+      "description": "Cold Start"
+    },
+    {
+      "enum": [
+        1,
+        "bacreinitWarmstart"
+      ],
+      "description": "Warm Start"
+    },
+    {
+      "enum": [
+        2,
+        "bacreinitStartbackup"
+      ],
+      "description": "Start Backup"
+    },
+    {
+      "enum": [
+        3,
+        "bacreinitEndbackup"
+      ],
+      "description": "End Backup"
+    },
+    {
+      "enum": [
+        4,
+        "bacreinitStartrestore"
+      ],
+      "description": "Start Restore"
+    },
+    {
+      "enum": [
+        5,
+        "bacreinitEndrestore"
+      ],
+      "description": "End Restore"
+    },
+    {
+      "enum": [
+        6,
+        "bacreinitAbortrestore"
+      ],
+      "description": "Abort Restore"
+    },
+    {
+      "enum": [
+        7,
+        "bacreinitActivatechanges"
+      ],
+      "description": "Activate Changes"
+    }
+  ]
+}

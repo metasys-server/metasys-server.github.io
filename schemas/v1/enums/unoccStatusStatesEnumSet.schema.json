@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unoccStatusStatesEnumSet.schema.json",
+  "title": "unoccStatusStatesEnumSet",
+  "description": "Unoccupied Status States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "unssUnNotUnocc"
+      ],
+      "description": "Not Unoccupied"
+    },
+    {
+      "enum": [
+        1,
+        "unssUnTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    },
+    {
+      "enum": [
+        2,
+        "unssUnUnoccHtgclgCheck"
+      ],
+      "description": "Unocc Htg/Clg Check"
+    }
+  ]
+}

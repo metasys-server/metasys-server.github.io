@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuSingleHtgOrClgEnumSet.schema.json",
+  "title": "ahuSingleHtgOrClgEnumSet",
+  "description": "AHU Single Htg or Clg",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ashocSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "ashocTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        2,
+        "ashocIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        3,
+        "ashocControlUnreliable"
+      ],
+      "description": "Control Unreliable"
+    }
+  ]
+}

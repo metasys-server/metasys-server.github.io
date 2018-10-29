@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/secSysIpPvEnumSet.schema.json",
+  "title": "secSysIpPvEnumSet",
+  "description": "Secure System Input Point Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "secSysIpPvSecure"
+      ],
+      "description": "Secure"
+    },
+    {
+      "enum": [
+        1,
+        "secSysIpPvSet"
+      ],
+      "description": "Set"
+    },
+    {
+      "enum": [
+        2,
+        "secSysIpPvShort"
+      ],
+      "description": "Short"
+    },
+    {
+      "enum": [
+        3,
+        "secSysIpPvOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        4,
+        "secSysIpPvSuppresesd"
+      ],
+      "description": "Suppressed"
+    },
+    {
+      "enum": [
+        5,
+        "secSysIpPvUnknown"
+      ],
+      "description": "Unknown"
+    }
+  ]
+}

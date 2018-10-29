@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cipherAlgorithmEnumSet.schema.json",
+  "title": "cipherAlgorithmEnumSet",
+  "description": "Cipher Algorithm",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cipherAlgorithmAesCbc"
+      ],
+      "description": "AES-CBC"
+    },
+    {
+      "enum": [
+        1,
+        "cipherAlgorithmDesCbc"
+      ],
+      "description": "DES-CBC"
+    },
+    {
+      "enum": [
+        2,
+        "cipherAlgorithmDesEdeCbc"
+      ],
+      "description": "DES-EDE-CBC"
+    },
+    {
+      "enum": [
+        3,
+        "cipherAlgorithmDesEde3Cbc"
+      ],
+      "description": "DES-EDE3-CBC"
+    }
+  ]
+}

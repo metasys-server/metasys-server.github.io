@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuSelftestEnumSet.schema.json",
+  "title": "seRtuSelftestEnumSet",
+  "description": "SE RTU SelfTest",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuSelftestPaused"
+      ],
+      "description": "Test Is Paused"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuSelftestRunning"
+      ],
+      "description": "Test Is Currently Running"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuSelftestNotRunning"
+      ],
+      "description": "Test Is Not Running"
+    }
+  ]
+}

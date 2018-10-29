@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavCascadedFlowDualDuctEnumSet.schema.json",
+  "title": "vavCascadedFlowDualDuctEnumSet",
+  "description": "VAV Cascaded Flow Dual Duct",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vcfddShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "vcfddClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        2,
+        "vcfddCdOpen"
+      ],
+      "description": "CD Open"
+    },
+    {
+      "enum": [
+        3,
+        "vcfddHdOpen"
+      ],
+      "description": "HD Open"
+    },
+    {
+      "enum": [
+        4,
+        "vcfddOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        5,
+        "vcfddHoldCooling"
+      ],
+      "description": "Hold Cooling"
+    },
+    {
+      "enum": [
+        6,
+        "vcfddHoldHeating"
+      ],
+      "description": "Hold Heating"
+    },
+    {
+      "enum": [
+        7,
+        "vcfddHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        8,
+        "vcfddMinCooling"
+      ],
+      "description": "Min Cooling"
+    },
+    {
+      "enum": [
+        9,
+        "vcfddMinDualCooling"
+      ],
+      "description": "Min Dual Cooling"
+    },
+    {
+      "enum": [
+        10,
+        "vcfddMinHeating"
+      ],
+      "description": "Min Heating"
+    },
+    {
+      "enum": [
+        11,
+        "vcfddMinDualHeating"
+      ],
+      "description": "Min Dual Heating"
+    },
+    {
+      "enum": [
+        12,
+        "vcfddMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        13,
+        "vcfddMaxCooling"
+      ],
+      "description": "Max Cooling"
+    },
+    {
+      "enum": [
+        14,
+        "vcfddMaxDualCooling"
+      ],
+      "description": "Max Dual Cooling"
+    },
+    {
+      "enum": [
+        15,
+        "vcfddMaxHeating"
+      ],
+      "description": "Max Heating"
+    },
+    {
+      "enum": [
+        16,
+        "vcfddMaxDualHeating"
+      ],
+      "description": "Max Dual Heating"
+    },
+    {
+      "enum": [
+        17,
+        "vcfddMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        18,
+        "vcfddControlCooling"
+      ],
+      "description": "Control Cooling"
+    },
+    {
+      "enum": [
+        19,
+        "vcfddControlDualCooling"
+      ],
+      "description": "Control Dual Cooling"
+    },
+    {
+      "enum": [
+        20,
+        "vcfddControlHeating"
+      ],
+      "description": "Control Heating"
+    },
+    {
+      "enum": [
+        21,
+        "vcfddControlDualHeating"
+      ],
+      "description": "Control Dual Heating"
+    },
+    {
+      "enum": [
+        22,
+        "vcfddMix"
+      ],
+      "description": "Mix"
+    },
+    {
+      "enum": [
+        23,
+        "vcfddFailsoftCooling"
+      ],
+      "description": "Failsoft Cooling"
+    },
+    {
+      "enum": [
+        24,
+        "vcfddFailsoftHeating"
+      ],
+      "description": "Failsoft Heating"
+    },
+    {
+      "enum": [
+        25,
+        "vcfddFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        26,
+        "vcfddError"
+      ],
+      "description": "Error"
+    }
+  ]
+}

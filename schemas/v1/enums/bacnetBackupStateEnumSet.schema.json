@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetBackupStateEnumSet.schema.json",
+  "title": "bacnetBackupStateEnumSet",
+  "description": "BACnet Backup State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bbsIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "bbsPreparingForBackup"
+      ],
+      "description": "Preparing for Backup"
+    },
+    {
+      "enum": [
+        2,
+        "bbsPreparingForRestore"
+      ],
+      "description": "Preparing for Restore"
+    },
+    {
+      "enum": [
+        3,
+        "bbsPerformingBackup"
+      ],
+      "description": "Performing Backup"
+    },
+    {
+      "enum": [
+        4,
+        "bbsPerformingRestore"
+      ],
+      "description": "Performing Restore"
+    },
+    {
+      "enum": [
+        5,
+        "bbsBackupFailure"
+      ],
+      "description": "Backup Failure"
+    },
+    {
+      "enum": [
+        6,
+        "bbsRestoreFailure"
+      ],
+      "description": "Restore Failure"
+    }
+  ]
+}

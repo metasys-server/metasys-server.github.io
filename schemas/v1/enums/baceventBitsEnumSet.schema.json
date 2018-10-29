@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/baceventBitsEnumSet.schema.json",
+  "title": "baceventBitsEnumSet",
+  "description": "BAC Event Bits",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "baceventToOffnormal"
+      ],
+      "description": "To Off Normal"
+    },
+    {
+      "enum": [
+        1,
+        "baceventToFault"
+      ],
+      "description": "To Fault"
+    },
+    {
+      "enum": [
+        2,
+        "baceventToNormal"
+      ],
+      "description": "To Normal"
+    }
+  ]
+}

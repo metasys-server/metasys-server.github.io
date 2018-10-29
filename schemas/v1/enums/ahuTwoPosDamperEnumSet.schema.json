@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuTwoPosDamperEnumSet.schema.json",
+  "title": "ahuTwoPosDamperEnumSet",
+  "description": "AHU Two Pos Damper",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuTpdClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "ahuTpdOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "ahuTpdHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "ahuTpdEmergencyOpen"
+      ],
+      "description": "Emergency Open"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHtgStagedOutEnumSet.schema.json",
+  "title": "ahuHtgStagedOutEnumSet",
+  "description": "AHU Htg Staged Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahsMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ahsLmtMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "ahsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "ahsInstShtdwn"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        5,
+        "ahsTCtrl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        6,
+        "ahsLlTCtrl"
+      ],
+      "description": "LL-T Control"
+    },
+    {
+      "enum": [
+        7,
+        "ahsLowOaTemperatureStartup"
+      ],
+      "description": "Low OA Temperature Startup"
+    }
+  ]
+}

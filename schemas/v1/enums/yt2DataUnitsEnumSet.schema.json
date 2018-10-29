@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yt2DataUnitsEnumSet.schema.json",
+  "title": "yt2DataUnitsEnumSet",
+  "description": "YT2 Data Units",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yt2DataUnitsImperial"
+      ],
+      "description": "Imperial"
+    },
+    {
+      "enum": [
+        1,
+        "yt2DataUnitsMetric"
+      ],
+      "description": "Metric"
+    }
+  ]
+}

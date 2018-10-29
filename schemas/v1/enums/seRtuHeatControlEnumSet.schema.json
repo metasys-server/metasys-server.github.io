@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuHeatControlEnumSet.schema.json",
+  "title": "seRtuHeatControlEnumSet",
+  "description": "SE RTU Heating Control Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuHeatControlOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuHeatControlOnDefrost"
+      ],
+      "description": "On-Defrost"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuHeatControlSatTempering"
+      ],
+      "description": "SAT Tempering"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuHeatControlMorningWarmup"
+      ],
+      "description": "Morning Warmup"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuHeatControlTstatHeating"
+      ],
+      "description": "Thermostat Heating"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuHeatControlUnoccHeating"
+      ],
+      "description": "Unoccupied Heating"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuHeatControlOccHeating"
+      ],
+      "description": "Occupied Heating"
+    },
+    {
+      "enum": [
+        7,
+        "seRtuHeatControlOffDisabled"
+      ],
+      "description": "Off-Disabled"
+    },
+    {
+      "enum": [
+        8,
+        "seRtuHeatControlOffOatLockout"
+      ],
+      "description": "Off-OAT Lockout"
+    },
+    {
+      "enum": [
+        9,
+        "seRtuHeatControlOffSatLimit"
+      ],
+      "description": "Off-SAT Limit"
+    },
+    {
+      "enum": [
+        10,
+        "seRtuHeatControlOffWaitingForChangeover"
+      ],
+      "description": "Off-Waiting For Changeover Delay"
+    },
+    {
+      "enum": [
+        11,
+        "seRtuHeatControlComfortVentilation"
+      ],
+      "description": "Comfort Ventilation"
+    }
+  ]
+}

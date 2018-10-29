@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacLifsftySilStateEnumSet.schema.json",
+  "title": "bacLifsftySilStateEnumSet",
+  "description": "BAC LifSfty SilState",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lifesftySilenceUnsilenced"
+      ],
+      "description": "Unsilenced"
+    },
+    {
+      "enum": [
+        1,
+        "lifesftySilenceAudibleSilenced"
+      ],
+      "description": "Audible Silenced"
+    },
+    {
+      "enum": [
+        2,
+        "lifesftySilenceVisibleSilenced"
+      ],
+      "description": "Visible Silenced"
+    },
+    {
+      "enum": [
+        3,
+        "lifesftySilenceAllSilenced"
+      ],
+      "description": "All Silenced"
+    }
+  ]
+}

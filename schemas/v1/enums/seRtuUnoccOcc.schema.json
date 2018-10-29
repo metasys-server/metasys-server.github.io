@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuUnoccOcc.schema.json",
+  "title": "seRtuUnoccOcc",
+  "description": "SE RTU Unocc/Occ",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuUnoccOccOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuUnoccOccUnoccupied"
+      ],
+      "description": "Unoccupied"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/aggregateFuncEnumSet.schema.json",
+  "title": "aggregateFuncEnumSet",
+  "description": "Aggregate Function",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "aggregateFuncNone"
+      ],
+      "description": "NONE"
+    },
+    {
+      "enum": [
+        1,
+        "aggregateFuncAvg"
+      ],
+      "description": "Average"
+    },
+    {
+      "enum": [
+        2,
+        "aggregateFuncMin"
+      ],
+      "description": "Minimum"
+    },
+    {
+      "enum": [
+        3,
+        "aggregateFuncMax"
+      ],
+      "description": "Maximum"
+    },
+    {
+      "enum": [
+        4,
+        "aggregateFuncStdev"
+      ],
+      "description": "Standard Deviation"
+    },
+    {
+      "enum": [
+        5,
+        "aggregateFuncRng"
+      ],
+      "description": "Range"
+    },
+    {
+      "enum": [
+        6,
+        "aggregateFuncSum"
+      ],
+      "description": "Sum"
+    },
+    {
+      "enum": [
+        7,
+        "aggregateFuncVar"
+      ],
+      "description": "Variance"
+    }
+  ]
+}

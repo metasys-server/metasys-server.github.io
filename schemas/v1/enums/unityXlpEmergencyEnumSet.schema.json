@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlpEmergencyEnumSet.schema.json",
+  "title": "unityXlpEmergencyEnumSet",
+  "description": "Unity XLP Emergency",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "EMG"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "EMG1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "EMG2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "EMG3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, EMG"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "FIXED, EMG1"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "FIXED, EMG2"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "FIXED, EMG3"
+    }
+  ]
+}

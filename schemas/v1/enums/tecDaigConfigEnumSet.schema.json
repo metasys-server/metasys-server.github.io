@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecDaigConfigEnumSet.schema.json",
+  "title": "tecDaigConfigEnumSet",
+  "description": "TEC Diagnostic Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecDiagNotUsed"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        1,
+        "tecDiagNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        2,
+        "tecDiagRemnsb"
+      ],
+      "description": "Remote Night Setback"
+    },
+    {
+      "enum": [
+        3,
+        "tecDiagOverride"
+      ],
+      "description": "Override"
+    },
+    {
+      "enum": [
+        4,
+        "tecDiagFilter"
+      ],
+      "description": "Filter"
+    },
+    {
+      "enum": [
+        5,
+        "tecDiagService"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        6,
+        "tecDiagFanLock"
+      ],
+      "description": "Fan Lock"
+    }
+  ]
+}

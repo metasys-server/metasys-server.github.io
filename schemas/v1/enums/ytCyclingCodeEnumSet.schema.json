@@ -1,0 +1,358 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ytCyclingCodeEnumSet.schema.json",
+  "title": "ytCyclingCodeEnumSet",
+  "description": "YT Cycling Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Abnormal Condition"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Multi-Unit Cycling - Contacts Open"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "System Cycling - Contacts Open"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Oil - Low Temperature"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Control Panel - Power Failure"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Leaving Chilled Liquid - Low Temperature"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Leaving Chilled Liquid - Flow Switch Open"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Condenser - Flow Switch Open"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Motor Controller - Contacts Open"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Motor Controller - Loss of Current"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Power Fault"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Control Panel - Schedule"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Starter - Low Supply Line Voltage"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Starter - High Supply Line Voltage"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "VSD Initialization Failure"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "VSD Shutdown - Requesting Fault Data"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "VSD - High Phase A Instantaneous Current"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "VSD - High Phase B Instantaneous Current"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "VSD - High Phase C Instantaneous Current"
+    },
+    {
+      "enum": [
+        22,
+        "22"
+      ],
+      "description": "VSD - Phase A Gate Driver"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "VSD - Phase B Gate Driver"
+    },
+    {
+      "enum": [
+        24,
+        "24"
+      ],
+      "description": "VSD - Phase C Gate Driver"
+    },
+    {
+      "enum": [
+        25,
+        "25"
+      ],
+      "description": "VSD - Single Phase Input Power"
+    },
+    {
+      "enum": [
+        26,
+        "26"
+      ],
+      "description": "VSD - High DC Bus Voltage"
+    },
+    {
+      "enum": [
+        27,
+        "27"
+      ],
+      "description": "VSD - Logic Board Power Supply"
+    },
+    {
+      "enum": [
+        28,
+        "28"
+      ],
+      "description": "VSD - Low DC Bus Voltage"
+    },
+    {
+      "enum": [
+        29,
+        "29"
+      ],
+      "description": "VSD - DC Bus Voltage Imbalance"
+    },
+    {
+      "enum": [
+        30,
+        "30"
+      ],
+      "description": "VSD - High Internal Ambient Temperature"
+    },
+    {
+      "enum": [
+        31,
+        "31"
+      ],
+      "description": "VSD - Invalid Current Scale Selection"
+    },
+    {
+      "enum": [
+        32,
+        "32"
+      ],
+      "description": "VSD - Low Phase A Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        33,
+        "33"
+      ],
+      "description": "VSD - Low Phase B Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        34,
+        "34"
+      ],
+      "description": "VSD - Low Phase C Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        35,
+        "35"
+      ],
+      "description": "VSD - Low Converter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        36,
+        "36"
+      ],
+      "description": "VSD - Precharge - DC Bus Voltage Imbalance"
+    },
+    {
+      "enum": [
+        37,
+        "37"
+      ],
+      "description": "VSD - Precharge - Low DC Bus Voltage"
+    },
+    {
+      "enum": [
+        38,
+        "38"
+      ],
+      "description": "VSD - Logic Board Processor"
+    },
+    {
+      "enum": [
+        39,
+        "39"
+      ],
+      "description": "VSD - Run Signal"
+    },
+    {
+      "enum": [
+        40,
+        "40"
+      ],
+      "description": "VSD - Serial Communications"
+    },
+    {
+      "enum": [
+        41,
+        "41"
+      ],
+      "description": "VSD - Stop Contacts Open"
+    },
+    {
+      "enum": [
+        42,
+        "42"
+      ],
+      "description": "Harmonic Filter - Logic Board or Communications"
+    },
+    {
+      "enum": [
+        46,
+        "46"
+      ],
+      "description": "Harmonic Filter High Phase C Instant Current"
+    },
+    {
+      "enum": [
+        47,
+        "47"
+      ],
+      "description": "Harmonic Filter - Phase Locked Loop"
+    },
+    {
+      "enum": [
+        48,
+        "48"
+      ],
+      "description": "Harmonic Filter - Precharge - Low DC Bus Voltage"
+    },
+    {
+      "enum": [
+        49,
+        "49"
+      ],
+      "description": "Harmonic Filter - Low DC Bus Voltage"
+    },
+    {
+      "enum": [
+        50,
+        "50"
+      ],
+      "description": "Harmonic Filter - DC Bus Voltage Imbalance"
+    },
+    {
+      "enum": [
+        51,
+        "51"
+      ],
+      "description": "Harmonic Filter - 110% Input Current Overload"
+    },
+    {
+      "enum": [
+        52,
+        "52"
+      ],
+      "description": "Harmonic Filter - Logic Board Power Supply"
+    },
+    {
+      "enum": [
+        53,
+        "53"
+      ],
+      "description": "Harmonic Filter - Run Signal"
+    },
+    {
+      "enum": [
+        54,
+        "54"
+      ],
+      "description": "Harmonic Filter - DC Current Transformer 1"
+    },
+    {
+      "enum": [
+        55,
+        "55"
+      ],
+      "description": "Harmonic Filter - DC Current Transformer 2"
+    }
+  ]
+}

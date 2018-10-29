@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/threeSpeedStatusEnumSet.schema.json",
+  "title": "threeSpeedStatusEnumSet",
+  "description": "Three Speed Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tssNone"
+      ],
+      "description": "No Status"
+    },
+    {
+      "enum": [
+        1,
+        "tssOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        2,
+        "tssLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        3,
+        "tssMeduim"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        4,
+        "tssHigh"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        5,
+        "tssAutoOff"
+      ],
+      "description": "Auto-Off"
+    },
+    {
+      "enum": [
+        6,
+        "tssAutoLow"
+      ],
+      "description": "Auto-Low"
+    },
+    {
+      "enum": [
+        7,
+        "tssAutoMeduim"
+      ],
+      "description": "Auto-Medium"
+    },
+    {
+      "enum": [
+        8,
+        "tssAutoHigh"
+      ],
+      "description": "Auto-High"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtSettingControlEnumSet.schema.json",
+  "title": "snvtSettingControlEnumSet",
+  "description": "SNVT Setting Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Decrease"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Increase"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Stop"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "State"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

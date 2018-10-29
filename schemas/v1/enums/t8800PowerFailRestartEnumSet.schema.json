@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/t8800PowerFailRestartEnumSet.schema.json",
+  "title": "t8800PowerFailRestartEnumSet",
+  "description": "T8800 Power Fail Restart",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "t8800PowerFailRestartOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "t8800PowerFailRestartOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "t8800PowerFailRestartRecovery"
+      ],
+      "description": "Recovery"
+    }
+  ]
+}

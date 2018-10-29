@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatingCoolingEnumSet.schema.json",
+  "title": "heatingCoolingEnumSet",
+  "description": "Heating/Cooling",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hcHtg"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        1,
+        "hcClg"
+      ],
+      "description": "Cooling"
+    }
+  ]
+}

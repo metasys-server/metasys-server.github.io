@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mzZoneHeatingStateOvrEnumSet.schema.json",
+  "title": "mzZoneHeatingStateOvrEnumSet",
+  "description": "MZ Zone Heating State OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mzZnHtgStateOvrCloseHeating"
+      ],
+      "description": "Close (Heating)"
+    },
+    {
+      "enum": [
+        1,
+        "mzZnHtgStateOvrOpenCooling"
+      ],
+      "description": "Open (Cooling)"
+    },
+    {
+      "enum": [
+        2,
+        "mzZnHtgStateOvrHoldDamper"
+      ],
+      "description": "Hold Damper"
+    },
+    {
+      "enum": [
+        3,
+        "mzZnHtgStateOvrControlCooling"
+      ],
+      "description": "Control Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "mzZnHtgStateOvrControlHeating"
+      ],
+      "description": "Control Heating"
+    },
+    {
+      "enum": [
+        5,
+        "mzZnHtgStateOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

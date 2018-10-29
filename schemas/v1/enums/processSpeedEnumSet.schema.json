@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/processSpeedEnumSet.schema.json",
+  "title": "processSpeedEnumSet",
+  "description": "Process Speed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ideFastProcess"
+      ],
+      "description": "Fast"
+    },
+    {
+      "enum": [
+        1,
+        "ideNormalProcess"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        2,
+        "ideSlowProcess"
+      ],
+      "description": "Slow"
+    }
+  ]
+}

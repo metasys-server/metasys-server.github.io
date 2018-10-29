@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yiaSc3EnumSet.schema.json",
+  "title": "yiaSc3EnumSet",
+  "description": "YIA Cycling Fault Code SC.3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yiaSc30"
+      ],
+      "description": "NO CYCLING FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "yiaSc31"
+      ],
+      "description": "POWER FAILURE OCURRED"
+    },
+    {
+      "enum": [
+        2,
+        "yiaSc32"
+      ],
+      "description": "LOW LEAVING CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        3,
+        "yiaSc33"
+      ],
+      "description": "UNIT SHUTDOWN BY REMOTE DEVICE"
+    },
+    {
+      "enum": [
+        4,
+        "yiaSc34"
+      ],
+      "description": "UNIT SHUTDOWN BY MULTI-UNIT REMOTE"
+    },
+    {
+      "enum": [
+        5,
+        "yiaSc35"
+      ],
+      "description": "DAILY SCHEDULE PROGRAMMED STOP"
+    },
+    {
+      "enum": [
+        6,
+        "yiaSc36"
+      ],
+      "description": "EMERGENCY POWER SOURCE ACTIVATED"
+    }
+  ]
+}

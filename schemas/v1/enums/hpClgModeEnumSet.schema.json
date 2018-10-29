@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hpClgModeEnumSet.schema.json",
+  "title": "hpClgModeEnumSet",
+  "description": "HP Cooling Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hpClgOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hpClgMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "hpClgCtrl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "hpClgFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/effectiveInputSource2.schema.json",
+  "title": "effectiveInputSource2",
+  "description": "Effective Input Source 2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "effectiveInputSource2Unreliable"
+      ],
+      "description": "Unreliable"
+    },
+    {
+      "enum": [
+        1,
+        "effectiveInputSource2LocalInput"
+      ],
+      "description": "Local Input"
+    },
+    {
+      "enum": [
+        2,
+        "effectiveInputSource2NetworkSensor"
+      ],
+      "description": "Network Sensor"
+    },
+    {
+      "enum": [
+        3,
+        "effectiveInputSource2HighPriority"
+      ],
+      "description": "High Priority"
+    },
+    {
+      "enum": [
+        4,
+        "effectiveInputSource2BasOverride"
+      ],
+      "description": "BAS Override"
+    },
+    {
+      "enum": [
+        5,
+        "effectiveInputSource2InputNotAvailable"
+      ],
+      "description": "Input Not Available"
+    }
+  ]
+}

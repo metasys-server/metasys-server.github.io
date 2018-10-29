@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reportSubcategoryEnumSet.schema.json",
+  "title": "reportSubcategoryEnumSet",
+  "description": "Meter Subcategory",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "reportSubcategoryOther"
+      ],
+      "description": "Other"
+    },
+    {
+      "enum": [
+        1,
+        "reportSubcategoryMultiple"
+      ],
+      "description": "Multiple"
+    },
+    {
+      "enum": [
+        2,
+        "reportSubcategoryHvac"
+      ],
+      "description": "HVAC"
+    },
+    {
+      "enum": [
+        3,
+        "reportSubcategoryDomesticHotWater"
+      ],
+      "description": "Domestic Hot Water"
+    },
+    {
+      "enum": [
+        4,
+        "reportSubcategoryLighting"
+      ],
+      "description": "Lighting"
+    },
+    {
+      "enum": [
+        5,
+        "reportSubcategoryPlugLoads"
+      ],
+      "description": "Plug Loads"
+    },
+    {
+      "enum": [
+        6,
+        "reportSubcategoryPeopleMovers"
+      ],
+      "description": "People Movers"
+    },
+    {
+      "enum": [
+        7,
+        "reportSubcategorySnowMelt"
+      ],
+      "description": "Snow Melt"
+    },
+    {
+      "enum": [
+        8,
+        "reportSubcategoryGeneration"
+      ],
+      "description": "Generation"
+    },
+    {
+      "enum": [
+        9,
+        "reportSubcategoryWind"
+      ],
+      "description": "Wind"
+    },
+    {
+      "enum": [
+        10,
+        "reportSubcategorySolar"
+      ],
+      "description": "Solar"
+    },
+    {
+      "enum": [
+        11,
+        "reportSubcategoryHydro"
+      ],
+      "description": "Hydro"
+    },
+    {
+      "enum": [
+        12,
+        "reportSubcategoryGeothermal"
+      ],
+      "description": "Geothermal"
+    },
+    {
+      "enum": [
+        13,
+        "reportSubcategoryPhotovoltaic"
+      ],
+      "description": "Photovoltaic"
+    }
+  ]
+}

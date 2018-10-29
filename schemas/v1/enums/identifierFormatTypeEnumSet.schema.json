@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/identifierFormatTypeEnumSet.schema.json",
+  "title": "identifierFormatTypeEnumSet",
+  "description": "Identifier Format Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "identifierFormatTypeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "identifierFormatTypeCardId"
+      ],
+      "description": "Card ID"
+    },
+    {
+      "enum": [
+        2,
+        "identifierFormatTypeCardFormat"
+      ],
+      "description": "Card Format"
+    },
+    {
+      "enum": [
+        3,
+        "identifierFormatTypeBiometric"
+      ],
+      "description": "Biometric"
+    },
+    {
+      "enum": [
+        4,
+        "identifierFormatTypeDecodedCard"
+      ],
+      "description": "Decoded Card"
+    },
+    {
+      "enum": [
+        5,
+        "identifierFormatTypeDecodedCardExt"
+      ],
+      "description": "Decoded Card (Extended)"
+    },
+    {
+      "enum": [
+        6,
+        "identifierFormatTypeCommonPin"
+      ],
+      "description": "Common PIN"
+    }
+  ]
+}

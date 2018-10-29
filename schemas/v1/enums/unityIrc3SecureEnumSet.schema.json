@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityIrc3SecureEnumSet.schema.json",
+  "title": "unityIrc3SecureEnumSet",
+  "description": "Unity IRC3 Secure",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "SECURE"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "INTRUS"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "INTRUS1"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "ACCESS"
+    }
+  ]
+}

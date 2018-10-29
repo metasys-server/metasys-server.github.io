@@ -1,0 +1,631 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/errorLogEnumSet.schema.json",
+  "title": "errorLogEnumSet",
+  "description": "Error Log",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "logSysreboot"
+      ],
+      "description": "System rebooted: 0-cold, 1-restart; platform specific reason"
+    },
+    {
+      "enum": [
+        1,
+        "logLackacquire"
+      ],
+      "description": "Could not satisfy OSacquire request: request size"
+    },
+    {
+      "enum": [
+        2,
+        "logLackallocate"
+      ],
+      "description": "Could not satisfy OSallocate request: request size"
+    },
+    {
+      "enum": [
+        3,
+        "logCreatefail"
+      ],
+      "description": "Create message from archive failed: class, status"
+    },
+    {
+      "enum": [
+        4,
+        "logDevarchiveFail"
+      ],
+      "description": "Device archive process failed: status"
+    },
+    {
+      "enum": [
+        5,
+        "logResetNeededReason"
+      ],
+      "description": "Reset needed reason: attribute, location"
+    },
+    {
+      "enum": [
+        15,
+        "logBadObjIdOrMeth"
+      ],
+      "description": "Bad object id or method to cdbCallMethod: object id, status"
+    },
+    {
+      "enum": [
+        16,
+        "logMultipleIHave"
+      ],
+      "description": "Bound surrogate received another I Have message: surrogate Id, surrogate Id"
+    },
+    {
+      "enum": [
+        30,
+        "logInstLoadFail"
+      ],
+      "description": "Instance load was aborted: status"
+    },
+    {
+      "enum": [
+        32,
+        "logCleared"
+      ],
+      "description": "Log file cleared"
+    },
+    {
+      "enum": [
+        34,
+        "logDownloadStarted"
+      ],
+      "description": "Downloading: 4-Instance, 5-Synchronize, 6-Dictionary"
+    },
+    {
+      "enum": [
+        35,
+        "logDebugA"
+      ],
+      "description": "Debug A"
+    },
+    {
+      "enum": [
+        36,
+        "logDebugB"
+      ],
+      "description": "Debug B"
+    },
+    {
+      "enum": [
+        37,
+        "logDebugC"
+      ],
+      "description": "Debug C"
+    },
+    {
+      "enum": [
+        38,
+        "logDebugD"
+      ],
+      "description": "Debug D"
+    },
+    {
+      "enum": [
+        39,
+        "logInvalidCommand"
+      ],
+      "description": "Invalid command method id: method Id, oid"
+    },
+    {
+      "enum": [
+        45,
+        "logWrongTimer"
+      ],
+      "description": "Object tried to access a timer that it does not own: class id, timer index"
+    },
+    {
+      "enum": [
+        46,
+        "logDictError"
+      ],
+      "description": "Dictionary Error: enum set, enum"
+    },
+    {
+      "enum": [
+        47,
+        "logCrapAscRev"
+      ],
+      "description": "N2 Device Bad Revision: n2a, type"
+    },
+    {
+      "enum": [
+        48,
+        "logStaleStateMachine"
+      ],
+      "description": "BACnet State Machine never freed due to Objeng not replying"
+    },
+    {
+      "enum": [
+        53,
+        "logConnectionCount"
+      ],
+      "description": "Connection closed to a surrogate already in free list: oid"
+    },
+    {
+      "enum": [
+        55,
+        "logPeDroppedMsg"
+      ],
+      "description": "Protocol Engine dropped message due to lack of memory"
+    },
+    {
+      "enum": [
+        56,
+        "logTimerDbFull"
+      ],
+      "description": "Request for timer failed (timer db full): oid, method"
+    },
+    {
+      "enum": [
+        57,
+        "logDeviceOverload"
+      ],
+      "description": "Device is overloaded: 1-memory, 2-CPU utilization, 3-signup database"
+    },
+    {
+      "enum": [
+        62,
+        "logIncompleteStartup"
+      ],
+      "description": "Object took too long to startup: oid, method"
+    },
+    {
+      "enum": [
+        66,
+        "logOdbGetentryFail"
+      ],
+      "description": "Request to add entry to object database failed: status"
+    },
+    {
+      "enum": [
+        69,
+        "logBbmdDnsStatus"
+      ],
+      "description": "BBMD DNS lookup status: array index, status"
+    },
+    {
+      "enum": [
+        70,
+        "logArchiveFileAccess"
+      ],
+      "description": "Could not access archive file: 0-normal, 1 temp; 0-not open, 1-zero length"
+    },
+    {
+      "enum": [
+        71,
+        "logMethodExecTime"
+      ],
+      "description": "Method execution time exceeds threshold: method, time [ms]"
+    },
+    {
+      "enum": [
+        72,
+        "logArchiveTimeout"
+      ],
+      "description": "Archive on a shutdown timed-out, continue anyway"
+    },
+    {
+      "enum": [
+        73,
+        "logSntpSetupFailed"
+      ],
+      "description": "Device could not be setup for SNTP: 0-sever, 1-client"
+    },
+    {
+      "enum": [
+        74,
+        "logGioUpdateError"
+      ],
+      "description": "GIO could not read an attribute"
+    },
+    {
+      "enum": [
+        75,
+        "logMethodFail"
+      ],
+      "description": "Object failed the method: oid, method"
+    },
+    {
+      "enum": [
+        76,
+        "logPersistLoadFail"
+      ],
+      "description": "Object failed to reload data from persistent storage: oid"
+    },
+    {
+      "enum": [
+        77,
+        "logSystemStartup"
+      ],
+      "description": "System startup (not audited)"
+    },
+    {
+      "enum": [
+        78,
+        "logSystemShutdown"
+      ],
+      "description": "System shutdown (not audited)"
+    },
+    {
+      "enum": [
+        79,
+        "logN2ScanFail"
+      ],
+      "description": "N2 Point Scan Failed: trunk, queue count"
+    },
+    {
+      "enum": [
+        80,
+        "logSnmpTrapError"
+      ],
+      "description": "Failed sending SNMP warm start trap"
+    },
+    {
+      "enum": [
+        81,
+        "logN2PortFail"
+      ],
+      "description": "N2 Point open failed: trunk, code"
+    },
+    {
+      "enum": [
+        82,
+        "logInfiniteLoop"
+      ],
+      "description": "Activity Sequencer detected a possible infinite loop: oid"
+    },
+    {
+      "enum": [
+        83,
+        "logCtqMeasurements"
+      ],
+      "description": "CTQ Instrumentation Measurement [CTQmeasure.h]: location, event"
+    },
+    {
+      "enum": [
+        84,
+        "logHwMgrError"
+      ],
+      "description": "Hardware Mgr errors detected [hw_mgr.h]: x1, x2"
+    },
+    {
+      "enum": [
+        85,
+        "logCorruptPsDynamicEntry"
+      ],
+      "description": "CRC8 mismatch for deltaDynamic entry: offset"
+    },
+    {
+      "enum": [
+        86,
+        "logCorruptPsStaticEntry"
+      ],
+      "description": "CRC16 mismatch for deltaStatic entry: offset"
+    },
+    {
+      "enum": [
+        87,
+        "logFullPsAlldailyEntry"
+      ],
+      "description": "Delta files full with all daily entries: daily count"
+    },
+    {
+      "enum": [
+        88,
+        "logResetPsDeltaFiles"
+      ],
+      "description": "Delta files are erased. Lost daily entries: daily count"
+    },
+    {
+      "enum": [
+        89,
+        "logFailPsStdread"
+      ],
+      "description": "Failed to read attribute value: attribute id"
+    },
+    {
+      "enum": [
+        90,
+        "logLmeInitErr"
+      ],
+      "description": "Configuration error. Missing element: oid"
+    },
+    {
+      "enum": [
+        91,
+        "logDupNetAddr"
+      ],
+      "description": "Network address already used: requested, reassigned"
+    },
+    {
+      "enum": [
+        92,
+        "logCreatefailDetail"
+      ],
+      "description": "Create message failed: failed attr, failed attr"
+    },
+    {
+      "enum": [
+        93,
+        "logS300PortFail"
+      ],
+      "description": "S300 port open failed: trunk, code"
+    },
+    {
+      "enum": [
+        94,
+        "logCreatefailDetail2"
+      ],
+      "description": "Create message failed: BACoid lsb, BACoid msb"
+    },
+    {
+      "enum": [
+        95,
+        "logSaNetNumberUsed"
+      ],
+      "description": "SA bus create request outside manual"
+    },
+    {
+      "enum": [
+        96,
+        "logMethodExecTimeObject"
+      ],
+      "description": "Method execution time exceeds threshold: oid, class id"
+    },
+    {
+      "enum": [
+        97,
+        "logCorruptedPacket"
+      ],
+      "description": "Packet may have been corrupted: datalink id, size"
+    },
+    {
+      "enum": [
+        98,
+        "logReleaseCommandFailed"
+      ],
+      "description": "Load output failed to Release: number failures, oid"
+    },
+    {
+      "enum": [
+        99,
+        "logFileAccessDenied"
+      ],
+      "description": "File Access Problem: status"
+    },
+    {
+      "enum": [
+        100,
+        "mstpErrMaxMasterTooLow"
+      ],
+      "description": "MSTP Max_Master attribute is too low: value, new value"
+    },
+    {
+      "enum": [
+        101,
+        "mstpErrBaudRateOutOfRange"
+      ],
+      "description": "MSTP Baud Rate attribute out of range: value"
+    },
+    {
+      "enum": [
+        102,
+        "mstpErrOpenPortFailure"
+      ],
+      "description": "MSTP Open port failed: port"
+    },
+    {
+      "enum": [
+        103,
+        "mstpErrClosePortFailure"
+      ],
+      "description": "MSTP Close port failed: port"
+    },
+    {
+      "enum": [
+        104,
+        "mstpErrConfigurePortFailure"
+      ],
+      "description": "MSTP Configure Port failed: port, baud rate"
+    },
+    {
+      "enum": [
+        105,
+        "mstpErrCoreNotActive"
+      ],
+      "description": "MSTP core not active"
+    },
+    {
+      "enum": [
+        106,
+        "mstpErrCoreInDiagnosticMode"
+      ],
+      "description": "MSTP core in diagnostic mode"
+    },
+    {
+      "enum": [
+        107,
+        "mstpErrUnexpectedEvent"
+      ],
+      "description": "MSTP unexpected event: event expected, event received"
+    },
+    {
+      "enum": [
+        108,
+        "mstpErrUnexpectedRcvrAbortSignal"
+      ],
+      "description": "MSTP unexpected receive frame state event"
+    },
+    {
+      "enum": [
+        109,
+        "mstpErrRxbufferFull"
+      ],
+      "description": "MSTP receive frame state machine receive buffer full event"
+    },
+    {
+      "enum": [
+        110,
+        "mstpErrErroneousMainEntryCall"
+      ],
+      "description": "MSTP unexpected call into core main entry point"
+    },
+    {
+      "enum": [
+        111,
+        "mstpErrErroneousStateChangeCall"
+      ],
+      "description": "MSTP unexpected call to make deferred state change"
+    },
+    {
+      "enum": [
+        112,
+        "mstpErrSwitchDefaultHitError"
+      ],
+      "description": "MSTP internal failure switch default case: unique switch, value"
+    },
+    {
+      "enum": [
+        113,
+        "mstpErrNullXmitBufferPtr"
+      ],
+      "description": "MSTP transmit buffer found to be NULL"
+    },
+    {
+      "enum": [
+        114,
+        "mstpErrUnsupportedMsgType"
+      ],
+      "description": "MSTP write function with unsupported id: value"
+    },
+    {
+      "enum": [
+        115,
+        "mstpErrMsgTooBig"
+      ],
+      "description": "MSTP write function data too large: size"
+    },
+    {
+      "enum": [
+        116,
+        "mstpErrSlaveCannotSendBroadcast"
+      ],
+      "description": "MSTP slave attempted to transmit a broadcast"
+    },
+    {
+      "enum": [
+        130,
+        "mstpErrMulticastResponderLock"
+      ],
+      "description": "MSTP attribute lock. Configured for Multicast Responder"
+    },
+    {
+      "enum": [
+        140,
+        "mstpErrPropFrameTooShort"
+      ],
+      "description": "MSTP message size too short: invalid frame type"
+    },
+    {
+      "enum": [
+        141,
+        "mstpErrPropFrameTypeInvalid"
+      ],
+      "description": "MSTP proprietary raw frame value invalid: invalid frame type"
+    },
+    {
+      "enum": [
+        201,
+        "mstpErrXoffTimedOut"
+      ],
+      "description": "MSTP Xoff state timed out. Messages being dumped"
+    },
+    {
+      "enum": [
+        202,
+        "logInvalidTaskid"
+      ],
+      "description": "Source Task ID is not valid: Task ID,Message Flag"
+    },
+    {
+      "enum": [
+        203,
+        "logEndptCreateFailed"
+      ],
+      "description": "Sensor Endpoint creation failed: zone number, MAC Address"
+    },
+    {
+      "enum": [
+        204,
+        "logEndptCreateSuccess"
+      ],
+      "description": "Sensor Endpoint created: zone number, MAC Address"
+    },
+    {
+      "enum": [
+        205,
+        "logAperioportFail"
+      ],
+      "description": "Aperio port initialization failure"
+    },
+    {
+      "enum": [
+        206,
+        "logAutoCfgMgnrError"
+      ],
+      "description": "Comms Auto Configure Manager Error"
+    },
+    {
+      "enum": [
+        207,
+        "logN2SlaveAutoCfgError"
+      ],
+      "description": "N2 Slave Auto Configure Error"
+    },
+    {
+      "enum": [
+        208,
+        "logModbusSlaveAutoCfgError"
+      ],
+      "description": "Modbus Slave Auto Configure Error"
+    },
+    {
+      "enum": [
+        209,
+        "logMstpMasterAutoCfgError"
+      ],
+      "description": "MSTP Master Auto Configure Error"
+    },
+    {
+      "enum": [
+        210,
+        "logNetworkNumberCfgError"
+      ],
+      "description": "Network Number Configuration Error (Local#)(Remote#)"
+    },
+    {
+      "enum": [
+        211,
+        "logCertDownloadError"
+      ],
+      "description": "Certificate Download Process Failed On Device"
+    },
+    {
+      "enum": [
+        212,
+        "logCertUploadError"
+      ],
+      "description": "Certificate Upload Process Failed On Device"
+    }
+  ]
+}

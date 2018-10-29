@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrDamperModeEnumSet.schema.json",
+  "title": "hlrDamperModeEnumSet",
+  "description": "HLR Damper Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrDamperModeStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        1,
+        "hlrDamperModeScrubbing"
+      ],
+      "description": "Scrubbing"
+    },
+    {
+      "enum": [
+        2,
+        "hlrDamperModeScrubbinganddamper"
+      ],
+      "description": "ScrubbingAndDamper"
+    },
+    {
+      "enum": [
+        3,
+        "hlrDamperModeRegeneration"
+      ],
+      "description": "Regeneration"
+    }
+  ]
+}

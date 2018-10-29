@@ -1,0 +1,1590 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/contactIdEventCodeEnumSet.schema.json",
+  "title": "contactIdEventCodeEnumSet",
+  "description": "Contact ID Event Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "contactIdDoNotGenerateReport"
+      ],
+      "description": "Do Not Generate Report"
+    },
+    {
+      "enum": [
+        100,
+        "contactIdEventCode100"
+      ],
+      "description": "100 Medical"
+    },
+    {
+      "enum": [
+        101,
+        "contactIdEventCode101"
+      ],
+      "description": "101 Personal Emergency"
+    },
+    {
+      "enum": [
+        102,
+        "contactIdEventCode102"
+      ],
+      "description": "102 Fail to report in"
+    },
+    {
+      "enum": [
+        110,
+        "contactIdEventCode110"
+      ],
+      "description": "110 Fire"
+    },
+    {
+      "enum": [
+        111,
+        "contactIdEventCode111"
+      ],
+      "description": "111 Smoke"
+    },
+    {
+      "enum": [
+        112,
+        "contactIdEventCode112"
+      ],
+      "description": "112 Combustion"
+    },
+    {
+      "enum": [
+        113,
+        "contactIdEventCode113"
+      ],
+      "description": "113 Water flow"
+    },
+    {
+      "enum": [
+        114,
+        "contactIdEventCode114"
+      ],
+      "description": "114 Heat"
+    },
+    {
+      "enum": [
+        115,
+        "contactIdEventCode115"
+      ],
+      "description": "115 Pull Station"
+    },
+    {
+      "enum": [
+        116,
+        "contactIdEventCode116"
+      ],
+      "description": "116 Duct"
+    },
+    {
+      "enum": [
+        117,
+        "contactIdEventCode117"
+      ],
+      "description": "117 Flame"
+    },
+    {
+      "enum": [
+        118,
+        "contactIdEventCode118"
+      ],
+      "description": "118 Near Alarm"
+    },
+    {
+      "enum": [
+        120,
+        "contactIdEventCode120"
+      ],
+      "description": "120 Panic"
+    },
+    {
+      "enum": [
+        121,
+        "contactIdEventCode121"
+      ],
+      "description": "121 Duress"
+    },
+    {
+      "enum": [
+        122,
+        "contactIdEventCode122"
+      ],
+      "description": "122 Silent"
+    },
+    {
+      "enum": [
+        123,
+        "contactIdEventCode123"
+      ],
+      "description": "123 Audible"
+    },
+    {
+      "enum": [
+        124,
+        "contactIdEventCode124"
+      ],
+      "description": "124 Duress - Access granted"
+    },
+    {
+      "enum": [
+        125,
+        "contactIdEventCode125"
+      ],
+      "description": "125 Duress - Egress granted"
+    },
+    {
+      "enum": [
+        130,
+        "contactIdEventCode130"
+      ],
+      "description": "130 Burglary"
+    },
+    {
+      "enum": [
+        131,
+        "contactIdEventCode131"
+      ],
+      "description": "131 Perimeter"
+    },
+    {
+      "enum": [
+        132,
+        "contactIdEventCode132"
+      ],
+      "description": "132 Interior"
+    },
+    {
+      "enum": [
+        133,
+        "contactIdEventCode133"
+      ],
+      "description": "133 24 Hour (Safe)"
+    },
+    {
+      "enum": [
+        134,
+        "contactIdEventCode134"
+      ],
+      "description": "134 Entry/Exit"
+    },
+    {
+      "enum": [
+        135,
+        "contactIdEventCode135"
+      ],
+      "description": "135 Day/night"
+    },
+    {
+      "enum": [
+        136,
+        "contactIdEventCode136"
+      ],
+      "description": "136 Outdoor"
+    },
+    {
+      "enum": [
+        137,
+        "contactIdEventCode137"
+      ],
+      "description": "137 Tamper"
+    },
+    {
+      "enum": [
+        138,
+        "contactIdEventCode138"
+      ],
+      "description": "138 Near alarm"
+    },
+    {
+      "enum": [
+        139,
+        "contactIdEventCode139"
+      ],
+      "description": "139 Intrusion Verifier"
+    },
+    {
+      "enum": [
+        140,
+        "contactIdEventCode140"
+      ],
+      "description": "140 General Alarm"
+    },
+    {
+      "enum": [
+        141,
+        "contactIdEventCode141"
+      ],
+      "description": "141 Polling loop open"
+    },
+    {
+      "enum": [
+        142,
+        "contactIdEventCode142"
+      ],
+      "description": "142 Polling loop short"
+    },
+    {
+      "enum": [
+        143,
+        "contactIdEventCode143"
+      ],
+      "description": "143 Expansion module failure"
+    },
+    {
+      "enum": [
+        144,
+        "contactIdEventCode144"
+      ],
+      "description": "144 Sensor tamper"
+    },
+    {
+      "enum": [
+        145,
+        "contactIdEventCode145"
+      ],
+      "description": "145 Expansion module tamper"
+    },
+    {
+      "enum": [
+        146,
+        "contactIdEventCode146"
+      ],
+      "description": "146 Silent Burglary"
+    },
+    {
+      "enum": [
+        147,
+        "contactIdEventCode147"
+      ],
+      "description": "147 Sensor Supervision Failure"
+    },
+    {
+      "enum": [
+        150,
+        "contactIdEventCode150"
+      ],
+      "description": "150 24 Hour Non-Burglary"
+    },
+    {
+      "enum": [
+        151,
+        "contactIdEventCode151"
+      ],
+      "description": "151 Gas detected"
+    },
+    {
+      "enum": [
+        152,
+        "contactIdEventCode152"
+      ],
+      "description": "152 Refrigeration"
+    },
+    {
+      "enum": [
+        153,
+        "contactIdEventCode153"
+      ],
+      "description": "153 Loss of heat"
+    },
+    {
+      "enum": [
+        154,
+        "contactIdEventCode154"
+      ],
+      "description": "154 Water Leakage"
+    },
+    {
+      "enum": [
+        155,
+        "contactIdEventCode155"
+      ],
+      "description": "155 Foil Break"
+    },
+    {
+      "enum": [
+        156,
+        "contactIdEventCode156"
+      ],
+      "description": "156 Day Trouble"
+    },
+    {
+      "enum": [
+        157,
+        "contactIdEventCode157"
+      ],
+      "description": "157 Low bottled gas level"
+    },
+    {
+      "enum": [
+        158,
+        "contactIdEventCode158"
+      ],
+      "description": "158 High temp"
+    },
+    {
+      "enum": [
+        159,
+        "contactIdEventCode159"
+      ],
+      "description": "159 Low temp"
+    },
+    {
+      "enum": [
+        161,
+        "contactIdEventCode161"
+      ],
+      "description": "161 Loss of air flow"
+    },
+    {
+      "enum": [
+        162,
+        "contactIdEventCode162"
+      ],
+      "description": "162 Carbon Monoxide detected"
+    },
+    {
+      "enum": [
+        163,
+        "contactIdEventCode163"
+      ],
+      "description": "163 Tank level"
+    },
+    {
+      "enum": [
+        200,
+        "contactIdEventCode200"
+      ],
+      "description": "200 Fire Supervisory"
+    },
+    {
+      "enum": [
+        201,
+        "contactIdEventCode201"
+      ],
+      "description": "201 Low water pressure"
+    },
+    {
+      "enum": [
+        202,
+        "contactIdEventCode202"
+      ],
+      "description": "202 Low CO2"
+    },
+    {
+      "enum": [
+        203,
+        "contactIdEventCode203"
+      ],
+      "description": "203 Gate valve sensor"
+    },
+    {
+      "enum": [
+        204,
+        "contactIdEventCode204"
+      ],
+      "description": "204 Low water level"
+    },
+    {
+      "enum": [
+        205,
+        "contactIdEventCode205"
+      ],
+      "description": "205 Pump activated"
+    },
+    {
+      "enum": [
+        206,
+        "contactIdEventCode206"
+      ],
+      "description": "206 Pump failure"
+    },
+    {
+      "enum": [
+        300,
+        "contactIdEventCode300"
+      ],
+      "description": "300 System Trouble"
+    },
+    {
+      "enum": [
+        301,
+        "contactIdEventCode301"
+      ],
+      "description": "301 AC Loss"
+    },
+    {
+      "enum": [
+        302,
+        "contactIdEventCode302"
+      ],
+      "description": "302 Low system battery"
+    },
+    {
+      "enum": [
+        303,
+        "contactIdEventCode303"
+      ],
+      "description": "303 RAM Checksum bad"
+    },
+    {
+      "enum": [
+        304,
+        "contactIdEventCode304"
+      ],
+      "description": "304 ROM checksum bad"
+    },
+    {
+      "enum": [
+        305,
+        "contactIdEventCode305"
+      ],
+      "description": "305 System reset"
+    },
+    {
+      "enum": [
+        306,
+        "contactIdEventCode306"
+      ],
+      "description": "306 Panel programming changed"
+    },
+    {
+      "enum": [
+        307,
+        "contactIdEventCode307"
+      ],
+      "description": "307 Self- test failure"
+    },
+    {
+      "enum": [
+        308,
+        "contactIdEventCode308"
+      ],
+      "description": "308 System shutdown"
+    },
+    {
+      "enum": [
+        309,
+        "contactIdEventCode309"
+      ],
+      "description": "309 Battery test failure"
+    },
+    {
+      "enum": [
+        310,
+        "contactIdEventCode310"
+      ],
+      "description": "310 Ground fault"
+    },
+    {
+      "enum": [
+        311,
+        "contactIdEventCode311"
+      ],
+      "description": "311 Battery Missing/Dead"
+    },
+    {
+      "enum": [
+        312,
+        "contactIdEventCode312"
+      ],
+      "description": "312 Power Supply Overcurrent"
+    },
+    {
+      "enum": [
+        313,
+        "contactIdEventCode313"
+      ],
+      "description": "313 Engineer Reset"
+    },
+    {
+      "enum": [
+        320,
+        "contactIdEventCode320"
+      ],
+      "description": "320 Sounder/Relay"
+    },
+    {
+      "enum": [
+        321,
+        "contactIdEventCode321"
+      ],
+      "description": "321 Bell 1"
+    },
+    {
+      "enum": [
+        322,
+        "contactIdEventCode322"
+      ],
+      "description": "322 Bell 2"
+    },
+    {
+      "enum": [
+        323,
+        "contactIdEventCode323"
+      ],
+      "description": "323 Alarm relay"
+    },
+    {
+      "enum": [
+        324,
+        "contactIdEventCode324"
+      ],
+      "description": "324 Trouble relay"
+    },
+    {
+      "enum": [
+        325,
+        "contactIdEventCode325"
+      ],
+      "description": "325 Reversing relay"
+    },
+    {
+      "enum": [
+        326,
+        "contactIdEventCode326"
+      ],
+      "description": "326 Notification Appliance Ckt. #3"
+    },
+    {
+      "enum": [
+        327,
+        "contactIdEventCode327"
+      ],
+      "description": "327 Notification Appliance Ckt. #4"
+    },
+    {
+      "enum": [
+        330,
+        "contactIdEventCode330"
+      ],
+      "description": "330 System Peripheral trouble"
+    },
+    {
+      "enum": [
+        331,
+        "contactIdEventCode331"
+      ],
+      "description": "331 Polling loop open"
+    },
+    {
+      "enum": [
+        332,
+        "contactIdEventCode332"
+      ],
+      "description": "332 Polling loop short"
+    },
+    {
+      "enum": [
+        333,
+        "contactIdEventCode333"
+      ],
+      "description": "333 Expansion module failure"
+    },
+    {
+      "enum": [
+        334,
+        "contactIdEventCode334"
+      ],
+      "description": "334 Repeater failure"
+    },
+    {
+      "enum": [
+        335,
+        "contactIdEventCode335"
+      ],
+      "description": "335 Local printer out of paper"
+    },
+    {
+      "enum": [
+        336,
+        "contactIdEventCode336"
+      ],
+      "description": "336 Local printer failure"
+    },
+    {
+      "enum": [
+        337,
+        "contactIdEventCode337"
+      ],
+      "description": "337 Exp. Module DC Loss"
+    },
+    {
+      "enum": [
+        338,
+        "contactIdEventCode338"
+      ],
+      "description": "338 Exp. Module Low Batt."
+    },
+    {
+      "enum": [
+        339,
+        "contactIdEventCode339"
+      ],
+      "description": "339 Exp. Module Reset"
+    },
+    {
+      "enum": [
+        341,
+        "contactIdEventCode341"
+      ],
+      "description": "341 Exp. Module Tamper"
+    },
+    {
+      "enum": [
+        342,
+        "contactIdEventCode342"
+      ],
+      "description": "342 Exp. Module AC Loss"
+    },
+    {
+      "enum": [
+        343,
+        "contactIdEventCode343"
+      ],
+      "description": "343 Exp. Module self-test fail"
+    },
+    {
+      "enum": [
+        344,
+        "contactIdEventCode344"
+      ],
+      "description": "344 RF Receiver Jam Detect"
+    },
+    {
+      "enum": [
+        350,
+        "contactIdEventCode350"
+      ],
+      "description": "350 Communication trouble"
+    },
+    {
+      "enum": [
+        351,
+        "contactIdEventCode351"
+      ],
+      "description": "351 Telco 1 fault"
+    },
+    {
+      "enum": [
+        352,
+        "contactIdEventCode352"
+      ],
+      "description": "352 Telco 2 fault"
+    },
+    {
+      "enum": [
+        353,
+        "contactIdEventCode353"
+      ],
+      "description": "353 Long Range Radio xmitter fault"
+    },
+    {
+      "enum": [
+        354,
+        "contactIdEventCode354"
+      ],
+      "description": "354 Failure to communicate event"
+    },
+    {
+      "enum": [
+        355,
+        "contactIdEventCode355"
+      ],
+      "description": "355 Loss of Radio supervision"
+    },
+    {
+      "enum": [
+        356,
+        "contactIdEventCode356"
+      ],
+      "description": "356 Loss of central polling"
+    },
+    {
+      "enum": [
+        357,
+        "contactIdEventCode357"
+      ],
+      "description": "357 Long Range Radio VSWR problem"
+    },
+    {
+      "enum": [
+        370,
+        "contactIdEventCode370"
+      ],
+      "description": "370 Protection loop"
+    },
+    {
+      "enum": [
+        371,
+        "contactIdEventCode371"
+      ],
+      "description": "371 Protection loop open"
+    },
+    {
+      "enum": [
+        372,
+        "contactIdEventCode372"
+      ],
+      "description": "372 Protection loop short"
+    },
+    {
+      "enum": [
+        373,
+        "contactIdEventCode373"
+      ],
+      "description": "373 Fire trouble"
+    },
+    {
+      "enum": [
+        374,
+        "contactIdEventCode374"
+      ],
+      "description": "374 Exit error alarm (zone)"
+    },
+    {
+      "enum": [
+        375,
+        "contactIdEventCode375"
+      ],
+      "description": "375 Panic zone trouble"
+    },
+    {
+      "enum": [
+        376,
+        "contactIdEventCode376"
+      ],
+      "description": "376 Hold-up zone trouble"
+    },
+    {
+      "enum": [
+        377,
+        "contactIdEventCode377"
+      ],
+      "description": "377 Swinger Trouble"
+    },
+    {
+      "enum": [
+        378,
+        "contactIdEventCode378"
+      ],
+      "description": "378 Cross-zone Trouble"
+    },
+    {
+      "enum": [
+        380,
+        "contactIdEventCode380"
+      ],
+      "description": "380 Sensor trouble"
+    },
+    {
+      "enum": [
+        381,
+        "contactIdEventCode381"
+      ],
+      "description": "381 Loss of supervision - RF"
+    },
+    {
+      "enum": [
+        382,
+        "contactIdEventCode382"
+      ],
+      "description": "382 Loss of supervision - RPM"
+    },
+    {
+      "enum": [
+        383,
+        "contactIdEventCode383"
+      ],
+      "description": "383 Sensor tamper"
+    },
+    {
+      "enum": [
+        384,
+        "contactIdEventCode384"
+      ],
+      "description": "384 RF low battery"
+    },
+    {
+      "enum": [
+        385,
+        "contactIdEventCode385"
+      ],
+      "description": "385 Smoke detector Hi sensitivity"
+    },
+    {
+      "enum": [
+        386,
+        "contactIdEventCode386"
+      ],
+      "description": "386 Smoke detector Low sensitivity"
+    },
+    {
+      "enum": [
+        387,
+        "contactIdEventCode387"
+      ],
+      "description": "387 Intrusion detector Hi sensitivity"
+    },
+    {
+      "enum": [
+        388,
+        "contactIdEventCode388"
+      ],
+      "description": "388 Intrusion detector Low sensitivity"
+    },
+    {
+      "enum": [
+        389,
+        "contactIdEventCode389"
+      ],
+      "description": "389 Sensor self-test failure"
+    },
+    {
+      "enum": [
+        391,
+        "contactIdEventCode391"
+      ],
+      "description": "391 Sensor Watch trouble"
+    },
+    {
+      "enum": [
+        392,
+        "contactIdEventCode392"
+      ],
+      "description": "392 Drift Compensation Error"
+    },
+    {
+      "enum": [
+        393,
+        "contactIdEventCode393"
+      ],
+      "description": "393 Maintenance Alert"
+    },
+    {
+      "enum": [
+        400,
+        "contactIdEventCode400"
+      ],
+      "description": "400 Open/Close"
+    },
+    {
+      "enum": [
+        401,
+        "contactIdEventCode401"
+      ],
+      "description": "401 O/C by user"
+    },
+    {
+      "enum": [
+        402,
+        "contactIdEventCode402"
+      ],
+      "description": "402 Group O/C"
+    },
+    {
+      "enum": [
+        403,
+        "contactIdEventCode403"
+      ],
+      "description": "403 Automatic O/C"
+    },
+    {
+      "enum": [
+        404,
+        "contactIdEventCode404"
+      ],
+      "description": "404 Late to O/C (Note: use 453, 454 instead)"
+    },
+    {
+      "enum": [
+        405,
+        "contactIdEventCode405"
+      ],
+      "description": "405 Deferred O/C (Obsolete- do not use)"
+    },
+    {
+      "enum": [
+        406,
+        "contactIdEventCode406"
+      ],
+      "description": "406 Cancel"
+    },
+    {
+      "enum": [
+        407,
+        "contactIdEventCode407"
+      ],
+      "description": "407 Remote arm/disarm"
+    },
+    {
+      "enum": [
+        408,
+        "contactIdEventCode408"
+      ],
+      "description": "408 Quick arm"
+    },
+    {
+      "enum": [
+        409,
+        "contactIdEventCode409"
+      ],
+      "description": "409 Keyswitch O/C"
+    },
+    {
+      "enum": [
+        411,
+        "contactIdEventCode411"
+      ],
+      "description": "411 Callback request made"
+    },
+    {
+      "enum": [
+        412,
+        "contactIdEventCode412"
+      ],
+      "description": "412 Successful download/access"
+    },
+    {
+      "enum": [
+        413,
+        "contactIdEventCode413"
+      ],
+      "description": "413 Unsuccessful access"
+    },
+    {
+      "enum": [
+        414,
+        "contactIdEventCode414"
+      ],
+      "description": "414 System shutdown command received"
+    },
+    {
+      "enum": [
+        415,
+        "contactIdEventCode415"
+      ],
+      "description": "415 Dialer shutdown command received"
+    },
+    {
+      "enum": [
+        416,
+        "contactIdEventCode416"
+      ],
+      "description": "416 Successful Upload"
+    },
+    {
+      "enum": [
+        421,
+        "contactIdEventCode421"
+      ],
+      "description": "421 Access denied"
+    },
+    {
+      "enum": [
+        422,
+        "contactIdEventCode422"
+      ],
+      "description": "422 Access report by user"
+    },
+    {
+      "enum": [
+        423,
+        "contactIdEventCode423"
+      ],
+      "description": "423 Forced Access"
+    },
+    {
+      "enum": [
+        424,
+        "contactIdEventCode424"
+      ],
+      "description": "424 Egress Denied"
+    },
+    {
+      "enum": [
+        425,
+        "contactIdEventCode425"
+      ],
+      "description": "425 Egress Granted"
+    },
+    {
+      "enum": [
+        426,
+        "contactIdEventCode426"
+      ],
+      "description": "426 Access Door propped open"
+    },
+    {
+      "enum": [
+        427,
+        "contactIdEventCode427"
+      ],
+      "description": "427 Access point Door Status Monitor trouble"
+    },
+    {
+      "enum": [
+        428,
+        "contactIdEventCode428"
+      ],
+      "description": "428 Access point Request To Exit trouble"
+    },
+    {
+      "enum": [
+        429,
+        "contactIdEventCode429"
+      ],
+      "description": "429 Access program mode entry"
+    },
+    {
+      "enum": [
+        430,
+        "contactIdEventCode430"
+      ],
+      "description": "430 Access program mode exit"
+    },
+    {
+      "enum": [
+        431,
+        "contactIdEventCode431"
+      ],
+      "description": "431 Access threat level change"
+    },
+    {
+      "enum": [
+        432,
+        "contactIdEventCode432"
+      ],
+      "description": "432 Access relay/trigger fail"
+    },
+    {
+      "enum": [
+        433,
+        "contactIdEventCode433"
+      ],
+      "description": "433 Access RTE shunt"
+    },
+    {
+      "enum": [
+        434,
+        "contactIdEventCode434"
+      ],
+      "description": "434 Access DSM shunt"
+    },
+    {
+      "enum": [
+        441,
+        "contactIdEventCode441"
+      ],
+      "description": "441 Armed STAY"
+    },
+    {
+      "enum": [
+        442,
+        "contactIdEventCode442"
+      ],
+      "description": "442 Keyswitch Armed STAY"
+    },
+    {
+      "enum": [
+        450,
+        "contactIdEventCode450"
+      ],
+      "description": "450 Exception O/C"
+    },
+    {
+      "enum": [
+        451,
+        "contactIdEventCode451"
+      ],
+      "description": "451 Early O/C"
+    },
+    {
+      "enum": [
+        452,
+        "contactIdEventCode452"
+      ],
+      "description": "452 Late O/C"
+    },
+    {
+      "enum": [
+        453,
+        "contactIdEventCode453"
+      ],
+      "description": "453 Failed to Open"
+    },
+    {
+      "enum": [
+        454,
+        "contactIdEventCode454"
+      ],
+      "description": "454 Failed to Close"
+    },
+    {
+      "enum": [
+        455,
+        "contactIdEventCode455"
+      ],
+      "description": "455 Auto-arm Failed"
+    },
+    {
+      "enum": [
+        456,
+        "contactIdEventCode456"
+      ],
+      "description": "456 Partial Arm"
+    },
+    {
+      "enum": [
+        457,
+        "contactIdEventCode457"
+      ],
+      "description": "457 Exit Error (user)"
+    },
+    {
+      "enum": [
+        458,
+        "contactIdEventCode458"
+      ],
+      "description": "458 User on Premises"
+    },
+    {
+      "enum": [
+        459,
+        "contactIdEventCode459"
+      ],
+      "description": "459 Recent Close"
+    },
+    {
+      "enum": [
+        461,
+        "contactIdEventCode461"
+      ],
+      "description": "461 Wrong Code Entry"
+    },
+    {
+      "enum": [
+        462,
+        "contactIdEventCode462"
+      ],
+      "description": "462 Legal Code Entry"
+    },
+    {
+      "enum": [
+        463,
+        "contactIdEventCode463"
+      ],
+      "description": "463 Re-arm after Alarm"
+    },
+    {
+      "enum": [
+        464,
+        "contactIdEventCode464"
+      ],
+      "description": "464 Auto-arm Time Extended"
+    },
+    {
+      "enum": [
+        465,
+        "contactIdEventCode465"
+      ],
+      "description": "465 Panic Alarm Reset"
+    },
+    {
+      "enum": [
+        466,
+        "contactIdEventCode466"
+      ],
+      "description": "466 Service On/Off Premises"
+    },
+    {
+      "enum": [
+        501,
+        "contactIdEventCode501"
+      ],
+      "description": "501 Access reader disable"
+    },
+    {
+      "enum": [
+        520,
+        "contactIdEventCode520"
+      ],
+      "description": "520 Sounder/Relay Disable"
+    },
+    {
+      "enum": [
+        521,
+        "contactIdEventCode521"
+      ],
+      "description": "521 Bell 1 disable"
+    },
+    {
+      "enum": [
+        522,
+        "contactIdEventCode522"
+      ],
+      "description": "522 Bell 2 disable"
+    },
+    {
+      "enum": [
+        523,
+        "contactIdEventCode523"
+      ],
+      "description": "523 Alarm relay disable"
+    },
+    {
+      "enum": [
+        524,
+        "contactIdEventCode524"
+      ],
+      "description": "524 Trouble relay disable"
+    },
+    {
+      "enum": [
+        525,
+        "contactIdEventCode525"
+      ],
+      "description": "525 Reversing relay disable"
+    },
+    {
+      "enum": [
+        526,
+        "contactIdEventCode526"
+      ],
+      "description": "526 Notification Appliance Ckt. # 3 disable"
+    },
+    {
+      "enum": [
+        527,
+        "contactIdEventCode527"
+      ],
+      "description": "527 Notification Appliance Ckt. # 4 disable"
+    },
+    {
+      "enum": [
+        531,
+        "contactIdEventCode531"
+      ],
+      "description": "531 Module Added"
+    },
+    {
+      "enum": [
+        532,
+        "contactIdEventCode532"
+      ],
+      "description": "532 Module Removed"
+    },
+    {
+      "enum": [
+        551,
+        "contactIdEventCode551"
+      ],
+      "description": "551 Dialer disabled"
+    },
+    {
+      "enum": [
+        552,
+        "contactIdEventCode552"
+      ],
+      "description": "552 Radio transmitter disabled"
+    },
+    {
+      "enum": [
+        553,
+        "contactIdEventCode553"
+      ],
+      "description": "553 Remote Upload/Download disabled"
+    },
+    {
+      "enum": [
+        570,
+        "contactIdEventCode570"
+      ],
+      "description": "570 Zone/Sensor bypass"
+    },
+    {
+      "enum": [
+        571,
+        "contactIdEventCode571"
+      ],
+      "description": "571 Fire bypass"
+    },
+    {
+      "enum": [
+        572,
+        "contactIdEventCode572"
+      ],
+      "description": "572 24 Hour zone bypass"
+    },
+    {
+      "enum": [
+        573,
+        "contactIdEventCode573"
+      ],
+      "description": "573 Burg. Bypass"
+    },
+    {
+      "enum": [
+        574,
+        "contactIdEventCode574"
+      ],
+      "description": "574 Group bypass"
+    },
+    {
+      "enum": [
+        575,
+        "contactIdEventCode575"
+      ],
+      "description": "575 Swinger bypass"
+    },
+    {
+      "enum": [
+        576,
+        "contactIdEventCode576"
+      ],
+      "description": "576 Access zone shunt"
+    },
+    {
+      "enum": [
+        577,
+        "contactIdEventCode577"
+      ],
+      "description": "577 Access point bypass"
+    },
+    {
+      "enum": [
+        601,
+        "contactIdEventCode601"
+      ],
+      "description": "601 Manual trigger test report"
+    },
+    {
+      "enum": [
+        602,
+        "contactIdEventCode602"
+      ],
+      "description": "602 Periodic test report"
+    },
+    {
+      "enum": [
+        603,
+        "contactIdEventCode603"
+      ],
+      "description": "603 Periodic RF transmission"
+    },
+    {
+      "enum": [
+        604,
+        "contactIdEventCode604"
+      ],
+      "description": "604 Fire test"
+    },
+    {
+      "enum": [
+        605,
+        "contactIdEventCode605"
+      ],
+      "description": "605 Status report to follow"
+    },
+    {
+      "enum": [
+        606,
+        "contactIdEventCode606"
+      ],
+      "description": "606 Listen- in to follow"
+    },
+    {
+      "enum": [
+        607,
+        "contactIdEventCode607"
+      ],
+      "description": "607 Walk test mode"
+    },
+    {
+      "enum": [
+        608,
+        "contactIdEventCode608"
+      ],
+      "description": "608 Periodic test - System Trouble Present"
+    },
+    {
+      "enum": [
+        609,
+        "contactIdEventCode609"
+      ],
+      "description": "609 Video Xmitter active"
+    },
+    {
+      "enum": [
+        611,
+        "contactIdEventCode611"
+      ],
+      "description": "611 Point tested OK"
+    },
+    {
+      "enum": [
+        612,
+        "contactIdEventCode612"
+      ],
+      "description": "612 Point not tested"
+    },
+    {
+      "enum": [
+        613,
+        "contactIdEventCode613"
+      ],
+      "description": "613 Intrusion Zone Walk Tested"
+    },
+    {
+      "enum": [
+        614,
+        "contactIdEventCode614"
+      ],
+      "description": "614 Fire Zone Walk Tested"
+    },
+    {
+      "enum": [
+        615,
+        "contactIdEventCode615"
+      ],
+      "description": "615 Panic Zone Walk Tested"
+    },
+    {
+      "enum": [
+        616,
+        "contactIdEventCode616"
+      ],
+      "description": "616 Service Request"
+    },
+    {
+      "enum": [
+        621,
+        "contactIdEventCode621"
+      ],
+      "description": "621 Event Log reset"
+    },
+    {
+      "enum": [
+        622,
+        "contactIdEventCode622"
+      ],
+      "description": "622 Event Log 50% full"
+    },
+    {
+      "enum": [
+        623,
+        "contactIdEventCode623"
+      ],
+      "description": "623 Event Log 90% full"
+    },
+    {
+      "enum": [
+        624,
+        "contactIdEventCode624"
+      ],
+      "description": "624 Event Log overflow"
+    },
+    {
+      "enum": [
+        625,
+        "contactIdEventCode625"
+      ],
+      "description": "625 Time/Date reset"
+    },
+    {
+      "enum": [
+        626,
+        "contactIdEventCode626"
+      ],
+      "description": "626 Time/Date inaccurate"
+    },
+    {
+      "enum": [
+        627,
+        "contactIdEventCode627"
+      ],
+      "description": "627 Program mode entry"
+    },
+    {
+      "enum": [
+        628,
+        "contactIdEventCode628"
+      ],
+      "description": "628 Program mode exit"
+    },
+    {
+      "enum": [
+        629,
+        "contactIdEventCode629"
+      ],
+      "description": "629 32 Hour Event log marker"
+    },
+    {
+      "enum": [
+        630,
+        "contactIdEventCode630"
+      ],
+      "description": "630 Schedule change"
+    },
+    {
+      "enum": [
+        631,
+        "contactIdEventCode631"
+      ],
+      "description": "631 Exception schedule change"
+    },
+    {
+      "enum": [
+        632,
+        "contactIdEventCode632"
+      ],
+      "description": "632 Access schedule change"
+    },
+    {
+      "enum": [
+        641,
+        "contactIdEventCode641"
+      ],
+      "description": "641 Senior Watch Trouble"
+    },
+    {
+      "enum": [
+        642,
+        "contactIdEventCode642"
+      ],
+      "description": "642 Latch-key Supervision"
+    },
+    {
+      "enum": [
+        651,
+        "contactIdEventCode651"
+      ],
+      "description": "651 Reserved for Ademco Use"
+    },
+    {
+      "enum": [
+        652,
+        "contactIdEventCode652"
+      ],
+      "description": "652 Reserved for Ademco Use"
+    },
+    {
+      "enum": [
+        653,
+        "contactIdEventCode653"
+      ],
+      "description": "653 Reserved for Ademco Use"
+    },
+    {
+      "enum": [
+        654,
+        "contactIdEventCode654"
+      ],
+      "description": "654 System Inactivity"
+    }
+  ]
+}

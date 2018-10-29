@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/subsystemCategoryEnumSet.schema.json",
+  "title": "subsystemCategoryEnumSet",
+  "description": "Subsystem Category",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "terminalUnits"
+      ],
+      "description": "Terminal Units"
+    },
+    {
+      "enum": [
+        1,
+        "airHandlers"
+      ],
+      "description": "Air Handlers"
+    },
+    {
+      "enum": [
+        2,
+        "centralPlants"
+      ],
+      "description": "Central Plants"
+    },
+    {
+      "enum": [
+        3,
+        "otherTypes"
+      ],
+      "description": "Other Types"
+    }
+  ]
+}

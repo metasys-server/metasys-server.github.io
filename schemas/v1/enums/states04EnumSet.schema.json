@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/states04EnumSet.schema.json",
+  "title": "states04EnumSet",
+  "description": "States (0-4)",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "state40"
+      ],
+      "description": "State 0"
+    },
+    {
+      "enum": [
+        1,
+        "state41"
+      ],
+      "description": "State 1"
+    },
+    {
+      "enum": [
+        2,
+        "state42"
+      ],
+      "description": "State 2"
+    },
+    {
+      "enum": [
+        3,
+        "state43"
+      ],
+      "description": "State 3"
+    },
+    {
+      "enum": [
+        4,
+        "state44"
+      ],
+      "description": "State 4"
+    }
+  ]
+}

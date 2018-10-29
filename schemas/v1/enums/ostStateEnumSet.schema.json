@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ostStateEnumSet.schema.json",
+  "title": "ostStateEnumSet",
+  "description": "OST State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ostIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "ostPrestartHeating"
+      ],
+      "description": "Prestart Heating"
+    },
+    {
+      "enum": [
+        2,
+        "ostPrestartCooling"
+      ],
+      "description": "Prestart Cooling"
+    },
+    {
+      "enum": [
+        3,
+        "ostCalculatingDeadtime"
+      ],
+      "description": "Calculating Deadtime"
+    },
+    {
+      "enum": [
+        4,
+        "ostCalculatingConstant"
+      ],
+      "description": "Calculating Constant"
+    },
+    {
+      "enum": [
+        5,
+        "ostOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        6,
+        "ostPrestop"
+      ],
+      "description": "Prestop"
+    },
+    {
+      "enum": [
+        7,
+        "ostNotOperational"
+      ],
+      "description": "Not Operational"
+    }
+  ]
+}

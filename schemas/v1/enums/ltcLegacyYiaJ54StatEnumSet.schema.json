@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJ54StatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJ54StatEnumSet",
+  "description": "York LTC Legacy YIA J54 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJ54Stat0"
+      ],
+      "description": "Limited CW Pump Cntrl"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJ54Stat1"
+      ],
+      "description": "Full CW Pump Cntrl"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lccsControllerTypeEnumSet.schema.json",
+  "title": "lccsControllerTypeEnumSet",
+  "description": "LCCS Controller Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rctChangeoverBypass"
+      ],
+      "description": "Changeover Bypass"
+    },
+    {
+      "enum": [
+        1,
+        "rctVav"
+      ],
+      "description": "VAV"
+    },
+    {
+      "enum": [
+        2,
+        "rctConstantVolume"
+      ],
+      "description": "Constant Volume"
+    },
+    {
+      "enum": [
+        3,
+        "rctTec"
+      ],
+      "description": "TEC"
+    }
+  ]
+}

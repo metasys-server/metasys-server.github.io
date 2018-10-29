@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymaaSysStatusEnumSet.schema.json",
+  "title": "ymaaSysStatusEnumSet",
+  "description": "YMAA System Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymaaSysStatus0"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        1,
+        "ymaaSysStatus1"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        2,
+        "ymaaSysStatus2"
+      ],
+      "description": "Cooling + Fast Hot Water"
+    },
+    {
+      "enum": [
+        3,
+        "ymaaSysStatus3"
+      ],
+      "description": "Heating + Fast Hot Water"
+    },
+    {
+      "enum": [
+        4,
+        "ymaaSysStatus4"
+      ],
+      "description": "Cooling + Normal Hot Water"
+    },
+    {
+      "enum": [
+        5,
+        "ymaaSysStatus5"
+      ],
+      "description": "Heating + Normal Hot Water"
+    },
+    {
+      "enum": [
+        6,
+        "ymaaSysStatus6"
+      ],
+      "description": "Fast Hot Water"
+    },
+    {
+      "enum": [
+        7,
+        "ymaaSysStatus7"
+      ],
+      "description": "Normal Hot Water"
+    },
+    {
+      "enum": [
+        8,
+        "ymaaSysStatus8"
+      ],
+      "description": "Pump"
+    }
+  ]
+}

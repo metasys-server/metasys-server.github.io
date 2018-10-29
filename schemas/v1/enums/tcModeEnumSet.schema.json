@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tcModeEnumSet.schema.json",
+  "title": "tcModeEnumSet",
+  "description": "TC Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tcModeNight"
+      ],
+      "description": "Night"
+    },
+    {
+      "enum": [
+        1,
+        "tcModeStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        2,
+        "tcModeComfort"
+      ],
+      "description": "Comfort"
+    },
+    {
+      "enum": [
+        3,
+        "tcModeOff"
+      ],
+      "description": "Off"
+    }
+  ]
+}

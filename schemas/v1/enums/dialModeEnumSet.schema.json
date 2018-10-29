@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dialModeEnumSet.schema.json",
+  "title": "dialModeEnumSet",
+  "description": "Dial Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sdlTone"
+      ],
+      "description": "Tone"
+    },
+    {
+      "enum": [
+        1,
+        "sdlPulse"
+      ],
+      "description": "Pulse"
+    }
+  ]
+}

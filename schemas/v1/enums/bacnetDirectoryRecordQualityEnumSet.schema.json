@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetDirectoryRecordQualityEnumSet.schema.json",
+  "title": "bacnetDirectoryRecordQualityEnumSet",
+  "description": "BACnet Directory Record Quality",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetDirectoryRecordInvalid"
+      ],
+      "description": "Invalid"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetDirectoryRecordUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetDirectoryRecordLocal"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetDirectoryRecordConfigured"
+      ],
+      "description": "Configured"
+    },
+    {
+      "enum": [
+        4,
+        "bacnetDirectoryRecordRegistered"
+      ],
+      "description": "Registered"
+    },
+    {
+      "enum": [
+        5,
+        "bacnetDirectoryRecordLearned"
+      ],
+      "description": "Learned"
+    },
+    {
+      "enum": [
+        6,
+        "bacnetDirectoryRecordMonitored"
+      ],
+      "description": "Monitored"
+    }
+  ]
+}

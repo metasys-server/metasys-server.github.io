@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymaaAvailableModeEnumSet.schema.json",
+  "title": "ymaaAvailableModeEnumSet",
+  "description": "YMAA Available Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymaaAvailableMode0"
+      ],
+      "description": "Heat Pump"
+    },
+    {
+      "enum": [
+        1,
+        "ymaaAvailableMode1"
+      ],
+      "description": "Cooling Only"
+    },
+    {
+      "enum": [
+        2,
+        "ymaaAvailableMode2"
+      ],
+      "description": "Heat Recovery"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fanSpeedEnumSet.schema.json",
+  "title": "fanSpeedEnumSet",
+  "description": "Fan Speed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fanSpeedOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "fanSpeed1"
+      ],
+      "description": "Speed 1"
+    },
+    {
+      "enum": [
+        2,
+        "fanSpeed2"
+      ],
+      "description": "Speed 2"
+    },
+    {
+      "enum": [
+        3,
+        "fanSpeed3"
+      ],
+      "description": "Speed 3"
+    },
+    {
+      "enum": [
+        4,
+        "fanSpeedDisabled"
+      ],
+      "description": "Disabled"
+    }
+  ]
+}

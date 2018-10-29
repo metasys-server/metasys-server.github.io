@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/databaseActionEnumSet.schema.json",
+  "title": "databaseActionEnumSet",
+  "description": "Database Action",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "databaseActionNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "databaseActionCommit"
+      ],
+      "description": "Commit"
+    },
+    {
+      "enum": [
+        2,
+        "databaseActionRestart"
+      ],
+      "description": "Restart"
+    },
+    {
+      "enum": [
+        3,
+        "databaseActionPurge"
+      ],
+      "description": "Purge"
+    }
+  ]
+}

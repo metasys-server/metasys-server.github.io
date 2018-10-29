@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuZoneUnoccDetailedEnumSet.schema.json",
+  "title": "ahuZoneUnoccDetailedEnumSet",
+  "description": "AHU Zone Unocc Detailed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuzudSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "ahuzudEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        2,
+        "ahuzudEconTiming"
+      ],
+      "description": "Econ Timing"
+    },
+    {
+      "enum": [
+        3,
+        "ahuzudMech"
+      ],
+      "description": "Mech"
+    },
+    {
+      "enum": [
+        4,
+        "ahuzudMechTiming"
+      ],
+      "description": "Mech Timing"
+    },
+    {
+      "enum": [
+        5,
+        "ahuzudEconMech"
+      ],
+      "description": "Econ+Mech"
+    },
+    {
+      "enum": [
+        6,
+        "ahuzudEconMechTiming"
+      ],
+      "description": "Econ+Mech Timing"
+    },
+    {
+      "enum": [
+        7,
+        "ahuzudPreheat"
+      ],
+      "description": "Preheat"
+    },
+    {
+      "enum": [
+        8,
+        "ahuzudPreheatTiming"
+      ],
+      "description": "Preheat Timing"
+    },
+    {
+      "enum": [
+        9,
+        "ahuzudPreheatReheat"
+      ],
+      "description": "Preheat+Reheat"
+    },
+    {
+      "enum": [
+        10,
+        "ahuzudPreheatReheatTiming"
+      ],
+      "description": "Preheat+Reheat Timing"
+    },
+    {
+      "enum": [
+        11,
+        "ahuzudIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        12,
+        "ahuzudUnoccCntrlNotReqd"
+      ],
+      "description": "Unocc Cntrl Not Req'd"
+    },
+    {
+      "enum": [
+        13,
+        "ahuzudTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    }
+  ]
+}

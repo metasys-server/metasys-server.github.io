@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/protocolIdentifierEnumSet.schema.json",
+  "title": "protocolIdentifierEnumSet",
+  "description": "Protocol Identifiers",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "protocolIdNoProtocol"
+      ],
+      "description": "No Protocol"
+    },
+    {
+      "enum": [
+        1,
+        "protocolIdYorktalk3Master"
+      ],
+      "description": "YorkTalk 3 Master"
+    },
+    {
+      "enum": [
+        2,
+        "protocolIdYorktalk2Master"
+      ],
+      "description": "YorkTalk 2 Master"
+    },
+    {
+      "enum": [
+        3,
+        "protocolIdMstpMaster"
+      ],
+      "description": "MSTP Master"
+    },
+    {
+      "enum": [
+        4,
+        "protocolIdModbusMaster"
+      ],
+      "description": "Modbus Master"
+    },
+    {
+      "enum": [
+        5,
+        "protocolIdModbusSlave"
+      ],
+      "description": "Modbus Slave"
+    },
+    {
+      "enum": [
+        6,
+        "protocolIdN2Master"
+      ],
+      "description": "N2 Master"
+    },
+    {
+      "enum": [
+        7,
+        "protocolIdN2Slave"
+      ],
+      "description": "N2 Slave"
+    },
+    {
+      "enum": [
+        8,
+        "protocolIdZigbeeCoordinator"
+      ],
+      "description": "Zigbee Coordinator"
+    },
+    {
+      "enum": [
+        9,
+        "protocolIdZigbeeRouter"
+      ],
+      "description": "Zigbee Router"
+    }
+  ]
+}

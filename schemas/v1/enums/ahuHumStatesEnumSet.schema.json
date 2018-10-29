@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHumStatesEnumSet.schema.json",
+  "title": "ahuHumStatesEnumSet",
+  "description": "AHU Hum States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahsNoHumid"
+      ],
+      "description": "No Humid"
+    },
+    {
+      "enum": [
+        1,
+        "ahsNormalHumid"
+      ],
+      "description": "Normal Humid"
+    },
+    {
+      "enum": [
+        2,
+        "ahsLimitedHumid"
+      ],
+      "description": "Limited Humid"
+    },
+    {
+      "enum": [
+        3,
+        "ahsHumidityUnreliable"
+      ],
+      "description": "Humidity Unreliable"
+    }
+  ]
+}

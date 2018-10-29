@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/motorVoltageRangeEnumSet.schema.json",
+  "title": "motorVoltageRangeEnumSet",
+  "description": "Motor Voltage Range",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "motorVrDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "motorVr200VTo208V"
+      ],
+      "description": "200V - 208V"
+    },
+    {
+      "enum": [
+        2,
+        "motorVr220VTo240V"
+      ],
+      "description": "220V - 240V"
+    },
+    {
+      "enum": [
+        3,
+        "motorVr380V"
+      ],
+      "description": "380V"
+    },
+    {
+      "enum": [
+        4,
+        "motorVr400V"
+      ],
+      "description": "400V"
+    },
+    {
+      "enum": [
+        5,
+        "motorVr415V"
+      ],
+      "description": "415V"
+    },
+    {
+      "enum": [
+        6,
+        "motorVr440VTo480V"
+      ],
+      "description": "440V - 480V"
+    },
+    {
+      "enum": [
+        7,
+        "motorVr550VTo600V"
+      ],
+      "description": "550V - 600V"
+    },
+    {
+      "enum": [
+        8,
+        "motorVrGreaterthan600V"
+      ],
+      "description": "> 600V"
+    }
+  ]
+}

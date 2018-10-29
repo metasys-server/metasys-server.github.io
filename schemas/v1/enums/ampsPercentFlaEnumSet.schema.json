@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ampsPercentFlaEnumSet.schema.json",
+  "title": "ampsPercentFlaEnumSet",
+  "description": "Amps/%FLA",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "aflaAmps"
+      ],
+      "description": "Amps"
+    },
+    {
+      "enum": [
+        1,
+        "aflaFla"
+      ],
+      "description": "%FLA"
+    }
+  ]
+}

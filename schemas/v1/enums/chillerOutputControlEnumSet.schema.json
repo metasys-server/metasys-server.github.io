@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/chillerOutputControlEnumSet.schema.json",
+  "title": "chillerOutputControlEnumSet",
+  "description": "Chiller Output Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cocOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "cocOpenCwIsovlv"
+      ],
+      "description": "Open CW IsoVlv"
+    },
+    {
+      "enum": [
+        2,
+        "cocCloseCwIsovlv"
+      ],
+      "description": "Close CW IsoVlv"
+    },
+    {
+      "enum": [
+        3,
+        "cocOpenChwIsovlv"
+      ],
+      "description": "Open CHW IsoVlv"
+    },
+    {
+      "enum": [
+        4,
+        "cocCloseChwIsovlv"
+      ],
+      "description": "Close CHW IsoVlv"
+    },
+    {
+      "enum": [
+        5,
+        "cocOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        6,
+        "cocHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyOperatingModeEnumSet.schema.json",
+  "title": "ltcLegacyOperatingModeEnumSet",
+  "description": "York LTC Legacy Operating Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyOperatingMode0"
+      ],
+      "description": "Null"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyOperatingMode1"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyOperatingMode2"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyOperatingMode3"
+      ],
+      "description": "Remote"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyOperatingMode4"
+      ],
+      "description": "VSD"
+    }
+  ]
+}

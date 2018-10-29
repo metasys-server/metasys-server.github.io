@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/defaultSchedulePanelsEnumSet.schema.json",
+  "title": "defaultSchedulePanelsEnumSet",
+  "description": "Default Schedule Panels",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "todaysSchedule"
+      ],
+      "description": "Today's Schedule"
+    },
+    {
+      "enum": [
+        1,
+        "weeklySchedule"
+      ],
+      "description": "Weekly Schedule"
+    },
+    {
+      "enum": [
+        2,
+        "exceptionSchedule"
+      ],
+      "description": "Exception Schedule"
+    },
+    {
+      "enum": [
+        3,
+        "scheduleItems"
+      ],
+      "description": "Scheduled Items"
+    }
+  ]
+}

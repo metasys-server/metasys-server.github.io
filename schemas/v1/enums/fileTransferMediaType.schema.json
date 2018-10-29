@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fileTransferMediaType.schema.json",
+  "title": "fileTransferMediaType",
+  "description": "File Transfer Media Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fileTransferMediaTypeSystemFile"
+      ],
+      "description": "System File"
+    },
+    {
+      "enum": [
+        1,
+        "fileTransferMediaTypeSerialComm"
+      ],
+      "description": "Serial Comm"
+    },
+    {
+      "enum": [
+        2,
+        "fileTransferMediaTypeHmiUsbFile"
+      ],
+      "description": "HMI USB File"
+    },
+    {
+      "enum": [
+        3,
+        "fileTransferMediaTypeUserSdCard"
+      ],
+      "description": "User SD Card"
+    },
+    {
+      "enum": [
+        4,
+        "fileTransferMediaTypeSystemSdCard"
+      ],
+      "description": "System SD Card"
+    },
+    {
+      "enum": [
+        5,
+        "fileTransferMediaTypeUsbFile"
+      ],
+      "description": "CEC USB File"
+    }
+  ]
+}

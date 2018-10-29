@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/msgFormatItemsEnumSet.schema.json",
+  "title": "msgFormatItemsEnumSet",
+  "description": "Msg Format Items",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "priorityFormatItem"
+      ],
+      "description": "Priority"
+    },
+    {
+      "enum": [
+        1,
+        "messageFormatItem"
+      ],
+      "description": "Message"
+    },
+    {
+      "enum": [
+        2,
+        "valueFormatItem"
+      ],
+      "description": "Value"
+    },
+    {
+      "enum": [
+        3,
+        "sitenameFormatItem"
+      ],
+      "description": "Site Name"
+    },
+    {
+      "enum": [
+        4,
+        "itemdescriptionFormatItem"
+      ],
+      "description": "Item Description"
+    },
+    {
+      "enum": [
+        5,
+        "itemfullyqualifiedreferenceFormatItem"
+      ],
+      "description": "Item Fully Qualified Reference"
+    },
+    {
+      "enum": [
+        6,
+        "itemCategoryFormatItem"
+      ],
+      "description": "Item Category"
+    },
+    {
+      "enum": [
+        7,
+        "ackRequiredFormatItem"
+      ],
+      "description": "Acknowledge Required"
+    },
+    {
+      "enum": [
+        8,
+        "previousStatusFormatItem"
+      ],
+      "description": "Previous Status"
+    }
+  ]
+}

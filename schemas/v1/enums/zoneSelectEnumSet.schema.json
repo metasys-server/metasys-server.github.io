@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/zoneSelectEnumSet.schema.json",
+  "title": "zoneSelectEnumSet",
+  "description": "Zone Select",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "zoneSelect0"
+      ],
+      "description": "Not Set"
+    },
+    {
+      "enum": [
+        1,
+        "zoneSelect1"
+      ],
+      "description": "Zone 1"
+    },
+    {
+      "enum": [
+        2,
+        "zoneSelect2"
+      ],
+      "description": "Zone 2"
+    },
+    {
+      "enum": [
+        3,
+        "zoneSelect3"
+      ],
+      "description": "Zone 3"
+    },
+    {
+      "enum": [
+        4,
+        "zoneSelect4"
+      ],
+      "description": "Zone 4"
+    },
+    {
+      "enum": [
+        5,
+        "zoneSelect5"
+      ],
+      "description": "Zone 5"
+    },
+    {
+      "enum": [
+        6,
+        "zoneSelect6"
+      ],
+      "description": "Zone 6"
+    },
+    {
+      "enum": [
+        7,
+        "zoneSelect7"
+      ],
+      "description": "Zone 7"
+    },
+    {
+      "enum": [
+        8,
+        "zoneSelect8"
+      ],
+      "description": "Zone 8"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ssacPresentValueEnumSet.schema.json",
+  "title": "ssacPresentValueEnumSet",
+  "description": "Access Control Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ssacNotInitalized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "ssacOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "ssacUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        3,
+        "ssacFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

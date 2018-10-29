@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/controllerTemplateTypeEnumSet.schema.json",
+  "title": "controllerTemplateTypeEnumSet",
+  "description": "Controller Template Types",
+  "oneOf": [
+    {
+      "enum": [
+        197,
+        "controllerTemplateJciDevice"
+      ],
+      "description": "JCI Family BACnet Device"
+    },
+    {
+      "enum": [
+        508,
+        "controllerTemplateBacnetDevice"
+      ],
+      "description": "General BACnet Device"
+    },
+    {
+      "enum": [
+        863,
+        "controllerTemplateIpJciDevice"
+      ],
+      "description": "JCI Family IP BACnet Device"
+    }
+  ]
+}

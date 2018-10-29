@@ -1,0 +1,3354 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymaaShortNamesEnumSet.schema.json",
+  "title": "ymaaShortNamesEnumSet",
+  "description": "YMAA Short Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "ymaaShortNames1"
+      ],
+      "description": "CHILLER ON|OFF (CMD)"
+    },
+    {
+      "enum": [
+        2,
+        "ymaaShortNames2"
+      ],
+      "description": "RUNNING MODE"
+    },
+    {
+      "enum": [
+        3,
+        "ymaaShortNames3"
+      ],
+      "description": "COOL EWT SETPOINT"
+    },
+    {
+      "enum": [
+        4,
+        "ymaaShortNames4"
+      ],
+      "description": "HEAT EWT SETPOINT"
+    },
+    {
+      "enum": [
+        5,
+        "ymaaShortNames5"
+      ],
+      "description": "COOL LWT SETPOINT"
+    },
+    {
+      "enum": [
+        6,
+        "ymaaShortNames6"
+      ],
+      "description": "HEAT LWT SETPOINT"
+    },
+    {
+      "enum": [
+        7,
+        "ymaaShortNames7"
+      ],
+      "description": "NOISE REDUCTION"
+    },
+    {
+      "enum": [
+        8,
+        "ymaaShortNames8"
+      ],
+      "description": "FAULT RESTORE"
+    },
+    {
+      "enum": [
+        9,
+        "ymaaShortNames9"
+      ],
+      "description": "COOLING CONTROL SELECT"
+    },
+    {
+      "enum": [
+        10,
+        "ymaaShortNames10"
+      ],
+      "description": "HEATING CONTROL SELECT"
+    },
+    {
+      "enum": [
+        11,
+        "ymaaShortNames11"
+      ],
+      "description": "TEMP CONTROL CYCLE"
+    },
+    {
+      "enum": [
+        12,
+        "ymaaShortNames12"
+      ],
+      "description": "WATER TEMP CONTROL DIFF"
+    },
+    {
+      "enum": [
+        13,
+        "ymaaShortNames13"
+      ],
+      "description": "EWT PULLDOWN RATE SELECT"
+    },
+    {
+      "enum": [
+        14,
+        "ymaaShortNames14"
+      ],
+      "description": "MODULE NUMBER"
+    },
+    {
+      "enum": [
+        15,
+        "ymaaShortNames15"
+      ],
+      "description": "CHILLER ON|OFF (STATUS)"
+    },
+    {
+      "enum": [
+        16,
+        "ymaaShortNames16"
+      ],
+      "description": "SYSTEM STATUS"
+    },
+    {
+      "enum": [
+        17,
+        "ymaaShortNames17"
+      ],
+      "description": "OTHER STATUS"
+    },
+    {
+      "enum": [
+        18,
+        "ymaaShortNames18"
+      ],
+      "description": "HMI COMMUNICATION STATUS"
+    },
+    {
+      "enum": [
+        19,
+        "ymaaShortNames19"
+      ],
+      "description": "UNIT NETWORK STATUS (1-16)"
+    },
+    {
+      "enum": [
+        20,
+        "ymaaShortNames20"
+      ],
+      "description": "UNIT FAULT STATUS (1-16)"
+    },
+    {
+      "enum": [
+        21,
+        "ymaaShortNames21"
+      ],
+      "description": "CHILLER EWT"
+    },
+    {
+      "enum": [
+        22,
+        "ymaaShortNames22"
+      ],
+      "description": "CHILLER LWT"
+    },
+    {
+      "enum": [
+        23,
+        "ymaaShortNames23"
+      ],
+      "description": "AMBIENT TEMP"
+    },
+    {
+      "enum": [
+        24,
+        "ymaaShortNames24"
+      ],
+      "description": "CHILLER LOADING"
+    },
+    {
+      "enum": [
+        25,
+        "ymaaShortNames25"
+      ],
+      "description": "AVAILABLE MODE"
+    },
+    {
+      "enum": [
+        26,
+        "ymaaShortNames26"
+      ],
+      "description": "TOTAL RUN HOURS"
+    },
+    {
+      "enum": [
+        27,
+        "ymaaShortNames27"
+      ],
+      "description": "UNIT NETWORK STATUS (17-32)"
+    },
+    {
+      "enum": [
+        28,
+        "ymaaShortNames28"
+      ],
+      "description": "UNIT FAULT STATUS (17-32)"
+    },
+    {
+      "enum": [
+        29,
+        "ymaaShortNames29"
+      ],
+      "description": "UNIT QUANTITY"
+    },
+    {
+      "enum": [
+        30,
+        "ymaaShortNames30"
+      ],
+      "description": "CKT1 COIL TEMP"
+    },
+    {
+      "enum": [
+        31,
+        "ymaaShortNames31"
+      ],
+      "description": "CKT2 COIL TEMP"
+    },
+    {
+      "enum": [
+        32,
+        "ymaaShortNames32"
+      ],
+      "description": "UNIT LWT"
+    },
+    {
+      "enum": [
+        33,
+        "ymaaShortNames33"
+      ],
+      "description": "CKT1 SUCT TEMP"
+    },
+    {
+      "enum": [
+        34,
+        "ymaaShortNames34"
+      ],
+      "description": "CKT2 SUCT TEMP"
+    },
+    {
+      "enum": [
+        35,
+        "ymaaShortNames35"
+      ],
+      "description": "CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        36,
+        "ymaaShortNames36"
+      ],
+      "description": "CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        37,
+        "ymaaShortNames37"
+      ],
+      "description": "CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        38,
+        "ymaaShortNames38"
+      ],
+      "description": "CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        39,
+        "ymaaShortNames39"
+      ],
+      "description": "CKT1 SUCT PRS"
+    },
+    {
+      "enum": [
+        40,
+        "ymaaShortNames40"
+      ],
+      "description": "CKT2 SUCT PRS"
+    },
+    {
+      "enum": [
+        41,
+        "ymaaShortNames41"
+      ],
+      "description": "CKT1 DISCH PRS"
+    },
+    {
+      "enum": [
+        42,
+        "ymaaShortNames42"
+      ],
+      "description": "CKT2 DISCH PRS"
+    },
+    {
+      "enum": [
+        43,
+        "ymaaShortNames43"
+      ],
+      "description": "DI17-32"
+    },
+    {
+      "enum": [
+        44,
+        "ymaaShortNames44"
+      ],
+      "description": "DI1-16"
+    },
+    {
+      "enum": [
+        45,
+        "ymaaShortNames45"
+      ],
+      "description": "DO17-33"
+    },
+    {
+      "enum": [
+        46,
+        "ymaaShortNames46"
+      ],
+      "description": "DO1-16"
+    },
+    {
+      "enum": [
+        47,
+        "ymaaShortNames47"
+      ],
+      "description": "CKT1 EEV"
+    },
+    {
+      "enum": [
+        48,
+        "ymaaShortNames48"
+      ],
+      "description": "CKT2 EEV"
+    },
+    {
+      "enum": [
+        49,
+        "ymaaShortNames49"
+      ],
+      "description": "CKT1 FAN SPEED"
+    },
+    {
+      "enum": [
+        50,
+        "ymaaShortNames50"
+      ],
+      "description": "CKT2 FAN SPEED"
+    },
+    {
+      "enum": [
+        51,
+        "ymaaShortNames51"
+      ],
+      "description": "DIAL SWITCH STATUS"
+    },
+    {
+      "enum": [
+        52,
+        "ymaaShortNames52"
+      ],
+      "description": "INV COMP FREQ"
+    },
+    {
+      "enum": [
+        53,
+        "ymaaShortNames53"
+      ],
+      "description": "FAULT STATUS 1"
+    },
+    {
+      "enum": [
+        54,
+        "ymaaShortNames54"
+      ],
+      "description": "FAULT STATUS 2"
+    },
+    {
+      "enum": [
+        55,
+        "ymaaShortNames55"
+      ],
+      "description": "FAULT STATUS 3"
+    },
+    {
+      "enum": [
+        56,
+        "ymaaShortNames56"
+      ],
+      "description": "FAULT STATUS 4"
+    },
+    {
+      "enum": [
+        57,
+        "ymaaShortNames57"
+      ],
+      "description": "FAULT STATUS 5"
+    },
+    {
+      "enum": [
+        58,
+        "ymaaShortNames58"
+      ],
+      "description": "FAULT STATUS 6"
+    },
+    {
+      "enum": [
+        59,
+        "ymaaShortNames59"
+      ],
+      "description": "FAULT STATUS 7"
+    },
+    {
+      "enum": [
+        60,
+        "ymaaShortNames60"
+      ],
+      "description": "FAULT STATUS 8"
+    },
+    {
+      "enum": [
+        61,
+        "ymaaShortNames61"
+      ],
+      "description": "MODEL NUMBER"
+    },
+    {
+      "enum": [
+        62,
+        "ymaaShortNames62"
+      ],
+      "description": "UNIT 1 LWT"
+    },
+    {
+      "enum": [
+        63,
+        "ymaaShortNames63"
+      ],
+      "description": "UNIT 1 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        64,
+        "ymaaShortNames64"
+      ],
+      "description": "UNIT 1 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        65,
+        "ymaaShortNames65"
+      ],
+      "description": "UNIT 1 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        66,
+        "ymaaShortNames66"
+      ],
+      "description": "UNIT 1 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        67,
+        "ymaaShortNames67"
+      ],
+      "description": "UNIT 1 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        68,
+        "ymaaShortNames68"
+      ],
+      "description": "UNIT 1 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        69,
+        "ymaaShortNames69"
+      ],
+      "description": "UNIT 1 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        70,
+        "ymaaShortNames70"
+      ],
+      "description": "UNIT 1 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        71,
+        "ymaaShortNames71"
+      ],
+      "description": "UNIT 1 DO17-33"
+    },
+    {
+      "enum": [
+        72,
+        "ymaaShortNames72"
+      ],
+      "description": "UNIT 1 DO1-16"
+    },
+    {
+      "enum": [
+        73,
+        "ymaaShortNames73"
+      ],
+      "description": "UNIT 1 CKT1 EEV"
+    },
+    {
+      "enum": [
+        74,
+        "ymaaShortNames74"
+      ],
+      "description": "UNIT 1 CKT2 EEV"
+    },
+    {
+      "enum": [
+        75,
+        "ymaaShortNames75"
+      ],
+      "description": "UNIT 2 LWT"
+    },
+    {
+      "enum": [
+        76,
+        "ymaaShortNames76"
+      ],
+      "description": "UNIT 2 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        77,
+        "ymaaShortNames77"
+      ],
+      "description": "UNIT 2 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        78,
+        "ymaaShortNames78"
+      ],
+      "description": "UNIT 2 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        79,
+        "ymaaShortNames79"
+      ],
+      "description": "UNIT 2 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        80,
+        "ymaaShortNames80"
+      ],
+      "description": "UNIT 2 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        81,
+        "ymaaShortNames81"
+      ],
+      "description": "UNIT 2 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        82,
+        "ymaaShortNames82"
+      ],
+      "description": "UNIT 2 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        83,
+        "ymaaShortNames83"
+      ],
+      "description": "UNIT 2 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        84,
+        "ymaaShortNames84"
+      ],
+      "description": "UNIT 2 DO17-33"
+    },
+    {
+      "enum": [
+        85,
+        "ymaaShortNames85"
+      ],
+      "description": "UNIT 2 DO1-16"
+    },
+    {
+      "enum": [
+        86,
+        "ymaaShortNames86"
+      ],
+      "description": "UNIT 2 CKT1 EEV"
+    },
+    {
+      "enum": [
+        87,
+        "ymaaShortNames87"
+      ],
+      "description": "UNIT 2 CKT2 EEV"
+    },
+    {
+      "enum": [
+        88,
+        "ymaaShortNames88"
+      ],
+      "description": "UNIT 3 LWT"
+    },
+    {
+      "enum": [
+        89,
+        "ymaaShortNames89"
+      ],
+      "description": "UNIT 3 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        90,
+        "ymaaShortNames90"
+      ],
+      "description": "UNIT 3 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        91,
+        "ymaaShortNames91"
+      ],
+      "description": "UNIT 3 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        92,
+        "ymaaShortNames92"
+      ],
+      "description": "UNIT 3 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        93,
+        "ymaaShortNames93"
+      ],
+      "description": "UNIT 3 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        94,
+        "ymaaShortNames94"
+      ],
+      "description": "UNIT 3 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        95,
+        "ymaaShortNames95"
+      ],
+      "description": "UNIT 3 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        96,
+        "ymaaShortNames96"
+      ],
+      "description": "UNIT 3 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        97,
+        "ymaaShortNames97"
+      ],
+      "description": "UNIT 3 DO17-33"
+    },
+    {
+      "enum": [
+        98,
+        "ymaaShortNames98"
+      ],
+      "description": "UNIT 3 DO1-16"
+    },
+    {
+      "enum": [
+        99,
+        "ymaaShortNames99"
+      ],
+      "description": "UNIT 3 CKT1 EEV"
+    },
+    {
+      "enum": [
+        100,
+        "ymaaShortNames100"
+      ],
+      "description": "UNIT 3 CKT2 EEV"
+    },
+    {
+      "enum": [
+        101,
+        "ymaaShortNames101"
+      ],
+      "description": "UNIT 4 LWT"
+    },
+    {
+      "enum": [
+        102,
+        "ymaaShortNames102"
+      ],
+      "description": "UNIT 4 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        103,
+        "ymaaShortNames103"
+      ],
+      "description": "UNIT 4 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        104,
+        "ymaaShortNames104"
+      ],
+      "description": "UNIT 4 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        105,
+        "ymaaShortNames105"
+      ],
+      "description": "UNIT 4 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        106,
+        "ymaaShortNames106"
+      ],
+      "description": "UNIT 4 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        107,
+        "ymaaShortNames107"
+      ],
+      "description": "UNIT 4 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        108,
+        "ymaaShortNames108"
+      ],
+      "description": "UNIT 4 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        109,
+        "ymaaShortNames109"
+      ],
+      "description": "UNIT 4 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        110,
+        "ymaaShortNames110"
+      ],
+      "description": "UNIT 4 DO17-33"
+    },
+    {
+      "enum": [
+        111,
+        "ymaaShortNames111"
+      ],
+      "description": "UNIT 4 DO1-16"
+    },
+    {
+      "enum": [
+        112,
+        "ymaaShortNames112"
+      ],
+      "description": "UNIT 4 CKT1 EEV"
+    },
+    {
+      "enum": [
+        113,
+        "ymaaShortNames113"
+      ],
+      "description": "UNIT 4 CKT2 EEV"
+    },
+    {
+      "enum": [
+        114,
+        "ymaaShortNames114"
+      ],
+      "description": "UNIT 5 LWT"
+    },
+    {
+      "enum": [
+        115,
+        "ymaaShortNames115"
+      ],
+      "description": "UNIT 5 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        116,
+        "ymaaShortNames116"
+      ],
+      "description": "UNIT 5 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        117,
+        "ymaaShortNames117"
+      ],
+      "description": "UNIT 5 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        118,
+        "ymaaShortNames118"
+      ],
+      "description": "UNIT 5 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        119,
+        "ymaaShortNames119"
+      ],
+      "description": "UNIT 5 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        120,
+        "ymaaShortNames120"
+      ],
+      "description": "UNIT 5 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        121,
+        "ymaaShortNames121"
+      ],
+      "description": "UNIT 5 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        122,
+        "ymaaShortNames122"
+      ],
+      "description": "UNIT 5 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        123,
+        "ymaaShortNames123"
+      ],
+      "description": "UNIT 5 DO17-33"
+    },
+    {
+      "enum": [
+        124,
+        "ymaaShortNames124"
+      ],
+      "description": "UNIT 5 DO1-16"
+    },
+    {
+      "enum": [
+        125,
+        "ymaaShortNames125"
+      ],
+      "description": "UNIT 5 CKT1 EEV"
+    },
+    {
+      "enum": [
+        126,
+        "ymaaShortNames126"
+      ],
+      "description": "UNIT 5 CKT2 EEV"
+    },
+    {
+      "enum": [
+        127,
+        "ymaaShortNames127"
+      ],
+      "description": "UNIT 6 LWT"
+    },
+    {
+      "enum": [
+        128,
+        "ymaaShortNames128"
+      ],
+      "description": "UNIT 6 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        129,
+        "ymaaShortNames129"
+      ],
+      "description": "UNIT 6 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        130,
+        "ymaaShortNames130"
+      ],
+      "description": "UNIT 6 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        131,
+        "ymaaShortNames131"
+      ],
+      "description": "UNIT 6 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        132,
+        "ymaaShortNames132"
+      ],
+      "description": "UNIT 6 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        133,
+        "ymaaShortNames133"
+      ],
+      "description": "UNIT 6 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        134,
+        "ymaaShortNames134"
+      ],
+      "description": "UNIT 6 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        135,
+        "ymaaShortNames135"
+      ],
+      "description": "UNIT 6 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        136,
+        "ymaaShortNames136"
+      ],
+      "description": "UNIT 6 DO17-33"
+    },
+    {
+      "enum": [
+        137,
+        "ymaaShortNames137"
+      ],
+      "description": "UNIT 6 DO1-16"
+    },
+    {
+      "enum": [
+        138,
+        "ymaaShortNames138"
+      ],
+      "description": "UNIT 6 CKT1 EEV"
+    },
+    {
+      "enum": [
+        139,
+        "ymaaShortNames139"
+      ],
+      "description": "UNIT 6 CKT2 EEV"
+    },
+    {
+      "enum": [
+        140,
+        "ymaaShortNames140"
+      ],
+      "description": "UNIT 7 LWT"
+    },
+    {
+      "enum": [
+        141,
+        "ymaaShortNames141"
+      ],
+      "description": "UNIT 7 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        142,
+        "ymaaShortNames142"
+      ],
+      "description": "UNIT 7 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        143,
+        "ymaaShortNames143"
+      ],
+      "description": "UNIT 7 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        144,
+        "ymaaShortNames144"
+      ],
+      "description": "UNIT 7 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        145,
+        "ymaaShortNames145"
+      ],
+      "description": "UNIT 7 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        146,
+        "ymaaShortNames146"
+      ],
+      "description": "UNIT 7 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        147,
+        "ymaaShortNames147"
+      ],
+      "description": "UNIT 7 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        148,
+        "ymaaShortNames148"
+      ],
+      "description": "UNIT 7 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        149,
+        "ymaaShortNames149"
+      ],
+      "description": "UNIT 7 DO17-33"
+    },
+    {
+      "enum": [
+        150,
+        "ymaaShortNames150"
+      ],
+      "description": "UNIT 7 DO1-16"
+    },
+    {
+      "enum": [
+        151,
+        "ymaaShortNames151"
+      ],
+      "description": "UNIT 7 CKT1 EEV"
+    },
+    {
+      "enum": [
+        152,
+        "ymaaShortNames152"
+      ],
+      "description": "UNIT 7 CKT2 EEV"
+    },
+    {
+      "enum": [
+        153,
+        "ymaaShortNames153"
+      ],
+      "description": "UNIT 8 LWT"
+    },
+    {
+      "enum": [
+        154,
+        "ymaaShortNames154"
+      ],
+      "description": "UNIT 8 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        155,
+        "ymaaShortNames155"
+      ],
+      "description": "UNIT 8 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        156,
+        "ymaaShortNames156"
+      ],
+      "description": "UNIT 8 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        157,
+        "ymaaShortNames157"
+      ],
+      "description": "UNIT 8 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        158,
+        "ymaaShortNames158"
+      ],
+      "description": "UNIT 8 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        159,
+        "ymaaShortNames159"
+      ],
+      "description": "UNIT 8 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        160,
+        "ymaaShortNames160"
+      ],
+      "description": "UNIT 8 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        161,
+        "ymaaShortNames161"
+      ],
+      "description": "UNIT 8 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        162,
+        "ymaaShortNames162"
+      ],
+      "description": "UNIT 8 DO17-33"
+    },
+    {
+      "enum": [
+        163,
+        "ymaaShortNames163"
+      ],
+      "description": "UNIT 8 DO1-16"
+    },
+    {
+      "enum": [
+        164,
+        "ymaaShortNames164"
+      ],
+      "description": "UNIT 8 CKT1 EEV"
+    },
+    {
+      "enum": [
+        165,
+        "ymaaShortNames165"
+      ],
+      "description": "UNIT 8 CKT2 EEV"
+    },
+    {
+      "enum": [
+        166,
+        "ymaaShortNames166"
+      ],
+      "description": "UNIT 9 LWT"
+    },
+    {
+      "enum": [
+        167,
+        "ymaaShortNames167"
+      ],
+      "description": "UNIT 9 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        168,
+        "ymaaShortNames168"
+      ],
+      "description": "UNIT 9 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        169,
+        "ymaaShortNames169"
+      ],
+      "description": "UNIT 9 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        170,
+        "ymaaShortNames170"
+      ],
+      "description": "UNIT 9 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        171,
+        "ymaaShortNames171"
+      ],
+      "description": "UNIT 9 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        172,
+        "ymaaShortNames172"
+      ],
+      "description": "UNIT 9 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        173,
+        "ymaaShortNames173"
+      ],
+      "description": "UNIT 9 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        174,
+        "ymaaShortNames174"
+      ],
+      "description": "UNIT 9 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        175,
+        "ymaaShortNames175"
+      ],
+      "description": "UNIT 9 DO17-33"
+    },
+    {
+      "enum": [
+        176,
+        "ymaaShortNames176"
+      ],
+      "description": "UNIT 9 DO1-16"
+    },
+    {
+      "enum": [
+        177,
+        "ymaaShortNames177"
+      ],
+      "description": "UNIT 9 CKT1 EEV"
+    },
+    {
+      "enum": [
+        178,
+        "ymaaShortNames178"
+      ],
+      "description": "UNIT 9 CKT2 EEV"
+    },
+    {
+      "enum": [
+        179,
+        "ymaaShortNames179"
+      ],
+      "description": "UNIT 10 LWT"
+    },
+    {
+      "enum": [
+        180,
+        "ymaaShortNames180"
+      ],
+      "description": "UNIT 10 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        181,
+        "ymaaShortNames181"
+      ],
+      "description": "UNIT 10 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        182,
+        "ymaaShortNames182"
+      ],
+      "description": "UNIT 10 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        183,
+        "ymaaShortNames183"
+      ],
+      "description": "UNIT 10 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        184,
+        "ymaaShortNames184"
+      ],
+      "description": "UNIT 10 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        185,
+        "ymaaShortNames185"
+      ],
+      "description": "UNIT 10 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        186,
+        "ymaaShortNames186"
+      ],
+      "description": "UNIT 10 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        187,
+        "ymaaShortNames187"
+      ],
+      "description": "UNIT 10 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        188,
+        "ymaaShortNames188"
+      ],
+      "description": "UNIT 10 DO17-33"
+    },
+    {
+      "enum": [
+        189,
+        "ymaaShortNames189"
+      ],
+      "description": "UNIT 10 DO1-16"
+    },
+    {
+      "enum": [
+        190,
+        "ymaaShortNames190"
+      ],
+      "description": "UNIT 10 CKT1 EEV"
+    },
+    {
+      "enum": [
+        191,
+        "ymaaShortNames191"
+      ],
+      "description": "UNIT 10 CKT2 EEV"
+    },
+    {
+      "enum": [
+        192,
+        "ymaaShortNames192"
+      ],
+      "description": "UNIT 11 LWT"
+    },
+    {
+      "enum": [
+        193,
+        "ymaaShortNames193"
+      ],
+      "description": "UNIT 11 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        194,
+        "ymaaShortNames194"
+      ],
+      "description": "UNIT 11 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        195,
+        "ymaaShortNames195"
+      ],
+      "description": "UNIT 11 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        196,
+        "ymaaShortNames196"
+      ],
+      "description": "UNIT 11 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        197,
+        "ymaaShortNames197"
+      ],
+      "description": "UNIT 11 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        198,
+        "ymaaShortNames198"
+      ],
+      "description": "UNIT 11 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        199,
+        "ymaaShortNames199"
+      ],
+      "description": "UNIT 11 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        200,
+        "ymaaShortNames200"
+      ],
+      "description": "UNIT 11 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        201,
+        "ymaaShortNames201"
+      ],
+      "description": "UNIT 11 DO17-33"
+    },
+    {
+      "enum": [
+        202,
+        "ymaaShortNames202"
+      ],
+      "description": "UNIT 11 DO1-16"
+    },
+    {
+      "enum": [
+        203,
+        "ymaaShortNames203"
+      ],
+      "description": "UNIT 11 CKT1 EEV"
+    },
+    {
+      "enum": [
+        204,
+        "ymaaShortNames204"
+      ],
+      "description": "UNIT 11 CKT2 EEV"
+    },
+    {
+      "enum": [
+        205,
+        "ymaaShortNames205"
+      ],
+      "description": "UNIT 12 LWT"
+    },
+    {
+      "enum": [
+        206,
+        "ymaaShortNames206"
+      ],
+      "description": "UNIT 12 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        207,
+        "ymaaShortNames207"
+      ],
+      "description": "UNIT 12 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        208,
+        "ymaaShortNames208"
+      ],
+      "description": "UNIT 12 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        209,
+        "ymaaShortNames209"
+      ],
+      "description": "UNIT 12 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        210,
+        "ymaaShortNames210"
+      ],
+      "description": "UNIT 12 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        211,
+        "ymaaShortNames211"
+      ],
+      "description": "UNIT 12 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        212,
+        "ymaaShortNames212"
+      ],
+      "description": "UNIT 12 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        213,
+        "ymaaShortNames213"
+      ],
+      "description": "UNIT 12 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        214,
+        "ymaaShortNames214"
+      ],
+      "description": "UNIT 12 DO17-33"
+    },
+    {
+      "enum": [
+        215,
+        "ymaaShortNames215"
+      ],
+      "description": "UNIT 12 DO1-16"
+    },
+    {
+      "enum": [
+        216,
+        "ymaaShortNames216"
+      ],
+      "description": "UNIT 12 CKT1 EEV"
+    },
+    {
+      "enum": [
+        217,
+        "ymaaShortNames217"
+      ],
+      "description": "UNIT 12 CKT2 EEV"
+    },
+    {
+      "enum": [
+        218,
+        "ymaaShortNames218"
+      ],
+      "description": "UNIT 13 LWT"
+    },
+    {
+      "enum": [
+        219,
+        "ymaaShortNames219"
+      ],
+      "description": "UNIT 13 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        220,
+        "ymaaShortNames220"
+      ],
+      "description": "UNIT 13 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        221,
+        "ymaaShortNames221"
+      ],
+      "description": "UNIT 13 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        222,
+        "ymaaShortNames222"
+      ],
+      "description": "UNIT 13 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        223,
+        "ymaaShortNames223"
+      ],
+      "description": "UNIT 13 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        224,
+        "ymaaShortNames224"
+      ],
+      "description": "UNIT 13 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        225,
+        "ymaaShortNames225"
+      ],
+      "description": "UNIT 13 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        226,
+        "ymaaShortNames226"
+      ],
+      "description": "UNIT 13 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        227,
+        "ymaaShortNames227"
+      ],
+      "description": "UNIT 13 DO17-33"
+    },
+    {
+      "enum": [
+        228,
+        "ymaaShortNames228"
+      ],
+      "description": "UNIT 13 DO1-16"
+    },
+    {
+      "enum": [
+        229,
+        "ymaaShortNames229"
+      ],
+      "description": "UNIT 13 CKT1 EEV"
+    },
+    {
+      "enum": [
+        230,
+        "ymaaShortNames230"
+      ],
+      "description": "UNIT 13 CKT2 EEV"
+    },
+    {
+      "enum": [
+        231,
+        "ymaaShortNames231"
+      ],
+      "description": "UNIT 14 LWT"
+    },
+    {
+      "enum": [
+        232,
+        "ymaaShortNames232"
+      ],
+      "description": "UNIT 14 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        233,
+        "ymaaShortNames233"
+      ],
+      "description": "UNIT 14 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        234,
+        "ymaaShortNames234"
+      ],
+      "description": "UNIT 14 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        235,
+        "ymaaShortNames235"
+      ],
+      "description": "UNIT 14 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        236,
+        "ymaaShortNames236"
+      ],
+      "description": "UNIT 14 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        237,
+        "ymaaShortNames237"
+      ],
+      "description": "UNIT 14 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        238,
+        "ymaaShortNames238"
+      ],
+      "description": "UNIT 14 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        239,
+        "ymaaShortNames239"
+      ],
+      "description": "UNIT 14 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        240,
+        "ymaaShortNames240"
+      ],
+      "description": "UNIT 14 DO17-33"
+    },
+    {
+      "enum": [
+        241,
+        "ymaaShortNames241"
+      ],
+      "description": "UNIT 14 DO1-16"
+    },
+    {
+      "enum": [
+        242,
+        "ymaaShortNames242"
+      ],
+      "description": "UNIT 14 CKT1 EEV"
+    },
+    {
+      "enum": [
+        243,
+        "ymaaShortNames243"
+      ],
+      "description": "UNIT 14 CKT2 EEV"
+    },
+    {
+      "enum": [
+        244,
+        "ymaaShortNames244"
+      ],
+      "description": "UNIT 15 LWT"
+    },
+    {
+      "enum": [
+        245,
+        "ymaaShortNames245"
+      ],
+      "description": "UNIT 15 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        246,
+        "ymaaShortNames246"
+      ],
+      "description": "UNIT 15 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        247,
+        "ymaaShortNames247"
+      ],
+      "description": "UNIT 15 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        248,
+        "ymaaShortNames248"
+      ],
+      "description": "UNIT 15 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        249,
+        "ymaaShortNames249"
+      ],
+      "description": "UNIT 15 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        250,
+        "ymaaShortNames250"
+      ],
+      "description": "UNIT 15 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        251,
+        "ymaaShortNames251"
+      ],
+      "description": "UNIT 15 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        252,
+        "ymaaShortNames252"
+      ],
+      "description": "UNIT 15 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        253,
+        "ymaaShortNames253"
+      ],
+      "description": "UNIT 15 DO17-33"
+    },
+    {
+      "enum": [
+        254,
+        "ymaaShortNames254"
+      ],
+      "description": "UNIT 15 DO1-16"
+    },
+    {
+      "enum": [
+        255,
+        "ymaaShortNames255"
+      ],
+      "description": "UNIT 15 CKT1 EEV"
+    },
+    {
+      "enum": [
+        256,
+        "ymaaShortNames256"
+      ],
+      "description": "UNIT 15 CKT2 EEV"
+    },
+    {
+      "enum": [
+        257,
+        "ymaaShortNames257"
+      ],
+      "description": "UNIT 16 LWT"
+    },
+    {
+      "enum": [
+        258,
+        "ymaaShortNames258"
+      ],
+      "description": "UNIT 16 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        259,
+        "ymaaShortNames259"
+      ],
+      "description": "UNIT 16 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        260,
+        "ymaaShortNames260"
+      ],
+      "description": "UNIT 16 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        261,
+        "ymaaShortNames261"
+      ],
+      "description": "UNIT 16 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        262,
+        "ymaaShortNames262"
+      ],
+      "description": "UNIT 16 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        263,
+        "ymaaShortNames263"
+      ],
+      "description": "UNIT 16 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        264,
+        "ymaaShortNames264"
+      ],
+      "description": "UNIT 16 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        265,
+        "ymaaShortNames265"
+      ],
+      "description": "UNIT 16 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        266,
+        "ymaaShortNames266"
+      ],
+      "description": "UNIT 16 DO17-33"
+    },
+    {
+      "enum": [
+        267,
+        "ymaaShortNames267"
+      ],
+      "description": "UNIT 16 DO1-16"
+    },
+    {
+      "enum": [
+        268,
+        "ymaaShortNames268"
+      ],
+      "description": "UNIT 16 CKT1 EEV"
+    },
+    {
+      "enum": [
+        269,
+        "ymaaShortNames269"
+      ],
+      "description": "UNIT 16 CKT2 EEV"
+    },
+    {
+      "enum": [
+        270,
+        "ymaaShortNames270"
+      ],
+      "description": "UNIT 17 LWT"
+    },
+    {
+      "enum": [
+        271,
+        "ymaaShortNames271"
+      ],
+      "description": "UNIT 17 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        272,
+        "ymaaShortNames272"
+      ],
+      "description": "UNIT 17 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        273,
+        "ymaaShortNames273"
+      ],
+      "description": "UNIT 17 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        274,
+        "ymaaShortNames274"
+      ],
+      "description": "UNIT 17 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        275,
+        "ymaaShortNames275"
+      ],
+      "description": "UNIT 17 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        276,
+        "ymaaShortNames276"
+      ],
+      "description": "UNIT 17 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        277,
+        "ymaaShortNames277"
+      ],
+      "description": "UNIT 17 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        278,
+        "ymaaShortNames278"
+      ],
+      "description": "UNIT 17 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        279,
+        "ymaaShortNames279"
+      ],
+      "description": "UNIT 17 DO17-33"
+    },
+    {
+      "enum": [
+        280,
+        "ymaaShortNames280"
+      ],
+      "description": "UNIT 17 DO1-16"
+    },
+    {
+      "enum": [
+        281,
+        "ymaaShortNames281"
+      ],
+      "description": "UNIT 17 CKT1 EEV"
+    },
+    {
+      "enum": [
+        282,
+        "ymaaShortNames282"
+      ],
+      "description": "UNIT 17 CKT2 EEV"
+    },
+    {
+      "enum": [
+        283,
+        "ymaaShortNames283"
+      ],
+      "description": "UNIT 18 LWT"
+    },
+    {
+      "enum": [
+        284,
+        "ymaaShortNames284"
+      ],
+      "description": "UNIT 18 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        285,
+        "ymaaShortNames285"
+      ],
+      "description": "UNIT 18 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        286,
+        "ymaaShortNames286"
+      ],
+      "description": "UNIT 18 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        287,
+        "ymaaShortNames287"
+      ],
+      "description": "UNIT 18 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        288,
+        "ymaaShortNames288"
+      ],
+      "description": "UNIT 18 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        289,
+        "ymaaShortNames289"
+      ],
+      "description": "UNIT 18 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        290,
+        "ymaaShortNames290"
+      ],
+      "description": "UNIT 18 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        291,
+        "ymaaShortNames291"
+      ],
+      "description": "UNIT 18 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        292,
+        "ymaaShortNames292"
+      ],
+      "description": "UNIT 18 DO17-33"
+    },
+    {
+      "enum": [
+        293,
+        "ymaaShortNames293"
+      ],
+      "description": "UNIT 18 DO1-16"
+    },
+    {
+      "enum": [
+        294,
+        "ymaaShortNames294"
+      ],
+      "description": "UNIT 18 CKT1 EEV"
+    },
+    {
+      "enum": [
+        295,
+        "ymaaShortNames295"
+      ],
+      "description": "UNIT 18 CKT2 EEV"
+    },
+    {
+      "enum": [
+        296,
+        "ymaaShortNames296"
+      ],
+      "description": "UNIT 19 LWT"
+    },
+    {
+      "enum": [
+        297,
+        "ymaaShortNames297"
+      ],
+      "description": "UNIT 19 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        298,
+        "ymaaShortNames298"
+      ],
+      "description": "UNIT 19 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        299,
+        "ymaaShortNames299"
+      ],
+      "description": "UNIT 19 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        300,
+        "ymaaShortNames300"
+      ],
+      "description": "UNIT 19 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        301,
+        "ymaaShortNames301"
+      ],
+      "description": "UNIT 19 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        302,
+        "ymaaShortNames302"
+      ],
+      "description": "UNIT 19 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        303,
+        "ymaaShortNames303"
+      ],
+      "description": "UNIT 19 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        304,
+        "ymaaShortNames304"
+      ],
+      "description": "UNIT 19 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        305,
+        "ymaaShortNames305"
+      ],
+      "description": "UNIT 19 DO17-33"
+    },
+    {
+      "enum": [
+        306,
+        "ymaaShortNames306"
+      ],
+      "description": "UNIT 19 DO1-16"
+    },
+    {
+      "enum": [
+        307,
+        "ymaaShortNames307"
+      ],
+      "description": "UNIT 19 CKT1 EEV"
+    },
+    {
+      "enum": [
+        308,
+        "ymaaShortNames308"
+      ],
+      "description": "UNIT 19 CKT2 EEV"
+    },
+    {
+      "enum": [
+        309,
+        "ymaaShortNames309"
+      ],
+      "description": "UNIT 20 LWT"
+    },
+    {
+      "enum": [
+        310,
+        "ymaaShortNames310"
+      ],
+      "description": "UNIT 20 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        311,
+        "ymaaShortNames311"
+      ],
+      "description": "UNIT 20 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        312,
+        "ymaaShortNames312"
+      ],
+      "description": "UNIT 20 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        313,
+        "ymaaShortNames313"
+      ],
+      "description": "UNIT 20 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        314,
+        "ymaaShortNames314"
+      ],
+      "description": "UNIT 20 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        315,
+        "ymaaShortNames315"
+      ],
+      "description": "UNIT 20 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        316,
+        "ymaaShortNames316"
+      ],
+      "description": "UNIT 20 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        317,
+        "ymaaShortNames317"
+      ],
+      "description": "UNIT 20 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        318,
+        "ymaaShortNames318"
+      ],
+      "description": "UNIT 20 DO17-33"
+    },
+    {
+      "enum": [
+        319,
+        "ymaaShortNames319"
+      ],
+      "description": "UNIT 20 DO1-16"
+    },
+    {
+      "enum": [
+        320,
+        "ymaaShortNames320"
+      ],
+      "description": "UNIT 20 CKT1 EEV"
+    },
+    {
+      "enum": [
+        321,
+        "ymaaShortNames321"
+      ],
+      "description": "UNIT 20 CKT2 EEV"
+    },
+    {
+      "enum": [
+        322,
+        "ymaaShortNames322"
+      ],
+      "description": "UNIT 21 LWT"
+    },
+    {
+      "enum": [
+        323,
+        "ymaaShortNames323"
+      ],
+      "description": "UNIT 21 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        324,
+        "ymaaShortNames324"
+      ],
+      "description": "UNIT 21 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        325,
+        "ymaaShortNames325"
+      ],
+      "description": "UNIT 21 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        326,
+        "ymaaShortNames326"
+      ],
+      "description": "UNIT 21 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        327,
+        "ymaaShortNames327"
+      ],
+      "description": "UNIT 21 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        328,
+        "ymaaShortNames328"
+      ],
+      "description": "UNIT 21 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        329,
+        "ymaaShortNames329"
+      ],
+      "description": "UNIT 21 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        330,
+        "ymaaShortNames330"
+      ],
+      "description": "UNIT 21 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        331,
+        "ymaaShortNames331"
+      ],
+      "description": "UNIT 21 DO17-33"
+    },
+    {
+      "enum": [
+        332,
+        "ymaaShortNames332"
+      ],
+      "description": "UNIT 21 DO1-16"
+    },
+    {
+      "enum": [
+        333,
+        "ymaaShortNames333"
+      ],
+      "description": "UNIT 21 CKT1 EEV"
+    },
+    {
+      "enum": [
+        334,
+        "ymaaShortNames334"
+      ],
+      "description": "UNIT 21 CKT2 EEV"
+    },
+    {
+      "enum": [
+        335,
+        "ymaaShortNames335"
+      ],
+      "description": "UNIT 22 LWT"
+    },
+    {
+      "enum": [
+        336,
+        "ymaaShortNames336"
+      ],
+      "description": "UNIT 22 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        337,
+        "ymaaShortNames337"
+      ],
+      "description": "UNIT 22 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        338,
+        "ymaaShortNames338"
+      ],
+      "description": "UNIT 22 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        339,
+        "ymaaShortNames339"
+      ],
+      "description": "UNIT 22 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        340,
+        "ymaaShortNames340"
+      ],
+      "description": "UNIT 22 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        341,
+        "ymaaShortNames341"
+      ],
+      "description": "UNIT 22 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        342,
+        "ymaaShortNames342"
+      ],
+      "description": "UNIT 22 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        343,
+        "ymaaShortNames343"
+      ],
+      "description": "UNIT 22 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        344,
+        "ymaaShortNames344"
+      ],
+      "description": "UNIT 22 DO17-33"
+    },
+    {
+      "enum": [
+        345,
+        "ymaaShortNames345"
+      ],
+      "description": "UNIT 22 DO1-16"
+    },
+    {
+      "enum": [
+        346,
+        "ymaaShortNames346"
+      ],
+      "description": "UNIT 22 CKT1 EEV"
+    },
+    {
+      "enum": [
+        347,
+        "ymaaShortNames347"
+      ],
+      "description": "UNIT 22 CKT2 EEV"
+    },
+    {
+      "enum": [
+        348,
+        "ymaaShortNames348"
+      ],
+      "description": "UNIT 23 LWT"
+    },
+    {
+      "enum": [
+        349,
+        "ymaaShortNames349"
+      ],
+      "description": "UNIT 23 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        350,
+        "ymaaShortNames350"
+      ],
+      "description": "UNIT 23 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        351,
+        "ymaaShortNames351"
+      ],
+      "description": "UNIT 23 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        352,
+        "ymaaShortNames352"
+      ],
+      "description": "UNIT 23 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        353,
+        "ymaaShortNames353"
+      ],
+      "description": "UNIT 23 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        354,
+        "ymaaShortNames354"
+      ],
+      "description": "UNIT 23 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        355,
+        "ymaaShortNames355"
+      ],
+      "description": "UNIT 23 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        356,
+        "ymaaShortNames356"
+      ],
+      "description": "UNIT 23 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        357,
+        "ymaaShortNames357"
+      ],
+      "description": "UNIT 23 DO17-33"
+    },
+    {
+      "enum": [
+        358,
+        "ymaaShortNames358"
+      ],
+      "description": "UNIT 23 DO1-16"
+    },
+    {
+      "enum": [
+        359,
+        "ymaaShortNames359"
+      ],
+      "description": "UNIT 23 CKT1 EEV"
+    },
+    {
+      "enum": [
+        360,
+        "ymaaShortNames360"
+      ],
+      "description": "UNIT 23 CKT2 EEV"
+    },
+    {
+      "enum": [
+        361,
+        "ymaaShortNames361"
+      ],
+      "description": "UNIT 24 LWT"
+    },
+    {
+      "enum": [
+        362,
+        "ymaaShortNames362"
+      ],
+      "description": "UNIT 24 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        363,
+        "ymaaShortNames363"
+      ],
+      "description": "UNIT 24 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        364,
+        "ymaaShortNames364"
+      ],
+      "description": "UNIT 24 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        365,
+        "ymaaShortNames365"
+      ],
+      "description": "UNIT 24 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        366,
+        "ymaaShortNames366"
+      ],
+      "description": "UNIT 24 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        367,
+        "ymaaShortNames367"
+      ],
+      "description": "UNIT 24 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        368,
+        "ymaaShortNames368"
+      ],
+      "description": "UNIT 24 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        369,
+        "ymaaShortNames369"
+      ],
+      "description": "UNIT 24 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        370,
+        "ymaaShortNames370"
+      ],
+      "description": "UNIT 24 DO17-33"
+    },
+    {
+      "enum": [
+        371,
+        "ymaaShortNames371"
+      ],
+      "description": "UNIT 24 DO1-16"
+    },
+    {
+      "enum": [
+        372,
+        "ymaaShortNames372"
+      ],
+      "description": "UNIT 24 CKT1 EEV"
+    },
+    {
+      "enum": [
+        373,
+        "ymaaShortNames373"
+      ],
+      "description": "UNIT 24 CKT2 EEV"
+    },
+    {
+      "enum": [
+        374,
+        "ymaaShortNames374"
+      ],
+      "description": "UNIT 25 LWT"
+    },
+    {
+      "enum": [
+        375,
+        "ymaaShortNames375"
+      ],
+      "description": "UNIT 25 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        376,
+        "ymaaShortNames376"
+      ],
+      "description": "UNIT 25 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        377,
+        "ymaaShortNames377"
+      ],
+      "description": "UNIT 25 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        378,
+        "ymaaShortNames378"
+      ],
+      "description": "UNIT 25 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        379,
+        "ymaaShortNames379"
+      ],
+      "description": "UNIT 25 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        380,
+        "ymaaShortNames380"
+      ],
+      "description": "UNIT 25 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        381,
+        "ymaaShortNames381"
+      ],
+      "description": "UNIT 25 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        382,
+        "ymaaShortNames382"
+      ],
+      "description": "UNIT 25 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        383,
+        "ymaaShortNames383"
+      ],
+      "description": "UNIT 25 DO17-33"
+    },
+    {
+      "enum": [
+        384,
+        "ymaaShortNames384"
+      ],
+      "description": "UNIT 25 DO1-16"
+    },
+    {
+      "enum": [
+        385,
+        "ymaaShortNames385"
+      ],
+      "description": "UNIT 25 CKT1 EEV"
+    },
+    {
+      "enum": [
+        386,
+        "ymaaShortNames386"
+      ],
+      "description": "UNIT 25 CKT2 EEV"
+    },
+    {
+      "enum": [
+        387,
+        "ymaaShortNames387"
+      ],
+      "description": "UNIT 26 LWT"
+    },
+    {
+      "enum": [
+        388,
+        "ymaaShortNames388"
+      ],
+      "description": "UNIT 26 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        389,
+        "ymaaShortNames389"
+      ],
+      "description": "UNIT 26 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        390,
+        "ymaaShortNames390"
+      ],
+      "description": "UNIT 26 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        391,
+        "ymaaShortNames391"
+      ],
+      "description": "UNIT 26 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        392,
+        "ymaaShortNames392"
+      ],
+      "description": "UNIT 26 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        393,
+        "ymaaShortNames393"
+      ],
+      "description": "UNIT 26 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        394,
+        "ymaaShortNames394"
+      ],
+      "description": "UNIT 26 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        395,
+        "ymaaShortNames395"
+      ],
+      "description": "UNIT 26 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        396,
+        "ymaaShortNames396"
+      ],
+      "description": "UNIT 26 DO17-33"
+    },
+    {
+      "enum": [
+        397,
+        "ymaaShortNames397"
+      ],
+      "description": "UNIT 26 DO1-16"
+    },
+    {
+      "enum": [
+        398,
+        "ymaaShortNames398"
+      ],
+      "description": "UNIT 26 CKT1 EEV"
+    },
+    {
+      "enum": [
+        399,
+        "ymaaShortNames399"
+      ],
+      "description": "UNIT 26 CKT2 EEV"
+    },
+    {
+      "enum": [
+        400,
+        "ymaaShortNames400"
+      ],
+      "description": "UNIT 27 LWT"
+    },
+    {
+      "enum": [
+        401,
+        "ymaaShortNames401"
+      ],
+      "description": "UNIT 27 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        402,
+        "ymaaShortNames402"
+      ],
+      "description": "UNIT 27 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        403,
+        "ymaaShortNames403"
+      ],
+      "description": "UNIT 27 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        404,
+        "ymaaShortNames404"
+      ],
+      "description": "UNIT 27 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        405,
+        "ymaaShortNames405"
+      ],
+      "description": "UNIT 27 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        406,
+        "ymaaShortNames406"
+      ],
+      "description": "UNIT 27 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        407,
+        "ymaaShortNames407"
+      ],
+      "description": "UNIT 27 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        408,
+        "ymaaShortNames408"
+      ],
+      "description": "UNIT 27 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        409,
+        "ymaaShortNames409"
+      ],
+      "description": "UNIT 27 DO17-33"
+    },
+    {
+      "enum": [
+        410,
+        "ymaaShortNames410"
+      ],
+      "description": "UNIT 27 DO1-16"
+    },
+    {
+      "enum": [
+        411,
+        "ymaaShortNames411"
+      ],
+      "description": "UNIT 27 CKT1 EEV"
+    },
+    {
+      "enum": [
+        412,
+        "ymaaShortNames412"
+      ],
+      "description": "UNIT 27 CKT2 EEV"
+    },
+    {
+      "enum": [
+        413,
+        "ymaaShortNames413"
+      ],
+      "description": "UNIT 28 LWT"
+    },
+    {
+      "enum": [
+        414,
+        "ymaaShortNames414"
+      ],
+      "description": "UNIT 28 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        415,
+        "ymaaShortNames415"
+      ],
+      "description": "UNIT 28 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        416,
+        "ymaaShortNames416"
+      ],
+      "description": "UNIT 28 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        417,
+        "ymaaShortNames417"
+      ],
+      "description": "UNIT 28 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        418,
+        "ymaaShortNames418"
+      ],
+      "description": "UNIT 28 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        419,
+        "ymaaShortNames419"
+      ],
+      "description": "UNIT 28 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        420,
+        "ymaaShortNames420"
+      ],
+      "description": "UNIT 28 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        421,
+        "ymaaShortNames421"
+      ],
+      "description": "UNIT 28 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        422,
+        "ymaaShortNames422"
+      ],
+      "description": "UNIT 28 DO17-33"
+    },
+    {
+      "enum": [
+        423,
+        "ymaaShortNames423"
+      ],
+      "description": "UNIT 28 DO1-16"
+    },
+    {
+      "enum": [
+        424,
+        "ymaaShortNames424"
+      ],
+      "description": "UNIT 28 CKT1 EEV"
+    },
+    {
+      "enum": [
+        425,
+        "ymaaShortNames425"
+      ],
+      "description": "UNIT 28 CKT2 EEV"
+    },
+    {
+      "enum": [
+        426,
+        "ymaaShortNames426"
+      ],
+      "description": "UNIT 29 LWT"
+    },
+    {
+      "enum": [
+        427,
+        "ymaaShortNames427"
+      ],
+      "description": "UNIT 29 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        428,
+        "ymaaShortNames428"
+      ],
+      "description": "UNIT 29 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        429,
+        "ymaaShortNames429"
+      ],
+      "description": "UNIT 29 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        430,
+        "ymaaShortNames430"
+      ],
+      "description": "UNIT 29 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        431,
+        "ymaaShortNames431"
+      ],
+      "description": "UNIT 29 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        432,
+        "ymaaShortNames432"
+      ],
+      "description": "UNIT 29 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        433,
+        "ymaaShortNames433"
+      ],
+      "description": "UNIT 29 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        434,
+        "ymaaShortNames434"
+      ],
+      "description": "UNIT 29 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        435,
+        "ymaaShortNames435"
+      ],
+      "description": "UNIT 29 DO17-33"
+    },
+    {
+      "enum": [
+        436,
+        "ymaaShortNames436"
+      ],
+      "description": "UNIT 29 DO1-16"
+    },
+    {
+      "enum": [
+        437,
+        "ymaaShortNames437"
+      ],
+      "description": "UNIT 29 CKT1 EEV"
+    },
+    {
+      "enum": [
+        438,
+        "ymaaShortNames438"
+      ],
+      "description": "UNIT 29 CKT2 EEV"
+    },
+    {
+      "enum": [
+        439,
+        "ymaaShortNames439"
+      ],
+      "description": "UNIT 30 LWT"
+    },
+    {
+      "enum": [
+        440,
+        "ymaaShortNames440"
+      ],
+      "description": "UNIT 30 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        441,
+        "ymaaShortNames441"
+      ],
+      "description": "UNIT 30 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        442,
+        "ymaaShortNames442"
+      ],
+      "description": "UNIT 30 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        443,
+        "ymaaShortNames443"
+      ],
+      "description": "UNIT 30 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        444,
+        "ymaaShortNames444"
+      ],
+      "description": "UNIT 30 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        445,
+        "ymaaShortNames445"
+      ],
+      "description": "UNIT 30 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        446,
+        "ymaaShortNames446"
+      ],
+      "description": "UNIT 30 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        447,
+        "ymaaShortNames447"
+      ],
+      "description": "UNIT 30 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        448,
+        "ymaaShortNames448"
+      ],
+      "description": "UNIT 30 DO17-33"
+    },
+    {
+      "enum": [
+        449,
+        "ymaaShortNames449"
+      ],
+      "description": "UNIT 30 DO1-16"
+    },
+    {
+      "enum": [
+        450,
+        "ymaaShortNames450"
+      ],
+      "description": "UNIT 30 CKT1 EEV"
+    },
+    {
+      "enum": [
+        451,
+        "ymaaShortNames451"
+      ],
+      "description": "UNIT 30 CKT2 EEV"
+    },
+    {
+      "enum": [
+        452,
+        "ymaaShortNames452"
+      ],
+      "description": "UNIT 31 LWT"
+    },
+    {
+      "enum": [
+        453,
+        "ymaaShortNames453"
+      ],
+      "description": "UNIT 31 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        454,
+        "ymaaShortNames454"
+      ],
+      "description": "UNIT 31 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        455,
+        "ymaaShortNames455"
+      ],
+      "description": "UNIT 31 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        456,
+        "ymaaShortNames456"
+      ],
+      "description": "UNIT 31 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        457,
+        "ymaaShortNames457"
+      ],
+      "description": "UNIT 31 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        458,
+        "ymaaShortNames458"
+      ],
+      "description": "UNIT 31 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        459,
+        "ymaaShortNames459"
+      ],
+      "description": "UNIT 31 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        460,
+        "ymaaShortNames460"
+      ],
+      "description": "UNIT 31 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        461,
+        "ymaaShortNames461"
+      ],
+      "description": "UNIT 31 DO17-33"
+    },
+    {
+      "enum": [
+        462,
+        "ymaaShortNames462"
+      ],
+      "description": "UNIT 31 DO1-16"
+    },
+    {
+      "enum": [
+        463,
+        "ymaaShortNames463"
+      ],
+      "description": "UNIT 31 CKT1 EEV"
+    },
+    {
+      "enum": [
+        464,
+        "ymaaShortNames464"
+      ],
+      "description": "UNIT 31 CKT2 EEV"
+    },
+    {
+      "enum": [
+        465,
+        "ymaaShortNames465"
+      ],
+      "description": "UNIT 32 LWT"
+    },
+    {
+      "enum": [
+        466,
+        "ymaaShortNames466"
+      ],
+      "description": "UNIT 32 CKT1 COMP1 DLT"
+    },
+    {
+      "enum": [
+        467,
+        "ymaaShortNames467"
+      ],
+      "description": "UNIT 32 CKT1 COMP2 DLT"
+    },
+    {
+      "enum": [
+        468,
+        "ymaaShortNames468"
+      ],
+      "description": "UNIT 32 CKT2 COMP1 DLT"
+    },
+    {
+      "enum": [
+        469,
+        "ymaaShortNames469"
+      ],
+      "description": "UNIT 32 CKT2 COMP2 DLT"
+    },
+    {
+      "enum": [
+        470,
+        "ymaaShortNames470"
+      ],
+      "description": "UNIT 32 CKT1 SUCT PR"
+    },
+    {
+      "enum": [
+        471,
+        "ymaaShortNames471"
+      ],
+      "description": "UNIT 32 CKT2 SUCT PR"
+    },
+    {
+      "enum": [
+        472,
+        "ymaaShortNames472"
+      ],
+      "description": "UNIT 32 CKT1 DISCH PR"
+    },
+    {
+      "enum": [
+        473,
+        "ymaaShortNames473"
+      ],
+      "description": "UNIT 32 CKT2 DISCH PR"
+    },
+    {
+      "enum": [
+        474,
+        "ymaaShortNames474"
+      ],
+      "description": "UNIT 32 DO17-33"
+    },
+    {
+      "enum": [
+        475,
+        "ymaaShortNames475"
+      ],
+      "description": "UNIT 32 DO1-16"
+    },
+    {
+      "enum": [
+        476,
+        "ymaaShortNames476"
+      ],
+      "description": "UNIT 32 CKT1 EEV"
+    },
+    {
+      "enum": [
+        477,
+        "ymaaShortNames477"
+      ],
+      "description": "UNIT 32 CKT2 EEV"
+    },
+    {
+      "enum": [
+        478,
+        "ymaaShortNames478"
+      ],
+      "description": "UNIT AMBIENT TEMP"
+    }
+  ]
+}

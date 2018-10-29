@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavUnoccDetailedEnumSet.schema.json",
+  "title": "vavUnoccDetailedEnumSet",
+  "description": "VAV Unocc Detailed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavUdSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "vavUdPrmyClg"
+      ],
+      "description": "Prmy Clg"
+    },
+    {
+      "enum": [
+        2,
+        "vavUdPrmyClgTiming"
+      ],
+      "description": "Prmy Clg Timing"
+    },
+    {
+      "enum": [
+        3,
+        "vavUdSuppHtg"
+      ],
+      "description": "Supp Htg"
+    },
+    {
+      "enum": [
+        4,
+        "vavUdSuppHtgTiming"
+      ],
+      "description": "Supp Htg Timing"
+    },
+    {
+      "enum": [
+        5,
+        "vavUdBoxHtg"
+      ],
+      "description": "Box Htg"
+    },
+    {
+      "enum": [
+        6,
+        "vavUdBoxHtgTiming"
+      ],
+      "description": "Box Htg Timing"
+    },
+    {
+      "enum": [
+        7,
+        "vavUdBoxHtgSuppHtg"
+      ],
+      "description": "Box Htg + Supp Htg"
+    },
+    {
+      "enum": [
+        8,
+        "vavUdBoxHtgSuppHtgTiming"
+      ],
+      "description": "Box Htg +Supp Htg Timing"
+    }
+  ]
+}

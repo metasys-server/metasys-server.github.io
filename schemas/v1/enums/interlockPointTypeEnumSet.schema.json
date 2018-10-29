@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/interlockPointTypeEnumSet.schema.json",
+  "title": "interlockPointTypeEnumSet",
+  "description": "Interlock Point Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ilkpointIom"
+      ],
+      "description": "IOM Point"
+    },
+    {
+      "enum": [
+        1,
+        "ilkpointEquip"
+      ],
+      "description": "Equipment Point"
+    }
+  ]
+}

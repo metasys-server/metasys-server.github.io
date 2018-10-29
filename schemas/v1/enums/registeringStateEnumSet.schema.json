@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/registeringStateEnumSet.schema.json",
+  "title": "registeringStateEnumSet",
+  "description": "Registering State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "notRegistered"
+      ],
+      "description": "Not Registered"
+    },
+    {
+      "enum": [
+        1,
+        "loadRegistering"
+      ],
+      "description": "Registering"
+    },
+    {
+      "enum": [
+        2,
+        "loadRegistered"
+      ],
+      "description": "Registered"
+    }
+  ]
+}

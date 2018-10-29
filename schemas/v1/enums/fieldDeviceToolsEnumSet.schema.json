@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fieldDeviceToolsEnumSet.schema.json",
+  "title": "fieldDeviceToolsEnumSet",
+  "description": "Field Device Tools",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fldDevFieldDeviceToolHvacProN2App"
+      ],
+      "description": "HVAC Pro (N2) application started"
+    },
+    {
+      "enum": [
+        1,
+        "fldDevFieldDeviceToolGx9100N2App"
+      ],
+      "description": "GX 9100 (N2) application started"
+    },
+    {
+      "enum": [
+        2,
+        "fldDevFieldDeviceToolXtmConfiguratorN2App"
+      ],
+      "description": "XTM Configurator (N2) application started"
+    },
+    {
+      "enum": [
+        3,
+        "fldDevFieldDeviceToolDxCommissioningN2App"
+      ],
+      "description": "DX Commissioning (N2) application started"
+    },
+    {
+      "enum": [
+        4,
+        "fldDevFieldDeviceToolN2DeviceLoaderApp"
+      ],
+      "description": "N2 device loader application started"
+    },
+    {
+      "enum": [
+        5,
+        "fldDevFieldDeviceToolCctMstpApp"
+      ],
+      "description": "CCT (MSTP) application started"
+    }
+  ]
+}

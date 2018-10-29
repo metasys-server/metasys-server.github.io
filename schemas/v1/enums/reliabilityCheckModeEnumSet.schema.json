@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reliabilityCheckModeEnumSet.schema.json",
+  "title": "reliabilityCheckModeEnumSet",
+  "description": "Reliability Check Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rcModeCheckIfReliable"
+      ],
+      "description": "Check if Reliable"
+    },
+    {
+      "enum": [
+        1,
+        "rcModeCheckOnlyForNoInput"
+      ],
+      "description": "Check only for No Input"
+    }
+  ]
+}

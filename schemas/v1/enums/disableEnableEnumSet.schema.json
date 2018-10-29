@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/disableEnableEnumSet.schema.json",
+  "title": "disableEnableEnumSet",
+  "description": "Disable/Enable",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "disenDisable"
+      ],
+      "description": "Disable"
+    },
+    {
+      "enum": [
+        1,
+        "disenEnable"
+      ],
+      "description": "Enable"
+    }
+  ]
+}

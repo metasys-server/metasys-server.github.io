@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalEnergyHoldoffEnumSet.schema.json",
+  "title": "normalEnergyHoldoffEnumSet",
+  "description": "Normal/Energy Hold Off",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ehoNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "energyHoldOff"
+      ],
+      "description": "Energy Hold Off"
+    }
+  ]
+}  },
+    {
+      "enum": [
+        2,
+        "normEhoHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

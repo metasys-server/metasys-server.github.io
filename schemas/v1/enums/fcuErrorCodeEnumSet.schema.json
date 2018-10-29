@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fcuErrorCodeEnumSet.schema.json",
+  "title": "fcuErrorCodeEnumSet",
+  "description": "FCU Error Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fcuErrorCodeOk"
+      ],
+      "description": "OK = No Faults"
+    },
+    {
+      "enum": [
+        1,
+        "fcuErrorCodeE1"
+      ],
+      "description": "E1 = Internal Sensor Shorted"
+    },
+    {
+      "enum": [
+        2,
+        "fcuErrorCodeE2"
+      ],
+      "description": "E2 = Internal Sensor Opened"
+    },
+    {
+      "enum": [
+        3,
+        "fcuErrorCodeHi"
+      ],
+      "description": "HI = High Temperature"
+    },
+    {
+      "enum": [
+        4,
+        "fcuErrorCodeLo"
+      ],
+      "description": "LO = Low Temperature"
+    },
+    {
+      "enum": [
+        5,
+        "fcuErrorCodeE3"
+      ],
+      "description": "E3 = Remote Sensor Shorted"
+    },
+    {
+      "enum": [
+        6,
+        "fcuErrorCodeE4"
+      ],
+      "description": "E4 = Remote Sensor Opened"
+    },
+    {
+      "enum": [
+        7,
+        "fcuErrorCodeE5"
+      ],
+      "description": "E5 = Dew Point Risk"
+    },
+    {
+      "enum": [
+        8,
+        "fcuErrorCodeE6"
+      ],
+      "description": "E6 = Filter Alarm"
+    }
+  ]
+}

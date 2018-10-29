@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtTiltDirectionEnumSet.schema.json",
+  "title": "snvtTiltDirectionEnumSet",
+  "description": "SNVT Tilt Direction",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Stop"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Up"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Down"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

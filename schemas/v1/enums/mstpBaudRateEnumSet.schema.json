@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mstpBaudRateEnumSet.schema.json",
+  "title": "mstpBaudRateEnumSet",
+  "description": "MSTP Baud Rate",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mstpBaud9600"
+      ],
+      "description": "9600"
+    },
+    {
+      "enum": [
+        1,
+        "mstpBaud19200"
+      ],
+      "description": "19200"
+    },
+    {
+      "enum": [
+        5,
+        "mstpBaud38400"
+      ],
+      "description": "38400"
+    },
+    {
+      "enum": [
+        6,
+        "mstpBaud76800"
+      ],
+      "description": "76800"
+    }
+  ]
+}

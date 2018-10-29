@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpo5ConfigSettingEnumSet.schema.json",
+  "title": "cpo5ConfigSettingEnumSet",
+  "description": "CPO5 Configuration Setting",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpo5ConfigSettingChilledWaterMaxFlow"
+      ],
+      "description": "Chilled Water Max Flow"
+    },
+    {
+      "enum": [
+        1,
+        "cpo5ConfigSettingChilledWaterMinFlow"
+      ],
+      "description": "Chilled Water Min Flow"
+    },
+    {
+      "enum": [
+        2,
+        "cpo5ConfigSettingConstantSpeedLowerSetpointOptimalPercent"
+      ],
+      "description": "Constant Speed Lower Setpoint Optimal Percent"
+    },
+    {
+      "enum": [
+        3,
+        "cpo5ConfigSettingConstantSpeedUpperSetpointOptimalPercent"
+      ],
+      "description": "Constant Speed Upper Setpoint Optimal Percent"
+    },
+    {
+      "enum": [
+        4,
+        "cpo5ConfigSettingCondenserWaterMinimumFlow"
+      ],
+      "description": "Condenser Water Minimum Flow"
+    },
+    {
+      "enum": [
+        5,
+        "cpo5ConfigSettingDesignLift"
+      ],
+      "description": "Design Lift"
+    },
+    {
+      "enum": [
+        6,
+        "cpo5ConfigSettingLiftHighRange"
+      ],
+      "description": "Lift High Range"
+    },
+    {
+      "enum": [
+        7,
+        "cpo5ConfigSettingLiftLowRange"
+      ],
+      "description": "Lift Low Range"
+    },
+    {
+      "enum": [
+        8,
+        "cpo5ConfigSettingLiftSensitivity"
+      ],
+      "description": "Lift Sensitivity"
+    },
+    {
+      "enum": [
+        9,
+        "cpo5ConfigSettingLowerOptimalSetpointHighRange"
+      ],
+      "description": "Lower Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        10,
+        "cpo5ConfigSettingLowerOptimalSetpointLowRange"
+      ],
+      "description": "Lower Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        11,
+        "cpo5ConfigSettingMaximumPercentLoad"
+      ],
+      "description": "Maximum Percent Load"
+    },
+    {
+      "enum": [
+        12,
+        "cpo5ConfigSettingMaximumPercentLoadCop"
+      ],
+      "description": "Maximum Percent Load COP"
+    },
+    {
+      "enum": [
+        13,
+        "cpo5ConfigSettingEvaporatorMediaType"
+      ],
+      "description": "Evaporator Media Type"
+    },
+    {
+      "enum": [
+        14,
+        "cpo5ConfigSettingMinimumPercentLoad"
+      ],
+      "description": "Minimum Percent Load"
+    },
+    {
+      "enum": [
+        15,
+        "cpo5ConfigSettingMinimumPercentLoadCop"
+      ],
+      "description": "Minimum Percent Load COP"
+    },
+    {
+      "enum": [
+        16,
+        "cpo5ConfigSettingPeakCop"
+      ],
+      "description": "Peak COP"
+    },
+    {
+      "enum": [
+        17,
+        "cpo5ConfigSettingRatedCapacity"
+      ],
+      "description": "Rated Capacity"
+    },
+    {
+      "enum": [
+        18,
+        "cpo5ConfigSettingRatedChilledWaterFlow"
+      ],
+      "description": "Rated Chilled Water Flow"
+    },
+    {
+      "enum": [
+        19,
+        "cpo5ConfigSettingRatedCondenserWaterFlow"
+      ],
+      "description": "Rated Condenser Water Flow"
+    },
+    {
+      "enum": [
+        20,
+        "cpo5ConfigSettingRatedPower"
+      ],
+      "description": "Rated Power"
+    },
+    {
+      "enum": [
+        21,
+        "cpo5ConfigSettingUpperOptimalSetpointHighRange"
+      ],
+      "description": "Upper Optimal Setpoint High Range"
+    },
+    {
+      "enum": [
+        22,
+        "cpo5ConfigSettingUpperOptimalSetpointLowRange"
+      ],
+      "description": "Upper Optimal Setpoint Low Range"
+    },
+    {
+      "enum": [
+        23,
+        "cpo5ConfigSettingVariableSpeedLowerSetpointOptimalPercent"
+      ],
+      "description": "Variable Speed Lower Setpoint Optimal Percent"
+    },
+    {
+      "enum": [
+        24,
+        "cpo5ConfigSettingVariableSpeedUpperSetpointOptimalPercent"
+      ],
+      "description": "Variable Speed Upper Setpoint Optimal Percent"
+    },
+    {
+      "enum": [
+        25,
+        "cpo5ConfigSettingCompressorDriveType"
+      ],
+      "description": "Compressor Drive Type"
+    }
+  ]
+}

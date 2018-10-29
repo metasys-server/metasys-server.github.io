@@ -1,0 +1,1527 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/verasysMapperNamesEnumSet.schema.json",
+  "title": "verasysMapperNamesEnumSet",
+  "description": "Verasys Mapper Names",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "verasysMapperNamesZnT"
+      ],
+      "description": "ZN-T"
+    },
+    {
+      "enum": [
+        1,
+        "verasysMapperNamesIaq"
+      ],
+      "description": "IAQ"
+    },
+    {
+      "enum": [
+        2,
+        "verasysMapperNamesDaT"
+      ],
+      "description": "DA-T"
+    },
+    {
+      "enum": [
+        3,
+        "verasysMapperNamesTempOcc"
+      ],
+      "description": "TEMP-OCC"
+    },
+    {
+      "enum": [
+        4,
+        "verasysMapperNamesMinco2Sp"
+      ],
+      "description": "MINCO2-SP"
+    },
+    {
+      "enum": [
+        5,
+        "verasysMapperNamesClgunoccFlow"
+      ],
+      "description": "CLGUNOCC-FLOW"
+    },
+    {
+      "enum": [
+        6,
+        "verasysMapperNamesHtgunoccFlow"
+      ],
+      "description": "HTGUNOCC-FLOW"
+    },
+    {
+      "enum": [
+        7,
+        "verasysMapperNamesWarmFlow"
+      ],
+      "description": "WARM-FLOW"
+    },
+    {
+      "enum": [
+        8,
+        "verasysMapperNamesRhtFlow"
+      ],
+      "description": "RHT-FLOW"
+    },
+    {
+      "enum": [
+        9,
+        "verasysMapperNamesDatSp"
+      ],
+      "description": "DAT-SP"
+    },
+    {
+      "enum": [
+        10,
+        "verasysMapperNamesDcvmaxFlow"
+      ],
+      "description": "DCVMAX-FLOW"
+    },
+    {
+      "enum": [
+        11,
+        "verasysMapperNamesDcvclgoccFlow"
+      ],
+      "description": "DCVCLGOCC-FLOW"
+    },
+    {
+      "enum": [
+        12,
+        "verasysMapperNamesDcvhtgoccFlow"
+      ],
+      "description": "DCVHTGOCC-FLOW"
+    },
+    {
+      "enum": [
+        13,
+        "verasysMapperNamesDatmaxhtgSp"
+      ],
+      "description": "DATMAXHTG-SP"
+    },
+    {
+      "enum": [
+        14,
+        "verasysMapperNamesIaqPb"
+      ],
+      "description": "IAQ-PB"
+    },
+    {
+      "enum": [
+        15,
+        "verasysMapperNamesLsAdj"
+      ],
+      "description": "LS-ADJ"
+    },
+    {
+      "enum": [
+        16,
+        "verasysMapperNamesLsRatelim"
+      ],
+      "description": "LS-RATELIM"
+    },
+    {
+      "enum": [
+        17,
+        "verasysMapperNamesVentTimer"
+      ],
+      "description": "VENT-TIMER"
+    },
+    {
+      "enum": [
+        18,
+        "verasysMapperNamesLockTimer"
+      ],
+      "description": "LOCK-TIMER"
+    },
+    {
+      "enum": [
+        19,
+        "verasysMapperNamesDmprclgminPos"
+      ],
+      "description": "DMPRCLGMIN-POS"
+    },
+    {
+      "enum": [
+        20,
+        "verasysMapperNamesDmprhtgminPos"
+      ],
+      "description": "DMPRHTGMIN-POS"
+    },
+    {
+      "enum": [
+        21,
+        "verasysMapperNamesDmprmaxPos"
+      ],
+      "description": "DMPRMAX-POS"
+    },
+    {
+      "enum": [
+        22,
+        "verasysMapperNamesDcvclgminPos"
+      ],
+      "description": "DCVCLGMIN-POS"
+    },
+    {
+      "enum": [
+        23,
+        "verasysMapperNamesDcvhtgminPos"
+      ],
+      "description": "DCVHTGMIN-POS"
+    },
+    {
+      "enum": [
+        24,
+        "verasysMapperNamesDcvmaxPos"
+      ],
+      "description": "DCVMAX-POS"
+    },
+    {
+      "enum": [
+        25,
+        "verasysMapperNamesWcAdjlim"
+      ],
+      "description": "WC-ADJLIM"
+    },
+    {
+      "enum": [
+        26,
+        "verasysMapperNamesSysMode"
+      ],
+      "description": "SYS-MODE"
+    },
+    {
+      "enum": [
+        27,
+        "verasysMapperNamesUnitEn"
+      ],
+      "description": "UNIT-EN"
+    },
+    {
+      "enum": [
+        28,
+        "verasysMapperNamesZnOcc"
+      ],
+      "description": "ZN-OCC"
+    },
+    {
+      "enum": [
+        29,
+        "verasysMapperNamesFlowOverride"
+      ],
+      "description": "FLOW-OVERRIDE"
+    },
+    {
+      "enum": [
+        30,
+        "verasysMapperNamesWcEn"
+      ],
+      "description": "WC-EN"
+    },
+    {
+      "enum": [
+        31,
+        "verasysMapperNamesDualmaxEn"
+      ],
+      "description": "DUALMAX-EN"
+    },
+    {
+      "enum": [
+        32,
+        "verasysMapperNamesDcvEn"
+      ],
+      "description": "DCV-EN"
+    },
+    {
+      "enum": [
+        33,
+        "verasysMapperNamesOccMode"
+      ],
+      "description": "OCC-MODE"
+    },
+    {
+      "enum": [
+        34,
+        "verasysMapperNamesLsS"
+      ],
+      "description": "LS-S"
+    },
+    {
+      "enum": [
+        35,
+        "verasysMapperNamesPfrEn"
+      ],
+      "description": "PFR-EN"
+    },
+    {
+      "enum": [
+        36,
+        "verasysMapperNamesVoteAllowed"
+      ],
+      "description": "VOTE-ALLOWED"
+    },
+    {
+      "enum": [
+        37,
+        "verasysMapperNamesDprO"
+      ],
+      "description": "DPR-O"
+    },
+    {
+      "enum": [
+        38,
+        "verasysMapperNamesSfC"
+      ],
+      "description": "SF-C"
+    },
+    {
+      "enum": [
+        39,
+        "verasysMapperNamesSuphtg1C"
+      ],
+      "description": "SUPHTG1-C"
+    },
+    {
+      "enum": [
+        40,
+        "verasysMapperNamesHtgSt"
+      ],
+      "description": "HTG-ST"
+    },
+    {
+      "enum": [
+        41,
+        "verasysMapperNamesSuphtgSt"
+      ],
+      "description": "SUPHTG-ST"
+    },
+    {
+      "enum": [
+        42,
+        "verasysMapperNamesDprSt"
+      ],
+      "description": "DPR-ST"
+    },
+    {
+      "enum": [
+        43,
+        "verasysMapperNamesZnErr"
+      ],
+      "description": "ZN-ERR"
+    },
+    {
+      "enum": [
+        44,
+        "verasysMapperNamesClgmaxFlow"
+      ],
+      "description": "CLGMAX-FLOW"
+    },
+    {
+      "enum": [
+        45,
+        "verasysMapperNamesClgoccminFlow"
+      ],
+      "description": "CLGOCCMIN-FLOW"
+    },
+    {
+      "enum": [
+        46,
+        "verasysMapperNamesHtgoccminFlow"
+      ],
+      "description": "HTGOCCMIN-FLOW"
+    },
+    {
+      "enum": [
+        47,
+        "verasysMapperNamesFlow"
+      ],
+      "description": "FLOW"
+    },
+    {
+      "enum": [
+        48,
+        "verasysMapperNamesFlowSp"
+      ],
+      "description": "FLOW-SP"
+    },
+    {
+      "enum": [
+        49,
+        "verasysMapperNamesArea"
+      ],
+      "description": "AREA"
+    },
+    {
+      "enum": [
+        50,
+        "verasysMapperNamesGain"
+      ],
+      "description": "GAIN"
+    },
+    {
+      "enum": [
+        51,
+        "verasysMapperNamesHtgdatSp"
+      ],
+      "description": "HTGDAT-SP"
+    },
+    {
+      "enum": [
+        52,
+        "verasysMapperNamesEffSp"
+      ],
+      "description": "EFF-SP"
+    },
+    {
+      "enum": [
+        53,
+        "verasysMapperNamesZnMode"
+      ],
+      "description": "ZN-MODE"
+    },
+    {
+      "enum": [
+        54,
+        "verasysMapperNamesZnType"
+      ],
+      "description": "ZN-TYPE"
+    },
+    {
+      "enum": [
+        55,
+        "verasysMapperNamesZnVote"
+      ],
+      "description": "ZN-VOTE"
+    },
+    {
+      "enum": [
+        56,
+        "verasysMapperNamesZncanVote"
+      ],
+      "description": "ZNCAN-VOTE"
+    },
+    {
+      "enum": [
+        57,
+        "verasysMapperNamesHtgclgMode"
+      ],
+      "description": "HTGCLG-MODE"
+    },
+    {
+      "enum": [
+        58,
+        "verasysMapperNamesZnVotenm"
+      ],
+      "description": "ZN-VOTENM"
+    },
+    {
+      "enum": [
+        59,
+        "verasysMapperNamesHtgType"
+      ],
+      "description": "HTG-TYPE"
+    },
+    {
+      "enum": [
+        60,
+        "verasysMapperNamesClgpidS"
+      ],
+      "description": "CLGPID-S"
+    },
+    {
+      "enum": [
+        61,
+        "verasysMapperNamesHtgpidS"
+      ],
+      "description": "HTGPID-S"
+    },
+    {
+      "enum": [
+        62,
+        "verasysMapperNamesMwuS"
+      ],
+      "description": "MWU-S"
+    },
+    {
+      "enum": [
+        63,
+        "verasysMapperNamesSuphtgType"
+      ],
+      "description": "SUPHTG-TYPE"
+    },
+    {
+      "enum": [
+        64,
+        "verasysMapperNamesClgunoccS"
+      ],
+      "description": "CLGUNOCC-S"
+    },
+    {
+      "enum": [
+        65,
+        "verasysMapperNamesHtgunoccS"
+      ],
+      "description": "HTGUNOCC-S"
+    },
+    {
+      "enum": [
+        66,
+        "verasysMapperNamesVentS"
+      ],
+      "description": "VENT-S"
+    },
+    {
+      "enum": [
+        67,
+        "verasysMapperNamesLclhtgS"
+      ],
+      "description": "LCLHTG-S"
+    },
+    {
+      "enum": [
+        68,
+        "verasysMapperNamesDprPolarity"
+      ],
+      "description": "DPR-POLARITY"
+    },
+    {
+      "enum": [
+        69,
+        "verasysMapperNamesAutotuneEn"
+      ],
+      "description": "AUTOTUNE-EN"
+    },
+    {
+      "enum": [
+        70,
+        "verasysMapperNamesZoneWeight"
+      ],
+      "description": "ZONE-WEIGHT"
+    },
+    {
+      "enum": [
+        71,
+        "verasysMapperNamesLsAllowed"
+      ],
+      "description": "LS-ALLOWED"
+    },
+    {
+      "enum": [
+        72,
+        "verasysMapperNamesLsCmd"
+      ],
+      "description": "LS-CMD"
+    },
+    {
+      "enum": [
+        73,
+        "verasysMapperNamesClgoccSp"
+      ],
+      "description": "CLGOCC-SP"
+    },
+    {
+      "enum": [
+        74,
+        "verasysMapperNamesHtgoccSp"
+      ],
+      "description": "HTGOCC-SP"
+    },
+    {
+      "enum": [
+        75,
+        "verasysMapperNamesTempOccEn"
+      ],
+      "description": "TEMP-OCC-EN"
+    },
+    {
+      "enum": [
+        76,
+        "verasysMapperNamesZcuSat"
+      ],
+      "description": "ZCU-SAT"
+    },
+    {
+      "enum": [
+        77,
+        "verasysMapperNamesHtgStg1C"
+      ],
+      "description": "HTG-STG1-C"
+    },
+    {
+      "enum": [
+        78,
+        "verasysMapperNamesHtgStg2C"
+      ],
+      "description": "ZCU-SAT"
+    },
+    {
+      "enum": [
+        79,
+        "verasysMapperNamesEffOcc"
+      ],
+      "description": "EFF-OCC"
+    },
+    {
+      "enum": [
+        80,
+        "verasysMapperNamesEffZnt"
+      ],
+      "description": "EFF-ZNT"
+    },
+    {
+      "enum": [
+        81,
+        "verasysMapperNamesEffClgSp"
+      ],
+      "description": "EFF-CLG-SP"
+    },
+    {
+      "enum": [
+        82,
+        "verasysMapperNamesEffHtgSp"
+      ],
+      "description": "EFF-HTG-SP"
+    },
+    {
+      "enum": [
+        83,
+        "verasysMapperNamesEffHtgC"
+      ],
+      "description": "HTG-C"
+    },
+    {
+      "enum": [
+        84,
+        "verasysMapperNamesSbyClgSp"
+      ],
+      "description": "SBY-CLG-SP"
+    },
+    {
+      "enum": [
+        85,
+        "verasysMapperNamesSbyHtgSp"
+      ],
+      "description": "SBY-HTG-SP"
+    },
+    {
+      "enum": [
+        86,
+        "verasysMapperNamesDuctStaticpres"
+      ],
+      "description": "DUCT-STATICPRES"
+    },
+    {
+      "enum": [
+        87,
+        "verasysMapperNamesDuctPSp"
+      ],
+      "description": "DUCT-P-SP"
+    },
+    {
+      "enum": [
+        88,
+        "verasysMapperNamesAdapttuneEn"
+      ],
+      "description": "ADAPTTUNE-EN"
+    },
+    {
+      "enum": [
+        89,
+        "verasysMapperNamesDventiaqSp"
+      ],
+      "description": "DVENTIAQ-SP"
+    },
+    {
+      "enum": [
+        90,
+        "verasysMapperNamesMinreqChange"
+      ],
+      "description": "MINREQ-CHANGE"
+    },
+    {
+      "enum": [
+        91,
+        "verasysMapperNamesMinurgreqChange"
+      ],
+      "description": "MIN-URGREQ-CHANGE"
+    },
+    {
+      "enum": [
+        92,
+        "verasysMapperNamesChngvrMintime"
+      ],
+      "description": "CHNGVR-MINTIME"
+    },
+    {
+      "enum": [
+        93,
+        "verasysMapperNamesMaxDatSpAd"
+      ],
+      "description": "MAX-DAT-SP-AD"
+    },
+    {
+      "enum": [
+        94,
+        "verasysMapperNamesRepZone"
+      ],
+      "description": "REP-ZONE"
+    },
+    {
+      "enum": [
+        95,
+        "verasysMapperNamesMaxDuctSpAd"
+      ],
+      "description": "MAX-DUCT-SP-AD"
+    },
+    {
+      "enum": [
+        96,
+        "verasysMapperNamesEconMinPos"
+      ],
+      "description": "ECON-MIN-POS"
+    },
+    {
+      "enum": [
+        97,
+        "verasysMapperNamesControlMode"
+      ],
+      "description": "CONTROL-MODE"
+    },
+    {
+      "enum": [
+        98,
+        "verasysMapperNamesBalancerMode"
+      ],
+      "description": "BAL-MODE"
+    },
+    {
+      "enum": [
+        99,
+        "verasysMapperNamesChngvrState"
+      ],
+      "description": "CHNGVR-STATE"
+    },
+    {
+      "enum": [
+        100,
+        "verasysMapperNamesDatReset"
+      ],
+      "description": "DAT-RESET"
+    },
+    {
+      "enum": [
+        101,
+        "verasysMapperNamesDuctSpReset"
+      ],
+      "description": "DUCT-SP-RESET"
+    },
+    {
+      "enum": [
+        102,
+        "verasysMapperNamesTitle24Test"
+      ],
+      "description": "TITLE24-TEST"
+    },
+    {
+      "enum": [
+        103,
+        "verasysMapperNamesConstMode"
+      ],
+      "description": "CONST-MODE"
+    },
+    {
+      "enum": [
+        104,
+        "verasysMapperNamesUnoccHcEn"
+      ],
+      "description": "UNOCC-HC-EN"
+    },
+    {
+      "enum": [
+        105,
+        "verasysMapperNamesVfdEconMinpos"
+      ],
+      "description": "VFD-ECON-MINPOS"
+    },
+    {
+      "enum": [
+        106,
+        "verasysMapperNamesUrgHeatReq"
+      ],
+      "description": "URG-HEAT-REQ"
+    },
+    {
+      "enum": [
+        107,
+        "verasysMapperNamesTotHeatReq"
+      ],
+      "description": "TOT-HEAT-REQ"
+    },
+    {
+      "enum": [
+        108,
+        "verasysMapperNamesTotClgReq"
+      ],
+      "description": "TOT-CLG-REQ"
+    },
+    {
+      "enum": [
+        109,
+        "verasysMapperNamesUrgClgReq"
+      ],
+      "description": "URG-CLG-REQ"
+    },
+    {
+      "enum": [
+        110,
+        "verasysMapperNamesSdCmd"
+      ],
+      "description": "SD-CMD"
+    },
+    {
+      "enum": [
+        111,
+        "verasysMapperNamesSdRtu"
+      ],
+      "description": "SD-RTU"
+    },
+    {
+      "enum": [
+        112,
+        "verasysMapperNamesZnSysState"
+      ],
+      "description": "ZN-SYS-STATE"
+    },
+    {
+      "enum": [
+        113,
+        "verasysMapperNamesTempOccTimeout"
+      ],
+      "description": "TEMP-OCC-TIMEOUT"
+    },
+    {
+      "enum": [
+        114,
+        "verasysMapperNamesRat"
+      ],
+      "description": "RAT"
+    },
+    {
+      "enum": [
+        115,
+        "verasysMapperNamesOat"
+      ],
+      "description": "OAT"
+    },
+    {
+      "enum": [
+        116,
+        "verasysMapperNamesFanCmd"
+      ],
+      "description": "FAN-CMD"
+    },
+    {
+      "enum": [
+        117,
+        "verasysMapperNamesClgdatSp"
+      ],
+      "description": "CLGDAT-SP"
+    },
+    {
+      "enum": [
+        118,
+        "verasysMapperNamesDmpPerCmd"
+      ],
+      "description": "DMP-PER-CMD"
+    },
+    {
+      "enum": [
+        119,
+        "verasysMapperNamesSah"
+      ],
+      "description": "SAH"
+    },
+    {
+      "enum": [
+        120,
+        "verasysMapperNamesEffClgC"
+      ],
+      "description": "CLG-C"
+    },
+    {
+      "enum": [
+        121,
+        "verasysMapperNamesNetIaq"
+      ],
+      "description": "NET-IAQ"
+    },
+    {
+      "enum": [
+        122,
+        "verasysMapperNamesEffHum"
+      ],
+      "description": "EFF-HUM"
+    },
+    {
+      "enum": [
+        123,
+        "verasysMapperNamesRah"
+      ],
+      "description": "RAH"
+    },
+    {
+      "enum": [
+        124,
+        "verasysMapperNamesNetZoneHum"
+      ],
+      "description": "NET-ZONE-HUM"
+    },
+    {
+      "enum": [
+        125,
+        "verasysMapperNamesLoadShedActive"
+      ],
+      "description": "LS-ACTIVE"
+    },
+    {
+      "enum": [
+        126,
+        "verasysMapperNamesLoadShedAdjust"
+      ],
+      "description": "LS-ADJ"
+    },
+    {
+      "enum": [
+        127,
+        "verasysMapperNamesNetOat"
+      ],
+      "description": "NET-OAT"
+    },
+    {
+      "enum": [
+        128,
+        "verasysMapperNamesEffOah"
+      ],
+      "description": "EFF-OAH"
+    },
+    {
+      "enum": [
+        129,
+        "verasysMapperNamesOaEnthalpy"
+      ],
+      "description": "OA-ENTHALPY"
+    },
+    {
+      "enum": [
+        130,
+        "verasysMapperNamesNetHumidity"
+      ],
+      "description": "NET-OAH"
+    },
+    {
+      "enum": [
+        131,
+        "verasysMapperNamesEffOaq"
+      ],
+      "description": "EFF-OAQ"
+    },
+    {
+      "enum": [
+        132,
+        "verasysMapperNamesNetOaq"
+      ],
+      "description": "NET-OAQ"
+    },
+    {
+      "enum": [
+        133,
+        "verasysMapperNamesVfdFault"
+      ],
+      "description": "VFD-FAULT"
+    },
+    {
+      "enum": [
+        134,
+        "verasysMapperNamesFanOverload"
+      ],
+      "description": "FAN-OVLD"
+    },
+    {
+      "enum": [
+        135,
+        "verasysMapperNamesAccumulatedRuntime"
+      ],
+      "description": "ACC-RT"
+    },
+    {
+      "enum": [
+        136,
+        "verasysMapperNamesFilteredairprovingpv"
+      ],
+      "description": "AIR-PS"
+    },
+    {
+      "enum": [
+        137,
+        "verasysMapperNamesDuctPressureShutdownSp"
+      ],
+      "description": "DP-SD-SP"
+    },
+    {
+      "enum": [
+        138,
+        "verasysMapperNamesVavSpForSatReset"
+      ],
+      "description": "VAV-SAT-RES-SP"
+    },
+    {
+      "enum": [
+        139,
+        "verasysMapperNamesCvOccupiedClgSpt"
+      ],
+      "description": "CV-OCC-CLG-SP"
+    },
+    {
+      "enum": [
+        140,
+        "verasysMapperNamesCvUnoccClgSpt"
+      ],
+      "description": "CV-UNOCC-CLG-SP"
+    },
+    {
+      "enum": [
+        141,
+        "verasysMapperNamesCvEffClgSpt"
+      ],
+      "description": "CV-EFF-CLG-SP"
+    },
+    {
+      "enum": [
+        142,
+        "verasysMapperNamesDatClgMinSpt"
+      ],
+      "description": "DAT-CLG-MIN-SP"
+    },
+    {
+      "enum": [
+        143,
+        "verasysMapperNamesMorningWarmupRatSp"
+      ],
+      "description": "MWU-RAT-SP"
+    },
+    {
+      "enum": [
+        144,
+        "verasysMapperNamesMorningCooldownRatSp"
+      ],
+      "description": "MCD-RAT-SP"
+    },
+    {
+      "enum": [
+        145,
+        "verasysMapperNamesDatMaxHtgSpt"
+      ],
+      "description": "DAT-MAX-HTG-SP"
+    },
+    {
+      "enum": [
+        146,
+        "verasysMapperNamesDatSatisfiedSpt"
+      ],
+      "description": "DAT-SATISFIED-SP"
+    },
+    {
+      "enum": [
+        147,
+        "verasysMapperNamesProportionalHeatingCommand"
+      ],
+      "description": "PROP-HTG-CMD"
+    },
+    {
+      "enum": [
+        148,
+        "verasysMapperNamesHydronicHeatValvePercentCmd"
+      ],
+      "description": "HYD-HEAT-VLV-CMD"
+    },
+    {
+      "enum": [
+        149,
+        "verasysMapperNamesOaEnthalpySp"
+      ],
+      "description": "OA-ENTH-SP"
+    },
+    {
+      "enum": [
+        150,
+        "verasysMapperNamesLowAmbientEconomizerSetpoint"
+      ],
+      "description": "LO-ECON-SP"
+    },
+    {
+      "enum": [
+        151,
+        "verasysMapperNamesLowAmbientEconMinPos"
+      ],
+      "description": "LO-ECON-MIN-POS"
+    },
+    {
+      "enum": [
+        152,
+        "verasysMapperNamesEconMinPosSp"
+      ],
+      "description": "ECO-MIN-POS-SP"
+    },
+    {
+      "enum": [
+        153,
+        "verasysMapperNamesMixedAirTemp"
+      ],
+      "description": "MAT"
+    },
+    {
+      "enum": [
+        154,
+        "verasysMapperNamesExhaustFan"
+      ],
+      "description": "EX-FAN-CMD"
+    },
+    {
+      "enum": [
+        155,
+        "verasysMapperNamesReturnAirEnthalpy"
+      ],
+      "description": "RA-ENTH"
+    },
+    {
+      "enum": [
+        156,
+        "verasysMapperNamesExhaustFanStatus"
+      ],
+      "description": "EX-FAN-STS"
+    },
+    {
+      "enum": [
+        157,
+        "verasysMapperNamesExhaustFanVfdFault"
+      ],
+      "description": "EX-FAN-VFD"
+    },
+    {
+      "enum": [
+        158,
+        "verasysMapperNamesBldgStaticPSpt"
+      ],
+      "description": "BLDG-P-SP"
+    },
+    {
+      "enum": [
+        159,
+        "verasysMapperNamesBldgStaticP"
+      ],
+      "description": "BLDG-P"
+    },
+    {
+      "enum": [
+        160,
+        "verasysMapperNamesExhustDamperPercentCmd"
+      ],
+      "description": "EX-DMP-CMD"
+    },
+    {
+      "enum": [
+        161,
+        "verasysMapperNamesHotGasReheatCmd"
+      ],
+      "description": "HGR-CMD"
+    },
+    {
+      "enum": [
+        162,
+        "verasysMapperNamesHotGasReheatStatus"
+      ],
+      "description": "HGR-STS"
+    },
+    {
+      "enum": [
+        163,
+        "verasysMapperNamesHotGasReheatHumiditySp"
+      ],
+      "description": "HGR-HUM-SP"
+    },
+    {
+      "enum": [
+        164,
+        "verasysMapperNamesHotGasReheatUnoccHeatingSp"
+      ],
+      "description": "HGR-UNOCC-HUM-SP"
+    },
+    {
+      "enum": [
+        165,
+        "verasysMapperNamesPurgeActive"
+      ],
+      "description": "EFF-PURGE"
+    },
+    {
+      "enum": [
+        166,
+        "verasysMapperNamesSatSensorFault"
+      ],
+      "description": "SAT-SNSR-FAULT"
+    },
+    {
+      "enum": [
+        167,
+        "verasysMapperNamesZoneSensorFault"
+      ],
+      "description": "SP-SNSR-FAULT"
+    },
+    {
+      "enum": [
+        168,
+        "verasysMapperNamesLockoutDueAirProvingSwitch"
+      ],
+      "description": "LO-APS"
+    },
+    {
+      "enum": [
+        169,
+        "verasysMapperNamesShutdownDueAirprovingswitch"
+      ],
+      "description": "SD-APS"
+    },
+    {
+      "enum": [
+        170,
+        "verasysMapperNamesShutdownHighDuctStaticPressure"
+      ],
+      "description": "SD-HI-SP"
+    },
+    {
+      "enum": [
+        171,
+        "verasysMapperNamesLockoutDueLowSat"
+      ],
+      "description": "LO-LOW-OAT"
+    },
+    {
+      "enum": [
+        172,
+        "verasysMapperNamesHeatingModeEnable"
+      ],
+      "description": "HTG-EN"
+    },
+    {
+      "enum": [
+        173,
+        "verasysMapperNamesHtgStatus"
+      ],
+      "description": "HTG-STS"
+    },
+    {
+      "enum": [
+        174,
+        "verasysMapperNamesVavOccupiedHeating"
+      ],
+      "description": "VAV-OCC-HTG-SP"
+    },
+    {
+      "enum": [
+        175,
+        "verasysMapperNamesVavEffectiveHtgSp"
+      ],
+      "description": "VAV-EFF-HTG-SP"
+    },
+    {
+      "enum": [
+        176,
+        "verasysMapperNamesCvEffHtgSp"
+      ],
+      "description": "CV-EFF-HTG-SP"
+    },
+    {
+      "enum": [
+        177,
+        "verasysMapperNamesHeatingStage2"
+      ],
+      "description": "HTG-CMD-2"
+    },
+    {
+      "enum": [
+        178,
+        "verasysMapperNamesHeatingStage2Status"
+      ],
+      "description": "HTG-STS-2"
+    },
+    {
+      "enum": [
+        179,
+        "verasysMapperNamesEconEnabled"
+      ],
+      "description": "ECON-EN"
+    },
+    {
+      "enum": [
+        180,
+        "verasysMapperNamesDcvIaqSp"
+      ],
+      "description": "DCV-IAQ"
+    },
+    {
+      "enum": [
+        181,
+        "verasysMapperNamesEffOccupancy"
+      ],
+      "description": "OP-OCC"
+    },
+    {
+      "enum": [
+        182,
+        "verasysMapperNamesSpaceTemp"
+      ],
+      "description": "EFF-SPACE-TEMP"
+    },
+    {
+      "enum": [
+        183,
+        "verasysMapperNamesOaq"
+      ],
+      "description": "OAQ"
+    },
+    {
+      "enum": [
+        184,
+        "verasysMapperNamesSatAlarmSpForHtg"
+      ],
+      "description": "SAT-HI-ALM"
+    },
+    {
+      "enum": [
+        185,
+        "verasysMapperNamesSatAlarmSpForClg"
+      ],
+      "description": "SAT-LO-ALM"
+    },
+    {
+      "enum": [
+        186,
+        "verasysMapperNamesLocalPurge"
+      ],
+      "description": "PURGE-CMD"
+    },
+    {
+      "enum": [
+        187,
+        "verasysMapperNamesClgComp2Cmd"
+      ],
+      "description": "CLG-CMD-2"
+    },
+    {
+      "enum": [
+        188,
+        "verasysMapperNamesComp2Req"
+      ],
+      "description": "CLG-STS-2"
+    },
+    {
+      "enum": [
+        189,
+        "verasysMapperNamesComp2Enable"
+      ],
+      "description": "CLG-EN-2"
+    },
+    {
+      "enum": [
+        190,
+        "verasysMapperNamesFanStatus"
+      ],
+      "description": "FAN-STS"
+    },
+    {
+      "enum": [
+        191,
+        "verasysMapperNamesFanPercCmd"
+      ],
+      "description": "FAN-PER-CMD"
+    },
+    {
+      "enum": [
+        192,
+        "verasysMapperNamesDirtyFilter"
+      ],
+      "description": "FILTER"
+    },
+    {
+      "enum": [
+        193,
+        "verasysMapperNamesDuctP"
+      ],
+      "description": "DUCT-SP"
+    },
+    {
+      "enum": [
+        194,
+        "verasysMapperNamesEffDatClgSpt"
+      ],
+      "description": "VAV-CLG-SAT-SP"
+    },
+    {
+      "enum": [
+        195,
+        "verasysMapperNamesClgComp1Cmd"
+      ],
+      "description": "CLG-CMD-1"
+    },
+    {
+      "enum": [
+        196,
+        "verasysMapperNamesComp1Req"
+      ],
+      "description": "CLG-STS-1"
+    },
+    {
+      "enum": [
+        197,
+        "verasysMapperNamesComp1Enable"
+      ],
+      "description": "CLG-EN-1"
+    },
+    {
+      "enum": [
+        198,
+        "verasysMapperNamesHeatingStage1"
+      ],
+      "description": "HTG-CMD-1"
+    },
+    {
+      "enum": [
+        199,
+        "verasysMapperNamesHeatingStage1Status"
+      ],
+      "description": "HTG-STS-1"
+    },
+    {
+      "enum": [
+        200,
+        "verasysMapperNamesEconFreeClg"
+      ],
+      "description": "ECO-FREE"
+    },
+    {
+      "enum": [
+        201,
+        "verasysMapperNamesEconomizerStatus"
+      ],
+      "description": "ECON-STS"
+    },
+    {
+      "enum": [
+        202,
+        "verasysMapperNamesEconomizerOatSp"
+      ],
+      "description": "ECON-OAT-SP"
+    },
+    {
+      "enum": [
+        203,
+        "verasysMapperNamesEconMinPosOutLs"
+      ],
+      "description": "ECON-MIN-POS-LS"
+    },
+    {
+      "enum": [
+        204,
+        "verasysMapperNamesExhaustFanPercCmd"
+      ],
+      "description": "EX-FAN-PER-CMD"
+    },
+    {
+      "enum": [
+        205,
+        "verasysMapperNamesClgComp3Cmd"
+      ],
+      "description": "CLG-CMD-3"
+    },
+    {
+      "enum": [
+        206,
+        "verasysMapperNamesComp3Req"
+      ],
+      "description": "CLG-STS-3"
+    },
+    {
+      "enum": [
+        207,
+        "verasysMapperNamesComp3Enable"
+      ],
+      "description": "CLG-EN-3"
+    },
+    {
+      "enum": [
+        208,
+        "verasysMapperNamesClgComp4Cmd"
+      ],
+      "description": "CLG-CMD-4"
+    },
+    {
+      "enum": [
+        209,
+        "verasysMapperNamesComp4Req"
+      ],
+      "description": "CLG-STS-4"
+    },
+    {
+      "enum": [
+        210,
+        "verasysMapperNamesComp4Enable"
+      ],
+      "description": "CLG-EN-4"
+    },
+    {
+      "enum": [
+        211,
+        "verasysMapperNamesHeatingStage3"
+      ],
+      "description": "HTG-CMD-3"
+    },
+    {
+      "enum": [
+        212,
+        "verasysMapperNamesHeatingStage3Status"
+      ],
+      "description": "HTG-STS-3"
+    },
+    {
+      "enum": [
+        213,
+        "verasysMapperNamesCompressor1Lockout"
+      ],
+      "description": "CMP-1-LO"
+    },
+    {
+      "enum": [
+        214,
+        "verasysMapperNamesCompressor2Lockout"
+      ],
+      "description": "CMP-2-LO"
+    },
+    {
+      "enum": [
+        215,
+        "verasysMapperNamesOatClgCutout"
+      ],
+      "description": "OAT-CLG-CUTOUT"
+    },
+    {
+      "enum": [
+        216,
+        "verasysMapperNamesOatHtgCutoutSp"
+      ],
+      "description": "OAT-HTG-CUTOUT-SP"
+    }
+  ]
+}

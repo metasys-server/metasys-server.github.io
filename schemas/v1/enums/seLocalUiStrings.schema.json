@@ -1,0 +1,946 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seLocalUiStrings.schema.json",
+  "title": "seLocalUiStrings",
+  "description": "SE Local UI Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seLocalUiFirmwareError"
+      ],
+      "description": "Firmware Error"
+    },
+    {
+      "enum": [
+        1,
+        "seLocalUiReload"
+      ],
+      "description": "Reload"
+    },
+    {
+      "enum": [
+        2,
+        "seLocalUiUsbFlash"
+      ],
+      "description": "USB Flash"
+    },
+    {
+      "enum": [
+        3,
+        "seLocalUiInserted"
+      ],
+      "description": "Inserted"
+    },
+    {
+      "enum": [
+        4,
+        "seLocalUiViewVersion"
+      ],
+      "description": "View Version"
+    },
+    {
+      "enum": [
+        5,
+        "seLocalUiLoadFirmware"
+      ],
+      "description": "Load Firmware"
+    },
+    {
+      "enum": [
+        6,
+        "seLocalUiRestore"
+      ],
+      "description": "Restore"
+    },
+    {
+      "enum": [
+        7,
+        "seLocalUiFullClone"
+      ],
+      "description": "Full Clone"
+    },
+    {
+      "enum": [
+        8,
+        "seLocalUiPartialClone"
+      ],
+      "description": "Partial Clone"
+    },
+    {
+      "enum": [
+        9,
+        "seLocalUiBackup"
+      ],
+      "description": "Backup"
+    },
+    {
+      "enum": [
+        10,
+        "seLocalUiSetupDone"
+      ],
+      "description": "Setup Done?"
+    },
+    {
+      "enum": [
+        11,
+        "seLocalUiSettings"
+      ],
+      "description": "Settings"
+    },
+    {
+      "enum": [
+        12,
+        "seLocalUiNoFactory"
+      ],
+      "description": "No Factory"
+    },
+    {
+      "enum": [
+        13,
+        "seLocalUiDefaults"
+      ],
+      "description": "Factory Defaults"
+    },
+    {
+      "enum": [
+        14,
+        "seLocalUiRemaining"
+      ],
+      "description": "Remain"
+    },
+    {
+      "enum": [
+        15,
+        "seLocalUiStart"
+      ],
+      "description": "Start"
+    },
+    {
+      "enum": [
+        16,
+        "seLocalUiNoLoad"
+      ],
+      "description": "No Load"
+    },
+    {
+      "enum": [
+        17,
+        "seLocalUiFiles"
+      ],
+      "description": "Files"
+    },
+    {
+      "enum": [
+        18,
+        "seLocalUiUsbFail"
+      ],
+      "description": "USB Fail"
+    },
+    {
+      "enum": [
+        19,
+        "seLocalUiCurrentVersion"
+      ],
+      "description": "Current Version"
+    },
+    {
+      "enum": [
+        20,
+        "seLocalUiCorrupt"
+      ],
+      "description": "Corrupt"
+    },
+    {
+      "enum": [
+        21,
+        "seLocalUiLoadFail"
+      ],
+      "description": "Load Fail"
+    },
+    {
+      "enum": [
+        22,
+        "seLocalUiError"
+      ],
+      "description": "Error"
+    },
+    {
+      "enum": [
+        23,
+        "seLocalUiDone"
+      ],
+      "description": "Done"
+    },
+    {
+      "enum": [
+        24,
+        "seLocalUiFail"
+      ],
+      "description": "Fail"
+    },
+    {
+      "enum": [
+        25,
+        "seLocalUiStatus"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        26,
+        "seLocalUiAlarms"
+      ],
+      "description": "Alarms"
+    },
+    {
+      "enum": [
+        27,
+        "seLocalUiSummary"
+      ],
+      "description": "Summary"
+    },
+    {
+      "enum": [
+        28,
+        "seLocalUiCommission"
+      ],
+      "description": "Commission"
+    },
+    {
+      "enum": [
+        29,
+        "seLocalUiController"
+      ],
+      "description": "Controller"
+    },
+    {
+      "enum": [
+        30,
+        "seLocalUiUpdate"
+      ],
+      "description": "Update"
+    },
+    {
+      "enum": [
+        31,
+        "seLocalUiDetails"
+      ],
+      "description": "Details"
+    },
+    {
+      "enum": [
+        32,
+        "seLocalUiActive"
+      ],
+      "description": "Active"
+    },
+    {
+      "enum": [
+        33,
+        "seLocalUiHistory"
+      ],
+      "description": "History"
+    },
+    {
+      "enum": [
+        34,
+        "seLocalUiSoftreset"
+      ],
+      "description": "Soft Reset"
+    },
+    {
+      "enum": [
+        35,
+        "seLocalUiClearHistory"
+      ],
+      "description": "Clear History"
+    },
+    {
+      "enum": [
+        36,
+        "seLocalUiConfirm"
+      ],
+      "description": "Confirm"
+    },
+    {
+      "enum": [
+        37,
+        "seLocalUiResetSystem"
+      ],
+      "description": "Reset System"
+    },
+    {
+      "enum": [
+        38,
+        "seLocalUiShorted"
+      ],
+      "description": "?Shorted"
+    },
+    {
+      "enum": [
+        39,
+        "seLocalUiOpen"
+      ],
+      "description": "?Open"
+    },
+    {
+      "enum": [
+        40,
+        "seLocalUiOutrange"
+      ],
+      "description": "?OutRnge"
+    },
+    {
+      "enum": [
+        41,
+        "seLocalUiUnreliable"
+      ],
+      "description": "?Unrel"
+    },
+    {
+      "enum": [
+        42,
+        "seLocalUiUnavailable"
+      ],
+      "description": "?Unavail"
+    },
+    {
+      "enum": [
+        43,
+        "seLocalUiUnknown"
+      ],
+      "description": "?Unknown"
+    },
+    {
+      "enum": [
+        44,
+        "seLocalUiFirmwareOk"
+      ],
+      "description": "Firmware OK"
+    },
+    {
+      "enum": [
+        45,
+        "seLocalUiFirmwareVersionsDoNotMatchThePkg"
+      ],
+      "description": "Firmware versions do not match pkg"
+    },
+    {
+      "enum": [
+        46,
+        "seLocalUiUp"
+      ],
+      "description": "UP"
+    },
+    {
+      "enum": [
+        47,
+        "seLocalUiBacking"
+      ],
+      "description": "Backing"
+    },
+    {
+      "enum": [
+        48,
+        "seLocalUiTimers"
+      ],
+      "description": "Timers"
+    },
+    {
+      "enum": [
+        49,
+        "seLocalUiCancel"
+      ],
+      "description": "Cancel"
+    },
+    {
+      "enum": [
+        50,
+        "seLocalUiNoEvents"
+      ],
+      "description": "No Events"
+    },
+    {
+      "enum": [
+        51,
+        "seLocalUiNoClonePackagePresent"
+      ],
+      "description": "No clone Package Present"
+    },
+    {
+      "enum": [
+        52,
+        "seLocalUiNoRestorePackagePresent"
+      ],
+      "description": "No Restore Package Present"
+    },
+    {
+      "enum": [
+        53,
+        "seLocalUiNoPackagePresent"
+      ],
+      "description": "No Package Present"
+    },
+    {
+      "enum": [
+        54,
+        "seLocalUiYear"
+      ],
+      "description": "Year"
+    },
+    {
+      "enum": [
+        55,
+        "seLocalUiMonth"
+      ],
+      "description": "Month"
+    },
+    {
+      "enum": [
+        56,
+        "seLocalUiDay"
+      ],
+      "description": "Day"
+    },
+    {
+      "enum": [
+        57,
+        "seLocalUiMinute"
+      ],
+      "description": "Minute"
+    },
+    {
+      "enum": [
+        58,
+        "seLocalUiHour"
+      ],
+      "description": "Hour"
+    },
+    {
+      "enum": [
+        59,
+        "seLocalUiErrNoGroup"
+      ],
+      "description": "Error No Group"
+    },
+    {
+      "enum": [
+        60,
+        "seLocalUiWrite"
+      ],
+      "description": "Write"
+    },
+    {
+      "enum": [
+        61,
+        "seLocalUiErrorOnUnitStatusRead"
+      ],
+      "description": "Error on Unit Status read"
+    },
+    {
+      "enum": [
+        62,
+        "seLocalUiTooManyFilesToList"
+      ],
+      "description": "Too many files to list"
+    },
+    {
+      "enum": [
+        63,
+        "seLocalUiTooManyPackagesToList"
+      ],
+      "description": "Too many packages to list"
+    },
+    {
+      "enum": [
+        64,
+        "seLocalUiSelftest"
+      ],
+      "description": "Self Test"
+    },
+    {
+      "enum": [
+        65,
+        "seLocalUiExport"
+      ],
+      "description": "Export"
+    },
+    {
+      "enum": [
+        66,
+        "seLocalUiExporting"
+      ],
+      "description": "Exporting"
+    },
+    {
+      "enum": [
+        67,
+        "seLocalUiTrend"
+      ],
+      "description": "Trend"
+    },
+    {
+      "enum": [
+        68,
+        "seLocalUiNo"
+      ],
+      "description": "No"
+    },
+    {
+      "enum": [
+        69,
+        "seLocalUiUsb"
+      ],
+      "description": "USB"
+    },
+    {
+      "enum": [
+        70,
+        "seLocalUiMissing"
+      ],
+      "description": "Missing"
+    },
+    {
+      "enum": [
+        71,
+        "seLocalUiWritefail"
+      ],
+      "description": "Write Fail"
+    },
+    {
+      "enum": [
+        72,
+        "seLocalUiPause"
+      ],
+      "description": "Pause"
+    },
+    {
+      "enum": [
+        73,
+        "seLocalUiTeststatus"
+      ],
+      "description": "Test Status"
+    },
+    {
+      "enum": [
+        74,
+        "seLocalUiExptrend"
+      ],
+      "description": "Export Trend"
+    },
+    {
+      "enum": [
+        75,
+        "seLocalUiBoardWillReset"
+      ],
+      "description": "Board will reset"
+    },
+    {
+      "enum": [
+        76,
+        "seLocalUiViewResults"
+      ],
+      "description": "View Results"
+    },
+    {
+      "enum": [
+        77,
+        "seLocalUiFanRun"
+      ],
+      "description": "Fan Running?"
+    },
+    {
+      "enum": [
+        78,
+        "seLocalUiEconOpen"
+      ],
+      "description": "Econ Open?"
+    },
+    {
+      "enum": [
+        79,
+        "seLocalUiYesNo"
+      ],
+      "description": "Yes(Enter) No(Cancel)"
+    },
+    {
+      "enum": [
+        80,
+        "seLocalUiStsReport"
+      ],
+      "description": "SelftestReport"
+    },
+    {
+      "enum": [
+        81,
+        "seLocalUiStsUnitName"
+      ],
+      "description": "Unit Name"
+    },
+    {
+      "enum": [
+        82,
+        "seLocalUiStsUnitModel"
+      ],
+      "description": "Unit Model"
+    },
+    {
+      "enum": [
+        83,
+        "seLocalUiStsUnitFirmware"
+      ],
+      "description": "Unit Firmware"
+    },
+    {
+      "enum": [
+        84,
+        "seLocalUiStsUnitSerial"
+      ],
+      "description": "Unit Serial"
+    },
+    {
+      "enum": [
+        85,
+        "seLocalUiStsTime"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        86,
+        "seLocalUiStsDate"
+      ],
+      "description": "Date"
+    },
+    {
+      "enum": [
+        87,
+        "seLocalUiStsTimezone"
+      ],
+      "description": "Timezone"
+    },
+    {
+      "enum": [
+        88,
+        "seLocalUiStsOst"
+      ],
+      "description": "Operational Space Temperature"
+    },
+    {
+      "enum": [
+        89,
+        "seLocalUiStsOsh"
+      ],
+      "description": "Operational Space Humidity"
+    },
+    {
+      "enum": [
+        90,
+        "seLocalUiStsOat"
+      ],
+      "description": "Outdoor Air Temperature"
+    },
+    {
+      "enum": [
+        91,
+        "seLocalUiStsOah"
+      ],
+      "description": "Outdoor Air Humidity"
+    },
+    {
+      "enum": [
+        92,
+        "seLocalUiStsSat"
+      ],
+      "description": "Supply Air Temperature"
+    },
+    {
+      "enum": [
+        93,
+        "seLocalUiStsSuctionPress"
+      ],
+      "description": "Suction Pressure"
+    },
+    {
+      "enum": [
+        94,
+        "seLocalUiStsFanTest"
+      ],
+      "description": "Fan Test"
+    },
+    {
+      "enum": [
+        95,
+        "seLocalUiStsComp1Test"
+      ],
+      "description": "Compressor 1 Test"
+    },
+    {
+      "enum": [
+        96,
+        "seLocalUiStsComp2Test"
+      ],
+      "description": "Compressor 2 Test"
+    },
+    {
+      "enum": [
+        97,
+        "seLocalUiStsComp3Test"
+      ],
+      "description": "Compressor 3 Test"
+    },
+    {
+      "enum": [
+        98,
+        "seLocalUiStsComp4Test"
+      ],
+      "description": "Compressor 4 Test"
+    },
+    {
+      "enum": [
+        99,
+        "seLocalUiStsHeat1Test"
+      ],
+      "description": "Heating 1 Test"
+    },
+    {
+      "enum": [
+        100,
+        "seLocalUiStsHeat2Test"
+      ],
+      "description": "Heating 2 Test"
+    },
+    {
+      "enum": [
+        101,
+        "seLocalUiStsHeat3Test"
+      ],
+      "description": "Heating 3 Test"
+    },
+    {
+      "enum": [
+        102,
+        "seLocalUiStsEconTest"
+      ],
+      "description": "Econ Test"
+    },
+    {
+      "enum": [
+        103,
+        "seLocalUiStsExhaustTest"
+      ],
+      "description": "Exhaust Test"
+    },
+    {
+      "enum": [
+        104,
+        "seLocalUiBoardMayReset"
+      ],
+      "description": "Board may reset"
+    },
+    {
+      "enum": [
+        105,
+        "seLocalUiMinutes"
+      ],
+      "description": "Minutes"
+    },
+    {
+      "enum": [
+        106,
+        "seLocalUiAttemptUsb"
+      ],
+      "description": "Attempting to access USB"
+    },
+    {
+      "enum": [
+        107,
+        "seLocalUiStartCommissioningMode"
+      ],
+      "description": "Start commissioning mode?"
+    },
+    {
+      "enum": [
+        108,
+        "seLocalUiControlWillBeDisabled"
+      ],
+      "description": "Control will be disabled"
+    },
+    {
+      "enum": [
+        109,
+        "seLocalUiViewTodaysSchedule"
+      ],
+      "description": "View Today's Schedule"
+    },
+    {
+      "enum": [
+        110,
+        "seLocalUiViewWeeklySchedule"
+      ],
+      "description": "View Weekly Schedule"
+    },
+    {
+      "enum": [
+        111,
+        "seLocalUiEditWeeklySchedule"
+      ],
+      "description": "Edit Weekly Schedule"
+    },
+    {
+      "enum": [
+        112,
+        "seLocalUiAddEvent"
+      ],
+      "description": "Add Event"
+    },
+    {
+      "enum": [
+        113,
+        "seLocalUiRemoveEvent"
+      ],
+      "description": "Remove Event"
+    },
+    {
+      "enum": [
+        114,
+        "seLocalUiSelectWeekday"
+      ],
+      "description": "Select Weekday"
+    },
+    {
+      "enum": [
+        115,
+        "seLocalUiMaxSchdEvents"
+      ],
+      "description": "Maximum Events Reached"
+    },
+    {
+      "enum": [
+        116,
+        "seLocalUiNoSchdEvents"
+      ],
+      "description": "No Scheduled Events"
+    },
+    {
+      "enum": [
+        117,
+        "seLocalUiListTooLong"
+      ],
+      "description": "List Too Long"
+    },
+    {
+      "enum": [
+        118,
+        "seLocalUiPasswordEnabled"
+      ],
+      "description": "Password Enabled"
+    },
+    {
+      "enum": [
+        119,
+        "seLocalUiSetPassword"
+      ],
+      "description": "Set Password"
+    },
+    {
+      "enum": [
+        120,
+        "seLocalUiConfirmPassword"
+      ],
+      "description": "Confirm Password"
+    },
+    {
+      "enum": [
+        121,
+        "seLocalUiEnterPassword"
+      ],
+      "description": "Enter Password"
+    },
+    {
+      "enum": [
+        122,
+        "seLocalUiIncorrectPasswordEntered"
+      ],
+      "description": "Incorrect Password Entered"
+    },
+    {
+      "enum": [
+        123,
+        "seLocalUiPasswordMismatch"
+      ],
+      "description": "Password Entries Don't Match"
+    },
+    {
+      "enum": [
+        124,
+        "seLocalUiPasswordSettingsUpdated"
+      ],
+      "description": "Password Settings Updated"
+    },
+    {
+      "enum": [
+        125,
+        "seLocalUiBinaryInput1"
+      ],
+      "description": "Binary Input 1"
+    },
+    {
+      "enum": [
+        126,
+        "seLocalUiBinaryInput2"
+      ],
+      "description": "Binary Input 2"
+    },
+    {
+      "enum": [
+        127,
+        "seLocalUiBinaryInput3"
+      ],
+      "description": "Binary Input 3"
+    },
+    {
+      "enum": [
+        128,
+        "seLocalUiBinaryInput4"
+      ],
+      "description": "Binary Input 4"
+    },
+    {
+      "enum": [
+        129,
+        "seLocalUiAnalogInput5"
+      ],
+      "description": "Analog Input 5"
+    },
+    {
+      "enum": [
+        130,
+        "seLocalUiAnalogInput6"
+      ],
+      "description": "Analog Input 6"
+    },
+    {
+      "enum": [
+        131,
+        "seLocalUiAnalogInput7"
+      ],
+      "description": "Analog Input 7"
+    },
+    {
+      "enum": [
+        132,
+        "seLocalUiAnalogInput8"
+      ],
+      "description": "Analog Input 8"
+    },
+    {
+      "enum": [
+        133,
+        "seLocalUiAnalogInput9"
+      ],
+      "description": "Analog Input 9"
+    }
+  ]
+}

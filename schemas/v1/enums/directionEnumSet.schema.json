@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/directionEnumSet.schema.json",
+  "title": "directionEnumSet",
+  "description": "Direction",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "directionUndefined"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "directionIn"
+      ],
+      "description": "Ingress"
+    },
+    {
+      "enum": [
+        2,
+        "directionOut"
+      ],
+      "description": "Exgress"
+    },
+    {
+      "enum": [
+        3,
+        "useAsNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        4,
+        "useAsInput"
+      ],
+      "description": "Input"
+    },
+    {
+      "enum": [
+        5,
+        "useAsOutput"
+      ],
+      "description": "Output"
+    }
+  ]
+}

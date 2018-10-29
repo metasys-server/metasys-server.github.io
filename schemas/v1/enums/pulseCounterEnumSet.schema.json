@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pulseCounterEnumSet.schema.json",
+  "title": "pulseCounterEnumSet",
+  "description": "Pulse Counter",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "singleEdgeCounter"
+      ],
+      "description": "Single Edge"
+    },
+    {
+      "enum": [
+        1,
+        "dualEdgeCounter"
+      ],
+      "description": "Dual Edge"
+    }
+  ]
+}

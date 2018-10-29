@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/antiPassbackStatusEnumSet.schema.json",
+  "title": "antiPassbackStatusEnumSet",
+  "description": "Anti-Passback Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "antiPassbackStatusOk"
+      ],
+      "description": "OK"
+    },
+    {
+      "enum": [
+        1,
+        "antiPassbackStatusDeferred"
+      ],
+      "description": "Deferred"
+    },
+    {
+      "enum": [
+        2,
+        "antiPassbackStatusDeniedEntryExitViolation"
+      ],
+      "description": "Denied (Entry-Exit Violation)"
+    },
+    {
+      "enum": [
+        3,
+        "antiPassbackStatusOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        4,
+        "antiPassbackStatusNotOperational"
+      ],
+      "description": "Not Operational"
+    },
+    {
+      "enum": [
+        5,
+        "antiPassbackStatusUndefinedStatus"
+      ],
+      "description": "Undefined Status"
+    },
+    {
+      "enum": [
+        6,
+        "antiPassbackStatusUnknownEntity"
+      ],
+      "description": "Unknown Entity"
+    },
+    {
+      "enum": [
+        7,
+        "antiPassbackStatusDeniedAntiPassbackViolation"
+      ],
+      "description": "Denied (Anti-Passback Violation)"
+    }
+  ]
+}

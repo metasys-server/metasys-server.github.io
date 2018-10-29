@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hpHtgModeEnumSet.schema.json",
+  "title": "hpHtgModeEnumSet",
+  "description": "HP Heating Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hpHtgOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hpHtgMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "hpHtgCtrl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "hpHtgFailsoft"
+      ],
+      "description": "Failsoft"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lonPointStatusEnumSet.schema.json",
+  "title": "lonPointStatusEnumSet",
+  "description": "Lon Point Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lpsInvalidId"
+      ],
+      "description": "Invalid ID"
+    },
+    {
+      "enum": [
+        1,
+        "lpsInvalidRequest"
+      ],
+      "description": "Invalid request"
+    },
+    {
+      "enum": [
+        2,
+        "lpsDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        3,
+        "lpsOutOfLimit"
+      ],
+      "description": "Out of limits"
+    },
+    {
+      "enum": [
+        4,
+        "lpsOpenCircuit"
+      ],
+      "description": "Open circuit"
+    },
+    {
+      "enum": [
+        5,
+        "lpsOutOfService"
+      ],
+      "description": "Out of service"
+    },
+    {
+      "enum": [
+        6,
+        "lpsMechanicalFault"
+      ],
+      "description": "Mechanical fault"
+    },
+    {
+      "enum": [
+        7,
+        "lpsFeedbackFailure"
+      ],
+      "description": "Feedback failure"
+    },
+    {
+      "enum": [
+        8,
+        "lpsOverRange"
+      ],
+      "description": "Over range"
+    },
+    {
+      "enum": [
+        9,
+        "lpsUnderRange"
+      ],
+      "description": "Under range"
+    },
+    {
+      "enum": [
+        10,
+        "lpsElectricalFault"
+      ],
+      "description": "Electrical fault"
+    },
+    {
+      "enum": [
+        11,
+        "lpsUnableToMeasure"
+      ],
+      "description": "Unable to measure"
+    },
+    {
+      "enum": [
+        12,
+        "lpsCommFailure"
+      ],
+      "description": "Communication failure"
+    },
+    {
+      "enum": [
+        13,
+        "lpsFailSelfTest"
+      ],
+      "description": "Fail self test"
+    },
+    {
+      "enum": [
+        14,
+        "lpsSelfTestInProgress"
+      ],
+      "description": "Self test in progress"
+    },
+    {
+      "enum": [
+        15,
+        "lpsLockedOut"
+      ],
+      "description": "Locked out"
+    },
+    {
+      "enum": [
+        16,
+        "lpsManualControl"
+      ],
+      "description": "Manual control"
+    },
+    {
+      "enum": [
+        17,
+        "lpsInAlarm"
+      ],
+      "description": "In alarm"
+    },
+    {
+      "enum": [
+        18,
+        "lpsInOverride"
+      ],
+      "description": "In override"
+    },
+    {
+      "enum": [
+        19,
+        "lpsReportMask"
+      ],
+      "description": "Report mask"
+    },
+    {
+      "enum": [
+        20,
+        "lpsProgrammingMode"
+      ],
+      "description": "Programming mode"
+    },
+    {
+      "enum": [
+        21,
+        "lpsProgrammingFail"
+      ],
+      "description": "Programming fail"
+    },
+    {
+      "enum": [
+        22,
+        "lpsAlarmNotifyDisabled"
+      ],
+      "description": "Alarm notify disabled"
+    },
+    {
+      "enum": [
+        23,
+        "lpsFixed"
+      ],
+      "description": "Fixed"
+    },
+    {
+      "enum": [
+        24,
+        "lpsProxy"
+      ],
+      "description": "Proxy"
+    },
+    {
+      "enum": [
+        25,
+        "lpsUnacknowledged"
+      ],
+      "description": "Unacknowledged"
+    },
+    {
+      "enum": [
+        26,
+        "lpsPriorityMismatch"
+      ],
+      "description": "Priority Mismatch"
+    }
+  ]
+}

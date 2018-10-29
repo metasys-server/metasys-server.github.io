@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewBvAutomanualEnumSet.schema.json",
+  "title": "optiviewBvAutomanualEnumSet",
+  "description": "OptiView BV Auto Manual",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewBvAutomanualAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewBvAutomanualManual"
+      ],
+      "description": "Manual"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetNetworkTypeEnumSet.schema.json",
+  "title": "bacnetNetworkTypeEnumSet",
+  "description": "BACnet Network Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetNetworkTypeEthernet"
+      ],
+      "description": "BACnet over Ethernet"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetNetworkTypeArcnet"
+      ],
+      "description": "BACnet/ARCnet"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetNetworkTypeMstp"
+      ],
+      "description": "BACnet/MSTP"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetNetworkTypePtp"
+      ],
+      "description": "BACnet/PTP (Point-to-Point)"
+    },
+    {
+      "enum": [
+        4,
+        "bacnetNetworkTypeLontalk"
+      ],
+      "description": "BACnet over LON"
+    },
+    {
+      "enum": [
+        5,
+        "bacnetNetworkTypeIpv4"
+      ],
+      "description": "BACnet/IP over IPv4"
+    },
+    {
+      "enum": [
+        6,
+        "bacnetNetworkTypeZigbee"
+      ],
+      "description": "BACnet over Zigbee"
+    },
+    {
+      "enum": [
+        7,
+        "bacnetNetworkTypeVirtual"
+      ],
+      "description": "BACnet on a virtual network"
+    },
+    {
+      "enum": [
+        8,
+        "bacnetNetworkTypeReserved"
+      ],
+      "description": "Reserved"
+    },
+    {
+      "enum": [
+        9,
+        "bacnetNetworkTypeIpv6"
+      ],
+      "description": "BACnet/IP over IPv6"
+    },
+    {
+      "enum": [
+        10,
+        "bacnetNetworkTypeSerial"
+      ],
+      "description": "BACnet over serial"
+    },
+    {
+      "enum": [
+        11,
+        "bacnetNetworkTypeBacnetSc"
+      ],
+      "description": "BACnet Secure Communications"
+    },
+    {
+      "enum": [
+        12,
+        "bacnetNetworkTypeWebsocket"
+      ],
+      "description": "BACnet/IT Websocket transport"
+    },
+    {
+      "enum": [
+        13,
+        "bacnetNetworkTypeDnsSd"
+      ],
+      "description": "BACnet/IT DNS-SD directory"
+    }
+  ]
+}

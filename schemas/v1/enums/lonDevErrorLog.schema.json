@@ -1,0 +1,274 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lonDevErrorLog.schema.json",
+  "title": "lonDevErrorLog",
+  "description": "LON Device Error Log",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lonerrNoErr"
+      ],
+      "description": "No Error"
+    },
+    {
+      "enum": [
+        1,
+        "lonerrBadEvent"
+      ],
+      "description": "Bad Event"
+    },
+    {
+      "enum": [
+        2,
+        "lonerrNvLenMismatch"
+      ],
+      "description": "NV Length Mismatch"
+    },
+    {
+      "enum": [
+        3,
+        "lonerrNvMsgShort"
+      ],
+      "description": "NV Message Too Short"
+    },
+    {
+      "enum": [
+        4,
+        "lonerrEepromWrtFail"
+      ],
+      "description": "EEPROM Write Fail"
+    },
+    {
+      "enum": [
+        5,
+        "lonerrBadAddTyp"
+      ],
+      "description": "Bad Address Type"
+    },
+    {
+      "enum": [
+        6,
+        "lonerrPreempModeTimeout"
+      ],
+      "description": "Preemption Mode Timeout"
+    },
+    {
+      "enum": [
+        7,
+        "lonerrAlreadyPreemp"
+      ],
+      "description": "Already Preempted"
+    },
+    {
+      "enum": [
+        8,
+        "lonerrSyncNvUpdateLost"
+      ],
+      "description": "Synchronous NV Update Lost"
+    },
+    {
+      "enum": [
+        9,
+        "lonerrInvalidRespAlloc"
+      ],
+      "description": "Invalid Response Allocation"
+    },
+    {
+      "enum": [
+        10,
+        "lonerrInvalidDomain"
+      ],
+      "description": "Invalid Domain"
+    },
+    {
+      "enum": [
+        11,
+        "lonerrReadPastEndMsg"
+      ],
+      "description": "Read Past End Of Message"
+    },
+    {
+      "enum": [
+        12,
+        "lonerrWritePastEndMsg"
+      ],
+      "description": "Write Past End Of Message"
+    },
+    {
+      "enum": [
+        13,
+        "lonerrInvalidAddTableIndex"
+      ],
+      "description": "Invalid Address Table Index"
+    },
+    {
+      "enum": [
+        14,
+        "lonerrIncompleteMsg"
+      ],
+      "description": "Incomplete Message"
+    },
+    {
+      "enum": [
+        15,
+        "lonerrNvUpdateOutputNv"
+      ],
+      "description": "NV Update On Output NV"
+    },
+    {
+      "enum": [
+        16,
+        "lonerrNoMsgAvail"
+      ],
+      "description": "No Message Available"
+    },
+    {
+      "enum": [
+        17,
+        "lonerrIllegalSend"
+      ],
+      "description": "Illegal Send"
+    },
+    {
+      "enum": [
+        18,
+        "lonerrUnknownPdu"
+      ],
+      "description": "Unknown PDU"
+    },
+    {
+      "enum": [
+        19,
+        "lonerrInvalidNvIndex"
+      ],
+      "description": "Invalid NV Index"
+    },
+    {
+      "enum": [
+        20,
+        "lonerrDivideByZero"
+      ],
+      "description": "Divide By Zero"
+    },
+    {
+      "enum": [
+        21,
+        "lonerrApplError"
+      ],
+      "description": "Invalid Application Error"
+    },
+    {
+      "enum": [
+        22,
+        "lonerrMemAllocFail"
+      ],
+      "description": "Memory Allocation Failure"
+    },
+    {
+      "enum": [
+        23,
+        "lonerrWritePastEndNetBuffer"
+      ],
+      "description": "Write Past End Of Network Buffer"
+    },
+    {
+      "enum": [
+        24,
+        "lonerrApplCsError"
+      ],
+      "description": "Application CS Error"
+    },
+    {
+      "enum": [
+        25,
+        "lonerrConfigCsError"
+      ],
+      "description": "Configure CS Error"
+    },
+    {
+      "enum": [
+        26,
+        "lonerrInvalidXcvrRegAdd"
+      ],
+      "description": "Illegal XCVR Register Address"
+    },
+    {
+      "enum": [
+        27,
+        "lonerrXcvrRegisterTimeout"
+      ],
+      "description": "XCVR Register Operation Failure"
+    },
+    {
+      "enum": [
+        28,
+        "lonerrWritePastEndApplBuffer"
+      ],
+      "description": "Write Past End Of Application Buffer"
+    },
+    {
+      "enum": [
+        29,
+        "lonerrIoReady"
+      ],
+      "description": "IO Ready"
+    },
+    {
+      "enum": [
+        30,
+        "lonerrSelfTestFailed"
+      ],
+      "description": "Self Test Failed"
+    },
+    {
+      "enum": [
+        31,
+        "lonerrSubnetRouter"
+      ],
+      "description": "Subnet Router"
+    },
+    {
+      "enum": [
+        32,
+        "lonerrAuthenMismatch"
+      ],
+      "description": "Authentication Mismatch"
+    },
+    {
+      "enum": [
+        33,
+        "lonerrSelfInstSemaphoreSet"
+      ],
+      "description": "Self Installation Semaphore Set"
+    },
+    {
+      "enum": [
+        34,
+        "lonerrReadWriteSemaphoreSet"
+      ],
+      "description": "Read-Write Semaphore Set"
+    },
+    {
+      "enum": [
+        35,
+        "lonerrApplSignatureBad"
+      ],
+      "description": "Application Signature Bad"
+    },
+    {
+      "enum": [
+        36,
+        "lonerrRouterFirmwVerMismatch"
+      ],
+      "description": "Router Firmware Version Mismatch"
+    },
+    {
+      "enum": [
+        37,
+        "lonerrNa"
+      ],
+      "description": "NA"
+    }
+  ]
+}

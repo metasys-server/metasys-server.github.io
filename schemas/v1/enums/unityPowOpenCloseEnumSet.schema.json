@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityPowOpenCloseEnumSet.schema.json",
+  "title": "unityPowOpenCloseEnumSet",
+  "description": "Unity POW Open/Close",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "CLOSED"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "OPEN"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "MANUAL, CLOSED"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MANUAL, OPEN"
+    }
+  ]
+}

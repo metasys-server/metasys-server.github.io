@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/resetSetEnumSet.schema.json",
+  "title": "resetSetEnumSet",
+  "description": "Reset Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Set"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

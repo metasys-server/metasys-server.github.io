@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacstatusFlagsEnumSet.schema.json",
+  "title": "bacstatusFlagsEnumSet",
+  "description": "BAC Status Flags",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "inAlarmEnum"
+      ],
+      "description": "In Alarm"
+    },
+    {
+      "enum": [
+        1,
+        "faultEnum"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        2,
+        "overridenEnum"
+      ],
+      "description": "Overridden"
+    },
+    {
+      "enum": [
+        3,
+        "outOfServiceEnum"
+      ],
+      "description": "OutOfService"
+    }
+  ]
+}

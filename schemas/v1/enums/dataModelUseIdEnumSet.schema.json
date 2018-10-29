@@ -1,0 +1,1079 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dataModelUseIdEnumSet.schema.json",
+  "title": "dataModelUseIdEnumSet",
+  "description": "Data Model Use Identifiers",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "dmUseIdEquipName"
+      ],
+      "description": "Equipment Name"
+    },
+    {
+      "enum": [
+        2,
+        "dmUseIdEquipDesc"
+      ],
+      "description": "Equipment Description"
+    },
+    {
+      "enum": [
+        3,
+        "dmUseIdDeviceModel"
+      ],
+      "description": "Device Model"
+    },
+    {
+      "enum": [
+        4,
+        "dmUseIdDeviceModelName"
+      ],
+      "description": "Device Model Name"
+    },
+    {
+      "enum": [
+        5,
+        "dmUseIdLoadShedCmd"
+      ],
+      "description": "Load Shed Command"
+    },
+    {
+      "enum": [
+        6,
+        "dmUseIdScheduledOcc"
+      ],
+      "description": "Scheduled Occupancy"
+    },
+    {
+      "enum": [
+        7,
+        "dmUseIdOat"
+      ],
+      "description": "Outdoor Air Temperature"
+    },
+    {
+      "enum": [
+        8,
+        "dmUseIdDat"
+      ],
+      "description": "Discharge Air Temperature"
+    },
+    {
+      "enum": [
+        9,
+        "dmUseIdRat"
+      ],
+      "description": "Return Air Temperature"
+    },
+    {
+      "enum": [
+        10,
+        "dmUseIdCo2"
+      ],
+      "description": "CO2"
+    },
+    {
+      "enum": [
+        11,
+        "dmUseIdHumidity"
+      ],
+      "description": "Outdoor Humidity"
+    },
+    {
+      "enum": [
+        12,
+        "dmUseIdFanStatus"
+      ],
+      "description": "Fan Status"
+    },
+    {
+      "enum": [
+        13,
+        "dmUseIdOccStatus"
+      ],
+      "description": "Occupancy Status"
+    },
+    {
+      "enum": [
+        14,
+        "dmUseIdControlMode"
+      ],
+      "description": "Control Mode"
+    },
+    {
+      "enum": [
+        15,
+        "dmUseIdZnT"
+      ],
+      "description": "Zone Temperature"
+    },
+    {
+      "enum": [
+        16,
+        "dmUseIdShutdownCmd"
+      ],
+      "description": "Shutdown Command"
+    },
+    {
+      "enum": [
+        17,
+        "dmUseIdUnitStatus"
+      ],
+      "description": "Unit Status"
+    },
+    {
+      "enum": [
+        18,
+        "dmUseIdUnitEnable"
+      ],
+      "description": "Unit Enable"
+    },
+    {
+      "enum": [
+        19,
+        "dmUseIdZoneTemperatureSetpoint"
+      ],
+      "description": "Zone Temperature Setpoint"
+    },
+    {
+      "enum": [
+        20,
+        "dmUseIdReturnAirTemperatureSetpoint"
+      ],
+      "description": "Return Air Temperature Setpoint"
+    },
+    {
+      "enum": [
+        21,
+        "dmUseIdDischargeAirTemperatureSetpoint"
+      ],
+      "description": "Discharge Air Temperature Setpoint"
+    },
+    {
+      "enum": [
+        22,
+        "dmUseIdOutdoorAirTemperatureSetpoint"
+      ],
+      "description": "Outdoor Air Temperature Setpoint"
+    },
+    {
+      "enum": [
+        23,
+        "dmUseIdHumiditySetpoint"
+      ],
+      "description": "Humidity Setpoint"
+    },
+    {
+      "enum": [
+        24,
+        "dmUseIdSetpoint"
+      ],
+      "description": "Active Setpoint"
+    },
+    {
+      "enum": [
+        25,
+        "dmUseIdProcessVariable"
+      ],
+      "description": "Process Variable"
+    },
+    {
+      "enum": [
+        26,
+        "dmUseIdFirmwareVersion"
+      ],
+      "description": "Firmware Version"
+    },
+    {
+      "enum": [
+        27,
+        "dmUseIdFanCommand"
+      ],
+      "description": "Fan Command"
+    },
+    {
+      "enum": [
+        28,
+        "dmUseIdHeatingCommand"
+      ],
+      "description": "Heating Command"
+    },
+    {
+      "enum": [
+        29,
+        "dmUseIdCoolingCommand"
+      ],
+      "description": "Cooling Command"
+    },
+    {
+      "enum": [
+        30,
+        "dmUseIdUnits"
+      ],
+      "description": "Units"
+    },
+    {
+      "enum": [
+        31,
+        "dmUseIdLanguage"
+      ],
+      "description": "Language"
+    },
+    {
+      "enum": [
+        32,
+        "dmUseIdApplicationVersion"
+      ],
+      "description": "Application Version"
+    },
+    {
+      "enum": [
+        33,
+        "dmUseIdKeyData1"
+      ],
+      "description": "Key Data 1"
+    },
+    {
+      "enum": [
+        34,
+        "dmUseIdKeyData2"
+      ],
+      "description": "Key Data 2"
+    },
+    {
+      "enum": [
+        35,
+        "dmUseIdKeyData3"
+      ],
+      "description": "Key Data 3"
+    },
+    {
+      "enum": [
+        36,
+        "dmUseIdKeyData4"
+      ],
+      "description": "Key Data 4"
+    },
+    {
+      "enum": [
+        37,
+        "dmUseIdKeyData5"
+      ],
+      "description": "Key Data 5"
+    },
+    {
+      "enum": [
+        38,
+        "dmUseIdKeyData6"
+      ],
+      "description": "Key Data 6"
+    },
+    {
+      "enum": [
+        39,
+        "dmUseIdKeyData7"
+      ],
+      "description": "Key Data 7"
+    },
+    {
+      "enum": [
+        40,
+        "dmUseIdKeyData8"
+      ],
+      "description": "Key Data 8"
+    },
+    {
+      "enum": [
+        41,
+        "dmUseIdKeyData9"
+      ],
+      "description": "Key Data 9"
+    },
+    {
+      "enum": [
+        42,
+        "dmUseIdKeyData10"
+      ],
+      "description": "Key Data 10"
+    },
+    {
+      "enum": [
+        43,
+        "dmUseIdHvacSpace"
+      ],
+      "description": "HVAC Space"
+    },
+    {
+      "enum": [
+        44,
+        "dmUseIdLightingSpace"
+      ],
+      "description": "Lighting Space"
+    },
+    {
+      "enum": [
+        45,
+        "dmUseIdRefrigerationSpace"
+      ],
+      "description": "Refrigeration Space"
+    },
+    {
+      "enum": [
+        46,
+        "dmUseIdLightingStatus"
+      ],
+      "description": "Lighting Status"
+    },
+    {
+      "enum": [
+        47,
+        "dmUseIdLightingExtendTime"
+      ],
+      "description": "Lighting Extend Time"
+    },
+    {
+      "enum": [
+        48,
+        "dmUseIdLightingLevel"
+      ],
+      "description": "Lighting Level"
+    },
+    {
+      "enum": [
+        49,
+        "dmUseIdOccHeatingSp"
+      ],
+      "description": "Occupied Heating Setpoint"
+    },
+    {
+      "enum": [
+        50,
+        "dmUseIdOccCoolingSp"
+      ],
+      "description": "Occupied Cooling Setpoint"
+    },
+    {
+      "enum": [
+        51,
+        "dmUseIdOutdoorAirTemperatureDest"
+      ],
+      "description": "Outdoor Air Temperature Destination"
+    },
+    {
+      "enum": [
+        52,
+        "dmUseIdDischargeAirTemperatureDest"
+      ],
+      "description": "Discharge Air Temperature Destination"
+    },
+    {
+      "enum": [
+        53,
+        "dmUseIdReturnAirTemperatureDest"
+      ],
+      "description": "Return Air Temperature Destination"
+    },
+    {
+      "enum": [
+        54,
+        "dmUseIdCo2Dest"
+      ],
+      "description": "CO2 Destination"
+    },
+    {
+      "enum": [
+        55,
+        "dmUseIdHumidityDest"
+      ],
+      "description": "Outdoor Humidity Destination"
+    },
+    {
+      "enum": [
+        56,
+        "dmUseIdControlModeDest"
+      ],
+      "description": "Control Mode Destination"
+    },
+    {
+      "enum": [
+        57,
+        "dmUseIdZoneTemperatureDest"
+      ],
+      "description": "Zone Temperature Destination"
+    },
+    {
+      "enum": [
+        58,
+        "dmUseIdUnoccupiedHeatingSetpoint"
+      ],
+      "description": "Unoccupied Heating Setpoint"
+    },
+    {
+      "enum": [
+        59,
+        "dmUseIdUnoccupiedCoolingSetpoint"
+      ],
+      "description": "Unoccupied Cooling Setpoint"
+    },
+    {
+      "enum": [
+        60,
+        "dmUseIdStandbyHeatingSetpoint"
+      ],
+      "description": "Standby Heating Setpoint"
+    },
+    {
+      "enum": [
+        61,
+        "dmUseIdStandbyCoolingSetpoint"
+      ],
+      "description": "Standby Cooling Setpoint"
+    },
+    {
+      "enum": [
+        62,
+        "dmUseIdFanCommandDestination"
+      ],
+      "description": "Fan Command Destination"
+    },
+    {
+      "enum": [
+        63,
+        "dmUseIdHeatingCommandDestination"
+      ],
+      "description": "Heating Command Destination"
+    },
+    {
+      "enum": [
+        64,
+        "dmUseIdCoolingCommandDestination"
+      ],
+      "description": "Cooling Command Destination"
+    },
+    {
+      "enum": [
+        65,
+        "dmUseIdTemporaryOccupancy"
+      ],
+      "description": "Temporary Occupancy"
+    },
+    {
+      "enum": [
+        66,
+        "dmUseIdZoneVote"
+      ],
+      "description": "Zone Vote"
+    },
+    {
+      "enum": [
+        67,
+        "dmUseIdActiveMode"
+      ],
+      "description": "Active Mode"
+    },
+    {
+      "enum": [
+        68,
+        "dmUseIdIndoorHumidity"
+      ],
+      "description": "Indoor Humidity"
+    },
+    {
+      "enum": [
+        69,
+        "dmUseIdIndoorHumidityDest"
+      ],
+      "description": "Indoor Humidity Destination"
+    },
+    {
+      "enum": [
+        70,
+        "dmUseIdHvacModeSource"
+      ],
+      "description": "HVAC Mode"
+    },
+    {
+      "enum": [
+        71,
+        "dmUseIdHvacModeDest"
+      ],
+      "description": "HVAC Mode Destination"
+    },
+    {
+      "enum": [
+        72,
+        "dmUseIdOccupancyDest"
+      ],
+      "description": "Occupancy Destination"
+    },
+    {
+      "enum": [
+        73,
+        "dmUseIdElectricHeatSource"
+      ],
+      "description": "Electric Heat Command"
+    },
+    {
+      "enum": [
+        74,
+        "dmUseIdElectricHeatDest"
+      ],
+      "description": "Electric Heat Command Destination"
+    },
+    {
+      "enum": [
+        75,
+        "dmUseIdBinaryOutput"
+      ],
+      "description": "Binary Output"
+    },
+    {
+      "enum": [
+        76,
+        "dmUseIdSystemMode"
+      ],
+      "description": "System Mode"
+    },
+    {
+      "enum": [
+        77,
+        "dmUseIdWarmerCoolerAdjust"
+      ],
+      "description": "Warmer Cooler Adjust"
+    },
+    {
+      "enum": [
+        78,
+        "dmUseIdWarmerCoolerAdjustEnable"
+      ],
+      "description": "Warmer Cooler Adjust Enable"
+    },
+    {
+      "enum": [
+        79,
+        "dmUseIdZntAlternate"
+      ],
+      "description": "Zone Temperature Setpoint Alternate"
+    },
+    {
+      "enum": [
+        80,
+        "dmUseIdUseZntAlternate"
+      ],
+      "description": "Use Zone Temp Setpoint Alternate"
+    },
+    {
+      "enum": [
+        81,
+        "dmUseIdEnable"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        82,
+        "dmUseIdEnableDestination"
+      ],
+      "description": "Enable Destination"
+    },
+    {
+      "enum": [
+        83,
+        "dmUseIdRunningMode"
+      ],
+      "description": "Running Mode"
+    },
+    {
+      "enum": [
+        84,
+        "dmUseIdRunningModeDestination"
+      ],
+      "description": "Running Mode Destination"
+    },
+    {
+      "enum": [
+        85,
+        "dmUseIdLeavingChilledWaterTempSetpoint"
+      ],
+      "description": "Leaving Chilled Water Temp Setpoint"
+    },
+    {
+      "enum": [
+        86,
+        "dmUseIdLeavingChilledWaterTempSpDest"
+      ],
+      "description": "Leaving Chilled Water Temp Sp Dest"
+    },
+    {
+      "enum": [
+        87,
+        "dmUseIdLeavingHotWaterTempSetpoint"
+      ],
+      "description": "Leaving Hot Water Temp Setpoint"
+    },
+    {
+      "enum": [
+        88,
+        "dmUseIdLeavingHotWaterTempSpDest"
+      ],
+      "description": "Leaving Hot Water Temp Sp Dest"
+    },
+    {
+      "enum": [
+        89,
+        "dmUseIdWaterTemperatureControlDifferential"
+      ],
+      "description": "Water Temperature Control Differential"
+    },
+    {
+      "enum": [
+        90,
+        "dmUseIdWaterTempControlDifferentialDest"
+      ],
+      "description": "Water Temp Control Differential Dest"
+    },
+    {
+      "enum": [
+        91,
+        "dmUseIdStatus"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        92,
+        "dmUseIdStatusDest"
+      ],
+      "description": "Status Dest"
+    },
+    {
+      "enum": [
+        93,
+        "dmUseIdLeavingWaterTemperature"
+      ],
+      "description": "Leaving Water Temperature"
+    },
+    {
+      "enum": [
+        94,
+        "dmUseIdLeavingWaterTemperatureDest"
+      ],
+      "description": "Leaving Water Temperature Dest"
+    },
+    {
+      "enum": [
+        95,
+        "dmUseIdEnteringWaterTemperature"
+      ],
+      "description": "Entering Water Temperature"
+    },
+    {
+      "enum": [
+        96,
+        "dmUseIdEnteringWaterTemperatureDest"
+      ],
+      "description": "Entering Water Temperature Dest"
+    },
+    {
+      "enum": [
+        97,
+        "dmUseIdFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        98,
+        "dmUseIdFaultDest"
+      ],
+      "description": "Fault Dest"
+    },
+    {
+      "enum": [
+        99,
+        "dmUseIdTotalRunHours"
+      ],
+      "description": "Total Run Hours"
+    },
+    {
+      "enum": [
+        100,
+        "dmUseIdTotalRunHoursDest"
+      ],
+      "description": "Total Run Hours Dest"
+    },
+    {
+      "enum": [
+        101,
+        "dmUseIdKeyData11"
+      ],
+      "description": "Key Data 11"
+    },
+    {
+      "enum": [
+        102,
+        "dmUseIdKeyData12"
+      ],
+      "description": "Key Data 12"
+    },
+    {
+      "enum": [
+        103,
+        "dmUseIdKeyData13"
+      ],
+      "description": "Key Data 13"
+    },
+    {
+      "enum": [
+        104,
+        "dmUseIdKeyData14"
+      ],
+      "description": "Key Data 14"
+    },
+    {
+      "enum": [
+        105,
+        "dmUseIdKeyData15"
+      ],
+      "description": "Key Data 15"
+    },
+    {
+      "enum": [
+        106,
+        "dmUseIdKeyData16"
+      ],
+      "description": "Key Data 16"
+    },
+    {
+      "enum": [
+        107,
+        "dmUseIdKeyData17"
+      ],
+      "description": "Key Data 17"
+    },
+    {
+      "enum": [
+        108,
+        "dmUseIdKeyData18"
+      ],
+      "description": "Key Data 18"
+    },
+    {
+      "enum": [
+        109,
+        "dmUseIdKeyData19"
+      ],
+      "description": "Key Data 19"
+    },
+    {
+      "enum": [
+        110,
+        "dmUseIdKeyData20"
+      ],
+      "description": "Key Data 20"
+    },
+    {
+      "enum": [
+        111,
+        "dmUseIdKeyData21"
+      ],
+      "description": "Key Data 21"
+    },
+    {
+      "enum": [
+        112,
+        "dmUseIdKeyData22"
+      ],
+      "description": "Key Data 22"
+    },
+    {
+      "enum": [
+        113,
+        "dmUseIdKeyData23"
+      ],
+      "description": "Key Data 23"
+    },
+    {
+      "enum": [
+        114,
+        "dmUseIdKeyData24"
+      ],
+      "description": "Key Data 24"
+    },
+    {
+      "enum": [
+        115,
+        "dmUseIdKeyData25"
+      ],
+      "description": "Key Data 25"
+    },
+    {
+      "enum": [
+        116,
+        "dmUseIdKeyData26"
+      ],
+      "description": "Key Data 26"
+    },
+    {
+      "enum": [
+        117,
+        "dmUseIdKeyData27"
+      ],
+      "description": "Key Data 27"
+    },
+    {
+      "enum": [
+        118,
+        "dmUseIdKeyData28"
+      ],
+      "description": "Key Data 28"
+    },
+    {
+      "enum": [
+        119,
+        "dmUseIdKeyData29"
+      ],
+      "description": "Key Data 29"
+    },
+    {
+      "enum": [
+        120,
+        "dmUseIdKeyData30"
+      ],
+      "description": "Key Data 30"
+    },
+    {
+      "enum": [
+        121,
+        "dmUseIdKeyData31"
+      ],
+      "description": "Key Data 31"
+    },
+    {
+      "enum": [
+        122,
+        "dmUseIdKeyData32"
+      ],
+      "description": "Key Data 32"
+    },
+    {
+      "enum": [
+        123,
+        "dmUseIdKeyData33"
+      ],
+      "description": "Key Data 33"
+    },
+    {
+      "enum": [
+        124,
+        "dmUseIdKeyData34"
+      ],
+      "description": "Key Data 34"
+    },
+    {
+      "enum": [
+        125,
+        "dmUseIdKeyData35"
+      ],
+      "description": "Key Data 35"
+    },
+    {
+      "enum": [
+        126,
+        "dmUseIdKeyData36"
+      ],
+      "description": "Key Data 36"
+    },
+    {
+      "enum": [
+        127,
+        "dmUseIdKeyData37"
+      ],
+      "description": "Key Data 37"
+    },
+    {
+      "enum": [
+        128,
+        "dmUseIdKeyData38"
+      ],
+      "description": "Key Data 38"
+    },
+    {
+      "enum": [
+        129,
+        "dmUseIdKeyData39"
+      ],
+      "description": "Key Data 39"
+    },
+    {
+      "enum": [
+        130,
+        "dmUseIdKeyData40"
+      ],
+      "description": "Key Data 40"
+    },
+    {
+      "enum": [
+        131,
+        "dmUseIdKeyData41"
+      ],
+      "description": "Key Data 41"
+    },
+    {
+      "enum": [
+        132,
+        "dmUseIdKeyData42"
+      ],
+      "description": "Key Data 42"
+    },
+    {
+      "enum": [
+        133,
+        "dmUseIdKeyData43"
+      ],
+      "description": "Key Data 43"
+    },
+    {
+      "enum": [
+        134,
+        "dmUseIdKeyData44"
+      ],
+      "description": "Key Data 44"
+    },
+    {
+      "enum": [
+        135,
+        "dmUseIdKeyData45"
+      ],
+      "description": "Key Data 45"
+    },
+    {
+      "enum": [
+        136,
+        "dmUseIdKeyData46"
+      ],
+      "description": "Key Data 46"
+    },
+    {
+      "enum": [
+        137,
+        "dmUseIdKeyData47"
+      ],
+      "description": "Key Data 47"
+    },
+    {
+      "enum": [
+        138,
+        "dmUseIdKeyData48"
+      ],
+      "description": "Key Data 48"
+    },
+    {
+      "enum": [
+        139,
+        "dmUseIdKeyData49"
+      ],
+      "description": "Key Data 49"
+    },
+    {
+      "enum": [
+        140,
+        "dmUseIdKeyData50"
+      ],
+      "description": "Key Data 50"
+    },
+    {
+      "enum": [
+        141,
+        "dmUseIdIomInput"
+      ],
+      "description": "IOM Input"
+    },
+    {
+      "enum": [
+        142,
+        "dmUseIdUseIndSps"
+      ],
+      "description": "Use Individual Setpoints"
+    },
+    {
+      "enum": [
+        143,
+        "dmUseIdEnergyIndicator"
+      ],
+      "description": "Energy Indicator"
+    },
+    {
+      "enum": [
+        144,
+        "dmUseIdPeakAverageDemand"
+      ],
+      "description": "Peak Average Demand"
+    },
+    {
+      "enum": [
+        145,
+        "dmUseIdVoltage"
+      ],
+      "description": "Voltage"
+    },
+    {
+      "enum": [
+        146,
+        "dmUseIdCurrent"
+      ],
+      "description": "Current"
+    },
+    {
+      "enum": [
+        147,
+        "dmUseIdWcadjDest"
+      ],
+      "description": "Warmer/Cooler Adjust Destination"
+    },
+    {
+      "enum": [
+        148,
+        "dmUseIdFanSpeed"
+      ],
+      "description": "Fan Speed"
+    },
+    {
+      "enum": [
+        149,
+        "dmUseIdReheatCommand"
+      ],
+      "description": "Reheat Command"
+    },
+    {
+      "enum": [
+        150,
+        "dmUseIdBinaryInput1"
+      ],
+      "description": "Binary Input 1"
+    },
+    {
+      "enum": [
+        151,
+        "dmUseIdBinaryInput2"
+      ],
+      "description": "Binary Input 2"
+    },
+    {
+      "enum": [
+        152,
+        "dmUseIdDirtyFilter"
+      ],
+      "description": "Dirty Filter"
+    },
+    {
+      "enum": [
+        153,
+        "dmUseIdSah"
+      ],
+      "description": "Supply Air Humidity"
+    }
+  ]
+}

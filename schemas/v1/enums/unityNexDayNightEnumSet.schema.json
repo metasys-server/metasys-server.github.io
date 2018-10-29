@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexDayNightEnumSet.schema.json",
+  "title": "unityNexDayNightEnumSet",
+  "description": "Unity NEX Day/Night",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Night"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Day"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Night"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Day"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/modTacTypeEnumSet.schema.json",
+  "title": "modTacTypeEnumSet",
+  "description": "MOD TAC Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "RTU Compressor Board"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "SCU Compressor Board"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "RTU Rem Cond Board"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "SCU Comp Board RC"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "RTU Heat Board"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "SCU Heat Board"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RTU Energy Recovery"
+    }
+  ]
+}

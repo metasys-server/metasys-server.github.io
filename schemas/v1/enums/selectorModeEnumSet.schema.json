@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/selectorModeEnumSet.schema.json",
+  "title": "selectorModeEnumSet",
+  "description": "Selector Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "smFirstonLastoff"
+      ],
+      "description": "First On Last Off"
+    },
+    {
+      "enum": [
+        1,
+        "smRankA"
+      ],
+      "description": "Rank A"
+    },
+    {
+      "enum": [
+        2,
+        "smRankB"
+      ],
+      "description": "Rank B"
+    },
+    {
+      "enum": [
+        3,
+        "smSort"
+      ],
+      "description": "Sort"
+    }
+  ]
+}

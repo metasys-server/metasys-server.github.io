@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/minFlowDualDuctEnumSet.schema.json",
+  "title": "minFlowDualDuctEnumSet",
+  "description": "Min Flow Dual Duct",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "minflowDdOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "minflowDdUnoccupied"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        2,
+        "minflowDdWarmup"
+      ],
+      "description": "Warmup"
+    },
+    {
+      "enum": [
+        3,
+        "minflowDdCooldown"
+      ],
+      "description": "Cooldown"
+    }
+  ]
+}

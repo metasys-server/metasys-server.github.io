@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/warningBannerEnumSet.schema.json",
+  "title": "warningBannerEnumSet",
+  "description": "WARNING BANNER",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "warningBannerNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "usDepartmentOfDefense"
+      ],
+      "description": "U.S. Department of Defense (DoD) Warning Banner"
+    },
+    {
+      "enum": [
+        2,
+        "usGeneralServiceAdministration"
+      ],
+      "description": "U.S. General Services Administration (GSA) Warning Banner"
+    },
+    {
+      "enum": [
+        3,
+        "usDepartmentOfTransportation"
+      ],
+      "description": "U.S. Department of Transportation (DOT) Federal Aviation Administration (FAA) Warning Banner"
+    }
+  ]
+}

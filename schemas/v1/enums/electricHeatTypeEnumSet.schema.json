@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/electricHeatTypeEnumSet.schema.json",
+  "title": "electricHeatTypeEnumSet",
+  "description": "Electric Heat Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "electricHeatTypeOnOff"
+      ],
+      "description": "On/Off"
+    },
+    {
+      "enum": [
+        1,
+        "electricHeatTypePwm"
+      ],
+      "description": "PWM"
+    }
+  ]
+}

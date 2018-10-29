@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/t8800TemperatureUnitsEnumSet.schema.json",
+  "title": "t8800TemperatureUnitsEnumSet",
+  "description": "T8800 Temperature Units",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "t8800TemperatureUnitsCelsius"
+      ],
+      "description": "Celsius"
+    },
+    {
+      "enum": [
+        1,
+        "t8800TemperatureUnitsFahrenheit"
+      ],
+      "description": "Fahrenheit"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconMechTstatSequencerEquipModeEnumSet.schema.json",
+  "title": "seEconMechTstatSequencerEquipModeEnumSet",
+  "description": "SE ECON Mech Tstat Sequencer Equip Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconMechTstatSequencerEquipModeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEconMechTstatSequencerEquipModeHeatPumpHtg"
+      ],
+      "description": "Heat Pump Htg"
+    },
+    {
+      "enum": [
+        2,
+        "seEconMechTstatSequencerEquipModeHeatPumpClg"
+      ],
+      "description": "Heat Pump Clg"
+    },
+    {
+      "enum": [
+        3,
+        "seEconMechTstatSequencerEquipModeHtg"
+      ],
+      "description": "Htg"
+    },
+    {
+      "enum": [
+        4,
+        "seEconMechTstatSequencerEquipModeClg"
+      ],
+      "description": "Clg"
+    }
+  ]
+}

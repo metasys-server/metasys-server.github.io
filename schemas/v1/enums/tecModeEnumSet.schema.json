@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecModeEnumSet.schema.json",
+  "title": "tecModeEnumSet",
+  "description": "TEC Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "tecModeCool"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        2,
+        "tecModeHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        3,
+        "tecModeAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        4,
+        "tecModeEheat"
+      ],
+      "description": "Emergency Heat"
+    }
+  ]
+}

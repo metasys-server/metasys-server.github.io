@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scuCompConfigEnumSet.schema.json",
+  "title": "scuCompConfigEnumSet",
+  "description": "SCU Comp Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Two Comp Two Stg"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Three Comp Three Stg"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Four Comp Four Stg"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Six Comp Six Stg"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Three One Five Stg"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Two Two Six Stg"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "One Three Six Stg"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Remote Condenser"
+    }
+  ]
+}

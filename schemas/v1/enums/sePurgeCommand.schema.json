@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sePurgeCommand.schema.json",
+  "title": "sePurgeCommand",
+  "description": "SE Purge Command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seNormalOperation"
+      ],
+      "description": "Normal Operation"
+    },
+    {
+      "enum": [
+        1,
+        "sePurge"
+      ],
+      "description": "Purge"
+    }
+  ]
+}

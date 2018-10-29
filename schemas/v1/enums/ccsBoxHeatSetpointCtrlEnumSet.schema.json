@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ccsBoxHeatSetpointCtrlEnumSet.schema.json",
+  "title": "ccsBoxHeatSetpointCtrlEnumSet",
+  "description": "CCS VAV Box Heat Setpoint Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ccsBoxHeatSetpointCtrlMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        1,
+        "ccsBoxHeatSetpointCtrlMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ccsBoxHeatSetpointCtrlHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        3,
+        "ccsBoxHeatSetpointCtrlDatSpReset"
+      ],
+      "description": "DAT SP Reset"
+    }
+  ]
+}

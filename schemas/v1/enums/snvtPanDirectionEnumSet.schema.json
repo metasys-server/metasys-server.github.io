@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtPanDirectionEnumSet.schema.json",
+  "title": "snvtPanDirectionEnumSet",
+  "description": "SNVT Pan Direction",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Stop"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Right"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Left"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtHvacModeEnumSet.schema.json",
+  "title": "snvtHvacModeEnumSet",
+  "description": "SNVT HVAC Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hvacModeHvacAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "hvacModeHvacHeat"
+      ],
+      "description": "Heating only"
+    },
+    {
+      "enum": [
+        2,
+        "hvacModeHvacMrngWrmup"
+      ],
+      "description": "Morning Warm-up"
+    },
+    {
+      "enum": [
+        3,
+        "hvacModeHvacCool"
+      ],
+      "description": "Cooling only"
+    },
+    {
+      "enum": [
+        4,
+        "hvacModeHvacNightPurge"
+      ],
+      "description": "Night Purge"
+    },
+    {
+      "enum": [
+        5,
+        "hvacModeHvacPreCool"
+      ],
+      "description": "Pre-cool"
+    },
+    {
+      "enum": [
+        6,
+        "hvacModeHvacOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        7,
+        "hvacModeHvacTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        8,
+        "hvacModeHvacEmergHeat"
+      ],
+      "description": "Emergency Heat"
+    },
+    {
+      "enum": [
+        9,
+        "hvacModeHvacFanOnly"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        10,
+        "hvacModeHvacFreeCool"
+      ],
+      "description": "Free Cool"
+    },
+    {
+      "enum": [
+        11,
+        "hvacModeHvacIce"
+      ],
+      "description": "Ice"
+    },
+    {
+      "enum": [
+        12,
+        "hvacModeHvacMaxHeat"
+      ],
+      "description": "Max Heat"
+    },
+    {
+      "enum": [
+        13,
+        "hvacModeHvacEconomy"
+      ],
+      "description": "Economy"
+    },
+    {
+      "enum": [
+        14,
+        "hvacDehumid"
+      ],
+      "description": "Dehumidification"
+    },
+    {
+      "enum": [
+        15,
+        "hvacCalibrate"
+      ],
+      "description": "Calibration"
+    },
+    {
+      "enum": [
+        16,
+        "hvacEmergCool"
+      ],
+      "description": "Emergency Cool"
+    },
+    {
+      "enum": [
+        17,
+        "hvacEmergSteam"
+      ],
+      "description": "Emergency Steam"
+    },
+    {
+      "enum": [
+        255,
+        "hvacModeHvacNull"
+      ],
+      "description": "Null"
+    }
+  ]
+}

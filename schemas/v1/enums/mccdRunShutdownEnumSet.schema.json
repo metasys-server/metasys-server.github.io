@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdRunShutdownEnumSet.schema.json",
+  "title": "mccdRunShutdownEnumSet",
+  "description": "MCCD Run Shutdown",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Run"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Shutdn"
+    }
+  ]
+}

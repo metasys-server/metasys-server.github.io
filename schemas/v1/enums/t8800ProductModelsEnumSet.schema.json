@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/t8800ProductModelsEnumSet.schema.json",
+  "title": "t8800ProductModelsEnumSet",
+  "description": "T8800 Product Models",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "t8800ProductModelsT8800Tb209Jr0B0"
+      ],
+      "description": "T8800-TB20-9JR0-B0"
+    },
+    {
+      "enum": [
+        1,
+        "t8800ProductModelsT8800Tb209Js0B0"
+      ],
+      "description": "T8800-TB20-9JS0-B0"
+    },
+    {
+      "enum": [
+        2,
+        "t8800ProductModelsT8800Tf209Jr0B0"
+      ],
+      "description": "T8800-TF20-9JR0-B0"
+    },
+    {
+      "enum": [
+        3,
+        "t8800ProductModelsT8800Tf209Js0B0"
+      ],
+      "description": "T8800-TF20-9JS0-B0"
+    },
+    {
+      "enum": [
+        4,
+        "t8800ProductModelsT8800Tb219Jr0B0"
+      ],
+      "description": "T8800-TB21-9JR0-B0"
+    },
+    {
+      "enum": [
+        5,
+        "t8800ProductModelsT8800Tb219Js0B0"
+      ],
+      "description": "T8800-TB21-9JS0-B0"
+    }
+  ]
+}

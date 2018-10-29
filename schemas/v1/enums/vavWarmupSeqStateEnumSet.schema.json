@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavWarmupSeqStateEnumSet.schema.json",
+  "title": "vavWarmupSeqStateEnumSet",
+  "description": "VAV Warmup Seq State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vwsNormal"
+      ],
+      "description": "Warmup Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "vwsPrmyHtg"
+      ],
+      "description": "Prmy Htg"
+    },
+    {
+      "enum": [
+        2,
+        "vwsPrmySuppHtg"
+      ],
+      "description": "Prmy Htg + Supp Htg"
+    },
+    {
+      "enum": [
+        3,
+        "vwsPrmySuppBoxHtg"
+      ],
+      "description": "Prmy Htg + Supp Htg + Box Htg"
+    },
+    {
+      "enum": [
+        4,
+        "vwsPrmyBoxHtg"
+      ],
+      "description": "Prmy Htg + Box Htg"
+    },
+    {
+      "enum": [
+        5,
+        "vwsPrmyBoxSuppHtg"
+      ],
+      "description": "Prmy Htg + Box Htg + Supp Htg"
+    }
+  ]
+}

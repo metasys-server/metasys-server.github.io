@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bgDownloadStatusEnumSet.schema.json",
+  "title": "bgDownloadStatusEnumSet",
+  "description": "Background Download Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bgDownloadStatusIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "bgDownloadStatusInitializingForDownload"
+      ],
+      "description": "Initializing"
+    },
+    {
+      "enum": [
+        2,
+        "bgDownloadStatusReadyForDownload"
+      ],
+      "description": "Ready For Download"
+    },
+    {
+      "enum": [
+        3,
+        "bgDownloadStatusReadyForSwitchover"
+      ],
+      "description": "Files Are Staged"
+    },
+    {
+      "enum": [
+        4,
+        "bgDownloadStatusFailedValidation"
+      ],
+      "description": "Failed Validation"
+    },
+    {
+      "enum": [
+        5,
+        "bgDownloadStatusProgramming"
+      ],
+      "description": "Programming"
+    },
+    {
+      "enum": [
+        6,
+        "bgDownloadStatusSwitchoverFinished"
+      ],
+      "description": "Apply Staged Files Complete"
+    },
+    {
+      "enum": [
+        7,
+        "bgDownloadStatusFatalError"
+      ],
+      "description": "Fatal Error"
+    }
+  ]
+}

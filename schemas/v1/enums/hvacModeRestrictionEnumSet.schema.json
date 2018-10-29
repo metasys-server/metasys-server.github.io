@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hvacModeRestrictionEnumSet.schema.json",
+  "title": "hvacModeRestrictionEnumSet",
+  "description": "HVAC Mode Restriction",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hvacModeRestrictionNo"
+      ],
+      "description": "No Restriction"
+    },
+    {
+      "enum": [
+        1,
+        "hvacModeRestrictionCoolOnly"
+      ],
+      "description": "Cooling Only"
+    },
+    {
+      "enum": [
+        2,
+        "hvacModeRestrictionHeatOnly"
+      ],
+      "description": "Heating Only"
+    }
+  ]
+}

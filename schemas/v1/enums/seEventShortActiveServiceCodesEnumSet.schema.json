@@ -1,0 +1,2052 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEventShortActiveServiceCodesEnumSet.schema.json",
+  "title": "seEventShortActiveServiceCodesEnumSet",
+  "description": "SE Event Active Service Codes Short Names",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEventShortActiveServiceCodeUndefined"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "seEventShortActiveCodeReboot"
+      ],
+      "description": "Reboot"
+    },
+    {
+      "enum": [
+        100,
+        "seEventShortActiveServiceCode100"
+      ],
+      "description": "No Econ When It Should"
+    },
+    {
+      "enum": [
+        101,
+        "seEventShortActiveServiceCode101"
+      ],
+      "description": "Econ When It Should Not"
+    },
+    {
+      "enum": [
+        102,
+        "seEventShortActiveServiceCode102"
+      ],
+      "description": "Econ Dmper Not Modulating"
+    },
+    {
+      "enum": [
+        103,
+        "seEventShortActiveServiceCode103"
+      ],
+      "description": "Econ Letting In Excess OA"
+    },
+    {
+      "enum": [
+        104,
+        "seEventShortActiveServiceCode104"
+      ],
+      "description": "Duct Pressure Sensor Fail"
+    },
+    {
+      "enum": [
+        105,
+        "seEventShortActiveServiceCode105"
+      ],
+      "description": "RAH Sensor Fail"
+    },
+    {
+      "enum": [
+        106,
+        "seEventShortActiveServiceCode106"
+      ],
+      "description": "OAH Sensor Fail"
+    },
+    {
+      "enum": [
+        107,
+        "seEventShortActiveServiceCode107"
+      ],
+      "description": "SAH Sensor Fail"
+    },
+    {
+      "enum": [
+        108,
+        "seEventShortActiveServiceCode108"
+      ],
+      "description": "IAQ Sensor Fail"
+    },
+    {
+      "enum": [
+        109,
+        "seEventShortActiveServiceCode109"
+      ],
+      "description": "OAQ Sensor Fail"
+    },
+    {
+      "enum": [
+        110,
+        "seEventShortActiveServiceCode110"
+      ],
+      "description": "FAI Sensor Fail"
+    },
+    {
+      "enum": [
+        111,
+        "seEventShortActiveServiceCode111"
+      ],
+      "description": "MAT Sensor Fail"
+    },
+    {
+      "enum": [
+        112,
+        "seEventShortActiveServiceCode112"
+      ],
+      "description": "SIT Sensor Fail"
+    },
+    {
+      "enum": [
+        113,
+        "seEventShortActiveServiceCode113"
+      ],
+      "description": "Space Offset Fail"
+    },
+    {
+      "enum": [
+        114,
+        "seEventShortActiveServiceCode114"
+      ],
+      "description": "C1 Liq Pressure Fail"
+    },
+    {
+      "enum": [
+        115,
+        "seEventShortActiveServiceCode115"
+      ],
+      "description": "C1 Suction Pressure Fail"
+    },
+    {
+      "enum": [
+        116,
+        "seEventShortActiveServiceCode116"
+      ],
+      "description": "C1 Evap Sat Temp Fail"
+    },
+    {
+      "enum": [
+        117,
+        "seEventShortActiveServiceCode117"
+      ],
+      "description": "C1 Cond Sat Temp Fail"
+    },
+    {
+      "enum": [
+        118,
+        "seEventShortActiveServiceCode118"
+      ],
+      "description": "C2 Liq Pressure Fail"
+    },
+    {
+      "enum": [
+        119,
+        "seEventShortActiveServiceCode119"
+      ],
+      "description": "C2 Suction Pressure Fail"
+    },
+    {
+      "enum": [
+        120,
+        "seEventShortActiveServiceCode120"
+      ],
+      "description": "C2 Evap Sat Temp Fail"
+    },
+    {
+      "enum": [
+        121,
+        "seEventShortActiveServiceCode121"
+      ],
+      "description": "C2 Cond Sat Temp Fail"
+    },
+    {
+      "enum": [
+        122,
+        "seEventShortActiveServiceCode122"
+      ],
+      "description": "C3 Liq Pressure Fail"
+    },
+    {
+      "enum": [
+        123,
+        "seEventShortActiveServiceCode123"
+      ],
+      "description": "C3 Suction Pressure Fail"
+    },
+    {
+      "enum": [
+        124,
+        "seEventShortActiveServiceCode124"
+      ],
+      "description": "C3 Evap Sat Temp Fail"
+    },
+    {
+      "enum": [
+        125,
+        "seEventShortActiveServiceCode125"
+      ],
+      "description": "C3 Cond Sat Temp Fail"
+    },
+    {
+      "enum": [
+        126,
+        "seEventShortActiveServiceCode126"
+      ],
+      "description": "C4 Liq Pressure Fail"
+    },
+    {
+      "enum": [
+        127,
+        "seEventShortActiveServiceCode127"
+      ],
+      "description": "C4 Suction Pressure Fail"
+    },
+    {
+      "enum": [
+        128,
+        "seEventShortActiveServiceCode128"
+      ],
+      "description": "C4 Evap Sat Temp Fail"
+    },
+    {
+      "enum": [
+        129,
+        "seEventShortActiveServiceCode129"
+      ],
+      "description": "C4 Cond Sat Temp Fail"
+    },
+    {
+      "enum": [
+        130,
+        "seEventShortActiveServiceCode130"
+      ],
+      "description": "APS Stuck Closed"
+    },
+    {
+      "enum": [
+        131,
+        "seEventShortActiveServiceCode131"
+      ],
+      "description": "Dup MSTP Addr - No Comm"
+    },
+    {
+      "enum": [
+        132,
+        "seEventShortActiveServiceCode132"
+      ],
+      "description": "C1 Shutdown - Hi Pressure"
+    },
+    {
+      "enum": [
+        133,
+        "seEventShortActiveServiceCode133"
+      ],
+      "description": "C2 Shutdown - Hi Pressure"
+    },
+    {
+      "enum": [
+        134,
+        "seEventShortActiveServiceCode134"
+      ],
+      "description": "C3 Shutdown - Hi Pressure"
+    },
+    {
+      "enum": [
+        135,
+        "seEventShortActiveServiceCode135"
+      ],
+      "description": "C4 Shutdown - Hi Pressure"
+    },
+    {
+      "enum": [
+        136,
+        "seEventShortActiveServiceCode136"
+      ],
+      "description": "C1 Shutdown - Lo Pressure"
+    },
+    {
+      "enum": [
+        137,
+        "seEventShortActiveServiceCode137"
+      ],
+      "description": "C2 Shutdown - Lo Pressure"
+    },
+    {
+      "enum": [
+        138,
+        "seEventShortActiveServiceCode138"
+      ],
+      "description": "C3 Shutdown - Lo Pressure"
+    },
+    {
+      "enum": [
+        139,
+        "seEventShortActiveServiceCode139"
+      ],
+      "description": "C4 Shutdown - Lo Pressure"
+    },
+    {
+      "enum": [
+        140,
+        "seEventShortActiveServiceCode140"
+      ],
+      "description": "C1 Shutdown - Coil Freeze"
+    },
+    {
+      "enum": [
+        141,
+        "seEventShortActiveServiceCode141"
+      ],
+      "description": "C2 Shutdown - Coil Freeze"
+    },
+    {
+      "enum": [
+        142,
+        "seEventShortActiveServiceCode142"
+      ],
+      "description": "C3 Shutdown - Coil Freeze"
+    },
+    {
+      "enum": [
+        143,
+        "seEventShortActiveServiceCode143"
+      ],
+      "description": "C4 Shutdown - Coil Freeze"
+    },
+    {
+      "enum": [
+        144,
+        "seEventShortActiveServiceCode144"
+      ],
+      "description": "Excess SAT Clg"
+    },
+    {
+      "enum": [
+        145,
+        "seEventShortActiveServiceCode145"
+      ],
+      "description": "Low OAT Clg Cutout"
+    },
+    {
+      "enum": [
+        146,
+        "seEventShortActiveServiceCode146"
+      ],
+      "description": "No Econ - No OA Sensor"
+    },
+    {
+      "enum": [
+        147,
+        "seEventShortActiveServiceCode147"
+      ],
+      "description": "No Econ - No SA Sensor"
+    },
+    {
+      "enum": [
+        148,
+        "seEventShortActiveServiceCode148"
+      ],
+      "description": "Excess OA"
+    },
+    {
+      "enum": [
+        149,
+        "seEventShortActiveServiceCode149"
+      ],
+      "description": "HS1 Shutdown Limit Switch"
+    },
+    {
+      "enum": [
+        150,
+        "seEventShortActiveServiceCode150"
+      ],
+      "description": "HS2 Shutdown Limit Switch"
+    },
+    {
+      "enum": [
+        151,
+        "seEventShortActiveServiceCode151"
+      ],
+      "description": "HS3 Shutdown Limit Switch"
+    },
+    {
+      "enum": [
+        152,
+        "seEventShortActiveServiceCode152"
+      ],
+      "description": "HS1 Off - Gas Valve"
+    },
+    {
+      "enum": [
+        153,
+        "seEventShortActiveServiceCode153"
+      ],
+      "description": "HS2 Off - Gas Valve"
+    },
+    {
+      "enum": [
+        154,
+        "seEventShortActiveServiceCode154"
+      ],
+      "description": "HS3 Off - Gas Valve"
+    },
+    {
+      "enum": [
+        155,
+        "seEventShortActiveServiceCode155"
+      ],
+      "description": "HS1 Fail - Gas Valve"
+    },
+    {
+      "enum": [
+        156,
+        "seEventShortActiveServiceCode156"
+      ],
+      "description": "HS2 Fail - Gas Valve"
+    },
+    {
+      "enum": [
+        157,
+        "seEventShortActiveServiceCode157"
+      ],
+      "description": "HS3 Fail - Gas Valve"
+    },
+    {
+      "enum": [
+        158,
+        "seEventShortActiveServiceCode158"
+      ],
+      "description": "Hot H2O Frz Stat Prvnt CF"
+    },
+    {
+      "enum": [
+        159,
+        "seEventShortActiveServiceCode159"
+      ],
+      "description": "Hot H2O FS Shouldn't Open"
+    },
+    {
+      "enum": [
+        160,
+        "seEventShortActiveServiceCode160"
+      ],
+      "description": "Excess SAT Htg"
+    },
+    {
+      "enum": [
+        161,
+        "seEventShortActiveServiceCode161"
+      ],
+      "description": "Htg LO - OAT"
+    },
+    {
+      "enum": [
+        162,
+        "seEventShortActiveServiceCode162"
+      ],
+      "description": "FDD1 Com Fail"
+    },
+    {
+      "enum": [
+        163,
+        "seEventShortActiveServiceCode163"
+      ],
+      "description": "FDD2 Com Fail"
+    },
+    {
+      "enum": [
+        164,
+        "seEventShortActiveServiceCode164"
+      ],
+      "description": "Stepped Heat Com Fail"
+    },
+    {
+      "enum": [
+        165,
+        "seEventShortActiveServiceCode165"
+      ],
+      "description": "Unit Starting"
+    },
+    {
+      "enum": [
+        166,
+        "seEventShortActiveServiceCode166"
+      ],
+      "description": "Unit Received Purge Req"
+    },
+    {
+      "enum": [
+        167,
+        "seEventShortActiveServiceCode167"
+      ],
+      "description": "Dirty Filter"
+    },
+    {
+      "enum": [
+        168,
+        "seEventShortActiveServiceCode168"
+      ],
+      "description": "Using RAT Instead Of SAT"
+    },
+    {
+      "enum": [
+        169,
+        "seEventShortActiveServiceCode169"
+      ],
+      "description": "Space Temp Clg Alarm"
+    },
+    {
+      "enum": [
+        170,
+        "seEventShortActiveServiceCode170"
+      ],
+      "description": "RT Clock Not Set"
+    },
+    {
+      "enum": [
+        171,
+        "seEventShortActiveServiceCode171"
+      ],
+      "description": "C1 Basic Data NA"
+    },
+    {
+      "enum": [
+        172,
+        "seEventShortActiveServiceCode172"
+      ],
+      "description": "C2 Basic Data NA"
+    },
+    {
+      "enum": [
+        173,
+        "seEventShortActiveServiceCode173"
+      ],
+      "description": "C3 Basic Data NA"
+    },
+    {
+      "enum": [
+        174,
+        "seEventShortActiveServiceCode174"
+      ],
+      "description": "C4 Basic Data NA"
+    },
+    {
+      "enum": [
+        175,
+        "seEventShortActiveServiceCode175"
+      ],
+      "description": "C1 RA Wet Bulb Temp OOR"
+    },
+    {
+      "enum": [
+        176,
+        "seEventShortActiveServiceCode176"
+      ],
+      "description": "C2 RA Wet Bulb Temp OOR"
+    },
+    {
+      "enum": [
+        177,
+        "seEventShortActiveServiceCode177"
+      ],
+      "description": "C3 RA Wet Bulb Temp OOR"
+    },
+    {
+      "enum": [
+        178,
+        "seEventShortActiveServiceCode178"
+      ],
+      "description": "C4 RA Wet Bulb Temp OOR"
+    },
+    {
+      "enum": [
+        179,
+        "seEventShortActiveServiceCode179"
+      ],
+      "description": "C1 Low Ambient Temp"
+    },
+    {
+      "enum": [
+        180,
+        "seEventShortActiveServiceCode180"
+      ],
+      "description": "C2 Low Ambient Temp"
+    },
+    {
+      "enum": [
+        181,
+        "seEventShortActiveServiceCode181"
+      ],
+      "description": "C3 Low Ambient Temp"
+    },
+    {
+      "enum": [
+        182,
+        "seEventShortActiveServiceCode182"
+      ],
+      "description": "C4 Low Ambient Temp"
+    },
+    {
+      "enum": [
+        183,
+        "seEventShortActiveServiceCode183"
+      ],
+      "description": "C1 Hi Ambient Temp"
+    },
+    {
+      "enum": [
+        184,
+        "seEventShortActiveServiceCode184"
+      ],
+      "description": "C2 Hi Ambient Temp"
+    },
+    {
+      "enum": [
+        185,
+        "seEventShortActiveServiceCode185"
+      ],
+      "description": "C3 Hi Ambient Temp"
+    },
+    {
+      "enum": [
+        186,
+        "seEventShortActiveServiceCode186"
+      ],
+      "description": "C4 Hi Ambient Temp"
+    },
+    {
+      "enum": [
+        187,
+        "seEventShortActiveServiceCode187"
+      ],
+      "description": "C1 RA Wet Bulb Temp Low"
+    },
+    {
+      "enum": [
+        188,
+        "seEventShortActiveServiceCode188"
+      ],
+      "description": "C2 RA Wet Bulb Temp Low"
+    },
+    {
+      "enum": [
+        189,
+        "seEventShortActiveServiceCode189"
+      ],
+      "description": "C3 RA Wet Bulb Temp Low"
+    },
+    {
+      "enum": [
+        190,
+        "seEventShortActiveServiceCode190"
+      ],
+      "description": "C4 RA Wet Bulb Temp Low"
+    },
+    {
+      "enum": [
+        191,
+        "seEventShortActiveServiceCode191"
+      ],
+      "description": "C1 RA Wet Bulb Temp Hi"
+    },
+    {
+      "enum": [
+        192,
+        "seEventShortActiveServiceCode192"
+      ],
+      "description": "C2 RA Wet Bulb Temp Hi"
+    },
+    {
+      "enum": [
+        193,
+        "seEventShortActiveServiceCode193"
+      ],
+      "description": "C3 RA Wet Bulb Temp Hi"
+    },
+    {
+      "enum": [
+        194,
+        "seEventShortActiveServiceCode194"
+      ],
+      "description": "C4 RA Wet Bulb Temp Hi"
+    },
+    {
+      "enum": [
+        195,
+        "seEventShortActiveServiceCode195"
+      ],
+      "description": "C1 Cond Temp LT Amb"
+    },
+    {
+      "enum": [
+        196,
+        "seEventShortActiveServiceCode196"
+      ],
+      "description": "C2 Cond Temp LT Amb"
+    },
+    {
+      "enum": [
+        197,
+        "seEventShortActiveServiceCode197"
+      ],
+      "description": "C3 Cond Temp LT Amb"
+    },
+    {
+      "enum": [
+        198,
+        "seEventShortActiveServiceCode198"
+      ],
+      "description": "C4 Cond Temp LT Amb"
+    },
+    {
+      "enum": [
+        199,
+        "seEventShortActiveServiceCode199"
+      ],
+      "description": "C1 Liq Temp GT Cond"
+    },
+    {
+      "enum": [
+        200,
+        "seEventShortActiveServiceCode200"
+      ],
+      "description": "C2 Liq Temp GT Cond"
+    },
+    {
+      "enum": [
+        201,
+        "seEventShortActiveServiceCode201"
+      ],
+      "description": "C3 Liq Temp GT Cond"
+    },
+    {
+      "enum": [
+        202,
+        "seEventShortActiveServiceCode202"
+      ],
+      "description": "C4 Liq Temp GT Cond"
+    },
+    {
+      "enum": [
+        203,
+        "seEventShortActiveServiceCode203"
+      ],
+      "description": "C1 Suction Temp LT Evap"
+    },
+    {
+      "enum": [
+        204,
+        "seEventShortActiveServiceCode204"
+      ],
+      "description": "C2 Suction Temp LT Evap"
+    },
+    {
+      "enum": [
+        205,
+        "seEventShortActiveServiceCode205"
+      ],
+      "description": "C3 Suction Temp LT Evap"
+    },
+    {
+      "enum": [
+        206,
+        "seEventShortActiveServiceCode206"
+      ],
+      "description": "C4 Suction Temp LT Evap"
+    },
+    {
+      "enum": [
+        207,
+        "seEventShortActiveServiceCode207"
+      ],
+      "description": "C1 Evap Temp GT Amb"
+    },
+    {
+      "enum": [
+        208,
+        "seEventShortActiveServiceCode208"
+      ],
+      "description": "C2 Evap Temp GT Amb"
+    },
+    {
+      "enum": [
+        209,
+        "seEventShortActiveServiceCode209"
+      ],
+      "description": "C3 Evap Temp GT Amb"
+    },
+    {
+      "enum": [
+        210,
+        "seEventShortActiveServiceCode210"
+      ],
+      "description": "C4 Evap Temp GT Amb"
+    },
+    {
+      "enum": [
+        211,
+        "seEventShortActiveServiceCode211"
+      ],
+      "description": "C1 Liq Temp LT Amb"
+    },
+    {
+      "enum": [
+        212,
+        "seEventShortActiveServiceCode212"
+      ],
+      "description": "C2 Liq Temp LT Amb"
+    },
+    {
+      "enum": [
+        213,
+        "seEventShortActiveServiceCode213"
+      ],
+      "description": "C3 Liq Temp LT Amb"
+    },
+    {
+      "enum": [
+        214,
+        "seEventShortActiveServiceCode214"
+      ],
+      "description": "C4 Liq Temp LT Amb"
+    },
+    {
+      "enum": [
+        215,
+        "seEventShortActiveServiceCode215"
+      ],
+      "description": "C1 Invld Suction Or Amb"
+    },
+    {
+      "enum": [
+        216,
+        "seEventShortActiveServiceCode216"
+      ],
+      "description": "C2 Invld Suction Or Amb"
+    },
+    {
+      "enum": [
+        217,
+        "seEventShortActiveServiceCode217"
+      ],
+      "description": "C3 Invld Suction Or Amb"
+    },
+    {
+      "enum": [
+        218,
+        "seEventShortActiveServiceCode218"
+      ],
+      "description": "C4 Invld Suction Or Amb"
+    },
+    {
+      "enum": [
+        219,
+        "seEventShortActiveServiceCode219"
+      ],
+      "description": "C1 Invld RA DB Or WB"
+    },
+    {
+      "enum": [
+        220,
+        "seEventShortActiveServiceCode220"
+      ],
+      "description": "C2 Invld RA DB Or WB"
+    },
+    {
+      "enum": [
+        221,
+        "seEventShortActiveServiceCode221"
+      ],
+      "description": "C3 Invld RA DB Or WB"
+    },
+    {
+      "enum": [
+        222,
+        "seEventShortActiveServiceCode222"
+      ],
+      "description": "C4 Invld RA DB Or WB"
+    },
+    {
+      "enum": [
+        223,
+        "seEventShortActiveServiceCode223"
+      ],
+      "description": "C1 Invld Liq/Suction Pres"
+    },
+    {
+      "enum": [
+        224,
+        "seEventShortActiveServiceCode224"
+      ],
+      "description": "C2 Invld Liq/Suction Pres"
+    },
+    {
+      "enum": [
+        225,
+        "seEventShortActiveServiceCode225"
+      ],
+      "description": "C3 Invld Liq/Suction Pres"
+    },
+    {
+      "enum": [
+        226,
+        "seEventShortActiveServiceCode226"
+      ],
+      "description": "C4 Invld Liq/Suction Pres"
+    },
+    {
+      "enum": [
+        227,
+        "seEventShortActiveServiceCode227"
+      ],
+      "description": "C1 Invld Suction Temp"
+    },
+    {
+      "enum": [
+        228,
+        "seEventShortActiveServiceCode228"
+      ],
+      "description": "C2 Invld Suction Temp"
+    },
+    {
+      "enum": [
+        229,
+        "seEventShortActiveServiceCode229"
+      ],
+      "description": "C3 Invld Suction Temp"
+    },
+    {
+      "enum": [
+        230,
+        "seEventShortActiveServiceCode230"
+      ],
+      "description": "C4 Invld Suction Temp"
+    },
+    {
+      "enum": [
+        231,
+        "seEventShortActiveServiceCode231"
+      ],
+      "description": "C1 Invld Liq/Suction Temp"
+    },
+    {
+      "enum": [
+        232,
+        "seEventShortActiveServiceCode232"
+      ],
+      "description": "C2 Invld Liq/Suction Temp"
+    },
+    {
+      "enum": [
+        233,
+        "seEventShortActiveServiceCode233"
+      ],
+      "description": "C3 Invld Liq/Suction Temp"
+    },
+    {
+      "enum": [
+        234,
+        "seEventShortActiveServiceCode234"
+      ],
+      "description": "C4 Invld Liq/Suction Temp"
+    },
+    {
+      "enum": [
+        235,
+        "seEventShortActiveServiceCode235"
+      ],
+      "description": "C1 Low Refrig"
+    },
+    {
+      "enum": [
+        236,
+        "seEventShortActiveServiceCode236"
+      ],
+      "description": "C2 Low Refrig"
+    },
+    {
+      "enum": [
+        237,
+        "seEventShortActiveServiceCode237"
+      ],
+      "description": "C3 Low Refrig"
+    },
+    {
+      "enum": [
+        238,
+        "seEventShortActiveServiceCode238"
+      ],
+      "description": "C4 Low Refrig"
+    },
+    {
+      "enum": [
+        239,
+        "seEventShortActiveServiceCode239"
+      ],
+      "description": "C1 Excess Ref Flow"
+    },
+    {
+      "enum": [
+        240,
+        "seEventShortActiveServiceCode240"
+      ],
+      "description": "C2 Excess Ref Flow"
+    },
+    {
+      "enum": [
+        241,
+        "seEventShortActiveServiceCode241"
+      ],
+      "description": "C3 Excess Ref Flow"
+    },
+    {
+      "enum": [
+        242,
+        "seEventShortActiveServiceCode242"
+      ],
+      "description": "C4 Excess Ref Flow"
+    },
+    {
+      "enum": [
+        243,
+        "seEventShortActiveServiceCode243"
+      ],
+      "description": "C1 Inefficient Comp"
+    },
+    {
+      "enum": [
+        244,
+        "seEventShortActiveServiceCode244"
+      ],
+      "description": "C2 Inefficient Comp"
+    },
+    {
+      "enum": [
+        245,
+        "seEventShortActiveServiceCode245"
+      ],
+      "description": "C3 Inefficient Comp"
+    },
+    {
+      "enum": [
+        246,
+        "seEventShortActiveServiceCode246"
+      ],
+      "description": "C4 Inefficient Comp"
+    },
+    {
+      "enum": [
+        247,
+        "seEventShortActiveServiceCode247"
+      ],
+      "description": "C1 Refrig Flow Restrcted"
+    },
+    {
+      "enum": [
+        248,
+        "seEventShortActiveServiceCode248"
+      ],
+      "description": "C2 Refrig Flow Restrcted"
+    },
+    {
+      "enum": [
+        249,
+        "seEventShortActiveServiceCode249"
+      ],
+      "description": "C3 Refrig Flow Restrcted"
+    },
+    {
+      "enum": [
+        250,
+        "seEventShortActiveServiceCode250"
+      ],
+      "description": "C4 Refrig Flow Restrcted"
+    },
+    {
+      "enum": [
+        251,
+        "seEventShortActiveServiceCode251"
+      ],
+      "description": "C1 Hi Side Heat Tran Prob"
+    },
+    {
+      "enum": [
+        252,
+        "seEventShortActiveServiceCode252"
+      ],
+      "description": "C2 Hi Side Heat Tran Prob"
+    },
+    {
+      "enum": [
+        253,
+        "seEventShortActiveServiceCode253"
+      ],
+      "description": "C3 Hi Side Heat Tran Prob"
+    },
+    {
+      "enum": [
+        254,
+        "seEventShortActiveServiceCode254"
+      ],
+      "description": "C4 Hi Side Heat Tran Prob"
+    },
+    {
+      "enum": [
+        255,
+        "seEventShortActiveServiceCode255"
+      ],
+      "description": "C1 Lo Side Heat Tran Prob"
+    },
+    {
+      "enum": [
+        256,
+        "seEventShortActiveServiceCode256"
+      ],
+      "description": "C2 Lo Side Heat Tran Prob"
+    },
+    {
+      "enum": [
+        257,
+        "seEventShortActiveServiceCode257"
+      ],
+      "description": "C3 Lo Side Heat Tran Prob"
+    },
+    {
+      "enum": [
+        258,
+        "seEventShortActiveServiceCode258"
+      ],
+      "description": "C4 Lo Side Heat Tran Prob"
+    },
+    {
+      "enum": [
+        259,
+        "seEventShortActiveServiceCode259"
+      ],
+      "description": "C1 Reduce Evap Airflow"
+    },
+    {
+      "enum": [
+        260,
+        "seEventShortActiveServiceCode260"
+      ],
+      "description": "C2 Reduce Evap Airflow"
+    },
+    {
+      "enum": [
+        261,
+        "seEventShortActiveServiceCode261"
+      ],
+      "description": "C3 Reduce Evap Airflow"
+    },
+    {
+      "enum": [
+        262,
+        "seEventShortActiveServiceCode262"
+      ],
+      "description": "C4 Reduce Evap Airflow"
+    },
+    {
+      "enum": [
+        263,
+        "seEventShortActiveServiceCode263"
+      ],
+      "description": "C1 Add Charge"
+    },
+    {
+      "enum": [
+        264,
+        "seEventShortActiveServiceCode264"
+      ],
+      "description": "C2 Add Charge"
+    },
+    {
+      "enum": [
+        265,
+        "seEventShortActiveServiceCode265"
+      ],
+      "description": "C3 Add Charge"
+    },
+    {
+      "enum": [
+        266,
+        "seEventShortActiveServiceCode266"
+      ],
+      "description": "C4 Add Charge"
+    },
+    {
+      "enum": [
+        267,
+        "seEventShortActiveServiceCode267"
+      ],
+      "description": "C1 Insuff Refrig Flow"
+    },
+    {
+      "enum": [
+        268,
+        "seEventShortActiveServiceCode268"
+      ],
+      "description": "C2 Insuff Refrig Flow"
+    },
+    {
+      "enum": [
+        269,
+        "seEventShortActiveServiceCode269"
+      ],
+      "description": "C3 Insuff Refrig Flow"
+    },
+    {
+      "enum": [
+        270,
+        "seEventShortActiveServiceCode270"
+      ],
+      "description": "C4 Insuff Refrig Flow"
+    },
+    {
+      "enum": [
+        271,
+        "seEventShortActiveServiceCode271"
+      ],
+      "description": "C1 Recover Charge"
+    },
+    {
+      "enum": [
+        272,
+        "seEventShortActiveServiceCode272"
+      ],
+      "description": "C2 Recover Charge"
+    },
+    {
+      "enum": [
+        273,
+        "seEventShortActiveServiceCode273"
+      ],
+      "description": "C3 Recover Charge"
+    },
+    {
+      "enum": [
+        274,
+        "seEventShortActiveServiceCode274"
+      ],
+      "description": "C4 Recover Charge"
+    },
+    {
+      "enum": [
+        275,
+        "seEventShortActiveServiceCode275"
+      ],
+      "description": "C1 Safe/Reasonable Perf"
+    },
+    {
+      "enum": [
+        276,
+        "seEventShortActiveServiceCode276"
+      ],
+      "description": "C2 Safe/Reasonable Perf"
+    },
+    {
+      "enum": [
+        277,
+        "seEventShortActiveServiceCode277"
+      ],
+      "description": "C3 Safe/Reasonable Perf"
+    },
+    {
+      "enum": [
+        278,
+        "seEventShortActiveServiceCode278"
+      ],
+      "description": "C4 Safe/Reasonable Perf"
+    },
+    {
+      "enum": [
+        279,
+        "seEventShortActiveServiceCode279"
+      ],
+      "description": "C1 RA Dry Bulb Temp Low"
+    },
+    {
+      "enum": [
+        280,
+        "seEventShortActiveServiceCode280"
+      ],
+      "description": "C2 RA Dry Bulb Temp Low"
+    },
+    {
+      "enum": [
+        281,
+        "seEventShortActiveServiceCode281"
+      ],
+      "description": "C3 RA Dry Bulb Temp Low"
+    },
+    {
+      "enum": [
+        282,
+        "seEventShortActiveServiceCode282"
+      ],
+      "description": "C4 RA Dry Bulb Temp Low"
+    },
+    {
+      "enum": [
+        283,
+        "seEventShortActiveServiceCode283"
+      ],
+      "description": "C1 RA Dry Bulb Temp Hi"
+    },
+    {
+      "enum": [
+        284,
+        "seEventShortActiveServiceCode284"
+      ],
+      "description": "C2 RA Dry Bulb Temp Hi"
+    },
+    {
+      "enum": [
+        285,
+        "seEventShortActiveServiceCode285"
+      ],
+      "description": "C3 RA Dry Bulb Temp Hi"
+    },
+    {
+      "enum": [
+        286,
+        "seEventShortActiveServiceCode286"
+      ],
+      "description": "C4 RA Dry Bulb Temp Hi"
+    },
+    {
+      "enum": [
+        287,
+        "seEventShortActiveServiceCode287"
+      ],
+      "description": "C1 FDD - Sensor Unrel"
+    },
+    {
+      "enum": [
+        288,
+        "seEventShortActiveServiceCode288"
+      ],
+      "description": "C2 FDD - Sensor Unrel"
+    },
+    {
+      "enum": [
+        289,
+        "seEventShortActiveServiceCode289"
+      ],
+      "description": "C3 FDD - Sensor Unrel"
+    },
+    {
+      "enum": [
+        290,
+        "seEventShortActiveServiceCode290"
+      ],
+      "description": "C4 FDD - Sensor Unrel"
+    },
+    {
+      "enum": [
+        291,
+        "seEventShortActiveServiceCode291"
+      ],
+      "description": "C1 FDD - Conditions Unrel"
+    },
+    {
+      "enum": [
+        292,
+        "seEventShortActiveServiceCode292"
+      ],
+      "description": "C2 FDD - Conditions Unrel"
+    },
+    {
+      "enum": [
+        293,
+        "seEventShortActiveServiceCode293"
+      ],
+      "description": "C3 FDD - Conditions Unrel"
+    },
+    {
+      "enum": [
+        294,
+        "seEventShortActiveServiceCode294"
+      ],
+      "description": "C4 FDD - Conditions Unrel"
+    },
+    {
+      "enum": [
+        295,
+        "seEventShortActiveServiceCode295"
+      ],
+      "description": "C1 FDD - Equip Data Unrel"
+    },
+    {
+      "enum": [
+        296,
+        "seEventShortActiveServiceCode296"
+      ],
+      "description": "C2 FDD - Equip Data Unrel"
+    },
+    {
+      "enum": [
+        297,
+        "seEventShortActiveServiceCode297"
+      ],
+      "description": "C3 FDD - Equip Data Unrel"
+    },
+    {
+      "enum": [
+        298,
+        "seEventShortActiveServiceCode298"
+      ],
+      "description": "C4 FDD - Equip Data Unrel"
+    },
+    {
+      "enum": [
+        299,
+        "seEventShortActiveServiceCode299"
+      ],
+      "description": "C1 Non-Condensables Exist"
+    },
+    {
+      "enum": [
+        300,
+        "seEventShortActiveServiceCode300"
+      ],
+      "description": "C2 Non-Condensables Exist"
+    },
+    {
+      "enum": [
+        301,
+        "seEventShortActiveServiceCode301"
+      ],
+      "description": "C3 Non-Condensables Exist"
+    },
+    {
+      "enum": [
+        302,
+        "seEventShortActiveServiceCode302"
+      ],
+      "description": "C4 Non-Condensables Exist"
+    },
+    {
+      "enum": [
+        303,
+        "seEventShortActiveServiceCode303"
+      ],
+      "description": "C1 Unit Off"
+    },
+    {
+      "enum": [
+        304,
+        "seEventShortActiveServiceCode304"
+      ],
+      "description": "C2 Unit Off"
+    },
+    {
+      "enum": [
+        305,
+        "seEventShortActiveServiceCode305"
+      ],
+      "description": "C3 Unit Off"
+    },
+    {
+      "enum": [
+        306,
+        "seEventShortActiveServiceCode306"
+      ],
+      "description": "C4 Unit Off"
+    },
+    {
+      "enum": [
+        307,
+        "seEventShortActiveServiceCode307"
+      ],
+      "description": "Parm Corruption w/Default"
+    },
+    {
+      "enum": [
+        308,
+        "seEventShortActiveServiceCode308"
+      ],
+      "description": "FDD Test - Basic Data NA"
+    },
+    {
+      "enum": [
+        309,
+        "seEventShortActiveServiceCode309"
+      ],
+      "description": "C1 FDD Test - Sensor"
+    },
+    {
+      "enum": [
+        310,
+        "seEventShortActiveServiceCode310"
+      ],
+      "description": "C2 FDD Test - Sensor"
+    },
+    {
+      "enum": [
+        311,
+        "seEventShortActiveServiceCode311"
+      ],
+      "description": "C3 FDD Test - Sensor"
+    },
+    {
+      "enum": [
+        312,
+        "seEventShortActiveServiceCode312"
+      ],
+      "description": "C1 Faulty TxV Valve"
+    },
+    {
+      "enum": [
+        313,
+        "seEventShortActiveServiceCode313"
+      ],
+      "description": "Space Temp Htg Alarm"
+    },
+    {
+      "enum": [
+        314,
+        "seEventShortActiveServiceCode314"
+      ],
+      "description": "C1 EI Low Perform"
+    },
+    {
+      "enum": [
+        315,
+        "seEventShortActiveServiceCode315"
+      ],
+      "description": "C2 EI Low Perform"
+    },
+    {
+      "enum": [
+        316,
+        "seEventShortActiveServiceCode316"
+      ],
+      "description": "C3 EI Low Perform"
+    },
+    {
+      "enum": [
+        317,
+        "seEventShortActiveServiceCode317"
+      ],
+      "description": "C4 EI Low Perform"
+    },
+    {
+      "enum": [
+        318,
+        "seEventShortActiveServiceCode318"
+      ],
+      "description": "C1 CI Low Perform"
+    },
+    {
+      "enum": [
+        319,
+        "seEventShortActiveServiceCode319"
+      ],
+      "description": "C2 CI Low Perform"
+    },
+    {
+      "enum": [
+        320,
+        "seEventShortActiveServiceCode320"
+      ],
+      "description": "C3 CI Low Perform"
+    },
+    {
+      "enum": [
+        321,
+        "seEventShortActiveServiceCode321"
+      ],
+      "description": "C4 CI Low Perform"
+    },
+    {
+      "enum": [
+        322,
+        "seEventShortActiveServiceCode322"
+      ],
+      "description": "C1 EI+CI Low Perform"
+    },
+    {
+      "enum": [
+        323,
+        "seEventShortActiveServiceCode323"
+      ],
+      "description": "C2 EI+CI Low Perform"
+    },
+    {
+      "enum": [
+        324,
+        "seEventShortActiveServiceCode324"
+      ],
+      "description": "C3 EI+CI Low Perform"
+    },
+    {
+      "enum": [
+        325,
+        "seEventShortActiveServiceCode325"
+      ],
+      "description": "C4 EI+CI Low Perform"
+    },
+    {
+      "enum": [
+        326,
+        "seEventShortActiveServiceCode326"
+      ],
+      "description": "C1 Unknown Status"
+    },
+    {
+      "enum": [
+        327,
+        "seEventShortActiveServiceCode327"
+      ],
+      "description": "C2 Unknown Status"
+    },
+    {
+      "enum": [
+        328,
+        "seEventShortActiveServiceCode328"
+      ],
+      "description": "C3 Unknown Status"
+    },
+    {
+      "enum": [
+        329,
+        "seEventShortActiveServiceCode329"
+      ],
+      "description": "C4 Unknown Status"
+    },
+    {
+      "enum": [
+        330,
+        "seEventShortActiveServiceCode330"
+      ],
+      "description": "C1 RA Wet Bult Temp NA"
+    },
+    {
+      "enum": [
+        331,
+        "seEventShortActiveServiceCode331"
+      ],
+      "description": "C2 RA Wet Bult Temp NA"
+    },
+    {
+      "enum": [
+        332,
+        "seEventShortActiveServiceCode332"
+      ],
+      "description": "C3 RA Wet Bult Temp NA"
+    },
+    {
+      "enum": [
+        333,
+        "seEventShortActiveServiceCode333"
+      ],
+      "description": "C4 RA Wet Bult Temp NA"
+    },
+    {
+      "enum": [
+        334,
+        "seEventShortActiveServiceCode334"
+      ],
+      "description": "C1 RAT and Hum NA"
+    },
+    {
+      "enum": [
+        335,
+        "seEventShortActiveServiceCode335"
+      ],
+      "description": "C2 RAT and Hum NA"
+    },
+    {
+      "enum": [
+        336,
+        "seEventShortActiveServiceCode336"
+      ],
+      "description": "C3 RAT and Hum NA"
+    },
+    {
+      "enum": [
+        337,
+        "seEventShortActiveServiceCode337"
+      ],
+      "description": "C4 RAT and Hum NA"
+    },
+    {
+      "enum": [
+        338,
+        "seEventShortActiveServiceCode338"
+      ],
+      "description": "C1 Ambient Temp OOR"
+    },
+    {
+      "enum": [
+        339,
+        "seEventShortActiveServiceCode339"
+      ],
+      "description": "C2 Ambient Temp OOR"
+    },
+    {
+      "enum": [
+        340,
+        "seEventShortActiveServiceCode340"
+      ],
+      "description": "C3 Ambient Temp OOR"
+    },
+    {
+      "enum": [
+        341,
+        "seEventShortActiveServiceCode341"
+      ],
+      "description": "C4 Ambient Temp OOR"
+    },
+    {
+      "enum": [
+        342,
+        "seEventShortActiveServiceCode342"
+      ],
+      "description": "C1 Ambient and RAT WB OOR"
+    },
+    {
+      "enum": [
+        343,
+        "seEventShortActiveServiceCode343"
+      ],
+      "description": "C2 Ambient and RAT WB OOR"
+    },
+    {
+      "enum": [
+        344,
+        "seEventShortActiveServiceCode344"
+      ],
+      "description": "C3 Ambient and RAT WB OOR"
+    },
+    {
+      "enum": [
+        345,
+        "seEventShortActiveServiceCode345"
+      ],
+      "description": "C4 Ambient and RAT WB OOR"
+    },
+    {
+      "enum": [
+        346,
+        "seEventShortActiveServiceCode346"
+      ],
+      "description": "C1 Invld Suction Pres/RAT"
+    },
+    {
+      "enum": [
+        347,
+        "seEventShortActiveServiceCode347"
+      ],
+      "description": "C2 Invld Suction Pres/RAT"
+    },
+    {
+      "enum": [
+        348,
+        "seEventShortActiveServiceCode348"
+      ],
+      "description": "C3 Invld Suction Pres/RAT"
+    },
+    {
+      "enum": [
+        349,
+        "seEventShortActiveServiceCode349"
+      ],
+      "description": "C4 Invld Suction Pres/RAT"
+    },
+    {
+      "enum": [
+        350,
+        "seEventShortActiveServiceCode350"
+      ],
+      "description": "C1 Invld Liq/RA Temp"
+    },
+    {
+      "enum": [
+        351,
+        "seEventShortActiveServiceCode351"
+      ],
+      "description": "C2 Invld Liq/RA Temp"
+    },
+    {
+      "enum": [
+        352,
+        "seEventShortActiveServiceCode352"
+      ],
+      "description": "C3 Invld Liq/RA Temp"
+    },
+    {
+      "enum": [
+        353,
+        "seEventShortActiveServiceCode353"
+      ],
+      "description": "C4 Invld Liq/RA Temp"
+    },
+    {
+      "enum": [
+        354,
+        "seEventShortActiveServiceCode354"
+      ],
+      "description": "C1 Invld Liq Pres/Ambient"
+    },
+    {
+      "enum": [
+        355,
+        "seEventShortActiveServiceCode355"
+      ],
+      "description": "C2 Invld Liq Pres/Ambient"
+    },
+    {
+      "enum": [
+        356,
+        "seEventShortActiveServiceCode356"
+      ],
+      "description": "C3 Invld Liq Pres/Ambient"
+    },
+    {
+      "enum": [
+        357,
+        "seEventShortActiveServiceCode357"
+      ],
+      "description": "C4 Invld Liq Pres/Ambient"
+    },
+    {
+      "enum": [
+        358,
+        "seEventShortActiveServiceCode358"
+      ],
+      "description": "C1 Invld RA/SA Temp"
+    },
+    {
+      "enum": [
+        359,
+        "seEventShortActiveServiceCode359"
+      ],
+      "description": "C2 Invld RA/SA Temp"
+    },
+    {
+      "enum": [
+        360,
+        "seEventShortActiveServiceCode360"
+      ],
+      "description": "C3 Invld RA/SA Temp"
+    },
+    {
+      "enum": [
+        361,
+        "seEventShortActiveServiceCode361"
+      ],
+      "description": "C4 Invld RA/SA Temp"
+    },
+    {
+      "enum": [
+        362,
+        "seEventShortActiveServiceCode362"
+      ],
+      "description": "C1 Invld SAT/Suction Pres"
+    },
+    {
+      "enum": [
+        363,
+        "seEventShortActiveServiceCode363"
+      ],
+      "description": "C2 Invld SAT/Suction Pres"
+    },
+    {
+      "enum": [
+        364,
+        "seEventShortActiveServiceCode364"
+      ],
+      "description": "C3 Invld SAT/Suction Pres"
+    },
+    {
+      "enum": [
+        365,
+        "seEventShortActiveServiceCode365"
+      ],
+      "description": "C4 Invld SAT/Suction Pres"
+    },
+    {
+      "enum": [
+        366,
+        "seEventShortActiveServiceCode366"
+      ],
+      "description": "C1 Invld SA/SA DB"
+    },
+    {
+      "enum": [
+        367,
+        "seEventShortActiveServiceCode367"
+      ],
+      "description": "C2 Invld SA/SA DB"
+    },
+    {
+      "enum": [
+        368,
+        "seEventShortActiveServiceCode368"
+      ],
+      "description": "C3 Invld SA/SA DB"
+    },
+    {
+      "enum": [
+        369,
+        "seEventShortActiveServiceCode369"
+      ],
+      "description": "C4 Invld SA/SA DB"
+    },
+    {
+      "enum": [
+        370,
+        "seEventShortActiveServiceCode370"
+      ],
+      "description": "C1 Invld RA WB/SA WB"
+    },
+    {
+      "enum": [
+        371,
+        "seEventShortActiveServiceCode371"
+      ],
+      "description": "C2 Invld RA WB/SA WB"
+    },
+    {
+      "enum": [
+        372,
+        "seEventShortActiveServiceCode372"
+      ],
+      "description": "C3 Invld RA WB/SA WB"
+    },
+    {
+      "enum": [
+        373,
+        "seEventShortActiveServiceCode373"
+      ],
+      "description": "C4 Invld RA WB/SA WB"
+    },
+    {
+      "enum": [
+        374,
+        "seEventShortActiveServiceCode374"
+      ],
+      "description": "C1 Bad Test Conditions"
+    },
+    {
+      "enum": [
+        375,
+        "seEventShortActiveServiceCode375"
+      ],
+      "description": "C2 Bad Test Conditions"
+    },
+    {
+      "enum": [
+        376,
+        "seEventShortActiveServiceCode376"
+      ],
+      "description": "C3 Bad Test Conditions"
+    },
+    {
+      "enum": [
+        377,
+        "seEventShortActiveServiceCode377"
+      ],
+      "description": "C4 Bad Test Conditions"
+    },
+    {
+      "enum": [
+        378,
+        "seEventShortActiveServiceCode378"
+      ],
+      "description": "C1 Flow Restrict"
+    },
+    {
+      "enum": [
+        379,
+        "seEventShortActiveServiceCode379"
+      ],
+      "description": "C2 Flow Restrict"
+    },
+    {
+      "enum": [
+        380,
+        "seEventShortActiveServiceCode380"
+      ],
+      "description": "C3 Flow Restrict"
+    },
+    {
+      "enum": [
+        381,
+        "seEventShortActiveServiceCode381"
+      ],
+      "description": "C4 Flow Restrict"
+    },
+    {
+      "enum": [
+        382,
+        "seEventShortActiveServiceCode382"
+      ],
+      "description": "C1 Low EER"
+    },
+    {
+      "enum": [
+        383,
+        "seEventShortActiveServiceCode383"
+      ],
+      "description": "C2 Low EER"
+    },
+    {
+      "enum": [
+        384,
+        "seEventShortActiveServiceCode384"
+      ],
+      "description": "C3 Low EER"
+    },
+    {
+      "enum": [
+        385,
+        "seEventShortActiveServiceCode385"
+      ],
+      "description": "C4 Low EER"
+    },
+    {
+      "enum": [
+        386,
+        "seEventShortActiveServiceCode386"
+      ],
+      "description": "C1 High EER"
+    },
+    {
+      "enum": [
+        387,
+        "seEventShortActiveServiceCode387"
+      ],
+      "description": "C2 High EER"
+    },
+    {
+      "enum": [
+        388,
+        "seEventShortActiveServiceCode388"
+      ],
+      "description": "C3 High EER"
+    },
+    {
+      "enum": [
+        389,
+        "seEventShortActiveServiceCode389"
+      ],
+      "description": "C4 High EER"
+    }
+  ]
+}

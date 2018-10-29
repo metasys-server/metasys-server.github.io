@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seHeatCoolStagedStateEnumSet.schema.json",
+  "title": "seHeatCoolStagedStateEnumSet",
+  "description": "SE Heat Cool Staged State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seHcsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seHcsMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "seHcsLmtMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "seHcsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "seHcsInstShtdwn"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        5,
+        "seHcsFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        6,
+        "seHcsLowOaTemp"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        7,
+        "seHcsTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        8,
+        "seHcsTstatCtrl"
+      ],
+      "description": "Thermostat Control"
+    },
+    {
+      "enum": [
+        9,
+        "seHcsPiCtrl"
+      ],
+      "description": "PI Control"
+    },
+    {
+      "enum": [
+        10,
+        "seHcsExsatctrl"
+      ],
+      "description": "Excessive SAT Control"
+    },
+    {
+      "enum": [
+        11,
+        "seHcsAuxCtrl"
+      ],
+      "description": "Auxiliary Control"
+    },
+    {
+      "enum": [
+        12,
+        "seHcsBumpWait"
+      ],
+      "description": "Bump and Wait"
+    },
+    {
+      "enum": [
+        13,
+        "seHcsSzVavSat"
+      ],
+      "description": "SZ VAV SA-T Control"
+    },
+    {
+      "enum": [
+        14,
+        "seHcsSzVavZnt"
+      ],
+      "description": "SZ VAV ZN-T Control"
+    }
+  ]
+}

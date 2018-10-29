@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/masterSlaveEnumSet.schema.json",
+  "title": "masterSlaveEnumSet",
+  "description": "Master Slave",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "masterSlaveMaster"
+      ],
+      "description": "Master"
+    },
+    {
+      "enum": [
+        1,
+        "masterSlaveSlave"
+      ],
+      "description": "Slave"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offAutoMultiEnumSet.schema.json",
+  "title": "offAutoMultiEnumSet",
+  "description": "Off/Auto",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "offAtMsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "offAtMsAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

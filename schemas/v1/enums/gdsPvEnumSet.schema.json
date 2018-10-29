@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/gdsPvEnumSet.schema.json",
+  "title": "gdsPvEnumSet",
+  "description": "GDS Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "gdsPvMaster"
+      ],
+      "description": "Master"
+    },
+    {
+      "enum": [
+        1,
+        "gdsPvAltMaster"
+      ],
+      "description": "Alt Master"
+    },
+    {
+      "enum": [
+        2,
+        "gdsPvLastReliable"
+      ],
+      "description": "Last Reliable"
+    },
+    {
+      "enum": [
+        3,
+        "gdsPvFailSoft"
+      ],
+      "description": "Fail Soft"
+    }
+  ]
+}

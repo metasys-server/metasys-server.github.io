@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lowHighEnumSet.schema.json",
+  "title": "lowHighEnumSet",
+  "description": "Low/High",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lohiLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        1,
+        "lohiHigh"
+      ],
+      "description": "High"
+    }
+  ]
+}": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

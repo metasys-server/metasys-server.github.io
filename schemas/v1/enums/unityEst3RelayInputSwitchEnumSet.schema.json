@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityEst3RelayInputSwitchEnumSet.schema.json",
+  "title": "unityEst3RelayInputSwitchEnumSet",
+  "description": "Unity EST3 Relay, Input, Switch",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ACTIVE"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "RESTORE"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "ON, SET"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "ON, LATCH"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "ON, LOW"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "ON, HIGH"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "OFF, SET"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "OFF, LATCH"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "OFF, LOW"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "OFF, HIGH"
+    }
+  ]
+}

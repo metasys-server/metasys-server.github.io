@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/basInterfaceTypeEnumSet.schema.json",
+  "title": "basInterfaceTypeEnumSet",
+  "description": "BAS Interface Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "basItNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "basItMstp"
+      ],
+      "description": "BACnet MSTP"
+    },
+    {
+      "enum": [
+        2,
+        "basItIp"
+      ],
+      "description": "BACnet IP"
+    },
+    {
+      "enum": [
+        3,
+        "basItN2"
+      ],
+      "description": "N2 Slave"
+    },
+    {
+      "enum": [
+        4,
+        "basItMb"
+      ],
+      "description": "Modbus Slave"
+    },
+    {
+      "enum": [
+        5,
+        "basItLon"
+      ],
+      "description": "LON"
+    }
+  ]
+}

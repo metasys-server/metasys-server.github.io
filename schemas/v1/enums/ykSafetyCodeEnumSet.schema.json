@@ -1,0 +1,498 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykSafetyCodeEnumSet.schema.json",
+  "title": "ykSafetyCodeEnumSet",
+  "description": "YK Safety Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Safety Faults Present"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Evaporator - Low Pressure"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Evaporator - Transducer Or Leaving Liquid Probe"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Evaporator - Transducer or Temperature Sensor"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Condenser - High Pressure Contacts Open"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Condenser - High Pressure"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Condenser - Pressure Transducer Out Of Range"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Auxiliary Safety - Contacts Closed"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Discharge - Low Temperature"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Discharge - High Temperature"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Oil - High Temperature"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Oil - Low Differential Pressure"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Oil - High Differential Pressure"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Oil - Pump Pressure Transducer Out Of Range"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Oil - Sump Pressure Transducer Out Of Range"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Oil - High Pressure"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "Oil - Clogged Filter"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "Oil - Low Differential Seal Pressure"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "Oil - Differential Pressure Calibration"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Oil Separator - Low Level"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "Oil - Variable Speed Pump - Setpoint Not Achieved"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "Control Panel - Power Failure"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "Motor or Starter - Current Imbalance"
+    },
+    {
+      "enum": [
+        24,
+        "24"
+      ],
+      "description": "Thrust Bearing - Proximity Probe Clearance"
+    },
+    {
+      "enum": [
+        25,
+        "25"
+      ],
+      "description": "Thrust Bearing - Proximity Probe Uncalibrated"
+    },
+    {
+      "enum": [
+        26,
+        "26"
+      ],
+      "description": "Thrust Bearing - Proximity Probe Out of Range"
+    },
+    {
+      "enum": [
+        27,
+        "27"
+      ],
+      "description": "Thrust Bearing - High Oil Temperature"
+    },
+    {
+      "enum": [
+        28,
+        "28"
+      ],
+      "description": "Thrust Bearing - Oil Temperature Sensor"
+    },
+    {
+      "enum": [
+        29,
+        "29"
+      ],
+      "description": "VSD - High Heatsink Temperature"
+    },
+    {
+      "enum": [
+        30,
+        "30"
+      ],
+      "description": "VSD / MVVSD - 105% Motor Current Overload"
+    },
+    {
+      "enum": [
+        31,
+        "31"
+      ],
+      "description": "VSD - High Phase A Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        32,
+        "32"
+      ],
+      "description": "VSD - High Phase B Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        33,
+        "33"
+      ],
+      "description": "VSD - High Phase C Inverter Heatsink Temperature"
+    },
+    {
+      "enum": [
+        34,
+        "34"
+      ],
+      "description": "VSD - High Rectifier Heatsink Temperature"
+    },
+    {
+      "enum": [
+        35,
+        "35"
+      ],
+      "description": "VSD - Precharge Lockout"
+    },
+    {
+      "enum": [
+        36,
+        "36"
+      ],
+      "description": "Harmonic Filter - High Heatsink Temperature"
+    },
+    {
+      "enum": [
+        37,
+        "37"
+      ],
+      "description": "Harmonic Filter - High Total Demand Distortion"
+    },
+    {
+      "enum": [
+        49,
+        "49"
+      ],
+      "description": "Starter - Invalid Motor Selection"
+    },
+    {
+      "enum": [
+        50,
+        "50"
+      ],
+      "description": "Oil or Condenser Transducer Error"
+    },
+    {
+      "enum": [
+        51,
+        "51"
+      ],
+      "description": "Evaporator - Low Pressure"
+    },
+    {
+      "enum": [
+        52,
+        "52"
+      ],
+      "description": "Evaporator - Low Pressure - Smart Freeze"
+    },
+    {
+      "enum": [
+        53,
+        "53"
+      ],
+      "description": "Surge Protection - Excess Surge"
+    },
+    {
+      "enum": [
+        54,
+        "54"
+      ],
+      "description": "VSD - High Inverter Baseplate Temperature"
+    },
+    {
+      "enum": [
+        55,
+        "55"
+      ],
+      "description": "VSD Harmonic Filter - High Baseplate Temperature"
+    },
+    {
+      "enum": [
+        56,
+        "56"
+      ],
+      "description": "Thrust Bearing - Proximity Probe Clearance"
+    },
+    {
+      "enum": [
+        57,
+        "57"
+      ],
+      "description": "Thrust Bearing - Limit Switch Open"
+    },
+    {
+      "enum": [
+        58,
+        "58"
+      ],
+      "description": "Motor - Phase Rotation"
+    },
+    {
+      "enum": [
+        59,
+        "59"
+      ],
+      "description": "Motor - High Temperature"
+    },
+    {
+      "enum": [
+        60,
+        "60"
+      ],
+      "description": "Discharge - High Pressure"
+    },
+    {
+      "enum": [
+        61,
+        "61"
+      ],
+      "description": "Motor - High Winding Temperature"
+    },
+    {
+      "enum": [
+        62,
+        "62"
+      ],
+      "description": "Motor - High Bearing Temperature"
+    },
+    {
+      "enum": [
+        63,
+        "63"
+      ],
+      "description": "VSD/MVVSD-High Phase A Inverter BasePlate Temp"
+    },
+    {
+      "enum": [
+        64,
+        "64"
+      ],
+      "description": "VSD/MVVSD-High Phase B Inverter BasePlate Temp"
+    },
+    {
+      "enum": [
+        65,
+        "65"
+      ],
+      "description": "VSD/MVVSD-High Phase C Inverter BasePlate Temp"
+    },
+    {
+      "enum": [
+        66,
+        "66"
+      ],
+      "description": "VSD Motor or Starter - Current Imbalance"
+    },
+    {
+      "enum": [
+        67,
+        "67"
+      ],
+      "description": "Condenser - High Pressure - Stopped"
+    },
+    {
+      "enum": [
+        68,
+        "68"
+      ],
+      "description": "Motor - Ground Fault"
+    },
+    {
+      "enum": [
+        69,
+        "69"
+      ],
+      "description": "Excessive Bearing Vibration"
+    },
+    {
+      "enum": [
+        70,
+        "70"
+      ],
+      "description": "Excessive Low Discharge Superheat"
+    },
+    {
+      "enum": [
+        74,
+        "74"
+      ],
+      "description": "Motor - Lack of Bearing Lubrication"
+    },
+    {
+      "enum": [
+        75,
+        "75"
+      ],
+      "description": "VSD / MVVSD - Low Frequency Detected"
+    },
+    {
+      "enum": [
+        76,
+        "76"
+      ],
+      "description": "MVVSD- Feedback Sensor"
+    },
+    {
+      "enum": [
+        77,
+        "77"
+      ],
+      "description": "MVVSD - Control Fault"
+    },
+    {
+      "enum": [
+        78,
+        "78"
+      ],
+      "description": "MVVSD - Drive Boot Failure"
+    },
+    {
+      "enum": [
+        89,
+        "89"
+      ],
+      "description": "MVVSD - Power Transformer High Temperature"
+    },
+    {
+      "enum": [
+        90,
+        "90"
+      ],
+      "description": "MVVSD - High Output Frequency"
+    },
+    {
+      "enum": [
+        91,
+        "91"
+      ],
+      "description": "MVVSD - Ground Fault"
+    },
+    {
+      "enum": [
+        92,
+        "92"
+      ],
+      "description": "VSD / MVVSD - Main Control Board Fault"
+    },
+    {
+      "enum": [
+        93,
+        "93"
+      ],
+      "description": "MVVSD - Contactor Fault"
+    },
+    {
+      "enum": [
+        94,
+        "94"
+      ],
+      "description": "MVVSD - Interlock Fault"
+    }
+  ]
+}

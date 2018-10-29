@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/globalSequencerOperatingStateEnumSet.schema.json",
+  "title": "globalSequencerOperatingStateEnumSet",
+  "description": "Global Sequencer Operating State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "globalSeqIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "globalSeqDeactivatedInstantShutdown"
+      ],
+      "description": "Deactivated, Instant Shutdown"
+    },
+    {
+      "enum": [
+        2,
+        "globalSeqShutdownInProcess"
+      ],
+      "description": "Shutdown In-Process"
+    },
+    {
+      "enum": [
+        3,
+        "globalSeqStagingUpInterstageOnDelay"
+      ],
+      "description": "Staging Up, Interstage On Delay"
+    },
+    {
+      "enum": [
+        4,
+        "globalSeqStagingUpMinimumOffDelay"
+      ],
+      "description": "Staging Up, Minimum Off Delay"
+    },
+    {
+      "enum": [
+        5,
+        "globalSeqStagingDownInterstageOffDelay"
+      ],
+      "description": "Staging Down, Interstage Off Delay"
+    },
+    {
+      "enum": [
+        6,
+        "globalSeqStagingDownMinimumOnDelay"
+      ],
+      "description": "Staging Down, Minimum On Delay"
+    },
+    {
+      "enum": [
+        7,
+        "globalSeqInsufficientCapacity"
+      ],
+      "description": "Insufficient Capacity"
+    }
+  ]
+}

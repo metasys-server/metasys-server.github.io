@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eeoBitsEnumSet.schema.json",
+  "title": "eeoBitsEnumSet",
+  "description": "EEO Bits",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bit0"
+      ],
+      "description": "Bit 0"
+    },
+    {
+      "enum": [
+        1,
+        "bit1"
+      ],
+      "description": "Bit 1"
+    },
+    {
+      "enum": [
+        2,
+        "bit2"
+      ],
+      "description": "Bit 2"
+    },
+    {
+      "enum": [
+        3,
+        "bit3"
+      ],
+      "description": "Bit 3"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/centralPlantTypeEnumSet.schema.json",
+  "title": "centralPlantTypeEnumSet",
+  "description": "Central Plant Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "heatingPlant"
+      ],
+      "description": "Heating Plant"
+    },
+    {
+      "enum": [
+        1,
+        "coolingPlant"
+      ],
+      "description": "Cooling Plant"
+    },
+    {
+      "enum": [
+        2,
+        "boiler"
+      ],
+      "description": "Boiler"
+    },
+    {
+      "enum": [
+        3,
+        "chiller"
+      ],
+      "description": "Chiller"
+    },
+    {
+      "enum": [
+        4,
+        "coolingTower"
+      ],
+      "description": "Cooling Tower"
+    },
+    {
+      "enum": [
+        5,
+        "iceStorage"
+      ],
+      "description": "Ice Storage"
+    }
+  ]
+}

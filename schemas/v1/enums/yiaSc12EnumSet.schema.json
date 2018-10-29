@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yiaSc12EnumSet.schema.json",
+  "title": "yiaSc12EnumSet",
+  "description": "YIA Control Status Code SC.12",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yiaSc120"
+      ],
+      "description": "NO MODIFIED RUN CONDITIONS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "yiaSc121"
+      ],
+      "description": "COOLING START SEQUENCE INITIATED"
+    },
+    {
+      "enum": [
+        2,
+        "yiaSc122"
+      ],
+      "description": "UNIT LOAD HAS REACHED THE REMOTE LOAD LIMIT SETPOINT"
+    },
+    {
+      "enum": [
+        3,
+        "yiaSc123"
+      ],
+      "description": "LEAVING CHILLED LIQUID TEMPERATURE CONTROL IN EFFECT"
+    },
+    {
+      "enum": [
+        4,
+        "yiaSc124"
+      ],
+      "description": "UNIT LOAD IS CONTROLLED BY PULLDOWN DEMAND LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "yiaSc125"
+      ],
+      "description": "UNIT LOAD IS CONTROLLED BY RAMPDOWN LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "yiaSc126"
+      ],
+      "description": "UNIT LOAD HAS REACHED THE MAXIMUM LOAD LIMIT SETPOINT"
+    },
+    {
+      "enum": [
+        7,
+        "yiaSc127"
+      ],
+      "description": "MANUAL OPERATION CONTROL IN EFFECT"
+    },
+    {
+      "enum": [
+        8,
+        "yiaSc128"
+      ],
+      "description": "DILUTION CYCLE IS IN PROGRESS"
+    },
+    {
+      "enum": [
+        9,
+        "yiaSc129"
+      ],
+      "description": "LIMITED DILUTION CYCLE IS IN PROGRESS"
+    },
+    {
+      "enum": [
+        10,
+        "yiaSc1210"
+      ],
+      "description": "UNIT LOAD IS SET TO 30%"
+    },
+    {
+      "enum": [
+        11,
+        "yiaSc1211"
+      ],
+      "description": "UNIT LOAD IS SET TO 60%"
+    },
+    {
+      "enum": [
+        12,
+        "yiaSc1212"
+      ],
+      "description": "MANUAL DILUTION CYCLE IS IN PROGRESS"
+    },
+    {
+      "enum": [
+        13,
+        "yiaSc1213"
+      ],
+      "description": "UNIT LOAD IS INHIBITED BY LOW REFRIGERANT TEMP. CONDITION"
+    },
+    {
+      "enum": [
+        14,
+        "yiaSc1214"
+      ],
+      "description": "ADC IN PROGRESS -LOAD SET TO 50%-"
+    },
+    {
+      "enum": [
+        15,
+        "yiaSc1215"
+      ],
+      "description": "PRIMARY LIMITED ADC IN PROGRESS - LOAD SET TO 50%-"
+    },
+    {
+      "enum": [
+        16,
+        "yiaSc1216"
+      ],
+      "description": "SECONDARY LIMITED ADC IN PROGRESS"
+    },
+    {
+      "enum": [
+        17,
+        "yiaSc1217"
+      ],
+      "description": "UNIT IN STANDBY UNTIL POWER SUPPLY RECOVERS"
+    },
+    {
+      "enum": [
+        18,
+        "yiaSc1218"
+      ],
+      "description": "UNIT IS UNABLE TO PERFORM A LIMITED DILUTION CYCLE"
+    },
+    {
+      "enum": [
+        19,
+        "yiaSc1219"
+      ],
+      "description": "PRIMARY LIMITED ADC IN PROGRESS - LOAD SET TO 50%-"
+    }
+  ]
+}

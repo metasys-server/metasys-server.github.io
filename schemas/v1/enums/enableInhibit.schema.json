@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/enableInhibit.schema.json",
+  "title": "enableInhibit",
+  "description": "Enable Inhibit",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "enableInhibitEnable"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        1,
+        "enableInhibitInhibit"
+      ],
+      "description": "Inhibit"
+    }
+  ]
+}

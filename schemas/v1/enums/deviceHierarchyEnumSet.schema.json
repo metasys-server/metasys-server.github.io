@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/deviceHierarchyEnumSet.schema.json",
+  "title": "deviceHierarchyEnumSet",
+  "description": "Device Hierarchy",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "deviceHierarchyRootDevice"
+      ],
+      "description": "Root Device"
+    },
+    {
+      "enum": [
+        1,
+        "deviceHierarchyParentDevice"
+      ],
+      "description": "Parent Device"
+    },
+    {
+      "enum": [
+        2,
+        "deviceHierarchyChildDevice"
+      ],
+      "description": "Child Device"
+    },
+    {
+      "enum": [
+        3,
+        "deviceHierarchyDisplayDevice"
+      ],
+      "description": "Display Device"
+    }
+  ]
+}

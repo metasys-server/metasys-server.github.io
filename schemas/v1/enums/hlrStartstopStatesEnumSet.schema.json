@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrStartstopStatesEnumSet.schema.json",
+  "title": "hlrStartstopStatesEnumSet",
+  "description": "HLR StartStop States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrStartstopStatesOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hlrStartstopStatesStartDelay"
+      ],
+      "description": "Start Delay"
+    },
+    {
+      "enum": [
+        2,
+        "hlrStartstopStatesOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        3,
+        "hlrStartstopStatesStopDelay"
+      ],
+      "description": "Stop Delay"
+    },
+    {
+      "enum": [
+        4,
+        "hlrStartstopStatesTransitionFanOff"
+      ],
+      "description": "Transition Fan Off"
+    },
+    {
+      "enum": [
+        5,
+        "hlrStartstopStatesTransitionHtgOff"
+      ],
+      "description": "Transition Htg Off"
+    }
+  ]
+}

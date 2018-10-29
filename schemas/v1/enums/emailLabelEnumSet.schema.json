@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/emailLabelEnumSet.schema.json",
+  "title": "emailLabelEnumSet",
+  "description": "Email Label",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "emailSiteName"
+      ],
+      "description": "Site Name"
+    },
+    {
+      "enum": [
+        2,
+        "emailAlmPriority"
+      ],
+      "description": "Alarm Priority"
+    },
+    {
+      "enum": [
+        3,
+        "emailEventState"
+      ],
+      "description": "Event State"
+    },
+    {
+      "enum": [
+        4,
+        "emailPrevEventSt"
+      ],
+      "description": "Previous Event State"
+    },
+    {
+      "enum": [
+        5,
+        "emailObjName"
+      ],
+      "description": "Object Name"
+    },
+    {
+      "enum": [
+        6,
+        "emailObjValue"
+      ],
+      "description": "Object Value"
+    },
+    {
+      "enum": [
+        7,
+        "emailObjCat"
+      ],
+      "description": "Object Category"
+    },
+    {
+      "enum": [
+        8,
+        "emailReliability"
+      ],
+      "description": "Reliability"
+    },
+    {
+      "enum": [
+        9,
+        "emailAlmTxt"
+      ],
+      "description": "Alarm Text"
+    },
+    {
+      "enum": [
+        10,
+        "emailDate"
+      ],
+      "description": "Date"
+    },
+    {
+      "enum": [
+        11,
+        "emailTime"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        12,
+        "emailMsgType"
+      ],
+      "description": "Message Type"
+    },
+    {
+      "enum": [
+        13,
+        "emailAckReq"
+      ],
+      "description": "Acknowledge Required"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/states03EnumSet.schema.json",
+  "title": "states03EnumSet",
+  "description": "States (0-3)",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "state30"
+      ],
+      "description": "State 0"
+    },
+    {
+      "enum": [
+        1,
+        "state31"
+      ],
+      "description": "State 1"
+    },
+    {
+      "enum": [
+        2,
+        "state32"
+      ],
+      "description": "State 2"
+    },
+    {
+      "enum": [
+        3,
+        "state33"
+      ],
+      "description": "State 3"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seSelfTestState.schema.json",
+  "title": "seSelfTestState",
+  "description": "SE RTU Self Test State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seSelfTestStateOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seSelfTestStateTestFan"
+      ],
+      "description": "Test Fan"
+    },
+    {
+      "enum": [
+        2,
+        "seSelfTestStateTestC1"
+      ],
+      "description": "Test C1"
+    },
+    {
+      "enum": [
+        3,
+        "seSelfTestStateTestC2"
+      ],
+      "description": "Test C2"
+    },
+    {
+      "enum": [
+        4,
+        "seSelfTestStateTestC3"
+      ],
+      "description": "Test C3"
+    },
+    {
+      "enum": [
+        5,
+        "seSelfTestStateTestC4"
+      ],
+      "description": "Test C4"
+    },
+    {
+      "enum": [
+        6,
+        "seSelfTestStateTestH1"
+      ],
+      "description": "Test H1"
+    },
+    {
+      "enum": [
+        7,
+        "seSelfTestStateTestH2"
+      ],
+      "description": "Test H2"
+    },
+    {
+      "enum": [
+        8,
+        "seSelfTestStateTestH3"
+      ],
+      "description": "Test H3"
+    },
+    {
+      "enum": [
+        9,
+        "seSelfTestStateTestEcon"
+      ],
+      "description": "Test Econ"
+    },
+    {
+      "enum": [
+        10,
+        "seSelfTestStateTestExhaust"
+      ],
+      "description": "Test Exhaust"
+    }
+  ]
+}

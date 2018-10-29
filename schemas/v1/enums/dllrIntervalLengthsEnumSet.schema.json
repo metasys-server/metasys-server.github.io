@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dllrIntervalLengthsEnumSet.schema.json",
+  "title": "dllrIntervalLengthsEnumSet",
+  "description": "DLLR Interval Lengths",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dllrIntLen15Minutes"
+      ],
+      "description": "15 minutes"
+    },
+    {
+      "enum": [
+        1,
+        "dllrIntLen30Minutes"
+      ],
+      "description": "30 minutes"
+    },
+    {
+      "enum": [
+        2,
+        "dllrIntLen60Minutes"
+      ],
+      "description": "60 minutes"
+    },
+    {
+      "enum": [
+        3,
+        "dllrIntLen10Minutes"
+      ],
+      "description": "10 minutes"
+    }
+  ]
+}

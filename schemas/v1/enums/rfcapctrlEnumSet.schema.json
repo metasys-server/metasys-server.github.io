@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rfcapctrlEnumSet.schema.json",
+  "title": "rfcapctrlEnumSet",
+  "description": "RF Cap Ctrl",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Tracking"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Bldg Press"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Position"
+    }
+  ]
+}

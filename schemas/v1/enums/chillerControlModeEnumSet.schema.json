@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/chillerControlModeEnumSet.schema.json",
+  "title": "chillerControlModeEnumSet",
+  "description": "Chiller Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ccmBldgLoad"
+      ],
+      "description": "Building Load"
+    },
+    {
+      "enum": [
+        1,
+        "ccmChlrLoad"
+      ],
+      "description": "Chiller Load"
+    },
+    {
+      "enum": [
+        2,
+        "ccmFlowDiff"
+      ],
+      "description": "Flow Differential"
+    },
+    {
+      "enum": [
+        3,
+        "ccmTempDiff"
+      ],
+      "description": "Temperature Differential"
+    }
+  ]
+}

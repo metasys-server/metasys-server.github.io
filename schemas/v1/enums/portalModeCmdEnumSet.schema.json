@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/portalModeCmdEnumSet.schema.json",
+  "title": "portalModeCmdEnumSet",
+  "description": "Portal Mode Command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "portalModeCmdRelease"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        1,
+        "portalModeCmdNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        2,
+        "portalModeCmdOverride"
+      ],
+      "description": "Override"
+    },
+    {
+      "enum": [
+        3,
+        "portalModeCmdLockdown"
+      ],
+      "description": "Lockdown"
+    }
+  ]
+}

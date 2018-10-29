@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/operationTypeEnumSet.schema.json",
+  "title": "operationTypeEnumSet",
+  "description": "Operation Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "oteDownloadCode"
+      ],
+      "description": "Download Main Code"
+    },
+    {
+      "enum": [
+        1,
+        "oteDownloadBootCode"
+      ],
+      "description": "Download Boot Code"
+    },
+    {
+      "enum": [
+        2,
+        "oteDownloadObjects"
+      ],
+      "description": "Download Objects"
+    },
+    {
+      "enum": [
+        3,
+        "oteUploadParameters"
+      ],
+      "description": "Upload Parameters"
+    }
+  ]
+}

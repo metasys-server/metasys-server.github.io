@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/top100EnumSet.schema.json",
+  "title": "top100EnumSet",
+  "description": "100 Top",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Start Initial"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Normal Operation"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Calibrate"
+    }
+  ]
+}

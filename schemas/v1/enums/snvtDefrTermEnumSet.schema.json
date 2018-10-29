@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtDefrTermEnumSet.schema.json",
+  "title": "snvtDefrTermEnumSet",
+  "description": "SNVT Defrost Termination",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dftTermTemp"
+      ],
+      "description": "Terminate on temperature"
+    },
+    {
+      "enum": [
+        1,
+        "dftTermTime"
+      ],
+      "description": "Terminate on time"
+    },
+    {
+      "enum": [
+        2,
+        "dftTermFirst"
+      ],
+      "description": "Terminate on first occurring"
+    },
+    {
+      "enum": [
+        3,
+        "dftTermLast"
+      ],
+      "description": "Terminate on last occurring"
+    },
+    {
+      "enum": [
+        4,
+        "dftTermSensor"
+      ],
+      "description": "Terminate on sensor"
+    },
+    {
+      "enum": [
+        5,
+        "dftTermDischarge"
+      ],
+      "description": "Terminate on discharge"
+    },
+    {
+      "enum": [
+        6,
+        "dftTermReturn"
+      ],
+      "description": "Terminate on return"
+    },
+    {
+      "enum": [
+        7,
+        "dftTermSwOpen"
+      ],
+      "description": "Terminate on Switch Open"
+    },
+    {
+      "enum": [
+        8,
+        "dftTermSwClose"
+      ],
+      "description": "Terminate on Switch Closed"
+    },
+    {
+      "enum": [
+        100,
+        "dftTermManuf"
+      ],
+      "description": "Manufacturer-Defined termination state"
+    },
+    {
+      "enum": [
+        255,
+        "dftNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

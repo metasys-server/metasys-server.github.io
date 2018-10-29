@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/states011EnumSet.schema.json",
+  "title": "states011EnumSet",
+  "description": "States (0-11)",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "state110"
+      ],
+      "description": "State 0"
+    },
+    {
+      "enum": [
+        1,
+        "state111"
+      ],
+      "description": "State 1"
+    },
+    {
+      "enum": [
+        2,
+        "state112"
+      ],
+      "description": "State 2"
+    },
+    {
+      "enum": [
+        3,
+        "state113"
+      ],
+      "description": "State 3"
+    },
+    {
+      "enum": [
+        4,
+        "state114"
+      ],
+      "description": "State 4"
+    },
+    {
+      "enum": [
+        5,
+        "state115"
+      ],
+      "description": "State 5"
+    },
+    {
+      "enum": [
+        6,
+        "state116"
+      ],
+      "description": "State 6"
+    },
+    {
+      "enum": [
+        7,
+        "state117"
+      ],
+      "description": "State 7"
+    },
+    {
+      "enum": [
+        8,
+        "state118"
+      ],
+      "description": "State 8"
+    },
+    {
+      "enum": [
+        9,
+        "state119"
+      ],
+      "description": "State 9"
+    },
+    {
+      "enum": [
+        10,
+        "state1110"
+      ],
+      "description": "State 10"
+    },
+    {
+      "enum": [
+        11,
+        "state1111"
+      ],
+      "description": "State 11"
+    }
+  ]
+}

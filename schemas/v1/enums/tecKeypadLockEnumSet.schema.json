@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecKeypadLockEnumSet.schema.json",
+  "title": "tecKeypadLockEnumSet",
+  "description": "TEC Keypad Lock",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecKeypadNotUsed"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        1,
+        "tecKeypadNoLock"
+      ],
+      "description": "No Lock"
+    },
+    {
+      "enum": [
+        2,
+        "tecKeypadLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        3,
+        "tecKeypadHigh"
+      ],
+      "description": "High"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/devDiscoveryColumnEnumSet.schema.json",
+  "title": "devDiscoveryColumnEnumSet",
+  "description": "Dev Discovery Column",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "devDiscColumnAddr"
+      ],
+      "description": "Address"
+    },
+    {
+      "enum": [
+        1,
+        "devDiscColumnType"
+      ],
+      "description": "Type"
+    },
+    {
+      "enum": [
+        2,
+        "devDiscColumnModel"
+      ],
+      "description": "Model"
+    },
+    {
+      "enum": [
+        3,
+        "devDiscColumnStatus"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        4,
+        "devDiscColumnMapped"
+      ],
+      "description": "Mapped"
+    }
+  ]
+}

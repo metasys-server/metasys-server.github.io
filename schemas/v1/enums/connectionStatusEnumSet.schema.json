@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectionStatusEnumSet.schema.json",
+  "title": "connectionStatusEnumSet",
+  "description": "Connection Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Disconnected"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Connecting"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Disconnecting"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Connected"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "No Available Port"
+    }
+  ]
+}

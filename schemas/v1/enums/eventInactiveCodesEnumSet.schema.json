@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eventInactiveCodesEnumSet.schema.json",
+  "title": "eventInactiveCodesEnumSet",
+  "description": "Event Inactive Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "eventInactiveCodeNotDefined"
+      ],
+      "description": "Event Inactive Not Defined"
+    },
+    {
+      "enum": [
+        1,
+        "eventInactiveCodeEventGeneratorConfigured"
+      ],
+      "description": "Event Generator Configured Correctly"
+    },
+    {
+      "enum": [
+        2,
+        "eventInactiveCodeRebootComplete"
+      ],
+      "description": "Reboot Complete"
+    },
+    {
+      "enum": [
+        3,
+        "eventInactiveCodeCalibrationErrorCorrected"
+      ],
+      "description": "Calibration Data Error Corrected"
+    },
+    {
+      "enum": [
+        100,
+        "eventInactiveCode100"
+      ],
+      "description": "Corrected Not Economizing When It Should"
+    },
+    {
+      "enum": [
+        101,
+        "eventInactiveCode101"
+      ],
+      "description": "Corrected Economizing When It Should Not"
+    },
+    {
+      "enum": [
+        102,
+        "eventInactiveCode102"
+      ],
+      "description": "Corrected Economizer Damper Not Modulating"
+    },
+    {
+      "enum": [
+        103,
+        "eventInactiveCode103"
+      ],
+      "description": "Corrected Economizer Letting In Excess Outdoor Air"
+    },
+    {
+      "enum": [
+        104,
+        "eventInactiveCode104"
+      ],
+      "description": "Outdoor Air Temp Sensor Operational"
+    },
+    {
+      "enum": [
+        105,
+        "eventInactiveCode105"
+      ],
+      "description": "Return Air Temp Sensor Operational"
+    },
+    {
+      "enum": [
+        106,
+        "eventInactiveCode106"
+      ],
+      "description": "Supply Air Temp Sensor Operational"
+    },
+    {
+      "enum": [
+        107,
+        "eventInactiveCode107"
+      ],
+      "description": "24 VAC Supply Input Operational"
+    },
+    {
+      "enum": [
+        108,
+        "eventInactiveCode108"
+      ],
+      "description": "Evaporator Coil Temp 1 Sensor Operational"
+    },
+    {
+      "enum": [
+        109,
+        "eventInactiveCode109"
+      ],
+      "description": "Condenser Coil Temp 1 Sensor Operational"
+    }
+  ]
+}

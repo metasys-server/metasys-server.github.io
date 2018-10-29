@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dfcapctrlEnumSet.schema.json",
+  "title": "dfcapctrlEnumSet",
+  "description": "DF Cap Ctrl",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Duct Press"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Position"
+    }
+  ]
+}

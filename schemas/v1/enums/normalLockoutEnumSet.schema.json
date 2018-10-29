@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalLockoutEnumSet.schema.json",
+  "title": "normalLockoutEnumSet",
+  "description": "Normal Lockout",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "lockout"
+      ],
+      "description": "Lockout"
+    }
+  ]
+}

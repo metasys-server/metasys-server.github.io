@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/shutdownEnableTwoStEnumSet.schema.json",
+  "title": "shutdownEnableTwoStEnumSet",
+  "description": "Shutdown Enable",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sdwnEnblTsShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        1,
+        "sdwnEnblTsEnable"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        2,
+        "sdwnEnblTsHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

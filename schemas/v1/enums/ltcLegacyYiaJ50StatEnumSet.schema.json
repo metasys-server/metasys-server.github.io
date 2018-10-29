@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJ50StatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJ50StatEnumSet",
+  "description": "York LTC Legacy YIA J50 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJ50Stat0"
+      ],
+      "description": "Auto Restart"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJ50Stat1"
+      ],
+      "description": "Manual Restart"
+    }
+  ]
+}

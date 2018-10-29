@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/notAvailableAvailableEnumSet.schema.json",
+  "title": "notAvailableAvailableEnumSet",
+  "description": "Not Available/Available",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "naaNotAvailable"
+      ],
+      "description": "Not Available"
+    },
+    {
+      "enum": [
+        1,
+        "naaAvailable"
+      ],
+      "description": "Available"
+    }
+  ]
+}le"
+    },
+    {
+      "enum": [
+        2,
+        "navailAvailHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/interlockTypeEnumSet.schema.json",
+  "title": "interlockTypeEnumSet",
+  "description": "Interlock Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ilktypeNone"
+      ],
+      "description": "No Interlock Defined"
+    },
+    {
+      "enum": [
+        1,
+        "ilktypeOne"
+      ],
+      "description": "One Condition"
+    },
+    {
+      "enum": [
+        2,
+        "ilktypeTwoAnd"
+      ],
+      "description": "Two Conditions (AND)"
+    },
+    {
+      "enum": [
+        3,
+        "ilktypeTwoOr"
+      ],
+      "description": "Two Conditions (OR)"
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ystSc2EnumSet.schema.json",
+  "title": "ystSc2EnumSet",
+  "description": "YST Safety Fault Code SC.2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ystSc20"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ystSc21"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "ystSc22"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        3,
+        "ystSc23"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        4,
+        "ystSc24"
+      ],
+      "description": "EVAPORATOR - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "ystSc25"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    },
+    {
+      "enum": [
+        6,
+        "ystSc26"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        7,
+        "ystSc27"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        8,
+        "ystSc28"
+      ],
+      "description": "CONDENSER - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        9,
+        "ystSc29"
+      ],
+      "description": "AUXILIARY SAFETY - CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        10,
+        "ystSc210"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE (MANUAL RESTART)"
+    },
+    {
+      "enum": [
+        11,
+        "ystSc211"
+      ],
+      "description": "DISCHARGE - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        12,
+        "ystSc212"
+      ],
+      "description": "DISCHARGE - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        13,
+        "ystSc213"
+      ],
+      "description": "COMPRESSOR OIL - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        14,
+        "ystSc214"
+      ],
+      "description": "COMPRESSOR OIL - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        15,
+        "ystSc215"
+      ],
+      "description": "COMPRESSOR OIL - HIGH DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        16,
+        "ystSc216"
+      ],
+      "description": "COMPRESSOR OIL - PUMP PRESS XDCR OUT OF RANGE"
+    },
+    {
+      "enum": [
+        17,
+        "ystSc217"
+      ],
+      "description": "COMPRESSOR OIL - SUMP PRESS XDCR OUT OF RANGE"
+    },
+    {
+      "enum": [
+        18,
+        "ystSc218"
+      ],
+      "description": "COMPRESSOR OIL - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        19,
+        "ystSc219"
+      ],
+      "description": "COMPRESSOR OIL - DIFFERENTIAL PRESSURE CALIBRATION"
+    },
+    {
+      "enum": [
+        20,
+        "ystSc220"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ystSc221"
+      ],
+      "description": "OIL - VARIABLE SPEED PUMP - SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        22,
+        "ystSc222"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE CLEARANCE - FWD"
+    },
+    {
+      "enum": [
+        23,
+        "ystSc223"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE CLEARANCE - REV"
+    },
+    {
+      "enum": [
+        24,
+        "ystSc224"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE UNCALIBRATED"
+    },
+    {
+      "enum": [
+        25,
+        "ystSc225"
+      ],
+      "description": "THRUST BEARING - PROXIMITY PROBE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        26,
+        "ystSc226"
+      ],
+      "description": "THRUST BEARING - LIMIT SWITCH"
+    },
+    {
+      "enum": [
+        27,
+        "ystSc227"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ystSc228"
+      ],
+      "description": "TURBINE - LOW OIL PRESSURE"
+    },
+    {
+      "enum": [
+        29,
+        "ystSc229"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ystSc230"
+      ],
+      "description": "TURBINE - HIGH OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        31,
+        "ystSc231"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ystSc232"
+      ],
+      "description": "TURBINE - GOVERNOR END BEARING HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        33,
+        "ystSc233"
+      ],
+      "description": "TURBINE - SHAFT END BEARING HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        34,
+        "ystSc234"
+      ],
+      "description": "TURBINE - GOVERNOR END VIBRATION"
+    },
+    {
+      "enum": [
+        35,
+        "ystSc235"
+      ],
+      "description": "TURBINE - SHAFT END VIBRATION"
+    },
+    {
+      "enum": [
+        36,
+        "ystSc236"
+      ],
+      "description": "TURBINE - HIGH INLET STEAM PRESSURE"
+    },
+    {
+      "enum": [
+        37,
+        "ystSc237"
+      ],
+      "description": "TURBINE - HIGH EXHAUST STEAM PRESSURE"
+    },
+    {
+      "enum": [
+        38,
+        "ystSc238"
+      ],
+      "description": "TURBINE - HOTWELL LOW LEVEL"
+    },
+    {
+      "enum": [
+        39,
+        "ystSc239"
+      ],
+      "description": "TURBINE - HOTWELL HIGH LEVEL - ANALOG"
+    },
+    {
+      "enum": [
+        40,
+        "ystSc240"
+      ],
+      "description": "TURBINE - HOTWELL PUMP FAILURE"
+    },
+    {
+      "enum": [
+        41,
+        "ystSc241"
+      ],
+      "description": "TURBINE - VACUUM SEAL FAILURE"
+    },
+    {
+      "enum": [
+        42,
+        "ystSc242"
+      ],
+      "description": "TURBINE - VACUUM PUMP FAILURE"
+    },
+    {
+      "enum": [
+        43,
+        "ystSc243"
+      ],
+      "description": "TURBINE - HIGH VACUUM PRESSURE"
+    },
+    {
+      "enum": [
+        44,
+        "ystSc244"
+      ],
+      "description": "TURBINE - UNDERSPEED WHILE STARTING"
+    },
+    {
+      "enum": [
+        45,
+        "ystSc245"
+      ],
+      "description": "TURBINE - UNDERSPEED WHILE RUNNING"
+    },
+    {
+      "enum": [
+        46,
+        "ystSc246"
+      ],
+      "description": "TURBINE - STEAM SUPPLY VALVE MALFUNCTION"
+    },
+    {
+      "enum": [
+        47,
+        "ystSc247"
+      ],
+      "description": "TURBINE - OVERSPEED"
+    },
+    {
+      "enum": [
+        48,
+        "ystSc248"
+      ],
+      "description": "TURBINE - MECHANICAL OVERSPEED TEST FAILURE"
+    },
+    {
+      "enum": [
+        49,
+        "ystSc249"
+      ],
+      "description": "TURBINE - UNDERSPEED DIP WHILE STARTING"
+    },
+    {
+      "enum": [
+        50,
+        "ystSc250"
+      ],
+      "description": "TURBINE - UNDERSPEED DIP WHILE RUNNING"
+    },
+    {
+      "enum": [
+        51,
+        "ystSc251"
+      ],
+      "description": "TURBINE - EXCESSIVE SLOW ROLL"
+    },
+    {
+      "enum": [
+        52,
+        "ystSc252"
+      ],
+      "description": "TURBINE - MECHANICAL TRIP"
+    },
+    {
+      "enum": [
+        53,
+        "ystSc253"
+      ],
+      "description": "TURBINE - EXCESSIVE START DELAY"
+    },
+    {
+      "enum": [
+        54,
+        "ystSc254"
+      ],
+      "description": "TURBINE - SHAFT BEARING TEMPERATURE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        55,
+        "ystSc255"
+      ],
+      "description": "TURBINE - OIL TEMPERATURE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        56,
+        "ystSc256"
+      ],
+      "description": "TURBINE - OIL PRESSURE OUT OF RANGE"
+    },
+    {
+      "enum": [
+        57,
+        "ystSc257"
+      ],
+      "description": "TURBINE - HOTWELL HIGH LEVEL - DIGITAL"
+    },
+    {
+      "enum": [
+        58,
+        "ystSc258"
+      ],
+      "description": "MPU FAILURE"
+    },
+    {
+      "enum": [
+        59,
+        "ystSc259"
+      ],
+      "description": "SLOW ROLL OVERSPEED"
+    },
+    {
+      "enum": [
+        60,
+        "ystSc260"
+      ],
+      "description": "TURBINE - GOVERNOR END HORIZONTAL VIBRATION"
+    },
+    {
+      "enum": [
+        61,
+        "ystSc261"
+      ],
+      "description": "TURBINE - GOVERNOR END VERTICAL VIBRATION"
+    },
+    {
+      "enum": [
+        62,
+        "ystSc262"
+      ],
+      "description": "TURBINE - SHAFT END HORIZONTAL VIBRATION"
+    },
+    {
+      "enum": [
+        63,
+        "ystSc263"
+      ],
+      "description": "TURBINE - GOVERNOR END VERTICAL VIBRATION"
+    },
+    {
+      "enum": [
+        64,
+        "ystSc264"
+      ],
+      "description": "TURBINE - GOVR END HORIZ VIBRATION OUT OF RANGE"
+    },
+    {
+      "enum": [
+        65,
+        "ystSc265"
+      ],
+      "description": "TURBINE - GOV END VERT VIBRATION OUT OF RANGE"
+    },
+    {
+      "enum": [
+        66,
+        "ystSc266"
+      ],
+      "description": "TURBINE - SHAFT END HORIZ VIBRATION OUT OF RANGE"
+    },
+    {
+      "enum": [
+        67,
+        "ystSc267"
+      ],
+      "description": "TURBINE - GOV END VERT VIBRATION OUT OF RANGE"
+    },
+    {
+      "enum": [
+        68,
+        "ystSc268"
+      ],
+      "description": "COMPRESSOR - HORIZ VIBRATION OUT OF RANGE"
+    },
+    {
+      "enum": [
+        69,
+        "ystSc269"
+      ],
+      "description": "COMPRESSOR - VERTICAL VIBRATION OUT OF RANGE"
+    },
+    {
+      "enum": [
+        70,
+        "ystSc270"
+      ],
+      "description": "SAFETY SHUTDOWN - STEAM SUPPLY OUT OF RANGE"
+    }
+  ]
+}

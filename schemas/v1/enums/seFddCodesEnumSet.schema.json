@@ -1,0 +1,575 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seFddCodesEnumSet.schema.json",
+  "title": "seFddCodesEnumSet",
+  "description": "SE FDD Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seFddUnknownStatus"
+      ],
+      "description": "Unknown Status"
+    },
+    {
+      "enum": [
+        1,
+        "seFddBasicDataNotAvailableManualEntry"
+      ],
+      "description": "Basic Data Not Available Manual Entry"
+    },
+    {
+      "enum": [
+        2,
+        "seFddBasicDataNotAvailable"
+      ],
+      "description": "Basic Data Not Available"
+    },
+    {
+      "enum": [
+        3,
+        "seFddRwbNotAvailable"
+      ],
+      "description": "Return Wet Bulb Temp Not Available"
+    },
+    {
+      "enum": [
+        4,
+        "seFddRaAndHumidityNotAvailable"
+      ],
+      "description": "Return Air Temp And Humidity Not Available"
+    },
+    {
+      "enum": [
+        5,
+        "seFddRaNotAvailable"
+      ],
+      "description": "Return Air Temp Not Available"
+    },
+    {
+      "enum": [
+        6,
+        "seFddSensorNotAttachedToTool"
+      ],
+      "description": "Basic Data Not Available"
+    },
+    {
+      "enum": [
+        7,
+        "seFddToolNotConnectedToUnit"
+      ],
+      "description": "Basic Data Not Available"
+    },
+    {
+      "enum": [
+        8,
+        "seFddUnitOff"
+      ],
+      "description": "Unit is Off"
+    },
+    {
+      "enum": [
+        9,
+        "seFddAmbOutOfChrgChartRange"
+      ],
+      "description": "Ambient Temp Out Of Range"
+    },
+    {
+      "enum": [
+        10,
+        "seFddRwbOutOfChrgChartRange"
+      ],
+      "description": "Return Air Wet-Bulb Temp Out Of Range"
+    },
+    {
+      "enum": [
+        11,
+        "seFddAmbAndRwbOutOfChrgChartRange"
+      ],
+      "description": "Ambient And Return Air Wet-Bulb Temp Out Of Range"
+    },
+    {
+      "enum": [
+        12,
+        "seFddAmbientTooLow"
+      ],
+      "description": "Ambient Temp Too Low"
+    },
+    {
+      "enum": [
+        13,
+        "seFddAmbientTooHi"
+      ],
+      "description": "Ambient Temp Too High"
+    },
+    {
+      "enum": [
+        14,
+        "seFddRwbTooLow"
+      ],
+      "description": "Return Air Wet-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        15,
+        "seFddRwbTooHi"
+      ],
+      "description": "Return Air Wet-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        16,
+        "seFddNegativeCondensingTempOverAmbient"
+      ],
+      "description": "Invalid Discharge Pressure or Ambient"
+    },
+    {
+      "enum": [
+        17,
+        "seFddNegativeSubcooling"
+      ],
+      "description": "Invalid Liquid Temp Greater Than Condensing Temp"
+    },
+    {
+      "enum": [
+        18,
+        "seFddNegativeSuperheat"
+      ],
+      "description": "Invalid Suction Temp or Suction Pressure"
+    },
+    {
+      "enum": [
+        19,
+        "seFddInvalidEvapTempOrAmbient"
+      ],
+      "description": "Invalid Suction Pressure or Ambient"
+    },
+    {
+      "enum": [
+        20,
+        "seFddInvalidLtOrAmb"
+      ],
+      "description": "Invalid Liquid Temp or Ambient"
+    },
+    {
+      "enum": [
+        21,
+        "seFddInvalidEtOrRa"
+      ],
+      "description": "Invalid Suction Pressure or Return Air Temp"
+    },
+    {
+      "enum": [
+        22,
+        "seFddInvalidLtOrRa"
+      ],
+      "description": "Invalid Liquid Temp or Return Air Temp"
+    },
+    {
+      "enum": [
+        23,
+        "seFddInvalidLpOrAmb"
+      ],
+      "description": "Invalid Liquid Pressure or Ambient"
+    },
+    {
+      "enum": [
+        24,
+        "seFddInvalidStOrAmb"
+      ],
+      "description": "Invalid Suction Temp or Ambient"
+    },
+    {
+      "enum": [
+        25,
+        "seFddInvalidRaOrSa"
+      ],
+      "description": "Invalid Return Air Temp or Supply Air Temp"
+    },
+    {
+      "enum": [
+        26,
+        "seFddInvalidSaOrEt"
+      ],
+      "description": "Invalid Supply Air Temp or Suction Pressure"
+    },
+    {
+      "enum": [
+        27,
+        "seFddInvalidRaOrRwb"
+      ],
+      "description": "Invalid Return Air Dry-Bulb or Return Air Wet-Bulb"
+    },
+    {
+      "enum": [
+        28,
+        "seFddInvalidSaOrSwb"
+      ],
+      "description": "Invalid Supply Air or Supply Air Wet-Bulb"
+    },
+    {
+      "enum": [
+        29,
+        "seFddInvalidRwbOrSwb"
+      ],
+      "description": "Invalid Return Air Wet-Bulb or Supply Air Wet-Bulb"
+    },
+    {
+      "enum": [
+        30,
+        "seFddInvalidLpAndSp"
+      ],
+      "description": "Invalid Liquid Pressure and Suction Pressure"
+    },
+    {
+      "enum": [
+        31,
+        "seFddInvalidSt"
+      ],
+      "description": "Invalid Suction Temp"
+    },
+    {
+      "enum": [
+        32,
+        "seFddInvalidLtAndSt"
+      ],
+      "description": "Invalid Liquid Temp And Suction Temp"
+    },
+    {
+      "enum": [
+        33,
+        "seFddUnfavorableTestCondition"
+      ],
+      "description": "Unfavorable Test Condition Retest At Another Time"
+    },
+    {
+      "enum": [
+        34,
+        "seFddRefrigerantRestriction1"
+      ],
+      "description": "Refrigerant Flow Restriction"
+    },
+    {
+      "enum": [
+        35,
+        "seFddRefrigerantOrificeTooLarge"
+      ],
+      "description": "Excessive Refrigerant Flow"
+    },
+    {
+      "enum": [
+        36,
+        "seFddInefficientCompressor"
+      ],
+      "description": "Inefficient Compressor"
+    },
+    {
+      "enum": [
+        37,
+        "seFddNonCondensables"
+      ],
+      "description": "Non-Condensables"
+    },
+    {
+      "enum": [
+        38,
+        "seFddRestrictionOrNonCondensables"
+      ],
+      "description": "Flow Restriction Caused By Non-Condensables"
+    },
+    {
+      "enum": [
+        39,
+        "seFddHiSideHtXferPrblm"
+      ],
+      "description": "High Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        40,
+        "seFddHiSideHtXferPrblmAddChrg"
+      ],
+      "description": "High Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        41,
+        "seFddHiSideHtXferPrblmAddChrgCrfulHiSubcool"
+      ],
+      "description": "High Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        42,
+        "seFddLoSideHtXferPrblmFixedOrifice"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        43,
+        "seFddLoSideHtXferPrblmThrmlXpansionVlv"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        44,
+        "seFddLoSideHtXferPrblmAddChrg1"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        45,
+        "seFddLoSideHtXferPrblmAddChrg2"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        46,
+        "seFddLoSideHtXferPrblmAddChrgOrRestriction1"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        47,
+        "seFddLoSideHtXferPrblmAddChrgOrRestriction2"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        48,
+        "seFddLoSideHtXferPrblm"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        49,
+        "seFddReduceEvaporatorAirflow"
+      ],
+      "description": "Reduce Evaporator Airflow"
+    },
+    {
+      "enum": [
+        50,
+        "seFddAddChrgFixedOrifice"
+      ],
+      "description": "Add Charge"
+    },
+    {
+      "enum": [
+        51,
+        "seFddAddChrgFixedOrifice2"
+      ],
+      "description": "Add Charge"
+    },
+    {
+      "enum": [
+        52,
+        "seFddAddChrgFixedOrifice3"
+      ],
+      "description": "Add Charge"
+    },
+    {
+      "enum": [
+        53,
+        "seFddAddChrgFixedOrifice4"
+      ],
+      "description": "Add Charge"
+    },
+    {
+      "enum": [
+        54,
+        "seFddAddChrgOrRestrictionFixedOrifice"
+      ],
+      "description": "Refrigerant Flow Restriction"
+    },
+    {
+      "enum": [
+        55,
+        "seFddRecoverChargeFixedOrifice"
+      ],
+      "description": "Recover Charge"
+    },
+    {
+      "enum": [
+        56,
+        "seFddRecoverChargeFixedOrifice2"
+      ],
+      "description": "Recover Charge"
+    },
+    {
+      "enum": [
+        57,
+        "seFddRecoverChargeFixedOrifice3"
+      ],
+      "description": "Recover Charge"
+    },
+    {
+      "enum": [
+        58,
+        "seFddAddChrgThrmlXpansionVlv"
+      ],
+      "description": "Add Charge"
+    },
+    {
+      "enum": [
+        59,
+        "seFddAddChrgThrmlXpansionVlv2"
+      ],
+      "description": "Add Charge"
+    },
+    {
+      "enum": [
+        60,
+        "seFddAddChrgCrfulLoSuperheatThrmlXpansionVlv"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        61,
+        "seFddAddChrgCrfulLoSuperheatThrmlXpansionVlv2"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        62,
+        "seFddRecoverChrgThrmlXpansionVlv"
+      ],
+      "description": "Recover Charge"
+    },
+    {
+      "enum": [
+        63,
+        "seFddRecoverChrgThrmlXpansionVlv2"
+      ],
+      "description": "Recover Charge"
+    },
+    {
+      "enum": [
+        64,
+        "seFddRecoverChrgThrmlXpansionVlv3"
+      ],
+      "description": "Recover Charge"
+    },
+    {
+      "enum": [
+        65,
+        "seFddFaultyThrmlXpansionVlvHiSuperheat"
+      ],
+      "description": "Refrigerant flow restriction"
+    },
+    {
+      "enum": [
+        66,
+        "seFddFaultyThrmlXpansionVlvLoSuperheat"
+      ],
+      "description": "Excessive Refrigerant Flow"
+    },
+    {
+      "enum": [
+        67,
+        "seFddColdEvaporator"
+      ],
+      "description": "Low Side Heat Transfer Problem"
+    },
+    {
+      "enum": [
+        68,
+        "seFddOk"
+      ],
+      "description": "Safe And Reasonable Performance"
+    },
+    {
+      "enum": [
+        69,
+        "seFddRdbTooLow"
+      ],
+      "description": "Return Air Dry-Bulb Temp Too Low"
+    },
+    {
+      "enum": [
+        70,
+        "seFddRdbTooHi"
+      ],
+      "description": "Return Air Dry-Bulb Temp Too High"
+    },
+    {
+      "enum": [
+        71,
+        "seFddEerTooLow"
+      ],
+      "description": "Unit Energy Efficiency Ratio Too Low"
+    },
+    {
+      "enum": [
+        72,
+        "seFddEerTooHi"
+      ],
+      "description": "Unit Energy Efficiency Ratio Too High"
+    },
+    {
+      "enum": [
+        73,
+        "seFddLowUnitEfficiencyIndicator"
+      ],
+      "description": "Unit EI below 75% expected performance"
+    },
+    {
+      "enum": [
+        74,
+        "seFddLowUnitCapacityIndicator"
+      ],
+      "description": "Unit CI below 75% expected performance"
+    },
+    {
+      "enum": [
+        75,
+        "seFddLowUnitEfficiencyAndCapacityIndicator"
+      ],
+      "description": "Unit EI & CI below 75% expected performance"
+    },
+    {
+      "enum": [
+        1000,
+        "seFddLocalSensorUnreliable"
+      ],
+      "description": "FDD Sensor Unreliable"
+    },
+    {
+      "enum": [
+        1001,
+        "seFddUcbSensorUnreliable"
+      ],
+      "description": "Driving Conditions Unreliable"
+    },
+    {
+      "enum": [
+        1002,
+        "seFddEquipInfoUnreliable"
+      ],
+      "description": "Equipment Info Unreliable"
+    },
+    {
+      "enum": [
+        1003,
+        "seFddInitializedAwaitingSteadyState"
+      ],
+      "description": "Initialized Awaiting Steady State"
+    },
+    {
+      "enum": [
+        1004,
+        "seFddHeatPumpActiveNoDiagnostics"
+      ],
+      "description": "Heat Pump Active Diagnostics Not Available"
+    }
+  ]
+}

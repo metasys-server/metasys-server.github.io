@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavHybridPvdcStateEnumSet.schema.json",
+  "title": "vavHybridPvdcStateEnumSet",
+  "description": "VAV Hybrid PVDC State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vhpsBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        1,
+        "vhpsHoldPosition"
+      ],
+      "description": "Hold Position"
+    },
+    {
+      "enum": [
+        2,
+        "vhpsClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        3,
+        "vhpsControlFlowUnrel"
+      ],
+      "description": "Control Flow Unreliable"
+    },
+    {
+      "enum": [
+        4,
+        "vhpsControlFlowRel"
+      ],
+      "description": "Control Flow Reliable"
+    },
+    {
+      "enum": [
+        5,
+        "vhpsEstReset"
+      ],
+      "description": "Estimate Reset"
+    }
+  ]
+}

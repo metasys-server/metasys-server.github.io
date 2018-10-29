@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occupancyEffectiveEnumSet.schema.json",
+  "title": "occupancyEffectiveEnumSet",
+  "description": "Occ Effective",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "effectiveOccupancyOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "effectiveOccupancyUnoccupied"
+      ],
+      "description": "UnOccupied"
+    },
+    {
+      "enum": [
+        2,
+        "effectiveOccupancyBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        3,
+        "effectiveOccupancyStandby"
+      ],
+      "description": "Standby"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timeSyncEnumSet.schema.json",
+  "title": "timeSyncEnumSet",
+  "description": "Time Synchronization",
+  "oneOf": [
+    {
+      "enum": [
+        6,
+        "ts1Minute"
+      ],
+      "description": "1 minute"
+    },
+    {
+      "enum": [
+        7,
+        "ts2Minute"
+      ],
+      "description": "2 minutes"
+    },
+    {
+      "enum": [
+        8,
+        "ts4Minute"
+      ],
+      "description": "4 minutes"
+    },
+    {
+      "enum": [
+        9,
+        "ts9Minute"
+      ],
+      "description": "9 minutes"
+    },
+    {
+      "enum": [
+        10,
+        "ts17Minute"
+      ],
+      "description": "17 minutes"
+    },
+    {
+      "enum": [
+        11,
+        "ts34Minute"
+      ],
+      "description": "34 minutes"
+    },
+    {
+      "enum": [
+        12,
+        "ts1Hour"
+      ],
+      "description": "1 hour"
+    },
+    {
+      "enum": [
+        13,
+        "ts2Hour"
+      ],
+      "description": "2 hours"
+    },
+    {
+      "enum": [
+        14,
+        "ts5Hour"
+      ],
+      "description": "5 hours"
+    },
+    {
+      "enum": [
+        15,
+        "ts9Hour"
+      ],
+      "description": "9 hours"
+    },
+    {
+      "enum": [
+        16,
+        "ts18Hour"
+      ],
+      "description": "18 hours"
+    },
+    {
+      "enum": [
+        17,
+        "ts36Hour"
+      ],
+      "description": "36 hours"
+    }
+  ]
+}

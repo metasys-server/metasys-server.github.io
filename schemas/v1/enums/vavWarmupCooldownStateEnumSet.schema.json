@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavWarmupCooldownStateEnumSet.schema.json",
+  "title": "vavWarmupCooldownStateEnumSet",
+  "description": "VAV Warmup Cooldown State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vwcNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "vwcWarmup"
+      ],
+      "description": "Warmup"
+    },
+    {
+      "enum": [
+        2,
+        "vwcWarmupUnrel"
+      ],
+      "description": "Warmup Unreliable"
+    },
+    {
+      "enum": [
+        3,
+        "vwcCooldown"
+      ],
+      "description": "Cooldown"
+    },
+    {
+      "enum": [
+        4,
+        "vwcCooldownUnrel"
+      ],
+      "description": "Cooldown Unreliable"
+    },
+    {
+      "enum": [
+        5,
+        "vwcCoast"
+      ],
+      "description": "Coast"
+    }
+  ]
+}

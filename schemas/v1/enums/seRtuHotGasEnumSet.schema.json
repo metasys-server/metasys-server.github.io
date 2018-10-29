@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuHotGasEnumSet.schema.json",
+  "title": "seRtuHotGasEnumSet",
+  "description": "SE RTU Hot Gas Reheat",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuHotGasOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuHotGasOnNormalCommand"
+      ],
+      "description": "On-Normal Command"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuHotGasOnAltOperationCmd"
+      ],
+      "description": "On-Alternate Operation Command"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuHotGasOffDisabled"
+      ],
+      "description": "Off-Disabled"
+    }
+  ]
+}

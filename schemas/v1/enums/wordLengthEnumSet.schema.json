@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/wordLengthEnumSet.schema.json",
+  "title": "wordLengthEnumSet",
+  "description": "Word Length",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bigWordLength7"
+      ],
+      "description": "7"
+    },
+    {
+      "enum": [
+        1,
+        "bigWordLength8"
+      ],
+      "description": "8"
+    }
+  ]
+}

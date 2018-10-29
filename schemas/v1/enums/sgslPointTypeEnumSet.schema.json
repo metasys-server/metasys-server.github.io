@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sgslPointTypeEnumSet.schema.json",
+  "title": "sgslPointTypeEnumSet",
+  "description": "SGSL Point Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sgslAnalog"
+      ],
+      "description": "Analog"
+    },
+    {
+      "enum": [
+        1,
+        "sgslBinary"
+      ],
+      "description": "Binary"
+    }
+  ]
+}

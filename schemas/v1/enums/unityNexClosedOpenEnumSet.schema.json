@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexClosedOpenEnumSet.schema.json",
+  "title": "unityNexClosedOpenEnumSet",
+  "description": "Unity NEX Closed/Open",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Open"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Closed"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Open"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Closed"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    }
+  ]
+}

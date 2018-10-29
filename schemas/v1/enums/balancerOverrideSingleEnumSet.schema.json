@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/balancerOverrideSingleEnumSet.schema.json",
+  "title": "balancerOverrideSingleEnumSet",
+  "description": "Balancer Override Single",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Close All"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Supply Duct Min"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Supply Duct Max"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Heating Flow"
+    }
+  ]
+}

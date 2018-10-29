@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/toolDeviceTypeEnumSet.schema.json",
+  "title": "toolDeviceTypeEnumSet",
+  "description": "Tool Device Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "toolDeviceTypeFec"
+      ],
+      "description": "FEC"
+    },
+    {
+      "enum": [
+        1,
+        "toolDeviceTypeIom"
+      ],
+      "description": "IOM"
+    },
+    {
+      "enum": [
+        2,
+        "toolDeviceTypeNetworkSa"
+      ],
+      "description": "Network Sensor/Actuator"
+    },
+    {
+      "enum": [
+        3,
+        "toolDeviceTypeLocalDisplay"
+      ],
+      "description": "Local Display"
+    },
+    {
+      "enum": [
+        4,
+        "toolDeviceTypeRomutecIom"
+      ],
+      "description": "Romutec IOM"
+    },
+    {
+      "enum": [
+        5,
+        "toolDeviceTypeSmartEquipment"
+      ],
+      "description": "Smart Equipment"
+    },
+    {
+      "enum": [
+        6,
+        "toolDeviceTypeZfr"
+      ],
+      "description": "ZigBee Field Router"
+    }
+  ]
+}

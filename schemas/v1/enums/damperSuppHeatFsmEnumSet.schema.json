@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/damperSuppHeatFsmEnumSet.schema.json",
+  "title": "damperSuppHeatFsmEnumSet",
+  "description": "Damper Supp Heat FSM States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dshFsmDamper"
+      ],
+      "description": "Damper"
+    },
+    {
+      "enum": [
+        1,
+        "dshFsmSupp"
+      ],
+      "description": "Supplemental"
+    }
+  ]
+}

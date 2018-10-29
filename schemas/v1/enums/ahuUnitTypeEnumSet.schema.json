@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuUnitTypeEnumSet.schema.json",
+  "title": "ahuUnitTypeEnumSet",
+  "description": "AHU Unit Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "autType1"
+      ],
+      "description": "Type 1"
+    },
+    {
+      "enum": [
+        1,
+        "autType2"
+      ],
+      "description": "Type 2"
+    },
+    {
+      "enum": [
+        2,
+        "autType3"
+      ],
+      "description": "Type 3"
+    },
+    {
+      "enum": [
+        3,
+        "autType4"
+      ],
+      "description": "Type 4"
+    }
+  ]
+}

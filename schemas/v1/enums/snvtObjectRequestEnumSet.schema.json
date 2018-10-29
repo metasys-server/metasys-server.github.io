@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtObjectRequestEnumSet.schema.json",
+  "title": "snvtObjectRequestEnumSet",
+  "description": "SNVT Object Request",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Report Status"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Self Test"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Report Alarm"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Report Mask"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Override"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Remove Override"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Clear Status"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Clear Alarm"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Enable Alarms"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Disable Alarms"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Manual Control"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Remote Control"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Program"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "Clear Reset"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

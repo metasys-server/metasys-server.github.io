@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/modbusAnalogFormatsEnumSet.schema.json",
+  "title": "modbusAnalogFormatsEnumSet",
+  "description": "Modbus Analog Formats",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mafUnsigned16"
+      ],
+      "description": "Unsigned 16 Bits"
+    },
+    {
+      "enum": [
+        1,
+        "mafSigned16"
+      ],
+      "description": "Signed 16 Bits"
+    },
+    {
+      "enum": [
+        2,
+        "mafExtractBits"
+      ],
+      "description": "Extract Selected Bits"
+    },
+    {
+      "enum": [
+        3,
+        "mafUnsignedHighByte"
+      ],
+      "description": "Unsigned High Byte"
+    },
+    {
+      "enum": [
+        4,
+        "mafUnsignedLowByte"
+      ],
+      "description": "Unsigned Low Byte"
+    },
+    {
+      "enum": [
+        5,
+        "mafSignedHighByte"
+      ],
+      "description": "Signed High Byte"
+    },
+    {
+      "enum": [
+        6,
+        "mafSignedLowByte"
+      ],
+      "description": "Signed Low Byte"
+    },
+    {
+      "enum": [
+        7,
+        "mafUnsigned32"
+      ],
+      "description": "Unsigned 32 Bits"
+    },
+    {
+      "enum": [
+        8,
+        "mafSigned32"
+      ],
+      "description": "Signed 32 Bits"
+    },
+    {
+      "enum": [
+        9,
+        "mafUnsigned32WordSwap"
+      ],
+      "description": "Unsigned 32 Bits With Word Swap"
+    },
+    {
+      "enum": [
+        10,
+        "mafSigned32WordSwap"
+      ],
+      "description": "Signed 32 Bits With Word Swap"
+    },
+    {
+      "enum": [
+        11,
+        "mafUnsigned32ByteSwap"
+      ],
+      "description": "Unsigned 32 Bits With Byte Swap"
+    },
+    {
+      "enum": [
+        12,
+        "mafSigned32ByteSwap"
+      ],
+      "description": "Signed 32 Bits With Byte Swap"
+    },
+    {
+      "enum": [
+        13,
+        "mafUnsigned32AllSwap"
+      ],
+      "description": "Unsigned 32 Bits With Word And Byte Swap"
+    },
+    {
+      "enum": [
+        14,
+        "mafSigned32AllSwap"
+      ],
+      "description": "Signed 32 Bits With Word And Byte Swap"
+    },
+    {
+      "enum": [
+        15,
+        "mafFloat32"
+      ],
+      "description": "32 Bit Float"
+    },
+    {
+      "enum": [
+        16,
+        "mafFloat32WordSwap"
+      ],
+      "description": "32 Bit Float With Word Swap"
+    },
+    {
+      "enum": [
+        17,
+        "mafFloat32ByteSwap"
+      ],
+      "description": "32 Bit Float With Byte Swap"
+    },
+    {
+      "enum": [
+        18,
+        "mafFloat32AllSwap"
+      ],
+      "description": "32 Bit Float With Word And Byte Swap"
+    },
+    {
+      "enum": [
+        19,
+        "mafMod1032"
+      ],
+      "description": "32 Bit Modulo 10"
+    },
+    {
+      "enum": [
+        20,
+        "mafMod1032WordSwap"
+      ],
+      "description": "32 Bit Modulo 10 With Word Swap"
+    },
+    {
+      "enum": [
+        21,
+        "mafMod100032"
+      ],
+      "description": "32 Bit Modulo 1000"
+    },
+    {
+      "enum": [
+        22,
+        "mafMod100032WordSwap"
+      ],
+      "description": "32 Bit Modulo 1000 With Word Swap"
+    },
+    {
+      "enum": [
+        23,
+        "mafMod1000032"
+      ],
+      "description": "32 Bit Modulo 10000"
+    },
+    {
+      "enum": [
+        24,
+        "mafMod1000032WordSwap"
+      ],
+      "description": "32 Bit Modulo 10000 With Word Swap"
+    }
+  ]
+}

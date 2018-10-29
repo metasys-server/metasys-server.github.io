@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/historicalStateEnumSet.schema.json",
+  "title": "historicalStateEnumSet",
+  "description": "Historical State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hseAll"
+      ],
+      "description": "All"
+    },
+    {
+      "enum": [
+        1,
+        "hseSucceeded"
+      ],
+      "description": "Succeeded"
+    },
+    {
+      "enum": [
+        2,
+        "hseFailed"
+      ],
+      "description": "Failed"
+    },
+    {
+      "enum": [
+        3,
+        "hseDeleted"
+      ],
+      "description": "Deleted"
+    },
+    {
+      "enum": [
+        4,
+        "hseAborted"
+      ],
+      "description": "Aborted"
+    }
+  ]
+}

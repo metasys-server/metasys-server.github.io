@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auroraFaultNamesEnumSet.schema.json",
+  "title": "auroraFaultNamesEnumSet",
+  "description": "Aurora Fault Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "auroraFaultNames1"
+      ],
+      "description": "Normal = No Faults"
+    },
+    {
+      "enum": [
+        2,
+        "auroraFaultNames2"
+      ],
+      "description": "E1 = Input Fault"
+    },
+    {
+      "enum": [
+        3,
+        "auroraFaultNames3"
+      ],
+      "description": "E2 = High Pressure"
+    },
+    {
+      "enum": [
+        4,
+        "auroraFaultNames4"
+      ],
+      "description": "E3 = Low Pressure"
+    },
+    {
+      "enum": [
+        5,
+        "auroraFaultNames5"
+      ],
+      "description": "E4 = Not Used"
+    },
+    {
+      "enum": [
+        6,
+        "auroraFaultNames6"
+      ],
+      "description": "E5 = Freeze Detection FP1"
+    },
+    {
+      "enum": [
+        7,
+        "auroraFaultNames7"
+      ],
+      "description": "E6 = Loss Of Charge"
+    },
+    {
+      "enum": [
+        8,
+        "auroraFaultNames8"
+      ],
+      "description": "E7 = Condensate Overflow"
+    },
+    {
+      "enum": [
+        9,
+        "auroraFaultNames9"
+      ],
+      "description": "E8 = Over-Under Voltage"
+    },
+    {
+      "enum": [
+        10,
+        "auroraFaultNames10"
+      ],
+      "description": "E9 = Airflow Monitoring"
+    },
+    {
+      "enum": [
+        11,
+        "auroraFaultNames11"
+      ],
+      "description": "E10 = Compressor Monitoring"
+    },
+    {
+      "enum": [
+        12,
+        "auroraFaultNames12"
+      ],
+      "description": "E11 = FP1 Snsr Error"
+    },
+    {
+      "enum": [
+        13,
+        "auroraFaultNames13"
+      ],
+      "description": "E12 = Refrigeration Monitoring"
+    },
+    {
+      "enum": [
+        14,
+        "auroraFaultNames14"
+      ],
+      "description": "E13 = Non Critical AXB Sensor Error"
+    },
+    {
+      "enum": [
+        15,
+        "auroraFaultNames15"
+      ],
+      "description": "E14 = Critical AXB Sensor Error"
+    },
+    {
+      "enum": [
+        16,
+        "auroraFaultNames16"
+      ],
+      "description": "E15 = Hot Water Limit"
+    },
+    {
+      "enum": [
+        17,
+        "auroraFaultNames17"
+      ],
+      "description": "E16 = VarSpdPump"
+    },
+    {
+      "enum": [
+        18,
+        "auroraFaultNames18"
+      ],
+      "description": "E30 = Zone Sensor Loss of Com"
+    },
+    {
+      "enum": [
+        19,
+        "auroraFaultNames19"
+      ],
+      "description": "E18 = Non-CritComErr"
+    },
+    {
+      "enum": [
+        20,
+        "auroraFaultNames20"
+      ],
+      "description": "E19 = CritCommErr"
+    },
+    {
+      "enum": [
+        21,
+        "auroraFaultNames21"
+      ],
+      "description": "E20 = UPC Loss of Comm to ABC"
+    }
+  ]
+}

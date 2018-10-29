@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/smokeZoneEnumSet.schema.json",
+  "title": "smokeZoneEnumSet",
+  "description": "Auto Off Press Purge",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Pressurize"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Purge"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dispContrastEnumSet.schema.json",
+  "title": "dispContrastEnumSet",
+  "description": "Display Contrast",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dispContrast10Percent"
+      ],
+      "description": "10 %"
+    },
+    {
+      "enum": [
+        1,
+        "dispContrast25Percent"
+      ],
+      "description": "25 %"
+    },
+    {
+      "enum": [
+        2,
+        "dispContrast50Percent"
+      ],
+      "description": "50 %"
+    },
+    {
+      "enum": [
+        3,
+        "dispContrast75Percent"
+      ],
+      "description": "75 %"
+    },
+    {
+      "enum": [
+        4,
+        "dispContrast90Percent"
+      ],
+      "description": "90 %"
+    }
+  ]
+}

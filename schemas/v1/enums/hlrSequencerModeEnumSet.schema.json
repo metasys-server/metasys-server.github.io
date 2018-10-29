@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrSequencerModeEnumSet.schema.json",
+  "title": "hlrSequencerModeEnumSet",
+  "description": "HLR Sequencer Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrSequencerModeAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "hlrSequencerModeStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        2,
+        "hlrSequencerModeScrubbing"
+      ],
+      "description": "Scrubbing"
+    },
+    {
+      "enum": [
+        3,
+        "hlrSequencerModeRegeneration"
+      ],
+      "description": "Regeneration"
+    }
+  ]
+}

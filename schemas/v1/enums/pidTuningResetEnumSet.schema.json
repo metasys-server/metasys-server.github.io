@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pidTuningResetEnumSet.schema.json",
+  "title": "pidTuningResetEnumSet",
+  "description": "PID Tuning Reset",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pidTuningResetNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "pidTuningReset1st"
+      ],
+      "description": "Reset 1st PID"
+    },
+    {
+      "enum": [
+        2,
+        "pidTuningReset2nd"
+      ],
+      "description": "Reset 2nd PID"
+    },
+    {
+      "enum": [
+        3,
+        "pidTuningReset3rd"
+      ],
+      "description": "Reset 3rd PID"
+    },
+    {
+      "enum": [
+        4,
+        "pidTuningReset4th"
+      ],
+      "description": "Reset 4th PID"
+    }
+  ]
+}

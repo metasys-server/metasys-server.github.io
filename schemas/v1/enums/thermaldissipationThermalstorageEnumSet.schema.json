@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/thermaldissipationThermalstorageEnumSet.schema.json",
+  "title": "thermaldissipationThermalstorageEnumSet",
+  "description": "Thermal Dissipation Thermal Storage",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Thermal Dissipation"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Thermal Storage"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

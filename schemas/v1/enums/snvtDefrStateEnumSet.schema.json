@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtDefrStateEnumSet.schema.json",
+  "title": "snvtDefrStateEnumSet",
+  "description": "SNVT Defrost State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Pump Down"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Defrost"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Drain Down"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Injection Delay"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

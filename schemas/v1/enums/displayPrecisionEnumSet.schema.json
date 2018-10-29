@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/displayPrecisionEnumSet.schema.json",
+  "title": "displayPrecisionEnumSet",
+  "description": "Display Precision",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "displayPrecisionPt000001"
+      ],
+      "description": "1000000ths"
+    },
+    {
+      "enum": [
+        1,
+        "displayPrecisionPt00001"
+      ],
+      "description": "100000ths"
+    },
+    {
+      "enum": [
+        2,
+        "displayPrecisionPt0001"
+      ],
+      "description": "10000ths"
+    },
+    {
+      "enum": [
+        3,
+        "displayPrecisionPt001"
+      ],
+      "description": "1000ths"
+    },
+    {
+      "enum": [
+        4,
+        "displayPrecisionPt01"
+      ],
+      "description": "100ths"
+    },
+    {
+      "enum": [
+        5,
+        "displayPrecisionPt1"
+      ],
+      "description": "10ths"
+    },
+    {
+      "enum": [
+        6,
+        "displayPrecision1"
+      ],
+      "description": "1s"
+    },
+    {
+      "enum": [
+        7,
+        "displayPrecision10"
+      ],
+      "description": "10s"
+    },
+    {
+      "enum": [
+        8,
+        "displayPrecision100"
+      ],
+      "description": "100s"
+    },
+    {
+      "enum": [
+        9,
+        "displayPrecision1000"
+      ],
+      "description": "1000s"
+    },
+    {
+      "enum": [
+        10,
+        "displayPrecision10000"
+      ],
+      "description": "10000s"
+    },
+    {
+      "enum": [
+        11,
+        "displayPrecision100000"
+      ],
+      "description": "100000s"
+    },
+    {
+      "enum": [
+        12,
+        "displayPrecision1000000"
+      ],
+      "description": "1000000s"
+    }
+  ]
+}

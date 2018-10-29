@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorRdr2SAInputEnumSet.schema.json",
+  "title": "connectorRdr2SAInputEnumSet",
+  "description": "Connector RDR2S-A Input",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorRdr2SAInputReader1DoorContact"
+      ],
+      "description": "Reader 1 Door Contact (T1 IN1)"
+    },
+    {
+      "enum": [
+        1,
+        "connectorRdr2SAInputReader1Rex"
+      ],
+      "description": "Reader 1 REX (T1 IN2)"
+    },
+    {
+      "enum": [
+        2,
+        "connectorRdr2SAInputReader2DoorContact"
+      ],
+      "description": "Reader 2 Door Contact (T2 IN1)"
+    },
+    {
+      "enum": [
+        3,
+        "connectorRdr2SAInputReader2Rex"
+      ],
+      "description": "Reader 2 REX (T2 IN2)"
+    },
+    {
+      "enum": [
+        4,
+        "connectorRdr2SAInputReader1Spare"
+      ],
+      "description": "Reader 1 Spare (T1 IN3)"
+    },
+    {
+      "enum": [
+        5,
+        "connectorRdr2SAInputReader2Spare"
+      ],
+      "description": "Reader 2 Spare (T2 IN3)"
+    },
+    {
+      "enum": [
+        6,
+        "connectorRdr2SAInputReader1Tamper"
+      ],
+      "description": "Reader 1 Tamper (T1 IN4)"
+    },
+    {
+      "enum": [
+        7,
+        "connectorRdr2SAInputReader2Tamper"
+      ],
+      "description": "Reader 2 Tamper (T2 IN4)"
+    },
+    {
+      "enum": [
+        8,
+        "connectorRdr2SAInputPanelTamper"
+      ],
+      "description": "Panel Tamper"
+    },
+    {
+      "enum": [
+        9,
+        "connectorRdr2SAInputPowerFail"
+      ],
+      "description": "Power Fail"
+    },
+    {
+      "enum": [
+        10,
+        "connectorRdr2SAInputPanelBatteryLow"
+      ],
+      "description": "Panel Battery Low"
+    },
+    {
+      "enum": [
+        11,
+        "connectorRdr2SAInputReader1SpareA"
+      ],
+      "description": "Reader 1 Spare A"
+    },
+    {
+      "enum": [
+        12,
+        "connectorRdr2SAInputReader1SpareB"
+      ],
+      "description": "Reader 1 Spare B"
+    },
+    {
+      "enum": [
+        13,
+        "connectorRdr2SAInputReader2SpareA"
+      ],
+      "description": "Reader 2 Spare A"
+    },
+    {
+      "enum": [
+        14,
+        "connectorRdr2SAInputReader2SpareB"
+      ],
+      "description": "Reader 2 Spare B"
+    },
+    {
+      "enum": [
+        15,
+        "connectorRdr2SAInputReader1TamperA"
+      ],
+      "description": "Reader 1 Tamper A"
+    },
+    {
+      "enum": [
+        16,
+        "connectorRdr2SAInputReader1TamperB"
+      ],
+      "description": "Reader 1 Tamper B"
+    },
+    {
+      "enum": [
+        17,
+        "connectorRdr2SAInputReader2TamperA"
+      ],
+      "description": "Reader 2 Tamper A"
+    },
+    {
+      "enum": [
+        18,
+        "connectorRdr2SAInputReader2TamperB"
+      ],
+      "description": "Reader 2 Tamper B"
+    },
+    {
+      "enum": [
+        19,
+        "connectorRdr2SAInputPanelTamperA"
+      ],
+      "description": "Panel Tamper A"
+    },
+    {
+      "enum": [
+        20,
+        "connectorRdr2SAInputPanelTamperB"
+      ],
+      "description": "Panel Tamper B"
+    },
+    {
+      "enum": [
+        21,
+        "connectorRdr2SAInputPowerFailA"
+      ],
+      "description": "Power Fail A"
+    },
+    {
+      "enum": [
+        22,
+        "connectorRdr2SAInputPowerFailB"
+      ],
+      "description": "Power Fail B"
+    }
+  ]
+}

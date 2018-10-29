@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconErvStatusEnumSet.schema.json",
+  "title": "seEconErvStatusEnumSet",
+  "description": "SE ECON ERV Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconErvStatusOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seEconErvStatusOnNormalCommand"
+      ],
+      "description": "On-Normal Command"
+    },
+    {
+      "enum": [
+        2,
+        "seEconErvStatusOffDisabled"
+      ],
+      "description": "Off-Disabled"
+    },
+    {
+      "enum": [
+        3,
+        "seEconErvStatusOffEconomizerDamperPosition"
+      ],
+      "description": "Off-Economizer Damper Position"
+    }
+  ]
+}

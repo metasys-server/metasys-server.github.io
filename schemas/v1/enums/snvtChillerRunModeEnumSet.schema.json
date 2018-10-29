@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtChillerRunModeEnumSet.schema.json",
+  "title": "snvtChillerRunModeEnumSet",
+  "description": "SNVT Chiller Run Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Start"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Run"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Pre Shutdown"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

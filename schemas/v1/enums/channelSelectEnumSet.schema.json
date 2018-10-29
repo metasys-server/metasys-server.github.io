@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/channelSelectEnumSet.schema.json",
+  "title": "channelSelectEnumSet",
+  "description": "Channel Select",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "channelSelectNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "channelSelectPrimaryChannel"
+      ],
+      "description": "Primary Channel"
+    },
+    {
+      "enum": [
+        2,
+        "channelSelectSecondaryChannel"
+      ],
+      "description": "Secondary Channel"
+    },
+    {
+      "enum": [
+        3,
+        "channelSelectAnyChannel"
+      ],
+      "description": "Any Channel"
+    }
+  ]
+}

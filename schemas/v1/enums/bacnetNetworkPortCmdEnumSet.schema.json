@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetNetworkPortCmdEnumSet.schema.json",
+  "title": "bacnetNetworkPortCmdEnumSet",
+  "description": "BACnet Network Port Commands",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetNetworkPortCmdIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetNetworkPortCmdDiscardChanges"
+      ],
+      "description": "Discard changes"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetNetworkPortCmdRenewFdRegistration"
+      ],
+      "description": "Renew foreign device registration"
+    },
+    {
+      "enum": [
+        3,
+        "bacnetNetworkPortCmdRestartSlaveDiscovery"
+      ],
+      "description": "Restart slave discovery"
+    },
+    {
+      "enum": [
+        4,
+        "bacnetNetworkPortCmdRenewDhcp"
+      ],
+      "description": "Renew DHCP"
+    },
+    {
+      "enum": [
+        5,
+        "bacnetNetworkPortCmdRestartAutonegotiation"
+      ],
+      "description": "Restart auto-negotiation"
+    },
+    {
+      "enum": [
+        6,
+        "bacnetNetworkPortCmdDisconnect"
+      ],
+      "description": "Disconnect"
+    },
+    {
+      "enum": [
+        7,
+        "bacnetNetworkPortCmdRestartPort"
+      ],
+      "description": "Restart port"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/binaryNumericValueEnumSet.schema.json",
+  "title": "binaryNumericValueEnumSet",
+  "description": "Binary Numeric Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "binaryNumericValueZero"
+      ],
+      "description": "0"
+    },
+    {
+      "enum": [
+        1,
+        "binaryNumericValueOne"
+      ],
+      "description": "1"
+    }
+  ]
+}

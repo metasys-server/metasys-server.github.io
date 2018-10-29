@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sequencerStagingMode.schema.json",
+  "title": "sequencerStagingMode",
+  "description": "Sequencer Staging Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sequencerStagingModeStepMode"
+      ],
+      "description": "Step Mode"
+    },
+    {
+      "enum": [
+        1,
+        "sequencerStagingModeSequentialMode"
+      ],
+      "description": "Sequential Mode"
+    },
+    {
+      "enum": [
+        2,
+        "sequencerStagingModeEqualRuntime"
+      ],
+      "description": "Equal Runtime"
+    },
+    {
+      "enum": [
+        3,
+        "sequencerStagingModeEqualStartup"
+      ],
+      "description": "Equal Startup"
+    },
+    {
+      "enum": [
+        4,
+        "sequencerStagingModeBinaryCode"
+      ],
+      "description": "Binary Code"
+    }
+  ]
+}

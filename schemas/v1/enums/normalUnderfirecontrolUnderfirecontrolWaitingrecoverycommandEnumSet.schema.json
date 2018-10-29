@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandEnumSet.schema.json",
+  "title": "normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandEnumSet",
+  "description": "Normal/Under Fire Control/Under Fire Control/Waiting Recovery Command",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandUnderfirecontrol1"
+      ],
+      "description": "Under Fire Control1"
+    },
+    {
+      "enum": [
+        2,
+        "normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandUnderfirecontrol2"
+      ],
+      "description": "Under Fire Control2"
+    },
+    {
+      "enum": [
+        3,
+        "normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandWaitingrecoverycommand"
+      ],
+      "description": "Waiting Recovery Command"
+    }
+  ]
+}

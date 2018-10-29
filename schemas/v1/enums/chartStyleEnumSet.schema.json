@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/chartStyleEnumSet.schema.json",
+  "title": "chartStyleEnumSet",
+  "description": "Chart Style",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "chartStylePointsLine"
+      ],
+      "description": "Points Line"
+    },
+    {
+      "enum": [
+        1,
+        "chartStyleLine"
+      ],
+      "description": "Line"
+    },
+    {
+      "enum": [
+        2,
+        "chartStyleBar"
+      ],
+      "description": "Bar"
+    },
+    {
+      "enum": [
+        3,
+        "chartStyleArea"
+      ],
+      "description": "Area"
+    },
+    {
+      "enum": [
+        4,
+        "chartStylePoints"
+      ],
+      "description": "Points"
+    }
+  ]
+}

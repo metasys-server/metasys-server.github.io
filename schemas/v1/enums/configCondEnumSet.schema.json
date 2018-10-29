@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/configCondEnumSet.schema.json",
+  "title": "configCondEnumSet",
+  "description": "Bus Configuration State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "configUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "configOk"
+      ],
+      "description": "OK"
+    },
+    {
+      "enum": [
+        2,
+        "configSuspect"
+      ],
+      "description": "Suspect"
+    },
+    {
+      "enum": [
+        3,
+        "configError"
+      ],
+      "description": "Error"
+    }
+  ]
+}

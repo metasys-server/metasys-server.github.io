@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/portalContactEnumSet.schema.json",
+  "title": "portalContactEnumSet",
+  "description": "Portal Contact",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "portalContactClosed"
+      ],
+      "description": "Closed"
+    },
+    {
+      "enum": [
+        1,
+        "portalContactOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "portalContactFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        3,
+        "portalContactUnknown"
+      ],
+      "description": "Unknown"
+    }
+  ]
+}

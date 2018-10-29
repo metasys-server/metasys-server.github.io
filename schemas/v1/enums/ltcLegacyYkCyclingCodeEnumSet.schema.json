@@ -1,0 +1,624 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYkCyclingCodeEnumSet.schema.json",
+  "title": "ltcLegacyYkCyclingCodeEnumSet",
+  "description": "York Legacy YK Cycling Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYkCyclingCode0"
+      ],
+      "description": "NO MALFUNCTION"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYkCyclingCode1"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "ltcLegacyYkCyclingCode2"
+      ],
+      "description": "CHILLED WATER FLOW FAULT|FLOW SWITCH - AUTOSTART(VSD)"
+    },
+    {
+      "enum": [
+        3,
+        "ltcLegacyYkCyclingCode3"
+      ],
+      "description": "REMOTE CYCLING|SYSTEM CYCLING - AUTOSTART(VSD)"
+    },
+    {
+      "enum": [
+        4,
+        "ltcLegacyYkCyclingCode4"
+      ],
+      "description": "MULTI-UNIT CYCLING - AUTOSTART"
+    },
+    {
+      "enum": [
+        5,
+        "ltcLegacyYkCyclingCode5"
+      ],
+      "description": "LOW WATER TEMPERATURE - AUTOSTART"
+    },
+    {
+      "enum": [
+        6,
+        "ltcLegacyYkCyclingCode6"
+      ],
+      "description": "TIME/INTERNAL CLOCK - AUTOSTART"
+    },
+    {
+      "enum": [
+        7,
+        "ltcLegacyYkCyclingCode7"
+      ],
+      "description": "POWER FAIL-AUTOSTART"
+    },
+    {
+      "enum": [
+        8,
+        "ltcLegacyYkCyclingCode8"
+      ],
+      "description": "VANE MTR SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "ltcLegacyYkCyclingCode9"
+      ],
+      "description": "ANTI-RECYCLE"
+    },
+    {
+      "enum": [
+        10,
+        "ltcLegacyYkCyclingCode10"
+      ],
+      "description": "MOTOR CONTROLLER"
+    },
+    {
+      "enum": [
+        11,
+        "ltcLegacyYkCyclingCode11"
+      ],
+      "description": "POWER FAULT"
+    },
+    {
+      "enum": [
+        12,
+        "ltcLegacyYkCyclingCode12"
+      ],
+      "description": "SSS AC UNDERVOLTAGE|LOW LINE VOLTAGE(VSD)"
+    },
+    {
+      "enum": [
+        13,
+        "ltcLegacyYkCyclingCode13"
+      ],
+      "description": "AC UNDERVOLTAGE"
+    },
+    {
+      "enum": [
+        14,
+        "ltcLegacyYkCyclingCode14"
+      ],
+      "description": "LOW OIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        15,
+        "ltcLegacyYkCyclingCode15"
+      ],
+      "description": "AC OVERVOLTAGE"
+    },
+    {
+      "enum": [
+        16,
+        "ltcLegacyYkCyclingCode16"
+      ],
+      "description": "LOW OIL TEMPERATURE DIFFERENTIAL - AUTOSTART"
+    },
+    {
+      "enum": [
+        17,
+        "ltcLegacyYkCyclingCode17"
+      ],
+      "description": "DC UNDERVOLTAGE"
+    },
+    {
+      "enum": [
+        18,
+        "ltcLegacyYkCyclingCode18"
+      ],
+      "description": "OIL PUMP DRIVE - AUTOSTART"
+    },
+    {
+      "enum": [
+        19,
+        "ltcLegacyYkCyclingCode19"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ltcLegacyYkCyclingCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ltcLegacyYkCyclingCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ltcLegacyYkCyclingCode22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ltcLegacyYkCyclingCode23"
+      ],
+      "description": "VSD INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        24,
+        "ltcLegacyYkCyclingCode24"
+      ],
+      "description": "VSD PHASE A OVER-CURRENT"
+    },
+    {
+      "enum": [
+        25,
+        "ltcLegacyYkCyclingCode25"
+      ],
+      "description": "VSD PHASE B OVER-CURRENT"
+    },
+    {
+      "enum": [
+        26,
+        "ltcLegacyYkCyclingCode26"
+      ],
+      "description": "VSD PHASE C OVER-CURRENT"
+    },
+    {
+      "enum": [
+        27,
+        "ltcLegacyYkCyclingCode27"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ltcLegacyYkCyclingCode28"
+      ],
+      "description": "VSD PHASE A GATE DRIVER"
+    },
+    {
+      "enum": [
+        29,
+        "ltcLegacyYkCyclingCode29"
+      ],
+      "description": "VSD PHASE B GATE DRIVER"
+    },
+    {
+      "enum": [
+        30,
+        "ltcLegacyYkCyclingCode30"
+      ],
+      "description": "VSD PHASE C GATE DRIVER"
+    },
+    {
+      "enum": [
+        31,
+        "ltcLegacyYkCyclingCode31"
+      ],
+      "description": "VSD SINGLE PHASE POWER SUPPLY"
+    },
+    {
+      "enum": [
+        32,
+        "ltcLegacyYkCyclingCode32"
+      ],
+      "description": "LOW OIL TEMPERATURE - DIFF"
+    },
+    {
+      "enum": [
+        33,
+        "ltcLegacyYkCyclingCode33"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ltcLegacyYkCyclingCode34"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "ltcLegacyYkCyclingCode35"
+      ],
+      "description": "VSD BUS OVERVOLTAGE"
+    },
+    {
+      "enum": [
+        36,
+        "ltcLegacyYkCyclingCode36"
+      ],
+      "description": "VSD MAIN BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        37,
+        "ltcLegacyYkCyclingCode37"
+      ],
+      "description": "RESERVED 37"
+    },
+    {
+      "enum": [
+        38,
+        "ltcLegacyYkCyclingCode38"
+      ],
+      "description": "FLTR BUS OVER VOLTAGE"
+    },
+    {
+      "enum": [
+        39,
+        "ltcLegacyYkCyclingCode39"
+      ],
+      "description": "DC UNDERVOLTAGE|FLTR PHASE C OVER CURRENT (VSD)"
+    },
+    {
+      "enum": [
+        40,
+        "ltcLegacyYkCyclingCode40"
+      ],
+      "description": "FLTR PHASE B OVER CURRENT"
+    },
+    {
+      "enum": [
+        41,
+        "ltcLegacyYkCyclingCode41"
+      ],
+      "description": "LUBRICATION FAILURE|FLTR PHASE A OVER CURRENT (VSD)"
+    },
+    {
+      "enum": [
+        42,
+        "ltcLegacyYkCyclingCode42"
+      ],
+      "description": "FLTR PHASE LOCK LOOP"
+    },
+    {
+      "enum": [
+        43,
+        "ltcLegacyYkCyclingCode43"
+      ],
+      "description": "RESERVED 43"
+    },
+    {
+      "enum": [
+        44,
+        "ltcLegacyYkCyclingCode44"
+      ],
+      "description": "FLTR POWER SUPPLY FAULT"
+    },
+    {
+      "enum": [
+        45,
+        "ltcLegacyYkCyclingCode45"
+      ],
+      "description": "FLTR COPROCESSOR FAULT"
+    },
+    {
+      "enum": [
+        46,
+        "ltcLegacyYkCyclingCode46"
+      ],
+      "description": "FLTR A/D END OF CONVERSION FAULT"
+    },
+    {
+      "enum": [
+        47,
+        "ltcLegacyYkCyclingCode47"
+      ],
+      "description": "VSD LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        48,
+        "ltcLegacyYkCyclingCode48"
+      ],
+      "description": "VSD BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        49,
+        "ltcLegacyYkCyclingCode49"
+      ],
+      "description": "VSD HIGH AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        50,
+        "ltcLegacyYkCyclingCode50"
+      ],
+      "description": "RESERVED 50"
+    },
+    {
+      "enum": [
+        51,
+        "ltcLegacyYkCyclingCode51"
+      ],
+      "description": "RESERVED 51"
+    },
+    {
+      "enum": [
+        52,
+        "ltcLegacyYkCyclingCode52"
+      ],
+      "description": "RESERVED 52"
+    },
+    {
+      "enum": [
+        53,
+        "ltcLegacyYkCyclingCode53"
+      ],
+      "description": "RESERVED 53"
+    },
+    {
+      "enum": [
+        54,
+        "ltcLegacyYkCyclingCode54"
+      ],
+      "description": "VSD INVALID CURRENT SCALING VALUE"
+    },
+    {
+      "enum": [
+        55,
+        "ltcLegacyYkCyclingCode55"
+      ],
+      "description": "VSD LOW PHASE A HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        56,
+        "ltcLegacyYkCyclingCode56"
+      ],
+      "description": "VSD LOW PHASE B HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        57,
+        "ltcLegacyYkCyclingCode57"
+      ],
+      "description": "VSD LOW PHASE C HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        58,
+        "ltcLegacyYkCyclingCode58"
+      ],
+      "description": "VSD LOW CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        59,
+        "ltcLegacyYkCyclingCode59"
+      ],
+      "description": "VSD OUTPUT CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        60,
+        "ltcLegacyYkCyclingCode60"
+      ],
+      "description": "VSD PRECHARGE BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        61,
+        "ltcLegacyYkCyclingCode61"
+      ],
+      "description": "VSD PRECHARGE LOW VOLTAGE"
+    },
+    {
+      "enum": [
+        62,
+        "ltcLegacyYkCyclingCode62"
+      ],
+      "description": "VSD PRECHARGE HIGH VOLTAGE"
+    },
+    {
+      "enum": [
+        63,
+        "ltcLegacyYkCyclingCode63"
+      ],
+      "description": "VSD PWM COMMUNICATIONS TIMEOUT"
+    },
+    {
+      "enum": [
+        64,
+        "ltcLegacyYkCyclingCode64"
+      ],
+      "description": "VSD RUN RELAY FAULT"
+    },
+    {
+      "enum": [
+        65,
+        "ltcLegacyYkCyclingCode65"
+      ],
+      "description": "VSD SERIAL RECEIVE FAULT"
+    },
+    {
+      "enum": [
+        66,
+        "ltcLegacyYkCyclingCode66"
+      ],
+      "description": "RESERVED 66"
+    },
+    {
+      "enum": [
+        67,
+        "ltcLegacyYkCyclingCode67"
+      ],
+      "description": "VSD INVERTER INITIATED STOP"
+    },
+    {
+      "enum": [
+        68,
+        "ltcLegacyYkCyclingCode68"
+      ],
+      "description": "FLTR PRECHARGE HIGH BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        69,
+        "ltcLegacyYkCyclingCode69"
+      ],
+      "description": "FLTR PRECHARGE LOW BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        70,
+        "ltcLegacyYkCyclingCode70"
+      ],
+      "description": "FLTR PHASE ROTATION"
+    },
+    {
+      "enum": [
+        71,
+        "ltcLegacyYkCyclingCode71"
+      ],
+      "description": "FLTR POWER SUPPLY FAULT"
+    },
+    {
+      "enum": [
+        72,
+        "ltcLegacyYkCyclingCode72"
+      ],
+      "description": "FLTR A/D CONVERTER FAULT"
+    },
+    {
+      "enum": [
+        73,
+        "ltcLegacyYkCyclingCode73"
+      ],
+      "description": "FLTR LOW HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        74,
+        "ltcLegacyYkCyclingCode74"
+      ],
+      "description": "FLTR LOW BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        75,
+        "ltcLegacyYkCyclingCode75"
+      ],
+      "description": "FLTR SERIAL RECEIVE FAULT"
+    },
+    {
+      "enum": [
+        76,
+        "ltcLegacyYkCyclingCode76"
+      ],
+      "description": "FLTR THERMISTOR SENSOR SUPPLY"
+    },
+    {
+      "enum": [
+        77,
+        "ltcLegacyYkCyclingCode77"
+      ],
+      "description": "FLTR SOFTWARE BACKGROUND LOOP"
+    },
+    {
+      "enum": [
+        78,
+        "ltcLegacyYkCyclingCode78"
+      ],
+      "description": "FLTR BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        79,
+        "ltcLegacyYkCyclingCode79"
+      ],
+      "description": "FLTR OVERLOAD"
+    },
+    {
+      "enum": [
+        80,
+        "ltcLegacyYkCyclingCode80"
+      ],
+      "description": "FLTR RUN RELAY"
+    },
+    {
+      "enum": [
+        81,
+        "ltcLegacyYkCyclingCode81"
+      ],
+      "description": "FLTR HIGH INPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        82,
+        "ltcLegacyYkCyclingCode82"
+      ],
+      "description": "FLTR TRIANGLE WAVE FREQUENCY FAULT"
+    },
+    {
+      "enum": [
+        83,
+        "ltcLegacyYkCyclingCode83"
+      ],
+      "description": "FLTR DSP MEMORY"
+    },
+    {
+      "enum": [
+        84,
+        "ltcLegacyYkCyclingCode84"
+      ],
+      "description": "FLTR EXTERNAL MEMORY"
+    },
+    {
+      "enum": [
+        85,
+        "ltcLegacyYkCyclingCode85"
+      ],
+      "description": "FLTR A/D INITIALIZATION"
+    },
+    {
+      "enum": [
+        86,
+        "ltcLegacyYkCyclingCode86"
+      ],
+      "description": "FLTR DCCT 1 ERROR"
+    },
+    {
+      "enum": [
+        87,
+        "ltcLegacyYkCyclingCode87"
+      ],
+      "description": "FLTR DCCT 2 ERROR"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlpElectricalEnumSet.schema.json",
+  "title": "unityXlpElectricalEnumSet",
+  "description": "Unity XLP Electrical",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "ELT"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "ELT1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "ELT2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "ELT3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, ELT"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "FIXED, ELT1"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "FIXED, ELT2"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "FIXED, ELT3"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/weakStrongMsEnumSet.schema.json",
+  "title": "weakStrongMsEnumSet",
+  "description": "Weak/Strong",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "weakStrongWeak"
+      ],
+      "description": "Weak"
+    },
+    {
+      "enum": [
+        1,
+        "weakStrongStrong"
+      ],
+      "description": "Strong"
+    }
+  ]
+}

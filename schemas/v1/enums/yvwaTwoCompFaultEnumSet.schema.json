@@ -1,0 +1,449 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yvwaTwoCompFaultEnumSet.schema.json",
+  "title": "yvwaTwoCompFaultEnumSet",
+  "description": "YVWA Two Compressor Fault Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yvwaTwoCompFault0"
+      ],
+      "description": "NO FAULTS"
+    },
+    {
+      "enum": [
+        1,
+        "yvwaTwoCompFault1"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "yvwaTwoCompFault2"
+      ],
+      "description": "RESERVED 2"
+    },
+    {
+      "enum": [
+        3,
+        "yvwaTwoCompFault3"
+      ],
+      "description": "LOW CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "yvwaTwoCompFault4"
+      ],
+      "description": "RESERVED 4"
+    },
+    {
+      "enum": [
+        5,
+        "yvwaTwoCompFault5"
+      ],
+      "description": "LOW RTC BATTERY VOLTAGE"
+    },
+    {
+      "enum": [
+        6,
+        "yvwaTwoCompFault6"
+      ],
+      "description": "INVALID NUMBER OF COMPRESSORS SELECTED"
+    },
+    {
+      "enum": [
+        7,
+        "yvwaTwoCompFault7"
+      ],
+      "description": "VSD COMMUNICATIONS FAILURE"
+    },
+    {
+      "enum": [
+        8,
+        "yvwaTwoCompFault8"
+      ],
+      "description": "PRE-CHARGE LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        9,
+        "yvwaTwoCompFault9"
+      ],
+      "description": "PRE-CHARGE DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        10,
+        "yvwaTwoCompFault10"
+      ],
+      "description": "HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        11,
+        "yvwaTwoCompFault11"
+      ],
+      "description": "LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        12,
+        "yvwaTwoCompFault12"
+      ],
+      "description": "DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        13,
+        "yvwaTwoCompFault13"
+      ],
+      "description": "HIGH VSD AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        14,
+        "yvwaTwoCompFault14"
+      ],
+      "description": "SINGLE PHASE INPUT"
+    },
+    {
+      "enum": [
+        15,
+        "yvwaTwoCompFault15"
+      ],
+      "description": "VSD POWER SUPPLY FAULT"
+    },
+    {
+      "enum": [
+        16,
+        "yvwaTwoCompFault16"
+      ],
+      "description": "VSD LOGIC BOARD FAULT"
+    },
+    {
+      "enum": [
+        17,
+        "yvwaTwoCompFault17"
+      ],
+      "description": "MOTOR CURRENT OVERLOAD (HARDWARE)"
+    },
+    {
+      "enum": [
+        18,
+        "yvwaTwoCompFault18"
+      ],
+      "description": "CT PLUG FAULT"
+    },
+    {
+      "enum": [
+        19,
+        "yvwaTwoCompFault19"
+      ],
+      "description": "HIGH LEAVING CONDENSER LIQUID TEMP"
+    },
+    {
+      "enum": [
+        20,
+        "yvwaTwoCompFault20"
+      ],
+      "description": "VSD INITIALIZATION FAILURE"
+    },
+    {
+      "enum": [
+        21,
+        "yvwaTwoCompFault21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "yvwaTwoCompFault22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "yvwaTwoCompFault23"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "yvwaTwoCompFault24"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "yvwaTwoCompFault25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "yvwaTwoCompFault26"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "yvwaTwoCompFault27"
+      ],
+      "description": "HIGH DISCHARGE PRESSURE (SOFTWARE)"
+    },
+    {
+      "enum": [
+        28,
+        "yvwaTwoCompFault28"
+      ],
+      "description": "HIGH DIFFERENTIAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        29,
+        "yvwaTwoCompFault29"
+      ],
+      "description": "LOW DIFFERENTIAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        30,
+        "yvwaTwoCompFault30"
+      ],
+      "description": "LOW EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        31,
+        "yvwaTwoCompFault31"
+      ],
+      "description": "HIGH DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        32,
+        "yvwaTwoCompFault32"
+      ],
+      "description": "LOW EVAP PRESSURE SMART FREEZE"
+    },
+    {
+      "enum": [
+        33,
+        "yvwaTwoCompFault33"
+      ],
+      "description": "EDUCTOR CLOG FAULT"
+    },
+    {
+      "enum": [
+        34,
+        "yvwaTwoCompFault34"
+      ],
+      "description": "SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        35,
+        "yvwaTwoCompFault35"
+      ],
+      "description": "LOW MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        36,
+        "yvwaTwoCompFault36"
+      ],
+      "description": "HIGH MOTOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        37,
+        "yvwaTwoCompFault37"
+      ],
+      "description": "PRE-CHARGE LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        38,
+        "yvwaTwoCompFault38"
+      ],
+      "description": "PRE-CHARGE DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        39,
+        "yvwaTwoCompFault39"
+      ],
+      "description": "HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        40,
+        "yvwaTwoCompFault40"
+      ],
+      "description": "LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        41,
+        "yvwaTwoCompFault41"
+      ],
+      "description": "DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        42,
+        "yvwaTwoCompFault42"
+      ],
+      "description": "HIGH MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        43,
+        "yvwaTwoCompFault43"
+      ],
+      "description": "MOTOR CURRENT OVERLOAD (SOFTWARE)"
+    },
+    {
+      "enum": [
+        44,
+        "yvwaTwoCompFault44"
+      ],
+      "description": "IGBT GATE DRIVER FAULT"
+    },
+    {
+      "enum": [
+        45,
+        "yvwaTwoCompFault45"
+      ],
+      "description": "HIGH BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        46,
+        "yvwaTwoCompFault46"
+      ],
+      "description": "SINGLE PHASE INPUT"
+    },
+    {
+      "enum": [
+        47,
+        "yvwaTwoCompFault47"
+      ],
+      "description": "VSD RUN SIGNAL FAULT"
+    },
+    {
+      "enum": [
+        48,
+        "yvwaTwoCompFault48"
+      ],
+      "description": "HIGH DISCHARGE PRESS (HARDWARE – HPCO)"
+    },
+    {
+      "enum": [
+        49,
+        "yvwaTwoCompFault49"
+      ],
+      "description": "SYS LOW EVAP PRESS REFRIG TEMP"
+    },
+    {
+      "enum": [
+        50,
+        "yvwaTwoCompFault50"
+      ],
+      "description": "CONTROL VOLTAGE FAULT"
+    },
+    {
+      "enum": [
+        51,
+        "yvwaTwoCompFault51"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        52,
+        "yvwaTwoCompFault52"
+      ],
+      "description": "LOW ECONOMIZER SUPERHEAT"
+    },
+    {
+      "enum": [
+        53,
+        "yvwaTwoCompFault53"
+      ],
+      "description": "OIL LEVEL LOW"
+    },
+    {
+      "enum": [
+        54,
+        "yvwaTwoCompFault54"
+      ],
+      "description": "SYS LOW EVAP PRESS LCHLT"
+    },
+    {
+      "enum": [
+        55,
+        "yvwaTwoCompFault55"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "yvwaTwoCompFault56"
+      ],
+      "description": "RESERVED 56"
+    },
+    {
+      "enum": [
+        57,
+        "yvwaTwoCompFault57"
+      ],
+      "description": "RESERVED 57"
+    },
+    {
+      "enum": [
+        58,
+        "yvwaTwoCompFault58"
+      ],
+      "description": "RESERVED 58"
+    },
+    {
+      "enum": [
+        59,
+        "yvwaTwoCompFault59"
+      ],
+      "description": "RESERVED 59"
+    },
+    {
+      "enum": [
+        60,
+        "yvwaTwoCompFault60"
+      ],
+      "description": "RESERVED 60"
+    },
+    {
+      "enum": [
+        61,
+        "yvwaTwoCompFault61"
+      ],
+      "description": "RESERVED 61"
+    },
+    {
+      "enum": [
+        62,
+        "yvwaTwoCompFault62"
+      ],
+      "description": "RESERVED 62"
+    }
+  ]
+}

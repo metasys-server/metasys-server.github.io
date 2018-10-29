@@ -1,0 +1,2171 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/upgradeLogMessagesEnumSet.schema.json",
+  "title": "upgradeLogMessagesEnumSet",
+  "description": "Upgrade Log Messages",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ddaFiltersException"
+      ],
+      "description": "Exception in mapping DDA Filters."
+    },
+    {
+      "enum": [
+        1,
+        "phoneNumberRemoved1"
+      ],
+      "description": "Phone Number :"
+    },
+    {
+      "enum": [
+        2,
+        "phoneNumberRemoved2"
+      ],
+      "description": "was removed from the database because it was invalid."
+    },
+    {
+      "enum": [
+        3,
+        "pagerPasswordInvalid1"
+      ],
+      "description": "Pager password:"
+    },
+    {
+      "enum": [
+        4,
+        "pagerPasswordInvalid2"
+      ],
+      "description": "needs to be 6 characters in length according to TAPI standards; pager password defaulting to 000000."
+    },
+    {
+      "enum": [
+        5,
+        "pagerAccessNumberInvalid1"
+      ],
+      "description": "Pager access number:"
+    },
+    {
+      "enum": [
+        6,
+        "pagerAccessNumberInvalid2"
+      ],
+      "description": "was removed from the database because it conatins at least one invalid character."
+    },
+    {
+      "enum": [
+        7,
+        "trendBufferSzieCountDevice"
+      ],
+      "description": "Error retrieving device name for NAE/NIE8500 trend buffer size count."
+    },
+    {
+      "enum": [
+        8,
+        "trendBufferSzieCountDefault"
+      ],
+      "description": "Error retrieving default value for NAE/NIE8500 trend buffer size count."
+    },
+    {
+      "enum": [
+        9,
+        "trendBufferSizeExceeded1"
+      ],
+      "description": "The total buffer size count under device"
+    },
+    {
+      "enum": [
+        10,
+        "trendBufferSizeExceeded2"
+      ],
+      "description": "exceeeds the maximum by"
+    },
+    {
+      "enum": [
+        11,
+        "trendBufferSizeExceeded3"
+      ],
+      "description": ". Please adjust your trend buffers or delete trends before downloading to the device."
+    },
+    {
+      "enum": [
+        12,
+        "mstpAccumulatorContrllr1"
+      ],
+      "description": "Warning for MS/TP Accumulator mapping object"
+    },
+    {
+      "enum": [
+        13,
+        "mstpAccumulatorContrllr2"
+      ],
+      "description": "Field controller should also be updated to release 5.0 (or later) to be fully compatible with the new features."
+    },
+    {
+      "enum": [
+        14,
+        "mstpAccumulatorLimitMointor2"
+      ],
+      "description": "Limit Monitoring Interval will be maintained by the field controller and is only used for pulse rate calculation."
+    },
+    {
+      "enum": [
+        15,
+        "mstpAccumulatorLimitMointor3"
+      ],
+      "description": "The value may need to be re-entered."
+    },
+    {
+      "enum": [
+        16,
+        "mstpAccumulatorUnits2"
+      ],
+      "description": "Units will be maintained by the field controller and may need to be re-entered."
+    },
+    {
+      "enum": [
+        17,
+        "pulseMeterWarning1"
+      ],
+      "description": "Warning for Pulse Meter"
+    },
+    {
+      "enum": [
+        18,
+        "pulseMeterWarning2"
+      ],
+      "description": "If input comes from an accumulator, the input will be the accumulator Present Value instead of the raw pulse count."
+    },
+    {
+      "enum": [
+        19,
+        "pulseMeterWarning3"
+      ],
+      "description": "Be sure that the accumultor Prescale is 1,1 to make Present Value equal the raw pulse count,"
+    },
+    {
+      "enum": [
+        20,
+        "pulseMeterWarning4"
+      ],
+      "description": "and be sure that the Pulse Meter Rollover Limit is set to the accumulator Max Present Value to maintain the same operation."
+    },
+    {
+      "enum": [
+        21,
+        "eventRateLogNoDevice"
+      ],
+      "description": "No device reference found when attempting to add the event rate trend log."
+    },
+    {
+      "enum": [
+        22,
+        "upgradeBegin"
+      ],
+      "description": "Beginning archive upgrade..."
+    },
+    {
+      "enum": [
+        23,
+        "recoveryNeeded"
+      ],
+      "description": "A previous archive upgrade failed. Please do a recovery before re-attempting an upgrade."
+    },
+    {
+      "enum": [
+        24,
+        "createXmlDirectory"
+      ],
+      "description": "Creating directories for XML files..."
+    },
+    {
+      "enum": [
+        25,
+        "lockingArchive"
+      ],
+      "description": "Locking archive..."
+    },
+    {
+      "enum": [
+        26,
+        "errorReadingArchiveData"
+      ],
+      "description": "Error in reading archive data for"
+    },
+    {
+      "enum": [
+        27,
+        "upgradeLogMessageStatus"
+      ],
+      "description": "; status ="
+    },
+    {
+      "enum": [
+        28,
+        "emptyArchive"
+      ],
+      "description": "; Empty archive."
+    },
+    {
+      "enum": [
+        29,
+        "retrieveSiteInfo"
+      ],
+      "description": "Retrieveing site information..."
+    },
+    {
+      "enum": [
+        30,
+        "errorReadingSiteData"
+      ],
+      "description": "Error in reading archive data for site:"
+    },
+    {
+      "enum": [
+        31,
+        "badSiteData"
+      ],
+      "description": "; Bad site data."
+    },
+    {
+      "enum": [
+        32,
+        "retrieveDeviceInfo"
+      ],
+      "description": "Retrieveing device information..."
+    },
+    {
+      "enum": [
+        33,
+        "failedReadingDeviceNames"
+      ],
+      "description": "Failed to get device FQRs for archive,"
+    },
+    {
+      "enum": [
+        34,
+        "upgradeLogMessagePeriod"
+      ],
+      "description": "."
+    },
+    {
+      "enum": [
+        35,
+        "errorReadingDeviceData"
+      ],
+      "description": "Error in reading archive data for device:"
+    },
+    {
+      "enum": [
+        36,
+        "badDeviceData"
+      ],
+      "description": "; Bad device data."
+    },
+    {
+      "enum": [
+        37,
+        "creatingWorkDatabase"
+      ],
+      "description": "Creating working database..."
+    },
+    {
+      "enum": [
+        38,
+        "workDbCreationFailed"
+      ],
+      "description": "Failed to create the working database for archive,"
+    },
+    {
+      "enum": [
+        39,
+        "failedToRename"
+      ],
+      "description": "Failed to rename"
+    },
+    {
+      "enum": [
+        40,
+        "to"
+      ],
+      "description": "to"
+    },
+    {
+      "enum": [
+        41,
+        "failedToDetach"
+      ],
+      "description": "Failed to detach"
+    },
+    {
+      "enum": [
+        42,
+        "failedToAttach"
+      ],
+      "description": "Failed to attach"
+    },
+    {
+      "enum": [
+        43,
+        "failedToMoveSecurityDataFrom"
+      ],
+      "description": "Failed to move security data from"
+    },
+    {
+      "enum": [
+        44,
+        "creatingNewArchive"
+      ],
+      "description": "Creating new archive..."
+    },
+    {
+      "enum": [
+        45,
+        "failedToCreateNewArchive"
+      ],
+      "description": "Failed to create the new database for archive,"
+    },
+    {
+      "enum": [
+        46,
+        "updatingMarsProcedures"
+      ],
+      "description": "Updating MARS stored procedures..."
+    },
+    {
+      "enum": [
+        47,
+        "dbloadmarsstoredprocedureError"
+      ],
+      "description": "Error in DBLoadMARSStoredProcedures for"
+    },
+    {
+      "enum": [
+        48,
+        "movingSecurityData"
+      ],
+      "description": "Moving security data..."
+    },
+    {
+      "enum": [
+        49,
+        "reCreatingArchiveRecord"
+      ],
+      "description": "Re-creating archive record..."
+    },
+    {
+      "enum": [
+        50,
+        "dbcreateobjectError"
+      ],
+      "description": "Error in DBCreateObject for"
+    },
+    {
+      "enum": [
+        51,
+        "reCreatingSiteRecords"
+      ],
+      "description": "Re-creating site record(s)..."
+    },
+    {
+      "enum": [
+        52,
+        "reCreatingDeviceRecords"
+      ],
+      "description": "Re-creating device records..."
+    },
+    {
+      "enum": [
+        53,
+        "performingSecurityUpdate"
+      ],
+      "description": "Performing security update..."
+    },
+    {
+      "enum": [
+        54,
+        "performingPhaseTwoDataUpdates"
+      ],
+      "description": "Performing phase 2 data updates..."
+    },
+    {
+      "enum": [
+        55,
+        "sitesPointAtArchive"
+      ],
+      "description": "Ensuring sites point at archive..."
+    },
+    {
+      "enum": [
+        56,
+        "sitesPointAtArchiveFailure"
+      ],
+      "description": "Failed to ensure site records point to archive record in archive,"
+    },
+    {
+      "enum": [
+        57,
+        "performingArchiveMaintenance"
+      ],
+      "description": "Performing archive maintenance..."
+    },
+    {
+      "enum": [
+        58,
+        "reBuildIndexFailure"
+      ],
+      "description": "Failed to re-build indexes for archive."
+    },
+    {
+      "enum": [
+        59,
+        "statisticsUpdateFailure"
+      ],
+      "description": "Failed to update statistics for archive."
+    },
+    {
+      "enum": [
+        60,
+        "performingCleanup"
+      ],
+      "description": "Performing cleanup..."
+    },
+    {
+      "enum": [
+        61,
+        "dbdeletearchivedatabaseError"
+      ],
+      "description": "Error in DBDeleteArchiveDatabase for"
+    },
+    {
+      "enum": [
+        62,
+        "upgradeSuccessful"
+      ],
+      "description": "Upgrade successful."
+    },
+    {
+      "enum": [
+        63,
+        "inConvertarchives"
+      ],
+      "description": "In ConvertArchives..."
+    },
+    {
+      "enum": [
+        64,
+        "sqlConnectionCloseFailure"
+      ],
+      "description": "Close failed for SQL connection in ArchiveUpgrade.  May have already been closed."
+    },
+    {
+      "enum": [
+        65,
+        "performpostupgradeproceduresNullInput"
+      ],
+      "description": "performPostUpgradeProcedures received null input."
+    },
+    {
+      "enum": [
+        66,
+        "bacnetUpdateFailure"
+      ],
+      "description": "Failed to perform the BACnet Update in archive,"
+    },
+    {
+      "enum": [
+        67,
+        "highLowLimitUpdateFailure"
+      ],
+      "description": "Failed to perform the High Low Limit Update in archive,"
+    },
+    {
+      "enum": [
+        68,
+        "notificationObjectReferenceUpdateFailure"
+      ],
+      "description": "Failed to perform the Notification Object Reference Update in archive,"
+    },
+    {
+      "enum": [
+        69,
+        "mveSignatureAnnotationUpdateFailure"
+      ],
+      "description": "Failed to perform the MVE Signature Annotation Update in archive,"
+    },
+    {
+      "enum": [
+        70,
+        "missingSiteFileUpdateFailure"
+      ],
+      "description": "Failed to perform the Missing Site File Name Attribute Update in archive,"
+    },
+    {
+      "enum": [
+        71,
+        "scheduleDataTypeUpdateFailure"
+      ],
+      "description": "Failed to perform the Schedule Data Type Update in archive,"
+    },
+    {
+      "enum": [
+        72,
+        "failedToReadSecurityData"
+      ],
+      "description": "Failed to read security data from the security database for device,"
+    },
+    {
+      "enum": [
+        73,
+        "failedToReadSecurityDataReferences"
+      ],
+      "description": "Failed to retrieve Security Data References in"
+    },
+    {
+      "enum": [
+        74,
+        "updatelctblobdata22Failure"
+      ],
+      "description": "Failed to perform update in UpdateLCTBlobData22 for archive,"
+    },
+    {
+      "enum": [
+        75,
+        "theN1Object"
+      ],
+      "description": "The N1 object,"
+    },
+    {
+      "enum": [
+        76,
+        "wasUpdatedButHasExceptions"
+      ],
+      "description": "was updated, but has one or more exceptions:"
+    },
+    {
+      "enum": [
+        77,
+        "localControlTrueIgnoreRelinquishDefaultTrue"
+      ],
+      "description": "(Local Control is TRUE while having a relinquish default value and ignore relinquish default is also true)."
+    },
+    {
+      "enum": [
+        78,
+        "midnightCommandsPart1"
+      ],
+      "description": "is a Schedule object with Exception Schedules."
+    },
+    {
+      "enum": [
+        79,
+        "midnightCommandsPart2"
+      ],
+      "description": "It should be reviewed and modified as necessary to account for any commands needed at the 00:00 hour."
+    },
+    {
+      "enum": [
+        80,
+        "midnightCommandsPart3"
+      ],
+      "description": "To bring up the View of the Schedule Object: 1. Select the Exception Schedule view."
+    },
+    {
+      "enum": [
+        81,
+        "midnightCommandsPart4"
+      ],
+      "description": "2. For each Exception in the Exception List: a. Click on the exception to view its Events."
+    },
+    {
+      "enum": [
+        82,
+        "midnightCommandsPart5"
+      ],
+      "description": "Look for Exceptions that do not have an entry at 00:00. b. If the Exception does not have an Event at 00:00,"
+    },
+    {
+      "enum": [
+        83,
+        "midnightCommandsPart6"
+      ],
+      "description": "the Schedule Object will go to either the Weekly Schedule for that day OR the Schedule Default."
+    },
+    {
+      "enum": [
+        84,
+        "midnightCommandsPart7"
+      ],
+      "description": "If this is not the correct behavior an entry needs to be added to select the value at midnight."
+    },
+    {
+      "enum": [
+        85,
+        "midnightCommandsPart8"
+      ],
+      "description": "To add an Event: Select Edit if not already. Then, select New Event."
+    },
+    {
+      "enum": [
+        86,
+        "midnightCommandsPart9"
+      ],
+      "description": "Leave the default time at 00:00, which is what is needed."
+    },
+    {
+      "enum": [
+        87,
+        "midnightCommandsPart10"
+      ],
+      "description": "Lastly, select the desired value that Schedule should go to at 00:00."
+    },
+    {
+      "enum": [
+        88,
+        "midnightCommandsPart11"
+      ],
+      "description": "3. When all Exceptions have been viewed/modified, select the Save button."
+    },
+    {
+      "enum": [
+        89,
+        "duplicateDlTariffTargetsChanged"
+      ],
+      "description": "DL Tariff targets attribute changes -"
+    },
+    {
+      "enum": [
+        90,
+        "duplicateDescriptionsChanged"
+      ],
+      "description": "Duplicate descriptions were changed."
+    },
+    {
+      "enum": [
+        91,
+        "zeroActiveDemandLimitWasChanged"
+      ],
+      "description": "Zero active demand limit was changed to 10 million."
+    },
+    {
+      "enum": [
+        92,
+        "duplicateLrTariffTargetsChanged"
+      ],
+      "description": "LR Tariff Targets attribute changed - Duplicate descriptions were changed."
+    },
+    {
+      "enum": [
+        93,
+        "duplicateDlTariffPart1"
+      ],
+      "description": "At Release 3.1, the active demand limit cannot be zero, and duplicate DL Tariff Targets descriptions"
+    },
+    {
+      "enum": [
+        94,
+        "duplicateDlTariffPart2"
+      ],
+      "description": "and duplicate LR Tariff Targets descriptions are not permitted."
+    },
+    {
+      "enum": [
+        95,
+        "duplicateDlTariffPart3"
+      ],
+      "description": "Therefore, if the active demand limit was zero, the active DL Tariff Targets entry is now changed to 10 million,"
+    },
+    {
+      "enum": [
+        96,
+        "duplicateDlTariffPart4"
+      ],
+      "description": "and any duplicate DL Tariff Targets descriptions or duplicate LR Tariff Targets descriptions are now set to"
+    },
+    {
+      "enum": [
+        97,
+        "duplicateDlTariffPart5"
+      ],
+      "description": "previously unused Target Description set members. You may wish to bring up the focus View of the DLLR Object"
+    },
+    {
+      "enum": [
+        98,
+        "duplicateDlTariffPart6"
+      ],
+      "description": "and review the changed DL Tariff Targets and LR Tariff Targets attributes."
+    },
+    {
+      "enum": [
+        99,
+        "bacnetIntegrationFourPart1"
+      ],
+      "description": "is a BACnet integration object or an extension of BACnet integration object that needed to be changed during the upgrade."
+    },
+    {
+      "enum": [
+        100,
+        "bacnetIntegrationFourPart2"
+      ],
+      "description": "For Release 4.0, any BACnet integration object found under a Field Bus integration"
+    },
+    {
+      "enum": [
+        101,
+        "bacnetIntegrationFourPart3"
+      ],
+      "description": "is replaced by a folder object of the same name.  Extensions of the BACnet integration are dropped."
+    },
+    {
+      "enum": [
+        102,
+        "upgradeLogMessageItem"
+      ],
+      "description": "Item"
+    },
+    {
+      "enum": [
+        103,
+        "ddaFilter"
+      ],
+      "description": "DDA filter"
+    },
+    {
+      "enum": [
+        104,
+        "obseleteValueDeleted"
+      ],
+      "description": "was deleted because its value is now obselete."
+    },
+    {
+      "enum": [
+        105,
+        "scheduleConfigurationProblems"
+      ],
+      "description": "We detected schedule configuration problems for"
+    },
+    {
+      "enum": [
+        106,
+        "reviewForManualChanges"
+      ],
+      "description": ". Please review it to see if it requires manual fixing."
+    },
+    {
+      "enum": [
+        107,
+        "performingModelRestore"
+      ],
+      "description": "Performing restore of SCT Model..."
+    },
+    {
+      "enum": [
+        108,
+        "performingFiveTwoSchemaUpdate"
+      ],
+      "description": "Performing 5.2 schema update..."
+    },
+    {
+      "enum": [
+        109,
+        "dataCleanseFailed"
+      ],
+      "description": "Failed to cleanse data in preparation for schema update in"
+    },
+    {
+      "enum": [
+        110,
+        "schemaUpdateFailed"
+      ],
+      "description": "Failed to make schema changes and/or convert instance data in"
+    },
+    {
+      "enum": [
+        111,
+        "performingSixSchemaUpdate"
+      ],
+      "description": "Performing 6.0 schema update..."
+    },
+    {
+      "enum": [
+        112,
+        "performingModuleUpdate"
+      ],
+      "description": "Performing module update..."
+    },
+    {
+      "enum": [
+        113,
+        "defaultResetFailed"
+      ],
+      "description": "Failed to reset the database defaults for archive,"
+    },
+    {
+      "enum": [
+        114,
+        "retrieveModelFunctionListFailed"
+      ],
+      "description": "Failed to get the list of functions from the SCT Model."
+    },
+    {
+      "enum": [
+        115,
+        "moduleCopyFailed"
+      ],
+      "description": "Failed to copy module,"
+    },
+    {
+      "enum": [
+        116,
+        "toArchive"
+      ],
+      "description": "to archive,"
+    },
+    {
+      "enum": [
+        117,
+        "retrieveModelProcedureListFailed"
+      ],
+      "description": "Failed to get the list of stored procedures from the SCT Model."
+    },
+    {
+      "enum": [
+        118,
+        "retrieveFunctionListFailed"
+      ],
+      "description": "Failed to get the list of functions from archive,"
+    },
+    {
+      "enum": [
+        119,
+        "moduleRemovalFailed"
+      ],
+      "description": "Failed to remove module,"
+    },
+    {
+      "enum": [
+        120,
+        "fromArchive"
+      ],
+      "description": "from archive,"
+    },
+    {
+      "enum": [
+        121,
+        "retrieveProcedureListFailed"
+      ],
+      "description": "Failed to get the list of stored procedures from archive,"
+    },
+    {
+      "enum": [
+        122,
+        "clearingLockedDeviceList"
+      ],
+      "description": "Clearing the locked device list..."
+    },
+    {
+      "enum": [
+        123,
+        "lockDeviceListClearFailed"
+      ],
+      "description": "Failed to clear the list of locked devices in archive,"
+    },
+    {
+      "enum": [
+        124,
+        "performingMetadataUpdate"
+      ],
+      "description": "Performing metadata update..."
+    },
+    {
+      "enum": [
+        125,
+        "metadataUpdateFailed"
+      ],
+      "description": "Failed to update metadata in archive,"
+    },
+    {
+      "enum": [
+        126,
+        "performingIndexDefUpdate"
+      ],
+      "description": "Performing index definition update..."
+    },
+    {
+      "enum": [
+        127,
+        "indexDefUpdateFailed"
+      ],
+      "description": "Failed to update index definitions in archive,"
+    },
+    {
+      "enum": [
+        128,
+        "performingFiveTwoSpecificUpdates"
+      ],
+      "description": "Performing version 5.2 specific updates..."
+    },
+    {
+      "enum": [
+        129,
+        "failedFiveTwoCustomUpdates"
+      ],
+      "description": "Failed to successfully complete custom updates for version 5.2 in archive,"
+    },
+    {
+      "enum": [
+        130,
+        "performingSixSpecificUpdates"
+      ],
+      "description": "Performing version 6.0 specific updates..."
+    },
+    {
+      "enum": [
+        131,
+        "failedToLoadMarsUpdates"
+      ],
+      "description": "Failed to load MARS updates into archive,"
+    },
+    {
+      "enum": [
+        132,
+        "failedToFixArchiveName"
+      ],
+      "description": "Failed to fix archive name for archive,"
+    },
+    {
+      "enum": [
+        133,
+        "failedToRenameTheArchive"
+      ],
+      "description": "Failed to rename the archive"
+    },
+    {
+      "enum": [
+        134,
+        "archiveRenamedFrom"
+      ],
+      "description": "Archive renamed from"
+    },
+    {
+      "enum": [
+        135,
+        "compressingModifiableFiles"
+      ],
+      "description": "Compressing modifiable files..."
+    },
+    {
+      "enum": [
+        136,
+        "failedToWriteFile"
+      ],
+      "description": "Failed to write file for Reference:"
+    },
+    {
+      "enum": [
+        137,
+        "propertyLabel"
+      ],
+      "description": ", Property:"
+    },
+    {
+      "enum": [
+        138,
+        "backToArchive"
+      ],
+      "description": "back to archive,"
+    },
+    {
+      "enum": [
+        139,
+        "soThatItCouldBeCompressed"
+      ],
+      "description": ", so that it could be compressed."
+    },
+    {
+      "enum": [
+        140,
+        "failedToCloseArchive"
+      ],
+      "description": "Failed to close the archive,"
+    },
+    {
+      "enum": [
+        141,
+        "failedToShrinkArchive"
+      ],
+      "description": "Failed to shrink the archive."
+    },
+    {
+      "enum": [
+        142,
+        "upgradeCompleteWithWarnings"
+      ],
+      "description": "Upgrade completed with warnings."
+    },
+    {
+      "enum": [
+        143,
+        "failedRemovingSctModel"
+      ],
+      "description": "Failed to remove the SCT Model."
+    },
+    {
+      "enum": [
+        144,
+        "safetyBackupAlreadyExists"
+      ],
+      "description": "Safety Backup file exists for"
+    },
+    {
+      "enum": [
+        145,
+        "upgradeLogMessageFileName"
+      ],
+      "description": "; file name ="
+    },
+    {
+      "enum": [
+        146,
+        "previousUpgradeFailedPart1"
+      ],
+      "description": ". This file indicates a previously failed upgrade."
+    },
+    {
+      "enum": [
+        147,
+        "previousUpgradeFailedPart2"
+      ],
+      "description": "Please see the Open Archive Wizard to recover from the failed upgrade."
+    },
+    {
+      "enum": [
+        148,
+        "previousUpgradeFailedPart3"
+      ],
+      "description": "If the archive is not listed, then refer to the literature for recovery instructions."
+    },
+    {
+      "enum": [
+        149,
+        "errorBackingUpArchive"
+      ],
+      "description": "Error in backing up archive for"
+    },
+    {
+      "enum": [
+        150,
+        "safetyBackupCreatedAt"
+      ],
+      "description": "Safety Backup created at"
+    },
+    {
+      "enum": [
+        151,
+        "addingEventRateTrendLogFailed"
+      ],
+      "description": "Failed to add the event rate trend log to"
+    },
+    {
+      "enum": [
+        152,
+        "inArchive"
+      ],
+      "description": "in archive,"
+    },
+    {
+      "enum": [
+        153,
+        "noDeviceListAddingEventRateTrendLog"
+      ],
+      "description": "Failed to retrieve a list of devices when adding the event rate trend log in archive,"
+    },
+    {
+      "enum": [
+        154,
+        "allDeviceDbSixUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo60 received null inputs."
+    },
+    {
+      "enum": [
+        155,
+        "whenUpgradingTheDevice"
+      ],
+      "description": "When updating the device ("
+    },
+    {
+      "enum": [
+        156,
+        "individualDeviceDbSixUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo60 received null inputs."
+    },
+    {
+      "enum": [
+        157,
+        "allDeviceDbSixUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo60 failed to update all devices to release 6.0."
+    },
+    {
+      "enum": [
+        158,
+        "individualDeviceDbSixUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo60 failed to update device ("
+    },
+    {
+      "enum": [
+        159,
+        "toReleaseSix"
+      ],
+      "description": ") to release 6.0."
+    },
+    {
+      "enum": [
+        160,
+        "scheduleConversionRel3NullInput"
+      ],
+      "description": "The class - ScheduleConversionForRel3 received null input in its constructor."
+    },
+    {
+      "enum": [
+        161,
+        "highLimitReset"
+      ],
+      "description": "(High Limit Attribute) value is bad and has been removed."
+    },
+    {
+      "enum": [
+        162,
+        "lowLimitReset"
+      ],
+      "description": "(Low Limit Attribute) value is bad and has been removed."
+    },
+    {
+      "enum": [
+        163,
+        "highLowLowResetExplanation"
+      ],
+      "description": "For Release 4.0, these values are deleted and reset to their default value."
+    },
+    {
+      "enum": [
+        164,
+        "securityUpdateNullInput"
+      ],
+      "description": "PerformCustomSecurityUpdate received a null deviceReference."
+    },
+    {
+      "enum": [
+        165,
+        "invalidDeviceVersion"
+      ],
+      "description": "Invalid device version found while updating security for device:"
+    },
+    {
+      "enum": [
+        166,
+        "removedBacnetIntegrationObjectAttribute"
+      ],
+      "description": "and Attribute ID"
+    },
+    {
+      "enum": [
+        167,
+        "removedBacnetIntegrationObjectAttrref"
+      ],
+      "description": "are removed but have attrRef for item"
+    },
+    {
+      "enum": [
+        168,
+        "extensionObject"
+      ],
+      "description": "Extension object"
+    },
+    {
+      "enum": [
+        169,
+        "isRemoved"
+      ],
+      "description": "is removed"
+    },
+    {
+      "enum": [
+        170,
+        "scheduleDataTypeFix"
+      ],
+      "description": ": (Fix) We corrected the data type to match the scheduled key item data type."
+    },
+    {
+      "enum": [
+        171,
+        "scheduleDataTypeWarn"
+      ],
+      "description": ": (Warning) The schedule states text might not match the states text of the scheduled key item."
+    },
+    {
+      "enum": [
+        172,
+        "securityDeviceRefsRetrievalFailure"
+      ],
+      "description": "Failed to successfully retrieve device references for security file retrieval."
+    },
+    {
+      "enum": [
+        173,
+        "modelRestoreFailed"
+      ],
+      "description": "Failed to restore the SCT model database."
+    },
+    {
+      "enum": [
+        174,
+        "duplicateArchiveRecord"
+      ],
+      "description": "Duplicate archive record ("
+    },
+    {
+      "enum": [
+        175,
+        "itemRemoved"
+      ],
+      "description": ") removed."
+    },
+    {
+      "enum": [
+        176,
+        "orphanedItem"
+      ],
+      "description": "Orphaned, and possibly duplicate, item ("
+    },
+    {
+      "enum": [
+        177,
+        "itemDeletedFor"
+      ],
+      "description": ") deleted for"
+    },
+    {
+      "enum": [
+        178,
+        "duplicatesFilesRemoved"
+      ],
+      "description": "Duplicate files removed for"
+    },
+    {
+      "enum": [
+        179,
+        "abandonedSyncRecord"
+      ],
+      "description": "Abandoned 'sync' record ("
+    },
+    {
+      "enum": [
+        180,
+        "errorReadingFile"
+      ],
+      "description": "ReadFiles: There was a problem reading a file from the archive:"
+    },
+    {
+      "enum": [
+        181,
+        "purgingSecurityRecord"
+      ],
+      "description": "Purging security for nonexistent device:"
+    },
+    {
+      "enum": [
+        182,
+        "upgradeLogMessageColon"
+      ],
+      "description": ":"
+    },
+    {
+      "enum": [
+        183,
+        "updateSuccessful"
+      ],
+      "description": "Update successful."
+    },
+    {
+      "enum": [
+        184,
+        "updateCompleteWithWarnings"
+      ],
+      "description": "Update completed with warnings."
+    },
+    {
+      "enum": [
+        185,
+        "updateBegin"
+      ],
+      "description": "Beginning archive update..."
+    },
+    {
+      "enum": [
+        186,
+        "recoveryBegin"
+      ],
+      "description": "Beginning archive recovery..."
+    },
+    {
+      "enum": [
+        187,
+        "recoveryComplete"
+      ],
+      "description": "Archive recovery complete..."
+    },
+    {
+      "enum": [
+        188,
+        "performingSixOneSpecificUpdates"
+      ],
+      "description": "Performing version 6.1 specific updates..."
+    },
+    {
+      "enum": [
+        189,
+        "allDeviceDbSixOneUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo61 received null inputs."
+    },
+    {
+      "enum": [
+        190,
+        "individualDeviceSixOneUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo61 received null inputs."
+    },
+    {
+      "enum": [
+        191,
+        "allDeviceDbSixOneUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo61 failed to update all devices to release 6.1"
+    },
+    {
+      "enum": [
+        192,
+        "individualDeviceDbSixOneUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo61 failed to update device ("
+    },
+    {
+      "enum": [
+        193,
+        "toReleaseSixOne"
+      ],
+      "description": ") to release 6.1."
+    },
+    {
+      "enum": [
+        194,
+        "toReleaseSixFive"
+      ],
+      "description": ") to release 6.5."
+    },
+    {
+      "enum": [
+        195,
+        "toReleaseSixNine"
+      ],
+      "description": ") to release 6.9."
+    },
+    {
+      "enum": [
+        196,
+        "allDeviceDbSixFiveUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo65 received null inputs"
+    },
+    {
+      "enum": [
+        197,
+        "allDeviceDbSixNineUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo69 received null inputs"
+    },
+    {
+      "enum": [
+        198,
+        "individualDeviceSixFiveUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo65 received null inputs."
+    },
+    {
+      "enum": [
+        199,
+        "individualDeviceSixNineUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo69 received null inputs."
+    },
+    {
+      "enum": [
+        200,
+        "allDeviceDbSixFiveUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo65 failed to update all devices to release 6.5"
+    },
+    {
+      "enum": [
+        201,
+        "allDeviceDbSixNineUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo69 failed to update all devices to release 6.9"
+    },
+    {
+      "enum": [
+        202,
+        "individualDeviceDbSixFiveUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo65 failed to update device ("
+    },
+    {
+      "enum": [
+        203,
+        "individualDeviceDbSixNineUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo69 failed to update device ("
+    },
+    {
+      "enum": [
+        204,
+        "performingSixFiveSpecificUpdates"
+      ],
+      "description": "Performing version 6.5 specific updates..."
+    },
+    {
+      "enum": [
+        205,
+        "performingSixNineSpecificUpdates"
+      ],
+      "description": "Performing version 6.9 specific updates..."
+    },
+    {
+      "enum": [
+        206,
+        "toReleaseSeven"
+      ],
+      "description": ") to release 7.0."
+    },
+    {
+      "enum": [
+        207,
+        "toReleaseEight"
+      ],
+      "description": ") to release 8.0."
+    },
+    {
+      "enum": [
+        208,
+        "allDeviceDbSevenUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo70 received null inputs"
+    },
+    {
+      "enum": [
+        209,
+        "allDeviceDbEightUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo80 received null inputs"
+    },
+    {
+      "enum": [
+        210,
+        "individualDeviceSevenUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo70 received null inputs."
+    },
+    {
+      "enum": [
+        211,
+        "individualDeviceEightUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo80 received null inputs."
+    },
+    {
+      "enum": [
+        212,
+        "allDeviceDbSevenUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo70 failed to update all devices to release 7.0"
+    },
+    {
+      "enum": [
+        213,
+        "allDeviceDbEightUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo80 failed to update all devices to release 8.0"
+    },
+    {
+      "enum": [
+        214,
+        "individualDeviceDbSevenUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo70 failed to update device ("
+    },
+    {
+      "enum": [
+        215,
+        "individualDeviceDbEightUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo80 failed to update device ("
+    },
+    {
+      "enum": [
+        216,
+        "performingSevenSpecificUpdates"
+      ],
+      "description": "Performing version 7.0 specific updates..."
+    },
+    {
+      "enum": [
+        217,
+        "performingEightSpecificUpdates"
+      ],
+      "description": "Performing version 8.0 specific updates..."
+    },
+    {
+      "enum": [
+        218,
+        "startingCodeDownload"
+      ],
+      "description": "Starting Code Download"
+    },
+    {
+      "enum": [
+        219,
+        "codeDownloadCompleted"
+      ],
+      "description": "Code Download Completed"
+    },
+    {
+      "enum": [
+        220,
+        "codeDownloadFailed"
+      ],
+      "description": "Code Download Failed : {0}"
+    },
+    {
+      "enum": [
+        221,
+        "startingObjectDownload"
+      ],
+      "description": "Starting Object Download"
+    },
+    {
+      "enum": [
+        222,
+        "objectDownloadCompleted"
+      ],
+      "description": "Object Download Completed"
+    },
+    {
+      "enum": [
+        223,
+        "objectDownloadFailed"
+      ],
+      "description": "Object Download Failed: {0}"
+    },
+    {
+      "enum": [
+        224,
+        "startingSecurityDownload"
+      ],
+      "description": "Starting Security Download"
+    },
+    {
+      "enum": [
+        225,
+        "securityDownloadCompleted"
+      ],
+      "description": "Security Download Completed"
+    },
+    {
+      "enum": [
+        226,
+        "securityDownloadFailed"
+      ],
+      "description": "Security Download Failed: {0}"
+    },
+    {
+      "enum": [
+        227,
+        "startingFieldControllerApplicationDownload"
+      ],
+      "description": "Starting Field Controller Application Download"
+    },
+    {
+      "enum": [
+        228,
+        "fieldControllerApplicationDownloadCompleted"
+      ],
+      "description": "Field Controller Application Download Completed"
+    },
+    {
+      "enum": [
+        229,
+        "fieldControllerApplicationDownloadFailed"
+      ],
+      "description": "Field Controller Application Download Failed"
+    },
+    {
+      "enum": [
+        230,
+        "startingSiteDiscovery"
+      ],
+      "description": "Starting Site Discovery"
+    },
+    {
+      "enum": [
+        231,
+        "siteDiscoveryCompleted"
+      ],
+      "description": "Site Discovery Completed"
+    },
+    {
+      "enum": [
+        232,
+        "startingSecurityCopy"
+      ],
+      "description": "Starting Security Copy"
+    },
+    {
+      "enum": [
+        233,
+        "securityCopyCompleted"
+      ],
+      "description": "Security Copy Completed"
+    },
+    {
+      "enum": [
+        234,
+        "securityCopyFailed"
+      ],
+      "description": "Security Copy Failed: {0}"
+    },
+    {
+      "enum": [
+        235,
+        "waitingForReset"
+      ],
+      "description": "Waiting for the Device to Reset"
+    },
+    {
+      "enum": [
+        236,
+        "waitingForReady"
+      ],
+      "description": "Waiting for the Device to be ready"
+    },
+    {
+      "enum": [
+        237,
+        "startingObjectUpload"
+      ],
+      "description": "Starting Object Upload"
+    },
+    {
+      "enum": [
+        238,
+        "objectUploadCompleted"
+      ],
+      "description": "Object Upload Completed"
+    },
+    {
+      "enum": [
+        239,
+        "objectUploadFailed"
+      ],
+      "description": "Object Upload Failed: {0}"
+    },
+    {
+      "enum": [
+        240,
+        "startingSecurityUpload"
+      ],
+      "description": "Starting Security Upload"
+    },
+    {
+      "enum": [
+        241,
+        "securityUploadCompleted"
+      ],
+      "description": "Security Upload Completed"
+    },
+    {
+      "enum": [
+        242,
+        "securityUploadFailed"
+      ],
+      "description": "Security Upload Failed:  {0}"
+    },
+    {
+      "enum": [
+        243,
+        "fieldControllerApplicationUploadCompleted"
+      ],
+      "description": "Field Controller Application Upload Completed"
+    },
+    {
+      "enum": [
+        244,
+        "fieldControllerApplicationFailed"
+      ],
+      "description": "Field Controller Application Upload Failed"
+    },
+    {
+      "enum": [
+        245,
+        "codeDownloadMacaddress"
+      ],
+      "description": "Code download Device MAC Address {0}"
+    },
+    {
+      "enum": [
+        246,
+        "codeDownloadMaxFileTransfer"
+      ],
+      "description": "Code download Aborting update since it exceeded the maximum allowed time for file transfer."
+    },
+    {
+      "enum": [
+        247,
+        "codeDownloadMaxTime"
+      ],
+      "description": "Code download Aborting update since it exceeded the maximum allowed time for loading the device."
+    },
+    {
+      "enum": [
+        248,
+        "codeDownloadGeneral"
+      ],
+      "description": "{0}"
+    },
+    {
+      "enum": [
+        249,
+        "startingSync"
+      ],
+      "description": "Starting Object Synchronization"
+    },
+    {
+      "enum": [
+        250,
+        "syncCompleted"
+      ],
+      "description": "Object Synchronization Completed"
+    },
+    {
+      "enum": [
+        251,
+        "syncFailed"
+      ],
+      "description": "Object Synchronization Failed: {0}"
+    },
+    {
+      "enum": [
+        252,
+        "startingPatch"
+      ],
+      "description": "Starting Patch Operation"
+    },
+    {
+      "enum": [
+        253,
+        "patchCompleted"
+      ],
+      "description": "Patch Operation Completed"
+    },
+    {
+      "enum": [
+        254,
+        "patchFailed"
+      ],
+      "description": "Patch Operation Failed: {0}"
+    },
+    {
+      "enum": [
+        255,
+        "startingSpaceEquipmentOnly"
+      ],
+      "description": "Starting Spaces and Equipment Only Download"
+    },
+    {
+      "enum": [
+        256,
+        "spaceEquipmentCompletedOnly"
+      ],
+      "description": "Spaces and Equipment Download Only Completed"
+    },
+    {
+      "enum": [
+        257,
+        "spaceEquipmentOnlyFailed"
+      ],
+      "description": "Spaces and Equipment Only Download Failed: {0}"
+    },
+    {
+      "enum": [
+        258,
+        "securityDeviceAuthenticationFailure"
+      ],
+      "description": "Authentication Failed"
+    },
+    {
+      "enum": [
+        259,
+        "performingModelAuthentication"
+      ],
+      "description": "Performing authentication of device(s) in archive"
+    },
+    {
+      "enum": [
+        260,
+        "toReleaseEightOne"
+      ],
+      "description": ") to release 8.1."
+    },
+    {
+      "enum": [
+        261,
+        "allDeviceDbEightOneUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo81 received null inputs"
+    },
+    {
+      "enum": [
+        262,
+        "individualDeviceEightOneUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo81 received null inputs."
+    },
+    {
+      "enum": [
+        263,
+        "allDeviceDbEightOneUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo81 failed to update all devices to release 8.1"
+    },
+    {
+      "enum": [
+        264,
+        "individualDeviceDbEightOneUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo81 failed to update device ("
+    },
+    {
+      "enum": [
+        265,
+        "performingEightOneSpecificUpdates"
+      ],
+      "description": "Performing version 8.1 specific updates..."
+    },
+    {
+      "enum": [
+        266,
+        "toReleaseNine"
+      ],
+      "description": ") to release 9.0."
+    },
+    {
+      "enum": [
+        267,
+        "allDeviceDbNineUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo90 received null inputs"
+    },
+    {
+      "enum": [
+        268,
+        "individualDeviceNineUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo90 received null inputs."
+    },
+    {
+      "enum": [
+        269,
+        "allDeviceDbNineUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo90 failed to update all devices to release 9.0"
+    },
+    {
+      "enum": [
+        270,
+        "individualDeviceDbNineUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo90 failed to update device ("
+    },
+    {
+      "enum": [
+        271,
+        "performingNineSpecificUpdates"
+      ],
+      "description": "Performing version 9.0 specific updates..."
+    },
+    {
+      "enum": [
+        272,
+        "startingCertificateUpload"
+      ],
+      "description": "Starting Certificate Upload"
+    },
+    {
+      "enum": [
+        273,
+        "certificateUploadCompleted"
+      ],
+      "description": "Certificate Upload Completed"
+    },
+    {
+      "enum": [
+        274,
+        "certificateUploadFailed"
+      ],
+      "description": "Certificate Upload Failed:  {0}"
+    },
+    {
+      "enum": [
+        275,
+        "startingCertificateDownload"
+      ],
+      "description": "Starting Certificate Download"
+    },
+    {
+      "enum": [
+        276,
+        "certificateDownloadCompleted"
+      ],
+      "description": "Certificate Download Completed"
+    },
+    {
+      "enum": [
+        277,
+        "certificateDownloadFailed"
+      ],
+      "description": "Certificate Download Failed:  {0}"
+    },
+    {
+      "enum": [
+        278,
+        "clearingSecurityRecord"
+      ],
+      "description": "Clearing Security for device:"
+    },
+    {
+      "enum": [
+        279,
+        "missingCafFile"
+      ],
+      "description": "This device has no associated CAF file"
+    },
+    {
+      "enum": [
+        280,
+        "toReleaseTen"
+      ],
+      "description": ") to release 10.0."
+    },
+    {
+      "enum": [
+        281,
+        "allDeviceDbTenUpdatesNullInput"
+      ],
+      "description": "When updating all devices, UpgradeSupervisoryDeviceTo10 received null inputs"
+    },
+    {
+      "enum": [
+        282,
+        "individualDeviceTenUpdatesNullInput"
+      ],
+      "description": "), UpgradeSupervisoryDeviceTo10 received null inputs."
+    },
+    {
+      "enum": [
+        283,
+        "allDeviceDbTenUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo10 failed to update all devices to release 10.0"
+    },
+    {
+      "enum": [
+        284,
+        "individualDeviceDbTenUpdatesFailed"
+      ],
+      "description": "UpgradeSupervisoryDeviceTo10 failed to update device ("
+    },
+    {
+      "enum": [
+        285,
+        "performingTenSpecificUpdates"
+      ],
+      "description": "Performing version 10.0 specific updates..."
+    },
+    {
+      "enum": [
+        286,
+        "fieldControllerCodeApplicationDownloadCompleted"
+      ],
+      "description": "Field Controller Boot, Code, Application Download Completed"
+    },
+    {
+      "enum": [
+        287,
+        "fieldControllerCodeApplicationDownloadFailed"
+      ],
+      "description": "Field Controller Boot, Code, Application Download Failed"
+    },
+    {
+      "enum": [
+        288,
+        "fieldControllerBootCodeDownloadCompleted"
+      ],
+      "description": "Field Controller Boot Download Completed"
+    },
+    {
+      "enum": [
+        289,
+        "fieldControllerBootCodeFailed"
+      ],
+      "description": "Field Controller Boot Download Failed"
+    },
+    {
+      "enum": [
+        290,
+        "fieldControllerMainCodeCompleted"
+      ],
+      "description": "Field Controller Main Download Completed"
+    },
+    {
+      "enum": [
+        291,
+        "fieldControllerMainCodeFailed"
+      ],
+      "description": "Field Controller Main Download Failed"
+    },
+    {
+      "enum": [
+        292,
+        "fieldControllerSwitchoverExecuted"
+      ],
+      "description": "Field Controller Apply Staged Files Executed"
+    },
+    {
+      "enum": [
+        293,
+        "fieldControllerLogicEnableExecuted"
+      ],
+      "description": "Field Controller Logic Enable Executed"
+    },
+    {
+      "enum": [
+        294,
+        "fieldControllerLogicDisableExecuted"
+      ],
+      "description": "Field Controller Logic Disable Executed"
+    },
+    {
+      "enum": [
+        295,
+        "startingNaeParenting"
+      ],
+      "description": "Starting NAE Intracomputer Parenting"
+    },
+    {
+      "enum": [
+        296,
+        "naeParentingCompleted"
+      ],
+      "description": "NAE Intracomputer Parenting Completed"
+    },
+    {
+      "enum": [
+        297,
+        "naeParentingFailed"
+      ],
+      "description": "NAE Intracomputer Parenting Failed:  {0}"
+    },
+    {
+      "enum": [
+        298,
+        "classConversionStarting"
+      ],
+      "description": "Converting the device to the desired class..."
+    },
+    {
+      "enum": [
+        299,
+        "classConversionFailed"
+      ],
+      "description": "Conversion failed to convert the device to the desired class: "
+    },
+    {
+      "enum": [
+        300,
+        "classConversionDeviceNotFound"
+      ],
+      "description": "Conversion failed - Device not found: "
+    },
+    {
+      "enum": [
+        301,
+        "classConversionInvalidSourceClassid"
+      ],
+      "description": "Conversion failed - Source device type not supported: "
+    },
+    {
+      "enum": [
+        302,
+        "classConversionInvalidTargetClassid"
+      ],
+      "description": "Conversion failed - Target device type not supported: "
+    },
+    {
+      "enum": [
+        303,
+        "classConversionInvalidOperation"
+      ],
+      "description": "Conversion failed - Conversion between source and target device type not supported: "
+    },
+    {
+      "enum": [
+        304,
+        "classConversionInvalidSdOperation"
+      ],
+      "description": "Conversion failed - Site director promotion/demotion not supported during device conversion: "
+    },
+    {
+      "enum": [
+        305,
+        "classConversionClassNotFound"
+      ],
+      "description": "Conversion failed - Target device type does not exist at the target version: "
+    },
+    {
+      "enum": [
+        306,
+        "classConversionPhase2"
+      ],
+      "description": "Conversion process phase 2..."
+    },
+    {
+      "enum": [
+        307,
+        "upgradeObjectNotSupported"
+      ],
+      "description": "The device has an object that is not supported in the target release. Object: "
+    },
+    {
+      "enum": [
+        308,
+        "upgradePropertyNotSupported"
+      ],
+      "description": "The device has a property that is not supported in the target release. Object: "
+    }
+  ]
+}

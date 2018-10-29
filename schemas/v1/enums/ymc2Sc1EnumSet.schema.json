@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc1EnumSet.schema.json",
+  "title": "ymc2Sc1EnumSet",
+  "description": "YMC2 Operational Code SC.1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymc2Sc10"
+      ],
+      "description": "UNIT STOPPED - READY TO START"
+    },
+    {
+      "enum": [
+        1,
+        "ymc2Sc11"
+      ],
+      "description": "UNIT STOPPED - LOCAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        2,
+        "ymc2Sc12"
+      ],
+      "description": "UNIT STOPPED - REMOTE SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "ymc2Sc13"
+      ],
+      "description": "UNIT STOPPED - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        4,
+        "ymc2Sc14"
+      ],
+      "description": "UNIT STOPPED - CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        5,
+        "ymc2Sc15"
+      ],
+      "description": "UNIT STOPPED - SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        6,
+        "ymc2Sc16"
+      ],
+      "description": "UNIT START INHIBIT"
+    },
+    {
+      "enum": [
+        7,
+        "ymc2Sc17"
+      ],
+      "description": "UNIT STARTING"
+    },
+    {
+      "enum": [
+        8,
+        "ymc2Sc18"
+      ],
+      "description": "UNIT RUNNING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        9,
+        "ymc2Sc19"
+      ],
+      "description": "UNIT RUNNING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        10,
+        "ymc2Sc110"
+      ],
+      "description": "UNIT RUNNING - SOFT SHUTDOWN"
+    },
+    {
+      "enum": [
+        11,
+        "ymc2Sc111"
+      ],
+      "description": "UNIT COASTDOWN"
+    },
+    {
+      "enum": [
+        12,
+        "ymc2Sc112"
+      ],
+      "description": "UNIT RUNNING - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        13,
+        "ymc2Sc113"
+      ],
+      "description": "UNIT STOPPED - INTERNAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        14,
+        "ymc2Sc114"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ymc2Sc115"
+      ],
+      "description": "UNIT RUNNING - ACTIVE OPTIMIZER - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        16,
+        "ymc2Sc116"
+      ],
+      "description": "UNIT RUNNING - ACTIVE OPTIMIZER - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        17,
+        "ymc2Sc117"
+      ],
+      "description": "UNIT RUNNING - ACTIVE OPTIMIZER - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        18,
+        "ymc2Sc118"
+      ],
+      "description": "UNIT RUNNING - PASSIVE OPTIMIZER - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        19,
+        "ymc2Sc119"
+      ],
+      "description": "UNIT RUNNING - PASSIVE OPTIMIZER - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        20,
+        "ymc2Sc120"
+      ],
+      "description": "UNIT RUNNING - PASSIVE OPTIMIZER - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        21,
+        "ymc2Sc121"
+      ],
+      "description": "UNIT RUNNING - COOLING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        22,
+        "ymc2Sc122"
+      ],
+      "description": "UNIT RUNNING - COOLING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        23,
+        "ymc2Sc123"
+      ],
+      "description": "UNIT RUNNING - COOLING - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        24,
+        "ymc2Sc124"
+      ],
+      "description": "UNIT RUNNING - HEATING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        25,
+        "ymc2Sc125"
+      ],
+      "description": "UNIT RUNNING - HEATING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        26,
+        "ymc2Sc126"
+      ],
+      "description": "UNIT RUNNING - HEATING - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        27,
+        "ymc2Sc127"
+      ],
+      "description": "UNIT RUNNING - COOLING & HEATING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        28,
+        "ymc2Sc128"
+      ],
+      "description": "UNIT RUNNING - COOLING & HEATING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        29,
+        "ymc2Sc129"
+      ],
+      "description": "UNIT RUNNING - COOLING & HEATING - MODIFIED RUN"
+    }
+  ]
+}

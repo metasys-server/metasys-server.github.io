@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtOverrideEnumSet.schema.json",
+  "title": "snvtOverrideEnumSet",
+  "description": "SNVT Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Retain"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Specified"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Default"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

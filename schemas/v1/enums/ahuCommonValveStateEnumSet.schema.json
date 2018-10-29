@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuCommonValveStateEnumSet.schema.json",
+  "title": "ahuCommonValveStateEnumSet",
+  "description": "AHU Common Valve State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "acvsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "acvsMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "acvsLimitedMaxHeating"
+      ],
+      "description": "Limited Max Heating"
+    },
+    {
+      "enum": [
+        3,
+        "acvsLimitedMaxCooling"
+      ],
+      "description": "Limited Max Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "acvsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        5,
+        "acvsWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        6,
+        "acvsHeatingTControl"
+      ],
+      "description": "Heating T Control"
+    },
+    {
+      "enum": [
+        7,
+        "acvsCoolingTControl"
+      ],
+      "description": "Cooling T Control"
+    },
+    {
+      "enum": [
+        8,
+        "acvsFailsoftHeating"
+      ],
+      "description": "Failsoft Heating"
+    },
+    {
+      "enum": [
+        9,
+        "acvsFailsoftCooling"
+      ],
+      "description": "Failsoft Cooling"
+    },
+    {
+      "enum": [
+        10,
+        "acvsLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    }
+  ]
+}

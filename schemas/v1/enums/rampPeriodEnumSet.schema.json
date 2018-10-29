@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rampPeriodEnumSet.schema.json",
+  "title": "rampPeriodEnumSet",
+  "description": "Ramp Period",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noPeriod"
+      ],
+      "description": "No Period"
+    },
+    {
+      "enum": [
+        1,
+        "onePercentPeriod"
+      ],
+      "description": "1 %"
+    },
+    {
+      "enum": [
+        2,
+        "fivePercentPeriod"
+      ],
+      "description": "5 %"
+    },
+    {
+      "enum": [
+        3,
+        "tenPercentPeriod"
+      ],
+      "description": "10 %"
+    }
+  ]
+}

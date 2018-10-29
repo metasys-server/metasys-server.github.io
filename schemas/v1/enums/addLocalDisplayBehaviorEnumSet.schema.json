@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/addLocalDisplayBehaviorEnumSet.schema.json",
+  "title": "addLocalDisplayBehaviorEnumSet",
+  "description": "Add Local Display Behavior",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "addLocalDisplayBehaviorNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "addLocalDisplayBehaviorAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

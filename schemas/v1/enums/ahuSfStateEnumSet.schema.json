@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuSfStateEnumSet.schema.json",
+  "title": "ahuSfStateEnumSet",
+  "description": "AHU SF State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuSfStateOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuSfStateMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        2,
+        "ahuSfStateEmergencyOn"
+      ],
+      "description": "Emergency On"
+    },
+    {
+      "enum": [
+        3,
+        "ahuSfStateRamp"
+      ],
+      "description": "Ramp"
+    },
+    {
+      "enum": [
+        4,
+        "ahuSfStateSpControl"
+      ],
+      "description": "S-P Control"
+    }
+  ]
+}

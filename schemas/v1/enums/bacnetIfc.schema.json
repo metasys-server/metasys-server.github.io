@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetIfc.schema.json",
+  "title": "bacnetIfc",
+  "description": "IFC BACnet",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ifcBacnetNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "ifcBacnetAlarm"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "ifcBacnetFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        3,
+        "ifcBacnetDisabled"
+      ],
+      "description": "Disabled"
+    }
+  ]
+}

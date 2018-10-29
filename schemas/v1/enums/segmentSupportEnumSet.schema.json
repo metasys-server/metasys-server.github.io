@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/segmentSupportEnumSet.schema.json",
+  "title": "segmentSupportEnumSet",
+  "description": "Segment Support",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "segmentedBoth"
+      ],
+      "description": "Segmented Both"
+    },
+    {
+      "enum": [
+        1,
+        "segmentedTransmit"
+      ],
+      "description": "Segmented Transmit"
+    },
+    {
+      "enum": [
+        2,
+        "segmentedReceive"
+      ],
+      "description": "Segmented Receive"
+    },
+    {
+      "enum": [
+        3,
+        "noSegmentation"
+      ],
+      "description": "No Segmentation"
+    }
+  ]
+}

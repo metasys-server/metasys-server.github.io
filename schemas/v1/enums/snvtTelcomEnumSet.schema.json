@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtTelcomEnumSet.schema.json",
+  "title": "snvtTelcomEnumSet",
+  "description": "SNVT Telcom States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Not In Use"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Off Hook"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Dialing"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Dial Completed"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Ringback"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Incoming"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Ringing"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Answered"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Connected"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Talking"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Hanging Up"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Hung Up (remote)"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Unhold"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Released"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Full Dup."
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "Blocked"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "Call Waiting"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "Destination Busy"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Network Busy"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "Error"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

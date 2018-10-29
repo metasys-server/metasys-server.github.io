@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuStartupRequiredEnumSet.schema.json",
+  "title": "ahuStartupRequiredEnumSet",
+  "description": "AHU Startup Required",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuSrNo"
+      ],
+      "description": "No"
+    },
+    {
+      "enum": [
+        1,
+        "ahuSrNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        2,
+        "ahuSrLowOat"
+      ],
+      "description": "Low OAT"
+    }
+  ]
+}

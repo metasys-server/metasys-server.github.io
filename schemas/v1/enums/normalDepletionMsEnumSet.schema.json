@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalDepletionMsEnumSet.schema.json",
+  "title": "normalDepletionMsEnumSet",
+  "description": "Normal/Depletion",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "normalDepletionNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "normalDepletionDepletion"
+      ],
+      "description": "Depletion"
+    }
+  ]
+}

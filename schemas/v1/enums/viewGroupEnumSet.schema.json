@@ -1,0 +1,1093 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/viewGroupEnumSet.schema.json",
+  "title": "viewGroupEnumSet",
+  "description": "View Group",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noGrp"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "blankGrp"
+      ],
+      "description": " "
+    },
+    {
+      "enum": [
+        2,
+        "objectGrp"
+      ],
+      "description": "Object"
+    },
+    {
+      "enum": [
+        3,
+        "engUnitsGrp"
+      ],
+      "description": "Engineering"
+    },
+    {
+      "enum": [
+        4,
+        "hardwareGrp"
+      ],
+      "description": "Hardware"
+    },
+    {
+      "enum": [
+        5,
+        "engValuesGrp"
+      ],
+      "description": "Engineering Values"
+    },
+    {
+      "enum": [
+        6,
+        "networkGrp"
+      ],
+      "description": "Network"
+    },
+    {
+      "enum": [
+        7,
+        "statesGrp"
+      ],
+      "description": "States"
+    },
+    {
+      "enum": [
+        8,
+        "controlGrp"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        9,
+        "alarmsGrp"
+      ],
+      "description": "Alarms"
+    },
+    {
+      "enum": [
+        10,
+        "stateGrp"
+      ],
+      "description": "State"
+    },
+    {
+      "enum": [
+        11,
+        "setupGrp"
+      ],
+      "description": "Setup"
+    },
+    {
+      "enum": [
+        12,
+        "membersGrp"
+      ],
+      "description": "Members"
+    },
+    {
+      "enum": [
+        13,
+        "restartOptionsGrp"
+      ],
+      "description": "Restart Options"
+    },
+    {
+      "enum": [
+        14,
+        "allocGrp"
+      ],
+      "description": "Allocated Memory"
+    },
+    {
+      "enum": [
+        15,
+        "acquiGrp"
+      ],
+      "description": "Acquired Memory"
+    },
+    {
+      "enum": [
+        16,
+        "modemInitializationGrp"
+      ],
+      "description": "Modem Initialization"
+    },
+    {
+      "enum": [
+        17,
+        "connectionStatusGrp"
+      ],
+      "description": "Connection Status"
+    },
+    {
+      "enum": [
+        18,
+        "statisticsGrp"
+      ],
+      "description": "Statistics"
+    },
+    {
+      "enum": [
+        19,
+        "dialSetupGrp"
+      ],
+      "description": "Dial Setup"
+    },
+    {
+      "enum": [
+        20,
+        "portSetupGrp"
+      ],
+      "description": "Port Setup"
+    },
+    {
+      "enum": [
+        21,
+        "demandLimitingGrp"
+      ],
+      "description": "Demand Limiting"
+    },
+    {
+      "enum": [
+        22,
+        "loadRollingGrp"
+      ],
+      "description": "Load Rolling"
+    },
+    {
+      "enum": [
+        23,
+        "utilityProfileGrp"
+      ],
+      "description": "Utility Profile"
+    },
+    {
+      "enum": [
+        24,
+        "fixedWindowAlgGrp"
+      ],
+      "description": "Fixed Window Alg"
+    },
+    {
+      "enum": [
+        25,
+        "slidingWindowAlgGrp"
+      ],
+      "description": "Sliding Window Alg"
+    },
+    {
+      "enum": [
+        26,
+        "loadsGrp"
+      ],
+      "description": "Loads"
+    },
+    {
+      "enum": [
+        27,
+        "operationalDataGrp"
+      ],
+      "description": "Operational Data"
+    },
+    {
+      "enum": [
+        28,
+        "daylightSavingsGrp"
+      ],
+      "description": "Daylight Savings"
+    },
+    {
+      "enum": [
+        29,
+        "calculationsGrp"
+      ],
+      "description": "Calculations"
+    },
+    {
+      "enum": [
+        30,
+        "categoryGrp"
+      ],
+      "description": "Category"
+    },
+    {
+      "enum": [
+        31,
+        "capabilityGrp"
+      ],
+      "description": "User Capability"
+    },
+    {
+      "enum": [
+        32,
+        "schdValuesGrp"
+      ],
+      "description": "Scheduling Values"
+    },
+    {
+      "enum": [
+        33,
+        "metricsGrp"
+      ],
+      "description": "Metrics"
+    },
+    {
+      "enum": [
+        34,
+        "actionTableGrp"
+      ],
+      "description": "Action Table"
+    },
+    {
+      "enum": [
+        35,
+        "interlockDefinitionGrp"
+      ],
+      "description": "Interlock Definition"
+    },
+    {
+      "enum": [
+        36,
+        "flagsGrp"
+      ],
+      "description": "Flags"
+    },
+    {
+      "enum": [
+        37,
+        "displayGrp"
+      ],
+      "description": "Display"
+    },
+    {
+      "enum": [
+        38,
+        "operationGrp"
+      ],
+      "description": "Operation"
+    },
+    {
+      "enum": [
+        39,
+        "communicationGrp"
+      ],
+      "description": "Communication"
+    },
+    {
+      "enum": [
+        40,
+        "alarmStateGrp"
+      ],
+      "description": "Alarm State"
+    },
+    {
+      "enum": [
+        41,
+        "alarmSetupGrp"
+      ],
+      "description": "Alarm Setup"
+    },
+    {
+      "enum": [
+        42,
+        "eventStateGrp"
+      ],
+      "description": "Event State"
+    },
+    {
+      "enum": [
+        43,
+        "eventSetupGrp"
+      ],
+      "description": "Event Setup"
+    },
+    {
+      "enum": [
+        44,
+        "advancedSetupGrp"
+      ],
+      "description": "Advanced Setup"
+    },
+    {
+      "enum": [
+        45,
+        "filterSetupGrp"
+      ],
+      "description": "Filter Setup"
+    },
+    {
+      "enum": [
+        46,
+        "hardwareSetupGrp"
+      ],
+      "description": "Hardware Setup"
+    },
+    {
+      "enum": [
+        47,
+        "memorySizingGrp"
+      ],
+      "description": "Memory Sizing"
+    },
+    {
+      "enum": [
+        48,
+        "debugGrp"
+      ],
+      "description": "Debug"
+    },
+    {
+      "enum": [
+        49,
+        "mstpGrp"
+      ],
+      "description": "MSTP"
+    },
+    {
+      "enum": [
+        50,
+        "statusGrp"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        51,
+        "bacnetGrp"
+      ],
+      "description": "BACnet"
+    },
+    {
+      "enum": [
+        52,
+        "executionGrp"
+      ],
+      "description": "Execution"
+    },
+    {
+      "enum": [
+        53,
+        "deviceGrp"
+      ],
+      "description": "Device"
+    },
+    {
+      "enum": [
+        54,
+        "referenceGrp"
+      ],
+      "description": "Reference"
+    },
+    {
+      "enum": [
+        55,
+        "resetGrp"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        56,
+        "inputsGrp"
+      ],
+      "description": "Inputs"
+    },
+    {
+      "enum": [
+        57,
+        "outputsGrp"
+      ],
+      "description": "Outputs"
+    },
+    {
+      "enum": [
+        58,
+        "localStorageGrp"
+      ],
+      "description": "Local Storage"
+    },
+    {
+      "enum": [
+        59,
+        "repositoryStorageGrp"
+      ],
+      "description": "Repository Storage"
+    },
+    {
+      "enum": [
+        60,
+        "intrinsicAlarmingGrp"
+      ],
+      "description": "BACnet Intrinsic Alarming"
+    },
+    {
+      "enum": [
+        61,
+        "timeGrp"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        62,
+        "auditTrailGrp"
+      ],
+      "description": "Audit Trail"
+    },
+    {
+      "enum": [
+        63,
+        "siteGrp"
+      ],
+      "description": "Site"
+    },
+    {
+      "enum": [
+        64,
+        "networkIdGrp"
+      ],
+      "description": "Network Identification"
+    },
+    {
+      "enum": [
+        65,
+        "lanGrp"
+      ],
+      "description": "LAN"
+    },
+    {
+      "enum": [
+        66,
+        "dialupGrp"
+      ],
+      "description": "ADS Dialup"
+    },
+    {
+      "enum": [
+        67,
+        "powerMgmtGrp"
+      ],
+      "description": "Power Management"
+    },
+    {
+      "enum": [
+        68,
+        "dataSourceGrp"
+      ],
+      "description": "Data Source"
+    },
+    {
+      "enum": [
+        69,
+        "analogInputsGrp"
+      ],
+      "description": "Analog Inputs"
+    },
+    {
+      "enum": [
+        70,
+        "analogOutputsGrp"
+      ],
+      "description": "Analog Outputs"
+    },
+    {
+      "enum": [
+        71,
+        "binaryInputsGrp"
+      ],
+      "description": "Binary Inputs"
+    },
+    {
+      "enum": [
+        72,
+        "binaryOutputsGrp"
+      ],
+      "description": "Binary Outputs"
+    },
+    {
+      "enum": [
+        73,
+        "multistateInputsGrp"
+      ],
+      "description": "Multistate Inputs"
+    },
+    {
+      "enum": [
+        74,
+        "multistateOutputsGrp"
+      ],
+      "description": "Multistate Outputs"
+    },
+    {
+      "enum": [
+        75,
+        "remoteInputsGrp"
+      ],
+      "description": "Remote Inputs"
+    },
+    {
+      "enum": [
+        76,
+        "remoteOutputsGrp"
+      ],
+      "description": "Remote Outputs"
+    },
+    {
+      "enum": [
+        77,
+        "identificationGrp"
+      ],
+      "description": "Identification"
+    },
+    {
+      "enum": [
+        78,
+        "notificationGrp"
+      ],
+      "description": "Notification"
+    },
+    {
+      "enum": [
+        79,
+        "antiPassbackGrp"
+      ],
+      "description": "Anti-Passback"
+    },
+    {
+      "enum": [
+        80,
+        "occupancyGrp"
+      ],
+      "description": "Occupancy"
+    },
+    {
+      "enum": [
+        81,
+        "antiLoiteringGrp"
+      ],
+      "description": "Anti-Loitering"
+    },
+    {
+      "enum": [
+        82,
+        "idSet1Grp"
+      ],
+      "description": "Identification Set 1"
+    },
+    {
+      "enum": [
+        83,
+        "idSet2Grp"
+      ],
+      "description": "Identification Set 2"
+    },
+    {
+      "enum": [
+        84,
+        "idSet3Grp"
+      ],
+      "description": "Identification Set 3"
+    },
+    {
+      "enum": [
+        85,
+        "idSet4Grp"
+      ],
+      "description": "Identification Set 4"
+    },
+    {
+      "enum": [
+        86,
+        "assetProcGrp"
+      ],
+      "description": "Asset Processing"
+    },
+    {
+      "enum": [
+        87,
+        "entityProcGrp"
+      ],
+      "description": "Entity Processing"
+    },
+    {
+      "enum": [
+        88,
+        "groupProcGrp"
+      ],
+      "description": "Group Processing"
+    },
+    {
+      "enum": [
+        89,
+        "teamProcGrp"
+      ],
+      "description": "Team Processing"
+    },
+    {
+      "enum": [
+        90,
+        "trackingGrp"
+      ],
+      "description": "Tracking"
+    },
+    {
+      "enum": [
+        91,
+        "controllerEventsGrp"
+      ],
+      "description": "Controller Events"
+    },
+    {
+      "enum": [
+        92,
+        "facilityCodesGrp"
+      ],
+      "description": "Facility Codes"
+    },
+    {
+      "enum": [
+        93,
+        "pinGrp"
+      ],
+      "description": "PIN"
+    },
+    {
+      "enum": [
+        94,
+        "accessGrp"
+      ],
+      "description": "Access"
+    },
+    {
+      "enum": [
+        95,
+        "privilegesGrp"
+      ],
+      "description": "Privileges"
+    },
+    {
+      "enum": [
+        96,
+        "timedOverrideGrp"
+      ],
+      "description": "Timed Override"
+    },
+    {
+      "enum": [
+        97,
+        "portalModeGrp"
+      ],
+      "description": "Portal Mode"
+    },
+    {
+      "enum": [
+        98,
+        "chartDisplayGrp"
+      ],
+      "description": "Chart Display"
+    },
+    {
+      "enum": [
+        99,
+        "generalGrp"
+      ],
+      "description": "General"
+    },
+    {
+      "enum": [
+        100,
+        "rangeStartGrp"
+      ],
+      "description": "Range Start"
+    },
+    {
+      "enum": [
+        101,
+        "rangeEndGrp"
+      ],
+      "description": "Range End"
+    },
+    {
+      "enum": [
+        102,
+        "controlAttributesGrp"
+      ],
+      "description": "Control Attributes"
+    },
+    {
+      "enum": [
+        103,
+        "dataAttributesGrp"
+      ],
+      "description": "Data Attributes"
+    },
+    {
+      "enum": [
+        104,
+        "databaseGrp"
+      ],
+      "description": "Database"
+    },
+    {
+      "enum": [
+        105,
+        "encryptionGrp"
+      ],
+      "description": "Encryption"
+    },
+    {
+      "enum": [
+        106,
+        "covReportingGrp"
+      ],
+      "description": "Change of Value Reporting"
+    },
+    {
+      "enum": [
+        107,
+        "engValuesFilterSetupGrp"
+      ],
+      "description": "Engineering Values - Filter Setup"
+    },
+    {
+      "enum": [
+        108,
+        "controlSourceGrp"
+      ],
+      "description": "Control Source"
+    },
+    {
+      "enum": [
+        109,
+        "defaultStateGrp"
+      ],
+      "description": "Default State"
+    },
+    {
+      "enum": [
+        110,
+        "securityGrp"
+      ],
+      "description": "Security"
+    },
+    {
+      "enum": [
+        111,
+        "advancedEngValuesGrp"
+      ],
+      "description": "Advanced Engineering Values"
+    },
+    {
+      "enum": [
+        112,
+        "priorityGrp"
+      ],
+      "description": "Priority"
+    },
+    {
+      "enum": [
+        113,
+        "portalModePriorityGrp"
+      ],
+      "description": "Portal Mode Priority"
+    },
+    {
+      "enum": [
+        114,
+        "lowLevelInterfaceGrp"
+      ],
+      "description": "Low Level Interface"
+    },
+    {
+      "enum": [
+        115,
+        "highLevelInterfaceGrp"
+      ],
+      "description": "High Level Interface"
+    },
+    {
+      "enum": [
+        116,
+        "peerToPeerGrp"
+      ],
+      "description": "Peer to Peer"
+    },
+    {
+      "enum": [
+        117,
+        "advOperationalDataGrp"
+      ],
+      "description": "Advanced Operational Data"
+    },
+    {
+      "enum": [
+        118,
+        "advDemandLimitingGrp"
+      ],
+      "description": "Advanced Demand Limiting"
+    },
+    {
+      "enum": [
+        119,
+        "advLoadRollingGrp"
+      ],
+      "description": "Advanced Load Rolling"
+    },
+    {
+      "enum": [
+        120,
+        "profileGrp"
+      ],
+      "description": "Profile"
+    },
+    {
+      "enum": [
+        121,
+        "loadSummaryGrp"
+      ],
+      "description": "Load Summary"
+    },
+    {
+      "enum": [
+        122,
+        "operationDisplayGrp"
+      ],
+      "description": "Operation And Display"
+    },
+    {
+      "enum": [
+        123,
+        "snmpGrp"
+      ],
+      "description": "SNMP"
+    },
+    {
+      "enum": [
+        124,
+        "validatedEnvironmentGrp"
+      ],
+      "description": "Validated Environment"
+    },
+    {
+      "enum": [
+        125,
+        "demandLimitingAdvGrp"
+      ],
+      "description": "Demand Limiting Advanced"
+    },
+    {
+      "enum": [
+        126,
+        "loadRollingAdvGrp"
+      ],
+      "description": "Load Rolling Advanced"
+    },
+    {
+      "enum": [
+        127,
+        "fixedWindowAlgAdvGrp"
+      ],
+      "description": "Fixed Window Alg Advanced"
+    },
+    {
+      "enum": [
+        128,
+        "slidingWindowAlgAdvGrp"
+      ],
+      "description": "Sliding Window Alg Advanced"
+    },
+    {
+      "enum": [
+        129,
+        "feedbackGrp"
+      ],
+      "description": "Feedback"
+    },
+    {
+      "enum": [
+        130,
+        "bacnetMessagingGrp"
+      ],
+      "description": "BACnet Messaging"
+    },
+    {
+      "enum": [
+        131,
+        "routingGrp"
+      ],
+      "description": "BACnet Routing"
+    },
+    {
+      "enum": [
+        132,
+        "currentTermGrp"
+      ],
+      "description": "Current Term"
+    },
+    {
+      "enum": [
+        133,
+        "headerConfigGrp"
+      ],
+      "description": "Header Configuration"
+    },
+    {
+      "enum": [
+        134,
+        "graphicGrp"
+      ],
+      "description": "Graphic Association"
+    },
+    {
+      "enum": [
+        135,
+        "offlineDetectionGrp"
+      ],
+      "description": "Offline Detection"
+    },
+    {
+      "enum": [
+        136,
+        "httpMessagingGrp"
+      ],
+      "description": "HTTP Messaging"
+    },
+    {
+      "enum": [
+        137,
+        "scaleGrp"
+      ],
+      "description": "Scale"
+    },
+    {
+      "enum": [
+        138,
+        "loggingGrp"
+      ],
+      "description": "Logging"
+    },
+    {
+      "enum": [
+        139,
+        "programGrp"
+      ],
+      "description": "Program"
+    },
+    {
+      "enum": [
+        140,
+        "accessControlDefaultValuesGrp"
+      ],
+      "description": "Access Control Default Values"
+    },
+    {
+      "enum": [
+        141,
+        "commandsGrp"
+      ],
+      "description": "Commands"
+    },
+    {
+      "enum": [
+        142,
+        "alarmWarningThresholdGrp"
+      ],
+      "description": "Alarm/Warning Thresholds"
+    },
+    {
+      "enum": [
+        143,
+        "heatingCoolingSetpointMode"
+      ],
+      "description": "Heating/Cooling Setpoint Mode"
+    },
+    {
+      "enum": [
+        144,
+        "singleSetpointMode"
+      ],
+      "description": "Single Setpoint Mode"
+    },
+    {
+      "enum": [
+        145,
+        "manualAdjustmentGrp"
+      ],
+      "description": "Manual Adjustments"
+    },
+    {
+      "enum": [
+        146,
+        "sunPositionGrp"
+      ],
+      "description": "Sun Position"
+    },
+    {
+      "enum": [
+        147,
+        "weeklySchedGrp"
+      ],
+      "description": "Weekly Scheduling"
+    },
+    {
+      "enum": [
+        148,
+        "proxyGrp"
+      ],
+      "description": "Proxy Configuration"
+    },
+    {
+      "enum": [
+        149,
+        "enterpriseConfigGrp"
+      ],
+      "description": "Configuration"
+    },
+    {
+      "enum": [
+        150,
+        "timeSeriesDataGrp"
+      ],
+      "description": "Time Series Data"
+    },
+    {
+      "enum": [
+        151,
+        "advancedConfigGrp"
+      ],
+      "description": "Advanced Configuration"
+    },
+    {
+      "enum": [
+        152,
+        "locatorGrp"
+      ],
+      "description": "Locator"
+    },
+    {
+      "enum": [
+        153,
+        "warningBannerGrp"
+      ],
+      "description": "Warning Banner"
+    },
+    {
+      "enum": [
+        154,
+        "pointNameDisplay"
+      ],
+      "description": "Point Name Display"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecAlarmsVt7600EnumSet.schema.json",
+  "title": "tecAlarmsVt7600EnumSet",
+  "description": "TEC TEC2x0x Alarms",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecVt7600NoAlarm"
+      ],
+      "description": "No Alarm"
+    },
+    {
+      "enum": [
+        1,
+        "tecVt7600FrostAlarm"
+      ],
+      "description": "Frost Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "tecVt7600ClockAlarm"
+      ],
+      "description": "Clock Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "tecVt7600FilterAlarm"
+      ],
+      "description": "Filter Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "tecVt7600ServiceAlarm"
+      ],
+      "description": "Service Alarm"
+    },
+    {
+      "enum": [
+        5,
+        "tecVt7600FiltServAlarms"
+      ],
+      "description": "Filter and Service Alarms"
+    },
+    {
+      "enum": [
+        6,
+        "tecVt7600FiltClkAlarms"
+      ],
+      "description": "Filter and Clock Alarms"
+    },
+    {
+      "enum": [
+        7,
+        "tecVt7600FiltFrstAlarms"
+      ],
+      "description": "Filter and Frost Alarms"
+    },
+    {
+      "enum": [
+        8,
+        "tecVt7600ServClkAlarms"
+      ],
+      "description": "Service and Clock Alarms"
+    },
+    {
+      "enum": [
+        9,
+        "tecVt7600ServFrstAlarms"
+      ],
+      "description": "Service and Frost Alarms"
+    },
+    {
+      "enum": [
+        10,
+        "tecVt7600ClkFrstNoAlarms"
+      ],
+      "description": "Clock and Frost Alarms"
+    },
+    {
+      "enum": [
+        11,
+        "tecVt7600FiltFrstClkAlarms"
+      ],
+      "description": "Filter, Frost, and Clock Alarms"
+    },
+    {
+      "enum": [
+        12,
+        "tecVt7600ServFrstClkAlarms"
+      ],
+      "description": "Service, Frost, and Clock Alarms"
+    },
+    {
+      "enum": [
+        13,
+        "tecVt7600ServFiltFrstAlarms"
+      ],
+      "description": "Service, Filter, and Frost Alarms"
+    },
+    {
+      "enum": [
+        14,
+        "tecVt7600ServFiltClkAlarms"
+      ],
+      "description": "Service, Filter, and Clock Alarms"
+    },
+    {
+      "enum": [
+        15,
+        "tecVt7600ClkFiltFrstServAlarms"
+      ],
+      "description": "Clock, Filter, Frost, and Service Alarms"
+    }
+  ]
+}

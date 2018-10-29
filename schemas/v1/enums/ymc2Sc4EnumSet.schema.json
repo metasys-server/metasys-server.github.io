@@ -1,0 +1,512 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc4EnumSet.schema.json",
+  "title": "ymc2Sc4EnumSet",
+  "description": "YMC2 Warning Code SC.4",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ymc2Sc40"
+      ],
+      "description": "NO WARNINGS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ymc2Sc41"
+      ],
+      "description": "WARNING - REAL TIME CLOCK FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "ymc2Sc42"
+      ],
+      "description": "WARNING - SETPOINT OVERRIDE"
+    },
+    {
+      "enum": [
+        3,
+        "ymc2Sc43"
+      ],
+      "description": "WARNING - CONDENSER OR EVAPORATOR XDCR ERROR"
+    },
+    {
+      "enum": [
+        4,
+        "ymc2Sc44"
+      ],
+      "description": "WARNING - EVAPORATOR - LOW PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "ymc2Sc45"
+      ],
+      "description": "WARNING - CONDENSER - HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "ymc2Sc46"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "ymc2Sc47"
+      ],
+      "description": "RESERVED 7"
+    },
+    {
+      "enum": [
+        8,
+        "ymc2Sc48"
+      ],
+      "description": "RESERVED 8"
+    },
+    {
+      "enum": [
+        9,
+        "ymc2Sc49"
+      ],
+      "description": "RESERVED 9"
+    },
+    {
+      "enum": [
+        10,
+        "ymc2Sc410"
+      ],
+      "description": "RESERVED 10"
+    },
+    {
+      "enum": [
+        11,
+        "ymc2Sc411"
+      ],
+      "description": "RESERVED 11"
+    },
+    {
+      "enum": [
+        12,
+        "ymc2Sc412"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "ymc2Sc413"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ymc2Sc414"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ymc2Sc415"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ymc2Sc416"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ymc2Sc417"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ymc2Sc418"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ymc2Sc419"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ymc2Sc420"
+      ],
+      "description": "WARNING - UPS - NOT CHARGING"
+    },
+    {
+      "enum": [
+        21,
+        "ymc2Sc421"
+      ],
+      "description": "WARNING - UPS - LINE LOW BATTERY VOLTAGE"
+    },
+    {
+      "enum": [
+        22,
+        "ymc2Sc422"
+      ],
+      "description": "WARNING - UPS - BATTERY NOT CONNECTED"
+    },
+    {
+      "enum": [
+        23,
+        "ymc2Sc423"
+      ],
+      "description": "WARNING - UPS - CHECK BATTERY CONNECTION"
+    },
+    {
+      "enum": [
+        24,
+        "ymc2Sc424"
+      ],
+      "description": "WARNING - UPS - BATTERY TEST FAILED"
+    },
+    {
+      "enum": [
+        25,
+        "ymc2Sc425"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ymc2Sc426"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ymc2Sc427"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ymc2Sc428"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ymc2Sc429"
+      ],
+      "description": "WARNING - SURGE PROTECTION - EXCESS SURGE LIMIT"
+    },
+    {
+      "enum": [
+        30,
+        "ymc2Sc430"
+      ],
+      "description": "WARNING - EXCESS SURGE DETECTED"
+    },
+    {
+      "enum": [
+        31,
+        "ymc2Sc431"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ymc2Sc432"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ymc2Sc433"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ymc2Sc434"
+      ],
+      "description": "WARNING - CONDENSER OR VGD SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        35,
+        "ymc2Sc435"
+      ],
+      "description": "RESERVED 35"
+    },
+    {
+      "enum": [
+        36,
+        "ymc2Sc436"
+      ],
+      "description": "RESERVED 36"
+    },
+    {
+      "enum": [
+        37,
+        "ymc2Sc437"
+      ],
+      "description": "RESERVED 37"
+    },
+    {
+      "enum": [
+        38,
+        "ymc2Sc438"
+      ],
+      "description": "RESERVED 38"
+    },
+    {
+      "enum": [
+        39,
+        "ymc2Sc439"
+      ],
+      "description": "RESERVED 39"
+    },
+    {
+      "enum": [
+        40,
+        "ymc2Sc440"
+      ],
+      "description": "WARNING - MOTOR - HIGH WINDING TEMPERATURE"
+    },
+    {
+      "enum": [
+        41,
+        "ymc2Sc441"
+      ],
+      "description": "WARNING - MOTOR - HIGH ROTOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        42,
+        "ymc2Sc442"
+      ],
+      "description": "RESERVED 42"
+    },
+    {
+      "enum": [
+        43,
+        "ymc2Sc443"
+      ],
+      "description": "RESERVED 43"
+    },
+    {
+      "enum": [
+        44,
+        "ymc2Sc444"
+      ],
+      "description": "WARNING - VSD - INPUT VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        45,
+        "ymc2Sc445"
+      ],
+      "description": "RESERVED 45"
+    },
+    {
+      "enum": [
+        46,
+        "ymc2Sc446"
+      ],
+      "description": "RESERVED 46"
+    },
+    {
+      "enum": [
+        47,
+        "ymc2Sc447"
+      ],
+      "description": "RESERVED 47"
+    },
+    {
+      "enum": [
+        48,
+        "ymc2Sc448"
+      ],
+      "description": "WARNING - MBC - LANDING COUNTER HIGH"
+    },
+    {
+      "enum": [
+        49,
+        "ymc2Sc449"
+      ],
+      "description": "RESERVED 49"
+    },
+    {
+      "enum": [
+        50,
+        "ymc2Sc450"
+      ],
+      "description": "RESERVED 50"
+    },
+    {
+      "enum": [
+        51,
+        "ymc2Sc451"
+      ],
+      "description": "RESERVED 51"
+    },
+    {
+      "enum": [
+        52,
+        "ymc2Sc452"
+      ],
+      "description": "RESERVED 52"
+    },
+    {
+      "enum": [
+        53,
+        "ymc2Sc453"
+      ],
+      "description": "RESERVED 53"
+    },
+    {
+      "enum": [
+        54,
+        "ymc2Sc454"
+      ],
+      "description": "RESERVED 54"
+    },
+    {
+      "enum": [
+        55,
+        "ymc2Sc455"
+      ],
+      "description": "WARNING - MBC - CHECKSUM CENTERING"
+    },
+    {
+      "enum": [
+        56,
+        "ymc2Sc456"
+      ],
+      "description": "WARNING - MBC - DSP WATCHDOG"
+    },
+    {
+      "enum": [
+        57,
+        "ymc2Sc457"
+      ],
+      "description": "WARNING - MBC - AMP WATCHDOG"
+    },
+    {
+      "enum": [
+        58,
+        "ymc2Sc458"
+      ],
+      "description": "WARNING - MBC - INTERNAL ALARM"
+    },
+    {
+      "enum": [
+        59,
+        "ymc2Sc459"
+      ],
+      "description": "WARNING - MBC - HIGH RADIAL OSCILLATOR VOLTAGE"
+    },
+    {
+      "enum": [
+        60,
+        "ymc2Sc460"
+      ],
+      "description": "WARNING - MBC - HIGH AXIAL OSCILLATOR VOLTAGE"
+    },
+    {
+      "enum": [
+        61,
+        "ymc2Sc461"
+      ],
+      "description": "RESERVED 61"
+    },
+    {
+      "enum": [
+        62,
+        "ymc2Sc462"
+      ],
+      "description": "RESERVED 62"
+    },
+    {
+      "enum": [
+        63,
+        "ymc2Sc463"
+      ],
+      "description": "RESERVED 63"
+    },
+    {
+      "enum": [
+        64,
+        "ymc2Sc464"
+      ],
+      "description": "RESERVED 64"
+    },
+    {
+      "enum": [
+        65,
+        "ymc2Sc465"
+      ],
+      "description": "WARNING - MBC - ROTATION MODE OFF"
+    },
+    {
+      "enum": [
+        66,
+        "ymc2Sc466"
+      ],
+      "description": "WARNING - MOTOR - HIGH CURRENT LIMIT"
+    },
+    {
+      "enum": [
+        67,
+        "ymc2Sc467"
+      ],
+      "description": "WARNING - MOTOR - HIGH HOUSING TEMPERATURE"
+    },
+    {
+      "enum": [
+        68,
+        "ymc2Sc468"
+      ],
+      "description": "WARNING - VSD - DC BUS ACTIVE"
+    },
+    {
+      "enum": [
+        69,
+        "ymc2Sc469"
+      ],
+      "description": "WARNING - LIQUID LEVEL SETPOINT NOT ACHIEVED"
+    },
+    {
+      "enum": [
+        70,
+        "ymc2Sc470"
+      ],
+      "description": "WARNING - LOSS OF SUBCOOLER LIQUID SEAL"
+    },
+    {
+      "enum": [
+        71,
+        "ymc2Sc471"
+      ],
+      "description": "WARNING - CONDENSER - FREEZE THREAT FROM LOW PRESSURE"
+    }
+  ]
+}

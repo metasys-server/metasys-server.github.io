@@ -1,0 +1,1240 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yt2GenericStringsEnumSet.schema.json",
+  "title": "yt2GenericStringsEnumSet",
+  "description": "YT2 Generic Strings",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "yt2GenericStrings1"
+      ],
+      "description": "YT2_S01_P03"
+    },
+    {
+      "enum": [
+        2,
+        "yt2GenericStrings2"
+      ],
+      "description": "YT2_S01_P04"
+    },
+    {
+      "enum": [
+        3,
+        "yt2GenericStrings3"
+      ],
+      "description": "YT2_S01_P05"
+    },
+    {
+      "enum": [
+        4,
+        "yt2GenericStrings4"
+      ],
+      "description": "YT2_S01_P06"
+    },
+    {
+      "enum": [
+        5,
+        "yt2GenericStrings5"
+      ],
+      "description": "YT2_S01_P07"
+    },
+    {
+      "enum": [
+        6,
+        "yt2GenericStrings6"
+      ],
+      "description": "YT2_S01_P08"
+    },
+    {
+      "enum": [
+        7,
+        "yt2GenericStrings7"
+      ],
+      "description": "YT2_S01_P09"
+    },
+    {
+      "enum": [
+        8,
+        "yt2GenericStrings8"
+      ],
+      "description": "YT2_S01_P10"
+    },
+    {
+      "enum": [
+        9,
+        "yt2GenericStrings9"
+      ],
+      "description": "YT2_S01_P11"
+    },
+    {
+      "enum": [
+        10,
+        "yt2GenericStrings10"
+      ],
+      "description": "YT2_S01_P12"
+    },
+    {
+      "enum": [
+        11,
+        "yt2GenericStrings11"
+      ],
+      "description": "YT2_S01_P13"
+    },
+    {
+      "enum": [
+        12,
+        "yt2GenericStrings12"
+      ],
+      "description": "YT2_S01_P14"
+    },
+    {
+      "enum": [
+        13,
+        "yt2GenericStrings13"
+      ],
+      "description": "YT2_S01_P15"
+    },
+    {
+      "enum": [
+        14,
+        "yt2GenericStrings14"
+      ],
+      "description": "YT2_S01_P16"
+    },
+    {
+      "enum": [
+        15,
+        "yt2GenericStrings15"
+      ],
+      "description": "YT2_S01_P17"
+    },
+    {
+      "enum": [
+        16,
+        "yt2GenericStrings16"
+      ],
+      "description": "YT2_S01_P18"
+    },
+    {
+      "enum": [
+        17,
+        "yt2GenericStrings17"
+      ],
+      "description": "YT2_S01_P19"
+    },
+    {
+      "enum": [
+        18,
+        "yt2GenericStrings18"
+      ],
+      "description": "YT2_S01_P20"
+    },
+    {
+      "enum": [
+        19,
+        "yt2GenericStrings19"
+      ],
+      "description": "YT2_S01_P21"
+    },
+    {
+      "enum": [
+        20,
+        "yt2GenericStrings20"
+      ],
+      "description": "YT2_S01_P22"
+    },
+    {
+      "enum": [
+        21,
+        "yt2GenericStrings21"
+      ],
+      "description": "YT2_S01_P23"
+    },
+    {
+      "enum": [
+        22,
+        "yt2GenericStrings22"
+      ],
+      "description": "YT2_S01_P24"
+    },
+    {
+      "enum": [
+        23,
+        "yt2GenericStrings23"
+      ],
+      "description": "YT2_S01_P25"
+    },
+    {
+      "enum": [
+        24,
+        "yt2GenericStrings24"
+      ],
+      "description": "YT2_S01_P26"
+    },
+    {
+      "enum": [
+        25,
+        "yt2GenericStrings25"
+      ],
+      "description": "YT2_S01_P27"
+    },
+    {
+      "enum": [
+        26,
+        "yt2GenericStrings26"
+      ],
+      "description": "YT2_S01_P28"
+    },
+    {
+      "enum": [
+        27,
+        "yt2GenericStrings27"
+      ],
+      "description": "YT2_S01_P29"
+    },
+    {
+      "enum": [
+        28,
+        "yt2GenericStrings28"
+      ],
+      "description": "YT2_S01_P30"
+    },
+    {
+      "enum": [
+        29,
+        "yt2GenericStrings29"
+      ],
+      "description": "YT2_S01_P31"
+    },
+    {
+      "enum": [
+        30,
+        "yt2GenericStrings30"
+      ],
+      "description": "YT2_S01_P32"
+    },
+    {
+      "enum": [
+        31,
+        "yt2GenericStrings31"
+      ],
+      "description": "YT2_S01_P33"
+    },
+    {
+      "enum": [
+        32,
+        "yt2GenericStrings32"
+      ],
+      "description": "YT2_S01_P34"
+    },
+    {
+      "enum": [
+        33,
+        "yt2GenericStrings33"
+      ],
+      "description": "YT2_S01_P35"
+    },
+    {
+      "enum": [
+        34,
+        "yt2GenericStrings34"
+      ],
+      "description": "YT2_S01_P36"
+    },
+    {
+      "enum": [
+        35,
+        "yt2GenericStrings35"
+      ],
+      "description": "YT2_S01_P37"
+    },
+    {
+      "enum": [
+        36,
+        "yt2GenericStrings36"
+      ],
+      "description": "YT2_S01_P38"
+    },
+    {
+      "enum": [
+        37,
+        "yt2GenericStrings37"
+      ],
+      "description": "YT2_S01_P39"
+    },
+    {
+      "enum": [
+        38,
+        "yt2GenericStrings38"
+      ],
+      "description": "YT2_S01_P40"
+    },
+    {
+      "enum": [
+        39,
+        "yt2GenericStrings39"
+      ],
+      "description": "YT2_S01_P41"
+    },
+    {
+      "enum": [
+        40,
+        "yt2GenericStrings40"
+      ],
+      "description": "YT2_S01_P42"
+    },
+    {
+      "enum": [
+        41,
+        "yt2GenericStrings41"
+      ],
+      "description": "YT2_S01_P43"
+    },
+    {
+      "enum": [
+        42,
+        "yt2GenericStrings42"
+      ],
+      "description": "YT2_S01_P44"
+    },
+    {
+      "enum": [
+        43,
+        "yt2GenericStrings43"
+      ],
+      "description": "YT2_S01_P45"
+    },
+    {
+      "enum": [
+        44,
+        "yt2GenericStrings44"
+      ],
+      "description": "YT2_S01_P46"
+    },
+    {
+      "enum": [
+        45,
+        "yt2GenericStrings45"
+      ],
+      "description": "YT2_S01_P47"
+    },
+    {
+      "enum": [
+        46,
+        "yt2GenericStrings46"
+      ],
+      "description": "YT2_S01_P48"
+    },
+    {
+      "enum": [
+        47,
+        "yt2GenericStrings47"
+      ],
+      "description": "YT2_S01_P49"
+    },
+    {
+      "enum": [
+        48,
+        "yt2GenericStrings48"
+      ],
+      "description": "YT2_S01_P50"
+    },
+    {
+      "enum": [
+        49,
+        "yt2GenericStrings49"
+      ],
+      "description": "YT2_S01_P51"
+    },
+    {
+      "enum": [
+        50,
+        "yt2GenericStrings50"
+      ],
+      "description": "YT2_S01_P52"
+    },
+    {
+      "enum": [
+        51,
+        "yt2GenericStrings51"
+      ],
+      "description": "YT2_S01_P53"
+    },
+    {
+      "enum": [
+        52,
+        "yt2GenericStrings52"
+      ],
+      "description": "YT2_S01_P54"
+    },
+    {
+      "enum": [
+        53,
+        "yt2GenericStrings53"
+      ],
+      "description": "YT2_S01_P55"
+    },
+    {
+      "enum": [
+        54,
+        "yt2GenericStrings54"
+      ],
+      "description": "YT2_S01_P56"
+    },
+    {
+      "enum": [
+        55,
+        "yt2GenericStrings55"
+      ],
+      "description": "YT2_S01_P57"
+    },
+    {
+      "enum": [
+        56,
+        "yt2GenericStrings56"
+      ],
+      "description": "YT2_S01_P58"
+    },
+    {
+      "enum": [
+        57,
+        "yt2GenericStrings57"
+      ],
+      "description": "YT2_S01_P59"
+    },
+    {
+      "enum": [
+        58,
+        "yt2GenericStrings58"
+      ],
+      "description": "YT2_S01_P60"
+    },
+    {
+      "enum": [
+        59,
+        "yt2GenericStrings59"
+      ],
+      "description": "YT2_S01_P61"
+    },
+    {
+      "enum": [
+        60,
+        "yt2GenericStrings60"
+      ],
+      "description": "YT2_S01_P62"
+    },
+    {
+      "enum": [
+        61,
+        "yt2GenericStrings61"
+      ],
+      "description": "YT2_S01_P63"
+    },
+    {
+      "enum": [
+        62,
+        "yt2GenericStrings62"
+      ],
+      "description": "YT2_S01_P64"
+    },
+    {
+      "enum": [
+        63,
+        "yt2GenericStrings63"
+      ],
+      "description": "YT2_S01_P65"
+    },
+    {
+      "enum": [
+        64,
+        "yt2GenericStrings64"
+      ],
+      "description": "YT2_S01_P66"
+    },
+    {
+      "enum": [
+        65,
+        "yt2GenericStrings65"
+      ],
+      "description": "YT2_S01_P67"
+    },
+    {
+      "enum": [
+        66,
+        "yt2GenericStrings66"
+      ],
+      "description": "YT2_S01_P68"
+    },
+    {
+      "enum": [
+        67,
+        "yt2GenericStrings67"
+      ],
+      "description": "YT2_S01_P69"
+    },
+    {
+      "enum": [
+        68,
+        "yt2GenericStrings68"
+      ],
+      "description": "YT2_S01_P70"
+    },
+    {
+      "enum": [
+        69,
+        "yt2GenericStrings69"
+      ],
+      "description": "YT2_S01_P71"
+    },
+    {
+      "enum": [
+        70,
+        "yt2GenericStrings70"
+      ],
+      "description": "YT2_S01_P72"
+    },
+    {
+      "enum": [
+        71,
+        "yt2GenericStrings71"
+      ],
+      "description": "YT2_S01_P73"
+    },
+    {
+      "enum": [
+        72,
+        "yt2GenericStrings72"
+      ],
+      "description": "YT2_S01_P74"
+    },
+    {
+      "enum": [
+        73,
+        "yt2GenericStrings73"
+      ],
+      "description": "YT2_S01_P75"
+    },
+    {
+      "enum": [
+        74,
+        "yt2GenericStrings74"
+      ],
+      "description": "YT2_S01_P76"
+    },
+    {
+      "enum": [
+        75,
+        "yt2GenericStrings75"
+      ],
+      "description": "YT2_S01_P77"
+    },
+    {
+      "enum": [
+        76,
+        "yt2GenericStrings76"
+      ],
+      "description": "YT2_S01_P78"
+    },
+    {
+      "enum": [
+        77,
+        "yt2GenericStrings77"
+      ],
+      "description": "YT2_S01_P79"
+    },
+    {
+      "enum": [
+        78,
+        "yt2GenericStrings78"
+      ],
+      "description": "YT2_S01_P80"
+    },
+    {
+      "enum": [
+        79,
+        "yt2GenericStrings79"
+      ],
+      "description": "YT2_S01_P81"
+    },
+    {
+      "enum": [
+        80,
+        "yt2GenericStrings80"
+      ],
+      "description": "YT2_S01_P82"
+    },
+    {
+      "enum": [
+        81,
+        "yt2GenericStrings81"
+      ],
+      "description": "YT2_S01_P83"
+    },
+    {
+      "enum": [
+        82,
+        "yt2GenericStrings82"
+      ],
+      "description": "YT2_S01_P84"
+    },
+    {
+      "enum": [
+        83,
+        "yt2GenericStrings83"
+      ],
+      "description": "YT2_S02_P11"
+    },
+    {
+      "enum": [
+        84,
+        "yt2GenericStrings84"
+      ],
+      "description": "YT2_S02_P12"
+    },
+    {
+      "enum": [
+        85,
+        "yt2GenericStrings85"
+      ],
+      "description": "YT2_S02_P13"
+    },
+    {
+      "enum": [
+        86,
+        "yt2GenericStrings86"
+      ],
+      "description": "YT2_S02_P14"
+    },
+    {
+      "enum": [
+        87,
+        "yt2GenericStrings87"
+      ],
+      "description": "YT2_S02_P15"
+    },
+    {
+      "enum": [
+        88,
+        "yt2GenericStrings88"
+      ],
+      "description": "YT2_S02_P16"
+    },
+    {
+      "enum": [
+        89,
+        "yt2GenericStrings89"
+      ],
+      "description": "YT2_S02_P17"
+    },
+    {
+      "enum": [
+        90,
+        "yt2GenericStrings90"
+      ],
+      "description": "YT2_S02_P18"
+    },
+    {
+      "enum": [
+        91,
+        "yt2GenericStrings91"
+      ],
+      "description": "YT2_S02_P19"
+    },
+    {
+      "enum": [
+        92,
+        "yt2GenericStrings92"
+      ],
+      "description": "YT2_S02_P20"
+    },
+    {
+      "enum": [
+        93,
+        "yt2GenericStrings93"
+      ],
+      "description": "YT2_S02_P21"
+    },
+    {
+      "enum": [
+        94,
+        "yt2GenericStrings94"
+      ],
+      "description": "YT2_S02_P22"
+    },
+    {
+      "enum": [
+        95,
+        "yt2GenericStrings95"
+      ],
+      "description": "YT2_S02_P23"
+    },
+    {
+      "enum": [
+        96,
+        "yt2GenericStrings96"
+      ],
+      "description": "YT2_S02_P24"
+    },
+    {
+      "enum": [
+        97,
+        "yt2GenericStrings97"
+      ],
+      "description": "YT2_S02_P25"
+    },
+    {
+      "enum": [
+        98,
+        "yt2GenericStrings98"
+      ],
+      "description": "YT2_S02_P26"
+    },
+    {
+      "enum": [
+        99,
+        "yt2GenericStrings99"
+      ],
+      "description": "YT2_S02_P27"
+    },
+    {
+      "enum": [
+        100,
+        "yt2GenericStrings100"
+      ],
+      "description": "YT2_S02_P28"
+    },
+    {
+      "enum": [
+        101,
+        "yt2GenericStrings101"
+      ],
+      "description": "YT2_S02_P29"
+    },
+    {
+      "enum": [
+        102,
+        "yt2GenericStrings102"
+      ],
+      "description": "YT2_S02_P30"
+    },
+    {
+      "enum": [
+        103,
+        "yt2GenericStrings103"
+      ],
+      "description": "YT2_S02_P31"
+    },
+    {
+      "enum": [
+        104,
+        "yt2GenericStrings104"
+      ],
+      "description": "YT2_S02_P32"
+    },
+    {
+      "enum": [
+        105,
+        "yt2GenericStrings105"
+      ],
+      "description": "YT2_S02_P33"
+    },
+    {
+      "enum": [
+        106,
+        "yt2GenericStrings106"
+      ],
+      "description": "YT2_S02_P34"
+    },
+    {
+      "enum": [
+        107,
+        "yt2GenericStrings107"
+      ],
+      "description": "YT2_S02_P35"
+    },
+    {
+      "enum": [
+        108,
+        "yt2GenericStrings108"
+      ],
+      "description": "YT2_S02_P36"
+    },
+    {
+      "enum": [
+        109,
+        "yt2GenericStrings109"
+      ],
+      "description": "YT2_S02_P37"
+    },
+    {
+      "enum": [
+        110,
+        "yt2GenericStrings110"
+      ],
+      "description": "YT2_S02_P38"
+    },
+    {
+      "enum": [
+        111,
+        "yt2GenericStrings111"
+      ],
+      "description": "YT2_S02_P39"
+    },
+    {
+      "enum": [
+        112,
+        "yt2GenericStrings112"
+      ],
+      "description": "YT2_S02_P40"
+    },
+    {
+      "enum": [
+        113,
+        "yt2GenericStrings113"
+      ],
+      "description": "YT2_S02_P41"
+    },
+    {
+      "enum": [
+        114,
+        "yt2GenericStrings114"
+      ],
+      "description": "YT2_S02_P42"
+    },
+    {
+      "enum": [
+        115,
+        "yt2GenericStrings115"
+      ],
+      "description": "YT2_S02_P43"
+    },
+    {
+      "enum": [
+        116,
+        "yt2GenericStrings116"
+      ],
+      "description": "YT2_S02_P44"
+    },
+    {
+      "enum": [
+        117,
+        "yt2GenericStrings117"
+      ],
+      "description": "YT2_S02_P45"
+    },
+    {
+      "enum": [
+        118,
+        "yt2GenericStrings118"
+      ],
+      "description": "YT2_S02_P46"
+    },
+    {
+      "enum": [
+        119,
+        "yt2GenericStrings119"
+      ],
+      "description": "YT2_S02_P47"
+    },
+    {
+      "enum": [
+        120,
+        "yt2GenericStrings120"
+      ],
+      "description": "YT2_S02_P48"
+    },
+    {
+      "enum": [
+        121,
+        "yt2GenericStrings121"
+      ],
+      "description": "YT2_S02_P49"
+    },
+    {
+      "enum": [
+        122,
+        "yt2GenericStrings122"
+      ],
+      "description": "YT2_S02_P50"
+    },
+    {
+      "enum": [
+        123,
+        "yt2GenericStrings123"
+      ],
+      "description": "YT2_S02_P51"
+    },
+    {
+      "enum": [
+        124,
+        "yt2GenericStrings124"
+      ],
+      "description": "YT2_S02_P52"
+    },
+    {
+      "enum": [
+        125,
+        "yt2GenericStrings125"
+      ],
+      "description": "YT2_S02_P53"
+    },
+    {
+      "enum": [
+        126,
+        "yt2GenericStrings126"
+      ],
+      "description": "YT2_S02_P54"
+    },
+    {
+      "enum": [
+        127,
+        "yt2GenericStrings127"
+      ],
+      "description": "YT2_S02_P55"
+    },
+    {
+      "enum": [
+        128,
+        "yt2GenericStrings128"
+      ],
+      "description": "YT2_S02_P56"
+    },
+    {
+      "enum": [
+        129,
+        "yt2GenericStrings129"
+      ],
+      "description": "YT2_S02_P57"
+    },
+    {
+      "enum": [
+        130,
+        "yt2GenericStrings130"
+      ],
+      "description": "YT2_S02_P58"
+    },
+    {
+      "enum": [
+        131,
+        "yt2GenericStrings131"
+      ],
+      "description": "YT2_S02_P59"
+    },
+    {
+      "enum": [
+        132,
+        "yt2GenericStrings132"
+      ],
+      "description": "YT2_S02_P60"
+    },
+    {
+      "enum": [
+        133,
+        "yt2GenericStrings133"
+      ],
+      "description": "YT2_S02_P61"
+    },
+    {
+      "enum": [
+        134,
+        "yt2GenericStrings134"
+      ],
+      "description": "YT2_S02_P62"
+    },
+    {
+      "enum": [
+        135,
+        "yt2GenericStrings135"
+      ],
+      "description": "YT2_S02_P63"
+    },
+    {
+      "enum": [
+        136,
+        "yt2GenericStrings136"
+      ],
+      "description": "YT2_S02_P64"
+    },
+    {
+      "enum": [
+        137,
+        "yt2GenericStrings137"
+      ],
+      "description": "YT2_S02_P65"
+    },
+    {
+      "enum": [
+        138,
+        "yt2GenericStrings138"
+      ],
+      "description": "YT2_S02_P66"
+    },
+    {
+      "enum": [
+        139,
+        "yt2GenericStrings139"
+      ],
+      "description": "YT2_S02_P67"
+    },
+    {
+      "enum": [
+        140,
+        "yt2GenericStrings140"
+      ],
+      "description": "YT2_S02_P68"
+    },
+    {
+      "enum": [
+        141,
+        "yt2GenericStrings141"
+      ],
+      "description": "YT2_S02_P69"
+    },
+    {
+      "enum": [
+        142,
+        "yt2GenericStrings142"
+      ],
+      "description": "YT2_S02_P70"
+    },
+    {
+      "enum": [
+        143,
+        "yt2GenericStrings143"
+      ],
+      "description": "YT2_S02_P71"
+    },
+    {
+      "enum": [
+        144,
+        "yt2GenericStrings144"
+      ],
+      "description": "YT2_S02_P72"
+    },
+    {
+      "enum": [
+        145,
+        "yt2GenericStrings145"
+      ],
+      "description": "YT2_S02_P73"
+    },
+    {
+      "enum": [
+        146,
+        "yt2GenericStrings146"
+      ],
+      "description": "YT2_S02_P74"
+    },
+    {
+      "enum": [
+        147,
+        "yt2GenericStrings147"
+      ],
+      "description": "YT2_S02_P75"
+    },
+    {
+      "enum": [
+        148,
+        "yt2GenericStrings148"
+      ],
+      "description": "YT2_S02_P76"
+    },
+    {
+      "enum": [
+        149,
+        "yt2GenericStrings149"
+      ],
+      "description": "YT2_S02_P77"
+    },
+    {
+      "enum": [
+        150,
+        "yt2GenericStrings150"
+      ],
+      "description": "YT2_S02_P78"
+    },
+    {
+      "enum": [
+        151,
+        "yt2GenericStrings151"
+      ],
+      "description": "YT2_S02_P79"
+    },
+    {
+      "enum": [
+        152,
+        "yt2GenericStrings152"
+      ],
+      "description": "YT2_S02_P80"
+    },
+    {
+      "enum": [
+        153,
+        "yt2GenericStrings153"
+      ],
+      "description": "YT2_S02_P81"
+    },
+    {
+      "enum": [
+        154,
+        "yt2GenericStrings154"
+      ],
+      "description": "YT2_S02_P82"
+    },
+    {
+      "enum": [
+        155,
+        "yt2GenericStrings155"
+      ],
+      "description": "YT2_S02_P83"
+    },
+    {
+      "enum": [
+        156,
+        "yt2GenericStrings156"
+      ],
+      "description": "YT2_S02_P84"
+    },
+    {
+      "enum": [
+        157,
+        "yt2GenericStrings157"
+      ],
+      "description": "A_YT2_S01_P56"
+    },
+    {
+      "enum": [
+        158,
+        "yt2GenericStrings158"
+      ],
+      "description": "A_YT2_S01_P57"
+    },
+    {
+      "enum": [
+        159,
+        "yt2GenericStrings159"
+      ],
+      "description": "A_YT2_S01_P58"
+    },
+    {
+      "enum": [
+        160,
+        "yt2GenericStrings160"
+      ],
+      "description": "A_YT2_S01_P59"
+    },
+    {
+      "enum": [
+        161,
+        "yt2GenericStrings161"
+      ],
+      "description": "A_YT2_S01_P60"
+    },
+    {
+      "enum": [
+        162,
+        "yt2GenericStrings162"
+      ],
+      "description": "A_YT2_S01_P61"
+    },
+    {
+      "enum": [
+        163,
+        "yt2GenericStrings163"
+      ],
+      "description": "A_YT2_S01_P62"
+    },
+    {
+      "enum": [
+        164,
+        "yt2GenericStrings164"
+      ],
+      "description": "A_YT2_S01_P63"
+    },
+    {
+      "enum": [
+        165,
+        "yt2GenericStrings165"
+      ],
+      "description": "A_YT2_S01_P64"
+    },
+    {
+      "enum": [
+        166,
+        "yt2GenericStrings166"
+      ],
+      "description": "A_YT2_S01_P65"
+    },
+    {
+      "enum": [
+        167,
+        "yt2GenericStrings167"
+      ],
+      "description": "A_YT2_S02_P56"
+    },
+    {
+      "enum": [
+        168,
+        "yt2GenericStrings168"
+      ],
+      "description": "A_YT2_S02_P57"
+    },
+    {
+      "enum": [
+        169,
+        "yt2GenericStrings169"
+      ],
+      "description": "A_YT2_S02_P58"
+    },
+    {
+      "enum": [
+        170,
+        "yt2GenericStrings170"
+      ],
+      "description": "A_YT2_S02_P59"
+    },
+    {
+      "enum": [
+        171,
+        "yt2GenericStrings171"
+      ],
+      "description": "A_YT2_S02_P60"
+    },
+    {
+      "enum": [
+        172,
+        "yt2GenericStrings172"
+      ],
+      "description": "A_YT2_S02_P61"
+    },
+    {
+      "enum": [
+        173,
+        "yt2GenericStrings173"
+      ],
+      "description": "A_YT2_S02_P62"
+    },
+    {
+      "enum": [
+        174,
+        "yt2GenericStrings174"
+      ],
+      "description": "A_YT2_S02_P63"
+    },
+    {
+      "enum": [
+        175,
+        "yt2GenericStrings175"
+      ],
+      "description": "A_YT2_S02_P64"
+    },
+    {
+      "enum": [
+        176,
+        "yt2GenericStrings176"
+      ],
+      "description": "A_YT2_S02_P65"
+    }
+  ]
+}

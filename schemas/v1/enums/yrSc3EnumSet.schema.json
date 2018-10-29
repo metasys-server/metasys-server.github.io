@@ -1,0 +1,589 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yrSc3EnumSet.schema.json",
+  "title": "yrSc3EnumSet",
+  "description": "YR Unit Cycling Fault Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yrSc30"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "yrSc31"
+      ],
+      "description": "MULTI-UNIT CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        2,
+        "yrSc32"
+      ],
+      "description": "SYSTEM CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "yrSc33"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "yrSc34"
+      ],
+      "description": "RESERVED 4"
+    },
+    {
+      "enum": [
+        5,
+        "yrSc35"
+      ],
+      "description": "RESERVED 5"
+    },
+    {
+      "enum": [
+        6,
+        "yrSc36"
+      ],
+      "description": "LEAVING CHILLED LIQUID - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        7,
+        "yrSc37"
+      ],
+      "description": "LEAVING CHILLED LIQUID - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "yrSc38"
+      ],
+      "description": "CONDENSER - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "yrSc39"
+      ],
+      "description": "MOTOR CONTROLLER - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        10,
+        "yrSc310"
+      ],
+      "description": "MOTOR CONTROLLER - LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        11,
+        "yrSc311"
+      ],
+      "description": "POWER FAULT"
+    },
+    {
+      "enum": [
+        12,
+        "yrSc312"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "yrSc313"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "yrSc314"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "yrSc315"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "yrSc316"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "yrSc317"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "yrSc318"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "yrSc319"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "yrSc320"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "yrSc321"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "yrSc322"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "yrSc323"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "yrSc324"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "yrSc325"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "yrSc326"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "yrSc327"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "yrSc328"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "yrSc329"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "yrSc330"
+      ],
+      "description": "RESERVED 30"
+    },
+    {
+      "enum": [
+        31,
+        "yrSc331"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "yrSc332"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "yrSc333"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "yrSc334"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "yrSc335"
+      ],
+      "description": "RESERVED 35"
+    },
+    {
+      "enum": [
+        36,
+        "yrSc336"
+      ],
+      "description": "RESERVED 36"
+    },
+    {
+      "enum": [
+        37,
+        "yrSc337"
+      ],
+      "description": "RESERVED 37"
+    },
+    {
+      "enum": [
+        38,
+        "yrSc338"
+      ],
+      "description": "RESERVED 38"
+    },
+    {
+      "enum": [
+        39,
+        "yrSc339"
+      ],
+      "description": "RESERVED 39"
+    },
+    {
+      "enum": [
+        40,
+        "yrSc340"
+      ],
+      "description": "RESERVED 40"
+    },
+    {
+      "enum": [
+        41,
+        "yrSc341"
+      ],
+      "description": "RESERVED 41"
+    },
+    {
+      "enum": [
+        42,
+        "yrSc342"
+      ],
+      "description": "RESERVED 42"
+    },
+    {
+      "enum": [
+        43,
+        "yrSc343"
+      ],
+      "description": "RESERVED 43"
+    },
+    {
+      "enum": [
+        44,
+        "yrSc344"
+      ],
+      "description": "RESERVED 44"
+    },
+    {
+      "enum": [
+        45,
+        "yrSc345"
+      ],
+      "description": "RESERVED 45"
+    },
+    {
+      "enum": [
+        46,
+        "yrSc346"
+      ],
+      "description": "RESERVED 46"
+    },
+    {
+      "enum": [
+        47,
+        "yrSc347"
+      ],
+      "description": "RESERVED 47"
+    },
+    {
+      "enum": [
+        48,
+        "yrSc348"
+      ],
+      "description": "RESERVED 48"
+    },
+    {
+      "enum": [
+        49,
+        "yrSc349"
+      ],
+      "description": "RESERVED 49"
+    },
+    {
+      "enum": [
+        50,
+        "yrSc350"
+      ],
+      "description": "RESERVED 50"
+    },
+    {
+      "enum": [
+        51,
+        "yrSc351"
+      ],
+      "description": "RESERVED 51"
+    },
+    {
+      "enum": [
+        52,
+        "yrSc352"
+      ],
+      "description": "RESERVED 52"
+    },
+    {
+      "enum": [
+        53,
+        "yrSc353"
+      ],
+      "description": "RESERVED 53"
+    },
+    {
+      "enum": [
+        54,
+        "yrSc354"
+      ],
+      "description": "RESERVED 54"
+    },
+    {
+      "enum": [
+        55,
+        "yrSc355"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "yrSc356"
+      ],
+      "description": "LCSSS INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        57,
+        "yrSc357"
+      ],
+      "description": "LCSSS SHUTDOWN - REQUESTING FAULT DATA..."
+    },
+    {
+      "enum": [
+        58,
+        "yrSc358"
+      ],
+      "description": "LCSSS - LOW PHASE A TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        59,
+        "yrSc359"
+      ],
+      "description": "LCSSS - LOW PHASE B TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        60,
+        "yrSc360"
+      ],
+      "description": "LCSSS - LOW PHASE C TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        61,
+        "yrSc361"
+      ],
+      "description": "LCSSS - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        62,
+        "yrSc362"
+      ],
+      "description": "LCSSS - POWER FAULT"
+    },
+    {
+      "enum": [
+        63,
+        "yrSc363"
+      ],
+      "description": "LCSSS - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        64,
+        "yrSc364"
+      ],
+      "description": "LCSSS - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        65,
+        "yrSc365"
+      ],
+      "description": "LCSSS - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        66,
+        "yrSc366"
+      ],
+      "description": "LCSSS - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        67,
+        "yrSc367"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        68,
+        "yrSc368"
+      ],
+      "description": "LCSSS - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        69,
+        "yrSc369"
+      ],
+      "description": "RESERVED 69"
+    },
+    {
+      "enum": [
+        70,
+        "yrSc370"
+      ],
+      "description": "LCSSS - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        71,
+        "yrSc371"
+      ],
+      "description": "RESERVED 71"
+    },
+    {
+      "enum": [
+        72,
+        "yrSc372"
+      ],
+      "description": "LCSSS - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        73,
+        "yrSc373"
+      ],
+      "description": "RESERVED 73"
+    },
+    {
+      "enum": [
+        74,
+        "yrSc374"
+      ],
+      "description": "RESERVED 74"
+    },
+    {
+      "enum": [
+        75,
+        "yrSc375"
+      ],
+      "description": "LCSSS - PHASE LOSS"
+    },
+    {
+      "enum": [
+        76,
+        "yrSc376"
+      ],
+      "description": "RESERVED 76"
+    },
+    {
+      "enum": [
+        77,
+        "yrSc377"
+      ],
+      "description": "RESERVED 77"
+    },
+    {
+      "enum": [
+        78,
+        "yrSc378"
+      ],
+      "description": "RESERVED 78"
+    },
+    {
+      "enum": [
+        79,
+        "yrSc379"
+      ],
+      "description": "RESERVED 79"
+    },
+    {
+      "enum": [
+        80,
+        "yrSc380"
+      ],
+      "description": "RESERVED 80"
+    },
+    {
+      "enum": [
+        81,
+        "yrSc381"
+      ],
+      "description": "RESERVED 81"
+    },
+    {
+      "enum": [
+        82,
+        "yrSc382"
+      ],
+      "description": "RESERVED 82"
+    }
+  ]
+}

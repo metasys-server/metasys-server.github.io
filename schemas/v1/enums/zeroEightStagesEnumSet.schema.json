@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/zeroEightStagesEnumSet.schema.json",
+  "title": "zeroEightStagesEnumSet",
+  "description": "(0-8) Stages",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "zeroEight0Stages"
+      ],
+      "description": "0 Stages"
+    },
+    {
+      "enum": [
+        1,
+        "zeroEight1Stage"
+      ],
+      "description": "1 Stage"
+    },
+    {
+      "enum": [
+        2,
+        "zeroEight2Stages"
+      ],
+      "description": "2 Stages"
+    },
+    {
+      "enum": [
+        3,
+        "zeroEight3Stages"
+      ],
+      "description": "3 Stages"
+    },
+    {
+      "enum": [
+        4,
+        "zeroEight4Stages"
+      ],
+      "description": "4 Stages"
+    },
+    {
+      "enum": [
+        5,
+        "zeroEight5Stages"
+      ],
+      "description": "5 Stages"
+    },
+    {
+      "enum": [
+        6,
+        "zeroEight6Stages"
+      ],
+      "description": "6 Stages"
+    },
+    {
+      "enum": [
+        7,
+        "zeroEight7Stages"
+      ],
+      "description": "7 Stages"
+    },
+    {
+      "enum": [
+        8,
+        "zeroEight8Stages"
+      ],
+      "description": "8 Stages"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seExhaustControlState.schema.json",
+  "title": "seExhaustControlState",
+  "description": "SE RTU Exhaust Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seExhaustControlStateOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seExhaustControlStateMinNonModulating"
+      ],
+      "description": "Min Non-Modulating"
+    },
+    {
+      "enum": [
+        2,
+        "seExhaustControlStateMinModulating"
+      ],
+      "description": "Min Modulating"
+    },
+    {
+      "enum": [
+        3,
+        "seExhaustControlStateMinVfd"
+      ],
+      "description": "Min VFD"
+    },
+    {
+      "enum": [
+        4,
+        "seExhaustControlStateHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        5,
+        "seExhaustControlStateNonModulatingControl"
+      ],
+      "description": "Non-Modulating Control"
+    },
+    {
+      "enum": [
+        6,
+        "seExhaustControlStateModulatingBspControl"
+      ],
+      "description": "Modulating BSP Control"
+    },
+    {
+      "enum": [
+        7,
+        "seExhaustControlStateVfdBspControl"
+      ],
+      "description": "VFD BSP Control"
+    },
+    {
+      "enum": [
+        8,
+        "seExhaustControlStatePurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        9,
+        "seExhaustControlStateVfdFanTrackingControl"
+      ],
+      "description": "VFD Fan Tracking Control"
+    },
+    {
+      "enum": [
+        10,
+        "seExhaustControlStateTest"
+      ],
+      "description": "Test"
+    }
+  ]
+}

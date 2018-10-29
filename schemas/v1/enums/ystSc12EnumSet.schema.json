@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ystSc12EnumSet.schema.json",
+  "title": "ystSc12EnumSet",
+  "description": "YST Modified Run Code SC.12",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ystSc120"
+      ],
+      "description": "NO MODIFIED RUN CONDITIONS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ystSc121"
+      ],
+      "description": "LEAVING CHILLED LIQUID CONTROL"
+    },
+    {
+      "enum": [
+        2,
+        "ystSc122"
+      ],
+      "description": "VANES CLOSING BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "ystSc123"
+      ],
+      "description": "SLIDE VALVE UNLOADING BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        4,
+        "ystSc124"
+      ],
+      "description": "SEAL LUBE IN PROCESS"
+    },
+    {
+      "enum": [
+        5,
+        "ystSc125"
+      ],
+      "description": "RESERVED 5"
+    }
+  ]
+}

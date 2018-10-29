@@ -1,0 +1,379 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ytSc2EnumSet.schema.json",
+  "title": "ytSc2EnumSet",
+  "description": "YT Safety Fault Code SC.2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ytSc20"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "ytSc21"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        2,
+        "ytSc22"
+      ],
+      "description": "EVAPORATOR - TRANSDUCER OR LEAVING LIQUID PROBE"
+    },
+    {
+      "enum": [
+        3,
+        "ytSc23"
+      ],
+      "description": "EVAPORATOR - TEMPERATURE TRANSDUCER"
+    },
+    {
+      "enum": [
+        4,
+        "ytSc24"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        5,
+        "ytSc25"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        6,
+        "ytSc26"
+      ],
+      "description": "CONDENSER - PRESSURE TRANSDUCER OUT OF RANGE"
+    },
+    {
+      "enum": [
+        7,
+        "ytSc27"
+      ],
+      "description": "AUXILIARY SAFETY - CONTACTS CLOSED"
+    },
+    {
+      "enum": [
+        8,
+        "ytSc28"
+      ],
+      "description": "DISCHARGE - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        9,
+        "ytSc29"
+      ],
+      "description": "DISCHARGE - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "ytSc210"
+      ],
+      "description": "OIL - HIGH TEMPERATURE"
+    },
+    {
+      "enum": [
+        11,
+        "ytSc211"
+      ],
+      "description": "OIL - LOW DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        12,
+        "ytSc212"
+      ],
+      "description": "OIL - HIGH DIFFERENTIAL PRESSURE"
+    },
+    {
+      "enum": [
+        13,
+        "ytSc213"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ytSc214"
+      ],
+      "description": "RESERVED 14"
+    },
+    {
+      "enum": [
+        15,
+        "ytSc215"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ytSc216"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ytSc217"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ytSc218"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ytSc219"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ytSc220"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ytSc221"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        22,
+        "ytSc222"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ytSc223"
+      ],
+      "description": "MOTOR OR STARTER - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        24,
+        "ytSc224"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ytSc225"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ytSc226"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ytSc227"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ytSc228"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ytSc229"
+      ],
+      "description": "VSD - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        30,
+        "ytSc230"
+      ],
+      "description": "VSD - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        31,
+        "ytSc231"
+      ],
+      "description": "VSD - HIGH PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        32,
+        "ytSc232"
+      ],
+      "description": "VSD - HIGH PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        33,
+        "ytSc233"
+      ],
+      "description": "VSD - HIGH PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        34,
+        "ytSc234"
+      ],
+      "description": "VSD - HIGH CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        35,
+        "ytSc235"
+      ],
+      "description": "VSD - PRECHARGE LOCKOUT"
+    },
+    {
+      "enum": [
+        36,
+        "ytSc236"
+      ],
+      "description": "HARMONIC FILTER - HIGH HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        37,
+        "ytSc237"
+      ],
+      "description": "HARMONIC FILTER - HIGH TOTAL DEMAND DISTORTION"
+    },
+    {
+      "enum": [
+        38,
+        "ytSc238"
+      ],
+      "description": "LCSSS - PHASE LOSS"
+    },
+    {
+      "enum": [
+        39,
+        "ytSc239"
+      ],
+      "description": "LCSSS - CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        40,
+        "ytSc240"
+      ],
+      "description": "LCSSS - 105% MOTOR CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        41,
+        "ytSc241"
+      ],
+      "description": "LCSSS - HIGH CURRENT"
+    },
+    {
+      "enum": [
+        42,
+        "ytSc242"
+      ],
+      "description": "LCSSS - OPEN SCR"
+    },
+    {
+      "enum": [
+        43,
+        "ytSc243"
+      ],
+      "description": "LCSSS - SHORTED PHASE A SCR"
+    },
+    {
+      "enum": [
+        44,
+        "ytSc244"
+      ],
+      "description": "LCSSS - SHORTED PHASE B SCR"
+    },
+    {
+      "enum": [
+        45,
+        "ytSc245"
+      ],
+      "description": "LCSSS - SHORTED PHASE C SCR"
+    },
+    {
+      "enum": [
+        46,
+        "ytSc246"
+      ],
+      "description": "LCSSS - HIGH PHASE A TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        47,
+        "ytSc247"
+      ],
+      "description": "LCSSS - HIGH PHASE B TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        48,
+        "ytSc248"
+      ],
+      "description": "LCSSS - HIGH PHASE C TEMPERATURE - RUNNING"
+    },
+    {
+      "enum": [
+        49,
+        "ytSc249"
+      ],
+      "description": "STARTER - INVALID MOTOR SELECTION"
+    },
+    {
+      "enum": [
+        50,
+        "ytSc250"
+      ],
+      "description": "RESERVED 50"
+    },
+    {
+      "enum": [
+        51,
+        "ytSc251"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE"
+    },
+    {
+      "enum": [
+        52,
+        "ytSc252"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    }
+  ]
+}

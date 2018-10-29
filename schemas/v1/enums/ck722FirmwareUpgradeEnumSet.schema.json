@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ck722FirmwareUpgradeEnumSet.schema.json",
+  "title": "ck722FirmwareUpgradeEnumSet",
+  "description": "CK722 Firmware Upgrade",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ck722FirmwareUpgradeNotInitialized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "ck722FirmwareUpgradeValidate"
+      ],
+      "description": "Validate"
+    },
+    {
+      "enum": [
+        2,
+        "ck722FirmwareUpgradeUpgrade"
+      ],
+      "description": "Upgrade"
+    },
+    {
+      "enum": [
+        3,
+        "ck722FirmwareUpgradeSave"
+      ],
+      "description": "Save"
+    },
+    {
+      "enum": [
+        4,
+        "ck722FirmwareUpgradeDowngrade"
+      ],
+      "description": "Downgrade"
+    }
+  ]
+}

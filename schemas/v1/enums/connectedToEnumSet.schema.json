@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectedToEnumSet.schema.json",
+  "title": "connectedToEnumSet",
+  "description": "Connected To",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sdlToNone"
+      ],
+      "description": "Nothing"
+    },
+    {
+      "enum": [
+        1,
+        "sdlToConnecting"
+      ],
+      "description": "Connecting"
+    },
+    {
+      "enum": [
+        2,
+        "sdlToMetasys"
+      ],
+      "description": "Metasys"
+    },
+    {
+      "enum": [
+        3,
+        "sdlToFax"
+      ],
+      "description": "Fax"
+    },
+    {
+      "enum": [
+        4,
+        "sdlToPager"
+      ],
+      "description": "Pager"
+    },
+    {
+      "enum": [
+        5,
+        "sdlToPrinter"
+      ],
+      "description": "Printer"
+    },
+    {
+      "enum": [
+        6,
+        "sdlToTerminal"
+      ],
+      "description": "Terminal"
+    },
+    {
+      "enum": [
+        7,
+        "sdlToModem"
+      ],
+      "description": "Modem"
+    },
+    {
+      "enum": [
+        8,
+        "sdlToDisconnecting"
+      ],
+      "description": "Disconnecting"
+    }
+  ]
+}

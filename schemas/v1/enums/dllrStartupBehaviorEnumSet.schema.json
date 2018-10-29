@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dllrStartupBehaviorEnumSet.schema.json",
+  "title": "dllrStartupBehaviorEnumSet",
+  "description": "DLLR Startup Behavior",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dllrStartupBehaviorMonitorOnly"
+      ],
+      "description": "Startup in Monitor Only mode"
+    },
+    {
+      "enum": [
+        1,
+        "dllrStartupBehaviorLastCmd"
+      ],
+      "description": "Startup in last commanded mode"
+    }
+  ]
+}

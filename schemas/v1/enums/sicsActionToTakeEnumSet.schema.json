@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sicsActionToTakeEnumSet.schema.json",
+  "title": "sicsActionToTakeEnumSet",
+  "description": "Action To Take",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noAction"
+      ],
+      "description": "No Action"
+    },
+    {
+      "enum": [
+        1,
+        "actionUnitFailure"
+      ],
+      "description": "Unit Failure"
+    },
+    {
+      "enum": [
+        2,
+        "actionUnitFault"
+      ],
+      "description": "Unit Fault"
+    },
+    {
+      "enum": [
+        3,
+        "actionContactMaintenance"
+      ],
+      "description": "Contact Maintenance"
+    }
+  ]
+}

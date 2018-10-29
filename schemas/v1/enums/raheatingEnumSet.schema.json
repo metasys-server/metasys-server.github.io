@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/raheatingEnumSet.schema.json",
+  "title": "raheatingEnumSet",
+  "description": "RA Heating",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "No Heating Required"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Heating Start"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Morning Warmup"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Occupied Heating"
+    }
+  ]
+}

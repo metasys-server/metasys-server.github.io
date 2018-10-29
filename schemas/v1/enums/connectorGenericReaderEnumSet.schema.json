@@ -1,0 +1,708 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorGenericReaderEnumSet.schema.json",
+  "title": "connectorGenericReaderEnumSet",
+  "description": "Connector Generic Reader",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorGenericReader01"
+      ],
+      "description": "Reader 1"
+    },
+    {
+      "enum": [
+        1,
+        "connectorGenericReader02"
+      ],
+      "description": "Reader 2"
+    },
+    {
+      "enum": [
+        2,
+        "connectorGenericReader03"
+      ],
+      "description": "Reader 3"
+    },
+    {
+      "enum": [
+        3,
+        "connectorGenericReader04"
+      ],
+      "description": "Reader 4"
+    },
+    {
+      "enum": [
+        4,
+        "connectorGenericReader05"
+      ],
+      "description": "Reader 5"
+    },
+    {
+      "enum": [
+        5,
+        "connectorGenericReader06"
+      ],
+      "description": "Reader 6"
+    },
+    {
+      "enum": [
+        6,
+        "connectorGenericReader07"
+      ],
+      "description": "Reader 7"
+    },
+    {
+      "enum": [
+        7,
+        "connectorGenericReader08"
+      ],
+      "description": "Reader 8"
+    },
+    {
+      "enum": [
+        8,
+        "connectorGenericReader09"
+      ],
+      "description": "Reader 9"
+    },
+    {
+      "enum": [
+        9,
+        "connectorGenericReader10"
+      ],
+      "description": "Reader 10"
+    },
+    {
+      "enum": [
+        10,
+        "connectorGenericReader11"
+      ],
+      "description": "Reader 11"
+    },
+    {
+      "enum": [
+        11,
+        "connectorGenericReader12"
+      ],
+      "description": "Reader 12"
+    },
+    {
+      "enum": [
+        12,
+        "connectorGenericReader13"
+      ],
+      "description": "Reader 13"
+    },
+    {
+      "enum": [
+        13,
+        "connectorGenericReader14"
+      ],
+      "description": "Reader 14"
+    },
+    {
+      "enum": [
+        14,
+        "connectorGenericReader15"
+      ],
+      "description": "Reader 15"
+    },
+    {
+      "enum": [
+        15,
+        "connectorGenericReader16"
+      ],
+      "description": "Reader 16"
+    },
+    {
+      "enum": [
+        16,
+        "connectorGenericReader17"
+      ],
+      "description": "Reader 17"
+    },
+    {
+      "enum": [
+        17,
+        "connectorGenericReader18"
+      ],
+      "description": "Reader 18"
+    },
+    {
+      "enum": [
+        18,
+        "connectorGenericReader19"
+      ],
+      "description": "Reader 19"
+    },
+    {
+      "enum": [
+        19,
+        "connectorGenericReader20"
+      ],
+      "description": "Reader 20"
+    },
+    {
+      "enum": [
+        20,
+        "connectorGenericReader21"
+      ],
+      "description": "Reader 21"
+    },
+    {
+      "enum": [
+        21,
+        "connectorGenericReader22"
+      ],
+      "description": "Reader 22"
+    },
+    {
+      "enum": [
+        22,
+        "connectorGenericReader23"
+      ],
+      "description": "Reader 23"
+    },
+    {
+      "enum": [
+        23,
+        "connectorGenericReader24"
+      ],
+      "description": "Reader 24"
+    },
+    {
+      "enum": [
+        24,
+        "connectorGenericReader25"
+      ],
+      "description": "Reader 25"
+    },
+    {
+      "enum": [
+        25,
+        "connectorGenericReader26"
+      ],
+      "description": "Reader 26"
+    },
+    {
+      "enum": [
+        26,
+        "connectorGenericReader27"
+      ],
+      "description": "Reader 27"
+    },
+    {
+      "enum": [
+        27,
+        "connectorGenericReader28"
+      ],
+      "description": "Reader 28"
+    },
+    {
+      "enum": [
+        28,
+        "connectorGenericReader29"
+      ],
+      "description": "Reader 29"
+    },
+    {
+      "enum": [
+        29,
+        "connectorGenericReader30"
+      ],
+      "description": "Reader 30"
+    },
+    {
+      "enum": [
+        30,
+        "connectorGenericReader31"
+      ],
+      "description": "Reader 31"
+    },
+    {
+      "enum": [
+        31,
+        "connectorGenericReader32"
+      ],
+      "description": "Reader 32"
+    },
+    {
+      "enum": [
+        32,
+        "connectorGenericReader33"
+      ],
+      "description": "Reader 33"
+    },
+    {
+      "enum": [
+        33,
+        "connectorGenericReader34"
+      ],
+      "description": "Reader 34"
+    },
+    {
+      "enum": [
+        34,
+        "connectorGenericReader35"
+      ],
+      "description": "Reader 35"
+    },
+    {
+      "enum": [
+        35,
+        "connectorGenericReader36"
+      ],
+      "description": "Reader 36"
+    },
+    {
+      "enum": [
+        36,
+        "connectorGenericReader37"
+      ],
+      "description": "Reader 37"
+    },
+    {
+      "enum": [
+        37,
+        "connectorGenericReader38"
+      ],
+      "description": "Reader 38"
+    },
+    {
+      "enum": [
+        38,
+        "connectorGenericReader39"
+      ],
+      "description": "Reader 39"
+    },
+    {
+      "enum": [
+        39,
+        "connectorGenericReader40"
+      ],
+      "description": "Reader 40"
+    },
+    {
+      "enum": [
+        40,
+        "connectorGenericReader41"
+      ],
+      "description": "Reader 41"
+    },
+    {
+      "enum": [
+        41,
+        "connectorGenericReader42"
+      ],
+      "description": "Reader 42"
+    },
+    {
+      "enum": [
+        42,
+        "connectorGenericReader43"
+      ],
+      "description": "Reader 43"
+    },
+    {
+      "enum": [
+        43,
+        "connectorGenericReader44"
+      ],
+      "description": "Reader 44"
+    },
+    {
+      "enum": [
+        44,
+        "connectorGenericReader45"
+      ],
+      "description": "Reader 45"
+    },
+    {
+      "enum": [
+        45,
+        "connectorGenericReader46"
+      ],
+      "description": "Reader 46"
+    },
+    {
+      "enum": [
+        46,
+        "connectorGenericReader47"
+      ],
+      "description": "Reader 47"
+    },
+    {
+      "enum": [
+        47,
+        "connectorGenericReader48"
+      ],
+      "description": "Reader 48"
+    },
+    {
+      "enum": [
+        48,
+        "connectorGenericReader49"
+      ],
+      "description": "Reader 49"
+    },
+    {
+      "enum": [
+        49,
+        "connectorGenericReader50"
+      ],
+      "description": "Reader 50"
+    },
+    {
+      "enum": [
+        50,
+        "connectorGenericReader51"
+      ],
+      "description": "Reader 51"
+    },
+    {
+      "enum": [
+        51,
+        "connectorGenericReader52"
+      ],
+      "description": "Reader 52"
+    },
+    {
+      "enum": [
+        52,
+        "connectorGenericReader53"
+      ],
+      "description": "Reader 53"
+    },
+    {
+      "enum": [
+        53,
+        "connectorGenericReader54"
+      ],
+      "description": "Reader 54"
+    },
+    {
+      "enum": [
+        54,
+        "connectorGenericReader55"
+      ],
+      "description": "Reader 55"
+    },
+    {
+      "enum": [
+        55,
+        "connectorGenericReader56"
+      ],
+      "description": "Reader 56"
+    },
+    {
+      "enum": [
+        56,
+        "connectorGenericReader57"
+      ],
+      "description": "Reader 57"
+    },
+    {
+      "enum": [
+        57,
+        "connectorGenericReader58"
+      ],
+      "description": "Reader 58"
+    },
+    {
+      "enum": [
+        58,
+        "connectorGenericReader59"
+      ],
+      "description": "Reader 59"
+    },
+    {
+      "enum": [
+        59,
+        "connectorGenericReader60"
+      ],
+      "description": "Reader 60"
+    },
+    {
+      "enum": [
+        60,
+        "connectorGenericReader61"
+      ],
+      "description": "Reader 61"
+    },
+    {
+      "enum": [
+        61,
+        "connectorGenericReader62"
+      ],
+      "description": "Reader 62"
+    },
+    {
+      "enum": [
+        62,
+        "connectorGenericReader63"
+      ],
+      "description": "Reader 63"
+    },
+    {
+      "enum": [
+        63,
+        "connectorGenericReader64"
+      ],
+      "description": "Reader 64"
+    },
+    {
+      "enum": [
+        64,
+        "connectorGenericReader65"
+      ],
+      "description": "Reader 65"
+    },
+    {
+      "enum": [
+        65,
+        "connectorGenericReader66"
+      ],
+      "description": "Reader 66"
+    },
+    {
+      "enum": [
+        66,
+        "connectorGenericReader67"
+      ],
+      "description": "Reader 67"
+    },
+    {
+      "enum": [
+        67,
+        "connectorGenericReader68"
+      ],
+      "description": "Reader 68"
+    },
+    {
+      "enum": [
+        68,
+        "connectorGenericReader69"
+      ],
+      "description": "Reader 69"
+    },
+    {
+      "enum": [
+        69,
+        "connectorGenericReader70"
+      ],
+      "description": "Reader 70"
+    },
+    {
+      "enum": [
+        70,
+        "connectorGenericReader71"
+      ],
+      "description": "Reader 71"
+    },
+    {
+      "enum": [
+        71,
+        "connectorGenericReader72"
+      ],
+      "description": "Reader 72"
+    },
+    {
+      "enum": [
+        72,
+        "connectorGenericReader73"
+      ],
+      "description": "Reader 73"
+    },
+    {
+      "enum": [
+        73,
+        "connectorGenericReader74"
+      ],
+      "description": "Reader 74"
+    },
+    {
+      "enum": [
+        74,
+        "connectorGenericReader75"
+      ],
+      "description": "Reader 75"
+    },
+    {
+      "enum": [
+        75,
+        "connectorGenericReader76"
+      ],
+      "description": "Reader 76"
+    },
+    {
+      "enum": [
+        76,
+        "connectorGenericReader77"
+      ],
+      "description": "Reader 77"
+    },
+    {
+      "enum": [
+        77,
+        "connectorGenericReader78"
+      ],
+      "description": "Reader 78"
+    },
+    {
+      "enum": [
+        78,
+        "connectorGenericReader79"
+      ],
+      "description": "Reader 79"
+    },
+    {
+      "enum": [
+        79,
+        "connectorGenericReader80"
+      ],
+      "description": "Reader 80"
+    },
+    {
+      "enum": [
+        80,
+        "connectorGenericReader81"
+      ],
+      "description": "Reader 81"
+    },
+    {
+      "enum": [
+        81,
+        "connectorGenericReader82"
+      ],
+      "description": "Reader 82"
+    },
+    {
+      "enum": [
+        82,
+        "connectorGenericReader83"
+      ],
+      "description": "Reader 83"
+    },
+    {
+      "enum": [
+        83,
+        "connectorGenericReader84"
+      ],
+      "description": "Reader 84"
+    },
+    {
+      "enum": [
+        84,
+        "connectorGenericReader85"
+      ],
+      "description": "Reader 85"
+    },
+    {
+      "enum": [
+        85,
+        "connectorGenericReader86"
+      ],
+      "description": "Reader 86"
+    },
+    {
+      "enum": [
+        86,
+        "connectorGenericReader87"
+      ],
+      "description": "Reader 87"
+    },
+    {
+      "enum": [
+        87,
+        "connectorGenericReader88"
+      ],
+      "description": "Reader 88"
+    },
+    {
+      "enum": [
+        88,
+        "connectorGenericReader89"
+      ],
+      "description": "Reader 89"
+    },
+    {
+      "enum": [
+        89,
+        "connectorGenericReader90"
+      ],
+      "description": "Reader 90"
+    },
+    {
+      "enum": [
+        90,
+        "connectorGenericReader91"
+      ],
+      "description": "Reader 91"
+    },
+    {
+      "enum": [
+        91,
+        "connectorGenericReader92"
+      ],
+      "description": "Reader 92"
+    },
+    {
+      "enum": [
+        92,
+        "connectorGenericReader93"
+      ],
+      "description": "Reader 93"
+    },
+    {
+      "enum": [
+        93,
+        "connectorGenericReader94"
+      ],
+      "description": "Reader 94"
+    },
+    {
+      "enum": [
+        94,
+        "connectorGenericReader95"
+      ],
+      "description": "Reader 95"
+    },
+    {
+      "enum": [
+        95,
+        "connectorGenericReader96"
+      ],
+      "description": "Reader 96"
+    },
+    {
+      "enum": [
+        96,
+        "connectorGenericReader97"
+      ],
+      "description": "Reader 97"
+    },
+    {
+      "enum": [
+        97,
+        "connectorGenericReader98"
+      ],
+      "description": "Reader 98"
+    },
+    {
+      "enum": [
+        98,
+        "connectorGenericReader99"
+      ],
+      "description": "Reader 99"
+    },
+    {
+      "enum": [
+        99,
+        "connectorGenericReader100"
+      ],
+      "description": "Reader 100"
+    }
+  ]
+}

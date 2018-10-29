@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconExhaustFanStatusEnumSet.schema.json",
+  "title": "seEconExhaustFanStatusEnumSet",
+  "description": "SE ECON Exhaust Fan Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconExhaustFanStatusOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seEconExhaustFanStatusOnNormalCommand"
+      ],
+      "description": "On-Normal Command"
+    },
+    {
+      "enum": [
+        2,
+        "seEconExhaustFanStatusOffDisabled"
+      ],
+      "description": "Off-Disabled"
+    },
+    {
+      "enum": [
+        3,
+        "seEconExhaustFanStatusOffUnreliableBuildingStaticPressure"
+      ],
+      "description": "Off-Unreliable Building Static Pressure"
+    },
+    {
+      "enum": [
+        4,
+        "seEconExhaustFanStatusOffEconomizerDamperPosition"
+      ],
+      "description": "Off-Economizer Damper Position"
+    }
+  ]
+}

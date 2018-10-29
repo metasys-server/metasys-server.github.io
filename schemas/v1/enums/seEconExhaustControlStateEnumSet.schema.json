@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconExhaustControlStateEnumSet.schema.json",
+  "title": "seEconExhaustControlStateEnumSet",
+  "description": "SE ECON Exhaust Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconExhaustControlStateOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seEconExhaustControlStatePurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        2,
+        "seEconExhaustControlStateNonModulatingControl"
+      ],
+      "description": "Non-Modulating Control"
+    },
+    {
+      "enum": [
+        3,
+        "seEconExhaustControlStateVfdBspControl"
+      ],
+      "description": "VFD BSP Control"
+    },
+    {
+      "enum": [
+        4,
+        "seEconExhaustControlStateHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        5,
+        "seEconExhaustControlStateErvEnabled"
+      ],
+      "description": "ERV Enabled"
+    }
+  ]
+}

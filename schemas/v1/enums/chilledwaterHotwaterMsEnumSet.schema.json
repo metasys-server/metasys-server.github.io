@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/chilledwaterHotwaterMsEnumSet.schema.json",
+  "title": "chilledwaterHotwaterMsEnumSet",
+  "description": "Chilled Water/Hot Water",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "chilledwaterHotwaterChilledwater"
+      ],
+      "description": "Chilled Water"
+    },
+    {
+      "enum": [
+        1,
+        "chilledwaterHotwaterHotwater"
+      ],
+      "description": "Hot Water"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occmodeEnumSet.schema.json",
+  "title": "occmodeEnumSet",
+  "description": "Occ Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Occ"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Unocc"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

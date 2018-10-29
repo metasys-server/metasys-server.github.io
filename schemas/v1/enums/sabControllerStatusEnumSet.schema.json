@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sabControllerStatusEnumSet.schema.json",
+  "title": "sabControllerStatusEnumSet",
+  "description": "SAB Controller Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sabCsOnline"
+      ],
+      "description": "SAB Device Online"
+    },
+    {
+      "enum": [
+        25,
+        "sabCsLowBattery"
+      ],
+      "description": "SAB Device Low Battery"
+    },
+    {
+      "enum": [
+        50,
+        "sabCsTrouble"
+      ],
+      "description": "SAB Device Trouble"
+    },
+    {
+      "enum": [
+        100,
+        "sabCsOffline"
+      ],
+      "description": "SAB Device Offline"
+    }
+  ]
+}

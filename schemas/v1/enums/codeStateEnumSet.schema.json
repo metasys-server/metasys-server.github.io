@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/codeStateEnumSet.schema.json",
+  "title": "codeStateEnumSet",
+  "description": "Device Code State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "codeStateUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "codeStateBoot"
+      ],
+      "description": "Boot"
+    },
+    {
+      "enum": [
+        2,
+        "codeStateMain"
+      ],
+      "description": "Main"
+    }
+  ]
+}

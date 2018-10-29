@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000FanMode2EnumSet.schema.json",
+  "title": "tec3000FanMode2EnumSet",
+  "description": "TEC3000 Fan Mode 2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000FanMode2Auto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000FanMode2Smart"
+      ],
+      "description": "Smart"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000FanMode2Low"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        3,
+        "tec3000FanMode2Med"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        4,
+        "tec3000FanMode2High"
+      ],
+      "description": "High"
+    }
+  ]
+}

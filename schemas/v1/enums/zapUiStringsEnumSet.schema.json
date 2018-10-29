@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/zapUiStringsEnumSet.schema.json",
+  "title": "zapUiStringsEnumSet",
+  "description": "ZAP UI Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "zapUiStringsRoutingMode"
+      ],
+      "description": "Routing Mode"
+    },
+    {
+      "enum": [
+        1,
+        "zapUiStringsRadioReliability"
+      ],
+      "description": "Current Radio Reliability"
+    },
+    {
+      "enum": [
+        2,
+        "zapUiStringsActiveChannel"
+      ],
+      "description": "Active Channel"
+    },
+    {
+      "enum": [
+        3,
+        "zapUiStringsRssi"
+      ],
+      "description": "Signal Strength"
+    },
+    {
+      "enum": [
+        4,
+        "zapUiStringsEnableRouting"
+      ],
+      "description": "Enable/Disable Routing"
+    },
+    {
+      "enum": [
+        5,
+        "zapUiStringsBacnetPort"
+      ],
+      "description": "BACnet IP Port"
+    },
+    {
+      "enum": [
+        6,
+        "zapUiStringsBacnetNetworkNumber"
+      ],
+      "description": "BACnet IP Network Address"
+    },
+    {
+      "enum": [
+        7,
+        "zapUiStringsWirelessFbNetworkNumber"
+      ],
+      "description": "Wireless Field Bus Network Address"
+    },
+    {
+      "enum": [
+        8,
+        "zapUiStringsDeviceIdentifier"
+      ],
+      "description": "BACnet Device Object Identifier"
+    },
+    {
+      "enum": [
+        9,
+        "zapUiStringsCommitChanges"
+      ],
+      "description": "Commit Changes and Reset"
+    },
+    {
+      "enum": [
+        10,
+        "zapUiStringsEnableExtendedChannelList"
+      ],
+      "description": "Allow Extended Channel List"
+    }
+  ]
+}

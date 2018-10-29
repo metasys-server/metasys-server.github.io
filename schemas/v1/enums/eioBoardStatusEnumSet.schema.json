@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eioBoardStatusEnumSet.schema.json",
+  "title": "eioBoardStatusEnumSet",
+  "description": "EIO Board Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "eioBoardOnline"
+      ],
+      "description": "EIO Board Online"
+    },
+    {
+      "enum": [
+        1,
+        "eioBoardOffline"
+      ],
+      "description": "EIO Board Offline"
+    },
+    {
+      "enum": [
+        2,
+        "eioBoardIdError"
+      ],
+      "description": "EIO Board ID Error"
+    },
+    {
+      "enum": [
+        3,
+        "eioBoardMappingError"
+      ],
+      "description": "EIO Board Mapping Data Error"
+    },
+    {
+      "enum": [
+        4,
+        "eioBoardDeviceFailure"
+      ],
+      "description": "EIO Device Failure"
+    },
+    {
+      "enum": [
+        5,
+        "eioBoardStatusPending"
+      ],
+      "description": "EIO Board Status Pending"
+    }
+  ]
+}

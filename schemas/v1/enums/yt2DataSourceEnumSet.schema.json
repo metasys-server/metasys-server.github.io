@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yt2DataSourceEnumSet.schema.json",
+  "title": "yt2DataSourceEnumSet",
+  "description": "YT2 Data Source",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yt2DataSourceLiveData"
+      ],
+      "description": "Live Data"
+    },
+    {
+      "enum": [
+        1,
+        "yt2DataSourceHistory1Data"
+      ],
+      "description": "History 1 Data"
+    }
+  ]
+}

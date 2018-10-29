@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reportsStatusEnumSet.schema.json",
+  "title": "reportsStatusEnumSet",
+  "description": "Success/No USB Stick/USB Write Failed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "reportsStatusSuccess"
+      ],
+      "description": "Success"
+    },
+    {
+      "enum": [
+        1,
+        "reportsStatusNoUsbStick"
+      ],
+      "description": "No USB Stick"
+    },
+    {
+      "enum": [
+        2,
+        "reportsStatusUsbWriteFailed"
+      ],
+      "description": "USB Write Failed"
+    }
+  ]
+}

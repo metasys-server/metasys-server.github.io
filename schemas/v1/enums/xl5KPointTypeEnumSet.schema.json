@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/xl5KPointTypeEnumSet.schema.json",
+  "title": "xl5KPointTypeEnumSet",
+  "description": "XL5K Point Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "xl5KUndefined"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "xl5KAi"
+      ],
+      "description": "Analog Input"
+    },
+    {
+      "enum": [
+        2,
+        "xl5KBi"
+      ],
+      "description": "Digital Input"
+    },
+    {
+      "enum": [
+        3,
+        "xl5KBo"
+      ],
+      "description": "Digital Output"
+    },
+    {
+      "enum": [
+        4,
+        "xl5KAo"
+      ],
+      "description": "Analog Output"
+    },
+    {
+      "enum": [
+        5,
+        "xl5KPc"
+      ],
+      "description": "Pulse Input"
+    },
+    {
+      "enum": [
+        6,
+        "xl5K6"
+      ],
+      "description": "Type 6"
+    },
+    {
+      "enum": [
+        7,
+        "xl5KPa"
+      ],
+      "description": "Pseudo Analog"
+    },
+    {
+      "enum": [
+        8,
+        "xl5KPd"
+      ],
+      "description": "Pseudo Digital"
+    },
+    {
+      "enum": [
+        9,
+        "xl5KRa"
+      ],
+      "description": "Remote Analog"
+    },
+    {
+      "enum": [
+        10,
+        "xl5KRd"
+      ],
+      "description": "Remote Digital"
+    },
+    {
+      "enum": [
+        11,
+        "xl5K11"
+      ],
+      "description": "Type 11"
+    },
+    {
+      "enum": [
+        12,
+        "xl5K12"
+      ],
+      "description": "Type 12"
+    },
+    {
+      "enum": [
+        13,
+        "xl5KFp"
+      ],
+      "description": "Flexible Point"
+    },
+    {
+      "enum": [
+        14,
+        "xl5KPp"
+      ],
+      "description": "Pseudo Point"
+    },
+    {
+      "enum": [
+        15,
+        "xl5K15"
+      ],
+      "description": "Type 15"
+    },
+    {
+      "enum": [
+        16,
+        "xl5KPwfb"
+      ],
+      "description": "Point w/ Feedback"
+    },
+    {
+      "enum": [
+        17,
+        "xl5KP2D"
+      ],
+      "description": "Pulse 2 Digital"
+    },
+    {
+      "enum": [
+        18,
+        "xl5KMsd"
+      ],
+      "description": "Multistage Digital"
+    }
+  ]
+}

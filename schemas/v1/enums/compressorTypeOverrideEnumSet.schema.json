@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/compressorTypeOverrideEnumSet.schema.json",
+  "title": "compressorTypeOverrideEnumSet",
+  "description": "Compressor Type Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "compressorTypeOverrideAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "compressorTypeOverrideTraditionalAc"
+      ],
+      "description": "Traditional A/C"
+    },
+    {
+      "enum": [
+        2,
+        "compressorTypeOverrideHeatPump"
+      ],
+      "description": "Heat Pump"
+    }
+  ]
+}

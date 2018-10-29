@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuSfFanControl.schema.json",
+  "title": "seRtuSfFanControl",
+  "description": "SE RTU Fan Control Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seSfFcSs"
+      ],
+      "description": "Single Speed"
+    },
+    {
+      "enum": [
+        1,
+        "seSfFcTs"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        2,
+        "seSfFcFv"
+      ],
+      "description": "Fixed Variable"
+    },
+    {
+      "enum": [
+        3,
+        "seSfFcVs"
+      ],
+      "description": "Variable Speed"
+    }
+  ]
+}

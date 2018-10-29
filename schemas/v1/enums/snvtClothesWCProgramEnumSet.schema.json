@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtClothesWCProgramEnumSet.schema.json",
+  "title": "snvtClothesWCProgramEnumSet",
+  "description": "SNVT Clothes Washer Program",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cwpGeneral"
+      ],
+      "description": "Normal Wash"
+    },
+    {
+      "enum": [
+        1,
+        "cwpBoil"
+      ],
+      "description": "Boil"
+    },
+    {
+      "enum": [
+        2,
+        "cwpFastWash"
+      ],
+      "description": "Fast Wash"
+    },
+    {
+      "enum": [
+        3,
+        "cwpLingerie"
+      ],
+      "description": "Lingerie"
+    },
+    {
+      "enum": [
+        4,
+        "cwpWool"
+      ],
+      "description": "Wool"
+    },
+    {
+      "enum": [
+        5,
+        "cwpTowel"
+      ],
+      "description": "Towel"
+    },
+    {
+      "enum": [
+        6,
+        "cwpBedLinens"
+      ],
+      "description": "Bed Linens"
+    },
+    {
+      "enum": [
+        7,
+        "cwpCurtain"
+      ],
+      "description": "Curtain"
+    },
+    {
+      "enum": [
+        8,
+        "cwpRinseSpinOnly"
+      ],
+      "description": "Rinse and Spin"
+    },
+    {
+      "enum": [
+        9,
+        "cwpDelicateRinse"
+      ],
+      "description": "Delicate Rinse"
+    },
+    {
+      "enum": [
+        10,
+        "cwpSpinOnly"
+      ],
+      "description": "Spin Only"
+    },
+    {
+      "enum": [
+        11,
+        "cwpDryOnly"
+      ],
+      "description": "Dry Only"
+    },
+    {
+      "enum": [
+        255,
+        "cwpNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

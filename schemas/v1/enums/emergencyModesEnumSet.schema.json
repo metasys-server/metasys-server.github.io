@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/emergencyModesEnumSet.schema.json",
+  "title": "emergencyModesEnumSet",
+  "description": "Emergency Modes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "emgNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "emgPressurize"
+      ],
+      "description": "Pressurize"
+    },
+    {
+      "enum": [
+        2,
+        "emgDepressurize"
+      ],
+      "description": "Depressurize"
+    },
+    {
+      "enum": [
+        3,
+        "emgPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        4,
+        "emgShutdown"
+      ],
+      "description": "Shutdown"
+    }
+  ]
+}

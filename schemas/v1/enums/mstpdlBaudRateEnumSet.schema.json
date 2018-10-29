@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mstpdlBaudRateEnumSet.schema.json",
+  "title": "mstpdlBaudRateEnumSet",
+  "description": "MSTPDL Baud Rate",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mstpdlBaudAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        1,
+        "mstpdlBaud1200"
+      ],
+      "description": "1200"
+    },
+    {
+      "enum": [
+        2,
+        "mstpdlBaud9600"
+      ],
+      "description": "9600"
+    },
+    {
+      "enum": [
+        3,
+        "mstpdlBaud19200"
+      ],
+      "description": "19200"
+    },
+    {
+      "enum": [
+        4,
+        "mstpdlBaud38400"
+      ],
+      "description": "38400"
+    },
+    {
+      "enum": [
+        5,
+        "mstpdlBaud76800"
+      ],
+      "description": "76800"
+    }
+  ]
+}

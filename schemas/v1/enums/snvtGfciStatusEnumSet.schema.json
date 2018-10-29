@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtGfciStatusEnumSet.schema.json",
+  "title": "snvtGfciStatusEnumSet",
+  "description": "SNVT GFCI Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Tripped"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Test Failed"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Test Passed"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Test Now"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

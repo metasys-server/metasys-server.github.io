@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetTextHandlerEnumSet.schema.json",
+  "title": "bacnetTextHandlerEnumSet",
+  "description": "BACnet Text Handler",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noCommandAction"
+      ],
+      "description": "No Action"
+    },
+    {
+      "enum": [
+        1,
+        "cmdAction"
+      ],
+      "description": "Action-"
+    },
+    {
+      "enum": [
+        2,
+        "tooManyActions"
+      ],
+      "description": "Too Many Actions"
+    },
+    {
+      "enum": [
+        3,
+        "level"
+      ],
+      "description": "Level-"
+    },
+    {
+      "enum": [
+        4,
+        "tooManyLevels"
+      ],
+      "description": "Too Many Levels"
+    },
+    {
+      "enum": [
+        5,
+        "stateDash"
+      ],
+      "description": "State-"
+    }
+  ]
+}

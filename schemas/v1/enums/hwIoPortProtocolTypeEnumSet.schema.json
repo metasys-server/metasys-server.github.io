@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hwIoPortProtocolTypeEnumSet.schema.json",
+  "title": "hwIoPortProtocolTypeEnumSet",
+  "description": "HW IO Port Protocol Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ptModbusMaster"
+      ],
+      "description": "Modbus Master"
+    },
+    {
+      "enum": [
+        1,
+        "ptLoopbackTestModbusMaster"
+      ],
+      "description": "Loopback Test Modbus Master"
+    },
+    {
+      "enum": [
+        2,
+        "ptLoopbackTestMstpMaster"
+      ],
+      "description": "Loopback Test MS/TP Master"
+    },
+    {
+      "enum": [
+        3,
+        "ptLoopbackTestN2Master"
+      ],
+      "description": "Loopback Test N2 Master"
+    },
+    {
+      "enum": [
+        4,
+        "ptLoopbackTestModbusSlave"
+      ],
+      "description": "Loopback Test Modbus Slave"
+    },
+    {
+      "enum": [
+        5,
+        "ptBasCommPortMstp"
+      ],
+      "description": "BAS Comm Port MS/TP"
+    },
+    {
+      "enum": [
+        6,
+        "ptBasCommPortN2Slave"
+      ],
+      "description": "BAS Comm Port N2 Slave"
+    },
+    {
+      "enum": [
+        7,
+        "ptBasCommPortModbusSlave"
+      ],
+      "description": "BAS Comm Port Modbus Slave"
+    },
+    {
+      "enum": [
+        8,
+        "ptUnusedPort"
+      ],
+      "description": "Unused"
+    }
+  ]
+}

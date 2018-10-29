@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ostWarmupCooldownEnumSet.schema.json",
+  "title": "ostWarmupCooldownEnumSet",
+  "description": "OST Warmup Cooldown",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ostWcNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "ostWcWarmup"
+      ],
+      "description": "Warmup"
+    },
+    {
+      "enum": [
+        2,
+        "ostWcCooldown"
+      ],
+      "description": "Cooldown"
+    },
+    {
+      "enum": [
+        3,
+        "ostWcCoast"
+      ],
+      "description": "Coast"
+    }
+  ]
+}

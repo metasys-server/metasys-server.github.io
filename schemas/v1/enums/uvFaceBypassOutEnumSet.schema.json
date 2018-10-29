@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uvFaceBypassOutEnumSet.schema.json",
+  "title": "uvFaceBypassOutEnumSet",
+  "description": "UV Face Bypass Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "uvfboOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "uvfboMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "uvfboLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "uvfboHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "uvfboWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "uvfboControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        6,
+        "uvfboControlLimit"
+      ],
+      "description": "Control Limit"
+    },
+    {
+      "enum": [
+        7,
+        "uvfboFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        8,
+        "uvfboCooling"
+      ],
+      "description": "Cooling"
+    }
+  ]
+}

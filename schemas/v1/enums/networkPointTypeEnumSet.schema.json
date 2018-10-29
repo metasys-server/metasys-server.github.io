@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/networkPointTypeEnumSet.schema.json",
+  "title": "networkPointTypeEnumSet",
+  "description": "Network Point Type",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "nptAi"
+      ],
+      "description": "AI"
+    },
+    {
+      "enum": [
+        2,
+        "nptBi"
+      ],
+      "description": "BI"
+    },
+    {
+      "enum": [
+        3,
+        "nptAo"
+      ],
+      "description": "AO"
+    },
+    {
+      "enum": [
+        4,
+        "nptBo"
+      ],
+      "description": "BO"
+    },
+    {
+      "enum": [
+        5,
+        "nptAdf"
+      ],
+      "description": "ADF"
+    },
+    {
+      "enum": [
+        6,
+        "nptAdi"
+      ],
+      "description": "ADI"
+    },
+    {
+      "enum": [
+        7,
+        "nptBd"
+      ],
+      "description": "BD"
+    },
+    {
+      "enum": [
+        8,
+        "nptLrs"
+      ],
+      "description": "LRS"
+    },
+    {
+      "enum": [
+        9,
+        "nptPmk"
+      ],
+      "description": "PMK"
+    },
+    {
+      "enum": [
+        10,
+        "nptPmo"
+      ],
+      "description": "PMO"
+    },
+    {
+      "enum": [
+        11,
+        "nptPml"
+      ],
+      "description": "PML"
+    },
+    {
+      "enum": [
+        12,
+        "nptPma"
+      ],
+      "description": "PMA"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ydSc7EnumSet.schema.json",
+  "title": "ydSc7EnumSet",
+  "description": "YD Internal Fault Code SC.7",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ydSc70"
+      ],
+      "description": "NO INTERNAL FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ydSc71"
+      ],
+      "description": "INTERNAL ERROR - NO TIMER HANDLES AVAILABLE"
+    },
+    {
+      "enum": [
+        2,
+        "ydSc72"
+      ],
+      "description": "WATCHDOG - SOFTWARE REBOOT"
+    },
+    {
+      "enum": [
+        3,
+        "ydSc73"
+      ],
+      "description": "INTERNAL ERROR - CANNOT CREATE TASK"
+    }
+  ]
+}

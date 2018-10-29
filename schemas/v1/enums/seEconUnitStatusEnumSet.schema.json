@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconUnitStatusEnumSet.schema.json",
+  "title": "seEconUnitStatusEnumSet",
+  "description": "SE ECON Unit Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconUnitStatusIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seEconUnitStatusSdAlarm"
+      ],
+      "description": "SD Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "seEconUnitStatusPurgeCommand"
+      ],
+      "description": "Purge Command"
+    },
+    {
+      "enum": [
+        3,
+        "seEconUnitStatusHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        4,
+        "seEconUnitStatusCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        5,
+        "seEconUnitStatusEconomizer"
+      ],
+      "description": "Economizer"
+    },
+    {
+      "enum": [
+        6,
+        "seEconUnitStatusStartupDelay"
+      ],
+      "description": "Startup Delay"
+    }
+  ]
+}

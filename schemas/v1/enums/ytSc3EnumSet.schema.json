@@ -1,0 +1,540 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ytSc3EnumSet.schema.json",
+  "title": "ytSc3EnumSet",
+  "description": "YT Cycling Fault Code SC.3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ytSc30"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "ytSc31"
+      ],
+      "description": "MULTI-UNIT CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        2,
+        "ytSc32"
+      ],
+      "description": "SYSTEM CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "ytSc33"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "ytSc34"
+      ],
+      "description": "OIL - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "ytSc35"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        6,
+        "ytSc36"
+      ],
+      "description": "LEAVING CHILLED LIQUID - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        7,
+        "ytSc37"
+      ],
+      "description": "LEAVING CHILLED LIQUID - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "ytSc38"
+      ],
+      "description": "CONDENSER - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "ytSc39"
+      ],
+      "description": "MOTOR CONTROLLER - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        10,
+        "ytSc310"
+      ],
+      "description": "MOTOR CONTROLLER - LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        11,
+        "ytSc311"
+      ],
+      "description": "POWER FAULT"
+    },
+    {
+      "enum": [
+        12,
+        "ytSc312"
+      ],
+      "description": "CONTROL PANEL - SCHEDULE"
+    },
+    {
+      "enum": [
+        13,
+        "ytSc313"
+      ],
+      "description": "STARTER - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        14,
+        "ytSc314"
+      ],
+      "description": "STARTER - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        15,
+        "ytSc315"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ytSc316"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ytSc317"
+      ],
+      "description": "VSD INITIALIZATION FAILURE"
+    },
+    {
+      "enum": [
+        18,
+        "ytSc318"
+      ],
+      "description": "VSD SHUTDOWN - REQUESTING FAULT DATA"
+    },
+    {
+      "enum": [
+        19,
+        "ytSc319"
+      ],
+      "description": "VSD - HIGH PHASE A INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        20,
+        "ytSc320"
+      ],
+      "description": "VSD - HIGH PHASE B INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        21,
+        "ytSc321"
+      ],
+      "description": "VSD - HIGH PHASE C INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        22,
+        "ytSc322"
+      ],
+      "description": "VSD - PHASE A GATE DRIVER"
+    },
+    {
+      "enum": [
+        23,
+        "ytSc323"
+      ],
+      "description": "VSD - PHASE B GATE DRIVER"
+    },
+    {
+      "enum": [
+        24,
+        "ytSc324"
+      ],
+      "description": "VSD - PHASE C GATE DRIVER"
+    },
+    {
+      "enum": [
+        25,
+        "ytSc325"
+      ],
+      "description": "VSD - SINGLE PHASE INPUT POWER"
+    },
+    {
+      "enum": [
+        26,
+        "ytSc326"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        27,
+        "ytSc327"
+      ],
+      "description": "VSD - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        28,
+        "ytSc328"
+      ],
+      "description": "VSD - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        29,
+        "ytSc329"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        30,
+        "ytSc330"
+      ],
+      "description": "VSD - HIGH INTERNAL AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        31,
+        "ytSc331"
+      ],
+      "description": "VSD - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        32,
+        "ytSc332"
+      ],
+      "description": "VSD - LOW PHASE A INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        33,
+        "ytSc333"
+      ],
+      "description": "VSD - LOW PHASE B INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        34,
+        "ytSc334"
+      ],
+      "description": "VSD - LOW PHASE C INVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        35,
+        "ytSc335"
+      ],
+      "description": "VSD - LOW CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        36,
+        "ytSc336"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        37,
+        "ytSc337"
+      ],
+      "description": "VSD - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        38,
+        "ytSc338"
+      ],
+      "description": "VSD - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        39,
+        "ytSc339"
+      ],
+      "description": "VSD - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        40,
+        "ytSc340"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        41,
+        "ytSc341"
+      ],
+      "description": "VSD - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        42,
+        "ytSc342"
+      ],
+      "description": "HARMONIC FILTER - LOGIC BOARD OR COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        43,
+        "ytSc343"
+      ],
+      "description": "HARMONIC FILTER - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        44,
+        "ytSc344"
+      ],
+      "description": "HARMONIC FILTER - HIGH PHASE A INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        45,
+        "ytSc345"
+      ],
+      "description": "RESERVED 45"
+    },
+    {
+      "enum": [
+        46,
+        "ytSc346"
+      ],
+      "description": "HARMONIC FILTER - HIGH PHASE C INSTANTANEOUS CURRENT"
+    },
+    {
+      "enum": [
+        47,
+        "ytSc347"
+      ],
+      "description": "HARMONIC FILTER - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        48,
+        "ytSc348"
+      ],
+      "description": "HARMONIC FILTER - PRECHARGE - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        49,
+        "ytSc349"
+      ],
+      "description": "HARMONIC FILTER - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        50,
+        "ytSc350"
+      ],
+      "description": "HARMONIC FILTER - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        51,
+        "ytSc351"
+      ],
+      "description": "HARMONIC FILTER - 110% INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        52,
+        "ytSc352"
+      ],
+      "description": "HARMONIC FILTER - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        53,
+        "ytSc353"
+      ],
+      "description": "HARMONIC FILTER - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        54,
+        "ytSc354"
+      ],
+      "description": "HARMONIC FILTER - DC CURRENT TRANSFORMER 1"
+    },
+    {
+      "enum": [
+        55,
+        "ytSc355"
+      ],
+      "description": "HARMONIC FILTER - DC CURRENT TRANSFORMER 2"
+    },
+    {
+      "enum": [
+        56,
+        "ytSc356"
+      ],
+      "description": "LCSSS INITIALIZATION FAILURE"
+    },
+    {
+      "enum": [
+        57,
+        "ytSc357"
+      ],
+      "description": "LCSSS SHUTDOWN - REQUESTING FAULT DATA"
+    },
+    {
+      "enum": [
+        58,
+        "ytSc358"
+      ],
+      "description": "LCSSS - LOW PHASE A HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        59,
+        "ytSc359"
+      ],
+      "description": "LCSSS - LOW PHASE B HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        60,
+        "ytSc360"
+      ],
+      "description": "LCSSS - LOW PHASE C HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        61,
+        "ytSc361"
+      ],
+      "description": "LCSSS - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        62,
+        "ytSc362"
+      ],
+      "description": "LCSSS - POWER FAULT"
+    },
+    {
+      "enum": [
+        63,
+        "ytSc363"
+      ],
+      "description": "LCSSS - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        64,
+        "ytSc364"
+      ],
+      "description": "LCSSS - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        65,
+        "ytSc365"
+      ],
+      "description": "LCSSS - INVALID MODEL SELECTION"
+    },
+    {
+      "enum": [
+        66,
+        "ytSc366"
+      ],
+      "description": "LCSSS - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        67,
+        "ytSc367"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        68,
+        "ytSc368"
+      ],
+      "description": "LCSSS - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        69,
+        "ytSc369"
+      ],
+      "description": "RESERVED 69"
+    },
+    {
+      "enum": [
+        70,
+        "ytSc370"
+      ],
+      "description": "LCSSS - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        71,
+        "ytSc371"
+      ],
+      "description": "RESERVED 71"
+    },
+    {
+      "enum": [
+        72,
+        "ytSc372"
+      ],
+      "description": "LCSSS - POWER FAIL"
+    },
+    {
+      "enum": [
+        73,
+        "ytSc373"
+      ],
+      "description": "VSD - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        74,
+        "ytSc374"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        75,
+        "ytSc375"
+      ],
+      "description": "LCSSS - PHASE LOSS"
+    }
+  ]
+}

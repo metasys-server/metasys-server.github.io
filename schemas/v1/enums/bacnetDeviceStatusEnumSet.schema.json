@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetDeviceStatusEnumSet.schema.json",
+  "title": "bacnetDeviceStatusEnumSet",
+  "description": "BAC Device Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "operational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        1,
+        "operationalReadOnly"
+      ],
+      "description": "Operational ReadOnly"
+    },
+    {
+      "enum": [
+        2,
+        "downloadRequired"
+      ],
+      "description": "Download Required"
+    },
+    {
+      "enum": [
+        3,
+        "downloadInProgress"
+      ],
+      "description": "Download In Progress"
+    },
+    {
+      "enum": [
+        4,
+        "nonOperational"
+      ],
+      "description": "Non Operational"
+    },
+    {
+      "enum": [
+        5,
+        "backupInProgress"
+      ],
+      "description": "Backup in Progress"
+    }
+  ]
+}

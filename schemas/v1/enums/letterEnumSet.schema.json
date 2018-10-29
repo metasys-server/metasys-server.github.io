@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/letterEnumSet.schema.json",
+  "title": "letterEnumSet",
+  "description": "Letter",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "letterA"
+      ],
+      "description": "A"
+    },
+    {
+      "enum": [
+        1,
+        "letterB"
+      ],
+      "description": "B"
+    },
+    {
+      "enum": [
+        2,
+        "letterC"
+      ],
+      "description": "C"
+    },
+    {
+      "enum": [
+        3,
+        "letterD"
+      ],
+      "description": "D"
+    },
+    {
+      "enum": [
+        4,
+        "letterE"
+      ],
+      "description": "E"
+    },
+    {
+      "enum": [
+        5,
+        "letterF"
+      ],
+      "description": "F"
+    },
+    {
+      "enum": [
+        6,
+        "letterG"
+      ],
+      "description": "G"
+    },
+    {
+      "enum": [
+        7,
+        "letterH"
+      ],
+      "description": "H"
+    },
+    {
+      "enum": [
+        8,
+        "letterI"
+      ],
+      "description": "I"
+    },
+    {
+      "enum": [
+        9,
+        "letterJ"
+      ],
+      "description": "J"
+    },
+    {
+      "enum": [
+        10,
+        "letterK"
+      ],
+      "description": "K"
+    },
+    {
+      "enum": [
+        11,
+        "letterL"
+      ],
+      "description": "L"
+    },
+    {
+      "enum": [
+        12,
+        "letterM"
+      ],
+      "description": "M"
+    },
+    {
+      "enum": [
+        13,
+        "letterN"
+      ],
+      "description": "N"
+    },
+    {
+      "enum": [
+        14,
+        "letterO"
+      ],
+      "description": "O"
+    },
+    {
+      "enum": [
+        15,
+        "letterP"
+      ],
+      "description": "P"
+    },
+    {
+      "enum": [
+        16,
+        "letterQ"
+      ],
+      "description": "Q"
+    },
+    {
+      "enum": [
+        17,
+        "letterR"
+      ],
+      "description": "R"
+    },
+    {
+      "enum": [
+        18,
+        "letterS"
+      ],
+      "description": "S"
+    },
+    {
+      "enum": [
+        19,
+        "letterT"
+      ],
+      "description": "T"
+    },
+    {
+      "enum": [
+        20,
+        "letterU"
+      ],
+      "description": "U"
+    },
+    {
+      "enum": [
+        21,
+        "letterV"
+      ],
+      "description": "V"
+    },
+    {
+      "enum": [
+        22,
+        "letterW"
+      ],
+      "description": "W"
+    },
+    {
+      "enum": [
+        23,
+        "letterX"
+      ],
+      "description": "X"
+    },
+    {
+      "enum": [
+        24,
+        "letterY"
+      ],
+      "description": "Y"
+    },
+    {
+      "enum": [
+        25,
+        "letterZ"
+      ],
+      "description": "Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalBoxFlowTestEnumSet.schema.json",
+  "title": "normalBoxFlowTestEnumSet",
+  "description": "Normal/Box Flow Test",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "nbftNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "nbftBoxFlowTest"
+      ],
+      "description": "Box Flow Test"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/t8800FanSpeedEnumSet.schema.json",
+  "title": "t8800FanSpeedEnumSet",
+  "description": "T8800 Fan Speed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "t8800FanSpeedLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        1,
+        "t8800FanSpeedMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        2,
+        "t8800FanSpeedHigh"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        3,
+        "t8800FanSpeedAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

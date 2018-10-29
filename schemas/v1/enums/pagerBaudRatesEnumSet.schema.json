@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pagerBaudRatesEnumSet.schema.json",
+  "title": "pagerBaudRatesEnumSet",
+  "description": "Pager Baud Rates",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pagerBaud300"
+      ],
+      "description": "300"
+    },
+    {
+      "enum": [
+        1,
+        "pagerBaud1200"
+      ],
+      "description": "1200"
+    },
+    {
+      "enum": [
+        2,
+        "pagerBaud2400"
+      ],
+      "description": "2400"
+    },
+    {
+      "enum": [
+        3,
+        "pagerBaud4800"
+      ],
+      "description": "4800"
+    },
+    {
+      "enum": [
+        4,
+        "pagerBaud9600"
+      ],
+      "description": "9600"
+    },
+    {
+      "enum": [
+        5,
+        "pagerBaud19200"
+      ],
+      "description": "19200"
+    },
+    {
+      "enum": [
+        6,
+        "pagerBaud38400"
+      ],
+      "description": "38400"
+    },
+    {
+      "enum": [
+        7,
+        "pagerBaud57600"
+      ],
+      "description": "57600"
+    },
+    {
+      "enum": [
+        8,
+        "pagerBaud115200"
+      ],
+      "description": "115200"
+    }
+  ]
+}

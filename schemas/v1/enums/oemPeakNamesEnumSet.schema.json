@@ -1,0 +1,4453 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/oemPeakNamesEnumSet.schema.json",
+  "title": "oemPeakNamesEnumSet",
+  "description": "OEM Peak Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "oemPeakNames1"
+      ],
+      "description": "Steam Pressure"
+    },
+    {
+      "enum": [
+        2,
+        "oemPeakNames2"
+      ],
+      "description": "Cooler 1 Temperature"
+    },
+    {
+      "enum": [
+        3,
+        "oemPeakNames3"
+      ],
+      "description": "Cooler 2 Temperature"
+    },
+    {
+      "enum": [
+        4,
+        "oemPeakNames4"
+      ],
+      "description": "Cooler 3 Temperature"
+    },
+    {
+      "enum": [
+        5,
+        "oemPeakNames5"
+      ],
+      "description": "Cooler 4 Temperature"
+    },
+    {
+      "enum": [
+        6,
+        "oemPeakNames6"
+      ],
+      "description": "Freezer 1 Temperature"
+    },
+    {
+      "enum": [
+        7,
+        "oemPeakNames7"
+      ],
+      "description": "Freezer 2 Temperature"
+    },
+    {
+      "enum": [
+        8,
+        "oemPeakNames8"
+      ],
+      "description": "Freezer 3 Temperature"
+    },
+    {
+      "enum": [
+        9,
+        "oemPeakNames9"
+      ],
+      "description": "Freezer 4 Temperature"
+    },
+    {
+      "enum": [
+        10,
+        "oemPeakNames10"
+      ],
+      "description": "Steam Pressure Alarm"
+    },
+    {
+      "enum": [
+        11,
+        "oemPeakNames11"
+      ],
+      "description": "Cooler 1 Temperature Alarm"
+    },
+    {
+      "enum": [
+        12,
+        "oemPeakNames12"
+      ],
+      "description": "Cooler 2 Temperature Alarm"
+    },
+    {
+      "enum": [
+        13,
+        "oemPeakNames13"
+      ],
+      "description": "Cooler 3 Temperature Alarm"
+    },
+    {
+      "enum": [
+        14,
+        "oemPeakNames14"
+      ],
+      "description": "Cooler 4 Temperature Alarm"
+    },
+    {
+      "enum": [
+        15,
+        "oemPeakNames15"
+      ],
+      "description": "Freezer 1 Temperature Alarm"
+    },
+    {
+      "enum": [
+        16,
+        "oemPeakNames16"
+      ],
+      "description": "Freezer 2 Temperature Alarm"
+    },
+    {
+      "enum": [
+        17,
+        "oemPeakNames17"
+      ],
+      "description": "Freezer 3 Temperature Alarm"
+    },
+    {
+      "enum": [
+        18,
+        "oemPeakNames18"
+      ],
+      "description": "Freezer 4 Temperature Alarm"
+    },
+    {
+      "enum": [
+        19,
+        "oemPeakNames19"
+      ],
+      "description": "Temperature High Alarm Limit"
+    },
+    {
+      "enum": [
+        20,
+        "oemPeakNames20"
+      ],
+      "description": "Temperature Low Alarm Limit"
+    },
+    {
+      "enum": [
+        21,
+        "oemPeakNames21"
+      ],
+      "description": "Steam Pressure High Alarm Limit"
+    },
+    {
+      "enum": [
+        22,
+        "oemPeakNames22"
+      ],
+      "description": "Steam Pressure Low Alarm Limit"
+    },
+    {
+      "enum": [
+        23,
+        "oemPeakNames23"
+      ],
+      "description": "Pressure Sensor 1"
+    },
+    {
+      "enum": [
+        24,
+        "oemPeakNames24"
+      ],
+      "description": "Pressure Sensor 2"
+    },
+    {
+      "enum": [
+        25,
+        "oemPeakNames25"
+      ],
+      "description": "Pressure Sensor 3"
+    },
+    {
+      "enum": [
+        26,
+        "oemPeakNames26"
+      ],
+      "description": "Pressure Sensor 4"
+    },
+    {
+      "enum": [
+        27,
+        "oemPeakNames27"
+      ],
+      "description": "Temperature Sensor 1"
+    },
+    {
+      "enum": [
+        28,
+        "oemPeakNames28"
+      ],
+      "description": "Temperature Sensor 2"
+    },
+    {
+      "enum": [
+        29,
+        "oemPeakNames29"
+      ],
+      "description": "Temperature Sensor 3"
+    },
+    {
+      "enum": [
+        30,
+        "oemPeakNames30"
+      ],
+      "description": "Temperature Sensor 4"
+    },
+    {
+      "enum": [
+        31,
+        "oemPeakNames31"
+      ],
+      "description": "Netsensor 1"
+    },
+    {
+      "enum": [
+        32,
+        "oemPeakNames32"
+      ],
+      "description": "Netsensor 2"
+    },
+    {
+      "enum": [
+        33,
+        "oemPeakNames33"
+      ],
+      "description": "Netsensor 3"
+    },
+    {
+      "enum": [
+        34,
+        "oemPeakNames34"
+      ],
+      "description": "Netsensor 4"
+    },
+    {
+      "enum": [
+        35,
+        "oemPeakNames35"
+      ],
+      "description": "Cooler 1 High Temp Alarm"
+    },
+    {
+      "enum": [
+        36,
+        "oemPeakNames36"
+      ],
+      "description": "Cooler 2 High Temp Alarm"
+    },
+    {
+      "enum": [
+        37,
+        "oemPeakNames37"
+      ],
+      "description": "Cooler 3 High Temp Alarm"
+    },
+    {
+      "enum": [
+        38,
+        "oemPeakNames38"
+      ],
+      "description": "Cooler 4 High Temp Alarm"
+    },
+    {
+      "enum": [
+        39,
+        "oemPeakNames39"
+      ],
+      "description": "Cooler 1 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        40,
+        "oemPeakNames40"
+      ],
+      "description": "Cooler 2 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        41,
+        "oemPeakNames41"
+      ],
+      "description": "Cooler 3 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        42,
+        "oemPeakNames42"
+      ],
+      "description": "Cooler 4 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        43,
+        "oemPeakNames43"
+      ],
+      "description": "Freezer 1 High Temp Alarm"
+    },
+    {
+      "enum": [
+        44,
+        "oemPeakNames44"
+      ],
+      "description": "Freezer 2 High Temp Alarm"
+    },
+    {
+      "enum": [
+        45,
+        "oemPeakNames45"
+      ],
+      "description": "Freezer 3 High Temp Alarm"
+    },
+    {
+      "enum": [
+        46,
+        "oemPeakNames46"
+      ],
+      "description": "Freezer 4 High Temp Alarm"
+    },
+    {
+      "enum": [
+        47,
+        "oemPeakNames47"
+      ],
+      "description": "Freezer 1 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        48,
+        "oemPeakNames48"
+      ],
+      "description": "Freezer 2 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        49,
+        "oemPeakNames49"
+      ],
+      "description": "Freezer 3 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        50,
+        "oemPeakNames50"
+      ],
+      "description": "Freezer 4 Low Temp Alarm"
+    },
+    {
+      "enum": [
+        51,
+        "oemPeakNames51"
+      ],
+      "description": "Steam Pressure High Alarm"
+    },
+    {
+      "enum": [
+        52,
+        "oemPeakNames52"
+      ],
+      "description": "Steam Pressure Low Alarm"
+    },
+    {
+      "enum": [
+        53,
+        "oemPeakNames53"
+      ],
+      "description": "Refrigerant Pressure"
+    },
+    {
+      "enum": [
+        54,
+        "oemPeakNames54"
+      ],
+      "description": "Refrigerant Pressure 1"
+    },
+    {
+      "enum": [
+        55,
+        "oemPeakNames55"
+      ],
+      "description": "Refrigerant Pressure 2"
+    },
+    {
+      "enum": [
+        56,
+        "oemPeakNames56"
+      ],
+      "description": "Condenser Refrigerant Pressure"
+    },
+    {
+      "enum": [
+        57,
+        "oemPeakNames57"
+      ],
+      "description": "Condenser Refrigerant Pressure 1"
+    },
+    {
+      "enum": [
+        58,
+        "oemPeakNames58"
+      ],
+      "description": "Condenser Refrigerant Pressure 2"
+    },
+    {
+      "enum": [
+        59,
+        "oemPeakNames59"
+      ],
+      "description": "Evaporator Refrigerant Pressure"
+    },
+    {
+      "enum": [
+        60,
+        "oemPeakNames60"
+      ],
+      "description": "Evaporator Refrigerant Pressure 1"
+    },
+    {
+      "enum": [
+        61,
+        "oemPeakNames61"
+      ],
+      "description": "Evaporator Refrigerant Pressure 2"
+    },
+    {
+      "enum": [
+        62,
+        "oemPeakNames62"
+      ],
+      "description": "Condenser 1 Coil Temperature"
+    },
+    {
+      "enum": [
+        63,
+        "oemPeakNames63"
+      ],
+      "description": "Condenser 2 Coil Temperature"
+    },
+    {
+      "enum": [
+        64,
+        "oemPeakNames64"
+      ],
+      "description": "Condenser 3 Coil Temperature"
+    },
+    {
+      "enum": [
+        65,
+        "oemPeakNames65"
+      ],
+      "description": "Condenser 4 Coil Temperature"
+    },
+    {
+      "enum": [
+        66,
+        "oemPeakNames66"
+      ],
+      "description": "Evaporator 1 Coil Temperature"
+    },
+    {
+      "enum": [
+        67,
+        "oemPeakNames67"
+      ],
+      "description": "Evaporator 2 Coil Temperature"
+    },
+    {
+      "enum": [
+        68,
+        "oemPeakNames68"
+      ],
+      "description": "Evaporator 3 Coil Temperature"
+    },
+    {
+      "enum": [
+        69,
+        "oemPeakNames69"
+      ],
+      "description": "Evaporator 4 Coil Temperature"
+    },
+    {
+      "enum": [
+        70,
+        "oemPeakNames70"
+      ],
+      "description": "Stage 1 Command"
+    },
+    {
+      "enum": [
+        71,
+        "oemPeakNames71"
+      ],
+      "description": "Stage 2 Command"
+    },
+    {
+      "enum": [
+        72,
+        "oemPeakNames72"
+      ],
+      "description": "Stage 3 Command"
+    },
+    {
+      "enum": [
+        73,
+        "oemPeakNames73"
+      ],
+      "description": "Stage 4 Command"
+    },
+    {
+      "enum": [
+        74,
+        "oemPeakNames74"
+      ],
+      "description": "Stage 5 Command"
+    },
+    {
+      "enum": [
+        75,
+        "oemPeakNames75"
+      ],
+      "description": "Stage 6 Command"
+    },
+    {
+      "enum": [
+        76,
+        "oemPeakNames76"
+      ],
+      "description": "Stage 7 Command"
+    },
+    {
+      "enum": [
+        77,
+        "oemPeakNames77"
+      ],
+      "description": "Stage 8 Command"
+    },
+    {
+      "enum": [
+        78,
+        "oemPeakNames78"
+      ],
+      "description": "Stage 9 Command"
+    },
+    {
+      "enum": [
+        79,
+        "oemPeakNames79"
+      ],
+      "description": "Stage 10 Command"
+    },
+    {
+      "enum": [
+        80,
+        "oemPeakNames80"
+      ],
+      "description": "Stage 11 Command"
+    },
+    {
+      "enum": [
+        81,
+        "oemPeakNames81"
+      ],
+      "description": "Stage 12 Command"
+    },
+    {
+      "enum": [
+        82,
+        "oemPeakNames82"
+      ],
+      "description": "Stage 13 Command"
+    },
+    {
+      "enum": [
+        83,
+        "oemPeakNames83"
+      ],
+      "description": "Stage 14 Command"
+    },
+    {
+      "enum": [
+        84,
+        "oemPeakNames84"
+      ],
+      "description": "Stage 15 Command"
+    },
+    {
+      "enum": [
+        85,
+        "oemPeakNames85"
+      ],
+      "description": "Stage 16 Command"
+    },
+    {
+      "enum": [
+        86,
+        "oemPeakNames86"
+      ],
+      "description": "Fan 1 Command"
+    },
+    {
+      "enum": [
+        87,
+        "oemPeakNames87"
+      ],
+      "description": "Fan 2 Command"
+    },
+    {
+      "enum": [
+        88,
+        "oemPeakNames88"
+      ],
+      "description": "Fan 3 Command"
+    },
+    {
+      "enum": [
+        89,
+        "oemPeakNames89"
+      ],
+      "description": "Fan 4 Command"
+    },
+    {
+      "enum": [
+        90,
+        "oemPeakNames90"
+      ],
+      "description": "Fan 5 Command"
+    },
+    {
+      "enum": [
+        91,
+        "oemPeakNames91"
+      ],
+      "description": "Fan 6 Command"
+    },
+    {
+      "enum": [
+        92,
+        "oemPeakNames92"
+      ],
+      "description": "Fan 7 Command"
+    },
+    {
+      "enum": [
+        93,
+        "oemPeakNames93"
+      ],
+      "description": "Fan 8 Command"
+    },
+    {
+      "enum": [
+        94,
+        "oemPeakNames94"
+      ],
+      "description": "Fan 9 Command"
+    },
+    {
+      "enum": [
+        95,
+        "oemPeakNames95"
+      ],
+      "description": "Fan 10 Command"
+    },
+    {
+      "enum": [
+        96,
+        "oemPeakNames96"
+      ],
+      "description": "Fan 11 Command"
+    },
+    {
+      "enum": [
+        97,
+        "oemPeakNames97"
+      ],
+      "description": "Fan 12 Command"
+    },
+    {
+      "enum": [
+        98,
+        "oemPeakNames98"
+      ],
+      "description": "Fan 13 Command"
+    },
+    {
+      "enum": [
+        99,
+        "oemPeakNames99"
+      ],
+      "description": "Fan 14 Command"
+    },
+    {
+      "enum": [
+        100,
+        "oemPeakNames100"
+      ],
+      "description": "Fan 15 Command"
+    },
+    {
+      "enum": [
+        101,
+        "oemPeakNames101"
+      ],
+      "description": "Fan 16 Command"
+    },
+    {
+      "enum": [
+        102,
+        "oemPeakNames102"
+      ],
+      "description": "Refrigerant Pressure Setpoint"
+    },
+    {
+      "enum": [
+        103,
+        "oemPeakNames103"
+      ],
+      "description": "Condenser Refrigerant Pressure Setpoint"
+    },
+    {
+      "enum": [
+        104,
+        "oemPeakNames104"
+      ],
+      "description": "Evaporator Refrigerant Pressure Setpoint"
+    },
+    {
+      "enum": [
+        105,
+        "oemPeakNames105"
+      ],
+      "description": "Emergency Button Installed"
+    },
+    {
+      "enum": [
+        106,
+        "oemPeakNames106"
+      ],
+      "description": "Number of Zones"
+    },
+    {
+      "enum": [
+        107,
+        "oemPeakNames107"
+      ],
+      "description": "Pressure Sensor Installed"
+    },
+    {
+      "enum": [
+        108,
+        "oemPeakNames108"
+      ],
+      "description": "Number of Boilers"
+    },
+    {
+      "enum": [
+        109,
+        "oemPeakNames109"
+      ],
+      "description": "Runtime Control Enabled"
+    },
+    {
+      "enum": [
+        110,
+        "oemPeakNames110"
+      ],
+      "description": "Input Signal Selection Mode"
+    },
+    {
+      "enum": [
+        111,
+        "oemPeakNames111"
+      ],
+      "description": "Average Pressure Input"
+    },
+    {
+      "enum": [
+        112,
+        "oemPeakNames112"
+      ],
+      "description": "High Pressure Input"
+    },
+    {
+      "enum": [
+        113,
+        "oemPeakNames113"
+      ],
+      "description": "Low Pressure Input"
+    },
+    {
+      "enum": [
+        114,
+        "oemPeakNames114"
+      ],
+      "description": "Average Temperature Input"
+    },
+    {
+      "enum": [
+        115,
+        "oemPeakNames115"
+      ],
+      "description": "High Temperature Input"
+    },
+    {
+      "enum": [
+        116,
+        "oemPeakNames116"
+      ],
+      "description": "Low Temperature Input"
+    },
+    {
+      "enum": [
+        117,
+        "oemPeakNames117"
+      ],
+      "description": "Average Input"
+    },
+    {
+      "enum": [
+        118,
+        "oemPeakNames118"
+      ],
+      "description": "High Input"
+    },
+    {
+      "enum": [
+        119,
+        "oemPeakNames119"
+      ],
+      "description": "Low Input"
+    },
+    {
+      "enum": [
+        120,
+        "oemPeakNames120"
+      ],
+      "description": "Effective Temperature"
+    },
+    {
+      "enum": [
+        121,
+        "oemPeakNames121"
+      ],
+      "description": "Effective Pressure"
+    },
+    {
+      "enum": [
+        122,
+        "oemPeakNames122"
+      ],
+      "description": "Effective Condenser Temperature"
+    },
+    {
+      "enum": [
+        123,
+        "oemPeakNames123"
+      ],
+      "description": "Effective Condenser Pressure"
+    },
+    {
+      "enum": [
+        124,
+        "oemPeakNames124"
+      ],
+      "description": "Runtime Reset"
+    },
+    {
+      "enum": [
+        125,
+        "oemPeakNames125"
+      ],
+      "description": "Pressure Setpoint"
+    },
+    {
+      "enum": [
+        126,
+        "oemPeakNames126"
+      ],
+      "description": "Condenser Pressure Setpoint"
+    },
+    {
+      "enum": [
+        127,
+        "oemPeakNames127"
+      ],
+      "description": "Temperature Setpoint"
+    },
+    {
+      "enum": [
+        128,
+        "oemPeakNames128"
+      ],
+      "description": "Condenser Temperature Setpoint"
+    },
+    {
+      "enum": [
+        129,
+        "oemPeakNames129"
+      ],
+      "description": "Runtime Auto Reset Setpoint"
+    },
+    {
+      "enum": [
+        130,
+        "oemPeakNames130"
+      ],
+      "description": "Number of Stages"
+    },
+    {
+      "enum": [
+        131,
+        "oemPeakNames131"
+      ],
+      "description": "Cond Press 1 Output Low"
+    },
+    {
+      "enum": [
+        132,
+        "oemPeakNames132"
+      ],
+      "description": "Cond Press 2 Output Low"
+    },
+    {
+      "enum": [
+        133,
+        "oemPeakNames133"
+      ],
+      "description": "Cond Press 1 Output High"
+    },
+    {
+      "enum": [
+        134,
+        "oemPeakNames134"
+      ],
+      "description": "Cond Press 2 Output High"
+    },
+    {
+      "enum": [
+        135,
+        "oemPeakNames135"
+      ],
+      "description": "Cond Temp 1 Sensor Type"
+    },
+    {
+      "enum": [
+        136,
+        "oemPeakNames136"
+      ],
+      "description": "Cond Temp 2 Sensor Type"
+    },
+    {
+      "enum": [
+        137,
+        "oemPeakNames137"
+      ],
+      "description": "Cond Temp 3 Sensor Type"
+    },
+    {
+      "enum": [
+        138,
+        "oemPeakNames138"
+      ],
+      "description": "Cond Temp 4 Sensor Type"
+    },
+    {
+      "enum": [
+        139,
+        "oemPeakNames139"
+      ],
+      "description": "Cond Press 1 Input Low"
+    },
+    {
+      "enum": [
+        140,
+        "oemPeakNames140"
+      ],
+      "description": "Cond Press 2 Input Low"
+    },
+    {
+      "enum": [
+        141,
+        "oemPeakNames141"
+      ],
+      "description": "Cond Press 1 Input High"
+    },
+    {
+      "enum": [
+        142,
+        "oemPeakNames142"
+      ],
+      "description": "Cond Press 2 Input High"
+    },
+    {
+      "enum": [
+        143,
+        "oemPeakNames143"
+      ],
+      "description": "Space Heating Setpoint Offset"
+    },
+    {
+      "enum": [
+        144,
+        "oemPeakNames144"
+      ],
+      "description": "Reheat Enabled Setpoint - Ambient Dewpoint"
+    },
+    {
+      "enum": [
+        145,
+        "oemPeakNames145"
+      ],
+      "description": "Standard (Neutral) Cooling Discharge Air Temperature Setpoint"
+    },
+    {
+      "enum": [
+        146,
+        "oemPeakNames146"
+      ],
+      "description": "Standard (Neutral) Heating Discharge Air Temperature Setpoint"
+    },
+    {
+      "enum": [
+        147,
+        "oemPeakNames147"
+      ],
+      "description": "Room Discharge Air Temperature Cooling Setpoint"
+    },
+    {
+      "enum": [
+        148,
+        "oemPeakNames148"
+      ],
+      "description": "Room Discharge Air Temperature Heating Setpoint"
+    },
+    {
+      "enum": [
+        149,
+        "oemPeakNames149"
+      ],
+      "description": "Outside Air Reset Option"
+    },
+    {
+      "enum": [
+        150,
+        "oemPeakNames150"
+      ],
+      "description": "Outdoor Reset Option - Duct Discharge Air Temperature Heating Setpoint"
+    },
+    {
+      "enum": [
+        151,
+        "oemPeakNames151"
+      ],
+      "description": "Outdoor Reset Dry Bulb Heating - High Setting"
+    },
+    {
+      "enum": [
+        152,
+        "oemPeakNames152"
+      ],
+      "description": "Outdoor Reset Dry Bulb Heating - Low Setting"
+    },
+    {
+      "enum": [
+        153,
+        "oemPeakNames153"
+      ],
+      "description": "Outdoor Reset Dry Bulb Cooling - High Setting"
+    },
+    {
+      "enum": [
+        154,
+        "oemPeakNames154"
+      ],
+      "description": "Outdoor Reset Dry Bulb Cooling - Low Setting"
+    },
+    {
+      "enum": [
+        155,
+        "oemPeakNames155"
+      ],
+      "description": "Space Cooling Proportional Band"
+    },
+    {
+      "enum": [
+        156,
+        "oemPeakNames156"
+      ],
+      "description": "Space Heating Proportional Band"
+    },
+    {
+      "enum": [
+        157,
+        "oemPeakNames157"
+      ],
+      "description": "Cooling Discharge Air Proportional Band"
+    },
+    {
+      "enum": [
+        158,
+        "oemPeakNames158"
+      ],
+      "description": "Heating Discharge Air Proportional Band"
+    },
+    {
+      "enum": [
+        159,
+        "oemPeakNames159"
+      ],
+      "description": "Heating Integration Constant"
+    },
+    {
+      "enum": [
+        160,
+        "oemPeakNames160"
+      ],
+      "description": "Space Heating Dead Band"
+    },
+    {
+      "enum": [
+        161,
+        "oemPeakNames161"
+      ],
+      "description": "Cooling Mode Lockout"
+    },
+    {
+      "enum": [
+        162,
+        "oemPeakNames162"
+      ],
+      "description": "Heating Mode Lockout"
+    },
+    {
+      "enum": [
+        163,
+        "oemPeakNames163"
+      ],
+      "description": "Low Ambient Reheat Override - Dry Bulb"
+    },
+    {
+      "enum": [
+        164,
+        "oemPeakNames164"
+      ],
+      "description": "High Ambient Reheat Override - Dry Bulb"
+    },
+    {
+      "enum": [
+        165,
+        "oemPeakNames165"
+      ],
+      "description": "Low Limit Freeze Protection Setpoint"
+    },
+    {
+      "enum": [
+        166,
+        "oemPeakNames166"
+      ],
+      "description": "1st Stage Enthalpy Cooling Reference Lockout"
+    },
+    {
+      "enum": [
+        167,
+        "oemPeakNames167"
+      ],
+      "description": "2nd Stage Enthalpy Cooling Reference Lockout"
+    },
+    {
+      "enum": [
+        168,
+        "oemPeakNames168"
+      ],
+      "description": "3rd Stage Enthalpy Cooling Reference Lockout"
+    },
+    {
+      "enum": [
+        169,
+        "oemPeakNames169"
+      ],
+      "description": "Night Setup - Cooling"
+    },
+    {
+      "enum": [
+        170,
+        "oemPeakNames170"
+      ],
+      "description": "Night Set Back - Heating"
+    },
+    {
+      "enum": [
+        171,
+        "oemPeakNames171"
+      ],
+      "description": "Reheat Setpoint Offset"
+    },
+    {
+      "enum": [
+        172,
+        "oemPeakNames172"
+      ],
+      "description": "Temporary Occupied Button Timer"
+    },
+    {
+      "enum": [
+        173,
+        "oemPeakNames173"
+      ],
+      "description": "Humidity High Range"
+    },
+    {
+      "enum": [
+        174,
+        "oemPeakNames174"
+      ],
+      "description": "Heating Interstage Delay"
+    },
+    {
+      "enum": [
+        175,
+        "oemPeakNames175"
+      ],
+      "description": "Cooling Interstage Delay"
+    },
+    {
+      "enum": [
+        176,
+        "oemPeakNames176"
+      ],
+      "description": "Minimum Cooling Stage Time"
+    },
+    {
+      "enum": [
+        177,
+        "oemPeakNames177"
+      ],
+      "description": "Unoccupied Reheat Enable"
+    },
+    {
+      "enum": [
+        178,
+        "oemPeakNames178"
+      ],
+      "description": "Space Temperature Sensor Calibration"
+    },
+    {
+      "enum": [
+        179,
+        "oemPeakNames179"
+      ],
+      "description": "Discharge Air Temperature Sensor Calibration"
+    },
+    {
+      "enum": [
+        180,
+        "oemPeakNames180"
+      ],
+      "description": "Heating Polarity"
+    },
+    {
+      "enum": [
+        181,
+        "oemPeakNames181"
+      ],
+      "description": "Heating Low Limit"
+    },
+    {
+      "enum": [
+        182,
+        "oemPeakNames182"
+      ],
+      "description": "Heating High Limit"
+    },
+    {
+      "enum": [
+        183,
+        "oemPeakNames183"
+      ],
+      "description": "Space Setpoint High Limit"
+    },
+    {
+      "enum": [
+        184,
+        "oemPeakNames184"
+      ],
+      "description": "Space Setpoint Low Limit"
+    },
+    {
+      "enum": [
+        185,
+        "oemPeakNames185"
+      ],
+      "description": "Active Discharge Air Heating Setpoint"
+    },
+    {
+      "enum": [
+        186,
+        "oemPeakNames186"
+      ],
+      "description": "Active Discharge Air Cooling Setpoint"
+    },
+    {
+      "enum": [
+        187,
+        "oemPeakNames187"
+      ],
+      "description": "Temporary Occupied Override"
+    },
+    {
+      "enum": [
+        188,
+        "oemPeakNames188"
+      ],
+      "description": "Active Discharge Air Control Mode"
+    },
+    {
+      "enum": [
+        189,
+        "oemPeakNames189"
+      ],
+      "description": "Active Space Heating Setpoint"
+    },
+    {
+      "enum": [
+        190,
+        "oemPeakNames190"
+      ],
+      "description": "Active Space Cooling Setpoint"
+    },
+    {
+      "enum": [
+        191,
+        "oemPeakNames191"
+      ],
+      "description": "Space Cooling Temperature Setpoint"
+    },
+    {
+      "enum": [
+        192,
+        "oemPeakNames192"
+      ],
+      "description": "Outside Air Dewpoint Temperature"
+    },
+    {
+      "enum": [
+        193,
+        "oemPeakNames193"
+      ],
+      "description": "Percentage of Heating Output"
+    },
+    {
+      "enum": [
+        194,
+        "oemPeakNames194"
+      ],
+      "description": "OA Reset Schedule"
+    },
+    {
+      "enum": [
+        195,
+        "oemPeakNames195"
+      ],
+      "description": "Number of Sensors"
+    },
+    {
+      "enum": [
+        196,
+        "oemPeakNames196"
+      ],
+      "description": "Number of Pressure Sensors"
+    },
+    {
+      "enum": [
+        197,
+        "oemPeakNames197"
+      ],
+      "description": "Number of Temperature Sensors"
+    },
+    {
+      "enum": [
+        198,
+        "oemPeakNames198"
+      ],
+      "description": "Process Variable Type Selection"
+    },
+    {
+      "enum": [
+        199,
+        "oemPeakNames199"
+      ],
+      "description": "Lighting Circuit 1 Command"
+    },
+    {
+      "enum": [
+        200,
+        "oemPeakNames200"
+      ],
+      "description": "Lighting Circuit 2 Command"
+    },
+    {
+      "enum": [
+        201,
+        "oemPeakNames201"
+      ],
+      "description": "Lighting Circuit 3 Command"
+    },
+    {
+      "enum": [
+        202,
+        "oemPeakNames202"
+      ],
+      "description": "Lighting Circuit 4 Command"
+    },
+    {
+      "enum": [
+        203,
+        "oemPeakNames203"
+      ],
+      "description": "Lighting Circuit 5 Command"
+    },
+    {
+      "enum": [
+        204,
+        "oemPeakNames204"
+      ],
+      "description": "Lighting Circuit 6 Command"
+    },
+    {
+      "enum": [
+        205,
+        "oemPeakNames205"
+      ],
+      "description": "Lighting Circuit 7 Command"
+    },
+    {
+      "enum": [
+        206,
+        "oemPeakNames206"
+      ],
+      "description": "Lighting Circuit 8 Command"
+    },
+    {
+      "enum": [
+        207,
+        "oemPeakNames207"
+      ],
+      "description": "Lighting Circuit 9 Command"
+    },
+    {
+      "enum": [
+        208,
+        "oemPeakNames208"
+      ],
+      "description": "Number of Lighting Circuits"
+    },
+    {
+      "enum": [
+        209,
+        "oemPeakNames209"
+      ],
+      "description": "Zone 1 Override"
+    },
+    {
+      "enum": [
+        210,
+        "oemPeakNames210"
+      ],
+      "description": "Zone 2 Override"
+    },
+    {
+      "enum": [
+        211,
+        "oemPeakNames211"
+      ],
+      "description": "Zone 3 Override"
+    },
+    {
+      "enum": [
+        212,
+        "oemPeakNames212"
+      ],
+      "description": "Zone 4 Override"
+    },
+    {
+      "enum": [
+        213,
+        "oemPeakNames213"
+      ],
+      "description": "Zone 5 Override"
+    },
+    {
+      "enum": [
+        214,
+        "oemPeakNames214"
+      ],
+      "description": "Zone 6 Override"
+    },
+    {
+      "enum": [
+        215,
+        "oemPeakNames215"
+      ],
+      "description": "Zone 7 Override"
+    },
+    {
+      "enum": [
+        216,
+        "oemPeakNames216"
+      ],
+      "description": "Zone 8 Override"
+    },
+    {
+      "enum": [
+        217,
+        "oemPeakNames217"
+      ],
+      "description": "Zone 1 Schedule"
+    },
+    {
+      "enum": [
+        218,
+        "oemPeakNames218"
+      ],
+      "description": "Zone 2 Schedule"
+    },
+    {
+      "enum": [
+        219,
+        "oemPeakNames219"
+      ],
+      "description": "Zone 3 Schedule"
+    },
+    {
+      "enum": [
+        220,
+        "oemPeakNames220"
+      ],
+      "description": "Zone 4 Schedule"
+    },
+    {
+      "enum": [
+        221,
+        "oemPeakNames221"
+      ],
+      "description": "Zone 5 Schedule"
+    },
+    {
+      "enum": [
+        222,
+        "oemPeakNames222"
+      ],
+      "description": "Zone 6 Schedule"
+    },
+    {
+      "enum": [
+        223,
+        "oemPeakNames223"
+      ],
+      "description": "Zone 7 Schedule"
+    },
+    {
+      "enum": [
+        224,
+        "oemPeakNames224"
+      ],
+      "description": "Zone 8 Schedule"
+    },
+    {
+      "enum": [
+        225,
+        "oemPeakNames225"
+      ],
+      "description": "Condenser 1 Temp Offset"
+    },
+    {
+      "enum": [
+        226,
+        "oemPeakNames226"
+      ],
+      "description": "Condenser 2 Temp Offset"
+    },
+    {
+      "enum": [
+        227,
+        "oemPeakNames227"
+      ],
+      "description": "Condenser 3 Temp Offset"
+    },
+    {
+      "enum": [
+        228,
+        "oemPeakNames228"
+      ],
+      "description": "Condenser 4 Temp Offset"
+    },
+    {
+      "enum": [
+        229,
+        "oemPeakNames229"
+      ],
+      "description": "Condenser 1 Temp Unreliable"
+    },
+    {
+      "enum": [
+        230,
+        "oemPeakNames230"
+      ],
+      "description": "Condenser 2 Temp Unreliable"
+    },
+    {
+      "enum": [
+        231,
+        "oemPeakNames231"
+      ],
+      "description": "Condenser 3 Temp Unreliable"
+    },
+    {
+      "enum": [
+        232,
+        "oemPeakNames232"
+      ],
+      "description": "Condenser 4 Temp Unreliable"
+    },
+    {
+      "enum": [
+        233,
+        "oemPeakNames233"
+      ],
+      "description": "Stage 1 Override Control"
+    },
+    {
+      "enum": [
+        234,
+        "oemPeakNames234"
+      ],
+      "description": "Stage 2 Override Control"
+    },
+    {
+      "enum": [
+        235,
+        "oemPeakNames235"
+      ],
+      "description": "Stage 3 Override Control"
+    },
+    {
+      "enum": [
+        236,
+        "oemPeakNames236"
+      ],
+      "description": "Stage 4 Override Control"
+    },
+    {
+      "enum": [
+        237,
+        "oemPeakNames237"
+      ],
+      "description": "Stage 5 Override Control"
+    },
+    {
+      "enum": [
+        238,
+        "oemPeakNames238"
+      ],
+      "description": "Stage 6 Override Control"
+    },
+    {
+      "enum": [
+        239,
+        "oemPeakNames239"
+      ],
+      "description": "Stage 7 Override Control"
+    },
+    {
+      "enum": [
+        240,
+        "oemPeakNames240"
+      ],
+      "description": "Stage 8 Override Control"
+    },
+    {
+      "enum": [
+        241,
+        "oemPeakNames241"
+      ],
+      "description": "Fan Speed Override Control"
+    },
+    {
+      "enum": [
+        242,
+        "oemPeakNames242"
+      ],
+      "description": "Fan 1 Airflow"
+    },
+    {
+      "enum": [
+        243,
+        "oemPeakNames243"
+      ],
+      "description": "Fan 2 Airflow"
+    },
+    {
+      "enum": [
+        244,
+        "oemPeakNames244"
+      ],
+      "description": "Fan 3 Airflow"
+    },
+    {
+      "enum": [
+        245,
+        "oemPeakNames245"
+      ],
+      "description": "Fan 4 Airflow"
+    },
+    {
+      "enum": [
+        246,
+        "oemPeakNames246"
+      ],
+      "description": "Fan 1 Velocity Pressure"
+    },
+    {
+      "enum": [
+        247,
+        "oemPeakNames247"
+      ],
+      "description": "Fan 2 Velocity Pressure"
+    },
+    {
+      "enum": [
+        248,
+        "oemPeakNames248"
+      ],
+      "description": "Fan 3 Velocity Pressure"
+    },
+    {
+      "enum": [
+        249,
+        "oemPeakNames249"
+      ],
+      "description": "Fan 4 Velocity Pressure"
+    },
+    {
+      "enum": [
+        250,
+        "oemPeakNames250"
+      ],
+      "description": "Total Fan Airflow"
+    },
+    {
+      "enum": [
+        251,
+        "oemPeakNames251"
+      ],
+      "description": "Pilot Light Command"
+    },
+    {
+      "enum": [
+        252,
+        "oemPeakNames252"
+      ],
+      "description": "Modbus Device Connected"
+    },
+    {
+      "enum": [
+        253,
+        "oemPeakNames253"
+      ],
+      "description": "Zone 1 Control Mode"
+    },
+    {
+      "enum": [
+        254,
+        "oemPeakNames254"
+      ],
+      "description": "Zone 2 Control Mode"
+    },
+    {
+      "enum": [
+        255,
+        "oemPeakNames255"
+      ],
+      "description": "Zone 3 Control Mode"
+    },
+    {
+      "enum": [
+        256,
+        "oemPeakNames256"
+      ],
+      "description": "Zone 4 Control Mode"
+    },
+    {
+      "enum": [
+        257,
+        "oemPeakNames257"
+      ],
+      "description": "Zone 5 Control Mode"
+    },
+    {
+      "enum": [
+        258,
+        "oemPeakNames258"
+      ],
+      "description": "Zone 6 Control Mode"
+    },
+    {
+      "enum": [
+        259,
+        "oemPeakNames259"
+      ],
+      "description": "Zone 7 Control Mode"
+    },
+    {
+      "enum": [
+        260,
+        "oemPeakNames260"
+      ],
+      "description": "Zone 8 Control Mode"
+    },
+    {
+      "enum": [
+        261,
+        "oemPeakNames261"
+      ],
+      "description": "Lighting Circuit 1 Zone Select"
+    },
+    {
+      "enum": [
+        262,
+        "oemPeakNames262"
+      ],
+      "description": "Lighting Circuit 2 Zone Select"
+    },
+    {
+      "enum": [
+        263,
+        "oemPeakNames263"
+      ],
+      "description": "Lighting Circuit 3 Zone Select"
+    },
+    {
+      "enum": [
+        264,
+        "oemPeakNames264"
+      ],
+      "description": "Lighting Circuit 4 Zone Select"
+    },
+    {
+      "enum": [
+        265,
+        "oemPeakNames265"
+      ],
+      "description": "Lighting Circuit 5 Zone Select"
+    },
+    {
+      "enum": [
+        266,
+        "oemPeakNames266"
+      ],
+      "description": "Lighting Circuit 6 Zone Select"
+    },
+    {
+      "enum": [
+        267,
+        "oemPeakNames267"
+      ],
+      "description": "Lighting Circuit 7 Zone Select"
+    },
+    {
+      "enum": [
+        268,
+        "oemPeakNames268"
+      ],
+      "description": "Lighting Circuit 8 Zone Select"
+    },
+    {
+      "enum": [
+        269,
+        "oemPeakNames269"
+      ],
+      "description": "Lighting Circuit 9 Zone Select"
+    },
+    {
+      "enum": [
+        270,
+        "oemPeakNames270"
+      ],
+      "description": "Light Level"
+    },
+    {
+      "enum": [
+        271,
+        "oemPeakNames271"
+      ],
+      "description": "Light Level Status"
+    },
+    {
+      "enum": [
+        272,
+        "oemPeakNames272"
+      ],
+      "description": "Light Level Setpoint"
+    },
+    {
+      "enum": [
+        273,
+        "oemPeakNames273"
+      ],
+      "description": "Light Level Differential"
+    },
+    {
+      "enum": [
+        274,
+        "oemPeakNames274"
+      ],
+      "description": "Light Sensor Installed"
+    },
+    {
+      "enum": [
+        275,
+        "oemPeakNames275"
+      ],
+      "description": "Lighting Circuit 1 Override"
+    },
+    {
+      "enum": [
+        276,
+        "oemPeakNames276"
+      ],
+      "description": "Lighting Circuit 2 Override"
+    },
+    {
+      "enum": [
+        277,
+        "oemPeakNames277"
+      ],
+      "description": "Lighting Circuit 3 Override"
+    },
+    {
+      "enum": [
+        278,
+        "oemPeakNames278"
+      ],
+      "description": "Lighting Circuit 4 Override"
+    },
+    {
+      "enum": [
+        279,
+        "oemPeakNames279"
+      ],
+      "description": "Lighting Circuit 5 Override"
+    },
+    {
+      "enum": [
+        280,
+        "oemPeakNames280"
+      ],
+      "description": "Lighting Circuit 6 Override"
+    },
+    {
+      "enum": [
+        281,
+        "oemPeakNames281"
+      ],
+      "description": "Lighting Circuit 7 Override"
+    },
+    {
+      "enum": [
+        282,
+        "oemPeakNames282"
+      ],
+      "description": "Lighting Circuit 8 Override"
+    },
+    {
+      "enum": [
+        283,
+        "oemPeakNames283"
+      ],
+      "description": "Lighting Circuit 9 Override"
+    },
+    {
+      "enum": [
+        284,
+        "oemPeakNames284"
+      ],
+      "description": "Circuit 1 Command Polarity"
+    },
+    {
+      "enum": [
+        285,
+        "oemPeakNames285"
+      ],
+      "description": "Circuit 2 Command Polarity"
+    },
+    {
+      "enum": [
+        286,
+        "oemPeakNames286"
+      ],
+      "description": "Circuit 3 Command Polarity"
+    },
+    {
+      "enum": [
+        287,
+        "oemPeakNames287"
+      ],
+      "description": "Circuit 4 Command Polarity"
+    },
+    {
+      "enum": [
+        288,
+        "oemPeakNames288"
+      ],
+      "description": "Circuit 5 Command Polarity"
+    },
+    {
+      "enum": [
+        289,
+        "oemPeakNames289"
+      ],
+      "description": "Circuit 6 Command Polarity"
+    },
+    {
+      "enum": [
+        290,
+        "oemPeakNames290"
+      ],
+      "description": "Circuit 7 Command Polarity"
+    },
+    {
+      "enum": [
+        291,
+        "oemPeakNames291"
+      ],
+      "description": "Circuit 8 Command Polarity"
+    },
+    {
+      "enum": [
+        292,
+        "oemPeakNames292"
+      ],
+      "description": "Circuit 9 Command Polarity"
+    },
+    {
+      "enum": [
+        293,
+        "oemPeakNames293"
+      ],
+      "description": "Zone 1 Command"
+    },
+    {
+      "enum": [
+        294,
+        "oemPeakNames294"
+      ],
+      "description": "Zone 2 Command"
+    },
+    {
+      "enum": [
+        295,
+        "oemPeakNames295"
+      ],
+      "description": "Zone 3 Command"
+    },
+    {
+      "enum": [
+        296,
+        "oemPeakNames296"
+      ],
+      "description": "Zone 4 Command"
+    },
+    {
+      "enum": [
+        297,
+        "oemPeakNames297"
+      ],
+      "description": "Zone 5 Command"
+    },
+    {
+      "enum": [
+        298,
+        "oemPeakNames298"
+      ],
+      "description": "Zone 6 Command"
+    },
+    {
+      "enum": [
+        299,
+        "oemPeakNames299"
+      ],
+      "description": "Zone 7 Command"
+    },
+    {
+      "enum": [
+        300,
+        "oemPeakNames300"
+      ],
+      "description": "Zone 8 Command"
+    },
+    {
+      "enum": [
+        301,
+        "oemPeakNames301"
+      ],
+      "description": "Occupied Control Mode"
+    },
+    {
+      "enum": [
+        302,
+        "oemPeakNames302"
+      ],
+      "description": "Unoccupied Control Mode"
+    },
+    {
+      "enum": [
+        303,
+        "oemPeakNames303"
+      ],
+      "description": "Burner Command"
+    },
+    {
+      "enum": [
+        304,
+        "oemPeakNames304"
+      ],
+      "description": "Burner Status"
+    },
+    {
+      "enum": [
+        305,
+        "oemPeakNames305"
+      ],
+      "description": "Zone Control Mode"
+    },
+    {
+      "enum": [
+        306,
+        "oemPeakNames306"
+      ],
+      "description": "Netsensor 5"
+    },
+    {
+      "enum": [
+        307,
+        "oemPeakNames307"
+      ],
+      "description": "Compressor Setup"
+    },
+    {
+      "enum": [
+        308,
+        "oemPeakNames308"
+      ],
+      "description": "Dehum Lower Limit"
+    },
+    {
+      "enum": [
+        309,
+        "oemPeakNames309"
+      ],
+      "description": "DX Leaving Air Temperature 1"
+    },
+    {
+      "enum": [
+        310,
+        "oemPeakNames310"
+      ],
+      "description": "DX Leaving Air Temperature 2"
+    },
+    {
+      "enum": [
+        311,
+        "oemPeakNames311"
+      ],
+      "description": "ECAT Clg Off Differential (Stage 1)"
+    },
+    {
+      "enum": [
+        312,
+        "oemPeakNames312"
+      ],
+      "description": "ECAT Clg On Differential (Stage 1)"
+    },
+    {
+      "enum": [
+        313,
+        "oemPeakNames313"
+      ],
+      "description": "ECAT Htg Off Differential"
+    },
+    {
+      "enum": [
+        314,
+        "oemPeakNames314"
+      ],
+      "description": "ECAT Htg On Differential"
+    },
+    {
+      "enum": [
+        315,
+        "oemPeakNames315"
+      ],
+      "description": "ECDP Off Differential (Stage 1)"
+    },
+    {
+      "enum": [
+        316,
+        "oemPeakNames316"
+      ],
+      "description": "ECDP On Differential (Stage 1)"
+    },
+    {
+      "enum": [
+        317,
+        "oemPeakNames317"
+      ],
+      "description": "Energy Wheel"
+    },
+    {
+      "enum": [
+        318,
+        "oemPeakNames318"
+      ],
+      "description": "Energy Wheel Type"
+    },
+    {
+      "enum": [
+        319,
+        "oemPeakNames319"
+      ],
+      "description": "Entering Coil Air Dew Point"
+    },
+    {
+      "enum": [
+        320,
+        "oemPeakNames320"
+      ],
+      "description": "Entering Coil Air Temp Clg Lower Limit"
+    },
+    {
+      "enum": [
+        321,
+        "oemPeakNames321"
+      ],
+      "description": "Entering Coil Air Temp Clg Setpoint"
+    },
+    {
+      "enum": [
+        322,
+        "oemPeakNames322"
+      ],
+      "description": "Entering Coil Air Temp Htg Setpoint"
+    },
+    {
+      "enum": [
+        323,
+        "oemPeakNames323"
+      ],
+      "description": "Entering Coil Air Temp Htg Upper Limit"
+    },
+    {
+      "enum": [
+        324,
+        "oemPeakNames324"
+      ],
+      "description": "Entering Coil Air Temperature"
+    },
+    {
+      "enum": [
+        325,
+        "oemPeakNames325"
+      ],
+      "description": "Fixed Clg Interstage Delay Time"
+    },
+    {
+      "enum": [
+        326,
+        "oemPeakNames326"
+      ],
+      "description": "Heating Setup"
+    },
+    {
+      "enum": [
+        327,
+        "oemPeakNames327"
+      ],
+      "description": "HGRH SAT Off Differential (Clg)"
+    },
+    {
+      "enum": [
+        328,
+        "oemPeakNames328"
+      ],
+      "description": "HGRH SAT Off Differential (Dehum)"
+    },
+    {
+      "enum": [
+        329,
+        "oemPeakNames329"
+      ],
+      "description": "HGRH SAT On Differential (Clg)"
+    },
+    {
+      "enum": [
+        330,
+        "oemPeakNames330"
+      ],
+      "description": "HGRH SAT On Differential (Dehum)"
+    },
+    {
+      "enum": [
+        331,
+        "oemPeakNames331"
+      ],
+      "description": "Optional Fixed Clg Interstage Delay"
+    },
+    {
+      "enum": [
+        332,
+        "oemPeakNames332"
+      ],
+      "description": "SADP Off Differential (Stage 2)"
+    },
+    {
+      "enum": [
+        333,
+        "oemPeakNames333"
+      ],
+      "description": "SADP On Differential (Stage 2)"
+    },
+    {
+      "enum": [
+        334,
+        "oemPeakNames334"
+      ],
+      "description": "SAT Clg Off Differential (Stage 2)"
+    },
+    {
+      "enum": [
+        335,
+        "oemPeakNames335"
+      ],
+      "description": "SAT Clg On Differential (Stage 2)"
+    },
+    {
+      "enum": [
+        336,
+        "oemPeakNames336"
+      ],
+      "description": "SAT Dehumidification Setpoint"
+    },
+    {
+      "enum": [
+        337,
+        "oemPeakNames337"
+      ],
+      "description": "SAT Heating Setpoint"
+    },
+    {
+      "enum": [
+        338,
+        "oemPeakNames338"
+      ],
+      "description": "SF Min Speed for Cooling"
+    },
+    {
+      "enum": [
+        339,
+        "oemPeakNames339"
+      ],
+      "description": "Supply Air Dew Point"
+    },
+    {
+      "enum": [
+        340,
+        "oemPeakNames340"
+      ],
+      "description": "Supply Air Dew Point Setpoint"
+    },
+    {
+      "enum": [
+        341,
+        "oemPeakNames341"
+      ],
+      "description": "Wheel Defrost Temperature"
+    },
+    {
+      "enum": [
+        342,
+        "oemPeakNames342"
+      ],
+      "description": "Wheel Exhaust Air Temperature"
+    },
+    {
+      "enum": [
+        343,
+        "oemPeakNames343"
+      ],
+      "description": "Wheel Min Speed"
+    },
+    {
+      "enum": [
+        344,
+        "oemPeakNames344"
+      ],
+      "description": "SF Alarm Delay"
+    },
+    {
+      "enum": [
+        345,
+        "oemPeakNames345"
+      ],
+      "description": "SF Hand Alarm Delay"
+    },
+    {
+      "enum": [
+        346,
+        "oemPeakNames346"
+      ],
+      "description": "OADA Alarm Delay"
+    },
+    {
+      "enum": [
+        347,
+        "oemPeakNames347"
+      ],
+      "description": "OADA Hand Alarm Delay"
+    },
+    {
+      "enum": [
+        348,
+        "oemPeakNames348"
+      ],
+      "description": "ECW Alarm Delay"
+    },
+    {
+      "enum": [
+        349,
+        "oemPeakNames349"
+      ],
+      "description": "ECW Hand Alarm Delay"
+    },
+    {
+      "enum": [
+        350,
+        "oemPeakNames350"
+      ],
+      "description": "EF Alarm Delay"
+    },
+    {
+      "enum": [
+        351,
+        "oemPeakNames351"
+      ],
+      "description": "EF Hand Alarm Delay"
+    },
+    {
+      "enum": [
+        352,
+        "oemPeakNames352"
+      ],
+      "description": "High DSP Alarm Reset Delay"
+    },
+    {
+      "enum": [
+        353,
+        "oemPeakNames353"
+      ],
+      "description": "SF Runtime Reset"
+    },
+    {
+      "enum": [
+        354,
+        "oemPeakNames354"
+      ],
+      "description": "EF Runtime Reset"
+    },
+    {
+      "enum": [
+        355,
+        "oemPeakNames355"
+      ],
+      "description": "Comp 1 Runtime Reset"
+    },
+    {
+      "enum": [
+        356,
+        "oemPeakNames356"
+      ],
+      "description": "Comp 2 Runtime Reset"
+    },
+    {
+      "enum": [
+        357,
+        "oemPeakNames357"
+      ],
+      "description": "SF Max Runtime"
+    },
+    {
+      "enum": [
+        358,
+        "oemPeakNames358"
+      ],
+      "description": "EF Max Runtime"
+    },
+    {
+      "enum": [
+        359,
+        "oemPeakNames359"
+      ],
+      "description": "Comp 1 Max Runtime"
+    },
+    {
+      "enum": [
+        360,
+        "oemPeakNames360"
+      ],
+      "description": "Comp 2 Max Runtime"
+    },
+    {
+      "enum": [
+        361,
+        "oemPeakNames361"
+      ],
+      "description": "High SAT Alarm Limit"
+    },
+    {
+      "enum": [
+        362,
+        "oemPeakNames362"
+      ],
+      "description": "Low SAT Alarm Limit"
+    },
+    {
+      "enum": [
+        363,
+        "oemPeakNames363"
+      ],
+      "description": "Heat Failure SAT Limit"
+    },
+    {
+      "enum": [
+        364,
+        "oemPeakNames364"
+      ],
+      "description": "Heat Failure Alarm Delay"
+    },
+    {
+      "enum": [
+        365,
+        "oemPeakNames365"
+      ],
+      "description": "Entering Coil Humidity"
+    },
+    {
+      "enum": [
+        366,
+        "oemPeakNames366"
+      ],
+      "description": "LPS1 Alarm Delay"
+    },
+    {
+      "enum": [
+        367,
+        "oemPeakNames367"
+      ],
+      "description": "LPS2 Alarm Delay"
+    },
+    {
+      "enum": [
+        368,
+        "oemPeakNames368"
+      ],
+      "description": "HPS1 Alarm Delay"
+    },
+    {
+      "enum": [
+        369,
+        "oemPeakNames369"
+      ],
+      "description": "HPS2 Alarm Delay"
+    },
+    {
+      "enum": [
+        370,
+        "oemPeakNames370"
+      ],
+      "description": "EF Min Speed"
+    },
+    {
+      "enum": [
+        371,
+        "oemPeakNames371"
+      ],
+      "description": "FP1 Alarm Delay"
+    },
+    {
+      "enum": [
+        372,
+        "oemPeakNames372"
+      ],
+      "description": "FP2 Alarm Delay"
+    },
+    {
+      "enum": [
+        373,
+        "oemPeakNames373"
+      ],
+      "description": "Zone 1 Override is Momentary"
+    },
+    {
+      "enum": [
+        374,
+        "oemPeakNames374"
+      ],
+      "description": "Zone 2 Override is Momentary"
+    },
+    {
+      "enum": [
+        375,
+        "oemPeakNames375"
+      ],
+      "description": "Zone 3 Override is Momentary"
+    },
+    {
+      "enum": [
+        376,
+        "oemPeakNames376"
+      ],
+      "description": "Zone 4 Override is Momentary"
+    },
+    {
+      "enum": [
+        377,
+        "oemPeakNames377"
+      ],
+      "description": "Zone 5 Override is Momentary"
+    },
+    {
+      "enum": [
+        378,
+        "oemPeakNames378"
+      ],
+      "description": "Zone 6 Override is Momentary"
+    },
+    {
+      "enum": [
+        379,
+        "oemPeakNames379"
+      ],
+      "description": "Zone 7 Override is Momentary"
+    },
+    {
+      "enum": [
+        380,
+        "oemPeakNames380"
+      ],
+      "description": "Zone 8 Override is Momentary"
+    },
+    {
+      "enum": [
+        381,
+        "oemPeakNames381"
+      ],
+      "description": "Zone 1 Override Duration"
+    },
+    {
+      "enum": [
+        382,
+        "oemPeakNames382"
+      ],
+      "description": "Zone 2 Override Duration"
+    },
+    {
+      "enum": [
+        383,
+        "oemPeakNames383"
+      ],
+      "description": "Zone 3 Override Duration"
+    },
+    {
+      "enum": [
+        384,
+        "oemPeakNames384"
+      ],
+      "description": "Zone 4 Override Duration"
+    },
+    {
+      "enum": [
+        385,
+        "oemPeakNames385"
+      ],
+      "description": "Zone 5 Override Duration"
+    },
+    {
+      "enum": [
+        386,
+        "oemPeakNames386"
+      ],
+      "description": "Zone 6 Override Duration"
+    },
+    {
+      "enum": [
+        387,
+        "oemPeakNames387"
+      ],
+      "description": "Zone 7 Override Duration"
+    },
+    {
+      "enum": [
+        388,
+        "oemPeakNames388"
+      ],
+      "description": "Zone 8 Override Duration"
+    },
+    {
+      "enum": [
+        389,
+        "oemPeakNames389"
+      ],
+      "description": "Zone 1 Override Input"
+    },
+    {
+      "enum": [
+        390,
+        "oemPeakNames390"
+      ],
+      "description": "Zone 2 Override Input"
+    },
+    {
+      "enum": [
+        391,
+        "oemPeakNames391"
+      ],
+      "description": "Zone 3 Override Input"
+    },
+    {
+      "enum": [
+        392,
+        "oemPeakNames392"
+      ],
+      "description": "Zone 4 Override Input"
+    },
+    {
+      "enum": [
+        393,
+        "oemPeakNames393"
+      ],
+      "description": "Zone 5 Override Input"
+    },
+    {
+      "enum": [
+        394,
+        "oemPeakNames394"
+      ],
+      "description": "Zone 6 Override Input"
+    },
+    {
+      "enum": [
+        395,
+        "oemPeakNames395"
+      ],
+      "description": "Zone 7 Override Input"
+    },
+    {
+      "enum": [
+        396,
+        "oemPeakNames396"
+      ],
+      "description": "Zone 8 Override Input"
+    },
+    {
+      "enum": [
+        397,
+        "oemPeakNames397"
+      ],
+      "description": "Effective Refrigerant Pressure"
+    },
+    {
+      "enum": [
+        398,
+        "oemPeakNames398"
+      ],
+      "description": "Network VFD Reset"
+    },
+    {
+      "enum": [
+        399,
+        "oemPeakNames399"
+      ],
+      "description": "Exhaust Fan 1 Status"
+    },
+    {
+      "enum": [
+        400,
+        "oemPeakNames400"
+      ],
+      "description": "Exhaust Fan 2 Status"
+    },
+    {
+      "enum": [
+        401,
+        "oemPeakNames401"
+      ],
+      "description": "Natural Gas Level"
+    },
+    {
+      "enum": [
+        402,
+        "oemPeakNames402"
+      ],
+      "description": "OA Damper Status"
+    },
+    {
+      "enum": [
+        403,
+        "oemPeakNames403"
+      ],
+      "description": "Face Damper Status"
+    },
+    {
+      "enum": [
+        404,
+        "oemPeakNames404"
+      ],
+      "description": "Bypass Air Damper Status"
+    },
+    {
+      "enum": [
+        405,
+        "oemPeakNames405"
+      ],
+      "description": "Exhaust Fan 1 VFD Fault"
+    },
+    {
+      "enum": [
+        406,
+        "oemPeakNames406"
+      ],
+      "description": "Exhaust Fan 2 VFD Fault"
+    },
+    {
+      "enum": [
+        407,
+        "oemPeakNames407"
+      ],
+      "description": "Exhaust Fan 1 Command"
+    },
+    {
+      "enum": [
+        408,
+        "oemPeakNames408"
+      ],
+      "description": "Exhaust Fan 2 Command"
+    },
+    {
+      "enum": [
+        409,
+        "oemPeakNames409"
+      ],
+      "description": "Exhaust Fan 1 Output"
+    },
+    {
+      "enum": [
+        410,
+        "oemPeakNames410"
+      ],
+      "description": "Exhaust Fan 2 Output"
+    },
+    {
+      "enum": [
+        411,
+        "oemPeakNames411"
+      ],
+      "description": "Coil Valve Output"
+    },
+    {
+      "enum": [
+        412,
+        "oemPeakNames412"
+      ],
+      "description": "OA Damper Command"
+    },
+    {
+      "enum": [
+        413,
+        "oemPeakNames413"
+      ],
+      "description": "Bypass Air Damper Command"
+    },
+    {
+      "enum": [
+        414,
+        "oemPeakNames414"
+      ],
+      "description": "Face Damper Command"
+    },
+    {
+      "enum": [
+        415,
+        "oemPeakNames415"
+      ],
+      "description": "Natural Gas Setpoint"
+    },
+    {
+      "enum": [
+        416,
+        "oemPeakNames416"
+      ],
+      "description": "Blower VFD Fault"
+    },
+    {
+      "enum": [
+        417,
+        "oemPeakNames417"
+      ],
+      "description": "Blower VFD Reset"
+    },
+    {
+      "enum": [
+        418,
+        "oemPeakNames418"
+      ],
+      "description": "Blower Fan LO Command"
+    },
+    {
+      "enum": [
+        419,
+        "oemPeakNames419"
+      ],
+      "description": "Blower Fan HI Command"
+    },
+    {
+      "enum": [
+        420,
+        "oemPeakNames420"
+      ],
+      "description": "VFD Reset Command"
+    },
+    {
+      "enum": [
+        421,
+        "oemPeakNames421"
+      ],
+      "description": "Start Command"
+    },
+    {
+      "enum": [
+        422,
+        "oemPeakNames422"
+      ],
+      "description": "Stop Command"
+    },
+    {
+      "enum": [
+        423,
+        "oemPeakNames423"
+      ],
+      "description": "HMI Start Command"
+    },
+    {
+      "enum": [
+        424,
+        "oemPeakNames424"
+      ],
+      "description": "Blower Status"
+    },
+    {
+      "enum": [
+        425,
+        "oemPeakNames425"
+      ],
+      "description": "Energy Meter Address"
+    },
+    {
+      "enum": [
+        426,
+        "oemPeakNames426"
+      ],
+      "description": "R Phase"
+    },
+    {
+      "enum": [
+        427,
+        "oemPeakNames427"
+      ],
+      "description": "S Phase"
+    },
+    {
+      "enum": [
+        428,
+        "oemPeakNames428"
+      ],
+      "description": "T Phase"
+    },
+    {
+      "enum": [
+        429,
+        "oemPeakNames429"
+      ],
+      "description": "Power Factor"
+    },
+    {
+      "enum": [
+        430,
+        "oemPeakNames430"
+      ],
+      "description": "Demand Window Time"
+    },
+    {
+      "enum": [
+        431,
+        "oemPeakNames431"
+      ],
+      "description": "Elapsed Demand Window"
+    },
+    {
+      "enum": [
+        432,
+        "oemPeakNames432"
+      ],
+      "description": "Demand Window Count"
+    },
+    {
+      "enum": [
+        433,
+        "oemPeakNames433"
+      ],
+      "description": "Zone 1 Name"
+    },
+    {
+      "enum": [
+        434,
+        "oemPeakNames434"
+      ],
+      "description": "Zone 2 Name"
+    },
+    {
+      "enum": [
+        435,
+        "oemPeakNames435"
+      ],
+      "description": "Zone 3 Name"
+    },
+    {
+      "enum": [
+        436,
+        "oemPeakNames436"
+      ],
+      "description": "Zone 4 Name"
+    },
+    {
+      "enum": [
+        437,
+        "oemPeakNames437"
+      ],
+      "description": "Zone 5 Name"
+    },
+    {
+      "enum": [
+        438,
+        "oemPeakNames438"
+      ],
+      "description": "Zone 6 Name"
+    },
+    {
+      "enum": [
+        439,
+        "oemPeakNames439"
+      ],
+      "description": "Zone 7 Name"
+    },
+    {
+      "enum": [
+        440,
+        "oemPeakNames440"
+      ],
+      "description": "Zone 8 Name"
+    },
+    {
+      "enum": [
+        441,
+        "oemPeakNames441"
+      ],
+      "description": "Circuit 1 Name"
+    },
+    {
+      "enum": [
+        442,
+        "oemPeakNames442"
+      ],
+      "description": "Circuit 2 Name"
+    },
+    {
+      "enum": [
+        443,
+        "oemPeakNames443"
+      ],
+      "description": "Circuit 3 Name"
+    },
+    {
+      "enum": [
+        444,
+        "oemPeakNames444"
+      ],
+      "description": "Circuit 4 Name"
+    },
+    {
+      "enum": [
+        445,
+        "oemPeakNames445"
+      ],
+      "description": "Circuit 5 Name"
+    },
+    {
+      "enum": [
+        446,
+        "oemPeakNames446"
+      ],
+      "description": "Circuit 6 Name"
+    },
+    {
+      "enum": [
+        447,
+        "oemPeakNames447"
+      ],
+      "description": "Circuit 7 Name"
+    },
+    {
+      "enum": [
+        448,
+        "oemPeakNames448"
+      ],
+      "description": "Circuit 8 Name"
+    },
+    {
+      "enum": [
+        449,
+        "oemPeakNames449"
+      ],
+      "description": "Circuit 9 Name"
+    },
+    {
+      "enum": [
+        450,
+        "oemPeakNames450"
+      ],
+      "description": "Burner Alarm Reset"
+    },
+    {
+      "enum": [
+        451,
+        "oemPeakNames451"
+      ],
+      "description": "Burner Modulation Output"
+    },
+    {
+      "enum": [
+        452,
+        "oemPeakNames452"
+      ],
+      "description": "Supply Fan HOA"
+    },
+    {
+      "enum": [
+        453,
+        "oemPeakNames453"
+      ],
+      "description": "Burner HOA"
+    },
+    {
+      "enum": [
+        454,
+        "oemPeakNames454"
+      ],
+      "description": "Burner Modulation Mode"
+    },
+    {
+      "enum": [
+        455,
+        "oemPeakNames455"
+      ],
+      "description": "Burner Modulation Setpoint"
+    },
+    {
+      "enum": [
+        456,
+        "oemPeakNames456"
+      ],
+      "description": "Drain Tempering Enable"
+    },
+    {
+      "enum": [
+        457,
+        "oemPeakNames457"
+      ],
+      "description": "Auto Drain Interval"
+    },
+    {
+      "enum": [
+        458,
+        "oemPeakNames458"
+      ],
+      "description": "Low Drain Threshold"
+    },
+    {
+      "enum": [
+        459,
+        "oemPeakNames459"
+      ],
+      "description": "High Drain Threshold"
+    },
+    {
+      "enum": [
+        460,
+        "oemPeakNames460"
+      ],
+      "description": "Rated Amperage"
+    },
+    {
+      "enum": [
+        461,
+        "oemPeakNames461"
+      ],
+      "description": "Current Output Low Range"
+    },
+    {
+      "enum": [
+        462,
+        "oemPeakNames462"
+      ],
+      "description": "Current Output High Range"
+    },
+    {
+      "enum": [
+        463,
+        "oemPeakNames463"
+      ],
+      "description": "Drain Valve Open Interval"
+    },
+    {
+      "enum": [
+        464,
+        "oemPeakNames464"
+      ],
+      "description": "Maximum Capacity Fault Lockout"
+    },
+    {
+      "enum": [
+        465,
+        "oemPeakNames465"
+      ],
+      "description": "Zone Humidity Low Setpoint"
+    },
+    {
+      "enum": [
+        466,
+        "oemPeakNames466"
+      ],
+      "description": "Zone Humidity High Setpoint"
+    },
+    {
+      "enum": [
+        467,
+        "oemPeakNames467"
+      ],
+      "description": "Cycle Time"
+    },
+    {
+      "enum": [
+        468,
+        "oemPeakNames468"
+      ],
+      "description": "Delay-On-Break"
+    },
+    {
+      "enum": [
+        469,
+        "oemPeakNames469"
+      ],
+      "description": "Fill Valve Control Mode"
+    },
+    {
+      "enum": [
+        470,
+        "oemPeakNames470"
+      ],
+      "description": "Drain Valve Control Mode"
+    },
+    {
+      "enum": [
+        471,
+        "oemPeakNames471"
+      ],
+      "description": "Control Humidistat"
+    },
+    {
+      "enum": [
+        472,
+        "oemPeakNames472"
+      ],
+      "description": "Humidity Demand Signal"
+    },
+    {
+      "enum": [
+        473,
+        "oemPeakNames473"
+      ],
+      "description": "Electrode Current"
+    },
+    {
+      "enum": [
+        474,
+        "oemPeakNames474"
+      ],
+      "description": "Cylinder Full Status"
+    },
+    {
+      "enum": [
+        475,
+        "oemPeakNames475"
+      ],
+      "description": "Emergency Stop BI Enable"
+    },
+    {
+      "enum": [
+        476,
+        "oemPeakNames476"
+      ],
+      "description": "Cond Overflow BI Enable"
+    },
+    {
+      "enum": [
+        477,
+        "oemPeakNames477"
+      ],
+      "description": "Clogged Filter BI Enable"
+    },
+    {
+      "enum": [
+        478,
+        "oemPeakNames478"
+      ],
+      "description": "Smoke Detector BI Enable"
+    },
+    {
+      "enum": [
+        479,
+        "oemPeakNames479"
+      ],
+      "description": "Condenser Refrigerant Pressure Above High Limit"
+    },
+    {
+      "enum": [
+        480,
+        "oemPeakNames480"
+      ],
+      "description": "Condenser Refrigerant Pressure Below Low Limit"
+    },
+    {
+      "enum": [
+        481,
+        "oemPeakNames481"
+      ],
+      "description": "Suction Pressure High Above High Limit"
+    },
+    {
+      "enum": [
+        482,
+        "oemPeakNames482"
+      ],
+      "description": "Suction Pressure Low Below Low Limit"
+    },
+    {
+      "enum": [
+        483,
+        "oemPeakNames483"
+      ],
+      "description": "Refrigerant-Outdoor Air Temperature Differential"
+    },
+    {
+      "enum": [
+        484,
+        "oemPeakNames484"
+      ],
+      "description": "Fast Recover Setpoint"
+    },
+    {
+      "enum": [
+        485,
+        "oemPeakNames485"
+      ],
+      "description": "Fast Recovery On Delay"
+    },
+    {
+      "enum": [
+        486,
+        "oemPeakNames486"
+      ],
+      "description": "Fast Recovery Differential"
+    },
+    {
+      "enum": [
+        487,
+        "oemPeakNames487"
+      ],
+      "description": "Fast Recover Mode Enable"
+    },
+    {
+      "enum": [
+        488,
+        "oemPeakNames488"
+      ],
+      "description": "Fast Recovery Mode Active"
+    },
+    {
+      "enum": [
+        489,
+        "oemPeakNames489"
+      ],
+      "description": "Suction Group PID Tuning Reset"
+    },
+    {
+      "enum": [
+        490,
+        "oemPeakNames490"
+      ],
+      "description": "Condenser Control PID Tuning Reset"
+    },
+    {
+      "enum": [
+        491,
+        "oemPeakNames491"
+      ],
+      "description": "Suction Group Refrigerant Pressure Setpoint"
+    },
+    {
+      "enum": [
+        492,
+        "oemPeakNames492"
+      ],
+      "description": "Condenser Fan Enable"
+    },
+    {
+      "enum": [
+        493,
+        "oemPeakNames493"
+      ],
+      "description": "Condenser Fan Control State"
+    },
+    {
+      "enum": [
+        494,
+        "oemPeakNames494"
+      ],
+      "description": "Suction Group Refrigerant Pressure"
+    },
+    {
+      "enum": [
+        495,
+        "oemPeakNames495"
+      ],
+      "description": "Compressor 1 Status"
+    },
+    {
+      "enum": [
+        496,
+        "oemPeakNames496"
+      ],
+      "description": "Compressor 2 Status"
+    },
+    {
+      "enum": [
+        497,
+        "oemPeakNames497"
+      ],
+      "description": "Compressor 3 Status"
+    },
+    {
+      "enum": [
+        498,
+        "oemPeakNames498"
+      ],
+      "description": "Compressor 4 Status"
+    },
+    {
+      "enum": [
+        499,
+        "oemPeakNames499"
+      ],
+      "description": "Condenser Refrigerant Pressure High Alarm"
+    },
+    {
+      "enum": [
+        500,
+        "oemPeakNames500"
+      ],
+      "description": "Condenser Refrigerant Pressure Low Alarm"
+    },
+    {
+      "enum": [
+        501,
+        "oemPeakNames501"
+      ],
+      "description": "Suction Pressure High Alarm"
+    },
+    {
+      "enum": [
+        502,
+        "oemPeakNames502"
+      ],
+      "description": "Suction Pressure Low Alarm"
+    },
+    {
+      "enum": [
+        503,
+        "oemPeakNames503"
+      ],
+      "description": "Condenser Refrigerant Pressure Alarms"
+    },
+    {
+      "enum": [
+        504,
+        "oemPeakNames504"
+      ],
+      "description": "Compressor Refrigerant Pressure Alarms"
+    },
+    {
+      "enum": [
+        505,
+        "oemPeakNames505"
+      ],
+      "description": "Condenser Fast Recovery Mode"
+    },
+    {
+      "enum": [
+        506,
+        "oemPeakNames506"
+      ],
+      "description": "Condenser Refrigerant Pressure Control"
+    },
+    {
+      "enum": [
+        507,
+        "oemPeakNames507"
+      ],
+      "description": "Condenser Refrigerant Temperature Differential Control"
+    },
+    {
+      "enum": [
+        508,
+        "oemPeakNames508"
+      ],
+      "description": "Compressor Constant Speed Control"
+    },
+    {
+      "enum": [
+        509,
+        "oemPeakNames509"
+      ],
+      "description": "Compressor Variable Speed Control"
+    },
+    {
+      "enum": [
+        510,
+        "oemPeakNames510"
+      ],
+      "description": "Wet Bulb High Setpoint"
+    },
+    {
+      "enum": [
+        511,
+        "oemPeakNames511"
+      ],
+      "description": "Wet Bulb Low Setpoint"
+    },
+    {
+      "enum": [
+        512,
+        "oemPeakNames512"
+      ],
+      "description": "Interval Timer"
+    },
+    {
+      "enum": [
+        513,
+        "oemPeakNames513"
+      ],
+      "description": "Drain Valve Actuator End Switch"
+    },
+    {
+      "enum": [
+        514,
+        "oemPeakNames514"
+      ],
+      "description": "Fill Valve Actuator End Switch"
+    },
+    {
+      "enum": [
+        515,
+        "oemPeakNames515"
+      ],
+      "description": "Fill Valve Relay Feedback BI"
+    },
+    {
+      "enum": [
+        516,
+        "oemPeakNames516"
+      ],
+      "description": "Drain Valve Relay Feedback BI"
+    },
+    {
+      "enum": [
+        517,
+        "oemPeakNames517"
+      ],
+      "description": "Pump Relay Feedback BI"
+    },
+    {
+      "enum": [
+        518,
+        "oemPeakNames518"
+      ],
+      "description": "Daily Purge Count"
+    },
+    {
+      "enum": [
+        519,
+        "oemPeakNames519"
+      ],
+      "description": "Purge Length Time"
+    },
+    {
+      "enum": [
+        520,
+        "oemPeakNames520"
+      ],
+      "description": "Pump Relay Alarm"
+    },
+    {
+      "enum": [
+        521,
+        "oemPeakNames521"
+      ],
+      "description": "Fill Valve Relay Alarm"
+    },
+    {
+      "enum": [
+        522,
+        "oemPeakNames522"
+      ],
+      "description": "Drain Valve Relay Alarm"
+    },
+    {
+      "enum": [
+        523,
+        "oemPeakNames523"
+      ],
+      "description": "Fill Valve Alarm"
+    },
+    {
+      "enum": [
+        524,
+        "oemPeakNames524"
+      ],
+      "description": "Drain Valve Alarm"
+    },
+    {
+      "enum": [
+        525,
+        "oemPeakNames525"
+      ],
+      "description": "Humidity Unreliable Alarm"
+    },
+    {
+      "enum": [
+        526,
+        "oemPeakNames526"
+      ],
+      "description": "Temperature Unreliable Alarm"
+    },
+    {
+      "enum": [
+        527,
+        "oemPeakNames527"
+      ],
+      "description": "Manual Drain Command"
+    },
+    {
+      "enum": [
+        528,
+        "oemPeakNames528"
+      ],
+      "description": "End of Season Drain Command"
+    },
+    {
+      "enum": [
+        529,
+        "oemPeakNames529"
+      ],
+      "description": "End of Season Drain Interval"
+    },
+    {
+      "enum": [
+        530,
+        "oemPeakNames530"
+      ],
+      "description": "Condenser Refrigerant Pressure High Alarm Limit"
+    },
+    {
+      "enum": [
+        531,
+        "oemPeakNames531"
+      ],
+      "description": "Condenser Refrigerant Pressure Low Alarm Limit"
+    },
+    {
+      "enum": [
+        532,
+        "oemPeakNames532"
+      ],
+      "description": "Suction Pressure High Alarm Limit"
+    },
+    {
+      "enum": [
+        533,
+        "oemPeakNames533"
+      ],
+      "description": "Suction Pressure Low Alarm Limit"
+    },
+    {
+      "enum": [
+        534,
+        "oemPeakNames534"
+      ],
+      "description": "Energy Efficiency Control"
+    },
+    {
+      "enum": [
+        535,
+        "oemPeakNames535"
+      ],
+      "description": "Freeze Protection Enable"
+    },
+    {
+      "enum": [
+        536,
+        "oemPeakNames536"
+      ],
+      "description": "Disable Differential"
+    },
+    {
+      "enum": [
+        537,
+        "oemPeakNames537"
+      ],
+      "description": "Enable Differential"
+    },
+    {
+      "enum": [
+        538,
+        "oemPeakNames538"
+      ],
+      "description": "Energy Efficiency"
+    },
+    {
+      "enum": [
+        539,
+        "oemPeakNames539"
+      ],
+      "description": "Energy Efficiency Setpoint"
+    },
+    {
+      "enum": [
+        540,
+        "oemPeakNames540"
+      ],
+      "description": "Fill Valve Open Failure"
+    },
+    {
+      "enum": [
+        541,
+        "oemPeakNames541"
+      ],
+      "description": "Fill Valve Close Failure"
+    },
+    {
+      "enum": [
+        542,
+        "oemPeakNames542"
+      ],
+      "description": "Drain Valve Open Failure"
+    },
+    {
+      "enum": [
+        543,
+        "oemPeakNames543"
+      ],
+      "description": "Drain Valve Close Failure"
+    },
+    {
+      "enum": [
+        544,
+        "oemPeakNames544"
+      ],
+      "description": "Drain Valve Actuator Open End Switch"
+    },
+    {
+      "enum": [
+        545,
+        "oemPeakNames545"
+      ],
+      "description": "Drain Valve Actuator Close End Switch"
+    },
+    {
+      "enum": [
+        546,
+        "oemPeakNames546"
+      ],
+      "description": "Fill Valve Actuator Open End Switch"
+    },
+    {
+      "enum": [
+        547,
+        "oemPeakNames547"
+      ],
+      "description": "Fill Valve Actuator Close End Switch"
+    },
+    {
+      "enum": [
+        548,
+        "oemPeakNames548"
+      ],
+      "description": "Zone Quality"
+    },
+    {
+      "enum": [
+        549,
+        "oemPeakNames549"
+      ],
+      "description": "Heating Stage 4 BO"
+    },
+    {
+      "enum": [
+        550,
+        "oemPeakNames550"
+      ],
+      "description": "Supp Heating Stage 2 BO"
+    },
+    {
+      "enum": [
+        551,
+        "oemPeakNames551"
+      ],
+      "description": "Rotate Cooling Stage"
+    },
+    {
+      "enum": [
+        552,
+        "oemPeakNames552"
+      ],
+      "description": "Cooling Interstage On Delay"
+    },
+    {
+      "enum": [
+        553,
+        "oemPeakNames553"
+      ],
+      "description": "Cooling Interstage Off Delay"
+    },
+    {
+      "enum": [
+        554,
+        "oemPeakNames554"
+      ],
+      "description": "Rotate Heating Stage"
+    },
+    {
+      "enum": [
+        555,
+        "oemPeakNames555"
+      ],
+      "description": "Heating Interstage On Delay"
+    },
+    {
+      "enum": [
+        556,
+        "oemPeakNames556"
+      ],
+      "description": "Heating Interstage Off Delay"
+    },
+    {
+      "enum": [
+        557,
+        "oemPeakNames557"
+      ],
+      "description": "Min Fan Speed"
+    },
+    {
+      "enum": [
+        558,
+        "oemPeakNames558"
+      ],
+      "description": "Max Fan Speed"
+    },
+    {
+      "enum": [
+        559,
+        "oemPeakNames559"
+      ],
+      "description": "Htg Stage 4 Fan Speed"
+    },
+    {
+      "enum": [
+        560,
+        "oemPeakNames560"
+      ],
+      "description": "DAT Sensor Type"
+    },
+    {
+      "enum": [
+        561,
+        "oemPeakNames561"
+      ],
+      "description": "MAT Sensor Type"
+    },
+    {
+      "enum": [
+        562,
+        "oemPeakNames562"
+      ],
+      "description": "MAT Sensor Offset"
+    },
+    {
+      "enum": [
+        563,
+        "oemPeakNames563"
+      ],
+      "description": "PID Tuning Type"
+    },
+    {
+      "enum": [
+        564,
+        "oemPeakNames564"
+      ],
+      "description": "Econ T Eff Propotional Band"
+    },
+    {
+      "enum": [
+        565,
+        "oemPeakNames565"
+      ],
+      "description": "Econ T Eff Integral Time"
+    },
+    {
+      "enum": [
+        566,
+        "oemPeakNames566"
+      ],
+      "description": "Econ LT Eff Propotional Band"
+    },
+    {
+      "enum": [
+        567,
+        "oemPeakNames567"
+      ],
+      "description": "Econ LT Eff Integral Time"
+    },
+    {
+      "enum": [
+        568,
+        "oemPeakNames568"
+      ],
+      "description": "Hum Eff Propotional Band"
+    },
+    {
+      "enum": [
+        569,
+        "oemPeakNames569"
+      ],
+      "description": "Hum Eff Integral Time"
+    },
+    {
+      "enum": [
+        570,
+        "oemPeakNames570"
+      ],
+      "description": "Dehum Eff Propotional Band"
+    },
+    {
+      "enum": [
+        571,
+        "oemPeakNames571"
+      ],
+      "description": "Dehum Eff Integral Time"
+    },
+    {
+      "enum": [
+        572,
+        "oemPeakNames572"
+      ],
+      "description": "HP Dehum Eff Propotional Band"
+    },
+    {
+      "enum": [
+        573,
+        "oemPeakNames573"
+      ],
+      "description": "HP Dehum Eff Integral Time"
+    },
+    {
+      "enum": [
+        574,
+        "oemPeakNames574"
+      ],
+      "description": "Htg Eff Propotional Band"
+    },
+    {
+      "enum": [
+        575,
+        "oemPeakNames575"
+      ],
+      "description": "Htg Eff Integral Time"
+    },
+    {
+      "enum": [
+        576,
+        "oemPeakNames576"
+      ],
+      "description": "Htg LT Eff Propotional Band"
+    },
+    {
+      "enum": [
+        577,
+        "oemPeakNames577"
+      ],
+      "description": "Htg LT Eff Integral Time"
+    },
+    {
+      "enum": [
+        578,
+        "oemPeakNames578"
+      ],
+      "description": "Clg Eff Propotional Band"
+    },
+    {
+      "enum": [
+        579,
+        "oemPeakNames579"
+      ],
+      "description": "Clg Eff Integral Time"
+    },
+    {
+      "enum": [
+        580,
+        "oemPeakNames580"
+      ],
+      "description": "HP Eff Propotional Band"
+    },
+    {
+      "enum": [
+        581,
+        "oemPeakNames581"
+      ],
+      "description": "HP Eff Integral Time"
+    },
+    {
+      "enum": [
+        582,
+        "oemPeakNames582"
+      ],
+      "description": "SHtg Eff Propotional Band"
+    },
+    {
+      "enum": [
+        583,
+        "oemPeakNames583"
+      ],
+      "description": "SHtg Eff Integral Time"
+    },
+    {
+      "enum": [
+        584,
+        "oemPeakNames584"
+      ],
+      "description": "PID Data"
+    },
+    {
+      "enum": [
+        585,
+        "oemPeakNames585"
+      ],
+      "description": "Econ Temp PID Data"
+    },
+    {
+      "enum": [
+        586,
+        "oemPeakNames586"
+      ],
+      "description": "Econ Low Temp PID Data"
+    },
+    {
+      "enum": [
+        587,
+        "oemPeakNames587"
+      ],
+      "description": "Humidifier PID data"
+    },
+    {
+      "enum": [
+        588,
+        "oemPeakNames588"
+      ],
+      "description": "Dehum Cooling PID Data"
+    },
+    {
+      "enum": [
+        589,
+        "oemPeakNames589"
+      ],
+      "description": "Dehum HP Cooling PID Data"
+    },
+    {
+      "enum": [
+        590,
+        "oemPeakNames590"
+      ],
+      "description": "Heating PID Data"
+    },
+    {
+      "enum": [
+        591,
+        "oemPeakNames591"
+      ],
+      "description": "Heating Low Temp PID Data"
+    },
+    {
+      "enum": [
+        592,
+        "oemPeakNames592"
+      ],
+      "description": "Supplemental Heating PID Data"
+    },
+    {
+      "enum": [
+        593,
+        "oemPeakNames593"
+      ],
+      "description": "Cooling PID Data"
+    },
+    {
+      "enum": [
+        594,
+        "oemPeakNames594"
+      ],
+      "description": "Cooling HP PID Data"
+    },
+    {
+      "enum": [
+        595,
+        "oemPeakNames595"
+      ],
+      "description": "Filter Status BI"
+    },
+    {
+      "enum": [
+        596,
+        "oemPeakNames596"
+      ],
+      "description": "Heat Stage 3"
+    },
+    {
+      "enum": [
+        597,
+        "oemPeakNames597"
+      ],
+      "description": "Heat Stage 4"
+    },
+    {
+      "enum": [
+        598,
+        "oemPeakNames598"
+      ],
+      "description": "Supplemental Heat Stage 1"
+    },
+    {
+      "enum": [
+        599,
+        "oemPeakNames599"
+      ],
+      "description": "Supplemental Heat Stage 2"
+    },
+    {
+      "enum": [
+        600,
+        "oemPeakNames600"
+      ],
+      "description": "Damper Command"
+    },
+    {
+      "enum": [
+        601,
+        "oemPeakNames601"
+      ],
+      "description": "Humidifier Command"
+    },
+    {
+      "enum": [
+        602,
+        "oemPeakNames602"
+      ],
+      "description": "Hot Gas Bypass Valve"
+    },
+    {
+      "enum": [
+        603,
+        "oemPeakNames603"
+      ],
+      "description": "Econ Fault Delay"
+    },
+    {
+      "enum": [
+        604,
+        "oemPeakNames604"
+      ],
+      "description": "Supply Air Setpoint Cooling Min"
+    },
+    {
+      "enum": [
+        605,
+        "oemPeakNames605"
+      ],
+      "description": "Supply Air Setpoint HeatingMax"
+    },
+    {
+      "enum": [
+        606,
+        "oemPeakNames606"
+      ],
+      "description": "Supply Air Low Limit Setpoint"
+    },
+    {
+      "enum": [
+        607,
+        "oemPeakNames607"
+      ],
+      "description": "Heat Cool Diagnostic"
+    },
+    {
+      "enum": [
+        608,
+        "oemPeakNames608"
+      ],
+      "description": "Supply Air Diagnostic"
+    },
+    {
+      "enum": [
+        609,
+        "oemPeakNames609"
+      ],
+      "description": "Enable Equal Runtime"
+    },
+    {
+      "enum": [
+        610,
+        "oemPeakNames610"
+      ],
+      "description": "Number of Supp Heating Stages Installed"
+    },
+    {
+      "enum": [
+        611,
+        "oemPeakNames611"
+      ],
+      "description": "Min OA Control Sensor"
+    },
+    {
+      "enum": [
+        612,
+        "oemPeakNames612"
+      ],
+      "description": "Burner Runtime"
+    },
+    {
+      "enum": [
+        613,
+        "oemPeakNames613"
+      ],
+      "description": "Burner Runtime Reset"
+    },
+    {
+      "enum": [
+        614,
+        "oemPeakNames614"
+      ],
+      "description": "Burner Cycle Count"
+    },
+    {
+      "enum": [
+        615,
+        "oemPeakNames615"
+      ],
+      "description": "Burner Cycle Count Reset"
+    },
+    {
+      "enum": [
+        616,
+        "oemPeakNames616"
+      ],
+      "description": "Supply Fan Runtime Reset"
+    },
+    {
+      "enum": [
+        617,
+        "oemPeakNames617"
+      ],
+      "description": "Supply Fan Cycle Count"
+    },
+    {
+      "enum": [
+        618,
+        "oemPeakNames618"
+      ],
+      "description": "Supply Fan Cycle Count Reset"
+    },
+    {
+      "enum": [
+        619,
+        "oemPeakNames619"
+      ],
+      "description": "R Phase Current Demand"
+    },
+    {
+      "enum": [
+        620,
+        "oemPeakNames620"
+      ],
+      "description": "R Phase Current"
+    },
+    {
+      "enum": [
+        621,
+        "oemPeakNames621"
+      ],
+      "description": "R Phase Voltage"
+    },
+    {
+      "enum": [
+        622,
+        "oemPeakNames622"
+      ],
+      "description": "R Phase Energy Consumption"
+    },
+    {
+      "enum": [
+        623,
+        "oemPeakNames623"
+      ],
+      "description": "R Phase Power Factor"
+    },
+    {
+      "enum": [
+        624,
+        "oemPeakNames624"
+      ],
+      "description": "S Phase Current Demand"
+    },
+    {
+      "enum": [
+        625,
+        "oemPeakNames625"
+      ],
+      "description": "S Phase Current"
+    },
+    {
+      "enum": [
+        626,
+        "oemPeakNames626"
+      ],
+      "description": "S Phase Voltage"
+    },
+    {
+      "enum": [
+        627,
+        "oemPeakNames627"
+      ],
+      "description": "S Phase Energy Consumption"
+    },
+    {
+      "enum": [
+        628,
+        "oemPeakNames628"
+      ],
+      "description": "S Phase Power Factor"
+    },
+    {
+      "enum": [
+        629,
+        "oemPeakNames629"
+      ],
+      "description": "T Phase Current Demand"
+    },
+    {
+      "enum": [
+        630,
+        "oemPeakNames630"
+      ],
+      "description": "T Phase Current"
+    },
+    {
+      "enum": [
+        631,
+        "oemPeakNames631"
+      ],
+      "description": "T Phase Voltage"
+    },
+    {
+      "enum": [
+        632,
+        "oemPeakNames632"
+      ],
+      "description": "T Phase Energy Consumption"
+    },
+    {
+      "enum": [
+        633,
+        "oemPeakNames633"
+      ],
+      "description": "T Phase Power Factor"
+    },
+    {
+      "enum": [
+        634,
+        "oemPeakNames634"
+      ],
+      "description": "Input 1 Scaled Value"
+    },
+    {
+      "enum": [
+        635,
+        "oemPeakNames635"
+      ],
+      "description": "Input 2 Scaled Value"
+    }
+  ]
+}

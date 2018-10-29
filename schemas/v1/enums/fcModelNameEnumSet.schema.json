@@ -1,0 +1,1212 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fcModelNameEnumSet.schema.json",
+  "title": "fcModelNameEnumSet",
+  "description": "Field Controller Model Name",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "msIom17100"
+      ],
+      "description": "MS-IOM1710-0"
+    },
+    {
+      "enum": [
+        2,
+        "msIom27100"
+      ],
+      "description": "MS-IOM2710-0"
+    },
+    {
+      "enum": [
+        3,
+        "msIom37100"
+      ],
+      "description": "MS-IOM3710-0"
+    },
+    {
+      "enum": [
+        4,
+        "msIom47100"
+      ],
+      "description": "MS-IOM4710-0"
+    },
+    {
+      "enum": [
+        5,
+        "msFec16100"
+      ],
+      "description": "MS-FEC1610-0"
+    },
+    {
+      "enum": [
+        6,
+        "msFec26100"
+      ],
+      "description": "MS-FEC2610-0"
+    },
+    {
+      "enum": [
+        19,
+        "msFec26110"
+      ],
+      "description": "MS-FEC2611-0"
+    },
+    {
+      "enum": [
+        8,
+        "msFec36100"
+      ],
+      "description": "MS-FEC3610-0"
+    },
+    {
+      "enum": [
+        9,
+        "msVma16100"
+      ],
+      "description": "MS-VMA1610-0"
+    },
+    {
+      "enum": [
+        10,
+        "msVma16200"
+      ],
+      "description": "MS-VMA1620-0"
+    },
+    {
+      "enum": [
+        33,
+        "msVma16300"
+      ],
+      "description": "MS-VMA1630-0"
+    },
+    {
+      "enum": [
+        23,
+        "msIom47110"
+      ],
+      "description": "MS-IOM4711-0"
+    },
+    {
+      "enum": [
+        13,
+        "msDis17100"
+      ],
+      "description": "MS-DIS1710-0"
+    },
+    {
+      "enum": [
+        14,
+        "msZfr18100"
+      ],
+      "description": "MS-ZFR1810-0"
+    },
+    {
+      "enum": [
+        15,
+        "msZfr18110"
+      ],
+      "description": "MS-ZFR1811-0"
+    },
+    {
+      "enum": [
+        16,
+        "msNce25"
+      ],
+      "description": "MS-NCE25"
+    },
+    {
+      "enum": [
+        17,
+        "msFcp16100"
+      ],
+      "description": "MS-FCP1610-0"
+    },
+    {
+      "enum": [
+        18,
+        "msFec16110"
+      ],
+      "description": "MS-FEC1611-0"
+    },
+    {
+      "enum": [
+        20,
+        "msIom17110"
+      ],
+      "description": "MS-IOM1711-0"
+    },
+    {
+      "enum": [
+        21,
+        "msIom27110"
+      ],
+      "description": "MS-IOM2711-0"
+    },
+    {
+      "enum": [
+        22,
+        "msIom37110"
+      ],
+      "description": "MS-IOM3711-0"
+    },
+    {
+      "enum": [
+        24,
+        "msIom27210"
+      ],
+      "description": "MS-IOM2721-0"
+    },
+    {
+      "enum": [
+        25,
+        "msIom37210"
+      ],
+      "description": "MS-IOM3721-0"
+    },
+    {
+      "enum": [
+        26,
+        "msIom37310"
+      ],
+      "description": "MS-IOM3731-0"
+    },
+    {
+      "enum": [
+        27,
+        "msIom37410"
+      ],
+      "description": "MS-IOM3741-0"
+    },
+    {
+      "enum": [
+        28,
+        "fxPcx27210"
+      ],
+      "description": "FX-PCX2721-0"
+    },
+    {
+      "enum": [
+        29,
+        "fxPcx37210"
+      ],
+      "description": "FX-PCX3721-0"
+    },
+    {
+      "enum": [
+        30,
+        "fxPcx37310"
+      ],
+      "description": "FX-PCX3731-0"
+    },
+    {
+      "enum": [
+        31,
+        "fxPcx47410"
+      ],
+      "description": "FX-PCX4741-0"
+    },
+    {
+      "enum": [
+        32,
+        "msVma16150"
+      ],
+      "description": "MS-VMA1615-0"
+    },
+    {
+      "enum": [
+        34,
+        "fxPcv16150"
+      ],
+      "description": "FX-PCV1615-0"
+    },
+    {
+      "enum": [
+        35,
+        "fxPcv16300"
+      ],
+      "description": "FX-PCV1630-0"
+    },
+    {
+      "enum": [
+        36,
+        "msFac36110"
+      ],
+      "description": "MS-FAC3611-0"
+    },
+    {
+      "enum": [
+        37,
+        "msFac37110"
+      ],
+      "description": "MS-FAC3711-0"
+    },
+    {
+      "enum": [
+        38,
+        "fxPca36110"
+      ],
+      "description": "FX-PCA3611-0"
+    },
+    {
+      "enum": [
+        39,
+        "fxPca37110"
+      ],
+      "description": "FX-PCA3711-0"
+    },
+    {
+      "enum": [
+        40,
+        "fxPcg16110"
+      ],
+      "description": "FX-PCG1611-0"
+    },
+    {
+      "enum": [
+        41,
+        "fxPcg26110"
+      ],
+      "description": "FX-PCG2611-0"
+    },
+    {
+      "enum": [
+        42,
+        "fxPcv16100"
+      ],
+      "description": "FX-PCV1610-0"
+    },
+    {
+      "enum": [
+        43,
+        "fxPcv16200"
+      ],
+      "description": "FX-PCV1620-0"
+    },
+    {
+      "enum": [
+        44,
+        "fxPcx17110"
+      ],
+      "description": "FX-PCX1711-0"
+    },
+    {
+      "enum": [
+        45,
+        "fxPcx27110"
+      ],
+      "description": "FX-PCX2711-0"
+    },
+    {
+      "enum": [
+        46,
+        "fxPcx37110"
+      ],
+      "description": "FX-PCX3711-0"
+    },
+    {
+      "enum": [
+        47,
+        "fxPcx47110"
+      ],
+      "description": "FX-PCX4711-0"
+    },
+    {
+      "enum": [
+        48,
+        "fxDis17100"
+      ],
+      "description": "FX-DIS1710-0"
+    },
+    {
+      "enum": [
+        49,
+        "fxZfr18100"
+      ],
+      "description": "FX-ZFR1810-0"
+    },
+    {
+      "enum": [
+        50,
+        "fxZfr18110"
+      ],
+      "description": "FX-ZFR1811-0"
+    },
+    {
+      "enum": [
+        51,
+        "msFac26120"
+      ],
+      "description": "MS-FAC2612-0"
+    },
+    {
+      "enum": [
+        52,
+        "msFac26122"
+      ],
+      "description": "Unused 52"
+    },
+    {
+      "enum": [
+        53,
+        "msFac26110"
+      ],
+      "description": "MS-FAC2611-0"
+    },
+    {
+      "enum": [
+        54,
+        "msFcp16120"
+      ],
+      "description": "MS-FCP1612-0"
+    },
+    {
+      "enum": [
+        63,
+        "msVrfIb"
+      ],
+      "description": "MS-VRF-IB"
+    },
+    {
+      "enum": [
+        64,
+        "msVrfOb"
+      ],
+      "description": "MS-VRF-OB"
+    },
+    {
+      "enum": [
+        65,
+        "fxBtcvt0"
+      ],
+      "description": "FX-BTCVT-0"
+    },
+    {
+      "enum": [
+        66,
+        "msBtcvt0"
+      ],
+      "description": "MS-BTCVT-0"
+    },
+    {
+      "enum": [
+        67,
+        "msZfr16110"
+      ],
+      "description": "MS-ZFR1611-0"
+    },
+    {
+      "enum": [
+        68,
+        "msZfr16120"
+      ],
+      "description": "MS-ZFR1612-0"
+    },
+    {
+      "enum": [
+        69,
+        "lcRtu10Xx0"
+      ],
+      "description": "LC-RTU10xx-0"
+    },
+    {
+      "enum": [
+        70,
+        "lcByp1000"
+      ],
+      "description": "LC-BYP100-0"
+    },
+    {
+      "enum": [
+        71,
+        "lcPec1000"
+      ],
+      "description": "LC-PEC100-0"
+    },
+    {
+      "enum": [
+        72,
+        "lcIom1000"
+      ],
+      "description": "LC-IOM100-0"
+    },
+    {
+      "enum": [
+        73,
+        "lcZec1000"
+      ],
+      "description": "LC-ZEC100-0"
+    },
+    {
+      "enum": [
+        74,
+        "lcVrt10Xx0"
+      ],
+      "description": "LC-VRT10xx-0"
+    },
+    {
+      "enum": [
+        75,
+        "lcZec2000"
+      ],
+      "description": "LC-ZEC200-0"
+    },
+    {
+      "enum": [
+        76,
+        "fxPca26110"
+      ],
+      "description": "FX-PCA2611-0"
+    },
+    {
+      "enum": [
+        77,
+        "fxPca26120"
+      ],
+      "description": "FX-PCA2612-0"
+    },
+    {
+      "enum": [
+        78,
+        "msFcu16110"
+      ],
+      "description": "MS-FCU1611-0"
+    },
+    {
+      "enum": [
+        79,
+        "msFcu16120"
+      ],
+      "description": "MS-FCU1612-0"
+    },
+    {
+      "enum": [
+        80,
+        "msVav16110"
+      ],
+      "description": "MS-VAV1611-0"
+    },
+    {
+      "enum": [
+        81,
+        "msVma18150"
+      ],
+      "description": "MS-VMA1815-0"
+    },
+    {
+      "enum": [
+        82,
+        "msVma18170"
+      ],
+      "description": "MS-VMA1817-0"
+    },
+    {
+      "enum": [
+        83,
+        "msVma18300"
+      ],
+      "description": "MS-VMA1830-0"
+    },
+    {
+      "enum": [
+        84,
+        "msVma18320"
+      ],
+      "description": "MS-VMA1832-0"
+    },
+    {
+      "enum": [
+        85,
+        "msVma16170"
+      ],
+      "description": "MS-VMA1617-0"
+    },
+    {
+      "enum": [
+        86,
+        "msVma16320"
+      ],
+      "description": "MS-VMA1632-0"
+    },
+    {
+      "enum": [
+        87,
+        "fxPcv18150"
+      ],
+      "description": "FX-PCV1815-0"
+    },
+    {
+      "enum": [
+        88,
+        "fxPcv18300"
+      ],
+      "description": "FX-PCV1830-0"
+    },
+    {
+      "enum": [
+        89,
+        "seSpu10010"
+      ],
+      "description": "SE-SPU1001-0"
+    },
+    {
+      "enum": [
+        90,
+        "seSpu10020"
+      ],
+      "description": "SE-SPU1002-0"
+    },
+    {
+      "enum": [
+        91,
+        "seSpu10040"
+      ],
+      "description": "SE-SPU1004-0"
+    },
+    {
+      "enum": [
+        92,
+        "seEco10010"
+      ],
+      "description": "SE-ECO1001-0"
+    },
+    {
+      "enum": [
+        93,
+        "seFdd10010"
+      ],
+      "description": "SE-FDD1001-0"
+    },
+    {
+      "enum": [
+        94,
+        "seOem10010"
+      ],
+      "description": "SE-OEM1001-0"
+    },
+    {
+      "enum": [
+        95,
+        "fxPcv18320"
+      ],
+      "description": "FX-PCV1832-0"
+    },
+    {
+      "enum": [
+        96,
+        "fxPcv16170"
+      ],
+      "description": "FX-PCV1617-0"
+    },
+    {
+      "enum": [
+        97,
+        "fxPcv16320"
+      ],
+      "description": "FX-PCV1632-0"
+    },
+    {
+      "enum": [
+        98,
+        "msZfr18101"
+      ],
+      "description": "MS-ZFR1810-1"
+    },
+    {
+      "enum": [
+        99,
+        "msZfr18111"
+      ],
+      "description": "MS-ZFR1811-1"
+    },
+    {
+      "enum": [
+        100,
+        "msZfr18200"
+      ],
+      "description": "MS-ZFR1820-0"
+    },
+    {
+      "enum": [
+        101,
+        "msZfr18210"
+      ],
+      "description": "MS-ZFR1821-0"
+    },
+    {
+      "enum": [
+        102,
+        "fxZfr18101"
+      ],
+      "description": "FX-ZFR1810-1"
+    },
+    {
+      "enum": [
+        103,
+        "fxZfr18111"
+      ],
+      "description": "FX-ZFR1811-1"
+    },
+    {
+      "enum": [
+        104,
+        "fxZfr18200"
+      ],
+      "description": "FX-ZFR1820-0"
+    },
+    {
+      "enum": [
+        105,
+        "fxZfr18210"
+      ],
+      "description": "FX-ZFR1821-0"
+    },
+    {
+      "enum": [
+        106,
+        "seScg10010"
+      ],
+      "description": "SE-SCG1001-0"
+    },
+    {
+      "enum": [
+        107,
+        "msIom37320"
+      ],
+      "description": "MS-IOM3732-0"
+    },
+    {
+      "enum": [
+        108,
+        "seTec30000"
+      ],
+      "description": "SE-TEC3000-0"
+    },
+    {
+      "enum": [
+        109,
+        "seScc10010"
+      ],
+      "description": "SE-SCC1001-0"
+    },
+    {
+      "enum": [
+        110,
+        "msVma16260"
+      ],
+      "description": "MS-VMA1626-0"
+    },
+    {
+      "enum": [
+        111,
+        "msVma16280"
+      ],
+      "description": "MS-VMA1628-0"
+    },
+    {
+      "enum": [
+        112,
+        "msVma16290"
+      ],
+      "description": "MS-VMA1629-0"
+    },
+    {
+      "enum": [
+        113,
+        "msVma18260"
+      ],
+      "description": "MS-VMA1826-0"
+    },
+    {
+      "enum": [
+        114,
+        "fxPcv16260"
+      ],
+      "description": "FX-PCV1626-0"
+    },
+    {
+      "enum": [
+        115,
+        "fxPcv16280"
+      ],
+      "description": "FX-PCV1628-0"
+    },
+    {
+      "enum": [
+        116,
+        "fxPcv16290"
+      ],
+      "description": "FX-PCV1629-0"
+    },
+    {
+      "enum": [
+        117,
+        "fxPcv18260"
+      ],
+      "description": "FX-PCV1826-0"
+    },
+    {
+      "enum": [
+        118,
+        "lcByp2000"
+      ],
+      "description": "LC-BYP200-0"
+    },
+    {
+      "enum": [
+        119,
+        "lcZec3000"
+      ],
+      "description": "LC-ZEC300-0"
+    },
+    {
+      "enum": [
+        120,
+        "lcZec4000"
+      ],
+      "description": "LC-ZEC400-0"
+    },
+    {
+      "enum": [
+        121,
+        "oemEco10000"
+      ],
+      "description": "OEM-ECO1000-0"
+    },
+    {
+      "enum": [
+        122,
+        "msFec25110"
+      ],
+      "description": "MS-FEC2511-0"
+    },
+    {
+      "enum": [
+        123,
+        "seHlr10010"
+      ],
+      "description": "SE-HLR1001-0"
+    },
+    {
+      "enum": [
+        124,
+        "seHlr10020"
+      ],
+      "description": "SE-HLR1002-0"
+    },
+    {
+      "enum": [
+        125,
+        "pkOem18000"
+      ],
+      "description": "PK-OEM1800-0"
+    },
+    {
+      "enum": [
+        126,
+        "pkOem32000"
+      ],
+      "description": "PK-OEM3200-0"
+    },
+    {
+      "enum": [
+        127,
+        "msVma16560"
+      ],
+      "description": "MS-VMA1656-0"
+    },
+    {
+      "enum": [
+        128,
+        "fxPcv16560"
+      ],
+      "description": "FX-PCV1656-0"
+    },
+    {
+      "enum": [
+        129,
+        "fxPcg25110"
+      ],
+      "description": "FX-PCG2511-0"
+    },
+    {
+      "enum": [
+        130,
+        "lcVzc1000"
+      ],
+      "description": "LC-VZC100-0"
+    },
+    {
+      "enum": [
+        131,
+        "lcZec3100"
+      ],
+      "description": "LC-ZEC310-0"
+    },
+    {
+      "enum": [
+        132,
+        "lcZec4100"
+      ],
+      "description": "LC-ZEC410-0"
+    },
+    {
+      "enum": [
+        133,
+        "pkIom57110"
+      ],
+      "description": "PK-IOM5711-0"
+    },
+    {
+      "enum": [
+        134,
+        "pkIom57210"
+      ],
+      "description": "PK-IOM5721-0"
+    },
+    {
+      "enum": [
+        135,
+        "pkIom57310"
+      ],
+      "description": "PK-IOM5731-0"
+    },
+    {
+      "enum": [
+        136,
+        "pkIom17110"
+      ],
+      "description": "PK-IOM1711-0"
+    },
+    {
+      "enum": [
+        137,
+        "pkIom27110"
+      ],
+      "description": "PK-IOM2711-0"
+    },
+    {
+      "enum": [
+        138,
+        "pkIom27210"
+      ],
+      "description": "PK-IOM2721-0"
+    },
+    {
+      "enum": [
+        139,
+        "pkIom37210"
+      ],
+      "description": "PK-IOM3721-0"
+    },
+    {
+      "enum": [
+        140,
+        "pkIom37310"
+      ],
+      "description": "PK-IOM3731-0"
+    },
+    {
+      "enum": [
+        141,
+        "pkIom37110"
+      ],
+      "description": "PK-IOM3711-0"
+    },
+    {
+      "enum": [
+        142,
+        "pkIom47110"
+      ],
+      "description": "PK-IOM4711-0"
+    },
+    {
+      "enum": [
+        143,
+        "msFac36130"
+      ],
+      "description": "MS-FAC3613-0"
+    },
+    {
+      "enum": [
+        144,
+        "msFac49110"
+      ],
+      "description": "MS-FAC4911-0"
+    },
+    {
+      "enum": [
+        145,
+        "msIom27230"
+      ],
+      "description": "MS-IOM2723-0"
+    },
+    {
+      "enum": [
+        146,
+        "msIom37230"
+      ],
+      "description": "MS-IOM3723-0"
+    },
+    {
+      "enum": [
+        147,
+        "msIom37330"
+      ],
+      "description": "MS-IOM3733-0"
+    },
+    {
+      "enum": [
+        148,
+        "fxPca36130"
+      ],
+      "description": "FX-PCA3613-0"
+    },
+    {
+      "enum": [
+        149,
+        "fxPca49110"
+      ],
+      "description": "FX-PCA4911-0"
+    },
+    {
+      "enum": [
+        150,
+        "fxPcx27230"
+      ],
+      "description": "FX-PCX2723-0"
+    },
+    {
+      "enum": [
+        151,
+        "fxPcx37230"
+      ],
+      "description": "FX-PCX3723-0"
+    },
+    {
+      "enum": [
+        152,
+        "fxPcx37330"
+      ],
+      "description": "FX-PCX3733-0"
+    },
+    {
+      "enum": [
+        153,
+        "fxPcv19300"
+      ],
+      "description": "FX-PCV1930-0"
+    },
+    {
+      "enum": [
+        154,
+        "msVma19300"
+      ],
+      "description": "MS-VMA1930-0"
+    },
+    {
+      "enum": [
+        155,
+        "lcVec1000"
+      ],
+      "description": "LC-VEC100-0"
+    },
+    {
+      "enum": [
+        156,
+        "t8800Tb200"
+      ],
+      "description": "T8800-TB20-0"
+    },
+    {
+      "enum": [
+        157,
+        "t8800Tf200"
+      ],
+      "description": "T8800-TF20-0"
+    },
+    {
+      "enum": [
+        158,
+        "t8800Tb210"
+      ],
+      "description": "T8800-TB21-0"
+    },
+    {
+      "enum": [
+        159,
+        "seAhu10010"
+      ],
+      "description": "SE-AHU1001-0"
+    },
+    {
+      "enum": [
+        160,
+        "seCnd10010"
+      ],
+      "description": "SE-CND1001-0"
+    },
+    {
+      "enum": [
+        161,
+        "seCtb10010"
+      ],
+      "description": "SE-CTB1001-0"
+    },
+    {
+      "enum": [
+        162,
+        "seOpt10010"
+      ],
+      "description": "SE-OPT1001-0"
+    },
+    {
+      "enum": [
+        163,
+        "seDis10010"
+      ],
+      "description": "SE-DIS1001-0"
+    },
+    {
+      "enum": [
+        164,
+        "seCpo10010"
+      ],
+      "description": "SE-CPO1001-0"
+    },
+    {
+      "enum": [
+        165,
+        "msFac25130"
+      ],
+      "description": "MS-FAC2513-0"
+    },
+    {
+      "enum": [
+        166,
+        "fxPca25130"
+      ],
+      "description": "FX-PCA2513-0"
+    },
+    {
+      "enum": [
+        167,
+        "lcIom2000"
+      ],
+      "description": "LC-IOM200-0"
+    },
+    {
+      "enum": [
+        168,
+        "msVma16310"
+      ],
+      "description": "MS-VMA1631-0"
+    },
+    {
+      "enum": [
+        169,
+        "lcZec5100"
+      ],
+      "description": "LC-ZEC510-0"
+    },
+    {
+      "enum": [
+        170,
+        "seZec5000"
+      ],
+      "description": "SE-ZEC500-0"
+    },
+    {
+      "enum": [
+        171,
+        "mvEco10110"
+      ],
+      "description": "MV-ECO1011-0"
+    },
+    {
+      "enum": [
+        172,
+        "lcTuc03120"
+      ],
+      "description": "LC-TUC0312-0"
+    },
+    {
+      "enum": [
+        173,
+        "te740"
+      ],
+      "description": "TE-74-0"
+    },
+    {
+      "enum": [
+        174,
+        "lcVwpc1000"
+      ],
+      "description": "LC-VWPC100-0"
+    },
+    {
+      "enum": [
+        175,
+        "lcAtc11000"
+      ],
+      "description": "LC-ATC1100-0"
+    },
+    {
+      "enum": [
+        176,
+        "lcAtc15000"
+      ],
+      "description": "LC-ATC1500-0"
+    },
+    {
+      "enum": [
+        177,
+        "lcVac10000"
+      ],
+      "description": "LC-VAC1000-0"
+    },
+    {
+      "enum": [
+        178,
+        "lcVac30000"
+      ],
+      "description": "LC-VAC3000-0"
+    },
+    {
+      "enum": [
+        179,
+        "m4Cvm030500"
+      ],
+      "description": "M4-CVM03050-0"
+    },
+    {
+      "enum": [
+        180,
+        "f4Cvm030500"
+      ],
+      "description": "F4-CVM03050-0"
+    },
+    {
+      "enum": [
+        181,
+        "m4Cgm090900"
+      ],
+      "description": "M4-CGM09090-0"
+    },
+    {
+      "enum": [
+        182,
+        "f4Cgm090900"
+      ],
+      "description": "F4-CGM09090-0"
+    },
+    {
+      "enum": [
+        255,
+        "msInvalidProductId"
+      ],
+      "description": "MS_INVALID_PRODUCT_ID"
+    }
+  ]
+}

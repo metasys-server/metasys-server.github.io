@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcYcxsRefrigerantTypeEnumSet.schema.json",
+  "title": "stcYcxsRefrigerantTypeEnumSet",
+  "description": "York YCAS YCWS YCRS Refrigerant Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcYcxsRefrigerantType0"
+      ],
+      "description": "R-407c"
+    },
+    {
+      "enum": [
+        1,
+        "stcYcxsRefrigerantType1"
+      ],
+      "description": "R-22"
+    }
+  ]
+}

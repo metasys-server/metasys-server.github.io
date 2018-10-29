@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/biToBoAoDelayTypeEnumSet.schema.json",
+  "title": "biToBoAoDelayTypeEnumSet",
+  "description": "BI to BO/AO Delay Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "biBoaoNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "biBoaoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        2,
+        "biBoaoOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        3,
+        "biBoaoBoth"
+      ],
+      "description": "Both"
+    }
+  ]
+}

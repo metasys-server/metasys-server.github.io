@@ -1,0 +1,841 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scptScheduleDatesDomEnumSet.schema.json",
+  "title": "scptScheduleDatesDomEnumSet",
+  "description": "SCPT Days of Month",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dmEveryDay"
+      ],
+      "description": "Every day"
+    },
+    {
+      "enum": [
+        1,
+        "dmDay1"
+      ],
+      "description": "First day"
+    },
+    {
+      "enum": [
+        2,
+        "dmDay2"
+      ],
+      "description": "Second day"
+    },
+    {
+      "enum": [
+        3,
+        "dmDay3"
+      ],
+      "description": "Third day"
+    },
+    {
+      "enum": [
+        4,
+        "dmDay4"
+      ],
+      "description": "Fourth day"
+    },
+    {
+      "enum": [
+        5,
+        "dmDay5"
+      ],
+      "description": "Fifth day"
+    },
+    {
+      "enum": [
+        6,
+        "dmDay6"
+      ],
+      "description": "Sixth day"
+    },
+    {
+      "enum": [
+        7,
+        "dmDay7"
+      ],
+      "description": "Seventh day"
+    },
+    {
+      "enum": [
+        8,
+        "dmDay8"
+      ],
+      "description": "Eighth day"
+    },
+    {
+      "enum": [
+        9,
+        "dmDay9"
+      ],
+      "description": "Ninth day"
+    },
+    {
+      "enum": [
+        10,
+        "dmDay10"
+      ],
+      "description": "Tenth day"
+    },
+    {
+      "enum": [
+        11,
+        "dmDay11"
+      ],
+      "description": "Eleventh day"
+    },
+    {
+      "enum": [
+        12,
+        "dmDay12"
+      ],
+      "description": "Twelfth day"
+    },
+    {
+      "enum": [
+        13,
+        "dmDay13"
+      ],
+      "description": "Thirteenth day"
+    },
+    {
+      "enum": [
+        14,
+        "dmDay14"
+      ],
+      "description": "Fourteenth day"
+    },
+    {
+      "enum": [
+        15,
+        "dmDay15"
+      ],
+      "description": "Fifteenth day"
+    },
+    {
+      "enum": [
+        16,
+        "dmDay16"
+      ],
+      "description": "Sixteenth day"
+    },
+    {
+      "enum": [
+        17,
+        "dmDay17"
+      ],
+      "description": "Seventeenth day"
+    },
+    {
+      "enum": [
+        18,
+        "dmDay18"
+      ],
+      "description": "Eighteenth day"
+    },
+    {
+      "enum": [
+        19,
+        "dmDay19"
+      ],
+      "description": "Nineteenth day"
+    },
+    {
+      "enum": [
+        20,
+        "dmDay20"
+      ],
+      "description": "Twentieth day"
+    },
+    {
+      "enum": [
+        21,
+        "dmDay21"
+      ],
+      "description": "Twenty-first day"
+    },
+    {
+      "enum": [
+        22,
+        "dmDay22"
+      ],
+      "description": "Twenty-second day"
+    },
+    {
+      "enum": [
+        23,
+        "dmDay23"
+      ],
+      "description": "Twenty-third day"
+    },
+    {
+      "enum": [
+        24,
+        "dmDay24"
+      ],
+      "description": "Twenty-fourth day"
+    },
+    {
+      "enum": [
+        25,
+        "dmDay25"
+      ],
+      "description": "Twenty-fifth day"
+    },
+    {
+      "enum": [
+        26,
+        "dmDay26"
+      ],
+      "description": "Twenty-sixth day"
+    },
+    {
+      "enum": [
+        27,
+        "dmDay27"
+      ],
+      "description": "Twenty-seventh day"
+    },
+    {
+      "enum": [
+        28,
+        "dmDay28"
+      ],
+      "description": "Twenty-eighth day"
+    },
+    {
+      "enum": [
+        29,
+        "dmDay29"
+      ],
+      "description": "Twenty-ninth day"
+    },
+    {
+      "enum": [
+        30,
+        "dmDay30"
+      ],
+      "description": "Thirtieth day"
+    },
+    {
+      "enum": [
+        31,
+        "dmDay31"
+      ],
+      "description": "Thirty-first day"
+    },
+    {
+      "enum": [
+        32,
+        "dmLastDayOfMonth"
+      ],
+      "description": "Last day"
+    },
+    {
+      "enum": [
+        33,
+        "dmLastSecondDay"
+      ],
+      "description": "Second to last day"
+    },
+    {
+      "enum": [
+        34,
+        "dmLastThirdDay"
+      ],
+      "description": "Third to last day"
+    },
+    {
+      "enum": [
+        35,
+        "dmLast4thDay"
+      ],
+      "description": "Fourth to last day"
+    },
+    {
+      "enum": [
+        36,
+        "dmLast5thDay"
+      ],
+      "description": "Fifth to last day"
+    },
+    {
+      "enum": [
+        37,
+        "dmLast6thDay"
+      ],
+      "description": "Sixth to last day"
+    },
+    {
+      "enum": [
+        38,
+        "dmLast7thDay"
+      ],
+      "description": "Seventh to last day"
+    },
+    {
+      "enum": [
+        39,
+        "dmLast8thDay"
+      ],
+      "description": "Eighth to last day"
+    },
+    {
+      "enum": [
+        40,
+        "dmLast9thDay"
+      ],
+      "description": "Ninth to last day"
+    },
+    {
+      "enum": [
+        41,
+        "dmLast10thDay"
+      ],
+      "description": "Tenth to last day"
+    },
+    {
+      "enum": [
+        42,
+        "dmLast11ThDay"
+      ],
+      "description": "Eleventh to last day"
+    },
+    {
+      "enum": [
+        43,
+        "dmLast12ThDay"
+      ],
+      "description": "Twelfth to last day"
+    },
+    {
+      "enum": [
+        44,
+        "dmLast13ThDay"
+      ],
+      "description": "Thirteenth to last day"
+    },
+    {
+      "enum": [
+        45,
+        "dmLast14thDay"
+      ],
+      "description": "Fourteenth to last day"
+    },
+    {
+      "enum": [
+        46,
+        "dmLast15thDay"
+      ],
+      "description": "Fifteenth to last day"
+    },
+    {
+      "enum": [
+        47,
+        "dmLast16thDay"
+      ],
+      "description": "Sixteenth to last day"
+    },
+    {
+      "enum": [
+        48,
+        "dmLast17thDay"
+      ],
+      "description": "Seventeenth to last day"
+    },
+    {
+      "enum": [
+        49,
+        "dmLast18thDay"
+      ],
+      "description": "Eighteenth to last day"
+    },
+    {
+      "enum": [
+        50,
+        "dmLast19thDay"
+      ],
+      "description": "Nineteenth to last day"
+    },
+    {
+      "enum": [
+        51,
+        "dmLast20thDay"
+      ],
+      "description": "Twentieth to last day"
+    },
+    {
+      "enum": [
+        52,
+        "dmLast21ThDay"
+      ],
+      "description": "Twenty-first to last day"
+    },
+    {
+      "enum": [
+        53,
+        "dmLast22ThDay"
+      ],
+      "description": "Twenty-second to last day"
+    },
+    {
+      "enum": [
+        54,
+        "dmLast23ThDay"
+      ],
+      "description": "Twenty-third to last day"
+    },
+    {
+      "enum": [
+        55,
+        "dmLast24thDay"
+      ],
+      "description": "Twenty-fourth to last day"
+    },
+    {
+      "enum": [
+        56,
+        "dmLast25thDay"
+      ],
+      "description": "Twenty-fifth to last day"
+    },
+    {
+      "enum": [
+        57,
+        "dmLast26thDay"
+      ],
+      "description": "Twenty-sixth to last day"
+    },
+    {
+      "enum": [
+        58,
+        "dmLast27thDay"
+      ],
+      "description": "Twenty-seventh to last day"
+    },
+    {
+      "enum": [
+        59,
+        "dmLast28thDay"
+      ],
+      "description": "Twenty-eighth to last day"
+    },
+    {
+      "enum": [
+        60,
+        "dmLast29thDay"
+      ],
+      "description": "Twenty-ninth to last day"
+    },
+    {
+      "enum": [
+        61,
+        "dmLast30thDay"
+      ],
+      "description": "Thirtieth to last day"
+    },
+    {
+      "enum": [
+        62,
+        "dmFirstSun"
+      ],
+      "description": "First Sunday"
+    },
+    {
+      "enum": [
+        63,
+        "dmFirstMon"
+      ],
+      "description": "First Monday"
+    },
+    {
+      "enum": [
+        64,
+        "dmFirstTue"
+      ],
+      "description": "First Tuesday"
+    },
+    {
+      "enum": [
+        65,
+        "dmFirstWed"
+      ],
+      "description": "First Wednesday"
+    },
+    {
+      "enum": [
+        66,
+        "dmFirstThu"
+      ],
+      "description": "First Thursday"
+    },
+    {
+      "enum": [
+        67,
+        "dmFirstFri"
+      ],
+      "description": "First Friday"
+    },
+    {
+      "enum": [
+        68,
+        "dmFirstSat"
+      ],
+      "description": "First Saturday"
+    },
+    {
+      "enum": [
+        69,
+        "dmSecondSun"
+      ],
+      "description": "Second Sunday"
+    },
+    {
+      "enum": [
+        70,
+        "dmSecondMon"
+      ],
+      "description": "Second Monday"
+    },
+    {
+      "enum": [
+        71,
+        "dmSecondTue"
+      ],
+      "description": "Second Tuesday"
+    },
+    {
+      "enum": [
+        72,
+        "dmSecondWed"
+      ],
+      "description": "Second Wednesday"
+    },
+    {
+      "enum": [
+        73,
+        "dmSecondThu"
+      ],
+      "description": "Second Thursday"
+    },
+    {
+      "enum": [
+        74,
+        "dmSecondFri"
+      ],
+      "description": "Second Friday"
+    },
+    {
+      "enum": [
+        75,
+        "dmSecondSat"
+      ],
+      "description": "Second Saturday"
+    },
+    {
+      "enum": [
+        76,
+        "dmThirdSun"
+      ],
+      "description": "Third Sunday"
+    },
+    {
+      "enum": [
+        77,
+        "dmThirdMon"
+      ],
+      "description": "Third Monday"
+    },
+    {
+      "enum": [
+        78,
+        "dmThirdTue"
+      ],
+      "description": "Third Tuesday"
+    },
+    {
+      "enum": [
+        79,
+        "dmThirdWed"
+      ],
+      "description": "Third Wednesday"
+    },
+    {
+      "enum": [
+        80,
+        "dmThirdThu"
+      ],
+      "description": "Third Thursday"
+    },
+    {
+      "enum": [
+        81,
+        "dmThirdFri"
+      ],
+      "description": "Third Friday"
+    },
+    {
+      "enum": [
+        82,
+        "dmThirdSat"
+      ],
+      "description": "Third Saturday"
+    },
+    {
+      "enum": [
+        83,
+        "dmFourthSun"
+      ],
+      "description": "Fourth Sunday"
+    },
+    {
+      "enum": [
+        84,
+        "dmFourthMon"
+      ],
+      "description": "Fourth Monday"
+    },
+    {
+      "enum": [
+        85,
+        "dmFourthTue"
+      ],
+      "description": "Fourth Tuesday"
+    },
+    {
+      "enum": [
+        86,
+        "dmFourthWed"
+      ],
+      "description": "Fourth Wednesday"
+    },
+    {
+      "enum": [
+        87,
+        "dmFourthThu"
+      ],
+      "description": "Fourth Thursday"
+    },
+    {
+      "enum": [
+        88,
+        "dmFourthFri"
+      ],
+      "description": "Fourth Friday"
+    },
+    {
+      "enum": [
+        89,
+        "dmFourthSat"
+      ],
+      "description": "Fourth Saturday"
+    },
+    {
+      "enum": [
+        90,
+        "dmFifthSun"
+      ],
+      "description": "Fifth Sunday"
+    },
+    {
+      "enum": [
+        91,
+        "dmFifthMon"
+      ],
+      "description": "Fifth Monday"
+    },
+    {
+      "enum": [
+        92,
+        "dmFifthTue"
+      ],
+      "description": "Fifth Tuesday"
+    },
+    {
+      "enum": [
+        93,
+        "dmFifthWed"
+      ],
+      "description": "Fifth Wednesday"
+    },
+    {
+      "enum": [
+        94,
+        "dmFifthThu"
+      ],
+      "description": "Fifth Thursday"
+    },
+    {
+      "enum": [
+        95,
+        "dmFifthFri"
+      ],
+      "description": "Fifth Friday"
+    },
+    {
+      "enum": [
+        96,
+        "dmFifthSat"
+      ],
+      "description": "Fifth Saturday"
+    },
+    {
+      "enum": [
+        97,
+        "dmLastSun"
+      ],
+      "description": "Last Sunday"
+    },
+    {
+      "enum": [
+        98,
+        "dmLastMon"
+      ],
+      "description": "Last Monday"
+    },
+    {
+      "enum": [
+        99,
+        "dmLastTue"
+      ],
+      "description": "Last Tuesday"
+    },
+    {
+      "enum": [
+        100,
+        "dmLastWed"
+      ],
+      "description": "Last Wednesday"
+    },
+    {
+      "enum": [
+        101,
+        "dmLastThu"
+      ],
+      "description": "Last Thursday"
+    },
+    {
+      "enum": [
+        102,
+        "dmLastFri"
+      ],
+      "description": "Last Friday"
+    },
+    {
+      "enum": [
+        103,
+        "dmLastSat"
+      ],
+      "description": "Last Saturday"
+    },
+    {
+      "enum": [
+        104,
+        "dmEverySun"
+      ],
+      "description": "Every Sunday"
+    },
+    {
+      "enum": [
+        105,
+        "dmEveryMon"
+      ],
+      "description": "Every Monday"
+    },
+    {
+      "enum": [
+        106,
+        "dmEveryTue"
+      ],
+      "description": "Every Tuesday"
+    },
+    {
+      "enum": [
+        107,
+        "dmEveryWed"
+      ],
+      "description": "Every Wednesday"
+    },
+    {
+      "enum": [
+        108,
+        "dmEveryThu"
+      ],
+      "description": "Every Thursday"
+    },
+    {
+      "enum": [
+        109,
+        "dmEveryFri"
+      ],
+      "description": "Every Friday"
+    },
+    {
+      "enum": [
+        110,
+        "dmEverySat"
+      ],
+      "description": "Every Saturday"
+    },
+    {
+      "enum": [
+        111,
+        "dmEverySecondDay"
+      ],
+      "description": "Every second day"
+    },
+    {
+      "enum": [
+        112,
+        "dmEveryThirdDay"
+      ],
+      "description": "Every third day"
+    },
+    {
+      "enum": [
+        113,
+        "dmEveryFourthDay"
+      ],
+      "description": "Every fourth day"
+    },
+    {
+      "enum": [
+        114,
+        "dmEveryFifthDay"
+      ],
+      "description": "Every fifth day"
+    },
+    {
+      "enum": [
+        115,
+        "dmEverySixthDay"
+      ],
+      "description": "Every sixth day"
+    },
+    {
+      "enum": [
+        116,
+        "dmEveryWeekday"
+      ],
+      "description": "Every weekday"
+    },
+    {
+      "enum": [
+        117,
+        "dmEveryWeekendDay"
+      ],
+      "description": "Every weekend day"
+    },
+    {
+      "enum": [
+        255,
+        "dmNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

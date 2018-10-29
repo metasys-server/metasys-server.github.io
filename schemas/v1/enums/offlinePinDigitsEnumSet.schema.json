@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/offlinePinDigitsEnumSet.schema.json",
+  "title": "offlinePinDigitsEnumSet",
+  "description": "Offline Pin Digits",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "offlinePinDigits4Digits"
+      ],
+      "description": "4 Digits"
+    },
+    {
+      "enum": [
+        1,
+        "offlinePinDigits5Digits"
+      ],
+      "description": "5 Digits"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykSc1EnumSet.schema.json",
+  "title": "ykSc1EnumSet",
+  "description": "YK Operational Code SC.1",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykSc10"
+      ],
+      "description": "UNIT STOPPED - READY TO START"
+    },
+    {
+      "enum": [
+        1,
+        "ykSc11"
+      ],
+      "description": "UNIT STOPPED - LOCAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        2,
+        "ykSc12"
+      ],
+      "description": "UNIT STOPPED - REMOTE SHUTDOWN"
+    },
+    {
+      "enum": [
+        3,
+        "ykSc13"
+      ],
+      "description": "UNIT STOPPED - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        4,
+        "ykSc14"
+      ],
+      "description": "UNIT STOPPED - CYCLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        5,
+        "ykSc15"
+      ],
+      "description": "UNIT STOPPED - SAFETY SHUTDOWN"
+    },
+    {
+      "enum": [
+        6,
+        "ykSc16"
+      ],
+      "description": "UNIT START INHIBIT"
+    },
+    {
+      "enum": [
+        7,
+        "ykSc17"
+      ],
+      "description": "UNIT STARTING"
+    },
+    {
+      "enum": [
+        8,
+        "ykSc18"
+      ],
+      "description": "UNIT RUNNING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        9,
+        "ykSc19"
+      ],
+      "description": "UNIT RUNNING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        10,
+        "ykSc110"
+      ],
+      "description": "UNIT RUNNING - CHILLER UNLOAD BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        11,
+        "ykSc111"
+      ],
+      "description": "UNIT COASTDOWN"
+    },
+    {
+      "enum": [
+        12,
+        "ykSc112"
+      ],
+      "description": "UNIT RUNNING - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        13,
+        "ykSc113"
+      ],
+      "description": "UNIT STOPPED - INTERNAL SHUTDOWN"
+    },
+    {
+      "enum": [
+        14,
+        "ykSc114"
+      ],
+      "description": "UNIT STARTING - MVVSD STARTUP - DRIVE NOT READY"
+    },
+    {
+      "enum": [
+        15,
+        "ykSc115"
+      ],
+      "description": "RESERVED 15"
+    },
+    {
+      "enum": [
+        16,
+        "ykSc116"
+      ],
+      "description": "RESERVED 16"
+    },
+    {
+      "enum": [
+        17,
+        "ykSc117"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ykSc118"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ykSc119"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ykSc120"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ykSc121"
+      ],
+      "description": "UNIT RUNNING - COOLING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        22,
+        "ykSc122"
+      ],
+      "description": "UNIT RUNNING - COOLING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        23,
+        "ykSc123"
+      ],
+      "description": "UNIT RUNNING - COOLING - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        24,
+        "ykSc124"
+      ],
+      "description": "UNIT RUNNING - HEATING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        25,
+        "ykSc125"
+      ],
+      "description": "UNIT RUNNING - HEATING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        26,
+        "ykSc126"
+      ],
+      "description": "UNIT RUNNING - HEATING - MODIFIED RUN"
+    },
+    {
+      "enum": [
+        27,
+        "ykSc127"
+      ],
+      "description": "UNIT RUNNING - COOLING & HEATING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        28,
+        "ykSc128"
+      ],
+      "description": "UNIT RUNNING - COOLING & HEATING - WARNING ACTIVE"
+    },
+    {
+      "enum": [
+        29,
+        "ykSc129"
+      ],
+      "description": "UNIT RUNNING - COOLING & HEATING - MODIFIED RUN"
+    }
+  ]
+}

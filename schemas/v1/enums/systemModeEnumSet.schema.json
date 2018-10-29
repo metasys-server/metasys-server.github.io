@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/systemModeEnumSet.schema.json",
+  "title": "systemModeEnumSet",
+  "description": "System Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sysCoolOnly"
+      ],
+      "description": "Cool Only"
+    },
+    {
+      "enum": [
+        1,
+        "sysHeatOnly"
+      ],
+      "description": "Heat Only"
+    },
+    {
+      "enum": [
+        2,
+        "sysFanOnly"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        3,
+        "sysWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        4,
+        "sysPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        5,
+        "sysAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

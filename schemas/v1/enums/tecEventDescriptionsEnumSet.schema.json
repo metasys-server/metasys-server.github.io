@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecEventDescriptionsEnumSet.schema.json",
+  "title": "tecEventDescriptionsEnumSet",
+  "description": "TEC Event Descriptions",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecEventDescriptionsUndefined"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "tecEventDescriptionsCalibrationCorrupt"
+      ],
+      "description": "Calibration of Analog Sensor Inputs and Analog outputs are missing - default calibration being used"
+    },
+    {
+      "enum": [
+        2,
+        "tecEventDescriptionsFirmwareMismatch"
+      ],
+      "description": "Corrupt firmware files have been detected - re-provisioning necessary"
+    },
+    {
+      "enum": [
+        3,
+        "tecEventDescriptionsBoardMismatch"
+      ],
+      "description": "IO Board and CPU Board do not match factory pairing"
+    },
+    {
+      "enum": [
+        4,
+        "tecEventDescriptionsControllerFault"
+      ],
+      "description": "IO Board programmed model does not match actual hardware"
+    },
+    {
+      "enum": [
+        5,
+        "tecEventDescriptionsDisplayFailure"
+      ],
+      "description": "Local Display on thermostat failed to initialize"
+    },
+    {
+      "enum": [
+        6,
+        "tecEventDescriptionsTouchscreenIsNotFunctioningProperly"
+      ],
+      "description": "Touchscreen is not functioning properly"
+    },
+    {
+      "enum": [
+        7,
+        "tecEventDescriptionsUsbMalfunction"
+      ],
+      "description": "USB device is malfunctioning and drawing too much current"
+    },
+    {
+      "enum": [
+        100,
+        "tecEventDescriptions100"
+      ],
+      "description": "Remote ZNT Sensor has failed - check sensor. Reset Sensors from Control Setup/Inputs menu if intentional"
+    },
+    {
+      "enum": [
+        101,
+        "tecEventDescriptions101"
+      ],
+      "description": "Supply Temperature Sensor has failed - check sensor. Reset Sensors from Control Setup/Inputs menu if intentional"
+    },
+    {
+      "enum": [
+        102,
+        "tecEventDescriptions102"
+      ],
+      "description": "Outdoor Air Temperature Sensor has failed - check sensor. Reset Sensors from Control Setup/Inputs menu if intentional"
+    },
+    {
+      "enum": [
+        103,
+        "tecEventDescriptions103"
+      ],
+      "description": "Onboard Zone Temperature/Humidity Sensor has failed - contact technical support for service"
+    },
+    {
+      "enum": [
+        104,
+        "tecEventDescriptions104"
+      ],
+      "description": "Temperature Lockouts disabled due to unreliable outdoor air temperature"
+    },
+    {
+      "enum": [
+        105,
+        "tecEventDescriptions105"
+      ],
+      "description": "Economizer is unavailable due to unreliable outdoor air temperature. Connect or check wiring of Outdoor Temp Sensor"
+    },
+    {
+      "enum": [
+        106,
+        "tecEventDescriptions106"
+      ],
+      "description": "Dehumidification is unavailable due to unreliable zone humidity"
+    },
+    {
+      "enum": [
+        107,
+        "tecEventDescriptions107"
+      ],
+      "description": "General equipment service warning"
+    },
+    {
+      "enum": [
+        108,
+        "tecEventDescriptions108"
+      ],
+      "description": "Dirty Filter service warning"
+    },
+    {
+      "enum": [
+        109,
+        "tecEventDescriptions109"
+      ],
+      "description": "Unable to detect supply temp to determine if in heating or cooling mode. Connect or check wiring of Supply Temp Sensor"
+    },
+    {
+      "enum": [
+        110,
+        "tecEventDescriptions110"
+      ],
+      "description": "Control shut down due to unreliable zone temperature - contact technical support for service"
+    },
+    {
+      "enum": [
+        111,
+        "tecEventDescriptions111"
+      ],
+      "description": "Control shut down due to open window binary input. Close window or reconfigure binary inputs"
+    },
+    {
+      "enum": [
+        112,
+        "tecEventDescriptions112"
+      ],
+      "description": "Control shut down due to lack of airflow proof. Check airflow sensor connection and then press Confirm to try again"
+    },
+    {
+      "enum": [
+        113,
+        "tecEventDescriptions113"
+      ],
+      "description": "Onboard Humidity Sensor has failed or Network override has timed out"
+    },
+    {
+      "enum": [
+        114,
+        "tecEventDescriptions114"
+      ],
+      "description": "Supply Fan Status feedback not proving"
+    },
+    {
+      "enum": [
+        115,
+        "tecEventDescriptions115"
+      ],
+      "description": "Supply Fan Runtime limit exceeded.  Please service the Supply Fan."
+    },
+    {
+      "enum": [
+        116,
+        "tecEventDescriptions116"
+      ],
+      "description": "Heating Ineffective.  Heating has failed to increase the supply temperature more than two degrees."
+    },
+    {
+      "enum": [
+        117,
+        "tecEventDescriptions117"
+      ],
+      "description": "Cooling Ineffective.  Cooling has failed to decrease the supply temperature more than two degrees."
+    },
+    {
+      "enum": [
+        118,
+        "tecEventDescriptions118"
+      ],
+      "description": "Zone Temperature Too Cold.  The zone temperature is below the lower temperature limit."
+    },
+    {
+      "enum": [
+        119,
+        "tecEventDescriptions119"
+      ],
+      "description": "Zone Temperature Too Hot.  The zone temperature is above the upper temperature limit."
+    }
+  ]
+}

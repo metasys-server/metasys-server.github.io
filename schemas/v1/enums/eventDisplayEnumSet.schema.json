@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eventDisplayEnumSet.schema.json",
+  "title": "eventDisplayEnumSet",
+  "description": "Event Display",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "2 events"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "4 events"
+    }
+  ]
+}

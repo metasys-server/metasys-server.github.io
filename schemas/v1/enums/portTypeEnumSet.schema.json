@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/portTypeEnumSet.schema.json",
+  "title": "portTypeEnumSet",
+  "description": "Port Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "portTypeNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "portTypeIo"
+      ],
+      "description": "IO"
+    },
+    {
+      "enum": [
+        2,
+        "portTypeAttributes"
+      ],
+      "description": "Attributes"
+    }
+  ]
+}

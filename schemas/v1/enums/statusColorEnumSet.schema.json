@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/statusColorEnumSet.schema.json",
+  "title": "statusColorEnumSet",
+  "description": "Status Color",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "statusColorNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "statusColorGreen"
+      ],
+      "description": "Green"
+    },
+    {
+      "enum": [
+        2,
+        "statusColorYellow"
+      ],
+      "description": "Yellow"
+    },
+    {
+      "enum": [
+        3,
+        "statusColorRed"
+      ],
+      "description": "Red"
+    }
+  ]
+}

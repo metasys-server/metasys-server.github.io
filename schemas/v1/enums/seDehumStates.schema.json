@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seDehumStates.schema.json",
+  "title": "seDehumStates",
+  "description": "SE Dehum States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seDehumStatesNodehum"
+      ],
+      "description": "No Dehum"
+    },
+    {
+      "enum": [
+        1,
+        "seDehumStates1Stgclgnohgr"
+      ],
+      "description": "1 Stg Clg No HGR"
+    },
+    {
+      "enum": [
+        2,
+        "seDehumStates1Stgclgwithhgr"
+      ],
+      "description": "1 Stg Clg With HGR"
+    },
+    {
+      "enum": [
+        3,
+        "seDehumStates2Stgclgnohgr"
+      ],
+      "description": "2 Stg Clg No HGR"
+    },
+    {
+      "enum": [
+        4,
+        "seDehumStates2Stgclgwithhgr"
+      ],
+      "description": "2 Stg Clg With HGR"
+    },
+    {
+      "enum": [
+        5,
+        "seDehumStatesHumidityUnreliable"
+      ],
+      "description": "Humidity Unreliable"
+    }
+  ]
+}

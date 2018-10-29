@@ -1,0 +1,610 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mmsTaskIdSet.schema.json",
+  "title": "mmsTaskIdSet",
+  "description": "MMS Task Ids",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "enumTaskIdUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        1,
+        "enumTaskIdCpm"
+      ],
+      "description": "CPM"
+    },
+    {
+      "enum": [
+        2,
+        "enumCovServer"
+      ],
+      "description": "COVServer"
+    },
+    {
+      "enum": [
+        3,
+        "enumCovMonitor"
+      ],
+      "description": "COVMonitor"
+    },
+    {
+      "enum": [
+        4,
+        "enumDevListServer"
+      ],
+      "description": "DevListServer"
+    },
+    {
+      "enum": [
+        5,
+        "enumDevListMonitorOs"
+      ],
+      "description": "DevListMonitorOS"
+    },
+    {
+      "enum": [
+        6,
+        "enumDevListMonitorSs"
+      ],
+      "description": "DevListMonitorSS"
+    },
+    {
+      "enum": [
+        7,
+        "enumDevListServerUi"
+      ],
+      "description": "DevListServerUI"
+    },
+    {
+      "enum": [
+        8,
+        "enumLegacyCovMonitor"
+      ],
+      "description": "LegacyCOVMonitor"
+    },
+    {
+      "enum": [
+        9,
+        "enumTopEventMonitor"
+      ],
+      "description": "TopEventMonitor"
+    },
+    {
+      "enum": [
+        10,
+        "enumLegacyTopEventMonitor"
+      ],
+      "description": "LegacyTopEventMonitor"
+    },
+    {
+      "enum": [
+        11,
+        "enumTopEventServer"
+      ],
+      "description": "TopEventServer"
+    },
+    {
+      "enum": [
+        12,
+        "enumSiteServices"
+      ],
+      "description": "SiteServices"
+    },
+    {
+      "enum": [
+        13,
+        "enumDeviceServices"
+      ],
+      "description": "DeviceServices"
+    },
+    {
+      "enum": [
+        14,
+        "enumWsSender"
+      ],
+      "description": "WSSender"
+    },
+    {
+      "enum": [
+        15,
+        "enumTopEventServerUi"
+      ],
+      "description": "TopEventServerUI"
+    },
+    {
+      "enum": [
+        16,
+        "enumDiagnosticsWs"
+      ],
+      "description": "DiagnosticsWS"
+    },
+    {
+      "enum": [
+        17,
+        "enumHttpTransport"
+      ],
+      "description": "HttpTransport"
+    },
+    {
+      "enum": [
+        18,
+        "enumOsTransport"
+      ],
+      "description": "OSTransport"
+    },
+    {
+      "enum": [
+        19,
+        "enumMessengerServerUi"
+      ],
+      "description": "MessengerServerUI"
+    },
+    {
+      "enum": [
+        20,
+        "enumMessengerServer"
+      ],
+      "description": "MessengerServer"
+    },
+    {
+      "enum": [
+        21,
+        "enumObjectBridge"
+      ],
+      "description": "ObjectBridge"
+    },
+    {
+      "enum": [
+        22,
+        "enumObjectBridgeRouter"
+      ],
+      "description": "ObjectBridgeRouter"
+    },
+    {
+      "enum": [
+        23,
+        "enumObjectBridgeUi"
+      ],
+      "description": "ObjectBridgeUI"
+    },
+    {
+      "enum": [
+        24,
+        "enumRouterTask"
+      ],
+      "description": "RouterTask"
+    },
+    {
+      "enum": [
+        25,
+        "enumSideWideDeviceList"
+      ],
+      "description": "SideWideDeviceList"
+    },
+    {
+      "enum": [
+        26,
+        "enumEventViewCoordinator"
+      ],
+      "description": "EventViewCoordinator"
+    },
+    {
+      "enum": [
+        27,
+        "enumEventViewBuilder"
+      ],
+      "description": "EventViewBuilder"
+    },
+    {
+      "enum": [
+        28,
+        "enumAuditViewCoordinator"
+      ],
+      "description": "AuditViewCoordinator"
+    },
+    {
+      "enum": [
+        29,
+        "enumAuditViewBuilder"
+      ],
+      "description": "AuditViewBuilder"
+    },
+    {
+      "enum": [
+        30,
+        "enumEventViewCoordinatorUi"
+      ],
+      "description": "EventViewCoordinatorUI"
+    },
+    {
+      "enum": [
+        31,
+        "enumAuditViewCoordinatorUi"
+      ],
+      "description": "AuditViewCoordinatorUI"
+    },
+    {
+      "enum": [
+        32,
+        "lgsDeviceListMonitor"
+      ],
+      "description": "LGSDeviceListMonitor"
+    },
+    {
+      "enum": [
+        33,
+        "enumEventActionTask"
+      ],
+      "description": "EventActionTask"
+    },
+    {
+      "enum": [
+        34,
+        "enumLgsAlertSyncTask"
+      ],
+      "description": "LGSAlertSyncTask"
+    },
+    {
+      "enum": [
+        35,
+        "enumLgsReadAttributesCache"
+      ],
+      "description": "LGSReadAttributesCache"
+    },
+    {
+      "enum": [
+        36,
+        "enumLgsMmsCovSubscriber"
+      ],
+      "description": "LGSMmsCovSubscriber"
+    },
+    {
+      "enum": [
+        37,
+        "enumAlarmListServer"
+      ],
+      "description": "AlarmListServer"
+    },
+    {
+      "enum": [
+        38,
+        "enumLegacyAlarmListMonitor"
+      ],
+      "description": "LegacyAlarmListMonitor"
+    },
+    {
+      "enum": [
+        39,
+        "enumGsiServer"
+      ],
+      "description": "GSIServer"
+    },
+    {
+      "enum": [
+        40,
+        "enumTrendDispatcher"
+      ],
+      "description": "TrendDispatcher"
+    },
+    {
+      "enum": [
+        41,
+        "enumTrendPoller"
+      ],
+      "description": "TrendPoller"
+    },
+    {
+      "enum": [
+        42,
+        "enumTrendDataReceiver"
+      ],
+      "description": "TrendDataReceiver"
+    },
+    {
+      "enum": [
+        43,
+        "enumTrendCleanUpDeamon"
+      ],
+      "description": "TrendCleanUpDeamon"
+    },
+    {
+      "enum": [
+        44,
+        "enumNavigationTreeServer"
+      ],
+      "description": "NavigationTreeServer"
+    },
+    {
+      "enum": [
+        45,
+        "enumLegacyNavigationTreeMonitor"
+      ],
+      "description": "LegacyNavigationTreeMonitor"
+    },
+    {
+      "enum": [
+        46,
+        "enumNavigationTreeCache"
+      ],
+      "description": "NavigationTreeCache"
+    },
+    {
+      "enum": [
+        47,
+        "enumObjectInterfaceService"
+      ],
+      "description": "ObjectInterfaceService"
+    },
+    {
+      "enum": [
+        48,
+        "enumLoadBalancer"
+      ],
+      "description": "LoadBalancer"
+    },
+    {
+      "enum": [
+        49,
+        "enumTestOsTransportTask1"
+      ],
+      "description": "TestOSTransportTask1"
+    },
+    {
+      "enum": [
+        50,
+        "enumTestOsTransportTask2"
+      ],
+      "description": "TestOSTransportTask2"
+    },
+    {
+      "enum": [
+        51,
+        "enumTailoredSummaryTask"
+      ],
+      "description": "TailoredSummaryTask"
+    },
+    {
+      "enum": [
+        52,
+        "enumSynchMmsTask"
+      ],
+      "description": "SynchMMSTask"
+    },
+    {
+      "enum": [
+        53,
+        "enumLegacyNtmResponderTask"
+      ],
+      "description": "LegacyNTMResponderTask"
+    },
+    {
+      "enum": [
+        54,
+        "enumTrendForwarderTask"
+      ],
+      "description": "TrendForwarderTask"
+    },
+    {
+      "enum": [
+        55,
+        "enumManagedDeviceRegistrations"
+      ],
+      "description": "ManagedDeviceRegistrations"
+    },
+    {
+      "enum": [
+        56,
+        "enumUserDictionaryTask"
+      ],
+      "description": "UserDictionaryTask"
+    },
+    {
+      "enum": [
+        57,
+        "eventForwarder"
+      ],
+      "description": "EventForwarder"
+    },
+    {
+      "enum": [
+        58,
+        "eventReceiver"
+      ],
+      "description": "EventReceiver"
+    },
+    {
+      "enum": [
+        59,
+        "enumMmsRemoteTask"
+      ],
+      "description": "MMSRemoteTask"
+    },
+    {
+      "enum": [
+        60,
+        "enumMmsInterface"
+      ],
+      "description": "MMSInterface"
+    },
+    {
+      "enum": [
+        61,
+        "enumDataCollectorPanoptix"
+      ],
+      "description": "DataCollectorPanoptix"
+    },
+    {
+      "enum": [
+        62,
+        "enumHistorianAccessPanoptix"
+      ],
+      "description": "HistorianAccessPanoptix"
+    },
+    {
+      "enum": [
+        63,
+        "enumMmsClientTestTask"
+      ],
+      "description": "MMSClientTestTask"
+    },
+    {
+      "enum": [
+        64,
+        "enumAdminService"
+      ],
+      "description": "AdminService"
+    },
+    {
+      "enum": [
+        65,
+        "sctDiscovery"
+      ],
+      "description": "SctDiscovery"
+    },
+    {
+      "enum": [
+        66,
+        "mmsWebServiceConvertor"
+      ],
+      "description": "MMSWebServiceConvertor"
+    },
+    {
+      "enum": [
+        67,
+        "deviceDiscovery"
+      ],
+      "description": "DeviceDiscovery"
+    },
+    {
+      "enum": [
+        68,
+        "deviceDiagnostics"
+      ],
+      "description": "DeviceDiagnostics"
+    },
+    {
+      "enum": [
+        69,
+        "enumEosCovServerTask"
+      ],
+      "description": "EosCovServerTask"
+    },
+    {
+      "enum": [
+        70,
+        "enumWeatherCollectorTask"
+      ],
+      "description": "WeatherCollectorTask"
+    },
+    {
+      "enum": [
+        71,
+        "enumEnergyPriceCollectorTask"
+      ],
+      "description": "EnergyPriceCollectorTask"
+    },
+    {
+      "enum": [
+        72,
+        "enumSctPointInvolvement"
+      ],
+      "description": "SctPointInvolvement"
+    },
+    {
+      "enum": [
+        73,
+        "enumSctRapidArchiveCreation"
+      ],
+      "description": "SctRapidArchiveCreation"
+    },
+    {
+      "enum": [
+        74,
+        "enumDormantUsersReportingTask"
+      ],
+      "description": "DormantUsersReportingTask"
+    },
+    {
+      "enum": [
+        75,
+        "dormantUserReportingScheduleTask"
+      ],
+      "description": "DormantUserReportingScheduleTask"
+    },
+    {
+      "enum": [
+        76,
+        "enumTimeSync"
+      ],
+      "description": "TimeSync"
+    },
+    {
+      "enum": [
+        77,
+        "enumAuditForwarder"
+      ],
+      "description": "AuditForwarder"
+    },
+    {
+      "enum": [
+        78,
+        "enumAuditReceiver"
+      ],
+      "description": "AuditReceiver"
+    },
+    {
+      "enum": [
+        79,
+        "enumSmartEquipmentDeliveryTask"
+      ],
+      "description": "SmartEquipmentDeliveryTask"
+    },
+    {
+      "enum": [
+        80,
+        "enumSegwayTask"
+      ],
+      "description": "SegwayTask"
+    },
+    {
+      "enum": [
+        81,
+        "enumHttpsSupportTask"
+      ],
+      "description": "HttpsSupportTask"
+    },
+    {
+      "enum": [
+        82,
+        "enumOnlineArchive"
+      ],
+      "description": "OnlineArchive"
+    },
+    {
+      "enum": [
+        83,
+        "enumCafDataAccess"
+      ],
+      "description": "CafDataAccess"
+    },
+    {
+      "enum": [
+        199,
+        "enumMmsFirstUserDefinedMmsTaskId"
+      ],
+      "description": "MMSFirstUserDefinedMMSTaskID"
+    },
+    {
+      "enum": [
+        299,
+        "enumMmsLastUserDefinedMmsTaskId"
+      ],
+      "description": "MMSLastUserDefinedMMSTaskID"
+    }
+  ]
+}

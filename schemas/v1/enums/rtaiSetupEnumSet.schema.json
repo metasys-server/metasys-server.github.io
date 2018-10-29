@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rtaiSetupEnumSet.schema.json",
+  "title": "rtaiSetupEnumSet",
+  "description": "RTAI Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rtSiliconA99B"
+      ],
+      "description": "RT Silicon A99B"
+    },
+    {
+      "enum": [
+        1,
+        "rtPt1000"
+      ],
+      "description": "RT Pt1000"
+    },
+    {
+      "enum": [
+        2,
+        "rtNi1000Jci"
+      ],
+      "description": "RT Ni1000 JCI"
+    },
+    {
+      "enum": [
+        3,
+        "rtNi1000JciExt"
+      ],
+      "description": "RT Ni1000 JCI ext"
+    },
+    {
+      "enum": [
+        4,
+        "rtNi1000LAndG"
+      ],
+      "description": "RT Ni1000 L&G"
+    },
+    {
+      "enum": [
+        5,
+        "rtNi1000Din"
+      ],
+      "description": "RT Ni1000 DIN"
+    },
+    {
+      "enum": [
+        6,
+        "rt10KNtc"
+      ],
+      "description": "RT 10K NTC"
+    },
+    {
+      "enum": [
+        7,
+        "rt010Vdc"
+      ],
+      "description": "RT 0-10 VDC"
+    },
+    {
+      "enum": [
+        8,
+        "rt020Ma"
+      ],
+      "description": "RT 0-20 mA"
+    }
+  ]
+}

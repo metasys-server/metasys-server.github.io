@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pumpControlModeEnumSet.schema.json",
+  "title": "pumpControlModeEnumSet",
+  "description": "Pump Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pcConstantSpeed"
+      ],
+      "description": "Constant Speed"
+    },
+    {
+      "enum": [
+        1,
+        "pcVariableSpeed"
+      ],
+      "description": "Variable Speed"
+    }
+  ]
+}

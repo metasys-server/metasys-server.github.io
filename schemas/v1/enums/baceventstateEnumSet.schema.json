@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/baceventstateEnumSet.schema.json",
+  "title": "baceventstateEnumSet",
+  "description": "BAC Event State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacevntNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "bacevntFault"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        2,
+        "bacevntOffnormal"
+      ],
+      "description": "Off Normal"
+    },
+    {
+      "enum": [
+        3,
+        "bacevntHighlimit"
+      ],
+      "description": "High Limit"
+    },
+    {
+      "enum": [
+        4,
+        "bacevntLowlimit"
+      ],
+      "description": "Low Limit"
+    },
+    {
+      "enum": [
+        5,
+        "bacevntLifeSafetyAlarm"
+      ],
+      "description": "Life Safety Alarm"
+    },
+    {
+      "enum": [
+        6,
+        "bacevntOffline"
+      ],
+      "description": "Offline"
+    }
+  ]
+}

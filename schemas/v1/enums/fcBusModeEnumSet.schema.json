@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fcBusModeEnumSet.schema.json",
+  "title": "fcBusModeEnumSet",
+  "description": "FC Bus Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fcBusModeWired"
+      ],
+      "description": "Wired Field Bus"
+    },
+    {
+      "enum": [
+        1,
+        "fcBusModeZigbee"
+      ],
+      "description": "Wireless Field Bus"
+    },
+    {
+      "enum": [
+        2,
+        "fcBusModeN2"
+      ],
+      "description": "N2 Slave Field Bus"
+    },
+    {
+      "enum": [
+        3,
+        "fcBusModeModbus"
+      ],
+      "description": "Modbus Field Bus"
+    },
+    {
+      "enum": [
+        4,
+        "fcBusModeEthernet"
+      ],
+      "description": "Ethernet Field Bus"
+    },
+    {
+      "enum": [
+        255,
+        "fcBusModeIndeterminate"
+      ],
+      "description": "Indeterminate FC Bus Mode"
+    }
+  ]
+}

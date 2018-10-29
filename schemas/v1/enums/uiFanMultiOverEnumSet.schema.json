@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uiFanMultiOverEnumSet.schema.json",
+  "title": "uiFanMultiOverEnumSet",
+  "description": "UI Multi Speed Fan Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "uiFanMultiOverLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        1,
+        "uiFanMultiOverMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        2,
+        "uiFanMultiOverHigh"
+      ],
+      "description": "High"
+    },
+    {
+      "enum": [
+        3,
+        "uiFanMultiOverAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        4,
+        "uiFanMultiOverQuiet"
+      ],
+      "description": "Quiet"
+    }
+  ]
+}

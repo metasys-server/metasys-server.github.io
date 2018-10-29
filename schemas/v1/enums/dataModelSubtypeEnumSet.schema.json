@@ -1,0 +1,2129 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dataModelSubtypeEnumSet.schema.json",
+  "title": "dataModelSubtypeEnumSet",
+  "description": "Data Model Subtype",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "dmstYorkRtu"
+      ],
+      "description": "York RTU"
+    },
+    {
+      "enum": [
+        1,
+        "dmstHvacZone"
+      ],
+      "description": "HVAC Zone"
+    },
+    {
+      "enum": [
+        2,
+        "dmstWeatherInfo"
+      ],
+      "description": "Weather Information"
+    },
+    {
+      "enum": [
+        3,
+        "dmstEconomizer"
+      ],
+      "description": "Economizer"
+    },
+    {
+      "enum": [
+        4,
+        "dmstClgControl"
+      ],
+      "description": "Cooling Control"
+    },
+    {
+      "enum": [
+        5,
+        "dmstDxClgCircuit"
+      ],
+      "description": "DX Cooling Circuit"
+    },
+    {
+      "enum": [
+        6,
+        "dmstHtgControl"
+      ],
+      "description": "Heating Control"
+    },
+    {
+      "enum": [
+        7,
+        "dmstHtgStage"
+      ],
+      "description": "Heating Stage"
+    },
+    {
+      "enum": [
+        8,
+        "dmstThermostatControl"
+      ],
+      "description": "Thermostat Control"
+    },
+    {
+      "enum": [
+        9,
+        "dmstFanControl"
+      ],
+      "description": "Fan Control"
+    },
+    {
+      "enum": [
+        10,
+        "dmstCoolingCircuitDiagnostics"
+      ],
+      "description": "Cooling Circuit Diagnostics"
+    },
+    {
+      "enum": [
+        11,
+        "dmstStagedHeatControl"
+      ],
+      "description": "Staged Heat Control"
+    },
+    {
+      "enum": [
+        12,
+        "dmstHydronicHeatControl"
+      ],
+      "description": "Hydronic Heat Control"
+    },
+    {
+      "enum": [
+        13,
+        "dmstSteppedHeatControl"
+      ],
+      "description": "Stepped Heat Control"
+    },
+    {
+      "enum": [
+        14,
+        "dmstDemandVentilationControl"
+      ],
+      "description": "Demand Ventilation Control"
+    },
+    {
+      "enum": [
+        15,
+        "dmstComfortVentilationControl"
+      ],
+      "description": "Comfort Ventilation Control"
+    },
+    {
+      "enum": [
+        16,
+        "dmstExhaustFanControl"
+      ],
+      "description": "Exhaust Fan Control"
+    },
+    {
+      "enum": [
+        17,
+        "dmstHotGasReheatDehumidification"
+      ],
+      "description": "Hot Gas Reheat(Dehumidification)"
+    },
+    {
+      "enum": [
+        18,
+        "dmstAirMonitorStation"
+      ],
+      "description": "Air Monitor Station"
+    },
+    {
+      "enum": [
+        19,
+        "dmstShutdownInputSmoke"
+      ],
+      "description": "Shutdown Input/Smoke"
+    },
+    {
+      "enum": [
+        20,
+        "dmstSelfTest"
+      ],
+      "description": "Self Test"
+    },
+    {
+      "enum": [
+        21,
+        "dmstSystemControllers"
+      ],
+      "description": "System Controllers"
+    },
+    {
+      "enum": [
+        22,
+        "dmstTime"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        23,
+        "dmstNetwork"
+      ],
+      "description": "Network"
+    },
+    {
+      "enum": [
+        24,
+        "dmstControlBoard"
+      ],
+      "description": "Control Board"
+    },
+    {
+      "enum": [
+        25,
+        "dmstHeatPumpControl"
+      ],
+      "description": "Heat Pump Control"
+    },
+    {
+      "enum": [
+        26,
+        "dmstCcs"
+      ],
+      "description": "CCS"
+    },
+    {
+      "enum": [
+        27,
+        "dmstStepHtgStage"
+      ],
+      "description": "Stepped Heat Stage"
+    },
+    {
+      "enum": [
+        28,
+        "dmstSzvav"
+      ],
+      "description": "Single Zone VAV"
+    },
+    {
+      "enum": [
+        29,
+        "dmstTec"
+      ],
+      "description": "TEC"
+    },
+    {
+      "enum": [
+        30,
+        "dmstSetpoints"
+      ],
+      "description": "Setpoints"
+    },
+    {
+      "enum": [
+        31,
+        "dmstSchedulingSetup"
+      ],
+      "description": "Scheduling"
+    },
+    {
+      "enum": [
+        32,
+        "dmstUiSetup"
+      ],
+      "description": "UI Setup"
+    },
+    {
+      "enum": [
+        33,
+        "dmstControlSetup"
+      ],
+      "description": "Control Setup"
+    },
+    {
+      "enum": [
+        34,
+        "dmstNetworkSetup"
+      ],
+      "description": "Network Setup"
+    },
+    {
+      "enum": [
+        35,
+        "dmstEquipmentSetup"
+      ],
+      "description": "Equipment Setup"
+    },
+    {
+      "enum": [
+        36,
+        "dmstBoardSetup"
+      ],
+      "description": "Board Setup"
+    },
+    {
+      "enum": [
+        37,
+        "dmstSystemStatus"
+      ],
+      "description": "System Status"
+    },
+    {
+      "enum": [
+        38,
+        "dmstControlStatus"
+      ],
+      "description": "Control Status"
+    },
+    {
+      "enum": [
+        39,
+        "dmstFaultsStatus"
+      ],
+      "description": "Faults Status"
+    },
+    {
+      "enum": [
+        40,
+        "dmstCommsStatus"
+      ],
+      "description": "Comms Status"
+    },
+    {
+      "enum": [
+        41,
+        "dmstGeneralEquipmentSetup"
+      ],
+      "description": "General Equipment Setup"
+    },
+    {
+      "enum": [
+        42,
+        "dmstGeneralControlSetup"
+      ],
+      "description": "General Control Setup"
+    },
+    {
+      "enum": [
+        43,
+        "dmstYmc2ChillerWriteValues"
+      ],
+      "description": "YMC2 Chiller Write Values"
+    },
+    {
+      "enum": [
+        44,
+        "dmstYmc2ChillerReadValues"
+      ],
+      "description": "YMC2 Chiller Read Values"
+    },
+    {
+      "enum": [
+        45,
+        "dmstCentralPlant"
+      ],
+      "description": "Central Plant"
+    },
+    {
+      "enum": [
+        46,
+        "dmstHotWaterGeneratorSubplant"
+      ],
+      "description": "Hot Water Generator Subplant"
+    },
+    {
+      "enum": [
+        47,
+        "dmstHeatRecoveryChillerSubplant"
+      ],
+      "description": "Heat Recovery Chiller Subplant"
+    },
+    {
+      "enum": [
+        48,
+        "dmstChillerSubplant"
+      ],
+      "description": "Chiller Subplant"
+    },
+    {
+      "enum": [
+        49,
+        "dmstHeatExchangerSubplant"
+      ],
+      "description": "Heat Exchanger Subplant"
+    },
+    {
+      "enum": [
+        50,
+        "dmstHotWaterLoad"
+      ],
+      "description": "Hot Water Load"
+    },
+    {
+      "enum": [
+        51,
+        "dmstChilledWaterLoad"
+      ],
+      "description": "Chilled Water Load"
+    },
+    {
+      "enum": [
+        52,
+        "dmstThermalEnergyStorageAssembly"
+      ],
+      "description": "Thermal Energy Storage Assembly"
+    },
+    {
+      "enum": [
+        53,
+        "dmstChillerAssembly"
+      ],
+      "description": "Chiller Assembly"
+    },
+    {
+      "enum": [
+        54,
+        "dmstChiller"
+      ],
+      "description": "Chiller"
+    },
+    {
+      "enum": [
+        56,
+        "dmstHeatExchangerAssembly"
+      ],
+      "description": "Heat Exchanger Assembly"
+    },
+    {
+      "enum": [
+        57,
+        "dmstPumpAssembly"
+      ],
+      "description": "Pump Assembly"
+    },
+    {
+      "enum": [
+        58,
+        "dmstPump"
+      ],
+      "description": "Pump"
+    },
+    {
+      "enum": [
+        59,
+        "dmstTowerAssembly"
+      ],
+      "description": "Tower Assembly"
+    },
+    {
+      "enum": [
+        60,
+        "dmstTower"
+      ],
+      "description": "Tower"
+    },
+    {
+      "enum": [
+        61,
+        "dmstHotWaterGeneratorAssembly"
+      ],
+      "description": "Hot Water Generator Assembly"
+    },
+    {
+      "enum": [
+        62,
+        "dmstHotWaterGenerator"
+      ],
+      "description": "Hot Water Generator"
+    },
+    {
+      "enum": [
+        63,
+        "dmstHeatRecoveryChillerAssembly"
+      ],
+      "description": "Heat Recovery Chiller Assembly"
+    },
+    {
+      "enum": [
+        64,
+        "dmstValve"
+      ],
+      "description": "Valve"
+    },
+    {
+      "enum": [
+        65,
+        "dmstThermalEnergyStorageTank"
+      ],
+      "description": "Thermal Energy Storage Tank"
+    },
+    {
+      "enum": [
+        66,
+        "dmstHeatExchanger"
+      ],
+      "description": "Heat Exchanger"
+    },
+    {
+      "enum": [
+        67,
+        "dmstControllerInformation"
+      ],
+      "description": "Controller Information"
+    },
+    {
+      "enum": [
+        68,
+        "dmstFirmwareDiagnostics"
+      ],
+      "description": "Firmware Diagnostics"
+    },
+    {
+      "enum": [
+        69,
+        "dmstGeneralFirmwareStatistics"
+      ],
+      "description": "General Firmware Statistics"
+    },
+    {
+      "enum": [
+        70,
+        "dmstTroubleStatistics"
+      ],
+      "description": "Trouble Statistics"
+    },
+    {
+      "enum": [
+        71,
+        "dmstInformationalStatistics"
+      ],
+      "description": "Informational Statistics"
+    },
+    {
+      "enum": [
+        72,
+        "dmstHeatRecoveryChiller"
+      ],
+      "description": "Heat Recovery Chiller"
+    },
+    {
+      "enum": [
+        73,
+        "dmstCommissioning"
+      ],
+      "description": "Commissioning"
+    },
+    {
+      "enum": [
+        74,
+        "dataModelSubtypeIoSetup"
+      ],
+      "description": "IO Setup"
+    },
+    {
+      "enum": [
+        75,
+        "dataModelSubtypeReheatControl"
+      ],
+      "description": "Reheat Control"
+    },
+    {
+      "enum": [
+        76,
+        "dmstYmc2WriteData"
+      ],
+      "description": "YMC2 Write Data"
+    },
+    {
+      "enum": [
+        77,
+        "dmstYmc2ReadData"
+      ],
+      "description": "YMC2 Read Data"
+    },
+    {
+      "enum": [
+        78,
+        "dmstYmc2ConfigurationData"
+      ],
+      "description": "YMC2 Configuration Data"
+    },
+    {
+      "enum": [
+        79,
+        "dmstYmc2SalesOrderData"
+      ],
+      "description": "YMC2 Sales Order Data"
+    },
+    {
+      "enum": [
+        80,
+        "dmstCoilAssembly"
+      ],
+      "description": "Coil Assembly"
+    },
+    {
+      "enum": [
+        81,
+        "dmstCoil"
+      ],
+      "description": "Coil"
+    },
+    {
+      "enum": [
+        82,
+        "dmstYvaaWriteData"
+      ],
+      "description": "YVAA Write Data"
+    },
+    {
+      "enum": [
+        83,
+        "dmstYvaaReadData"
+      ],
+      "description": "YVAA Read Data"
+    },
+    {
+      "enum": [
+        84,
+        "dmstYvaaConfigurationData"
+      ],
+      "description": "YVAA Configuration Data"
+    },
+    {
+      "enum": [
+        85,
+        "dmstYvaaSalesOrderData"
+      ],
+      "description": "YVAA Sales Order Data"
+    },
+    {
+      "enum": [
+        86,
+        "dmstYspaWriteData"
+      ],
+      "description": "YSPA Write Data"
+    },
+    {
+      "enum": [
+        87,
+        "dmstYspaReadData"
+      ],
+      "description": "YSPA Read Data"
+    },
+    {
+      "enum": [
+        88,
+        "dmstSccEquipmentData"
+      ],
+      "description": "SCC Equipment Data"
+    },
+    {
+      "enum": [
+        89,
+        "dmstYkWriteData"
+      ],
+      "description": "YK Write Data"
+    },
+    {
+      "enum": [
+        90,
+        "dmstYkReadData"
+      ],
+      "description": "YK Read Data"
+    },
+    {
+      "enum": [
+        91,
+        "dmstYkConfigurationData"
+      ],
+      "description": "YK Configuration Data"
+    },
+    {
+      "enum": [
+        92,
+        "dmstYkSalesOrderData"
+      ],
+      "description": "YK Sales Order Data"
+    },
+    {
+      "enum": [
+        93,
+        "dmstYtWriteData"
+      ],
+      "description": "YT Write Data"
+    },
+    {
+      "enum": [
+        94,
+        "dmstYtReadData"
+      ],
+      "description": "YT Read Data"
+    },
+    {
+      "enum": [
+        95,
+        "dmstYtConfigurationData"
+      ],
+      "description": "YT Configuration Data"
+    },
+    {
+      "enum": [
+        96,
+        "dmstYtSalesOrderData"
+      ],
+      "description": "YT Sales Order Data"
+    },
+    {
+      "enum": [
+        97,
+        "dmstYdWriteData"
+      ],
+      "description": "YD Write Data"
+    },
+    {
+      "enum": [
+        98,
+        "dmstYdReadData"
+      ],
+      "description": "YD Read Data"
+    },
+    {
+      "enum": [
+        99,
+        "dmstYdConfigurationData"
+      ],
+      "description": "YD Configuration Data"
+    },
+    {
+      "enum": [
+        100,
+        "dmstYdSalesOrderData"
+      ],
+      "description": "YD Sales Order Data"
+    },
+    {
+      "enum": [
+        101,
+        "dmstYrWriteData"
+      ],
+      "description": "YR Write Data"
+    },
+    {
+      "enum": [
+        102,
+        "dmstYrReadData"
+      ],
+      "description": "YR Read Data"
+    },
+    {
+      "enum": [
+        103,
+        "dmstYrConfigurationData"
+      ],
+      "description": "YR Configuration Data"
+    },
+    {
+      "enum": [
+        104,
+        "dmstYrSalesOrderData"
+      ],
+      "description": "YR Sales Order Data"
+    },
+    {
+      "enum": [
+        105,
+        "dmstYewsWriteData"
+      ],
+      "description": "YEWS Write Data"
+    },
+    {
+      "enum": [
+        106,
+        "dmstYewsReadData"
+      ],
+      "description": "YEWS Read Data"
+    },
+    {
+      "enum": [
+        107,
+        "dmstYewsConfigurationData"
+      ],
+      "description": "YEWS Configuration Data"
+    },
+    {
+      "enum": [
+        108,
+        "dmstYewsSalesOrderData"
+      ],
+      "description": "YEWS Sales Order Data"
+    },
+    {
+      "enum": [
+        109,
+        "dmstYkepEconomizerReadData"
+      ],
+      "description": "YKEP Economizer Read Data"
+    },
+    {
+      "enum": [
+        110,
+        "dmstYkepConfigurationData"
+      ],
+      "description": "YKEP Configuration Data"
+    },
+    {
+      "enum": [
+        111,
+        "dmstYkepSalesOrderData"
+      ],
+      "description": "YKEP Sales Order Data"
+    },
+    {
+      "enum": [
+        112,
+        "dmstYsWriteData"
+      ],
+      "description": "YS Write Data"
+    },
+    {
+      "enum": [
+        113,
+        "dmstYsReadData"
+      ],
+      "description": "YS Read Data"
+    },
+    {
+      "enum": [
+        114,
+        "dmstLysWriteData"
+      ],
+      "description": "LYS Write Data"
+    },
+    {
+      "enum": [
+        115,
+        "dmstLysReadData"
+      ],
+      "description": "LYS Read Data"
+    },
+    {
+      "enum": [
+        116,
+        "dmstCampus"
+      ],
+      "description": "Campus"
+    },
+    {
+      "enum": [
+        117,
+        "dmstBatteryStorage"
+      ],
+      "description": "Battery Storage"
+    },
+    {
+      "enum": [
+        118,
+        "dmstBatteryStorageAssembly"
+      ],
+      "description": "Battery Storage Assembly"
+    },
+    {
+      "enum": [
+        119,
+        "dmstBatteryString"
+      ],
+      "description": "Battery String"
+    },
+    {
+      "enum": [
+        120,
+        "dmstInverter"
+      ],
+      "description": "Inverter"
+    },
+    {
+      "enum": [
+        121,
+        "dmstRoofTopUnit"
+      ],
+      "description": "Roof Top Unit"
+    },
+    {
+      "enum": [
+        122,
+        "dmstPvAggregation"
+      ],
+      "description": "PV Aggregation"
+    },
+    {
+      "enum": [
+        123,
+        "dmstPvAssembly"
+      ],
+      "description": "PV Assembly"
+    },
+    {
+      "enum": [
+        124,
+        "dmstPv"
+      ],
+      "description": "PV"
+    },
+    {
+      "enum": [
+        125,
+        "dmstFrequencyResponseBidInMarketWithMidpoint"
+      ],
+      "description": "Frequency Response Bid-In Market With Midpoint"
+    },
+    {
+      "enum": [
+        126,
+        "dmstRampRateMarketWithFrequencyResponse"
+      ],
+      "description": "Ramp Rate Market With Frequency Response"
+    },
+    {
+      "enum": [
+        127,
+        "dmstFrequencyResponseSignal"
+      ],
+      "description": "Frequency Response Signal"
+    },
+    {
+      "enum": [
+        128,
+        "dmstPvShortTermPredictor"
+      ],
+      "description": "PV Short-Term Predictor"
+    },
+    {
+      "enum": [
+        129,
+        "dmstZoneCoordinator"
+      ],
+      "description": "Zone Coordinator"
+    },
+    {
+      "enum": [
+        130,
+        "dmstZoneController"
+      ],
+      "description": "Zone Controller"
+    },
+    {
+      "enum": [
+        131,
+        "dmstBypassDamper"
+      ],
+      "description": "Bypass Damper"
+    },
+    {
+      "enum": [
+        132,
+        "dmstRtu"
+      ],
+      "description": "Rooftop Unit"
+    },
+    {
+      "enum": [
+        133,
+        "dmstYt2GenericWriteData"
+      ],
+      "description": "YT2 Generic Write Data"
+    },
+    {
+      "enum": [
+        134,
+        "dmstYt2GenericReadData"
+      ],
+      "description": "YT2 Generic Read Data"
+    },
+    {
+      "enum": [
+        135,
+        "dmstYt2GenericConfigurationData"
+      ],
+      "description": "YT2 Generic Configuration Data"
+    },
+    {
+      "enum": [
+        136,
+        "dmstYt2GenericSalesOrderData"
+      ],
+      "description": "YT2 Generic Sales Order Data"
+    },
+    {
+      "enum": [
+        137,
+        "dmstBypassValve"
+      ],
+      "description": "Bypass Valve"
+    },
+    {
+      "enum": [
+        138,
+        "dmstDecoupleValve"
+      ],
+      "description": "Decouple Valve"
+    },
+    {
+      "enum": [
+        139,
+        "dmstYvwaWriteData"
+      ],
+      "description": "YVWA Write Data"
+    },
+    {
+      "enum": [
+        140,
+        "dmstYvwaReadData"
+      ],
+      "description": "YVWA Read Data"
+    },
+    {
+      "enum": [
+        141,
+        "dmstYvwaConfigurationData"
+      ],
+      "description": "YVWA Configuration Data"
+    },
+    {
+      "enum": [
+        142,
+        "dmstYvwaSalesOrderData"
+      ],
+      "description": "YVWA Sales Order Data"
+    },
+    {
+      "enum": [
+        143,
+        "dmstYcavYcivWriteData"
+      ],
+      "description": "YCAV YCIV Write Data"
+    },
+    {
+      "enum": [
+        144,
+        "dmstYcavYcivReadDataS1"
+      ],
+      "description": "YCAV YCIV Read Data"
+    },
+    {
+      "enum": [
+        145,
+        "dmstYcavYcivReadDataS2"
+      ],
+      "description": "YCAV YCIV Read Data S2"
+    },
+    {
+      "enum": [
+        146,
+        "dmstYcavYcivConfigurationData"
+      ],
+      "description": "YCAV YCIV Configuration Data"
+    },
+    {
+      "enum": [
+        147,
+        "dmstYcavYcivSalesOrderData"
+      ],
+      "description": "YCAV YCIV Sales Order Data"
+    },
+    {
+      "enum": [
+        148,
+        "dmstScrollWriteData"
+      ],
+      "description": "Scroll Write Data"
+    },
+    {
+      "enum": [
+        149,
+        "dmstScrollReadData"
+      ],
+      "description": "Scroll Read Data"
+    },
+    {
+      "enum": [
+        150,
+        "dmstScrollConfigurationData"
+      ],
+      "description": "Scroll Configuration Data"
+    },
+    {
+      "enum": [
+        151,
+        "dmstScrollSalesOrderData"
+      ],
+      "description": "Scroll Sales Order Data"
+    },
+    {
+      "enum": [
+        152,
+        "dmstBatteryModule"
+      ],
+      "description": "Battery Module"
+    },
+    {
+      "enum": [
+        153,
+        "dmstBatteryStringAssembly"
+      ],
+      "description": "Battery String Assembly"
+    },
+    {
+      "enum": [
+        154,
+        "dmstInverterAssembly"
+      ],
+      "description": "Inverter Assembly"
+    },
+    {
+      "enum": [
+        155,
+        "dmstRoofTopUnitAssembly"
+      ],
+      "description": "Roof Top Unit Assembly"
+    },
+    {
+      "enum": [
+        156,
+        "dmstYsaaWriteData"
+      ],
+      "description": "YSAA Write Data"
+    },
+    {
+      "enum": [
+        157,
+        "dmstYsaaReadData"
+      ],
+      "description": "YSAA Read Data"
+    },
+    {
+      "enum": [
+        158,
+        "dmstYsaaConfigurationData"
+      ],
+      "description": "YSAA Configuration Data"
+    },
+    {
+      "enum": [
+        159,
+        "dmstYsaaSalesOrderData"
+      ],
+      "description": "YSAA Sales Order Data"
+    },
+    {
+      "enum": [
+        160,
+        "dmstYcxsWriteData"
+      ],
+      "description": "YCxS Write Data"
+    },
+    {
+      "enum": [
+        161,
+        "dmstYcxsReadData"
+      ],
+      "description": "YCxS Read Data"
+    },
+    {
+      "enum": [
+        162,
+        "dmstYcasReadData"
+      ],
+      "description": "YCAS Read Data"
+    },
+    {
+      "enum": [
+        163,
+        "dmstYcxsConfigurationData"
+      ],
+      "description": "YCxS Configuration Data"
+    },
+    {
+      "enum": [
+        164,
+        "dmstYcxsSalesOrderData"
+      ],
+      "description": "YCxS Sales Order Data"
+    },
+    {
+      "enum": [
+        165,
+        "dmstEquipmentDiagnostics"
+      ],
+      "description": "Equipment Diagnostics"
+    },
+    {
+      "enum": [
+        166,
+        "dmstYpcWriteData"
+      ],
+      "description": "YPC Write Data"
+    },
+    {
+      "enum": [
+        167,
+        "dmstYpcReadData"
+      ],
+      "description": "YPC Read Data"
+    },
+    {
+      "enum": [
+        168,
+        "dmstYpcConfigurationData"
+      ],
+      "description": "YPC Configuration Data"
+    },
+    {
+      "enum": [
+        169,
+        "dmstYpcSalesOrderData"
+      ],
+      "description": "YPC Sales Order Data"
+    },
+    {
+      "enum": [
+        170,
+        "dmstYsYsHpYnWriteData"
+      ],
+      "description": "YS YS_HP YN Write Data"
+    },
+    {
+      "enum": [
+        171,
+        "dmstYsYsHpYnReadData"
+      ],
+      "description": "YS YS_HP YN Read Data"
+    },
+    {
+      "enum": [
+        172,
+        "dmstYsYsHpYnConfigurationData"
+      ],
+      "description": "YS YS_HP YN Configuration Data"
+    },
+    {
+      "enum": [
+        173,
+        "dmstYsYsHpYnSalesOrderData"
+      ],
+      "description": "YS YS_HP YN Sales Order Data"
+    },
+    {
+      "enum": [
+        174,
+        "dmstYiaWriteData"
+      ],
+      "description": "YIA Write Data"
+    },
+    {
+      "enum": [
+        175,
+        "dmstYiaReadData"
+      ],
+      "description": "YIA Read Data"
+    },
+    {
+      "enum": [
+        176,
+        "dmstYiaConfigurationData"
+      ],
+      "description": "YIA Configuration Data"
+    },
+    {
+      "enum": [
+        177,
+        "dmstYiaSalesOrderData"
+      ],
+      "description": "YIA Sales Order Data"
+    },
+    {
+      "enum": [
+        178,
+        "dmstYstWriteData"
+      ],
+      "description": "YST Write Data"
+    },
+    {
+      "enum": [
+        179,
+        "dmstYstReadData"
+      ],
+      "description": "YST Read Data"
+    },
+    {
+      "enum": [
+        180,
+        "dmstYstConfigurationData"
+      ],
+      "description": "YST Configuration Data"
+    },
+    {
+      "enum": [
+        181,
+        "dmstYstSalesOrderData"
+      ],
+      "description": "YST Sales Order Data"
+    },
+    {
+      "enum": [
+        182,
+        "dmstCrWriteData"
+      ],
+      "description": "CR Write Data"
+    },
+    {
+      "enum": [
+        183,
+        "dmstCrReadData"
+      ],
+      "description": "CR Read Data"
+    },
+    {
+      "enum": [
+        184,
+        "dmstCrConfigurationData"
+      ],
+      "description": "CR Configuration Data"
+    },
+    {
+      "enum": [
+        185,
+        "dmstCrSalesOrderData"
+      ],
+      "description": "CR Sales Order Data"
+    },
+    {
+      "enum": [
+        186,
+        "dmstYgYbWriteData"
+      ],
+      "description": "YG YB Write Data"
+    },
+    {
+      "enum": [
+        187,
+        "dmstYgYbReadData"
+      ],
+      "description": "YG YB Read Data"
+    },
+    {
+      "enum": [
+        188,
+        "dmstYgYbConfigurationData"
+      ],
+      "description": "YG YB Configuration Data"
+    },
+    {
+      "enum": [
+        189,
+        "dmstYgYbSalesOrderData"
+      ],
+      "description": "YG YB Sales Order Data"
+    },
+    {
+      "enum": [
+        190,
+        "dmstOmWriteData"
+      ],
+      "description": "OM Write Data"
+    },
+    {
+      "enum": [
+        191,
+        "dmstOmReadData"
+      ],
+      "description": "OM Read Data"
+    },
+    {
+      "enum": [
+        192,
+        "dmstOmConfigurationData"
+      ],
+      "description": "OM Configuration Data"
+    },
+    {
+      "enum": [
+        193,
+        "dmstOmSalesOrderData"
+      ],
+      "description": "OM Sales Order Data"
+    },
+    {
+      "enum": [
+        194,
+        "dmstCpoEquipmentData"
+      ],
+      "description": "CPO Equipment Data"
+    },
+    {
+      "enum": [
+        195,
+        "dmstChiller1Input"
+      ],
+      "description": "Chiller 1 Input"
+    },
+    {
+      "enum": [
+        196,
+        "dmstChiller2Input"
+      ],
+      "description": "Chiller 2 Input"
+    },
+    {
+      "enum": [
+        197,
+        "dmstChiller3Input"
+      ],
+      "description": "Chiller 3 Input"
+    },
+    {
+      "enum": [
+        198,
+        "dmstChiller4Input"
+      ],
+      "description": "Chiller 4 Input"
+    },
+    {
+      "enum": [
+        199,
+        "dmstChilledWater"
+      ],
+      "description": "Chilled Water"
+    },
+    {
+      "enum": [
+        200,
+        "dmstChllerPlant"
+      ],
+      "description": "Chiller Plant"
+    },
+    {
+      "enum": [
+        201,
+        "dmstCondenserWater"
+      ],
+      "description": "Condenser Water"
+    },
+    {
+      "enum": [
+        202,
+        "dmstCoolingTower"
+      ],
+      "description": "Cooling Tower"
+    },
+    {
+      "enum": [
+        203,
+        "dmstOutportData"
+      ],
+      "description": "Outport Data"
+    },
+    {
+      "enum": [
+        204,
+        "dmstSystem"
+      ],
+      "description": "System"
+    },
+    {
+      "enum": [
+        205,
+        "dmstColdThermalStorage"
+      ],
+      "description": "Cold Thermal Storage"
+    },
+    {
+      "enum": [
+        206,
+        "dmstHotThermalStorage"
+      ],
+      "description": "Hot Thermal Storage"
+    },
+    {
+      "enum": [
+        207,
+        "dmstBatteryContainer"
+      ],
+      "description": "Battery Container"
+    },
+    {
+      "enum": [
+        208,
+        "dmstChilledWaterLoadCoil"
+      ],
+      "description": "Chilled Water Load Coil"
+    },
+    {
+      "enum": [
+        209,
+        "dmstHotWaterLoadCoil"
+      ],
+      "description": "Hot Water Load Coil"
+    },
+    {
+      "enum": [
+        210,
+        "dmstSteamLoadCoil"
+      ],
+      "description": "Steam Load Coil"
+    },
+    {
+      "enum": [
+        211,
+        "dmstElectricityLoadCoil"
+      ],
+      "description": "Electricity Load Coil"
+    },
+    {
+      "enum": [
+        212,
+        "dmstDeaerator"
+      ],
+      "description": "Deaerator"
+    },
+    {
+      "enum": [
+        213,
+        "dmstChilledWaterPump"
+      ],
+      "description": "Chilled Water Pump"
+    },
+    {
+      "enum": [
+        214,
+        "dmstHotWaterPump"
+      ],
+      "description": "Hot Water Pump"
+    },
+    {
+      "enum": [
+        215,
+        "dmstSteamCondensatePump"
+      ],
+      "description": "Steam Condensate Pump"
+    },
+    {
+      "enum": [
+        216,
+        "dmstCondenserWaterPump"
+      ],
+      "description": "Condenser Water Pump"
+    },
+    {
+      "enum": [
+        217,
+        "dmstWaterPump"
+      ],
+      "description": "Water Pump"
+    },
+    {
+      "enum": [
+        218,
+        "dmstChilledWaterTwoWayValve"
+      ],
+      "description": "Chilled Water Two Way Valve"
+    },
+    {
+      "enum": [
+        219,
+        "dmstHotWaterTwoWayValve"
+      ],
+      "description": "Hot Water Two Way Valve"
+    },
+    {
+      "enum": [
+        220,
+        "dmstSteamTwoWayValve"
+      ],
+      "description": "Steam Two Way Valve"
+    },
+    {
+      "enum": [
+        221,
+        "dmstCondenserWaterTwoWayValve"
+      ],
+      "description": "Condenser Water Two Way Valve"
+    },
+    {
+      "enum": [
+        222,
+        "dmstWaterTwoWayValve"
+      ],
+      "description": "Water Two Way Valve"
+    },
+    {
+      "enum": [
+        223,
+        "dmstWaterTap"
+      ],
+      "description": "Water Tap"
+    },
+    {
+      "enum": [
+        224,
+        "dmstMakeUpWaterMix"
+      ],
+      "description": "Make Up Water Mix"
+    },
+    {
+      "enum": [
+        225,
+        "dmstDumpHeatExchanger"
+      ],
+      "description": "Dump Heat Exchanger"
+    },
+    {
+      "enum": [
+        226,
+        "dmstWaterSideEconomizer"
+      ],
+      "description": "Water Side Economizer"
+    },
+    {
+      "enum": [
+        227,
+        "dmstSteamHeatExchanger"
+      ],
+      "description": "Steam Heat Exchanger"
+    },
+    {
+      "enum": [
+        228,
+        "dmstBoiler"
+      ],
+      "description": "Boiler"
+    },
+    {
+      "enum": [
+        229,
+        "dmstGasTurbine"
+      ],
+      "description": "Gas Turbine"
+    },
+    {
+      "enum": [
+        230,
+        "dmstHeatRecoverySteamGenerator"
+      ],
+      "description": "Heat Recovery Steam Generator"
+    },
+    {
+      "enum": [
+        231,
+        "dmstGroundLoop"
+      ],
+      "description": "Ground Loop"
+    },
+    {
+      "enum": [
+        232,
+        "dmstSteamAbsorptionChiller"
+      ],
+      "description": "Steam Absorption Chiller"
+    },
+    {
+      "enum": [
+        233,
+        "dmstSteamDrivenChiller"
+      ],
+      "description": "Steam Driven Chiller"
+    },
+    {
+      "enum": [
+        234,
+        "dmstCpoPanelData"
+      ],
+      "description": "CPO Panel Data"
+    },
+    {
+      "enum": [
+        235,
+        "dmstCpoAliasReadData"
+      ],
+      "description": "CPO Alias Read Data"
+    },
+    {
+      "enum": [
+        236,
+        "dmstCpoAliasWriteData"
+      ],
+      "description": "CPO Alias Write Data"
+    },
+    {
+      "enum": [
+        237,
+        "dmstOutport2Data"
+      ],
+      "description": "Outport 2 Data"
+    },
+    {
+      "enum": [
+        238,
+        "dmstOutport3Data"
+      ],
+      "description": "Outport 3 Data"
+    },
+    {
+      "enum": [
+        239,
+        "dmst3rdPartyBacnetObject"
+      ],
+      "description": "3rd Party BACnet Object"
+    },
+    {
+      "enum": [
+        240,
+        "dmstElectricitySupplier"
+      ],
+      "description": "Electricity Supplier"
+    },
+    {
+      "enum": [
+        241,
+        "dmstWaterSupplier"
+      ],
+      "description": "Water Supplier"
+    },
+    {
+      "enum": [
+        242,
+        "dmstNaturalGasSupplier"
+      ],
+      "description": "Natural Gas Supplier"
+    },
+    {
+      "enum": [
+        243,
+        "dmstSteamSupplier"
+      ],
+      "description": "Steam Supplier"
+    },
+    {
+      "enum": [
+        244,
+        "dmstSteamTap"
+      ],
+      "description": "Steam Tap"
+    },
+    {
+      "enum": [
+        245,
+        "dmstTowerWetbulbAdjust"
+      ],
+      "description": "Tower Wetbulb Adjust"
+    },
+    {
+      "enum": [
+        246,
+        "dmstTowerNoAdjust"
+      ],
+      "description": "Tower No Adjust"
+    },
+    {
+      "enum": [
+        247,
+        "dmstCombustionTurbine"
+      ],
+      "description": "Combustion Turbine"
+    },
+    {
+      "enum": [
+        248,
+        "dmstDuctBurner"
+      ],
+      "description": "Duct Burner"
+    },
+    {
+      "enum": [
+        249,
+        "dmstDiverter"
+      ],
+      "description": "Diverter"
+    },
+    {
+      "enum": [
+        250,
+        "dmstBatteryCell"
+      ],
+      "description": "Battery Cell"
+    },
+    {
+      "enum": [
+        251,
+        "dmstCondensatePump"
+      ],
+      "description": "Condensate Pump"
+    },
+    {
+      "enum": [
+        252,
+        "dmstSteamDrivenCondensatePump"
+      ],
+      "description": "Steam Driven Condensate Pump"
+    },
+    {
+      "enum": [
+        253,
+        "dmstChilledWaterPipe"
+      ],
+      "description": "Chilled Water Pipe"
+    },
+    {
+      "enum": [
+        254,
+        "dmstHotWaterPipe"
+      ],
+      "description": "Hot Water Pipe"
+    },
+    {
+      "enum": [
+        255,
+        "dmstSteamPipe"
+      ],
+      "description": "Steam Pipe"
+    },
+    {
+      "enum": [
+        256,
+        "dmstCondenserWaterPipe"
+      ],
+      "description": "Condenser Water Pipe"
+    },
+    {
+      "enum": [
+        257,
+        "dmstWaterPipe"
+      ],
+      "description": "Water Pipe"
+    },
+    {
+      "enum": [
+        258,
+        "dmstCondensateValve"
+      ],
+      "description": "Condensate Valve"
+    },
+    {
+      "enum": [
+        259,
+        "dmstPressureReducingValve"
+      ],
+      "description": "Pressure Reducing Valve"
+    },
+    {
+      "enum": [
+        260,
+        "dmstCondensateMakeUpWaterMix"
+      ],
+      "description": "Condensate Make Up Water Mix"
+    },
+    {
+      "enum": [
+        261,
+        "dmstSurfaceCondenser"
+      ],
+      "description": "Surface Condenser"
+    },
+    {
+      "enum": [
+        262,
+        "dmstCondensingTurbine"
+      ],
+      "description": "Condensing Turbine"
+    },
+    {
+      "enum": [
+        263,
+        "dmstPrecooledCombustionTurbine"
+      ],
+      "description": "Precooled Combustion Turbine"
+    },
+    {
+      "enum": [
+        264,
+        "dmstInletAirCooler"
+      ],
+      "description": "Inlet Air Cooler"
+    },
+    {
+      "enum": [
+        265,
+        "dmstCalibration"
+      ],
+      "description": "Calibration"
+    },
+    {
+      "enum": [
+        266,
+        "dmstTuning"
+      ],
+      "description": "Tuning"
+    },
+    {
+      "enum": [
+        267,
+        "dmstColdWaterMassStorage"
+      ],
+      "description": "Cold Water Mass Storage"
+    },
+    {
+      "enum": [
+        268,
+        "dmstYmaaWriteData"
+      ],
+      "description": "YMAA Write Data"
+    },
+    {
+      "enum": [
+        269,
+        "dmstYmaaReadData"
+      ],
+      "description": "YMAA Read Data"
+    },
+    {
+      "enum": [
+        270,
+        "dmstYmaaMultiplexReadData"
+      ],
+      "description": "YMAA Multiplex Read Data"
+    },
+    {
+      "enum": [
+        271,
+        "dmstYmaaExpandedReadData"
+      ],
+      "description": "YMAA Expanded Read Data"
+    },
+    {
+      "enum": [
+        272,
+        "dmstYgwhVWriteData"
+      ],
+      "description": "YGWH-V Write Data"
+    },
+    {
+      "enum": [
+        273,
+        "dmstYgwhVReadData"
+      ],
+      "description": "YGWH-V Read Data"
+    },
+    {
+      "enum": [
+        274,
+        "dmstYmaaExpandedReadData2"
+      ],
+      "description": "YMAA Expanded Read Data 2"
+    },
+    {
+      "enum": [
+        275,
+        "dmstYmaaExpandedReadData3"
+      ],
+      "description": "YMAA Expanded Read Data 3"
+    },
+    {
+      "enum": [
+        276,
+        "dmstLightingController"
+      ],
+      "description": "Lighting Controller"
+    },
+    {
+      "enum": [
+        277,
+        "dmstLightingSensorAnalog"
+      ],
+      "description": "Lighting Sensor Analog"
+    },
+    {
+      "enum": [
+        278,
+        "dmstLightingSensorBinary"
+      ],
+      "description": "Lighting Sensor Binary"
+    },
+    {
+      "enum": [
+        279,
+        "dmstLightingCircuit1"
+      ],
+      "description": "Lighting Circuit 1"
+    },
+    {
+      "enum": [
+        280,
+        "dmstLightingCircuit2"
+      ],
+      "description": "Lighting Circuit 2"
+    },
+    {
+      "enum": [
+        281,
+        "dmstLightingCircuit3"
+      ],
+      "description": "Lighting Circuit 3"
+    },
+    {
+      "enum": [
+        282,
+        "dmstLightingCircuit4"
+      ],
+      "description": "Lighting Circuit 4"
+    },
+    {
+      "enum": [
+        283,
+        "dmstLightingCircuit5"
+      ],
+      "description": "Lighting Circuit 5"
+    },
+    {
+      "enum": [
+        284,
+        "dmstLightingCircuit6"
+      ],
+      "description": "Lighting Circuit 6"
+    },
+    {
+      "enum": [
+        285,
+        "dmstLightingCircuit7"
+      ],
+      "description": "Lighting Circuit 7"
+    },
+    {
+      "enum": [
+        286,
+        "dmstLightingCircuit8"
+      ],
+      "description": "Lighting Circuit 8"
+    },
+    {
+      "enum": [
+        287,
+        "dmstLightingCircuit9"
+      ],
+      "description": "Lighting Circuit 9"
+    },
+    {
+      "enum": [
+        288,
+        "dmstLightingZone"
+      ],
+      "description": "Lighting Zone"
+    },
+    {
+      "enum": [
+        289,
+        "dmstIom200"
+      ],
+      "description": "IOM200"
+    },
+    {
+      "enum": [
+        290,
+        "dmstAnalogInput"
+      ],
+      "description": "Analog Input"
+    },
+    {
+      "enum": [
+        291,
+        "dmstBinaryInput"
+      ],
+      "description": "Binary Input"
+    },
+    {
+      "enum": [
+        292,
+        "dmstBinaryOutput"
+      ],
+      "description": "Binary Output"
+    },
+    {
+      "enum": [
+        293,
+        "dmstNetsensorTemp"
+      ],
+      "description": "Netsensor Temp"
+    },
+    {
+      "enum": [
+        294,
+        "dmstNetsensorHumidity"
+      ],
+      "description": "Netsensor Humidity"
+    },
+    {
+      "enum": [
+        295,
+        "dmstEnergyMeter"
+      ],
+      "description": "Energy Meter"
+    },
+    {
+      "enum": [
+        296,
+        "dmstPhase"
+      ],
+      "description": "Phase"
+    },
+    {
+      "enum": [
+        297,
+        "dmstEnergyMeterInput"
+      ],
+      "description": "Energy Meter Input"
+    },
+    {
+      "enum": [
+        298,
+        "dmstCctApplication"
+      ],
+      "description": "CCT Application"
+    },
+    {
+      "enum": [
+        299,
+        "dmstPlant"
+      ],
+      "description": "Plant"
+    },
+    {
+      "enum": [
+        300,
+        "dmstSc120SpaceController"
+      ],
+      "description": "SC120 Space Controller"
+    },
+    {
+      "enum": [
+        301,
+        "dmstRoom"
+      ],
+      "description": "Room"
+    },
+    {
+      "enum": [
+        302,
+        "dmstFancoil"
+      ],
+      "description": "Fancoil"
+    },
+    {
+      "enum": [
+        303,
+        "dmstT8800"
+      ],
+      "description": "T8800 Thermostat"
+    }
+  ]
+}

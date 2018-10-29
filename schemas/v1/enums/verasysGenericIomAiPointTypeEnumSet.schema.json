@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/verasysGenericIomAiPointTypeEnumSet.schema.json",
+  "title": "verasysGenericIomAiPointTypeEnumSet",
+  "description": "Verasys Generic IOM AI Point Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "verasysGenericIomUndefined"
+      ],
+      "description": "Undefined"
+    },
+    {
+      "enum": [
+        1,
+        "verasysGenericIomTemp"
+      ],
+      "description": "Temperature"
+    },
+    {
+      "enum": [
+        2,
+        "verasysGenericIomHumidity"
+      ],
+      "description": "Humidity"
+    },
+    {
+      "enum": [
+        3,
+        "verasysGenericIomCo2"
+      ],
+      "description": "CO2"
+    },
+    {
+      "enum": [
+        4,
+        "verasysGenericIomLightSensor"
+      ],
+      "description": "Light Sensor"
+    },
+    {
+      "enum": [
+        5,
+        "verasysGenericIomRefrigerant"
+      ],
+      "description": "Refrigerant"
+    },
+    {
+      "enum": [
+        6,
+        "verasysGenericIomBuildPres"
+      ],
+      "description": "Building Pressure"
+    },
+    {
+      "enum": [
+        7,
+        "verasysGenericIomSteamPres"
+      ],
+      "description": "Steam Pressure"
+    },
+    {
+      "enum": [
+        8,
+        "verasysGenericIomVoltage"
+      ],
+      "description": "Voltage"
+    },
+    {
+      "enum": [
+        9,
+        "verasysGenericIomCurrent"
+      ],
+      "description": "Current"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000OccupancyStatusEnumSet.schema.json",
+  "title": "tec3000OccupancyStatusEnumSet",
+  "description": "TEC3000 Occupancy Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000OccupancyStatusOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000OccupancyStatusTempOccupancy"
+      ],
+      "description": "Temp Occupancy"
+    },
+    {
+      "enum": [
+        2,
+        "tec3000OccupancyStatusUnoccupied"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        3,
+        "tec3000OccupancyStatusStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        4,
+        "tec3000OccupancyStatusOccupiedOverride"
+      ],
+      "description": "Occupied-Override"
+    },
+    {
+      "enum": [
+        5,
+        "tec3000OccupancyStatusUnoccupiedOverride"
+      ],
+      "description": "Unoccupied-Override"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seShortReliabilitySet.schema.json",
+  "title": "seShortReliabilitySet",
+  "description": "SE short reliability enum set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seShortOpenShortrel"
+      ],
+      "description": "?Open"
+    },
+    {
+      "enum": [
+        1,
+        "seShortShortedShortrel"
+      ],
+      "description": "?Shorted"
+    },
+    {
+      "enum": [
+        2,
+        "seShortSourceUnavailShortrel"
+      ],
+      "description": "?Unavail"
+    },
+    {
+      "enum": [
+        3,
+        "seShortUnrelShortrel"
+      ],
+      "description": "?Unrel"
+    },
+    {
+      "enum": [
+        4,
+        "seShortOutrangeShortrel"
+      ],
+      "description": "?OutRnge"
+    }
+  ]
+}

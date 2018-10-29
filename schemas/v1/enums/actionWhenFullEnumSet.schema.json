@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/actionWhenFullEnumSet.schema.json",
+  "title": "actionWhenFullEnumSet",
+  "description": "Action When Full",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rolloverActionWhenFull"
+      ],
+      "description": "Rollover"
+    },
+    {
+      "enum": [
+        1,
+        "stopActionWhenFull"
+      ],
+      "description": "Stop"
+    }
+  ]
+}

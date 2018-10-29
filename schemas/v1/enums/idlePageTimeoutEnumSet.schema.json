@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/idlePageTimeoutEnumSet.schema.json",
+  "title": "idlePageTimeoutEnumSet",
+  "description": "Idle Page Timeout",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "idlePageTimeout1Min"
+      ],
+      "description": "1 min"
+    },
+    {
+      "enum": [
+        1,
+        "idlePageTimeout5Min"
+      ],
+      "description": "5 mins"
+    },
+    {
+      "enum": [
+        2,
+        "idlePageTimeout15Min"
+      ],
+      "description": "15 mins"
+    },
+    {
+      "enum": [
+        3,
+        "idlePageTimeout30Min"
+      ],
+      "description": "30 mins"
+    },
+    {
+      "enum": [
+        4,
+        "idlePageTimeout1Hr"
+      ],
+      "description": "1 hour"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/connectorInvalidEnumSet.schema.json",
+  "title": "connectorInvalidEnumSet",
+  "description": "Connector Invalid",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "connectorInvalid"
+      ],
+      "description": "Invalid"
+    }
+  ]
+}

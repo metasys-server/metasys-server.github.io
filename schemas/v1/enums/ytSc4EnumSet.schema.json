@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ytSc4EnumSet.schema.json",
+  "title": "ytSc4EnumSet",
+  "description": "YT Warning Code SC.4",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ytSc40"
+      ],
+      "description": "NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        1,
+        "ytSc41"
+      ],
+      "description": "REAL-TIME CLOCK FAILURE"
+    },
+    {
+      "enum": [
+        2,
+        "ytSc42"
+      ],
+      "description": "DEFAULT SETPOINTS LOADED"
+    },
+    {
+      "enum": [
+        3,
+        "ytSc43"
+      ],
+      "description": "EVAPORATOR OR CONDENSER TRANSDUCER ERROR"
+    },
+    {
+      "enum": [
+        4,
+        "ytSc44"
+      ],
+      "description": "EVAPORATOR - LOW PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        5,
+        "ytSc45"
+      ],
+      "description": "CONDENSER - HIGH PRESSURE LIMIT"
+    },
+    {
+      "enum": [
+        6,
+        "ytSc46"
+      ],
+      "description": "RESERVED 6"
+    },
+    {
+      "enum": [
+        7,
+        "ytSc47"
+      ],
+      "description": "RESERVED 7"
+    },
+    {
+      "enum": [
+        8,
+        "ytSc48"
+      ],
+      "description": "RESERVED 8"
+    },
+    {
+      "enum": [
+        9,
+        "ytSc49"
+      ],
+      "description": "RESERVED 9"
+    },
+    {
+      "enum": [
+        10,
+        "ytSc410"
+      ],
+      "description": "PURGE - HIGH PRESSURE"
+    },
+    {
+      "enum": [
+        11,
+        "ytSc411"
+      ],
+      "description": "PURGE - FLOAT SWITCH ERROR"
+    },
+    {
+      "enum": [
+        12,
+        "ytSc412"
+      ],
+      "description": "PURGE - EXCESS PURGE"
+    },
+    {
+      "enum": [
+        13,
+        "ytSc413"
+      ],
+      "description": "RESERVED 13"
+    },
+    {
+      "enum": [
+        14,
+        "ytSc414"
+      ],
+      "description": "MOTOR - HIGH CURRENT LIMIT"
+    },
+    {
+      "enum": [
+        15,
+        "ytSc415"
+      ],
+      "description": "VANES UNCALIBRATED"
+    },
+    {
+      "enum": [
+        16,
+        "ytSc416"
+      ],
+      "description": "VANES UNCALIBRATED - FIXED SPEED OPERATION"
+    },
+    {
+      "enum": [
+        17,
+        "ytSc417"
+      ],
+      "description": "HARMONIC FILTER - OPERATION INHIBITED"
+    },
+    {
+      "enum": [
+        18,
+        "ytSc418"
+      ],
+      "description": "HARMONIC FILTER - DATA LOSS"
+    },
+    {
+      "enum": [
+        19,
+        "ytSc419"
+      ],
+      "description": "HARMONIC FILTER - INPUT FREQUENCY OUT OF RANGE"
+    },
+    {
+      "enum": [
+        20,
+        "ytSc420"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ytSc421"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ytSc422"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ytSc423"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "ytSc424"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ytSc425"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ytSc426"
+      ],
+      "description": "EXTERNAL I/O BOARD SERIAL COMMUNICATIONS"
+    }
+  ]
+}

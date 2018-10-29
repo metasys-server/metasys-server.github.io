@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexAccessSecureEnumSet.schema.json",
+  "title": "unityNexAccessSecureEnumSet",
+  "description": "Unity NEX Access/Secure",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, Secure"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Access"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, Secure"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Access"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    }
+  ]
+}

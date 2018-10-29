@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rangeCheckEnumSet.schema.json",
+  "title": "rangeCheckEnumSet",
+  "description": "Range Check",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noCheck"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "useLimits"
+      ],
+      "description": "Between Limits"
+    },
+    {
+      "enum": [
+        2,
+        "greaterThanZero"
+      ],
+      "description": "Greater Than Zero"
+    },
+    {
+      "enum": [
+        3,
+        "greaterOrEqualZero"
+      ],
+      "description": "Greater Equal Zero"
+    },
+    {
+      "enum": [
+        4,
+        "notZero"
+      ],
+      "description": "Not Zero"
+    }
+  ]
+}

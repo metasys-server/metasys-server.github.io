@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/d9068DactFaultCauseEnumSet.schema.json",
+  "title": "d9068DactFaultCauseEnumSet",
+  "description": "D9068 DACT Fault Cause",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "d9068DactFaultCauseNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "d9068DactFaultCauseBufferFull"
+      ],
+      "description": "Buffer Full"
+    },
+    {
+      "enum": [
+        2,
+        "d9068DactFaultCauseDialerGeneralTrouble"
+      ],
+      "description": "General Trouble"
+    },
+    {
+      "enum": [
+        3,
+        "d9068DactFaultCauseDialerCommFault"
+      ],
+      "description": "Dialer Comm. Fault"
+    },
+    {
+      "enum": [
+        4,
+        "d9068DactFaultCauseBadLine2"
+      ],
+      "description": "Bad Line 2"
+    },
+    {
+      "enum": [
+        5,
+        "d9068DactFaultCauseBadLine1"
+      ],
+      "description": "Bad Line 1"
+    },
+    {
+      "enum": [
+        6,
+        "d9068DactFaultCausePort"
+      ],
+      "description": "Port"
+    },
+    {
+      "enum": [
+        7,
+        "d9068DactFaultCauseTask"
+      ],
+      "description": "Task"
+    }
+  ]
+}

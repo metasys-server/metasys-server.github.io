@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahu2SequencedValvesOutEnumSet.schema.json",
+  "title": "ahu2SequencedValvesOutEnumSet",
+  "description": "AHU 2 Sequenced Valves Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "a2SvoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "a2SvoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "a2SvoLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "a2SvoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "a2SvoTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        5,
+        "a2SvoLlTControl"
+      ],
+      "description": "LL-T Control"
+    },
+    {
+      "enum": [
+        6,
+        "a2SvoFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        7,
+        "a2SvoLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        8,
+        "a2SvoLowOaTemperatureStartup"
+      ],
+      "description": "Low OA Temperature Startup"
+    },
+    {
+      "enum": [
+        9,
+        "a2SvoRemainInCtrl"
+      ],
+      "description": "Remain In Control"
+    }
+  ]
+}

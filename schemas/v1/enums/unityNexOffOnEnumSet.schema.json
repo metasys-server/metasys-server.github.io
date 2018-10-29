@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityNexOffOnEnumSet.schema.json",
+  "title": "unityNexOffOnEnumSet",
+  "description": "Unity NEX Off/On",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Fix, On"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Fix, Off"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Set, On"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Set, Off"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Release"
+    }
+  ]
+}

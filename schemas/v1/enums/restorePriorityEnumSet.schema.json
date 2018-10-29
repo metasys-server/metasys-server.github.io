@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/restorePriorityEnumSet.schema.json",
+  "title": "restorePriorityEnumSet",
+  "description": "Restore Priority",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual Life Safety"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Auto Life Safety"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Priority 3"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Priority 4"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Critical Equipment"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Minimum On Off"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Heavy Equip Delay"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Operator Override"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Priority 9"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Priority 10"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Demand Limiting"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Priority 12"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Load Rolling"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Priority 14"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Scheduling"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Default"
+    }
+  ]
+}

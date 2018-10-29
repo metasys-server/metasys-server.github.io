@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/coilLocationEnumSet.schema.json",
+  "title": "coilLocationEnumSet",
+  "description": "Coil Location",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "coilLocSameHeating"
+      ],
+      "description": "Same as Heating"
+    },
+    {
+      "enum": [
+        1,
+        "coilLocSepHeating"
+      ],
+      "description": "Separate from Heating"
+    }
+  ]
+}

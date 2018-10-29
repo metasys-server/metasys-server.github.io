@@ -1,0 +1,5566 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpo5ShortNameEnumSet.schema.json",
+  "title": "cpo5ShortNameEnumSet",
+  "description": "CPO5 SHORT NAME",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpo5ShortNameCh1ModelName"
+      ],
+      "description": "CH1 MODEL NAME"
+    },
+    {
+      "enum": [
+        1,
+        "cpo5ShortNameCh1Mti"
+      ],
+      "description": "CH1 MTI"
+    },
+    {
+      "enum": [
+        2,
+        "cpo5ShortNameCh1ChwdpF"
+      ],
+      "description": "CH1 CHWDP-F"
+    },
+    {
+      "enum": [
+        3,
+        "cpo5ShortNameCh1ChwMaxFlow"
+      ],
+      "description": "CH1 CHW MAX FLOW"
+    },
+    {
+      "enum": [
+        4,
+        "cpo5ShortNameCh1ChwMinFlow"
+      ],
+      "description": "CH1 CHW MIN FLOW"
+    },
+    {
+      "enum": [
+        5,
+        "cpo5ShortNameCh1ChwrT"
+      ],
+      "description": "CH1 CHWR-T"
+    },
+    {
+      "enum": [
+        6,
+        "cpo5ShortNameCh1ChwsT"
+      ],
+      "description": "CH1 CHWS-T"
+    },
+    {
+      "enum": [
+        7,
+        "cpo5ShortNameCh1CsLwrSpOptPct"
+      ],
+      "description": "CH1 CS LWR SP OPT PCT"
+    },
+    {
+      "enum": [
+        8,
+        "cpo5ShortNameCh1CsUpperSpOptPct"
+      ],
+      "description": "CH1 CS UPPER SP OPT PCT"
+    },
+    {
+      "enum": [
+        9,
+        "cpo5ShortNameCh1CwMinFlow"
+      ],
+      "description": "CH1 CW MIN FLOW"
+    },
+    {
+      "enum": [
+        10,
+        "cpo5ShortNameCh1CwrT"
+      ],
+      "description": "CH1 CWR-T"
+    },
+    {
+      "enum": [
+        11,
+        "cpo5ShortNameCh1CwsT"
+      ],
+      "description": "CH1 CWS-T"
+    },
+    {
+      "enum": [
+        12,
+        "cpo5ShortNameCh1DesignLift"
+      ],
+      "description": "CH1 DESIGN LIFT"
+    },
+    {
+      "enum": [
+        13,
+        "cpo5ShortNameCh1InsideDiam"
+      ],
+      "description": "CH1 INSIDE DIAM"
+    },
+    {
+      "enum": [
+        14,
+        "cpo5ShortNameCh1Frx"
+      ],
+      "description": "CH1 FRx"
+    },
+    {
+      "enum": [
+        15,
+        "cpo5ShortNameCh1Fry"
+      ],
+      "description": "CH1 FRy"
+    },
+    {
+      "enum": [
+        16,
+        "cpo5ShortNameCh1IntrstgTransDly"
+      ],
+      "description": "CH1 INTRSTG TRANS DLY"
+    },
+    {
+      "enum": [
+        17,
+        "cpo5ShortNameCh1LiftHighRange"
+      ],
+      "description": "CH1 LIFT HIGH RANGE"
+    },
+    {
+      "enum": [
+        18,
+        "cpo5ShortNameCh1LiftLowRange"
+      ],
+      "description": "CH1 LIFT LOW RANGE"
+    },
+    {
+      "enum": [
+        19,
+        "cpo5ShortNameCh1LiftSens"
+      ],
+      "description": "CH1 LIFT SENS"
+    },
+    {
+      "enum": [
+        20,
+        "cpo5ShortNameCh1ShellLength"
+      ],
+      "description": "CH1 SHELL LENGTH"
+    },
+    {
+      "enum": [
+        21,
+        "cpo5ShortNameCh1LwrOptSpHighRange"
+      ],
+      "description": "CH1 LWR OPT SP HIGH RANGE"
+    },
+    {
+      "enum": [
+        22,
+        "cpo5ShortNameCh1LwrOptSpLowRange"
+      ],
+      "description": "CH1 LWR OPT SP LOW RANGE"
+    },
+    {
+      "enum": [
+        23,
+        "cpo5ShortNameCh1MaxPctLoad"
+      ],
+      "description": "CH1 MAX PCT LOAD"
+    },
+    {
+      "enum": [
+        24,
+        "cpo5ShortNameCh1MaxPctLoadCop"
+      ],
+      "description": "CH1 MAX PCT LOAD COP"
+    },
+    {
+      "enum": [
+        25,
+        "cpo5ShortNameCh1MediaType"
+      ],
+      "description": "CH1 MEDIA TYPE"
+    },
+    {
+      "enum": [
+        26,
+        "cpo5ShortNameCh1MinPctLoad"
+      ],
+      "description": "CH1 MIN PCT LOAD"
+    },
+    {
+      "enum": [
+        27,
+        "cpo5ShortNameCh1MinPctLoadCop"
+      ],
+      "description": "CH1 MIN PCT LOAD COP"
+    },
+    {
+      "enum": [
+        28,
+        "cpo5ShortNameCh1Ms"
+      ],
+      "description": "CH1-MS"
+    },
+    {
+      "enum": [
+        29,
+        "cpo5ShortNameCh1OpCode"
+      ],
+      "description": "CH1 OP CODE"
+    },
+    {
+      "enum": [
+        30,
+        "cpo5ShortNameCh1Passes"
+      ],
+      "description": "CH1 PASSES"
+    },
+    {
+      "enum": [
+        31,
+        "cpo5ShortNameCh1PctLoadSpResetEn"
+      ],
+      "description": "CH1 PCT LOAD SP RESET EN"
+    },
+    {
+      "enum": [
+        32,
+        "cpo5ShortNameCh1PeakCop"
+      ],
+      "description": "CH1 PEAK COP"
+    },
+    {
+      "enum": [
+        33,
+        "cpo5ShortNameCh1ProdFamCode"
+      ],
+      "description": "CH1 PROD FAM CODE"
+    },
+    {
+      "enum": [
+        34,
+        "cpo5ShortNameCh1RatedCap"
+      ],
+      "description": "CH1 RATED CAP"
+    },
+    {
+      "enum": [
+        35,
+        "cpo5ShortNameCh1RatedChwFlow"
+      ],
+      "description": "CH1 RATED CHW FLOW"
+    },
+    {
+      "enum": [
+        36,
+        "cpo5ShortNameCh1RatedCwFlow"
+      ],
+      "description": "CH1 RATED CW FLOW"
+    },
+    {
+      "enum": [
+        37,
+        "cpo5ShortNameCh1RatedPow"
+      ],
+      "description": "CH1 RATED POW"
+    },
+    {
+      "enum": [
+        38,
+        "cpo5ShortNameCh1Runtime"
+      ],
+      "description": "CH1 RUNTIME"
+    },
+    {
+      "enum": [
+        39,
+        "cpo5ShortNameCh1StabilizeTime"
+      ],
+      "description": "CH1 STABILIZE TIME"
+    },
+    {
+      "enum": [
+        40,
+        "cpo5ShortNameCh1S"
+      ],
+      "description": "CH1-S"
+    },
+    {
+      "enum": [
+        41,
+        "cpo5ShortNameCh1TubeCount"
+      ],
+      "description": "CH1 TUBE COUNT"
+    },
+    {
+      "enum": [
+        42,
+        "cpo5ShortNameCh1UpperOptSpHighRange"
+      ],
+      "description": "CH1 UPPER OPT SP HIGH RANGE"
+    },
+    {
+      "enum": [
+        43,
+        "cpo5ShortNameCh1UpperOptSpLowRange"
+      ],
+      "description": "CH1 UPPER OPT SP LOW RANGE"
+    },
+    {
+      "enum": [
+        44,
+        "cpo5ShortNameCh1DriveType"
+      ],
+      "description": "CH1 DRIVE TYPE"
+    },
+    {
+      "enum": [
+        45,
+        "cpo5ShortNameCh1VsLwrSpOptPct"
+      ],
+      "description": "CH1 VS LWR SP OPT PCT"
+    },
+    {
+      "enum": [
+        46,
+        "cpo5ShortNameCh1VsUpperSpOptPct"
+      ],
+      "description": "CH1 VS UPPER SP OPT PCT"
+    },
+    {
+      "enum": [
+        47,
+        "cpo5ShortNameCh1InterlockSetup"
+      ],
+      "description": "CH1 INTERLOCK SETUP"
+    },
+    {
+      "enum": [
+        48,
+        "cpo5ShortNameCh1MediaConc"
+      ],
+      "description": "CH1 MEDIA CONC"
+    },
+    {
+      "enum": [
+        49,
+        "cpo5ShortNameCh2ModelName"
+      ],
+      "description": "CH2 MODEL NAME"
+    },
+    {
+      "enum": [
+        50,
+        "cpo5ShortNameCh2Mti"
+      ],
+      "description": "CH2 MTI"
+    },
+    {
+      "enum": [
+        51,
+        "cpo5ShortNameCh2ChwdpF"
+      ],
+      "description": "CH2 CHWDP-F"
+    },
+    {
+      "enum": [
+        52,
+        "cpo5ShortNameCh2ChwMaxFlow"
+      ],
+      "description": "CH2 CHW MAX FLOW"
+    },
+    {
+      "enum": [
+        53,
+        "cpo5ShortNameCh2ChwMinFlow"
+      ],
+      "description": "CH2 CHW MIN FLOW"
+    },
+    {
+      "enum": [
+        54,
+        "cpo5ShortNameCh2ChwrT"
+      ],
+      "description": "CH2 CHWR-T"
+    },
+    {
+      "enum": [
+        55,
+        "cpo5ShortNameCh2ChwsT"
+      ],
+      "description": "CH2 CHWS-T"
+    },
+    {
+      "enum": [
+        56,
+        "cpo5ShortNameCh2CsLwrSpOptPct"
+      ],
+      "description": "CH2 CS LWR SP OPT PCT"
+    },
+    {
+      "enum": [
+        57,
+        "cpo5ShortNameCh2CsUpperSpOptPct"
+      ],
+      "description": "CH2 CS UPPER SP OPT PCT"
+    },
+    {
+      "enum": [
+        58,
+        "cpo5ShortNameCh2CwMinFlow"
+      ],
+      "description": "CH2 CW MIN FLOW"
+    },
+    {
+      "enum": [
+        59,
+        "cpo5ShortNameCh2CwrT"
+      ],
+      "description": "CH2 CWR-T"
+    },
+    {
+      "enum": [
+        60,
+        "cpo5ShortNameCh2CwsT"
+      ],
+      "description": "CH2 CWS-T"
+    },
+    {
+      "enum": [
+        61,
+        "cpo5ShortNameCh2DesignLift"
+      ],
+      "description": "CH2 DESIGN LIFT"
+    },
+    {
+      "enum": [
+        62,
+        "cpo5ShortNameCh2InsideDiam"
+      ],
+      "description": "CH2 INSIDE DIAM"
+    },
+    {
+      "enum": [
+        63,
+        "cpo5ShortNameCh2Frx"
+      ],
+      "description": "CH2 FRx"
+    },
+    {
+      "enum": [
+        64,
+        "cpo5ShortNameCh2Fry"
+      ],
+      "description": "CH2 FRy"
+    },
+    {
+      "enum": [
+        65,
+        "cpo5ShortNameCh2IntrstgTransDly"
+      ],
+      "description": "CH2 INTRSTG TRANS DLY"
+    },
+    {
+      "enum": [
+        66,
+        "cpo5ShortNameCh2LiftHighRange"
+      ],
+      "description": "CH2 LIFT HIGH RANGE"
+    },
+    {
+      "enum": [
+        67,
+        "cpo5ShortNameCh2LiftLowRange"
+      ],
+      "description": "CH2 LIFT LOW RANGE"
+    },
+    {
+      "enum": [
+        68,
+        "cpo5ShortNameCh2LiftSens"
+      ],
+      "description": "CH2 LIFT SENS"
+    },
+    {
+      "enum": [
+        69,
+        "cpo5ShortNameCh2ShellLength"
+      ],
+      "description": "CH2 SHELL LENGTH"
+    },
+    {
+      "enum": [
+        70,
+        "cpo5ShortNameCh2LwrOptSpHighRange"
+      ],
+      "description": "CH2 LWR OPT SP HIGH RANGE"
+    },
+    {
+      "enum": [
+        71,
+        "cpo5ShortNameCh2LwrOptSpLowRange"
+      ],
+      "description": "CH2 LWR OPT SP LOW RANGE"
+    },
+    {
+      "enum": [
+        72,
+        "cpo5ShortNameCh2MaxPctLoad"
+      ],
+      "description": "CH2 MAX PCT LOAD"
+    },
+    {
+      "enum": [
+        73,
+        "cpo5ShortNameCh2MaxPctLoadCop"
+      ],
+      "description": "CH2 MAX PCT LOAD COP"
+    },
+    {
+      "enum": [
+        74,
+        "cpo5ShortNameCh2MediaType"
+      ],
+      "description": "CH2 MEDIA TYPE"
+    },
+    {
+      "enum": [
+        75,
+        "cpo5ShortNameCh2MinPctLoad"
+      ],
+      "description": "CH2 MIN PCT LOAD"
+    },
+    {
+      "enum": [
+        76,
+        "cpo5ShortNameCh2MinPctLoadCop"
+      ],
+      "description": "CH2 MIN PCT LOAD COP"
+    },
+    {
+      "enum": [
+        77,
+        "cpo5ShortNameCh2Ms"
+      ],
+      "description": "CH2-MS"
+    },
+    {
+      "enum": [
+        78,
+        "cpo5ShortNameCh2OpCode"
+      ],
+      "description": "CH2 OP CODE"
+    },
+    {
+      "enum": [
+        79,
+        "cpo5ShortNameCh2Passes"
+      ],
+      "description": "CH2 PASSES"
+    },
+    {
+      "enum": [
+        80,
+        "cpo5ShortNameCh2PctLoadSpResetEn"
+      ],
+      "description": "CH2 PCT LOAD SP RESET EN"
+    },
+    {
+      "enum": [
+        81,
+        "cpo5ShortNameCh2PeakCop"
+      ],
+      "description": "CH2 PEAK COP"
+    },
+    {
+      "enum": [
+        82,
+        "cpo5ShortNameCh2ProdFamCode"
+      ],
+      "description": "CH2 PROD FAM CODE"
+    },
+    {
+      "enum": [
+        83,
+        "cpo5ShortNameCh2RatedCap"
+      ],
+      "description": "CH2 RATED CAP"
+    },
+    {
+      "enum": [
+        84,
+        "cpo5ShortNameCh2RatedChwFlow"
+      ],
+      "description": "CH2 RATED CHW FLOW"
+    },
+    {
+      "enum": [
+        85,
+        "cpo5ShortNameCh2RatedCwFlow"
+      ],
+      "description": "CH2 RATED CW FLOW"
+    },
+    {
+      "enum": [
+        86,
+        "cpo5ShortNameCh2RatedPow"
+      ],
+      "description": "CH2 RATED POW"
+    },
+    {
+      "enum": [
+        87,
+        "cpo5ShortNameCh2Runtime"
+      ],
+      "description": "CH2 RUNTIME"
+    },
+    {
+      "enum": [
+        88,
+        "cpo5ShortNameCh2StabilizeTime"
+      ],
+      "description": "CH2 STABILIZE TIME"
+    },
+    {
+      "enum": [
+        89,
+        "cpo5ShortNameCh2S"
+      ],
+      "description": "CH2-S"
+    },
+    {
+      "enum": [
+        90,
+        "cpo5ShortNameCh2TubeCount"
+      ],
+      "description": "CH2 TUBE COUNT"
+    },
+    {
+      "enum": [
+        91,
+        "cpo5ShortNameCh2UpperOptSpHighRange"
+      ],
+      "description": "CH2 UPPER OPT SP HIGH RANGE"
+    },
+    {
+      "enum": [
+        92,
+        "cpo5ShortNameCh2UpperOptSpLowRange"
+      ],
+      "description": "CH2 UPPER OPT SP LOW RANGE"
+    },
+    {
+      "enum": [
+        93,
+        "cpo5ShortNameCh2DriveType"
+      ],
+      "description": "CH2 DRIVE TYPE"
+    },
+    {
+      "enum": [
+        94,
+        "cpo5ShortNameCh2VsLwrSpOptPct"
+      ],
+      "description": "CH2 VS LWR SP OPT PCT"
+    },
+    {
+      "enum": [
+        95,
+        "cpo5ShortNameCh2VsUpperSpOptPct"
+      ],
+      "description": "CH2 VS UPPER SP OPT PCT"
+    },
+    {
+      "enum": [
+        96,
+        "cpo5ShortNameCh2InterlockSetup"
+      ],
+      "description": "CH2 INTERLOCK SETUP"
+    },
+    {
+      "enum": [
+        97,
+        "cpo5ShortNameCh2MediaConc"
+      ],
+      "description": "CH2 MEDIA CONC"
+    },
+    {
+      "enum": [
+        98,
+        "cpo5ShortNameCh3ModelName"
+      ],
+      "description": "CH3 MODEL NAME"
+    },
+    {
+      "enum": [
+        99,
+        "cpo5ShortNameCh3Mti"
+      ],
+      "description": "CH3 MTI"
+    },
+    {
+      "enum": [
+        100,
+        "cpo5ShortNameCh3ChwdpF"
+      ],
+      "description": "CH3 CHWDP-F"
+    },
+    {
+      "enum": [
+        101,
+        "cpo5ShortNameCh3ChwMaxFlow"
+      ],
+      "description": "CH3 CHW MAX FLOW"
+    },
+    {
+      "enum": [
+        102,
+        "cpo5ShortNameCh3ChwMinFlow"
+      ],
+      "description": "CH3 CHW MIN FLOW"
+    },
+    {
+      "enum": [
+        103,
+        "cpo5ShortNameCh3ChwrT"
+      ],
+      "description": "CH3 CHWR-T"
+    },
+    {
+      "enum": [
+        104,
+        "cpo5ShortNameCh3ChwsT"
+      ],
+      "description": "CH3 CHWS-T"
+    },
+    {
+      "enum": [
+        105,
+        "cpo5ShortNameCh3CsLwrSpOptPct"
+      ],
+      "description": "CH3 CS LWR SP OPT PCT"
+    },
+    {
+      "enum": [
+        106,
+        "cpo5ShortNameCh3CsUpperSpOptPct"
+      ],
+      "description": "CH3 CS UPPER SP OPT PCT"
+    },
+    {
+      "enum": [
+        107,
+        "cpo5ShortNameCh3CwMinFlow"
+      ],
+      "description": "CH3 CW MIN FLOW"
+    },
+    {
+      "enum": [
+        108,
+        "cpo5ShortNameCh3CwrT"
+      ],
+      "description": "CH3 CWR-T"
+    },
+    {
+      "enum": [
+        109,
+        "cpo5ShortNameCh3CwsT"
+      ],
+      "description": "CH3 CWS-T"
+    },
+    {
+      "enum": [
+        110,
+        "cpo5ShortNameCh3DesignLift"
+      ],
+      "description": "CH3 DESIGN LIFT"
+    },
+    {
+      "enum": [
+        111,
+        "cpo5ShortNameCh3InsideDiam"
+      ],
+      "description": "CH3 INSIDE DIAM"
+    },
+    {
+      "enum": [
+        112,
+        "cpo5ShortNameCh3Frx"
+      ],
+      "description": "CH3 FRx"
+    },
+    {
+      "enum": [
+        113,
+        "cpo5ShortNameCh3Fry"
+      ],
+      "description": "CH3 FRy"
+    },
+    {
+      "enum": [
+        114,
+        "cpo5ShortNameCh3IntrstgTransDly"
+      ],
+      "description": "CH3 INTRSTG TRANS DLY"
+    },
+    {
+      "enum": [
+        115,
+        "cpo5ShortNameCh3LiftHighRange"
+      ],
+      "description": "CH3 LIFT HIGH RANGE"
+    },
+    {
+      "enum": [
+        116,
+        "cpo5ShortNameCh3LiftLowRange"
+      ],
+      "description": "CH3 LIFT LOW RANGE"
+    },
+    {
+      "enum": [
+        117,
+        "cpo5ShortNameCh3LiftSens"
+      ],
+      "description": "CH3 LIFT SENS"
+    },
+    {
+      "enum": [
+        118,
+        "cpo5ShortNameCh3ShellLength"
+      ],
+      "description": "CH3 SHELL LENGTH"
+    },
+    {
+      "enum": [
+        119,
+        "cpo5ShortNameCh3LwrOptSpHighRange"
+      ],
+      "description": "CH3 LWR OPT SP HIGH RANGE"
+    },
+    {
+      "enum": [
+        120,
+        "cpo5ShortNameCh3LwrOptSpLowRange"
+      ],
+      "description": "CH3 LWR OPT SP LOW RANGE"
+    },
+    {
+      "enum": [
+        121,
+        "cpo5ShortNameCh3MaxPctLoad"
+      ],
+      "description": "CH3 MAX PCT LOAD"
+    },
+    {
+      "enum": [
+        122,
+        "cpo5ShortNameCh3MaxPctLoadCop"
+      ],
+      "description": "CH3 MAX PCT LOAD COP"
+    },
+    {
+      "enum": [
+        123,
+        "cpo5ShortNameCh3MediaType"
+      ],
+      "description": "CH3 MEDIA TYPE"
+    },
+    {
+      "enum": [
+        124,
+        "cpo5ShortNameCh3MinPctLoad"
+      ],
+      "description": "CH3 MIN PCT LOAD"
+    },
+    {
+      "enum": [
+        125,
+        "cpo5ShortNameCh3MinPctLoadCop"
+      ],
+      "description": "CH3 MIN PCT LOAD COP"
+    },
+    {
+      "enum": [
+        126,
+        "cpo5ShortNameCh3Ms"
+      ],
+      "description": "CH3-MS"
+    },
+    {
+      "enum": [
+        127,
+        "cpo5ShortNameCh3OpCode"
+      ],
+      "description": "CH3 OP CODE"
+    },
+    {
+      "enum": [
+        128,
+        "cpo5ShortNameCh3Passes"
+      ],
+      "description": "CH3 PASSES"
+    },
+    {
+      "enum": [
+        129,
+        "cpo5ShortNameCh3PctLoadSpResetEn"
+      ],
+      "description": "CH3 PCT LOAD SP RESET EN"
+    },
+    {
+      "enum": [
+        130,
+        "cpo5ShortNameCh3PeakCop"
+      ],
+      "description": "CH3 PEAK COP"
+    },
+    {
+      "enum": [
+        131,
+        "cpo5ShortNameCh3ProdFamCode"
+      ],
+      "description": "CH3 PROD FAM CODE"
+    },
+    {
+      "enum": [
+        132,
+        "cpo5ShortNameCh3RatedCap"
+      ],
+      "description": "CH3 RATED CAP"
+    },
+    {
+      "enum": [
+        133,
+        "cpo5ShortNameCh3RatedChwFlow"
+      ],
+      "description": "CH3 RATED CHW FLOW"
+    },
+    {
+      "enum": [
+        134,
+        "cpo5ShortNameCh3RatedCwFlow"
+      ],
+      "description": "CH3 RATED CW FLOW"
+    },
+    {
+      "enum": [
+        135,
+        "cpo5ShortNameCh3RatedPow"
+      ],
+      "description": "CH3 RATED POW"
+    },
+    {
+      "enum": [
+        136,
+        "cpo5ShortNameCh3Runtime"
+      ],
+      "description": "CH3 RUNTIME"
+    },
+    {
+      "enum": [
+        137,
+        "cpo5ShortNameCh3StabilizeTime"
+      ],
+      "description": "CH3 STABILIZE TIME"
+    },
+    {
+      "enum": [
+        138,
+        "cpo5ShortNameCh3S"
+      ],
+      "description": "CH3-S"
+    },
+    {
+      "enum": [
+        139,
+        "cpo5ShortNameCh3TubeCount"
+      ],
+      "description": "CH3 TUBE COUNT"
+    },
+    {
+      "enum": [
+        140,
+        "cpo5ShortNameCh3UpperOptSpHighRange"
+      ],
+      "description": "CH3 UPPER OPT SP HIGH RANGE"
+    },
+    {
+      "enum": [
+        141,
+        "cpo5ShortNameCh3UpperOptSpLowRange"
+      ],
+      "description": "CH3 UPPER OPT SP LOW RANGE"
+    },
+    {
+      "enum": [
+        142,
+        "cpo5ShortNameCh3DriveType"
+      ],
+      "description": "CH3 DRIVE TYPE"
+    },
+    {
+      "enum": [
+        143,
+        "cpo5ShortNameCh3VsLwrSpOptPct"
+      ],
+      "description": "CH3 VS LWR SP OPT PCT"
+    },
+    {
+      "enum": [
+        144,
+        "cpo5ShortNameCh3VsUpperSpOptPct"
+      ],
+      "description": "CH3 VS UPPER SP OPT PCT"
+    },
+    {
+      "enum": [
+        145,
+        "cpo5ShortNameCh3InterlockSetup"
+      ],
+      "description": "CH3 INTERLOCK SETUP"
+    },
+    {
+      "enum": [
+        146,
+        "cpo5ShortNameCh3MediaConc"
+      ],
+      "description": "CH3 MEDIA CONC"
+    },
+    {
+      "enum": [
+        147,
+        "cpo5ShortNameCh4ModelName"
+      ],
+      "description": "CH4 MODEL NAME"
+    },
+    {
+      "enum": [
+        148,
+        "cpo5ShortNameCh4Mti"
+      ],
+      "description": "CH4 MTI"
+    },
+    {
+      "enum": [
+        149,
+        "cpo5ShortNameCh4ChwdpF"
+      ],
+      "description": "CH4 CHWDP-F"
+    },
+    {
+      "enum": [
+        150,
+        "cpo5ShortNameCh4ChwMaxFlow"
+      ],
+      "description": "CH4 CHW MAX FLOW"
+    },
+    {
+      "enum": [
+        151,
+        "cpo5ShortNameCh4ChwMinFlow"
+      ],
+      "description": "CH4 CHW MIN FLOW"
+    },
+    {
+      "enum": [
+        152,
+        "cpo5ShortNameCh4ChwrT"
+      ],
+      "description": "CH4 CHWR-T"
+    },
+    {
+      "enum": [
+        153,
+        "cpo5ShortNameCh4ChwsT"
+      ],
+      "description": "CH4 CHWS-T"
+    },
+    {
+      "enum": [
+        154,
+        "cpo5ShortNameCh4CsLwrSpOptPct"
+      ],
+      "description": "CH4 CS LWR SP OPT PCT"
+    },
+    {
+      "enum": [
+        155,
+        "cpo5ShortNameCh4CsUpperSpOptPct"
+      ],
+      "description": "CH4 CS UPPER SP OPT PCT"
+    },
+    {
+      "enum": [
+        156,
+        "cpo5ShortNameCh4CwMinFlow"
+      ],
+      "description": "CH4 CW MIN FLOW"
+    },
+    {
+      "enum": [
+        157,
+        "cpo5ShortNameCh4CwrT"
+      ],
+      "description": "CH4 CWR-T"
+    },
+    {
+      "enum": [
+        158,
+        "cpo5ShortNameCh4CwsT"
+      ],
+      "description": "CH4 CWS-T"
+    },
+    {
+      "enum": [
+        159,
+        "cpo5ShortNameCh4DesignLift"
+      ],
+      "description": "CH4 DESIGN LIFT"
+    },
+    {
+      "enum": [
+        160,
+        "cpo5ShortNameCh4InsideDiam"
+      ],
+      "description": "CH4 INSIDE DIAM"
+    },
+    {
+      "enum": [
+        161,
+        "cpo5ShortNameCh4Frx"
+      ],
+      "description": "CH4 FRx"
+    },
+    {
+      "enum": [
+        162,
+        "cpo5ShortNameCh4Fry"
+      ],
+      "description": "CH4 FRy"
+    },
+    {
+      "enum": [
+        163,
+        "cpo5ShortNameCh4IntrstgTransDly"
+      ],
+      "description": "CH4 INTRSTG TRANS DLY"
+    },
+    {
+      "enum": [
+        164,
+        "cpo5ShortNameCh4LiftHighRange"
+      ],
+      "description": "CH4 LIFT HIGH RANGE"
+    },
+    {
+      "enum": [
+        165,
+        "cpo5ShortNameCh4LiftLowRange"
+      ],
+      "description": "CH4 LIFT LOW RANGE"
+    },
+    {
+      "enum": [
+        166,
+        "cpo5ShortNameCh4LiftSens"
+      ],
+      "description": "CH4 LIFT SENS"
+    },
+    {
+      "enum": [
+        167,
+        "cpo5ShortNameCh4ShellLength"
+      ],
+      "description": "CH4 SHELL LENGTH"
+    },
+    {
+      "enum": [
+        168,
+        "cpo5ShortNameCh4LwrOptSpHighRange"
+      ],
+      "description": "CH4 LWR OPT SP HIGH RANGE"
+    },
+    {
+      "enum": [
+        169,
+        "cpo5ShortNameCh4LwrOptSpLowRange"
+      ],
+      "description": "CH4 LWR OPT SP LOW RANGE"
+    },
+    {
+      "enum": [
+        170,
+        "cpo5ShortNameCh4MaxPctLoad"
+      ],
+      "description": "CH4 MAX PCT LOAD"
+    },
+    {
+      "enum": [
+        171,
+        "cpo5ShortNameCh4MaxPctLoadCop"
+      ],
+      "description": "CH4 MAX PCT LOAD COP"
+    },
+    {
+      "enum": [
+        172,
+        "cpo5ShortNameCh4MediaType"
+      ],
+      "description": "CH4 MEDIA TYPE"
+    },
+    {
+      "enum": [
+        173,
+        "cpo5ShortNameCh4MinPctLoad"
+      ],
+      "description": "CH4 MIN PCT LOAD"
+    },
+    {
+      "enum": [
+        174,
+        "cpo5ShortNameCh4MinPctLoadCop"
+      ],
+      "description": "CH4 MIN PCT LOAD COP"
+    },
+    {
+      "enum": [
+        175,
+        "cpo5ShortNameCh4Ms"
+      ],
+      "description": "CH4-MS"
+    },
+    {
+      "enum": [
+        176,
+        "cpo5ShortNameCh4OpCode"
+      ],
+      "description": "CH4 OP CODE"
+    },
+    {
+      "enum": [
+        177,
+        "cpo5ShortNameCh4Passes"
+      ],
+      "description": "CH4 PASSES"
+    },
+    {
+      "enum": [
+        178,
+        "cpo5ShortNameCh4PctLoadSpResetEn"
+      ],
+      "description": "CH4 PCT LOAD SP RESET EN"
+    },
+    {
+      "enum": [
+        179,
+        "cpo5ShortNameCh4PeakCop"
+      ],
+      "description": "CH4 PEAK COP"
+    },
+    {
+      "enum": [
+        180,
+        "cpo5ShortNameCh4ProdFamCode"
+      ],
+      "description": "CH4 PROD FAM CODE"
+    },
+    {
+      "enum": [
+        181,
+        "cpo5ShortNameCh4RatedCap"
+      ],
+      "description": "CH4 RATED CAP"
+    },
+    {
+      "enum": [
+        182,
+        "cpo5ShortNameCh4RatedChwFlow"
+      ],
+      "description": "CH4 RATED CHW FLOW"
+    },
+    {
+      "enum": [
+        183,
+        "cpo5ShortNameCh4RatedCwFlow"
+      ],
+      "description": "CH4 RATED CW FLOW"
+    },
+    {
+      "enum": [
+        184,
+        "cpo5ShortNameCh4RatedPow"
+      ],
+      "description": "CH4 RATED POW"
+    },
+    {
+      "enum": [
+        185,
+        "cpo5ShortNameCh4Runtime"
+      ],
+      "description": "CH4 RUNTIME"
+    },
+    {
+      "enum": [
+        186,
+        "cpo5ShortNameCh4StabilizeTime"
+      ],
+      "description": "CH4 STABILIZE TIME"
+    },
+    {
+      "enum": [
+        187,
+        "cpo5ShortNameCh4S"
+      ],
+      "description": "CH4-S"
+    },
+    {
+      "enum": [
+        188,
+        "cpo5ShortNameCh4TubeCount"
+      ],
+      "description": "CH4 TUBE COUNT"
+    },
+    {
+      "enum": [
+        189,
+        "cpo5ShortNameCh4UpperOptSpHighRange"
+      ],
+      "description": "CH4 UPPER OPT SP HIGH RANGE"
+    },
+    {
+      "enum": [
+        190,
+        "cpo5ShortNameCh4UpperOptSpLowRange"
+      ],
+      "description": "CH4 UPPER OPT SP LOW RANGE"
+    },
+    {
+      "enum": [
+        191,
+        "cpo5ShortNameCh4DriveType"
+      ],
+      "description": "CH4 DRIVE TYPE"
+    },
+    {
+      "enum": [
+        192,
+        "cpo5ShortNameCh4VsLwrSpOptPct"
+      ],
+      "description": "CH4 VS LWR SP OPT PCT"
+    },
+    {
+      "enum": [
+        193,
+        "cpo5ShortNameCh4VsUpperSpOptPct"
+      ],
+      "description": "CH4 VS UPPER SP OPT PCT"
+    },
+    {
+      "enum": [
+        194,
+        "cpo5ShortNameCh4InterlockSetup"
+      ],
+      "description": "CH4 INTERLOCK SETUP"
+    },
+    {
+      "enum": [
+        195,
+        "cpo5ShortNameCh4MediaConc"
+      ],
+      "description": "CH4 MEDIA CONC"
+    },
+    {
+      "enum": [
+        196,
+        "cpo5ShortNameChFrcdUpstgDly"
+      ],
+      "description": "CH FRCD UPSTG DLY"
+    },
+    {
+      "enum": [
+        197,
+        "cpo5ShortNameChIntrlkLostStatusDly"
+      ],
+      "description": "CH INTRLK LOST STATUS DLY"
+    },
+    {
+      "enum": [
+        198,
+        "cpo5ShortNameChIntrlkOutDly"
+      ],
+      "description": "CH INTRLK OUT DLY"
+    },
+    {
+      "enum": [
+        199,
+        "cpo5ShortNameChIntrlkRetryAttempts"
+      ],
+      "description": "CH INTRLK RETRY ATTEMPTS"
+    },
+    {
+      "enum": [
+        200,
+        "cpo5ShortNameChIntrlkRetryInterval"
+      ],
+      "description": "CH INTRLK RETRY INTERVAL"
+    },
+    {
+      "enum": [
+        201,
+        "cpo5ShortNameChIntrlkRetryCcom"
+      ],
+      "description": "CH INTRLK RETRY CCOM"
+    },
+    {
+      "enum": [
+        202,
+        "cpo5ShortNameChIsoVlvRt"
+      ],
+      "description": "CH ISO VLV-RT"
+    },
+    {
+      "enum": [
+        203,
+        "cpo5ShortNameChPcntLoadSpResetPeriod"
+      ],
+      "description": "CH PCNT LOAD SP RESET PERIOD"
+    },
+    {
+      "enum": [
+        204,
+        "cpo5ShortNameChlrCoast"
+      ],
+      "description": "CHLR COAST"
+    },
+    {
+      "enum": [
+        205,
+        "cpo5ShortNameChSelIntrstgOndelay"
+      ],
+      "description": "CH SEL INTRSTG OnDelay"
+    },
+    {
+      "enum": [
+        206,
+        "cpo5ShortNameChlrBaseLoad"
+      ],
+      "description": "CHLR BASE LOAD"
+    },
+    {
+      "enum": [
+        207,
+        "cpo5ShortNameChlrMinofftime"
+      ],
+      "description": "CHLR-MINOFFTIME"
+    },
+    {
+      "enum": [
+        208,
+        "cpo5ShortNameChlrMinontime"
+      ],
+      "description": "CHLR-MINONTIME"
+    },
+    {
+      "enum": [
+        209,
+        "cpo5ShortNameChSelPmpDelay"
+      ],
+      "description": "CH SEL PMP DELAY"
+    },
+    {
+      "enum": [
+        210,
+        "cpo5ShortNameChlrPmpDwnTime"
+      ],
+      "description": "CHLR PMP DWN TIME"
+    },
+    {
+      "enum": [
+        211,
+        "cpo5ShortNameChlrStartDelay"
+      ],
+      "description": "CHLR START DELAY"
+    },
+    {
+      "enum": [
+        212,
+        "cpo5ShortNameChRotMode"
+      ],
+      "description": "CH ROT MODE"
+    },
+    {
+      "enum": [
+        213,
+        "cpo5ShortNameChCapHoldTime"
+      ],
+      "description": "CH CAP-HOLD TIME"
+    },
+    {
+      "enum": [
+        214,
+        "cpo5ShortNameChCpLimitSetup"
+      ],
+      "description": "CH CP-LIMIT SETUP"
+    },
+    {
+      "enum": [
+        215,
+        "cpo5ShortNameChCpLimitInput"
+      ],
+      "description": "CH CP-LIMIT INPUT"
+    },
+    {
+      "enum": [
+        216,
+        "cpo5ShortNameChForcedUpstgEn"
+      ],
+      "description": "CH FORCED UPSTG-EN"
+    },
+    {
+      "enum": [
+        217,
+        "cpo5ShortNameChLoadFilterStartupDelay"
+      ],
+      "description": "CH LOAD FILTER STARTUP DELAY"
+    },
+    {
+      "enum": [
+        218,
+        "cpo5ShortNameChLoadFilterTimeConstant"
+      ],
+      "description": "CH LOAD FILTER TIME CONSTANT"
+    },
+    {
+      "enum": [
+        219,
+        "cpo5ShortNameOaHHw"
+      ],
+      "description": "OA-H HW"
+    },
+    {
+      "enum": [
+        220,
+        "cpo5ShortNameOaHSw"
+      ],
+      "description": "OA-H SW"
+    },
+    {
+      "enum": [
+        221,
+        "cpo5ShortNameOaTHw"
+      ],
+      "description": "OA-T HW"
+    },
+    {
+      "enum": [
+        222,
+        "cpo5ShortNameOaTSw"
+      ],
+      "description": "OA-T SW"
+    },
+    {
+      "enum": [
+        223,
+        "cpo5ShortNameChRot"
+      ],
+      "description": "CH-ROT"
+    },
+    {
+      "enum": [
+        224,
+        "cpo5ShortNameSystemEn"
+      ],
+      "description": "SYSTEM-EN"
+    },
+    {
+      "enum": [
+        225,
+        "cpo5ShortNameSysReset"
+      ],
+      "description": "SYS-RESET"
+    },
+    {
+      "enum": [
+        226,
+        "cpo5ShortNameChPchwFlwMtrEn"
+      ],
+      "description": "CH PCHW FLW MTR EN"
+    },
+    {
+      "enum": [
+        227,
+        "cpo5ShortNameChPchwFm"
+      ],
+      "description": "CH PCHW-FM"
+    },
+    {
+      "enum": [
+        228,
+        "cpo5ShortNameChwbypvPidTunReset"
+      ],
+      "description": "CHWBYPV PID TUN-RESET"
+    },
+    {
+      "enum": [
+        229,
+        "cpo5ShortNameChwbypvProcRange"
+      ],
+      "description": "CHWBYPV PROC-RANGE"
+    },
+    {
+      "enum": [
+        230,
+        "cpo5ShortNameChwbypvProcTimeConstant"
+      ],
+      "description": "CHWBYPV PROC-TIME CONSTANT"
+    },
+    {
+      "enum": [
+        231,
+        "cpo5ShortNameChwDp"
+      ],
+      "description": "CHW-DP"
+    },
+    {
+      "enum": [
+        232,
+        "cpo5ShortNameChwdpSp"
+      ],
+      "description": "CHWDP-SP"
+    },
+    {
+      "enum": [
+        233,
+        "cpo5ShortNameChwpLowerPctLoad"
+      ],
+      "description": "CHWP LOWER PCT LOAD"
+    },
+    {
+      "enum": [
+        234,
+        "cpo5ShortNameChwpUpperPctLoad"
+      ],
+      "description": "CHWP UPPER PCT LOAD"
+    },
+    {
+      "enum": [
+        235,
+        "cpo5ShortNamePchwp1Ms"
+      ],
+      "description": "PCHWP1-MS"
+    },
+    {
+      "enum": [
+        236,
+        "cpo5ShortNamePchwp1S"
+      ],
+      "description": "PCHWP1-S"
+    },
+    {
+      "enum": [
+        237,
+        "cpo5ShortNamePchwp2Ms"
+      ],
+      "description": "PCHWP2-MS"
+    },
+    {
+      "enum": [
+        238,
+        "cpo5ShortNamePchwp2S"
+      ],
+      "description": "PCHWP2-S"
+    },
+    {
+      "enum": [
+        239,
+        "cpo5ShortNamePchwp3Ms"
+      ],
+      "description": "PCHWP3-MS"
+    },
+    {
+      "enum": [
+        240,
+        "cpo5ShortNamePchwp3S"
+      ],
+      "description": "PCHWP3-S"
+    },
+    {
+      "enum": [
+        241,
+        "cpo5ShortNamePchwp4Ms"
+      ],
+      "description": "PCHWP4-MS"
+    },
+    {
+      "enum": [
+        242,
+        "cpo5ShortNamePchwp4S"
+      ],
+      "description": "PCHWP4-S"
+    },
+    {
+      "enum": [
+        243,
+        "cpo5ShortNameChwpMinSpeed"
+      ],
+      "description": "CHWP MIN SPEED"
+    },
+    {
+      "enum": [
+        244,
+        "cpo5ShortNamePchwpRamp"
+      ],
+      "description": "PCHWP RAMP"
+    },
+    {
+      "enum": [
+        245,
+        "cpo5ShortNameChwpDpPidTunReset"
+      ],
+      "description": "CHWP DP PID TUN-RESET"
+    },
+    {
+      "enum": [
+        246,
+        "cpo5ShortNameChwpDpProcRange"
+      ],
+      "description": "CHWP DP PROC-RANGE"
+    },
+    {
+      "enum": [
+        247,
+        "cpo5ShortNameChwpDpProcTimeConstant"
+      ],
+      "description": "CHWP DP PROC-TIME CONSTANT"
+    },
+    {
+      "enum": [
+        248,
+        "cpo5ShortNameChwpIntrlkLostStatusDly"
+      ],
+      "description": "CHWP INTRLK LOST STATUS DLY"
+    },
+    {
+      "enum": [
+        249,
+        "cpo5ShortNameChwpIntrlkOutDly"
+      ],
+      "description": "CHWP INTRLK OUT DLY"
+    },
+    {
+      "enum": [
+        250,
+        "cpo5ShortNameChwpIntrlkRetryAttempts"
+      ],
+      "description": "CHWP INTRLK RETRY ATTEMPTS"
+    },
+    {
+      "enum": [
+        251,
+        "cpo5ShortNameChwpIntrlkRetryInterval"
+      ],
+      "description": "CHWP INTRLK RETRY INTERVAL"
+    },
+    {
+      "enum": [
+        252,
+        "cpo5ShortNameChwpInterlockSetup"
+      ],
+      "description": "CHWP INTERLOCK SETUP"
+    },
+    {
+      "enum": [
+        253,
+        "cpo5ShortNameChwpInterlockCcom"
+      ],
+      "description": "CHWP INTERLOCK CCOM"
+    },
+    {
+      "enum": [
+        254,
+        "cpo5ShortNamePchwpMinofftime"
+      ],
+      "description": "PCHWP-MINOFFTIME"
+    },
+    {
+      "enum": [
+        255,
+        "cpo5ShortNamePchwpMinontime"
+      ],
+      "description": "PCHWP-MINONTIME"
+    },
+    {
+      "enum": [
+        256,
+        "cpo5ShortNameChwp1PeakEff"
+      ],
+      "description": "CHWP1 PEAK EFF"
+    },
+    {
+      "enum": [
+        257,
+        "cpo5ShortNameChwp1RatedCap"
+      ],
+      "description": "CHWP1 RATED CAP"
+    },
+    {
+      "enum": [
+        258,
+        "cpo5ShortNameChwp2PeakEff"
+      ],
+      "description": "CHWP2 PEAK EFF"
+    },
+    {
+      "enum": [
+        259,
+        "cpo5ShortNameChwp2RatedCap"
+      ],
+      "description": "CHWP2 RATED CAP"
+    },
+    {
+      "enum": [
+        260,
+        "cpo5ShortNameChwp3PeakEff"
+      ],
+      "description": "CHWP3 PEAK EFF"
+    },
+    {
+      "enum": [
+        261,
+        "cpo5ShortNameChwp3RatedCap"
+      ],
+      "description": "CHWP3 RATED CAP"
+    },
+    {
+      "enum": [
+        262,
+        "cpo5ShortNameChwp4PeakEff"
+      ],
+      "description": "CHWP4 PEAK EFF"
+    },
+    {
+      "enum": [
+        263,
+        "cpo5ShortNameChwp4RatedCap"
+      ],
+      "description": "CHWP4 RATED CAP"
+    },
+    {
+      "enum": [
+        264,
+        "cpo5ShortNameChwpStabT"
+      ],
+      "description": "CHWP STAB-T"
+    },
+    {
+      "enum": [
+        265,
+        "cpo5ShortNameChSp"
+      ],
+      "description": "CH-SP"
+    },
+    {
+      "enum": [
+        266,
+        "cpo5ShortNameChwNoDev"
+      ],
+      "description": "CHW NO-DEV"
+    },
+    {
+      "enum": [
+        267,
+        "cpo5ShortNamePchwpRot"
+      ],
+      "description": "PCHWP-ROT"
+    },
+    {
+      "enum": [
+        268,
+        "cpo5ShortNameCt1Ms"
+      ],
+      "description": "CT1-MS"
+    },
+    {
+      "enum": [
+        269,
+        "cpo5ShortNameCt1PeakEff"
+      ],
+      "description": "CT1 PEAK EFF"
+    },
+    {
+      "enum": [
+        270,
+        "cpo5ShortNameCt1RatedCap"
+      ],
+      "description": "CT1 RATED CAP"
+    },
+    {
+      "enum": [
+        271,
+        "cpo5ShortNameCt1RatedPow"
+      ],
+      "description": "CT1 RATED POW"
+    },
+    {
+      "enum": [
+        272,
+        "cpo5ShortNameCt1S"
+      ],
+      "description": "CT1-S"
+    },
+    {
+      "enum": [
+        273,
+        "cpo5ShortNameCt2Ms"
+      ],
+      "description": "CT2-MS"
+    },
+    {
+      "enum": [
+        274,
+        "cpo5ShortNameCt2PeakEff"
+      ],
+      "description": "CT2 PEAK EFF"
+    },
+    {
+      "enum": [
+        275,
+        "cpo5ShortNameCt2RatedCap"
+      ],
+      "description": "CT2 RATED CAP"
+    },
+    {
+      "enum": [
+        276,
+        "cpo5ShortNameCt2RatedPow"
+      ],
+      "description": "CT2 RATED POW"
+    },
+    {
+      "enum": [
+        277,
+        "cpo5ShortNameCt2S"
+      ],
+      "description": "CT2-S"
+    },
+    {
+      "enum": [
+        278,
+        "cpo5ShortNameCt3Ms"
+      ],
+      "description": "CT3-MS"
+    },
+    {
+      "enum": [
+        279,
+        "cpo5ShortNameCt3PeakEff"
+      ],
+      "description": "CT3 PEAK EFF"
+    },
+    {
+      "enum": [
+        280,
+        "cpo5ShortNameCt3RatedCap"
+      ],
+      "description": "CT3 RATED CAP"
+    },
+    {
+      "enum": [
+        281,
+        "cpo5ShortNameCt3RatedPow"
+      ],
+      "description": "CT3 RATED POW"
+    },
+    {
+      "enum": [
+        282,
+        "cpo5ShortNameCt3S"
+      ],
+      "description": "CT3-S"
+    },
+    {
+      "enum": [
+        283,
+        "cpo5ShortNameCt4Ms"
+      ],
+      "description": "CT4-MS"
+    },
+    {
+      "enum": [
+        284,
+        "cpo5ShortNameCt4PeakEff"
+      ],
+      "description": "CT4 PEAK EFF"
+    },
+    {
+      "enum": [
+        285,
+        "cpo5ShortNameCt4RatedCap"
+      ],
+      "description": "CT4 RATED CAP"
+    },
+    {
+      "enum": [
+        286,
+        "cpo5ShortNameCt4RatedPow"
+      ],
+      "description": "CT4 RATED POW"
+    },
+    {
+      "enum": [
+        287,
+        "cpo5ShortNameCt4S"
+      ],
+      "description": "CT4-S"
+    },
+    {
+      "enum": [
+        288,
+        "cpo5ShortNameCtApproach"
+      ],
+      "description": "CT APPROACH"
+    },
+    {
+      "enum": [
+        289,
+        "cpo5ShortNameCtIntrlkS"
+      ],
+      "description": "CT INTRLK-S"
+    },
+    {
+      "enum": [
+        290,
+        "cpo5ShortNameCtIntrstgDly"
+      ],
+      "description": "CT INTRSTG DLY"
+    },
+    {
+      "enum": [
+        291,
+        "cpo5ShortNameCtIntrlkCcom"
+      ],
+      "description": "CT INTRLK CCOM"
+    },
+    {
+      "enum": [
+        292,
+        "cpo5ShortNameCtIntrlkLostStatusDly"
+      ],
+      "description": "CT INTRLK LOST STATUS DLY"
+    },
+    {
+      "enum": [
+        293,
+        "cpo5ShortNameCtIntrlkOutDly"
+      ],
+      "description": "CT INTRLK OUT DLY"
+    },
+    {
+      "enum": [
+        294,
+        "cpo5ShortNameCtIntstgOnDelay"
+      ],
+      "description": "CT INTSTG ON-DELAY"
+    },
+    {
+      "enum": [
+        295,
+        "cpo5ShortNameCtIntstgOffDelay"
+      ],
+      "description": "CT INTSTG OFF-DELAY"
+    },
+    {
+      "enum": [
+        296,
+        "cpo5ShortNameCtIntrlkRetryAttempts"
+      ],
+      "description": "CT INTRLK RETRY ATTEMPTS"
+    },
+    {
+      "enum": [
+        297,
+        "cpo5ShortNameCtIntrlkRetryInterval"
+      ],
+      "description": "CT INTRLK RETRY INTERVAL"
+    },
+    {
+      "enum": [
+        298,
+        "cpo5ShortNameTwrIsovlvRt"
+      ],
+      "description": "TWR ISOVLV-RT"
+    },
+    {
+      "enum": [
+        299,
+        "cpo5ShortNameCtRange"
+      ],
+      "description": "CT RANGE"
+    },
+    {
+      "enum": [
+        300,
+        "cpo5ShortNameCtMinOffTime"
+      ],
+      "description": "CT MIN OFF TIME"
+    },
+    {
+      "enum": [
+        301,
+        "cpo5ShortNameCtMinOnTime"
+      ],
+      "description": "CT MIN ON TIME"
+    },
+    {
+      "enum": [
+        302,
+        "cpo5ShortNameCtPmpDelay"
+      ],
+      "description": "CT PMP-DELAY"
+    },
+    {
+      "enum": [
+        303,
+        "cpo5ShortNameCtIsoVlvPidTunReset"
+      ],
+      "description": "CT ISO VLV PID TUN-RESET"
+    },
+    {
+      "enum": [
+        304,
+        "cpo5ShortNameOltcwLowlimitSpDiff"
+      ],
+      "description": "OLTCW LOWLIMIT SP-DIFF"
+    },
+    {
+      "enum": [
+        305,
+        "cpo5ShortNameOltcwMinSpeed"
+      ],
+      "description": "OLTCW MIN SPEED"
+    },
+    {
+      "enum": [
+        306,
+        "cpo5ShortNameOltcwPidTunReset"
+      ],
+      "description": "OLTCW PID TUN-RESET"
+    },
+    {
+      "enum": [
+        307,
+        "cpo5ShortNameRotTowers"
+      ],
+      "description": "ROT-TOWERS"
+    },
+    {
+      "enum": [
+        308,
+        "cpo5ShortNameCwp1Ms"
+      ],
+      "description": "CWP1-MS"
+    },
+    {
+      "enum": [
+        309,
+        "cpo5ShortNameCwp1S"
+      ],
+      "description": "CWP1-S"
+    },
+    {
+      "enum": [
+        310,
+        "cpo5ShortNameCwp2Ms"
+      ],
+      "description": "CWP2-MS"
+    },
+    {
+      "enum": [
+        311,
+        "cpo5ShortNameCwp2S"
+      ],
+      "description": "CWP2-S"
+    },
+    {
+      "enum": [
+        312,
+        "cpo5ShortNameCwp3Ms"
+      ],
+      "description": "CWP3-MS"
+    },
+    {
+      "enum": [
+        313,
+        "cpo5ShortNameCwp3S"
+      ],
+      "description": "CWP3-S"
+    },
+    {
+      "enum": [
+        314,
+        "cpo5ShortNameCwp4Ms"
+      ],
+      "description": "CWP4-MS"
+    },
+    {
+      "enum": [
+        315,
+        "cpo5ShortNameCwp4S"
+      ],
+      "description": "CWP4-S"
+    },
+    {
+      "enum": [
+        316,
+        "cpo5ShortNameCwpIntrlkCcom"
+      ],
+      "description": "CWP INTRLK CCOM"
+    },
+    {
+      "enum": [
+        317,
+        "cpo5ShortNameCwpIntrlkLostStatusDly"
+      ],
+      "description": "CWP INTRLK LOST STATUS DLY"
+    },
+    {
+      "enum": [
+        318,
+        "cpo5ShortNameCwpIntrlkOutDly"
+      ],
+      "description": "CWP INTRLK OUT DLY"
+    },
+    {
+      "enum": [
+        319,
+        "cpo5ShortNameCwpIntrlkRetryAttempts"
+      ],
+      "description": "CWP INTRLK RETRY ATTEMPTS"
+    },
+    {
+      "enum": [
+        320,
+        "cpo5ShortNameCwpIntrlkRetryInterval"
+      ],
+      "description": "CWP INTRLK RETRY INTERVAL"
+    },
+    {
+      "enum": [
+        321,
+        "cpo5ShortNameCwpInterlockSetup"
+      ],
+      "description": "CWP INTERLOCK SETUP"
+    },
+    {
+      "enum": [
+        322,
+        "cpo5ShortNameCwpMinofftime"
+      ],
+      "description": "CWP-MINOFFTIME"
+    },
+    {
+      "enum": [
+        323,
+        "cpo5ShortNameCwpMinontime"
+      ],
+      "description": "CWP-MINONTIME"
+    },
+    {
+      "enum": [
+        324,
+        "cpo5ShortNameCwp1PeakEff"
+      ],
+      "description": "CWP1 PEAK EFF"
+    },
+    {
+      "enum": [
+        325,
+        "cpo5ShortNameCwp1RatedCap"
+      ],
+      "description": "CWP1 RATED CAP"
+    },
+    {
+      "enum": [
+        326,
+        "cpo5ShortNameCwp2PeakEff"
+      ],
+      "description": "CWP2 PEAK EFF"
+    },
+    {
+      "enum": [
+        327,
+        "cpo5ShortNameCwp2RatedCap"
+      ],
+      "description": "CWP2 RATED CAP"
+    },
+    {
+      "enum": [
+        328,
+        "cpo5ShortNameCwp3PeakEff"
+      ],
+      "description": "CWP3 PEAK EFF"
+    },
+    {
+      "enum": [
+        329,
+        "cpo5ShortNameCwp3RatedCap"
+      ],
+      "description": "CWP3 RATED CAP"
+    },
+    {
+      "enum": [
+        330,
+        "cpo5ShortNameCwpPeakEff"
+      ],
+      "description": "CWP PEAK-EFF"
+    },
+    {
+      "enum": [
+        331,
+        "cpo5ShortNameCwp4RatedCap"
+      ],
+      "description": "CWP4 RATED CAP"
+    },
+    {
+      "enum": [
+        332,
+        "cpo5ShortNameCwSeqSwitchDiff"
+      ],
+      "description": "CW SEQ SWITCH-DIFF"
+    },
+    {
+      "enum": [
+        333,
+        "cpo5ShortNameCwSeqSwitchSp"
+      ],
+      "description": "CW SEQ SWITCH-SP"
+    },
+    {
+      "enum": [
+        334,
+        "cpo5ShortNameCwSp"
+      ],
+      "description": "CW-SP"
+    },
+    {
+      "enum": [
+        335,
+        "cpo5ShortNameCwNoDev"
+      ],
+      "description": "CW NO-DEV"
+    },
+    {
+      "enum": [
+        336,
+        "cpo5ShortNameRotCwpPumps"
+      ],
+      "description": "ROT-CWP PUMPS"
+    },
+    {
+      "enum": [
+        337,
+        "cpo5ShortNameFilteredLoad"
+      ],
+      "description": "FILTERED-LOAD"
+    },
+    {
+      "enum": [
+        338,
+        "cpo5ShortNameEffOaH"
+      ],
+      "description": "EFF OA-H"
+    },
+    {
+      "enum": [
+        339,
+        "cpo5ShortNameEffOaT"
+      ],
+      "description": "EFF OA-T"
+    },
+    {
+      "enum": [
+        340,
+        "cpo5ShortNamePchwrT"
+      ],
+      "description": "PCHWR-T"
+    },
+    {
+      "enum": [
+        341,
+        "cpo5ShortNameCh1ChwFlowOut"
+      ],
+      "description": "CH1 CHW FLOW OUT"
+    },
+    {
+      "enum": [
+        342,
+        "cpo5ShortNameCh1CwrTOut"
+      ],
+      "description": "CH1 CWR-T OUT"
+    },
+    {
+      "enum": [
+        343,
+        "cpo5ShortNameCh1En"
+      ],
+      "description": "CH1-EN"
+    },
+    {
+      "enum": [
+        344,
+        "cpo5ShortNameCh1CtrlIsoVlvOutput"
+      ],
+      "description": "CH1 CTRL ISO VLV OUTPUT"
+    },
+    {
+      "enum": [
+        345,
+        "cpo5ShortNameChlrReqdInterimDevs"
+      ],
+      "description": "CHLR REQD INTERIM DEVS"
+    },
+    {
+      "enum": [
+        346,
+        "cpo5ShortNameChlrRequiredDevs"
+      ],
+      "description": "CHLR REQUIRED DEVS"
+    },
+    {
+      "enum": [
+        347,
+        "cpo5ShortNamePchwpReqdInterimDevs"
+      ],
+      "description": "PCHWP REQD INTERIM DEVS"
+    },
+    {
+      "enum": [
+        348,
+        "cpo5ShortNamePchwpRequiredDevs"
+      ],
+      "description": "PCHWP REQUIRED DEVS"
+    },
+    {
+      "enum": [
+        349,
+        "cpo5ShortNameCwpReqdInterimDevs"
+      ],
+      "description": "CWP REQD INTERIM DEVS"
+    },
+    {
+      "enum": [
+        350,
+        "cpo5ShortNameCwpRequiredDevs"
+      ],
+      "description": "CWP REQUIRED DEVS"
+    },
+    {
+      "enum": [
+        351,
+        "cpo5ShortNameCtReqdInterimDevs"
+      ],
+      "description": "CT REQD INTERIM DEVS"
+    },
+    {
+      "enum": [
+        352,
+        "cpo5ShortNameCtRequiredDevs"
+      ],
+      "description": "CT REQUIRED DEVS"
+    },
+    {
+      "enum": [
+        353,
+        "cpo5ShortNameCh1ChwisovO"
+      ],
+      "description": "CH1CHWISOV-O"
+    },
+    {
+      "enum": [
+        354,
+        "cpo5ShortNameChlr1Ia"
+      ],
+      "description": "CHLR 1-IA"
+    },
+    {
+      "enum": [
+        355,
+        "cpo5ShortNameChlr1Enabled"
+      ],
+      "description": "CHLR 1-Enabled"
+    },
+    {
+      "enum": [
+        356,
+        "cpo5ShortNameCh1IntrlkOutput"
+      ],
+      "description": "Eff CHLR 1-S"
+    },
+    {
+      "enum": [
+        357,
+        "cpo5ShortNameCh1IntrlkRetryCount"
+      ],
+      "description": "CH1 INTRLK RETRY COUNT"
+    },
+    {
+      "enum": [
+        358,
+        "cpo5ShortNameCh1LwrOptPctLoad"
+      ],
+      "description": "CH1 LWR OPT PCT LOAD"
+    },
+    {
+      "enum": [
+        359,
+        "cpo5ShortNameCh1PctLoadspResetState"
+      ],
+      "description": "CH1 PCT LOADSP RESET STATE"
+    },
+    {
+      "enum": [
+        360,
+        "cpo5ShortNameCh1UpperOptlPctLoad"
+      ],
+      "description": "CH1 UPPER OPTL PCT LOAD"
+    },
+    {
+      "enum": [
+        361,
+        "cpo5ShortNameCh2ChwFlowOut"
+      ],
+      "description": "CH2 CHW FLOW OUT"
+    },
+    {
+      "enum": [
+        362,
+        "cpo5ShortNameCh2CwrTOut"
+      ],
+      "description": "CH2 CWR-T OUT"
+    },
+    {
+      "enum": [
+        363,
+        "cpo5ShortNameCh2En"
+      ],
+      "description": "CH2-EN"
+    },
+    {
+      "enum": [
+        364,
+        "cpo5ShortNameCh2CtrlIsoVlvOpen"
+      ],
+      "description": "CH2 CTRL ISO VLV OPEN"
+    },
+    {
+      "enum": [
+        365,
+        "cpo5ShortNameCh2ChwisovO"
+      ],
+      "description": "CH2CHWISOV-O"
+    },
+    {
+      "enum": [
+        366,
+        "cpo5ShortNameChlr2Ia"
+      ],
+      "description": "CHLR 2-IA"
+    },
+    {
+      "enum": [
+        367,
+        "cpo5ShortNameChlr2Enabled"
+      ],
+      "description": "CHLR 2-Enabled"
+    },
+    {
+      "enum": [
+        368,
+        "cpo5ShortNameCh2IntrlkOn"
+      ],
+      "description": "Eff CHLR 2-S"
+    },
+    {
+      "enum": [
+        369,
+        "cpo5ShortNameCh2IntrlkRetryCount"
+      ],
+      "description": "CH2 INTRLK RETRY COUNT"
+    },
+    {
+      "enum": [
+        370,
+        "cpo5ShortNameCh2LwrOptPctLoad"
+      ],
+      "description": "CH2 LWR OPT PCT LOAD"
+    },
+    {
+      "enum": [
+        371,
+        "cpo5ShortNameCh2PctLoadspResetState"
+      ],
+      "description": "CH2 PCT LOADSP RESET STATE"
+    },
+    {
+      "enum": [
+        372,
+        "cpo5ShortNameCh2UpperOptlPctLoad"
+      ],
+      "description": "CH2 UPPER OPTL PCT LOAD"
+    },
+    {
+      "enum": [
+        373,
+        "cpo5ShortNameCh3CwFlowOut"
+      ],
+      "description": "CH3 CW FLOW OUT"
+    },
+    {
+      "enum": [
+        374,
+        "cpo5ShortNameCh3CwrTOut"
+      ],
+      "description": "CH3 CWR-T OUT"
+    },
+    {
+      "enum": [
+        375,
+        "cpo5ShortNameCh3En"
+      ],
+      "description": "CH3-EN"
+    },
+    {
+      "enum": [
+        376,
+        "cpo5ShortNameCh3CtrlIsoVlvOpen"
+      ],
+      "description": "CH3 CTRL ISO VLV OPEN"
+    },
+    {
+      "enum": [
+        377,
+        "cpo5ShortNameCh3ChwisovO"
+      ],
+      "description": "CH3CHWISOV-O"
+    },
+    {
+      "enum": [
+        378,
+        "cpo5ShortNameChlr3Ia"
+      ],
+      "description": "CHLR 3-IA"
+    },
+    {
+      "enum": [
+        379,
+        "cpo5ShortNameChlr3Enabled"
+      ],
+      "description": "CHLR 3-Enabled"
+    },
+    {
+      "enum": [
+        380,
+        "cpo5ShortNameCh3IntrlkOn"
+      ],
+      "description": "Eff CHLR 3-S"
+    },
+    {
+      "enum": [
+        381,
+        "cpo5ShortNameCh3IntrlkRetryCount"
+      ],
+      "description": "CH3 INTRLK RETRY COUNT"
+    },
+    {
+      "enum": [
+        382,
+        "cpo5ShortNameCh3LwrOptPctLoad"
+      ],
+      "description": "CH3 LWR OPT PCT LOAD"
+    },
+    {
+      "enum": [
+        383,
+        "cpo5ShortNameCh3PctLoadspResetState"
+      ],
+      "description": "CH3 PCT LOADSP RESET STATE"
+    },
+    {
+      "enum": [
+        384,
+        "cpo5ShortNameCh3UpperOptlPctLoad"
+      ],
+      "description": "CH3 UPPER OPTL PCT LOAD"
+    },
+    {
+      "enum": [
+        385,
+        "cpo5ShortNameCh4CwFlowOut"
+      ],
+      "description": "CH4 CW FLOW OUT"
+    },
+    {
+      "enum": [
+        386,
+        "cpo5ShortNameCh4CwrTOut"
+      ],
+      "description": "CH4 CWR-T OUT"
+    },
+    {
+      "enum": [
+        387,
+        "cpo5ShortNameCh4En"
+      ],
+      "description": "CH4-EN"
+    },
+    {
+      "enum": [
+        388,
+        "cpo5ShortNameCh4CtrlIsoVlvOpen"
+      ],
+      "description": "CH4Ctrl ISO VLV OPEN"
+    },
+    {
+      "enum": [
+        389,
+        "cpo5ShortNameCh4ChwisovO"
+      ],
+      "description": "CH4CHWISOV-O"
+    },
+    {
+      "enum": [
+        390,
+        "cpo5ShortNameChlr4Ia"
+      ],
+      "description": "CHLR 4-IA"
+    },
+    {
+      "enum": [
+        391,
+        "cpo5ShortNameChlr4Enabled"
+      ],
+      "description": "CHLR 4-Enabled"
+    },
+    {
+      "enum": [
+        392,
+        "cpo5ShortNameCh4IntrlkOn"
+      ],
+      "description": "Eff CHLR 4-S"
+    },
+    {
+      "enum": [
+        393,
+        "cpo5ShortNameCh4IntrlkRetryCount"
+      ],
+      "description": "CH4 INTRLK RETRY COUNT"
+    },
+    {
+      "enum": [
+        394,
+        "cpo5ShortNameCh4LwrOptPctLoad"
+      ],
+      "description": "CH4 LWR OPT PCT LOAD"
+    },
+    {
+      "enum": [
+        395,
+        "cpo5ShortNameCh4PctLoadspResetState"
+      ],
+      "description": "CH4 PCT LOADSP RESET STATE"
+    },
+    {
+      "enum": [
+        396,
+        "cpo5ShortNameCh4UpperOptlPctLoad"
+      ],
+      "description": "CH4 UPPER OPTL PCT LOAD"
+    },
+    {
+      "enum": [
+        397,
+        "cpo5ShortNameChEnableDetEn1Out"
+      ],
+      "description": "CH ENABLE DET EN 1 OUT"
+    },
+    {
+      "enum": [
+        398,
+        "cpo5ShortNameChEnableDetEn2Out"
+      ],
+      "description": "CH ENABLE DET EN 2 OUT"
+    },
+    {
+      "enum": [
+        399,
+        "cpo5ShortNameChEnableDetEn3Out"
+      ],
+      "description": "CH ENABLE DET EN 3 OUT"
+    },
+    {
+      "enum": [
+        400,
+        "cpo5ShortNameChEnableDetEn4Out"
+      ],
+      "description": "CH ENABLE DET EN 4 OUT"
+    },
+    {
+      "enum": [
+        401,
+        "cpo5ShortNameChFrcdUpstgDerateNow"
+      ],
+      "description": "CH FRCD UPSTG DERATE NOW"
+    },
+    {
+      "enum": [
+        402,
+        "cpo5ShortNameChFrcdUpstgDerateReset"
+      ],
+      "description": "CH FRCD UPSTG DERATE RESET"
+    },
+    {
+      "enum": [
+        403,
+        "cpo5ShortNameChlrAvailableCap"
+      ],
+      "description": "CHLR AVAILABLE CAP"
+    },
+    {
+      "enum": [
+        404,
+        "cpo5ShortNameChlrCapLimit"
+      ],
+      "description": "CHLR CAP LIMIT"
+    },
+    {
+      "enum": [
+        405,
+        "cpo5ShortNameChSelCh1Cmd"
+      ],
+      "description": "CH SEL CH1 CMD"
+    },
+    {
+      "enum": [
+        406,
+        "cpo5ShortNameChSelCh2Cmd"
+      ],
+      "description": "CH SEL CH2 CMD"
+    },
+    {
+      "enum": [
+        407,
+        "cpo5ShortNameChSelCh3Cmd"
+      ],
+      "description": "CH SEL CH3 CMD"
+    },
+    {
+      "enum": [
+        408,
+        "cpo5ShortNameChSelCh4Cmd"
+      ],
+      "description": "CH SEL CH4 CMD"
+    },
+    {
+      "enum": [
+        409,
+        "cpo5ShortNameChSelIsoVlv1Cmd"
+      ],
+      "description": "CH SEL ISO VLV 1 CMD"
+    },
+    {
+      "enum": [
+        410,
+        "cpo5ShortNameChSelIsoVlv2Cmd"
+      ],
+      "description": "CH SEL ISO VLV 2 CMD"
+    },
+    {
+      "enum": [
+        411,
+        "cpo5ShortNameChSelIsoVlv3Cmd"
+      ],
+      "description": "CH SEL ISO VLV 3 CMD"
+    },
+    {
+      "enum": [
+        412,
+        "cpo5ShortNameChSelIsoVlv4Cmd"
+      ],
+      "description": "CH SEL ISO VLV 4 CMD"
+    },
+    {
+      "enum": [
+        413,
+        "cpo5ShortNameChlrCurrentCap"
+      ],
+      "description": "CHLR CURRENT CAP"
+    },
+    {
+      "enum": [
+        414,
+        "cpo5ShortNameChSelCurrPerfIndex"
+      ],
+      "description": "CH SEL CURR PERF INDEX"
+    },
+    {
+      "enum": [
+        415,
+        "cpo5ShortNameChSelDeratingPct"
+      ],
+      "description": "CH SEL DERATING PCT"
+    },
+    {
+      "enum": [
+        416,
+        "cpo5ShortNameChSelInterimDevs"
+      ],
+      "description": "CH SEL INTERIM DEVS"
+    },
+    {
+      "enum": [
+        417,
+        "cpo5ShortNameChSelInternalLoad"
+      ],
+      "description": "CH SEL INTERNAL LOAD"
+    },
+    {
+      "enum": [
+        418,
+        "cpo5ShortNameChIsStable"
+      ],
+      "description": "CH IS STABLE"
+    },
+    {
+      "enum": [
+        419,
+        "cpo5ShortNameChSelMaxChwFlow"
+      ],
+      "description": "CH SEL MAX CHW FLOW"
+    },
+    {
+      "enum": [
+        420,
+        "cpo5ShortNameChCurrentPctLoad"
+      ],
+      "description": "CH CURRENT PCT LOAD"
+    },
+    {
+      "enum": [
+        421,
+        "cpo5ShortNameChSelPredAdjPerindex"
+      ],
+      "description": "CH SEL PRED ADJ PERINDEX"
+    },
+    {
+      "enum": [
+        422,
+        "cpo5ShortNameChSelPredPctLoad"
+      ],
+      "description": "CH SEL PRED PCT LOAD"
+    },
+    {
+      "enum": [
+        423,
+        "cpo5ShortNameChSelRel"
+      ],
+      "description": "CH SEL REL"
+    },
+    {
+      "enum": [
+        424,
+        "cpo5ShortNameChSelRequiredChwFlow"
+      ],
+      "description": "CH SEL REQUIRED CHW FLOW"
+    },
+    {
+      "enum": [
+        425,
+        "cpo5ShortNameChSelRequiredChwMinFlow"
+      ],
+      "description": "CH SEL REQUIRED CHW MIN FLOW"
+    },
+    {
+      "enum": [
+        426,
+        "cpo5ShortNameChSelRequiredCwFlow"
+      ],
+      "description": "CH SEL REQUIRED CW FLOW"
+    },
+    {
+      "enum": [
+        427,
+        "cpo5ShortNameChSelRequiredCwMinFlow"
+      ],
+      "description": "CH SEL REQUIRED CW MIN FLOW"
+    },
+    {
+      "enum": [
+        428,
+        "cpo5ShortNameChSelRequiredTowerFlow"
+      ],
+      "description": "CH SEL REQUIRED TOWER FLOW"
+    },
+    {
+      "enum": [
+        429,
+        "cpo5ShortNameChEnable"
+      ],
+      "description": "CH-ENABLE"
+    },
+    {
+      "enum": [
+        430,
+        "cpo5ShortNameChlrTargetDevices"
+      ],
+      "description": "CHLR TARGET DEVICES"
+    },
+    {
+      "enum": [
+        431,
+        "cpo5ShortNameChlrTargetPerfIndex"
+      ],
+      "description": "CHLR TARGET PERF INDEX"
+    },
+    {
+      "enum": [
+        432,
+        "cpo5ShortNameChSelTimeUntilDevOn"
+      ],
+      "description": "CH SEL TIME UNTIL DEV-ON"
+    },
+    {
+      "enum": [
+        433,
+        "cpo5ShortNameChSelTotalCurrentPower"
+      ],
+      "description": "CH SEL TOTAL CURRENT POWER"
+    },
+    {
+      "enum": [
+        434,
+        "cpo5ShortNameChlrWaitCmdFlow"
+      ],
+      "description": "CHLR WAIT CMD FLOW"
+    },
+    {
+      "enum": [
+        435,
+        "cpo5ShortNameChwflowBpvO"
+      ],
+      "description": "CHWFLOW-BPV-O"
+    },
+    {
+      "enum": [
+        436,
+        "cpo5ShortNamePchwF"
+      ],
+      "description": "PCHW-F"
+    },
+    {
+      "enum": [
+        437,
+        "cpo5ShortNameChwLoad"
+      ],
+      "description": "CHW LOAD"
+    },
+    {
+      "enum": [
+        438,
+        "cpo5ShortNamePchwp1C"
+      ],
+      "description": "PCHWP 1-C"
+    },
+    {
+      "enum": [
+        439,
+        "cpo5ShortNamePchwp1O"
+      ],
+      "description": "PCHWP 1-O"
+    },
+    {
+      "enum": [
+        440,
+        "cpo5ShortNamePchwp1State"
+      ],
+      "description": "PCHWP 1-STATE"
+    },
+    {
+      "enum": [
+        441,
+        "cpo5ShortNamePchwp1Ia"
+      ],
+      "description": "PCHWP 1-IA"
+    },
+    {
+      "enum": [
+        442,
+        "cpo5ShortNamePchwp1Enabled"
+      ],
+      "description": "PCHWP 1-Enabled"
+    },
+    {
+      "enum": [
+        443,
+        "cpo5ShortNamePchwp1IntrlkOn"
+      ],
+      "description": "PCHWP 1 INTRLK ON"
+    },
+    {
+      "enum": [
+        444,
+        "cpo5ShortNamePchwp1IntrlkRetryCount"
+      ],
+      "description": "PCHWP 1 INTRLK RETRY COUNT"
+    },
+    {
+      "enum": [
+        445,
+        "cpo5ShortNamePchwp1IntrlkUsage"
+      ],
+      "description": "PCHWP 1 INTRLK USAGE"
+    },
+    {
+      "enum": [
+        446,
+        "cpo5ShortNamePchwp2C"
+      ],
+      "description": "PCHWP 2-C"
+    },
+    {
+      "enum": [
+        447,
+        "cpo5ShortNamePchwp2O"
+      ],
+      "description": "PCHWP 2-O"
+    },
+    {
+      "enum": [
+        448,
+        "cpo5ShortNamePchwp2State"
+      ],
+      "description": "PCHWP 2-STATE"
+    },
+    {
+      "enum": [
+        449,
+        "cpo5ShortNamePchwp2Ia"
+      ],
+      "description": "PCHWP 2-IA"
+    },
+    {
+      "enum": [
+        450,
+        "cpo5ShortNamePchwp2Enabled"
+      ],
+      "description": "PCHWP 2-Enabled"
+    },
+    {
+      "enum": [
+        451,
+        "cpo5ShortNameChwPmp2IntrlkOn"
+      ],
+      "description": "CHW PMP2 INTRLK ON"
+    },
+    {
+      "enum": [
+        452,
+        "cpo5ShortNameChwPmp2IntrlkRetryCount"
+      ],
+      "description": "CHW PMP2 INTRLK RETRY COUNT"
+    },
+    {
+      "enum": [
+        453,
+        "cpo5ShortNameChwPmp2IntrlkUsage"
+      ],
+      "description": "CHW PMP2 INTRLK USAGE"
+    },
+    {
+      "enum": [
+        454,
+        "cpo5ShortNamePchwp3C"
+      ],
+      "description": "PCHWP 3-C"
+    },
+    {
+      "enum": [
+        455,
+        "cpo5ShortNamePchwp3O"
+      ],
+      "description": "PCHWP 3-O"
+    },
+    {
+      "enum": [
+        456,
+        "cpo5ShortNamePchwp3State"
+      ],
+      "description": "PCHWP 3-STATE"
+    },
+    {
+      "enum": [
+        457,
+        "cpo5ShortNamePchwp3Ia"
+      ],
+      "description": "PCHWP 3-IA"
+    },
+    {
+      "enum": [
+        458,
+        "cpo5ShortNamePchwp3Enabled"
+      ],
+      "description": "PCHWP 3-Enabled"
+    },
+    {
+      "enum": [
+        459,
+        "cpo5ShortNameChwPmp3IntrlkOn"
+      ],
+      "description": "CHW PMP3 INTRLK ON"
+    },
+    {
+      "enum": [
+        460,
+        "cpo5ShortNameChwPmp3IntrlkRetryCount"
+      ],
+      "description": "CHW PMP3 INTRLK RETRY COUNT"
+    },
+    {
+      "enum": [
+        461,
+        "cpo5ShortNameChwPmp3IntrlkUsage"
+      ],
+      "description": "CHW PMP3 INTRLK USAGE"
+    },
+    {
+      "enum": [
+        462,
+        "cpo5ShortNamePchwp4C"
+      ],
+      "description": "PCHWP 4-C"
+    },
+    {
+      "enum": [
+        463,
+        "cpo5ShortNamePchwp4O"
+      ],
+      "description": "PCHWP 4-O"
+    },
+    {
+      "enum": [
+        464,
+        "cpo5ShortNameChwPmp4CtrlState"
+      ],
+      "description": "CHW PMP4Ctrl STATE"
+    },
+    {
+      "enum": [
+        465,
+        "cpo5ShortNamePchwp4Ia"
+      ],
+      "description": "PCHWP 4-IA"
+    },
+    {
+      "enum": [
+        466,
+        "cpo5ShortNamePchwp4Enabled"
+      ],
+      "description": "PCHWP 4-Enabled"
+    },
+    {
+      "enum": [
+        467,
+        "cpo5ShortNameChwPmp4IntrlkOn"
+      ],
+      "description": "CHW PMP4 INTRLK ON"
+    },
+    {
+      "enum": [
+        468,
+        "cpo5ShortNameChwPmp4IntrlkRetryCount"
+      ],
+      "description": "CHW PMP4 INTRLK RETRY COUNT"
+    },
+    {
+      "enum": [
+        469,
+        "cpo5ShortNameChwPmp4IntrlkUsage"
+      ],
+      "description": "CHW PMP4 INTRLK USAGE"
+    },
+    {
+      "enum": [
+        470,
+        "cpo5ShortNameChwPmpdpCtrlPctCmd"
+      ],
+      "description": "CHW PMPDP CTRL PCT CMD"
+    },
+    {
+      "enum": [
+        471,
+        "cpo5ShortNamePchwpSelAvailCap"
+      ],
+      "description": "PCHWP SEL AVAIL CAP"
+    },
+    {
+      "enum": [
+        472,
+        "cpo5ShortNamePchwpSelCurrCap"
+      ],
+      "description": "PCHWP SEL CURR CAP"
+    },
+    {
+      "enum": [
+        473,
+        "cpo5ShortNamePchwpSelCurrEff"
+      ],
+      "description": "PCHWP SEL CURR EFF"
+    },
+    {
+      "enum": [
+        474,
+        "cpo5ShortNamePchwpSelCurrPctLoad"
+      ],
+      "description": "PCHWP SEL CURR PCT LOAD"
+    },
+    {
+      "enum": [
+        475,
+        "cpo5ShortNamePchwpSelDev1Cmd"
+      ],
+      "description": "PCHWP SEL DEV 1 CMD"
+    },
+    {
+      "enum": [
+        476,
+        "cpo5ShortNamePchwpSelDev2Cmd"
+      ],
+      "description": "PCHWP SEL DEV 2 CMD"
+    },
+    {
+      "enum": [
+        477,
+        "cpo5ShortNamePchwpSelDev3Cmd"
+      ],
+      "description": "PCHWP SEL DEV 3 CMD"
+    },
+    {
+      "enum": [
+        478,
+        "cpo5ShortNamePchwpSelDev4Cmd"
+      ],
+      "description": "PCHWP SEL DEV 4 CMD"
+    },
+    {
+      "enum": [
+        479,
+        "cpo5ShortNamePchwpSelPredAdjEff"
+      ],
+      "description": "PCHWP SEL PRED ADJ EFF"
+    },
+    {
+      "enum": [
+        480,
+        "cpo5ShortNamePchwpSelPredEff"
+      ],
+      "description": "PCHWP SEL PRED EFF"
+    },
+    {
+      "enum": [
+        481,
+        "cpo5ShortNamePchwpSelPredPctLoad"
+      ],
+      "description": "PCHWP SEL PRED PCT LOAD"
+    },
+    {
+      "enum": [
+        482,
+        "cpo5ShortNamePchwpSelRel"
+      ],
+      "description": "PCHWP SEL REL"
+    },
+    {
+      "enum": [
+        483,
+        "cpo5ShortNamePchwpInterimDevs"
+      ],
+      "description": "PCHWP INTERIM DEVS"
+    },
+    {
+      "enum": [
+        484,
+        "cpo5ShortNamePchwpTargetDevices"
+      ],
+      "description": "PCHWP TARGET DEVICES"
+    },
+    {
+      "enum": [
+        485,
+        "cpo5ShortNamePchwrTCalcNumDevices"
+      ],
+      "description": "PCHWR-T CALC NUM DEVICES"
+    },
+    {
+      "enum": [
+        486,
+        "cpo5ShortNamePchwsT"
+      ],
+      "description": "PCHWS-T"
+    },
+    {
+      "enum": [
+        487,
+        "cpo5ShortNameClgTwr1CtrlFanOn"
+      ],
+      "description": "CLG TWR 1 Ctrl FAN ON"
+    },
+    {
+      "enum": [
+        488,
+        "cpo5ShortNameTwr1PctCmd"
+      ],
+      "description": "TWR 1-Pct Cmd"
+    },
+    {
+      "enum": [
+        489,
+        "cpo5ShortNameTwr1IsoVlv"
+      ],
+      "description": "TWR 1-Iso Vlv"
+    },
+    {
+      "enum": [
+        490,
+        "cpo5ShortNameTwr1State"
+      ],
+      "description": "TWR 1-STATE"
+    },
+    {
+      "enum": [
+        491,
+        "cpo5ShortNameTwr1Ia"
+      ],
+      "description": "TWR 1-IA"
+    },
+    {
+      "enum": [
+        492,
+        "cpo5ShortNameClgTwr1IntrlkEnabled"
+      ],
+      "description": "CLG TWR 1 INTRLK ENABLED"
+    },
+    {
+      "enum": [
+        493,
+        "cpo5ShortNameClgTwr1IntrlkOutput"
+      ],
+      "description": "CLG TWR 1 INTRLK OUTPUT"
+    },
+    {
+      "enum": [
+        494,
+        "cpo5ShortNameCooltwr2CtrlFanOn"
+      ],
+      "description": "COOLTWR2Ctrl FAN ON"
+    },
+    {
+      "enum": [
+        495,
+        "cpo5ShortNameTwr2PctCmd"
+      ],
+      "description": "TWR 2-Pct Cmd"
+    },
+    {
+      "enum": [
+        496,
+        "cpo5ShortNameTwr2IsoVlv"
+      ],
+      "description": "TWR 2-Iso Vlv"
+    },
+    {
+      "enum": [
+        497,
+        "cpo5ShortNameTwr2State"
+      ],
+      "description": "TWR 2-STATE"
+    },
+    {
+      "enum": [
+        498,
+        "cpo5ShortNameTwr2Ia"
+      ],
+      "description": "TWR 2-IA"
+    },
+    {
+      "enum": [
+        499,
+        "cpo5ShortNameCooltwr2IntrlkEnabled"
+      ],
+      "description": "COOLTWR2 INTRLK ENABLED"
+    },
+    {
+      "enum": [
+        500,
+        "cpo5ShortNameCooltwr2IntrlkOn"
+      ],
+      "description": "COOLTWR2 INTRLK ON"
+    },
+    {
+      "enum": [
+        501,
+        "cpo5ShortNameCooltwr3CtrlFanOn"
+      ],
+      "description": "COOLTWR3Ctrl FAN ON"
+    },
+    {
+      "enum": [
+        502,
+        "cpo5ShortNameTwr3PctCmd"
+      ],
+      "description": "TWR 3-Pct Cmd"
+    },
+    {
+      "enum": [
+        503,
+        "cpo5ShortNameTwr3IsoVlv"
+      ],
+      "description": "TWR 3-Iso Vlv"
+    },
+    {
+      "enum": [
+        504,
+        "cpo5ShortNameTwr3State"
+      ],
+      "description": "TWR 3-STATE"
+    },
+    {
+      "enum": [
+        505,
+        "cpo5ShortNameTwr3Ia"
+      ],
+      "description": "TWR 3-IA"
+    },
+    {
+      "enum": [
+        506,
+        "cpo5ShortNameCooltwr3IntrlkEnabled"
+      ],
+      "description": "COOLTWR3 INTRLK ENABLED"
+    },
+    {
+      "enum": [
+        507,
+        "cpo5ShortNameCooltwr3IntrlkOn"
+      ],
+      "description": "COOLTWR3 INTRLK ON"
+    },
+    {
+      "enum": [
+        508,
+        "cpo5ShortNameCooltwr4CtrlFanOn"
+      ],
+      "description": "COOLTWR4Ctrl FAN ON"
+    },
+    {
+      "enum": [
+        509,
+        "cpo5ShortNameTwr4PctCmd"
+      ],
+      "description": "TWR 4-Pct Cmd"
+    },
+    {
+      "enum": [
+        510,
+        "cpo5ShortNameTwr4IsoVlv"
+      ],
+      "description": "TWR 4-Iso Vlv"
+    },
+    {
+      "enum": [
+        511,
+        "cpo5ShortNameTwr4State"
+      ],
+      "description": "TWR 4-STATE"
+    },
+    {
+      "enum": [
+        512,
+        "cpo5ShortNameTwr4Ia"
+      ],
+      "description": "TWR 4-IA"
+    },
+    {
+      "enum": [
+        513,
+        "cpo5ShortNameCooltwr4IntrlkEnabled"
+      ],
+      "description": "COOLTWR4 INTRLK ENABLED"
+    },
+    {
+      "enum": [
+        514,
+        "cpo5ShortNameCooltwr4IntrlkOn"
+      ],
+      "description": "COOLTWR4 INTRLK ON"
+    },
+    {
+      "enum": [
+        515,
+        "cpo5ShortNameClgTwrEnableDetEn1"
+      ],
+      "description": "CLG TWR ENABLE DET EN 1"
+    },
+    {
+      "enum": [
+        516,
+        "cpo5ShortNameClgTwrEnableDetEn2"
+      ],
+      "description": "CLG TWR ENABLE DET EN 2"
+    },
+    {
+      "enum": [
+        517,
+        "cpo5ShortNameClgTwrEnableDetEn3"
+      ],
+      "description": "CLG TWR ENABLE DET EN 3"
+    },
+    {
+      "enum": [
+        518,
+        "cpo5ShortNameClgTwrEnableDetEn4"
+      ],
+      "description": "CLG TWR ENABLE DET EN 4"
+    },
+    {
+      "enum": [
+        519,
+        "cpo5ShortNameClgTwrSelAvailCap"
+      ],
+      "description": "CLG TWR SEL AVAIL CAP"
+    },
+    {
+      "enum": [
+        520,
+        "cpo5ShortNameClgTwrSelCurrCap"
+      ],
+      "description": "CLG TWR SEL CURR CAP"
+    },
+    {
+      "enum": [
+        521,
+        "cpo5ShortNameClgTwrSelCurrEff"
+      ],
+      "description": "CLG TWR SEL CURR EFF"
+    },
+    {
+      "enum": [
+        522,
+        "cpo5ShortNameClgTwrSelDev1Cmd"
+      ],
+      "description": "CLG TWR SEL DEV 1 CMD"
+    },
+    {
+      "enum": [
+        523,
+        "cpo5ShortNameClgTwrSelDev2Cmd"
+      ],
+      "description": "CLG TWR SEL DEV 2 CMD"
+    },
+    {
+      "enum": [
+        524,
+        "cpo5ShortNameClgTwrSelDev3Cmd"
+      ],
+      "description": "CLG TWR SEL DEV 3 CMD"
+    },
+    {
+      "enum": [
+        525,
+        "cpo5ShortNameClgTwrSelDev4Cmd"
+      ],
+      "description": "CLG TWR SEL DEV 4 CMD"
+    },
+    {
+      "enum": [
+        526,
+        "cpo5ShortNameCtInterimDevs"
+      ],
+      "description": "CT INTERIM DEVS"
+    },
+    {
+      "enum": [
+        527,
+        "cpo5ShortNameClgTwrSelIsoVlv1Cmd"
+      ],
+      "description": "CLG TWR SEL ISO VLV 1 CMD"
+    },
+    {
+      "enum": [
+        528,
+        "cpo5ShortNameClgTwrSelIsoVlv2Cmd"
+      ],
+      "description": "CLG TWR SEL ISO VLV 2 CMD"
+    },
+    {
+      "enum": [
+        529,
+        "cpo5ShortNameClgTwrSelIsoVlv3Cmd"
+      ],
+      "description": "CLG TWR SEL ISO VLV 3 CMD"
+    },
+    {
+      "enum": [
+        530,
+        "cpo5ShortNameClgTwrSelIsoVlv4Cmd"
+      ],
+      "description": "CLG TWR SEL ISO VLV 4 CMD"
+    },
+    {
+      "enum": [
+        531,
+        "cpo5ShortNameClgTwrSelPredAdjEff"
+      ],
+      "description": "CLG TWR SEL PRED ADJ EFF"
+    },
+    {
+      "enum": [
+        532,
+        "cpo5ShortNameClgTwrSelPredEff"
+      ],
+      "description": "CLG TWR SEL PRED EFF"
+    },
+    {
+      "enum": [
+        533,
+        "cpo5ShortNameClgTwrSelRel"
+      ],
+      "description": "CLG TWR SEL REL"
+    },
+    {
+      "enum": [
+        534,
+        "cpo5ShortNameCtTargetDevices"
+      ],
+      "description": "CT TARGET DEVICES"
+    },
+    {
+      "enum": [
+        535,
+        "cpo5ShortNameClgTwrSelTotalCurrPow"
+      ],
+      "description": "CLG TWR SEL TOTAL CURR POW"
+    },
+    {
+      "enum": [
+        536,
+        "cpo5ShortNameClgTwrStartDeterState"
+      ],
+      "description": "CLG TWR START DETER STATE"
+    },
+    {
+      "enum": [
+        537,
+        "cpo5ShortNameCwBypVlvCtrlCs"
+      ],
+      "description": "CW BYP VLV Ctrl CS"
+    },
+    {
+      "enum": [
+        538,
+        "cpo5ShortNameCwBypVlvCtrlPctCmd"
+      ],
+      "description": "CW BYP VLV Ctrl PCT CMD"
+    },
+    {
+      "enum": [
+        539,
+        "cpo5ShortNameCwBypVlvCtrlState"
+      ],
+      "description": "CW BYP VLV Ctrl STATE"
+    },
+    {
+      "enum": [
+        540,
+        "cpo5ShortNameCwp1C"
+      ],
+      "description": "CWP 1-C"
+    },
+    {
+      "enum": [
+        541,
+        "cpo5ShortNameCwp1State"
+      ],
+      "description": "CWP 1-STATE"
+    },
+    {
+      "enum": [
+        542,
+        "cpo5ShortNameCwp1Ia"
+      ],
+      "description": "CWP 1-IA"
+    },
+    {
+      "enum": [
+        543,
+        "cpo5ShortNameCwp1IntrlkEnabled"
+      ],
+      "description": "CWP 1 INTRLK ENABLED"
+    },
+    {
+      "enum": [
+        544,
+        "cpo5ShortNameCwp1IntrlkOutput"
+      ],
+      "description": "CWP 1 INTRLK OUTPUT"
+    },
+    {
+      "enum": [
+        545,
+        "cpo5ShortNameCwp2C"
+      ],
+      "description": "CWP 2-C"
+    },
+    {
+      "enum": [
+        546,
+        "cpo5ShortNameCwp2State"
+      ],
+      "description": "CWP 2-STATE"
+    },
+    {
+      "enum": [
+        547,
+        "cpo5ShortNameCwp2Ia"
+      ],
+      "description": "CWP 2-IA"
+    },
+    {
+      "enum": [
+        548,
+        "cpo5ShortNameCwp2IntrlkEnabled"
+      ],
+      "description": "CWP 2 INTRLK ENABLED"
+    },
+    {
+      "enum": [
+        549,
+        "cpo5ShortNameCwp2IntrlkOn"
+      ],
+      "description": "CWP 2 INTRLK ON"
+    },
+    {
+      "enum": [
+        550,
+        "cpo5ShortNameCwp3C"
+      ],
+      "description": "CWP 3-C"
+    },
+    {
+      "enum": [
+        551,
+        "cpo5ShortNameCwp3State"
+      ],
+      "description": "CWP 3-STATE"
+    },
+    {
+      "enum": [
+        552,
+        "cpo5ShortNameCwp3Ia"
+      ],
+      "description": "CWP 3-IA"
+    },
+    {
+      "enum": [
+        553,
+        "cpo5ShortNameCwp3IntrlkEnabled"
+      ],
+      "description": "CWP 3 INTRLK ENABLED"
+    },
+    {
+      "enum": [
+        554,
+        "cpo5ShortNameCwp3IntrlkOn"
+      ],
+      "description": "CWP 3 INTRLK ON"
+    },
+    {
+      "enum": [
+        555,
+        "cpo5ShortNameCwp4C"
+      ],
+      "description": "CWP 4-C"
+    },
+    {
+      "enum": [
+        556,
+        "cpo5ShortNameCwp4State"
+      ],
+      "description": "CWP 4-STATE"
+    },
+    {
+      "enum": [
+        557,
+        "cpo5ShortNameCwp4Ia"
+      ],
+      "description": "CWP 4-IA"
+    },
+    {
+      "enum": [
+        558,
+        "cpo5ShortNameCwp4IntrlkEnabled"
+      ],
+      "description": "CWP 4 INTRLK ENABLED"
+    },
+    {
+      "enum": [
+        559,
+        "cpo5ShortNameCwp4IntrlkOn"
+      ],
+      "description": "CWP 4 INTRLK ON"
+    },
+    {
+      "enum": [
+        560,
+        "cpo5ShortNameCwpSelAvailCap"
+      ],
+      "description": "CWP SEL AVAIL CAP"
+    },
+    {
+      "enum": [
+        561,
+        "cpo5ShortNameCwpSelCurrCap"
+      ],
+      "description": "CWP SEL CURR CAP"
+    },
+    {
+      "enum": [
+        562,
+        "cpo5ShortNameCwpSelCurrEff"
+      ],
+      "description": "CWP SEL CURR EFF"
+    },
+    {
+      "enum": [
+        563,
+        "cpo5ShortNameCwpSelCurrPctLoad"
+      ],
+      "description": "CWP SEL CURR PCT LOAD"
+    },
+    {
+      "enum": [
+        564,
+        "cpo5ShortNameCwpSelDev1Cmd"
+      ],
+      "description": "CWP SEL DEV1 CMD"
+    },
+    {
+      "enum": [
+        565,
+        "cpo5ShortNameCwpSelDev2Cmd"
+      ],
+      "description": "CWP SEL DEV2 CMD"
+    },
+    {
+      "enum": [
+        566,
+        "cpo5ShortNameCwpSelDev3Cmd"
+      ],
+      "description": "CWP SEL DEV3 CMD"
+    },
+    {
+      "enum": [
+        567,
+        "cpo5ShortNameCwpSelDev4Cmd"
+      ],
+      "description": "CWP SEL DEV4 CMD"
+    },
+    {
+      "enum": [
+        568,
+        "cpo5ShortNameCwpSelPredAdjEff"
+      ],
+      "description": "CWP SEL PRED ADJ EFF"
+    },
+    {
+      "enum": [
+        569,
+        "cpo5ShortNameCwpSelPredEff"
+      ],
+      "description": "CWP SEL PRED EFF"
+    },
+    {
+      "enum": [
+        570,
+        "cpo5ShortNameCwpSelPredPctLoad"
+      ],
+      "description": "CWP SEL PRED PCT LOAD"
+    },
+    {
+      "enum": [
+        571,
+        "cpo5ShortNameCwpSelRel"
+      ],
+      "description": "CWP SEL REL"
+    },
+    {
+      "enum": [
+        572,
+        "cpo5ShortNameCwpTargetDevices"
+      ],
+      "description": "CWP TARGET DEVICES"
+    },
+    {
+      "enum": [
+        573,
+        "cpo5ShortNameCwpInterimDevs"
+      ],
+      "description": "CWP INTERIM DEVS"
+    },
+    {
+      "enum": [
+        574,
+        "cpo5ShortNameCwpCapChkCount"
+      ],
+      "description": "CWP CAP CHK COUNT"
+    },
+    {
+      "enum": [
+        575,
+        "cpo5ShortNameCwSeqState"
+      ],
+      "description": "CW SEQ STATE"
+    },
+    {
+      "enum": [
+        576,
+        "cpo5ShortNameCwsT"
+      ],
+      "description": "CWS-T"
+    },
+    {
+      "enum": [
+        577,
+        "cpo5ShortNameCwsTCalcNumDevices"
+      ],
+      "description": "CWS-T CALC NUM DEVICES"
+    },
+    {
+      "enum": [
+        578,
+        "cpo5ShortNameLoadCalcRel"
+      ],
+      "description": "LOAD CALC REL"
+    },
+    {
+      "enum": [
+        579,
+        "cpo5ShortNameLoadFilterEwma"
+      ],
+      "description": "LOAD FILTER EWMA"
+    },
+    {
+      "enum": [
+        580,
+        "cpo5ShortNameLoadFilterState"
+      ],
+      "description": "LOAD FILTER STATE"
+    },
+    {
+      "enum": [
+        581,
+        "cpo5ShortNameOpenLoopTwrCtrlLlCs"
+      ],
+      "description": "OPEN LOOP TWR CTRL LL CS"
+    },
+    {
+      "enum": [
+        582,
+        "cpo5ShortNameOpenLoopTwrCtrlLlState"
+      ],
+      "description": "OPEN LOOP TWR CTRL LL STATE"
+    },
+    {
+      "enum": [
+        583,
+        "cpo5ShortNameOpenLoopTwrCtrlPctCmd"
+      ],
+      "description": "OPEN LOOP TWR CTRL PCT CMD"
+    },
+    {
+      "enum": [
+        584,
+        "cpo5ShortNamePumpStartDeterOut"
+      ],
+      "description": "PUMP START DETER OUT"
+    },
+    {
+      "enum": [
+        585,
+        "cpo5ShortNameStateTableVfPriMinflowCtrlMode"
+      ],
+      "description": "STATE TABLE VF PRI MINFLOW CTRL MODE"
+    },
+    {
+      "enum": [
+        586,
+        "cpo5ShortNameStateTableChwPmpDpCtrlMode"
+      ],
+      "description": "STATE TABLE CHW PMP DP CTRL MODE"
+    },
+    {
+      "enum": [
+        587,
+        "cpo5ShortNameStateTableCwBypVlvCtrlMode"
+      ],
+      "description": "STATE TABLE CW BYP VLV CTRL MODE"
+    },
+    {
+      "enum": [
+        588,
+        "cpo5ShortNameCooltwr1IntrlRetryC"
+      ],
+      "description": "COOLTWR1 INTRL RETRY-C"
+    },
+    {
+      "enum": [
+        589,
+        "cpo5ShortNameCooltwr2IntrlRetryC"
+      ],
+      "description": "COOLTWR2 INTRL RETRY-C"
+    },
+    {
+      "enum": [
+        590,
+        "cpo5ShortNameCooltwr3IntrlRetryC"
+      ],
+      "description": "COOLTWR3 INTRL RETRY-C"
+    },
+    {
+      "enum": [
+        591,
+        "cpo5ShortNameCooltwr4IntrlRetryC"
+      ],
+      "description": "COOLTWR4 INTRL RETRY-C"
+    },
+    {
+      "enum": [
+        592,
+        "cpo5ShortNameCwp1IntrlkRetryC"
+      ],
+      "description": "CWP 1 INTRLK RETRY-C"
+    },
+    {
+      "enum": [
+        593,
+        "cpo5ShortNameCwp2IntrlkRetryC"
+      ],
+      "description": "CWP 2 INTRLK RETRY-C"
+    },
+    {
+      "enum": [
+        594,
+        "cpo5ShortNameCwp3IntrlkRetryC"
+      ],
+      "description": "CWP 3 INTRLK RETRY-C"
+    },
+    {
+      "enum": [
+        595,
+        "cpo5ShortNameCwp4IntrlkRetryC"
+      ],
+      "description": "CWP 4 INTRLK RETRY-C"
+    },
+    {
+      "enum": [
+        596,
+        "cpo5ShortNameCwbypvProcRange"
+      ],
+      "description": "CWBYPV PROC-RANGE"
+    },
+    {
+      "enum": [
+        597,
+        "cpo5ShortNameCh1ChwDpFail"
+      ],
+      "description": "CH1 CHW DP FAIL"
+    },
+    {
+      "enum": [
+        598,
+        "cpo5ShortNameCh2ChwDpFail"
+      ],
+      "description": "CH2 CHW DP FAIL"
+    },
+    {
+      "enum": [
+        599,
+        "cpo5ShortNameCh3ChwDpFail"
+      ],
+      "description": "CH3 CHW DP FAIL"
+    },
+    {
+      "enum": [
+        600,
+        "cpo5ShortNameCh4ChwDpFail"
+      ],
+      "description": "CH4 CHW DP FAIL"
+    },
+    {
+      "enum": [
+        601,
+        "cpo5ShortNameBldgChwDpFail"
+      ],
+      "description": "BLDG CHW DP FAIL"
+    },
+    {
+      "enum": [
+        602,
+        "cpo5ShortNamePBldgChwFlowFail"
+      ],
+      "description": "P BLDG CHW FLOW FAIL"
+    },
+    {
+      "enum": [
+        603,
+        "cpo5ShortNameCh1ChwsTFail"
+      ],
+      "description": "CH1 CHWS T FAIL"
+    },
+    {
+      "enum": [
+        604,
+        "cpo5ShortNameCh2ChwsTFail"
+      ],
+      "description": "CH2 CHWS T FAIL"
+    },
+    {
+      "enum": [
+        605,
+        "cpo5ShortNameCh3ChwsTFail"
+      ],
+      "description": "CH3 CHWS T FAIL"
+    },
+    {
+      "enum": [
+        606,
+        "cpo5ShortNameCh4ChwsTFail"
+      ],
+      "description": "CH4 CHWS T FAIL"
+    },
+    {
+      "enum": [
+        607,
+        "cpo5ShortNameCh1ChwrTFail"
+      ],
+      "description": "CH1 CHWR T FAIL"
+    },
+    {
+      "enum": [
+        608,
+        "cpo5ShortNameCh2ChwrTFail"
+      ],
+      "description": "CH2 CHWR T FAIL"
+    },
+    {
+      "enum": [
+        609,
+        "cpo5ShortNameCh3ChwrTFail"
+      ],
+      "description": "CH3 CHWR T FAIL"
+    },
+    {
+      "enum": [
+        610,
+        "cpo5ShortNameCh4ChwrTFail"
+      ],
+      "description": "CH4 CHWR T FAIL"
+    },
+    {
+      "enum": [
+        611,
+        "cpo5ShortNameCh1CwTFail"
+      ],
+      "description": "CH1 CW T FAIL"
+    },
+    {
+      "enum": [
+        612,
+        "cpo5ShortNameCh2CwTFail"
+      ],
+      "description": "CH2 CW T FAIL"
+    },
+    {
+      "enum": [
+        613,
+        "cpo5ShortNameCh3CwTFail"
+      ],
+      "description": "CH3 CW T FAIL"
+    },
+    {
+      "enum": [
+        614,
+        "cpo5ShortNameCh4CwTFail"
+      ],
+      "description": "CH4 CW T FAIL"
+    },
+    {
+      "enum": [
+        615,
+        "cpo5ShortNameOaTFail"
+      ],
+      "description": "OA T FAIL"
+    },
+    {
+      "enum": [
+        616,
+        "cpo5ShortNameOaHFail"
+      ],
+      "description": "OA H FAIL"
+    },
+    {
+      "enum": [
+        617,
+        "cpo5ShortNameCh1IomCommFail"
+      ],
+      "description": "CH1 IOM COMM FAIL"
+    },
+    {
+      "enum": [
+        618,
+        "cpo5ShortNameCh2IomCommFail"
+      ],
+      "description": "CH2 IOM COMM FAIL"
+    },
+    {
+      "enum": [
+        619,
+        "cpo5ShortNameCh3IomCommFail"
+      ],
+      "description": "CH3 IOM COMM FAIL"
+    },
+    {
+      "enum": [
+        620,
+        "cpo5ShortNameCh4IomCommFail"
+      ],
+      "description": "CH4 IOM COMM FAIL"
+    },
+    {
+      "enum": [
+        621,
+        "cpo5ShortNameCt12IomCommFail"
+      ],
+      "description": "CT1_2 IOM COMM FAIL"
+    },
+    {
+      "enum": [
+        622,
+        "cpo5ShortNameCt34IomCommFail"
+      ],
+      "description": "CT3_4 IOM COMM FAIL"
+    },
+    {
+      "enum": [
+        623,
+        "cpo5ShortNameCh1SceqCommFail"
+      ],
+      "description": "CH1 SCEQ COMM FAIL"
+    },
+    {
+      "enum": [
+        624,
+        "cpo5ShortNameCh2SceqCommFail"
+      ],
+      "description": "CH2 SCEQ COMM FAIL"
+    },
+    {
+      "enum": [
+        625,
+        "cpo5ShortNameCh3SceqCommFail"
+      ],
+      "description": "CH3 SCEQ COMM FAIL"
+    },
+    {
+      "enum": [
+        626,
+        "cpo5ShortNameCh4SceqCommFail"
+      ],
+      "description": "CH4 SCEQ COMM FAIL"
+    },
+    {
+      "enum": [
+        627,
+        "cpo5ShortNameChwDevicesInstalled"
+      ],
+      "description": "CHW DEVICES INSTALLED"
+    },
+    {
+      "enum": [
+        628,
+        "cpo5ShortNameCtDevicesInstalled"
+      ],
+      "description": "CT DEVICES INSTALLED"
+    },
+    {
+      "enum": [
+        629,
+        "cpo5ShortNameCwDevicesInstalled"
+      ],
+      "description": "CW DEVICES INSTALLED"
+    },
+    {
+      "enum": [
+        630,
+        "cpo5ShortNameChDevicesInstalled"
+      ],
+      "description": "CH DEVICES INSTALLED"
+    },
+    {
+      "enum": [
+        631,
+        "cpo5ShortNameOatSp"
+      ],
+      "description": "OA-T SP"
+    },
+    {
+      "enum": [
+        632,
+        "cpo5ShortNameOatLoEn"
+      ],
+      "description": "OA-T LO EN"
+    },
+    {
+      "enum": [
+        633,
+        "cpo5ShortNameNotUsed633"
+      ],
+      "description": "Short Name Not Used 633"
+    },
+    {
+      "enum": [
+        634,
+        "cpo5ShortNameNotUsed634"
+      ],
+      "description": "Short Name Not Used 634"
+    },
+    {
+      "enum": [
+        635,
+        "cpo5ShortNameScEquip1Comm"
+      ],
+      "description": "SC_Equip_1_COMM"
+    },
+    {
+      "enum": [
+        636,
+        "cpo5ShortNameScEquip2Comm"
+      ],
+      "description": "SC_Equip_2_COMM"
+    },
+    {
+      "enum": [
+        637,
+        "cpo5ShortNameScEquip3Comm"
+      ],
+      "description": "SC_Equip_3_COMM"
+    },
+    {
+      "enum": [
+        638,
+        "cpo5ShortNameScEquip4Comm"
+      ],
+      "description": "SC_Equip_4_COMM"
+    },
+    {
+      "enum": [
+        639,
+        "cpo5ShortNameChlr1IomComm"
+      ],
+      "description": "chlr1_IOM_COMM"
+    },
+    {
+      "enum": [
+        640,
+        "cpo5ShortNameChlr2IomComm"
+      ],
+      "description": "chlr2_IOM_COMM"
+    },
+    {
+      "enum": [
+        641,
+        "cpo5ShortNameChlr3IomComm"
+      ],
+      "description": "chlr3_IOM_COMM"
+    },
+    {
+      "enum": [
+        642,
+        "cpo5ShortNameChlr4IomComm"
+      ],
+      "description": "chlr4_IOM_COMM"
+    },
+    {
+      "enum": [
+        643,
+        "cpo5ShortNameCooltwr12IomComm"
+      ],
+      "description": "coolTwr1_2_IOM_COMM"
+    },
+    {
+      "enum": [
+        644,
+        "cpo5ShortNameCooltwr34IomComm"
+      ],
+      "description": "coolTwr3_4_IOM_COMM"
+    },
+    {
+      "enum": [
+        645,
+        "cpo5ShortNameChlr1IUsage"
+      ],
+      "description": "CHLR 1-I USAGE"
+    },
+    {
+      "enum": [
+        646,
+        "cpo5ShortNameChlr1RunStatus"
+      ],
+      "description": "CHLR 1-RUN STATUS"
+    },
+    {
+      "enum": [
+        647,
+        "cpo5ShortNameChlr2IUsage"
+      ],
+      "description": "CHLR 2-I USAGE"
+    },
+    {
+      "enum": [
+        648,
+        "cpo5ShortNameChlr2RunStatus"
+      ],
+      "description": "CHLR 2-RUN STATUS"
+    },
+    {
+      "enum": [
+        649,
+        "cpo5ShortNameChlr3IUsage"
+      ],
+      "description": "CHLR 3-I USAGE"
+    },
+    {
+      "enum": [
+        650,
+        "cpo5ShortNameChlr3RunStatus"
+      ],
+      "description": "CHLR 3-RUN STATUS"
+    },
+    {
+      "enum": [
+        651,
+        "cpo5ShortNameChlr4IUsage"
+      ],
+      "description": "CHLR 4-I USAGE"
+    },
+    {
+      "enum": [
+        652,
+        "cpo5ShortNameChlr4RunStatus"
+      ],
+      "description": "CHLR 4-RUN STATUS"
+    },
+    {
+      "enum": [
+        653,
+        "cpo5ShortNameChlrselCwisovlvpmp1Cmd"
+      ],
+      "description": "ChlrSel_cwIsoVlvPmp1Cmd"
+    },
+    {
+      "enum": [
+        654,
+        "cpo5ShortNameChlrselCwisovlvpmp2Cmd"
+      ],
+      "description": "ChlrSel_cwIsoVlvPmp2Cmd"
+    },
+    {
+      "enum": [
+        655,
+        "cpo5ShortNameChlrselCwisovlvpmp3Cmd"
+      ],
+      "description": "ChlrSel_cwIsoVlvPmp3Cmd"
+    },
+    {
+      "enum": [
+        656,
+        "cpo5ShortNameChlrselCwisovlvpmp4Cmd"
+      ],
+      "description": "ChlrSel_cwIsoVlvPmp4Cmd"
+    },
+    {
+      "enum": [
+        657,
+        "cpo5ShortNameChlrselDev1Currentpowout"
+      ],
+      "description": "ChlrSel_dev1CurrentPowOut"
+    },
+    {
+      "enum": [
+        658,
+        "cpo5ShortNameChlrselDev2Currentpowout"
+      ],
+      "description": "ChlrSel_dev2CurrentPowOut"
+    },
+    {
+      "enum": [
+        659,
+        "cpo5ShortNameChlrselDev3Currentpowout"
+      ],
+      "description": "ChlrSel_dev3CurrentPowOut"
+    },
+    {
+      "enum": [
+        660,
+        "cpo5ShortNameChlrselDev4Currentpowout"
+      ],
+      "description": "ChlrSel_dev4CurrentPowOut"
+    },
+    {
+      "enum": [
+        661,
+        "cpo5ShortNameOltcAdaptTune"
+      ],
+      "description": "OLTC ADAPT TUNE"
+    },
+    {
+      "enum": [
+        662,
+        "cpo5ShortNameOltcDeadTime"
+      ],
+      "description": "OLTC DEAD TIME"
+    },
+    {
+      "enum": [
+        663,
+        "cpo5ShortNameOltcIntTime"
+      ],
+      "description": "OLTC INT TIME"
+    },
+    {
+      "enum": [
+        664,
+        "cpo5ShortNameOltcPropBand"
+      ],
+      "description": "OLTC PROP BAND"
+    },
+    {
+      "enum": [
+        665,
+        "cpo5ShortNameOltcStdTuning"
+      ],
+      "description": "OLTC STD TUNING"
+    },
+    {
+      "enum": [
+        666,
+        "cpo5ShortNameOltcSatTime"
+      ],
+      "description": "OLTC SAT TIME"
+    },
+    {
+      "enum": [
+        667,
+        "cpo5ShortNameOltcTimeConst"
+      ],
+      "description": "OLTC TIME CONST"
+    },
+    {
+      "enum": [
+        668,
+        "cpo5ShortNameChwBypVlvCtrlAdptTune"
+      ],
+      "description": "CHW BYP VLV CTRL ADPT TUNE"
+    },
+    {
+      "enum": [
+        669,
+        "cpo5ShortNameChwBypVlvCntlStatus"
+      ],
+      "description": "CHW BYP VLV CNTL STATUS"
+    },
+    {
+      "enum": [
+        670,
+        "cpo5ShortNameChwPmpSelIsStable"
+      ],
+      "description": "CHW PMP SEL IS STABLE"
+    },
+    {
+      "enum": [
+        671,
+        "cpo5ShortNameChwPmpDpCntlAdptTune"
+      ],
+      "description": "CHW PMP DP CNTL ADPT TUNE"
+    },
+    {
+      "enum": [
+        672,
+        "cpo5ShortNameChwPmpDpCntlStatus"
+      ],
+      "description": "CHW PMP DP CNTL STATUS"
+    },
+    {
+      "enum": [
+        673,
+        "cpo5ShortNameChwPmpDpCntlState"
+      ],
+      "description": "CHW PMP DP CNTL STATE"
+    },
+    {
+      "enum": [
+        674,
+        "cpo5ShortNameCwBypVlvCntlAdptTune"
+      ],
+      "description": "CW BYP VLV CNTL ADPT TUNE"
+    },
+    {
+      "enum": [
+        675,
+        "cpo5ShortNameCwBypVlvCntlDeadTime"
+      ],
+      "description": "CW BYP VLV CNTL DEAD TIME"
+    },
+    {
+      "enum": [
+        676,
+        "cpo5ShortNameCwBypVlvCntlIntTime"
+      ],
+      "description": "CW BYP VLV CNTL INT TIME"
+    },
+    {
+      "enum": [
+        677,
+        "cpo5ShortNameCwBypVlvCntlPropBand"
+      ],
+      "description": "CW BYP VLV CNTL PROP BAND"
+    },
+    {
+      "enum": [
+        678,
+        "cpo5ShortNameCwBypVlvCntlStdTune"
+      ],
+      "description": "CW BYP VLV CNTL STD TUNE"
+    },
+    {
+      "enum": [
+        679,
+        "cpo5ShortNameCwBypVlvCntlSatTime"
+      ],
+      "description": "CW BYP VLV CNTL SAT TIME"
+    },
+    {
+      "enum": [
+        680,
+        "cpo5ShortNameCwBypVlvCntlTimeConst"
+      ],
+      "description": "CW BYP VLV CNTL TIME CONST"
+    },
+    {
+      "enum": [
+        681,
+        "cpo5ShortNameCwBypVlvCntlCompCmd"
+      ],
+      "description": "CW BYP VLV CNTL COMP CMD"
+    },
+    {
+      "enum": [
+        682,
+        "cpo5ShortNameCoolLoadUnit"
+      ],
+      "description": "COOL LOAD UNIT"
+    },
+    {
+      "enum": [
+        683,
+        "cpo5ShortNameCwPmpIsStable"
+      ],
+      "description": "CW PMP IS STABLE"
+    },
+    {
+      "enum": [
+        684,
+        "cpo5ShortNameTempProcUnit"
+      ],
+      "description": "TEMP PROC UNIT"
+    },
+    {
+      "enum": [
+        685,
+        "cpo5ShortNameCh1NozzleDia"
+      ],
+      "description": "CH1 NOZZLE DIA"
+    },
+    {
+      "enum": [
+        686,
+        "cpo5ShortNameCh2NozzleDia"
+      ],
+      "description": "CH2 NOZZLE DIA"
+    },
+    {
+      "enum": [
+        687,
+        "cpo5ShortNameCh3NozzleDia"
+      ],
+      "description": "CH3 NOZZLE DIA"
+    },
+    {
+      "enum": [
+        688,
+        "cpo5ShortNameCh4NozzleDia"
+      ],
+      "description": "CH4 NOZZLE DIA"
+    },
+    {
+      "enum": [
+        689,
+        "cpo5ShortNameCh1CwisovO"
+      ],
+      "description": "CH1CWISOV-O"
+    },
+    {
+      "enum": [
+        690,
+        "cpo5ShortNameCh2CwisovO"
+      ],
+      "description": "CH2CWISOV-O"
+    },
+    {
+      "enum": [
+        691,
+        "cpo5ShortNameCh3CwisovO"
+      ],
+      "description": "CH3CWISOV-O"
+    },
+    {
+      "enum": [
+        692,
+        "cpo5ShortNameCh4CwisovO"
+      ],
+      "description": "CH4CWISOV-O"
+    },
+    {
+      "enum": [
+        693,
+        "cpo5ShortName693"
+      ],
+      "description": "CPO PRESENT"
+    },
+    {
+      "enum": [
+        694,
+        "cpo5ShortName694"
+      ],
+      "description": "CPO SYSTEM ENABLE"
+    },
+    {
+      "enum": [
+        695,
+        "cpo5ShortName695"
+      ],
+      "description": "CHILLER 1 PRESENT"
+    },
+    {
+      "enum": [
+        696,
+        "cpo5ShortName696"
+      ],
+      "description": "CHLR 1 DEV NAME"
+    },
+    {
+      "enum": [
+        697,
+        "cpo5ShortName697"
+      ],
+      "description": "COOLTWR1Ctrl FAN ON"
+    },
+    {
+      "enum": [
+        698,
+        "cpo5ShortName698"
+      ],
+      "description": "CHILLER 2 PRESENT"
+    },
+    {
+      "enum": [
+        699,
+        "cpo5ShortName699"
+      ],
+      "description": "CHLR 2 DEV NAME"
+    },
+    {
+      "enum": [
+        700,
+        "cpo5ShortName700"
+      ],
+      "description": "CHLR 2-ENA"
+    },
+    {
+      "enum": [
+        701,
+        "cpo5ShortName701"
+      ],
+      "description": "CHILLER 3 PRESENT"
+    },
+    {
+      "enum": [
+        702,
+        "cpo5ShortName702"
+      ],
+      "description": "CHLR 3 DEV NAME"
+    },
+    {
+      "enum": [
+        703,
+        "cpo5ShortName703"
+      ],
+      "description": "CHLR 3-ENA"
+    },
+    {
+      "enum": [
+        704,
+        "cpo5ShortName704"
+      ],
+      "description": "CH3 CHW FLOW OUT"
+    },
+    {
+      "enum": [
+        705,
+        "cpo5ShortName705"
+      ],
+      "description": "CHILLER 4 PRESENT"
+    },
+    {
+      "enum": [
+        706,
+        "cpo5ShortName706"
+      ],
+      "description": "CHLR 4 DEV NAME"
+    },
+    {
+      "enum": [
+        707,
+        "cpo5ShortName707"
+      ],
+      "description": "CH4 CHW FLOW OUT"
+    },
+    {
+      "enum": [
+        708,
+        "cpo5ShortName708"
+      ],
+      "description": "ALIAS REM LEAVING CHL SP"
+    },
+    {
+      "enum": [
+        709,
+        "cpo5ShortName709"
+      ],
+      "description": "ALIAS REM CURRENT LIMIT SP"
+    },
+    {
+      "enum": [
+        710,
+        "cpo5ShortName710"
+      ],
+      "description": "ALIAS REM RUN STOP CMD"
+    },
+    {
+      "enum": [
+        711,
+        "cpo5ShortName711"
+      ],
+      "description": "ALIAS MODEL NUMBER"
+    },
+    {
+      "enum": [
+        712,
+        "cpo5ShortName712"
+      ],
+      "description": "ALIAS EVAP PASSES"
+    },
+    {
+      "enum": [
+        713,
+        "cpo5ShortName713"
+      ],
+      "description": "ALIAS EVAP MTI"
+    },
+    {
+      "enum": [
+        714,
+        "cpo5ShortName714"
+      ],
+      "description": "ALIAS LIQUID TYPE"
+    },
+    {
+      "enum": [
+        715,
+        "cpo5ShortName715"
+      ],
+      "description": "ALIAS BRINE PERCENT"
+    },
+    {
+      "enum": [
+        716,
+        "cpo5ShortName716"
+      ],
+      "description": "ALIAS KWS INPUT"
+    },
+    {
+      "enum": [
+        717,
+        "cpo5ShortName717"
+      ],
+      "description": "ALIAS COND GPM"
+    },
+    {
+      "enum": [
+        718,
+        "cpo5ShortName718"
+      ],
+      "description": "ALIAS EVAP GPM"
+    },
+    {
+      "enum": [
+        719,
+        "cpo5ShortName719"
+      ],
+      "description": "ALIAS TONS"
+    },
+    {
+      "enum": [
+        720,
+        "cpo5ShortName720"
+      ],
+      "description": "ALIAS PROD FAM CODE"
+    },
+    {
+      "enum": [
+        721,
+        "cpo5ShortName721"
+      ],
+      "description": "ALIAS MOTOR CONTROLLER TYPE"
+    },
+    {
+      "enum": [
+        722,
+        "cpo5ShortName722"
+      ],
+      "description": "ALIAS LEAVING COND TEMP"
+    },
+    {
+      "enum": [
+        723,
+        "cpo5ShortName723"
+      ],
+      "description": "ALIAS ENTERING COND TEMP"
+    },
+    {
+      "enum": [
+        724,
+        "cpo5ShortName724"
+      ],
+      "description": "ALIAS LEAVING CHL TEMP"
+    },
+    {
+      "enum": [
+        725,
+        "cpo5ShortName725"
+      ],
+      "description": "ALIAS ENTERIG CHL TEMP"
+    },
+    {
+      "enum": [
+        726,
+        "cpo5ShortName726"
+      ],
+      "description": "ALIAS CHL OPCODE AV"
+    },
+    {
+      "enum": [
+        727,
+        "cpo5ShortNameChwFlowDiff"
+      ],
+      "description": "CHW FLOW DIFF"
+    },
+    {
+      "enum": [
+        728,
+        "cpo5ShortNameChwTempDiff"
+      ],
+      "description": "CHW TEMP DIFF"
+    },
+    {
+      "enum": [
+        729,
+        "cpo5ShortNameChlr1ParamsAvail"
+      ],
+      "description": "CHLR 1 PARAMS AVAIL"
+    },
+    {
+      "enum": [
+        730,
+        "cpo5ShortNameChlr2ParamsAvail"
+      ],
+      "description": "CHLR 2 PARAMS AVAIL"
+    },
+    {
+      "enum": [
+        731,
+        "cpo5ShortNameChlr3ParamsAvail"
+      ],
+      "description": "CHLR 3 PARAMS AVAIL"
+    },
+    {
+      "enum": [
+        732,
+        "cpo5ShortNameChlr4ParamsAvail"
+      ],
+      "description": "CHLR 4 PARAMS AVAIL"
+    },
+    {
+      "enum": [
+        733,
+        "cpo5ShortNameChwBpvRampRate"
+      ],
+      "description": "CHW BPV RAMP RATE"
+    },
+    {
+      "enum": [
+        734,
+        "cpo5ShortNameChwBpvLimActive"
+      ],
+      "description": "CHW BPV LIM ACTIVE"
+    },
+    {
+      "enum": [
+        735,
+        "cpo5ShortNamePchwpRampRate"
+      ],
+      "description": "PCHWP RAMP RATE"
+    },
+    {
+      "enum": [
+        736,
+        "cpo5ShortNamePchwpLimActive"
+      ],
+      "description": "PCHWP LIM ACTIVE"
+    },
+    {
+      "enum": [
+        737,
+        "cpo5ShortNameOltcLowLimEna"
+      ],
+      "description": "OLTC LOW LIM ENA"
+    },
+    {
+      "enum": [
+        738,
+        "cpo5ShortNameOltcHiTCtrlSp"
+      ],
+      "description": "OLTC HI T CTRL SP"
+    },
+    {
+      "enum": [
+        739,
+        "cpo5ShortNameChlrSelHysteresis"
+      ],
+      "description": "CHLR SEL HYSTERESIS"
+    },
+    {
+      "enum": [
+        740,
+        "cpo5ShortNameChlrSelStgMrgn"
+      ],
+      "description": "CHLR SEL STG MRGN"
+    },
+    {
+      "enum": [
+        741,
+        "cpo5ShortNameOatIomOffset"
+      ],
+      "description": "OAT IOM OFFSET"
+    },
+    {
+      "enum": [
+        742,
+        "cpo5ShortNameOahIomOffset"
+      ],
+      "description": "OAH IOM OFFSET"
+    },
+    {
+      "enum": [
+        743,
+        "cpo5ShortNameChlr1DiffPOffset"
+      ],
+      "description": "CHLR1 DIFF P OFFSET"
+    },
+    {
+      "enum": [
+        744,
+        "cpo5ShortNameChlr2DiffPOffset"
+      ],
+      "description": "CHLR2 DIFF P OFFSET"
+    },
+    {
+      "enum": [
+        745,
+        "cpo5ShortNameChlr3DiffPOffset"
+      ],
+      "description": "CHLR3 DIFF P OFFSET"
+    },
+    {
+      "enum": [
+        746,
+        "cpo5ShortNameChlr4DiffPOffset"
+      ],
+      "description": "CHLR4 DIFF P OFFSET"
+    },
+    {
+      "enum": [
+        747,
+        "cpo5ShortNameChwDiffPOffset"
+      ],
+      "description": "CHW DIFF P OFFSET"
+    },
+    {
+      "enum": [
+        748,
+        "cpo5ShortNameChwDiffPOutLo"
+      ],
+      "description": "CHW DIFF P OUT LO"
+    },
+    {
+      "enum": [
+        749,
+        "cpo5ShortNameChwDiffPOutHi"
+      ],
+      "description": "CHW DIFF P OUT HI"
+    },
+    {
+      "enum": [
+        750,
+        "cpo5ShortNameFlowMtrOffset"
+      ],
+      "description": "FLOW MTR OFFSET"
+    },
+    {
+      "enum": [
+        751,
+        "cpo5ShortNameFlowMtrOutLo"
+      ],
+      "description": "FLOW MTR OUT LO"
+    },
+    {
+      "enum": [
+        752,
+        "cpo5ShortNameFlowMtrOutHi"
+      ],
+      "description": "FLOW MTR OUT HI"
+    },
+    {
+      "enum": [
+        753,
+        "cpo5ShortNameChlr1ChwIvMinOut"
+      ],
+      "description": "CHLR1 CHW IV MIN OUT"
+    },
+    {
+      "enum": [
+        754,
+        "cpo5ShortNameChlr1ChwIvMaxOut"
+      ],
+      "description": "CHLR1 CHW IV MAX OUT"
+    },
+    {
+      "enum": [
+        755,
+        "cpo5ShortNameChlr2ChwIvMinOut"
+      ],
+      "description": "CHLR2 CHW IV MIN OUT"
+    },
+    {
+      "enum": [
+        756,
+        "cpo5ShortNameChlr2ChwIvMaxOut"
+      ],
+      "description": "CHLR2 CHW IV MAX OUT"
+    },
+    {
+      "enum": [
+        757,
+        "cpo5ShortNameChlr3ChwIvMinOut"
+      ],
+      "description": "CHLR3 CHW IV MIN OUT"
+    },
+    {
+      "enum": [
+        758,
+        "cpo5ShortNameChlr3ChwIvMaxOut"
+      ],
+      "description": "CHLR3 CHW IV MAX OUT"
+    },
+    {
+      "enum": [
+        759,
+        "cpo5ShortNameChlr4ChwIvMinOut"
+      ],
+      "description": "CHLR4 CHW IV MIN OUT"
+    },
+    {
+      "enum": [
+        760,
+        "cpo5ShortNameChlr4ChwIvMaxOut"
+      ],
+      "description": "CHLR4 CHW IV MAX OUT"
+    },
+    {
+      "enum": [
+        761,
+        "cpo5ShortNameChwBpvMinOut"
+      ],
+      "description": "CHW BPV MIN OUT"
+    },
+    {
+      "enum": [
+        762,
+        "cpo5ShortNameChwBpvMaxOut"
+      ],
+      "description": "CHW BPV MAX OUT"
+    },
+    {
+      "enum": [
+        763,
+        "cpo5ShortNameCwBpvMinOut"
+      ],
+      "description": "CW BPV MIN OUT"
+    },
+    {
+      "enum": [
+        764,
+        "cpo5ShortNameCwBpvMaxOut"
+      ],
+      "description": "CW BPV MAX OUT"
+    },
+    {
+      "enum": [
+        765,
+        "cpo5ShortNameChlr1CwIvMinOut"
+      ],
+      "description": "CHLR1 CW IV MIN OUT"
+    },
+    {
+      "enum": [
+        766,
+        "cpo5ShortNameChlr1CwIvMaxOut"
+      ],
+      "description": "CHLR1 CW IV MAX OUT"
+    },
+    {
+      "enum": [
+        767,
+        "cpo5ShortNameChlr2CwIvMinOut"
+      ],
+      "description": "CHLR2 CW IV MIN OUT"
+    },
+    {
+      "enum": [
+        768,
+        "cpo5ShortNameChlr2CwIvMaxOut"
+      ],
+      "description": "CHLR2 CW IV MAX OUT"
+    },
+    {
+      "enum": [
+        769,
+        "cpo5ShortNameChlr3CwIvMinOut"
+      ],
+      "description": "CHLR3 CW IV MIN OUT"
+    },
+    {
+      "enum": [
+        770,
+        "cpo5ShortNameChlr3CwIvMaxOut"
+      ],
+      "description": "CHLR3 CW IV MAX OUT"
+    },
+    {
+      "enum": [
+        771,
+        "cpo5ShortNameChlr4CwIvMinOut"
+      ],
+      "description": "CHLR4 CW IV MIN OUT"
+    },
+    {
+      "enum": [
+        772,
+        "cpo5ShortNameChlr4CwIvMaxOut"
+      ],
+      "description": "CHLR4 CW IV MAX OUT"
+    },
+    {
+      "enum": [
+        773,
+        "cpo5ShortNameChwBpvEffPb"
+      ],
+      "description": "CHW BPV EFF PB"
+    },
+    {
+      "enum": [
+        774,
+        "cpo5ShortNameChwBpvEffIntTime"
+      ],
+      "description": "CHW BPV EFF INT TIME"
+    },
+    {
+      "enum": [
+        775,
+        "cpo5ShortNamePchwpEffPb"
+      ],
+      "description": "PCHWP EFF PB"
+    },
+    {
+      "enum": [
+        776,
+        "cpo5ShortNamePchwpIntTime"
+      ],
+      "description": "PCHWP INT TIME"
+    },
+    {
+      "enum": [
+        777,
+        "cpo5ShortNameOltcLlEffPb"
+      ],
+      "description": "OLTC LL EFF PB"
+    },
+    {
+      "enum": [
+        778,
+        "cpo5ShortNameOltcLlEffIntTime"
+      ],
+      "description": "OLTC LL EFF INT TIME"
+    },
+    {
+      "enum": [
+        779,
+        "cpo5ShortNameCwBpvEffPb"
+      ],
+      "description": "CW BPV EFF PB"
+    },
+    {
+      "enum": [
+        780,
+        "cpo5ShortNameCwBpvEffIntTime"
+      ],
+      "description": "CW BPV EFF INT TIME"
+    },
+    {
+      "enum": [
+        781,
+        "cpo5ShortNameTwrBpvInstalled"
+      ],
+      "description": "TWR BPV INSTALLED"
+    },
+    {
+      "enum": [
+        782,
+        "cpo5ShortNameCh1ChwisovC"
+      ],
+      "description": "CH1CHWISOV-C"
+    },
+    {
+      "enum": [
+        783,
+        "cpo5ShortNameCh2ChwisovC"
+      ],
+      "description": "CH2CHWISOV-C"
+    },
+    {
+      "enum": [
+        784,
+        "cpo5ShortNameCh3ChwisovC"
+      ],
+      "description": "CH3CHWISOV-C"
+    },
+    {
+      "enum": [
+        785,
+        "cpo5ShortNameCh4ChwisovC"
+      ],
+      "description": "CH4CHWISOV-C"
+    },
+    {
+      "enum": [
+        786,
+        "cpo5ShortNameCh1CwisovC"
+      ],
+      "description": "CH1CWISOV-C"
+    },
+    {
+      "enum": [
+        787,
+        "cpo5ShortNameCh2CwisovC"
+      ],
+      "description": "CH2CWISOV-C"
+    },
+    {
+      "enum": [
+        788,
+        "cpo5ShortNameCh3CwisovC"
+      ],
+      "description": "CH3CWISOV-C"
+    },
+    {
+      "enum": [
+        789,
+        "cpo5ShortNameCh4CwisovC"
+      ],
+      "description": "CH4CWISOV-C"
+    },
+    {
+      "enum": [
+        790,
+        "cpo5ShortNameClgTwr2CtrlFanOn"
+      ],
+      "description": "CLG TWR 2 Ctrl FAN ON"
+    },
+    {
+      "enum": [
+        791,
+        "cpo5ShortNameClgTwr3CtrlFanOn"
+      ],
+      "description": "CLG TWR 3 Ctrl FAN ON"
+    },
+    {
+      "enum": [
+        792,
+        "cpo5ShortNameClgTwr4CtrlFanOn"
+      ],
+      "description": "CLG TWR 4 Ctrl FAN ON"
+    },
+    {
+      "enum": [
+        793,
+        "cpo5ShortNamePchwp4State"
+      ],
+      "description": "PCHWP 4-STATE"
+    }
+  ]
+}

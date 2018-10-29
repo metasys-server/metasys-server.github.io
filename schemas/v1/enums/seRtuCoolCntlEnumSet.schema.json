@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuCoolCntlEnumSet.schema.json",
+  "title": "seRtuCoolCntlEnumSet",
+  "description": "SE RTU Cooling Control Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuCoolCntlOffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuCoolCntlThermCooling"
+      ],
+      "description": "Thermostat Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuCoolCntlUnoccCooling"
+      ],
+      "description": "Unoccupied Cooling"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuCoolCntlOccCooling"
+      ],
+      "description": "Occupied Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuCoolCntlOffOatLockout"
+      ],
+      "description": "Off-OAT Lockout"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuCoolCntlOffDisabled"
+      ],
+      "description": "Off-Disabled"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuCoolCntlOffLockout"
+      ],
+      "description": "Off-Lockout"
+    },
+    {
+      "enum": [
+        7,
+        "seRtuCoolCntlOffLowSupplyVolt"
+      ],
+      "description": "Off-Low Supply Voltage"
+    },
+    {
+      "enum": [
+        8,
+        "seRtuCoolCntlOffLowAmbient"
+      ],
+      "description": "Off-Low Ambient"
+    },
+    {
+      "enum": [
+        9,
+        "seRtuCoolCntlOffLowAmbientPreRunDelay"
+      ],
+      "description": "Off-Low Ambient Pre-Run Delay"
+    },
+    {
+      "enum": [
+        10,
+        "seRtuCoolCntlOffWaitingChangeover"
+      ],
+      "description": "Off-Waiting For Changeover Delay"
+    },
+    {
+      "enum": [
+        11,
+        "seRtuCoolCntlOffFreeCooling"
+      ],
+      "description": "Off-Free Cooling"
+    },
+    {
+      "enum": [
+        12,
+        "seRtuCoolCntlComfortVent"
+      ],
+      "description": "Comfort Ventilation"
+    }
+  ]
+}

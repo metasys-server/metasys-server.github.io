@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seSelfTestDevState.schema.json",
+  "title": "seSelfTestDevState",
+  "description": "Self Test Device State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seSelfTestDevStateStabilize"
+      ],
+      "description": "Stabilize"
+    },
+    {
+      "enum": [
+        1,
+        "seSelfTestDevStateWait"
+      ],
+      "description": "Wait"
+    },
+    {
+      "enum": [
+        2,
+        "seSelfTestDevStateCheck"
+      ],
+      "description": "Check"
+    },
+    {
+      "enum": [
+        3,
+        "seSelfTestDevStateAvailable"
+      ],
+      "description": "Available"
+    },
+    {
+      "enum": [
+        4,
+        "seSelfTestDevStateNotRun"
+      ],
+      "description": "Not Run"
+    },
+    {
+      "enum": [
+        5,
+        "seSelfTestDevStatePass"
+      ],
+      "description": "Pass"
+    },
+    {
+      "enum": [
+        6,
+        "seSelfTestDevStateWarningLowDsp"
+      ],
+      "description": "Warning- Low DSP"
+    },
+    {
+      "enum": [
+        7,
+        "seSelfTestDevStateWarningSatNotDropped"
+      ],
+      "description": "Warning- SAT Not Dropped"
+    },
+    {
+      "enum": [
+        8,
+        "seSelfTestDevStateWarningSatNotIncreased"
+      ],
+      "description": "Warning- SAT Not Increased"
+    },
+    {
+      "enum": [
+        9,
+        "seSelfTestDevStateWarningBspNotDropped"
+      ],
+      "description": "Warning- BSP Not Dropped"
+    },
+    {
+      "enum": [
+        10,
+        "seSelfTestDevStateWarning"
+      ],
+      "description": "Warning"
+    },
+    {
+      "enum": [
+        11,
+        "seSelfTestDevStateFailApsOnEarly"
+      ],
+      "description": "Fail- APS On Early"
+    },
+    {
+      "enum": [
+        12,
+        "seSelfTestDevStateFailApsOff"
+      ],
+      "description": "Fail- APS Off"
+    },
+    {
+      "enum": [
+        13,
+        "seSelfTestDevStateFailLowVoltage"
+      ],
+      "description": "Fail- Low Voltage"
+    },
+    {
+      "enum": [
+        14,
+        "seSelfTestDevStateFailLowDsp"
+      ],
+      "description": "Fail- Low DSP"
+    },
+    {
+      "enum": [
+        15,
+        "seSelfTestDevStateFailHps"
+      ],
+      "description": "Fail- HPS"
+    },
+    {
+      "enum": [
+        16,
+        "seSelfTestDevStateFailFrz"
+      ],
+      "description": "Fail- FRZ"
+    },
+    {
+      "enum": [
+        17,
+        "seSelfTestDevStateFailLps"
+      ],
+      "description": "Fail- LPS"
+    },
+    {
+      "enum": [
+        18,
+        "seSelfTestDevStateFailLs"
+      ],
+      "description": "Fail- LS"
+    },
+    {
+      "enum": [
+        19,
+        "seSelfTestDevStateFailGvOff"
+      ],
+      "description": "Fail- GV Off"
+    },
+    {
+      "enum": [
+        20,
+        "seSelfTestDevStateFailDamper"
+      ],
+      "description": "Fail- Damper"
+    },
+    {
+      "enum": [
+        21,
+        "seSelfTestDevStateFailSatUnrel"
+      ],
+      "description": "Fail- SAT Unreliable"
+    },
+    {
+      "enum": [
+        22,
+        "seSelfTestDevStateFailVfdFault"
+      ],
+      "description": "Fail- VFD Fault"
+    },
+    {
+      "enum": [
+        23,
+        "seSelfTestDevStateFailFanOvr"
+      ],
+      "description": "Fail- Fan Overload"
+    },
+    {
+      "enum": [
+        24,
+        "seSelfTestDevStateFail"
+      ],
+      "description": "Fail"
+    },
+    {
+      "enum": [
+        25,
+        "seSelfTestDevStateFailDspUnreliable"
+      ],
+      "description": "Fail- DSP Unreliable"
+    },
+    {
+      "enum": [
+        26,
+        "seSelfTestDevStateFailBspUnreliable"
+      ],
+      "description": "Fail- BSP Unreliable"
+    }
+  ]
+}

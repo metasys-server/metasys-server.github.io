@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJ52StatEnumSet.schema.json",
+  "title": "ltcLegacyYiaJ52StatEnumSet",
+  "description": "York LTC Legacy YIA J52 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYiaJ52Stat0"
+      ],
+      "description": "English Units"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYiaJ52Stat1"
+      ],
+      "description": "Metric Units"
+    }
+  ]
+}

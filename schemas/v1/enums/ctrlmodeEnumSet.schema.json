@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ctrlmodeEnumSet.schema.json",
+  "title": "ctrlmodeEnumSet",
+  "description": "Ctrl Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Heat Cool"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Heat Only"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Cool Only"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Fan Only"
+    }
+  ]
+}

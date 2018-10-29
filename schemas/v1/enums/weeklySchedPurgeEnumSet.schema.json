@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/weeklySchedPurgeEnumSet.schema.json",
+  "title": "weeklySchedPurgeEnumSet",
+  "description": "Weekly Schedule Purge",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "wsManualDelete"
+      ],
+      "description": "Manual Delete"
+    },
+    {
+      "enum": [
+        1,
+        "wsAutoDelete31Days"
+      ],
+      "description": "Auto Delete 31 days"
+    },
+    {
+      "enum": [
+        2,
+        "wsAutoDelete7Days"
+      ],
+      "description": "Auto Delete 7 days"
+    }
+  ]
+}

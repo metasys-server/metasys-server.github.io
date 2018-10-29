@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/effectiveInputMode.schema.json",
+  "title": "effectiveInputMode",
+  "description": "Effective Input Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "effectiveInputModePrioritized"
+      ],
+      "description": "Prioritized"
+    },
+    {
+      "enum": [
+        1,
+        "effectiveInputModeOr"
+      ],
+      "description": "OR"
+    }
+  ]
+}

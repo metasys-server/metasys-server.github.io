@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yorktalkDataTypeEnumSet.schema.json",
+  "title": "yorktalkDataTypeEnumSet",
+  "description": "York Talk Protocol Data Types",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ytDtByte"
+      ],
+      "description": "Byte"
+    },
+    {
+      "enum": [
+        1,
+        "ytDtWord"
+      ],
+      "description": "Word"
+    },
+    {
+      "enum": [
+        2,
+        "ytDtLong"
+      ],
+      "description": "Long"
+    },
+    {
+      "enum": [
+        3,
+        "ytDtReal"
+      ],
+      "description": "Real"
+    },
+    {
+      "enum": [
+        4,
+        "ytDtEnum"
+      ],
+      "description": "Enumeration"
+    },
+    {
+      "enum": [
+        7,
+        "ytDtTextString"
+      ],
+      "description": "Text String"
+    },
+    {
+      "enum": [
+        32,
+        "ytDtDate"
+      ],
+      "description": "Date"
+    },
+    {
+      "enum": [
+        33,
+        "ytDtTime"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        34,
+        "ytDtByteString"
+      ],
+      "description": "Octet String"
+    },
+    {
+      "enum": [
+        35,
+        "ytDtTimeDate"
+      ],
+      "description": "Time and Date"
+    },
+    {
+      "enum": [
+        36,
+        "ytDtShortPacket"
+      ],
+      "description": "Short Packet"
+    }
+  ]
+}

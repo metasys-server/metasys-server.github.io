@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/paperSizeEnumSet.schema.json",
+  "title": "paperSizeEnumSet",
+  "description": "Paper Size",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Letter"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "A4"
+    }
+  ]
+}

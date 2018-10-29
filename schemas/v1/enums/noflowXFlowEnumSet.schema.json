@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/noflowXFlowEnumSet.schema.json",
+  "title": "noflowXFlowEnumSet",
+  "description": "NoFlow/Flow",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noflow"
+      ],
+      "description": "No Flow"
+    },
+    {
+      "enum": [
+        1,
+        "flow"
+      ],
+      "description": "Flow"
+    }
+  ]
+}

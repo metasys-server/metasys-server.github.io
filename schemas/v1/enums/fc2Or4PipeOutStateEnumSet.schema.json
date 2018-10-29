@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fc2Or4PipeOutStateEnumSet.schema.json",
+  "title": "fc2Or4PipeOutStateEnumSet",
+  "description": "FC 2or4-Pipe Out State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tfpOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "tfpMaxClg"
+      ],
+      "description": "Max Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "tfpMaxHtg"
+      ],
+      "description": "Max Heating"
+    },
+    {
+      "enum": [
+        3,
+        "tfpLmtMaxClg"
+      ],
+      "description": "Limited Max Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "tfpLmtMaxHtg"
+      ],
+      "description": "Limited Max Heating"
+    },
+    {
+      "enum": [
+        5,
+        "tfpHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        6,
+        "tfpWaterFlushClg"
+      ],
+      "description": "Water Flush Cooling"
+    },
+    {
+      "enum": [
+        7,
+        "tfpWaterFlushHtg"
+      ],
+      "description": "Water Flush Heating"
+    },
+    {
+      "enum": [
+        8,
+        "tfpCtrlClg"
+      ],
+      "description": "Control Cooling"
+    },
+    {
+      "enum": [
+        9,
+        "tfpCtrlHtg"
+      ],
+      "description": "Control Heating"
+    },
+    {
+      "enum": [
+        10,
+        "tfpFailsoftClg"
+      ],
+      "description": "Failsoft Cooling"
+    },
+    {
+      "enum": [
+        11,
+        "tfpFailsoftHtg"
+      ],
+      "description": "Failsoft Heating"
+    }
+  ]
+}

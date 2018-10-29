@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcAmbientCtrlModeEnumSet.schema.json",
+  "title": "stcAmbientCtrlModeEnumSet",
+  "description": "York STC Ambient Control Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcAmbientCtrlMode0"
+      ],
+      "description": "Standard Ambient"
+    },
+    {
+      "enum": [
+        1,
+        "stcAmbientCtrlMode1"
+      ],
+      "description": "Low Ambient"
+    }
+  ]
+}

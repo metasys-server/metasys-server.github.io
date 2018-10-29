@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/objectRightsInternalPurposeEnumSet.schema.json",
+  "title": "objectRightsInternalPurposeEnumSet",
+  "description": "Object Rights Internal Purpose",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "oripElevatorFloors1128"
+      ],
+      "description": "Elevator Floors 1..128"
+    },
+    {
+      "enum": [
+        1,
+        "oripElevatorFloors129256"
+      ],
+      "description": "Elevator Floors 129..256"
+    },
+    {
+      "enum": [
+        2,
+        "oripElevatorFloors257384"
+      ],
+      "description": "Elevator Floors 257..384"
+    },
+    {
+      "enum": [
+        3,
+        "oripElevatorFloors385512"
+      ],
+      "description": "Elevator Floors 385..512"
+    },
+    {
+      "enum": [
+        4,
+        "oripCabinetDoors1128"
+      ],
+      "description": "Cabinet Doors 1..128"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lrModeEnumSet.schema.json",
+  "title": "lrModeEnumSet",
+  "description": "LR Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lrShedding"
+      ],
+      "description": "LR Shedding"
+    },
+    {
+      "enum": [
+        1,
+        "lrMonitorOnly"
+      ],
+      "description": "LR Monitor Only"
+    }
+  ]
+}

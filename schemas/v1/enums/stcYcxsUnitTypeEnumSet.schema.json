@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcYcxsUnitTypeEnumSet.schema.json",
+  "title": "stcYcxsUnitTypeEnumSet",
+  "description": "York YCAS YCWS YCRS Unit Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcYcxsUnitType0"
+      ],
+      "description": "YCWS"
+    },
+    {
+      "enum": [
+        1,
+        "stcYcxsUnitType1"
+      ],
+      "description": "YCAS"
+    }
+  ]
+}

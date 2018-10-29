@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/holdRunEnumSet.schema.json",
+  "title": "holdRunEnumSet",
+  "description": "Hold Run",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "holdRunHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        1,
+        "holdRunRun"
+      ],
+      "description": "Run"
+    }
+  ]
+}

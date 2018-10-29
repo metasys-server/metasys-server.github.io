@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/pagerStopbitsEnumSet.schema.json",
+  "title": "pagerStopbitsEnumSet",
+  "description": "Pager Stopbits",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pagerStopbits1"
+      ],
+      "description": "1"
+    },
+    {
+      "enum": [
+        1,
+        "pagerStopbits15"
+      ],
+      "description": "1.5"
+    },
+    {
+      "enum": [
+        2,
+        "pagerStopbits2"
+      ],
+      "description": "2"
+    }
+  ]
+}

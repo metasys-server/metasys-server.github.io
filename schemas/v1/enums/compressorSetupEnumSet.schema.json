@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/compressorSetupEnumSet.schema.json",
+  "title": "compressorSetupEnumSet",
+  "description": "Compressor Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "oneConstSpd"
+      ],
+      "description": "One Const Spd"
+    },
+    {
+      "enum": [
+        1,
+        "twoConstSpd"
+      ],
+      "description": "Two Const Spd"
+    },
+    {
+      "enum": [
+        2,
+        "oneVarSpdOneConstSpd"
+      ],
+      "description": "One Var Spd One Const Spd"
+    },
+    {
+      "enum": [
+        3,
+        "twoVarSpd"
+      ],
+      "description": "Two Var Spd"
+    }
+  ]
+}

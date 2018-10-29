@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/suppressCmdEnumSet.schema.json",
+  "title": "suppressCmdEnumSet",
+  "description": "Suppress",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "suppressCmdRelease"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        1,
+        "suppressCmdSuppress"
+      ],
+      "description": "Suppress"
+    },
+    {
+      "enum": [
+        2,
+        "suppressCmdUnsuppress"
+      ],
+      "description": "Unsuppress"
+    }
+  ]
+}

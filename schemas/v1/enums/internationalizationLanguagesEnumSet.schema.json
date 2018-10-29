@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/internationalizationLanguagesEnumSet.schema.json",
+  "title": "internationalizationLanguagesEnumSet",
+  "description": "Internationalization Languages",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "langCsCz"
+      ],
+      "description": "Czech (Czech Republic)"
+    },
+    {
+      "enum": [
+        2,
+        "langZhCn"
+      ],
+      "description": "Chinese (China)"
+    },
+    {
+      "enum": [
+        3,
+        "langDaDk"
+      ],
+      "description": "Danish (Denmark)"
+    },
+    {
+      "enum": [
+        4,
+        "langNlBe"
+      ],
+      "description": "Dutch (Belgium)"
+    },
+    {
+      "enum": [
+        5,
+        "langNlNl"
+      ],
+      "description": "Dutch (Netherlands)"
+    },
+    {
+      "enum": [
+        6,
+        "langEnGb"
+      ],
+      "description": "English (United Kingdom)"
+    },
+    {
+      "enum": [
+        7,
+        "langEnUs"
+      ],
+      "description": "English (United States)"
+    },
+    {
+      "enum": [
+        8,
+        "langFrBe"
+      ],
+      "description": "French (Belgium)"
+    },
+    {
+      "enum": [
+        9,
+        "langFrCa"
+      ],
+      "description": "French (Canada)"
+    },
+    {
+      "enum": [
+        10,
+        "langFrFr"
+      ],
+      "description": "French (France)"
+    },
+    {
+      "enum": [
+        11,
+        "langFrCh"
+      ],
+      "description": "French (Switzerland)"
+    },
+    {
+      "enum": [
+        12,
+        "langDeAt"
+      ],
+      "description": "German (Austria)"
+    },
+    {
+      "enum": [
+        13,
+        "langDeDe"
+      ],
+      "description": "German (Germany)"
+    },
+    {
+      "enum": [
+        14,
+        "langDeCh"
+      ],
+      "description": "German (Switzerland)"
+    },
+    {
+      "enum": [
+        15,
+        "langHuHu"
+      ],
+      "description": "Hungarian (Hungary)"
+    },
+    {
+      "enum": [
+        16,
+        "langElGr"
+      ],
+      "description": "Greek (Greece)"
+    },
+    {
+      "enum": [
+        17,
+        "langItIt"
+      ],
+      "description": "Italian (Italy)"
+    },
+    {
+      "enum": [
+        18,
+        "langJaJp"
+      ],
+      "description": "Japanese (Japan)"
+    },
+    {
+      "enum": [
+        19,
+        "langKoKr"
+      ],
+      "description": "Korean (Korea)"
+    },
+    {
+      "enum": [
+        20,
+        "langNbNo"
+      ],
+      "description": "Norwegian (Bokmal)"
+    },
+    {
+      "enum": [
+        21,
+        "langNnNo"
+      ],
+      "description": "Norwegian (Nynorsk)"
+    },
+    {
+      "enum": [
+        22,
+        "langPlPl"
+      ],
+      "description": "Polish (Poland)"
+    },
+    {
+      "enum": [
+        23,
+        "langPtBr"
+      ],
+      "description": "Portuguese (Brazil)"
+    },
+    {
+      "enum": [
+        24,
+        "langPtPt"
+      ],
+      "description": "Portuguese (Portugal)"
+    },
+    {
+      "enum": [
+        25,
+        "langRuRu"
+      ],
+      "description": "Russian (Russia)"
+    },
+    {
+      "enum": [
+        26,
+        "langSkSk"
+      ],
+      "description": "Slovak (Slovakia)"
+    },
+    {
+      "enum": [
+        27,
+        "langEsMx"
+      ],
+      "description": "Spanish (Mexico)"
+    },
+    {
+      "enum": [
+        28,
+        "langEsEs"
+      ],
+      "description": "Spanish (Spain)"
+    },
+    {
+      "enum": [
+        29,
+        "langSvSe"
+      ],
+      "description": "Swedish (Sweden)"
+    },
+    {
+      "enum": [
+        30,
+        "langTrTr"
+      ],
+      "description": "Turkish (Turkey)"
+    },
+    {
+      "enum": [
+        31,
+        "langZhTw"
+      ],
+      "description": "Chinese (Taiwan)"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuDxClg1EnumSet.schema.json",
+  "title": "seRtuDxClg1EnumSet",
+  "description": "SE RTU DX Cooling Circuit 1 Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuDxClg1OffIdle"
+      ],
+      "description": "Off-Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuDxClg1OnMinOnTime"
+      ],
+      "description": "On-Minimum On Time"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuDxClg1OnNormalCmd"
+      ],
+      "description": "On-Normal Command"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuDxClg1OffClgDisabled"
+      ],
+      "description": "Off-Cooling Is Disabled"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuDxClg1OffOatCutout"
+      ],
+      "description": "Off-OAT Cutout"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuDxClg1OffLowAmbientTemp"
+      ],
+      "description": "Off-Low Ambient Temperature"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuDxClg1OffLowSupplyVolt"
+      ],
+      "description": "Off-Low Supply Voltage"
+    },
+    {
+      "enum": [
+        7,
+        "seRtuDxClg1OffHighPressureLock"
+      ],
+      "description": "Off-High Pressure Lockout"
+    },
+    {
+      "enum": [
+        8,
+        "seRtuDxClg1OffLowPressureLock"
+      ],
+      "description": "Off-Low Pressure Lockout"
+    },
+    {
+      "enum": [
+        9,
+        "seRtuDxClg1OffFreezeCondition"
+      ],
+      "description": "Off-Freeze COndition"
+    },
+    {
+      "enum": [
+        10,
+        "seRtuDxClg1OffAntiShortCycleDelay"
+      ],
+      "description": "Off-Anti-Short Cycle Delay"
+    },
+    {
+      "enum": [
+        11,
+        "seRtuDxClg1OffCoolingStageDisabled"
+      ],
+      "description": "Off-Cooling Stage Is Disabled"
+    }
+  ]
+}

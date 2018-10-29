@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seHeatCoolStagedModeEnumSet.schema.json",
+  "title": "seHeatCoolStagedModeEnumSet",
+  "description": "SE Heat Cool Staged Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seHcmOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seHcmMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "seHcmLmtMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "seHcmHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "seHcmInstShtdwn"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        5,
+        "seHcmFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        6,
+        "seHcmLowOaTemp"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        7,
+        "seHcmTest"
+      ],
+      "description": "Test"
+    },
+    {
+      "enum": [
+        8,
+        "seHcmCtrl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        9,
+        "seHcmExsatctrl"
+      ],
+      "description": "Excessive SAT Control"
+    },
+    {
+      "enum": [
+        10,
+        "seHcmAuxCtrl"
+      ],
+      "description": "Auxiliary Control"
+    },
+    {
+      "enum": [
+        11,
+        "seHcmBumpWait"
+      ],
+      "description": "Bump and Wait"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sequencerOperatingStateEnumSet.schema.json",
+  "title": "sequencerOperatingStateEnumSet",
+  "description": "Sequencer Operating State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "boSeqIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "boSeqDeactivatedInstantShutdown"
+      ],
+      "description": "Deactivated, Instant Shutdown"
+    },
+    {
+      "enum": [
+        2,
+        "boSeqShutdownInProcess"
+      ],
+      "description": "Shutdown In-Process"
+    },
+    {
+      "enum": [
+        3,
+        "boSeqStagingUpInterstageOnDelay"
+      ],
+      "description": "Staging Up, Interstage On Delay"
+    },
+    {
+      "enum": [
+        4,
+        "boSeqStagingUpMinimumOffDelay"
+      ],
+      "description": "Staging Up, Minimum Off Delay"
+    },
+    {
+      "enum": [
+        5,
+        "boSeqStagingDownInterstageOffDelay"
+      ],
+      "description": "Staging Down, Interstage Off Delay"
+    },
+    {
+      "enum": [
+        6,
+        "boSeqStagingDownMinimumOnDelay"
+      ],
+      "description": "Staging Down, Minimum On Delay"
+    }
+  ]
+}

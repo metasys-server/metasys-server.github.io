@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/reheatTimeEnumSet.schema.json",
+  "title": "reheatTimeEnumSet",
+  "description": "Reheat Time",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "15 Minutes"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "10 Seconds"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fullyopenedFullyclosedMsEnumSet.schema.json",
+  "title": "fullyopenedFullyclosedMsEnumSet",
+  "description": "Fully Opened/Fully Closed",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fullyopenedFullyclosedFullyopened"
+      ],
+      "description": "Fully Opened"
+    },
+    {
+      "enum": [
+        1,
+        "fullyopenedFullyclosedFullyclosed"
+      ],
+      "description": "Fully Closed"
+    }
+  ]
+}

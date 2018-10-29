@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/heatTypeEnumSet.schema.json",
+  "title": "heatTypeEnumSet",
+  "description": "Heat Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "F BP Ctrl"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Multi Staged"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Mod Gas 3 to 1"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Mod Gas 20 to 1"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Steam or Hot Water"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Single Stage Gas"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Single Stage Elec"
+    }
+  ]
+}

@@ -1,0 +1,974 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yspaShortNamesEnumSet.schema.json",
+  "title": "yspaShortNamesEnumSet",
+  "description": "YSPA Short Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "yspaShortNames1"
+      ],
+      "description": "START|STOP"
+    },
+    {
+      "enum": [
+        2,
+        "yspaShortNames2"
+      ],
+      "description": "RUN MODE"
+    },
+    {
+      "enum": [
+        3,
+        "yspaShortNames3"
+      ],
+      "description": "LEAVING CHILLED LIQUID SETTING"
+    },
+    {
+      "enum": [
+        4,
+        "yspaShortNames4"
+      ],
+      "description": "LEAVING HEAT LIQUID SETTING"
+    },
+    {
+      "enum": [
+        5,
+        "yspaShortNames5"
+      ],
+      "description": "RETURN CHILLED LIQUID SETTING"
+    },
+    {
+      "enum": [
+        6,
+        "yspaShortNames6"
+      ],
+      "description": "RETURN HEAT LIQUID SETTING"
+    },
+    {
+      "enum": [
+        7,
+        "yspaShortNames7"
+      ],
+      "description": "AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        8,
+        "yspaShortNames8"
+      ],
+      "description": "MAIN BOARD DIGITAL INPUT 08-01"
+    },
+    {
+      "enum": [
+        9,
+        "yspaShortNames9"
+      ],
+      "description": "MAIN BOARD DIGITAL OUTPUT 08-01"
+    },
+    {
+      "enum": [
+        10,
+        "yspaShortNames10"
+      ],
+      "description": "FIRMWARE VERSION"
+    },
+    {
+      "enum": [
+        11,
+        "yspaShortNames11"
+      ],
+      "description": "FAULT"
+    },
+    {
+      "enum": [
+        12,
+        "yspaShortNames12"
+      ],
+      "description": "ANTIFREEZE"
+    },
+    {
+      "enum": [
+        13,
+        "yspaShortNames13"
+      ],
+      "description": "DEFROST"
+    },
+    {
+      "enum": [
+        14,
+        "yspaShortNames14"
+      ],
+      "description": "PREHEAT"
+    },
+    {
+      "enum": [
+        15,
+        "yspaShortNames15"
+      ],
+      "description": "SYS 1 YORK013 COMP MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        16,
+        "yspaShortNames16"
+      ],
+      "description": "SYS 1 YORK013 DISCHARGE TEMP"
+    },
+    {
+      "enum": [
+        17,
+        "yspaShortNames17"
+      ],
+      "description": "SYS 1 YORK013 1ST SUCTION TEMP"
+    },
+    {
+      "enum": [
+        18,
+        "yspaShortNames18"
+      ],
+      "description": "SYS 1 YORK013 2ND SUCTION TEMP"
+    },
+    {
+      "enum": [
+        19,
+        "yspaShortNames19"
+      ],
+      "description": "SYS 1 YORK013 ECO TEMP"
+    },
+    {
+      "enum": [
+        20,
+        "yspaShortNames20"
+      ],
+      "description": "SYS 1 YORK013 SUCTION PRESSURE"
+    },
+    {
+      "enum": [
+        21,
+        "yspaShortNames21"
+      ],
+      "description": "SYS 1 YORK013 OIL PRESSURE"
+    },
+    {
+      "enum": [
+        22,
+        "yspaShortNames22"
+      ],
+      "description": "SYS 1 YORK013 DISCHARGE PRESSURE"
+    },
+    {
+      "enum": [
+        23,
+        "yspaShortNames23"
+      ],
+      "description": "SYS 1 YORK013 ECO PRESSURE"
+    },
+    {
+      "enum": [
+        24,
+        "yspaShortNames24"
+      ],
+      "description": "SYS 1 YORK013 LIQUID TEMP"
+    },
+    {
+      "enum": [
+        25,
+        "yspaShortNames25"
+      ],
+      "description": "SYS 1 YORK013 HR LEAVING CHILLED LIQUID"
+    },
+    {
+      "enum": [
+        26,
+        "yspaShortNames26"
+      ],
+      "description": "SYS 1 YORK013 1ST COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        27,
+        "yspaShortNames27"
+      ],
+      "description": "SYS 1 YORK013 2ND COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        28,
+        "yspaShortNames28"
+      ],
+      "description": "SYS 1 YORK013 3RD COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        29,
+        "yspaShortNames29"
+      ],
+      "description": "SYS 1 YORK013 4TH COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        30,
+        "yspaShortNames30"
+      ],
+      "description": "SYS 1 YORK013 MIDDLE TANK PRESSURE"
+    },
+    {
+      "enum": [
+        31,
+        "yspaShortNames31"
+      ],
+      "description": "SYS 1 YORK013 LIQUID LINE PRESSURE"
+    },
+    {
+      "enum": [
+        32,
+        "yspaShortNames32"
+      ],
+      "description": "SYS 1 YORK013 LCHL TEMP"
+    },
+    {
+      "enum": [
+        33,
+        "yspaShortNames33"
+      ],
+      "description": "SYS 1 YORK013 RCHL TEMP"
+    },
+    {
+      "enum": [
+        34,
+        "yspaShortNames34"
+      ],
+      "description": "SYS 1 YORK013 COMP MOTOR TEMP"
+    },
+    {
+      "enum": [
+        35,
+        "yspaShortNames35"
+      ],
+      "description": "SYS 1 YORK013 DIGITAL INPUT 08-01"
+    },
+    {
+      "enum": [
+        36,
+        "yspaShortNames36"
+      ],
+      "description": "SYS 1 YORK013 DIGITAL OUTPUT 16-01"
+    },
+    {
+      "enum": [
+        37,
+        "yspaShortNames37"
+      ],
+      "description": "SYS 1 YORK013 DIGITAL OUTPUT 32-17"
+    },
+    {
+      "enum": [
+        38,
+        "yspaShortNames38"
+      ],
+      "description": "SYS 1 YORK013 1ST EXV POSITION"
+    },
+    {
+      "enum": [
+        39,
+        "yspaShortNames39"
+      ],
+      "description": "SYS 1 YORK013 2ND EXV POSITION"
+    },
+    {
+      "enum": [
+        40,
+        "yspaShortNames40"
+      ],
+      "description": "SYS 1 YORK013 3RD EXV POSITION"
+    },
+    {
+      "enum": [
+        41,
+        "yspaShortNames41"
+      ],
+      "description": "SYS 1 YORK013 FIRMWARE VERSION"
+    },
+    {
+      "enum": [
+        42,
+        "yspaShortNames42"
+      ],
+      "description": "SYS 1 YORK013 COMP MOTOR FULL LOAD AMPS"
+    },
+    {
+      "enum": [
+        43,
+        "yspaShortNames43"
+      ],
+      "description": "SYS 1 YORK013 TOTAL TIME OF COMP OPERATION"
+    },
+    {
+      "enum": [
+        44,
+        "yspaShortNames44"
+      ],
+      "description": "SYS 1 YORK013 STARTUP TIMES OF COMP"
+    },
+    {
+      "enum": [
+        45,
+        "yspaShortNames45"
+      ],
+      "description": "SYS 1 YORK013 COMP OPERATION CODE"
+    },
+    {
+      "enum": [
+        46,
+        "yspaShortNames46"
+      ],
+      "description": "SYS 1 YORK013 COMP CAPACITY"
+    },
+    {
+      "enum": [
+        47,
+        "yspaShortNames47"
+      ],
+      "description": "SYS 1 YORK013 SUCTION SATURATION TEMP"
+    },
+    {
+      "enum": [
+        48,
+        "yspaShortNames48"
+      ],
+      "description": "SYS 1 YORK013 1ST SUCTION SUPERHEAT"
+    },
+    {
+      "enum": [
+        49,
+        "yspaShortNames49"
+      ],
+      "description": "SYS 1 YORK013 2ND SUCTION SUPERHEAT"
+    },
+    {
+      "enum": [
+        50,
+        "yspaShortNames50"
+      ],
+      "description": "SYS 1 YORK013 DISCHARGE SATURATION TEMP"
+    },
+    {
+      "enum": [
+        51,
+        "yspaShortNames51"
+      ],
+      "description": "SYS 1 YORK013 DSICHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        52,
+        "yspaShortNames52"
+      ],
+      "description": "SYS 1 YORK013 1ST EXV OPERATION CODE"
+    },
+    {
+      "enum": [
+        53,
+        "yspaShortNames53"
+      ],
+      "description": "SYS 1 YORK013 2ND EXV OPERATION CODE"
+    },
+    {
+      "enum": [
+        54,
+        "yspaShortNames54"
+      ],
+      "description": "SYS 1 YORK013 3RD EXV OPERATION CODE"
+    },
+    {
+      "enum": [
+        55,
+        "yspaShortNames55"
+      ],
+      "description": "SYS 1 YORK013 ECO SATURATION TEMP"
+    },
+    {
+      "enum": [
+        56,
+        "yspaShortNames56"
+      ],
+      "description": "SYS 1 YORK013 ECO SUPERHEAT"
+    },
+    {
+      "enum": [
+        57,
+        "yspaShortNames57"
+      ],
+      "description": "SYS 1 YORK013 LIQUID LINE SATURATION TEMP"
+    },
+    {
+      "enum": [
+        58,
+        "yspaShortNames58"
+      ],
+      "description": "SYS 1 YORK013 LIQUID LINE SUBCOLLING"
+    },
+    {
+      "enum": [
+        59,
+        "yspaShortNames59"
+      ],
+      "description": "SYS 2 YORK013 COMP MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        60,
+        "yspaShortNames60"
+      ],
+      "description": "SYS 2 YORK013 DISCHARGE TEMP"
+    },
+    {
+      "enum": [
+        61,
+        "yspaShortNames61"
+      ],
+      "description": "SYS 2 YORK013 1ST SUCTION TEMP"
+    },
+    {
+      "enum": [
+        62,
+        "yspaShortNames62"
+      ],
+      "description": "SYS 2 YORK013 2ND SUCTION TEMP"
+    },
+    {
+      "enum": [
+        63,
+        "yspaShortNames63"
+      ],
+      "description": "SYS 2 YORK013 ECO TEMP"
+    },
+    {
+      "enum": [
+        64,
+        "yspaShortNames64"
+      ],
+      "description": "SYS 2 YORK013 SUCTION PRESSURE"
+    },
+    {
+      "enum": [
+        65,
+        "yspaShortNames65"
+      ],
+      "description": "SYS 2 YORK013 OIL PRESSURE"
+    },
+    {
+      "enum": [
+        66,
+        "yspaShortNames66"
+      ],
+      "description": "SYS 2 YORK013 DISCHARGE PRESSURE"
+    },
+    {
+      "enum": [
+        67,
+        "yspaShortNames67"
+      ],
+      "description": "SYS 2 YORK013 ECO PRESSURE"
+    },
+    {
+      "enum": [
+        68,
+        "yspaShortNames68"
+      ],
+      "description": "SYS 2 YORK013 LIQUID REFRIGERANT TEMP"
+    },
+    {
+      "enum": [
+        69,
+        "yspaShortNames69"
+      ],
+      "description": "SYS 2 YORK013 HR CHILLED LIQUID"
+    },
+    {
+      "enum": [
+        70,
+        "yspaShortNames70"
+      ],
+      "description": "SYS 2 YORK013 1ST COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        71,
+        "yspaShortNames71"
+      ],
+      "description": "SYS 2 YORK013 2ND COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        72,
+        "yspaShortNames72"
+      ],
+      "description": "SYS 2 YORK013 3RD COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        73,
+        "yspaShortNames73"
+      ],
+      "description": "SYS 2 YORK013 4TH COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        74,
+        "yspaShortNames74"
+      ],
+      "description": "SYS 2 YORK013 MIDDLE TANK PRESSURE"
+    },
+    {
+      "enum": [
+        75,
+        "yspaShortNames75"
+      ],
+      "description": "SYS 2 YORK013 LIQUID LINE PRESSURE"
+    },
+    {
+      "enum": [
+        76,
+        "yspaShortNames76"
+      ],
+      "description": "SYS 2 YORK013 LCHL TEMPERATURE"
+    },
+    {
+      "enum": [
+        77,
+        "yspaShortNames77"
+      ],
+      "description": "SYS 2 YORK013 RCHL TEMPERATURE"
+    },
+    {
+      "enum": [
+        78,
+        "yspaShortNames78"
+      ],
+      "description": "SYS 2 YORK013 COMP MOTOR TEMP"
+    },
+    {
+      "enum": [
+        79,
+        "yspaShortNames79"
+      ],
+      "description": "SYS 2 YORK013 DIGITAL INPUT 08-01"
+    },
+    {
+      "enum": [
+        80,
+        "yspaShortNames80"
+      ],
+      "description": "SYS 2 YORK013 DIGITAL OUTPUT 16-01"
+    },
+    {
+      "enum": [
+        81,
+        "yspaShortNames81"
+      ],
+      "description": "SYS 2 YORK013 DIGITAL OUTPUT 32-17"
+    },
+    {
+      "enum": [
+        82,
+        "yspaShortNames82"
+      ],
+      "description": "SYS 2 YORK013 1ST EXV POSITION"
+    },
+    {
+      "enum": [
+        83,
+        "yspaShortNames83"
+      ],
+      "description": "SYS 2 YORK013 2ND EXV POSITION"
+    },
+    {
+      "enum": [
+        84,
+        "yspaShortNames84"
+      ],
+      "description": "SYS 2 YORK013 3RD EXV POSITION"
+    },
+    {
+      "enum": [
+        85,
+        "yspaShortNames85"
+      ],
+      "description": "SYS 2 YORK013 FIRMWARE VERSION"
+    },
+    {
+      "enum": [
+        86,
+        "yspaShortNames86"
+      ],
+      "description": "SYS 2 YORK013 COMP MOTOR FULL LOAD AMPS"
+    },
+    {
+      "enum": [
+        87,
+        "yspaShortNames87"
+      ],
+      "description": "SYS 2 YORK013 TOTAL TIME OF COMP OPERATION"
+    },
+    {
+      "enum": [
+        88,
+        "yspaShortNames88"
+      ],
+      "description": "SYS 2 YORK013 STARTUP TIMES OF COMP"
+    },
+    {
+      "enum": [
+        89,
+        "yspaShortNames89"
+      ],
+      "description": "SYS 2 YORK013 COMP OPERATION CODE"
+    },
+    {
+      "enum": [
+        90,
+        "yspaShortNames90"
+      ],
+      "description": "SYS 2 YORK013 COMP CAPACITY"
+    },
+    {
+      "enum": [
+        91,
+        "yspaShortNames91"
+      ],
+      "description": "SYS 2 YORK013 SUCTION SATURATION TEMP"
+    },
+    {
+      "enum": [
+        92,
+        "yspaShortNames92"
+      ],
+      "description": "SYS 2 YORK013 1ST SUCTION SUPERHEAT"
+    },
+    {
+      "enum": [
+        93,
+        "yspaShortNames93"
+      ],
+      "description": "SYS 2 YORK013 2ND SUCTION SUPERHEAT"
+    },
+    {
+      "enum": [
+        94,
+        "yspaShortNames94"
+      ],
+      "description": "SYS 2 YORK013 DISCHARGE SATURATION TEMP"
+    },
+    {
+      "enum": [
+        95,
+        "yspaShortNames95"
+      ],
+      "description": "SYS 2 YORK013 DSICHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        96,
+        "yspaShortNames96"
+      ],
+      "description": "SYS 2 YORK013 1ST EXV OPERATION CODE"
+    },
+    {
+      "enum": [
+        97,
+        "yspaShortNames97"
+      ],
+      "description": "SYS 2 YORK013 2ND EXV OPERATION CODE"
+    },
+    {
+      "enum": [
+        98,
+        "yspaShortNames98"
+      ],
+      "description": "SYS 2 YORK013 3RD EXV OPERATION CODE"
+    },
+    {
+      "enum": [
+        99,
+        "yspaShortNames99"
+      ],
+      "description": "SYS 2 YORK013 ECO SATURATION TEMP"
+    },
+    {
+      "enum": [
+        100,
+        "yspaShortNames100"
+      ],
+      "description": "SYS 2 YORK013 ECO SUPERHEAT"
+    },
+    {
+      "enum": [
+        101,
+        "yspaShortNames101"
+      ],
+      "description": "SYS 2 YORK013 LIQUID LINE SATURATION TEMP"
+    },
+    {
+      "enum": [
+        102,
+        "yspaShortNames102"
+      ],
+      "description": "SYS 2 YORK013 LIQUID LINE SUBCOLLING"
+    },
+    {
+      "enum": [
+        103,
+        "yspaShortNames103"
+      ],
+      "description": "FAULT CODE"
+    },
+    {
+      "enum": [
+        104,
+        "yspaShortNames104"
+      ],
+      "description": "FAULT POSITION"
+    },
+    {
+      "enum": [
+        105,
+        "yspaShortNames105"
+      ],
+      "description": "FAULT BEGIN TIME MONTH"
+    },
+    {
+      "enum": [
+        106,
+        "yspaShortNames106"
+      ],
+      "description": "FAULT BEGIN TIME DAY"
+    },
+    {
+      "enum": [
+        107,
+        "yspaShortNames107"
+      ],
+      "description": "FAULT BEGIN TIME HOUR"
+    },
+    {
+      "enum": [
+        108,
+        "yspaShortNames108"
+      ],
+      "description": "FAULT BEGIN TIME MINUTE"
+    },
+    {
+      "enum": [
+        109,
+        "yspaShortNames109"
+      ],
+      "description": "FAULT END TIME MONTH"
+    },
+    {
+      "enum": [
+        110,
+        "yspaShortNames110"
+      ],
+      "description": "FAULT END TIME DAY"
+    },
+    {
+      "enum": [
+        111,
+        "yspaShortNames111"
+      ],
+      "description": "FAULT END TIME HOUR"
+    },
+    {
+      "enum": [
+        112,
+        "yspaShortNames112"
+      ],
+      "description": "FAULT END TIME MINUTE"
+    },
+    {
+      "enum": [
+        113,
+        "yspaShortNames113"
+      ],
+      "description": "FAULT YORK011 AMBIENT TEMP"
+    },
+    {
+      "enum": [
+        114,
+        "yspaShortNames114"
+      ],
+      "description": "FAULT YORK011 DIGITAL INPUT 08-01"
+    },
+    {
+      "enum": [
+        115,
+        "yspaShortNames115"
+      ],
+      "description": "FAULT YORK011 DIGITAL OUTPUT 08-01"
+    },
+    {
+      "enum": [
+        116,
+        "yspaShortNames116"
+      ],
+      "description": "FAULT YORK013 COMP MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        117,
+        "yspaShortNames117"
+      ],
+      "description": "FAULT YORK013 DISCHARGE TEMP"
+    },
+    {
+      "enum": [
+        118,
+        "yspaShortNames118"
+      ],
+      "description": "FAULT YORK013 1ST SUCTION TEMP"
+    },
+    {
+      "enum": [
+        119,
+        "yspaShortNames119"
+      ],
+      "description": "FAULT YORK013 2ND SUCTION TEMP"
+    },
+    {
+      "enum": [
+        120,
+        "yspaShortNames120"
+      ],
+      "description": "FAULT YORK013 ECO TEMPERATURE"
+    },
+    {
+      "enum": [
+        121,
+        "yspaShortNames121"
+      ],
+      "description": "FAULT YORK013 SUCTION PRESSURE"
+    },
+    {
+      "enum": [
+        122,
+        "yspaShortNames122"
+      ],
+      "description": "FAULT YORK013 OIL PRESSURE"
+    },
+    {
+      "enum": [
+        123,
+        "yspaShortNames123"
+      ],
+      "description": "FAULT YORK013 DISCHARGE PRESSURE"
+    },
+    {
+      "enum": [
+        124,
+        "yspaShortNames124"
+      ],
+      "description": "FAULT YORK013 ECO PRESSURE"
+    },
+    {
+      "enum": [
+        125,
+        "yspaShortNames125"
+      ],
+      "description": "FAULT YORK013 LIQUID TEMP"
+    },
+    {
+      "enum": [
+        126,
+        "yspaShortNames126"
+      ],
+      "description": "FAULT YORK013 HR LEAVING CHILLED LIQUID"
+    },
+    {
+      "enum": [
+        127,
+        "yspaShortNames127"
+      ],
+      "description": "FAULT YORK013 1ST COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        128,
+        "yspaShortNames128"
+      ],
+      "description": "FAULT YORK013 2ND COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        129,
+        "yspaShortNames129"
+      ],
+      "description": "FAULT YORK013 3RD COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        130,
+        "yspaShortNames130"
+      ],
+      "description": "FAULT YORK013 4TH COIL TUBE TEMP"
+    },
+    {
+      "enum": [
+        131,
+        "yspaShortNames131"
+      ],
+      "description": "FAULT YORK013 MIDDLE TANK PRESSURE"
+    },
+    {
+      "enum": [
+        132,
+        "yspaShortNames132"
+      ],
+      "description": "FAULT YORK013 LIQUID LINE PRESSURE"
+    },
+    {
+      "enum": [
+        133,
+        "yspaShortNames133"
+      ],
+      "description": "FAULT YORK013 LCHL TEMP"
+    },
+    {
+      "enum": [
+        134,
+        "yspaShortNames134"
+      ],
+      "description": "FAULT YORK013 RCHL TEMP"
+    },
+    {
+      "enum": [
+        135,
+        "yspaShortNames135"
+      ],
+      "description": "FAULT YORK013 COMP MOTOR TEMP"
+    },
+    {
+      "enum": [
+        136,
+        "yspaShortNames136"
+      ],
+      "description": "FAULT YORK013 DIGITAL INPUT 08-01"
+    },
+    {
+      "enum": [
+        137,
+        "yspaShortNames137"
+      ],
+      "description": "FAULT YORK013 DIGITAL OUTPUT 16-01"
+    },
+    {
+      "enum": [
+        138,
+        "yspaShortNames138"
+      ],
+      "description": "FAULT YORK013 DIGITAL OUTPUT 32-17"
+    }
+  ]
+}

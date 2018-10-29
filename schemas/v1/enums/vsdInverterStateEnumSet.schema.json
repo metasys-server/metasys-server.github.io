@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vsdInverterStateEnumSet.schema.json",
+  "title": "vsdInverterStateEnumSet",
+  "description": "VSD Inverter State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vsdinvstateStop"
+      ],
+      "description": "Stop"
+    },
+    {
+      "enum": [
+        1,
+        "vsdinvstateDwell"
+      ],
+      "description": "Dwell"
+    },
+    {
+      "enum": [
+        2,
+        "vsdinvstateRun"
+      ],
+      "description": "Run"
+    },
+    {
+      "enum": [
+        3,
+        "vsdinvstate3"
+      ],
+      "description": "3"
+    },
+    {
+      "enum": [
+        4,
+        "vsdinvstateTestMode"
+      ],
+      "description": "Test Mode"
+    },
+    {
+      "enum": [
+        5,
+        "vsdinvstateFaulted"
+      ],
+      "description": "Faulted"
+    },
+    {
+      "enum": [
+        6,
+        "vsdinvstateCheckDcct"
+      ],
+      "description": "Check DCCT"
+    },
+    {
+      "enum": [
+        7,
+        "vsdinvstate7"
+      ],
+      "description": "7"
+    },
+    {
+      "enum": [
+        8,
+        "vsdinvstate8"
+      ],
+      "description": "8"
+    }
+  ]
+}

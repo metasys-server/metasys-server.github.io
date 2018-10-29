@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/eventActiveCodesEnumSet.schema.json",
+  "title": "eventActiveCodesEnumSet",
+  "description": "Event Active Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "eventActiveCodeNotDefined"
+      ],
+      "description": "Event Active Not Defined"
+    },
+    {
+      "enum": [
+        1,
+        "eventActiveCodeEventGeneratorConfigError"
+      ],
+      "description": "Event Generator Configuration Error"
+    },
+    {
+      "enum": [
+        2,
+        "eventActiveCodeReboot"
+      ],
+      "description": "Reboot"
+    },
+    {
+      "enum": [
+        3,
+        "eventActiveCodeCalibrationDataError"
+      ],
+      "description": "Calibration Data Error"
+    },
+    {
+      "enum": [
+        100,
+        "eventActiveCode100"
+      ],
+      "description": "Not Economizing When It Should"
+    },
+    {
+      "enum": [
+        101,
+        "eventActiveCode101"
+      ],
+      "description": "Economizing When It Should Not"
+    },
+    {
+      "enum": [
+        102,
+        "eventActiveCode102"
+      ],
+      "description": "Economizer Damper Not Modulating"
+    },
+    {
+      "enum": [
+        103,
+        "eventActiveCode103"
+      ],
+      "description": "Economizer Letting In Excess Outdoor Air"
+    },
+    {
+      "enum": [
+        104,
+        "eventActiveCode104"
+      ],
+      "description": "Outdoor Air Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        105,
+        "eventActiveCode105"
+      ],
+      "description": "Return Air Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        106,
+        "eventActiveCode106"
+      ],
+      "description": "Supply Air Temp Sensor Failure"
+    },
+    {
+      "enum": [
+        107,
+        "eventActiveCode107"
+      ],
+      "description": "24 VAC Supply Input Failure"
+    },
+    {
+      "enum": [
+        108,
+        "eventActiveCode108"
+      ],
+      "description": "Evaporator Coil Temp 1 Sensor Failure"
+    },
+    {
+      "enum": [
+        109,
+        "eventActiveCode109"
+      ],
+      "description": "Condenser Coil Temp 1 Sensor Failure"
+    }
+  ]
+}

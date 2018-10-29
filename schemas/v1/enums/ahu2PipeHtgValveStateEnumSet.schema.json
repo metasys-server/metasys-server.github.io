@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahu2PipeHtgValveStateEnumSet.schema.json",
+  "title": "ahu2PipeHtgValveStateEnumSet",
+  "description": "AHU 2 Pipe Htg Valve State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahu2PipeHvsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahu2PipeHvsMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "ahu2PipeHvsLimitedMaxHeating"
+      ],
+      "description": "Limited Max Heating"
+    },
+    {
+      "enum": [
+        3,
+        "ahu2PipeHvsLimitedMaxCooling"
+      ],
+      "description": "Limited Max Cooling"
+    },
+    {
+      "enum": [
+        4,
+        "ahu2PipeHvsHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        5,
+        "ahu2PipeHvsWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        6,
+        "ahu2PipeHvsHeatingTControl"
+      ],
+      "description": "Heating T Control"
+    },
+    {
+      "enum": [
+        7,
+        "ahu2PipeHvsCoolingTControl"
+      ],
+      "description": "Cooling T Control"
+    },
+    {
+      "enum": [
+        8,
+        "ahu2PipeHvsFailsoftHeating"
+      ],
+      "description": "Failsoft Heating"
+    },
+    {
+      "enum": [
+        9,
+        "ahu2PipeHvsFailsoftCooling"
+      ],
+      "description": "Failsoft Cooling"
+    },
+    {
+      "enum": [
+        10,
+        "ahu2PipeHvsLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    },
+    {
+      "enum": [
+        11,
+        "ahu2PipeHvsRemainInControl"
+      ],
+      "description": "Remain In Control"
+    }
+  ]
+}

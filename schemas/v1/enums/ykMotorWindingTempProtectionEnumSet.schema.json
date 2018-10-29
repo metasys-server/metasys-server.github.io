@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ykMotorWindingTempProtectionEnumSet.schema.json",
+  "title": "ykMotorWindingTempProtectionEnumSet",
+  "description": "YK Motor Winding Temp Protection",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ykMotorWindingTempProtection0"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "ykMotorWindingTempProtection1"
+      ],
+      "description": "RTD"
+    },
+    {
+      "enum": [
+        2,
+        "ykMotorWindingTempProtection2"
+      ],
+      "description": "Thermistor"
+    },
+    {
+      "enum": [
+        3,
+        "ykMotorWindingTempProtection3"
+      ],
+      "description": "VSD Thermistor"
+    }
+  ]
+}

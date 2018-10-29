@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lonRouterType.schema.json",
+  "title": "lonRouterType",
+  "description": "LON Router Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lonrouterConfig"
+      ],
+      "description": "Configured"
+    },
+    {
+      "enum": [
+        1,
+        "lonrouterLearning"
+      ],
+      "description": "Learning"
+    },
+    {
+      "enum": [
+        2,
+        "lonrouterBridge"
+      ],
+      "description": "Bridge"
+    },
+    {
+      "enum": [
+        3,
+        "lonrouterRepeater"
+      ],
+      "description": "Repeater"
+    }
+  ]
+}

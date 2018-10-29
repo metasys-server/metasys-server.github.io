@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/windDirection16EnumSet.schema.json",
+  "title": "windDirection16EnumSet",
+  "description": "Wind Direction 16",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "windDirection16N"
+      ],
+      "description": "North"
+    },
+    {
+      "enum": [
+        1,
+        "windDirection16Nne"
+      ],
+      "description": "North North East"
+    },
+    {
+      "enum": [
+        2,
+        "windDirection16Ne"
+      ],
+      "description": "North East"
+    },
+    {
+      "enum": [
+        3,
+        "windDirection16Ene"
+      ],
+      "description": "East North East"
+    },
+    {
+      "enum": [
+        4,
+        "windDirection16E"
+      ],
+      "description": "East"
+    },
+    {
+      "enum": [
+        5,
+        "windDirection16Ese"
+      ],
+      "description": "East South East"
+    },
+    {
+      "enum": [
+        6,
+        "windDirection16Se"
+      ],
+      "description": "South East"
+    },
+    {
+      "enum": [
+        7,
+        "windDirection16Sse"
+      ],
+      "description": "South South East"
+    },
+    {
+      "enum": [
+        8,
+        "windDirection16S"
+      ],
+      "description": "South"
+    },
+    {
+      "enum": [
+        9,
+        "windDirection16Ssw"
+      ],
+      "description": "South South West"
+    },
+    {
+      "enum": [
+        10,
+        "windDirection16Sw"
+      ],
+      "description": "South West"
+    },
+    {
+      "enum": [
+        11,
+        "windDirection16Wsw"
+      ],
+      "description": "West South West"
+    },
+    {
+      "enum": [
+        12,
+        "windDirection16W"
+      ],
+      "description": "West"
+    },
+    {
+      "enum": [
+        13,
+        "windDirection16Wnw"
+      ],
+      "description": "West North West"
+    },
+    {
+      "enum": [
+        14,
+        "windDirection16Nw"
+      ],
+      "description": "North West"
+    },
+    {
+      "enum": [
+        15,
+        "windDirection16Nnw"
+      ],
+      "description": "North North West"
+    }
+  ]
+}

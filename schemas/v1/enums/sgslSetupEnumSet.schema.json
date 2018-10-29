@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sgslSetupEnumSet.schema.json",
+  "title": "sgslSetupEnumSet",
+  "description": "SGSL Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sgslSetupLastReliable"
+      ],
+      "description": "Last Reliable"
+    },
+    {
+      "enum": [
+        1,
+        "sgslSetupFailSoft"
+      ],
+      "description": "Fail Soft"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYpcEnergySupplyEnumSet.schema.json",
+  "title": "ltcLegacyYpcEnergySupplyEnumSet",
+  "description": "York LTC Legacy YPC Energy Supply",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ltcLegacyYpcEnergySupply0"
+      ],
+      "description": "Gas/Oil"
+    },
+    {
+      "enum": [
+        1,
+        "ltcLegacyYpcEnergySupply1"
+      ],
+      "description": "Steam"
+    }
+  ]
+}

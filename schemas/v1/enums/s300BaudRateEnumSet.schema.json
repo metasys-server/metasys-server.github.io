@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/s300BaudRateEnumSet.schema.json",
+  "title": "s300BaudRateEnumSet",
+  "description": "S300 Baud Rate",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "s300BaudRate9600Baud"
+      ],
+      "description": "9600 Baud"
+    },
+    {
+      "enum": [
+        1,
+        "s300BaudRate19200Baud"
+      ],
+      "description": "19200 Baud"
+    },
+    {
+      "enum": [
+        2,
+        "s300BaudRate38400Baud"
+      ],
+      "description": "38400 Baud"
+    },
+    {
+      "enum": [
+        3,
+        "s300BaudRate115200Baud"
+      ],
+      "description": "115200 Baud"
+    }
+  ]
+}

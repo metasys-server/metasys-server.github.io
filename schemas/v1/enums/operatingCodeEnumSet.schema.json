@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/operatingCodeEnumSet.schema.json",
+  "title": "operatingCodeEnumSet",
+  "description": "Operating Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mainCode"
+      ],
+      "description": "Main Code"
+    },
+    {
+      "enum": [
+        1,
+        "bootCode"
+      ],
+      "description": "Boot Code"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ccsVavDualMaxZncStatesEnumSet.schema.json",
+  "title": "ccsVavDualMaxZncStatesEnumSet",
+  "description": "CCS VAV Dual Max ZNC Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ccsVavDualMaxZncStatesSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "ccsVavDualMaxZncStatesBoxHtg"
+      ],
+      "description": "Box Htg"
+    },
+    {
+      "enum": [
+        2,
+        "ccsVavDualMaxZncStatesHtgFlowReset"
+      ],
+      "description": "Htg Flow Reset"
+    },
+    {
+      "enum": [
+        3,
+        "ccsVavDualMaxZncStatesSuppHtg"
+      ],
+      "description": "Supp Htg"
+    },
+    {
+      "enum": [
+        4,
+        "ccsVavDualMaxZncStatesPrmyClg"
+      ],
+      "description": "Prmy Clg"
+    },
+    {
+      "enum": [
+        5,
+        "ccsVavDualMaxZncStatesTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    },
+    {
+      "enum": [
+        6,
+        "ccsVavDualMaxZncStatesDualMaxDis"
+      ],
+      "description": "Dual Max Not Enabled"
+    }
+  ]
+}

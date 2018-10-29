@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/taskStatusEnumSet.schema.json",
+  "title": "taskStatusEnumSet",
+  "description": "Task Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "taskNormal"
+      ],
+      "description": "Task Normal"
+    },
+    {
+      "enum": [
+        1,
+        "taskNotResponding"
+      ],
+      "description": "Task Not Responding"
+    }
+  ]
+}

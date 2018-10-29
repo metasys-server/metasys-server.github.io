@@ -1,0 +1,414 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtCurrencyEnumSet.schema.json",
+  "title": "snvtCurrencyEnumSet",
+  "description": "SNVT Currency",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Argentine Peso"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Australian Dollar"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Austrian Schilling"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Bahraini Dinar"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Belgian Franc"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Brazilian Real"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "British Pound"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Canadian Dollar"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Czech Koruna"
+    },
+    {
+      "enum": [
+        9,
+        "9"
+      ],
+      "description": "Chilean Peso"
+    },
+    {
+      "enum": [
+        10,
+        "10"
+      ],
+      "description": "Chinese Yuan"
+    },
+    {
+      "enum": [
+        11,
+        "11"
+      ],
+      "description": "Colombian Peso"
+    },
+    {
+      "enum": [
+        12,
+        "12"
+      ],
+      "description": "Danish Krone"
+    },
+    {
+      "enum": [
+        13,
+        "13"
+      ],
+      "description": "Ecuadorian Sucre"
+    },
+    {
+      "enum": [
+        14,
+        "14"
+      ],
+      "description": "Euro"
+    },
+    {
+      "enum": [
+        15,
+        "15"
+      ],
+      "description": "Finnish Markka"
+    },
+    {
+      "enum": [
+        16,
+        "16"
+      ],
+      "description": "French Franc"
+    },
+    {
+      "enum": [
+        17,
+        "17"
+      ],
+      "description": "German Mark"
+    },
+    {
+      "enum": [
+        18,
+        "18"
+      ],
+      "description": "Greek Drachma"
+    },
+    {
+      "enum": [
+        19,
+        "19"
+      ],
+      "description": "Hong Kong Dollar"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "Hungarian Forint"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "Indian Rupee"
+    },
+    {
+      "enum": [
+        22,
+        "22"
+      ],
+      "description": "Indonesian Rupiah"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "Irish Punt"
+    },
+    {
+      "enum": [
+        24,
+        "24"
+      ],
+      "description": "Israeli Shekel"
+    },
+    {
+      "enum": [
+        25,
+        "25"
+      ],
+      "description": "Italian Lira"
+    },
+    {
+      "enum": [
+        26,
+        "26"
+      ],
+      "description": "Japanese Yen"
+    },
+    {
+      "enum": [
+        27,
+        "27"
+      ],
+      "description": "Jordanian Dinar"
+    },
+    {
+      "enum": [
+        28,
+        "28"
+      ],
+      "description": "Kuwaiti Dinar"
+    },
+    {
+      "enum": [
+        29,
+        "29"
+      ],
+      "description": "Lebanese Pound"
+    },
+    {
+      "enum": [
+        30,
+        "30"
+      ],
+      "description": "Malaysian Ringgit"
+    },
+    {
+      "enum": [
+        31,
+        "31"
+      ],
+      "description": "Maltese Lira"
+    },
+    {
+      "enum": [
+        32,
+        "32"
+      ],
+      "description": "Mexican New Peso"
+    },
+    {
+      "enum": [
+        33,
+        "33"
+      ],
+      "description": "Netherland Guilder"
+    },
+    {
+      "enum": [
+        34,
+        "34"
+      ],
+      "description": "New Zealand Dollar"
+    },
+    {
+      "enum": [
+        35,
+        "35"
+      ],
+      "description": "Norwegian Krone"
+    },
+    {
+      "enum": [
+        36,
+        "36"
+      ],
+      "description": "Pakistani Rupee"
+    },
+    {
+      "enum": [
+        37,
+        "37"
+      ],
+      "description": "Peruvian New Sol"
+    },
+    {
+      "enum": [
+        38,
+        "38"
+      ],
+      "description": "Philippine Peso"
+    },
+    {
+      "enum": [
+        39,
+        "39"
+      ],
+      "description": "Polish Zloty"
+    },
+    {
+      "enum": [
+        40,
+        "40"
+      ],
+      "description": "Portuguese Escudo"
+    },
+    {
+      "enum": [
+        41,
+        "41"
+      ],
+      "description": "Saudi Arabian Riyal"
+    },
+    {
+      "enum": [
+        42,
+        "42"
+      ],
+      "description": "Singaporean Dollar"
+    },
+    {
+      "enum": [
+        43,
+        "43"
+      ],
+      "description": "Slavic Koruna"
+    },
+    {
+      "enum": [
+        44,
+        "44"
+      ],
+      "description": "South African Rand"
+    },
+    {
+      "enum": [
+        45,
+        "45"
+      ],
+      "description": "South Korean Won"
+    },
+    {
+      "enum": [
+        46,
+        "46"
+      ],
+      "description": "Spanish Peseta"
+    },
+    {
+      "enum": [
+        47,
+        "47"
+      ],
+      "description": "Inter-Gov Exchange"
+    },
+    {
+      "enum": [
+        48,
+        "48"
+      ],
+      "description": "Swedish Krona"
+    },
+    {
+      "enum": [
+        49,
+        "49"
+      ],
+      "description": "Swiss Franc"
+    },
+    {
+      "enum": [
+        50,
+        "50"
+      ],
+      "description": "Taiwanese Dollar"
+    },
+    {
+      "enum": [
+        51,
+        "51"
+      ],
+      "description": "Thai Baht"
+    },
+    {
+      "enum": [
+        52,
+        "52"
+      ],
+      "description": "Turkish Lira"
+    },
+    {
+      "enum": [
+        53,
+        "53"
+      ],
+      "description": "UAE Dirham"
+    },
+    {
+      "enum": [
+        54,
+        "54"
+      ],
+      "description": "United States Dollar"
+    },
+    {
+      "enum": [
+        55,
+        "55"
+      ],
+      "description": "Uruguayan New Peso"
+    },
+    {
+      "enum": [
+        56,
+        "56"
+      ],
+      "description": "Venezuelan Bolivar"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

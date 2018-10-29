@@ -1,0 +1,1177 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auditTrailStringsEnumSet.schema.json",
+  "title": "auditTrailStringsEnumSet",
+  "description": "Audit Trail Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "atstrEmailddaFailedLoadIpworks"
+      ],
+      "description": "Failed to Load IPWorks DLL."
+    },
+    {
+      "enum": [
+        1,
+        "atstrPagerddaErrorAllocMemory"
+      ],
+      "description": "Error allocating memory for COM port or Port in use or Operator interrupted session"
+    },
+    {
+      "enum": [
+        2,
+        "atstrPagerddaErrorOpeningComPort"
+      ],
+      "description": "Error opening COM port"
+    },
+    {
+      "enum": [
+        3,
+        "atstrPagerddaErrorGetcommstate"
+      ],
+      "description": "Error GetCommState"
+    },
+    {
+      "enum": [
+        4,
+        "atstrPagerddaErrorSetcommstate"
+      ],
+      "description": "Error SetCommState"
+    },
+    {
+      "enum": [
+        5,
+        "atstrPagerddaErrorSetcommtimeouts"
+      ],
+      "description": "Error SetCommTimeouts"
+    },
+    {
+      "enum": [
+        6,
+        "atstrPagerddaErrorSetupcomm"
+      ],
+      "description": "Error SetupComm"
+    },
+    {
+      "enum": [
+        7,
+        "atstrPagerddaClosecommError"
+      ],
+      "description": "CloseComm Error"
+    },
+    {
+      "enum": [
+        8,
+        "atstrPagerddaModemNotRespondToInit"
+      ],
+      "description": "Your modem did not respond to the following init string"
+    },
+    {
+      "enum": [
+        9,
+        "atstrPagerddaConnectionTimeout"
+      ],
+      "description": "Timeout waiting for CONNECTION"
+    },
+    {
+      "enum": [
+        10,
+        "atstrPagerddaLostConnectionDuringCall"
+      ],
+      "description": "Lost Connection during call"
+    },
+    {
+      "enum": [
+        11,
+        "atstrPagerddaTimeoutWaitingForId"
+      ],
+      "description": "Timeout waiting for ID"
+    },
+    {
+      "enum": [
+        12,
+        "atstrPagerddaTimeoutGoaheadString"
+      ],
+      "description": "Timeout waiting for goahead string"
+    },
+    {
+      "enum": [
+        13,
+        "atstrPagerddaBlockNotAckedByPagerTerminal"
+      ],
+      "description": "Block was not acknowledged by the Pager Terminal"
+    },
+    {
+      "enum": [
+        14,
+        "atstrPagerddaInvalidPagerId"
+      ],
+      "description": "Invalid Pager ID"
+    },
+    {
+      "enum": [
+        15,
+        "atstrPagerddaCallFailed"
+      ],
+      "description": "Call Failed - (BUSY, NO ANSWER, No DialTone, NO CARRIER)"
+    },
+    {
+      "enum": [
+        16,
+        "atstrPagerddaZeroLengthMsg"
+      ],
+      "description": "You passed a zero length message"
+    },
+    {
+      "enum": [
+        17,
+        "atstrPagerddaZeroBlockLimit"
+      ],
+      "description": "You passed a zero block limit"
+    },
+    {
+      "enum": [
+        18,
+        "atstrPagerddaReturningWithInitError"
+      ],
+      "description": "Returning with init error"
+    },
+    {
+      "enum": [
+        19,
+        "atstrPagerddaNotAllowedCrChar"
+      ],
+      "description": "You are not allowed to have a carriage return character in the message"
+    },
+    {
+      "enum": [
+        20,
+        "atstrPagerddaErrorCreatingOverlappedIoEvent"
+      ],
+      "description": "Error Creating Event for Overlapped I/O"
+    },
+    {
+      "enum": [
+        21,
+        "atstrPagerddaUnknownCharInSendingPager"
+      ],
+      "description": "Unknown Character - Error in the sending pager"
+    },
+    {
+      "enum": [
+        22,
+        "atstrPagerddaUnknownError"
+      ],
+      "description": "Unknown Error"
+    },
+    {
+      "enum": [
+        23,
+        "atstrPagerddaFailedToLoadPagerdll"
+      ],
+      "description": "Failed to load PagerDLL"
+    },
+    {
+      "enum": [
+        24,
+        "atstrSnmpddaFailedToLoadSnmpdll"
+      ],
+      "description": "Failed to load SNMPDLL."
+    },
+    {
+      "enum": [
+        25,
+        "atstrPagerddaMsgSentSuccessfully"
+      ],
+      "description": "Pager Message Sent Successfully"
+    },
+    {
+      "enum": [
+        26,
+        "atstrPagerddaPagerIdsNotMatchMsgs"
+      ],
+      "description": "The number of pager id's does not match the number of messages"
+    },
+    {
+      "enum": [
+        27,
+        "atstrPagerddaInvalidInputParameter"
+      ],
+      "description": "Input parameter passed is invalid"
+    },
+    {
+      "enum": [
+        28,
+        "atstrEmailddaInvalidMailserverAddr"
+      ],
+      "description": "The MailServer address is invalid (0.0.0.0)."
+    },
+    {
+      "enum": [
+        29,
+        "atstrEmailddaFirewallError"
+      ],
+      "description": "Firewall Error. Error message contains detailed description."
+    },
+    {
+      "enum": [
+        30,
+        "atstrEmailddaSmtpProtocolError"
+      ],
+      "description": "SMTP protocol error. Description contains the server reply."
+    },
+    {
+      "enum": [
+        31,
+        "atstrEmailddaServerCommunicationError"
+      ],
+      "description": "Error communicating with server. Error text is attached."
+    },
+    {
+      "enum": [
+        32,
+        "atstrEmailddaSpecifyMailserver"
+      ],
+      "description": "Please specify a MailServer."
+    },
+    {
+      "enum": [
+        33,
+        "atstrEmailddaSpecifySender"
+      ],
+      "description": "Please specify a sender (From)."
+    },
+    {
+      "enum": [
+        34,
+        "atstrEmailddaInvalidRemotehostAddr"
+      ],
+      "description": "The RemoteHost address is invalid."
+    },
+    {
+      "enum": [
+        35,
+        "atstrEmailddaSpecifyRecipient"
+      ],
+      "description": "Please specify a recipient (To)."
+    },
+    {
+      "enum": [
+        36,
+        "atstrEmailddaBusy"
+      ],
+      "description": "Busy performing current action."
+    },
+    {
+      "enum": [
+        37,
+        "atstrEmailddaOperationInterrupted"
+      ],
+      "description": "Operation interrupted."
+    },
+    {
+      "enum": [
+        38,
+        "atstrEmailddaCantOpenAttachedFile"
+      ],
+      "description": "Can't open AttachedFile."
+    },
+    {
+      "enum": [
+        39,
+        "atstrAuditrepositoryDiscard"
+      ],
+      "description": "One or more audits were discarded from the Audit Repository."
+    },
+    {
+      "enum": [
+        40,
+        "atstrEventrepositoryLostEvent"
+      ],
+      "description": "The Event Repository has lost an event."
+    },
+    {
+      "enum": [
+        41,
+        "atstrSecurityUserLoginSuccessful"
+      ],
+      "description": "User Login Successful"
+    },
+    {
+      "enum": [
+        42,
+        "atstrSecurityUserLoginFail"
+      ],
+      "description": "User Login Failed"
+    },
+    {
+      "enum": [
+        43,
+        "atstrSecurityUserLogout"
+      ],
+      "description": "User Logout"
+    },
+    {
+      "enum": [
+        44,
+        "atstrSecurityAddUser"
+      ],
+      "description": "Add a new user"
+    },
+    {
+      "enum": [
+        45,
+        "atstrSecurityDeleteUser"
+      ],
+      "description": "Delete a user"
+    },
+    {
+      "enum": [
+        46,
+        "atstrSecurityUpdateUserProperty"
+      ],
+      "description": "User Property Changed"
+    },
+    {
+      "enum": [
+        47,
+        "atstrSecurityUserAccountEnabled"
+      ],
+      "description": "User Account Enabled"
+    },
+    {
+      "enum": [
+        48,
+        "atstrSecurityUserAccountDisabled"
+      ],
+      "description": "User Account Disabled"
+    },
+    {
+      "enum": [
+        49,
+        "atstrSecurityUserPasswordChanged"
+      ],
+      "description": "User Password Changed"
+    },
+    {
+      "enum": [
+        50,
+        "atstrSecurityAddRole"
+      ],
+      "description": "Add a new role"
+    },
+    {
+      "enum": [
+        51,
+        "atstrSecurityDeleteRole"
+      ],
+      "description": "Delete a role"
+    },
+    {
+      "enum": [
+        52,
+        "atstrSecurityAcceptedTc"
+      ],
+      "description": "User accepts Terms and Conditions"
+    },
+    {
+      "enum": [
+        53,
+        "atstrEventrepositoryExternalAck"
+      ],
+      "description": "An event was acknowledged by a non-Metasys III device."
+    },
+    {
+      "enum": [
+        54,
+        "atstrEventrepositoryDiscard"
+      ],
+      "description": "One or more events were discarded from the Event Repository."
+    },
+    {
+      "enum": [
+        55,
+        "atstrEventrepositoryAck"
+      ],
+      "description": "One or more events were acknowledged in the Event Repository."
+    },
+    {
+      "enum": [
+        56,
+        "atstrAdsReposNoConnect"
+      ],
+      "description": "Could not connect to defined ADS for data transfer."
+    },
+    {
+      "enum": [
+        57,
+        "atstrDialNoDialtone"
+      ],
+      "description": "Failed to establish a dial-up connection to the ADS. There was no dial tone."
+    },
+    {
+      "enum": [
+        58,
+        "atstrDialDeviceNotReady"
+      ],
+      "description": "Failed to establish a dial-up connection to the ADS. The modem (or other connecting device) is not functioning."
+    },
+    {
+      "enum": [
+        59,
+        "atstrDialHardwareFailure"
+      ],
+      "description": "Failed to establish a dial-up connection. The modem (or other connecting device) was disconnected due to hardware failure."
+    },
+    {
+      "enum": [
+        60,
+        "atstrDialDeviceDoesNotExist"
+      ],
+      "description": "Failed to establish a dial-up connection. A modem (or other connecting device) was specified that does not exist."
+    },
+    {
+      "enum": [
+        61,
+        "atstrDialAuthenticationFailure"
+      ],
+      "description": "Failed to establish a dial-up connection to the ADS. Access was denied because the username and/or password was invalid."
+    },
+    {
+      "enum": [
+        62,
+        "atstrEmailddaSendmailFailure"
+      ],
+      "description": "A failure occurred while sending an email."
+    },
+    {
+      "enum": [
+        63,
+        "atstrPrinterddaPrintalarmFailure"
+      ],
+      "description": "A failure occurred while printing an alarm."
+    },
+    {
+      "enum": [
+        64,
+        "atstrSnmpddaSendtrapFailure"
+      ],
+      "description": "A failure occurred while sending a SNMP trap."
+    },
+    {
+      "enum": [
+        65,
+        "atstrAdsddaEventforwardingFailure"
+      ],
+      "description": "Unable to forward one or more events to the ADS."
+    },
+    {
+      "enum": [
+        66,
+        "atstrEventworkerEventstorageFailure"
+      ],
+      "description": "Error storing event in event repository."
+    },
+    {
+      "enum": [
+        67,
+        "atstrEventrepositoryLoadindexFailure"
+      ],
+      "description": "An error occurred loading the event repository. Some acknowledgements may have been lost."
+    },
+    {
+      "enum": [
+        68,
+        "atstrMetasysiiiappSubsystemExcluded"
+      ],
+      "description": "A subsystem was purposely excluded from the startup routine based on the config file settings."
+    },
+    {
+      "enum": [
+        69,
+        "atstrMetasysiiiappSubsystemstartFailure"
+      ],
+      "description": "A subsystem failed to start during startup."
+    },
+    {
+      "enum": [
+        70,
+        "atstrMetasysiiiappSitedeviceservicesStartFailure"
+      ],
+      "description": "Site/Device Services failed to start during startup."
+    },
+    {
+      "enum": [
+        71,
+        "atstrMetasysiiiappGeneralstartFailure"
+      ],
+      "description": "An error occurred during the Metasys startup routine."
+    },
+    {
+      "enum": [
+        72,
+        "atstrMetasysiiiappSitedeviceservicesStopFailure"
+      ],
+      "description": "An error occurred during the stopping of Site/Device Services."
+    },
+    {
+      "enum": [
+        73,
+        "atstrMetasysiiiappSubsystemstopFailure"
+      ],
+      "description": "A subsystem failed to properly stop."
+    },
+    {
+      "enum": [
+        74,
+        "atstrMetasysiiiappGeneralstopFailure"
+      ],
+      "description": "An error occurred during the Metasys shutdown routine."
+    },
+    {
+      "enum": [
+        75,
+        "atstrMetasysiiiappWritesitedataFailure"
+      ],
+      "description": "The update of the global site data has failed."
+    },
+    {
+      "enum": [
+        76,
+        "atstrXmlpersistanceLoadsecuritydbFailure"
+      ],
+      "description": "Failure loading the Security DB."
+    },
+    {
+      "enum": [
+        77,
+        "atstrDevservicesIamliveFailure"
+      ],
+      "description": "Checkin with Site Director failed."
+    },
+    {
+      "enum": [
+        78,
+        "atstrSiteservicesDeviceregistrationFailure"
+      ],
+      "description": "Failure registering a device."
+    },
+    {
+      "enum": [
+        79,
+        "atstrLoadmonitorUploadsyncFailure"
+      ],
+      "description": "Upload Synchronization has failed.  A full download from the SCT is recommended."
+    },
+    {
+      "enum": [
+        80,
+        "atstrSecuritybackuprestoreBackupFailure"
+      ],
+      "description": "A failure occurred during the backup of the security database."
+    },
+    {
+      "enum": [
+        81,
+        "atstrSecuritybackuprestoreRestoreFailure"
+      ],
+      "description": "A failure occurred during the restoration of the security database."
+    },
+    {
+      "enum": [
+        82,
+        "atstrSecurityDeleteAddObjectviews"
+      ],
+      "description": "Object Views Refreshed."
+    },
+    {
+      "enum": [
+        83,
+        "atstrSecurityDeleteObject"
+      ],
+      "description": "Delete existing ObjectViews.  This occurs when purging stale ObjectViews."
+    },
+    {
+      "enum": [
+        84,
+        "atstrPrinterddaPrinteroffline"
+      ],
+      "description": "A printer has been found to be offline or in an error state.  The sending of alarms to that printer has been suspended."
+    },
+    {
+      "enum": [
+        85,
+        "atstrPrinterddaFailureConfig"
+      ],
+      "description": "The PrinterDDA was unable to print an alarm due to an invalid DDA configuration."
+    },
+    {
+      "enum": [
+        86,
+        "atstrPrinterddaInvalidConfig"
+      ],
+      "description": "The PrinterDDA configuration is invalid."
+    },
+    {
+      "enum": [
+        87,
+        "atstrPagerddaFailureConfig"
+      ],
+      "description": "The PagerDDA was unable to send an alarm via a page due to an invalid DDA configuration."
+    },
+    {
+      "enum": [
+        88,
+        "atstrPagerddaInvalidConfig"
+      ],
+      "description": "The PagerDDA configuration is invalid."
+    },
+    {
+      "enum": [
+        89,
+        "atstrEmailddaFailureConfig"
+      ],
+      "description": "The EmailDDA was unable to send an alarm via email due to an invalid DDA configuration."
+    },
+    {
+      "enum": [
+        90,
+        "atstrEmailddaInvalidConfig"
+      ],
+      "description": "The EmailDDA configuration is invalid."
+    },
+    {
+      "enum": [
+        91,
+        "atstrSnmpddaFailureConfig"
+      ],
+      "description": "The SNMPDDA was unable to send a trap due to an invalid DDA configuration."
+    },
+    {
+      "enum": [
+        92,
+        "atstrSnmpddaInvalidConfig"
+      ],
+      "description": "The SNMPDDA configuration is invalid."
+    },
+    {
+      "enum": [
+        93,
+        "atstrPrinterddaPrinteronline"
+      ],
+      "description": "A printer which was offline or in an error state is back online.  The sending of alarms to that printer has been resumed."
+    },
+    {
+      "enum": [
+        94,
+        "atstrInvalidObjectCategory"
+      ],
+      "description": "Invalid Authorization Category attribute value"
+    },
+    {
+      "enum": [
+        95,
+        "atstrSnmpddaInvalidObjectId"
+      ],
+      "description": "The SNMPDDA was unable to find the specific Object ID."
+    },
+    {
+      "enum": [
+        96,
+        "atstrSnmpddaInvalidPort"
+      ],
+      "description": "The SNMP Agent is not able to set the port number."
+    },
+    {
+      "enum": [
+        97,
+        "atstrSnmpddaFailureToCreateTrapPacket"
+      ],
+      "description": "Failed to create trap packet."
+    },
+    {
+      "enum": [
+        98,
+        "atstrAuditrepositoryFailureToForward"
+      ],
+      "description": "Forwarding One or more audits to ADS repository failed."
+    },
+    {
+      "enum": [
+        99,
+        "atstrAuditrepositoryForwardSucceeded"
+      ],
+      "description": "Forwarding audits to ADS repository succeeded."
+    },
+    {
+      "enum": [
+        100,
+        "atstrSnmpddaInvalidGetGetnextRequest"
+      ],
+      "description": "An Invalid Get or GetNext Request was received"
+    },
+    {
+      "enum": [
+        101,
+        "atstrSnmpddaInvalidPacketReceived"
+      ],
+      "description": "A malformed SNMP Packet was received"
+    },
+    {
+      "enum": [
+        102,
+        "atstrSnmpddaGeneralSnmpError"
+      ],
+      "description": "A General SNMP error has occurred."
+    },
+    {
+      "enum": [
+        103,
+        "atstrInvalidAlarmStatus"
+      ],
+      "description": "An invalid enumeration was used for an alarm status"
+    },
+    {
+      "enum": [
+        104,
+        "atstrSnmpddaFailedToCreateSnmpinterface"
+      ],
+      "description": "Failed to initialize all SNMP Interface attributes. Please review the configuration."
+    },
+    {
+      "enum": [
+        105,
+        "atstrSnmpddaFailedToCreateSnmpdda"
+      ],
+      "description": "Failed to initialize all SNMP DDA attributes. Please review the configuration."
+    },
+    {
+      "enum": [
+        106,
+        "atstrSecurityPermissionsModified"
+      ],
+      "description": "Security permissions modified"
+    },
+    {
+      "enum": [
+        107,
+        "atstrSecurityUserAccountLocked"
+      ],
+      "description": "User account locked after maximum number of retries"
+    },
+    {
+      "enum": [
+        108,
+        "atstrSecurityUserInactivityLogout"
+      ],
+      "description": "User Logged Out by System due to Inactivity Timeout"
+    },
+    {
+      "enum": [
+        109,
+        "atstrDevservicesSitedirectorOffline"
+      ],
+      "description": "Lost communication with Site Director"
+    },
+    {
+      "enum": [
+        110,
+        "atstrUserPreferencesChanged"
+      ],
+      "description": "User preferences changed"
+    },
+    {
+      "enum": [
+        111,
+        "atstrSystemPreferencesChanged"
+      ],
+      "description": "System preferences changed"
+    },
+    {
+      "enum": [
+        112,
+        "atstrSecurityUpdateGroupProperty"
+      ],
+      "description": "Role Property Changed"
+    },
+    {
+      "enum": [
+        113,
+        "atstrSecurityUpdateTimesheetProperty"
+      ],
+      "description": "Time Sheet Changed"
+    },
+    {
+      "enum": [
+        114,
+        "atstrSecurityUpdateUserprofileProperty"
+      ],
+      "description": "User Profile Changed"
+    },
+    {
+      "enum": [
+        115,
+        "atstrSecurityUpdateAccountPolicyProperty"
+      ],
+      "description": "Account Policy Changed"
+    },
+    {
+      "enum": [
+        116,
+        "atstrSecurityUpdateUserRolesProperty"
+      ],
+      "description": "Roles changed for user"
+    },
+    {
+      "enum": [
+        117,
+        "atstrAckAlarm"
+      ],
+      "description": "Acknowledge Alarm"
+    },
+    {
+      "enum": [
+        118,
+        "atstrDiscardAlarm"
+      ],
+      "description": "Discard Alarm"
+    },
+    {
+      "enum": [
+        119,
+        "atstrSntpFailedToStart"
+      ],
+      "description": "Failed to start SNTP Services."
+    },
+    {
+      "enum": [
+        120,
+        "atstrUpdateObjectviewsForAd"
+      ],
+      "description": "Updated Object View with Active Directory users assignment"
+    },
+    {
+      "enum": [
+        121,
+        "atstrSecurityUpdateGroupPropertyForAd"
+      ],
+      "description": "Updated Role with Active Directory users assignment"
+    },
+    {
+      "enum": [
+        122,
+        "atstrSaveAdServiceAccounts"
+      ],
+      "description": "Active Directory Domain Service Accounts information updated"
+    },
+    {
+      "enum": [
+        123,
+        "atstrSaveAdConfiguration"
+      ],
+      "description": "Active Directory Configuration updated"
+    },
+    {
+      "enum": [
+        124,
+        "atstrDiscardAudit"
+      ],
+      "description": "Discard Audit"
+    },
+    {
+      "enum": [
+        125,
+        "atstrErrAuditTrackingStopped"
+      ],
+      "description": "Audit tracking is stopped due to full Local Audit Repository.  No new audits will be stored until some audits are forwarded."
+    },
+    {
+      "enum": [
+        126,
+        "atstrErrGetAudits"
+      ],
+      "description": "An error has occurred while attempting to retrieve the audits from the Audit Repository."
+    },
+    {
+      "enum": [
+        127,
+        "atstrExSubsystemNotStarted"
+      ],
+      "description": "The following subsystem is not running:"
+    },
+    {
+      "enum": [
+        128,
+        "atstrExSubsystemStartingError"
+      ],
+      "description": "An error occurred while starting the following subsystem:"
+    },
+    {
+      "enum": [
+        129,
+        "atstrExSubsystemStopingError"
+      ],
+      "description": "An error occurred while stopping the following subsystem:"
+    },
+    {
+      "enum": [
+        130,
+        "atstrExSubsystemUnrecoverableStopErr"
+      ],
+      "description": "An unrecoverable error has occurred during shutdown."
+    },
+    {
+      "enum": [
+        131,
+        "atstrExSubsystemUnrecoverableStartErr"
+      ],
+      "description": "An unrecoverable error has occurred during startup."
+    },
+    {
+      "enum": [
+        132,
+        "atstrExSubsystemAlreadyStarted"
+      ],
+      "description": "The subsystem is already started."
+    },
+    {
+      "enum": [
+        133,
+        "atstrExAuditRepositoryFull"
+      ],
+      "description": "The audit message could not stored because the Local Audit Repository is full."
+    },
+    {
+      "enum": [
+        134,
+        "atstrExEventRepositoryFull"
+      ],
+      "description": "An attempt was made to store an event while the Local Event Repository is full.  The event cannot be stored."
+    },
+    {
+      "enum": [
+        135,
+        "atstrMsgEventThresholdReached"
+      ],
+      "description": "The Local Event Repository is getting full!  Acknowledge or Discard some events to free up some space."
+    },
+    {
+      "enum": [
+        136,
+        "atstrMsgEventThreshold"
+      ],
+      "description": "Event Threshold"
+    },
+    {
+      "enum": [
+        137,
+        "atstrMsgAuditThresholdReached"
+      ],
+      "description": "The Local Audit Repository is getting full.  Forward or discard some audits to free up space."
+    },
+    {
+      "enum": [
+        138,
+        "atstrMsgAuditThreshold"
+      ],
+      "description": "Audit Threshold"
+    },
+    {
+      "enum": [
+        139,
+        "atstrMsgUnforwardedAuditRemoved"
+      ],
+      "description": "An unforwarded audit message has been deleted from the Local Audit Repository to make room for a new audit message."
+    },
+    {
+      "enum": [
+        140,
+        "atstrSecurityUserAccountUnlocked"
+      ],
+      "description": "User account unlocked"
+    },
+    {
+      "enum": [
+        141,
+        "atstrAllItemsOrgChanged"
+      ],
+      "description": "All Items Organization changed"
+    },
+    {
+      "enum": [
+        142,
+        "atstrCustomCategoriesDefined"
+      ],
+      "description": "Custom Object Categories Defined"
+    },
+    {
+      "enum": [
+        143,
+        "atstrMsgEventTableNearFull"
+      ],
+      "description": "COV registration failure may occur soon due to table full error. Restart %1% to prevent."
+    },
+    {
+      "enum": [
+        144,
+        "atstrMsgEventTableFull"
+      ],
+      "description": "COV registration has failed due to table full error. Restart %1% to recover."
+    },
+    {
+      "enum": [
+        145,
+        "atstrMsgEventOffline"
+      ],
+      "description": "%1% is offline because %2%"
+    },
+    {
+      "enum": [
+        146,
+        "atstrMsgEventOnline"
+      ],
+      "description": "%1% is online."
+    },
+    {
+      "enum": [
+        147,
+        "atstrSyslogddaInvalidConfig"
+      ],
+      "description": "A Syslog DDA configuration is invalid."
+    },
+    {
+      "enum": [
+        148,
+        "atstrSecurityDeclinedTc"
+      ],
+      "description": "User declines Terms and Conditions"
+    },
+    {
+      "enum": [
+        149,
+        "atstrSecurityUserDoesnotExist"
+      ],
+      "description": "User Does Not Exist"
+    },
+    {
+      "enum": [
+        150,
+        "atstrSecurityUserAccountLockedDormant"
+      ],
+      "description": "Account locked out due to dormancy"
+    },
+    {
+      "enum": [
+        151,
+        "atstrSecurityUpdateRadiusConfiguration"
+      ],
+      "description": "Radius configuration updated"
+    },
+    {
+      "enum": [
+        152,
+        "atstrConfigNetworkNumberMismath"
+      ],
+      "description": "Configuration Error, Detected CONFIGURED network number %d from device address %s, Local network number is %d."
+    },
+    {
+      "enum": [
+        153,
+        "atstrLearnNetworkNumberMismath"
+      ],
+      "description": "Configuration Error, Detected LEARNED network number %d from device address %s, Local network number is %d."
+    },
+    {
+      "enum": [
+        154,
+        "atstrUnauthorizedUser"
+      ],
+      "description": "Unauthorized User"
+    },
+    {
+      "enum": [
+        155,
+        "atstrAuditRateThreshold"
+      ],
+      "description": "Audit Rate threshold of %d per hour exceeded, Current Audit Rate is %d per hour."
+    },
+    {
+      "enum": [
+        156,
+        "atstrTrendRateThreshold"
+      ],
+      "description": "Trend Rate threshold of %d per hour exceeded, Current Trend Rate is %d per hour."
+    },
+    {
+      "enum": [
+        157,
+        "atstrAlarmRateThreshold"
+      ],
+      "description": "Alarm Rate threshold of %d per hour exceeded, Current Alarm Rate is %d per hour."
+    },
+    {
+      "enum": [
+        158,
+        "atstrAlarmMonitorEnabled"
+      ],
+      "description": "Alarm Monitor Enabled."
+    },
+    {
+      "enum": [
+        159,
+        "atstrForceAnnotationEnabled"
+      ],
+      "description": "Mandatory Annotations Enabled."
+    },
+    {
+      "enum": [
+        160,
+        "atstrMsgRebootRequired"
+      ],
+      "description": "Unacknowledged Events/Audits being re-sent from NxE - Reboot recommended"
+    },
+    {
+      "enum": [
+        161,
+        "atstrSelfCertCloseToEndDate"
+      ],
+      "description": "Server Certificate will expire %s. Restart device to automatically replace."
+    },
+    {
+      "enum": [
+        162,
+        "atstrSelfCertAfterEndDate"
+      ],
+      "description": "Server Certificate has expired %s. Restart device to automatically replace."
+    },
+    {
+      "enum": [
+        163,
+        "atstrSelfCertPriorBeginDate"
+      ],
+      "description": "Server Certificate is not valid until %s. Restart device to automatically replace."
+    },
+    {
+      "enum": [
+        164,
+        "atstrTrustedCertCloseToEndDate"
+      ],
+      "description": "Server Certificate will expire %s. Use SCT to install new certificate."
+    },
+    {
+      "enum": [
+        165,
+        "atstrTrustedCertAfterEndDate"
+      ],
+      "description": "Server Certificate has expired %s. Use SCT to install new certificate."
+    },
+    {
+      "enum": [
+        166,
+        "atstrTrustedCertPriorBeginDate"
+      ],
+      "description": "Server Certificate is not valid until %s. Use SCT to install new certificate."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/shedCmdEnumSet.schema.json",
+  "title": "shedCmdEnumSet",
+  "description": "Shed Command Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "shedCmdRelImmed"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        1,
+        "shedCmdShedImmed"
+      ],
+      "description": "Shed"
+    }
+  ]
+}

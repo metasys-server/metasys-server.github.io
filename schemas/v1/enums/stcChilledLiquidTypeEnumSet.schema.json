@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcChilledLiquidTypeEnumSet.schema.json",
+  "title": "stcChilledLiquidTypeEnumSet",
+  "description": "STC Chilled Liquid Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcChilledLiquidTypeWater"
+      ],
+      "description": "Water"
+    },
+    {
+      "enum": [
+        1,
+        "stcChilledLiquidTypeGlycol"
+      ],
+      "description": "Glycol"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mdcuModelEnumSet.schema.json",
+  "title": "mdcuModelEnumSet",
+  "description": "MDCU Model",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mcquayDcu"
+      ],
+      "description": "MicroTech II"
+    }
+  ]
+}

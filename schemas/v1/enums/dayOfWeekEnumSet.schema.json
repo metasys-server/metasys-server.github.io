@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/dayOfWeekEnumSet.schema.json",
+  "title": "dayOfWeekEnumSet",
+  "description": "Day Of Week",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "monday"
+      ],
+      "description": "Monday"
+    },
+    {
+      "enum": [
+        2,
+        "tuesday"
+      ],
+      "description": "Tuesday"
+    },
+    {
+      "enum": [
+        3,
+        "wednesday"
+      ],
+      "description": "Wednesday"
+    },
+    {
+      "enum": [
+        4,
+        "thursday"
+      ],
+      "description": "Thursday"
+    },
+    {
+      "enum": [
+        5,
+        "friday"
+      ],
+      "description": "Friday"
+    },
+    {
+      "enum": [
+        6,
+        "saturday"
+      ],
+      "description": "Saturday"
+    },
+    {
+      "enum": [
+        7,
+        "sunday"
+      ],
+      "description": "Sunday"
+    },
+    {
+      "enum": [
+        255,
+        "anyDay"
+      ],
+      "description": "Any day of week"
+    }
+  ]
+}

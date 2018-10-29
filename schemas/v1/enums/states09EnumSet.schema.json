@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/states09EnumSet.schema.json",
+  "title": "states09EnumSet",
+  "description": "States (0-9)",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "state90"
+      ],
+      "description": "State 0"
+    },
+    {
+      "enum": [
+        1,
+        "state91"
+      ],
+      "description": "State 1"
+    },
+    {
+      "enum": [
+        2,
+        "state92"
+      ],
+      "description": "State 2"
+    },
+    {
+      "enum": [
+        3,
+        "state93"
+      ],
+      "description": "State 3"
+    },
+    {
+      "enum": [
+        4,
+        "state94"
+      ],
+      "description": "State 4"
+    },
+    {
+      "enum": [
+        5,
+        "state95"
+      ],
+      "description": "State 5"
+    },
+    {
+      "enum": [
+        6,
+        "state96"
+      ],
+      "description": "State 6"
+    },
+    {
+      "enum": [
+        7,
+        "state97"
+      ],
+      "description": "State 7"
+    },
+    {
+      "enum": [
+        8,
+        "state98"
+      ],
+      "description": "State 8"
+    },
+    {
+      "enum": [
+        9,
+        "state99"
+      ],
+      "description": "State 9"
+    }
+  ]
+}

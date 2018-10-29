@@ -1,0 +1,246 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yiaSc2EnumSet.schema.json",
+  "title": "yiaSc2EnumSet",
+  "description": "YIA Safety Fault Code SC.2",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yiaSc20"
+      ],
+      "description": "NO SAFETY FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "yiaSc21"
+      ],
+      "description": "SOLUTION PUMP OVERLOAD -CHK CRYSTALLIZATION-"
+    },
+    {
+      "enum": [
+        2,
+        "yiaSc22"
+      ],
+      "description": "SOLUTION PUMP OVERLOADS OPENED"
+    },
+    {
+      "enum": [
+        3,
+        "yiaSc23"
+      ],
+      "description": "REFRIGERANT PUMP OVERLOADS OPENED"
+    },
+    {
+      "enum": [
+        4,
+        "yiaSc24"
+      ],
+      "description": "GENERATOR HI-PRESS DIGITAL SWITCH HP1 OPENED"
+    },
+    {
+      "enum": [
+        5,
+        "yiaSc25"
+      ],
+      "description": "GENERATOR HI-PRESS ANALOG SWITCH PT1 >672 MMHG"
+    },
+    {
+      "enum": [
+        6,
+        "yiaSc26"
+      ],
+      "description": "LOW REFRIGERANT TEMP DIGITAL LRT OPENED"
+    },
+    {
+      "enum": [
+        7,
+        "yiaSc27"
+      ],
+      "description": "LOW REFRIGERANT TEMP ANALOG RT8 < 33F (0.56C)"
+    },
+    {
+      "enum": [
+        8,
+        "yiaSc28"
+      ],
+      "description": "GEN HI-TEMP DIG SWITCH HT1 OPENED -MAN RESET-"
+    },
+    {
+      "enum": [
+        9,
+        "yiaSc29"
+      ],
+      "description": "GEN HI-TEMP ANALOG SWITCH RT3 > 330F(166C)"
+    },
+    {
+      "enum": [
+        10,
+        "yiaSc210"
+      ],
+      "description": "AUXILIARY TB1-31 DEVICE OPENED"
+    },
+    {
+      "enum": [
+        11,
+        "yiaSc211"
+      ],
+      "description": "MANUAL RESTART AFTER POWER IS RESTORED"
+    },
+    {
+      "enum": [
+        12,
+        "yiaSc212"
+      ],
+      "description": "CHILLED LIQUID FLOW SWITCH OPENED"
+    },
+    {
+      "enum": [
+        13,
+        "yiaSc213"
+      ],
+      "description": "HIGH STEAM SUPPLY TEMP RT7 > MAXIMUM ALLOWED"
+    },
+    {
+      "enum": [
+        14,
+        "yiaSc214"
+      ],
+      "description": "HIGH HOT WATER SUPPLY TEMP RT7 > MAXIMUM ALLOWED"
+    },
+    {
+      "enum": [
+        15,
+        "yiaSc215"
+      ],
+      "description": "LOW MOTOR COOLANT LEVEL -MCFL SWITCH OPENED-"
+    },
+    {
+      "enum": [
+        16,
+        "yiaSc216"
+      ],
+      "description": "REFRIGERANT PUMP LEVEL SWITCH 3F FAILURE"
+    },
+    {
+      "enum": [
+        17,
+        "yiaSc217"
+      ],
+      "description": "SOLUTION PUMP OVERLOAD TWICE -CHK FOR CRYST-"
+    },
+    {
+      "enum": [
+        18,
+        "yiaSc218"
+      ],
+      "description": "REF PUMP OVERLOAD TWICE -CHK FOR CRYST-"
+    },
+    {
+      "enum": [
+        19,
+        "yiaSc219"
+      ],
+      "description": "SOLN LOW TEMP & EVAP FLOW SW OPEN -CHK CRYST-"
+    },
+    {
+      "enum": [
+        20,
+        "yiaSc220"
+      ],
+      "description": "SOLN LOW TEMP & LOW REF TEMP SHDWN -CHK CRYST-"
+    },
+    {
+      "enum": [
+        21,
+        "yiaSc221"
+      ],
+      "description": "HIGH STEAM SUPPLY PRESS PT2 > 35PSIA (241.3KPA)"
+    },
+    {
+      "enum": [
+        22,
+        "yiaSc222"
+      ],
+      "description": "RT3 LOW TEMP WHILE MCFL SHUTDOWN -CHK CRYST-"
+    },
+    {
+      "enum": [
+        23,
+        "yiaSc223"
+      ],
+      "description": "RT3 LOW TEMP AFTER POWER FAILURE -CHK CRYST-"
+    },
+    {
+      "enum": [
+        24,
+        "yiaSc224"
+      ],
+      "description": "CONDENSER LIQUID FLOW SWITCH OPENED"
+    },
+    {
+      "enum": [
+        25,
+        "yiaSc225"
+      ],
+      "description": "HIGH CONCENTRATION IN STRONG SOLUTION"
+    },
+    {
+      "enum": [
+        26,
+        "yiaSc226"
+      ],
+      "description": "MCFL SWITCH OPENED, LDC INTERRUMPED -CHK CRYST-"
+    },
+    {
+      "enum": [
+        27,
+        "yiaSc227"
+      ],
+      "description": "COND FLOW SWITCH CLOSED DURING LIMITED DILUTION"
+    },
+    {
+      "enum": [
+        28,
+        "yiaSc228"
+      ],
+      "description": "DILUTION CYCLE INTERRUPTED -SWITCH 3F OPENED-"
+    },
+    {
+      "enum": [
+        29,
+        "yiaSc229"
+      ],
+      "description": "DILUTION CYCLE INTERRUPTED -CHILLED WATER OFF-"
+    },
+    {
+      "enum": [
+        30,
+        "yiaSc230"
+      ],
+      "description": "DILUTION CYCLE INTERRUPTED -COND WATER OFF-"
+    },
+    {
+      "enum": [
+        31,
+        "yiaSc231"
+      ],
+      "description": "SOLUTION PUMP OVERLOAD CONTACTS ARE IN CONFLICT"
+    },
+    {
+      "enum": [
+        32,
+        "yiaSc232"
+      ],
+      "description": "REFRIGERANT PUMP OVERLOAD CONTACTS ARE IN CONFLICT"
+    },
+    {
+      "enum": [
+        33,
+        "yiaSc233"
+      ],
+      "description": "START PROHIBITED AT THIS MOMENT"
+    }
+  ]
+}

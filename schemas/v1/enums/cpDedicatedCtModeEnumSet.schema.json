@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpDedicatedCtModeEnumSet.schema.json",
+  "title": "cpDedicatedCtModeEnumSet",
+  "description": "CP Dedicated CT Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpDedicatedCtModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "cpDedicatedCtModeMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "cpDedicatedCtModeFanControl"
+      ],
+      "description": "Fan Control"
+    },
+    {
+      "enum": [
+        3,
+        "cpDedicatedCtModeBypassControl"
+      ],
+      "description": "Bypass Control"
+    },
+    {
+      "enum": [
+        4,
+        "cpDedicatedCtModeHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        5,
+        "cpDedicatedCtModeLimitedMax"
+      ],
+      "description": "Limited Max"
+    }
+  ]
+}

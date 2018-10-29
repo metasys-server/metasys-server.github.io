@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/physicalAddressTypeEnumSet.schema.json",
+  "title": "physicalAddressTypeEnumSet",
+  "description": "Physical Address Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "physicalAddressTypeMacAddress"
+      ],
+      "description": "MAC Address"
+    },
+    {
+      "enum": [
+        1,
+        "physicalAddressTypeControllerNumber"
+      ],
+      "description": "Controller Number"
+    }
+  ]
+}

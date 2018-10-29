@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecEventCodesEnumSet.schema.json",
+  "title": "tecEventCodesEnumSet",
+  "description": "TEC Event Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecEventCodesNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "tecEventCodesCalibrationCorrupt"
+      ],
+      "description": "Calibration Corrupt"
+    },
+    {
+      "enum": [
+        2,
+        "tecEventCodesFirmwareMismatch"
+      ],
+      "description": "Firmware Mismatch"
+    },
+    {
+      "enum": [
+        3,
+        "tecEventCodesBoardMismatch"
+      ],
+      "description": "Board Mismatch"
+    },
+    {
+      "enum": [
+        4,
+        "tecEventCodesControllerFault"
+      ],
+      "description": "Controller Fault"
+    },
+    {
+      "enum": [
+        5,
+        "tecEventCodesDisplayFailure"
+      ],
+      "description": "Display Failure"
+    },
+    {
+      "enum": [
+        6,
+        "tecEventCodesTouchscreenUnavailable"
+      ],
+      "description": "Touchscreen Unavailable"
+    },
+    {
+      "enum": [
+        7,
+        "tecEventCodesUsbMalfunction"
+      ],
+      "description": "USB Malfunction"
+    },
+    {
+      "enum": [
+        100,
+        "tecEventCodes100"
+      ],
+      "description": "Remote Zone Temp Fail"
+    },
+    {
+      "enum": [
+        101,
+        "tecEventCodes101"
+      ],
+      "description": "Supply Temp Fail"
+    },
+    {
+      "enum": [
+        102,
+        "tecEventCodes102"
+      ],
+      "description": "Outdoor Temp Fail"
+    },
+    {
+      "enum": [
+        103,
+        "tecEventCodes103"
+      ],
+      "description": "Internal Sensor Fail"
+    },
+    {
+      "enum": [
+        104,
+        "tecEventCodes104"
+      ],
+      "description": "OA Lockouts Disabled"
+    },
+    {
+      "enum": [
+        105,
+        "tecEventCodes105"
+      ],
+      "description": "Econ Unavailable"
+    },
+    {
+      "enum": [
+        106,
+        "tecEventCodes106"
+      ],
+      "description": "Dehum Unavailable"
+    },
+    {
+      "enum": [
+        107,
+        "tecEventCodes107"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        108,
+        "tecEventCodes108"
+      ],
+      "description": "Dirty Filter"
+    },
+    {
+      "enum": [
+        109,
+        "tecEventCodes109"
+      ],
+      "description": "Changeover Fail"
+    },
+    {
+      "enum": [
+        110,
+        "tecEventCodes110"
+      ],
+      "description": "Zone Temp Unreliable"
+    },
+    {
+      "enum": [
+        111,
+        "tecEventCodes111"
+      ],
+      "description": "Open Window"
+    },
+    {
+      "enum": [
+        112,
+        "tecEventCodes112"
+      ],
+      "description": "Fan Lock"
+    },
+    {
+      "enum": [
+        113,
+        "tecEventCodes113"
+      ],
+      "description": "Humidity Unreliable"
+    },
+    {
+      "enum": [
+        114,
+        "tecEventCodes114"
+      ],
+      "description": "Supply Fan Fault"
+    },
+    {
+      "enum": [
+        115,
+        "tecEventCodes115"
+      ],
+      "description": "Supply Fan Runtime Limit Exceeded"
+    },
+    {
+      "enum": [
+        116,
+        "tecEventCodes116"
+      ],
+      "description": "Heating Ineffective"
+    },
+    {
+      "enum": [
+        117,
+        "tecEventCodes117"
+      ],
+      "description": "Cooling Ineffective"
+    },
+    {
+      "enum": [
+        118,
+        "tecEventCodes118"
+      ],
+      "description": "Zone Temperature Too Cold"
+    },
+    {
+      "enum": [
+        119,
+        "tecEventCodes119"
+      ],
+      "description": "Zone Temperature Too Hot"
+    }
+  ]
+}

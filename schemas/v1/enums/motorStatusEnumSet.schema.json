@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/motorStatusEnumSet.schema.json",
+  "title": "motorStatusEnumSet",
+  "description": "Motor Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "motorStatusInvalid"
+      ],
+      "description": "Invalid"
+    },
+    {
+      "enum": [
+        1,
+        "motorStopped"
+      ],
+      "description": "Stopped"
+    },
+    {
+      "enum": [
+        2,
+        "motorMoving"
+      ],
+      "description": "Moving"
+    },
+    {
+      "enum": [
+        3,
+        "motorOverdriving"
+      ],
+      "description": "Overdriving"
+    }
+  ]
+}

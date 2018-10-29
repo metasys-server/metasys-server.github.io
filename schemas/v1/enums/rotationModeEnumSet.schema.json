@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rotationModeEnumSet.schema.json",
+  "title": "rotationModeEnumSet",
+  "description": "Rotation Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rotNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "rotRunTime"
+      ],
+      "description": "Run Time"
+    },
+    {
+      "enum": [
+        2,
+        "rotStartCounts"
+      ],
+      "description": "Start Count"
+    },
+    {
+      "enum": [
+        3,
+        "rotBoth"
+      ],
+      "description": "Both"
+    }
+  ]
+}

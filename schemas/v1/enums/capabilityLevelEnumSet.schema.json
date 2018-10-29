@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/capabilityLevelEnumSet.schema.json",
+  "title": "capabilityLevelEnumSet",
+  "description": "Capability Level",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noAccessLevel"
+      ],
+      "description": "No Access"
+    },
+    {
+      "enum": [
+        1,
+        "viewLevel"
+      ],
+      "description": "View Level"
+    },
+    {
+      "enum": [
+        2,
+        "operateLevel"
+      ],
+      "description": "Operate Level"
+    },
+    {
+      "enum": [
+        3,
+        "interveneLevel"
+      ],
+      "description": "Intervene Level"
+    },
+    {
+      "enum": [
+        4,
+        "superviseLevel"
+      ],
+      "description": "Supervise Level"
+    },
+    {
+      "enum": [
+        5,
+        "modifyLevel"
+      ],
+      "description": "Modify Level"
+    },
+    {
+      "enum": [
+        6,
+        "configureLevel"
+      ],
+      "description": "Configure Level"
+    }
+  ]
+}

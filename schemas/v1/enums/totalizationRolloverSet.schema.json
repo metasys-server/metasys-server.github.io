@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/totalizationRolloverSet.schema.json",
+  "title": "totalizationRolloverSet",
+  "description": "Totalization RollOver",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "noRollover"
+      ],
+      "description": "No Rollover"
+    },
+    {
+      "enum": [
+        1,
+        "rolloverLimit"
+      ],
+      "description": "Rollover Limit"
+    }
+  ]
+}

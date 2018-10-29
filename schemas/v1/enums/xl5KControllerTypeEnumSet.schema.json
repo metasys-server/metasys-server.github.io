@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/xl5KControllerTypeEnumSet.schema.json",
+  "title": "xl5KControllerTypeEnumSet",
+  "description": "XL5K Controller Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vndXl10"
+      ],
+      "description": "XL-10"
+    },
+    {
+      "enum": [
+        1,
+        "vndXl20"
+      ],
+      "description": "XL-20"
+    },
+    {
+      "enum": [
+        2,
+        "vndXl50"
+      ],
+      "description": "XL-50"
+    },
+    {
+      "enum": [
+        3,
+        "vndXl80"
+      ],
+      "description": "XL-80"
+    },
+    {
+      "enum": [
+        4,
+        "vndXl100"
+      ],
+      "description": "XL-100"
+    },
+    {
+      "enum": [
+        5,
+        "vndXl300"
+      ],
+      "description": "XL-300"
+    },
+    {
+      "enum": [
+        6,
+        "vndXl500"
+      ],
+      "description": "XL-500"
+    },
+    {
+      "enum": [
+        7,
+        "vndXl600"
+      ],
+      "description": "XL-600"
+    },
+    {
+      "enum": [
+        8,
+        "vndZoneManager"
+      ],
+      "description": "Zone Manager"
+    }
+  ]
+}

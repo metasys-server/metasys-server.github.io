@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/gridlinesEnumSet.schema.json",
+  "title": "gridlinesEnumSet",
+  "description": "Gridlines",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "gridlinesNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "gridlinesXandy"
+      ],
+      "description": "X and Y"
+    },
+    {
+      "enum": [
+        2,
+        "gridlinesXonly"
+      ],
+      "description": "X Only"
+    },
+    {
+      "enum": [
+        3,
+        "gridlinesYonly"
+      ],
+      "description": "Y Only"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tec3000ReheatTypeEnumSet.schema.json",
+  "title": "tec3000ReheatTypeEnumSet",
+  "description": "TEC3000 Reheat Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tec3000ReheatTypeMechanical"
+      ],
+      "description": "Mechanical"
+    },
+    {
+      "enum": [
+        1,
+        "tec3000ReheatTypeElectric"
+      ],
+      "description": "Electric"
+    }
+  ]
+}

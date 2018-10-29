@@ -1,0 +1,687 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yvaaScEnumSet.schema.json",
+  "title": "yvaaScEnumSet",
+  "description": "YVAA Status Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yvaaSc0"
+      ],
+      "description": "NO FAULTS"
+    },
+    {
+      "enum": [
+        1,
+        "yvaaSc1"
+      ],
+      "description": "LOW AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        2,
+        "yvaaSc2"
+      ],
+      "description": "HIGH AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        3,
+        "yvaaSc3"
+      ],
+      "description": "LOW CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "yvaaSc4"
+      ],
+      "description": "RESERVED 4"
+    },
+    {
+      "enum": [
+        5,
+        "yvaaSc5"
+      ],
+      "description": "LOW RTC BATTERY VOLTAGE"
+    },
+    {
+      "enum": [
+        6,
+        "yvaaSc6"
+      ],
+      "description": "INVALID NUMBER OF COMPRESSORS SELECTED"
+    },
+    {
+      "enum": [
+        7,
+        "yvaaSc7"
+      ],
+      "description": "VSD COMMUNICATIONS FAILURE"
+    },
+    {
+      "enum": [
+        8,
+        "yvaaSc8"
+      ],
+      "description": "PRE-CHARGE LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        9,
+        "yvaaSc9"
+      ],
+      "description": "PRE-CHARGE DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        10,
+        "yvaaSc10"
+      ],
+      "description": "HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        11,
+        "yvaaSc11"
+      ],
+      "description": "LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        12,
+        "yvaaSc12"
+      ],
+      "description": "DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        13,
+        "yvaaSc13"
+      ],
+      "description": "HIGH VSD AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        14,
+        "yvaaSc14"
+      ],
+      "description": "SINGLE PHASE INPUT"
+    },
+    {
+      "enum": [
+        15,
+        "yvaaSc15"
+      ],
+      "description": "VSD POWER SUPPLY FAULT"
+    },
+    {
+      "enum": [
+        16,
+        "yvaaSc16"
+      ],
+      "description": "VSD LOGIC BOARD FAULT"
+    },
+    {
+      "enum": [
+        17,
+        "yvaaSc17"
+      ],
+      "description": "MOTOR CURRENT OVERLOAD (HARDWARE)"
+    },
+    {
+      "enum": [
+        18,
+        "yvaaSc18"
+      ],
+      "description": "CT PLUG FAULT"
+    },
+    {
+      "enum": [
+        19,
+        "yvaaSc19"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "yvaaSc20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "yvaaSc21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "yvaaSc22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "yvaaSc23"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "yvaaSc24"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "yvaaSc25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "yvaaSc26"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "yvaaSc27"
+      ],
+      "description": "HIGH DISCHARGE PRESSURE (SOFTWARE)"
+    },
+    {
+      "enum": [
+        28,
+        "yvaaSc28"
+      ],
+      "description": "HIGH DIFFERENTIAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        29,
+        "yvaaSc29"
+      ],
+      "description": "LOW DIFFERENTIAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        30,
+        "yvaaSc30"
+      ],
+      "description": "LOW SUCTION PRESSURE"
+    },
+    {
+      "enum": [
+        31,
+        "yvaaSc31"
+      ],
+      "description": "HIGH DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        32,
+        "yvaaSc32"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "yvaaSc33"
+      ],
+      "description": "EDUCTOR CLOG FAULT"
+    },
+    {
+      "enum": [
+        34,
+        "yvaaSc34"
+      ],
+      "description": "SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        35,
+        "yvaaSc35"
+      ],
+      "description": "LOW MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        36,
+        "yvaaSc36"
+      ],
+      "description": "HIGH MOTOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        37,
+        "yvaaSc37"
+      ],
+      "description": "PRE-CHARGE LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        38,
+        "yvaaSc38"
+      ],
+      "description": "PRE-CHARGE DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        39,
+        "yvaaSc39"
+      ],
+      "description": "HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        40,
+        "yvaaSc40"
+      ],
+      "description": "LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        41,
+        "yvaaSc41"
+      ],
+      "description": "DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        42,
+        "yvaaSc42"
+      ],
+      "description": "HIGH MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        43,
+        "yvaaSc43"
+      ],
+      "description": "MOTOR CURRENT OVERLOAD (SOFTWARE)"
+    },
+    {
+      "enum": [
+        44,
+        "yvaaSc44"
+      ],
+      "description": "IGBT GATE DRIVER FAULT"
+    },
+    {
+      "enum": [
+        45,
+        "yvaaSc45"
+      ],
+      "description": "HIGH BASEPLATE TEMPERATURE"
+    },
+    {
+      "enum": [
+        46,
+        "yvaaSc46"
+      ],
+      "description": "SINGLE PHASE INPUT"
+    },
+    {
+      "enum": [
+        47,
+        "yvaaSc47"
+      ],
+      "description": "VSD RUN SIGNAL FAULT"
+    },
+    {
+      "enum": [
+        48,
+        "yvaaSc48"
+      ],
+      "description": "HIGH DISCHARGE PRESS (HARDWARE - HPCO)"
+    },
+    {
+      "enum": [
+        49,
+        "yvaaSc49"
+      ],
+      "description": "RESERVED 49"
+    },
+    {
+      "enum": [
+        50,
+        "yvaaSc50"
+      ],
+      "description": "CONTROL VOLTAGE FAULT"
+    },
+    {
+      "enum": [
+        51,
+        "yvaaSc51"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        52,
+        "yvaaSc52"
+      ],
+      "description": "RESERVED 52"
+    },
+    {
+      "enum": [
+        53,
+        "yvaaSc53"
+      ],
+      "description": "RESERVED 53"
+    },
+    {
+      "enum": [
+        54,
+        "yvaaSc54"
+      ],
+      "description": "RESERVED 54"
+    },
+    {
+      "enum": [
+        55,
+        "yvaaSc55"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "yvaaSc56"
+      ],
+      "description": "RESERVED 56"
+    },
+    {
+      "enum": [
+        57,
+        "yvaaSc57"
+      ],
+      "description": "RESERVED 57"
+    },
+    {
+      "enum": [
+        58,
+        "yvaaSc58"
+      ],
+      "description": "RESERVED 58"
+    },
+    {
+      "enum": [
+        59,
+        "yvaaSc59"
+      ],
+      "description": "RESERVED 59"
+    },
+    {
+      "enum": [
+        60,
+        "yvaaSc60"
+      ],
+      "description": "RESERVED 60"
+    },
+    {
+      "enum": [
+        61,
+        "yvaaSc61"
+      ],
+      "description": "RESERVED 61"
+    },
+    {
+      "enum": [
+        62,
+        "yvaaSc62"
+      ],
+      "description": "RESERVED 62"
+    },
+    {
+      "enum": [
+        63,
+        "yvaaSc63"
+      ],
+      "description": "MANUAL OVERRIDE"
+    },
+    {
+      "enum": [
+        64,
+        "yvaaSc64"
+      ],
+      "description": "DAILY SCHEDULE SHUTDOWN"
+    },
+    {
+      "enum": [
+        65,
+        "yvaaSc65"
+      ],
+      "description": "UNIT SWITCH OFF"
+    },
+    {
+      "enum": [
+        66,
+        "yvaaSc66"
+      ],
+      "description": "REMOTE CONTROLLED SHUTDOWN"
+    },
+    {
+      "enum": [
+        67,
+        "yvaaSc67"
+      ],
+      "description": "LOSS OF EXTERNAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        68,
+        "yvaaSc68"
+      ],
+      "description": "FLOW SWITCH SHUTDOWN"
+    },
+    {
+      "enum": [
+        69,
+        "yvaaSc69"
+      ],
+      "description": "VSD COOLING SHUTDOWN"
+    },
+    {
+      "enum": [
+        70,
+        "yvaaSc70"
+      ],
+      "description": "SERIAL NUMBER SHUTDOWN"
+    },
+    {
+      "enum": [
+        71,
+        "yvaaSc71"
+      ],
+      "description": "RESERVED 71"
+    },
+    {
+      "enum": [
+        72,
+        "yvaaSc72"
+      ],
+      "description": "RESERVED 72"
+    },
+    {
+      "enum": [
+        73,
+        "yvaaSc73"
+      ],
+      "description": "RESERVED 73"
+    },
+    {
+      "enum": [
+        74,
+        "yvaaSc74"
+      ],
+      "description": "NO RUN PERMISSIVE"
+    },
+    {
+      "enum": [
+        75,
+        "yvaaSc75"
+      ],
+      "description": "ANTI-RECYCLE TIMER ACTIVE"
+    },
+    {
+      "enum": [
+        76,
+        "yvaaSc76"
+      ],
+      "description": "SYSTEM SWITCH OFF"
+    },
+    {
+      "enum": [
+        77,
+        "yvaaSc77"
+      ],
+      "description": "SYSTEM NOT RUNNING"
+    },
+    {
+      "enum": [
+        78,
+        "yvaaSc78"
+      ],
+      "description": "SYSTEM RUNNING"
+    },
+    {
+      "enum": [
+        79,
+        "yvaaSc79"
+      ],
+      "description": "DISCHARGE PRESSURE LIMITING"
+    },
+    {
+      "enum": [
+        80,
+        "yvaaSc80"
+      ],
+      "description": "SUCTION PRESSURE LIMITING"
+    },
+    {
+      "enum": [
+        81,
+        "yvaaSc81"
+      ],
+      "description": "MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        82,
+        "yvaaSc82"
+      ],
+      "description": "RESERVED 82"
+    },
+    {
+      "enum": [
+        83,
+        "yvaaSc83"
+      ],
+      "description": "ISN MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        84,
+        "yvaaSc84"
+      ],
+      "description": "REMOTE MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        85,
+        "yvaaSc85"
+      ],
+      "description": "SYSTEM PUMPING DOWN"
+    },
+    {
+      "enum": [
+        86,
+        "yvaaSc86"
+      ],
+      "description": "VSD PRECHARGING"
+    },
+    {
+      "enum": [
+        87,
+        "yvaaSc87"
+      ],
+      "description": "VSD BASEPLATE TEMP LIMITING"
+    },
+    {
+      "enum": [
+        88,
+        "yvaaSc88"
+      ],
+      "description": "VSD INTERNAL AMBIENT TEMP LIMITING"
+    },
+    {
+      "enum": [
+        89,
+        "yvaaSc89"
+      ],
+      "description": "SOUND LIMITING"
+    },
+    {
+      "enum": [
+        90,
+        "yvaaSc90"
+      ],
+      "description": "ISN SOUND LIMITING"
+    },
+    {
+      "enum": [
+        91,
+        "yvaaSc91"
+      ],
+      "description": "REMOTE SOUND LIMITING"
+    },
+    {
+      "enum": [
+        92,
+        "yvaaSc92"
+      ],
+      "description": "PULLDOWN MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        93,
+        "yvaaSc93"
+      ],
+      "description": "COOLING DEMAND SHUTDOWN"
+    },
+    {
+      "enum": [
+        94,
+        "yvaaSc94"
+      ],
+      "description": "RESERVED 94"
+    },
+    {
+      "enum": [
+        95,
+        "yvaaSc95"
+      ],
+      "description": "RESERVED 95"
+    },
+    {
+      "enum": [
+        96,
+        "yvaaSc96"
+      ],
+      "description": "RESERVED 96"
+    }
+  ]
+}

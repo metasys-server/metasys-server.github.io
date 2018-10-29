@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/shedStatusEnumSet.schema.json",
+  "title": "shedStatusEnumSet",
+  "description": "Shed Status Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "shedStatusReleased"
+      ],
+      "description": "Released"
+    },
+    {
+      "enum": [
+        1,
+        "shedStatusShedForDl"
+      ],
+      "description": "Shed For DL"
+    },
+    {
+      "enum": [
+        2,
+        "shedStatusShedForLr"
+      ],
+      "description": "Shed for LR"
+    },
+    {
+      "enum": [
+        3,
+        "shedStatusDlReleaseIssued"
+      ],
+      "description": "Shed For DL - Release Issued"
+    },
+    {
+      "enum": [
+        4,
+        "shedStatusLrReleaseIssued"
+      ],
+      "description": "Shed For LR - Release Issued"
+    }
+  ]
+}

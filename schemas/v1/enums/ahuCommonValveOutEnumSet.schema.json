@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuCommonValveOutEnumSet.schema.json",
+  "title": "ahuCommonValveOutEnumSet",
+  "description": "AHU Common Valve Out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "acovoOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "acovoMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "acovoLimitedMax"
+      ],
+      "description": "Limited Max"
+    },
+    {
+      "enum": [
+        3,
+        "acovoHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "acovoWaterFlush"
+      ],
+      "description": "Water Flush"
+    },
+    {
+      "enum": [
+        5,
+        "acovoTControl"
+      ],
+      "description": "T Control"
+    },
+    {
+      "enum": [
+        6,
+        "acovoFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        7,
+        "acovoLowOaTemperature"
+      ],
+      "description": "Low OA Temperature"
+    }
+  ]
+}

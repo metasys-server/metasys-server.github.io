@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/securityModeEnumSet.schema.json",
+  "title": "securityModeEnumSet",
+  "description": "Security Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "securityModeRestricted"
+      ],
+      "description": "Restricted"
+    },
+    {
+      "enum": [
+        1,
+        "securityModeExceptional"
+      ],
+      "description": "Exceptional"
+    }
+  ]
+}

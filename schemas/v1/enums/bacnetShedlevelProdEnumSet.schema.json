@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacnetShedlevelProdEnumSet.schema.json",
+  "title": "bacnetShedlevelProdEnumSet",
+  "description": "BACnet Shed Level Production",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacnetShedLvlPercent"
+      ],
+      "description": "Percent"
+    },
+    {
+      "enum": [
+        1,
+        "bacnetShedLvlLevel"
+      ],
+      "description": "Level"
+    },
+    {
+      "enum": [
+        2,
+        "bacnetShedLvlAmount"
+      ],
+      "description": "Amount"
+    }
+  ]
+}

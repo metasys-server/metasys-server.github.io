@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdGplOffCoolHeatEnumSet.schema.json",
+  "title": "mccdGplOffCoolHeatEnumSet",
+  "description": "MCCD GPL Off Cool Heat",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "GPL"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "OFF"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "COOL"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "HEAT"
+    }
+  ]
+}

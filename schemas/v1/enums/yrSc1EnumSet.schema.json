@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yrSc1EnumSet.schema.json",
+  "title": "yrSc1EnumSet",
+  "description": "YR Unit Operation Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yrSc10"
+      ],
+      "description": "UNIT STOPPED - READY TO START"
+    },
+    {
+      "enum": [
+        1,
+        "yrSc11"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "yrSc12"
+      ],
+      "description": "RESERVED 2"
+    },
+    {
+      "enum": [
+        3,
+        "yrSc13"
+      ],
+      "description": "RESERVED 3"
+    },
+    {
+      "enum": [
+        4,
+        "yrSc14"
+      ],
+      "description": "RESERVED 4"
+    },
+    {
+      "enum": [
+        5,
+        "yrSc15"
+      ],
+      "description": "RESERVED 5"
+    },
+    {
+      "enum": [
+        6,
+        "yrSc16"
+      ],
+      "description": "UNIT START INHIBIT"
+    },
+    {
+      "enum": [
+        7,
+        "yrSc17"
+      ],
+      "description": "UNIT STARTING"
+    },
+    {
+      "enum": [
+        8,
+        "yrSc18"
+      ],
+      "description": "UNIT RUNNING - NO ABNORMAL CONDITION"
+    },
+    {
+      "enum": [
+        9,
+        "yrSc19"
+      ],
+      "description": "RESERVED 9"
+    },
+    {
+      "enum": [
+        10,
+        "yrSc110"
+      ],
+      "description": "UNIT RUNNING - CHILLER UNLOAD BEFORE SHUTDOWN"
+    },
+    {
+      "enum": [
+        11,
+        "yrSc111"
+      ],
+      "description": "UNIT LOCKOUT DELAY"
+    },
+    {
+      "enum": [
+        12,
+        "yrSc112"
+      ],
+      "description": "RESERVED 12"
+    },
+    {
+      "enum": [
+        13,
+        "yrSc113"
+      ],
+      "description": "RESERVED 13"
+    }
+  ]
+}

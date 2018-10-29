@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mcControlStateEnumSet.schema.json",
+  "title": "mcControlStateEnumSet",
+  "description": "MC Control State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mcctrlstateIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "mcctrlstatePrecharge"
+      ],
+      "description": "Precharge"
+    },
+    {
+      "enum": [
+        2,
+        "mcctrlstatePreregulate"
+      ],
+      "description": "Pre-Regulate"
+    },
+    {
+      "enum": [
+        3,
+        "mcctrlstateWaitrun"
+      ],
+      "description": "Waiting For Run"
+    },
+    {
+      "enum": [
+        4,
+        "mcctrlstateRun"
+      ],
+      "description": "Run"
+    },
+    {
+      "enum": [
+        5,
+        "mcctrlstateStop"
+      ],
+      "description": "Stop"
+    },
+    {
+      "enum": [
+        6,
+        "mcctrlstateUnittrip"
+      ],
+      "description": "Unit Trip"
+    },
+    {
+      "enum": [
+        7,
+        "mcctrlstateWaterpump"
+      ],
+      "description": "Water Pump"
+    },
+    {
+      "enum": [
+        8,
+        "mcctrlstateTest"
+      ],
+      "description": "Test Mode"
+    },
+    {
+      "enum": [
+        9,
+        "mcctrlstateManualprecharge"
+      ],
+      "description": "Manual Precharge"
+    },
+    {
+      "enum": [
+        10,
+        "mcctrlstateManualpreregulate"
+      ],
+      "description": "Manual Pre-Regulate"
+    },
+    {
+      "enum": [
+        11,
+        "mcctrlstateSoftshutdown"
+      ],
+      "description": "Soft Shutdown"
+    },
+    {
+      "enum": [
+        12,
+        "mcctrlstatePrechargereinit"
+      ],
+      "description": "Precharge Re-Init"
+    },
+    {
+      "enum": [
+        13,
+        "mcctrlstateDcctoffsetcheck"
+      ],
+      "description": "Check DCCT"
+    }
+  ]
+}

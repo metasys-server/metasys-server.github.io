@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fanOnTimeEnumSet.schema.json",
+  "title": "fanOnTimeEnumSet",
+  "description": "Fan On Time",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "fanOnTime15Minutes"
+      ],
+      "description": "15 Minutes"
+    },
+    {
+      "enum": [
+        1,
+        "fanOnTime30Minutes"
+      ],
+      "description": "30 Minutes"
+    },
+    {
+      "enum": [
+        2,
+        "fanOnTime1Hour"
+      ],
+      "description": "1 Hour"
+    },
+    {
+      "enum": [
+        3,
+        "fanOnTime2Hours"
+      ],
+      "description": "2 Hours"
+    },
+    {
+      "enum": [
+        4,
+        "fanOnTime4Hours"
+      ],
+      "description": "4 Hours"
+    },
+    {
+      "enum": [
+        5,
+        "fanOnTimeStayOn"
+      ],
+      "description": "Stay On"
+    }
+  ]
+}

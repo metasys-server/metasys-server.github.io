@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/loadIneligibilityEnumSet.schema.json",
+  "title": "loadIneligibilityEnumSet",
+  "description": "Load Ineligibility",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "loadIneliLoadEligibile"
+      ],
+      "description": "Eligible"
+    },
+    {
+      "enum": [
+        1,
+        "loadIneliLoadShed"
+      ],
+      "description": "Load currently shed"
+    },
+    {
+      "enum": [
+        2,
+        "loadIneliControlledByHigherPriority"
+      ],
+      "description": "Output controlled by higher priority"
+    },
+    {
+      "enum": [
+        3,
+        "loadIneliOutputValDoesNotPermitShedding"
+      ],
+      "description": "Output value does not permit shedding"
+    },
+    {
+      "enum": [
+        4,
+        "loadIneliLoadMinRelTimeNotExp"
+      ],
+      "description": "Load's min release time not expired"
+    },
+    {
+      "enum": [
+        5,
+        "loadIneliOutputAlarmRefInAlarm"
+      ],
+      "description": "Output alarm reference in alarm"
+    },
+    {
+      "enum": [
+        6,
+        "loadIneliOutputUnreliable"
+      ],
+      "description": "Output is unreliable"
+    },
+    {
+      "enum": [
+        7,
+        "loadIneliOutputOffline"
+      ],
+      "description": "Output is offline"
+    },
+    {
+      "enum": [
+        8,
+        "loadIneliOutputOutOfService"
+      ],
+      "description": "Output is Out of Service"
+    },
+    {
+      "enum": [
+        9,
+        "loadIneliOutputDisabled"
+      ],
+      "description": "Output is disabled"
+    },
+    {
+      "enum": [
+        10,
+        "loadIneliComfortOverrideInEffect"
+      ],
+      "description": "Comfort override is in effect"
+    },
+    {
+      "enum": [
+        11,
+        "loadIneliLoadLocked"
+      ],
+      "description": "Load is locked"
+    },
+    {
+      "enum": [
+        12,
+        "loadIneliLoadDisabled"
+      ],
+      "description": "Load is disabled"
+    }
+  ]
+}

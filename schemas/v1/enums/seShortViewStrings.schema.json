@@ -1,0 +1,4873 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seShortViewStrings.schema.json",
+  "title": "seShortViewStrings",
+  "description": "SE Short View Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seShortUnitS"
+      ],
+      "description": "Unit-S"
+    },
+    {
+      "enum": [
+        1,
+        "seShortName"
+      ],
+      "description": "Name"
+    },
+    {
+      "enum": [
+        2,
+        "seShortModelnum"
+      ],
+      "description": "Model#"
+    },
+    {
+      "enum": [
+        3,
+        "seShortSerialnum"
+      ],
+      "description": "Serial#"
+    },
+    {
+      "enum": [
+        4,
+        "seShortFirmver"
+      ],
+      "description": "FirmVer"
+    },
+    {
+      "enum": [
+        5,
+        "seShortFirmS"
+      ],
+      "description": "Firm-S"
+    },
+    {
+      "enum": [
+        6,
+        "seShortHtgType"
+      ],
+      "description": "Htg-Type"
+    },
+    {
+      "enum": [
+        7,
+        "seShortHgrInst"
+      ],
+      "description": "HGR-Inst"
+    },
+    {
+      "enum": [
+        8,
+        "seShortExftype"
+      ],
+      "description": "ExFType"
+    },
+    {
+      "enum": [
+        9,
+        "seShortUcb24Vforoutp"
+      ],
+      "description": "UCB24VForOutp"
+    },
+    {
+      "enum": [
+        10,
+        "seShort4Stg24Vforoutp"
+      ],
+      "description": "4Stg24VForOutp"
+    },
+    {
+      "enum": [
+        11,
+        "seShortY1Tstat"
+      ],
+      "description": "Y1-Tstat"
+    },
+    {
+      "enum": [
+        12,
+        "seShortY2Tstat"
+      ],
+      "description": "Y2-Tstat"
+    },
+    {
+      "enum": [
+        13,
+        "seShortY3Tstat"
+      ],
+      "description": "Y3-Tstat"
+    },
+    {
+      "enum": [
+        14,
+        "seShortY4Tstat"
+      ],
+      "description": "Y4-Tstat"
+    },
+    {
+      "enum": [
+        15,
+        "seShortW1Tstat"
+      ],
+      "description": "W1-Tstat"
+    },
+    {
+      "enum": [
+        16,
+        "seShortW2Tstat"
+      ],
+      "description": "W2-Tstat"
+    },
+    {
+      "enum": [
+        17,
+        "seShortW3Tstat"
+      ],
+      "description": "W3-Tstat"
+    },
+    {
+      "enum": [
+        18,
+        "seShortGTstat"
+      ],
+      "description": "G-Tstat"
+    },
+    {
+      "enum": [
+        19,
+        "seShortOccTstat"
+      ],
+      "description": "Occ-Tstat"
+    },
+    {
+      "enum": [
+        20,
+        "seShortXOut"
+      ],
+      "description": "X-Out"
+    },
+    {
+      "enum": [
+        21,
+        "seShortTststattatOnly"
+      ],
+      "description": "Tstat-Only"
+    },
+    {
+      "enum": [
+        22,
+        "seShortOccsrc"
+      ],
+      "description": "OccSrc"
+    },
+    {
+      "enum": [
+        23,
+        "seShortOprocc"
+      ],
+      "description": "OprOcc"
+    },
+    {
+      "enum": [
+        24,
+        "seShortOccmode"
+      ],
+      "description": "OccMode"
+    },
+    {
+      "enum": [
+        25,
+        "seShortNettempocc"
+      ],
+      "description": "NetTempOcc"
+    },
+    {
+      "enum": [
+        26,
+        "seShortNetocc"
+      ],
+      "description": "NetOcc"
+    },
+    {
+      "enum": [
+        27,
+        "seShortTempocctimeout"
+      ],
+      "description": "TempOccTimeout"
+    },
+    {
+      "enum": [
+        28,
+        "seShortOprst"
+      ],
+      "description": "OprST"
+    },
+    {
+      "enum": [
+        29,
+        "seShortStsrc"
+      ],
+      "description": "STSrc"
+    },
+    {
+      "enum": [
+        30,
+        "seShortStalarmoffset"
+      ],
+      "description": "STAlarmOffset"
+    },
+    {
+      "enum": [
+        31,
+        "seShortStalarmdelay"
+      ],
+      "description": "STAlarmDelay"
+    },
+    {
+      "enum": [
+        32,
+        "seShortSt"
+      ],
+      "description": "ST"
+    },
+    {
+      "enum": [
+        33,
+        "seShortNetst"
+      ],
+      "description": "NetST"
+    },
+    {
+      "enum": [
+        34,
+        "seShortOpriaq"
+      ],
+      "description": "OprIAQ"
+    },
+    {
+      "enum": [
+        35,
+        "seShortIaqsrc"
+      ],
+      "description": "IAQSrc"
+    },
+    {
+      "enum": [
+        36,
+        "seShortIaq"
+      ],
+      "description": "IAQ"
+    },
+    {
+      "enum": [
+        37,
+        "seShortIaqrange"
+      ],
+      "description": "IAQRange"
+    },
+    {
+      "enum": [
+        38,
+        "seShortNetiaq"
+      ],
+      "description": "NetIAQ"
+    },
+    {
+      "enum": [
+        39,
+        "seShortOprsh"
+      ],
+      "description": "OprSH"
+    },
+    {
+      "enum": [
+        40,
+        "seShortShsrc"
+      ],
+      "description": "SHSrc"
+    },
+    {
+      "enum": [
+        41,
+        "seShortRah"
+      ],
+      "description": "RAH"
+    },
+    {
+      "enum": [
+        42,
+        "seShortNetsh"
+      ],
+      "description": "NetSH"
+    },
+    {
+      "enum": [
+        43,
+        "seShortOprfanreq"
+      ],
+      "description": "OprFanReq"
+    },
+    {
+      "enum": [
+        44,
+        "seShortFanreqsrc"
+      ],
+      "description": "FanReqSrc"
+    },
+    {
+      "enum": [
+        45,
+        "seShortNetfanreq"
+      ],
+      "description": "NetFanReq"
+    },
+    {
+      "enum": [
+        46,
+        "seShortOprsso"
+      ],
+      "description": "OprSSO"
+    },
+    {
+      "enum": [
+        47,
+        "seShortSsosrc"
+      ],
+      "description": "SSOSrc"
+    },
+    {
+      "enum": [
+        48,
+        "seShortSso"
+      ],
+      "description": "SSO"
+    },
+    {
+      "enum": [
+        49,
+        "seShortNetsso"
+      ],
+      "description": "NetSSO"
+    },
+    {
+      "enum": [
+        50,
+        "seShortSsorange"
+      ],
+      "description": "SSORange"
+    },
+    {
+      "enum": [
+        51,
+        "seShortNumnetsensors"
+      ],
+      "description": "#NetSensors"
+    },
+    {
+      "enum": [
+        52,
+        "seShortOproat"
+      ],
+      "description": "OprOAT"
+    },
+    {
+      "enum": [
+        53,
+        "seShortOatsrc"
+      ],
+      "description": "OATSrc"
+    },
+    {
+      "enum": [
+        54,
+        "seShortOat"
+      ],
+      "description": "OAT"
+    },
+    {
+      "enum": [
+        55,
+        "seShortNetoat"
+      ],
+      "description": "NetOAT"
+    },
+    {
+      "enum": [
+        56,
+        "seShortOproah"
+      ],
+      "description": "OprOAH"
+    },
+    {
+      "enum": [
+        57,
+        "seShortOaEnth"
+      ],
+      "description": "OA-Enth"
+    },
+    {
+      "enum": [
+        58,
+        "seShortOahsrc"
+      ],
+      "description": "OAHSrc"
+    },
+    {
+      "enum": [
+        59,
+        "seShortOah"
+      ],
+      "description": "OAH"
+    },
+    {
+      "enum": [
+        60,
+        "seShortNetoah"
+      ],
+      "description": "NetOAH"
+    },
+    {
+      "enum": [
+        61,
+        "seShortOproaq"
+      ],
+      "description": "OprOAQ"
+    },
+    {
+      "enum": [
+        62,
+        "seShortOaqsrc"
+      ],
+      "description": "OAQSrc"
+    },
+    {
+      "enum": [
+        63,
+        "seShortOaq"
+      ],
+      "description": "OAQ"
+    },
+    {
+      "enum": [
+        64,
+        "seShortOaqrange"
+      ],
+      "description": "OAQRange"
+    },
+    {
+      "enum": [
+        65,
+        "seShortNetoaq"
+      ],
+      "description": "NetOAQ"
+    },
+    {
+      "enum": [
+        66,
+        "seShortFanS"
+      ],
+      "description": "Fan-S"
+    },
+    {
+      "enum": [
+        67,
+        "seShortFanvfd"
+      ],
+      "description": "FanVFD"
+    },
+    {
+      "enum": [
+        68,
+        "seShortFanvfdflt"
+      ],
+      "description": "FanVFDFlt"
+    },
+    {
+      "enum": [
+        69,
+        "seShortFanovrload"
+      ],
+      "description": "FanOvrload"
+    },
+    {
+      "enum": [
+        70,
+        "seShortFanRt"
+      ],
+      "description": "Fan-RT"
+    },
+    {
+      "enum": [
+        71,
+        "seShortFanctlType"
+      ],
+      "description": "FanCtl-Type"
+    },
+    {
+      "enum": [
+        72,
+        "seShortApssetup"
+      ],
+      "description": "APSSetup"
+    },
+    {
+      "enum": [
+        73,
+        "seShortAps"
+      ],
+      "description": "APS"
+    },
+    {
+      "enum": [
+        74,
+        "seShortFanondlycool"
+      ],
+      "description": "FanOnDlyCool"
+    },
+    {
+      "enum": [
+        75,
+        "seShortFanoffdlycool"
+      ],
+      "description": "FanOffDlyCool"
+    },
+    {
+      "enum": [
+        76,
+        "seShortFanondlyheat"
+      ],
+      "description": "FanOnDlyHeat"
+    },
+    {
+      "enum": [
+        77,
+        "seShortFanoffdlyheat"
+      ],
+      "description": "FanOffDlyHeat"
+    },
+    {
+      "enum": [
+        78,
+        "seShortDfs"
+      ],
+      "description": "DFS"
+    },
+    {
+      "enum": [
+        79,
+        "seShortFan"
+      ],
+      "description": "Fan"
+    },
+    {
+      "enum": [
+        80,
+        "seShortSat"
+      ],
+      "description": "SAT"
+    },
+    {
+      "enum": [
+        81,
+        "seShortDctprs"
+      ],
+      "description": "DctPrs"
+    },
+    {
+      "enum": [
+        82,
+        "seShortDctprsSp"
+      ],
+      "description": "DctPrs-Sp"
+    },
+    {
+      "enum": [
+        83,
+        "seShortDctshutdownsp"
+      ],
+      "description": "DctShutdownSp"
+    },
+    {
+      "enum": [
+        84,
+        "seShortFanonocc"
+      ],
+      "description": "FanOnOcc"
+    },
+    {
+      "enum": [
+        85,
+        "seShortFanoffstartheat"
+      ],
+      "description": "FanOffStartHeat"
+    },
+    {
+      "enum": [
+        86,
+        "seShortFanonlyPercmd"
+      ],
+      "description": "FanOnly-%Cmd"
+    },
+    {
+      "enum": [
+        87,
+        "seShort1ClgstgPercmd"
+      ],
+      "description": "1ClgStg-%Cmd"
+    },
+    {
+      "enum": [
+        88,
+        "seShort2ClgstgPercmd"
+      ],
+      "description": "2ClgStg-%Cmd"
+    },
+    {
+      "enum": [
+        89,
+        "seShort1HtgstgPercmd"
+      ],
+      "description": "1HtgStg-%Cmd"
+    },
+    {
+      "enum": [
+        90,
+        "seShort2HtgstgPercmd"
+      ],
+      "description": "2HtgStg-%Cmd"
+    },
+    {
+      "enum": [
+        91,
+        "seShortClgEn"
+      ],
+      "description": "Clg-En"
+    },
+    {
+      "enum": [
+        92,
+        "seShortNumclgstgs"
+      ],
+      "description": "#ClgStgs"
+    },
+    {
+      "enum": [
+        93,
+        "seShortClgS"
+      ],
+      "description": "Clg-S"
+    },
+    {
+      "enum": [
+        94,
+        "seShortMinrtcoolstg"
+      ],
+      "description": "MinRtCoolStg"
+    },
+    {
+      "enum": [
+        95,
+        "seShortLeadlagEn"
+      ],
+      "description": "LeadLag-En"
+    },
+    {
+      "enum": [
+        96,
+        "seShortLowambfanpreruncool"
+      ],
+      "description": "LowAmbFanPrerunCool"
+    },
+    {
+      "enum": [
+        97,
+        "seShortClgoatcutoutEn"
+      ],
+      "description": "ClgOATCutout-En"
+    },
+    {
+      "enum": [
+        98,
+        "seShortClgoatcutout"
+      ],
+      "description": "ClgOATCutout"
+    },
+    {
+      "enum": [
+        99,
+        "seShortEconloadEn"
+      ],
+      "description": "EconLoad-En"
+    },
+    {
+      "enum": [
+        100,
+        "seShortAllcompoffEcon"
+      ],
+      "description": "AllCompOff-Econ"
+    },
+    {
+      "enum": [
+        101,
+        "seShortLowamb10On5Offsp"
+      ],
+      "description": "LowAmb10On5OffSp"
+    },
+    {
+      "enum": [
+        102,
+        "seShortTemphumctrlEn"
+      ],
+      "description": "TempHumCtrl-En"
+    },
+    {
+      "enum": [
+        103,
+        "seShortTemphumSp"
+      ],
+      "description": "TempHum-Sp"
+    },
+    {
+      "enum": [
+        104,
+        "seShortMaxtemphumspoff"
+      ],
+      "description": "MaxTempHumSpOff"
+    },
+    {
+      "enum": [
+        105,
+        "seShortTemphumvalperdegoff"
+      ],
+      "description": "TempHumValPerDegOff"
+    },
+    {
+      "enum": [
+        106,
+        "seShortSatcoollimitEn"
+      ],
+      "description": "SATCoolLimit-En"
+    },
+    {
+      "enum": [
+        107,
+        "seShortSatcoollimitSp"
+      ],
+      "description": "SATCoolLimit-Sp"
+    },
+    {
+      "enum": [
+        108,
+        "seShortFreezeSp"
+      ],
+      "description": "Freeze-Sp"
+    },
+    {
+      "enum": [
+        109,
+        "seShortCnFan"
+      ],
+      "description": "CN-Fan"
+    },
+    {
+      "enum": [
+        110,
+        "seShortCf2"
+      ],
+      "description": "CF2"
+    },
+    {
+      "enum": [
+        111,
+        "seShortUnittype"
+      ],
+      "description": "UnitType"
+    },
+    {
+      "enum": [
+        112,
+        "seShortSeer"
+      ],
+      "description": "EER"
+    },
+    {
+      "enum": [
+        113,
+        "seShortSubcoolgoal"
+      ],
+      "description": "SubcoolGoal"
+    },
+    {
+      "enum": [
+        114,
+        "seShortRefrigtype"
+      ],
+      "description": "RefrigType"
+    },
+    {
+      "enum": [
+        115,
+        "seShortHisideportloc"
+      ],
+      "description": "HiSidePortLoc"
+    },
+    {
+      "enum": [
+        116,
+        "seShortEvapcoilType"
+      ],
+      "description": "EvapCoil-Type"
+    },
+    {
+      "enum": [
+        117,
+        "seShortCondcoilType"
+      ],
+      "description": "CondCoil-Type"
+    },
+    {
+      "enum": [
+        118,
+        "seShortInmeterdevType"
+      ],
+      "description": "InMeterDev-Type"
+    },
+    {
+      "enum": [
+        119,
+        "seShortSatupSp"
+      ],
+      "description": "SATUp-Sp"
+    },
+    {
+      "enum": [
+        120,
+        "seShortSatloSp"
+      ],
+      "description": "SATLo-Sp"
+    },
+    {
+      "enum": [
+        121,
+        "seShortSatrstSp"
+      ],
+      "description": "SATRst-Sp"
+    },
+    {
+      "enum": [
+        122,
+        "seShortOprvavclgSp"
+      ],
+      "description": "OprVAVClg-Sp"
+    },
+    {
+      "enum": [
+        123,
+        "seShortClgoccSp"
+      ],
+      "description": "ClgOcc-Sp"
+    },
+    {
+      "enum": [
+        124,
+        "seShortClgunoccSp"
+      ],
+      "description": "ClgUnocc-Sp"
+    },
+    {
+      "enum": [
+        125,
+        "seShortOprcvclgSp"
+      ],
+      "description": "OprCVClg-Sp"
+    },
+    {
+      "enum": [
+        126,
+        "seShortStagenum"
+      ],
+      "description": "Stage#"
+    },
+    {
+      "enum": [
+        127,
+        "seShortC1"
+      ],
+      "description": "C1"
+    },
+    {
+      "enum": [
+        128,
+        "seShortC2"
+      ],
+      "description": "C2"
+    },
+    {
+      "enum": [
+        129,
+        "seShortC3"
+      ],
+      "description": "C3"
+    },
+    {
+      "enum": [
+        130,
+        "seShortC4"
+      ],
+      "description": "C4"
+    },
+    {
+      "enum": [
+        131,
+        "seShortC1S"
+      ],
+      "description": "C1-S"
+    },
+    {
+      "enum": [
+        132,
+        "seShortC2S"
+      ],
+      "description": "C2-S"
+    },
+    {
+      "enum": [
+        133,
+        "seShortC3S"
+      ],
+      "description": "C3-S"
+    },
+    {
+      "enum": [
+        134,
+        "seShortC4S"
+      ],
+      "description": "C4-S"
+    },
+    {
+      "enum": [
+        135,
+        "seShortC1En"
+      ],
+      "description": "C1-En"
+    },
+    {
+      "enum": [
+        136,
+        "seShortC2En"
+      ],
+      "description": "C2-En"
+    },
+    {
+      "enum": [
+        137,
+        "seShortC3En"
+      ],
+      "description": "C3-En"
+    },
+    {
+      "enum": [
+        138,
+        "seShortC4En"
+      ],
+      "description": "C4-En"
+    },
+    {
+      "enum": [
+        139,
+        "seShortHgpInst"
+      ],
+      "description": "HGP-Inst"
+    },
+    {
+      "enum": [
+        140,
+        "seShortC1Runtim"
+      ],
+      "description": "C1RunTim"
+    },
+    {
+      "enum": [
+        141,
+        "seShortC2Runtim"
+      ],
+      "description": "C2RunTim"
+    },
+    {
+      "enum": [
+        142,
+        "seShortC3Runtim"
+      ],
+      "description": "C3RunTim"
+    },
+    {
+      "enum": [
+        143,
+        "seShortC4Runtim"
+      ],
+      "description": "C4RunTim"
+    },
+    {
+      "enum": [
+        144,
+        "seShortC1Numon"
+      ],
+      "description": "C1#On"
+    },
+    {
+      "enum": [
+        145,
+        "seShortC2Numon"
+      ],
+      "description": "C2#On"
+    },
+    {
+      "enum": [
+        146,
+        "seShortC3Numon"
+      ],
+      "description": "C3#On"
+    },
+    {
+      "enum": [
+        147,
+        "seShortC4Numon"
+      ],
+      "description": "C4#On"
+    },
+    {
+      "enum": [
+        148,
+        "seShortC1Ontmr"
+      ],
+      "description": "C1OnTmr"
+    },
+    {
+      "enum": [
+        149,
+        "seShortC2Ontmr"
+      ],
+      "description": "C2OnTmr"
+    },
+    {
+      "enum": [
+        150,
+        "seShortC3Ontmr"
+      ],
+      "description": "C3OnTmr"
+    },
+    {
+      "enum": [
+        151,
+        "seShortC4Ontmr"
+      ],
+      "description": "C4OnTmr"
+    },
+    {
+      "enum": [
+        152,
+        "seShortC1Ascdtmr"
+      ],
+      "description": "C1ASCDTmr"
+    },
+    {
+      "enum": [
+        153,
+        "seShortC2Ascdtmr"
+      ],
+      "description": "C2ASCDTmr"
+    },
+    {
+      "enum": [
+        154,
+        "seShortC3Ascdtmr"
+      ],
+      "description": "C3ASCDTmr"
+    },
+    {
+      "enum": [
+        155,
+        "seShortC4Ascdtmr"
+      ],
+      "description": "C4ASCDTmr"
+    },
+    {
+      "enum": [
+        156,
+        "seShortHps1"
+      ],
+      "description": "HPS1"
+    },
+    {
+      "enum": [
+        157,
+        "seShortHps2"
+      ],
+      "description": "HPS2"
+    },
+    {
+      "enum": [
+        158,
+        "seShortHps3"
+      ],
+      "description": "HPS3"
+    },
+    {
+      "enum": [
+        159,
+        "seShortHps4"
+      ],
+      "description": "HPS4"
+    },
+    {
+      "enum": [
+        160,
+        "seShortHps1Lo"
+      ],
+      "description": "HPS1-LO"
+    },
+    {
+      "enum": [
+        161,
+        "seShortHps2Lo"
+      ],
+      "description": "HPS2-LO"
+    },
+    {
+      "enum": [
+        162,
+        "seShortHps3Lo"
+      ],
+      "description": "HPS3-LO"
+    },
+    {
+      "enum": [
+        163,
+        "seShortHps4Lo"
+      ],
+      "description": "HPS4-LO"
+    },
+    {
+      "enum": [
+        164,
+        "seShortLps1"
+      ],
+      "description": "LPS1"
+    },
+    {
+      "enum": [
+        165,
+        "seShortLps2"
+      ],
+      "description": "LPS2"
+    },
+    {
+      "enum": [
+        166,
+        "seShortLps3"
+      ],
+      "description": "LPS3"
+    },
+    {
+      "enum": [
+        167,
+        "seShortLps4"
+      ],
+      "description": "LPS4"
+    },
+    {
+      "enum": [
+        168,
+        "seShortLps1Lo"
+      ],
+      "description": "LPS1-LO"
+    },
+    {
+      "enum": [
+        169,
+        "seShortLps2Lo"
+      ],
+      "description": "LPS2-LO"
+    },
+    {
+      "enum": [
+        170,
+        "seShortLps3Lo"
+      ],
+      "description": "LPS3-LO"
+    },
+    {
+      "enum": [
+        171,
+        "seShortLps4Lo"
+      ],
+      "description": "LPS4-LO"
+    },
+    {
+      "enum": [
+        172,
+        "seShortFs1"
+      ],
+      "description": "FS1"
+    },
+    {
+      "enum": [
+        173,
+        "seShortFs2"
+      ],
+      "description": "FS2"
+    },
+    {
+      "enum": [
+        174,
+        "seShortFs3"
+      ],
+      "description": "FS3"
+    },
+    {
+      "enum": [
+        175,
+        "seShortFs4"
+      ],
+      "description": "FS4"
+    },
+    {
+      "enum": [
+        176,
+        "seShortFs1Lo"
+      ],
+      "description": "FS1-LO"
+    },
+    {
+      "enum": [
+        177,
+        "seShortFs2Lo"
+      ],
+      "description": "FS2-LO"
+    },
+    {
+      "enum": [
+        178,
+        "seShortFs3Lo"
+      ],
+      "description": "FS3-LO"
+    },
+    {
+      "enum": [
+        179,
+        "seShortFs4Lo"
+      ],
+      "description": "FS4-LO"
+    },
+    {
+      "enum": [
+        180,
+        "seShortEc1"
+      ],
+      "description": "EC1"
+    },
+    {
+      "enum": [
+        181,
+        "seShortEc2"
+      ],
+      "description": "EC2"
+    },
+    {
+      "enum": [
+        182,
+        "seShortEc3"
+      ],
+      "description": "EC3"
+    },
+    {
+      "enum": [
+        183,
+        "seShortEc4"
+      ],
+      "description": "EC4"
+    },
+    {
+      "enum": [
+        184,
+        "seShortCc1"
+      ],
+      "description": "CC1"
+    },
+    {
+      "enum": [
+        185,
+        "seShortCc2"
+      ],
+      "description": "CC2"
+    },
+    {
+      "enum": [
+        186,
+        "seShortCc3"
+      ],
+      "description": "CC3"
+    },
+    {
+      "enum": [
+        187,
+        "seShortCc4"
+      ],
+      "description": "CC4"
+    },
+    {
+      "enum": [
+        188,
+        "seShortSlp1"
+      ],
+      "description": "SLP-1"
+    },
+    {
+      "enum": [
+        189,
+        "seShortSlp2"
+      ],
+      "description": "SLP-2"
+    },
+    {
+      "enum": [
+        190,
+        "seShortSlp3"
+      ],
+      "description": "SLP-3"
+    },
+    {
+      "enum": [
+        191,
+        "seShortSlp4"
+      ],
+      "description": "SLP-4"
+    },
+    {
+      "enum": [
+        192,
+        "seShortLlp1"
+      ],
+      "description": "LLP-1"
+    },
+    {
+      "enum": [
+        193,
+        "seShortLlp2"
+      ],
+      "description": "LLP-2"
+    },
+    {
+      "enum": [
+        194,
+        "seShortLlp3"
+      ],
+      "description": "LLP-3"
+    },
+    {
+      "enum": [
+        195,
+        "seShortLlp4"
+      ],
+      "description": "LLP-4"
+    },
+    {
+      "enum": [
+        196,
+        "seShortSlt1"
+      ],
+      "description": "SLT-1"
+    },
+    {
+      "enum": [
+        197,
+        "seShortSlt2"
+      ],
+      "description": "SLT-2"
+    },
+    {
+      "enum": [
+        198,
+        "seShortSlt3"
+      ],
+      "description": "SLT-3"
+    },
+    {
+      "enum": [
+        199,
+        "seShortSlt4"
+      ],
+      "description": "SLT-4"
+    },
+    {
+      "enum": [
+        200,
+        "seShortLlt1"
+      ],
+      "description": "LLT-1"
+    },
+    {
+      "enum": [
+        201,
+        "seShortLlt2"
+      ],
+      "description": "LLT-2"
+    },
+    {
+      "enum": [
+        202,
+        "seShortLlt3"
+      ],
+      "description": "LLT-3"
+    },
+    {
+      "enum": [
+        203,
+        "seShortLlt4"
+      ],
+      "description": "LLT-4"
+    },
+    {
+      "enum": [
+        204,
+        "seShortC1Superheat"
+      ],
+      "description": "C1-SuperHeat"
+    },
+    {
+      "enum": [
+        205,
+        "seShortC2Superheat"
+      ],
+      "description": "C2-SuperHeat"
+    },
+    {
+      "enum": [
+        206,
+        "seShortC3Superheat"
+      ],
+      "description": "C3-SuperHeat"
+    },
+    {
+      "enum": [
+        207,
+        "seShortC4Superheat"
+      ],
+      "description": "C4-SuperHeat"
+    },
+    {
+      "enum": [
+        208,
+        "seShortC1Subcool"
+      ],
+      "description": "C1-SubCool"
+    },
+    {
+      "enum": [
+        209,
+        "seShortC2Subcool"
+      ],
+      "description": "C2-SubCool"
+    },
+    {
+      "enum": [
+        210,
+        "seShortC3Subcool"
+      ],
+      "description": "C3-SubCool"
+    },
+    {
+      "enum": [
+        211,
+        "seShortC4Subcool"
+      ],
+      "description": "C4-SubCool"
+    },
+    {
+      "enum": [
+        212,
+        "seShortC1Condtempovramb"
+      ],
+      "description": "C1-CondTempOvrAmb"
+    },
+    {
+      "enum": [
+        213,
+        "seShortC2Condtempovramb"
+      ],
+      "description": "C2-CondTempOvrAmb"
+    },
+    {
+      "enum": [
+        214,
+        "seShortC3Condtempovramb"
+      ],
+      "description": "C3-CondTempOvrAmb"
+    },
+    {
+      "enum": [
+        215,
+        "seShortC4Condtempovramb"
+      ],
+      "description": "C4-CondTempOvrAmb"
+    },
+    {
+      "enum": [
+        216,
+        "seShortC1Ei"
+      ],
+      "description": "C1-EI"
+    },
+    {
+      "enum": [
+        217,
+        "seShortC2Ei"
+      ],
+      "description": "C2-EI"
+    },
+    {
+      "enum": [
+        218,
+        "seShortC3Ei"
+      ],
+      "description": "C3-EI"
+    },
+    {
+      "enum": [
+        219,
+        "seShortC4Ei"
+      ],
+      "description": "C4-EI"
+    },
+    {
+      "enum": [
+        220,
+        "seShortC1Ci"
+      ],
+      "description": "C1-CI"
+    },
+    {
+      "enum": [
+        221,
+        "seShortC2Ci"
+      ],
+      "description": "C2-CI"
+    },
+    {
+      "enum": [
+        222,
+        "seShortC3Ci"
+      ],
+      "description": "C3-CI"
+    },
+    {
+      "enum": [
+        223,
+        "seShortC4Ci"
+      ],
+      "description": "C4-CI"
+    },
+    {
+      "enum": [
+        224,
+        "seShortHtgEn"
+      ],
+      "description": "Htg-En"
+    },
+    {
+      "enum": [
+        225,
+        "seShortHtgS"
+      ],
+      "description": "Htg-S"
+    },
+    {
+      "enum": [
+        226,
+        "seShortSathtglimitEn"
+      ],
+      "description": "SATHtgLimit-En"
+    },
+    {
+      "enum": [
+        227,
+        "seShortSathtglimitSp"
+      ],
+      "description": "SATHtgLimit-Sp"
+    },
+    {
+      "enum": [
+        228,
+        "seShortHtgoatcutoutSp"
+      ],
+      "description": "HtgOATCutout-Sp"
+    },
+    {
+      "enum": [
+        229,
+        "seShortFshw"
+      ],
+      "description": "FSHW"
+    },
+    {
+      "enum": [
+        230,
+        "seShortMv"
+      ],
+      "description": "MV"
+    },
+    {
+      "enum": [
+        231,
+        "seShortGv2"
+      ],
+      "description": "GV2"
+    },
+    {
+      "enum": [
+        232,
+        "seShortGv3"
+      ],
+      "description": "GV3"
+    },
+    {
+      "enum": [
+        233,
+        "seShortLimit"
+      ],
+      "description": "Limit"
+    },
+    {
+      "enum": [
+        234,
+        "seShortLimitlo"
+      ],
+      "description": "LimitLO"
+    },
+    {
+      "enum": [
+        235,
+        "seShortLim2"
+      ],
+      "description": "Lim2"
+    },
+    {
+      "enum": [
+        236,
+        "seShortLim2Lo"
+      ],
+      "description": "Lim2LO"
+    },
+    {
+      "enum": [
+        237,
+        "seShortLim3"
+      ],
+      "description": "Lim3"
+    },
+    {
+      "enum": [
+        238,
+        "seShortLim3Lo"
+      ],
+      "description": "Lim3LO"
+    },
+    {
+      "enum": [
+        239,
+        "seShortHtgoccEn"
+      ],
+      "description": "HtgOcc-En"
+    },
+    {
+      "enum": [
+        240,
+        "seShortVavhtgoccSp"
+      ],
+      "description": "VAVHtgOcc-SP"
+    },
+    {
+      "enum": [
+        241,
+        "seShortHtgunoccEn"
+      ],
+      "description": "HtgUnocc-En"
+    },
+    {
+      "enum": [
+        242,
+        "seShortVavhtgunoccSp"
+      ],
+      "description": "VAVHtgUnocc-Sp"
+    },
+    {
+      "enum": [
+        243,
+        "seShortVavoprhtgSp"
+      ],
+      "description": "VAVOprHtg-Sp"
+    },
+    {
+      "enum": [
+        244,
+        "seShortMornwEn"
+      ],
+      "description": "MornW-En"
+    },
+    {
+      "enum": [
+        245,
+        "seShortMornwratSp"
+      ],
+      "description": "MornWRAT-Sp"
+    },
+    {
+      "enum": [
+        246,
+        "seShortVavBox"
+      ],
+      "description": "VAV Box"
+    },
+    {
+      "enum": [
+        250,
+        "seShortNumhtgstgs"
+      ],
+      "description": "#HtgStgs"
+    },
+    {
+      "enum": [
+        251,
+        "seShortH1"
+      ],
+      "description": "H1"
+    },
+    {
+      "enum": [
+        252,
+        "seShortH2"
+      ],
+      "description": "H2"
+    },
+    {
+      "enum": [
+        253,
+        "seShortH3"
+      ],
+      "description": "H3"
+    },
+    {
+      "enum": [
+        254,
+        "seShortH1S"
+      ],
+      "description": "H1-S"
+    },
+    {
+      "enum": [
+        255,
+        "seShortH2S"
+      ],
+      "description": "H2-S"
+    },
+    {
+      "enum": [
+        256,
+        "seShortH3S"
+      ],
+      "description": "H3-S"
+    },
+    {
+      "enum": [
+        257,
+        "seShortH1Timer"
+      ],
+      "description": "H1Timer"
+    },
+    {
+      "enum": [
+        258,
+        "seShortH2Timer"
+      ],
+      "description": "H2Timer"
+    },
+    {
+      "enum": [
+        259,
+        "seShortH3Timer"
+      ],
+      "description": "H3Timer"
+    },
+    {
+      "enum": [
+        260,
+        "seShortH1Ontmr"
+      ],
+      "description": "H1OnTmr"
+    },
+    {
+      "enum": [
+        261,
+        "seShortH2Ontmr"
+      ],
+      "description": "H2OnTmr"
+    },
+    {
+      "enum": [
+        262,
+        "seShortH3Ontmr"
+      ],
+      "description": "H3OnTmr"
+    },
+    {
+      "enum": [
+        263,
+        "seShortH1Ascdtmr"
+      ],
+      "description": "H1ASCDTmr"
+    },
+    {
+      "enum": [
+        264,
+        "seShortH2Ascdtmr"
+      ],
+      "description": "H2ASCDTmr"
+    },
+    {
+      "enum": [
+        265,
+        "seShortH3Ascdtmr"
+      ],
+      "description": "H3ASCDTmr"
+    },
+    {
+      "enum": [
+        266,
+        "seShortH1En"
+      ],
+      "description": "H1-En"
+    },
+    {
+      "enum": [
+        267,
+        "seShortH2En"
+      ],
+      "description": "H2-En"
+    },
+    {
+      "enum": [
+        268,
+        "seShortH3En"
+      ],
+      "description": "H3-En"
+    },
+    {
+      "enum": [
+        269,
+        "seShortH1Runtim"
+      ],
+      "description": "H1RunTim"
+    },
+    {
+      "enum": [
+        270,
+        "seShortH2Runtim"
+      ],
+      "description": "H2RunTim"
+    },
+    {
+      "enum": [
+        271,
+        "seShortH3Runtim"
+      ],
+      "description": "H3RunTim"
+    },
+    {
+      "enum": [
+        272,
+        "seShortH1Numon"
+      ],
+      "description": "H1#On"
+    },
+    {
+      "enum": [
+        273,
+        "seShortH2Numon"
+      ],
+      "description": "H2#On"
+    },
+    {
+      "enum": [
+        274,
+        "seShortH3Numon"
+      ],
+      "description": "H3#On"
+    },
+    {
+      "enum": [
+        275,
+        "seShortHwv"
+      ],
+      "description": "HWV"
+    },
+    {
+      "enum": [
+        276,
+        "seShortHydreverse"
+      ],
+      "description": "HydReverse"
+    },
+    {
+      "enum": [
+        277,
+        "seShortHydh1SaSp"
+      ],
+      "description": "HydH1SA-Sp"
+    },
+    {
+      "enum": [
+        278,
+        "seShortHydh2SaSp"
+      ],
+      "description": "HydH2SA-Sp"
+    },
+    {
+      "enum": [
+        279,
+        "seShortSattemphydhtEn"
+      ],
+      "description": "SATTempHydHt-En"
+    },
+    {
+      "enum": [
+        280,
+        "seShortSattemphydhtSp"
+      ],
+      "description": "SATTempHydHt-Sp"
+    },
+    {
+      "enum": [
+        281,
+        "seShortEconEn"
+      ],
+      "description": "Econ-En"
+    },
+    {
+      "enum": [
+        282,
+        "seShortEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        283,
+        "seShortEconFree"
+      ],
+      "description": "Econ-Free"
+    },
+    {
+      "enum": [
+        284,
+        "seShortEconS"
+      ],
+      "description": "Econ-S"
+    },
+    {
+      "enum": [
+        285,
+        "seShortFreeclgMode"
+      ],
+      "description": "FreeClg-Mode"
+    },
+    {
+      "enum": [
+        286,
+        "seShortFreeclgSel"
+      ],
+      "description": "FreeClg-Sel"
+    },
+    {
+      "enum": [
+        287,
+        "seShortEconoatSpen"
+      ],
+      "description": "EconOAT-SpEn"
+    },
+    {
+      "enum": [
+        288,
+        "seShortEconoaenthSp"
+      ],
+      "description": "EconOAEnth-Sp"
+    },
+    {
+      "enum": [
+        289,
+        "seShortLowambSp"
+      ],
+      "description": "LowAmb-Sp"
+    },
+    {
+      "enum": [
+        290,
+        "seShortLowambMinpos"
+      ],
+      "description": "LowAmb-MinPos"
+    },
+    {
+      "enum": [
+        291,
+        "seShortIaqeconMaxpos"
+      ],
+      "description": "IAQEcon-MaxPos"
+    },
+    {
+      "enum": [
+        292,
+        "seShortEcondamp"
+      ],
+      "description": "EconDamp"
+    },
+    {
+      "enum": [
+        293,
+        "seShortMat"
+      ],
+      "description": "MAT"
+    },
+    {
+      "enum": [
+        295,
+        "seShortSah"
+      ],
+      "description": "SAH"
+    },
+    {
+      "enum": [
+        296,
+        "seShortRaEnth"
+      ],
+      "description": "RA-Enth"
+    },
+    {
+      "enum": [
+        297,
+        "seShortRat"
+      ],
+      "description": "RAT"
+    },
+    {
+      "enum": [
+        298,
+        "seShortDventMode"
+      ],
+      "description": "DVent-Mode"
+    },
+    {
+      "enum": [
+        299,
+        "seShortDventmaxeconpos"
+      ],
+      "description": "DVentMaxEconPos"
+    },
+    {
+      "enum": [
+        300,
+        "seShortDventiaqSp"
+      ],
+      "description": "DVentIAQ-Sp"
+    },
+    {
+      "enum": [
+        301,
+        "seShortDventdiffSp"
+      ],
+      "description": "DVentDiff-Sp"
+    },
+    {
+      "enum": [
+        303,
+        "seShortCventS"
+      ],
+      "description": "CVent-S"
+    },
+    {
+      "enum": [
+        304,
+        "seShortCventclgEn"
+      ],
+      "description": "CVentCLG-En"
+    },
+    {
+      "enum": [
+        305,
+        "seShortCventhtgEn"
+      ],
+      "description": "CVentHtg-En"
+    },
+    {
+      "enum": [
+        306,
+        "seShortCventupSp"
+      ],
+      "description": "CVentUp-Sp"
+    },
+    {
+      "enum": [
+        307,
+        "seShortCventlowSp"
+      ],
+      "description": "CVentLow-Sp"
+    },
+    {
+      "enum": [
+        308,
+        "seShortExfanEn"
+      ],
+      "description": "ExFan-En"
+    },
+    {
+      "enum": [
+        309,
+        "seShortExfan"
+      ],
+      "description": "ExFan"
+    },
+    {
+      "enum": [
+        310,
+        "seShortExfanvfd"
+      ],
+      "description": "ExFanVFD"
+    },
+    {
+      "enum": [
+        311,
+        "seShortExfS"
+      ],
+      "description": "ExF-S"
+    },
+    {
+      "enum": [
+        312,
+        "seShortExfanvfdflt"
+      ],
+      "description": "ExFanVFDFlt"
+    },
+    {
+      "enum": [
+        313,
+        "seShortExfRuntim"
+      ],
+      "description": "ExF-RunTim"
+    },
+    {
+      "enum": [
+        314,
+        "seShortBldgSp"
+      ],
+      "description": "Bldg-Sp"
+    },
+    {
+      "enum": [
+        315,
+        "seShortBldgpres"
+      ],
+      "description": "BldgPres"
+    },
+    {
+      "enum": [
+        316,
+        "seShortEadO"
+      ],
+      "description": "EAD-O"
+    },
+    {
+      "enum": [
+        317,
+        "seShortExdmpposfanon"
+      ],
+      "description": "ExDmpPosFanOn"
+    },
+    {
+      "enum": [
+        318,
+        "seShortExdmpposfanoff"
+      ],
+      "description": "ExDmpPosFanOff"
+    },
+    {
+      "enum": [
+        319,
+        "seShortEcondmpposfanon"
+      ],
+      "description": "EconDmpPosFanOn"
+    },
+    {
+      "enum": [
+        320,
+        "seShortEcondmpposfanoff"
+      ],
+      "description": "EconDmpPosFanOff"
+    },
+    {
+      "enum": [
+        321,
+        "seShortErvEn"
+      ],
+      "description": "ERV-En"
+    },
+    {
+      "enum": [
+        322,
+        "seShortErvunoccfanEn"
+      ],
+      "description": "ERVUnoccFan-En"
+    },
+    {
+      "enum": [
+        323,
+        "seShortHgrEn"
+      ],
+      "description": "HGR-En"
+    },
+    {
+      "enum": [
+        324,
+        "seShortHgr"
+      ],
+      "description": "HGR"
+    },
+    {
+      "enum": [
+        325,
+        "seShortHgrS"
+      ],
+      "description": "HGR-S"
+    },
+    {
+      "enum": [
+        326,
+        "seShortHgrhumSp"
+      ],
+      "description": "HGRHum-Sp"
+    },
+    {
+      "enum": [
+        327,
+        "seShortHgraltEn"
+      ],
+      "description": "HGRAlt-En"
+    },
+    {
+      "enum": [
+        328,
+        "seShortHgraltwrite"
+      ],
+      "description": "HGRAltWrite"
+    },
+    {
+      "enum": [
+        329,
+        "seShortMoaflowSp"
+      ],
+      "description": "MOAFlow-Sp"
+    },
+    {
+      "enum": [
+        330,
+        "seShortFrAir"
+      ],
+      "description": "Fr Air"
+    },
+    {
+      "enum": [
+        331,
+        "seShortMoaRange"
+      ],
+      "description": "MOA-Range"
+    },
+    {
+      "enum": [
+        332,
+        "seShortOprpurgecmd"
+      ],
+      "description": "OprPurgeCmd"
+    },
+    {
+      "enum": [
+        333,
+        "seShortPurgecmdsrc"
+      ],
+      "description": "PurgeCmdSrc"
+    },
+    {
+      "enum": [
+        334,
+        "seShortPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        335,
+        "seShortNetpurge"
+      ],
+      "description": "NetPurge"
+    },
+    {
+      "enum": [
+        336,
+        "seShortSd"
+      ],
+      "description": "SD"
+    },
+    {
+      "enum": [
+        337,
+        "seShortLanguage"
+      ],
+      "description": "Language"
+    },
+    {
+      "enum": [
+        338,
+        "seShortUnits"
+      ],
+      "description": "Units"
+    },
+    {
+      "enum": [
+        339,
+        "seShortRelearn"
+      ],
+      "description": "Relearn"
+    },
+    {
+      "enum": [
+        340,
+        "seShortBascom"
+      ],
+      "description": "BASCom"
+    },
+    {
+      "enum": [
+        341,
+        "seShortCommS"
+      ],
+      "description": "Comm-S"
+    },
+    {
+      "enum": [
+        342,
+        "seShortTime"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        343,
+        "seShortDate"
+      ],
+      "description": "Date"
+    },
+    {
+      "enum": [
+        344,
+        "seShortHour"
+      ],
+      "description": "Hour"
+    },
+    {
+      "enum": [
+        345,
+        "seShortMinute"
+      ],
+      "description": "Minute"
+    },
+    {
+      "enum": [
+        346,
+        "seShortYear"
+      ],
+      "description": "Year"
+    },
+    {
+      "enum": [
+        347,
+        "seShortMonth"
+      ],
+      "description": "Month"
+    },
+    {
+      "enum": [
+        348,
+        "seShortDay"
+      ],
+      "description": "Day"
+    },
+    {
+      "enum": [
+        349,
+        "seShortTimezone"
+      ],
+      "description": "TimeZone"
+    },
+    {
+      "enum": [
+        350,
+        "seShortDaylightsav"
+      ],
+      "description": "DaylightSav"
+    },
+    {
+      "enum": [
+        351,
+        "seShortTimeformat"
+      ],
+      "description": "TimeFormat"
+    },
+    {
+      "enum": [
+        352,
+        "seShortAddress"
+      ],
+      "description": "Address"
+    },
+    {
+      "enum": [
+        353,
+        "seShortDeviceid"
+      ],
+      "description": "DeviceId"
+    },
+    {
+      "enum": [
+        354,
+        "seShortOprbaudrate"
+      ],
+      "description": "OprBaudRate"
+    },
+    {
+      "enum": [
+        355,
+        "seShortBaudrate"
+      ],
+      "description": "BaudRate"
+    },
+    {
+      "enum": [
+        356,
+        "seShortNumpeerdev"
+      ],
+      "description": "#PeerDev"
+    },
+    {
+      "enum": [
+        357,
+        "seShortUcbmainver"
+      ],
+      "description": "UCBMainVer"
+    },
+    {
+      "enum": [
+        358,
+        "seShortUcbappver"
+      ],
+      "description": "UCBAppVer"
+    },
+    {
+      "enum": [
+        359,
+        "seShortUcbboardstatus"
+      ],
+      "description": "UCBBoardStatus"
+    },
+    {
+      "enum": [
+        360,
+        "seShortUcbhardver"
+      ],
+      "description": "UCBHardVer"
+    },
+    {
+      "enum": [
+        361,
+        "seShortEconmainver"
+      ],
+      "description": "EconMainVer"
+    },
+    {
+      "enum": [
+        362,
+        "seShortEconappver"
+      ],
+      "description": "EconAppVer"
+    },
+    {
+      "enum": [
+        363,
+        "seShortEconboardstatus"
+      ],
+      "description": "EconBoardStatus"
+    },
+    {
+      "enum": [
+        364,
+        "seShortEconhardver"
+      ],
+      "description": "EconHardVer"
+    },
+    {
+      "enum": [
+        365,
+        "seShort4Stgmainver"
+      ],
+      "description": "4StgMainVer"
+    },
+    {
+      "enum": [
+        366,
+        "seShort4Stgappver"
+      ],
+      "description": "4StgAppVer"
+    },
+    {
+      "enum": [
+        367,
+        "seShort4Stgboardstatus"
+      ],
+      "description": "4StgBoardStatus"
+    },
+    {
+      "enum": [
+        368,
+        "seShort4Stghardver"
+      ],
+      "description": "4StgHardVer"
+    },
+    {
+      "enum": [
+        369,
+        "seShortFddmmainver"
+      ],
+      "description": "FDDMMainVer"
+    },
+    {
+      "enum": [
+        370,
+        "seShortFddmappver"
+      ],
+      "description": "FDDMAppVer"
+    },
+    {
+      "enum": [
+        371,
+        "seShortFddmboardstatus"
+      ],
+      "description": "FDDMBoardStatus"
+    },
+    {
+      "enum": [
+        372,
+        "seShortFddmhardver"
+      ],
+      "description": "FDDMHardVer"
+    },
+    {
+      "enum": [
+        373,
+        "seShortFddsmainver"
+      ],
+      "description": "FDDSMainVer"
+    },
+    {
+      "enum": [
+        374,
+        "seShortFddsappver"
+      ],
+      "description": "FDDSAppVer"
+    },
+    {
+      "enum": [
+        375,
+        "seShortFddsboardstatus"
+      ],
+      "description": "FDDSBoardStatus"
+    },
+    {
+      "enum": [
+        376,
+        "seShortFddshardver"
+      ],
+      "description": "FDDSHardVer"
+    },
+    {
+      "enum": [
+        377,
+        "seShortStphmainver"
+      ],
+      "description": "StpHMainVer"
+    },
+    {
+      "enum": [
+        378,
+        "seShortStphboardstatus"
+      ],
+      "description": "StpHBoardStatus"
+    },
+    {
+      "enum": [
+        379,
+        "seShortStphhardver"
+      ],
+      "description": "StpHHardVer"
+    },
+    {
+      "enum": [
+        380,
+        "seShortOcc"
+      ],
+      "description": "OCC"
+    },
+    {
+      "enum": [
+        381,
+        "seShortEconMinpos"
+      ],
+      "description": "Econ-MinPos"
+    },
+    {
+      "enum": [
+        382,
+        "seShortAirmonstation"
+      ],
+      "description": "AirMonStation"
+    },
+    {
+      "enum": [
+        383,
+        "seShortAnalog"
+      ],
+      "description": "Analog"
+    },
+    {
+      "enum": [
+        384,
+        "seShortBinaryinputs"
+      ],
+      "description": "BinaryInputs"
+    },
+    {
+      "enum": [
+        385,
+        "seShortCoilsensors"
+      ],
+      "description": "CoilSensors"
+    },
+    {
+      "enum": [
+        386,
+        "seShortCvent"
+      ],
+      "description": "CVent"
+    },
+    {
+      "enum": [
+        387,
+        "seShortControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        388,
+        "seShortClg"
+      ],
+      "description": "Clg"
+    },
+    {
+      "enum": [
+        389,
+        "seShortDvent"
+      ],
+      "description": "DVent"
+    },
+    {
+      "enum": [
+        390,
+        "seShortFactory"
+      ],
+      "description": "Factory"
+    },
+    {
+      "enum": [
+        391,
+        "seShortFirm"
+      ],
+      "description": "Firm"
+    },
+    {
+      "enum": [
+        392,
+        "seShortHtg"
+      ],
+      "description": "Htg"
+    },
+    {
+      "enum": [
+        393,
+        "seShortHvaczone"
+      ],
+      "description": "HVACZone"
+    },
+    {
+      "enum": [
+        394,
+        "seShortIndoor"
+      ],
+      "description": "Indoor"
+    },
+    {
+      "enum": [
+        395,
+        "seShortIndoorfan"
+      ],
+      "description": "IndoorFan"
+    },
+    {
+      "enum": [
+        396,
+        "seShortInputs"
+      ],
+      "description": "Inputs"
+    },
+    {
+      "enum": [
+        397,
+        "seShortMisc"
+      ],
+      "description": "Misc"
+    },
+    {
+      "enum": [
+        398,
+        "seShortNetwork"
+      ],
+      "description": "Network"
+    },
+    {
+      "enum": [
+        399,
+        "seShortNetworkinputs"
+      ],
+      "description": "NetworkInputs"
+    },
+    {
+      "enum": [
+        400,
+        "seShortOutdoor"
+      ],
+      "description": "Outdoor"
+    },
+    {
+      "enum": [
+        401,
+        "seShortOutputs"
+      ],
+      "description": "Outputs"
+    },
+    {
+      "enum": [
+        402,
+        "seShortPowerex"
+      ],
+      "description": "PowerEx"
+    },
+    {
+      "enum": [
+        403,
+        "seShortRelay"
+      ],
+      "description": "Relay"
+    },
+    {
+      "enum": [
+        404,
+        "seShortSafeties"
+      ],
+      "description": "Safeties"
+    },
+    {
+      "enum": [
+        405,
+        "seShortSensors"
+      ],
+      "description": "Sensors"
+    },
+    {
+      "enum": [
+        406,
+        "seShortService"
+      ],
+      "description": "Service"
+    },
+    {
+      "enum": [
+        407,
+        "seShortSetpoints"
+      ],
+      "description": "Setpoints"
+    },
+    {
+      "enum": [
+        408,
+        "seShortSetup"
+      ],
+      "description": "Setup"
+    },
+    {
+      "enum": [
+        409,
+        "seShortSmokectrl"
+      ],
+      "description": "SmokeCtrl"
+    },
+    {
+      "enum": [
+        410,
+        "seShortStage1"
+      ],
+      "description": "Stage 1"
+    },
+    {
+      "enum": [
+        411,
+        "seShortStage2"
+      ],
+      "description": "Stage 2"
+    },
+    {
+      "enum": [
+        412,
+        "seShortStage3"
+      ],
+      "description": "Stage 3"
+    },
+    {
+      "enum": [
+        413,
+        "seShortStage4"
+      ],
+      "description": "Stage 4"
+    },
+    {
+      "enum": [
+        414,
+        "seShortStatus"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        415,
+        "seShortThermostat"
+      ],
+      "description": "Thermostat"
+    },
+    {
+      "enum": [
+        416,
+        "seShortZone"
+      ],
+      "description": "Zone"
+    },
+    {
+      "enum": [
+        418,
+        "seShortEconDamptype"
+      ],
+      "description": "Econ-DampType"
+    },
+    {
+      "enum": [
+        419,
+        "seShortUcb24VFlt"
+      ],
+      "description": "UCB 24V Flt"
+    },
+    {
+      "enum": [
+        420,
+        "seShort4Stg24VFlt"
+      ],
+      "description": "4Stg 24V Flt"
+    },
+    {
+      "enum": [
+        421,
+        "seShortStsenflt"
+      ],
+      "description": "STSenFlt"
+    },
+    {
+      "enum": [
+        422,
+        "seShortSsosenflt"
+      ],
+      "description": "SSOSenFlt"
+    },
+    {
+      "enum": [
+        423,
+        "seShortIaqsenflt"
+      ],
+      "description": "IAQSenFlt"
+    },
+    {
+      "enum": [
+        424,
+        "seShortShsenflt"
+      ],
+      "description": "SHSenFlt"
+    },
+    {
+      "enum": [
+        425,
+        "seShortOatsenflt"
+      ],
+      "description": "OATSenFlt"
+    },
+    {
+      "enum": [
+        426,
+        "seShortOahsenflt"
+      ],
+      "description": "OAHSenFlt"
+    },
+    {
+      "enum": [
+        427,
+        "seShortOaqsenflt"
+      ],
+      "description": "OAQSenFlt"
+    },
+    {
+      "enum": [
+        428,
+        "seShortSatsenflt"
+      ],
+      "description": "SATSenFlt"
+    },
+    {
+      "enum": [
+        429,
+        "seShortDctprssenflt"
+      ],
+      "description": "DctPrsSenFlt"
+    },
+    {
+      "enum": [
+        430,
+        "seShortEcsenflt"
+      ],
+      "description": "ECSenFlt"
+    },
+    {
+      "enum": [
+        431,
+        "seShortCcsenflt"
+      ],
+      "description": "CCSenFlt"
+    },
+    {
+      "enum": [
+        432,
+        "seShortMatsenflt"
+      ],
+      "description": "MATSenFlt"
+    },
+    {
+      "enum": [
+        433,
+        "seShortSahsenflt"
+      ],
+      "description": "SAHSenFlt"
+    },
+    {
+      "enum": [
+        434,
+        "seShortRatsenflt"
+      ],
+      "description": "RATSenFlt"
+    },
+    {
+      "enum": [
+        435,
+        "seShortBldgpressenflt"
+      ],
+      "description": "BldgPresSenFlt"
+    },
+    {
+      "enum": [
+        436,
+        "seShortMoaflt"
+      ],
+      "description": "MOAFlt"
+    },
+    {
+      "enum": [
+        437,
+        "seShortEconcntlr"
+      ],
+      "description": "EconCntlr"
+    },
+    {
+      "enum": [
+        438,
+        "seShort4Stgcntlr"
+      ],
+      "description": "4StgCntlr"
+    },
+    {
+      "enum": [
+        439,
+        "seShortFddmcntlr"
+      ],
+      "description": "FDDMCntlr"
+    },
+    {
+      "enum": [
+        440,
+        "seShortFddscntlr"
+      ],
+      "description": "FDDSCntlr"
+    },
+    {
+      "enum": [
+        441,
+        "seShortStpheatcntlr"
+      ],
+      "description": "StpHeatCntlr"
+    },
+    {
+      "enum": [
+        442,
+        "seShort3ClgstgPercmd"
+      ],
+      "description": "3ClgStg-%Cmd"
+    },
+    {
+      "enum": [
+        443,
+        "seShort4ClgstgPercmd"
+      ],
+      "description": "4ClgStg-%Cmd"
+    },
+    {
+      "enum": [
+        444,
+        "seShort3HtgstgPercmd"
+      ],
+      "description": "3HtgStg-%Cmd"
+    },
+    {
+      "enum": [
+        445,
+        "seShortOutmeterdevType"
+      ],
+      "description": "OutMeterDev-Type"
+    },
+    {
+      "enum": [
+        446,
+        "seShortDevname"
+      ],
+      "description": "DevName"
+    },
+    {
+      "enum": [
+        447,
+        "seShortLowspeedfanMinpos"
+      ],
+      "description": "LowSpeedFan-MinPos"
+    },
+    {
+      "enum": [
+        448,
+        "seShortTempocc"
+      ],
+      "description": "TempOCC"
+    },
+    {
+      "enum": [
+        449,
+        "seShortEcondamppos"
+      ],
+      "description": "EconDampPos"
+    },
+    {
+      "enum": [
+        450,
+        "seShortExcessOutAirFlt"
+      ],
+      "description": "ExcessOutAirFlt"
+    },
+    {
+      "enum": [
+        451,
+        "seShortNotEconFlt"
+      ],
+      "description": "NotEconFlt"
+    },
+    {
+      "enum": [
+        452,
+        "seShortEconDampFlt"
+      ],
+      "description": "EconDampFlt"
+    },
+    {
+      "enum": [
+        453,
+        "seShortEconWhenShouldNotFlt"
+      ],
+      "description": "EconWhenShouldNotFlt"
+    },
+    {
+      "enum": [
+        454,
+        "seShortUcblowvolt"
+      ],
+      "description": "UCBLowVolt"
+    },
+    {
+      "enum": [
+        455,
+        "seShortUcbbrownout"
+      ],
+      "description": "UCBBrownOut"
+    },
+    {
+      "enum": [
+        456,
+        "seShortApsLo"
+      ],
+      "description": "APS-LO"
+    },
+    {
+      "enum": [
+        457,
+        "seShortApsShutdn"
+      ],
+      "description": "APS-Shutdn"
+    },
+    {
+      "enum": [
+        458,
+        "seShortDctprsShutdn"
+      ],
+      "description": "DctPrs-Shutdn"
+    },
+    {
+      "enum": [
+        459,
+        "seShortDctprsLo"
+      ],
+      "description": "DctPrs-LO"
+    },
+    {
+      "enum": [
+        460,
+        "seShortFanovrloadLo"
+      ],
+      "description": "FanOvrload-LO"
+    },
+    {
+      "enum": [
+        461,
+        "seShortCvhtgoccSp"
+      ],
+      "description": "CVHtgOcc-SP"
+    },
+    {
+      "enum": [
+        462,
+        "seShortCvhtgunoccSp"
+      ],
+      "description": "CVHtgUnocc-Sp"
+    },
+    {
+      "enum": [
+        463,
+        "seShortCvoprhtgSp"
+      ],
+      "description": "CVOprHtg-Sp"
+    },
+    {
+      "enum": [
+        464,
+        "seShortResetlo"
+      ],
+      "description": "ResetLO"
+    },
+    {
+      "enum": [
+        465,
+        "seShortEolOn"
+      ],
+      "description": "EOL-On"
+    },
+    {
+      "enum": [
+        466,
+        "seShortSyscntlrs"
+      ],
+      "description": "SysCntlrs"
+    },
+    {
+      "enum": [
+        467,
+        "seShortUcb"
+      ],
+      "description": "UCB"
+    },
+    {
+      "enum": [
+        468,
+        "seShort4Stg"
+      ],
+      "description": "4Stg"
+    },
+    {
+      "enum": [
+        469,
+        "seShortFddmstr"
+      ],
+      "description": "FDDMstr"
+    },
+    {
+      "enum": [
+        470,
+        "seShortFddslave"
+      ],
+      "description": "FDDSlave"
+    },
+    {
+      "enum": [
+        471,
+        "seShortStpheat"
+      ],
+      "description": "StpHeat"
+    },
+    {
+      "enum": [
+        472,
+        "seShortUnit"
+      ],
+      "description": "Unit"
+    },
+    {
+      "enum": [
+        473,
+        "seShortDescrip"
+      ],
+      "description": "Descrip"
+    },
+    {
+      "enum": [
+        474,
+        "seShortPoutvolt"
+      ],
+      "description": "POutVolt"
+    },
+    {
+      "enum": [
+        475,
+        "seShortDfsinst"
+      ],
+      "description": "DFSInst"
+    },
+    {
+      "enum": [
+        476,
+        "seShortCkt1Prssplyv"
+      ],
+      "description": "Ckt1PrsSplyV"
+    },
+    {
+      "enum": [
+        477,
+        "seShortCkt2Prssplyv"
+      ],
+      "description": "Ckt2PrsSplyV"
+    },
+    {
+      "enum": [
+        478,
+        "seShortClgckttests1"
+      ],
+      "description": "ClgCktTestS-1"
+    },
+    {
+      "enum": [
+        479,
+        "seShortClgckttests2"
+      ],
+      "description": "ClgCktTestS-2"
+    },
+    {
+      "enum": [
+        480,
+        "seShortClgckttests3"
+      ],
+      "description": "ClgCktTestS-3"
+    },
+    {
+      "enum": [
+        481,
+        "seShortClgckttests4"
+      ],
+      "description": "ClgCktTestS-4"
+    },
+    {
+      "enum": [
+        482,
+        "seShortUnitcap"
+      ],
+      "description": "UnitCap"
+    },
+    {
+      "enum": [
+        483,
+        "seShortFanpower"
+      ],
+      "description": "FanPower"
+    },
+    {
+      "enum": [
+        484,
+        "seShortSuperheatgoal"
+      ],
+      "description": "SuperHeatGoal"
+    },
+    {
+      "enum": [
+        485,
+        "seShortAltitude"
+      ],
+      "description": "Altitude"
+    },
+    {
+      "enum": [
+        486,
+        "seShortMorncEn"
+      ],
+      "description": "MornC-En"
+    },
+    {
+      "enum": [
+        487,
+        "seShortMorncratSp"
+      ],
+      "description": "MornCRAT-Sp"
+    },
+    {
+      "enum": [
+        488,
+        "seShortOptstrtEn"
+      ],
+      "description": "OptStrt-En"
+    },
+    {
+      "enum": [
+        489,
+        "seShortOccbiEn"
+      ],
+      "description": "OccBI-En"
+    },
+    {
+      "enum": [
+        490,
+        "seShortEarlystrtperiod"
+      ],
+      "description": "EarlyStrtPeriod"
+    },
+    {
+      "enum": [
+        491,
+        "seShortHtpumpstgs"
+      ],
+      "description": "#HtPumpStgs"
+    },
+    {
+      "enum": [
+        492,
+        "seShortDefrostenable"
+      ],
+      "description": "DefrostEnable"
+    },
+    {
+      "enum": [
+        493,
+        "seShortTestdefrostenable"
+      ],
+      "description": "TestDefrostEnable"
+    },
+    {
+      "enum": [
+        494,
+        "seShortCompdelayenable"
+      ],
+      "description": "CompDelayEnable"
+    },
+    {
+      "enum": [
+        495,
+        "seShortDefrostcurvesel"
+      ],
+      "description": "DefrostCurveSel"
+    },
+    {
+      "enum": [
+        496,
+        "seShortDefroststate"
+      ],
+      "description": "DefrostState"
+    },
+    {
+      "enum": [
+        497,
+        "seShortDefrosttermcur6"
+      ],
+      "description": "DefrostTermCur6"
+    },
+    {
+      "enum": [
+        498,
+        "seShortInitcurve6"
+      ],
+      "description": "InitCurve6"
+    },
+    {
+      "enum": [
+        499,
+        "seShortInitcurveint6"
+      ],
+      "description": "InitCurveInt6"
+    },
+    {
+      "enum": [
+        500,
+        "seShortDefrostinhibittime6"
+      ],
+      "description": "DefrostInhibitTime6"
+    },
+    {
+      "enum": [
+        501,
+        "seShortMaxdefrostcycletime6"
+      ],
+      "description": "MaxDefrostCycleTime6"
+    },
+    {
+      "enum": [
+        502,
+        "seShortTestfan"
+      ],
+      "description": "TestFan"
+    },
+    {
+      "enum": [
+        503,
+        "seShortTestc1"
+      ],
+      "description": "TestC1"
+    },
+    {
+      "enum": [
+        504,
+        "seShortTestc2"
+      ],
+      "description": "TestC2"
+    },
+    {
+      "enum": [
+        505,
+        "seShortTestc3"
+      ],
+      "description": "TestC3"
+    },
+    {
+      "enum": [
+        506,
+        "seShortTestc4"
+      ],
+      "description": "TestC4"
+    },
+    {
+      "enum": [
+        507,
+        "seShortTesth1"
+      ],
+      "description": "TestH1"
+    },
+    {
+      "enum": [
+        508,
+        "seShortTesth2"
+      ],
+      "description": "TestH2"
+    },
+    {
+      "enum": [
+        509,
+        "seShortTesth3"
+      ],
+      "description": "TestH3"
+    },
+    {
+      "enum": [
+        510,
+        "seShortTestecon"
+      ],
+      "description": "TestEcon"
+    },
+    {
+      "enum": [
+        511,
+        "seShortTestexh"
+      ],
+      "description": "TestExh"
+    },
+    {
+      "enum": [
+        512,
+        "seShortReset"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        513,
+        "seShortPause"
+      ],
+      "description": "Pause"
+    },
+    {
+      "enum": [
+        514,
+        "seShortAbort"
+      ],
+      "description": "Abort"
+    },
+    {
+      "enum": [
+        515,
+        "seShortStstate"
+      ],
+      "description": "STState"
+    },
+    {
+      "enum": [
+        516,
+        "seShortFanstate"
+      ],
+      "description": "FanState"
+    },
+    {
+      "enum": [
+        517,
+        "seShortC1State"
+      ],
+      "description": "C1State"
+    },
+    {
+      "enum": [
+        518,
+        "seShortC2State"
+      ],
+      "description": "C2State"
+    },
+    {
+      "enum": [
+        519,
+        "seShortC3State"
+      ],
+      "description": "C3State"
+    },
+    {
+      "enum": [
+        520,
+        "seShortC4State"
+      ],
+      "description": "C4State"
+    },
+    {
+      "enum": [
+        521,
+        "seShortH1State"
+      ],
+      "description": "H1State"
+    },
+    {
+      "enum": [
+        522,
+        "seShortH2State"
+      ],
+      "description": "H2State"
+    },
+    {
+      "enum": [
+        523,
+        "seShortH3State"
+      ],
+      "description": "H3State"
+    },
+    {
+      "enum": [
+        524,
+        "seShortEconstate"
+      ],
+      "description": "EconState"
+    },
+    {
+      "enum": [
+        525,
+        "seShortExhstate"
+      ],
+      "description": "ExhState"
+    },
+    {
+      "enum": [
+        526,
+        "seShortCurrentstatus"
+      ],
+      "description": "CurrentStatus"
+    },
+    {
+      "enum": [
+        527,
+        "seShortGlobalfault"
+      ],
+      "description": "GlobalFault"
+    },
+    {
+      "enum": [
+        528,
+        "seShortLoadshedenable"
+      ],
+      "description": "LoadShedEnable"
+    },
+    {
+      "enum": [
+        529,
+        "seShortLoadshedratelim"
+      ],
+      "description": "LoadShedRateLim"
+    },
+    {
+      "enum": [
+        530,
+        "seShortLoadshedadjust"
+      ],
+      "description": "LoadShedAdjust"
+    },
+    {
+      "enum": [
+        531,
+        "seShortWarmcool"
+      ],
+      "description": "WarmCool"
+    },
+    {
+      "enum": [
+        532,
+        "seShortT24Loadshed"
+      ],
+      "description": "T24LoadShed"
+    },
+    {
+      "enum": [
+        533,
+        "seShortDefrost"
+      ],
+      "description": "Defrost"
+    },
+    {
+      "enum": [
+        534,
+        "seShortC1EvapTempValue"
+      ],
+      "description": "C1-EvapTempValue"
+    },
+    {
+      "enum": [
+        535,
+        "seShortC2EvapTempValue"
+      ],
+      "description": "C2-EvapTempValue"
+    },
+    {
+      "enum": [
+        536,
+        "seShortC3EvapTempValue"
+      ],
+      "description": "C3-EvapTempValue"
+    },
+    {
+      "enum": [
+        537,
+        "seShortC4EvapTempValue"
+      ],
+      "description": "C4-EvapTempValue"
+    },
+    {
+      "enum": [
+        538,
+        "seShortTimetonextocc"
+      ],
+      "description": "TimeToNextOcc"
+    },
+    {
+      "enum": [
+        539,
+        "seShortOprmode"
+      ],
+      "description": "OprMode"
+    },
+    {
+      "enum": [
+        540,
+        "seShortClgweight1"
+      ],
+      "description": "ClgWeight1"
+    },
+    {
+      "enum": [
+        541,
+        "seShortClgweight2"
+      ],
+      "description": "ClgWeight2"
+    },
+    {
+      "enum": [
+        542,
+        "seShortHtgweight1"
+      ],
+      "description": "HtgWeight1"
+    },
+    {
+      "enum": [
+        543,
+        "seShortHtgweight2"
+      ],
+      "description": "HtgWeight2"
+    },
+    {
+      "enum": [
+        544,
+        "seShortEwmaclgdmd"
+      ],
+      "description": "EWMAClgDmd"
+    },
+    {
+      "enum": [
+        545,
+        "seShortEwmahtgdmd"
+      ],
+      "description": "EWMAHtgDmd"
+    },
+    {
+      "enum": [
+        546,
+        "seShortCorrrettime"
+      ],
+      "description": "CorrRetTime"
+    },
+    {
+      "enum": [
+        547,
+        "seShortUncorrrettime"
+      ],
+      "description": "UncorrRetTime"
+    },
+    {
+      "enum": [
+        548,
+        "seShortWarmcoolstrttime"
+      ],
+      "description": "WarmCoolStrtTime"
+    },
+    {
+      "enum": [
+        549,
+        "seShortWarmcoolstrttemp"
+      ],
+      "description": "WarmCoolStrtTemp"
+    },
+    {
+      "enum": [
+        550,
+        "seShortNumgasvlvs"
+      ],
+      "description": "#GasVlvs"
+    },
+    {
+      "enum": [
+        551,
+        "seShortC1Condtempoahigh"
+      ],
+      "description": "C1-CondTempOAHigh"
+    },
+    {
+      "enum": [
+        552,
+        "seShortC2Condtempoahigh"
+      ],
+      "description": "C2-CondTempOAHigh"
+    },
+    {
+      "enum": [
+        553,
+        "seShortC3Condtempoahigh"
+      ],
+      "description": "C3-CondTempOAHigh"
+    },
+    {
+      "enum": [
+        554,
+        "seShortC4Condtempoahigh"
+      ],
+      "description": "C4-CondTempOAHigh"
+    },
+    {
+      "enum": [
+        555,
+        "seShortC1Condtempoalow"
+      ],
+      "description": "C1-CondTempOALow"
+    },
+    {
+      "enum": [
+        556,
+        "seShortC2Condtempoalow"
+      ],
+      "description": "C2-CondTempOALow"
+    },
+    {
+      "enum": [
+        557,
+        "seShortC3Condtempoalow"
+      ],
+      "description": "C3-CondTempOALow"
+    },
+    {
+      "enum": [
+        558,
+        "seShortC4Condtempoalow"
+      ],
+      "description": "C4-CondTempOALow"
+    },
+    {
+      "enum": [
+        559,
+        "seShortC1Superheathigh"
+      ],
+      "description": "C1-SuperheatHigh"
+    },
+    {
+      "enum": [
+        560,
+        "seShortC2Superheathigh"
+      ],
+      "description": "C2-SuperheatHigh"
+    },
+    {
+      "enum": [
+        561,
+        "seShortC3Superheathigh"
+      ],
+      "description": "C3-SuperheatHigh"
+    },
+    {
+      "enum": [
+        562,
+        "seShortC4Superheathigh"
+      ],
+      "description": "C4-SuperheatHigh"
+    },
+    {
+      "enum": [
+        563,
+        "seShortC1Superheatlow"
+      ],
+      "description": "C1-SuperheatLow"
+    },
+    {
+      "enum": [
+        564,
+        "seShortC2Superheatlow"
+      ],
+      "description": "C2-SuperheatLow"
+    },
+    {
+      "enum": [
+        565,
+        "seShortC3Superheatlow"
+      ],
+      "description": "C3-SuperheatLow"
+    },
+    {
+      "enum": [
+        566,
+        "seShortC4Superheatlow"
+      ],
+      "description": "C4-SuperheatLow"
+    },
+    {
+      "enum": [
+        567,
+        "seShortC1Subcoolhigh"
+      ],
+      "description": "C1-SubcoolHigh"
+    },
+    {
+      "enum": [
+        568,
+        "seShortC2Subcoolhigh"
+      ],
+      "description": "C2-SubcoolHigh"
+    },
+    {
+      "enum": [
+        569,
+        "seShortC3Subcoolhigh"
+      ],
+      "description": "C3-SubcoolHigh"
+    },
+    {
+      "enum": [
+        570,
+        "seShortC4Subcoolhigh"
+      ],
+      "description": "C4-SubcoolHigh"
+    },
+    {
+      "enum": [
+        571,
+        "seShortC1Subcoollow"
+      ],
+      "description": "C1-SubcoolLow"
+    },
+    {
+      "enum": [
+        572,
+        "seShortC2Subcoollow"
+      ],
+      "description": "C2-SubcoolLow"
+    },
+    {
+      "enum": [
+        573,
+        "seShortC3Subcoollow"
+      ],
+      "description": "C3-SubcoolLow"
+    },
+    {
+      "enum": [
+        574,
+        "seShortC4Subcoollow"
+      ],
+      "description": "C4-SubcoolLow"
+    },
+    {
+      "enum": [
+        575,
+        "seShortC1Evaptemphigh"
+      ],
+      "description": "C1-EvapTempHigh"
+    },
+    {
+      "enum": [
+        576,
+        "seShortC2Evaptemphigh"
+      ],
+      "description": "C2-EvapTempHigh"
+    },
+    {
+      "enum": [
+        577,
+        "seShortC3Evaptemphigh"
+      ],
+      "description": "C3-EvapTempHigh"
+    },
+    {
+      "enum": [
+        578,
+        "seShortC4Evaptemphigh"
+      ],
+      "description": "C4-EvapTempHigh"
+    },
+    {
+      "enum": [
+        579,
+        "seShortC1Evaptemplow"
+      ],
+      "description": "C1-EvapTempLow"
+    },
+    {
+      "enum": [
+        580,
+        "seShortC2Evaptemplow"
+      ],
+      "description": "C2-EvapTempLow"
+    },
+    {
+      "enum": [
+        581,
+        "seShortC3Evaptemplow"
+      ],
+      "description": "C3-EvapTempLow"
+    },
+    {
+      "enum": [
+        582,
+        "seShortC4Evaptemplow"
+      ],
+      "description": "C4-EvapTempLow"
+    },
+    {
+      "enum": [
+        583,
+        "seShortModelname"
+      ],
+      "description": "ModelName"
+    },
+    {
+      "enum": [
+        584,
+        "seShortMfchtg1Runtim"
+      ],
+      "description": "MFCHtg1RunTim"
+    },
+    {
+      "enum": [
+        585,
+        "seShortMfchtg2Runtim"
+      ],
+      "description": "MFCHtg2RunTim"
+    },
+    {
+      "enum": [
+        586,
+        "seShortMfchtg3Runtim"
+      ],
+      "description": "MFCHtg3RunTim"
+    },
+    {
+      "enum": [
+        587,
+        "seShortMfchtg4Runtim"
+      ],
+      "description": "MFCHtg4RunTim"
+    },
+    {
+      "enum": [
+        588,
+        "seShortMfch1"
+      ],
+      "description": "MFC-H1"
+    },
+    {
+      "enum": [
+        589,
+        "seShortMfch2"
+      ],
+      "description": "MFC-H2"
+    },
+    {
+      "enum": [
+        590,
+        "seShortMfch3"
+      ],
+      "description": "MFC-H3"
+    },
+    {
+      "enum": [
+        591,
+        "seShortMfch4"
+      ],
+      "description": "MFC-H4"
+    },
+    {
+      "enum": [
+        592,
+        "seShortMfch5"
+      ],
+      "description": "MFC-H5"
+    },
+    {
+      "enum": [
+        593,
+        "seShortMfch6"
+      ],
+      "description": "MFC-H6"
+    },
+    {
+      "enum": [
+        594,
+        "seShortMfch7"
+      ],
+      "description": "MFC-H7"
+    },
+    {
+      "enum": [
+        595,
+        "seShortMfch8"
+      ],
+      "description": "MFC-H8"
+    },
+    {
+      "enum": [
+        596,
+        "seShortW1Satval"
+      ],
+      "description": "W1SATVal"
+    },
+    {
+      "enum": [
+        597,
+        "seShortW2Satvaladd"
+      ],
+      "description": "W2SATValAdd"
+    },
+    {
+      "enum": [
+        598,
+        "seShortAirtempsp"
+      ],
+      "description": "AirTempSP"
+    },
+    {
+      "enum": [
+        599,
+        "seShortNummfchtgstgs"
+      ],
+      "description": "#MFCHtgStgs"
+    },
+    {
+      "enum": [
+        600,
+        "seShortFanresult"
+      ],
+      "description": "FanResult"
+    },
+    {
+      "enum": [
+        601,
+        "seShortC1Result"
+      ],
+      "description": "C1Result"
+    },
+    {
+      "enum": [
+        602,
+        "seShortC2Result"
+      ],
+      "description": "C2Result"
+    },
+    {
+      "enum": [
+        603,
+        "seShortC3Result"
+      ],
+      "description": "C3Result"
+    },
+    {
+      "enum": [
+        604,
+        "seShortC4Result"
+      ],
+      "description": "C4Result"
+    },
+    {
+      "enum": [
+        605,
+        "seShortH1Result"
+      ],
+      "description": "H1Result"
+    },
+    {
+      "enum": [
+        606,
+        "seShortH2Result"
+      ],
+      "description": "H2Result"
+    },
+    {
+      "enum": [
+        607,
+        "seShortH3Result"
+      ],
+      "description": "H3Result"
+    },
+    {
+      "enum": [
+        608,
+        "seShortEconresult"
+      ],
+      "description": "EconResult"
+    },
+    {
+      "enum": [
+        609,
+        "seShortExhresult"
+      ],
+      "description": "ExhResult"
+    },
+    {
+      "enum": [
+        610,
+        "seShortStandard"
+      ],
+      "description": "Standard"
+    },
+    {
+      "enum": [
+        611,
+        "seShortFdd"
+      ],
+      "description": "FDD"
+    },
+    {
+      "enum": [
+        612,
+        "seShortHtgSetup"
+      ],
+      "description": "Htg-Setup"
+    },
+    {
+      "enum": [
+        613,
+        "seShortRevVlv"
+      ],
+      "description": "RevVlv"
+    },
+    {
+      "enum": [
+        614,
+        "seShortAuxHtg"
+      ],
+      "description": "AuxHtg"
+    },
+    {
+      "enum": [
+        615,
+        "seShortMode"
+      ],
+      "description": "Mode"
+    },
+    {
+      "enum": [
+        616,
+        "seShortHtgAdaptuneEn"
+      ],
+      "description": "HtgAdapTunEn"
+    },
+    {
+      "enum": [
+        617,
+        "seShortClgAdaptuneEn"
+      ],
+      "description": "ClgAdapTunEn"
+    },
+    {
+      "enum": [
+        618,
+        "seShortHtpmp"
+      ],
+      "description": "HeatPmp"
+    },
+    {
+      "enum": [
+        619,
+        "seShortMfcDevid"
+      ],
+      "description": "MFCDevID"
+    },
+    {
+      "enum": [
+        620,
+        "seShortMfcVer"
+      ],
+      "description": "MFCVersion"
+    },
+    {
+      "enum": [
+        621,
+        "seShortMfcJump"
+      ],
+      "description": "MFCJump"
+    },
+    {
+      "enum": [
+        622,
+        "seShortNumlimswtchs"
+      ],
+      "description": "#LimSwtchs"
+    },
+    {
+      "enum": [
+        623,
+        "seShortSzvavEn"
+      ],
+      "description": "SZVAVEn"
+    },
+    {
+      "enum": [
+        624,
+        "seShortDatMaxHtgSp"
+      ],
+      "description": "DATMaxHtgSP"
+    },
+    {
+      "enum": [
+        625,
+        "seShortDatSatSp"
+      ],
+      "description": "DATSatSP"
+    },
+    {
+      "enum": [
+        626,
+        "seShortDatMinClgSp"
+      ],
+      "description": "DATClgMinSP"
+    },
+    {
+      "enum": [
+        627,
+        "seShortNumrefsysinstlld"
+      ],
+      "description": "#RefrigSys"
+    },
+    {
+      "enum": [
+        628,
+        "seShortFcbusmode"
+      ],
+      "description": "FcBusMode"
+    },
+    {
+      "enum": [
+        629,
+        "seShortDirLoadshed"
+      ],
+      "description": "DirLoadshd"
+    },
+    {
+      "enum": [
+        630,
+        "seShortEconmechSetup"
+      ],
+      "description": "EconMechStp"
+    },
+    {
+      "enum": [
+        631,
+        "seShortHardwareReset"
+      ],
+      "description": "HdwrReset"
+    },
+    {
+      "enum": [
+        632,
+        "seShortRedline"
+      ],
+      "description": "Redline"
+    },
+    {
+      "enum": [
+        633,
+        "seShortOffdurunocc"
+      ],
+      "description": "OffDurUnocc"
+    },
+    {
+      "enum": [
+        634,
+        "seShortHtgdurunocc"
+      ],
+      "description": "HtgDurUnocc"
+    },
+    {
+      "enum": [
+        635,
+        "seShortUseoccsched"
+      ],
+      "description": "UseOccSched"
+    },
+    {
+      "enum": [
+        636,
+        "seShortStaged"
+      ],
+      "description": "Staged"
+    },
+    {
+      "enum": [
+        637,
+        "seShortProportional"
+      ],
+      "description": "Prop"
+    },
+    {
+      "enum": [
+        638,
+        "seShortSzVav"
+      ],
+      "description": "SZ VAV"
+    },
+    {
+      "enum": [
+        639,
+        "seShortCntrltype"
+      ],
+      "description": "CntrlType"
+    },
+    {
+      "enum": [
+        640,
+        "seShortEquiptype"
+      ],
+      "description": "EquipType"
+    },
+    {
+      "enum": [
+        641,
+        "seShortUniten"
+      ],
+      "description": "UnitEn"
+    },
+    {
+      "enum": [
+        642,
+        "seShortHgrUnoccHumSp"
+      ],
+      "description": "HGRUnoccHum-SP"
+    },
+    {
+      "enum": [
+        643,
+        "seShortHgrEnUnocc"
+      ],
+      "description": "HGRUnocc-En"
+    },
+    {
+      "enum": [
+        644,
+        "seShortPmpoutEn"
+      ],
+      "description": "PmpOut-En"
+    },
+    {
+      "enum": [
+        645,
+        "seShortFanonlyspd"
+      ],
+      "description": "FanOnlySpd"
+    },
+    {
+      "enum": [
+        646,
+        "seShortEconfltdetecten"
+      ],
+      "description": "EconFltDetectEn"
+    },
+    {
+      "enum": [
+        647,
+        "seShortSzvavminfanspd"
+      ],
+      "description": "SZVAVMinFanSpd"
+    },
+    {
+      "enum": [
+        648,
+        "seShortStgclgcmd"
+      ],
+      "description": "StgClgCmd"
+    },
+    {
+      "enum": [
+        649,
+        "seShortStghtgcmd"
+      ],
+      "description": "StgHtgCmd"
+    },
+    {
+      "enum": [
+        650,
+        "seShortProphtgcmd"
+      ],
+      "description": "PropHtgCmd"
+    },
+    {
+      "enum": [
+        651,
+        "seShortPidtunrst"
+      ],
+      "description": "PIDTunRst"
+    },
+    {
+      "enum": [
+        652,
+        "seShortAdaptunen"
+      ],
+      "description": "AdapTunEn"
+    },
+    {
+      "enum": [
+        653,
+        "seShortEconalrmdly"
+      ],
+      "description": "EconAlrmDly"
+    },
+    {
+      "enum": [
+        654,
+        "seShortEconposerr"
+      ],
+      "description": "EconPosErr"
+    },
+    {
+      "enum": [
+        655,
+        "seShortEconminerr"
+      ],
+      "description": "EconMinErr"
+    },
+    {
+      "enum": [
+        656,
+        "seShortSzvavclgoccSp"
+      ],
+      "description": "SZVAVClgOcc-Sp"
+    },
+    {
+      "enum": [
+        657,
+        "seShortSzvavclgunoccSp"
+      ],
+      "description": "SZVAVClgUnocc-Sp"
+    },
+    {
+      "enum": [
+        658,
+        "seShortSzvavhtgoccSp"
+      ],
+      "description": "SZVAVHtgOcc-Sp"
+    },
+    {
+      "enum": [
+        659,
+        "seShortSzvavhtgunoccSp"
+      ],
+      "description": "SZVAVHtgUnocc-Sp"
+    },
+    {
+      "enum": [
+        660,
+        "seShortOprszvavclgSp"
+      ],
+      "description": "OprSZVAVClg-Sp"
+    },
+    {
+      "enum": [
+        661,
+        "seShortOprszvavhtgSp"
+      ],
+      "description": "OprSZVAVHtg-Sp"
+    },
+    {
+      "enum": [
+        662,
+        "seShortLowambEn"
+      ],
+      "description": "LowAmb-En"
+    },
+    {
+      "enum": [
+        663,
+        "seShortVavclgunoccSp"
+      ],
+      "description": "VAVClgUnocc-Sp"
+    },
+    {
+      "enum": [
+        664,
+        "seShortFrairEn"
+      ],
+      "description": "FrAir-En"
+    },
+    {
+      "enum": [
+        665,
+        "seShortSzvavclgld"
+      ],
+      "description": "SZVAVClgLd"
+    },
+    {
+      "enum": [
+        666,
+        "seShortSzvavhtgld"
+      ],
+      "description": "SZVAVHtgLd"
+    },
+    {
+      "enum": [
+        667,
+        "seShortViewStringsShortSt"
+      ],
+      "description": "Short-ST"
+    },
+    {
+      "enum": [
+        668,
+        "seShortViewStringsEncodetype"
+      ],
+      "description": "EncodeType"
+    },
+    {
+      "enum": [
+        669,
+        "seShortHgrDiff"
+      ],
+      "description": "HGR-Diff"
+    },
+    {
+      "enum": [
+        670,
+        "seShortViewStringsLwt"
+      ],
+      "description": "LWT"
+    },
+    {
+      "enum": [
+        671,
+        "seShortViewStringsRwt"
+      ],
+      "description": "RWT"
+    },
+    {
+      "enum": [
+        672,
+        "seShortViewStringsCof"
+      ],
+      "description": "COF"
+    },
+    {
+      "enum": [
+        673,
+        "seShortViewStringsWaterFs"
+      ],
+      "description": "Water FS"
+    },
+    {
+      "enum": [
+        674,
+        "seShortViewStringsAirFs"
+      ],
+      "description": "Air FS"
+    },
+    {
+      "enum": [
+        675,
+        "seShortViewStringsZoneVlv"
+      ],
+      "description": "Zone Vlv"
+    },
+    {
+      "enum": [
+        676,
+        "seShortViewStringsEmergHt"
+      ],
+      "description": "Emerg Ht"
+    },
+    {
+      "enum": [
+        677,
+        "seShortViewStringsLtOpEna"
+      ],
+      "description": "LT Op Ena"
+    },
+    {
+      "enum": [
+        678,
+        "seShortViewStringsCofLo"
+      ],
+      "description": "COF LO"
+    },
+    {
+      "enum": [
+        679,
+        "seShortViewStringsEwt"
+      ],
+      "description": "EWT"
+    },
+    {
+      "enum": [
+        680,
+        "seShortViewStringsEmrghten"
+      ],
+      "description": "EmrgHtEn"
+    },
+    {
+      "enum": [
+        681,
+        "seShortViewStringsWcFsLo"
+      ],
+      "description": "WC FS LO"
+    },
+    {
+      "enum": [
+        682,
+        "seShortViewStringsAcFsLo"
+      ],
+      "description": "AC FS LO"
+    },
+    {
+      "enum": [
+        683,
+        "seShortViewStringsEwtAlm"
+      ],
+      "description": "EWT Alm"
+    },
+    {
+      "enum": [
+        684,
+        "seShortViewStringsEwtLo"
+      ],
+      "description": "EWT LO"
+    },
+    {
+      "enum": [
+        685,
+        "seShortViewStringsLwtAlm"
+      ],
+      "description": "LWT Alm"
+    },
+    {
+      "enum": [
+        686,
+        "seShortViewStringsLwtLo"
+      ],
+      "description": "LWT LO"
+    },
+    {
+      "enum": [
+        687,
+        "seShortViewStringsSatWarn"
+      ],
+      "description": "SAT Warn"
+    },
+    {
+      "enum": [
+        688,
+        "seShortViewStringsSatAlm"
+      ],
+      "description": "SAT Alm"
+    },
+    {
+      "enum": [
+        689,
+        "seShortViewStringsSatLo"
+      ],
+      "description": "SAT LO"
+    },
+    {
+      "enum": [
+        690,
+        "seShortClgmanualtune"
+      ],
+      "description": "ClgManualTune"
+    },
+    {
+      "enum": [
+        691,
+        "seShortHtgmanualtune"
+      ],
+      "description": "HtgManualTune"
+    },
+    {
+      "enum": [
+        692,
+        "seShortLlEnable"
+      ],
+      "description": "LL_Enable"
+    },
+    {
+      "enum": [
+        693,
+        "seShortLlUpsatSp"
+      ],
+      "description": "LL_UpSAT_SP"
+    },
+    {
+      "enum": [
+        694,
+        "seShortLlLowsatSp"
+      ],
+      "description": "LL_LowSAT_SP"
+    },
+    {
+      "enum": [
+        695,
+        "seShort4PipeEn"
+      ],
+      "description": "4pipeEna"
+    },
+    {
+      "enum": [
+        696,
+        "seShortPreOccPurgeEn"
+      ],
+      "description": "PreOccPurgeEna"
+    },
+    {
+      "enum": [
+        697,
+        "seShortLowAmbStart"
+      ],
+      "description": "LowAmbStart"
+    },
+    {
+      "enum": [
+        698,
+        "seShortPreOccPurgeTime"
+      ],
+      "description": "PreOccPurgeTime"
+    },
+    {
+      "enum": [
+        699,
+        "seShortPreOccPurgeUpSatSp"
+      ],
+      "description": "PreOccUpSAT_SP"
+    },
+    {
+      "enum": [
+        700,
+        "seShortPreOccPurgeLowSatSp"
+      ],
+      "description": "PreOccLowSAT_SP"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/mccdNormalTroubleEnumSet.schema.json",
+  "title": "mccdNormalTroubleEnumSet",
+  "description": "MCCD Normal Trouble",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "NORMAL"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "TROUBL"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityTrnShutdownNormalEnumSet.schema.json",
+  "title": "unityTrnShutdownNormalEnumSet",
+  "description": "Unity TRN Shutdown Normal",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual Normal"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Manual Shutdown"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Auto Restore-Manual"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto Restore-Shutdown"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Release"
+    }
+  ]
+}

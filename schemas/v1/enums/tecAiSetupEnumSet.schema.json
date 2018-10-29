@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecAiSetupEnumSet.schema.json",
+  "title": "tecAiSetupEnumSet",
+  "description": "TEC AI Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecAiSetupNickel"
+      ],
+      "description": "Nickel"
+    },
+    {
+      "enum": [
+        1,
+        "tecAiSetupPlatinum"
+      ],
+      "description": "Platinum"
+    },
+    {
+      "enum": [
+        2,
+        "tecAiSetupA99B"
+      ],
+      "description": "A99B"
+    },
+    {
+      "enum": [
+        3,
+        "tecAiSetup225KNtc"
+      ],
+      "description": "2.25K NTC"
+    },
+    {
+      "enum": [
+        4,
+        "tecAiSetup10KNtc"
+      ],
+      "description": "10K NTC"
+    },
+    {
+      "enum": [
+        5,
+        "tecAiSetup10KNtcType3"
+      ],
+      "description": "10K NTC Type 3"
+    }
+  ]
+}

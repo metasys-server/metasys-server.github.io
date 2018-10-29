@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecRtcTransducerRangeMetricEnumSet.schema.json",
+  "title": "tecRtcTransducerRangeMetricEnumSet",
+  "description": "Metric TEC RTC Transducer Range",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "0-375 Pa"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "0-500 Pa"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "0-750 Pa"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "0-1000 Pa"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "0-1250 Pa"
+    }
+  ]
+}

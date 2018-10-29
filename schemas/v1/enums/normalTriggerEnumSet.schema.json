@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/normalTriggerEnumSet.schema.json",
+  "title": "normalTriggerEnumSet",
+  "description": "Normal/Trigger",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ntNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "ntTrigger"
+      ],
+      "description": "Trigger"
+    }
+  ]
+}

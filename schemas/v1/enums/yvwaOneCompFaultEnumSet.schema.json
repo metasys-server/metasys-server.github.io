@@ -1,0 +1,659 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yvwaOneCompFaultEnumSet.schema.json",
+  "title": "yvwaOneCompFaultEnumSet",
+  "description": "YVWA One Compressor Fault Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yvwaOneCompFault0"
+      ],
+      "description": "NO FAULTS"
+    },
+    {
+      "enum": [
+        1,
+        "yvwaOneCompFault1"
+      ],
+      "description": "RESERVED 1"
+    },
+    {
+      "enum": [
+        2,
+        "yvwaOneCompFault2"
+      ],
+      "description": "RESERVED 2"
+    },
+    {
+      "enum": [
+        3,
+        "yvwaOneCompFault3"
+      ],
+      "description": "LOW CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        4,
+        "yvwaOneCompFault4"
+      ],
+      "description": "RESERVED 4"
+    },
+    {
+      "enum": [
+        5,
+        "yvwaOneCompFault5"
+      ],
+      "description": "LOW RTC BATTERY VOLTAGE"
+    },
+    {
+      "enum": [
+        6,
+        "yvwaOneCompFault6"
+      ],
+      "description": "HIGH LEAVING CONDENSER LIQUID TEMP"
+    },
+    {
+      "enum": [
+        7,
+        "yvwaOneCompFault7"
+      ],
+      "description": "VSD COMMUNICATIONS FAILURE"
+    },
+    {
+      "enum": [
+        8,
+        "yvwaOneCompFault8"
+      ],
+      "description": "VSD INITIALIZATION FAILURE"
+    },
+    {
+      "enum": [
+        9,
+        "yvwaOneCompFault9"
+      ],
+      "description": "FILTER - HIGH HEATSINK TEMPERATURE (MOD D)"
+    },
+    {
+      "enum": [
+        10,
+        "yvwaOneCompFault10"
+      ],
+      "description": "FILTER - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        11,
+        "yvwaOneCompFault11"
+      ],
+      "description": "FILTER - HIGH PHASE C CURRENT"
+    },
+    {
+      "enum": [
+        12,
+        "yvwaOneCompFault12"
+      ],
+      "description": "FILTER - HIGH PHASE B CURRENT"
+    },
+    {
+      "enum": [
+        13,
+        "yvwaOneCompFault13"
+      ],
+      "description": "FILTER - HIGH PHASE A CURRENT"
+    },
+    {
+      "enum": [
+        14,
+        "yvwaOneCompFault14"
+      ],
+      "description": "FILTER - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        15,
+        "yvwaOneCompFault15"
+      ],
+      "description": "FILTER - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        16,
+        "yvwaOneCompFault16"
+      ],
+      "description": "FILTER - PRECHARGE - LOW DC BUS VOLTAGE 2"
+    },
+    {
+      "enum": [
+        17,
+        "yvwaOneCompFault17"
+      ],
+      "description": "FILTER - PRECHARGE - LOW DC BUS VOLTAGE 1"
+    },
+    {
+      "enum": [
+        18,
+        "yvwaOneCompFault18"
+      ],
+      "description": "FILTER - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        19,
+        "yvwaOneCompFault19"
+      ],
+      "description": "FILTER - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        20,
+        "yvwaOneCompFault20"
+      ],
+      "description": "FILTER - INPUT CURRENT OVERLOAD"
+    },
+    {
+      "enum": [
+        21,
+        "yvwaOneCompFault21"
+      ],
+      "description": "FILTER - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        22,
+        "yvwaOneCompFault22"
+      ],
+      "description": "FILTER - DC CURRENT TRANSFORMER 1"
+    },
+    {
+      "enum": [
+        23,
+        "yvwaOneCompFault23"
+      ],
+      "description": "FILTER - DC CURRENT TRANSFORMER 2"
+    },
+    {
+      "enum": [
+        24,
+        "yvwaOneCompFault24"
+      ],
+      "description": "FILTER - HIGH BASEPLATE TEMPERATURE (VYPER)"
+    },
+    {
+      "enum": [
+        25,
+        "yvwaOneCompFault25"
+      ],
+      "description": "IEEE-519 FILTER FAULT"
+    },
+    {
+      "enum": [
+        26,
+        "yvwaOneCompFault26"
+      ],
+      "description": "FILTER - FAULT 33 (NOT USED - VYPER)"
+    },
+    {
+      "enum": [
+        27,
+        "yvwaOneCompFault27"
+      ],
+      "description": "HIGH DISCHARGE PRESSURE (SOFTWARE)"
+    },
+    {
+      "enum": [
+        28,
+        "yvwaOneCompFault28"
+      ],
+      "description": "HIGH DIFFERENTIAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        29,
+        "yvwaOneCompFault29"
+      ],
+      "description": "LOW DIFFERENTIAL OIL PRESSURE"
+    },
+    {
+      "enum": [
+        30,
+        "yvwaOneCompFault30"
+      ],
+      "description": "LOW EVAPORATOR PRESSURE"
+    },
+    {
+      "enum": [
+        31,
+        "yvwaOneCompFault31"
+      ],
+      "description": "HIGH DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        32,
+        "yvwaOneCompFault32"
+      ],
+      "description": "LOW EVAP PRESSURE SMART FREEZE"
+    },
+    {
+      "enum": [
+        33,
+        "yvwaOneCompFault33"
+      ],
+      "description": "EDUCTOR CLOG FAULT"
+    },
+    {
+      "enum": [
+        34,
+        "yvwaOneCompFault34"
+      ],
+      "description": "SENSOR FAILURE"
+    },
+    {
+      "enum": [
+        35,
+        "yvwaOneCompFault35"
+      ],
+      "description": "LOW MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        36,
+        "yvwaOneCompFault36"
+      ],
+      "description": "HIGH MOTOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        37,
+        "yvwaOneCompFault37"
+      ],
+      "description": "VSD - PRECHARGE - LOW DC BUS VOLTAGE 1"
+    },
+    {
+      "enum": [
+        38,
+        "yvwaOneCompFault38"
+      ],
+      "description": "VSD - PRECHARGE - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        39,
+        "yvwaOneCompFault39"
+      ],
+      "description": "VSD - HIGH DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        40,
+        "yvwaOneCompFault40"
+      ],
+      "description": "VSD - LOW DC BUS VOLTAGE"
+    },
+    {
+      "enum": [
+        41,
+        "yvwaOneCompFault41"
+      ],
+      "description": "VSD - DC BUS VOLTAGE IMBALANCE"
+    },
+    {
+      "enum": [
+        42,
+        "yvwaOneCompFault42"
+      ],
+      "description": "VSD - 105 % MOTOR CURRENT OVERLOAD (HARDWARE)"
+    },
+    {
+      "enum": [
+        43,
+        "yvwaOneCompFault43"
+      ],
+      "description": "VSD - 105 % MOTOR CURRENT OVERLOAD (SOFTWARE)"
+    },
+    {
+      "enum": [
+        44,
+        "yvwaOneCompFault44"
+      ],
+      "description": "VSD - MOTOR CURRENT IMBALANCE"
+    },
+    {
+      "enum": [
+        45,
+        "yvwaOneCompFault45"
+      ],
+      "description": "VSD - HIGH INVERTER BASEPLATE TEMPERATURE (270/292/351/424 HP VYPER)"
+    },
+    {
+      "enum": [
+        46,
+        "yvwaOneCompFault46"
+      ],
+      "description": "VSD - SINGLE PHASE INPUT VOLTAGE"
+    },
+    {
+      "enum": [
+        47,
+        "yvwaOneCompFault47"
+      ],
+      "description": "VSD - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        48,
+        "yvwaOneCompFault48"
+      ],
+      "description": "HIGH DISCHARGE PRESS ( HPCO)"
+    },
+    {
+      "enum": [
+        49,
+        "yvwaOneCompFault49"
+      ],
+      "description": "LOW EVAPORATOR PRESS REFRIG TEMP"
+    },
+    {
+      "enum": [
+        50,
+        "yvwaOneCompFault50"
+      ],
+      "description": "CONTROL VOLTAGE FAULT"
+    },
+    {
+      "enum": [
+        51,
+        "yvwaOneCompFault51"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT"
+    },
+    {
+      "enum": [
+        52,
+        "yvwaOneCompFault52"
+      ],
+      "description": "LOW ECONOMIZER SUPERHEAT"
+    },
+    {
+      "enum": [
+        53,
+        "yvwaOneCompFault53"
+      ],
+      "description": "OIL LEVEL LOW"
+    },
+    {
+      "enum": [
+        54,
+        "yvwaOneCompFault54"
+      ],
+      "description": "LOW EVAP PRESS LCHLT"
+    },
+    {
+      "enum": [
+        55,
+        "yvwaOneCompFault55"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "yvwaOneCompFault56"
+      ],
+      "description": "RESERVED 56"
+    },
+    {
+      "enum": [
+        57,
+        "yvwaOneCompFault57"
+      ],
+      "description": "RESERVED 57"
+    },
+    {
+      "enum": [
+        58,
+        "yvwaOneCompFault58"
+      ],
+      "description": "VSD - PRECHARGE - LOW DC BUS VOLTAGE 2"
+    },
+    {
+      "enum": [
+        59,
+        "yvwaOneCompFault59"
+      ],
+      "description": "VSD - PRECHARGE LOCKOUT"
+    },
+    {
+      "enum": [
+        60,
+        "yvwaOneCompFault60"
+      ],
+      "description": "VSD - SERIAL RECEIVE"
+    },
+    {
+      "enum": [
+        61,
+        "yvwaOneCompFault61"
+      ],
+      "description": "VSD - HIGH PHASE A MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        62,
+        "yvwaOneCompFault62"
+      ],
+      "description": "VSD - HIGH PHASE B MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        100,
+        "yvwaOneCompFault100"
+      ],
+      "description": "VSD - HIGH PHASE C MOTOR CURRENT"
+    },
+    {
+      "enum": [
+        101,
+        "yvwaOneCompFault101"
+      ],
+      "description": "VSD - PHASE A GATE DRIVER"
+    },
+    {
+      "enum": [
+        102,
+        "yvwaOneCompFault102"
+      ],
+      "description": "VSD - PHASE B GATE DRIVER"
+    },
+    {
+      "enum": [
+        103,
+        "yvwaOneCompFault103"
+      ],
+      "description": "VSD - PHASE C GATE DRIVER"
+    },
+    {
+      "enum": [
+        104,
+        "yvwaOneCompFault104"
+      ],
+      "description": "VSD - HIGH PHASE A INVERTER BASEPLATE TEMPERATURE (385/419/503/608 HP VYPER)"
+    },
+    {
+      "enum": [
+        105,
+        "yvwaOneCompFault105"
+      ],
+      "description": "VSD - HIGH PHASE B INVERTER BASEPLATE TEMPERATURE (385/419/503/608 HP VYPER)"
+    },
+    {
+      "enum": [
+        106,
+        "yvwaOneCompFault106"
+      ],
+      "description": "VSD - HIGH PHASE C INVERTER BASEPLATE TEMPERATURE (385/419/503/608 HP VYPER)"
+    },
+    {
+      "enum": [
+        107,
+        "yvwaOneCompFault107"
+      ],
+      "description": "VSD - HIGH CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        108,
+        "yvwaOneCompFault108"
+      ],
+      "description": "VSD - LOW INVERTER BASEPLATE TEMPERATURE (270/292/351/424 HP VYPER)"
+    },
+    {
+      "enum": [
+        109,
+        "yvwaOneCompFault109"
+      ],
+      "description": "VSD - LOW PHASE A INVERTER BASEPLATE TEMPERATURE (385/419/503/608 HP VYPER)"
+    },
+    {
+      "enum": [
+        110,
+        "yvwaOneCompFault110"
+      ],
+      "description": "VSD - LOW PHASE B INVERTER BASEPLATE TEMPERATURE (385/419/503/608 HP VYPER)"
+    },
+    {
+      "enum": [
+        111,
+        "yvwaOneCompFault111"
+      ],
+      "description": "VSD - LOW PHASE C INVERTER BASEPLATE TEMPERATURE (385/419/503/608 HP VYPER)"
+    },
+    {
+      "enum": [
+        112,
+        "yvwaOneCompFault112"
+      ],
+      "description": "VSD - LOW CONVERTER HEATSINK TEMPERATURE"
+    },
+    {
+      "enum": [
+        113,
+        "yvwaOneCompFault113"
+      ],
+      "description": "VSD - HIGH INTERNAL AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        114,
+        "yvwaOneCompFault114"
+      ],
+      "description": "VSD - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        115,
+        "yvwaOneCompFault115"
+      ],
+      "description": "VSD - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        116,
+        "yvwaOneCompFault116"
+      ],
+      "description": "VSD - HIGH PHASE A INVERTER HEATSINK TEMPERATURE (MOD D)"
+    },
+    {
+      "enum": [
+        117,
+        "yvwaOneCompFault117"
+      ],
+      "description": "VSD - HIGH PHASE B INVERTER HEATSINK TEMPERATURE (MOD D)"
+    },
+    {
+      "enum": [
+        118,
+        "yvwaOneCompFault118"
+      ],
+      "description": "VSD - HIGH PHASE C INVERTER HEATSINK TEMPERATURE (MOD D)"
+    },
+    {
+      "enum": [
+        119,
+        "yvwaOneCompFault119"
+      ],
+      "description": "VSD - LOW PHASE A INVERTER HEATSINK TEMPERATURE (MOD D)"
+    },
+    {
+      "enum": [
+        120,
+        "yvwaOneCompFault120"
+      ],
+      "description": "VSD - LOW PHASE B INVERTER HEATSINK TEMPERATURE (MOD D)"
+    },
+    {
+      "enum": [
+        121,
+        "yvwaOneCompFault121"
+      ],
+      "description": "VSD - LOW PHASE C INVERTER HEATSINK TEMPERATURE (MOD D)"
+    },
+    {
+      "enum": [
+        122,
+        "yvwaOneCompFault122"
+      ],
+      "description": "VSD - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        123,
+        "yvwaOneCompFault123"
+      ],
+      "description": "VSD – UNDEFINED FAULT"
+    },
+    {
+      "enum": [
+        124,
+        "yvwaOneCompFault124"
+      ],
+      "description": "VSD – FAULT 8 (NOT USED)"
+    },
+    {
+      "enum": [
+        125,
+        "yvwaOneCompFault125"
+      ],
+      "description": "VSD – FAULT 16 (NOT USED - 270/292/351/424 HP VYPER)"
+    },
+    {
+      "enum": [
+        126,
+        "yvwaOneCompFault126"
+      ],
+      "description": "VSD – FAULT 17 (NOT USED - 270/292/351/424 HP VYPER)"
+    },
+    {
+      "enum": [
+        127,
+        "yvwaOneCompFault127"
+      ],
+      "description": "VSD – FAULT 21 (NOT USED - 270/292/351/424 HP VYPER)"
+    },
+    {
+      "enum": [
+        128,
+        "yvwaOneCompFault128"
+      ],
+      "description": "VSD – FAULT 22 (NOT USED - 270/292/351/424 HP VYPER)"
+    },
+    {
+      "enum": [
+        129,
+        "yvwaOneCompFault129"
+      ],
+      "description": "VSD – FAULT 32 (NOT USED)"
+    }
+  ]
+}

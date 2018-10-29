@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snmpMessageFormatEnumSet.schema.json",
+  "title": "snmpMessageFormatEnumSet",
+  "description": "SNMP Message Format",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "snmpMsgFrmtString"
+      ],
+      "description": "String Based"
+    },
+    {
+      "enum": [
+        1,
+        "snmpMsgFrmtMib"
+      ],
+      "description": "MIB Based"
+    }
+  ]
+}

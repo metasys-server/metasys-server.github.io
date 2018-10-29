@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rampStatusEnumSet.schema.json",
+  "title": "rampStatusEnumSet",
+  "description": "Ramp Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rampInactive"
+      ],
+      "description": "Ramp Inactive"
+    },
+    {
+      "enum": [
+        1,
+        "rampingUp"
+      ],
+      "description": "Ramping Up"
+    },
+    {
+      "enum": [
+        2,
+        "rampingDown"
+      ],
+      "description": "Ramping Down"
+    },
+    {
+      "enum": [
+        3,
+        "rampInitialized"
+      ],
+      "description": "Ramp Initialized"
+    }
+  ]
+}

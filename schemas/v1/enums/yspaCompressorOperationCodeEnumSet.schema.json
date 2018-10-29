@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yspaCompressorOperationCodeEnumSet.schema.json",
+  "title": "yspaCompressorOperationCodeEnumSet",
+  "description": "YSPA Compressor Operation Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yspaCompressorOperationCode0"
+      ],
+      "description": "COMPRESSOR STOP"
+    },
+    {
+      "enum": [
+        1,
+        "yspaCompressorOperationCode1"
+      ],
+      "description": "COMPRESSOR STOPPING"
+    },
+    {
+      "enum": [
+        2,
+        "yspaCompressorOperationCode2"
+      ],
+      "description": "COMPRESSOR STARTING"
+    },
+    {
+      "enum": [
+        3,
+        "yspaCompressorOperationCode3"
+      ],
+      "description": "CAPACITY CONTROL LOADING"
+    },
+    {
+      "enum": [
+        4,
+        "yspaCompressorOperationCode4"
+      ],
+      "description": "CAPACITY CONTROL HOLDING"
+    },
+    {
+      "enum": [
+        5,
+        "yspaCompressorOperationCode5"
+      ],
+      "description": "CAPACITY CONTROL UNLOADING"
+    },
+    {
+      "enum": [
+        6,
+        "yspaCompressorOperationCode6"
+      ],
+      "description": "HIGH DISCHARGE PRESSURE UNLOADING"
+    },
+    {
+      "enum": [
+        7,
+        "yspaCompressorOperationCode7"
+      ],
+      "description": "RESERVED_7"
+    },
+    {
+      "enum": [
+        8,
+        "yspaCompressorOperationCode8"
+      ],
+      "description": "HIGH MOTOR CURRENT UNLOADING"
+    },
+    {
+      "enum": [
+        9,
+        "yspaCompressorOperationCode9"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT UNLOADING"
+    },
+    {
+      "enum": [
+        10,
+        "yspaCompressorOperationCode10"
+      ],
+      "description": "HIGH DISCHARGE PRESSURE HOLDING"
+    },
+    {
+      "enum": [
+        11,
+        "yspaCompressorOperationCode11"
+      ],
+      "description": "RESERVED_11"
+    },
+    {
+      "enum": [
+        12,
+        "yspaCompressorOperationCode12"
+      ],
+      "description": "HIGH MOTOR CURRENT HOLDING"
+    },
+    {
+      "enum": [
+        13,
+        "yspaCompressorOperationCode13"
+      ],
+      "description": "LOW DISCHARGE SUPERHEAT HOLDING"
+    },
+    {
+      "enum": [
+        14,
+        "yspaCompressorOperationCode14"
+      ],
+      "description": "DEFROSTING"
+    },
+    {
+      "enum": [
+        15,
+        "yspaCompressorOperationCode15"
+      ],
+      "description": "RESERVED_15"
+    },
+    {
+      "enum": [
+        16,
+        "yspaCompressorOperationCode16"
+      ],
+      "description": "LOW SUCTION PRESSURE UNLOADING IN HEAT MODE"
+    },
+    {
+      "enum": [
+        17,
+        "yspaCompressorOperationCode17"
+      ],
+      "description": "SLIDE VALVE POSITION RESET AFTER POWER ON"
+    },
+    {
+      "enum": [
+        18,
+        "yspaCompressorOperationCode18"
+      ],
+      "description": "CAPACITY CONTROL HOLDING"
+    },
+    {
+      "enum": [
+        19,
+        "yspaCompressorOperationCode19"
+      ],
+      "description": "CAPACITY CONTROL UNLOADING"
+    },
+    {
+      "enum": [
+        20,
+        "yspaCompressorOperationCode20"
+      ],
+      "description": "HIGH SUCTION SUPERHEAT"
+    },
+    {
+      "enum": [
+        21,
+        "yspaCompressorOperationCode21"
+      ],
+      "description": "LACK OF REFRIGERANT"
+    }
+  ]
+}

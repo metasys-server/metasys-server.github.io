@@ -1,0 +1,260 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/objectStatusEnumSet.schema.json",
+  "title": "objectStatusEnumSet",
+  "description": "Object Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "osNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "osInactive"
+      ],
+      "description": "Inactive"
+    },
+    {
+      "enum": [
+        2,
+        "osMonitorModeActive"
+      ],
+      "description": "Monitor Only Mode Active"
+    },
+    {
+      "enum": [
+        5,
+        "osBatteryAlarm"
+      ],
+      "description": "Battery Alarm"
+    },
+    {
+      "enum": [
+        7,
+        "osBelowSetpoint"
+      ],
+      "description": "Below Setpoint"
+    },
+    {
+      "enum": [
+        8,
+        "osAboveSetpoint"
+      ],
+      "description": "Above Setpoint"
+    },
+    {
+      "enum": [
+        10,
+        "osLowWarning"
+      ],
+      "description": "Low Warning"
+    },
+    {
+      "enum": [
+        15,
+        "osHighWarning"
+      ],
+      "description": "High Warning"
+    },
+    {
+      "enum": [
+        17,
+        "osUnoccupied"
+      ],
+      "description": "Unoccupied"
+    },
+    {
+      "enum": [
+        20,
+        "osTrouble"
+      ],
+      "description": "Trouble"
+    },
+    {
+      "enum": [
+        25,
+        "osSabDeviceWarning"
+      ],
+      "description": "SAB Device Warning"
+    },
+    {
+      "enum": [
+        30,
+        "osLowAlarm"
+      ],
+      "description": "Low Alarm"
+    },
+    {
+      "enum": [
+        34,
+        "osHighAlarm"
+      ],
+      "description": "High Alarm"
+    },
+    {
+      "enum": [
+        38,
+        "osAlarm"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        50,
+        "osUsingStartupValue"
+      ],
+      "description": "Using Startup Value"
+    },
+    {
+      "enum": [
+        51,
+        "osUsingDefVal"
+      ],
+      "description": "Using Default Value"
+    },
+    {
+      "enum": [
+        55,
+        "osOutputClipped"
+      ],
+      "description": "Output Clipped"
+    },
+    {
+      "enum": [
+        60,
+        "osHwValueOverwritten"
+      ],
+      "description": "HW Value Overwritten"
+    },
+    {
+      "enum": [
+        65,
+        "osSuspended"
+      ],
+      "description": "OS Suspended"
+    },
+    {
+      "enum": [
+        70,
+        "osUnreliable"
+      ],
+      "description": "Unreliable"
+    },
+    {
+      "enum": [
+        73,
+        "osSabDeviceAlarm"
+      ],
+      "description": "SAB Device Alarm"
+    },
+    {
+      "enum": [
+        75,
+        "osDisconnected"
+      ],
+      "description": "Disconnected"
+    },
+    {
+      "enum": [
+        80,
+        "osOverridden"
+      ],
+      "description": "Overridden"
+    },
+    {
+      "enum": [
+        86,
+        "osOperatorOverride"
+      ],
+      "description": "Operator Override"
+    },
+    {
+      "enum": [
+        87,
+        "osInTest"
+      ],
+      "description": "In Test"
+    },
+    {
+      "enum": [
+        88,
+        "osHeavyEquipDelay"
+      ],
+      "description": "Heavy Equip Delay"
+    },
+    {
+      "enum": [
+        90,
+        "osMinOnMinOff"
+      ],
+      "description": "Min On Min Off"
+    },
+    {
+      "enum": [
+        91,
+        "osCriticalResMissing"
+      ],
+      "description": "Critical Resource Missing"
+    },
+    {
+      "enum": [
+        99,
+        "osHighPriority"
+      ],
+      "description": "High Priority"
+    },
+    {
+      "enum": [
+        100,
+        "osInsufficientCapacity"
+      ],
+      "description": "Insufficient Capacity"
+    },
+    {
+      "enum": [
+        102,
+        "osDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        108,
+        "osOutOfService"
+      ],
+      "description": "Out of Service"
+    },
+    {
+      "enum": [
+        110,
+        "osHwOverride"
+      ],
+      "description": "HW Override"
+    },
+    {
+      "enum": [
+        112,
+        "osOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        115,
+        "osShutdown"
+      ],
+      "description": "Shutdown"
+    },
+    {
+      "enum": [
+        120,
+        "osMaxObjectStatus"
+      ],
+      "description": "Max"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/orientationEnumSet.schema.json",
+  "title": "orientationEnumSet",
+  "description": "Orientation",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "portraitOrientation"
+      ],
+      "description": "Portrait"
+    },
+    {
+      "enum": [
+        1,
+        "landscapeOrientation"
+      ],
+      "description": "Landscape"
+    }
+  ]
+}

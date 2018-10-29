@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcResetEnumSet.schema.json",
+  "title": "unityXlcResetEnumSet",
+  "description": "Unity XLC Reset",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "RESET"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "RESET1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "RESET2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "RESET3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, RESET"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, RESET1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

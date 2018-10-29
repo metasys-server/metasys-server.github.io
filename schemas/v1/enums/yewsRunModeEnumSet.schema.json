@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yewsRunModeEnumSet.schema.json",
+  "title": "yewsRunModeEnumSet",
+  "description": "YEWS Run Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yewsRunMode0"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        1,
+        "yewsRunMode1"
+      ],
+      "description": "Ice Storage"
+    },
+    {
+      "enum": [
+        2,
+        "yewsRunMode2"
+      ],
+      "description": "Heat Pump"
+    },
+    {
+      "enum": [
+        3,
+        "yewsRunMode3"
+      ],
+      "description": "Remote"
+    }
+  ]
+}

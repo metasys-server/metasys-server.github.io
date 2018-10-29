@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconEconomizerStatusEnumSet.schema.json",
+  "title": "seEconEconomizerStatusEnumSet",
+  "description": "SE ECON Economizer Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconEconomizerStatusIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seEconEconomizerStatusDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        2,
+        "seEconEconomizerStatusDamperNotFunctional"
+      ],
+      "description": "Damper Not Functional"
+    },
+    {
+      "enum": [
+        3,
+        "seEconEconomizerStatusPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        4,
+        "seEconEconomizerStatusUnavailableSensorFault"
+      ],
+      "description": "Unavailable-Sensor Fault"
+    },
+    {
+      "enum": [
+        5,
+        "seEconEconomizerStatusSatCoolingLiimit"
+      ],
+      "description": "SAT Cooling Limit"
+    },
+    {
+      "enum": [
+        6,
+        "seEconEconomizerStatusDemandVentilationAirQuality"
+      ],
+      "description": "Demand Ventilation Air Quality"
+    },
+    {
+      "enum": [
+        7,
+        "seEconEconomizerStatusOutdoorAirflowControl"
+      ],
+      "description": "Outdoor Airflow Control"
+    },
+    {
+      "enum": [
+        8,
+        "seEconEconomizerStatusFreeCoolingIsActive"
+      ],
+      "description": "Free Cooling is Active"
+    },
+    {
+      "enum": [
+        9,
+        "seEconEconomizerStatusMinimumPosition"
+      ],
+      "description": "Minimum Position"
+    },
+    {
+      "enum": [
+        10,
+        "seEconEconomizerStatusDustSensorActive"
+      ],
+      "description": "Dust Sensor Active"
+    },
+    {
+      "enum": [
+        11,
+        "seEconEconomizerStatusHumidityLockoutActive"
+      ],
+      "description": "Humidity Lockout Active"
+    },
+    {
+      "enum": [
+        12,
+        "seEconEconomizerStatusEmergencyVent"
+      ],
+      "description": "Emergency Vent"
+    }
+  ]
+}

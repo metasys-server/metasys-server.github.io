@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuHumStagedEnumSet.schema.json",
+  "title": "ahuHumStagedEnumSet",
+  "description": "AHU Hum Staged",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahuHsOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahuHsInstantShutdown"
+      ],
+      "description": "Instant Shutdown"
+    },
+    {
+      "enum": [
+        2,
+        "ahuHsControl"
+      ],
+      "description": "H Control"
+    },
+    {
+      "enum": [
+        3,
+        "ahuHsLmtHControl"
+      ],
+      "description": "Limited H Control"
+    }
+  ]
+}

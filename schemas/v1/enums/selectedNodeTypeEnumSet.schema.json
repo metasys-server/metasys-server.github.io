@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/selectedNodeTypeEnumSet.schema.json",
+  "title": "selectedNodeTypeEnumSet",
+  "description": "Selected Node Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sntSite"
+      ],
+      "description": "Site"
+    },
+    {
+      "enum": [
+        1,
+        "sntSupervisoryController"
+      ],
+      "description": "Supervisory Controller"
+    },
+    {
+      "enum": [
+        2,
+        "sntFieldBus"
+      ],
+      "description": "Field Bus"
+    },
+    {
+      "enum": [
+        3,
+        "sntFieldController"
+      ],
+      "description": "Field Controller"
+    }
+  ]
+}

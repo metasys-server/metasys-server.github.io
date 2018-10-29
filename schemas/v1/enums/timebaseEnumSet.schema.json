@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/timebaseEnumSet.schema.json",
+  "title": "timebaseEnumSet",
+  "description": "Timebase",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seconds"
+      ],
+      "description": "Seconds"
+    },
+    {
+      "enum": [
+        1,
+        "minutes"
+      ],
+      "description": "Minutes"
+    },
+    {
+      "enum": [
+        2,
+        "hours"
+      ],
+      "description": "Hours"
+    },
+    {
+      "enum": [
+        3,
+        "timebaseDays"
+      ],
+      "description": "Days"
+    }
+  ]
+}

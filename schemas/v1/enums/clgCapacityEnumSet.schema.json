@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/clgCapacityEnumSet.schema.json",
+  "title": "clgCapacityEnumSet",
+  "description": "Clg Capacity",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Hold Capacity"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Increment Capacity"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Decrement Capacity"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Cooling Off"
+    }
+  ]
+}

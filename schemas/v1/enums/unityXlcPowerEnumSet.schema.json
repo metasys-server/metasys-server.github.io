@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityXlcPowerEnumSet.schema.json",
+  "title": "unityXlcPowerEnumSet",
+  "description": "Unity XLC Power",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "PWR"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "PWR1"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "PWR2"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "PWR3"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "FIXED, PWR"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "FIXED, PWR1"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "RELEASE"
+    }
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ysYnSc3EnumSet.schema.json",
+  "title": "ysYnSc3EnumSet",
+  "description": "YS/YN Cycling Code SC.3",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ysYnSc30"
+      ],
+      "description": "NO CYCLING FAULTS PRESENT"
+    },
+    {
+      "enum": [
+        1,
+        "ysYnSc31"
+      ],
+      "description": "MULTI-UNIT CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        2,
+        "ysYnSc32"
+      ],
+      "description": "SYSTEM CYCLING - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        3,
+        "ysYnSc33"
+      ],
+      "description": "OIL - LOW TEMPERATURE DIFFERENTIAL"
+    },
+    {
+      "enum": [
+        4,
+        "ysYnSc34"
+      ],
+      "description": "OIL - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        5,
+        "ysYnSc35"
+      ],
+      "description": "CONTROL PANEL - POWER FAILURE"
+    },
+    {
+      "enum": [
+        6,
+        "ysYnSc36"
+      ],
+      "description": "LEAVING CHILLED LIQUID - LOW TEMPERATURE"
+    },
+    {
+      "enum": [
+        7,
+        "ysYnSc37"
+      ],
+      "description": "LEAVING CHILLED LIQUID - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        8,
+        "ysYnSc38"
+      ],
+      "description": "CONDENSER - FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "ysYnSc39"
+      ],
+      "description": "MOTOR CONTROLLER - CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        10,
+        "ysYnSc310"
+      ],
+      "description": "MOTOR CONTROLLER - LOSS OF CURRENT"
+    },
+    {
+      "enum": [
+        11,
+        "ysYnSc311"
+      ],
+      "description": "POWER FAULT"
+    },
+    {
+      "enum": [
+        12,
+        "ysYnSc312"
+      ],
+      "description": "CONTROL PANEL - SCHEDULE"
+    },
+    {
+      "enum": [
+        13,
+        "ysYnSc313"
+      ],
+      "description": "STARTER - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        14,
+        "ysYnSc314"
+      ],
+      "description": "STARTER - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        15,
+        "ysYnSc315"
+      ],
+      "description": "PROXIMITY PROBE - LOW SUPPLY VOLTAGE"
+    },
+    {
+      "enum": [
+        16,
+        "ysYnSc316"
+      ],
+      "description": "OIL - VARIABLE SPEED PUMP - DRIVE CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        17,
+        "ysYnSc317"
+      ],
+      "description": "RESERVED 17"
+    },
+    {
+      "enum": [
+        18,
+        "ysYnSc318"
+      ],
+      "description": "RESERVED 18"
+    },
+    {
+      "enum": [
+        19,
+        "ysYnSc319"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "ysYnSc320"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "ysYnSc321"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "ysYnSc322"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "ysYnSc323"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "ysYnSc324"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "ysYnSc325"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "ysYnSc326"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "ysYnSc327"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "ysYnSc328"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "ysYnSc329"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "ysYnSc330"
+      ],
+      "description": "RESERVED 30"
+    },
+    {
+      "enum": [
+        31,
+        "ysYnSc331"
+      ],
+      "description": "RESERVED 31"
+    },
+    {
+      "enum": [
+        32,
+        "ysYnSc332"
+      ],
+      "description": "RESERVED 32"
+    },
+    {
+      "enum": [
+        33,
+        "ysYnSc333"
+      ],
+      "description": "RESERVED 33"
+    },
+    {
+      "enum": [
+        34,
+        "ysYnSc334"
+      ],
+      "description": "RESERVED 34"
+    },
+    {
+      "enum": [
+        35,
+        "ysYnSc335"
+      ],
+      "description": "RESERVED 35"
+    },
+    {
+      "enum": [
+        36,
+        "ysYnSc336"
+      ],
+      "description": "RESERVED 36"
+    },
+    {
+      "enum": [
+        37,
+        "ysYnSc337"
+      ],
+      "description": "RESERVED 37"
+    },
+    {
+      "enum": [
+        38,
+        "ysYnSc338"
+      ],
+      "description": "RESERVED 38"
+    },
+    {
+      "enum": [
+        39,
+        "ysYnSc339"
+      ],
+      "description": "RESERVED 39"
+    },
+    {
+      "enum": [
+        40,
+        "ysYnSc340"
+      ],
+      "description": "RESERVED 40"
+    },
+    {
+      "enum": [
+        41,
+        "ysYnSc341"
+      ],
+      "description": "RESERVED 41"
+    },
+    {
+      "enum": [
+        42,
+        "ysYnSc342"
+      ],
+      "description": "RESERVED 42"
+    },
+    {
+      "enum": [
+        43,
+        "ysYnSc343"
+      ],
+      "description": "RESERVED 43"
+    },
+    {
+      "enum": [
+        44,
+        "ysYnSc344"
+      ],
+      "description": "RESERVED 44"
+    },
+    {
+      "enum": [
+        45,
+        "ysYnSc345"
+      ],
+      "description": "RESERVED 45"
+    },
+    {
+      "enum": [
+        46,
+        "ysYnSc346"
+      ],
+      "description": "RESERVED 46"
+    },
+    {
+      "enum": [
+        47,
+        "ysYnSc347"
+      ],
+      "description": "RESERVED 47"
+    },
+    {
+      "enum": [
+        48,
+        "ysYnSc348"
+      ],
+      "description": "RESERVED 48"
+    },
+    {
+      "enum": [
+        49,
+        "ysYnSc349"
+      ],
+      "description": "RESERVED 49"
+    },
+    {
+      "enum": [
+        50,
+        "ysYnSc350"
+      ],
+      "description": "RESERVED 50"
+    },
+    {
+      "enum": [
+        51,
+        "ysYnSc351"
+      ],
+      "description": "RESERVED 51"
+    },
+    {
+      "enum": [
+        52,
+        "ysYnSc352"
+      ],
+      "description": "RESERVED 52"
+    },
+    {
+      "enum": [
+        53,
+        "ysYnSc353"
+      ],
+      "description": "RESERVED 53"
+    },
+    {
+      "enum": [
+        54,
+        "ysYnSc354"
+      ],
+      "description": "RESERVED 54"
+    },
+    {
+      "enum": [
+        55,
+        "ysYnSc355"
+      ],
+      "description": "RESERVED 55"
+    },
+    {
+      "enum": [
+        56,
+        "ysYnSc356"
+      ],
+      "description": "LCSSS INITIALIZATION FAILED"
+    },
+    {
+      "enum": [
+        57,
+        "ysYnSc357"
+      ],
+      "description": "LCSSS SHUTDOWN - REQUESTING FAULT DATA…"
+    },
+    {
+      "enum": [
+        58,
+        "ysYnSc358"
+      ],
+      "description": "LCSSS - LOW PHASE A TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        59,
+        "ysYnSc359"
+      ],
+      "description": "LCSSS - LOW PHASE B TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        60,
+        "ysYnSc360"
+      ],
+      "description": "LCSSS - LOW PHASE C TEMPERATURE SENSOR"
+    },
+    {
+      "enum": [
+        61,
+        "ysYnSc361"
+      ],
+      "description": "LCSSS - PHASE LOCKED LOOP"
+    },
+    {
+      "enum": [
+        62,
+        "ysYnSc362"
+      ],
+      "description": "LCSSS - POWER FAULT"
+    },
+    {
+      "enum": [
+        63,
+        "ysYnSc363"
+      ],
+      "description": "LCSSS - HIGH SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        64,
+        "ysYnSc364"
+      ],
+      "description": "LCSSS - LOW SUPPLY LINE VOLTAGE"
+    },
+    {
+      "enum": [
+        65,
+        "ysYnSc365"
+      ],
+      "description": "LCSSS - INVALID CURRENT SCALE SELECTION"
+    },
+    {
+      "enum": [
+        66,
+        "ysYnSc366"
+      ],
+      "description": "LCSSS - RUN SIGNAL"
+    },
+    {
+      "enum": [
+        67,
+        "ysYnSc367"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        68,
+        "ysYnSc368"
+      ],
+      "description": "LCSSS - STOP CONTACTS OPEN"
+    },
+    {
+      "enum": [
+        69,
+        "ysYnSc369"
+      ],
+      "description": "LCSSS - INVALID FLA"
+    },
+    {
+      "enum": [
+        70,
+        "ysYnSc370"
+      ],
+      "description": "LCSSS - LOGIC BOARD PROCESSOR"
+    },
+    {
+      "enum": [
+        71,
+        "ysYnSc371"
+      ],
+      "description": "LCSSS - DSP COMMUNICATION FAILURE"
+    },
+    {
+      "enum": [
+        72,
+        "ysYnSc372"
+      ],
+      "description": "LCSSS - LOGIC BOARD POWER SUPPLY"
+    },
+    {
+      "enum": [
+        73,
+        "ysYnSc373"
+      ],
+      "description": "RESERVED 73"
+    },
+    {
+      "enum": [
+        74,
+        "ysYnSc374"
+      ],
+      "description": "LCSSS - SERIAL COMMUNICATIONS"
+    },
+    {
+      "enum": [
+        75,
+        "ysYnSc375"
+      ],
+      "description": "LCSSS - PHASE LOSS"
+    },
+    {
+      "enum": [
+        76,
+        "ysYnSc376"
+      ],
+      "description": "RESERVED 76"
+    },
+    {
+      "enum": [
+        77,
+        "ysYnSc377"
+      ],
+      "description": "MOTOR HIGH WINDING TEMPERATURE"
+    },
+    {
+      "enum": [
+        78,
+        "ysYnSc378"
+      ],
+      "description": "RESERVED 78"
+    },
+    {
+      "enum": [
+        79,
+        "ysYnSc379"
+      ],
+      "description": "RESERVED 79"
+    },
+    {
+      "enum": [
+        80,
+        "ysYnSc380"
+      ],
+      "description": "RESERVED 80"
+    },
+    {
+      "enum": [
+        81,
+        "ysYnSc381"
+      ],
+      "description": "SSS SHUTDOWN - REQUESTING FAULT DATA…"
+    },
+    {
+      "enum": [
+        82,
+        "ysYnSc382"
+      ],
+      "description": "RESERVED 82"
+    },
+    {
+      "enum": [
+        83,
+        "ysYnSc383"
+      ],
+      "description": "RESERVED 83"
+    }
+  ]
+}

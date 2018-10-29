@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/networkStatusEnumSet.schema.json",
+  "title": "networkStatusEnumSet",
+  "description": "Network Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "disconnectedNetworkStatus"
+      ],
+      "description": "Disconnected"
+    },
+    {
+      "enum": [
+        1,
+        "connectingNetworkStatus"
+      ],
+      "description": "Connecting"
+    },
+    {
+      "enum": [
+        2,
+        "connectedNetworkStatus"
+      ],
+      "description": "Connected"
+    },
+    {
+      "enum": [
+        3,
+        "disconnectingNetworkStatus"
+      ],
+      "description": "Disconnecting"
+    },
+    {
+      "enum": [
+        4,
+        "hwNotPresentNetworkStatus"
+      ],
+      "description": "Hardware not present"
+    },
+    {
+      "enum": [
+        5,
+        "hwDisabledNetworkStatus"
+      ],
+      "description": "Hardware disabled"
+    },
+    {
+      "enum": [
+        6,
+        "hwMalfunctionNetworkStatus"
+      ],
+      "description": "Hardware malfunction"
+    },
+    {
+      "enum": [
+        7,
+        "mediaDisconNetworkStatus"
+      ],
+      "description": "Media disconnected"
+    },
+    {
+      "enum": [
+        8,
+        "authenticatingNetworkStatus"
+      ],
+      "description": "Authenticating"
+    },
+    {
+      "enum": [
+        9,
+        "authSucceededNetworkStatus"
+      ],
+      "description": "Authentication succeeded"
+    },
+    {
+      "enum": [
+        10,
+        "authFailedNetworkStatus"
+      ],
+      "description": "Authentication failed"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/alarmFlagsEnumSet.schema.json",
+  "title": "alarmFlagsEnumSet",
+  "description": "Alarm Flags",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "onoffActionFailureEnum"
+      ],
+      "description": "OnOff Action Failure"
+    },
+    {
+      "enum": [
+        1,
+        "irregularActionEnum"
+      ],
+      "description": "Irregular Action"
+    }
+  ]
+}

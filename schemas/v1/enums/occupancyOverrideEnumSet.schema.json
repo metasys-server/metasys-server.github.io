@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occupancyOverrideEnumSet.schema.json",
+  "title": "occupancyOverrideEnumSet",
+  "description": "Occ Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "occupancyOverrideOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "occupancyOverrideUnoccupied"
+      ],
+      "description": "UnOccupied"
+    },
+    {
+      "enum": [
+        2,
+        "occupancyOverrideBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        3,
+        "occupancyOverrideStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        4,
+        "occupancyOverrideNotSet"
+      ],
+      "description": "Not Set"
+    }
+  ]
+}

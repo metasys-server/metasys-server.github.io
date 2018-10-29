@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/otisControllerPvSet.schema.json",
+  "title": "otisControllerPvSet",
+  "description": "Otis Controller Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "otisControllerPvNotInitialized"
+      ],
+      "description": "Not Initialized"
+    },
+    {
+      "enum": [
+        1,
+        "otisControllerPvOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        2,
+        "otisControllerPvOffline"
+      ],
+      "description": "Offline"
+    },
+    {
+      "enum": [
+        3,
+        "otisControllerPvFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

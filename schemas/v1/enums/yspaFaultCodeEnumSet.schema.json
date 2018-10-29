@@ -1,0 +1,722 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/yspaFaultCodeEnumSet.schema.json",
+  "title": "yspaFaultCodeEnumSet",
+  "description": "YSPA Fault Codes",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "yspaFaultCode0"
+      ],
+      "description": "NO FAULT"
+    },
+    {
+      "enum": [
+        1,
+        "yspaFaultCode1"
+      ],
+      "description": "HMI COMM FAULT"
+    },
+    {
+      "enum": [
+        2,
+        "yspaFaultCode2"
+      ],
+      "description": "#1 SYS COMM FAULT"
+    },
+    {
+      "enum": [
+        3,
+        "yspaFaultCode3"
+      ],
+      "description": "#2 SYS COMM FAULT"
+    },
+    {
+      "enum": [
+        4,
+        "yspaFaultCode4"
+      ],
+      "description": "RESERVED 4"
+    },
+    {
+      "enum": [
+        5,
+        "yspaFaultCode5"
+      ],
+      "description": "RESERVED 5"
+    },
+    {
+      "enum": [
+        6,
+        "yspaFaultCode6"
+      ],
+      "description": "MAIN AI1 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        7,
+        "yspaFaultCode7"
+      ],
+      "description": "MAIN AI2 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        8,
+        "yspaFaultCode8"
+      ],
+      "description": "MAIN AI3 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        9,
+        "yspaFaultCode9"
+      ],
+      "description": "MAIN AI4 SENSOR FAULT - AMBIENT TEMPERATURE"
+    },
+    {
+      "enum": [
+        10,
+        "yspaFaultCode10"
+      ],
+      "description": "MAIN AI5 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        11,
+        "yspaFaultCode11"
+      ],
+      "description": "MAIN AI6 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        12,
+        "yspaFaultCode12"
+      ],
+      "description": "MAIN AI7 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        13,
+        "yspaFaultCode13"
+      ],
+      "description": "MAIN AI8 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        14,
+        "yspaFaultCode14"
+      ],
+      "description": "MAIN DI1 SW OPEN"
+    },
+    {
+      "enum": [
+        15,
+        "yspaFaultCode15"
+      ],
+      "description": "MAIN DI2 SW OPEN - FLOW SWITCH"
+    },
+    {
+      "enum": [
+        16,
+        "yspaFaultCode16"
+      ],
+      "description": "MAIN DI3 SW OPEN"
+    },
+    {
+      "enum": [
+        17,
+        "yspaFaultCode17"
+      ],
+      "description": "MAIN DI4 SW OPEN - EXTERNAL INTERLOCK"
+    },
+    {
+      "enum": [
+        18,
+        "yspaFaultCode18"
+      ],
+      "description": "MAIN DI5 SW OPEN"
+    },
+    {
+      "enum": [
+        19,
+        "yspaFaultCode19"
+      ],
+      "description": "MAIN DI6 SW OPEN"
+    },
+    {
+      "enum": [
+        20,
+        "yspaFaultCode20"
+      ],
+      "description": "MAIN DI7 SW OPEN"
+    },
+    {
+      "enum": [
+        21,
+        "yspaFaultCode21"
+      ],
+      "description": "MAIN DI8 SW OPEN"
+    },
+    {
+      "enum": [
+        22,
+        "yspaFaultCode22"
+      ],
+      "description": "MAIN RUN1 FAULT"
+    },
+    {
+      "enum": [
+        23,
+        "yspaFaultCode23"
+      ],
+      "description": "MAIN RUN2 FAULT"
+    },
+    {
+      "enum": [
+        24,
+        "yspaFaultCode24"
+      ],
+      "description": "MAIN RUN3 FAULT"
+    },
+    {
+      "enum": [
+        25,
+        "yspaFaultCode25"
+      ],
+      "description": "MAIN RUN4 FAULT"
+    },
+    {
+      "enum": [
+        26,
+        "yspaFaultCode26"
+      ],
+      "description": "MAIN RUN5 FAULT"
+    },
+    {
+      "enum": [
+        27,
+        "yspaFaultCode27"
+      ],
+      "description": "MAIN RUN6 FAULT"
+    },
+    {
+      "enum": [
+        28,
+        "yspaFaultCode28"
+      ],
+      "description": "MAIN RUN7 FAULT"
+    },
+    {
+      "enum": [
+        29,
+        "yspaFaultCode29"
+      ],
+      "description": "MAIN RUN8 FAULT"
+    },
+    {
+      "enum": [
+        30,
+        "yspaFaultCode30"
+      ],
+      "description": "MAIN RUN9 FAULT"
+    },
+    {
+      "enum": [
+        31,
+        "yspaFaultCode31"
+      ],
+      "description": "MAIN RUN10 FAULT"
+    },
+    {
+      "enum": [
+        32,
+        "yspaFaultCode32"
+      ],
+      "description": "MAIN RUN11 FAULT"
+    },
+    {
+      "enum": [
+        33,
+        "yspaFaultCode33"
+      ],
+      "description": "MAIN RUN12 FAULT"
+    },
+    {
+      "enum": [
+        34,
+        "yspaFaultCode34"
+      ],
+      "description": "MAIN RUN13 FAULT"
+    },
+    {
+      "enum": [
+        35,
+        "yspaFaultCode35"
+      ],
+      "description": "MAIN RUN14 FAULT"
+    },
+    {
+      "enum": [
+        36,
+        "yspaFaultCode36"
+      ],
+      "description": "MAIN RUN15 FAULT"
+    },
+    {
+      "enum": [
+        37,
+        "yspaFaultCode37"
+      ],
+      "description": "MAIN RUN16 FAULT"
+    },
+    {
+      "enum": [
+        38,
+        "yspaFaultCode38"
+      ],
+      "description": "#1/#2 AI1 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        39,
+        "yspaFaultCode39"
+      ],
+      "description": "#1/#2 AI2 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        40,
+        "yspaFaultCode40"
+      ],
+      "description": "#1/#2 AI3 SENSOR FAULT - DISCHARGE TEMPERATURE"
+    },
+    {
+      "enum": [
+        41,
+        "yspaFaultCode41"
+      ],
+      "description": "#1/#2 AI4 SENSOR FAULT - 1ST SUCTION TEMPERATURE"
+    },
+    {
+      "enum": [
+        42,
+        "yspaFaultCode42"
+      ],
+      "description": "#1/#2 AI5 SENSOR FAULT - 2ND SUCTION TEMPERATURE"
+    },
+    {
+      "enum": [
+        43,
+        "yspaFaultCode43"
+      ],
+      "description": "#1/#2 AI6 SENSOR FAULT - ECO TEMPERATURE"
+    },
+    {
+      "enum": [
+        44,
+        "yspaFaultCode44"
+      ],
+      "description": "#1/#2 AI7 SENSOR FAULT - SUCTION PRESSURE"
+    },
+    {
+      "enum": [
+        45,
+        "yspaFaultCode45"
+      ],
+      "description": "#1/#2 AI8 SENSOR FAULT - OIL PRESSURE"
+    },
+    {
+      "enum": [
+        46,
+        "yspaFaultCode46"
+      ],
+      "description": "#1/#2 AI9 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        47,
+        "yspaFaultCode47"
+      ],
+      "description": "#1/#2 AI10 SENSOR FAULT - DISCHARGE PRESSURE"
+    },
+    {
+      "enum": [
+        48,
+        "yspaFaultCode48"
+      ],
+      "description": "#1/#2 AI11 SENSOR FAULT - ECO PRESSURE"
+    },
+    {
+      "enum": [
+        49,
+        "yspaFaultCode49"
+      ],
+      "description": "#1/#2 AI12 SENSOR FAULT - LIQUID LINE REFRIGERANT TEMPERATURE"
+    },
+    {
+      "enum": [
+        50,
+        "yspaFaultCode50"
+      ],
+      "description": "#1/#2 AI13 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        51,
+        "yspaFaultCode51"
+      ],
+      "description": "#1/#2 AI14 SENSOR FAULT - 1ST COIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        52,
+        "yspaFaultCode52"
+      ],
+      "description": "#1/#2 AI15 SENSOR FAULT - 2ND COIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        53,
+        "yspaFaultCode53"
+      ],
+      "description": "#1/#2 AI16 SENSOR FAULT - 3RD COIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        54,
+        "yspaFaultCode54"
+      ],
+      "description": "#1/#2 AI17 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        55,
+        "yspaFaultCode55"
+      ],
+      "description": "#1/#2 AI18 SENSOR FAULT - 4TH COIL TEMPERATURE"
+    },
+    {
+      "enum": [
+        56,
+        "yspaFaultCode56"
+      ],
+      "description": "#1/#2 AI19 SENSOR FAULT - MIDDLE TANK PRESSURE"
+    },
+    {
+      "enum": [
+        57,
+        "yspaFaultCode57"
+      ],
+      "description": "#1/#2 AI20 SENSOR FAULT - LIQUID LINE REFRIGERANT PRESSURE"
+    },
+    {
+      "enum": [
+        58,
+        "yspaFaultCode58"
+      ],
+      "description": "#1/#2 AI21 SENSOR FAULT - LEAVING CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        59,
+        "yspaFaultCode59"
+      ],
+      "description": "#1/#2 AI22 SENSOR FAULT - RETURN CHILLED LIQUID TEMPERATURE"
+    },
+    {
+      "enum": [
+        60,
+        "yspaFaultCode60"
+      ],
+      "description": "#1/#2 AI23 SENSOR FAULT"
+    },
+    {
+      "enum": [
+        61,
+        "yspaFaultCode61"
+      ],
+      "description": "#1/#2 AI24 SENSOR FAULT - MOTOR TEMPERATURE"
+    },
+    {
+      "enum": [
+        62,
+        "yspaFaultCode62"
+      ],
+      "description": "#1/#2 DI1 SW OPEN"
+    },
+    {
+      "enum": [
+        63,
+        "yspaFaultCode63"
+      ],
+      "description": "#1/#2 DI2 SW OPEN - OIL LEVEL SWITCH OPEN"
+    },
+    {
+      "enum": [
+        64,
+        "yspaFaultCode64"
+      ],
+      "description": "#1/#2 DI3 SW OPEN - DISCHARGE PRESSURE SWITCH OPEN"
+    },
+    {
+      "enum": [
+        65,
+        "yspaFaultCode65"
+      ],
+      "description": "#1/#2 DI4 SW OPEN - START-UP"
+    },
+    {
+      "enum": [
+        66,
+        "yspaFaultCode66"
+      ],
+      "description": "#1/#2 DI5 SW OPEN - INT MOTOR PROTECTION SWITCH OPEN"
+    },
+    {
+      "enum": [
+        67,
+        "yspaFaultCode67"
+      ],
+      "description": "#1/#2 DI6 SW OPEN - EXT MOTOR PROTECTION SWITCH OPEN"
+    },
+    {
+      "enum": [
+        68,
+        "yspaFaultCode68"
+      ],
+      "description": "#1/#2 DI7 SW OPEN - POWER SUPPLY PROTECTION"
+    },
+    {
+      "enum": [
+        69,
+        "yspaFaultCode69"
+      ],
+      "description": "#1/#2 DI8 SW OPEN"
+    },
+    {
+      "enum": [
+        70,
+        "yspaFaultCode70"
+      ],
+      "description": "#1/#2 HIGH CURR"
+    },
+    {
+      "enum": [
+        71,
+        "yspaFaultCode71"
+      ],
+      "description": "#1/#2 LOW CURR"
+    },
+    {
+      "enum": [
+        72,
+        "yspaFaultCode72"
+      ],
+      "description": "#1/#2 LOW SUC PRESS"
+    },
+    {
+      "enum": [
+        73,
+        "yspaFaultCode73"
+      ],
+      "description": "#1/#2 HIGH DIS PRESS"
+    },
+    {
+      "enum": [
+        74,
+        "yspaFaultCode74"
+      ],
+      "description": "#1/#2 HIGH DIS TEMP"
+    },
+    {
+      "enum": [
+        75,
+        "yspaFaultCode75"
+      ],
+      "description": "#1/#2 SUCT1 ABNORMAL"
+    },
+    {
+      "enum": [
+        76,
+        "yspaFaultCode76"
+      ],
+      "description": "#1/#2 LOW DIFF PRESS"
+    },
+    {
+      "enum": [
+        77,
+        "yspaFaultCode77"
+      ],
+      "description": "#1/#2 SUCT2 ABNORMAL"
+    },
+    {
+      "enum": [
+        78,
+        "yspaFaultCode78"
+      ],
+      "description": "#1/#2 OIL DIFF FAULT"
+    },
+    {
+      "enum": [
+        79,
+        "yspaFaultCode79"
+      ],
+      "description": "#1/#2 LOW DIS SH"
+    },
+    {
+      "enum": [
+        80,
+        "yspaFaultCode80"
+      ],
+      "description": "#1/#2 CHANGE POSITION"
+    },
+    {
+      "enum": [
+        81,
+        "yspaFaultCode81"
+      ],
+      "description": "#1/#2 LOW LCHLT"
+    },
+    {
+      "enum": [
+        82,
+        "yspaFaultCode82"
+      ],
+      "description": "#1/#2 HIGH LHLT"
+    },
+    {
+      "enum": [
+        83,
+        "yspaFaultCode83"
+      ],
+      "description": "#1/#2 HIGH MOTOR TEMP"
+    },
+    {
+      "enum": [
+        84,
+        "yspaFaultCode84"
+      ],
+      "description": "#1/#2 OIL PUMP FAILURE"
+    },
+    {
+      "enum": [
+        85,
+        "yspaFaultCode85"
+      ],
+      "description": "#1/#2 DIS LIQ ABNORMAL"
+    },
+    {
+      "enum": [
+        86,
+        "yspaFaultCode86"
+      ],
+      "description": "#1/#2 LOW AMBT"
+    },
+    {
+      "enum": [
+        87,
+        "yspaFaultCode87"
+      ],
+      "description": "#1/#2 LOW OP DIFF"
+    },
+    {
+      "enum": [
+        88,
+        "yspaFaultCode88"
+      ],
+      "description": "#1/#2 FOUR WAY1 FAILURE"
+    },
+    {
+      "enum": [
+        89,
+        "yspaFaultCode89"
+      ],
+      "description": "#1/#2 FOUR WAY2 FAILURE"
+    },
+    {
+      "enum": [
+        90,
+        "yspaFaultCode90"
+      ],
+      "description": "#1/#2 LOW ECO PRESS"
+    },
+    {
+      "enum": [
+        91,
+        "yspaFaultCode91"
+      ],
+      "description": "#1/#2 RUN22 FAULT"
+    },
+    {
+      "enum": [
+        92,
+        "yspaFaultCode92"
+      ],
+      "description": "#1/#2 HP LOW LCHLT"
+    },
+    {
+      "enum": [
+        93,
+        "yspaFaultCode93"
+      ],
+      "description": "#1/#2 RUN24 FAULT"
+    },
+    {
+      "enum": [
+        94,
+        "yspaFaultCode94"
+      ],
+      "description": "#1/#2 RUN25 FAULT"
+    },
+    {
+      "enum": [
+        95,
+        "yspaFaultCode95"
+      ],
+      "description": "#1/#2 RUN26 FAULT"
+    },
+    {
+      "enum": [
+        96,
+        "yspaFaultCode96"
+      ],
+      "description": "#1/#2 RUN27 FAULT"
+    },
+    {
+      "enum": [
+        97,
+        "yspaFaultCode97"
+      ],
+      "description": "#1/#2 RUN28 FAULT"
+    },
+    {
+      "enum": [
+        98,
+        "yspaFaultCode98"
+      ],
+      "description": "#1/#2 RUN29 FAULT"
+    },
+    {
+      "enum": [
+        99,
+        "yspaFaultCode99"
+      ],
+      "description": "#1/#2 RUN30 FAULT"
+    },
+    {
+      "enum": [
+        100,
+        "yspaFaultCode100"
+      ],
+      "description": "#1/#2 RUN31 FAULT"
+    },
+    {
+      "enum": [
+        101,
+        "yspaFaultCode101"
+      ],
+      "description": "#1/#2 RUN32 FAULT"
+    }
+  ]
+}

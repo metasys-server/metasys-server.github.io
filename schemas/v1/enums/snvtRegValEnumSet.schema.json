@@ -1,0 +1,323 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtRegValEnumSet.schema.json",
+  "title": "snvtRegValEnumSet",
+  "description": "SNVT Regular Values",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rvuNone"
+      ],
+      "description": "no units specified ( )"
+    },
+    {
+      "enum": [
+        1,
+        "rvuW"
+      ],
+      "description": "Watts (W)"
+    },
+    {
+      "enum": [
+        2,
+        "rvuKw"
+      ],
+      "description": "kiloWatts (kW)"
+    },
+    {
+      "enum": [
+        3,
+        "rvuMw"
+      ],
+      "description": "megaWatts (MW)"
+    },
+    {
+      "enum": [
+        4,
+        "rvuGw"
+      ],
+      "description": "gigaWatts (GW)"
+    },
+    {
+      "enum": [
+        5,
+        "rvuVar"
+      ],
+      "description": "Volt-Amperes reactive (var)"
+    },
+    {
+      "enum": [
+        6,
+        "rvuKvar"
+      ],
+      "description": "kilo-Volt-Amperes reactive (kvar)"
+    },
+    {
+      "enum": [
+        7,
+        "rvuMvar"
+      ],
+      "description": "mega-Volt-Amperes reactive (Mvar)"
+    },
+    {
+      "enum": [
+        8,
+        "rvuGvar"
+      ],
+      "description": "giga-Volt-Amperes reactive (Gvar)"
+    },
+    {
+      "enum": [
+        9,
+        "rvuWh"
+      ],
+      "description": "Watt-hour (Wh)"
+    },
+    {
+      "enum": [
+        10,
+        "rvuKwh"
+      ],
+      "description": "kiloWatt-hour (kWh)"
+    },
+    {
+      "enum": [
+        11,
+        "rvuMwh"
+      ],
+      "description": "megaWatt-hour (MWh)"
+    },
+    {
+      "enum": [
+        12,
+        "rvuGwh"
+      ],
+      "description": "gigaWatt-hour (GWh)"
+    },
+    {
+      "enum": [
+        13,
+        "rvuVarh"
+      ],
+      "description": "Volt-Amperes reactive -hour (varh)"
+    },
+    {
+      "enum": [
+        14,
+        "rvuKvarh"
+      ],
+      "description": "kilo-Volt-Amperes reactive -hour (kvarh)"
+    },
+    {
+      "enum": [
+        15,
+        "rvuMvarh"
+      ],
+      "description": "mega-Volt-Amperes reactive -hour (Mvarh)"
+    },
+    {
+      "enum": [
+        16,
+        "rvuGvarh"
+      ],
+      "description": "giga-Volt-Amperes reactive -hour (Gvarh)"
+    },
+    {
+      "enum": [
+        17,
+        "rvuV"
+      ],
+      "description": "Volts (V)"
+    },
+    {
+      "enum": [
+        18,
+        "rvuA"
+      ],
+      "description": "Amps (A)"
+    },
+    {
+      "enum": [
+        19,
+        "rvuCosf"
+      ],
+      "description": "(cosf)"
+    },
+    {
+      "enum": [
+        20,
+        "rvuM3"
+      ],
+      "description": "cubic meters (m*m*m)(cu.m)"
+    },
+    {
+      "enum": [
+        21,
+        "rvuL"
+      ],
+      "description": "liters (l)"
+    },
+    {
+      "enum": [
+        22,
+        "rvuMl"
+      ],
+      "description": "milliliters (ml)"
+    },
+    {
+      "enum": [
+        23,
+        "rvuUsgal"
+      ],
+      "description": "U.S. Gallons (USG)"
+    },
+    {
+      "enum": [
+        24,
+        "rvuGj"
+      ],
+      "description": "giga-Joules (GJ)"
+    },
+    {
+      "enum": [
+        25,
+        "rvuMj"
+      ],
+      "description": "mega-Joules (MJ)"
+    },
+    {
+      "enum": [
+        26,
+        "rvuMcal"
+      ],
+      "description": "megacalories (Mcal)"
+    },
+    {
+      "enum": [
+        27,
+        "rvuKcal"
+      ],
+      "description": "kilocalories (kcal) / Calories (Cal)"
+    },
+    {
+      "enum": [
+        28,
+        "rvuMbtu"
+      ],
+      "description": "mega-British thermal units (mBtu)"
+    },
+    {
+      "enum": [
+        29,
+        "rvuKbtu"
+      ],
+      "description": "kilo-British thermal units (kBtu)"
+    },
+    {
+      "enum": [
+        30,
+        "rvuMjh"
+      ],
+      "description": "mega-Joules per hour (MJ/h)"
+    },
+    {
+      "enum": [
+        31,
+        "rvuMls"
+      ],
+      "description": "milliliters per second (ml/s)"
+    },
+    {
+      "enum": [
+        32,
+        "rvuLs"
+      ],
+      "description": "liters per second (l/s)"
+    },
+    {
+      "enum": [
+        33,
+        "rvuM3S"
+      ],
+      "description": "cubic-meters per second (m*m*m/s) (cu.m/s)"
+    },
+    {
+      "enum": [
+        34,
+        "rvuC"
+      ],
+      "description": "(C)"
+    },
+    {
+      "enum": [
+        35,
+        "rvuLh"
+      ],
+      "description": "liters per hour (l/h)"
+    },
+    {
+      "enum": [
+        36,
+        "rvuVa"
+      ],
+      "description": "Volt-Amperes (VA)"
+    },
+    {
+      "enum": [
+        37,
+        "rvuKva"
+      ],
+      "description": "kiloVolt-Amperes (kVA)"
+    },
+    {
+      "enum": [
+        38,
+        "rvuMva"
+      ],
+      "description": "megaVolt-Amperes (MVA)"
+    },
+    {
+      "enum": [
+        39,
+        "rvuGva"
+      ],
+      "description": "gigaVolt-Amperes (GVA)"
+    },
+    {
+      "enum": [
+        40,
+        "rvuVah"
+      ],
+      "description": "Volt-Ampere hours (VAh)"
+    },
+    {
+      "enum": [
+        41,
+        "rvuKvah"
+      ],
+      "description": "kiloVolt-Ampere hours (kVAh)"
+    },
+    {
+      "enum": [
+        42,
+        "rvuMvah"
+      ],
+      "description": "megaVolt-Ampere hours (MVAh)"
+    },
+    {
+      "enum": [
+        43,
+        "rvuGvah"
+      ],
+      "description": "giga-Volt-Ampere hours (GVAh)"
+    },
+    {
+      "enum": [
+        255,
+        "rvuNul"
+      ],
+      "description": "Null"
+    }
+  ]
+}

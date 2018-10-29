@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/secSysDoorPvEnumSet.schema.json",
+  "title": "secSysDoorPvEnumSet",
+  "description": "Security System Secured Door Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "secSysDoorPvUp"
+      ],
+      "description": "Up"
+    },
+    {
+      "enum": [
+        1,
+        "secSysDoorPvDown"
+      ],
+      "description": "Down"
+    },
+    {
+      "enum": [
+        2,
+        "secSysDoorPvUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        3,
+        "secSysDoorPvHeldOpen"
+      ],
+      "description": "Held Open"
+    },
+    {
+      "enum": [
+        4,
+        "secSysDoorPvForcedOpen"
+      ],
+      "description": "Forced Open"
+    },
+    {
+      "enum": [
+        5,
+        "secSysDoorPvUnlocked"
+      ],
+      "description": "Unlocked"
+    },
+    {
+      "enum": [
+        6,
+        "secSysDoorPvDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        7,
+        "secSysDoorPvOverride"
+      ],
+      "description": "Override"
+    },
+    {
+      "enum": [
+        8,
+        "secSysDoorPvUnlockedOpen"
+      ],
+      "description": "Unlocked Open"
+    },
+    {
+      "enum": [
+        9,
+        "secSysDoorPvUnlockedClosed"
+      ],
+      "description": "Unlocked Closed"
+    },
+    {
+      "enum": [
+        10,
+        "secSysDoorPvLockedOpen"
+      ],
+      "description": "Locked Open"
+    },
+    {
+      "enum": [
+        11,
+        "secSysDoorPvLockedClosed"
+      ],
+      "description": "Locked Closed"
+    }
+  ]
+}

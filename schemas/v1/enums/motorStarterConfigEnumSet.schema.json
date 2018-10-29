@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/motorStarterConfigEnumSet.schema.json",
+  "title": "motorStarterConfigEnumSet",
+  "description": "Motor Starter Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "mscNonwyedelta"
+      ],
+      "description": "Non Wye-Delta"
+    },
+    {
+      "enum": [
+        1,
+        "mscWyedelta"
+      ],
+      "description": "Wye-Delta"
+    }
+  ]
+}

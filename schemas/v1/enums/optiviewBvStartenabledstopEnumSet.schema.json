@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/optiviewBvStartenabledstopEnumSet.schema.json",
+  "title": "optiviewBvStartenabledstopEnumSet",
+  "description": "Optiview BV Start Enabled Stop",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "optiviewBvStartenabledstop0"
+      ],
+      "description": "Start Enabled"
+    },
+    {
+      "enum": [
+        1,
+        "optiviewBvStartenabledstop1"
+      ],
+      "description": "Stop"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavHybridPvdcModeEnumSet.schema.json",
+  "title": "vavHybridPvdcModeEnumSet",
+  "description": "VAV Hybrid PVDC Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vhpmBypass"
+      ],
+      "description": "Bypass"
+    },
+    {
+      "enum": [
+        1,
+        "vhpmHoldPosition"
+      ],
+      "description": "Hold Position"
+    },
+    {
+      "enum": [
+        2,
+        "vhpmHoldFlow"
+      ],
+      "description": "Hold Flow"
+    },
+    {
+      "enum": [
+        3,
+        "vhpmControl"
+      ],
+      "description": "Control"
+    }
+  ]
+}

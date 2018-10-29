@@ -1,0 +1,624 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/viewNameEnumSet.schema.json",
+  "title": "viewNameEnumSet",
+  "description": "View Name",
+  "oneOf": [
+    {
+      "enum": [
+        10,
+        "ssFirst"
+      ],
+      "description": "ss 1st"
+    },
+    {
+      "enum": [
+        11,
+        "ssFocusView"
+      ],
+      "description": "Snapshot Focus"
+    },
+    {
+      "enum": [
+        12,
+        "ssInternalAttrsView"
+      ],
+      "description": "Snapshot Internal"
+    },
+    {
+      "enum": [
+        13,
+        "ssDefaultAttrView"
+      ],
+      "description": "Snapshot Default"
+    },
+    {
+      "enum": [
+        14,
+        "ssKeyAttrsView"
+      ],
+      "description": "Snapshot Key"
+    },
+    {
+      "enum": [
+        15,
+        "ssConfigView"
+      ],
+      "description": "Snapshot Config"
+    },
+    {
+      "enum": [
+        16,
+        "ssCommandView"
+      ],
+      "description": "Snapshot Command"
+    },
+    {
+      "enum": [
+        17,
+        "ssIntCommandView"
+      ],
+      "description": "Snapshot Int Command"
+    },
+    {
+      "enum": [
+        18,
+        "ssWriteView"
+      ],
+      "description": "Snapshot Write"
+    },
+    {
+      "enum": [
+        19,
+        "ssWrtPriView"
+      ],
+      "description": "Snapshot Pri Write"
+    },
+    {
+      "enum": [
+        20,
+        "ssWrtNumericView"
+      ],
+      "description": "Snapshot Numeric"
+    },
+    {
+      "enum": [
+        21,
+        "ssAllNumericView"
+      ],
+      "description": "Snapshot All Numeric"
+    },
+    {
+      "enum": [
+        22,
+        "ssLast"
+      ],
+      "description": "ss last"
+    },
+    {
+      "enum": [
+        23,
+        "focusView"
+      ],
+      "description": "Focus"
+    },
+    {
+      "enum": [
+        24,
+        "detailedFocusView"
+      ],
+      "description": "Detailed Focus"
+    },
+    {
+      "enum": [
+        25,
+        "diagnosticView"
+      ],
+      "description": "Diagnostic"
+    },
+    {
+      "enum": [
+        26,
+        "balancerView"
+      ],
+      "description": "Balancer Focus"
+    },
+    {
+      "enum": [
+        27,
+        "configView"
+      ],
+      "description": "Configuration"
+    },
+    {
+      "enum": [
+        28,
+        "commandView"
+      ],
+      "description": "Command"
+    },
+    {
+      "enum": [
+        29,
+        "trendView"
+      ],
+      "description": "Trend"
+    },
+    {
+      "enum": [
+        30,
+        "totalizationView"
+      ],
+      "description": "Totalization"
+    },
+    {
+      "enum": [
+        31,
+        "alarmView"
+      ],
+      "description": "Alarm"
+    },
+    {
+      "enum": [
+        32,
+        "eventEnrollmentView"
+      ],
+      "description": "Event Enrollment"
+    },
+    {
+      "enum": [
+        33,
+        "hardwareView"
+      ],
+      "description": "Hardware"
+    },
+    {
+      "enum": [
+        34,
+        "scheduleView"
+      ],
+      "description": "Schedule"
+    },
+    {
+      "enum": [
+        35,
+        "logicView"
+      ],
+      "description": "Logic"
+    },
+    {
+      "enum": [
+        36,
+        "calendarView"
+      ],
+      "description": "Calendar"
+    },
+    {
+      "enum": [
+        37,
+        "engineeringView"
+      ],
+      "description": "Engineering"
+    },
+    {
+      "enum": [
+        38,
+        "interlockDefinitionView"
+      ],
+      "description": "Interlock Definition"
+    },
+    {
+      "enum": [
+        39,
+        "actionTablesView"
+      ],
+      "description": "Action Tables"
+    },
+    {
+      "enum": [
+        40,
+        "summaryView"
+      ],
+      "description": "Summary"
+    },
+    {
+      "enum": [
+        41,
+        "graphicView"
+      ],
+      "description": "Graphic"
+    },
+    {
+      "enum": [
+        42,
+        "trendStudyView"
+      ],
+      "description": "Trend Study"
+    },
+    {
+      "enum": [
+        43,
+        "groupView"
+      ],
+      "description": "Group"
+    },
+    {
+      "enum": [
+        44,
+        "eventView"
+      ],
+      "description": "Event"
+    },
+    {
+      "enum": [
+        45,
+        "communicationsView"
+      ],
+      "description": "Communications"
+    },
+    {
+      "enum": [
+        46,
+        "networkView"
+      ],
+      "description": "Network"
+    },
+    {
+      "enum": [
+        47,
+        "emailView"
+      ],
+      "description": "Email"
+    },
+    {
+      "enum": [
+        48,
+        "pagerView"
+      ],
+      "description": "Pager"
+    },
+    {
+      "enum": [
+        49,
+        "printerView"
+      ],
+      "description": "Printer"
+    },
+    {
+      "enum": [
+        50,
+        "snmpView"
+      ],
+      "description": "SNMP"
+    },
+    {
+      "enum": [
+        51,
+        "treeviewView"
+      ],
+      "description": "Tree View"
+    },
+    {
+      "enum": [
+        52,
+        "allItemsNavView"
+      ],
+      "description": "All Items"
+    },
+    {
+      "enum": [
+        53,
+        "allItemsExpertNavView"
+      ],
+      "description": "All Items - Expert"
+    },
+    {
+      "enum": [
+        54,
+        "recipientListView"
+      ],
+      "description": "Recipient List"
+    },
+    {
+      "enum": [
+        55,
+        "resourceView"
+      ],
+      "description": "Resource"
+    },
+    {
+      "enum": [
+        56,
+        "siteView"
+      ],
+      "description": "Site View"
+    },
+    {
+      "enum": [
+        57,
+        "inputCategoryView"
+      ],
+      "description": "Input Category"
+    },
+    {
+      "enum": [
+        58,
+        "outputCategoryView"
+      ],
+      "description": "Output Category"
+    },
+    {
+      "enum": [
+        59,
+        "paramCategoryView"
+      ],
+      "description": "Parameter Category"
+    },
+    {
+      "enum": [
+        60,
+        "unlicensedItemsNavView"
+      ],
+      "description": "Unlicensed Items"
+    },
+    {
+      "enum": [
+        61,
+        "inputsAndOutputsView"
+      ],
+      "description": "Inputs and Outputs"
+    },
+    {
+      "enum": [
+        62,
+        "packageAttributesView"
+      ],
+      "description": "Package Attributes"
+    },
+    {
+      "enum": [
+        63,
+        "commandHierarchyView"
+      ],
+      "description": "Command Hierarchy"
+    },
+    {
+      "enum": [
+        64,
+        "stateSelectionView"
+      ],
+      "description": "State Selection"
+    },
+    {
+      "enum": [
+        65,
+        "muxView"
+      ],
+      "description": "Mux"
+    },
+    {
+      "enum": [
+        66,
+        "lineSegmentView"
+      ],
+      "description": "Line Segment"
+    },
+    {
+      "enum": [
+        67,
+        "identificationView"
+      ],
+      "description": "Identification"
+    },
+    {
+      "enum": [
+        68,
+        "notificationView"
+      ],
+      "description": "Notification"
+    },
+    {
+      "enum": [
+        69,
+        "antiPassbackView"
+      ],
+      "description": "Anti-Passback"
+    },
+    {
+      "enum": [
+        70,
+        "occupancyView"
+      ],
+      "description": "Occupancy"
+    },
+    {
+      "enum": [
+        71,
+        "antiLoiteringView"
+      ],
+      "description": "Anti-Loitering"
+    },
+    {
+      "enum": [
+        72,
+        "processingView"
+      ],
+      "description": "Processing"
+    },
+    {
+      "enum": [
+        73,
+        "accessView"
+      ],
+      "description": "Access"
+    },
+    {
+      "enum": [
+        74,
+        "privilegesView"
+      ],
+      "description": "Privileges"
+    },
+    {
+      "enum": [
+        75,
+        "membersView"
+      ],
+      "description": "Members"
+    },
+    {
+      "enum": [
+        76,
+        "optionsView"
+      ],
+      "description": "Options"
+    },
+    {
+      "enum": [
+        77,
+        "loadView"
+      ],
+      "description": "Load"
+    },
+    {
+      "enum": [
+        78,
+        "profileView"
+      ],
+      "description": "Profile"
+    },
+    {
+      "enum": [
+        79,
+        "loadSummaryView"
+      ],
+      "description": "Load Summary"
+    },
+    {
+      "enum": [
+        80,
+        "bacnetAlarmView"
+      ],
+      "description": "BACnet Alarm"
+    },
+    {
+      "enum": [
+        81,
+        "averagingView"
+      ],
+      "description": "Averaging"
+    },
+    {
+      "enum": [
+        82,
+        "nonMveProductView"
+      ],
+      "description": "Non MVE Product"
+    },
+    {
+      "enum": [
+        83,
+        "edmDemandView"
+      ],
+      "description": "Demand"
+    },
+    {
+      "enum": [
+        84,
+        "definitionView"
+      ],
+      "description": "Summary Definition"
+    },
+    {
+      "enum": [
+        85,
+        "tailoredSummaryView"
+      ],
+      "description": "Tailored Summary"
+    },
+    {
+      "enum": [
+        86,
+        "associatedGraphicView"
+      ],
+      "description": "Associated Graphic"
+    },
+    {
+      "enum": [
+        87,
+        "customObjectCategoryView"
+      ],
+      "description": "Authorization Categories"
+    },
+    {
+      "enum": [
+        88,
+        "trendBacnetView"
+      ],
+      "description": "BACnet Trend"
+    },
+    {
+      "enum": [
+        89,
+        "customEnumerationView"
+      ],
+      "description": "Custom Enumeration"
+    },
+    {
+      "enum": [
+        90,
+        "trendBacnetExtView"
+      ],
+      "description": "Trend"
+    },
+    {
+      "enum": [
+        91,
+        "enterpriseConnectionView"
+      ],
+      "description": "Remote Services Connection"
+    },
+    {
+      "enum": [
+        92,
+        "syslogView"
+      ],
+      "description": "Syslog"
+    },
+    {
+      "enum": [
+        93,
+        "spacesNavView"
+      ],
+      "description": "Spaces"
+    },
+    {
+      "enum": [
+        94,
+        "equipmentView"
+      ],
+      "description": "Equipment Definition"
+    },
+    {
+      "enum": [
+        95,
+        "equipmentNavView"
+      ],
+      "description": "Equipment"
+    },
+    {
+      "enum": [
+        96,
+        "pointListView"
+      ],
+      "description": "Point List"
+    },
+    {
+      "enum": [
+        255,
+        "endOfViewTable"
+      ],
+      "description": "Eovt"
+    }
+  ]
+}

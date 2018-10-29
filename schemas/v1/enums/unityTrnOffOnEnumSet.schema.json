@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unityTrnOffOnEnumSet.schema.json",
+  "title": "unityTrnOffOnEnumSet",
+  "description": "Unity TRN Off On",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Manual On"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Manual Off"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Auto Restore-On"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Auto Restore-Off"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Release"
+    }
+  ]
+}

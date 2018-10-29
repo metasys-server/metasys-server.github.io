@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/plantSequencingModeEnumSet.schema.json",
+  "title": "plantSequencingModeEnumSet",
+  "description": "Plant Sequencing Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "pltSeqModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "pltSeqModePumpOnly"
+      ],
+      "description": "Pump Only"
+    },
+    {
+      "enum": [
+        2,
+        "pltSeqModeSystemInterlock"
+      ],
+      "description": "System Interlock"
+    },
+    {
+      "enum": [
+        3,
+        "pltSeqModeControl"
+      ],
+      "description": "Control"
+    }
+  ]
+}

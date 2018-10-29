@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuDatRstEnumSet.schema.json",
+  "title": "ahuDatRstEnumSet",
+  "description": "AHU DAT RST",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "adrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "adrHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        2,
+        "adrHeatingDaTReset"
+      ],
+      "description": "Heating DA-T Reset"
+    },
+    {
+      "enum": [
+        3,
+        "adrCoolingDaTReset"
+      ],
+      "description": "Cooling DA-T Reset"
+    }
+  ]
+}

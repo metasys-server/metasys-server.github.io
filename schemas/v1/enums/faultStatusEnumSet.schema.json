@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/faultStatusEnumSet.schema.json",
+  "title": "faultStatusEnumSet",
+  "description": "Fault Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "esdNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "esdOdaSensorFault"
+      ],
+      "description": "Air temperature sensor failure/fault"
+    },
+    {
+      "enum": [
+        2,
+        "esdNotEcon"
+      ],
+      "description": "Not economizing when it should"
+    },
+    {
+      "enum": [
+        3,
+        "esdEconNot"
+      ],
+      "description": "Economizing when it should not"
+    },
+    {
+      "enum": [
+        4,
+        "esdDamperFault"
+      ],
+      "description": "Damper not modulating"
+    },
+    {
+      "enum": [
+        5,
+        "esdExcessOda"
+      ],
+      "description": "Excess outdoor air"
+    }
+  ]
+}

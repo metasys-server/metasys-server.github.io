@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/accessRequestEnumSet.schema.json",
+  "title": "accessRequestEnumSet",
+  "description": "Access Request",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "accessRequestNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "accessRequestGrant"
+      ],
+      "description": "Grant"
+    },
+    {
+      "enum": [
+        2,
+        "accessRequestGrantAlternate"
+      ],
+      "description": "Grant Alternate"
+    }
+  ]
+}

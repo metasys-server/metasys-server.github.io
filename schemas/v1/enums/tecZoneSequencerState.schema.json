@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecZoneSequencerState.schema.json",
+  "title": "tecZoneSequencerState",
+  "description": "TEC Zone Sequencer State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tzssSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "tzssWait"
+      ],
+      "description": "Wait"
+    },
+    {
+      "enum": [
+        2,
+        "tzssHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        3,
+        "tzssReheat"
+      ],
+      "description": "Reheat"
+    },
+    {
+      "enum": [
+        4,
+        "tzssEcon"
+      ],
+      "description": "Econ"
+    },
+    {
+      "enum": [
+        5,
+        "tzssCool"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        6,
+        "tzssDehumAndHeat"
+      ],
+      "description": "Dehum And Heat"
+    },
+    {
+      "enum": [
+        7,
+        "tzssDehumAndReheat"
+      ],
+      "description": "Dehum And Reheat"
+    },
+    {
+      "enum": [
+        8,
+        "tzssZntUnreliable"
+      ],
+      "description": "ZNT Unreliable"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/fedLabelEnumSet.schema.json",
+  "title": "fedLabelEnumSet",
+  "description": "FED Label",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "labelMainMenu"
+      ],
+      "description": "Main Menu"
+    },
+    {
+      "enum": [
+        1,
+        "labelInputOutput"
+      ],
+      "description": "Input/Output"
+    },
+    {
+      "enum": [
+        2,
+        "labelParmeterSetpoint"
+      ],
+      "description": "Parameter/Setpoint"
+    },
+    {
+      "enum": [
+        3,
+        "labelOverrides"
+      ],
+      "description": "Overrides"
+    },
+    {
+      "enum": [
+        4,
+        "labelDisplayInfo"
+      ],
+      "description": "Display Information"
+    },
+    {
+      "enum": [
+        5,
+        "labelHostInfo"
+      ],
+      "description": "Controller Information"
+    },
+    {
+      "enum": [
+        6,
+        "labelLogOff"
+      ],
+      "description": "Log Off"
+    },
+    {
+      "enum": [
+        7,
+        "labelPassword"
+      ],
+      "description": "Password"
+    },
+    {
+      "enum": [
+        8,
+        "labelAccept"
+      ],
+      "description": "Accept"
+    },
+    {
+      "enum": [
+        9,
+        "labelCancel"
+      ],
+      "description": "Cancel"
+    },
+    {
+      "enum": [
+        10,
+        "labelPleaseWait"
+      ],
+      "description": "Please Wait"
+    },
+    {
+      "enum": [
+        11,
+        "labelAuthInProg"
+      ],
+      "description": "Authorization in progress"
+    },
+    {
+      "enum": [
+        12,
+        "labelBackspace"
+      ],
+      "description": "Backspace"
+    },
+    {
+      "enum": [
+        13,
+        "labelWarning"
+      ],
+      "description": "Warning"
+    },
+    {
+      "enum": [
+        14,
+        "labelReleaseAll"
+      ],
+      "description": "Release All"
+    },
+    {
+      "enum": [
+        15,
+        "labelCommandFailed"
+      ],
+      "description": "Command Failed"
+    },
+    {
+      "enum": [
+        16,
+        "labelDeviceOffline"
+      ],
+      "description": "Display is Offline"
+    },
+    {
+      "enum": [
+        17,
+        "labelAdjust"
+      ],
+      "description": "Adjust"
+    },
+    {
+      "enum": [
+        18,
+        "labelOverride"
+      ],
+      "description": "Override"
+    },
+    {
+      "enum": [
+        19,
+        "labelRelease"
+      ],
+      "description": "Release"
+    },
+    {
+      "enum": [
+        20,
+        "labelOutofservice"
+      ],
+      "description": "Out Of Service"
+    },
+    {
+      "enum": [
+        21,
+        "labelInservice"
+      ],
+      "description": "In Service"
+    },
+    {
+      "enum": [
+        22,
+        "labelModify"
+      ],
+      "description": "Modify"
+    },
+    {
+      "enum": [
+        23,
+        "labelDecimalSeparator"
+      ],
+      "description": "."
+    },
+    {
+      "enum": [
+        24,
+        "labelUnknown"
+      ],
+      "description": "Unknown"
+    },
+    {
+      "enum": [
+        25,
+        "labelCommand"
+      ],
+      "description": "Command"
+    },
+    {
+      "enum": [
+        26,
+        "labelErrNoCommands"
+      ],
+      "description": "No commands available"
+    },
+    {
+      "enum": [
+        27,
+        "labelErrNotCommandable"
+      ],
+      "description": "Object is read-only"
+    },
+    {
+      "enum": [
+        28,
+        "labelCommandInProgress"
+      ],
+      "description": "A command is in progress"
+    },
+    {
+      "enum": [
+        29,
+        "labelErrNotWritable"
+      ],
+      "description": "Attribute is not writable"
+    },
+    {
+      "enum": [
+        30,
+        "labelFedStatNoComm"
+      ],
+      "description": "Initializing Communications"
+    },
+    {
+      "enum": [
+        31,
+        "labelFedStatUnconfigured"
+      ],
+      "description": "Missing Display Configuration"
+    },
+    {
+      "enum": [
+        32,
+        "labelTrue"
+      ],
+      "description": "True"
+    },
+    {
+      "enum": [
+        33,
+        "labelFalse"
+      ],
+      "description": "False"
+    },
+    {
+      "enum": [
+        34,
+        "labelInvalidConfiguration"
+      ],
+      "description": "Invalid Configuration"
+    },
+    {
+      "enum": [
+        35,
+        "labelMaxStringLenReached"
+      ],
+      "description": "Maximum string length has been reached"
+    },
+    {
+      "enum": [
+        36,
+        "labelAuthFailed"
+      ],
+      "description": "Authorization Failed"
+    },
+    {
+      "enum": [
+        37,
+        "labelStatus"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        38,
+        "labelNoObjsOverridden"
+      ],
+      "description": "No objects are overridden"
+    },
+    {
+      "enum": [
+        39,
+        "labelGettingContInfo"
+      ],
+      "description": "Reading Controller Information"
+    },
+    {
+      "enum": [
+        40,
+        "labelChangePassword"
+      ],
+      "description": "Change Password"
+    },
+    {
+      "enum": [
+        41,
+        "labelNew"
+      ],
+      "description": "New"
+    },
+    {
+      "enum": [
+        42,
+        "labelConfirm"
+      ],
+      "description": "Confirm"
+    },
+    {
+      "enum": [
+        43,
+        "labelEnterNew"
+      ],
+      "description": "Enter a new password"
+    },
+    {
+      "enum": [
+        44,
+        "labelEnterConfirm"
+      ],
+      "description": "Confirm the password"
+    },
+    {
+      "enum": [
+        45,
+        "labelPasswordsDoNotMatch"
+      ],
+      "description": "Passwords do not match"
+    },
+    {
+      "enum": [
+        46,
+        "labelAwaitingContStartup"
+      ],
+      "description": "Awaiting Controller Startup"
+    },
+    {
+      "enum": [
+        47,
+        "labelErrKeypad"
+      ],
+      "description": "Keypad Error"
+    },
+    {
+      "enum": [
+        48,
+        "labelNoObjsConfiguredForPage"
+      ],
+      "description": "No objects are configured for this page"
+    }
+  ]
+}

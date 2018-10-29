@@ -1,0 +1,337 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpo5AlarmsEnumSet.schema.json",
+  "title": "cpo5AlarmsEnumSet",
+  "description": "CPO5 Alarms",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpo5AlarmsNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "cpo5AlarmsChiller1InterlockAlarm"
+      ],
+      "description": "Chiller 1 Interlock Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "cpo5AlarmsChiller2InterlockAlarm"
+      ],
+      "description": "Chiller 2 Interlock Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "cpo5AlarmsChiller3InterlockAlarm"
+      ],
+      "description": "Chiller 3 Interlock Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "cpo5AlarmsChiller4InterlockAlarm"
+      ],
+      "description": "Chiller 4 Interlock Alarm"
+    },
+    {
+      "enum": [
+        5,
+        "cpo5AlarmsChilledWaterPump1InterlockAlarm"
+      ],
+      "description": "Chilled Water Pump 1 Interlock Alarm"
+    },
+    {
+      "enum": [
+        6,
+        "cpo5AlarmsChilledWaterPump2InterlockAlarm"
+      ],
+      "description": "Chilled Water Pump 2 Interlock Alarm"
+    },
+    {
+      "enum": [
+        7,
+        "cpo5AlarmsChilledWaterPump3InterlockAlarm"
+      ],
+      "description": "Chilled Water Pump 3 Interlock Alarm"
+    },
+    {
+      "enum": [
+        8,
+        "cpo5AlarmsChilledWaterPump4InterlockAlarm"
+      ],
+      "description": "Chilled Water Pump 4 Interlock Alarm"
+    },
+    {
+      "enum": [
+        9,
+        "cpo5AlarmsCoolingTower1InterlockAlarm"
+      ],
+      "description": "Cooling Tower 1 Interlock Alarm"
+    },
+    {
+      "enum": [
+        10,
+        "cpo5AlarmsCoolingTower2InterlockAlarm"
+      ],
+      "description": "Cooling Tower 2 Interlock Alarm"
+    },
+    {
+      "enum": [
+        11,
+        "cpo5AlarmsCoolingTower3InterlockAlarm"
+      ],
+      "description": "Cooling Tower 3 Interlock Alarm"
+    },
+    {
+      "enum": [
+        12,
+        "cpo5AlarmsCoolingTower4InterlockAlarm"
+      ],
+      "description": "Cooling Tower 4 Interlock Alarm"
+    },
+    {
+      "enum": [
+        13,
+        "cpo5AlarmsCondenserWaterPump1InterlockAlarm"
+      ],
+      "description": "Condenser Water Pump 1 Interlock Alarm"
+    },
+    {
+      "enum": [
+        14,
+        "cpo5AlarmsCondenserWaterPump2InterlockAlarm"
+      ],
+      "description": "Condenser Water Pump 2 Interlock Alarm"
+    },
+    {
+      "enum": [
+        15,
+        "cpo5AlarmsCondenserWaterPump3InterlockAlarm"
+      ],
+      "description": "Condenser Water Pump 3 Interlock Alarm"
+    },
+    {
+      "enum": [
+        16,
+        "cpo5AlarmsCondenserWaterPump4InterlockAlarm"
+      ],
+      "description": "Condenser Water Pump 4 Interlock Alarm"
+    },
+    {
+      "enum": [
+        17,
+        "cpo5AlarmsChiller1ChilledWaterDpFailure"
+      ],
+      "description": "Chiller 1 Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        18,
+        "cpo5AlarmsChiller2ChilledWaterDpFailure"
+      ],
+      "description": "Chiller 2 Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        19,
+        "cpo5AlarmsChiller3ChilledWaterDpFailure"
+      ],
+      "description": "Chiller 3 Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        20,
+        "cpo5AlarmsChiller4ChilledWaterDpFailure"
+      ],
+      "description": "Chiller 4 Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        21,
+        "cpo5AlarmsBuildingChilledWaterDpFailure"
+      ],
+      "description": "Building Chilled Water DP Failure"
+    },
+    {
+      "enum": [
+        22,
+        "cpo5AlarmsPrimaryChilledWaterFlowFailure"
+      ],
+      "description": "Primary Chilled Water Flow Failure"
+    },
+    {
+      "enum": [
+        23,
+        "cpo5AlarmsChiller1ChilledWaterSupplyTempFail"
+      ],
+      "description": "Chiller 1 Chilled Water Supply Temp Fail"
+    },
+    {
+      "enum": [
+        24,
+        "cpo5AlarmsChiller2ChilledWaterSupplyTempFail"
+      ],
+      "description": "Chiller 2 Chilled Water Supply Temp Fail"
+    },
+    {
+      "enum": [
+        25,
+        "cpo5AlarmsChiller3ChilledWaterSupplyTempFail"
+      ],
+      "description": "Chiller 3 Chilled Water Supply Temp Fail"
+    },
+    {
+      "enum": [
+        26,
+        "cpo5AlarmsChiller4ChilledWaterSupplyTempFail"
+      ],
+      "description": "Chiller 4 Chilled Water Supply Temp Fail"
+    },
+    {
+      "enum": [
+        27,
+        "cpo5AlarmsChiller1ChilledWaterReturnTempFail"
+      ],
+      "description": "Chiller 1 Chilled Water Return Temp Fail"
+    },
+    {
+      "enum": [
+        28,
+        "cpo5AlarmsChiller2ChilledWaterReturnTempFail"
+      ],
+      "description": "Chiller 2 Chilled Water Return Temp Fail"
+    },
+    {
+      "enum": [
+        29,
+        "cpo5AlarmsChiller3ChilledWaterReturnTempFail"
+      ],
+      "description": "Chiller 3 Chilled Water Return Temp Fail"
+    },
+    {
+      "enum": [
+        30,
+        "cpo5AlarmsChiller4ChilledWaterReturnTempFail"
+      ],
+      "description": "Chiller 4 Chilled Water Return Temp Fail"
+    },
+    {
+      "enum": [
+        31,
+        "cpo5AlarmsChiller1CondWaterSupplyTempFail"
+      ],
+      "description": "Chiller 1 Cond Water Supply Temp Fail"
+    },
+    {
+      "enum": [
+        32,
+        "cpo5AlarmsChiller2CondWaterSupplyTempFail"
+      ],
+      "description": "Chiller 2 Cond Water Supply Temp Fail"
+    },
+    {
+      "enum": [
+        33,
+        "cpo5AlarmsChiller3CondWaterSupplyTempFail"
+      ],
+      "description": "Chiller 3 Cond Water Supply Temp Fail"
+    },
+    {
+      "enum": [
+        34,
+        "cpo5AlarmsChiller4CondWaterSupplyTempFail"
+      ],
+      "description": "Chiller 4 Cond Water Supply Temp Fail"
+    },
+    {
+      "enum": [
+        35,
+        "cpo5AlarmsOutsideAirTemperatureFailure"
+      ],
+      "description": "Outside Air Temperature Failure"
+    },
+    {
+      "enum": [
+        36,
+        "cpo5AlarmsOutsideAirHumidityFailure"
+      ],
+      "description": "Outside Air Humidity Failure"
+    },
+    {
+      "enum": [
+        37,
+        "cpo5AlarmsChiller1IomCommFailure"
+      ],
+      "description": "Chiller 1 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        38,
+        "cpo5AlarmsChiller2IomCommFailure"
+      ],
+      "description": "Chiller 2 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        39,
+        "cpo5AlarmsChiller3IomCommFailure"
+      ],
+      "description": "Chiller 3 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        40,
+        "cpo5AlarmsChiller4IomCommFailure"
+      ],
+      "description": "Chiller 4 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        41,
+        "cpo5AlarmsCoolingTower1And2IomCommFailure"
+      ],
+      "description": "Cooling Tower 1 and 2 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        42,
+        "cpo5AlarmsCoolingTower3And4IomCommFailure"
+      ],
+      "description": "Cooling Tower 3 and 4 IOM Comm Failure"
+    },
+    {
+      "enum": [
+        43,
+        "cpo5AlarmsChiller1ScEquipCommFailure"
+      ],
+      "description": "Chiller 1 SC-Equip Comm Failure"
+    },
+    {
+      "enum": [
+        44,
+        "cpo5AlarmsChiller2ScEquipCommFailure"
+      ],
+      "description": "Chiller 2 SC-Equip Comm Failure"
+    },
+    {
+      "enum": [
+        45,
+        "cpo5AlarmsChiller3ScEquipCommFailure"
+      ],
+      "description": "Chiller 3 SC-Equip Comm Failure"
+    },
+    {
+      "enum": [
+        46,
+        "cpo5AlarmsChiller4ScEquipCommFailure"
+      ],
+      "description": "Chiller 4 SC-Equip Comm Failure"
+    }
+  ]
+}

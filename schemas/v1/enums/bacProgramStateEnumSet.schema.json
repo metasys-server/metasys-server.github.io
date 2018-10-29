@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacProgramStateEnumSet.schema.json",
+  "title": "bacProgramStateEnumSet",
+  "description": "BAC Program State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacProgramIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "bacProgramLoading"
+      ],
+      "description": "Loading"
+    },
+    {
+      "enum": [
+        2,
+        "bacProgramRunning"
+      ],
+      "description": "Running"
+    },
+    {
+      "enum": [
+        3,
+        "bacProgramWaiting"
+      ],
+      "description": "Waiting"
+    },
+    {
+      "enum": [
+        4,
+        "bacProgramHalted"
+      ],
+      "description": "Halted"
+    },
+    {
+      "enum": [
+        5,
+        "bacProgramUnloading"
+      ],
+      "description": "Unloading"
+    }
+  ]
+}

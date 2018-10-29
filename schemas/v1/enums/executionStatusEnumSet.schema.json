@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/executionStatusEnumSet.schema.json",
+  "title": "executionStatusEnumSet",
+  "description": "Execution Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "exeStatusNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "exeStatusPowerup"
+      ],
+      "description": "Power Up"
+    },
+    {
+      "enum": [
+        2,
+        "exeStatusRestartup"
+      ],
+      "description": "Restart"
+    },
+    {
+      "enum": [
+        3,
+        "exeStatusReenabled"
+      ],
+      "description": "Re-Enabled"
+    }
+  ]
+}

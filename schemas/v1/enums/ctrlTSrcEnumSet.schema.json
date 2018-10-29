@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ctrlTSrcEnumSet.schema.json",
+  "title": "ctrlTSrcEnumSet",
+  "description": "Ctrl T Src",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Return"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Space"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "OAT"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "MAT"
+    }
+  ]
+}

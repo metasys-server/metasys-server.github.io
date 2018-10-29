@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seEconDcvModeBasicEnumSet.schema.json",
+  "title": "seEconDcvModeBasicEnumSet",
+  "description": "SE ECON DCV Mode Basic",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seEconDcvModeBasicDisabled"
+      ],
+      "description": "Disabled"
+    },
+    {
+      "enum": [
+        1,
+        "seEconDcvModeBasicControlledByIaq"
+      ],
+      "description": "Controlled by IAQ"
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scEquipChillerIdEnumSet.schema.json",
+  "title": "scEquipChillerIdEnumSet",
+  "description": "SCC Chiller ID",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "scEquipChillerIdOptiview"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "scEquipChillerId1"
+      ],
+      "description": "OptiView YK"
+    },
+    {
+      "enum": [
+        2,
+        "scEquipChillerId2"
+      ],
+      "description": "OptiView YT"
+    },
+    {
+      "enum": [
+        3,
+        "scEquipChillerId3"
+      ],
+      "description": "OptiView YS"
+    },
+    {
+      "enum": [
+        4,
+        "scEquipChillerId4"
+      ],
+      "description": "Optiview YKEP"
+    },
+    {
+      "enum": [
+        5,
+        "scEquipChillerId5"
+      ],
+      "description": "OptiView YR"
+    },
+    {
+      "enum": [
+        6,
+        "scEquipChillerId6"
+      ],
+      "description": "OptiView LP OT"
+    },
+    {
+      "enum": [
+        7,
+        "scEquipChillerId7"
+      ],
+      "description": "OptiView HP OT"
+    },
+    {
+      "enum": [
+        8,
+        "scEquipChillerId8"
+      ],
+      "description": "OptiView CR TRANE"
+    },
+    {
+      "enum": [
+        9,
+        "scEquipChillerId9"
+      ],
+      "description": "OptiView CR CARRIER"
+    },
+    {
+      "enum": [
+        10,
+        "scEquipChillerId10"
+      ],
+      "description": "OptiView CR MQUAY"
+    },
+    {
+      "enum": [
+        11,
+        "scEquipChillerId11"
+      ],
+      "description": "OptiView YD"
+    },
+    {
+      "enum": [
+        12,
+        "scEquipChillerId12"
+      ],
+      "description": "OptiView YST"
+    },
+    {
+      "enum": [
+        13,
+        "scEquipChillerId13"
+      ],
+      "description": "OptiView OM"
+    },
+    {
+      "enum": [
+        14,
+        "scEquipChillerId14"
+      ],
+      "description": "OptiView Unified Screw"
+    },
+    {
+      "enum": [
+        15,
+        "scEquipChillerId15"
+      ],
+      "description": "OptiView YIA"
+    },
+    {
+      "enum": [
+        16,
+        "scEquipChillerId16"
+      ],
+      "description": "OptiView YMC2 Mod A"
+    },
+    {
+      "enum": [
+        17,
+        "scEquipChillerId17"
+      ],
+      "description": "OptiView YNWH/YNWS"
+    },
+    {
+      "enum": [
+        18,
+        "scEquipChillerId18"
+      ],
+      "description": "OptiView YMC2 Mod B"
+    },
+    {
+      "enum": [
+        100,
+        "scEquipChillerIdModbus"
+      ],
+      "description": "Unknown Modbus"
+    },
+    {
+      "enum": [
+        101,
+        "scEquipChillerId101"
+      ],
+      "description": "SmartView YR"
+    },
+    {
+      "enum": [
+        102,
+        "scEquipChillerId102"
+      ],
+      "description": "YSPA"
+    },
+    {
+      "enum": [
+        103,
+        "scEquipChillerId103"
+      ],
+      "description": "YEWS (Tandem)"
+    },
+    {
+      "enum": [
+        104,
+        "scEquipChillerId104"
+      ],
+      "description": "LYS"
+    },
+    {
+      "enum": [
+        105,
+        "scEquipChillerId105"
+      ],
+      "description": "YMAA Mini-Chiller"
+    },
+    {
+      "enum": [
+        106,
+        "scEquipChillerId106"
+      ],
+      "description": "YGWH/YVWH"
+    },
+    {
+      "enum": [
+        107,
+        "scEquipChillerId107"
+      ],
+      "description": "YEWS (Single)"
+    },
+    {
+      "enum": [
+        200,
+        "scEquipChillerIdYt2Generic"
+      ],
+      "description": "Generic"
+    },
+    {
+      "enum": [
+        201,
+        "scEquipChillerIdYvaaMicroChannelIp"
+      ],
+      "description": "YVAA Micro Channel (IP)"
+    },
+    {
+      "enum": [
+        202,
+        "scEquipChillerIdYvaaMicroChannelSi"
+      ],
+      "description": "YVAA Micro Channel (SI)"
+    },
+    {
+      "enum": [
+        203,
+        "scEquipChillerIdYvaaRoundTubeIp"
+      ],
+      "description": "YVAA Round Tube (IP)"
+    },
+    {
+      "enum": [
+        204,
+        "scEquipChillerIdYvaaRoundTubeSi"
+      ],
+      "description": "YVAA Round Tube (SI)"
+    },
+    {
+      "enum": [
+        205,
+        "scEquipChillerIdYvfaMicroChannelIp"
+      ],
+      "description": "YVFA Micro Channel (IP)"
+    },
+    {
+      "enum": [
+        206,
+        "scEquipChillerIdYvfaMicroChannelSi"
+      ],
+      "description": "YVFA Micro Channel (SI)"
+    },
+    {
+      "enum": [
+        207,
+        "scEquipChillerIdYvfaRoundTubeIp"
+      ],
+      "description": "YVFA Round Tube (IP)"
+    },
+    {
+      "enum": [
+        208,
+        "scEquipChillerIdYvfaRoundTubeSi"
+      ],
+      "description": "YVFA Round Tube (SI)"
+    },
+    {
+      "enum": [
+        213,
+        "scEquipChillerIdYvwaTwoCompressorIp"
+      ],
+      "description": "YVWA Two Compressor (IP)"
+    },
+    {
+      "enum": [
+        214,
+        "scEquipChillerIdYvwaTwoCompressorSi"
+      ],
+      "description": "YVWA Two Compressor (SI)"
+    },
+    {
+      "enum": [
+        215,
+        "scEquipChillerIdYvwaOneCompressorIp"
+      ],
+      "description": "YVWA One Compressor (IP)"
+    },
+    {
+      "enum": [
+        216,
+        "scEquipChillerIdYvwaOneCompressorSi"
+      ],
+      "description": "YVWA One Compressor (SI)"
+    },
+    {
+      "enum": [
+        219,
+        "scEquipChillerIdYcavYcivTwoCompressorIp"
+      ],
+      "description": "YCAV/YCIV Two Compressor (IP)"
+    },
+    {
+      "enum": [
+        220,
+        "scEquipChillerIdYcavYcivTwoCompressorSi"
+      ],
+      "description": "YCAV/YCIV Two Compressor (SI)"
+    },
+    {
+      "enum": [
+        221,
+        "scEquipChillerIdYcavYcivThreeCompressorIp"
+      ],
+      "description": "YCAV/YCIV Three Compressor (IP)"
+    },
+    {
+      "enum": [
+        222,
+        "scEquipChillerIdYcavYcivThreeCompressorSi"
+      ],
+      "description": "YCAV/YCIV Three Compressor (SI)"
+    },
+    {
+      "enum": [
+        223,
+        "scEquipChillerIdYcavYcivFourCompressorIp"
+      ],
+      "description": "YCAV/YCIV Four Compressor (IP)"
+    },
+    {
+      "enum": [
+        224,
+        "scEquipChillerIdYcavYcivFourCompressorSi"
+      ],
+      "description": "YCAV/YCIV Four Compressor (SI)"
+    },
+    {
+      "enum": [
+        231,
+        "scEquipChillerIdYcalYculYcrlYlaaYlaeYluaIp"
+      ],
+      "description": "YCAL, YCUL, YCRL, YLAA, YLAE, YLUA (IP)"
+    },
+    {
+      "enum": [
+        232,
+        "scEquipChillerIdYcalYculYcrlYlaaYlaeYluaSi"
+      ],
+      "description": "YCAL, YCUL, YCRL, YLAA, YLAE, YLUA (SI)"
+    },
+    {
+      "enum": [
+        233,
+        "scEquipChillerIdYlpaIp"
+      ],
+      "description": "YLPA (IP)"
+    },
+    {
+      "enum": [
+        234,
+        "scEquipChillerIdYlpaSi"
+      ],
+      "description": "YLPA (SI)"
+    },
+    {
+      "enum": [
+        235,
+        "scEquipChillerIdYcwlIp"
+      ],
+      "description": "YCWL (IP)"
+    },
+    {
+      "enum": [
+        236,
+        "scEquipChillerIdYcwlSi"
+      ],
+      "description": "YCWL (SI)"
+    },
+    {
+      "enum": [
+        245,
+        "scEquipChillerIdYsaaOneCompressorIp"
+      ],
+      "description": "YSAA One Compressor (IP)"
+    },
+    {
+      "enum": [
+        246,
+        "scEquipChillerIdYsaaOneCompressorSi"
+      ],
+      "description": "YSAA One Compressor (SI)"
+    },
+    {
+      "enum": [
+        247,
+        "scEquipChillerIdYsaaTwoCompressorIp"
+      ],
+      "description": "YSAA Two Compressor (IP)"
+    },
+    {
+      "enum": [
+        248,
+        "scEquipChillerIdYsaaTwoCompressorSi"
+      ],
+      "description": "YSAA Two Compressor (SI)"
+    },
+    {
+      "enum": [
+        327,
+        "scEquipChillerIdYcasYcwsYcrsIp"
+      ],
+      "description": "YCAS/YCWS/YCRS (IP)"
+    },
+    {
+      "enum": [
+        328,
+        "scEquipChillerIdYcasYcwsYcrsSi"
+      ],
+      "description": "YCAS/YCWS/YCRS (SI)"
+    },
+    {
+      "enum": [
+        329,
+        "scEquipChillerIdMilleniumYgYbIp"
+      ],
+      "description": "Millenium YG/YB (IP)"
+    },
+    {
+      "enum": [
+        330,
+        "scEquipChillerIdMilleniumYgYbSi"
+      ],
+      "description": "Millenium YG/YB (SI)"
+    },
+    {
+      "enum": [
+        331,
+        "scEquipChillerIdMilleniumYiaIp"
+      ],
+      "description": "Millenium YIA (IP)"
+    },
+    {
+      "enum": [
+        332,
+        "scEquipChillerIdMilleniumYiaSi"
+      ],
+      "description": "Millenium YIA (SI)"
+    },
+    {
+      "enum": [
+        333,
+        "scEquipChillerIdMilleniumYkIp"
+      ],
+      "description": "Millenium YK (IP)"
+    },
+    {
+      "enum": [
+        334,
+        "scEquipChillerIdMilleniumYkSi"
+      ],
+      "description": "Millenium YK (SI)"
+    },
+    {
+      "enum": [
+        335,
+        "scEquipChillerIdMilleniumYpcIp"
+      ],
+      "description": "Millenium YPC (IP)"
+    },
+    {
+      "enum": [
+        336,
+        "scEquipChillerIdMilleniumYpcSi"
+      ],
+      "description": "Millenium YPC (SI)"
+    },
+    {
+      "enum": [
+        337,
+        "scEquipChillerIdMilleniumYsIp"
+      ],
+      "description": "Millenium YS (IP)"
+    },
+    {
+      "enum": [
+        338,
+        "scEquipChillerIdMilleniumYsSi"
+      ],
+      "description": "Millenium YS (SI)"
+    },
+    {
+      "enum": [
+        339,
+        "scEquipChillerIdMilleniumYtIp"
+      ],
+      "description": "Millenium YT (IP)"
+    },
+    {
+      "enum": [
+        340,
+        "scEquipChillerIdMilleniumYtSi"
+      ],
+      "description": "Millenium YT (SI)"
+    }
+  ]
+}

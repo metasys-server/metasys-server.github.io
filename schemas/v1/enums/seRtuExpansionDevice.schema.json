@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuExpansionDevice.schema.json",
+  "title": "seRtuExpansionDevice",
+  "description": "SE RTU Expansion Device",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuExpansionDeviceTxv"
+      ],
+      "description": "TxV"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuExpansionDeviceFo"
+      ],
+      "description": "FO"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuExpansionDeviceTxvOrFo"
+      ],
+      "description": "TxV Or FO"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuExpansionDeviceN"
+      ],
+      "description": "n"
+    }
+  ]
+}

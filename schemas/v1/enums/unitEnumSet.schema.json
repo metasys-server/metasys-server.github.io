@@ -1,0 +1,3270 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/unitEnumSet.schema.json",
+  "title": "unitEnumSet",
+  "description": "Unit",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "squareMeters"
+      ],
+      "description": "sq meter"
+    },
+    {
+      "enum": [
+        1,
+        "squareFeet"
+      ],
+      "description": "sq ft"
+    },
+    {
+      "enum": [
+        2,
+        "milliamperes"
+      ],
+      "description": "mA"
+    },
+    {
+      "enum": [
+        3,
+        "amperes"
+      ],
+      "description": "A"
+    },
+    {
+      "enum": [
+        4,
+        "ohms"
+      ],
+      "description": "ohm"
+    },
+    {
+      "enum": [
+        5,
+        "volts"
+      ],
+      "description": "V"
+    },
+    {
+      "enum": [
+        6,
+        "kilovolts"
+      ],
+      "description": "kV"
+    },
+    {
+      "enum": [
+        7,
+        "megavolts"
+      ],
+      "description": "MV"
+    },
+    {
+      "enum": [
+        8,
+        "voltamperes"
+      ],
+      "description": "VA"
+    },
+    {
+      "enum": [
+        9,
+        "kilovoltamperes"
+      ],
+      "description": "kVA"
+    },
+    {
+      "enum": [
+        10,
+        "megavoltamperes"
+      ],
+      "description": "MVA"
+    },
+    {
+      "enum": [
+        11,
+        "voltamperesreactive"
+      ],
+      "description": "VAR"
+    },
+    {
+      "enum": [
+        12,
+        "kilovoltamperesreactive"
+      ],
+      "description": "kVAR"
+    },
+    {
+      "enum": [
+        13,
+        "metavoltamperesreactive"
+      ],
+      "description": "MVAR"
+    },
+    {
+      "enum": [
+        14,
+        "degreesPhase"
+      ],
+      "description": "deg phase"
+    },
+    {
+      "enum": [
+        15,
+        "powerFactor"
+      ],
+      "description": "PF"
+    },
+    {
+      "enum": [
+        16,
+        "joules"
+      ],
+      "description": "J"
+    },
+    {
+      "enum": [
+        17,
+        "kilojoules"
+      ],
+      "description": "kJ"
+    },
+    {
+      "enum": [
+        18,
+        "wattHours"
+      ],
+      "description": "Wh"
+    },
+    {
+      "enum": [
+        19,
+        "kwattHours"
+      ],
+      "description": "kWh"
+    },
+    {
+      "enum": [
+        20,
+        "btus"
+      ],
+      "description": "Btu"
+    },
+    {
+      "enum": [
+        21,
+        "therms"
+      ],
+      "description": "thm"
+    },
+    {
+      "enum": [
+        22,
+        "tonHours"
+      ],
+      "description": "ton-h"
+    },
+    {
+      "enum": [
+        23,
+        "joulesPerKgramDryAir"
+      ],
+      "description": "J/kg"
+    },
+    {
+      "enum": [
+        24,
+        "btusPerPoundDryAir"
+      ],
+      "description": "Btu/lb dry air"
+    },
+    {
+      "enum": [
+        25,
+        "cyclesPerHour"
+      ],
+      "description": "cph"
+    },
+    {
+      "enum": [
+        26,
+        "cyclesPerMinute"
+      ],
+      "description": "cpm"
+    },
+    {
+      "enum": [
+        27,
+        "hertz"
+      ],
+      "description": "Hz"
+    },
+    {
+      "enum": [
+        28,
+        "gramsWaterPerKgramDryAir"
+      ],
+      "description": "gram water/kg"
+    },
+    {
+      "enum": [
+        29,
+        "percentRelativeHumidity"
+      ],
+      "description": "%RH"
+    },
+    {
+      "enum": [
+        30,
+        "millimeters"
+      ],
+      "description": "mm"
+    },
+    {
+      "enum": [
+        31,
+        "meters"
+      ],
+      "description": "m"
+    },
+    {
+      "enum": [
+        32,
+        "inches"
+      ],
+      "description": "in"
+    },
+    {
+      "enum": [
+        33,
+        "feet"
+      ],
+      "description": "ft"
+    },
+    {
+      "enum": [
+        34,
+        "wattsPerSqFoot"
+      ],
+      "description": "W/sq ft"
+    },
+    {
+      "enum": [
+        35,
+        "wattsPerSqMeter"
+      ],
+      "description": "W/sq meter"
+    },
+    {
+      "enum": [
+        36,
+        "lumens"
+      ],
+      "description": "lm"
+    },
+    {
+      "enum": [
+        37,
+        "luxes"
+      ],
+      "description": "lx"
+    },
+    {
+      "enum": [
+        38,
+        "footCandles"
+      ],
+      "description": "ft candles"
+    },
+    {
+      "enum": [
+        39,
+        "kgrams"
+      ],
+      "description": "kg"
+    },
+    {
+      "enum": [
+        40,
+        "poundsMass"
+      ],
+      "description": "lbm"
+    },
+    {
+      "enum": [
+        41,
+        "tons"
+      ],
+      "description": "tons"
+    },
+    {
+      "enum": [
+        42,
+        "kgramsPerSecond"
+      ],
+      "description": "kg/s"
+    },
+    {
+      "enum": [
+        43,
+        "kgramsPerMinute"
+      ],
+      "description": "kg/min"
+    },
+    {
+      "enum": [
+        44,
+        "kgramsPerHour"
+      ],
+      "description": "kg/h"
+    },
+    {
+      "enum": [
+        45,
+        "poundsMassPerMinute"
+      ],
+      "description": "lbm/min"
+    },
+    {
+      "enum": [
+        46,
+        "poundsMassPerHour"
+      ],
+      "description": "lbm/h"
+    },
+    {
+      "enum": [
+        47,
+        "watts"
+      ],
+      "description": "W"
+    },
+    {
+      "enum": [
+        48,
+        "kilowatts"
+      ],
+      "description": "kW"
+    },
+    {
+      "enum": [
+        49,
+        "megawatts"
+      ],
+      "description": "MW"
+    },
+    {
+      "enum": [
+        50,
+        "btusPerHour"
+      ],
+      "description": "Btuh"
+    },
+    {
+      "enum": [
+        51,
+        "horsepower"
+      ],
+      "description": "hp"
+    },
+    {
+      "enum": [
+        52,
+        "tonsRefrigeration"
+      ],
+      "description": "tons refr"
+    },
+    {
+      "enum": [
+        53,
+        "pascals"
+      ],
+      "description": "Pa"
+    },
+    {
+      "enum": [
+        54,
+        "kilopascals"
+      ],
+      "description": "kPa"
+    },
+    {
+      "enum": [
+        55,
+        "bars"
+      ],
+      "description": "bar"
+    },
+    {
+      "enum": [
+        56,
+        "poundsPerSqInch"
+      ],
+      "description": "psi"
+    },
+    {
+      "enum": [
+        57,
+        "centimetersOfWater"
+      ],
+      "description": "cm wc"
+    },
+    {
+      "enum": [
+        58,
+        "inchesOfWater"
+      ],
+      "description": "in wc"
+    },
+    {
+      "enum": [
+        59,
+        "millimetersOfMercury"
+      ],
+      "description": "mm HG"
+    },
+    {
+      "enum": [
+        60,
+        "centimetersOfMercury"
+      ],
+      "description": "cm HG"
+    },
+    {
+      "enum": [
+        61,
+        "inchesOfMercury"
+      ],
+      "description": "in HG"
+    },
+    {
+      "enum": [
+        62,
+        "degC"
+      ],
+      "description": "deg C"
+    },
+    {
+      "enum": [
+        63,
+        "degK"
+      ],
+      "description": "K"
+    },
+    {
+      "enum": [
+        64,
+        "degF"
+      ],
+      "description": "deg F"
+    },
+    {
+      "enum": [
+        65,
+        "degDaysC"
+      ],
+      "description": "degree days C"
+    },
+    {
+      "enum": [
+        66,
+        "degDaysF"
+      ],
+      "description": "degree days F"
+    },
+    {
+      "enum": [
+        67,
+        "year"
+      ],
+      "description": "years"
+    },
+    {
+      "enum": [
+        68,
+        "month"
+      ],
+      "description": "months"
+    },
+    {
+      "enum": [
+        69,
+        "week"
+      ],
+      "description": "weeks"
+    },
+    {
+      "enum": [
+        70,
+        "day"
+      ],
+      "description": "days"
+    },
+    {
+      "enum": [
+        71,
+        "hour"
+      ],
+      "description": "hours"
+    },
+    {
+      "enum": [
+        72,
+        "minute"
+      ],
+      "description": "minutes"
+    },
+    {
+      "enum": [
+        73,
+        "second"
+      ],
+      "description": "seconds"
+    },
+    {
+      "enum": [
+        74,
+        "metersPerSec"
+      ],
+      "description": "m/s"
+    },
+    {
+      "enum": [
+        75,
+        "kmetersPerHour"
+      ],
+      "description": "km/h"
+    },
+    {
+      "enum": [
+        76,
+        "ftPerSec"
+      ],
+      "description": "ft/s"
+    },
+    {
+      "enum": [
+        77,
+        "ftPerMin"
+      ],
+      "description": "ft/min"
+    },
+    {
+      "enum": [
+        78,
+        "milesPerHr"
+      ],
+      "description": "mph"
+    },
+    {
+      "enum": [
+        79,
+        "cubicFt"
+      ],
+      "description": "cu ft"
+    },
+    {
+      "enum": [
+        80,
+        "cubicMtrs"
+      ],
+      "description": "cu meter"
+    },
+    {
+      "enum": [
+        81,
+        "impGal"
+      ],
+      "description": "imp Gal"
+    },
+    {
+      "enum": [
+        82,
+        "liters"
+      ],
+      "description": "L"
+    },
+    {
+      "enum": [
+        83,
+        "usGal"
+      ],
+      "description": "Gal"
+    },
+    {
+      "enum": [
+        84,
+        "ft3PerMin"
+      ],
+      "description": "cfm"
+    },
+    {
+      "enum": [
+        85,
+        "mtr3PerSec"
+      ],
+      "description": "cu meter/s"
+    },
+    {
+      "enum": [
+        86,
+        "imperialGallonsPerMinute"
+      ],
+      "description": "imp gpm"
+    },
+    {
+      "enum": [
+        87,
+        "litersPerSecond"
+      ],
+      "description": "L/s"
+    },
+    {
+      "enum": [
+        88,
+        "litersPerMinute"
+      ],
+      "description": "L/min"
+    },
+    {
+      "enum": [
+        89,
+        "usGallonsPerMinute"
+      ],
+      "description": "gpm"
+    },
+    {
+      "enum": [
+        90,
+        "degreesAngular"
+      ],
+      "description": "deg angular"
+    },
+    {
+      "enum": [
+        91,
+        "degCPerHour"
+      ],
+      "description": "deg C/h"
+    },
+    {
+      "enum": [
+        92,
+        "degCPerMinute"
+      ],
+      "description": "deg C/min"
+    },
+    {
+      "enum": [
+        93,
+        "degFPerHour"
+      ],
+      "description": "deg F/h"
+    },
+    {
+      "enum": [
+        94,
+        "degFPerMinute"
+      ],
+      "description": "deg F/min"
+    },
+    {
+      "enum": [
+        95,
+        "noUnits"
+      ],
+      "description": ""
+    },
+    {
+      "enum": [
+        96,
+        "partsPerMillion"
+      ],
+      "description": "ppm"
+    },
+    {
+      "enum": [
+        97,
+        "partsPerBillion"
+      ],
+      "description": "ppb"
+    },
+    {
+      "enum": [
+        98,
+        "percent"
+      ],
+      "description": "%"
+    },
+    {
+      "enum": [
+        99,
+        "percentPerSecond"
+      ],
+      "description": "percent/sec"
+    },
+    {
+      "enum": [
+        100,
+        "perMinute"
+      ],
+      "description": "per min"
+    },
+    {
+      "enum": [
+        101,
+        "perSecond"
+      ],
+      "description": "per sec"
+    },
+    {
+      "enum": [
+        102,
+        "psiPerDegreeFahrenheit"
+      ],
+      "description": "psi/deg F"
+    },
+    {
+      "enum": [
+        103,
+        "radians"
+      ],
+      "description": "radian"
+    },
+    {
+      "enum": [
+        104,
+        "revolutionsPerMinute"
+      ],
+      "description": "rpm"
+    },
+    {
+      "enum": [
+        105,
+        "currency1"
+      ],
+      "description": "Currency 1"
+    },
+    {
+      "enum": [
+        106,
+        "currency2"
+      ],
+      "description": "Currency 2"
+    },
+    {
+      "enum": [
+        107,
+        "currency3"
+      ],
+      "description": "Currency 3"
+    },
+    {
+      "enum": [
+        108,
+        "currency4"
+      ],
+      "description": "Currency 4"
+    },
+    {
+      "enum": [
+        109,
+        "currency5"
+      ],
+      "description": "Currency 5"
+    },
+    {
+      "enum": [
+        110,
+        "currency6"
+      ],
+      "description": "Currency 6"
+    },
+    {
+      "enum": [
+        111,
+        "currency7"
+      ],
+      "description": "Currency 7"
+    },
+    {
+      "enum": [
+        112,
+        "currency8"
+      ],
+      "description": "Currency 8"
+    },
+    {
+      "enum": [
+        113,
+        "currency9"
+      ],
+      "description": "Currency 9"
+    },
+    {
+      "enum": [
+        114,
+        "currency10"
+      ],
+      "description": "Currency 10"
+    },
+    {
+      "enum": [
+        115,
+        "squareInches"
+      ],
+      "description": "sq in"
+    },
+    {
+      "enum": [
+        116,
+        "squareCentimeters"
+      ],
+      "description": "sq cm"
+    },
+    {
+      "enum": [
+        117,
+        "btusPerPound"
+      ],
+      "description": "Btu/lb"
+    },
+    {
+      "enum": [
+        118,
+        "centimeters"
+      ],
+      "description": "cm"
+    },
+    {
+      "enum": [
+        119,
+        "poundsMassPerSec"
+      ],
+      "description": "lbs mass/sec"
+    },
+    {
+      "enum": [
+        120,
+        "degFDelta"
+      ],
+      "description": "delta deg F"
+    },
+    {
+      "enum": [
+        121,
+        "degKDelta"
+      ],
+      "description": "delta deg K"
+    },
+    {
+      "enum": [
+        122,
+        "kilohms"
+      ],
+      "description": "kohm"
+    },
+    {
+      "enum": [
+        123,
+        "megohms"
+      ],
+      "description": "Mohm"
+    },
+    {
+      "enum": [
+        124,
+        "millivolts"
+      ],
+      "description": "mV"
+    },
+    {
+      "enum": [
+        125,
+        "kilojoulesPerKgram"
+      ],
+      "description": "kJ/kg"
+    },
+    {
+      "enum": [
+        126,
+        "megajoules"
+      ],
+      "description": "MJ"
+    },
+    {
+      "enum": [
+        127,
+        "joulesPerDegK"
+      ],
+      "description": "J/K"
+    },
+    {
+      "enum": [
+        128,
+        "joulesPerKgramDegK"
+      ],
+      "description": "J/kg K"
+    },
+    {
+      "enum": [
+        129,
+        "khertz"
+      ],
+      "description": "kHz"
+    },
+    {
+      "enum": [
+        130,
+        "megahertz"
+      ],
+      "description": "MHz"
+    },
+    {
+      "enum": [
+        131,
+        "perHour"
+      ],
+      "description": "per hour"
+    },
+    {
+      "enum": [
+        132,
+        "milliwatts"
+      ],
+      "description": "mW"
+    },
+    {
+      "enum": [
+        133,
+        "hectopascals"
+      ],
+      "description": "hPa"
+    },
+    {
+      "enum": [
+        134,
+        "millibars"
+      ],
+      "description": "mbar"
+    },
+    {
+      "enum": [
+        135,
+        "cubicMetersPerHour"
+      ],
+      "description": "cu meter/h"
+    },
+    {
+      "enum": [
+        136,
+        "litersPerHour"
+      ],
+      "description": "L/h"
+    },
+    {
+      "enum": [
+        137,
+        "kwattHoursPerSqMeter"
+      ],
+      "description": "kWh/sq meter"
+    },
+    {
+      "enum": [
+        138,
+        "kwattHoursPerSqFoot"
+      ],
+      "description": "kWh/sq ft"
+    },
+    {
+      "enum": [
+        139,
+        "megajoulesPerSqMeter"
+      ],
+      "description": "MJ/sq meter"
+    },
+    {
+      "enum": [
+        140,
+        "megajoulesPerSqFoot"
+      ],
+      "description": "MJ/sq ft"
+    },
+    {
+      "enum": [
+        141,
+        "wattsPerSqMeterDegK"
+      ],
+      "description": "W/sq meter K"
+    },
+    {
+      "enum": [
+        142,
+        "cubicFtPerSec"
+      ],
+      "description": "cu ft/s"
+    },
+    {
+      "enum": [
+        143,
+        "percentObscurationPerFt"
+      ],
+      "description": "% Obscuration/ft"
+    },
+    {
+      "enum": [
+        144,
+        "percentObscurationPerMeter"
+      ],
+      "description": "% Obscuration/m"
+    },
+    {
+      "enum": [
+        145,
+        "milliohms"
+      ],
+      "description": "mohm"
+    },
+    {
+      "enum": [
+        146,
+        "megawattHours"
+      ],
+      "description": "MWh"
+    },
+    {
+      "enum": [
+        147,
+        "kiloBritishThermalUnit"
+      ],
+      "description": "kBtu"
+    },
+    {
+      "enum": [
+        148,
+        "megaBritishThermalUnit"
+      ],
+      "description": "MBtu"
+    },
+    {
+      "enum": [
+        149,
+        "kilojoulesPerKilogramDryAir"
+      ],
+      "description": "kJ/kg dry air"
+    },
+    {
+      "enum": [
+        150,
+        "megajoulesPerKilogramDryAir"
+      ],
+      "description": "MJ/kg dry air"
+    },
+    {
+      "enum": [
+        151,
+        "kilojoulesPerDegreeKelvin"
+      ],
+      "description": "kJ/K"
+    },
+    {
+      "enum": [
+        152,
+        "megajoulesPerDegreeKelvin"
+      ],
+      "description": "MJ/K"
+    },
+    {
+      "enum": [
+        153,
+        "newton"
+      ],
+      "description": "N"
+    },
+    {
+      "enum": [
+        154,
+        "gramsPerSecond"
+      ],
+      "description": "g/s"
+    },
+    {
+      "enum": [
+        155,
+        "gramsPerMinute"
+      ],
+      "description": "g/min"
+    },
+    {
+      "enum": [
+        156,
+        "tonsPerHour"
+      ],
+      "description": "Ton/h"
+    },
+    {
+      "enum": [
+        157,
+        "kiloBtusPerHour"
+      ],
+      "description": "kBtu/h"
+    },
+    {
+      "enum": [
+        158,
+        "hundredthsOfSecond"
+      ],
+      "description": "hundredths of sec"
+    },
+    {
+      "enum": [
+        159,
+        "milsecs"
+      ],
+      "description": "ms"
+    },
+    {
+      "enum": [
+        160,
+        "newtonMeters"
+      ],
+      "description": "N m"
+    },
+    {
+      "enum": [
+        161,
+        "millimetersPerSecond"
+      ],
+      "description": "mm/s"
+    },
+    {
+      "enum": [
+        162,
+        "millimetersPerMinute"
+      ],
+      "description": "mm/min"
+    },
+    {
+      "enum": [
+        163,
+        "metersPerMinute"
+      ],
+      "description": "m/min"
+    },
+    {
+      "enum": [
+        164,
+        "metersPerHour"
+      ],
+      "description": "m/h"
+    },
+    {
+      "enum": [
+        165,
+        "cubicMetersPerMinute"
+      ],
+      "description": "cu meter/min"
+    },
+    {
+      "enum": [
+        166,
+        "metersPerSecondPerSecond"
+      ],
+      "description": "m/s/s"
+    },
+    {
+      "enum": [
+        167,
+        "ampersPerMeter"
+      ],
+      "description": "A/m"
+    },
+    {
+      "enum": [
+        168,
+        "ampersPerSquareMeter"
+      ],
+      "description": "A/sq m"
+    },
+    {
+      "enum": [
+        169,
+        "amperSquareMeters"
+      ],
+      "description": "A m"
+    },
+    {
+      "enum": [
+        170,
+        "farads"
+      ],
+      "description": "F"
+    },
+    {
+      "enum": [
+        171,
+        "henrys"
+      ],
+      "description": "H"
+    },
+    {
+      "enum": [
+        172,
+        "ohmMeters"
+      ],
+      "description": "ohm m"
+    },
+    {
+      "enum": [
+        173,
+        "siemens"
+      ],
+      "description": "S"
+    },
+    {
+      "enum": [
+        174,
+        "siemensPerMeter"
+      ],
+      "description": "S/m"
+    },
+    {
+      "enum": [
+        175,
+        "teslas"
+      ],
+      "description": "T"
+    },
+    {
+      "enum": [
+        176,
+        "voltsPerDegreeKelvin"
+      ],
+      "description": "V/K"
+    },
+    {
+      "enum": [
+        177,
+        "voltsPerMeter"
+      ],
+      "description": "V/m"
+    },
+    {
+      "enum": [
+        178,
+        "webers"
+      ],
+      "description": "Wb"
+    },
+    {
+      "enum": [
+        179,
+        "candelas"
+      ],
+      "description": "cd"
+    },
+    {
+      "enum": [
+        180,
+        "candelasPerSquareMeter"
+      ],
+      "description": "cd/sq m"
+    },
+    {
+      "enum": [
+        181,
+        "degreesKelvinPerHour"
+      ],
+      "description": "K/h"
+    },
+    {
+      "enum": [
+        182,
+        "degreesKelvinPerMinute"
+      ],
+      "description": "K/min"
+    },
+    {
+      "enum": [
+        183,
+        "jouleSeconds"
+      ],
+      "description": "j s"
+    },
+    {
+      "enum": [
+        184,
+        "radPerSec"
+      ],
+      "description": "rad/s"
+    },
+    {
+      "enum": [
+        185,
+        "squareMetersPerNewton"
+      ],
+      "description": "sq m/N"
+    },
+    {
+      "enum": [
+        186,
+        "kilogramsPerCubicMeter"
+      ],
+      "description": "kg/cu meter"
+    },
+    {
+      "enum": [
+        187,
+        "newtonSeconds"
+      ],
+      "description": "N s"
+    },
+    {
+      "enum": [
+        188,
+        "newtonsPerMeter"
+      ],
+      "description": "N/m"
+    },
+    {
+      "enum": [
+        189,
+        "wattsPerMeterPerDegreeKelvin"
+      ],
+      "description": "W/m/K"
+    },
+    {
+      "enum": [
+        190,
+        "microSiemens"
+      ],
+      "description": "uS"
+    },
+    {
+      "enum": [
+        191,
+        "cubicFeetPerHour"
+      ],
+      "description": "cu ft/h"
+    },
+    {
+      "enum": [
+        192,
+        "usGallonsPerHour"
+      ],
+      "description": "gph"
+    },
+    {
+      "enum": [
+        193,
+        "kilometers"
+      ],
+      "description": "km"
+    },
+    {
+      "enum": [
+        194,
+        "micrometers"
+      ],
+      "description": "um"
+    },
+    {
+      "enum": [
+        195,
+        "grams"
+      ],
+      "description": "g"
+    },
+    {
+      "enum": [
+        196,
+        "milligrams"
+      ],
+      "description": "mg"
+    },
+    {
+      "enum": [
+        197,
+        "milliliters"
+      ],
+      "description": "mL"
+    },
+    {
+      "enum": [
+        198,
+        "millilitersPerSec"
+      ],
+      "description": "mL/s"
+    },
+    {
+      "enum": [
+        199,
+        "decibelUnits"
+      ],
+      "description": "dB"
+    },
+    {
+      "enum": [
+        200,
+        "decibelsMillivolt"
+      ],
+      "description": "dBmV"
+    },
+    {
+      "enum": [
+        201,
+        "decibelsVolt"
+      ],
+      "description": "dbV"
+    },
+    {
+      "enum": [
+        202,
+        "millisiemens"
+      ],
+      "description": "mS"
+    },
+    {
+      "enum": [
+        203,
+        "wattHoursReactive"
+      ],
+      "description": "Whr"
+    },
+    {
+      "enum": [
+        204,
+        "kilowattHoursReactive"
+      ],
+      "description": "kWhr"
+    },
+    {
+      "enum": [
+        205,
+        "megawattHoursReactive"
+      ],
+      "description": "MWhr"
+    },
+    {
+      "enum": [
+        206,
+        "millimetersOfWater"
+      ],
+      "description": "mm wc"
+    },
+    {
+      "enum": [
+        207,
+        "perMille"
+      ],
+      "description": "%o"
+    },
+    {
+      "enum": [
+        208,
+        "gramsPerGram"
+      ],
+      "description": "g/g"
+    },
+    {
+      "enum": [
+        209,
+        "kilogramsPerKilogram"
+      ],
+      "description": "kg/kg"
+    },
+    {
+      "enum": [
+        210,
+        "gramsPerKilogram"
+      ],
+      "description": "g/kg"
+    },
+    {
+      "enum": [
+        211,
+        "milligramsPerGram"
+      ],
+      "description": "mg/g"
+    },
+    {
+      "enum": [
+        212,
+        "milligramsPerKilogram"
+      ],
+      "description": "mg/kg"
+    },
+    {
+      "enum": [
+        213,
+        "gramsPerMilliliter"
+      ],
+      "description": "g/mL"
+    },
+    {
+      "enum": [
+        214,
+        "gramsPerLiter"
+      ],
+      "description": "g/L"
+    },
+    {
+      "enum": [
+        215,
+        "milligramsPerLiter"
+      ],
+      "description": "mg/L"
+    },
+    {
+      "enum": [
+        216,
+        "microgramsPerLiter"
+      ],
+      "description": "ug/L"
+    },
+    {
+      "enum": [
+        217,
+        "gramsPerCubicMeter"
+      ],
+      "description": "g/cu meter"
+    },
+    {
+      "enum": [
+        218,
+        "milligramsPerCubicMeter"
+      ],
+      "description": "mg/cu meter"
+    },
+    {
+      "enum": [
+        219,
+        "microgramsPerCubicMeter"
+      ],
+      "description": "ug/cu meter"
+    },
+    {
+      "enum": [
+        220,
+        "nanogramsPerCubicMeter"
+      ],
+      "description": "ng/cu meter"
+    },
+    {
+      "enum": [
+        221,
+        "gramsPerCubicCentimeter"
+      ],
+      "description": "g/cu cm"
+    },
+    {
+      "enum": [
+        222,
+        "becquerels"
+      ],
+      "description": "Bq"
+    },
+    {
+      "enum": [
+        223,
+        "kilobecquerels"
+      ],
+      "description": "kBq"
+    },
+    {
+      "enum": [
+        224,
+        "megabecquerels"
+      ],
+      "description": "MBq"
+    },
+    {
+      "enum": [
+        225,
+        "gray"
+      ],
+      "description": "Gy"
+    },
+    {
+      "enum": [
+        226,
+        "milligray"
+      ],
+      "description": "mGy"
+    },
+    {
+      "enum": [
+        227,
+        "microgray"
+      ],
+      "description": "uGy"
+    },
+    {
+      "enum": [
+        228,
+        "sieverts"
+      ],
+      "description": "Sv"
+    },
+    {
+      "enum": [
+        229,
+        "millisieverts"
+      ],
+      "description": "mSv"
+    },
+    {
+      "enum": [
+        230,
+        "microsieverts"
+      ],
+      "description": "uSv"
+    },
+    {
+      "enum": [
+        231,
+        "microsievertsPerHour"
+      ],
+      "description": "uSv/h"
+    },
+    {
+      "enum": [
+        232,
+        "decibelsA"
+      ],
+      "description": "dB(A)"
+    },
+    {
+      "enum": [
+        233,
+        "nephelometricTurbidityUnit"
+      ],
+      "description": "NTU"
+    },
+    {
+      "enum": [
+        234,
+        "phUnits"
+      ],
+      "description": "pH"
+    },
+    {
+      "enum": [
+        235,
+        "gramsPerSquareMeter"
+      ],
+      "description": "g/sq meter"
+    },
+    {
+      "enum": [
+        236,
+        "minutesPerDegreeKelvin"
+      ],
+      "description": "min/K"
+    },
+    {
+      "enum": [
+        237,
+        "ohmMeterSquaredPerMeter"
+      ],
+      "description": "ohm m sq /m"
+    },
+    {
+      "enum": [
+        238,
+        "ampereSeconds"
+      ],
+      "description": "As"
+    },
+    {
+      "enum": [
+        239,
+        "voltAmpereHours"
+      ],
+      "description": "VAh"
+    },
+    {
+      "enum": [
+        240,
+        "kilovoltAmpereHours"
+      ],
+      "description": "kVAh"
+    },
+    {
+      "enum": [
+        241,
+        "megavoltAmpereHours"
+      ],
+      "description": "MVAh"
+    },
+    {
+      "enum": [
+        242,
+        "voltAmpereHoursReactive"
+      ],
+      "description": "VAhR"
+    },
+    {
+      "enum": [
+        243,
+        "kilovoltAmpereHoursReactive"
+      ],
+      "description": "kVAhR"
+    },
+    {
+      "enum": [
+        244,
+        "megavoltAmpereHoursReactive"
+      ],
+      "description": "MVAhR"
+    },
+    {
+      "enum": [
+        245,
+        "voltSquareHours"
+      ],
+      "description": "V sq h"
+    },
+    {
+      "enum": [
+        246,
+        "ampereSquareHours"
+      ],
+      "description": "A sq h"
+    },
+    {
+      "enum": [
+        247,
+        "joulePerHours"
+      ],
+      "description": "J/h"
+    },
+    {
+      "enum": [
+        248,
+        "cubicFeetPerDay"
+      ],
+      "description": "cu ft/d"
+    },
+    {
+      "enum": [
+        249,
+        "cubicMetersPerDay"
+      ],
+      "description": "cu m/d"
+    },
+    {
+      "enum": [
+        250,
+        "wattHoursPerCubicMeter"
+      ],
+      "description": "Wh/cu m"
+    },
+    {
+      "enum": [
+        251,
+        "joulesPerCubicMeter"
+      ],
+      "description": "J/cu m"
+    },
+    {
+      "enum": [
+        252,
+        "molePercent"
+      ],
+      "description": "Mole %"
+    },
+    {
+      "enum": [
+        253,
+        "pascalSeconds"
+      ],
+      "description": "Pas"
+    },
+    {
+      "enum": [
+        254,
+        "millionStdCubicFeetPerMinute"
+      ],
+      "description": "Mstd cu ft/min"
+    },
+    {
+      "enum": [
+        256,
+        "bytes"
+      ],
+      "description": "bytes"
+    },
+    {
+      "enum": [
+        258,
+        "counts"
+      ],
+      "description": "counts"
+    },
+    {
+      "enum": [
+        259,
+        "people"
+      ],
+      "description": "people"
+    },
+    {
+      "enum": [
+        260,
+        "cfmPerPerson"
+      ],
+      "description": "cfm/person"
+    },
+    {
+      "enum": [
+        261,
+        "litersPerPerson"
+      ],
+      "description": "L/person"
+    },
+    {
+      "enum": [
+        262,
+        "minPerDegreeSq"
+      ],
+      "description": "min/deg sq"
+    },
+    {
+      "enum": [
+        263,
+        "kwattPerMinute"
+      ],
+      "description": "kW/min"
+    },
+    {
+      "enum": [
+        264,
+        "percentOpen"
+      ],
+      "description": "% open"
+    },
+    {
+      "enum": [
+        265,
+        "percentClosed"
+      ],
+      "description": "% closed"
+    },
+    {
+      "enum": [
+        266,
+        "flowcCfm"
+      ],
+      "description": "flowC cfm"
+    },
+    {
+      "enum": [
+        267,
+        "flowcCuMetersPerHour"
+      ],
+      "description": "flowC cu meters/h"
+    },
+    {
+      "enum": [
+        268,
+        "flowcLitersPerSecond"
+      ],
+      "description": "flowC L/s"
+    },
+    {
+      "enum": [
+        270,
+        "entries"
+      ],
+      "description": "Entries"
+    },
+    {
+      "enum": [
+        271,
+        "kFactor"
+      ],
+      "description": "K Factor"
+    },
+    {
+      "enum": [
+        272,
+        "customUnits"
+      ],
+      "description": "Custom"
+    },
+    {
+      "enum": [
+        274,
+        "acreUnits"
+      ],
+      "description": "Acre"
+    },
+    {
+      "enum": [
+        275,
+        "atmosphereUnits"
+      ],
+      "description": "Atmosphere"
+    },
+    {
+      "enum": [
+        276,
+        "cubicInches"
+      ],
+      "description": "cu in"
+    },
+    {
+      "enum": [
+        278,
+        "degPerSec"
+      ],
+      "description": "deg/s"
+    },
+    {
+      "enum": [
+        279,
+        "feetOfWater"
+      ],
+      "description": "ft wc"
+    },
+    {
+      "enum": [
+        280,
+        "footPounds"
+      ],
+      "description": "ft-lb"
+    },
+    {
+      "enum": [
+        281,
+        "formazinNephelometricUnits"
+      ],
+      "description": "FNU"
+    },
+    {
+      "enum": [
+        282,
+        "formazinTurbidityUnits"
+      ],
+      "description": "FTU"
+    },
+    {
+      "enum": [
+        283,
+        "grammageUnits"
+      ],
+      "description": "gsm"
+    },
+    {
+      "enum": [
+        286,
+        "kiloGallonsPerMinute"
+      ],
+      "description": "kgpm"
+    },
+    {
+      "enum": [
+        287,
+        "kilopounds"
+      ],
+      "description": "klb"
+    },
+    {
+      "enum": [
+        289,
+        "kiloliters"
+      ],
+      "description": "kl"
+    },
+    {
+      "enum": [
+        292,
+        "megagrams"
+      ],
+      "description": "Mg"
+    },
+    {
+      "enum": [
+        294,
+        "miles"
+      ],
+      "description": "Miles"
+    },
+    {
+      "enum": [
+        298,
+        "nephelometricTurbidityUnits"
+      ],
+      "description": "NTU"
+    },
+    {
+      "enum": [
+        301,
+        "megabytes"
+      ],
+      "description": "megabytes"
+    },
+    {
+      "enum": [
+        302,
+        "perCentCmdUnit"
+      ],
+      "description": "% Cmd"
+    },
+    {
+      "enum": [
+        303,
+        "inchesPascal"
+      ],
+      "description": "in. Pa"
+    },
+    {
+      "enum": [
+        304,
+        "kilocaloriesPerKilogram"
+      ],
+      "description": "KCL/Kg"
+    },
+    {
+      "enum": [
+        305,
+        "hourMinuteUnit"
+      ],
+      "description": "Hr:Mn"
+    },
+    {
+      "enum": [
+        306,
+        "secPerHour"
+      ],
+      "description": "seconds/hour"
+    },
+    {
+      "enum": [
+        308,
+        "lbsPerCubicFeet"
+      ],
+      "description": "lb/cu ft"
+    },
+    {
+      "enum": [
+        309,
+        "changePerMinute"
+      ],
+      "description": "Change per Minute"
+    },
+    {
+      "enum": [
+        310,
+        "digits"
+      ],
+      "description": "Digits"
+    },
+    {
+      "enum": [
+        311,
+        "attempts"
+      ],
+      "description": "Attempts"
+    },
+    {
+      "enum": [
+        312,
+        "entities"
+      ],
+      "description": "Entities"
+    },
+    {
+      "enum": [
+        313,
+        "kilobytes"
+      ],
+      "description": "kilobytes"
+    },
+    {
+      "enum": [
+        314,
+        "failuresPerDay"
+      ],
+      "description": "failures per day"
+    },
+    {
+      "enum": [
+        316,
+        "dekatherm"
+      ],
+      "description": "dekatherm"
+    },
+    {
+      "enum": [
+        317,
+        "normalCubicMeters"
+      ],
+      "description": "Nm3"
+    },
+    {
+      "enum": [
+        318,
+        "hundredCubicFeet"
+      ],
+      "description": "ccf"
+    },
+    {
+      "enum": [
+        319,
+        "millionPounds"
+      ],
+      "description": "Mlb"
+    },
+    {
+      "enum": [
+        320,
+        "metricton"
+      ],
+      "description": "tonne"
+    },
+    {
+      "enum": [
+        321,
+        "gigawatts"
+      ],
+      "description": "GW"
+    },
+    {
+      "enum": [
+        322,
+        "gigawattHours"
+      ],
+      "description": "GWh"
+    },
+    {
+      "enum": [
+        323,
+        "calories"
+      ],
+      "description": "cal"
+    },
+    {
+      "enum": [
+        324,
+        "secPerDeg"
+      ],
+      "description": "s/deg"
+    },
+    {
+      "enum": [
+        325,
+        "kilowattsPerDegreeCelsius"
+      ],
+      "description": "kW/deg C"
+    },
+    {
+      "enum": [
+        326,
+        "tonsPerDegreeFahrenheit"
+      ],
+      "description": "Ton/deg F"
+    },
+    {
+      "enum": [
+        327,
+        "percentPerMinimum"
+      ],
+      "description": "percent/min"
+    },
+    {
+      "enum": [
+        328,
+        "minPerDegree"
+      ],
+      "description": "min/deg"
+    },
+    {
+      "enum": [
+        329,
+        "poundsPerSqInchGauge"
+      ],
+      "description": "psiG"
+    },
+    {
+      "enum": [
+        330,
+        "poundsPerSqInchDifferential"
+      ],
+      "description": "psiD"
+    },
+    {
+      "enum": [
+        331,
+        "kilopascalsGauge"
+      ],
+      "description": "kPaG"
+    },
+    {
+      "enum": [
+        332,
+        "kilopascalsDifferential"
+      ],
+      "description": "kPaD"
+    },
+    {
+      "enum": [
+        333,
+        "mils"
+      ],
+      "description": "MILS"
+    },
+    {
+      "enum": [
+        334,
+        "kwPerTon"
+      ],
+      "description": "kW/Ton"
+    },
+    {
+      "enum": [
+        335,
+        "coeffOfPerformance"
+      ],
+      "description": "COP"
+    },
+    {
+      "enum": [
+        336,
+        "kwCooling"
+      ],
+      "description": "kWc"
+    },
+    {
+      "enum": [
+        337,
+        "degFPerSec"
+      ],
+      "description": "deg F/s"
+    },
+    {
+      "enum": [
+        338,
+        "degCPerSec"
+      ],
+      "description": "deg C/s"
+    },
+    {
+      "enum": [
+        339,
+        "hertzPerSec"
+      ],
+      "description": "Hz/s"
+    },
+    {
+      "enum": [
+        340,
+        "microsecond"
+      ],
+      "description": "uSec"
+    },
+    {
+      "enum": [
+        341,
+        "megaBtusPerHour"
+      ],
+      "description": "MBtu/h"
+    },
+    {
+      "enum": [
+        342,
+        "ctTons"
+      ],
+      "description": "Cooling Tower Tons"
+    },
+    {
+      "enum": [
+        343,
+        "kwPerMegaBtuPerHour"
+      ],
+      "description": "kW/(MBtu/h)"
+    },
+    {
+      "enum": [
+        344,
+        "degreesRankine"
+      ],
+      "description": "deg R"
+    },
+    {
+      "enum": [
+        345,
+        "perMegaBtu"
+      ],
+      "description": "per MBtu"
+    },
+    {
+      "enum": [
+        346,
+        "perKwattHour"
+      ],
+      "description": "per kWh"
+    },
+    {
+      "enum": [
+        347,
+        "perMegawattHour"
+      ],
+      "description": "per MWh"
+    },
+    {
+      "enum": [
+        348,
+        "perTonHour"
+      ],
+      "description": "per ton-h"
+    },
+    {
+      "enum": [
+        349,
+        "perBtu"
+      ],
+      "description": "per Btu"
+    },
+    {
+      "enum": [
+        350,
+        "perJoule"
+      ],
+      "description": "per J"
+    },
+    {
+      "enum": [
+        351,
+        "perKilojoule"
+      ],
+      "description": "per kJ"
+    },
+    {
+      "enum": [
+        352,
+        "perMegaBtusPerHour"
+      ],
+      "description": "per MBtu/h"
+    },
+    {
+      "enum": [
+        353,
+        "perKwatt"
+      ],
+      "description": "per kW"
+    },
+    {
+      "enum": [
+        354,
+        "perTon"
+      ],
+      "description": "per ton"
+    },
+    {
+      "enum": [
+        355,
+        "perHorsepower"
+      ],
+      "description": "per hp"
+    },
+    {
+      "enum": [
+        356,
+        "perCubicMeter"
+      ],
+      "description": "per cu meter"
+    },
+    {
+      "enum": [
+        357,
+        "perCubicFoot"
+      ],
+      "description": "per cu ft"
+    },
+    {
+      "enum": [
+        358,
+        "perGallon"
+      ],
+      "description": "per Gal"
+    },
+    {
+      "enum": [
+        359,
+        "deltaDegC"
+      ],
+      "description": "delta deg C"
+    },
+    {
+      "enum": [
+        360,
+        "perDeltaDegC"
+      ],
+      "description": "per delta deg C"
+    },
+    {
+      "enum": [
+        361,
+        "perDeltaDegF"
+      ],
+      "description": "per delta deg F"
+    },
+    {
+      "enum": [
+        362,
+        "moniesPerMegaBtu"
+      ],
+      "description": "monies per MBtu"
+    },
+    {
+      "enum": [
+        363,
+        "moniesPerKwattHour"
+      ],
+      "description": "monies per kWh"
+    },
+    {
+      "enum": [
+        364,
+        "moniesPerMegawattHour"
+      ],
+      "description": "monies per MWh"
+    },
+    {
+      "enum": [
+        365,
+        "moniesPerTonHour"
+      ],
+      "description": "monies per ton-h"
+    },
+    {
+      "enum": [
+        366,
+        "moniesPerBtu"
+      ],
+      "description": "monies per Btu"
+    },
+    {
+      "enum": [
+        367,
+        "moniesPerJoule"
+      ],
+      "description": "monies per J"
+    },
+    {
+      "enum": [
+        368,
+        "moniesPerKilojoule"
+      ],
+      "description": "monies per kJ"
+    },
+    {
+      "enum": [
+        369,
+        "moniesPerCubicMeter"
+      ],
+      "description": "monies per cu meter"
+    },
+    {
+      "enum": [
+        370,
+        "moniesPerCubicFoot"
+      ],
+      "description": "monies per cu ft"
+    },
+    {
+      "enum": [
+        371,
+        "moniesPerGallon"
+      ],
+      "description": "monies per Gal"
+    },
+    {
+      "enum": [
+        372,
+        "moniesPerHour"
+      ],
+      "description": "monies per hour"
+    },
+    {
+      "enum": [
+        373,
+        "moniesPerMinute"
+      ],
+      "description": "monies per min"
+    },
+    {
+      "enum": [
+        374,
+        "moniesPerSecond"
+      ],
+      "description": "monies per sec"
+    },
+    {
+      "enum": [
+        375,
+        "moniesPerMegaBtuPerHour"
+      ],
+      "description": "monies/(MBtu/h)"
+    },
+    {
+      "enum": [
+        376,
+        "moniesPerKwatt"
+      ],
+      "description": "monies per kW"
+    },
+    {
+      "enum": [
+        377,
+        "moniesPerTon"
+      ],
+      "description": "monies per ton"
+    },
+    {
+      "enum": [
+        378,
+        "moniesPerHorsepower"
+      ],
+      "description": "monies per hp"
+    },
+    {
+      "enum": [
+        379,
+        "tonnesPerMegaBtu"
+      ],
+      "description": "tonnes per MBtu"
+    },
+    {
+      "enum": [
+        380,
+        "tonnesPerKwattHour"
+      ],
+      "description": "tonnes per kWh"
+    },
+    {
+      "enum": [
+        381,
+        "tonnesPerMegawattHour"
+      ],
+      "description": "tonnes per MWh"
+    },
+    {
+      "enum": [
+        382,
+        "tonnesPerTonHour"
+      ],
+      "description": "tonnes per ton-h"
+    },
+    {
+      "enum": [
+        383,
+        "tonnesPerBtu"
+      ],
+      "description": "tonnes per Btu"
+    },
+    {
+      "enum": [
+        384,
+        "tonnesPerJoule"
+      ],
+      "description": "tonnes per J"
+    },
+    {
+      "enum": [
+        385,
+        "tonnesPerKilojoule"
+      ],
+      "description": "tonnes per kJ"
+    },
+    {
+      "enum": [
+        386,
+        "tonnesPerCubicMeter"
+      ],
+      "description": "tonnes per cu meter"
+    },
+    {
+      "enum": [
+        387,
+        "tonnesPerCubicFoot"
+      ],
+      "description": "tonnes per cu ft"
+    },
+    {
+      "enum": [
+        388,
+        "tonnesPerGallon"
+      ],
+      "description": "tonnes per Gal"
+    },
+    {
+      "enum": [
+        389,
+        "tonnesPerHour"
+      ],
+      "description": "tonnes per hour"
+    },
+    {
+      "enum": [
+        390,
+        "tonnesPerMinute"
+      ],
+      "description": "tonnes per min"
+    },
+    {
+      "enum": [
+        391,
+        "tonnesPerSecond"
+      ],
+      "description": "tonnes per sec"
+    },
+    {
+      "enum": [
+        392,
+        "moniesPerGallonPerHour"
+      ],
+      "description": "monies/(Gal/h)"
+    },
+    {
+      "enum": [
+        393,
+        "moniesPerCubicMetersPerHour"
+      ],
+      "description": "monies/(cu meter/h)"
+    },
+    {
+      "enum": [
+        394,
+        "kwPerHour"
+      ],
+      "description": "kW per hour"
+    },
+    {
+      "enum": [
+        395,
+        "kwPerMinute"
+      ],
+      "description": "kW per min"
+    },
+    {
+      "enum": [
+        396,
+        "kwPerSecond"
+      ],
+      "description": "kW per sec"
+    },
+    {
+      "enum": [
+        397,
+        "nau"
+      ],
+      "description": "NaU"
+    },
+    {
+      "enum": [
+        398,
+        "kilojoulesPerCubicMetersDeltaDegC"
+      ],
+      "description": "kJ/(cu meter delta deg C)"
+    },
+    {
+      "enum": [
+        399,
+        "cubicMetersPerHourKilowatt"
+      ],
+      "description": "cu meter/(hour kW)"
+    },
+    {
+      "enum": [
+        400,
+        "degCPerKilowatt"
+      ],
+      "description": "deg C/kW"
+    },
+    {
+      "enum": [
+        401,
+        "kilowattPerDeltaDegC"
+      ],
+      "description": "kW/delta deg C"
+    },
+    {
+      "enum": [
+        402,
+        "deltaDegCPerKilowatt"
+      ],
+      "description": "delta deg C/kW"
+    },
+    {
+      "enum": [
+        403,
+        "cubicMetersPerHourDegK"
+      ],
+      "description": "cu meter/(hour deg K)"
+    },
+    {
+      "enum": [
+        404,
+        "kilowattPerDegK"
+      ],
+      "description": "kW/deg K"
+    },
+    {
+      "enum": [
+        405,
+        "degKPerKilowatt"
+      ],
+      "description": "deg K/kW"
+    },
+    {
+      "enum": [
+        406,
+        "kilowattPerCubicMeters"
+      ],
+      "description": "kW/cu meter"
+    },
+    {
+      "enum": [
+        407,
+        "kilojoulesPerCubicMetersPerHour"
+      ],
+      "description": "kJ/(cu meter/h)"
+    },
+    {
+      "enum": [
+        408,
+        "cubicMetersPerHourKilojoules"
+      ],
+      "description": "cu meter/(hour kJ)"
+    },
+    {
+      "enum": [
+        409,
+        "cubicMetersPerKilowatt"
+      ],
+      "description": "cu meter/kW"
+    },
+    {
+      "enum": [
+        410,
+        "kilopoundPerHour"
+      ],
+      "description": "klb/h"
+    },
+    {
+      "enum": [
+        411,
+        "thousandCubicFeetPerHour"
+      ],
+      "description": "mcf/hr"
+    },
+    {
+      "enum": [
+        412,
+        "hundredCubicFeetPerHour"
+      ],
+      "description": "ccf/hr"
+    },
+    {
+      "enum": [
+        413,
+        "kilopoundPerHourPerTon"
+      ],
+      "description": "klb/h/ton"
+    },
+    {
+      "enum": [
+        414,
+        "kilowattPerKilowatt"
+      ],
+      "description": "kW/kW"
+    },
+    {
+      "enum": [
+        415,
+        "kwattHourPerDeltaDegC"
+      ],
+      "description": "kWh/delta deg C"
+    },
+    {
+      "enum": [
+        416,
+        "degKPerKwattHour"
+      ],
+      "description": "deg K/kWh"
+    },
+    {
+      "enum": [
+        417,
+        "kwattPerHourDegK"
+      ],
+      "description": "kW/(hour deg K)"
+    },
+    {
+      "enum": [
+        418,
+        "degKHourPerKwatt"
+      ],
+      "description": "deg K hour/kW"
+    },
+    {
+      "enum": [
+        419,
+        "poundPerHourPerTon"
+      ],
+      "description": "lb/h/ton"
+    },
+    {
+      "enum": [
+        420,
+        "poundPerHourPerKwatt"
+      ],
+      "description": "lb/h/kW"
+    },
+    {
+      "enum": [
+        421,
+        "btuPerKwattHour"
+      ],
+      "description": "Btu per kWh"
+    },
+    {
+      "enum": [
+        422,
+        "joulesPerKwattHour"
+      ],
+      "description": "J per kWh"
+    },
+    {
+      "enum": [
+        423,
+        "deltaDegCSecond"
+      ],
+      "description": "delta deg C sec"
+    },
+    {
+      "enum": [
+        424,
+        "joulesPerDeltaDegCSquareMeters"
+      ],
+      "description": "J/(delta deg C sq meter)"
+    },
+    {
+      "enum": [
+        425,
+        "deltaDegCSquareMetersPerWatt"
+      ],
+      "description": "(delta deg C sq meter)/W"
+    },
+    {
+      "enum": [
+        426,
+        "perSquareMeters"
+      ],
+      "description": "per sq meter"
+    },
+    {
+      "enum": [
+        512,
+        "jaMillimetersWater"
+      ],
+      "description": "mmH2O"
+    },
+    {
+      "enum": [
+        513,
+        "jaMillimetersAq"
+      ],
+      "description": "mmAq"
+    },
+    {
+      "enum": [
+        514,
+        "jaKilogramsPerSqCm"
+      ],
+      "description": "kg/cm2"
+    },
+    {
+      "enum": [
+        515,
+        "jaMetersWater"
+      ],
+      "description": "mH2O"
+    },
+    {
+      "enum": [
+        516,
+        "jaMegapascals"
+      ],
+      "description": "MPa"
+    },
+    {
+      "enum": [
+        517,
+        "jaGigapascals"
+      ],
+      "description": "GPa"
+    },
+    {
+      "enum": [
+        518,
+        "jaGigajoules"
+      ],
+      "description": "GJ"
+    },
+    {
+      "enum": [
+        519,
+        "jaKilocalPerKilogram"
+      ],
+      "description": "kcal/kg"
+    },
+    {
+      "enum": [
+        520,
+        "jaDeprUnit520"
+      ],
+      "description": "dB(IEIEJ)"
+    },
+    {
+      "enum": [
+        521,
+        "jaDewpointTemperaure"
+      ],
+      "description": "DP"
+    },
+    {
+      "enum": [
+        522,
+        "jaDeprUnit522"
+      ],
+      "description": "deg C DB(IEIEJ)"
+    },
+    {
+      "enum": [
+        523,
+        "jaWetBulbTemperature"
+      ],
+      "description": "WB"
+    },
+    {
+      "enum": [
+        524,
+        "jaNumberOfTimes"
+      ],
+      "description": "Time"
+    },
+    {
+      "enum": [
+        525,
+        "jaDeprUnit525"
+      ],
+      "description": "gal(IEIEJ)"
+    },
+    {
+      "enum": [
+        526,
+        "jaVolume"
+      ],
+      "description": "klx"
+    },
+    {
+      "enum": [
+        527,
+        "jaDeprUnit527"
+      ],
+      "description": "kL(IEIEJ)"
+    },
+    {
+      "enum": [
+        528,
+        "jaDustContent"
+      ],
+      "description": "cf"
+    },
+    {
+      "enum": [
+        529,
+        "jaKiloAmps"
+      ],
+      "description": "kA"
+    },
+    {
+      "enum": [
+        530,
+        "jaConductionRate"
+      ],
+      "description": "muS/cm"
+    },
+    {
+      "enum": [
+        531,
+        "jaMegajoulesPerHour"
+      ],
+      "description": "MJ/h"
+    },
+    {
+      "enum": [
+        532,
+        "jaGigajoulesPerHour"
+      ],
+      "description": "GJ/h"
+    },
+    {
+      "enum": [
+        533,
+        "jaMegacalPerHour"
+      ],
+      "description": "Mcal/h"
+    },
+    {
+      "enum": [
+        534,
+        "jaGigacalPerHour"
+      ],
+      "description": "Gcal/h"
+    },
+    {
+      "enum": [
+        535,
+        "jaJoulesHour"
+      ],
+      "description": "J/h"
+    },
+    {
+      "enum": [
+        536,
+        "jaKilocalories"
+      ],
+      "description": "kcal"
+    },
+    {
+      "enum": [
+        537,
+        "jaMegacalories"
+      ],
+      "description": "Mcal"
+    },
+    {
+      "enum": [
+        538,
+        "jaGigacalories"
+      ],
+      "description": "Gcal"
+    },
+    {
+      "enum": [
+        539,
+        "jaDeprUnit539"
+      ],
+      "description": "pH(IEIEJ)"
+    },
+    {
+      "enum": [
+        540,
+        "jaKilocaloriesPerHour"
+      ],
+      "description": "kcal/h"
+    },
+    {
+      "enum": [
+        541,
+        "jaKilojoulesPerHour"
+      ],
+      "description": "kJ/h"
+    },
+    {
+      "enum": [
+        542,
+        "jaReactivePower"
+      ],
+      "description": "kvarh"
+    },
+    {
+      "enum": [
+        543,
+        "jaCapacityFlux"
+      ],
+      "description": "Nm3/h"
+    },
+    {
+      "enum": [
+        544,
+        "jaFlux"
+      ],
+      "description": "kl/h"
+    },
+    {
+      "enum": [
+        545,
+        "jaManipulatedValue"
+      ],
+      "description": "%MV"
+    },
+    {
+      "enum": [
+        40000,
+        "jaUnderscore"
+      ],
+      "description": "_"
+    },
+    {
+      "enum": [
+        40001,
+        "jaPeriod"
+      ],
+      "description": "."
+    },
+    {
+      "enum": [
+        40002,
+        "jaComma"
+      ],
+      "description": ","
+    },
+    {
+      "enum": [
+        40003,
+        "jaHyphen"
+      ],
+      "description": "-"
+    },
+    {
+      "enum": [
+        40004,
+        "jaJoulesPerDay"
+      ],
+      "description": "J/Day"
+    },
+    {
+      "enum": [
+        40005,
+        "jaKwPerSqM"
+      ],
+      "description": "kW/m2"
+    },
+    {
+      "enum": [
+        40006,
+        "jaDaiUnit"
+      ],
+      "description": "Unit"
+    },
+    {
+      "enum": [
+        40007,
+        "jaMilligramsPerLiters"
+      ],
+      "description": "mg/L"
+    },
+    {
+      "enum": [
+        40008,
+        "jaKilogramPerCentimeter"
+      ],
+      "description": "kgcm"
+    },
+    {
+      "enum": [
+        40009,
+        "jaPrecipitation"
+      ],
+      "description": "mm/h"
+    },
+    {
+      "enum": [
+        40010,
+        "jaNewton"
+      ],
+      "description": "deg N"
+    },
+    {
+      "enum": [
+        40011,
+        "jaKwkw"
+      ],
+      "description": "kW/kW"
+    },
+    {
+      "enum": [
+        40012,
+        "jaKgramsCarbondioxide"
+      ],
+      "description": "kgCO2"
+    },
+    {
+      "enum": [
+        40013,
+        "jaTonsCarbondioxide"
+      ],
+      "description": "tCO2"
+    },
+    {
+      "enum": [
+        40014,
+        "jaPowerFactor"
+      ],
+      "description": "%PF"
+    },
+    {
+      "enum": [
+        40015,
+        "jaGramsPerCubicM"
+      ],
+      "description": "g/m3"
+    },
+    {
+      "enum": [
+        47808,
+        "stdCubicFeetPerDay"
+      ],
+      "description": "std cu ft/d"
+    },
+    {
+      "enum": [
+        47809,
+        "millionStdCubicFeetPerDay"
+      ],
+      "description": "Mstd cu ft/d"
+    },
+    {
+      "enum": [
+        47810,
+        "thousandCubicFeetPerDay"
+      ],
+      "description": "Kcu ft/d"
+    },
+    {
+      "enum": [
+        47811,
+        "thousandStdCubicFeetPerDay"
+      ],
+      "description": "Kstd cu ft/d"
+    },
+    {
+      "enum": [
+        47812,
+        "poundsMassPerDay"
+      ],
+      "description": "lbm/d"
+    },
+    {
+      "enum": [
+        47814,
+        "millirems"
+      ],
+      "description": "mrem"
+    },
+    {
+      "enum": [
+        47815,
+        "milliremsPerHour"
+      ],
+      "description": "mrem/h"
+    }
+  ]
+}

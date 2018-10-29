@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/falseTrueFaultEnumSet.schema.json",
+  "title": "falseTrueFaultEnumSet",
+  "description": "False/True/Fault",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ftfFalse"
+      ],
+      "description": "False"
+    },
+    {
+      "enum": [
+        1,
+        "ftfTrue"
+      ],
+      "description": "True"
+    },
+    {
+      "enum": [
+        2,
+        "ftfFault"
+      ],
+      "description": "Fault"
+    }
+  ]
+}

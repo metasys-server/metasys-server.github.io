@@ -1,0 +1,316 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/jciSystemStatusEnumSet.schema.json",
+  "title": "jciSystemStatusEnumSet",
+  "description": "JCI System Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "codeDownloadRequired"
+      ],
+      "description": "Main Download Req"
+    },
+    {
+      "enum": [
+        1,
+        "codeDownloadInProgress"
+      ],
+      "description": "Code Download"
+    },
+    {
+      "enum": [
+        2,
+        "classCodeDownloadInProgress"
+      ],
+      "description": "Class Code Download"
+    },
+    {
+      "enum": [
+        3,
+        "subclassDownloadInProgress"
+      ],
+      "description": "Subclass Download"
+    },
+    {
+      "enum": [
+        4,
+        "instanceDownloadInProgress"
+      ],
+      "description": "Instance Download"
+    },
+    {
+      "enum": [
+        5,
+        "startupInProgress"
+      ],
+      "description": "Startup"
+    },
+    {
+      "enum": [
+        6,
+        "jciOperational"
+      ],
+      "description": "Operational"
+    },
+    {
+      "enum": [
+        7,
+        "subclassUploadInProgress"
+      ],
+      "description": "Subclass Upload"
+    },
+    {
+      "enum": [
+        8,
+        "instanceUploadInProgress"
+      ],
+      "description": "Instance Upload"
+    },
+    {
+      "enum": [
+        9,
+        "onboardUploadInProgress"
+      ],
+      "description": "Onboard Upload"
+    },
+    {
+      "enum": [
+        10,
+        "onboardDownloadInProgress"
+      ],
+      "description": "Onboard Download"
+    },
+    {
+      "enum": [
+        11,
+        "bootCodeDownloadRequired"
+      ],
+      "description": "Boot Download Req"
+    },
+    {
+      "enum": [
+        12,
+        "startupCodeDownloadRequired"
+      ],
+      "description": "Start Download Req"
+    },
+    {
+      "enum": [
+        13,
+        "bootCodeDownloadInProgress"
+      ],
+      "description": "Boot Code Download"
+    },
+    {
+      "enum": [
+        14,
+        "startupCodeDownloadInProgress"
+      ],
+      "description": "Start Code Download"
+    },
+    {
+      "enum": [
+        15,
+        "instancesDeleted"
+      ],
+      "description": "Instances Deleted"
+    },
+    {
+      "enum": [
+        16,
+        "dictionaryDownloadInProgress"
+      ],
+      "description": "Dict Download"
+    },
+    {
+      "enum": [
+        17,
+        "dictionaryDownloadRequired"
+      ],
+      "description": "Dict Download Req"
+    },
+    {
+      "enum": [
+        18,
+        "archiveDatabaseCrcError"
+      ],
+      "description": "Device archive failed"
+    },
+    {
+      "enum": [
+        19,
+        "deviceResetNeeded"
+      ],
+      "description": "Reset Needed"
+    },
+    {
+      "enum": [
+        20,
+        "deviceColdResetNeeded"
+      ],
+      "description": "Cold Reset Needed"
+    },
+    {
+      "enum": [
+        21,
+        "partialInstanceLoadInProgress"
+      ],
+      "description": "Partial Instance Load"
+    },
+    {
+      "enum": [
+        22,
+        "securityDatabaseArchiveInProgress"
+      ],
+      "description": "Security Database Archive"
+    },
+    {
+      "enum": [
+        23,
+        "securityDatabaseBackupInProgress"
+      ],
+      "description": "Security Database Backup"
+    },
+    {
+      "enum": [
+        24,
+        "securityDatabaseRestoreInProgress"
+      ],
+      "description": "Security Database Restore"
+    },
+    {
+      "enum": [
+        25,
+        "securityDatabaseRestoreFailed"
+      ],
+      "description": "Security Database Restore Failed"
+    },
+    {
+      "enum": [
+        26,
+        "deviceResetInProgress"
+      ],
+      "description": "Device Reset in Progress"
+    },
+    {
+      "enum": [
+        27,
+        "certDownloadInProgress"
+      ],
+      "description": "Cert Download in Progress"
+    },
+    {
+      "enum": [
+        28,
+        "dbaseDownloadInProgress"
+      ],
+      "description": "Database Download in Progress"
+    },
+    {
+      "enum": [
+        29,
+        "radioDownloadInProgress"
+      ],
+      "description": "Radio Download in Progress"
+    },
+    {
+      "enum": [
+        30,
+        "archiveDownloadRequired"
+      ],
+      "description": "Archive Download Required"
+    },
+    {
+      "enum": [
+        31,
+        "maxAppSizeExceeded"
+      ],
+      "description": "Max Application Size Exceeded"
+    },
+    {
+      "enum": [
+        32,
+        "patchDownloadInProgress"
+      ],
+      "description": "Patch Download In Progress"
+    },
+    {
+      "enum": [
+        33,
+        "certificateDownloadInProgress"
+      ],
+      "description": "Certificate Download In Progress"
+    },
+    {
+      "enum": [
+        34,
+        "onboardCertificateUploadInProgress"
+      ],
+      "description": "Onboard Certificate Upload In Progress"
+    },
+    {
+      "enum": [
+        35,
+        "certificateUploadInProgress"
+      ],
+      "description": "Certificate Upload In Progress"
+    },
+    {
+      "enum": [
+        36,
+        "certificateFilesCopyingFailed"
+      ],
+      "description": "Error While Copying Certificate Files During Upload Download"
+    },
+    {
+      "enum": [
+        37,
+        "certificateInstallationFailed"
+      ],
+      "description": "Error While Installing Certificates"
+    },
+    {
+      "enum": [
+        38,
+        "certificateHashNameGenerationFailed"
+      ],
+      "description": "Error While Generating Hash Name For Certificate Files"
+    },
+    {
+      "enum": [
+        39,
+        "certificateDestinationFolderCreationFailed"
+      ],
+      "description": "Error While Creating Destination Folder For Certificate Upload/Download"
+    },
+    {
+      "enum": [
+        40,
+        "certificateFileCorruptionError"
+      ],
+      "description": "Error While Reading Certificate File For Hash Name Generation"
+    },
+    {
+      "enum": [
+        41,
+        "certificateFileOpeningError"
+      ],
+      "description": "Error While Opening Certificate File For Hash Name Generation"
+    },
+    {
+      "enum": [
+        42,
+        "certificatePemGenerationError"
+      ],
+      "description": "Error While Getting PEM For Hash Name Generation"
+    },
+    {
+      "enum": [
+        43,
+        "certificateFileSizeError"
+      ],
+      "description": "Error While Getting Certificate File Size For Hash Name Generation"
+    }
+  ]
+}

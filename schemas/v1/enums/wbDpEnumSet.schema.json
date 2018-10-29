@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/wbDpEnumSet.schema.json",
+  "title": "wbDpEnumSet",
+  "description": "WB/DP",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "wbdpWb"
+      ],
+      "description": "WB"
+    },
+    {
+      "enum": [
+        1,
+        "wbdpDp"
+      ],
+      "description": "DP"
+    }
+  ]
+}

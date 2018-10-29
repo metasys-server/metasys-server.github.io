@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occupancyOutStatusEnumSet.schema.json",
+  "title": "occupancyOutStatusEnumSet",
+  "description": "Occupancy Out Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "occupancyOutStatusOk"
+      ],
+      "description": "OK"
+    },
+    {
+      "enum": [
+        1,
+        "occupancyOutStatusDenied"
+      ],
+      "description": "Denied"
+    },
+    {
+      "enum": [
+        2,
+        "occupancyOutStatusNotOperational"
+      ],
+      "description": "Not Operational"
+    },
+    {
+      "enum": [
+        3,
+        "occupancyOutStatusNeverCounted"
+      ],
+      "description": "Never Counted"
+    }
+  ]
+}

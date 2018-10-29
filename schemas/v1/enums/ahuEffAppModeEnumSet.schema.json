@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuEffAppModeEnumSet.schema.json",
+  "title": "ahuEffAppModeEnumSet",
+  "description": "AHU Effective App Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "aemCoolOnly"
+      ],
+      "description": "Cool Only"
+    },
+    {
+      "enum": [
+        1,
+        "aemHeatOnly"
+      ],
+      "description": "Heat Only"
+    },
+    {
+      "enum": [
+        2,
+        "aemFanOnly"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        3,
+        "aemPurge"
+      ],
+      "description": "Purge"
+    },
+    {
+      "enum": [
+        4,
+        "aemVent"
+      ],
+      "description": "Vent"
+    },
+    {
+      "enum": [
+        5,
+        "aemAuto"
+      ],
+      "description": "Auto"
+    }
+  ]
+}

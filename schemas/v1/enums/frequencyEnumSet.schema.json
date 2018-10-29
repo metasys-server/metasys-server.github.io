@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/frequencyEnumSet.schema.json",
+  "title": "frequencyEnumSet",
+  "description": "Frequency",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "freqDaily"
+      ],
+      "description": "Daily"
+    },
+    {
+      "enum": [
+        2,
+        "freqWeekly"
+      ],
+      "description": "Weekly"
+    },
+    {
+      "enum": [
+        3,
+        "freqMonthly"
+      ],
+      "description": "Monthly"
+    },
+    {
+      "enum": [
+        4,
+        "freqYearly"
+      ],
+      "description": "Yearly"
+    },
+    {
+      "enum": [
+        5,
+        "freqMonthlyByDay"
+      ],
+      "description": "Monthly by Day"
+    },
+    {
+      "enum": [
+        255,
+        "freqOneTime"
+      ],
+      "description": "One Time Only"
+    }
+  ]
+}

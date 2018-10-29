@@ -1,0 +1,2542 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/gryphonLongViewStrings.schema.json",
+  "title": "gryphonLongViewStrings",
+  "description": "Gryphon Long View Strings",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "gryphonViewSafetySwitchStatus"
+      ],
+      "description": "Safety Switch Status"
+    },
+    {
+      "enum": [
+        1,
+        "gryphonViewSmokeDetector"
+      ],
+      "description": "Smoke Detector"
+    },
+    {
+      "enum": [
+        2,
+        "gryphonViewLocalPurgeCmdInput1"
+      ],
+      "description": "Local Purge Command Input 1"
+    },
+    {
+      "enum": [
+        3,
+        "gryphonViewLocalPurgeCmdInput2"
+      ],
+      "description": "Local Purge Command Input 2"
+    },
+    {
+      "enum": [
+        4,
+        "gryphonViewLocalPurgeCmdInput3"
+      ],
+      "description": "Local Purge Command Input 3"
+    },
+    {
+      "enum": [
+        5,
+        "gryphonViewExhaustReturnFanStatus"
+      ],
+      "description": "Exhaust Return Fan Status"
+    },
+    {
+      "enum": [
+        6,
+        "gryphonViewSupplyFanStatus"
+      ],
+      "description": "Supply Fan Status"
+    },
+    {
+      "enum": [
+        7,
+        "gryphonViewPreFiltDiffPressure"
+      ],
+      "description": "Pre-Filter Differential Pressure"
+    },
+    {
+      "enum": [
+        8,
+        "gryphonViewFinalFiltDiffPressure"
+      ],
+      "description": "Final Filter Differential Pressure"
+    },
+    {
+      "enum": [
+        9,
+        "gryphonViewPhaseMonitorAlarm"
+      ],
+      "description": "Phase Monitor Alarm"
+    },
+    {
+      "enum": [
+        10,
+        "gryphonView24VacInput"
+      ],
+      "description": "24VAC Input"
+    },
+    {
+      "enum": [
+        11,
+        "gryphonViewOptionBoard"
+      ],
+      "description": "Option Board"
+    },
+    {
+      "enum": [
+        12,
+        "gryphonViewCond1Board"
+      ],
+      "description": "Condenser 1 Board"
+    },
+    {
+      "enum": [
+        13,
+        "gryphonViewCond2Board"
+      ],
+      "description": "Condenser 2 Board"
+    },
+    {
+      "enum": [
+        14,
+        "gryphonViewCtb"
+      ],
+      "description": "Customer Terminal Board"
+    },
+    {
+      "enum": [
+        15,
+        "gryphonViewOprZoneTemp"
+      ],
+      "description": "Operational Zone Temperature"
+    },
+    {
+      "enum": [
+        16,
+        "gryphonViewOprZoneTempOffset"
+      ],
+      "description": "Operational Zone Temperature Offset"
+    },
+    {
+      "enum": [
+        17,
+        "gryphonViewOprZoneHumidity"
+      ],
+      "description": "Operational Zone Humidity"
+    },
+    {
+      "enum": [
+        18,
+        "gryphonViewZoneTempInput"
+      ],
+      "description": "Zone Temperature Input"
+    },
+    {
+      "enum": [
+        19,
+        "gryphonViewZoneTempSource"
+      ],
+      "description": "Zone Temperature Source"
+    },
+    {
+      "enum": [
+        20,
+        "gryphonViewZoneTempAlmSetpointOffset"
+      ],
+      "description": "Zone Temperature Alarm Setpoint Offset"
+    },
+    {
+      "enum": [
+        21,
+        "gryphonViewZoneTempAlmTimeDelay"
+      ],
+      "description": "Zone Temperature Alarm Time Delay"
+    },
+    {
+      "enum": [
+        22,
+        "gryphonViewZoneHumidityInput"
+      ],
+      "description": "Zone Humidity Input"
+    },
+    {
+      "enum": [
+        23,
+        "gryphonViewZoneHumiditySource"
+      ],
+      "description": "Zone Humidity Source"
+    },
+    {
+      "enum": [
+        24,
+        "gryphonViewDischAirStaticPressure"
+      ],
+      "description": "Discharge Air Static Pressure"
+    },
+    {
+      "enum": [
+        25,
+        "gryphonViewNetOvrZoneTemp"
+      ],
+      "description": "Network Override Zone Temperature"
+    },
+    {
+      "enum": [
+        26,
+        "gryphonViewDemandLoadshed"
+      ],
+      "description": "Demand Loadshed"
+    },
+    {
+      "enum": [
+        27,
+        "gryphonViewComp1AEnable"
+      ],
+      "description": "Compressor 1A Enabled"
+    },
+    {
+      "enum": [
+        28,
+        "gryphonViewComp1BEnable"
+      ],
+      "description": "Compressor 1B Enabled"
+    },
+    {
+      "enum": [
+        29,
+        "gryphonViewComp1CEnable"
+      ],
+      "description": "Compressor 1C Enabled"
+    },
+    {
+      "enum": [
+        30,
+        "gryphonViewComp2AEnable"
+      ],
+      "description": "Compressor 2A Enabled"
+    },
+    {
+      "enum": [
+        31,
+        "gryphonViewComp2BEnable"
+      ],
+      "description": "Compressor 2B Enabled"
+    },
+    {
+      "enum": [
+        32,
+        "gryphonViewComp2CEnable"
+      ],
+      "description": "Compressor 2C Enabled"
+    },
+    {
+      "enum": [
+        33,
+        "gryphonViewStage1A"
+      ],
+      "description": "Stage 1A"
+    },
+    {
+      "enum": [
+        34,
+        "gryphonViewStage1B"
+      ],
+      "description": "Stage 1B"
+    },
+    {
+      "enum": [
+        35,
+        "gryphonViewStage1C"
+      ],
+      "description": "Stage 1C"
+    },
+    {
+      "enum": [
+        36,
+        "gryphonViewStage2A"
+      ],
+      "description": "Stage 2A"
+    },
+    {
+      "enum": [
+        37,
+        "gryphonViewStage2B"
+      ],
+      "description": "Stage 2B"
+    },
+    {
+      "enum": [
+        38,
+        "gryphonViewStage2C"
+      ],
+      "description": "Stage 2C"
+    },
+    {
+      "enum": [
+        39,
+        "gryphonViewOprCoolDatSetpoint"
+      ],
+      "description": "Operating Cooling Discharge Air Temp Setpoint"
+    },
+    {
+      "enum": [
+        40,
+        "gryphonViewOprHeatDatSetpoint"
+      ],
+      "description": "Operating Heating Discharge Air Temp Setpoint"
+    },
+    {
+      "enum": [
+        41,
+        "gryphonViewComp1AStatus"
+      ],
+      "description": "Compressor 1A Status"
+    },
+    {
+      "enum": [
+        42,
+        "gryphonViewComp1BStatus"
+      ],
+      "description": "Compressor 1B Status"
+    },
+    {
+      "enum": [
+        43,
+        "gryphonViewComp1CStatus"
+      ],
+      "description": "Compressor 1C Status"
+    },
+    {
+      "enum": [
+        44,
+        "gryphonViewComp2AStatus"
+      ],
+      "description": "Compressor 2A Status"
+    },
+    {
+      "enum": [
+        45,
+        "gryphonViewComp2BStatus"
+      ],
+      "description": "Compressor 2B Status"
+    },
+    {
+      "enum": [
+        46,
+        "gryphonViewComp2CStatus"
+      ],
+      "description": "Compressor 2C Status"
+    },
+    {
+      "enum": [
+        47,
+        "gryphonViewComp1ACommand"
+      ],
+      "description": "Compressor 1A Command"
+    },
+    {
+      "enum": [
+        48,
+        "gryphonViewComp1BCommand"
+      ],
+      "description": "Compressor 1B Command"
+    },
+    {
+      "enum": [
+        49,
+        "gryphonViewComp1CCommand"
+      ],
+      "description": "Compressor 1C Command"
+    },
+    {
+      "enum": [
+        50,
+        "gryphonViewComp2ACommand"
+      ],
+      "description": "Compressor 2A Command"
+    },
+    {
+      "enum": [
+        51,
+        "gryphonViewComp2BCommand"
+      ],
+      "description": "Compressor 2B Command"
+    },
+    {
+      "enum": [
+        52,
+        "gryphonViewComp2CCommand"
+      ],
+      "description": "Compressor 2C Command"
+    },
+    {
+      "enum": [
+        53,
+        "gryphonViewMinOnTimeRemaining1A"
+      ],
+      "description": "Min On Time Remaining 1A"
+    },
+    {
+      "enum": [
+        54,
+        "gryphonViewMinOnTimeRemaining1B"
+      ],
+      "description": "Min On Time Remaining 1B"
+    },
+    {
+      "enum": [
+        55,
+        "gryphonViewMinOnTimeRemaining1C"
+      ],
+      "description": "Min On Time Remaining 1C"
+    },
+    {
+      "enum": [
+        56,
+        "gryphonViewMinOnTimeRemaining2A"
+      ],
+      "description": "Min On Time Remaining 2A"
+    },
+    {
+      "enum": [
+        57,
+        "gryphonViewMinOnTimeRemaining2B"
+      ],
+      "description": "Min On Time Remaining 2B"
+    },
+    {
+      "enum": [
+        58,
+        "gryphonViewMinOnTimeRemaining2C"
+      ],
+      "description": "Min On Time Remaining 2C"
+    },
+    {
+      "enum": [
+        59,
+        "gryphonViewAscdTimeRemaining1A"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 1A"
+    },
+    {
+      "enum": [
+        60,
+        "gryphonViewAscdTimeRemaining1B"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 1B"
+    },
+    {
+      "enum": [
+        61,
+        "gryphonViewAscdTimeRemaining1C"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 1C"
+    },
+    {
+      "enum": [
+        62,
+        "gryphonViewAscdTimeRemaining2A"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 2A"
+    },
+    {
+      "enum": [
+        63,
+        "gryphonViewAscdTimeRemaining2B"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 2B"
+    },
+    {
+      "enum": [
+        64,
+        "gryphonViewAscdTimeRemaining2C"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining 2C"
+    },
+    {
+      "enum": [
+        65,
+        "gryphonViewCompAccumulatedRuntime1A"
+      ],
+      "description": "Compressor Accumulated Runtime 1A"
+    },
+    {
+      "enum": [
+        66,
+        "gryphonViewCompAccumulatedRuntime1B"
+      ],
+      "description": "Compressor Accumulated Runtime 1B"
+    },
+    {
+      "enum": [
+        67,
+        "gryphonViewCompAccumulatedRuntime1C"
+      ],
+      "description": "Compressor Accumulated Runtime 1C"
+    },
+    {
+      "enum": [
+        68,
+        "gryphonViewCompAccumulatedRuntime2A"
+      ],
+      "description": "Compressor Accumulated Runtime 2A"
+    },
+    {
+      "enum": [
+        69,
+        "gryphonViewCompAccumulatedRuntime2B"
+      ],
+      "description": "Compressor Accumulated Runtime 2B"
+    },
+    {
+      "enum": [
+        70,
+        "gryphonViewCompAccumulatedRuntime2C"
+      ],
+      "description": "Compressor Accumulated Runtime 2C"
+    },
+    {
+      "enum": [
+        71,
+        "gryphonViewCompNumberTimesOn1A"
+      ],
+      "description": "Compressor Number Times On 1A"
+    },
+    {
+      "enum": [
+        72,
+        "gryphonViewCompNumberTimesOn1B"
+      ],
+      "description": "Compressor Number Times On 1B"
+    },
+    {
+      "enum": [
+        73,
+        "gryphonViewCompNumberTimesOn1C"
+      ],
+      "description": "Compressor Number Times On 1C"
+    },
+    {
+      "enum": [
+        74,
+        "gryphonViewCompNumberTimesOn2A"
+      ],
+      "description": "Compressor Number Times On 2A"
+    },
+    {
+      "enum": [
+        75,
+        "gryphonViewCompNumberTimesOn2B"
+      ],
+      "description": "Compressor Number Times On 2B"
+    },
+    {
+      "enum": [
+        76,
+        "gryphonViewCompNumberTimesOn2C"
+      ],
+      "description": "Compressor Number Times On 2C"
+    },
+    {
+      "enum": [
+        77,
+        "gryphonViewCompRuntimeOverride1A"
+      ],
+      "description": "Compressor Runtime Override 1A"
+    },
+    {
+      "enum": [
+        78,
+        "gryphonViewCompRuntimeOverride1B"
+      ],
+      "description": "Compressor Runtime Override 1B"
+    },
+    {
+      "enum": [
+        79,
+        "gryphonViewCompRuntimeOverride1C"
+      ],
+      "description": "Compressor Runtime Override 1C"
+    },
+    {
+      "enum": [
+        80,
+        "gryphonViewCompRuntimeOverride2A"
+      ],
+      "description": "Compressor Runtime Override 2A"
+    },
+    {
+      "enum": [
+        81,
+        "gryphonViewCompRuntimeOverride2B"
+      ],
+      "description": "Compressor Runtime Override 2B"
+    },
+    {
+      "enum": [
+        82,
+        "gryphonViewCompRuntimeOverride2C"
+      ],
+      "description": "Compressor Runtime Override 2C"
+    },
+    {
+      "enum": [
+        83,
+        "gryphonViewCompStartsOverride1A"
+      ],
+      "description": "Compressor Starts Override 1A"
+    },
+    {
+      "enum": [
+        84,
+        "gryphonViewCompStartsOverride1B"
+      ],
+      "description": "Compressor Starts Override 1B"
+    },
+    {
+      "enum": [
+        85,
+        "gryphonViewCompStartsOverride1C"
+      ],
+      "description": "Compressor Starts Override 1C"
+    },
+    {
+      "enum": [
+        86,
+        "gryphonViewCompStartsOverride2A"
+      ],
+      "description": "Compressor Starts Override 2A"
+    },
+    {
+      "enum": [
+        87,
+        "gryphonViewCompStartsOverride2B"
+      ],
+      "description": "Compressor Starts Override 2B"
+    },
+    {
+      "enum": [
+        88,
+        "gryphonViewCompStartsOverride2C"
+      ],
+      "description": "Compressor Starts Override 2C"
+    },
+    {
+      "enum": [
+        89,
+        "gryphonViewCompCapacity1A"
+      ],
+      "description": "Compressor Capacity 1A"
+    },
+    {
+      "enum": [
+        90,
+        "gryphonViewCompCapacity1B"
+      ],
+      "description": "Compressor Capacity 1B"
+    },
+    {
+      "enum": [
+        91,
+        "gryphonViewCompCapacity1C"
+      ],
+      "description": "Compressor Capacity 1C"
+    },
+    {
+      "enum": [
+        92,
+        "gryphonViewCompCapacity2A"
+      ],
+      "description": "Compressor Capacity 2A"
+    },
+    {
+      "enum": [
+        93,
+        "gryphonViewCompCapacity2B"
+      ],
+      "description": "Compressor Capacity 2B"
+    },
+    {
+      "enum": [
+        94,
+        "gryphonViewCompCapacity2C"
+      ],
+      "description": "Compressor Capacity 2C"
+    },
+    {
+      "enum": [
+        95,
+        "gryphonViewEvaporatorTemperature"
+      ],
+      "description": "Evaporator Temperature"
+    },
+    {
+      "enum": [
+        96,
+        "gryphonViewSuctionLinePressure1"
+      ],
+      "description": "Suction Line Pressure 1"
+    },
+    {
+      "enum": [
+        97,
+        "gryphonViewLiquidLinePressure1"
+      ],
+      "description": "Liquid Line Pressure 1"
+    },
+    {
+      "enum": [
+        98,
+        "gryphonViewSuctionLinePressure2"
+      ],
+      "description": "Suction Line Pressure 2"
+    },
+    {
+      "enum": [
+        99,
+        "gryphonViewLiquidLinePressure2"
+      ],
+      "description": "Liquid Line Pressure 2"
+    },
+    {
+      "enum": [
+        100,
+        "gryphonViewSuctionLineTemperature1"
+      ],
+      "description": "Suction Line Temperature 1"
+    },
+    {
+      "enum": [
+        101,
+        "gryphonViewLiquidLineTemperature1"
+      ],
+      "description": "Liquid Line Temperature 1"
+    },
+    {
+      "enum": [
+        102,
+        "gryphonViewSuctionLineTemperature2"
+      ],
+      "description": "Suction Line Temperature 2"
+    },
+    {
+      "enum": [
+        103,
+        "gryphonViewLiquidLineTemperature2"
+      ],
+      "description": "Liquid Line Temperature 2"
+    },
+    {
+      "enum": [
+        104,
+        "gryphonViewCompSafetyChain1"
+      ],
+      "description": "Compressor Safety Chain 1"
+    },
+    {
+      "enum": [
+        105,
+        "gryphonViewCompSafetyChain2"
+      ],
+      "description": "Compressor Safety Chain 2"
+    },
+    {
+      "enum": [
+        106,
+        "gryphonViewCompSafetyChainLockout1"
+      ],
+      "description": "Compressor Safety Chain Lockout 1"
+    },
+    {
+      "enum": [
+        107,
+        "gryphonViewCompSafetyChainLockout2"
+      ],
+      "description": "Compressor Safety Chain Lockout 2"
+    },
+    {
+      "enum": [
+        108,
+        "gryphonViewLowPressureSafety1"
+      ],
+      "description": "Low Pressure Safety 1"
+    },
+    {
+      "enum": [
+        109,
+        "gryphonViewLowPressureSafety2"
+      ],
+      "description": "Low Pressure Safety 2"
+    },
+    {
+      "enum": [
+        110,
+        "gryphonViewComp1AHpUnload"
+      ],
+      "description": "Compressor 1A High Pressure Unload"
+    },
+    {
+      "enum": [
+        111,
+        "gryphonViewComp1BHpUnload"
+      ],
+      "description": "Compressor 1B High Pressure Unload"
+    },
+    {
+      "enum": [
+        112,
+        "gryphonViewComp1CHpUnload"
+      ],
+      "description": "Compressor 1C High Pressure Unload"
+    },
+    {
+      "enum": [
+        113,
+        "gryphonViewComp2AHpUnload"
+      ],
+      "description": "Compressor 2A High Pressure Unload"
+    },
+    {
+      "enum": [
+        114,
+        "gryphonViewComp2BHpUnload"
+      ],
+      "description": "Compressor 2B High Pressure Unload"
+    },
+    {
+      "enum": [
+        115,
+        "gryphonViewComp2CHpUnload"
+      ],
+      "description": "Compressor 2C High Pressure Unload"
+    },
+    {
+      "enum": [
+        116,
+        "gryphonViewComp1ALpUnload"
+      ],
+      "description": "Compressor 1A Low Pressure Unload"
+    },
+    {
+      "enum": [
+        117,
+        "gryphonViewComp1BLpUnload"
+      ],
+      "description": "Compressor 1B Low Pressure Unload"
+    },
+    {
+      "enum": [
+        118,
+        "gryphonViewComp1CLpUnload"
+      ],
+      "description": "Compressor 1C Low Pressure Unload"
+    },
+    {
+      "enum": [
+        119,
+        "gryphonViewComp2ALpUnload"
+      ],
+      "description": "Compressor 2A Low Pressure Unload"
+    },
+    {
+      "enum": [
+        120,
+        "gryphonViewComp2BLpUnload"
+      ],
+      "description": "Compressor 2B Low Pressure Unload"
+    },
+    {
+      "enum": [
+        121,
+        "gryphonViewComp2CLpUnload"
+      ],
+      "description": "Compressor 2C Low Pressure Unload"
+    },
+    {
+      "enum": [
+        122,
+        "gryphonViewCondensateAlarm"
+      ],
+      "description": "Condensate Alarm"
+    },
+    {
+      "enum": [
+        123,
+        "gryphonViewStage5"
+      ],
+      "description": "Stage 5"
+    },
+    {
+      "enum": [
+        124,
+        "gryphonViewStage6"
+      ],
+      "description": "Stage 6"
+    },
+    {
+      "enum": [
+        125,
+        "gryphonViewStage7"
+      ],
+      "description": "Stage 7"
+    },
+    {
+      "enum": [
+        126,
+        "gryphonViewStage8"
+      ],
+      "description": "Stage 8"
+    },
+    {
+      "enum": [
+        127,
+        "gryphonViewStage9"
+      ],
+      "description": "Stage 9"
+    },
+    {
+      "enum": [
+        128,
+        "gryphonViewStage10"
+      ],
+      "description": "Stage 10"
+    },
+    {
+      "enum": [
+        129,
+        "gryphonViewHeatStage4Status"
+      ],
+      "description": "Heating Stage 4 Status"
+    },
+    {
+      "enum": [
+        130,
+        "gryphonViewHeatStage5Status"
+      ],
+      "description": "Heating Stage 5 Status"
+    },
+    {
+      "enum": [
+        131,
+        "gryphonViewHeatStage6Status"
+      ],
+      "description": "Heating Stage 6 Status"
+    },
+    {
+      "enum": [
+        132,
+        "gryphonViewHeatStage7Status"
+      ],
+      "description": "Heating Stage 7 Status"
+    },
+    {
+      "enum": [
+        133,
+        "gryphonViewHeatStage8Status"
+      ],
+      "description": "Heating Stage 8 Status"
+    },
+    {
+      "enum": [
+        134,
+        "gryphonViewHeatStage9Status"
+      ],
+      "description": "Heating Stage 9 Status"
+    },
+    {
+      "enum": [
+        135,
+        "gryphonViewHeatStage10Status"
+      ],
+      "description": "Heating Stage 10 Status"
+    },
+    {
+      "enum": [
+        136,
+        "gryphonViewHeatStage4Command"
+      ],
+      "description": "Heating Stage Command 4"
+    },
+    {
+      "enum": [
+        137,
+        "gryphonViewHeatStage5Command"
+      ],
+      "description": "Heating Stage Command 5"
+    },
+    {
+      "enum": [
+        138,
+        "gryphonViewHeatStage6Command"
+      ],
+      "description": "Heating Stage Command 6"
+    },
+    {
+      "enum": [
+        139,
+        "gryphonViewHeatStage7Command"
+      ],
+      "description": "Heating Stage Command 7"
+    },
+    {
+      "enum": [
+        140,
+        "gryphonViewHeatStage8Command"
+      ],
+      "description": "Heating Stage Command 8"
+    },
+    {
+      "enum": [
+        141,
+        "gryphonViewHeatStage9Command"
+      ],
+      "description": "Heating Stage Command 9"
+    },
+    {
+      "enum": [
+        142,
+        "gryphonViewHeatStage10Command"
+      ],
+      "description": "Heating Stage Command 10"
+    },
+    {
+      "enum": [
+        143,
+        "gryphonViewHeatStage4MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 4 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        144,
+        "gryphonViewHeatStage5MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 5 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        145,
+        "gryphonViewHeatStage6MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 6 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        146,
+        "gryphonViewHeatStage7MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 7 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        147,
+        "gryphonViewHeatStage8MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 8 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        148,
+        "gryphonViewHeatStage9MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 9 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        149,
+        "gryphonViewHeatStage10MinOnTimeRemaining"
+      ],
+      "description": "Heating Stage 10 Min On Time Remaining"
+    },
+    {
+      "enum": [
+        150,
+        "gryphonViewHeatStage4AccumlatedRuntime"
+      ],
+      "description": "Heating Stage 4 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        151,
+        "gryphonViewHeatStage5AccumlatedRuntime"
+      ],
+      "description": "Heating Stage 5 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        152,
+        "gryphonViewHeatStage6AccumlatedRuntime"
+      ],
+      "description": "Heating Stage 6 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        153,
+        "gryphonViewHeatStage7AccumlatedRuntime"
+      ],
+      "description": "Heating Stage 7 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        154,
+        "gryphonViewHeatStage8AccumlatedRuntime"
+      ],
+      "description": "Heating Stage 8 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        155,
+        "gryphonViewHeatStage9AccumlatedRuntime"
+      ],
+      "description": "Heating Stage 9 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        156,
+        "gryphonViewHeatStage10AccumlatedRuntime"
+      ],
+      "description": "Heating Stage 10 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        157,
+        "gryphonViewHeatNumTimesOn1"
+      ],
+      "description": "Heating Number Times On 1"
+    },
+    {
+      "enum": [
+        158,
+        "gryphonViewHeatNumTimesOn2"
+      ],
+      "description": "Heating Number Times On 2"
+    },
+    {
+      "enum": [
+        159,
+        "gryphonViewHeatNumTimesOn3"
+      ],
+      "description": "Heating Number Times On 3"
+    },
+    {
+      "enum": [
+        160,
+        "gryphonViewHeatNumTimesOn4"
+      ],
+      "description": "Heating Number Times On 4"
+    },
+    {
+      "enum": [
+        161,
+        "gryphonViewHeatNumTimesOn5"
+      ],
+      "description": "Heating Number Times On 5"
+    },
+    {
+      "enum": [
+        162,
+        "gryphonViewHeatNumTimesOn6"
+      ],
+      "description": "Heating Number Times On 6"
+    },
+    {
+      "enum": [
+        163,
+        "gryphonViewHeatNumTimesOn7"
+      ],
+      "description": "Heating Number Times On 7"
+    },
+    {
+      "enum": [
+        164,
+        "gryphonViewHeatNumTimesOn8"
+      ],
+      "description": "Heating Number Times On 8"
+    },
+    {
+      "enum": [
+        165,
+        "gryphonViewHeatNumTimesOn9"
+      ],
+      "description": "Heating Number Times On 9"
+    },
+    {
+      "enum": [
+        166,
+        "gryphonViewHeatNumTimesOn10"
+      ],
+      "description": "Heating Number Times On 10"
+    },
+    {
+      "enum": [
+        167,
+        "gryphonViewHeatRuntimeOverride1"
+      ],
+      "description": "Heating Runtime Override 1"
+    },
+    {
+      "enum": [
+        168,
+        "gryphonViewHeatRuntimeOverride2"
+      ],
+      "description": "Heating Runtime Override 2"
+    },
+    {
+      "enum": [
+        169,
+        "gryphonViewHeatRuntimeOverride3"
+      ],
+      "description": "Heating Runtime Override 3"
+    },
+    {
+      "enum": [
+        170,
+        "gryphonViewHeatRuntimeOverride4"
+      ],
+      "description": "Heating Runtime Override 4"
+    },
+    {
+      "enum": [
+        171,
+        "gryphonViewHeatRuntimeOverride5"
+      ],
+      "description": "Heating Runtime Override 5"
+    },
+    {
+      "enum": [
+        172,
+        "gryphonViewHeatRuntimeOverride6"
+      ],
+      "description": "Heating Runtime Override 6"
+    },
+    {
+      "enum": [
+        173,
+        "gryphonViewHeatRuntimeOverride7"
+      ],
+      "description": "Heating Runtime Override 7"
+    },
+    {
+      "enum": [
+        174,
+        "gryphonViewHeatRuntimeOverride8"
+      ],
+      "description": "Heating Runtime Override 8"
+    },
+    {
+      "enum": [
+        175,
+        "gryphonViewHeatRuntimeOverride9"
+      ],
+      "description": "Heating Runtime Override 9"
+    },
+    {
+      "enum": [
+        176,
+        "gryphonViewHeatRuntimeOverride10"
+      ],
+      "description": "Heating Runtime Override 10"
+    },
+    {
+      "enum": [
+        177,
+        "gryphonViewHeatStartsOverride1"
+      ],
+      "description": "Heating Starts Override 1"
+    },
+    {
+      "enum": [
+        178,
+        "gryphonViewHeatStartsOverride2"
+      ],
+      "description": "Heating Starts Override 2"
+    },
+    {
+      "enum": [
+        179,
+        "gryphonViewHeatStartsOverride3"
+      ],
+      "description": "Heating Starts Override 3"
+    },
+    {
+      "enum": [
+        180,
+        "gryphonViewHeatStartsOverride4"
+      ],
+      "description": "Heating Starts Override 4"
+    },
+    {
+      "enum": [
+        181,
+        "gryphonViewHeatStartsOverride5"
+      ],
+      "description": "Heating Starts Override 5"
+    },
+    {
+      "enum": [
+        182,
+        "gryphonViewHeatStartsOverride6"
+      ],
+      "description": "Heating Starts Override 6"
+    },
+    {
+      "enum": [
+        183,
+        "gryphonViewHeatStartsOverride7"
+      ],
+      "description": "Heating Starts Override 7"
+    },
+    {
+      "enum": [
+        184,
+        "gryphonViewHeatStartsOverride8"
+      ],
+      "description": "Heating Starts Override 8"
+    },
+    {
+      "enum": [
+        185,
+        "gryphonViewHeatStartsOverride9"
+      ],
+      "description": "Heating Starts Override 9"
+    },
+    {
+      "enum": [
+        186,
+        "gryphonViewHeatStartsOverride10"
+      ],
+      "description": "Heating Starts Override 10"
+    },
+    {
+      "enum": [
+        187,
+        "gryphonViewHeatCapacity1"
+      ],
+      "description": "Heating Capacity 1"
+    },
+    {
+      "enum": [
+        188,
+        "gryphonViewHeatCapacity2"
+      ],
+      "description": "Heating Capacity 2"
+    },
+    {
+      "enum": [
+        189,
+        "gryphonViewHeatCapacity3"
+      ],
+      "description": "Heating Capacity 3"
+    },
+    {
+      "enum": [
+        190,
+        "gryphonViewHeatCapacity4"
+      ],
+      "description": "Heating Capacity 4"
+    },
+    {
+      "enum": [
+        191,
+        "gryphonViewHeatCapacity5"
+      ],
+      "description": "Heating Capacity 5"
+    },
+    {
+      "enum": [
+        192,
+        "gryphonViewHeatCapacity6"
+      ],
+      "description": "Heating Capacity 6"
+    },
+    {
+      "enum": [
+        193,
+        "gryphonViewHeatCapacity7"
+      ],
+      "description": "Heating Capacity 7"
+    },
+    {
+      "enum": [
+        194,
+        "gryphonViewHeatCapacity8"
+      ],
+      "description": "Heating Capacity 8"
+    },
+    {
+      "enum": [
+        195,
+        "gryphonViewHeatCapacity9"
+      ],
+      "description": "Heating Capacity 9"
+    },
+    {
+      "enum": [
+        196,
+        "gryphonViewHeatCapacity10"
+      ],
+      "description": "Heating Capacity 10"
+    },
+    {
+      "enum": [
+        197,
+        "gryphonViewFurnaceStatus1"
+      ],
+      "description": "Furnace Status 1"
+    },
+    {
+      "enum": [
+        198,
+        "gryphonViewFurnaceStatus2"
+      ],
+      "description": "Furnace Status 2"
+    },
+    {
+      "enum": [
+        199,
+        "gryphonViewFurnaceStatus3"
+      ],
+      "description": "Furnace Status 3"
+    },
+    {
+      "enum": [
+        200,
+        "gryphonViewFurnaceStatus4"
+      ],
+      "description": "Furnace Status 4"
+    },
+    {
+      "enum": [
+        201,
+        "gryphonViewFurnaceStatus5"
+      ],
+      "description": "Furnace Status 5"
+    },
+    {
+      "enum": [
+        202,
+        "gryphonViewHydronicHeat"
+      ],
+      "description": "Hydronic Heat"
+    },
+    {
+      "enum": [
+        203,
+        "gryphonViewModulating"
+      ],
+      "description": "Modulating"
+    },
+    {
+      "enum": [
+        204,
+        "gryphonViewModulatingCompEnable"
+      ],
+      "description": "Modulating Compressor Enable"
+    },
+    {
+      "enum": [
+        205,
+        "gryphonViewModulatingHeatEnable"
+      ],
+      "description": "Modulating Heat Enable"
+    },
+    {
+      "enum": [
+        206,
+        "gryphonViewSupplyFan"
+      ],
+      "description": "Supply Fan"
+    },
+    {
+      "enum": [
+        207,
+        "gryphonViewContinuousVentilation"
+      ],
+      "description": "Continuous Ventilation"
+    },
+    {
+      "enum": [
+        208,
+        "gryphonViewSupplyFanCommand"
+      ],
+      "description": "Supply Fan Command"
+    },
+    {
+      "enum": [
+        209,
+        "gryphonViewSupplyFanVfd1Fault"
+      ],
+      "description": "Supply Fan VFD 1 Fault"
+    },
+    {
+      "enum": [
+        210,
+        "gryphonViewSupplyFanVfd2Fault"
+      ],
+      "description": "Supply Fan VFD 2 Fault"
+    },
+    {
+      "enum": [
+        211,
+        "gryphonViewDischargeAirHighDuctPressure"
+      ],
+      "description": "Discharge Air High Duct Pressure"
+    },
+    {
+      "enum": [
+        212,
+        "gryphonViewEconDamperMinPosHighSpeedFan"
+      ],
+      "description": "Economizer Damper Minimum Position High Speed Fan"
+    },
+    {
+      "enum": [
+        213,
+        "gryphonViewMinOaFlowSetpoint"
+      ],
+      "description": "Min OA Flow Setpoint"
+    },
+    {
+      "enum": [
+        214,
+        "gryphonViewMinOaEnable"
+      ],
+      "description": "Min OA Enable"
+    },
+    {
+      "enum": [
+        215,
+        "gryphonViewOaFlowValue"
+      ],
+      "description": "OA Flow Value"
+    },
+    {
+      "enum": [
+        216,
+        "gryphonViewExhaust"
+      ],
+      "description": "Exhaust"
+    },
+    {
+      "enum": [
+        217,
+        "gryphonViewExhaustFlowValue"
+      ],
+      "description": "Exhaust Flow Value"
+    },
+    {
+      "enum": [
+        218,
+        "gryphonViewReturnFan"
+      ],
+      "description": "Return Fan"
+    },
+    {
+      "enum": [
+        219,
+        "gryphonViewReturnFanInstalled"
+      ],
+      "description": "Return Fan Installed"
+    },
+    {
+      "enum": [
+        220,
+        "gryphonViewReturnFlowValue"
+      ],
+      "description": "Return Flow Value"
+    },
+    {
+      "enum": [
+        221,
+        "gryphonViewReturnFanDischargePressure"
+      ],
+      "description": "Return Fan Discharge Pressure"
+    },
+    {
+      "enum": [
+        222,
+        "gryphonViewExhaustreturnFlowValue"
+      ],
+      "description": "Exhaust/Return Flow Value"
+    },
+    {
+      "enum": [
+        223,
+        "gryphonViewReturnFanPressureHighSetpoint"
+      ],
+      "description": "Return Fan Pressure High Setpoint"
+    },
+    {
+      "enum": [
+        224,
+        "gryphonViewReturnFanPressureLowSetpoint"
+      ],
+      "description": "Return Fan Pressure Low Setpoint"
+    },
+    {
+      "enum": [
+        225,
+        "gryphonViewReturnFanVfdPctCmd"
+      ],
+      "description": "Return Fan VFD Percent Command"
+    },
+    {
+      "enum": [
+        226,
+        "gryphonViewMultiZoneVav"
+      ],
+      "description": "Multi Zone VAV"
+    },
+    {
+      "enum": [
+        227,
+        "gryphonViewDischargeAirStaticPressureMin"
+      ],
+      "description": "Discharge Air Static Pressure Minimum"
+    },
+    {
+      "enum": [
+        228,
+        "gryphonViewDischargeAirStaticPressureAlmDly"
+      ],
+      "description": "Discharge Air Static Pressure Alarm Delay"
+    },
+    {
+      "enum": [
+        229,
+        "gryphonViewHumidityControl"
+      ],
+      "description": "Humidity Control"
+    },
+    {
+      "enum": [
+        230,
+        "gryphonViewDehumidificationSetpoint"
+      ],
+      "description": "Dehumidification Setpoint"
+    },
+    {
+      "enum": [
+        231,
+        "gryphonViewHumidificationSetpoint"
+      ],
+      "description": "Humidification Setpoint"
+    },
+    {
+      "enum": [
+        232,
+        "gryphonViewUnoccDehumidificationSetpoint"
+      ],
+      "description": "Unocc Dehumidification Setpoint"
+    },
+    {
+      "enum": [
+        233,
+        "gryphonViewUnoccHumidificationSetpoint"
+      ],
+      "description": "Unocc Humidification Setpoint"
+    },
+    {
+      "enum": [
+        234,
+        "gryphonViewDehumidifyInSatisfied"
+      ],
+      "description": "Dehumidify In Satisfied"
+    },
+    {
+      "enum": [
+        235,
+        "gryphonViewHumidifyInSatisfied"
+      ],
+      "description": "Humidify In Satisfied"
+    },
+    {
+      "enum": [
+        236,
+        "gryphonViewHumidificationEnabled"
+      ],
+      "description": "Humidification Enabled"
+    },
+    {
+      "enum": [
+        237,
+        "gryphonViewDischargeHumidityLimit"
+      ],
+      "description": "Discharge Humidity Limit"
+    },
+    {
+      "enum": [
+        238,
+        "gryphonViewHotGasReheatBleedValveCommand"
+      ],
+      "description": "Hot Gas Reheat Bleed Valve Command"
+    },
+    {
+      "enum": [
+        239,
+        "gryphonViewHotGasReheatOutput"
+      ],
+      "description": "Hot Gas Reheat Output"
+    },
+    {
+      "enum": [
+        240,
+        "gryphonViewHrwEnabled"
+      ],
+      "description": "HRW Enabled"
+    },
+    {
+      "enum": [
+        241,
+        "gryphonViewExhaustAirHeatRecoveryTemp"
+      ],
+      "description": "Exhaust Air Heat Recovery Temp"
+    },
+    {
+      "enum": [
+        242,
+        "gryphonViewHeatRecoveryWheelCommand"
+      ],
+      "description": "Heat Recovery Wheel Command"
+    },
+    {
+      "enum": [
+        243,
+        "gryphonViewHeatRecoveryWheelOutput"
+      ],
+      "description": "Heat Recovery Wheel Output"
+    },
+    {
+      "enum": [
+        244,
+        "gryphonViewHeatRecoveryWheelStatus"
+      ],
+      "description": "Heat Recovery Wheel Status"
+    },
+    {
+      "enum": [
+        245,
+        "gryphonViewHeatRecoveryEaFbdCommand"
+      ],
+      "description": "Heat Recovery EA FBD Command"
+    },
+    {
+      "enum": [
+        246,
+        "gryphonViewHeatRecoveryOaFbdCommand"
+      ],
+      "description": "Heat Recovery OA FBD Command"
+    },
+    {
+      "enum": [
+        247,
+        "gryphonViewFlexsys"
+      ],
+      "description": "Flexsys"
+    },
+    {
+      "enum": [
+        248,
+        "gryphonViewFlexsysEnabled"
+      ],
+      "description": "Flexsys Enabled"
+    },
+    {
+      "enum": [
+        249,
+        "gryphonViewFlexsysUnderfloorSlabTemp"
+      ],
+      "description": "Flexsys Underfloor Slab Temp"
+    },
+    {
+      "enum": [
+        250,
+        "gryphonViewFlexsysUnderfloorSlabHumidity"
+      ],
+      "description": "Flexsys Underfloor Slab Humidity"
+    },
+    {
+      "enum": [
+        251,
+        "gryphonViewFlexsysBypassDamper"
+      ],
+      "description": "Flexsys Bypass Damper"
+    },
+    {
+      "enum": [
+        252,
+        "gryphonViewDischargeAirDifferentialPressure"
+      ],
+      "description": "Discharge Air Differential Pressure"
+    },
+    {
+      "enum": [
+        253,
+        "gryphonViewReturnFanCommand"
+      ],
+      "description": "Return Fan Command"
+    },
+    {
+      "enum": [
+        254,
+        "gryphonViewHeatEnteringTemperature"
+      ],
+      "description": "Heat Entering Temperature"
+    },
+    {
+      "enum": [
+        255,
+        "gryphonViewExhaustAirDifferentialPressure"
+      ],
+      "description": "Exhaust Air Differential Pressure"
+    },
+    {
+      "enum": [
+        256,
+        "gryphonViewReturnAirDifferentialPressure"
+      ],
+      "description": "Return Air Differential Pressure"
+    },
+    {
+      "enum": [
+        257,
+        "gryphonViewReturnAirDamperCommand"
+      ],
+      "description": "Return Air Damper Command"
+    },
+    {
+      "enum": [
+        258,
+        "gryphonViewCoolingCapacityLimit"
+      ],
+      "description": "Cooling Capacity Limit"
+    },
+    {
+      "enum": [
+        259,
+        "gryphonViewHeatingCapacityLimit"
+      ],
+      "description": "Heating Capacity Limit"
+    },
+    {
+      "enum": [
+        260,
+        "gryphonViewRapidStartTimeLimit"
+      ],
+      "description": "Rapid Start Time Limit"
+    },
+    {
+      "enum": [
+        261,
+        "gryphonViewCoastEnable"
+      ],
+      "description": "Coast Enable"
+    },
+    {
+      "enum": [
+        262,
+        "gryphonViewCoastTime"
+      ],
+      "description": "Coast Time"
+    },
+    {
+      "enum": [
+        263,
+        "gryphonViewCoastRate"
+      ],
+      "description": "Coast Rate"
+    },
+    {
+      "enum": [
+        264,
+        "gryphonViewDischargeAirTempSetpointConfig"
+      ],
+      "description": "Discharge Air Temp Setpoint Configuration"
+    },
+    {
+      "enum": [
+        265,
+        "gryphonViewMorningWarmupZoneAirTempSetpoint"
+      ],
+      "description": "Morning Warmup Zone Air Temp Setpoint"
+    },
+    {
+      "enum": [
+        266,
+        "gryphonViewMorningWarmupDischargeAirTempSetpoint"
+      ],
+      "description": "Morning Warmup Discharge Air Temp Setpoint"
+    },
+    {
+      "enum": [
+        267,
+        "gryphonViewMorningCooldownZoneAirTempSetpoint"
+      ],
+      "description": "Morning Cooldown Zone Air Temp Setpoint"
+    },
+    {
+      "enum": [
+        268,
+        "gryphonViewMorningCooldownDischargeAirTempSetpoint"
+      ],
+      "description": "Morning Cooldown Discharge Air Temp Setpoint"
+    },
+    {
+      "enum": [
+        269,
+        "gryphonViewMaximumAirflow"
+      ],
+      "description": "Maximum Airflow"
+    },
+    {
+      "enum": [
+        270,
+        "gryphonViewDevicesPerCircuit"
+      ],
+      "description": "Devices Per Circuit"
+    },
+    {
+      "enum": [
+        271,
+        "gryphonViewDischargeAirHumiditySetpoint"
+      ],
+      "description": "Discharge Air Humidity Setpoint"
+    },
+    {
+      "enum": [
+        272,
+        "gryphonViewIndoorAirQualityDeadband"
+      ],
+      "description": "Indoor Air Quality Deadband"
+    },
+    {
+      "enum": [
+        273,
+        "gryphonViewMaximumOutdoorAirFlow"
+      ],
+      "description": "Maximum Outdoor Air Flow"
+    },
+    {
+      "enum": [
+        274,
+        "gryphonViewMixedAirTemperatureCoolingLimit"
+      ],
+      "description": "Mixed Air Temperature Cooling Limit"
+    },
+    {
+      "enum": [
+        275,
+        "gryphonViewCoolToHeatDelay"
+      ],
+      "description": "Cool To Heat Delay"
+    },
+    {
+      "enum": [
+        276,
+        "gryphonViewHeatToCoolDelay"
+      ],
+      "description": "Heat To Cool Delay"
+    },
+    {
+      "enum": [
+        277,
+        "gryphonViewLoadShedTime"
+      ],
+      "description": "Load Shed Time"
+    },
+    {
+      "enum": [
+        278,
+        "gryphonViewOatResetSetpointLower"
+      ],
+      "description": "OAT Reset Setpoint Lower"
+    },
+    {
+      "enum": [
+        279,
+        "gryphonViewOatResetSetpointUpper"
+      ],
+      "description": "OAT Reset Setpoint Upper"
+    },
+    {
+      "enum": [
+        280,
+        "gryphonViewZtResetSetpointLower"
+      ],
+      "description": "ZT Reset Setpoint Lower"
+    },
+    {
+      "enum": [
+        281,
+        "gryphonViewZtResetSetpointUpper"
+      ],
+      "description": "ZT Reset Setpoint Upper"
+    },
+    {
+      "enum": [
+        282,
+        "gryphonViewPreOccPurgeIaqSetpoint"
+      ],
+      "description": "Pre-Occupancy Purge IAQ Setpoint"
+    },
+    {
+      "enum": [
+        283,
+        "gryphonViewSafetySetup1"
+      ],
+      "description": "Safety Setup 1"
+    },
+    {
+      "enum": [
+        284,
+        "gryphonViewSafetySetup2"
+      ],
+      "description": "Safety Setup 2"
+    },
+    {
+      "enum": [
+        285,
+        "gryphonViewSafetySetup3"
+      ],
+      "description": "Safety Setup 3"
+    },
+    {
+      "enum": [
+        286,
+        "gryphonViewSafetySetupNetwork"
+      ],
+      "description": "Safety Setup Network Input"
+    },
+    {
+      "enum": [
+        287,
+        "gryphonViewSupplyFanDatSpHighThreshold"
+      ],
+      "description": "Supply Fan DAT Setpoint High Threshold"
+    },
+    {
+      "enum": [
+        288,
+        "gryphonViewSupplyFanDatSpLowThreshold"
+      ],
+      "description": "Supply Fan DAT Setpoint Low Threshold"
+    },
+    {
+      "enum": [
+        289,
+        "gryphonViewSupplyStaggeredStartEnable"
+      ],
+      "description": "Staggered Start Enable"
+    },
+    {
+      "enum": [
+        290,
+        "gryphonViewSupplyStaggeredStartOverrideTime"
+      ],
+      "description": "Staggered Start Override Time"
+    },
+    {
+      "enum": [
+        291,
+        "gryphonViewModulatingHeatCommand"
+      ],
+      "description": "Modulating Heat Command"
+    },
+    {
+      "enum": [
+        292,
+        "gryphonViewModulatingCompCommand"
+      ],
+      "description": "Modulating Compressor Command"
+    },
+    {
+      "enum": [
+        293,
+        "gryphonViewModulatingCondFan1Command"
+      ],
+      "description": "Modulating Condenser Fan 1 Command"
+    },
+    {
+      "enum": [
+        294,
+        "gryphonViewModulatingCondFan2Command"
+      ],
+      "description": "Modulating Condenser Fan 2 Command"
+    },
+    {
+      "enum": [
+        295,
+        "gryphonViewDischargeAirVpSensorAlarm"
+      ],
+      "description": "Discharge Air VP Sensor Alarm"
+    },
+    {
+      "enum": [
+        296,
+        "gryphonViewHeatEnteringTempSensorAlarm"
+      ],
+      "description": "Heat Entering Temp Sensor Alarm"
+    },
+    {
+      "enum": [
+        297,
+        "gryphonViewReturnAirVpSensorAlarm"
+      ],
+      "description": "Return Air VP Sensor Alarm"
+    },
+    {
+      "enum": [
+        298,
+        "gryphonViewReturnAirHumiditySensorAlarm"
+      ],
+      "description": "Return Air Humidity Sensor Alarm"
+    },
+    {
+      "enum": [
+        299,
+        "gryphonViewReturnFanPressureSensorAlarm"
+      ],
+      "description": "Return Fan Pressure Sensor Alarm"
+    },
+    {
+      "enum": [
+        300,
+        "gryphonViewSensorCalibrationAlarm"
+      ],
+      "description": "Sensor Calibration Alarm"
+    },
+    {
+      "enum": [
+        301,
+        "gryphonViewDatTemperingState"
+      ],
+      "description": "DAT Tempering State"
+    },
+    {
+      "enum": [
+        302,
+        "gryphonViewCondFan1A"
+      ],
+      "description": "Condenser Fan 1A"
+    },
+    {
+      "enum": [
+        303,
+        "gryphonViewCondFan1B"
+      ],
+      "description": "Condenser Fan 1B"
+    },
+    {
+      "enum": [
+        304,
+        "gryphonViewCondFan1C"
+      ],
+      "description": "Condenser Fan 1C"
+    },
+    {
+      "enum": [
+        305,
+        "gryphonViewCondFan1D"
+      ],
+      "description": "Condenser Fan 1D"
+    },
+    {
+      "enum": [
+        306,
+        "gryphonViewCondFan2A"
+      ],
+      "description": "Condenser Fan 2A"
+    },
+    {
+      "enum": [
+        307,
+        "gryphonViewCondFan2B"
+      ],
+      "description": "Condenser Fan 2B"
+    },
+    {
+      "enum": [
+        308,
+        "gryphonViewCondFan2C"
+      ],
+      "description": "Condenser Fan 2C"
+    },
+    {
+      "enum": [
+        309,
+        "gryphonViewCondFan2D"
+      ],
+      "description": "Condenser Fan 2D"
+    },
+    {
+      "enum": [
+        310,
+        "gryphonViewSupplyFanRuntimeOverride"
+      ],
+      "description": "Supply Fan Runtime Override"
+    },
+    {
+      "enum": [
+        311,
+        "gryphonViewSupplyFanStartsOverride"
+      ],
+      "description": "Supply Fan Starts Override"
+    },
+    {
+      "enum": [
+        312,
+        "gryphonViewSupplyFanVfd1RuntimeOverride"
+      ],
+      "description": "Supply Fan VFD1 Runtime Override"
+    },
+    {
+      "enum": [
+        313,
+        "gryphonViewSupplyFanVfd2RuntimeOverride"
+      ],
+      "description": "Supply Fan VFD2 Runtime Override"
+    },
+    {
+      "enum": [
+        314,
+        "gryphonViewSupplyFanVfd1StartsOverride"
+      ],
+      "description": "Supply Fan VFD1 Starts Override"
+    },
+    {
+      "enum": [
+        315,
+        "gryphonViewSupplyFanVfd2StartsOverride"
+      ],
+      "description": "Supply Fan VFD2 Starts Override"
+    },
+    {
+      "enum": [
+        316,
+        "gryphonViewFanNumberOfTimesOn"
+      ],
+      "description": "Fan Number of Times On"
+    },
+    {
+      "enum": [
+        317,
+        "gryphonViewFanVfd1NumberOfTimesOn"
+      ],
+      "description": "Fan VFD1 Number of Times On"
+    },
+    {
+      "enum": [
+        318,
+        "gryphonViewFanVfd2NumberOfTimesOn"
+      ],
+      "description": "Fan VFD2 Number of Times On"
+    },
+    {
+      "enum": [
+        319,
+        "gryphonViewFanVfd1AccumulatedRuntime"
+      ],
+      "description": "Fan VFD1 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        320,
+        "gryphonViewFanVfd2AccumulatedRuntime"
+      ],
+      "description": "Fan VFD2 Accumulated Runtime"
+    },
+    {
+      "enum": [
+        321,
+        "gryphonViewCircuit1NumCondFans"
+      ],
+      "description": "Circuit 1 Number of Condenser Fans"
+    },
+    {
+      "enum": [
+        322,
+        "gryphonViewCircuit2NumCondFans"
+      ],
+      "description": "Circuit 2 Number of Condenser Fans"
+    },
+    {
+      "enum": [
+        323,
+        "gryphonViewCircuit1ModCondFanInstalled"
+      ],
+      "description": "Circuit 1 Modulating Condenser Fan Installed"
+    },
+    {
+      "enum": [
+        324,
+        "gryphonViewCircuit2ModCondFanInstalled"
+      ],
+      "description": "Circuit 2 Modulating Condenser Fan Installed"
+    },
+    {
+      "enum": [
+        325,
+        "gryphonViewUnitRunningContinuouslyAlarmDelay"
+      ],
+      "description": "Unit Running Continuously Alarm Delay"
+    },
+    {
+      "enum": [
+        326,
+        "gryphonViewUnitRunningContinuouslyAlarm"
+      ],
+      "description": "Unit Running Continuously Alarm"
+    },
+    {
+      "enum": [
+        327,
+        "gryphonViewBasTrimRespondEnabled"
+      ],
+      "description": "BAS Trim and Respond Enabled"
+    },
+    {
+      "enum": [
+        328,
+        "gryphonViewSetpointNotChangingAlarm"
+      ],
+      "description": "Setpoint Not Changing Alarm"
+    },
+    {
+      "enum": [
+        329,
+        "gryphonViewUnitDownInOccupiedAlarm"
+      ],
+      "description": "Unit Down in Occupied Alarm"
+    },
+    {
+      "enum": [
+        330,
+        "gryphonViewInsufficientCoolingCapabilityAlarm"
+      ],
+      "description": "Insufficient Cooling Capability Alarm"
+    },
+    {
+      "enum": [
+        331,
+        "gryphonViewInsufficientHeatingCapabilityAlarm"
+      ],
+      "description": "Insufficient Heating Capability Alarm"
+    },
+    {
+      "enum": [
+        332,
+        "gryphonViewDatCapabilityAlarmOffset"
+      ],
+      "description": "DAT Capability Alarm Offset"
+    },
+    {
+      "enum": [
+        333,
+        "gryphonViewUvLightInstalled"
+      ],
+      "description": "UV Light Installed"
+    },
+    {
+      "enum": [
+        334,
+        "gryphonViewUvLightRuntimeOverride"
+      ],
+      "description": "UV Light Runtime Override"
+    },
+    {
+      "enum": [
+        335,
+        "gryphonViewUvLightRuntimeReset"
+      ],
+      "description": "UV Light Runtime Reset"
+    },
+    {
+      "enum": [
+        336,
+        "gryphonViewUvLightRuntime"
+      ],
+      "description": "UV Light Runtime"
+    },
+    {
+      "enum": [
+        337,
+        "gryphonViewUvLightNeedsService"
+      ],
+      "description": "UV Light Needs Service"
+    },
+    {
+      "enum": [
+        338,
+        "gryphonViewUvLightLifetime"
+      ],
+      "description": "UV Light Lifetime"
+    },
+    {
+      "enum": [
+        339,
+        "gryphonViewReturnAirDamperPosition"
+      ],
+      "description": "Return Air Damper Position"
+    },
+    {
+      "enum": [
+        340,
+        "gryphonViewAscdTimeRemainingH1"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H1"
+    },
+    {
+      "enum": [
+        341,
+        "gryphonViewAscdTimeRemainingH2"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H2"
+    },
+    {
+      "enum": [
+        342,
+        "gryphonViewAscdTimeRemainingH3"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H3"
+    },
+    {
+      "enum": [
+        343,
+        "gryphonViewAscdTimeRemainingH4"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H4"
+    },
+    {
+      "enum": [
+        344,
+        "gryphonViewAscdTimeRemainingH5"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H5"
+    },
+    {
+      "enum": [
+        345,
+        "gryphonViewAscdTimeRemainingH6"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H6"
+    },
+    {
+      "enum": [
+        346,
+        "gryphonViewAscdTimeRemainingH7"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H7"
+    },
+    {
+      "enum": [
+        347,
+        "gryphonViewAscdTimeRemainingH8"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H8"
+    },
+    {
+      "enum": [
+        348,
+        "gryphonViewAscdTimeRemainingH9"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H9"
+    },
+    {
+      "enum": [
+        349,
+        "gryphonViewAscdTimeRemainingH10"
+      ],
+      "description": "Anti-Short Cycle Delay Time Remaining H10"
+    },
+    {
+      "enum": [
+        350,
+        "gryphonViewCoolingDischargeAirTempUpperSetpoint"
+      ],
+      "description": "Cooling Discharge Air Temp Upper Setpoint"
+    },
+    {
+      "enum": [
+        351,
+        "gryphonViewCoolingDischargeAirTempLowerSetpoint"
+      ],
+      "description": "Cooling Discharge Air Temp Lower Setpoint"
+    },
+    {
+      "enum": [
+        352,
+        "gryphonViewHeatingDischargeAirTempUpperSetpoint"
+      ],
+      "description": "Heating Discharge Air Temp Upper Setpoint"
+    },
+    {
+      "enum": [
+        353,
+        "gryphonViewHeatingDischargeAirTempLowerSetpoint"
+      ],
+      "description": "Heating Discharge Air Temp Lower Setpoint"
+    },
+    {
+      "enum": [
+        354,
+        "gryphonViewHeatingDischargeAirTempTemperingEnable"
+      ],
+      "description": "Discharge Air Temp Tempering Enable"
+    },
+    {
+      "enum": [
+        355,
+        "gryphonViewHeatingDischargeAirTempTemperingSetpoint"
+      ],
+      "description": "Discharge Air Temp Tempering Setpoint"
+    },
+    {
+      "enum": [
+        356,
+        "gryphonViewSupplyFanOutput"
+      ],
+      "description": "Supply Fan Output"
+    },
+    {
+      "enum": [
+        357,
+        "gryphonViewSupplyFanAccumulatedRuntime"
+      ],
+      "description": "Supply Fan Accumulated Runtime"
+    },
+    {
+      "enum": [
+        358,
+        "gryphonViewSupplyFanNumberTimesOn"
+      ],
+      "description": "Supply Fan Number Times On"
+    },
+    {
+      "enum": [
+        359,
+        "gryphonViewHumidifyInUnoccupied"
+      ],
+      "description": "Humidify in Unoccupied"
+    },
+    {
+      "enum": [
+        360,
+        "gryphonViewRuntimeOverride"
+      ],
+      "description": "Runtime Override"
+    },
+    {
+      "enum": [
+        361,
+        "gryphonViewStartCountOverride"
+      ],
+      "description": "Start Count Override"
+    }
+  ]
+}

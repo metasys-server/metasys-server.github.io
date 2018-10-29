@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/standbyRunEnumSet.schema.json",
+  "title": "standbyRunEnumSet",
+  "description": "Standby/Run",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stndbyRnStandby"
+      ],
+      "description": "Standby"
+    },
+    {
+      "enum": [
+        1,
+        "stndbyRnRun"
+      ],
+      "description": "Run"
+    }
+  ]
+}  2,
+        "2"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

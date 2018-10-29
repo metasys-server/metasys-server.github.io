@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vavZncHfrStatesEnumSet.schema.json",
+  "title": "vavZncHfrStatesEnumSet",
+  "description": "VAV ZNC States HFR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vavznghfrSatisfied"
+      ],
+      "description": "Satisfied"
+    },
+    {
+      "enum": [
+        1,
+        "vavznghfrSuppHtg"
+      ],
+      "description": "Supp Htg"
+    },
+    {
+      "enum": [
+        2,
+        "vavznghfrSuppBoxHtg"
+      ],
+      "description": "Supp Htg + Box Htg"
+    },
+    {
+      "enum": [
+        3,
+        "vavznghfrBoxHtg"
+      ],
+      "description": "Box Htg"
+    },
+    {
+      "enum": [
+        4,
+        "vavznghfrBoxSuppHtg"
+      ],
+      "description": "Box Htg + Supp Htg"
+    },
+    {
+      "enum": [
+        5,
+        "vavznghfrPrmyClg"
+      ],
+      "description": "Prmy Clg"
+    },
+    {
+      "enum": [
+        6,
+        "vavznghfrTempUnrel"
+      ],
+      "description": "Temperature Unreliable"
+    },
+    {
+      "enum": [
+        7,
+        "vavznghfrBoxHtgHfr"
+      ],
+      "description": "Box Htg + HFR"
+    },
+    {
+      "enum": [
+        8,
+        "vavznghfrSuppBoxHtgHfr"
+      ],
+      "description": "Supp Htg + Box Htg + HFR"
+    },
+    {
+      "enum": [
+        9,
+        "vavznghfrSuppHtgHfr"
+      ],
+      "description": "Box Htg + Supp Htg + HFR"
+    }
+  ]
+}

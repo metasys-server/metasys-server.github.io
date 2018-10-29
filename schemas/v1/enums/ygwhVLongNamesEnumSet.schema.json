@@ -1,0 +1,575 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ygwhVLongNamesEnumSet.schema.json",
+  "title": "ygwhVLongNamesEnumSet",
+  "description": "YGWH-V Long Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "ygwhVLongNames1"
+      ],
+      "description": "Start/Stop"
+    },
+    {
+      "enum": [
+        2,
+        "ygwhVLongNames2"
+      ],
+      "description": "Run Mode"
+    },
+    {
+      "enum": [
+        3,
+        "ygwhVLongNames3"
+      ],
+      "description": "Leaving Chilled Liquid Setpoint AC"
+    },
+    {
+      "enum": [
+        4,
+        "ygwhVLongNames4"
+      ],
+      "description": "Leaving Chilled Liquid Setpoint ICS"
+    },
+    {
+      "enum": [
+        5,
+        "ygwhVLongNames5"
+      ],
+      "description": "Leaving Heat Liquid Setpoint HP"
+    },
+    {
+      "enum": [
+        6,
+        "ygwhVLongNames6"
+      ],
+      "description": "Leaving Heat Liquid Setpoint High Temperature HP"
+    },
+    {
+      "enum": [
+        7,
+        "ygwhVLongNames7"
+      ],
+      "description": "Over Current Percent AC"
+    },
+    {
+      "enum": [
+        8,
+        "ygwhVLongNames8"
+      ],
+      "description": "Over Current Percent ICS"
+    },
+    {
+      "enum": [
+        9,
+        "ygwhVLongNames9"
+      ],
+      "description": "Over Current Percent HP"
+    },
+    {
+      "enum": [
+        10,
+        "ygwhVLongNames10"
+      ],
+      "description": "Fault"
+    },
+    {
+      "enum": [
+        11,
+        "ygwhVLongNames11"
+      ],
+      "description": "Time Limitation"
+    },
+    {
+      "enum": [
+        12,
+        "ygwhVLongNames12"
+      ],
+      "description": "Preheat"
+    },
+    {
+      "enum": [
+        13,
+        "ygwhVLongNames13"
+      ],
+      "description": "Control Mode"
+    },
+    {
+      "enum": [
+        14,
+        "ygwhVLongNames14"
+      ],
+      "description": "1# Digital Output"
+    },
+    {
+      "enum": [
+        15,
+        "ygwhVLongNames15"
+      ],
+      "description": "1# Digital Input"
+    },
+    {
+      "enum": [
+        16,
+        "ygwhVLongNames16"
+      ],
+      "description": "Leaving Condenser Liquid Temperature"
+    },
+    {
+      "enum": [
+        17,
+        "ygwhVLongNames17"
+      ],
+      "description": "Return Condenser Liquid Temperature"
+    },
+    {
+      "enum": [
+        18,
+        "ygwhVLongNames18"
+      ],
+      "description": "Leaving Chilled Liquid Temperature"
+    },
+    {
+      "enum": [
+        19,
+        "ygwhVLongNames19"
+      ],
+      "description": "Return Chilled Liquid Temperature"
+    },
+    {
+      "enum": [
+        20,
+        "ygwhVLongNames20"
+      ],
+      "description": "1# Discharge Temperature"
+    },
+    {
+      "enum": [
+        21,
+        "ygwhVLongNames21"
+      ],
+      "description": "1# Evaporator Pressure"
+    },
+    {
+      "enum": [
+        22,
+        "ygwhVLongNames22"
+      ],
+      "description": "1# Condenser Pressure"
+    },
+    {
+      "enum": [
+        23,
+        "ygwhVLongNames23"
+      ],
+      "description": "1# Oil Pressure"
+    },
+    {
+      "enum": [
+        24,
+        "ygwhVLongNames24"
+      ],
+      "description": "1# Motor Current"
+    },
+    {
+      "enum": [
+        25,
+        "ygwhVLongNames25"
+      ],
+      "description": "1# Digital Input Fault"
+    },
+    {
+      "enum": [
+        26,
+        "ygwhVLongNames26"
+      ],
+      "description": "1# Analog Input Fault"
+    },
+    {
+      "enum": [
+        27,
+        "ygwhVLongNames27"
+      ],
+      "description": "1# Fault"
+    },
+    {
+      "enum": [
+        28,
+        "ygwhVLongNames28"
+      ],
+      "description": "Water Pump Work Hours"
+    },
+    {
+      "enum": [
+        29,
+        "ygwhVLongNames29"
+      ],
+      "description": "1# Compressor Work Hours"
+    },
+    {
+      "enum": [
+        30,
+        "ygwhVLongNames30"
+      ],
+      "description": "1# Percent FLA"
+    },
+    {
+      "enum": [
+        31,
+        "ygwhVLongNames31"
+      ],
+      "description": "Evaporator Saturation Temperature"
+    },
+    {
+      "enum": [
+        32,
+        "ygwhVLongNames32"
+      ],
+      "description": "Condenser Saturation Temperature"
+    },
+    {
+      "enum": [
+        33,
+        "ygwhVLongNames33"
+      ],
+      "description": "1# Discharge Superheat"
+    },
+    {
+      "enum": [
+        34,
+        "ygwhVLongNames34"
+      ],
+      "description": "1# Motor Temperature A"
+    },
+    {
+      "enum": [
+        35,
+        "ygwhVLongNames35"
+      ],
+      "description": "1# Motor Temperature B"
+    },
+    {
+      "enum": [
+        36,
+        "ygwhVLongNames36"
+      ],
+      "description": "1# Motor Temperature C"
+    },
+    {
+      "enum": [
+        37,
+        "ygwhVLongNames37"
+      ],
+      "description": "Liquid Level"
+    },
+    {
+      "enum": [
+        38,
+        "ygwhVLongNames38"
+      ],
+      "description": "Level Control AO"
+    },
+    {
+      "enum": [
+        39,
+        "ygwhVLongNames39"
+      ],
+      "description": "Level Setpoint"
+    },
+    {
+      "enum": [
+        40,
+        "ygwhVLongNames40"
+      ],
+      "description": "Level Control Pb"
+    },
+    {
+      "enum": [
+        41,
+        "ygwhVLongNames41"
+      ],
+      "description": "Level Control Tn"
+    },
+    {
+      "enum": [
+        42,
+        "ygwhVLongNames42"
+      ],
+      "description": "Level Control Period"
+    },
+    {
+      "enum": [
+        43,
+        "ygwhVLongNames43"
+      ],
+      "description": "1# VSD Run Status"
+    },
+    {
+      "enum": [
+        44,
+        "ygwhVLongNames44"
+      ],
+      "description": "1# VSD Frequency Command"
+    },
+    {
+      "enum": [
+        45,
+        "ygwhVLongNames45"
+      ],
+      "description": "1# VSD Frequency Running"
+    },
+    {
+      "enum": [
+        46,
+        "ygwhVLongNames46"
+      ],
+      "description": "1# VSD BUS Voltage"
+    },
+    {
+      "enum": [
+        47,
+        "ygwhVLongNames47"
+      ],
+      "description": "1# VSD Output Voltage"
+    },
+    {
+      "enum": [
+        48,
+        "ygwhVLongNames48"
+      ],
+      "description": "1# VSD Output Current"
+    },
+    {
+      "enum": [
+        49,
+        "ygwhVLongNames49"
+      ],
+      "description": "1# VSD Output Power"
+    },
+    {
+      "enum": [
+        50,
+        "ygwhVLongNames50"
+      ],
+      "description": "1# VSD Heatsink Temperature"
+    },
+    {
+      "enum": [
+        51,
+        "ygwhVLongNames51"
+      ],
+      "description": "1# VSD Fault Code"
+    },
+    {
+      "enum": [
+        52,
+        "ygwhVLongNames52"
+      ],
+      "description": "1# Fail Rate"
+    },
+    {
+      "enum": [
+        53,
+        "ygwhVLongNames53"
+      ],
+      "description": "VSD Command Period"
+    },
+    {
+      "enum": [
+        54,
+        "ygwhVLongNames54"
+      ],
+      "description": "VSD Pb"
+    },
+    {
+      "enum": [
+        55,
+        "ygwhVLongNames55"
+      ],
+      "description": "VSD Tn"
+    },
+    {
+      "enum": [
+        56,
+        "ygwhVLongNames56"
+      ],
+      "description": "2# Digital Output"
+    },
+    {
+      "enum": [
+        57,
+        "ygwhVLongNames57"
+      ],
+      "description": "2# Digital Input"
+    },
+    {
+      "enum": [
+        58,
+        "ygwhVLongNames58"
+      ],
+      "description": "2# Discharge Temperature"
+    },
+    {
+      "enum": [
+        59,
+        "ygwhVLongNames59"
+      ],
+      "description": "2# Evaporator Pressure"
+    },
+    {
+      "enum": [
+        60,
+        "ygwhVLongNames60"
+      ],
+      "description": "2# Condenser Pressure"
+    },
+    {
+      "enum": [
+        61,
+        "ygwhVLongNames61"
+      ],
+      "description": "2# Oil Pressure"
+    },
+    {
+      "enum": [
+        62,
+        "ygwhVLongNames62"
+      ],
+      "description": "2# Motor Current"
+    },
+    {
+      "enum": [
+        63,
+        "ygwhVLongNames63"
+      ],
+      "description": "2# Digital Input Fault"
+    },
+    {
+      "enum": [
+        64,
+        "ygwhVLongNames64"
+      ],
+      "description": "2# Analog Input Fault"
+    },
+    {
+      "enum": [
+        65,
+        "ygwhVLongNames65"
+      ],
+      "description": "2# Fault"
+    },
+    {
+      "enum": [
+        66,
+        "ygwhVLongNames66"
+      ],
+      "description": "2# Compressor Work Hours"
+    },
+    {
+      "enum": [
+        67,
+        "ygwhVLongNames67"
+      ],
+      "description": "2# Percent FLA"
+    },
+    {
+      "enum": [
+        68,
+        "ygwhVLongNames68"
+      ],
+      "description": "2# Discharge Superheat"
+    },
+    {
+      "enum": [
+        69,
+        "ygwhVLongNames69"
+      ],
+      "description": "2# Motor Temperature A"
+    },
+    {
+      "enum": [
+        70,
+        "ygwhVLongNames70"
+      ],
+      "description": "2# Motor Temperature B"
+    },
+    {
+      "enum": [
+        71,
+        "ygwhVLongNames71"
+      ],
+      "description": "2# Motor Temperature C"
+    },
+    {
+      "enum": [
+        72,
+        "ygwhVLongNames72"
+      ],
+      "description": "2# VSD Run Status"
+    },
+    {
+      "enum": [
+        73,
+        "ygwhVLongNames73"
+      ],
+      "description": "2# VSD Frequency Command"
+    },
+    {
+      "enum": [
+        74,
+        "ygwhVLongNames74"
+      ],
+      "description": "2# VSD Frequency Running"
+    },
+    {
+      "enum": [
+        75,
+        "ygwhVLongNames75"
+      ],
+      "description": "2# VSD BUS Voltage"
+    },
+    {
+      "enum": [
+        76,
+        "ygwhVLongNames76"
+      ],
+      "description": "2# VSD Output Voltage"
+    },
+    {
+      "enum": [
+        77,
+        "ygwhVLongNames77"
+      ],
+      "description": "2# VSD Output Current"
+    },
+    {
+      "enum": [
+        78,
+        "ygwhVLongNames78"
+      ],
+      "description": "2# VSD Output Power"
+    },
+    {
+      "enum": [
+        79,
+        "ygwhVLongNames79"
+      ],
+      "description": "2# VSD Heatsink Temperature"
+    },
+    {
+      "enum": [
+        80,
+        "ygwhVLongNames80"
+      ],
+      "description": "2# VSD Fault Code"
+    },
+    {
+      "enum": [
+        81,
+        "ygwhVLongNames81"
+      ],
+      "description": "2# Fail Rate"
+    }
+  ]
+}

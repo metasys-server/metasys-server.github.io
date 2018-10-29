@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sgslPvEnumSet.schema.json",
+  "title": "sgslPvEnumSet",
+  "description": "SGSL Present Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sgslPvCalculated"
+      ],
+      "description": "Calculated"
+    },
+    {
+      "enum": [
+        1,
+        "sgslPvLastReliable"
+      ],
+      "description": "Last Reliable"
+    },
+    {
+      "enum": [
+        2,
+        "sgslPvFailSoft"
+      ],
+      "description": "Fail Soft"
+    }
+  ]
+}

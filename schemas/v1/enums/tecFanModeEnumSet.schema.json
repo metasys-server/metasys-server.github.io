@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tecFanModeEnumSet.schema.json",
+  "title": "tecFanModeEnumSet",
+  "description": "TEC Fan Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tecFanModeNotUsed"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        1,
+        "tecFanModeOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        2,
+        "tecFanModeAuto"
+      ],
+      "description": "Auto"
+    },
+    {
+      "enum": [
+        3,
+        "tecFanModeSmart"
+      ],
+      "description": "Smart"
+    }
+  ]
+}

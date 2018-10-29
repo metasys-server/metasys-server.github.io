@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/edgeDetectorSetupEnumSet.schema.json",
+  "title": "edgeDetectorSetupEnumSet",
+  "description": "Edge Detector Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "edgeDetectRising"
+      ],
+      "description": "Rising"
+    },
+    {
+      "enum": [
+        1,
+        "edgeDetectFalling"
+      ],
+      "description": "Falling"
+    },
+    {
+      "enum": [
+        2,
+        "edgeDetectBoth"
+      ],
+      "description": "Both"
+    }
+  ]
+}

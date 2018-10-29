@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/resetTypeEnumSet.schema.json",
+  "title": "resetTypeEnumSet",
+  "description": "Reset Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "resetTypeAutomatic"
+      ],
+      "description": "Automatic"
+    },
+    {
+      "enum": [
+        1,
+        "resetTypeManual"
+      ],
+      "description": "Manual"
+    }
+  ]
+}

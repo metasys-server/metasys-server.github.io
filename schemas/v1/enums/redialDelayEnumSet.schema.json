@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/redialDelayEnumSet.schema.json",
+  "title": "redialDelayEnumSet",
+  "description": "Redial Delay",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "second1Delay"
+      ],
+      "description": "1 second"
+    },
+    {
+      "enum": [
+        1,
+        "seconds3Delay"
+      ],
+      "description": "3 seconds"
+    },
+    {
+      "enum": [
+        2,
+        "seconds5Delay"
+      ],
+      "description": "5 seconds"
+    },
+    {
+      "enum": [
+        3,
+        "seconds10Delay"
+      ],
+      "description": "10 seconds"
+    },
+    {
+      "enum": [
+        4,
+        "seconds30Delay"
+      ],
+      "description": "30 seconds"
+    },
+    {
+      "enum": [
+        5,
+        "minute1Delay"
+      ],
+      "description": "1 minute"
+    },
+    {
+      "enum": [
+        6,
+        "minutes2Delay"
+      ],
+      "description": "2 minutes"
+    },
+    {
+      "enum": [
+        7,
+        "minutes5Delay"
+      ],
+      "description": "5 minutes"
+    },
+    {
+      "enum": [
+        8,
+        "minutes10Delay"
+      ],
+      "description": "10 minutes"
+    }
+  ]
+}

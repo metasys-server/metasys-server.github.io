@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/metasysAccountTypeEnumSet.schema.json",
+  "title": "metasysAccountTypeEnumSet",
+  "description": "Metasys Account Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "accountTypeLocal"
+      ],
+      "description": "Local"
+    },
+    {
+      "enum": [
+        1,
+        "accountTypeActiveDirectory"
+      ],
+      "description": "Active Directory"
+    },
+    {
+      "enum": [
+        2,
+        "accountTypeRadius"
+      ],
+      "description": "RADIUS"
+    }
+  ]
+}

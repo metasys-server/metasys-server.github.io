@@ -1,0 +1,484 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/euAhuEventNamesEnumSet.schema.json",
+  "title": "euAhuEventNamesEnumSet",
+  "description": "EU AHU Event Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "euAhuEventNames1"
+      ],
+      "description": "Dirty Filter Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "euAhuEventNames2"
+      ],
+      "description": "Dirty Final Filter Alarm"
+    },
+    {
+      "enum": [
+        3,
+        "euAhuEventNames3"
+      ],
+      "description": "Dirty Pre-Filter Alarm"
+    },
+    {
+      "enum": [
+        4,
+        "euAhuEventNames4"
+      ],
+      "description": "DX1 Defrost Alarm"
+    },
+    {
+      "enum": [
+        5,
+        "euAhuEventNames5"
+      ],
+      "description": "DX1 Unit Alarm"
+    },
+    {
+      "enum": [
+        6,
+        "euAhuEventNames6"
+      ],
+      "description": "DX2 Defrost Alarm"
+    },
+    {
+      "enum": [
+        7,
+        "euAhuEventNames7"
+      ],
+      "description": "DX2 Unit Alarm"
+    },
+    {
+      "enum": [
+        8,
+        "euAhuEventNames8"
+      ],
+      "description": "DX3 Defrost Alarm"
+    },
+    {
+      "enum": [
+        9,
+        "euAhuEventNames9"
+      ],
+      "description": "DX3 Unit Alarm"
+    },
+    {
+      "enum": [
+        10,
+        "euAhuEventNames10"
+      ],
+      "description": "DX4 Defrost Alarm"
+    },
+    {
+      "enum": [
+        11,
+        "euAhuEventNames11"
+      ],
+      "description": "DX4 Unit Alarm"
+    },
+    {
+      "enum": [
+        12,
+        "euAhuEventNames12"
+      ],
+      "description": "DX5 Defrost Alarm"
+    },
+    {
+      "enum": [
+        13,
+        "euAhuEventNames13"
+      ],
+      "description": "DX5 Unit Alarm"
+    },
+    {
+      "enum": [
+        14,
+        "euAhuEventNames14"
+      ],
+      "description": "DX6 Defrost Alarm"
+    },
+    {
+      "enum": [
+        15,
+        "euAhuEventNames15"
+      ],
+      "description": "DX6 Unit Alarm"
+    },
+    {
+      "enum": [
+        16,
+        "euAhuEventNames16"
+      ],
+      "description": "Heat Recovery Differential Pressure Switch Alarm"
+    },
+    {
+      "enum": [
+        17,
+        "euAhuEventNames17"
+      ],
+      "description": "Return Air Dirty Filter Alarm"
+    },
+    {
+      "enum": [
+        18,
+        "euAhuEventNames18"
+      ],
+      "description": "Return Air Flow Out of Limit Alarm"
+    },
+    {
+      "enum": [
+        19,
+        "euAhuEventNames19"
+      ],
+      "description": "Return Air High Flow Alarm"
+    },
+    {
+      "enum": [
+        20,
+        "euAhuEventNames20"
+      ],
+      "description": "Return Air Low Flow Alarm"
+    },
+    {
+      "enum": [
+        21,
+        "euAhuEventNames21"
+      ],
+      "description": "Return Air Temperature High Alarm"
+    },
+    {
+      "enum": [
+        22,
+        "euAhuEventNames22"
+      ],
+      "description": "Return Air Temperature Low Alarm"
+    },
+    {
+      "enum": [
+        23,
+        "euAhuEventNames23"
+      ],
+      "description": "Return Air Temperature Out of Limit Alarm"
+    },
+    {
+      "enum": [
+        24,
+        "euAhuEventNames24"
+      ],
+      "description": "Return Fan 1 Fail Alarm"
+    },
+    {
+      "enum": [
+        25,
+        "euAhuEventNames25"
+      ],
+      "description": "Return Fan 1 Fault"
+    },
+    {
+      "enum": [
+        26,
+        "euAhuEventNames26"
+      ],
+      "description": "Return Fan 1 Off Mode Alarm"
+    },
+    {
+      "enum": [
+        27,
+        "euAhuEventNames27"
+      ],
+      "description": "Return Fan 2 Fail Alarm"
+    },
+    {
+      "enum": [
+        28,
+        "euAhuEventNames28"
+      ],
+      "description": "Return Fan 2 Fault"
+    },
+    {
+      "enum": [
+        29,
+        "euAhuEventNames29"
+      ],
+      "description": "Return Fan 2 Off Mode Alarm"
+    },
+    {
+      "enum": [
+        30,
+        "euAhuEventNames30"
+      ],
+      "description": "Return Fan Fail Alarm"
+    },
+    {
+      "enum": [
+        31,
+        "euAhuEventNames31"
+      ],
+      "description": "Return Fan Fault"
+    },
+    {
+      "enum": [
+        32,
+        "euAhuEventNames32"
+      ],
+      "description": "Return Fan Off Mode Alarm"
+    },
+    {
+      "enum": [
+        33,
+        "euAhuEventNames33"
+      ],
+      "description": "Supply Air Duct Pressure Out of Limit Alarm"
+    },
+    {
+      "enum": [
+        34,
+        "euAhuEventNames34"
+      ],
+      "description": "Supply Air High Duct Pressure Alarm"
+    },
+    {
+      "enum": [
+        35,
+        "euAhuEventNames35"
+      ],
+      "description": "Supply Air Low Duct Pressure Alarm"
+    },
+    {
+      "enum": [
+        36,
+        "euAhuEventNames36"
+      ],
+      "description": "Supply Fan 1 Fail Alarm"
+    },
+    {
+      "enum": [
+        37,
+        "euAhuEventNames37"
+      ],
+      "description": "Supply Fan 1 Fault"
+    },
+    {
+      "enum": [
+        38,
+        "euAhuEventNames38"
+      ],
+      "description": "Supply Fan 1 Off Mode Alarm"
+    },
+    {
+      "enum": [
+        39,
+        "euAhuEventNames39"
+      ],
+      "description": "Supply Fan 2 Fail Alarm"
+    },
+    {
+      "enum": [
+        40,
+        "euAhuEventNames40"
+      ],
+      "description": "Supply Fan 2 Fault"
+    },
+    {
+      "enum": [
+        41,
+        "euAhuEventNames41"
+      ],
+      "description": "Supply Fan 2 Off Mode Alarm"
+    },
+    {
+      "enum": [
+        42,
+        "euAhuEventNames42"
+      ],
+      "description": "Supply Fan Fail Alarm"
+    },
+    {
+      "enum": [
+        43,
+        "euAhuEventNames43"
+      ],
+      "description": "Supply Fan Fault"
+    },
+    {
+      "enum": [
+        44,
+        "euAhuEventNames44"
+      ],
+      "description": "Supply Fan Off Mode Alarm"
+    },
+    {
+      "enum": [
+        45,
+        "euAhuEventNames45"
+      ],
+      "description": "Supply Fan Lockout Alarm"
+    },
+    {
+      "enum": [
+        46,
+        "euAhuEventNames46"
+      ],
+      "description": "Return Fan Lockout Alarm"
+    },
+    {
+      "enum": [
+        47,
+        "euAhuEventNames47"
+      ],
+      "description": "Emergency Alarm"
+    },
+    {
+      "enum": [
+        48,
+        "euAhuEventNames48"
+      ],
+      "description": "Supply Air Fire Temperature Alarm"
+    },
+    {
+      "enum": [
+        49,
+        "euAhuEventNames49"
+      ],
+      "description": "Return Air Fire Temperature Alarm"
+    },
+    {
+      "enum": [
+        50,
+        "euAhuEventNames50"
+      ],
+      "description": "Window Open Alarm"
+    },
+    {
+      "enum": [
+        51,
+        "euAhuEventNames51"
+      ],
+      "description": "Heat Pump Alarm"
+    },
+    {
+      "enum": [
+        52,
+        "euAhuEventNames52"
+      ],
+      "description": "High Pressure Alarm"
+    },
+    {
+      "enum": [
+        53,
+        "euAhuEventNames53"
+      ],
+      "description": "Low Pressure Alarm"
+    },
+    {
+      "enum": [
+        54,
+        "euAhuEventNames54"
+      ],
+      "description": "Flow Fail Alarm"
+    },
+    {
+      "enum": [
+        55,
+        "euAhuEventNames55"
+      ],
+      "description": "Room Temperature Alarm"
+    },
+    {
+      "enum": [
+        56,
+        "euAhuEventNames56"
+      ],
+      "description": "Water Loop Temperature Alarm"
+    },
+    {
+      "enum": [
+        57,
+        "euAhuEventNames57"
+      ],
+      "description": "Variable Speed Drive Alarm"
+    },
+    {
+      "enum": [
+        58,
+        "euAhuEventNames58"
+      ],
+      "description": "Return Air Temperature Alarm"
+    },
+    {
+      "enum": [
+        59,
+        "euAhuEventNames59"
+      ],
+      "description": "Room/Return Air Temperature Alarm"
+    },
+    {
+      "enum": [
+        60,
+        "euAhuEventNames60"
+      ],
+      "description": "Compressor Manual Mode Alarm"
+    },
+    {
+      "enum": [
+        61,
+        "euAhuEventNames61"
+      ],
+      "description": "Reversing Valve Manual Mode Alarm"
+    },
+    {
+      "enum": [
+        62,
+        "euAhuEventNames62"
+      ],
+      "description": "Fan Manual Mode Alarm"
+    },
+    {
+      "enum": [
+        63,
+        "euAhuEventNames63"
+      ],
+      "description": "Variable Speed Drive Manual Mode Alarm"
+    },
+    {
+      "enum": [
+        64,
+        "euAhuEventNames64"
+      ],
+      "description": "Low Pressure Startup Alarm"
+    },
+    {
+      "enum": [
+        65,
+        "euAhuEventNames65"
+      ],
+      "description": "Stored Low Pressure Alarm"
+    },
+    {
+      "enum": [
+        66,
+        "euAhuEventNames66"
+      ],
+      "description": "Handled Flow Switch Alarm"
+    },
+    {
+      "enum": [
+        67,
+        "euAhuEventNames67"
+      ],
+      "description": "High Pressure Startup Alarm"
+    },
+    {
+      "enum": [
+        68,
+        "euAhuEventNames68"
+      ],
+      "description": "Stored High Pressure Alarm"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hvacUnitStateEnumSet.schema.json",
+  "title": "hvacUnitStateEnumSet",
+  "description": "HVAC Unit State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hvacUnitStateOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hvacUnitStateCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "hvacUnitStateHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        3,
+        "hvacUnitStateVentilating"
+      ],
+      "description": "Ventilating"
+    },
+    {
+      "enum": [
+        4,
+        "hvacUnitStateIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        5,
+        "hvacUnitStateFrostProtection"
+      ],
+      "description": "Frost Protection"
+    },
+    {
+      "enum": [
+        6,
+        "hvacUnitStateWarning"
+      ],
+      "description": "Warning"
+    }
+  ]
+}

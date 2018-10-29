@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/tstatBinaryInputFunctionEnumSet.schema.json",
+  "title": "tstatBinaryInputFunctionEnumSet",
+  "description": "Thermostat Binary Input Function",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "tstatBinaryInputFuncOccupancy"
+      ],
+      "description": "Occupancy Input"
+    },
+    {
+      "enum": [
+        1,
+        "tstatBinaryInputFuncDewPointRisk"
+      ],
+      "description": "Dew Point Risk Input"
+    },
+    {
+      "enum": [
+        2,
+        "tstatBinaryInputFuncFilterAlarm"
+      ],
+      "description": "Filter Alarm Input"
+    },
+    {
+      "enum": [
+        3,
+        "tstatBinaryInputFuncChangoverSensor"
+      ],
+      "description": "Changeover Sensor Input"
+    }
+  ]
+}

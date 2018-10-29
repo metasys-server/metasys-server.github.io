@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lastUsedEditorEnumSet.schema.json",
+  "title": "lastUsedEditorEnumSet",
+  "description": "Last Used Editor",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lueTextEditor"
+      ],
+      "description": "Text Editor"
+    },
+    {
+      "enum": [
+        1,
+        "lueGraphicalEditor"
+      ],
+      "description": "Graphical Editor"
+    },
+    {
+      "enum": [
+        2,
+        "lueApplicationBuilder"
+      ],
+      "description": "Application Builder"
+    },
+    {
+      "enum": [
+        3,
+        "lueCmtEditor"
+      ],
+      "description": "CMT Editor"
+    },
+    {
+      "enum": [
+        4,
+        "lueImported"
+      ],
+      "description": "Imported"
+    },
+    {
+      "enum": [
+        5,
+        "lueDecompiler"
+      ],
+      "description": "Decompiler"
+    }
+  ]
+}

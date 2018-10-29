@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/noneStatusEnumSet.schema.json",
+  "title": "noneStatusEnumSet",
+  "description": "None Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "nsNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "nsStatus"
+      ],
+      "description": "Status"
+    },
+    {
+      "enum": [
+        2,
+        "nsAutoRestart"
+      ],
+      "description": "Automatic Restart"
+    },
+    {
+      "enum": [
+        3,
+        "nsManualRestart"
+      ],
+      "description": "Manual Restart"
+    }
+  ]
+}

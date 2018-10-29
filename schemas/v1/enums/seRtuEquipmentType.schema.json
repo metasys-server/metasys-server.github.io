@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuEquipmentType.schema.json",
+  "title": "seRtuEquipmentType",
+  "description": "SE RTU Equipment Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuEquipmentTypeNotUsed"
+      ],
+      "description": "Not Used"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuEquipmentTypePackageCool"
+      ],
+      "description": "Package Cool"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuEquipmentTypePackageHp"
+      ],
+      "description": "Package HP"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuEquipmentTypeSplitCool"
+      ],
+      "description": "Split Cool"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuEquipmentTypeSplitHp"
+      ],
+      "description": "Split HP"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuEquipmentTypeWaterSourcePackageHp"
+      ],
+      "description": "Water Source Package HP"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuEquipmentTypeWaterSourceSplitHp"
+      ],
+      "description": "Water Source Split HP"
+    },
+    {
+      "enum": [
+        7,
+        "seRtuEquipmentTypeWaterCooledPackageCool"
+      ],
+      "description": "Water Cooled Package Cool"
+    },
+    {
+      "enum": [
+        8,
+        "seRtuEquipmentTypeWaterCooledSplitCool"
+      ],
+      "description": "Water Cooled Split Cool"
+    },
+    {
+      "enum": [
+        9,
+        "seRtuEquipmentTypeWalkInCooler"
+      ],
+      "description": "Walk In Cooler"
+    },
+    {
+      "enum": [
+        10,
+        "seRtuEquipmentTypeWalkInFreezer"
+      ],
+      "description": "Walk In Freezer"
+    },
+    {
+      "enum": [
+        11,
+        "seRtuEquipmentTypeN"
+      ],
+      "description": "n"
+    }
+  ]
+}

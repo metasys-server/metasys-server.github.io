@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seRtuUnitStatusEnumSet.schema.json",
+  "title": "seRtuUnitStatusEnumSet",
+  "description": "SE RTU Unit Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seRtuUnitStatusIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "seRtuUnitStatusSdAlarm"
+      ],
+      "description": "SD Alarm"
+    },
+    {
+      "enum": [
+        2,
+        "seRtuUnitStatusPurgeCommand"
+      ],
+      "description": "Purge Command"
+    },
+    {
+      "enum": [
+        3,
+        "seRtuUnitStatusSelfTest"
+      ],
+      "description": "Self Test"
+    },
+    {
+      "enum": [
+        4,
+        "seRtuUnitStatusMorningWarmUp"
+      ],
+      "description": "Morning Warm Up"
+    },
+    {
+      "enum": [
+        5,
+        "seRtuUnitStatusAirTempering"
+      ],
+      "description": "Air Tempering"
+    },
+    {
+      "enum": [
+        6,
+        "seRtuUnitStatusDehumidification"
+      ],
+      "description": "Dehumidification"
+    },
+    {
+      "enum": [
+        7,
+        "seRtuUnitStatusHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        8,
+        "seRtuUnitStatusCooling"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        9,
+        "seRtuUnitStatusEconomizer"
+      ],
+      "description": "Economizer"
+    },
+    {
+      "enum": [
+        10,
+        "seRtuUnitStatusFanOnly"
+      ],
+      "description": "Fan Only"
+    },
+    {
+      "enum": [
+        11,
+        "seRtuUnitStatusComfortVentilation"
+      ],
+      "description": "Comfort Ventilation"
+    },
+    {
+      "enum": [
+        12,
+        "seRtuUnitStatusStartupDelay"
+      ],
+      "description": "Startup Delay"
+    }
+  ]
+}

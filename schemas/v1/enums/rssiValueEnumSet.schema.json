@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/rssiValueEnumSet.schema.json",
+  "title": "rssiValueEnumSet",
+  "description": "RSSI Value",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "rssiValueNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "rssiValuePoor"
+      ],
+      "description": "Poor"
+    },
+    {
+      "enum": [
+        2,
+        "rssiValueFair"
+      ],
+      "description": "Fair"
+    },
+    {
+      "enum": [
+        3,
+        "rssiValueGood"
+      ],
+      "description": "Good"
+    }
+  ]
+}

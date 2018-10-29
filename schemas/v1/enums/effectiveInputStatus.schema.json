@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/effectiveInputStatus.schema.json",
+  "title": "effectiveInputStatus",
+  "description": "Effective Input Status",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "effectiveInputStatusUnreliable"
+      ],
+      "description": "Unreliable"
+    },
+    {
+      "enum": [
+        1,
+        "effectiveInputStatusLowPriority"
+      ],
+      "description": "Low Priority"
+    },
+    {
+      "enum": [
+        2,
+        "effectiveInputStatusMediumPriority"
+      ],
+      "description": "Medium Priority"
+    },
+    {
+      "enum": [
+        3,
+        "effectiveInputStatusHighPriority"
+      ],
+      "description": "High Priority"
+    },
+    {
+      "enum": [
+        4,
+        "effectiveInputStatusTimedOverride"
+      ],
+      "description": "Timed Override"
+    },
+    {
+      "enum": [
+        5,
+        "effectiveInputStatusInputNotInstalled"
+      ],
+      "description": "Input Not Installed"
+    }
+  ]
+}

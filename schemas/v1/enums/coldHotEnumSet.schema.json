@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/coldHotEnumSet.schema.json",
+  "title": "coldHotEnumSet",
+  "description": "Cold/Hot",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "chCold"
+      ],
+      "description": "Cold"
+    },
+    {
+      "enum": [
+        1,
+        "chHot"
+      ],
+      "description": "Hot"
+    }
+  ]
+}

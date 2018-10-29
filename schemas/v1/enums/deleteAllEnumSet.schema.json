@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/deleteAllEnumSet.schema.json",
+  "title": "deleteAllEnumSet",
+  "description": "Delete All Enum Set",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "deleteAllNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "deleteAllMarkAll"
+      ],
+      "description": "Mark All"
+    },
+    {
+      "enum": [
+        2,
+        "deleteAllMarked"
+      ],
+      "description": "Delete All Marked"
+    },
+    {
+      "enum": [
+        3,
+        "deleteAll"
+      ],
+      "description": "Delete All"
+    }
+  ]
+}

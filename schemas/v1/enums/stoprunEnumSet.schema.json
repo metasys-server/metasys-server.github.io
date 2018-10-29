@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stopRunEnumSet.schema.json",
+  "title": "stopRunEnumSet",
+  "description": "Stop/Run",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stpRnStop"
+      ],
+      "description": "Stop"
+    },
+    {
+      "enum": [
+        1,
+        "stpRnRun"
+      ],
+      "description": "Run"
+    }
+  ]
+}    {
+      "enum": [
+        2,
+        "stoprunHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/compConfigEnumSet.schema.json",
+  "title": "compConfigEnumSet",
+  "description": "Comp Config",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Two Comp Two Stg"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Two Comp Three Stg"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Two Comp Four Stg"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Two Comp Six Stg"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Three Comp Four Stg"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Four Comp Four Stg"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Six Comp Six Stg"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Four Comp Eight Stg"
+    },
+    {
+      "enum": [
+        8,
+        "8"
+      ],
+      "description": "Generic Cond"
+    }
+  ]
+}

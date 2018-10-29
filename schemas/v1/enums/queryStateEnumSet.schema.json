@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/queryStateEnumSet.schema.json",
+  "title": "queryStateEnumSet",
+  "description": "Query State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "qsIdle"
+      ],
+      "description": "Idle"
+    },
+    {
+      "enum": [
+        1,
+        "qsExecuting"
+      ],
+      "description": "Executing"
+    },
+    {
+      "enum": [
+        2,
+        "qsReadytosend"
+      ],
+      "description": "Ready To Send"
+    },
+    {
+      "enum": [
+        3,
+        "qsDone"
+      ],
+      "description": "Done"
+    }
+  ]
+}

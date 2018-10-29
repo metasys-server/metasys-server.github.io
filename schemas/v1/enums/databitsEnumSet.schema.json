@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/databitsEnumSet.schema.json",
+  "title": "databitsEnumSet",
+  "description": "Databits",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sphDatabits5"
+      ],
+      "description": "5"
+    },
+    {
+      "enum": [
+        1,
+        "sphDatabits6"
+      ],
+      "description": "6"
+    },
+    {
+      "enum": [
+        2,
+        "sphDatabits7"
+      ],
+      "description": "7"
+    },
+    {
+      "enum": [
+        3,
+        "sphDatabits8"
+      ],
+      "description": "8"
+    }
+  ]
+}

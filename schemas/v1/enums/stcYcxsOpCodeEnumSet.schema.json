@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/stcYcxsOpCodeEnumSet.schema.json",
+  "title": "stcYcxsOpCodeEnumSet",
+  "description": "York YCAS YCWS YCRS Operational Code",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "stcYcxsOpCode0"
+      ],
+      "description": "NO STATUS"
+    },
+    {
+      "enum": [
+        1,
+        "stcYcxsOpCode1"
+      ],
+      "description": "UNIT SWITCH OFF"
+    },
+    {
+      "enum": [
+        2,
+        "stcYcxsOpCode2"
+      ],
+      "description": "SYSTEM SWITCH OFF"
+    },
+    {
+      "enum": [
+        3,
+        "stcYcxsOpCode3"
+      ],
+      "description": "LOCK-OUT"
+    },
+    {
+      "enum": [
+        4,
+        "stcYcxsOpCode4"
+      ],
+      "description": "UNIT FAULT"
+    },
+    {
+      "enum": [
+        5,
+        "stcYcxsOpCode5"
+      ],
+      "description": "SYSTEM FAULT"
+    },
+    {
+      "enum": [
+        6,
+        "stcYcxsOpCode6"
+      ],
+      "description": "REMOTE SHUTDOWN"
+    },
+    {
+      "enum": [
+        7,
+        "stcYcxsOpCode7"
+      ],
+      "description": "DAILY SCHEDULE SHUTDOWN"
+    },
+    {
+      "enum": [
+        8,
+        "stcYcxsOpCode8"
+      ],
+      "description": "NO RUN PERMISSIVE FLOW SWITCH OPEN"
+    },
+    {
+      "enum": [
+        9,
+        "stcYcxsOpCode9"
+      ],
+      "description": "NO COOL LOAD"
+    },
+    {
+      "enum": [
+        10,
+        "stcYcxsOpCode10"
+      ],
+      "description": "ANTI-COINCIDENCE TIMER ACTIVE"
+    },
+    {
+      "enum": [
+        11,
+        "stcYcxsOpCode11"
+      ],
+      "description": "ANTI-RECYCLE TIMER ACTIVE"
+    },
+    {
+      "enum": [
+        12,
+        "stcYcxsOpCode12"
+      ],
+      "description": "MANUAL OVERRIDE"
+    },
+    {
+      "enum": [
+        13,
+        "stcYcxsOpCode13"
+      ],
+      "description": "SUCTION PRESSURE LIMITING"
+    },
+    {
+      "enum": [
+        14,
+        "stcYcxsOpCode14"
+      ],
+      "description": "DISCHARGE PRESSURE LIMITING"
+    },
+    {
+      "enum": [
+        15,
+        "stcYcxsOpCode15"
+      ],
+      "description": "MOTOR CURRENT LIMITING"
+    },
+    {
+      "enum": [
+        16,
+        "stcYcxsOpCode16"
+      ],
+      "description": "LOAD LIMITING"
+    },
+    {
+      "enum": [
+        17,
+        "stcYcxsOpCode17"
+      ],
+      "description": "COMPRESSOR RUNNING"
+    },
+    {
+      "enum": [
+        18,
+        "stcYcxsOpCode18"
+      ],
+      "description": "DISCHARGE AND OIL TEMPERATURE INHIBIT"
+    },
+    {
+      "enum": [
+        19,
+        "stcYcxsOpCode19"
+      ],
+      "description": "RESERVED 19"
+    },
+    {
+      "enum": [
+        20,
+        "stcYcxsOpCode20"
+      ],
+      "description": "RESERVED 20"
+    },
+    {
+      "enum": [
+        21,
+        "stcYcxsOpCode21"
+      ],
+      "description": "RESERVED 21"
+    },
+    {
+      "enum": [
+        22,
+        "stcYcxsOpCode22"
+      ],
+      "description": "RESERVED 22"
+    },
+    {
+      "enum": [
+        23,
+        "stcYcxsOpCode23"
+      ],
+      "description": "RESERVED 23"
+    },
+    {
+      "enum": [
+        24,
+        "stcYcxsOpCode24"
+      ],
+      "description": "RESERVED 24"
+    },
+    {
+      "enum": [
+        25,
+        "stcYcxsOpCode25"
+      ],
+      "description": "RESERVED 25"
+    },
+    {
+      "enum": [
+        26,
+        "stcYcxsOpCode26"
+      ],
+      "description": "RESERVED 26"
+    },
+    {
+      "enum": [
+        27,
+        "stcYcxsOpCode27"
+      ],
+      "description": "RESERVED 27"
+    },
+    {
+      "enum": [
+        28,
+        "stcYcxsOpCode28"
+      ],
+      "description": "RESERVED 28"
+    },
+    {
+      "enum": [
+        29,
+        "stcYcxsOpCode29"
+      ],
+      "description": "RESERVED 29"
+    },
+    {
+      "enum": [
+        30,
+        "stcYcxsOpCode30"
+      ],
+      "description": "RESERVED 30"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/uvDamperControlEnumSet.schema.json",
+  "title": "uvDamperControlEnumSet",
+  "description": "UV Damper Control",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "udcClose"
+      ],
+      "description": "Close"
+    },
+    {
+      "enum": [
+        1,
+        "udcOpen"
+      ],
+      "description": "Open"
+    },
+    {
+      "enum": [
+        2,
+        "udcMin"
+      ],
+      "description": "Min"
+    },
+    {
+      "enum": [
+        3,
+        "udcHold"
+      ],
+      "description": "Hold"
+    },
+    {
+      "enum": [
+        4,
+        "udcControlEcon"
+      ],
+      "description": "Control Econ"
+    },
+    {
+      "enum": [
+        5,
+        "udcControlMin"
+      ],
+      "description": "Control Min"
+    }
+  ]
+}

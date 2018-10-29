@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/seMechanicalThermostatFsmState.schema.json",
+  "title": "seMechanicalThermostatFsmState",
+  "description": "SE Mechanical Thermostat FSM State",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "seMechTstatFsmOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "seMechTstatFsmCoolFanOffDelay"
+      ],
+      "description": "Cool Fan Off Delay"
+    },
+    {
+      "enum": [
+        2,
+        "seMechTstatFsmHeatFanOffDelay"
+      ],
+      "description": "Heat Fan Off Delay"
+    },
+    {
+      "enum": [
+        3,
+        "seMechTstatFsmCoolFanOnDelay"
+      ],
+      "description": "Cool Fan On Delay"
+    },
+    {
+      "enum": [
+        4,
+        "seMechTstatFsmHeatFanOnDelay"
+      ],
+      "description": "Heat Fan On Delay"
+    },
+    {
+      "enum": [
+        5,
+        "seMechTstatFsmHeat"
+      ],
+      "description": "Heat"
+    },
+    {
+      "enum": [
+        6,
+        "seMechTstatFsmCool"
+      ],
+      "description": "Cool"
+    },
+    {
+      "enum": [
+        7,
+        "seMechTstatFsmEconAndCool"
+      ],
+      "description": "Econ and Cool"
+    },
+    {
+      "enum": [
+        8,
+        "seMechTstatFsmWaitForCoolOn"
+      ],
+      "description": "Wait for Cool On"
+    },
+    {
+      "enum": [
+        9,
+        "seMechTstatFsmWaitForCoolOff"
+      ],
+      "description": "Wait for Cool Off"
+    },
+    {
+      "enum": [
+        10,
+        "seMechTstatFsmWaitForHeatOn"
+      ],
+      "description": "Wait for Heat On"
+    },
+    {
+      "enum": [
+        11,
+        "seMechTstatFsmWaitForHeatOff"
+      ],
+      "description": "Wait for Heat Off"
+    },
+    {
+      "enum": [
+        12,
+        "seMechTstatFsmHeatToCoolDelay"
+      ],
+      "description": "Heat to Cool Delay"
+    },
+    {
+      "enum": [
+        13,
+        "seMechTstatFsmCoolToHeatDelay"
+      ],
+      "description": "Cool to Heat Delay"
+    }
+  ]
+}

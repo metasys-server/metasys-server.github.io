@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacDayBitsetEnumSet.schema.json",
+  "title": "bacDayBitsetEnumSet",
+  "description": "BAC Day Bitset",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "bacMonday"
+      ],
+      "description": "Monday"
+    },
+    {
+      "enum": [
+        1,
+        "bacTuesday"
+      ],
+      "description": "Tuesday"
+    },
+    {
+      "enum": [
+        2,
+        "bacWednesday"
+      ],
+      "description": "Wednesday"
+    },
+    {
+      "enum": [
+        3,
+        "bacThursday"
+      ],
+      "description": "Thursday"
+    },
+    {
+      "enum": [
+        4,
+        "bacFriday"
+      ],
+      "description": "Friday"
+    },
+    {
+      "enum": [
+        5,
+        "bacSaturday"
+      ],
+      "description": "Saturday"
+    },
+    {
+      "enum": [
+        6,
+        "bacSunday"
+      ],
+      "description": "Sunday"
+    }
+  ]
+}

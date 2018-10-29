@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/cpTowerModeEnumSet.schema.json",
+  "title": "cpTowerModeEnumSet",
+  "description": "CP Tower Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "cpTowerModeOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "cpTowerModeMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "cpTowerModeControl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "cpTowerModeLimitedMax"
+      ],
+      "description": "Limited Max"
+    }
+  ]
+}

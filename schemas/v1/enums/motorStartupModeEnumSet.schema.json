@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/motorStartupModeEnumSet.schema.json",
+  "title": "motorStartupModeEnumSet",
+  "description": "Motor Start-up Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "motorStartOverdriveClosed"
+      ],
+      "description": "Overdrive Closed"
+    },
+    {
+      "enum": [
+        1,
+        "motorStartOverdriveOpen"
+      ],
+      "description": "Overdrive Open"
+    },
+    {
+      "enum": [
+        2,
+        "motorStartAssumeClosed"
+      ],
+      "description": "Closed at Boot"
+    },
+    {
+      "enum": [
+        3,
+        "motorStartAssumeOpen"
+      ],
+      "description": "Open at Boot"
+    }
+  ]
+}

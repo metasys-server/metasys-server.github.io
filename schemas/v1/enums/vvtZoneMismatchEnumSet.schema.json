@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/vvtZoneMismatchEnumSet.schema.json",
+  "title": "vvtZoneMismatchEnumSet",
+  "description": "VVT Zone Mismatch",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "vvtZoneMismatchNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "vvtZoneMismatchHeating"
+      ],
+      "description": "Heating"
+    },
+    {
+      "enum": [
+        2,
+        "vvtZoneMismatchCooling"
+      ],
+      "description": "Cooling"
+    }
+  ]
+}

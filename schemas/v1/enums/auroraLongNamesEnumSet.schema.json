@@ -1,0 +1,1142 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/auroraLongNamesEnumSet.schema.json",
+  "title": "auroraLongNamesEnumSet",
+  "description": "Aurora Long Names",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "auroraLongNames1"
+      ],
+      "description": "Firmware Revision"
+    },
+    {
+      "enum": [
+        2,
+        "auroraLongNames2"
+      ],
+      "description": "Firmware Beta ID"
+    },
+    {
+      "enum": [
+        3,
+        "auroraLongNames3"
+      ],
+      "description": "DDC Control Enabled"
+    },
+    {
+      "enum": [
+        4,
+        "auroraLongNames4"
+      ],
+      "description": "DDC Thermostat Calls"
+    },
+    {
+      "enum": [
+        5,
+        "auroraLongNames5"
+      ],
+      "description": "Output Status"
+    },
+    {
+      "enum": [
+        6,
+        "auroraLongNames6"
+      ],
+      "description": "Active Fault"
+    },
+    {
+      "enum": [
+        7,
+        "auroraLongNames7"
+      ],
+      "description": "Airflow Blower Only Speed Level"
+    },
+    {
+      "enum": [
+        8,
+        "auroraLongNames8"
+      ],
+      "description": "Airflow Low Speed Level"
+    },
+    {
+      "enum": [
+        9,
+        "auroraLongNames9"
+      ],
+      "description": "Airflow High Speed Level"
+    },
+    {
+      "enum": [
+        10,
+        "auroraLongNames10"
+      ],
+      "description": "Airflow EH Blower Speed Level"
+    },
+    {
+      "enum": [
+        11,
+        "auroraLongNames11"
+      ],
+      "description": "Y1 - Heat/Cool Stage 1"
+    },
+    {
+      "enum": [
+        12,
+        "auroraLongNames12"
+      ],
+      "description": "Y2 - Heat/Cool Stage 2"
+    },
+    {
+      "enum": [
+        13,
+        "auroraLongNames13"
+      ],
+      "description": "W - Heat Stage 3 or Emergency Heat"
+    },
+    {
+      "enum": [
+        14,
+        "auroraLongNames14"
+      ],
+      "description": "O - Reversing Valve"
+    },
+    {
+      "enum": [
+        15,
+        "auroraLongNames15"
+      ],
+      "description": "G - Fan"
+    },
+    {
+      "enum": [
+        16,
+        "auroraLongNames16"
+      ],
+      "description": "DH - Dehumidification"
+    },
+    {
+      "enum": [
+        17,
+        "auroraLongNames17"
+      ],
+      "description": "H - Humidification"
+    },
+    {
+      "enum": [
+        18,
+        "auroraLongNames18"
+      ],
+      "description": "CC - Compressor Contactor Enable"
+    },
+    {
+      "enum": [
+        19,
+        "auroraLongNames19"
+      ],
+      "description": "CC2 - Compressor Speed Output"
+    },
+    {
+      "enum": [
+        20,
+        "auroraLongNames20"
+      ],
+      "description": "F - Fan (Blower)"
+    },
+    {
+      "enum": [
+        21,
+        "auroraLongNames21"
+      ],
+      "description": "EH1 - Electric Heat 1"
+    },
+    {
+      "enum": [
+        22,
+        "auroraLongNames22"
+      ],
+      "description": "EH2 - Electric Heat 2"
+    },
+    {
+      "enum": [
+        23,
+        "auroraLongNames23"
+      ],
+      "description": "LED3 - Green LED"
+    },
+    {
+      "enum": [
+        24,
+        "auroraLongNames24"
+      ],
+      "description": "LED2 - Yellow LED"
+    },
+    {
+      "enum": [
+        25,
+        "auroraLongNames25"
+      ],
+      "description": "LED1 - Red LED"
+    },
+    {
+      "enum": [
+        26,
+        "auroraLongNames26"
+      ],
+      "description": "ACC - Accessory Relay"
+    },
+    {
+      "enum": [
+        27,
+        "auroraLongNames27"
+      ],
+      "description": "L - Lockout"
+    },
+    {
+      "enum": [
+        28,
+        "auroraLongNames28"
+      ],
+      "description": "ALM - Alarm"
+    },
+    {
+      "enum": [
+        29,
+        "auroraLongNames29"
+      ],
+      "description": "RV - Reversing Valve"
+    },
+    {
+      "enum": [
+        30,
+        "auroraLongNames30"
+      ],
+      "description": "Active Fault Code"
+    },
+    {
+      "enum": [
+        31,
+        "auroraLongNames31"
+      ],
+      "description": "Unit Lockout Status"
+    },
+    {
+      "enum": [
+        32,
+        "auroraLongNames32"
+      ],
+      "description": "Airflow Current Speed Level"
+    },
+    {
+      "enum": [
+        33,
+        "auroraLongNames33"
+      ],
+      "description": "High Pressure Switch"
+    },
+    {
+      "enum": [
+        34,
+        "auroraLongNames34"
+      ],
+      "description": "Low Pressure Switch"
+    },
+    {
+      "enum": [
+        35,
+        "auroraLongNames35"
+      ],
+      "description": "Coax Temperature"
+    },
+    {
+      "enum": [
+        36,
+        "auroraLongNames36"
+      ],
+      "description": "Condensate Input"
+    },
+    {
+      "enum": [
+        37,
+        "auroraLongNames37"
+      ],
+      "description": "Emergency Shutdown"
+    },
+    {
+      "enum": [
+        38,
+        "auroraLongNames38"
+      ],
+      "description": "Load Shed"
+    },
+    {
+      "enum": [
+        39,
+        "auroraLongNames39"
+      ],
+      "description": "Reset Faults"
+    },
+    {
+      "enum": [
+        40,
+        "auroraLongNames40"
+      ],
+      "description": "Air Coil Temperature"
+    },
+    {
+      "enum": [
+        41,
+        "auroraLongNames41"
+      ],
+      "description": "ACB-1 Firmware Revision"
+    },
+    {
+      "enum": [
+        42,
+        "auroraLongNames42"
+      ],
+      "description": "ACB-1 Firmware Beta ID"
+    },
+    {
+      "enum": [
+        43,
+        "auroraLongNames43"
+      ],
+      "description": "ACB-1 DDC Control Enabled"
+    },
+    {
+      "enum": [
+        44,
+        "auroraLongNames44"
+      ],
+      "description": "ACB-1 DDC Thermostat Calls"
+    },
+    {
+      "enum": [
+        45,
+        "auroraLongNames45"
+      ],
+      "description": "ACB-1 Output Status"
+    },
+    {
+      "enum": [
+        46,
+        "auroraLongNames46"
+      ],
+      "description": "ACB-1 Active Fault"
+    },
+    {
+      "enum": [
+        47,
+        "auroraLongNames47"
+      ],
+      "description": "ACB-1 Airflow Blower Only Speed Level"
+    },
+    {
+      "enum": [
+        48,
+        "auroraLongNames48"
+      ],
+      "description": "ACB-1 Airflow Low Speed Level"
+    },
+    {
+      "enum": [
+        49,
+        "auroraLongNames49"
+      ],
+      "description": "ACB-1 Airflow High Speed Level"
+    },
+    {
+      "enum": [
+        50,
+        "auroraLongNames50"
+      ],
+      "description": "ACB-1 Airflow EH Blower Speed Level"
+    },
+    {
+      "enum": [
+        51,
+        "auroraLongNames51"
+      ],
+      "description": "ACB-1 Y1 - Heat/Cool Stage 1"
+    },
+    {
+      "enum": [
+        52,
+        "auroraLongNames52"
+      ],
+      "description": "ACB-1 Y2 - Heat/Cool Stage 2"
+    },
+    {
+      "enum": [
+        53,
+        "auroraLongNames53"
+      ],
+      "description": "ACB-1 W - Heat Stage 3 or Emergency Heat"
+    },
+    {
+      "enum": [
+        54,
+        "auroraLongNames54"
+      ],
+      "description": "ACB-1 O - Reversing Valve"
+    },
+    {
+      "enum": [
+        55,
+        "auroraLongNames55"
+      ],
+      "description": "ACB-1 G - Fan"
+    },
+    {
+      "enum": [
+        56,
+        "auroraLongNames56"
+      ],
+      "description": "ACB-1 DH - Dehumidification"
+    },
+    {
+      "enum": [
+        57,
+        "auroraLongNames57"
+      ],
+      "description": "ACB-1 H - Humidification"
+    },
+    {
+      "enum": [
+        58,
+        "auroraLongNames58"
+      ],
+      "description": "ACB-1 CC - Compressor Contactor Enable"
+    },
+    {
+      "enum": [
+        59,
+        "auroraLongNames59"
+      ],
+      "description": "ACB-1 CC2 - Compressor Speed Output"
+    },
+    {
+      "enum": [
+        60,
+        "auroraLongNames60"
+      ],
+      "description": "ACB-1 F - Fan (Blower)"
+    },
+    {
+      "enum": [
+        61,
+        "auroraLongNames61"
+      ],
+      "description": "ACB-1 EH1 - Electric Heat 1"
+    },
+    {
+      "enum": [
+        62,
+        "auroraLongNames62"
+      ],
+      "description": "ACB-1 EH2 - Electric Heat 2"
+    },
+    {
+      "enum": [
+        63,
+        "auroraLongNames63"
+      ],
+      "description": "ACB-1 LED3 - Green LED"
+    },
+    {
+      "enum": [
+        64,
+        "auroraLongNames64"
+      ],
+      "description": "ACB-1 LED2 - Yellow LED"
+    },
+    {
+      "enum": [
+        65,
+        "auroraLongNames65"
+      ],
+      "description": "ACB-1 LED1 - Red LED"
+    },
+    {
+      "enum": [
+        66,
+        "auroraLongNames66"
+      ],
+      "description": "ACB-1 ACC - Accessory Relay"
+    },
+    {
+      "enum": [
+        67,
+        "auroraLongNames67"
+      ],
+      "description": "ACB-1 L - Lockout"
+    },
+    {
+      "enum": [
+        68,
+        "auroraLongNames68"
+      ],
+      "description": "ACB-1 ALM - Alarm"
+    },
+    {
+      "enum": [
+        69,
+        "auroraLongNames69"
+      ],
+      "description": "ACB-1 RV - Reversing Valve"
+    },
+    {
+      "enum": [
+        70,
+        "auroraLongNames70"
+      ],
+      "description": "ACB-1 Active Fault Code"
+    },
+    {
+      "enum": [
+        71,
+        "auroraLongNames71"
+      ],
+      "description": "ACB-1 Unit Lockout Status"
+    },
+    {
+      "enum": [
+        72,
+        "auroraLongNames72"
+      ],
+      "description": "ACB-1 Airflow Current Speed Level"
+    },
+    {
+      "enum": [
+        73,
+        "auroraLongNames73"
+      ],
+      "description": "ACB-1 High Pressure Switch"
+    },
+    {
+      "enum": [
+        74,
+        "auroraLongNames74"
+      ],
+      "description": "ACB-1 Low Pressure Switch"
+    },
+    {
+      "enum": [
+        75,
+        "auroraLongNames75"
+      ],
+      "description": "ACB-1 Coax Temperature"
+    },
+    {
+      "enum": [
+        76,
+        "auroraLongNames76"
+      ],
+      "description": "ACB-1 Condensate Input"
+    },
+    {
+      "enum": [
+        77,
+        "auroraLongNames77"
+      ],
+      "description": "ACB-1 Emergency Shutdown"
+    },
+    {
+      "enum": [
+        78,
+        "auroraLongNames78"
+      ],
+      "description": "ACB-1 Load Shed"
+    },
+    {
+      "enum": [
+        79,
+        "auroraLongNames79"
+      ],
+      "description": "ACB-1 Reset Faults"
+    },
+    {
+      "enum": [
+        80,
+        "auroraLongNames80"
+      ],
+      "description": "ACB-1 Air Coil Temperature"
+    },
+    {
+      "enum": [
+        81,
+        "auroraLongNames81"
+      ],
+      "description": "ACB-2 Firmware Revision"
+    },
+    {
+      "enum": [
+        82,
+        "auroraLongNames82"
+      ],
+      "description": "ACB-2 Firmware Beta ID"
+    },
+    {
+      "enum": [
+        83,
+        "auroraLongNames83"
+      ],
+      "description": "ACB-2 DDC Control Enabled"
+    },
+    {
+      "enum": [
+        84,
+        "auroraLongNames84"
+      ],
+      "description": "ACB-2 DDC Thermostat Calls"
+    },
+    {
+      "enum": [
+        85,
+        "auroraLongNames85"
+      ],
+      "description": "ACB-2 Output Status"
+    },
+    {
+      "enum": [
+        86,
+        "auroraLongNames86"
+      ],
+      "description": "ACB-2 Active Fault"
+    },
+    {
+      "enum": [
+        87,
+        "auroraLongNames87"
+      ],
+      "description": "ACB-2 Airflow Blower Only Speed Level"
+    },
+    {
+      "enum": [
+        88,
+        "auroraLongNames88"
+      ],
+      "description": "ACB-2 Airflow Low Speed Level"
+    },
+    {
+      "enum": [
+        89,
+        "auroraLongNames89"
+      ],
+      "description": "ACB-2 Airflow High Speed Level"
+    },
+    {
+      "enum": [
+        90,
+        "auroraLongNames90"
+      ],
+      "description": "ACB-2 Airflow EH Blower Speed Level"
+    },
+    {
+      "enum": [
+        91,
+        "auroraLongNames91"
+      ],
+      "description": "ACB-2 Y1 - Heat/Cool Stage 1"
+    },
+    {
+      "enum": [
+        92,
+        "auroraLongNames92"
+      ],
+      "description": "ACB-2 Y2 - Heat/Cool Stage 2"
+    },
+    {
+      "enum": [
+        93,
+        "auroraLongNames93"
+      ],
+      "description": "ACB-2 W - Heat Stage 3 or Emergency Heat"
+    },
+    {
+      "enum": [
+        94,
+        "auroraLongNames94"
+      ],
+      "description": "ACB-2 O - Reversing Valve"
+    },
+    {
+      "enum": [
+        95,
+        "auroraLongNames95"
+      ],
+      "description": "ACB-2 G - Fan"
+    },
+    {
+      "enum": [
+        96,
+        "auroraLongNames96"
+      ],
+      "description": "ACB-2 DH - Dehumidification"
+    },
+    {
+      "enum": [
+        97,
+        "auroraLongNames97"
+      ],
+      "description": "ACB-2 H - Humidification"
+    },
+    {
+      "enum": [
+        98,
+        "auroraLongNames98"
+      ],
+      "description": "ACB-2 CC - Compressor Contactor Enable"
+    },
+    {
+      "enum": [
+        99,
+        "auroraLongNames99"
+      ],
+      "description": "ACB-2 CC2 - Compressor Speed Output"
+    },
+    {
+      "enum": [
+        100,
+        "auroraLongNames100"
+      ],
+      "description": "ACB-2 F - Fan (Blower)"
+    },
+    {
+      "enum": [
+        101,
+        "auroraLongNames101"
+      ],
+      "description": "ACB-2 EH1 - Electric Heat 1"
+    },
+    {
+      "enum": [
+        102,
+        "auroraLongNames102"
+      ],
+      "description": "ACB-2 EH2 - Electric Heat 2"
+    },
+    {
+      "enum": [
+        103,
+        "auroraLongNames103"
+      ],
+      "description": "ACB-2 LED3 - Green LED"
+    },
+    {
+      "enum": [
+        104,
+        "auroraLongNames104"
+      ],
+      "description": "ACB-2 LED2 - Yellow LED"
+    },
+    {
+      "enum": [
+        105,
+        "auroraLongNames105"
+      ],
+      "description": "ACB-2 LED1 - Red LED"
+    },
+    {
+      "enum": [
+        106,
+        "auroraLongNames106"
+      ],
+      "description": "ACB-2 ACC - Accessory Relay"
+    },
+    {
+      "enum": [
+        107,
+        "auroraLongNames107"
+      ],
+      "description": "ACB-2 L - Lockout"
+    },
+    {
+      "enum": [
+        108,
+        "auroraLongNames108"
+      ],
+      "description": "ACB-2 ALM - Alarm"
+    },
+    {
+      "enum": [
+        109,
+        "auroraLongNames109"
+      ],
+      "description": "ACB-2 RV - Reversing Valve"
+    },
+    {
+      "enum": [
+        110,
+        "auroraLongNames110"
+      ],
+      "description": "ACB-2 Active Fault Code"
+    },
+    {
+      "enum": [
+        111,
+        "auroraLongNames111"
+      ],
+      "description": "ACB-2 Unit Lockout Status"
+    },
+    {
+      "enum": [
+        112,
+        "auroraLongNames112"
+      ],
+      "description": "ACB-2 Airflow Current Speed Level"
+    },
+    {
+      "enum": [
+        113,
+        "auroraLongNames113"
+      ],
+      "description": "ACB-2 High Pressure Switch"
+    },
+    {
+      "enum": [
+        114,
+        "auroraLongNames114"
+      ],
+      "description": "ACB-2 Low Pressure Switch"
+    },
+    {
+      "enum": [
+        115,
+        "auroraLongNames115"
+      ],
+      "description": "ACB-2 Coax Temperature"
+    },
+    {
+      "enum": [
+        116,
+        "auroraLongNames116"
+      ],
+      "description": "ACB-2 Condensate Input"
+    },
+    {
+      "enum": [
+        117,
+        "auroraLongNames117"
+      ],
+      "description": "ACB-2 Emergency Shutdown"
+    },
+    {
+      "enum": [
+        118,
+        "auroraLongNames118"
+      ],
+      "description": "ACB-2 Load Shed"
+    },
+    {
+      "enum": [
+        119,
+        "auroraLongNames119"
+      ],
+      "description": "ACB-2 Reset Faults"
+    },
+    {
+      "enum": [
+        120,
+        "auroraLongNames120"
+      ],
+      "description": "ACB-2 Air Coil Temperature"
+    },
+    {
+      "enum": [
+        121,
+        "auroraLongNames121"
+      ],
+      "description": "Emergency Shutdown Status"
+    },
+    {
+      "enum": [
+        122,
+        "auroraLongNames122"
+      ],
+      "description": "Load Shed Status"
+    },
+    {
+      "enum": [
+        123,
+        "auroraLongNames123"
+      ],
+      "description": "Hot Gas Reheat Status"
+    },
+    {
+      "enum": [
+        124,
+        "auroraLongNames124"
+      ],
+      "description": "Raw ABC Control Inputs"
+    },
+    {
+      "enum": [
+        125,
+        "auroraLongNames125"
+      ],
+      "description": "Y1 - Heat/Cool Stage 1 Input"
+    },
+    {
+      "enum": [
+        126,
+        "auroraLongNames126"
+      ],
+      "description": "Y2 - Heat/Cool Stage 2 Input"
+    },
+    {
+      "enum": [
+        127,
+        "auroraLongNames127"
+      ],
+      "description": "W - Heat Stage 3 or Emergency Heat Input"
+    },
+    {
+      "enum": [
+        128,
+        "auroraLongNames128"
+      ],
+      "description": "O - Reversing Valve Input"
+    },
+    {
+      "enum": [
+        129,
+        "auroraLongNames129"
+      ],
+      "description": "DH - Dehumidification Input"
+    },
+    {
+      "enum": [
+        130,
+        "auroraLongNames130"
+      ],
+      "description": "ES - Emergency Shutdown Input"
+    },
+    {
+      "enum": [
+        131,
+        "auroraLongNames131"
+      ],
+      "description": "LPS - Low Pressure Switch Input"
+    },
+    {
+      "enum": [
+        132,
+        "auroraLongNames132"
+      ],
+      "description": "HPS - High Pressure Switch Input"
+    },
+    {
+      "enum": [
+        133,
+        "auroraLongNames133"
+      ],
+      "description": "LS - Load Shed Input"
+    },
+    {
+      "enum": [
+        134,
+        "auroraLongNames134"
+      ],
+      "description": "H - Humidification Input"
+    },
+    {
+      "enum": [
+        135,
+        "auroraLongNames135"
+      ],
+      "description": "ACB-1 Emergency Shutdown Status"
+    },
+    {
+      "enum": [
+        136,
+        "auroraLongNames136"
+      ],
+      "description": "ACB-1 Load Shed Status"
+    },
+    {
+      "enum": [
+        137,
+        "auroraLongNames137"
+      ],
+      "description": "ACB-1 Hot Gas Reheat Status"
+    },
+    {
+      "enum": [
+        138,
+        "auroraLongNames138"
+      ],
+      "description": "ACB-1 Raw ABC Control Inputs"
+    },
+    {
+      "enum": [
+        139,
+        "auroraLongNames139"
+      ],
+      "description": "ACB-1 Y1 - Heat/Cool Stage 1 Input"
+    },
+    {
+      "enum": [
+        140,
+        "auroraLongNames140"
+      ],
+      "description": "ACB-1 Y2 - Heat/Cool Stage 2 Input"
+    },
+    {
+      "enum": [
+        141,
+        "auroraLongNames141"
+      ],
+      "description": "ACB-1 W - Heat Stage 3 or Emergency Heat Input"
+    },
+    {
+      "enum": [
+        142,
+        "auroraLongNames142"
+      ],
+      "description": "ACB-1 O - Reversing Valve Input"
+    },
+    {
+      "enum": [
+        143,
+        "auroraLongNames143"
+      ],
+      "description": "ACB-1 DH - Dehumidification Input"
+    },
+    {
+      "enum": [
+        144,
+        "auroraLongNames144"
+      ],
+      "description": "ACB-1 ES - Emergency Shutdown Input"
+    },
+    {
+      "enum": [
+        145,
+        "auroraLongNames145"
+      ],
+      "description": "ACB-1 LPS - Low Pressure Switch Input"
+    },
+    {
+      "enum": [
+        146,
+        "auroraLongNames146"
+      ],
+      "description": "ACB-1 HPS - High Pressure Switch Input"
+    },
+    {
+      "enum": [
+        147,
+        "auroraLongNames147"
+      ],
+      "description": "ACB-1 LS - Load Shed Input"
+    },
+    {
+      "enum": [
+        148,
+        "auroraLongNames148"
+      ],
+      "description": "ACB-1 H - Humidification Input"
+    },
+    {
+      "enum": [
+        149,
+        "auroraLongNames149"
+      ],
+      "description": "ACB-2 Emergency Shutdown Status"
+    },
+    {
+      "enum": [
+        150,
+        "auroraLongNames150"
+      ],
+      "description": "ACB-2 Load Shed Status"
+    },
+    {
+      "enum": [
+        151,
+        "auroraLongNames151"
+      ],
+      "description": "ACB-2 Hot Gas Reheat Status"
+    },
+    {
+      "enum": [
+        152,
+        "auroraLongNames152"
+      ],
+      "description": "ACB-2 Raw ABC Control Inputs"
+    },
+    {
+      "enum": [
+        153,
+        "auroraLongNames153"
+      ],
+      "description": "ACB-2 Y1 - Heat/Cool Stage 1 Input"
+    },
+    {
+      "enum": [
+        154,
+        "auroraLongNames154"
+      ],
+      "description": "ACB-2 Y2 - Heat/Cool Stage 2 Input"
+    },
+    {
+      "enum": [
+        155,
+        "auroraLongNames155"
+      ],
+      "description": "ACB-2 W - Heat Stage 3 or Emergency Heat Input"
+    },
+    {
+      "enum": [
+        156,
+        "auroraLongNames156"
+      ],
+      "description": "ACB-2 O - Reversing Valve Input"
+    },
+    {
+      "enum": [
+        157,
+        "auroraLongNames157"
+      ],
+      "description": "ACB-2 DH - Dehumidification Input"
+    },
+    {
+      "enum": [
+        158,
+        "auroraLongNames158"
+      ],
+      "description": "ACB-2 ES - Emergency Shutdown Input"
+    },
+    {
+      "enum": [
+        159,
+        "auroraLongNames159"
+      ],
+      "description": "ACB-2 LPS - Low Pressure Switch Input"
+    },
+    {
+      "enum": [
+        160,
+        "auroraLongNames160"
+      ],
+      "description": "ACB-2 HPS - High Pressure Switch Input"
+    },
+    {
+      "enum": [
+        161,
+        "auroraLongNames161"
+      ],
+      "description": "ACB-2 LS - Load Shed Input"
+    },
+    {
+      "enum": [
+        162,
+        "auroraLongNames162"
+      ],
+      "description": "ACB-2 H - Humidification Input"
+    }
+  ]
+}

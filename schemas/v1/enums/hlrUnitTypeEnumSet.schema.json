@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hlrUnitTypeEnumSet.schema.json",
+  "title": "hlrUnitTypeEnumSet",
+  "description": "HLR Unit Type",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hlrUnitTypeIndoor"
+      ],
+      "description": "Indoor"
+    },
+    {
+      "enum": [
+        1,
+        "hlrUnitTypeOutdoor"
+      ],
+      "description": "Outdoor"
+    }
+  ]
+}

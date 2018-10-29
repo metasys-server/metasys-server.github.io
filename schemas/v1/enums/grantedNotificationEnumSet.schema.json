@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/grantedNotificationEnumSet.schema.json",
+  "title": "grantedNotificationEnumSet",
+  "description": "Granted Notification",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "grantedNotificationAlways"
+      ],
+      "description": "Always"
+    },
+    {
+      "enum": [
+        1,
+        "grantedNotificationNoEntry"
+      ],
+      "description": "No Entry"
+    },
+    {
+      "enum": [
+        2,
+        "grantedNotificationOnOpenOnly"
+      ],
+      "description": "On Open Only"
+    },
+    {
+      "enum": [
+        3,
+        "grantedNotificationNever"
+      ],
+      "description": "Never"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/biSetupEnumSet.schema.json",
+  "title": "biSetupEnumSet",
+  "description": "BI Setup",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "biSetupBinary"
+      ],
+      "description": "Binary"
+    },
+    {
+      "enum": [
+        1,
+        "biSetupPulsed"
+      ],
+      "description": "Pulsed"
+    },
+    {
+      "enum": [
+        2,
+        "biSetupMomentaryOff"
+      ],
+      "description": "Momentary Off Delay"
+    },
+    {
+      "enum": [
+        3,
+        "biSetupMomentaryOn"
+      ],
+      "description": "Momentary On Delay"
+    }
+  ]
+}

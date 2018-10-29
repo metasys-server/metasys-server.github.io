@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahu100OaStartstopStatesEnumSet.schema.json",
+  "title": "ahu100OaStartstopStatesEnumSet",
+  "description": "AHU 100 OA StartStop States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "ahu100OaSssOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "ahu100OaSssStartFans"
+      ],
+      "description": "Start Fans"
+    },
+    {
+      "enum": [
+        2,
+        "ahu100OaSssRampSf"
+      ],
+      "description": "Ramp SF"
+    },
+    {
+      "enum": [
+        3,
+        "ahu100OaSssColdStart"
+      ],
+      "description": "Cold Start"
+    },
+    {
+      "enum": [
+        4,
+        "ahu100OaSssNormalStart"
+      ],
+      "description": "Normal Start"
+    },
+    {
+      "enum": [
+        5,
+        "ahu100OaSssOn"
+      ],
+      "description": "On"
+    },
+    {
+      "enum": [
+        6,
+        "ahu100OaSssStopFans"
+      ],
+      "description": "Stop Fans"
+    },
+    {
+      "enum": [
+        7,
+        "ahu100OaSssFanFault"
+      ],
+      "description": "Fan Fault"
+    }
+  ]
+}

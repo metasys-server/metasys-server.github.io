@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/lightingLightsOutMsEnumSet.schema.json",
+  "title": "lightingLightsOutMsEnumSet",
+  "description": "Lighting/Lights-out",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lightingLightsOutLighting"
+      ],
+      "description": "Lighting"
+    },
+    {
+      "enum": [
+        1,
+        "lightingLightsOutLightsOut"
+      ],
+      "description": "Lights-out"
+    }
+  ]
+}

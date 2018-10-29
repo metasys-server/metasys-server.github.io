@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/hpHtgModeOvrEnumSet.schema.json",
+  "title": "hpHtgModeOvrEnumSet",
+  "description": "HP Heating Mode OVR",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "hpHtgOvrOff"
+      ],
+      "description": "Off"
+    },
+    {
+      "enum": [
+        1,
+        "hpHtgOvrMax"
+      ],
+      "description": "Max"
+    },
+    {
+      "enum": [
+        2,
+        "hpHtgOvrCtrl"
+      ],
+      "description": "Control"
+    },
+    {
+      "enum": [
+        3,
+        "hpHtgOvrFailsoft"
+      ],
+      "description": "Failsoft"
+    },
+    {
+      "enum": [
+        4,
+        "hpHtgOvrHold"
+      ],
+      "description": "Hold"
+    }
+  ]
+}

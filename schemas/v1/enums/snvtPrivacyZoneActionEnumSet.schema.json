@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtPrivacyZoneActionEnumSet.schema.json",
+  "title": "snvtPrivacyZoneActionEnumSet",
+  "description": "SNVT Privacy Zone Action",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Disable"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Enable"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Upper Left"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Lower Right"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Enter"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Exit"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

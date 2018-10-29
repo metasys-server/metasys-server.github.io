@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/balancerOverrideEnumSet.schema.json",
+  "title": "balancerOverrideEnumSet",
+  "description": "Balancer Override",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "balOvrNormal"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "balOvrCloseAll"
+      ],
+      "description": "Close All"
+    },
+    {
+      "enum": [
+        2,
+        "balOvrFlow1Min"
+      ],
+      "description": "Flow 1 Min"
+    },
+    {
+      "enum": [
+        3,
+        "balOvrFlow1Max"
+      ],
+      "description": "Flow 1 Max"
+    },
+    {
+      "enum": [
+        4,
+        "balOvrFlow2Min"
+      ],
+      "description": "Flow 2 Min"
+    },
+    {
+      "enum": [
+        5,
+        "balOvrFlow2Max"
+      ],
+      "description": "Flow 2 Max"
+    }
+  ]
+}

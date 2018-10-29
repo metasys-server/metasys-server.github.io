@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/bacLifsftyOperEnumSet.schema.json",
+  "title": "bacLifsftyOperEnumSet",
+  "description": "BAC LifSfty Oper",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "lifesftyOperNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "lifesftyOperSilence"
+      ],
+      "description": "Silence"
+    },
+    {
+      "enum": [
+        2,
+        "lifesftyOperSilenceAudible"
+      ],
+      "description": "Silence Audible"
+    },
+    {
+      "enum": [
+        3,
+        "lifesftyOperSilenceVisual"
+      ],
+      "description": "Silence Visual"
+    },
+    {
+      "enum": [
+        4,
+        "lifesftyOperReset"
+      ],
+      "description": "Reset"
+    },
+    {
+      "enum": [
+        5,
+        "lifesftyOperResetAlarm"
+      ],
+      "description": "Reset Alarm"
+    },
+    {
+      "enum": [
+        6,
+        "lifesftyOperResetFault"
+      ],
+      "description": "Reset Fault"
+    },
+    {
+      "enum": [
+        7,
+        "lifesftyOperUnsilence"
+      ],
+      "description": "Unsilence"
+    },
+    {
+      "enum": [
+        8,
+        "lifesftyOperUnsilenceAudible"
+      ],
+      "description": "Unsilence Audible"
+    },
+    {
+      "enum": [
+        9,
+        "lifesftyOperUnsilenceVisual"
+      ],
+      "description": "Unsilence Visual"
+    }
+  ]
+}

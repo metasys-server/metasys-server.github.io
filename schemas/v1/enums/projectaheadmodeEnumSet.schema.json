@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/projectaheadmodeEnumSet.schema.json",
+  "title": "projectaheadmodeEnumSet",
+  "description": "Project Ahead Mode",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Cooling"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Heating"
+    }
+  ]
+}

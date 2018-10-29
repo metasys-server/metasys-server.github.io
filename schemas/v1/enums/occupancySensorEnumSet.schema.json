@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/occupancySensorEnumSet.schema.json",
+  "title": "occupancySensorEnumSet",
+  "description": "Occ Sensor",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "occupancySensorOccupied"
+      ],
+      "description": "Occupied"
+    },
+    {
+      "enum": [
+        1,
+        "occupancySensorUnoccupied"
+      ],
+      "description": "UnOccupied"
+    },
+    {
+      "enum": [
+        2,
+        "occupancySensorNotSet"
+      ],
+      "description": "Not Set"
+    }
+  ]
+}

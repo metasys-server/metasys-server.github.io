@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/ahuNoFlowSmStatesEnumSet.schema.json",
+  "title": "ahuNoFlowSmStatesEnumSet",
+  "description": "AHU No Flow SM States",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "anfssFanCmdOff"
+      ],
+      "description": "Fan Cmd Off"
+    },
+    {
+      "enum": [
+        1,
+        "anfssFanStartUp"
+      ],
+      "description": "Fan Start Up"
+    },
+    {
+      "enum": [
+        2,
+        "anfssFanProven"
+      ],
+      "description": "Fan Proven"
+    },
+    {
+      "enum": [
+        3,
+        "anfssNormalLostProof"
+      ],
+      "description": "Normal Lost Proof"
+    },
+    {
+      "enum": [
+        4,
+        "anfssLowFlow"
+      ],
+      "description": "Low Flow"
+    },
+    {
+      "enum": [
+        5,
+        "anfssLowFlowLostProof"
+      ],
+      "description": "Low Flow Lost Proof"
+    },
+    {
+      "enum": [
+        6,
+        "anfssSelfResetFaultLostProof"
+      ],
+      "description": "Self Reset Fault Lost Proof"
+    },
+    {
+      "enum": [
+        7,
+        "anfssSelfResetFaultProof"
+      ],
+      "description": "Self Reset Fault Proof"
+    },
+    {
+      "enum": [
+        8,
+        "anfssManualResetFault"
+      ],
+      "description": "Manual Reset Fault"
+    }
+  ]
+}

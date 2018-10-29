@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/orderEnumSet.schema.json",
+  "title": "orderEnumSet",
+  "description": "Order",
+  "oneOf": [
+    {
+      "enum": [
+        1,
+        "orFirst"
+      ],
+      "description": "First"
+    },
+    {
+      "enum": [
+        2,
+        "orSecond"
+      ],
+      "description": "Second"
+    },
+    {
+      "enum": [
+        3,
+        "orThird"
+      ],
+      "description": "Third"
+    },
+    {
+      "enum": [
+        4,
+        "orFourth"
+      ],
+      "description": "Fourth"
+    },
+    {
+      "enum": [
+        5,
+        "orFifth"
+      ],
+      "description": "Fifth"
+    },
+    {
+      "enum": [
+        255,
+        "orLast"
+      ],
+      "description": "Last"
+    }
+  ]
+}

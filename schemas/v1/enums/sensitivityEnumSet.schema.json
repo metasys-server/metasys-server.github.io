@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/sensitivityEnumSet.schema.json",
+  "title": "sensitivityEnumSet",
+  "description": "Sensitivity",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "sensitivityLow"
+      ],
+      "description": "Low"
+    },
+    {
+      "enum": [
+        1,
+        "sensitivityMedium"
+      ],
+      "description": "Medium"
+    },
+    {
+      "enum": [
+        2,
+        "sensitivityHigh"
+      ],
+      "description": "High"
+    }
+  ]
+}

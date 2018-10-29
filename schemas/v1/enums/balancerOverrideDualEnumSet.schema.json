@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/balancerOverrideDualEnumSet.schema.json",
+  "title": "balancerOverrideDualEnumSet",
+  "description": "Balancer Override Dual",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Normal"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Close All"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Cold Duct Min"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Cold Duct Max"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Hot Duct Min"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Hot Duct Max"
+    }
+  ]
+}

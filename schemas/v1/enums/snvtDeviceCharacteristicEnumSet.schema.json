@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/snvtDeviceCharacteristicEnumSet.schema.json",
+  "title": "snvtDeviceCharacteristicEnumSet",
+  "description": "SNVT Device Characteristic",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "0"
+      ],
+      "description": "Speed Const"
+    },
+    {
+      "enum": [
+        1,
+        "1"
+      ],
+      "description": "Press Const"
+    },
+    {
+      "enum": [
+        2,
+        "2"
+      ],
+      "description": "Press Comp"
+    },
+    {
+      "enum": [
+        3,
+        "3"
+      ],
+      "description": "Flow Const"
+    },
+    {
+      "enum": [
+        4,
+        "4"
+      ],
+      "description": "Flow Comp"
+    },
+    {
+      "enum": [
+        5,
+        "5"
+      ],
+      "description": "Temp Const"
+    },
+    {
+      "enum": [
+        6,
+        "6"
+      ],
+      "description": "Temp Comp"
+    },
+    {
+      "enum": [
+        7,
+        "7"
+      ],
+      "description": "Press Auto"
+    },
+    {
+      "enum": [
+        20,
+        "20"
+      ],
+      "description": "Quick Open"
+    },
+    {
+      "enum": [
+        21,
+        "21"
+      ],
+      "description": "Linear"
+    },
+    {
+      "enum": [
+        22,
+        "22"
+      ],
+      "description": "Equal Percent"
+    },
+    {
+      "enum": [
+        23,
+        "23"
+      ],
+      "description": "Quadratic"
+    },
+    {
+      "enum": [
+        24,
+        "24"
+      ],
+      "description": "Free Defined"
+    },
+    {
+      "enum": [
+        27,
+        "27"
+      ],
+      "description": "Two Way Valve"
+    },
+    {
+      "enum": [
+        28,
+        "28"
+      ],
+      "description": "Mixing Valve"
+    },
+    {
+      "enum": [
+        29,
+        "29"
+      ],
+      "description": "Diverting Valve"
+    },
+    {
+      "enum": [
+        255,
+        "255"
+      ],
+      "description": "Null"
+    }
+  ]
+}

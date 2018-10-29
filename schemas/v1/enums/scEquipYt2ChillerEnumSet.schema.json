@@ -1,0 +1,358 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "id": "https://metasys-server.github.io/schemas/enums/scEquipYt2ChillerEnumSet.schema.json",
+  "title": "scEquipYt2ChillerEnumSet",
+  "description": "SCC YorkTalk2 Chiller Models",
+  "oneOf": [
+    {
+      "enum": [
+        0,
+        "scEquipYt2ChillerNone"
+      ],
+      "description": "None"
+    },
+    {
+      "enum": [
+        200,
+        "scEquipYt2ChillerGeneric"
+      ],
+      "description": "Generic"
+    },
+    {
+      "enum": [
+        201,
+        "scEquipYt2ChillerYvaaMicroChannelIp"
+      ],
+      "description": "YVAA Micro Channel (IP)"
+    },
+    {
+      "enum": [
+        202,
+        "scEquipYt2ChillerYvaaMicroChannelSi"
+      ],
+      "description": "YVAA Micro Channel (SI)"
+    },
+    {
+      "enum": [
+        203,
+        "scEquipYt2ChillerYvaaRoundTubeIp"
+      ],
+      "description": "YVAA Round Tube (IP)"
+    },
+    {
+      "enum": [
+        204,
+        "scEquipYt2ChillerYvaaRoundTubeSi"
+      ],
+      "description": "YVAA Round Tube (SI)"
+    },
+    {
+      "enum": [
+        205,
+        "scEquipYt2ChillerYvfaMicroChannelIp"
+      ],
+      "description": "YVFA Micro Channel (IP)"
+    },
+    {
+      "enum": [
+        206,
+        "scEquipYt2ChillerYvfaMicroChannelSi"
+      ],
+      "description": "YVFA Micro Channel (SI)"
+    },
+    {
+      "enum": [
+        207,
+        "scEquipYt2ChillerYvfaRoundTubeIp"
+      ],
+      "description": "YVFA Round Tube (IP)"
+    },
+    {
+      "enum": [
+        208,
+        "scEquipYt2ChillerYvfaRoundTubeSi"
+      ],
+      "description": "YVFA Round Tube (SI)"
+    },
+    {
+      "enum": [
+        213,
+        "scEquipYt2ChillerYvwaTwoCompressorIp"
+      ],
+      "description": "YVWA Two Compressor (IP)"
+    },
+    {
+      "enum": [
+        214,
+        "scEquipYt2ChillerYvwaTwoCompressorSi"
+      ],
+      "description": "YVWA Two Compressor (SI)"
+    },
+    {
+      "enum": [
+        215,
+        "scEquipYt2ChillerYvwaOneCompressorIp"
+      ],
+      "description": "YVWA One Compressor (IP)"
+    },
+    {
+      "enum": [
+        216,
+        "scEquipYt2ChillerYvwaOneCompressorSi"
+      ],
+      "description": "YVWA One Compressor (SI)"
+    },
+    {
+      "enum": [
+        219,
+        "scEquipYt2ChillerYcavYcivTwoCompressorIp"
+      ],
+      "description": "YCAV/YCIV Two Compressor (IP)"
+    },
+    {
+      "enum": [
+        220,
+        "scEquipYt2ChillerYcavYcivTwoCompressorSi"
+      ],
+      "description": "YCAV/YCIV Two Compressor (SI)"
+    },
+    {
+      "enum": [
+        221,
+        "scEquipYt2ChillerYcavYcivThreeCompressorIp"
+      ],
+      "description": "YCAV/YCIV Three Compressor (IP)"
+    },
+    {
+      "enum": [
+        222,
+        "scEquipYt2ChillerYcavYcivThreeCompressorSi"
+      ],
+      "description": "YCAV/YCIV Three Compressor (SI)"
+    },
+    {
+      "enum": [
+        223,
+        "scEquipYt2ChillerYcavYcivFourCompressorIp"
+      ],
+      "description": "YCAV/YCIV Four Compressor (IP)"
+    },
+    {
+      "enum": [
+        224,
+        "scEquipYt2ChillerYcavYcivFourCompressorSi"
+      ],
+      "description": "YCAV/YCIV Four Compressor (SI)"
+    },
+    {
+      "enum": [
+        231,
+        "scEquipYt2ChillerYcalYculYcrlYlaaYlaeYluaIp"
+      ],
+      "description": "YCAL, YCUL, YCRL, YLAA, YLAE, YLUA (IP)"
+    },
+    {
+      "enum": [
+        232,
+        "scEquipYt2ChillerYcalYculYcrlYlaaYlaeYluaSi"
+      ],
+      "description": "YCAL, YCUL, YCRL, YLAA, YLAE, YLUA (SI)"
+    },
+    {
+      "enum": [
+        233,
+        "scEquipYt2ChillerYlpaIp"
+      ],
+      "description": "YLPA (IP)"
+    },
+    {
+      "enum": [
+        234,
+        "scEquipYt2ChillerYlpaSi"
+      ],
+      "description": "YLPA (SI)"
+    },
+    {
+      "enum": [
+        235,
+        "scEquipYt2ChillerYcwlIp"
+      ],
+      "description": "YCWL (IP)"
+    },
+    {
+      "enum": [
+        236,
+        "scEquipYt2ChillerYcwlSi"
+      ],
+      "description": "YCWL (SI)"
+    },
+    {
+      "enum": [
+        245,
+        "scEquipYt2ChillerYsaaOneCompressorIp"
+      ],
+      "description": "YSAA One Compressor (IP)"
+    },
+    {
+      "enum": [
+        246,
+        "scEquipYt2ChillerYsaaOneCompressorSi"
+      ],
+      "description": "YSAA One Compressor (SI)"
+    },
+    {
+      "enum": [
+        247,
+        "scEquipYt2ChillerYsaaTwoCompressorIp"
+      ],
+      "description": "YSAA Two Compressor (IP)"
+    },
+    {
+      "enum": [
+        248,
+        "scEquipYt2ChillerYsaaTwoCompressorSi"
+      ],
+      "description": "YSAA Two Compressor (SI)"
+    },
+    {
+      "enum": [
+        327,
+        "scEquipYt2ChillerYcasYcwsYcrsIp"
+      ],
+      "description": "YCAS/YCWS/YCRS (IP)"
+    },
+    {
+      "enum": [
+        328,
+        "scEquipYt2ChillerYcasYcwsYcrsSi"
+      ],
+      "description": "YCAS/YCWS/YCRS (SI)"
+    },
+    {
+      "enum": [
+        329,
+        "scEquipYt2ChillerMilleniumYgYbIp"
+      ],
+      "description": "Millenium YG/YB (IP)"
+    },
+    {
+      "enum": [
+        330,
+        "scEquipYt2ChillerMilleniumYgYbSi"
+      ],
+      "description": "Millenium YG/YB (SI)"
+    },
+    {
+      "enum": [
+        331,
+        "scEquipYt2ChillerMilleniumYiaIp"
+      ],
+      "description": "Millenium YIA (IP)"
+    },
+    {
+      "enum": [
+        332,
+        "scEquipYt2ChillerMilleniumYiaSi"
+      ],
+      "description": "Millenium YIA (SI)"
+    },
+    {
+      "enum": [
+        333,
+        "scEquipYt2ChillerMilleniumYkIp"
+      ],
+      "description": "Millenium YK (IP)"
+    },
+    {
+      "enum": [
+        334,
+        "scEquipYt2ChillerMilleniumYkSi"
+      ],
+      "description": "Millenium YK (SI)"
+    },
+    {
+      "enum": [
+        335,
+        "scEquipYt2ChillerMilleniumYpcIp"
+      ],
+      "description": "Millenium YPC (IP)"
+    },
+    {
+      "enum": [
+        336,
+        "scEquipYt2ChillerMilleniumYpcSi"
+      ],
+      "description": "Millenium YPC (SI)"
+    },
+    {
+      "enum": [
+        337,
+        "scEquipYt2ChillerMilleniumYsIp"
+      ],
+      "description": "Millenium YS (IP)"
+    },
+    {
+      "enum": [
+        338,
+        "scEquipYt2ChillerMilleniumYsSi"
+      ],
+      "description": "Millenium YS (SI)"
+    },
+    {
+      "enum": [
+        339,
+        "scEquipYt2ChillerMilleniumYtIp"
+      ],
+      "description": "Millenium YT (IP)"
+    },
+    {
+      "enum": [
+        340,
+        "scEquipYt2ChillerMilleniumYtSi"
+      ],
+      "description": "Millenium YT (SI)"
+    },
+    {
+      "enum": [
+        341,
+        "scEquipYt2Chiller341"
+      ],
+      "description": "RESERVED 341"
+    },
+    {
+      "enum": [
+        342,
+        "scEquipYt2Chiller342"
+      ],
+      "description": "RESERVED 342"
+    },
+    {
+      "enum": [
+        343,
+        "scEquipYt2Chiller343"
+      ],
+      "description": "RESERVED 343"
+    },
+    {
+      "enum": [
+        344,
+        "scEquipYt2Chiller344"
+      ],
+      "description": "RESERVED 344"
+    },
+    {
+      "enum": [
+        345,
+        "scEquipYt2Chiller345"
+      ],
+      "description": "RESERVED 345"
+    },
+    {
+      "enum": [
+        346,
+        "scEquipYt2Chiller346"
+      ],
+      "description": "RESERVED 346"
+    }
+  ]
+}
