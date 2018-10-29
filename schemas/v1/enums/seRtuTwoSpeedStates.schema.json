@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuTwoSpeedStates.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuTwoSpeedStates.schema.json",
   "title": "seRtuTwoSpeedStates",
   "description": "SE RTU Two Speed States",
   "oneOf": [

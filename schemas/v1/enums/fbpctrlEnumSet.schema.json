@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/fbpctrlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/fbpctrlEnumSet.schema.json",
   "title": "fbpctrlEnumSet",
   "description": "FBP Ctrl",
   "oneOf": [

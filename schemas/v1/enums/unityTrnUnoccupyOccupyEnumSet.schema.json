@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityTrnUnoccupyOccupyEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityTrnUnoccupyOccupyEnumSet.schema.json",
   "title": "unityTrnUnoccupyOccupyEnumSet",
   "description": "Unity TRN Unoccupy Occupy",
   "oneOf": [

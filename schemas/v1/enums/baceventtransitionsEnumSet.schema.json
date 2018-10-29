@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/baceventtransitionsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/baceventtransitionsEnumSet.schema.json",
   "title": "baceventtransitionsEnumSet",
   "description": "BAC Event Transition",
   "oneOf": [

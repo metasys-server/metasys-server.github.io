@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc4EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ymc2Sc4EnumSet.schema.json",
   "title": "ymc2Sc4EnumSet",
   "description": "YMC2 Warning Code SC.4",
   "oneOf": [

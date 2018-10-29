@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/lonAppTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/lonAppTypeEnumSet.schema.json",
   "title": "lonAppTypeEnumSet",
   "description": "Lon App Type",
   "oneOf": [

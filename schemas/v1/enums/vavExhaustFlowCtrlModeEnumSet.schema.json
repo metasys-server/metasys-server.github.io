@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vavExhaustFlowCtrlModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vavExhaustFlowCtrlModeEnumSet.schema.json",
   "title": "vavExhaustFlowCtrlModeEnumSet",
   "description": "VAV Exhaust Flow Ctrl Mode",
   "oneOf": [

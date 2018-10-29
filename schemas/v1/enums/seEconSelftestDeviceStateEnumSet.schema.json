@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconSelftestDeviceStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconSelftestDeviceStateEnumSet.schema.json",
   "title": "seEconSelftestDeviceStateEnumSet",
   "description": "SE ECON SelfTest Device State",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seDehumSetup.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seDehumSetup.schema.json",
   "title": "seDehumSetup",
   "description": "SE Dehumidification Setup",
   "oneOf": [

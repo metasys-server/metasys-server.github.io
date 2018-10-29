@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/pinDuressEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/pinDuressEnumSet.schema.json",
   "title": "pinDuressEnumSet",
   "description": "PIN Duress",
   "oneOf": [

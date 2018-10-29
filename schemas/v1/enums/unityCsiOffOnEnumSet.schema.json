@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityCsiOffOnEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityCsiOffOnEnumSet.schema.json",
   "title": "unityCsiOffOnEnumSet",
   "description": "Unity CSI Off On",
   "oneOf": [

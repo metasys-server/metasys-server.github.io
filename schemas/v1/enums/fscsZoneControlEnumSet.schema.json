@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/fscsZoneControlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/fscsZoneControlEnumSet.schema.json",
   "title": "fscsZoneControlEnumSet",
   "description": "FSCS Zone Control",
   "oneOf": [

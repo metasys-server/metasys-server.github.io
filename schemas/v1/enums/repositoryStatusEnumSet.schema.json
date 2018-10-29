@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/repositoryStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/repositoryStatusEnumSet.schema.json",
   "title": "repositoryStatusEnumSet",
   "description": "Repository Status",
   "oneOf": [

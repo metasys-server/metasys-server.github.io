@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seMechanicalThermostatState.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seMechanicalThermostatState.schema.json",
   "title": "seMechanicalThermostatState",
   "description": "SE RTU Mechanical Thermostat Control State",
   "oneOf": [

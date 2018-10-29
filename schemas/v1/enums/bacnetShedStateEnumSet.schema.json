@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/bacnetShedStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/bacnetShedStateEnumSet.schema.json",
   "title": "bacnetShedStateEnumSet",
   "description": "BACnet Shed State",
   "oneOf": [

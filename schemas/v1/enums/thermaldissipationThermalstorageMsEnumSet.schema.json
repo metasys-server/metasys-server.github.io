@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/thermaldissipationThermalstorageMsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/thermaldissipationThermalstorageMsEnumSet.schema.json",
   "title": "thermaldissipationThermalstorageMsEnumSet",
   "description": "Thermal Dissipation/Thermal Storage",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/stcExpansionValveTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/stcExpansionValveTypeEnumSet.schema.json",
   "title": "stcExpansionValveTypeEnumSet",
   "description": "York STC Expansion Valve Type",
   "oneOf": [

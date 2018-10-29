@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtClothesWCCommandEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtClothesWCCommandEnumSet.schema.json",
   "title": "snvtClothesWCCommandEnumSet",
   "description": "SNVT Clothes Washer Command",
   "oneOf": [

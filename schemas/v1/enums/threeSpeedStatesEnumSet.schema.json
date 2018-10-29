@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/threeSpeedStatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/threeSpeedStatesEnumSet.schema.json",
   "title": "threeSpeedStatesEnumSet",
   "description": "Three Speed States",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/mstpdlCommunicationOptionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/mstpdlCommunicationOptionEnumSet.schema.json",
   "title": "mstpdlCommunicationOptionEnumSet",
   "description": "MSTPDL Communication Option",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/deviceHierarchyEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/deviceHierarchyEnumSet.schema.json",
   "title": "deviceHierarchyEnumSet",
   "description": "Device Hierarchy",
   "oneOf": [

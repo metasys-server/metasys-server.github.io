@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtThermModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtThermModeEnumSet.schema.json",
   "title": "snvtThermModeEnumSet",
   "description": "SNVT Thermostat Mode",
   "oneOf": [

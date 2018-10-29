@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tecGuiSystemModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tecGuiSystemModeEnumSet.schema.json",
   "title": "tecGuiSystemModeEnumSet",
   "description": "TEC GUI System Mode",
   "oneOf": [

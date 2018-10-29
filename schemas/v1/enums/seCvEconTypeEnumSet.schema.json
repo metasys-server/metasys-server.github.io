@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seCvEconTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seCvEconTypeEnumSet.schema.json",
   "title": "seCvEconTypeEnumSet",
   "description": "SE CV Econ Type",
   "oneOf": [

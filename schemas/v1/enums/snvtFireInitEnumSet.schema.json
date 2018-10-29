@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtFireInitEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtFireInitEnumSet.schema.json",
   "title": "snvtFireInitEnumSet",
   "description": "SNVT Fire Initiator",
   "oneOf": [

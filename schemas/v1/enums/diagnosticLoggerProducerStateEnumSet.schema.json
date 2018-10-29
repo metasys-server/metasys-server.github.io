@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/diagnosticLoggerProducerStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/diagnosticLoggerProducerStateEnumSet.schema.json",
   "title": "diagnosticLoggerProducerStateEnumSet",
   "description": "Diagnostic Logger Producer States",
   "oneOf": [

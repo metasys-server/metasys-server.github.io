@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/yorktalkObjectTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/yorktalkObjectTypeEnumSet.schema.json",
   "title": "yorktalkObjectTypeEnumSet",
   "description": "York Talk Protocol Object Types",
   "oneOf": [

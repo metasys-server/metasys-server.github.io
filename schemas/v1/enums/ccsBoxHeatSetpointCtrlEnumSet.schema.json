@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ccsBoxHeatSetpointCtrlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ccsBoxHeatSetpointCtrlEnumSet.schema.json",
   "title": "ccsBoxHeatSetpointCtrlEnumSet",
   "description": "CCS VAV Box Heat Setpoint Control",
   "oneOf": [

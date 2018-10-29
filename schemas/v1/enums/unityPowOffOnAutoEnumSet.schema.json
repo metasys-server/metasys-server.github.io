@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityPowOffOnAutoEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityPowOffOnAutoEnumSet.schema.json",
   "title": "unityPowOffOnAutoEnumSet",
   "description": "Unity POW Off/On/Auto",
   "oneOf": [

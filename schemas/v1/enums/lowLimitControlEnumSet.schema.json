@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/lowLimitControlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/lowLimitControlEnumSet.schema.json",
   "title": "lowLimitControlEnumSet",
   "description": "Low Limit Control",
   "oneOf": [

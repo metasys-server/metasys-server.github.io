@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconErvStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconErvStatusEnumSet.schema.json",
   "title": "seEconErvStatusEnumSet",
   "description": "SE ECON ERV Status",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ystSc1EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ystSc1EnumSet.schema.json",
   "title": "ystSc1EnumSet",
   "description": "YST Operation Code SC.1",
   "oneOf": [

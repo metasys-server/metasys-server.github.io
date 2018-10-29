@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tecZoneSequencerState.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tecZoneSequencerState.schema.json",
   "title": "tecZoneSequencerState",
   "description": "TEC Zone Sequencer State",
   "oneOf": [

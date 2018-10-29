@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/stcYsaaFaultCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/stcYsaaFaultCodeEnumSet.schema.json",
   "title": "stcYsaaFaultCodeEnumSet",
   "description": "STC YSAA Fault Codes",
   "oneOf": [

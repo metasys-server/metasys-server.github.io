@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/transferToDeviceTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/transferToDeviceTypeEnumSet.schema.json",
   "title": "transferToDeviceTypeEnumSet",
   "description": "Transfer to Device Type",
   "oneOf": [

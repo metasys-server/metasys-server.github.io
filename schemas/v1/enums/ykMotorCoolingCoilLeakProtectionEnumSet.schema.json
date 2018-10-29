@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ykMotorCoolingCoilLeakProtectionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ykMotorCoolingCoilLeakProtectionEnumSet.schema.json",
   "title": "ykMotorCoolingCoilLeakProtectionEnumSet",
   "description": "YK Motor Cooling Coil Leak Protection",
   "oneOf": [

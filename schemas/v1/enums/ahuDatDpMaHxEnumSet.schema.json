@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ahuDatDpMaHxEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ahuDatDpMaHxEnumSet.schema.json",
   "title": "ahuDatDpMaHxEnumSet",
   "description": "AHU DAT DP MA HX",
   "oneOf": [

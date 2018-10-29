@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandEnumSet.schema.json",
   "title": "normalUnderfirecontrolUnderfirecontrolWaitingrecoverycommandEnumSet",
   "description": "Normal/Under Fire Control/Under Fire Control/Waiting Recovery Command",
   "oneOf": [

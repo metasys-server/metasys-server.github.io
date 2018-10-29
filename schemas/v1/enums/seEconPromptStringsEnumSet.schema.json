@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconPromptStringsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconPromptStringsEnumSet.schema.json",
   "title": "seEconPromptStringsEnumSet",
   "description": "SE ECON Prompt Strings",
   "oneOf": [

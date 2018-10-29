@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/boxFlowTestErrorsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/boxFlowTestErrorsEnumSet.schema.json",
   "title": "boxFlowTestErrorsEnumSet",
   "description": "Box Flow Test Errors",
   "oneOf": [

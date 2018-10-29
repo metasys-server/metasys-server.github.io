@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unoccStatusStatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unoccStatusStatesEnumSet.schema.json",
   "title": "unoccStatusStatesEnumSet",
   "description": "Unoccupied Status States",
   "oneOf": [

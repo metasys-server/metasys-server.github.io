@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/btcvtEthernetDetailCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/btcvtEthernetDetailCodesEnumSet.schema.json",
   "title": "btcvtEthernetDetailCodesEnumSet",
   "description": "BTCVT/Ethernet Detail Codes",
   "oneOf": [

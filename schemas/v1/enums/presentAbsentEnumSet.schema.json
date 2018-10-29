@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/presentAbsentEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/presentAbsentEnumSet.schema.json",
   "title": "presentAbsentEnumSet",
   "description": "Present Absent",
   "oneOf": [

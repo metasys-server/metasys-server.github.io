@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/portalStatusNotificationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/portalStatusNotificationEnumSet.schema.json",
   "title": "portalStatusNotificationEnumSet",
   "description": "Portal Status Notification",
   "oneOf": [

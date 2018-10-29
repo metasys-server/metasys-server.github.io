@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/controlFullyclosedMsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/controlFullyclosedMsEnumSet.schema.json",
   "title": "controlFullyclosedMsEnumSet",
   "description": "Control/Fully Closed",
   "oneOf": [

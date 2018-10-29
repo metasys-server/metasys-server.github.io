@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/warningBannerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/warningBannerEnumSet.schema.json",
   "title": "warningBannerEnumSet",
   "description": "WARNING BANNER",
   "oneOf": [

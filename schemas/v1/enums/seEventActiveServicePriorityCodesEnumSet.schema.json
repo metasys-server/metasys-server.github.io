@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEventActiveServicePriorityCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEventActiveServicePriorityCodesEnumSet.schema.json",
   "title": "seEventActiveServicePriorityCodesEnumSet",
   "description": "SE Event Active Service Priority Codes",
   "oneOf": [

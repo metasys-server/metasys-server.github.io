@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/secSysIpPvEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/secSysIpPvEnumSet.schema.json",
   "title": "secSysIpPvEnumSet",
   "description": "Secure System Input Point Present Value",
   "oneOf": [

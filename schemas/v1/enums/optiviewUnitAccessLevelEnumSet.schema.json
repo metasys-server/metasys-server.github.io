@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/optiviewUnitAccessLevelEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/optiviewUnitAccessLevelEnumSet.schema.json",
   "title": "optiviewUnitAccessLevelEnumSet",
   "description": "Optiview Unit Access Level",
   "oneOf": [

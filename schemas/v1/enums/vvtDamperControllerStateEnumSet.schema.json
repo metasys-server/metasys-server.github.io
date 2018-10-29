@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vvtDamperControllerStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vvtDamperControllerStateEnumSet.schema.json",
   "title": "vvtDamperControllerStateEnumSet",
   "description": "VVT Damper Controller State",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/boxModeInputEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/boxModeInputEnumSet.schema.json",
   "title": "boxModeInputEnumSet",
   "description": "Box Mode Input",
   "oneOf": [

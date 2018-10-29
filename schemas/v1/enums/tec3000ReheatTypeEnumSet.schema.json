@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tec3000ReheatTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tec3000ReheatTypeEnumSet.schema.json",
   "title": "tec3000ReheatTypeEnumSet",
   "description": "TEC3000 Reheat Type",
   "oneOf": [

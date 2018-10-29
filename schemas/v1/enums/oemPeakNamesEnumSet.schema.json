@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/oemPeakNamesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/oemPeakNamesEnumSet.schema.json",
   "title": "oemPeakNamesEnumSet",
   "description": "OEM Peak Names",
   "oneOf": [

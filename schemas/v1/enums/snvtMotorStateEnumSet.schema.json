@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtMotorStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtMotorStateEnumSet.schema.json",
   "title": "snvtMotorStateEnumSet",
   "description": "SNVT Motor State",
   "oneOf": [

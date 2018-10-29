@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ydCompressorRemoteLockoutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ydCompressorRemoteLockoutEnumSet.schema.json",
   "title": "ydCompressorRemoteLockoutEnumSet",
   "description": "YD Compressor Remote Lockout",
   "oneOf": [

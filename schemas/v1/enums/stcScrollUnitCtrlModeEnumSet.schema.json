@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/stcScrollUnitCtrlModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/stcScrollUnitCtrlModeEnumSet.schema.json",
   "title": "stcScrollUnitCtrlModeEnumSet",
   "description": "York Scroll Unit Control Mode",
   "oneOf": [

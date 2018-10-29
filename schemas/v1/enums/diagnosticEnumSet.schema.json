@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/diagnosticEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/diagnosticEnumSet.schema.json",
   "title": "diagnosticEnumSet",
   "description": "Diagnostic",
   "oneOf": [

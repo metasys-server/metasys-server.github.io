@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/fastSlowEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/fastSlowEnumSet.schema.json",
   "title": "fastSlowEnumSet",
   "description": "Fast Slow",
   "oneOf": [

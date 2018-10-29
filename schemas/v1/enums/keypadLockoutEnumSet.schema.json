@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/keypadLockoutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/keypadLockoutEnumSet.schema.json",
   "title": "keypadLockoutEnumSet",
   "description": "Keypad Lockout",
   "oneOf": [

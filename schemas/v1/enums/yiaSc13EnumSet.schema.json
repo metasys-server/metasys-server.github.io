@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/yiaSc13EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/yiaSc13EnumSet.schema.json",
   "title": "yiaSc13EnumSet",
   "description": "YIA Start Inhibit Code SC.13",
   "oneOf": [

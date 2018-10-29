@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/connectorSio8OutputEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/connectorSio8OutputEnumSet.schema.json",
   "title": "connectorSio8OutputEnumSet",
   "description": "Connector SIO8 Output",
   "oneOf": [

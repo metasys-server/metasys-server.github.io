@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/badgeTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/badgeTypeEnumSet.schema.json",
   "title": "badgeTypeEnumSet",
   "description": "Badge Type",
   "oneOf": [

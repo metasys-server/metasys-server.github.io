@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seMaOpp.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seMaOpp.schema.json",
   "title": "seMaOpp",
   "description": "SE RTU Mixed Air Operation State",
   "oneOf": [

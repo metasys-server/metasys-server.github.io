@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ymc2Sc14EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ymc2Sc14EnumSet.schema.json",
   "title": "ymc2Sc14EnumSet",
   "description": "YMC2 Internal Fault Code SC.14",
   "oneOf": [

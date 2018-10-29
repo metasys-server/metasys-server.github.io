@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tec3000DehumStatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tec3000DehumStatesEnumSet.schema.json",
   "title": "tec3000DehumStatesEnumSet",
   "description": "TEC3000 Dehum States",
   "oneOf": [

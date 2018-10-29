@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tstatBinaryInputFunctionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tstatBinaryInputFunctionEnumSet.schema.json",
   "title": "tstatBinaryInputFunctionEnumSet",
   "description": "Thermostat Binary Input Function",
   "oneOf": [

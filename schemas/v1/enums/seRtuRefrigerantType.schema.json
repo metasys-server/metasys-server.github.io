@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuRefrigerantType.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuRefrigerantType.schema.json",
   "title": "seRtuRefrigerantType",
   "description": "SE RTU Refrigerant Type",
   "oneOf": [

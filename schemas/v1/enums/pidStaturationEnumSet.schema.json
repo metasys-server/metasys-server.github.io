@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/pidStaturationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/pidStaturationEnumSet.schema.json",
   "title": "pidStaturationEnumSet",
   "description": "PID Saturation",
   "oneOf": [

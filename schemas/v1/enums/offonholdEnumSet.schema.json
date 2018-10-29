@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/offonholdEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/offonholdEnumSet.schema.json",
   "title": "offonholdEnumSet",
   "description": "Off/On/Hold",
   "oneOf": [

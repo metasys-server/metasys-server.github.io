@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityXlpOffOnEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityXlpOffOnEnumSet.schema.json",
   "title": "unityXlpOffOnEnumSet",
   "description": "Unity XLP Off/On",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/fc2Or4PipeOutStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/fc2Or4PipeOutStateEnumSet.schema.json",
   "title": "fc2Or4PipeOutStateEnumSet",
   "description": "FC 2or4-Pipe Out State",
   "oneOf": [

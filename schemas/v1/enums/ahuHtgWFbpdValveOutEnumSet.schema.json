@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ahuHtgWFbpdValveOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ahuHtgWFbpdValveOutEnumSet.schema.json",
   "title": "ahuHtgWFbpdValveOutEnumSet",
   "description": "AHU Htg w FBPD Valve Out",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/onOffSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/onOffSet.schema.json",
   "title": "onOffSet",
   "description": "On/Off",
   "oneOf": [

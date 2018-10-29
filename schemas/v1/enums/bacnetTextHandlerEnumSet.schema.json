@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/bacnetTextHandlerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/bacnetTextHandlerEnumSet.schema.json",
   "title": "bacnetTextHandlerEnumSet",
   "description": "BACnet Text Handler",
   "oneOf": [

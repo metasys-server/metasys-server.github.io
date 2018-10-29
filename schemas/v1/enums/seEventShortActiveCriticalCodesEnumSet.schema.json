@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEventShortActiveCriticalCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEventShortActiveCriticalCodesEnumSet.schema.json",
   "title": "seEventShortActiveCriticalCodesEnumSet",
   "description": "SE Event Active Critical Codes Short Names",
   "oneOf": [

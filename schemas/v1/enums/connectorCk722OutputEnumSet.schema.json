@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/connectorCk722OutputEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/connectorCk722OutputEnumSet.schema.json",
   "title": "connectorCk722OutputEnumSet",
   "description": "Connector CK722 Output",
   "oneOf": [

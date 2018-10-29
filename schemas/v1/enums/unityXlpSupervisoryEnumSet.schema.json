@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityXlpSupervisoryEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityXlpSupervisoryEnumSet.schema.json",
   "title": "unityXlpSupervisoryEnumSet",
   "description": "Unity XLP Supervisory",
   "oneOf": [

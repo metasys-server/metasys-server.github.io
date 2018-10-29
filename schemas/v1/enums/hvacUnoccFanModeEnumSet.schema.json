@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/hvacUnoccFanModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/hvacUnoccFanModeEnumSet.schema.json",
   "title": "hvacUnoccFanModeEnumSet",
   "description": "HVAC Unoccupied Fan Mode",
   "oneOf": [

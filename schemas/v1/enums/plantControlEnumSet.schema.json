@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/plantControlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/plantControlEnumSet.schema.json",
   "title": "plantControlEnumSet",
   "description": "Plant Control",
   "oneOf": [

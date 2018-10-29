@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/defrostState.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/defrostState.schema.json",
   "title": "defrostState",
   "description": "Defrost State",
   "oneOf": [

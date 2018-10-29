@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/pluggedInEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/pluggedInEnumSet.schema.json",
   "title": "pluggedInEnumSet",
   "description": "Plugged In",
   "oneOf": [

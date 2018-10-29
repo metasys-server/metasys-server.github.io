@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ssdsFaultCauseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ssdsFaultCauseEnumSet.schema.json",
   "title": "ssdsFaultCauseEnumSet",
   "description": "SSDS Fault Cause",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ykBearingTempProtectionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ykBearingTempProtectionEnumSet.schema.json",
   "title": "ykBearingTempProtectionEnumSet",
   "description": "YK Bearing Temp Protection",
   "oneOf": [

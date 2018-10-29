@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/dllrIntervalLengthsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/dllrIntervalLengthsEnumSet.schema.json",
   "title": "dllrIntervalLengthsEnumSet",
   "description": "DLLR Interval Lengths",
   "oneOf": [

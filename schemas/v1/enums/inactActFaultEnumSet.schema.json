@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/inactActFaultEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/inactActFaultEnumSet.schema.json",
   "title": "inactActFaultEnumSet",
   "description": "Inact Act Fault",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtNvTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtNvTypeEnumSet.schema.json",
   "title": "snvtNvTypeEnumSet",
   "description": "SNVT NV Type",
   "oneOf": [

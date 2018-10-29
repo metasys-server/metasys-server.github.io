@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/channelSelectEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/channelSelectEnumSet.schema.json",
   "title": "channelSelectEnumSet",
   "description": "Channel Select",
   "oneOf": [

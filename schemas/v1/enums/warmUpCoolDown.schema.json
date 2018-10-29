@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/warmUpCoolDown.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/warmUpCoolDown.schema.json",
   "title": "warmUpCoolDown",
   "description": "Warm-up Cool-down",
   "oneOf": [

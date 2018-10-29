@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seCvSfTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seCvSfTypeEnumSet.schema.json",
   "title": "seCvSfTypeEnumSet",
   "description": "SE CV Supply Fan Type",
   "oneOf": [

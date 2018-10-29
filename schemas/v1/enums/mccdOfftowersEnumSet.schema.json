@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/mccdOfftowersEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/mccdOfftowersEnumSet.schema.json",
   "title": "mccdOfftowersEnumSet",
   "description": "MCCD Off-Towers",
   "oneOf": [

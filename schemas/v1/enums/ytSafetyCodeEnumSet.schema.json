@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ytSafetyCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ytSafetyCodeEnumSet.schema.json",
   "title": "ytSafetyCodeEnumSet",
   "description": "YT Safety Code",
   "oneOf": [

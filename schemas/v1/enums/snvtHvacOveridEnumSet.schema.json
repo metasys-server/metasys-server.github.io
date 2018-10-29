@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtHvacOveridEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtHvacOveridEnumSet.schema.json",
   "title": "snvtHvacOveridEnumSet",
   "description": "SNVT HVAC Override",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/dehummethodEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/dehummethodEnumSet.schema.json",
   "title": "dehummethodEnumSet",
   "description": "Dehum Method",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/commandStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/commandStateEnumSet.schema.json",
   "title": "commandStateEnumSet",
   "description": "Command State",
   "oneOf": [

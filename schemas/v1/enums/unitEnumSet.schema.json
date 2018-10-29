@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unitEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unitEnumSet.schema.json",
   "title": "unitEnumSet",
   "description": "Unit",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/compressorTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/compressorTypeEnumSet.schema.json",
   "title": "compressorTypeEnumSet",
   "description": "Compressor Type",
   "oneOf": [

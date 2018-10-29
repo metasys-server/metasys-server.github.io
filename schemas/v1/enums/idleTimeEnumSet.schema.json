@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/idleTimeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/idleTimeEnumSet.schema.json",
   "title": "idleTimeEnumSet",
   "description": "Idle Time",
   "oneOf": [

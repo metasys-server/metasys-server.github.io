@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/dataModelTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/dataModelTypeEnumSet.schema.json",
   "title": "dataModelTypeEnumSet",
   "description": "Data Model Type",
   "oneOf": [

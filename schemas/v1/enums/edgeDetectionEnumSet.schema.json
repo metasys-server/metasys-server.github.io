@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/edgeDetectionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/edgeDetectionEnumSet.schema.json",
   "title": "edgeDetectionEnumSet",
   "description": "Edge Detection",
   "oneOf": [

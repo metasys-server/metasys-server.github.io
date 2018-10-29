@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityIrmJcunbnUnityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityIrmJcunbnUnityEnumSet.schema.json",
   "title": "unityIrmJcunbnUnityEnumSet",
   "description": "Unity IRM JCUNBN Unity",
   "oneOf": [

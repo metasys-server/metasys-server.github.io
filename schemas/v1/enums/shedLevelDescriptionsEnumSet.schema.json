@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/shedLevelDescriptionsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/shedLevelDescriptionsEnumSet.schema.json",
   "title": "shedLevelDescriptionsEnumSet",
   "description": "Shed Level Descriptions Set",
   "oneOf": [

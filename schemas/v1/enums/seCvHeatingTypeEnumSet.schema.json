@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seCvHeatingTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seCvHeatingTypeEnumSet.schema.json",
   "title": "seCvHeatingTypeEnumSet",
   "description": "SE CV Heating Type",
   "oneOf": [

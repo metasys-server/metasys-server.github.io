@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/notConnectedConnectedOverrideEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/notConnectedConnectedOverrideEnumSet.schema.json",
   "title": "notConnectedConnectedOverrideEnumSet",
   "description": "Not Connected/Connected Override",
   "oneOf": [

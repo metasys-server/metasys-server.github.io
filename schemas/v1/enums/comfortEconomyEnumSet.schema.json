@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/comfortEconomyEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/comfortEconomyEnumSet.schema.json",
   "title": "comfortEconomyEnumSet",
   "description": "Comfort Economy",
   "oneOf": [

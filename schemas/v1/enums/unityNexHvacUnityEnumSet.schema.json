@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityNexHvacUnityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityNexHvacUnityEnumSet.schema.json",
   "title": "unityNexHvacUnityEnumSet",
   "description": "Unity NEX HVAC Unity",
   "oneOf": [

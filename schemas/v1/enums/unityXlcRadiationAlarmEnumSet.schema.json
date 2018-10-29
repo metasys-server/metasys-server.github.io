@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityXlcRadiationAlarmEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcRadiationAlarmEnumSet.schema.json",
   "title": "unityXlcRadiationAlarmEnumSet",
   "description": "Unity XLC Radiation Alarm",
   "oneOf": [

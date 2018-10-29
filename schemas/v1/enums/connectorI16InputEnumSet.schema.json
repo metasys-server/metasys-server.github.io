@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/connectorI16InputEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/connectorI16InputEnumSet.schema.json",
   "title": "connectorI16InputEnumSet",
   "description": "Connector I16 Input",
   "oneOf": [

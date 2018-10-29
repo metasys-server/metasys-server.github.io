@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/entityTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/entityTypeEnumSet.schema.json",
   "title": "entityTypeEnumSet",
   "description": "Entity Type Enum Set",
   "oneOf": [

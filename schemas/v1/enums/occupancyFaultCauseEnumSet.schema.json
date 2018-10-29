@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/occupancyFaultCauseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/occupancyFaultCauseEnumSet.schema.json",
   "title": "occupancyFaultCauseEnumSet",
   "description": "Occupancy Fault Cause",
   "oneOf": [

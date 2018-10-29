@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/toolDeviceTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/toolDeviceTypeEnumSet.schema.json",
   "title": "toolDeviceTypeEnumSet",
   "description": "Tool Device Type",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/auditTrailStringsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/auditTrailStringsEnumSet.schema.json",
   "title": "auditTrailStringsEnumSet",
   "description": "Audit Trail Strings",
   "oneOf": [

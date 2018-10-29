@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tec3000UnitControlModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tec3000UnitControlModeEnumSet.schema.json",
   "title": "tec3000UnitControlModeEnumSet",
   "description": "TEC3000 Unit Control Mode",
   "oneOf": [

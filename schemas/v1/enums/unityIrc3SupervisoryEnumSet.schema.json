@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityIrc3SupervisoryEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityIrc3SupervisoryEnumSet.schema.json",
   "title": "unityIrc3SupervisoryEnumSet",
   "description": "Unity IRC3 Supervisory",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/baseUnitsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/baseUnitsEnumSet.schema.json",
   "title": "baseUnitsEnumSet",
   "description": "Base Units",
   "oneOf": [

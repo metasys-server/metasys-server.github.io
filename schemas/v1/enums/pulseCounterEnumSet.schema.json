@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/pulseCounterEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/pulseCounterEnumSet.schema.json",
   "title": "pulseCounterEnumSet",
   "description": "Pulse Counter",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityXlcOffSlowFastEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcOffSlowFastEnumSet.schema.json",
   "title": "unityXlcOffSlowFastEnumSet",
   "description": "Unity XLC Off/Slow/Fast",
   "oneOf": [

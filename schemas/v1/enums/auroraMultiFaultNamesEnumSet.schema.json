@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/auroraMultiFaultNamesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/auroraMultiFaultNamesEnumSet.schema.json",
   "title": "auroraMultiFaultNamesEnumSet",
   "description": "Aurora Multi Fault Names",
   "oneOf": [

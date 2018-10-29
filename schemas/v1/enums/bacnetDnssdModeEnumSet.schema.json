@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/bacnetDnssdModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/bacnetDnssdModeEnumSet.schema.json",
   "title": "bacnetDnssdModeEnumSet",
   "description": "BACnet DNS-SD Mode",
   "oneOf": [

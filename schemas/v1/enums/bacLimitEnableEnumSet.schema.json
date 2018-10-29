@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/bacLimitEnableEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/bacLimitEnableEnumSet.schema.json",
   "title": "bacLimitEnableEnumSet",
   "description": "BAC Limit Enable",
   "oneOf": [

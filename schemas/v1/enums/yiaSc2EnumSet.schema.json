@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/yiaSc2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/yiaSc2EnumSet.schema.json",
   "title": "yiaSc2EnumSet",
   "description": "YIA Safety Fault Code SC.2",
   "oneOf": [

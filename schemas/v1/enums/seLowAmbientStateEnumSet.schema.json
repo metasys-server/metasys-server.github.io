@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seLowAmbientStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seLowAmbientStateEnumSet.schema.json",
   "title": "seLowAmbientStateEnumSet",
   "description": "SE Low Ambient State",
   "oneOf": [

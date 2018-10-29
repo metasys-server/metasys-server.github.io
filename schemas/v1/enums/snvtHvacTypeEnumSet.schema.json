@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtHvacTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtHvacTypeEnumSet.schema.json",
   "title": "snvtHvacTypeEnumSet",
   "description": "SNVT HVAC Equipment Type",
   "oneOf": [

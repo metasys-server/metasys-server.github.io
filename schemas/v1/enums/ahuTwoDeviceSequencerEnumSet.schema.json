@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ahuTwoDeviceSequencerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ahuTwoDeviceSequencerEnumSet.schema.json",
   "title": "ahuTwoDeviceSequencerEnumSet",
   "description": "AHU Two Device Sequencer",
   "oneOf": [

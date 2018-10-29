@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/t8800PowerFailRestartEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/t8800PowerFailRestartEnumSet.schema.json",
   "title": "t8800PowerFailRestartEnumSet",
   "description": "T8800 Power Fail Restart",
   "oneOf": [

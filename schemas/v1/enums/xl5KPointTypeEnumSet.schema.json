@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/xl5KPointTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/xl5KPointTypeEnumSet.schema.json",
   "title": "xl5KPointTypeEnumSet",
   "description": "XL5K Point Type",
   "oneOf": [

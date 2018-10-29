@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/processIdEmumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/processIdEmumSet.schema.json",
   "title": "processIdEmumSet",
   "description": "Process ID",
   "oneOf": [

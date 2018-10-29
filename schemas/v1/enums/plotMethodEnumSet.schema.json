@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/plotMethodEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/plotMethodEnumSet.schema.json",
   "title": "plotMethodEnumSet",
   "description": "Plotting Method",
   "oneOf": [

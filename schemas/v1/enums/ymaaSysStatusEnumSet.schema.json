@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ymaaSysStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ymaaSysStatusEnumSet.schema.json",
   "title": "ymaaSysStatusEnumSet",
   "description": "YMAA System Status",
   "oneOf": [

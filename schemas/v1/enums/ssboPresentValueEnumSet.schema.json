@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ssboPresentValueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ssboPresentValueEnumSet.schema.json",
   "title": "ssboPresentValueEnumSet",
   "description": "SSBO Present Value",
   "oneOf": [

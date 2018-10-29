@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/databaseStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/databaseStatusEnumSet.schema.json",
   "title": "databaseStatusEnumSet",
   "description": "Database Status Enum Set",
   "oneOf": [

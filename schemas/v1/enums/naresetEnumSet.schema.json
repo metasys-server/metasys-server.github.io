@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/naresetEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/naresetEnumSet.schema.json",
   "title": "naresetEnumSet",
   "description": "NA Reset",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/oaEnthalpyEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/oaEnthalpyEnumSet.schema.json",
   "title": "oaEnthalpyEnumSet",
   "description": "OA Enthalpy",
   "oneOf": [

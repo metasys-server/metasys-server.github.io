@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/mccdIdleYesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/mccdIdleYesEnumSet.schema.json",
   "title": "mccdIdleYesEnumSet",
   "description": "MCCD Idle Yes",
   "oneOf": [

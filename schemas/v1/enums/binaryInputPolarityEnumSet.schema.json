@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/binaryInputPolarityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/binaryInputPolarityEnumSet.schema.json",
   "title": "binaryInputPolarityEnumSet",
   "description": "Binary Input Polarity",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/cpo5ShortNameEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/cpo5ShortNameEnumSet.schema.json",
   "title": "cpo5ShortNameEnumSet",
   "description": "CPO5 SHORT NAME",
   "oneOf": [

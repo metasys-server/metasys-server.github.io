@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/configCondEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/configCondEnumSet.schema.json",
   "title": "configCondEnumSet",
   "description": "Bus Configuration State",
   "oneOf": [

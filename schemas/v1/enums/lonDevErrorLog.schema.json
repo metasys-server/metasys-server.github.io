@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/lonDevErrorLog.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/lonDevErrorLog.schema.json",
   "title": "lonDevErrorLog",
   "description": "LON Device Error Log",
   "oneOf": [

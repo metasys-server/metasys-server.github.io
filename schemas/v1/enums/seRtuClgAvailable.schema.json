@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuClgAvailable.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuClgAvailable.schema.json",
   "title": "seRtuClgAvailable",
   "description": "SE RTU Clg Available",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/hlrUnitTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/hlrUnitTypeEnumSet.schema.json",
   "title": "hlrUnitTypeEnumSet",
   "description": "HLR Unit Type",
   "oneOf": [

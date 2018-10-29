@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/connectorGenericOutputEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/connectorGenericOutputEnumSet.schema.json",
   "title": "connectorGenericOutputEnumSet",
   "description": "Connector Generic Output",
   "oneOf": [

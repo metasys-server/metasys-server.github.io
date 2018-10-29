@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/parameterNameEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/parameterNameEnumSet.schema.json",
   "title": "parameterNameEnumSet",
   "description": "Parameter Name",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtSblndStateSourceEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtSblndStateSourceEnumSet.schema.json",
   "title": "snvtSblndStateSourceEnumSet",
   "description": "SNVT Source of the sunblind command",
   "oneOf": [

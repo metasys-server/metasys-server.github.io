@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtChillerRunModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtChillerRunModeEnumSet.schema.json",
   "title": "snvtChillerRunModeEnumSet",
   "description": "SNVT Chiller Run Mode",
   "oneOf": [

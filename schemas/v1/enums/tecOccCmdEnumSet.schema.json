@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tecOccCmdEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tecOccCmdEnumSet.schema.json",
   "title": "tecOccCmdEnumSet",
   "description": "TEC Occupancy Command",
   "oneOf": [

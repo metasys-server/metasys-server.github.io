@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tec3000DeviceTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tec3000DeviceTypeEnumSet.schema.json",
   "title": "tec3000DeviceTypeEnumSet",
   "description": "TEC3000 Device Type",
   "oneOf": [

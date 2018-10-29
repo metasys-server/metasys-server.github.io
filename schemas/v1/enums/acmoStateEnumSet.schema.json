@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/acmoStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/acmoStateEnumSet.schema.json",
   "title": "acmoStateEnumSet",
   "description": "Auto Cfg Comms Manager Object States",
   "oneOf": [

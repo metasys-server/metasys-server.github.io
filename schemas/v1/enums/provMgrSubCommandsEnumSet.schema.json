@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/provMgrSubCommandsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/provMgrSubCommandsEnumSet.schema.json",
   "title": "provMgrSubCommandsEnumSet",
   "description": "Provision Manager Sub Commands",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuLanguageEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuLanguageEnumSet.schema.json",
   "title": "seRtuLanguageEnumSet",
   "description": "SE RTU Languages",
   "oneOf": [

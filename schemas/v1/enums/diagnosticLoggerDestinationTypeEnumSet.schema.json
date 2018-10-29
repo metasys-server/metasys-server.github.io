@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/diagnosticLoggerDestinationTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/diagnosticLoggerDestinationTypeEnumSet.schema.json",
   "title": "diagnosticLoggerDestinationTypeEnumSet",
   "description": "Diagnostic Logger Destination Types",
   "oneOf": [

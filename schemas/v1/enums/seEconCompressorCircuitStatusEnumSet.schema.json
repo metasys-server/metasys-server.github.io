@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconCompressorCircuitStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconCompressorCircuitStatusEnumSet.schema.json",
   "title": "seEconCompressorCircuitStatusEnumSet",
   "description": "SE ECON Compressor Circuit Status",
   "oneOf": [

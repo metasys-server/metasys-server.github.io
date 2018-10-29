@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/stopStartEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/stopStartEnumSet.schema.json",
   "title": "stopStartEnumSet",
   "description": "Stop/Start",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tsSupportedAttrsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tsSupportedAttrsEnumSet.schema.json",
   "title": "tsSupportedAttrsEnumSet",
   "description": "Tailored Summary Supported Attrs",
   "oneOf": [

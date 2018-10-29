@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/binarypvEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/binarypvEnumSet.schema.json",
   "title": "binarypvEnumSet",
   "description": "Inactive Active",
   "oneOf": [

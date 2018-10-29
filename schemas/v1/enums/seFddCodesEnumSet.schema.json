@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seFddCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seFddCodesEnumSet.schema.json",
   "title": "seFddCodesEnumSet",
   "description": "SE FDD Codes",
   "oneOf": [

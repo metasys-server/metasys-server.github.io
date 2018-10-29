@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seLocalUiStrings.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seLocalUiStrings.schema.json",
   "title": "seLocalUiStrings",
   "description": "SE Local UI Strings",
   "oneOf": [

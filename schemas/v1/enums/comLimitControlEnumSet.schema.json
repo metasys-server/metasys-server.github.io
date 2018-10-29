@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/comLimitControlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/comLimitControlEnumSet.schema.json",
   "title": "comLimitControlEnumSet",
   "description": "COM Limit Control",
   "oneOf": [

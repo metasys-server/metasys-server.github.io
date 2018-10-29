@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/t8800EffectiveInputEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/t8800EffectiveInputEnumSet.schema.json",
   "title": "t8800EffectiveInputEnumSet",
   "description": "T8800 Effective Input",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/pagerParityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/pagerParityEnumSet.schema.json",
   "title": "pagerParityEnumSet",
   "description": "Pager Parity",
   "oneOf": [

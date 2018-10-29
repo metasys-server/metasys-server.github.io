@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/totalizeStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/totalizeStatusEnumSet.schema.json",
   "title": "totalizeStatusEnumSet",
   "description": "Totalize Status",
   "oneOf": [

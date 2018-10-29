@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/top100EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/top100EnumSet.schema.json",
   "title": "top100EnumSet",
   "description": "100 Top",
   "oneOf": [

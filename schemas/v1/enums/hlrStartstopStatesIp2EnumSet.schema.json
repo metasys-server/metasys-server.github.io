@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/hlrStartstopStatesIp2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/hlrStartstopStatesIp2EnumSet.schema.json",
   "title": "hlrStartstopStatesIp2EnumSet",
   "description": "HLR StartStop States IP2",
   "oneOf": [

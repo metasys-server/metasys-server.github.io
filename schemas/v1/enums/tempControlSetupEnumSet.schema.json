@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tempControlSetupEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tempControlSetupEnumSet.schema.json",
   "title": "tempControlSetupEnumSet",
   "description": "TEMP_CONTROL_SETUP",
   "oneOf": [

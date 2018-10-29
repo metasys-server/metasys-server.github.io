@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/cpDedicatedCtModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/cpDedicatedCtModeEnumSet.schema.json",
   "title": "cpDedicatedCtModeEnumSet",
   "description": "CP Dedicated CT Mode",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/fscsFanControlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/fscsFanControlEnumSet.schema.json",
   "title": "fscsFanControlEnumSet",
   "description": "FSCS Fan Control",
   "oneOf": [

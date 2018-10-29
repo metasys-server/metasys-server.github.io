@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconFanControlTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconFanControlTypeEnumSet.schema.json",
   "title": "seEconFanControlTypeEnumSet",
   "description": "SE ECON Fan Control Type",
   "oneOf": [

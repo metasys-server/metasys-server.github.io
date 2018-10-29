@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/energyRecModesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/energyRecModesEnumSet.schema.json",
   "title": "energyRecModesEnumSet",
   "description": "Energy Rec Modes",
   "oneOf": [

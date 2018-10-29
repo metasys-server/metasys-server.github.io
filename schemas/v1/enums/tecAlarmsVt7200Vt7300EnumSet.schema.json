@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tecAlarmsVt7200Vt7300EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tecAlarmsVt7200Vt7300EnumSet.schema.json",
   "title": "tecAlarmsVt7200Vt7300EnumSet",
   "description": "TEC TEC2x45, TEC2xx6, and TEC2xx7 Alarms",
   "oneOf": [

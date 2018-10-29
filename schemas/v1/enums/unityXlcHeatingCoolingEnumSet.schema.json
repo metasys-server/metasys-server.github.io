@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityXlcHeatingCoolingEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcHeatingCoolingEnumSet.schema.json",
   "title": "unityXlcHeatingCoolingEnumSet",
   "description": "Unity XLC Heating/Cooling",
   "oneOf": [

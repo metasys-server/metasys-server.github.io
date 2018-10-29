@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/groupTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/groupTypeEnumSet.schema.json",
   "title": "groupTypeEnumSet",
   "description": "Group Type",
   "oneOf": [

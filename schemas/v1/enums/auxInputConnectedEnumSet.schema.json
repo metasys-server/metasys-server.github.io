@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/auxInputConnectedEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/auxInputConnectedEnumSet.schema.json",
   "title": "auxInputConnectedEnumSet",
   "description": "Aux Input Connected",
   "oneOf": [

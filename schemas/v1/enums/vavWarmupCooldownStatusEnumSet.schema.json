@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vavWarmupCooldownStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vavWarmupCooldownStatusEnumSet.schema.json",
   "title": "vavWarmupCooldownStatusEnumSet",
   "description": "VAV Warmup Cooldown Status",
   "oneOf": [

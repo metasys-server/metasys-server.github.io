@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/datTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/datTypeEnumSet.schema.json",
   "title": "datTypeEnumSet",
   "description": "DAT Type",
   "oneOf": [

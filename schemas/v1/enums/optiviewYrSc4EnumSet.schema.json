@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc4EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc4EnumSet.schema.json",
   "title": "optiviewYrSc4EnumSet",
   "description": "Optiview YR Warning Code SC.4",
   "oneOf": [

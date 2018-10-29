@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/universalInputTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/universalInputTypeEnumSet.schema.json",
   "title": "universalInputTypeEnumSet",
   "description": "Universal Input Type",
   "oneOf": [

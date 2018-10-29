@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seHeatType.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seHeatType.schema.json",
   "title": "seHeatType",
   "description": "SE RTU Heat Type",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ahuMaStartstopStatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ahuMaStartstopStatesEnumSet.schema.json",
   "title": "ahuMaStartstopStatesEnumSet",
   "description": "AHU MA StartStop States",
   "oneOf": [

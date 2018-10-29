@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tecModelNameEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tecModelNameEnumSet.schema.json",
   "title": "tecModelNameEnumSet",
   "description": "TEC Field Controller Model Name",
   "oneOf": [

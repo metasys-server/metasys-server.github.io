@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tec3000DetailedControlStatus2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tec3000DetailedControlStatus2EnumSet.schema.json",
   "title": "tec3000DetailedControlStatus2EnumSet",
   "description": "TEC3000 Detailed Control Status2",
   "oneOf": [

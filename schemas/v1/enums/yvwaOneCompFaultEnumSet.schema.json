@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/yvwaOneCompFaultEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/yvwaOneCompFaultEnumSet.schema.json",
   "title": "yvwaOneCompFaultEnumSet",
   "description": "YVWA One Compressor Fault Codes",
   "oneOf": [

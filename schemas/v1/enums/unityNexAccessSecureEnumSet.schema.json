@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityNexAccessSecureEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityNexAccessSecureEnumSet.schema.json",
   "title": "unityNexAccessSecureEnumSet",
   "description": "Unity NEX Access/Secure",
   "oneOf": [

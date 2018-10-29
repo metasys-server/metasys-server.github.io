@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtDefrModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtDefrModeEnumSet.schema.json",
   "title": "snvtDefrModeEnumSet",
   "description": "SNVT Defrost Mode",
   "oneOf": [

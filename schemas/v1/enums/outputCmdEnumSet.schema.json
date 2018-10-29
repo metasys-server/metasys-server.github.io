@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/outputCmdEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/outputCmdEnumSet.schema.json",
   "title": "outputCmdEnumSet",
   "description": "Output",
   "oneOf": [

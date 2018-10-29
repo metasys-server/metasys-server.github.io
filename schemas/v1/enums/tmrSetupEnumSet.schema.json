@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tmrSetupEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tmrSetupEnumSet.schema.json",
   "title": "tmrSetupEnumSet",
   "description": "Timer Setup",
   "oneOf": [

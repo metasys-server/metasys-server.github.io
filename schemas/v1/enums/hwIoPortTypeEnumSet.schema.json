@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/hwIoPortTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/hwIoPortTypeEnumSet.schema.json",
   "title": "hwIoPortTypeEnumSet",
   "description": "HW IO Port Type",
   "oneOf": [

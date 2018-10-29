@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/keypadTriggerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/keypadTriggerEnumSet.schema.json",
   "title": "keypadTriggerEnumSet",
   "description": "Keypad Trigger",
   "oneOf": [

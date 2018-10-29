@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconShortViewStringsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconShortViewStringsEnumSet.schema.json",
   "title": "seEconShortViewStringsEnumSet",
   "description": "SE ECON Short View Strings",
   "oneOf": [

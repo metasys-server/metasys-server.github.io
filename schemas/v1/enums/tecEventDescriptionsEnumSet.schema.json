@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tecEventDescriptionsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tecEventDescriptionsEnumSet.schema.json",
   "title": "tecEventDescriptionsEnumSet",
   "description": "TEC Event Descriptions",
   "oneOf": [

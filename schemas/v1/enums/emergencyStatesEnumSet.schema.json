@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/emergencyStatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/emergencyStatesEnumSet.schema.json",
   "title": "emergencyStatesEnumSet",
   "description": "Emergency States",
   "oneOf": [

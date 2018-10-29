@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/hpClgModeOvrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/hpClgModeOvrEnumSet.schema.json",
   "title": "hpClgModeOvrEnumSet",
   "description": "HP Cooling Mode OVR",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/normalReplaceEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/normalReplaceEnumSet.schema.json",
   "title": "normalReplaceEnumSet",
   "description": "Normal Replace",
   "oneOf": [

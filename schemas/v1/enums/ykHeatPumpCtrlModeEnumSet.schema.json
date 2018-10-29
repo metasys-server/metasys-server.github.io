@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ykHeatPumpCtrlModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ykHeatPumpCtrlModeEnumSet.schema.json",
   "title": "ykHeatPumpCtrlModeEnumSet",
   "description": "YK Heat Pump Ctrl Mode",
   "oneOf": [

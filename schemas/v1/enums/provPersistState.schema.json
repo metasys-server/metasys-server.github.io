@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/provPersistState.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/provPersistState.schema.json",
   "title": "provPersistState",
   "description": "Prov Persist State",
   "oneOf": [

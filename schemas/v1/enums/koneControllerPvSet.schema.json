@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/koneControllerPvSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/koneControllerPvSet.schema.json",
   "title": "koneControllerPvSet",
   "description": "KONE Controller Present Value",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuDxClg1EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuDxClg1EnumSet.schema.json",
   "title": "seRtuDxClg1EnumSet",
   "description": "SE RTU DX Cooling Circuit 1 Status",
   "oneOf": [

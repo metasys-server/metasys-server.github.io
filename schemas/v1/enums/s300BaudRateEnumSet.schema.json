@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/s300BaudRateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/s300BaudRateEnumSet.schema.json",
   "title": "s300BaudRateEnumSet",
   "description": "S300 Baud Rate",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/compctrlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/compctrlEnumSet.schema.json",
   "title": "compctrlEnumSet",
   "description": "Comp Ctrl",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/eventActiveCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/eventActiveCodesEnumSet.schema.json",
   "title": "eventActiveCodesEnumSet",
   "description": "Event Active Codes",
   "oneOf": [

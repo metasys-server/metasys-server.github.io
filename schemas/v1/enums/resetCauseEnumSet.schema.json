@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/resetCauseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/resetCauseEnumSet.schema.json",
   "title": "resetCauseEnumSet",
   "description": "Neuron Reset Cause",
   "oneOf": [

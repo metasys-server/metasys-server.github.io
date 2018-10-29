@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconMechTstatSequencerEquipModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconMechTstatSequencerEquipModeEnumSet.schema.json",
   "title": "seEconMechTstatSequencerEquipModeEnumSet",
   "description": "SE ECON Mech Tstat Sequencer Equip Mode",
   "oneOf": [

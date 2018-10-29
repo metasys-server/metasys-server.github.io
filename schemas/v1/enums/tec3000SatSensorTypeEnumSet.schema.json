@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tec3000SatSensorTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tec3000SatSensorTypeEnumSet.schema.json",
   "title": "tec3000SatSensorTypeEnumSet",
   "description": "TEC3000 SAT Sensor Type",
   "oneOf": [

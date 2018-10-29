@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/plantSequencingModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/plantSequencingModeEnumSet.schema.json",
   "title": "plantSequencingModeEnumSet",
   "description": "Plant Sequencing Mode",
   "oneOf": [

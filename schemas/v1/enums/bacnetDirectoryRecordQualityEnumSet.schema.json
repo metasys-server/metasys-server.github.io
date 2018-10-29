@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/bacnetDirectoryRecordQualityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/bacnetDirectoryRecordQualityEnumSet.schema.json",
   "title": "bacnetDirectoryRecordQualityEnumSet",
   "description": "BACnet Directory Record Quality",
   "oneOf": [

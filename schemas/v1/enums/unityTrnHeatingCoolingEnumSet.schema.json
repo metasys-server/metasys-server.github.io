@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityTrnHeatingCoolingEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityTrnHeatingCoolingEnumSet.schema.json",
   "title": "unityTrnHeatingCoolingEnumSet",
   "description": "Unity TRN Heating Cooling",
   "oneOf": [

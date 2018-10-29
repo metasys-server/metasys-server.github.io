@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ahuEffAppModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ahuEffAppModeEnumSet.schema.json",
   "title": "ahuEffAppModeEnumSet",
   "description": "AHU Effective App Mode",
   "oneOf": [

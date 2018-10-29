@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/t8800FanSpeedEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/t8800FanSpeedEnumSet.schema.json",
   "title": "t8800FanSpeedEnumSet",
   "description": "T8800 Fan Speed",
   "oneOf": [

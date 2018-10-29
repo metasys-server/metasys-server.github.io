@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/auditClassesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/auditClassesEnumSet.schema.json",
   "title": "auditClassesEnumSet",
   "description": "Audit Classes",
   "oneOf": [

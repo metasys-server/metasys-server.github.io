@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/bvSetpointOptionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/bvSetpointOptionEnumSet.schema.json",
   "title": "bvSetpointOptionEnumSet",
   "description": "BV Setpoint Function",
   "oneOf": [

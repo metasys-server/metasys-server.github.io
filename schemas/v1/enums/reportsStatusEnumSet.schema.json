@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/reportsStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/reportsStatusEnumSet.schema.json",
   "title": "reportsStatusEnumSet",
   "description": "Success/No USB Stick/USB Write Failed",
   "oneOf": [

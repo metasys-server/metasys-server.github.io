@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/clgresetEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/clgresetEnumSet.schema.json",
   "title": "clgresetEnumSet",
   "description": "Clg Reset",
   "oneOf": [

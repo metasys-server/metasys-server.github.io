@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/monitorModeReleaseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/monitorModeReleaseEnumSet.schema.json",
   "title": "monitorModeReleaseEnumSet",
   "description": "Monitor Mode Release",
   "oneOf": [

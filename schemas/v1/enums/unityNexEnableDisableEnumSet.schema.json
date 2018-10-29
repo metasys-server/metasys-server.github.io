@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityNexEnableDisableEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityNexEnableDisableEnumSet.schema.json",
   "title": "unityNexEnableDisableEnumSet",
   "description": "Unity NEX Enable/Disable",
   "oneOf": [

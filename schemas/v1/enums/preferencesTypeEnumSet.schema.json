@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/preferencesTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/preferencesTypeEnumSet.schema.json",
   "title": "preferencesTypeEnumSet",
   "description": "Preferences Type",
   "oneOf": [

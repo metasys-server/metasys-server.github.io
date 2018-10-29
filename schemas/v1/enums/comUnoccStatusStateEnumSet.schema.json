@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/comUnoccStatusStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/comUnoccStatusStateEnumSet.schema.json",
   "title": "comUnoccStatusStateEnumSet",
   "description": "COM Unocc Status State",
   "oneOf": [

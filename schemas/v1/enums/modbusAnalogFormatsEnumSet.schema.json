@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/modbusAnalogFormatsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/modbusAnalogFormatsEnumSet.schema.json",
   "title": "modbusAnalogFormatsEnumSet",
   "description": "Modbus Analog Formats",
   "oneOf": [

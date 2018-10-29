@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/gryphonShortViewStrings.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/gryphonShortViewStrings.schema.json",
   "title": "gryphonShortViewStrings",
   "description": "Gryphon Short View Strings",
   "oneOf": [

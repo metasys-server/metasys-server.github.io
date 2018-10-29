@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/comDamperControlStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/comDamperControlStateEnumSet.schema.json",
   "title": "comDamperControlStateEnumSet",
   "description": "COM Damper Control State",
   "oneOf": [

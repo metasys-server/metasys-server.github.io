@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYgYbOpCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYgYbOpCodeEnumSet.schema.json",
   "title": "ltcLegacyYgYbOpCodeEnumSet",
   "description": "York LTC Legacy YG/YB Operational Code",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/chartStyleEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/chartStyleEnumSet.schema.json",
   "title": "chartStyleEnumSet",
   "description": "Chart Style",
   "oneOf": [

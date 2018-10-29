@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/propertyTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/propertyTypeEnumSet.schema.json",
   "title": "propertyTypeEnumSet",
   "description": "Property Type",
   "oneOf": [

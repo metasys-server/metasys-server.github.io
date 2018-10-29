@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/alarmSetupEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/alarmSetupEnumSet.schema.json",
   "title": "alarmSetupEnumSet",
   "description": "Alarm Setup",
   "oneOf": [

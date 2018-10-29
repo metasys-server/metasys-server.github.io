@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYtOpCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYtOpCodeEnumSet.schema.json",
   "title": "ltcLegacyYtOpCodeEnumSet",
   "description": "York Legacy YT Op Codes",
   "oneOf": [

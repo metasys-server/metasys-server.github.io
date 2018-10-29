@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/sszoTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/sszoTypeEnumSet.schema.json",
   "title": "sszoTypeEnumSet",
   "description": "SSZO Type",
   "oneOf": [

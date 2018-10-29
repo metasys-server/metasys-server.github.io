@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/localeIsoCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/localeIsoCodesEnumSet.schema.json",
   "title": "localeIsoCodesEnumSet",
   "description": "Auto Generated Locale ISO Codes",
   "oneOf": []

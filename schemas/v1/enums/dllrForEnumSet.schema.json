@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/dllrForEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/dllrForEnumSet.schema.json",
   "title": "dllrForEnumSet",
   "description": "DLLR For",
   "oneOf": [

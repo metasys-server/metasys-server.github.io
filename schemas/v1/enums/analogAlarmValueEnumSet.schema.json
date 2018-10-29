@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/analogAlarmValueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/analogAlarmValueEnumSet.schema.json",
   "title": "analogAlarmValueEnumSet",
   "description": "Analog Alarm Value",
   "oneOf": [

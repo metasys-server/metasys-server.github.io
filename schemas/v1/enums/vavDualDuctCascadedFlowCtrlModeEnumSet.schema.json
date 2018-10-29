@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vavDualDuctCascadedFlowCtrlModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vavDualDuctCascadedFlowCtrlModeEnumSet.schema.json",
   "title": "vavDualDuctCascadedFlowCtrlModeEnumSet",
   "description": "VAV Dual Duct Cascaded Flow Ctrl Mode",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/closedMinimumEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/closedMinimumEnumSet.schema.json",
   "title": "closedMinimumEnumSet",
   "description": "Closed Minimum",
   "oneOf": [

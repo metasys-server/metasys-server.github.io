@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/eventModesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/eventModesEnumSet.schema.json",
   "title": "eventModesEnumSet",
   "description": "Event Modes",
   "oneOf": [

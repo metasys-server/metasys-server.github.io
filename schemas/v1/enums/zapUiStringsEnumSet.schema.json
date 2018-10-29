@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/zapUiStringsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/zapUiStringsEnumSet.schema.json",
   "title": "zapUiStringsEnumSet",
   "description": "ZAP UI Strings",
   "oneOf": [

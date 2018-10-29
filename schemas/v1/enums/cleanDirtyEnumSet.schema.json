@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/cleanDirtyEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/cleanDirtyEnumSet.schema.json",
   "title": "cleanDirtyEnumSet",
   "description": "Clean Dirty",
   "oneOf": [

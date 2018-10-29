@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ykSc12EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ykSc12EnumSet.schema.json",
   "title": "ykSc12EnumSet",
   "description": "YK Modified Run Code SC.12",
   "oneOf": [

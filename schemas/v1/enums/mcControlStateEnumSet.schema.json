@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/mcControlStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/mcControlStateEnumSet.schema.json",
   "title": "mcControlStateEnumSet",
   "description": "MC Control State",
   "oneOf": [

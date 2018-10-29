@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tec3000BiConfig2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tec3000BiConfig2EnumSet.schema.json",
   "title": "tec3000BiConfig2EnumSet",
   "description": "TEC3000 BI Config2",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/lonPointStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/lonPointStatusEnumSet.schema.json",
   "title": "lonPointStatusEnumSet",
   "description": "Lon Point Status",
   "oneOf": [

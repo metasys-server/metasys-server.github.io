@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vavUnoccStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vavUnoccStatusEnumSet.schema.json",
   "title": "vavUnoccStatusEnumSet",
   "description": "VAV Unocc Status",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/stageupStagedownEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/stageupStagedownEnumSet.schema.json",
   "title": "stageupStagedownEnumSet",
   "description": "StageUp StageDown",
   "oneOf": [

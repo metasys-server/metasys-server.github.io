@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaDilutionCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaDilutionCodeEnumSet.schema.json",
   "title": "ltcLegacyYiaDilutionCodeEnumSet",
   "description": "York LTC Legacy YIA Dilution Cycle Code",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtSceneConfigEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtSceneConfigEnumSet.schema.json",
   "title": "snvtSceneConfigEnumSet",
   "description": "SNVT Scene Config",
   "oneOf": [

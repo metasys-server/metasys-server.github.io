@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/basInterfaceTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/basInterfaceTypeEnumSet.schema.json",
   "title": "basInterfaceTypeEnumSet",
   "description": "BAS Interface Type",
   "oneOf": [

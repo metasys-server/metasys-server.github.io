@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ystSc7EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ystSc7EnumSet.schema.json",
   "title": "ystSc7EnumSet",
   "description": "YST Turbine Status Code SC.7",
   "oneOf": [

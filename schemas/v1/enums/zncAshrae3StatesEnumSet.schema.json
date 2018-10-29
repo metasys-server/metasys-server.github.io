@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/zncAshrae3StatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/zncAshrae3StatesEnumSet.schema.json",
   "title": "zncAshrae3StatesEnumSet",
   "description": "ZNC ASHRAE 3 States",
   "oneOf": [

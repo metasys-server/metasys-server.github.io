@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/portStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/portStatusEnumSet.schema.json",
   "title": "portStatusEnumSet",
   "description": "Port Status Enum Set",
   "oneOf": [

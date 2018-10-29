@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vavPvdcStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vavPvdcStateEnumSet.schema.json",
   "title": "vavPvdcStateEnumSet",
   "description": "VAV PVDC State",
   "oneOf": [

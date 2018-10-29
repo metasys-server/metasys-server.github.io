@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/viewTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/viewTypeEnumSet.schema.json",
   "title": "viewTypeEnumSet",
   "description": "View Type",
   "oneOf": [

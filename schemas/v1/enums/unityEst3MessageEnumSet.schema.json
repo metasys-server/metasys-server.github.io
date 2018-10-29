@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityEst3MessageEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityEst3MessageEnumSet.schema.json",
   "title": "unityEst3MessageEnumSet",
   "description": "Unity EST3 Message",
   "oneOf": [

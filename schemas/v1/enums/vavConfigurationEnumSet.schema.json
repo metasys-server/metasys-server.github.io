@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vavConfigurationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vavConfigurationEnumSet.schema.json",
   "title": "vavConfigurationEnumSet",
   "description": "VAV Configuration",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unreliableMeterActionsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unreliableMeterActionsEnumSet.schema.json",
   "title": "unreliableMeterActionsEnumSet",
   "description": "Unreliable Meter Actions Set",
   "oneOf": [

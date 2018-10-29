@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/fedAckCmdEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/fedAckCmdEnumSet.schema.json",
   "title": "fedAckCmdEnumSet",
   "description": "FED ACK CMD",
   "oneOf": [

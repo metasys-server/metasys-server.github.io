@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuUnoccTSetpoints.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuUnoccTSetpoints.schema.json",
   "title": "seRtuUnoccTSetpoints",
   "description": "SE RTU Unocc T Setpoints",
   "oneOf": [

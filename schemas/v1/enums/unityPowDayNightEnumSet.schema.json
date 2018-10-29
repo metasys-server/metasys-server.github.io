@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityPowDayNightEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityPowDayNightEnumSet.schema.json",
   "title": "unityPowDayNightEnumSet",
   "description": "Unity POW Day/Night",
   "oneOf": [

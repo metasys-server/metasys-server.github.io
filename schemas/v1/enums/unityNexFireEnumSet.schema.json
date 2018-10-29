@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityNexFireEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityNexFireEnumSet.schema.json",
   "title": "unityNexFireEnumSet",
   "description": "Unity NEX Fire",
   "oneOf": [

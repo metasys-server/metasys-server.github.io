@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuHeatControlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuHeatControlEnumSet.schema.json",
   "title": "seRtuHeatControlEnumSet",
   "description": "SE RTU Heating Control Status",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/fsmOperatorsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/fsmOperatorsEnumSet.schema.json",
   "title": "fsmOperatorsEnumSet",
   "description": "FSM Operators",
   "oneOf": [

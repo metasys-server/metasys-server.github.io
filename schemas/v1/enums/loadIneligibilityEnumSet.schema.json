@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/loadIneligibilityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/loadIneligibilityEnumSet.schema.json",
   "title": "loadIneligibilityEnumSet",
   "description": "Load Ineligibility",
   "oneOf": [

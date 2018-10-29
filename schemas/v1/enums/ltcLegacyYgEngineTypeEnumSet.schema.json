@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYgEngineTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYgEngineTypeEnumSet.schema.json",
   "title": "ltcLegacyYgEngineTypeEnumSet",
   "description": "York LTC Legacy YG Engine Type",
   "oneOf": [

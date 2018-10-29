@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/minFullEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/minFullEnumSet.schema.json",
   "title": "minFullEnumSet",
   "description": "Min Full",
   "oneOf": [

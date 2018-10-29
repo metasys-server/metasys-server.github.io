@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuHighSidePort.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuHighSidePort.schema.json",
   "title": "seRtuHighSidePort",
   "description": "SE RTU High Side Port",
   "oneOf": [

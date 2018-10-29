@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/comAirflowProvingStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/comAirflowProvingStateEnumSet.schema.json",
   "title": "comAirflowProvingStateEnumSet",
   "description": "COM Airflow Proving State",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/dispContrastEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/dispContrastEnumSet.schema.json",
   "title": "dispContrastEnumSet",
   "description": "Display Contrast",
   "oneOf": [

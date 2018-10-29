@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/monitorTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/monitorTypeEnumSet.schema.json",
   "title": "monitorTypeEnumSet",
   "description": "Monitor Type",
   "oneOf": [

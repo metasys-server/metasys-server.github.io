@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/eprFaultCauseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/eprFaultCauseEnumSet.schema.json",
   "title": "eprFaultCauseEnumSet",
   "description": "EPR Fault Cause",
   "oneOf": [

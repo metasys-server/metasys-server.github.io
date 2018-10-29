@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/reverseNormalEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/reverseNormalEnumSet.schema.json",
   "title": "reverseNormalEnumSet",
   "description": "Reverse Normal",
   "oneOf": [

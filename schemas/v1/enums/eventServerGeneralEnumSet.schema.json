@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/eventServerGeneralEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/eventServerGeneralEnumSet.schema.json",
   "title": "eventServerGeneralEnumSet",
   "description": "Event Server General",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/processingDetailEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/processingDetailEnumSet.schema.json",
   "title": "processingDetailEnumSet",
   "description": "Processing Detail",
   "oneOf": [

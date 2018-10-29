@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYpcSafetyCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYpcSafetyCodeEnumSet.schema.json",
   "title": "ltcLegacyYpcSafetyCodeEnumSet",
   "description": "York LTC Legacy YPC Safety Codes",
   "oneOf": [

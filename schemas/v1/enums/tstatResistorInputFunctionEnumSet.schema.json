@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tstatResistorInputFunctionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tstatResistorInputFunctionEnumSet.schema.json",
   "title": "tstatResistorInputFunctionEnumSet",
   "description": "Thermostat Resistor Input Function",
   "oneOf": [

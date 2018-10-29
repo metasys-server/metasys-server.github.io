@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/aperioHwFaultCauseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/aperioHwFaultCauseEnumSet.schema.json",
   "title": "aperioHwFaultCauseEnumSet",
   "description": "Aperio Device Fault Cause",
   "oneOf": [

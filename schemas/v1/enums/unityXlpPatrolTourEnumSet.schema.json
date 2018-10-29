@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/unityXlpPatrolTourEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/unityXlpPatrolTourEnumSet.schema.json",
   "title": "unityXlpPatrolTourEnumSet",
   "description": "Unity XLP Patrol Tour",
   "oneOf": [

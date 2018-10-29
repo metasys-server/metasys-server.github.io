@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tstatVoltageInputFunctionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tstatVoltageInputFunctionEnumSet.schema.json",
   "title": "tstatVoltageInputFunctionEnumSet",
   "description": "Thermostat Voltage Input Function",
   "oneOf": [

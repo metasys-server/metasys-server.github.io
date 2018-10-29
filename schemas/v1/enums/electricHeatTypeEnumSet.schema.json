@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/electricHeatTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/electricHeatTypeEnumSet.schema.json",
   "title": "electricHeatTypeEnumSet",
   "description": "Electric Heat Type",
   "oneOf": [

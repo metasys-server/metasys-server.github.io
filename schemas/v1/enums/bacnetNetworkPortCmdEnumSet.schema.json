@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/bacnetNetworkPortCmdEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/bacnetNetworkPortCmdEnumSet.schema.json",
   "title": "bacnetNetworkPortCmdEnumSet",
   "description": "BACnet Network Port Commands",
   "oneOf": [

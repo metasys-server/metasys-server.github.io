@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/cpo5ConfigSettingEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/cpo5ConfigSettingEnumSet.schema.json",
   "title": "cpo5ConfigSettingEnumSet",
   "description": "CPO5 Configuration Setting",
   "oneOf": [

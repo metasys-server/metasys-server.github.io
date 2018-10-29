@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vsdInverterStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vsdInverterStateEnumSet.schema.json",
   "title": "vsdInverterStateEnumSet",
   "description": "VSD Inverter State",
   "oneOf": [

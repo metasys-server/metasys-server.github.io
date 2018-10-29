@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/yorktalkIndexTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/yorktalkIndexTypeEnumSet.schema.json",
   "title": "yorktalkIndexTypeEnumSet",
   "description": "York Talk Index Types",
   "oneOf": [

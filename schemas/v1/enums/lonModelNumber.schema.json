@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/lonModelNumber.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/lonModelNumber.schema.json",
   "title": "lonModelNumber",
   "description": "LON Model Number",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/pswdAuthLevelEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/pswdAuthLevelEnumSet.schema.json",
   "title": "pswdAuthLevelEnumSet",
   "description": "Password Auth Level",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/centralPlantTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/centralPlantTypeEnumSet.schema.json",
   "title": "centralPlantTypeEnumSet",
   "description": "Central Plant Types",
   "oneOf": [

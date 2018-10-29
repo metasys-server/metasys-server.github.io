@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/dvsbEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/dvsbEnumSet.schema.json",
   "title": "dvsbEnumSet",
   "description": "DVSB",
   "oneOf": [

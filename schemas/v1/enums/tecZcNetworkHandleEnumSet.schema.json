@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/tecZcNetworkHandleEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/tecZcNetworkHandleEnumSet.schema.json",
   "title": "tecZcNetworkHandleEnumSet",
   "description": "TEC ZC Network Handle",
   "oneOf": [

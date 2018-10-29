@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/fscsDamperControlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/fscsDamperControlEnumSet.schema.json",
   "title": "fscsDamperControlEnumSet",
   "description": "FSCS Damper Control",
   "oneOf": [

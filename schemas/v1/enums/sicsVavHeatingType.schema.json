@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/sicsVavHeatingType.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/sicsVavHeatingType.schema.json",
   "title": "sicsVavHeatingType",
   "description": "SICS VAV Heating Type",
   "oneOf": [

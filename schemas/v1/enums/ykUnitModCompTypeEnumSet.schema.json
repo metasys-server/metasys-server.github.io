@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ykUnitModCompTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ykUnitModCompTypeEnumSet.schema.json",
   "title": "ykUnitModCompTypeEnumSet",
   "description": "YK Unit Mod Compressor Type",
   "oneOf": [

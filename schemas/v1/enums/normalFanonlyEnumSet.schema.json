@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/normalFanonlyEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/normalFanonlyEnumSet.schema.json",
   "title": "normalFanonlyEnumSet",
   "description": "Normal/Fan Only",
   "oneOf": [

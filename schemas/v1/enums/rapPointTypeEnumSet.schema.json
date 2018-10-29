@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/rapPointTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/rapPointTypeEnumSet.schema.json",
   "title": "rapPointTypeEnumSet",
   "description": "RAP Point Type",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/econchgovrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/econchgovrEnumSet.schema.json",
   "title": "econchgovrEnumSet",
   "description": "Econ Chgovr",
   "oneOf": [

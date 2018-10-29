@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/dischargeChargeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/dischargeChargeEnumSet.schema.json",
   "title": "dischargeChargeEnumSet",
   "description": "Discharge Charge",
   "oneOf": [

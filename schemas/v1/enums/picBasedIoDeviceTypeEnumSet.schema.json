@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/picBasedIoDeviceTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/picBasedIoDeviceTypeEnumSet.schema.json",
   "title": "picBasedIoDeviceTypeEnumSet",
   "description": "PIC_BASED_IO_DEVICE_TYPE_ENUM_SET",
   "oneOf": [

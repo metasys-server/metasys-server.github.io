@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/verasysIomPointNames.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/verasysIomPointNames.schema.json",
   "title": "verasysIomPointNames",
   "description": "Verasys IOM Point Names",
   "oneOf": [

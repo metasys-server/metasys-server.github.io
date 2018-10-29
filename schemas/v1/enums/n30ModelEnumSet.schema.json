@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/n30ModelEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/n30ModelEnumSet.schema.json",
   "title": "n30ModelEnumSet",
   "description": "N30 Model",
   "oneOf": [

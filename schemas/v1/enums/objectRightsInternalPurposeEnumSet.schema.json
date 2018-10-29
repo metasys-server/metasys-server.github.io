@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/objectRightsInternalPurposeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/objectRightsInternalPurposeEnumSet.schema.json",
   "title": "objectRightsInternalPurposeEnumSet",
   "description": "Object Rights Internal Purpose",
   "oneOf": [

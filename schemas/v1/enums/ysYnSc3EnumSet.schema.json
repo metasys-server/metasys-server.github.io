@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ysYnSc3EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ysYnSc3EnumSet.schema.json",
   "title": "ysYnSc3EnumSet",
   "description": "YS/YN Cycling Code SC.3",
   "oneOf": [

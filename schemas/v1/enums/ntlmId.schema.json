@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ntlmId.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ntlmId.schema.json",
   "title": "ntlmId",
   "description": "NTLM ID",
   "oneOf": [

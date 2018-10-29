@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/triggerPresentValueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/triggerPresentValueEnumSet.schema.json",
   "title": "triggerPresentValueEnumSet",
   "description": "Trigger Present Value",
   "oneOf": [

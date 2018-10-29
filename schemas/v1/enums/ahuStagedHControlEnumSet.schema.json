@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ahuStagedHControlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ahuStagedHControlEnumSet.schema.json",
   "title": "ahuStagedHControlEnumSet",
   "description": "AHU Staged H Control",
   "oneOf": [

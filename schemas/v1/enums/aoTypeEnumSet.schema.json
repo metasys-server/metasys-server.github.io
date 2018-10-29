@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/aoTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/aoTypeEnumSet.schema.json",
   "title": "aoTypeEnumSet",
   "description": "AO Type",
   "oneOf": [

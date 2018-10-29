@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ahuHxLlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ahuHxLlEnumSet.schema.json",
   "title": "ahuHxLlEnumSet",
   "description": "AHU HX LL",
   "oneOf": [

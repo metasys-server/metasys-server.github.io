@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/sskdoDisplayOverviewEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/sskdoDisplayOverviewEnumSet.schema.json",
   "title": "sskdoDisplayOverviewEnumSet",
   "description": "Keypad Display Overview",
   "oneOf": [

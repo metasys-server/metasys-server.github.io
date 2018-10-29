@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/snvtAlarmTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/snvtAlarmTypeEnumSet.schema.json",
   "title": "snvtAlarmTypeEnumSet",
   "description": "SNVT Alarm Type",
   "oneOf": [

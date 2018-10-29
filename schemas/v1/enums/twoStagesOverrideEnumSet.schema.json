@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/twoStagesOverrideEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/twoStagesOverrideEnumSet.schema.json",
   "title": "twoStagesOverrideEnumSet",
   "description": "Two Stages Override",
   "oneOf": [

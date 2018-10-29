@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ykOperationalCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ykOperationalCodeEnumSet.schema.json",
   "title": "ykOperationalCodeEnumSet",
   "description": "YK Operational Code",
   "oneOf": [

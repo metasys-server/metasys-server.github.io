@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconExhaustSetupBasicEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconExhaustSetupBasicEnumSet.schema.json",
   "title": "seEconExhaustSetupBasicEnumSet",
   "description": "SE ECON Exhaust Setup Basic",
   "oneOf": [

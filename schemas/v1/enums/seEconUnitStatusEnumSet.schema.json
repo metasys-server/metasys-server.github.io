@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEconUnitStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEconUnitStatusEnumSet.schema.json",
   "title": "seEconUnitStatusEnumSet",
   "description": "SE ECON Unit Status",
   "oneOf": [

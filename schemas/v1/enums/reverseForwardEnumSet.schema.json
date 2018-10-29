@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/reverseForwardEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/reverseForwardEnumSet.schema.json",
   "title": "reverseForwardEnumSet",
   "description": "Reverse Forward",
   "oneOf": [

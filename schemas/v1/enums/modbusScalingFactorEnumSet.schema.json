@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/modbusScalingFactorEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/modbusScalingFactorEnumSet.schema.json",
   "title": "modbusScalingFactorEnumSet",
   "description": "ModBus Scaling Factor",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/lightingSet3EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/lightingSet3EnumSet.schema.json",
   "title": "lightingSet3EnumSet",
   "description": "Lighting Set 3",
   "oneOf": [

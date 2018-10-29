@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seRtuSfStateOvr.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seRtuSfStateOvr.schema.json",
   "title": "seRtuSfStateOvr",
   "description": "SE RTU SF State OVR",
   "oneOf": [

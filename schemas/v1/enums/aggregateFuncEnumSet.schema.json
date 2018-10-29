@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/aggregateFuncEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/aggregateFuncEnumSet.schema.json",
   "title": "aggregateFuncEnumSet",
   "description": "Aggregate Function",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/antiPassbackModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/antiPassbackModeEnumSet.schema.json",
   "title": "antiPassbackModeEnumSet",
   "description": "Anti-Passback Mode",
   "oneOf": [

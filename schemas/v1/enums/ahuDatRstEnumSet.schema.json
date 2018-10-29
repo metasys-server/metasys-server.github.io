@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ahuDatRstEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ahuDatRstEnumSet.schema.json",
   "title": "ahuDatRstEnumSet",
   "description": "AHU DAT RST",
   "oneOf": [

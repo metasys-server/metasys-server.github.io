@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/effectiveInputSource.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/effectiveInputSource.schema.json",
   "title": "effectiveInputSource",
   "description": "Effective Input Source",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/koneControllerFaultCauseSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/koneControllerFaultCauseSet.schema.json",
   "title": "koneControllerFaultCauseSet",
   "description": "KONE Controller Fault Cause",
   "oneOf": [

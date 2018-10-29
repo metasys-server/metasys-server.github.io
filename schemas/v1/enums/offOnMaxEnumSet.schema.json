@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/offOnMaxEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/offOnMaxEnumSet.schema.json",
   "title": "offOnMaxEnumSet",
   "description": "Off/On/Max",
   "oneOf": [

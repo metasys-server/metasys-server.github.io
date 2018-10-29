@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/yorkStcLongStringsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/yorkStcLongStringsEnumSet.schema.json",
   "title": "yorkStcLongStringsEnumSet",
   "description": "York Small Tonnage Long Strings",
   "oneOf": [

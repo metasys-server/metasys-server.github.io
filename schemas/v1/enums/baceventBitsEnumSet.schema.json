@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/baceventBitsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/baceventBitsEnumSet.schema.json",
   "title": "baceventBitsEnumSet",
   "description": "BAC Event Bits",
   "oneOf": [

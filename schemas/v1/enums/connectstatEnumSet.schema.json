@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/connectstatEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/connectstatEnumSet.schema.json",
   "title": "connectstatEnumSet",
   "description": "Connect Status",
   "oneOf": [

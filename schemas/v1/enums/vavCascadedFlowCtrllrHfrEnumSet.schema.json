@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/vavCascadedFlowCtrllrHfrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/vavCascadedFlowCtrllrHfrEnumSet.schema.json",
   "title": "vavCascadedFlowCtrllrHfrEnumSet",
   "description": "VAV Cascaded Flow Controller HFR",
   "oneOf": [

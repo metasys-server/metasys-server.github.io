@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/seEventShortActiveServiceCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/seEventShortActiveServiceCodesEnumSet.schema.json",
   "title": "seEventShortActiveServiceCodesEnumSet",
   "description": "SE Event Active Service Codes Short Names",
   "oneOf": [

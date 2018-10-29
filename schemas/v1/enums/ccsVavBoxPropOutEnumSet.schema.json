@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://metasys-server.github.io/schemas/enums/ccsVavBoxPropOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/enums/ccsVavBoxPropOutEnumSet.schema.json",
   "title": "ccsVavBoxPropOutEnumSet",
   "description": "CCS VAV Box Prop Out",
   "oneOf": [
