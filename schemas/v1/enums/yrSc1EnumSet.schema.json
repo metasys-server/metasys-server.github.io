@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yrSc1EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yrSc1EnumSet.schema.json",
   "title": "yrSc1EnumSet",
   "description": "YR Unit Operation Code",
   "oneOf": [

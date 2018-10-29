@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mstpdlBaudRateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mstpdlBaudRateEnumSet.schema.json",
   "title": "mstpdlBaudRateEnumSet",
   "description": "MSTPDL Baud Rate",
   "oneOf": [

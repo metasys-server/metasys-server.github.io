@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/rssiValueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/rssiValueEnumSet.schema.json",
   "title": "rssiValueEnumSet",
   "description": "RSSI Value",
   "oneOf": [

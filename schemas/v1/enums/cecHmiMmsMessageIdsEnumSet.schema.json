@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/cecHmiMmsMessageIdsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/cecHmiMmsMessageIdsEnumSet.schema.json",
   "title": "cecHmiMmsMessageIdsEnumSet",
   "description": "CEC HMI MMS Message IDS",
   "oneOf": [

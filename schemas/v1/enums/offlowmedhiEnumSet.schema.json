@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/offlowmedhiEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/offlowmedhiEnumSet.schema.json",
   "title": "offlowmedhiEnumSet",
   "description": "Off Low Med Hi",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/releaseLockEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/releaseLockEnumSet.schema.json",
   "title": "releaseLockEnumSet",
   "description": "Release Lock",
   "oneOf": [

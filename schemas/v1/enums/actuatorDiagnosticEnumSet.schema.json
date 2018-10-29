@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/actuatorDiagnosticEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/actuatorDiagnosticEnumSet.schema.json",
   "title": "actuatorDiagnosticEnumSet",
   "description": "Actuator_Diagnostic",
   "oneOf": [

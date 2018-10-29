@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/occUnoccEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/occUnoccEnumSet.schema.json",
   "title": "occUnoccEnumSet",
   "description": "Occ Unocc",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tempLoopStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tempLoopStatusEnumSet.schema.json",
   "title": "tempLoopStatusEnumSet",
   "description": "Temp Loop Status",
   "oneOf": [

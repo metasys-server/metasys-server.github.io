@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/condWaterEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/condWaterEnumSet.schema.json",
   "title": "condWaterEnumSet",
   "description": "Condenser Water",
   "oneOf": [

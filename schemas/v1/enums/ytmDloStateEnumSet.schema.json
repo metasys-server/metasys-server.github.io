@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ytmDloStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ytmDloStateEnumSet.schema.json",
   "title": "ytmDloStateEnumSet",
   "description": "YorkTalk Master Datalink Object States",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/euAhuEventNamesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/euAhuEventNamesEnumSet.schema.json",
   "title": "euAhuEventNamesEnumSet",
   "description": "EU AHU Event Names",
   "oneOf": [

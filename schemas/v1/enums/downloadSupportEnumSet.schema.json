@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/downloadSupportEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/downloadSupportEnumSet.schema.json",
   "title": "downloadSupportEnumSet",
   "description": "Download Support",
   "oneOf": [

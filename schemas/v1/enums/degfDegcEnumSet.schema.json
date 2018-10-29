@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/degfDegcEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/degfDegcEnumSet.schema.json",
   "title": "degfDegcEnumSet",
   "description": "DegF DegC",
   "oneOf": [

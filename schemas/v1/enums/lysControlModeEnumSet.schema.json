@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/lysControlModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/lysControlModeEnumSet.schema.json",
   "title": "lysControlModeEnumSet",
   "description": "LYS Control Mode",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityCsiDayNightEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityCsiDayNightEnumSet.schema.json",
   "title": "unityCsiDayNightEnumSet",
   "description": "Unity CSI Day Night",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ccsVavDualMaxZncStatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ccsVavDualMaxZncStatesEnumSet.schema.json",
   "title": "ccsVavDualMaxZncStatesEnumSet",
   "description": "CCS VAV Dual Max ZNC Status",
   "oneOf": [

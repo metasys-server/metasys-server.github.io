@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bacProgramErrorEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bacProgramErrorEnumSet.schema.json",
   "title": "bacProgramErrorEnumSet",
   "description": "BAC Program Error",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/chilledwaterHotwaterEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/chilledwaterHotwaterEnumSet.schema.json",
   "title": "chilledwaterHotwaterEnumSet",
   "description": "Chilled Water Hot Water",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/adaRelayConnectedEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/adaRelayConnectedEnumSet.schema.json",
   "title": "adaRelayConnectedEnumSet",
   "description": "ADA Relay Connected",
   "oneOf": [

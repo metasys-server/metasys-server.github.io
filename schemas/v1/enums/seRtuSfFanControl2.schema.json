@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuSfFanControl2.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuSfFanControl2.schema.json",
   "title": "seRtuSfFanControl2",
   "description": "SE RTU Fan Control Type 2",
   "oneOf": [

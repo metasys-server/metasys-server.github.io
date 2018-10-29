@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/euHeatingEventNamesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/euHeatingEventNamesEnumSet.schema.json",
   "title": "euHeatingEventNamesEnumSet",
   "description": "EU Heating Event Names",
   "oneOf": [

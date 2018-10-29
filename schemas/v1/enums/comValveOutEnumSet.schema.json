@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/comValveOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/comValveOutEnumSet.schema.json",
   "title": "comValveOutEnumSet",
   "description": "COM Valve Out",
   "oneOf": [

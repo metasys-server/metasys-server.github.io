@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/dormantUserAccountStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/dormantUserAccountStatusEnumSet.schema.json",
   "title": "dormantUserAccountStatusEnumSet",
   "description": "Dormant User Account Status",
   "oneOf": [

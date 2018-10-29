@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/optiviewBvNotrunningrunningEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/optiviewBvNotrunningrunningEnumSet.schema.json",
   "title": "optiviewBvNotrunningrunningEnumSet",
   "description": "Optiview BV Not Running Running",
   "oneOf": [

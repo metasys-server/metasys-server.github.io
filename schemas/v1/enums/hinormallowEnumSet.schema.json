@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/hinormallowEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/hinormallowEnumSet.schema.json",
   "title": "hinormallowEnumSet",
   "description": "Hi Normal Low",
   "oneOf": [

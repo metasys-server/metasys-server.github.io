@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ycavYcivScEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ycavYcivScEnumSet.schema.json",
   "title": "ycavYcivScEnumSet",
   "description": "YCAV YCIV Status Codes",
   "oneOf": [

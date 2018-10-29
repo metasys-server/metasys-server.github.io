@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/conditionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/conditionEnumSet.schema.json",
   "title": "conditionEnumSet",
   "description": "Condition",
   "oneOf": [

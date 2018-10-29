@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuCommonValveOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuCommonValveOutEnumSet.schema.json",
   "title": "ahuCommonValveOutEnumSet",
   "description": "AHU Common Valve Out",
   "oneOf": [

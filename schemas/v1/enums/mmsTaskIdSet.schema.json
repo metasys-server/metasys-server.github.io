@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mmsTaskIdSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mmsTaskIdSet.schema.json",
   "title": "mmsTaskIdSet",
   "description": "MMS Task Ids",
   "oneOf": [

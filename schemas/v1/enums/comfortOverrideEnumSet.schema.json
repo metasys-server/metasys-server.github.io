@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/comfortOverrideEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/comfortOverrideEnumSet.schema.json",
   "title": "comfortOverrideEnumSet",
   "description": "Comfort Override Set",
   "oneOf": [

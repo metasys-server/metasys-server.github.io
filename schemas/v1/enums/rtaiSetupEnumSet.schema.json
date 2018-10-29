@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/rtaiSetupEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/rtaiSetupEnumSet.schema.json",
   "title": "rtaiSetupEnumSet",
   "description": "RTAI Setup",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/uvDiscreteOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/uvDiscreteOutEnumSet.schema.json",
   "title": "uvDiscreteOutEnumSet",
   "description": "UV Discrete Out",
   "oneOf": [

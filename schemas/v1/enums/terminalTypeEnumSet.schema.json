@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/terminalTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/terminalTypeEnumSet.schema.json",
   "title": "terminalTypeEnumSet",
   "description": "Terminal Type",
   "oneOf": [

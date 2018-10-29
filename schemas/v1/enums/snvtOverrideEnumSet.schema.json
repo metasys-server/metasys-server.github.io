@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtOverrideEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtOverrideEnumSet.schema.json",
   "title": "snvtOverrideEnumSet",
   "description": "SNVT Override",
   "oneOf": [

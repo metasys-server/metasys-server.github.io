@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yiaSc14EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yiaSc14EnumSet.schema.json",
   "title": "yiaSc14EnumSet",
   "description": "YIA Internal Fault Code SC.14",
   "oneOf": [

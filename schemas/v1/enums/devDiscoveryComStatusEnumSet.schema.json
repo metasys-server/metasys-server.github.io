@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/devDiscoveryComStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/devDiscoveryComStatusEnumSet.schema.json",
   "title": "devDiscoveryComStatusEnumSet",
   "description": "Dev Disc Com Status",
   "oneOf": [

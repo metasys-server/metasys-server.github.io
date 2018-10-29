@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecOccEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecOccEnumSet.schema.json",
   "title": "tecOccEnumSet",
   "description": "TEC Occupancy",
   "oneOf": [

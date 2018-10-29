@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/windDir16EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/windDir16EnumSet.schema.json",
   "title": "windDir16EnumSet",
   "description": "Wind Dir 16",
   "oneOf": [

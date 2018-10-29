@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/zeroEightStagesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/zeroEightStagesEnumSet.schema.json",
   "title": "zeroEightStagesEnumSet",
   "description": "(0-8) Stages",
   "oneOf": [

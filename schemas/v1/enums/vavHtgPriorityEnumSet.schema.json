@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/vavHtgPriorityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/vavHtgPriorityEnumSet.schema.json",
   "title": "vavHtgPriorityEnumSet",
   "description": "VAV Heating Priority",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bacnetMembershipStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bacnetMembershipStatusEnumSet.schema.json",
   "title": "bacnetMembershipStatusEnumSet",
   "description": "BACnet Membership Status",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityIrc3VisualEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityIrc3VisualEnumSet.schema.json",
   "title": "unityIrc3VisualEnumSet",
   "description": "Unity IRC3 Visual",
   "oneOf": [

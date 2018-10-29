@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/hvacUnitStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/hvacUnitStateEnumSet.schema.json",
   "title": "hvacUnitStateEnumSet",
   "description": "HVAC Unit State",
   "oneOf": [

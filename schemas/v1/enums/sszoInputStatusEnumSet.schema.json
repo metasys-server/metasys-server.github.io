@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/sszoInputStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/sszoInputStatusEnumSet.schema.json",
   "title": "sszoInputStatusEnumSet",
   "description": "SSZO Input Status",
   "oneOf": [

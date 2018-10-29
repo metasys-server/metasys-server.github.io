@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/trueFalseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/trueFalseEnumSet.schema.json",
   "title": "trueFalseEnumSet",
   "description": "True False",
   "oneOf": [

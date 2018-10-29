@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yewsLongNamesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yewsLongNamesEnumSet.schema.json",
   "title": "yewsLongNamesEnumSet",
   "description": "YEWS Long Names",
   "oneOf": [

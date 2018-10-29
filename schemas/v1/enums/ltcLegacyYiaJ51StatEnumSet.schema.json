@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaJ51StatEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ltcLegacyYiaJ51StatEnumSet.schema.json",
   "title": "ltcLegacyYiaJ51StatEnumSet",
   "description": "York LTC Legacy YIA J51 Status",
   "oneOf": [

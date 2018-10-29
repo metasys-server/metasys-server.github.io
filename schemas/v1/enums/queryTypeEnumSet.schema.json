@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/queryTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/queryTypeEnumSet.schema.json",
   "title": "queryTypeEnumSet",
   "description": "Query Type",
   "oneOf": [

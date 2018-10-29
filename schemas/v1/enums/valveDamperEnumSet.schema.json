@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/valveDamperEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/valveDamperEnumSet.schema.json",
   "title": "valveDamperEnumSet",
   "description": "Valve Damper",
   "oneOf": [

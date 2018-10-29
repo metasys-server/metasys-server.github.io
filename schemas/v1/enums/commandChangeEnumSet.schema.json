@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/commandChangeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/commandChangeEnumSet.schema.json",
   "title": "commandChangeEnumSet",
   "description": "Command Change",
   "oneOf": [

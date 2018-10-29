@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/errorLogEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/errorLogEnumSet.schema.json",
   "title": "errorLogEnumSet",
   "description": "Error Log",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/occupancyEffectiveStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/occupancyEffectiveStateEnumSet.schema.json",
   "title": "occupancyEffectiveStateEnumSet",
   "description": "Occupancy Effective State",
   "oneOf": [

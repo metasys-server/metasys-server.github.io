@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/activeInactiveEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/activeInactiveEnumSet.schema.json",
   "title": "activeInactiveEnumSet",
   "description": "Active Inactive",
   "oneOf": [

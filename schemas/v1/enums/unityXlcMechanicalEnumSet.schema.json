@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcMechanicalEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcMechanicalEnumSet.schema.json",
   "title": "unityXlcMechanicalEnumSet",
   "description": "Unity XLC Mechanical",
   "oneOf": [

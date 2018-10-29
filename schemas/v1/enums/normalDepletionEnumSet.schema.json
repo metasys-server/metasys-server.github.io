@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/normalDepletionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/normalDepletionEnumSet.schema.json",
   "title": "normalDepletionEnumSet",
   "description": "Normal Depletion",
   "oneOf": [

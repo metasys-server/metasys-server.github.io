@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityNexClosedOpenEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityNexClosedOpenEnumSet.schema.json",
   "title": "unityNexClosedOpenEnumSet",
   "description": "Unity NEX Closed/Open",
   "oneOf": [

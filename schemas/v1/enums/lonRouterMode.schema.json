@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/lonRouterMode.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/lonRouterMode.schema.json",
   "title": "lonRouterMode",
   "description": "LON Router Mode",
   "oneOf": [

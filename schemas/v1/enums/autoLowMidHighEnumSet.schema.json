@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/autoLowMidHighEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/autoLowMidHighEnumSet.schema.json",
   "title": "autoLowMidHighEnumSet",
   "description": "Auto/Low/Mid/High",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/effectiveOccupancyModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/effectiveOccupancyModeEnumSet.schema.json",
   "title": "effectiveOccupancyModeEnumSet",
   "description": "Effective Occupancy Mode",
   "oneOf": [

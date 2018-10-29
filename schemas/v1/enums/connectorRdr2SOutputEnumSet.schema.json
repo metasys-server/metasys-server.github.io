@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/connectorRdr2SOutputEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/connectorRdr2SOutputEnumSet.schema.json",
   "title": "connectorRdr2SOutputEnumSet",
   "description": "Connector RDR2S Output",
   "oneOf": [

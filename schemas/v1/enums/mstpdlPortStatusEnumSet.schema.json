@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mstpdlPortStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mstpdlPortStatusEnumSet.schema.json",
   "title": "mstpdlPortStatusEnumSet",
   "description": "MSTPDL Port Status",
   "oneOf": [

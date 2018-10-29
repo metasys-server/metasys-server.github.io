@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecBasCommEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecBasCommEnumSet.schema.json",
   "title": "tecBasCommEnumSet",
   "description": "TEC BAS Comm",
   "oneOf": [

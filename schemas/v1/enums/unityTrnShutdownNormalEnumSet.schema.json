@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityTrnShutdownNormalEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityTrnShutdownNormalEnumSet.schema.json",
   "title": "unityTrnShutdownNormalEnumSet",
   "description": "Unity TRN Shutdown Normal",
   "oneOf": [

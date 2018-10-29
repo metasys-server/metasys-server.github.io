@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/fanOutTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/fanOutTypeEnumSet.schema.json",
   "title": "fanOutTypeEnumSet",
   "description": "Fan Out Type",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yspaLongNamesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yspaLongNamesEnumSet.schema.json",
   "title": "yspaLongNamesEnumSet",
   "description": "YSPA Long Names",
   "oneOf": [

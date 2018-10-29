@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/airconditioningOacoolingEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/airconditioningOacoolingEnumSet.schema.json",
   "title": "airconditioningOacoolingEnumSet",
   "description": "Air Conditioning OA Cooling",
   "oneOf": [

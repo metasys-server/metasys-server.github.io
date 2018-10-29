@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/dllrStartupBehaviorEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/dllrStartupBehaviorEnumSet.schema.json",
   "title": "dllrStartupBehaviorEnumSet",
   "description": "DLLR Startup Behavior",
   "oneOf": [

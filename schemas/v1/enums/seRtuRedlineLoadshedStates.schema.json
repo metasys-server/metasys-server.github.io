@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuRedlineLoadshedStates.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuRedlineLoadshedStates.schema.json",
   "title": "seRtuRedlineLoadshedStates",
   "description": "SE RTU Redline_Loadshed States",
   "oneOf": [

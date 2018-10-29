@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahu2PipeStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahu2PipeStateEnumSet.schema.json",
   "title": "ahu2PipeStateEnumSet",
   "description": "AHU 2-Pipe State",
   "oneOf": [

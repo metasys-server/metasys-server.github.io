@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/msgFormatItemsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/msgFormatItemsEnumSet.schema.json",
   "title": "msgFormatItemsEnumSet",
   "description": "Msg Format Items",
   "oneOf": [

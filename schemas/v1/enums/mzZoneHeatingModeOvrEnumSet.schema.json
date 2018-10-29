@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mzZoneHeatingModeOvrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mzZoneHeatingModeOvrEnumSet.schema.json",
   "title": "mzZoneHeatingModeOvrEnumSet",
   "description": "MZ Zone Heating Mode OVR",
   "oneOf": [

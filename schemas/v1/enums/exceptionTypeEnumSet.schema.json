@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/exceptionTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/exceptionTypeEnumSet.schema.json",
   "title": "exceptionTypeEnumSet",
   "description": "Exception Type",
   "oneOf": [

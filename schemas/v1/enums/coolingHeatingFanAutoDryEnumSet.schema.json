@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/coolingHeatingFanAutoDryEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/coolingHeatingFanAutoDryEnumSet.schema.json",
   "title": "coolingHeatingFanAutoDryEnumSet",
   "description": "Cooling/Heating/Fan/Auto/Dry",
   "oneOf": [

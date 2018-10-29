@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/coresenseAlarmCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/coresenseAlarmCodesEnumSet.schema.json",
   "title": "coresenseAlarmCodesEnumSet",
   "description": "CoreSense Alarm Codes",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/centralStatusCheckEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/centralStatusCheckEnumSet.schema.json",
   "title": "centralStatusCheckEnumSet",
   "description": "Central Status Check",
   "oneOf": [

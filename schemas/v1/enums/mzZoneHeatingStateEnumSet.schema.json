@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mzZoneHeatingStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mzZoneHeatingStateEnumSet.schema.json",
   "title": "mzZoneHeatingStateEnumSet",
   "description": "MZ Zone Heating State",
   "oneOf": [

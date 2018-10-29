@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/batteryConditionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/batteryConditionEnumSet.schema.json",
   "title": "batteryConditionEnumSet",
   "description": "Battery Condition",
   "oneOf": [

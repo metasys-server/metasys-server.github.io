@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecFanModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecFanModeEnumSet.schema.json",
   "title": "tecFanModeEnumSet",
   "description": "TEC Fan Mode",
   "oneOf": [

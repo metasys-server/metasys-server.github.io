@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuHtgFbpdStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuHtgFbpdStateEnumSet.schema.json",
   "title": "ahuHtgFbpdStateEnumSet",
   "description": "AHU Htg FBPD State",
   "oneOf": [

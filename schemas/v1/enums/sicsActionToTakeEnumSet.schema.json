@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/sicsActionToTakeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/sicsActionToTakeEnumSet.schema.json",
   "title": "sicsActionToTakeEnumSet",
   "description": "Action To Take",
   "oneOf": [

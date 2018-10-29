@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yorkLtcLegacyLongNameEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yorkLtcLegacyLongNameEnumSet.schema.json",
   "title": "yorkLtcLegacyLongNameEnumSet",
   "description": "York LTC Legacy Long Name Set",
   "oneOf": [

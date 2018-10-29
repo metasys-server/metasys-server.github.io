@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/lightingSensorModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/lightingSensorModeEnumSet.schema.json",
   "title": "lightingSensorModeEnumSet",
   "description": "Lighting Sensor Mode",
   "oneOf": [

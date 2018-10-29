@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tstatCtlAppTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tstatCtlAppTypeEnumSet.schema.json",
   "title": "tstatCtlAppTypeEnumSet",
   "description": "Thermostat Control Application Type",
   "oneOf": [

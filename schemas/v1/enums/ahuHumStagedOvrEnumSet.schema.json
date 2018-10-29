@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuHumStagedOvrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuHumStagedOvrEnumSet.schema.json",
   "title": "ahuHumStagedOvrEnumSet",
   "description": "AHU Hum Staged OVR",
   "oneOf": [

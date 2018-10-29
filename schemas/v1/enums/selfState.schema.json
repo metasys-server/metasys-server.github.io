@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/selfState.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/selfState.schema.json",
   "title": "selfState",
   "description": "Self Test State Selectors",
   "oneOf": [

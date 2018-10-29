@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcSmokeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcSmokeEnumSet.schema.json",
   "title": "unityXlcSmokeEnumSet",
   "description": "Unity XLC Smoke",
   "oneOf": [

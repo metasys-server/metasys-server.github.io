@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/stdCompNameEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/stdCompNameEnumSet.schema.json",
   "title": "stdCompNameEnumSet",
   "description": "Standard Component Name",
   "oneOf": [

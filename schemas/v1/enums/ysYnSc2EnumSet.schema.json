@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ysYnSc2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ysYnSc2EnumSet.schema.json",
   "title": "ysYnSc2EnumSet",
   "description": "YS/YN Safety Code SC.2",
   "oneOf": [

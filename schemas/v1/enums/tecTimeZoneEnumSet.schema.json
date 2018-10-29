@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecTimeZoneEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecTimeZoneEnumSet.schema.json",
   "title": "tecTimeZoneEnumSet",
   "description": "TEC Time Zone",
   "oneOf": [

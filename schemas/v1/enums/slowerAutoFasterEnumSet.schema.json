@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/slowerAutoFasterEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/slowerAutoFasterEnumSet.schema.json",
   "title": "slowerAutoFasterEnumSet",
   "description": "Slower Auto Faster",
   "oneOf": [

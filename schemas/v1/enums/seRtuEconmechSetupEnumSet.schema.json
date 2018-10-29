@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuEconmechSetupEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuEconmechSetupEnumSet.schema.json",
   "title": "seRtuEconmechSetupEnumSet",
   "description": "SE RTU EconMech Setup",
   "oneOf": [

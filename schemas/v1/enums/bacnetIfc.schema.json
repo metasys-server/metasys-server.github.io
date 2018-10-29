@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bacnetIfc.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bacnetIfc.schema.json",
   "title": "bacnetIfc",
   "description": "IFC BACnet",
   "oneOf": [

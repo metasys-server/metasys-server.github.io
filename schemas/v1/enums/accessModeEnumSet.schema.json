@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/accessModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/accessModeEnumSet.schema.json",
   "title": "accessModeEnumSet",
   "description": "Access Mode",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuStartupRequiredEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuStartupRequiredEnumSet.schema.json",
   "title": "ahuStartupRequiredEnumSet",
   "description": "AHU Startup Required",
   "oneOf": [

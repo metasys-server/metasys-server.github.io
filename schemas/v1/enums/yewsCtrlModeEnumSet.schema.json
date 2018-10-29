@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yewsCtrlModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yewsCtrlModeEnumSet.schema.json",
   "title": "yewsCtrlModeEnumSet",
   "description": "YEWS Control Mode",
   "oneOf": [

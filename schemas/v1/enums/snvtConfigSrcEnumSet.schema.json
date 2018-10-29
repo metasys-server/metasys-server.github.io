@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtConfigSrcEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtConfigSrcEnumSet.schema.json",
   "title": "snvtConfigSrcEnumSet",
   "description": "SNVT Configuration Source",
   "oneOf": [

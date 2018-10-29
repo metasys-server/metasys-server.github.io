@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuTwoPosDamperEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuTwoPosDamperEnumSet.schema.json",
   "title": "ahuTwoPosDamperEnumSet",
   "description": "AHU Two Pos Damper",
   "oneOf": [

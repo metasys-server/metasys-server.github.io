@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yesNoEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yesNoEnumSet.schema.json",
   "title": "yesNoEnumSet",
   "description": "Yes No",
   "oneOf": [

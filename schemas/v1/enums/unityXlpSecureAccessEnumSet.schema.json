@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlpSecureAccessEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlpSecureAccessEnumSet.schema.json",
   "title": "unityXlpSecureAccessEnumSet",
   "description": "Unity XLP Secure/Access",
   "oneOf": [

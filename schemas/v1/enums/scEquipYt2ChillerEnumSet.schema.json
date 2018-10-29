@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/scEquipYt2ChillerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/scEquipYt2ChillerEnumSet.schema.json",
   "title": "scEquipYt2ChillerEnumSet",
   "description": "SCC YorkTalk2 Chiller Models",
   "oneOf": [

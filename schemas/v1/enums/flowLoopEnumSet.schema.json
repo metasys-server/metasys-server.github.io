@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/flowLoopEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/flowLoopEnumSet.schema.json",
   "title": "flowLoopEnumSet",
   "description": "Flow Loop",
   "oneOf": [

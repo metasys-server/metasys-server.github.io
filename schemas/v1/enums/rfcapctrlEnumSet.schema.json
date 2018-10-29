@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/rfcapctrlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/rfcapctrlEnumSet.schema.json",
   "title": "rfcapctrlEnumSet",
   "description": "RF Cap Ctrl",
   "oneOf": [

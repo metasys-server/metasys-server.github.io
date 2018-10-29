@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ykMotorStarterTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ykMotorStarterTypeEnumSet.schema.json",
   "title": "ykMotorStarterTypeEnumSet",
   "description": "YK Motor Starter Type",
   "oneOf": [

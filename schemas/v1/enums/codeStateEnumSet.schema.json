@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/codeStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/codeStateEnumSet.schema.json",
   "title": "codeStateEnumSet",
   "description": "Device Code State",
   "oneOf": [

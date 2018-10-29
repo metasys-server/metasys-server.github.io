@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/fanOnTimeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/fanOnTimeEnumSet.schema.json",
   "title": "fanOnTimeEnumSet",
   "description": "Fan On Time",
   "oneOf": [

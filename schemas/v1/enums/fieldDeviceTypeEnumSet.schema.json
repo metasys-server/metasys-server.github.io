@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/fieldDeviceTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/fieldDeviceTypeEnumSet.schema.json",
   "title": "fieldDeviceTypeEnumSet",
   "description": "Field Device Type",
   "oneOf": [

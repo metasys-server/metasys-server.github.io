@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityIrmProgramExecutionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityIrmProgramExecutionEnumSet.schema.json",
   "title": "unityIrmProgramExecutionEnumSet",
   "description": "Unity IRM Program Execution",
   "oneOf": [

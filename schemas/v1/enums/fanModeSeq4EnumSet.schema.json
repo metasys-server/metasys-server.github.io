@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/fanModeSeq4EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/fanModeSeq4EnumSet.schema.json",
   "title": "fanModeSeq4EnumSet",
   "description": "Fan Mode Seq 4",
   "oneOf": [

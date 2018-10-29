@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tec3000AuxMode.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tec3000AuxMode.schema.json",
   "title": "tec3000AuxMode",
   "description": "TEC3000 Aux Mode",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ratopEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ratopEnumSet.schema.json",
   "title": "ratopEnumSet",
   "description": "RA Top",
   "oneOf": [

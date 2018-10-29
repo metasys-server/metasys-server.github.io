@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/sszoArmStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/sszoArmStatusEnumSet.schema.json",
   "title": "sszoArmStatusEnumSet",
   "description": "SSZO Arm Status",
   "oneOf": [

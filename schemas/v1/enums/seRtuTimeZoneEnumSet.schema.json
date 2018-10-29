@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuTimeZoneEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuTimeZoneEnumSet.schema.json",
   "title": "seRtuTimeZoneEnumSet",
   "description": "SE RTU Time Zone",
   "oneOf": [

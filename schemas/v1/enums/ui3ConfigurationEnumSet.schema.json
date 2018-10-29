@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ui3ConfigurationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ui3ConfigurationEnumSet.schema.json",
   "title": "ui3ConfigurationEnumSet",
   "description": "UI 3 Configuration",
   "oneOf": [

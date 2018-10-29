@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/freeMechanicalEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/freeMechanicalEnumSet.schema.json",
   "title": "freeMechanicalEnumSet",
   "description": "Free Mechanical",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/executionPriorityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/executionPriorityEnumSet.schema.json",
   "title": "executionPriorityEnumSet",
   "description": "Execution Priority",
   "oneOf": [

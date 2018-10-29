@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seUnOpp.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seUnOpp.schema.json",
   "title": "seUnOpp",
   "description": "SE RTU Unoccupied Operation State",
   "oneOf": [

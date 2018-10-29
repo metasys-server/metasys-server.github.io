@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/apbOccCheckEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/apbOccCheckEnumSet.schema.json",
   "title": "apbOccCheckEnumSet",
   "description": "APB OCC Check",
   "oneOf": [

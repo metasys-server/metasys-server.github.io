@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bacProgramStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bacProgramStateEnumSet.schema.json",
   "title": "bacProgramStateEnumSet",
   "description": "BAC Program State",
   "oneOf": [

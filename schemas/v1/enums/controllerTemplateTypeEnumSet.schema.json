@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/controllerTemplateTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/controllerTemplateTypeEnumSet.schema.json",
   "title": "controllerTemplateTypeEnumSet",
   "description": "Controller Template Types",
   "oneOf": [

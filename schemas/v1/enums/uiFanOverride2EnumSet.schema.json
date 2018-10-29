@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/uiFanOverride2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/uiFanOverride2EnumSet.schema.json",
   "title": "uiFanOverride2EnumSet",
   "description": "UI Fan Override 2",
   "oneOf": [

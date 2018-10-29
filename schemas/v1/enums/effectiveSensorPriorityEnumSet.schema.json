@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/effectiveSensorPriorityEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/effectiveSensorPriorityEnumSet.schema.json",
   "title": "effectiveSensorPriorityEnumSet",
   "description": "Effective Sensor Priority",
   "oneOf": [

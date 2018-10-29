@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecRemoteFanControl.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecRemoteFanControl.schema.json",
   "title": "tecRemoteFanControl",
   "description": "TEC Remote Fan Control",
   "oneOf": [

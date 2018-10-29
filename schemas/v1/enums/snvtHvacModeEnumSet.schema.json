@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtHvacModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtHvacModeEnumSet.schema.json",
   "title": "snvtHvacModeEnumSet",
   "description": "SNVT HVAC Mode",
   "oneOf": [

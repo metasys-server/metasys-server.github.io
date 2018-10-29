@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/connectorRdr8SInputEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/connectorRdr8SInputEnumSet.schema.json",
   "title": "connectorRdr8SInputEnumSet",
   "description": "Connector RDR8S Input",
   "oneOf": [

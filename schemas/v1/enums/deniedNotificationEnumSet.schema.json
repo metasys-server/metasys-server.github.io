@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/deniedNotificationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/deniedNotificationEnumSet.schema.json",
   "title": "deniedNotificationEnumSet",
   "description": "Denied Notification",
   "oneOf": [

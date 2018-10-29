@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/biometricTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/biometricTypeEnumSet.schema.json",
   "title": "biometricTypeEnumSet",
   "description": "Biometric Type",
   "oneOf": [

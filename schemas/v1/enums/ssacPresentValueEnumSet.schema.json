@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ssacPresentValueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ssacPresentValueEnumSet.schema.json",
   "title": "ssacPresentValueEnumSet",
   "description": "Access Control Present Value",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuPreoccPurgeState.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuPreoccPurgeState.schema.json",
   "title": "seRtuPreoccPurgeState",
   "description": "SE RTU PreOcc Purge State",
   "oneOf": [

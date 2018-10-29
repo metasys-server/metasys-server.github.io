@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ltcLegacyYiaWarningCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ltcLegacyYiaWarningCodeEnumSet.schema.json",
   "title": "ltcLegacyYiaWarningCodeEnumSet",
   "description": "York LTC Legacy YIA Warning Code",
   "oneOf": [

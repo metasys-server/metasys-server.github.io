@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/scuCompConfigEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/scuCompConfigEnumSet.schema.json",
   "title": "scuCompConfigEnumSet",
   "description": "SCU Comp Config",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bacDayBitsetEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bacDayBitsetEnumSet.schema.json",
   "title": "bacDayBitsetEnumSet",
   "description": "BAC Day Bitset",
   "oneOf": [

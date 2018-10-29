@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/emailErrorEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/emailErrorEnumSet.schema.json",
   "title": "emailErrorEnumSet",
   "description": "Email Error",
   "oneOf": [

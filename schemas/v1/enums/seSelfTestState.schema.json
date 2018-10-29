@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seSelfTestState.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seSelfTestState.schema.json",
   "title": "seSelfTestState",
   "description": "SE RTU Self Test State",
   "oneOf": [

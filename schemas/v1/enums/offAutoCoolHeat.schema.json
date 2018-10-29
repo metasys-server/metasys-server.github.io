@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/offAutoCoolHeat.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/offAutoCoolHeat.schema.json",
   "title": "offAutoCoolHeat",
   "description": "Off Auto Cool Heat",
   "oneOf": [

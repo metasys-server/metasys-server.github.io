@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/fanSetup.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/fanSetup.schema.json",
   "title": "fanSetup",
   "description": "Fan Setup",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seEventShortInactiveServicePriorityCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seEventShortInactiveServicePriorityCodesEnumSet.schema.json",
   "title": "seEventShortInactiveServicePriorityCodesEnumSet",
   "description": "SE Event Inactive Service Priority Codes Short Names",
   "oneOf": [

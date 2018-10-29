@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecAiSetup2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecAiSetup2EnumSet.schema.json",
   "title": "tecAiSetup2EnumSet",
   "description": "TEC AI Setup2",
   "oneOf": [

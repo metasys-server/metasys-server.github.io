@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bacNotifyTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bacNotifyTypeEnumSet.schema.json",
   "title": "bacNotifyTypeEnumSet",
   "description": "BAC Notify Type",
   "oneOf": [

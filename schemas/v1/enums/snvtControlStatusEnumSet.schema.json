@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtControlStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtControlStatusEnumSet.schema.json",
   "title": "snvtControlStatusEnumSet",
   "description": "SNVT Control Status",
   "oneOf": [

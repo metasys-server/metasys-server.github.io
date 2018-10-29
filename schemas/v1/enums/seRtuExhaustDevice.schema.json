@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuExhaustDevice.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuExhaustDevice.schema.json",
   "title": "seRtuExhaustDevice",
   "description": "SE RTU Exhaust Device",
   "oneOf": [

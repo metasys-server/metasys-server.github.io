@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahu2SequencedValvesStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahu2SequencedValvesStateEnumSet.schema.json",
   "title": "ahu2SequencedValvesStateEnumSet",
   "description": "AHU 2 Sequenced Valves State",
   "oneOf": [

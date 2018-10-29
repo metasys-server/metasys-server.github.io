@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/timeSyncChoiceEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/timeSyncChoiceEnumSet.schema.json",
   "title": "timeSyncChoiceEnumSet",
   "description": "Time Sync Choice",
   "oneOf": [

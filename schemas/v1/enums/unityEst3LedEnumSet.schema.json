@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityEst3LedEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityEst3LedEnumSet.schema.json",
   "title": "unityEst3LedEnumSet",
   "description": "Unity EST3 LED",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ymc2Sc13EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ymc2Sc13EnumSet.schema.json",
   "title": "ymc2Sc13EnumSet",
   "description": "YMC2 Start Inhibit Code SC.13",
   "oneOf": [

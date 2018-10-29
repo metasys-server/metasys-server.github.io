@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ykCyclingCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ykCyclingCodeEnumSet.schema.json",
   "title": "ykCyclingCodeEnumSet",
   "description": "YK Cycling Code",
   "oneOf": [

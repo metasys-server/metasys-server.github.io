@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/subsystemCategoryEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/subsystemCategoryEnumSet.schema.json",
   "title": "subsystemCategoryEnumSet",
   "description": "Subsystem Category",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tec3000ChangeoverStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tec3000ChangeoverStatusEnumSet.schema.json",
   "title": "tec3000ChangeoverStatusEnumSet",
   "description": "TEC3000 Changeover Status",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/validDaysEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/validDaysEnumSet.schema.json",
   "title": "validDaysEnumSet",
   "description": "Valid Days",
   "oneOf": [

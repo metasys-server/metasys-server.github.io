@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/normal100EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/normal100EnumSet.schema.json",
   "title": "normal100EnumSet",
   "description": "100 Normal",
   "oneOf": [

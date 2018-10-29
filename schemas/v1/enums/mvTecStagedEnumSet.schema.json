@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mvTecStagedEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mvTecStagedEnumSet.schema.json",
   "title": "mvTecStagedEnumSet",
   "description": "MV TEC Staged Proportional Band",
   "oneOf": [

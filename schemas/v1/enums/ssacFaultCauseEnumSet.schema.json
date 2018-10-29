@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ssacFaultCauseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ssacFaultCauseEnumSet.schema.json",
   "title": "ssacFaultCauseEnumSet",
   "description": "SSAC Fault Cause",
   "oneOf": [

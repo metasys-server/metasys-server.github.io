@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecOutputConfigurationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecOutputConfigurationEnumSet.schema.json",
   "title": "tecOutputConfigurationEnumSet",
   "description": "Output Configuration",
   "oneOf": [

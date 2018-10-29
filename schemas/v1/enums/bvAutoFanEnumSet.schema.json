@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bvAutoFanEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bvAutoFanEnumSet.schema.json",
   "title": "bvAutoFanEnumSet",
   "description": "BV Auto Fan",
   "oneOf": [

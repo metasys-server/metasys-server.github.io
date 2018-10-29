@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/occupancyEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/occupancyEnumSet.schema.json",
   "title": "occupancyEnumSet",
   "description": "Occupancy",
   "oneOf": [

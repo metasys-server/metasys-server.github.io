@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/rotationModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/rotationModeEnumSet.schema.json",
   "title": "rotationModeEnumSet",
   "description": "Rotation Mode",
   "oneOf": [

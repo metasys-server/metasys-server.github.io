@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ytSc3EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ytSc3EnumSet.schema.json",
   "title": "ytSc3EnumSet",
   "description": "YT Cycling Fault Code SC.3",
   "oneOf": [

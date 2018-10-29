@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityNexDayNightEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityNexDayNightEnumSet.schema.json",
   "title": "unityNexDayNightEnumSet",
   "description": "Unity NEX Day/Night",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlpMaintenanceEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlpMaintenanceEnumSet.schema.json",
   "title": "unityXlpMaintenanceEnumSet",
   "description": "Unity XLP Maintenance",
   "oneOf": [

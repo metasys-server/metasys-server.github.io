@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/sePurgeCommand.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/sePurgeCommand.schema.json",
   "title": "sePurgeCommand",
   "description": "SE Purge Command",
   "oneOf": [

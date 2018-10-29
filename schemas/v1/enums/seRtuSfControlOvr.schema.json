@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuSfControlOvr.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuSfControlOvr.schema.json",
   "title": "seRtuSfControlOvr",
   "description": "SE RTU SF Control OVR",
   "oneOf": [

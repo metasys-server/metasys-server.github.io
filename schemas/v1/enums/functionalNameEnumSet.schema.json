@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/functionalNameEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/functionalNameEnumSet.schema.json",
   "title": "functionalNameEnumSet",
   "description": "Functional Name",
   "oneOf": [

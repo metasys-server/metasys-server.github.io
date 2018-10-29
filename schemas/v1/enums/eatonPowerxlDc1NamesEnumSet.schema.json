@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/eatonPowerxlDc1NamesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/eatonPowerxlDc1NamesEnumSet.schema.json",
   "title": "eatonPowerxlDc1NamesEnumSet",
   "description": "Eaton PowerXL DC1 Names",
   "oneOf": [

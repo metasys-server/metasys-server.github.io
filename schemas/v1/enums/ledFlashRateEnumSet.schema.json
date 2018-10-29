@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ledFlashRateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ledFlashRateEnumSet.schema.json",
   "title": "ledFlashRateEnumSet",
   "description": "LED Flash Rate",
   "oneOf": [

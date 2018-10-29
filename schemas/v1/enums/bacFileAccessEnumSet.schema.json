@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bacFileAccessEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bacFileAccessEnumSet.schema.json",
   "title": "bacFileAccessEnumSet",
   "description": "BAC File Access",
   "oneOf": [

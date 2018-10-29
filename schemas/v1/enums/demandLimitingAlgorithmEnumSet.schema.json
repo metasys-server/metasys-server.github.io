@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/demandLimitingAlgorithmEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/demandLimitingAlgorithmEnumSet.schema.json",
   "title": "demandLimitingAlgorithmEnumSet",
   "description": "Demand Limiting Algorithm",
   "oneOf": [

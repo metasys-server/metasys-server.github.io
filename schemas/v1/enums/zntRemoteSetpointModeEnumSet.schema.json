@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/zntRemoteSetpointModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/zntRemoteSetpointModeEnumSet.schema.json",
   "title": "zntRemoteSetpointModeEnumSet",
   "description": "ZN-T Remote Setpoint Mode",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcResetEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcResetEnumSet.schema.json",
   "title": "unityXlcResetEnumSet",
   "description": "Unity XLC Reset",
   "oneOf": [

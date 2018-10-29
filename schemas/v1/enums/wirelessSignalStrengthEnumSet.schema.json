@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/wirelessSignalStrengthEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/wirelessSignalStrengthEnumSet.schema.json",
   "title": "wirelessSignalStrengthEnumSet",
   "description": "Wireless Signal Strength",
   "oneOf": [

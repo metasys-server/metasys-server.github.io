@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/routingModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/routingModeEnumSet.schema.json",
   "title": "routingModeEnumSet",
   "description": "Routing Mode",
   "oneOf": [

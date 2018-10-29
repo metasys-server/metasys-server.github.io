@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/columnEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/columnEnumSet.schema.json",
   "title": "columnEnumSet",
   "description": "Column",
   "oneOf": [

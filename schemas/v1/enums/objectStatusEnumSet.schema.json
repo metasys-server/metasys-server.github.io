@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/objectStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/objectStatusEnumSet.schema.json",
   "title": "objectStatusEnumSet",
   "description": "Object Status",
   "oneOf": [

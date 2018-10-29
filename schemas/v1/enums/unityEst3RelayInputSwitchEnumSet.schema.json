@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityEst3RelayInputSwitchEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityEst3RelayInputSwitchEnumSet.schema.json",
   "title": "unityEst3RelayInputSwitchEnumSet",
   "description": "Unity EST3 Relay, Input, Switch",
   "oneOf": [

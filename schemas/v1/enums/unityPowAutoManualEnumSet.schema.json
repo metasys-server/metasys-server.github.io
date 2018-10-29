@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityPowAutoManualEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityPowAutoManualEnumSet.schema.json",
   "title": "unityPowAutoManualEnumSet",
   "description": "Unity POW Auto/Manual",
   "oneOf": [

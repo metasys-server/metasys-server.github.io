@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtSwitchAccessSecureEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtSwitchAccessSecureEnumSet.schema.json",
   "title": "snvtSwitchAccessSecureEnumSet",
   "description": "SNVT Access Secure",
   "oneOf": [

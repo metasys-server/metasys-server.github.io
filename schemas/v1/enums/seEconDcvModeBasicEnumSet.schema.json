@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seEconDcvModeBasicEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seEconDcvModeBasicEnumSet.schema.json",
   "title": "seEconDcvModeBasicEnumSet",
   "description": "SE ECON DCV Mode Basic",
   "oneOf": [

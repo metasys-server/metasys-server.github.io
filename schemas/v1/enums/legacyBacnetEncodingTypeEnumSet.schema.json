@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/legacyBacnetEncodingTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/legacyBacnetEncodingTypeEnumSet.schema.json",
   "title": "legacyBacnetEncodingTypeEnumSet",
   "description": "Legacy BACnet Encoding Type",
   "oneOf": [

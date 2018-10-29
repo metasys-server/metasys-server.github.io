@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/supervisorHvacModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/supervisorHvacModeEnumSet.schema.json",
   "title": "supervisorHvacModeEnumSet",
   "description": "Supervisor HVAC Mode",
   "oneOf": [

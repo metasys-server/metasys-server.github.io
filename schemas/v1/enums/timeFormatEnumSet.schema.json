@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/timeFormatEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/timeFormatEnumSet.schema.json",
   "title": "timeFormatEnumSet",
   "description": "Time Format",
   "oneOf": [

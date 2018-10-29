@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/hpCompressorModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/hpCompressorModeEnumSet.schema.json",
   "title": "hpCompressorModeEnumSet",
   "description": "HP Compressor Mode",
   "oneOf": [

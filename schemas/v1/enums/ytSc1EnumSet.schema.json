@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ytSc1EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ytSc1EnumSet.schema.json",
   "title": "ytSc1EnumSet",
   "description": "YT Operational Code SC.1",
   "oneOf": [

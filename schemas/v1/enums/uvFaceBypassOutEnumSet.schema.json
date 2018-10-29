@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/uvFaceBypassOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/uvFaceBypassOutEnumSet.schema.json",
   "title": "uvFaceBypassOutEnumSet",
   "description": "UV Face Bypass Out",
   "oneOf": [

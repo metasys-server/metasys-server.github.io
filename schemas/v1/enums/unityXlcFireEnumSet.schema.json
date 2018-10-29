@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcFireEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcFireEnumSet.schema.json",
   "title": "unityXlcFireEnumSet",
   "description": "Unity XLC Fire",
   "oneOf": [

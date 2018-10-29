@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/zeroOccAndNonzeroEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/zeroOccAndNonzeroEnumSet.schema.json",
   "title": "zeroOccAndNonzeroEnumSet",
   "description": "Zero/Occupied and Non-zero",
   "oneOf": [

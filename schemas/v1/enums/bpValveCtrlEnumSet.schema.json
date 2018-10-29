@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bpValveCtrlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bpValveCtrlEnumSet.schema.json",
   "title": "bpValveCtrlEnumSet",
   "description": "BP Valve Ctrl",
   "oneOf": [

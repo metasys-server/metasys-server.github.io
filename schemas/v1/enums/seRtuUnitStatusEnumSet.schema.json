@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuUnitStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuUnitStatusEnumSet.schema.json",
   "title": "seRtuUnitStatusEnumSet",
   "description": "SE RTU Unit Status",
   "oneOf": [

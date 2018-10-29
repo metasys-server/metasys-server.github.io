@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcSafeAlarmMntEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcSafeAlarmMntEnumSet.schema.json",
   "title": "unityXlcSafeAlarmMntEnumSet",
   "description": "Unity XLC Safe Alarm Mnt",
   "oneOf": [

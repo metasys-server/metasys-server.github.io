@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/reportFormatEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/reportFormatEnumSet.schema.json",
   "title": "reportFormatEnumSet",
   "description": "Report Format",
   "oneOf": [

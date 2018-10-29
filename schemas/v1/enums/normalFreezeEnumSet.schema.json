@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/normalFreezeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/normalFreezeEnumSet.schema.json",
   "title": "normalFreezeEnumSet",
   "description": "Normal Freeze",
   "oneOf": [

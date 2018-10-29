@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc3EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/optiviewYrSc3EnumSet.schema.json",
   "title": "optiviewYrSc3EnumSet",
   "description": "Optiview YR Cycling Fault Code SC.3",
   "oneOf": [

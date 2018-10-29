@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tcModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tcModeEnumSet.schema.json",
   "title": "tcModeEnumSet",
   "description": "TC Mode",
   "oneOf": [

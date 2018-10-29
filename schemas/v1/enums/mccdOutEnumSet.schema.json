@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mccdOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mccdOutEnumSet.schema.json",
   "title": "mccdOutEnumSet",
   "description": "MCCD OUT",
   "oneOf": [

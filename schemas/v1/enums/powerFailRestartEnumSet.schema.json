@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/powerFailRestartEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/powerFailRestartEnumSet.schema.json",
   "title": "powerFailRestartEnumSet",
   "description": "Power Fail Restart",
   "oneOf": [

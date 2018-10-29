@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecStagesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecStagesEnumSet.schema.json",
   "title": "tecStagesEnumSet",
   "description": "HVAC Stages",
   "oneOf": [

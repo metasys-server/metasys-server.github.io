@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/msgFilterItemsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/msgFilterItemsEnumSet.schema.json",
   "title": "msgFilterItemsEnumSet",
   "description": "Msg Filter Items",
   "oneOf": [

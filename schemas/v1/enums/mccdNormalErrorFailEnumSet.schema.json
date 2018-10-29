@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mccdNormalErrorFailEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mccdNormalErrorFailEnumSet.schema.json",
   "title": "mccdNormalErrorFailEnumSet",
   "description": "MCCD Normal Error Fail",
   "oneOf": [

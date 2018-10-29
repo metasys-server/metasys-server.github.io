@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/cpo5LongNameEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/cpo5LongNameEnumSet.schema.json",
   "title": "cpo5LongNameEnumSet",
   "description": "CPO5 LONG NAME",
   "oneOf": [

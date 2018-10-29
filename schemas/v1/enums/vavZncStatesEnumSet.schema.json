@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/vavZncStatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/vavZncStatesEnumSet.schema.json",
   "title": "vavZncStatesEnumSet",
   "description": "VAV ZNC States",
   "oneOf": [

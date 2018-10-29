@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/fcuErrorCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/fcuErrorCodeEnumSet.schema.json",
   "title": "fcuErrorCodeEnumSet",
   "description": "FCU Error Code",
   "oneOf": [

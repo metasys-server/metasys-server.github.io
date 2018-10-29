@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecRtcTransducerRangeMetricEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecRtcTransducerRangeMetricEnumSet.schema.json",
   "title": "tecRtcTransducerRangeMetricEnumSet",
   "description": "Metric TEC RTC Transducer Range",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuRfBspStateUlOvrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuRfBspStateUlOvrEnumSet.schema.json",
   "title": "ahuRfBspStateUlOvrEnumSet",
   "description": "AHU RF BSP State UL OVR",
   "oneOf": [

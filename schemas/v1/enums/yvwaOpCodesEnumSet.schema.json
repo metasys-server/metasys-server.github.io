@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yvwaOpCodesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yvwaOpCodesEnumSet.schema.json",
   "title": "yvwaOpCodesEnumSet",
   "description": "YVWA Operational Codes",
   "oneOf": [

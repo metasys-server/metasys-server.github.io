@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuHtgStagedOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuHtgStagedOutEnumSet.schema.json",
   "title": "ahuHtgStagedOutEnumSet",
   "description": "AHU Htg Staged Out",
   "oneOf": [

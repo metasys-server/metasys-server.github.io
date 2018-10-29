@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/thermostatAuxModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/thermostatAuxModeEnumSet.schema.json",
   "title": "thermostatAuxModeEnumSet",
   "description": "Thermostat Aux Mode",
   "oneOf": [

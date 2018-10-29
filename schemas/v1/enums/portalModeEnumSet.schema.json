@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/portalModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/portalModeEnumSet.schema.json",
   "title": "portalModeEnumSet",
   "description": "Portal Mode",
   "oneOf": [

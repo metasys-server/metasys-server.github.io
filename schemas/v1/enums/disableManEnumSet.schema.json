@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/disableManEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/disableManEnumSet.schema.json",
   "title": "disableManEnumSet",
   "description": "Disable Man",
   "oneOf": [

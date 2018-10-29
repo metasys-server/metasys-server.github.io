@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/t8800KeyLockEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/t8800KeyLockEnumSet.schema.json",
   "title": "t8800KeyLockEnumSet",
   "description": "T8800 Key Lock",
   "oneOf": [

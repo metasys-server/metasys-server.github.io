@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityPowOpenCloseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityPowOpenCloseEnumSet.schema.json",
   "title": "unityPowOpenCloseEnumSet",
   "description": "Unity POW Open/Close",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/filterOrderEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/filterOrderEnumSet.schema.json",
   "title": "filterOrderEnumSet",
   "description": "Filter Order",
   "oneOf": [

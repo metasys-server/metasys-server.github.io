@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/supervisorFanSpeedEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/supervisorFanSpeedEnumSet.schema.json",
   "title": "supervisorFanSpeedEnumSet",
   "description": "Supervisor Fan Speed",
   "oneOf": [

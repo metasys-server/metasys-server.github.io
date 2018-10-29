@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ledStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ledStateEnumSet.schema.json",
   "title": "ledStateEnumSet",
   "description": "LED State",
   "oneOf": [

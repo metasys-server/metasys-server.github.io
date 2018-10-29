@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuReliefFanBspEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuReliefFanBspEnumSet.schema.json",
   "title": "ahuReliefFanBspEnumSet",
   "description": "AHU Relief Fan BSP",
   "oneOf": [

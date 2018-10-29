@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/genericBaudRateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/genericBaudRateEnumSet.schema.json",
   "title": "genericBaudRateEnumSet",
   "description": "Generic Baud Rate",
   "oneOf": [

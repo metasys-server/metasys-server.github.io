@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityIrc3SecureEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityIrc3SecureEnumSet.schema.json",
   "title": "unityIrc3SecureEnumSet",
   "description": "Unity IRC3 Secure",
   "oneOf": [

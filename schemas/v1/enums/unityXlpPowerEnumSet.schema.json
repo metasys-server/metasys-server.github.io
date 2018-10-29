@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlpPowerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlpPowerEnumSet.schema.json",
   "title": "unityXlpPowerEnumSet",
   "description": "Unity XLP Power",
   "oneOf": [

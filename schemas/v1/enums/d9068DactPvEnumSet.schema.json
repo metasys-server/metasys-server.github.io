@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/d9068DactPvEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/d9068DactPvEnumSet.schema.json",
   "title": "d9068DactPvEnumSet",
   "description": "D9068 DACT Present Value",
   "oneOf": [

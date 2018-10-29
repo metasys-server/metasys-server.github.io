@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/freeCoolingMethodEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/freeCoolingMethodEnumSet.schema.json",
   "title": "freeCoolingMethodEnumSet",
   "description": "Economizer Type",
   "oneOf": [

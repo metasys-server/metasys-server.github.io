@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/comparisonEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/comparisonEnumSet.schema.json",
   "title": "comparisonEnumSet",
   "description": "Comparison Setup",
   "oneOf": [

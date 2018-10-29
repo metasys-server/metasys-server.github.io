@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ieiejGlcEdcControlTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ieiejGlcEdcControlTypeEnumSet.schema.json",
   "title": "ieiejGlcEdcControlTypeEnumSet",
   "description": "GLC/EDC Control Types",
   "oneOf": [

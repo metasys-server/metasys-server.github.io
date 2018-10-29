@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuRfVolModeUlOvrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuRfVolModeUlOvrEnumSet.schema.json",
   "title": "ahuRfVolModeUlOvrEnumSet",
   "description": "AHU RF VOL Mode UL OVR",
   "oneOf": [

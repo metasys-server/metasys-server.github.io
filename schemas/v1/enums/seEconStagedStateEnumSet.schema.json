@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seEconStagedStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seEconStagedStateEnumSet.schema.json",
   "title": "seEconStagedStateEnumSet",
   "description": "SE ECON Staged State",
   "oneOf": [

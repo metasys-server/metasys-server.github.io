@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/koneBaudRateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/koneBaudRateEnumSet.schema.json",
   "title": "koneBaudRateEnumSet",
   "description": "KONE Baud Rate",
   "oneOf": [

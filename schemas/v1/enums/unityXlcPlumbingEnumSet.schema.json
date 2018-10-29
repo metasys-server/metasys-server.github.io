@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcPlumbingEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcPlumbingEnumSet.schema.json",
   "title": "unityXlcPlumbingEnumSet",
   "description": "Unity XLC Plumbing",
   "oneOf": [

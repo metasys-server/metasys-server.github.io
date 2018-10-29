@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityTrnClosedOpenEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityTrnClosedOpenEnumSet.schema.json",
   "title": "unityTrnClosedOpenEnumSet",
   "description": "Unity TRN Closed Open",
   "oneOf": [

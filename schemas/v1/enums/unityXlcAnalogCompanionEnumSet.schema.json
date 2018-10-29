@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcAnalogCompanionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcAnalogCompanionEnumSet.schema.json",
   "title": "unityXlcAnalogCompanionEnumSet",
   "description": "Unity XLC Analog Companion",
   "oneOf": [

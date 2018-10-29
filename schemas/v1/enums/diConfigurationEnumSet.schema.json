@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/diConfigurationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/diConfigurationEnumSet.schema.json",
   "title": "diConfigurationEnumSet",
   "description": "DI Configuration",
   "oneOf": [

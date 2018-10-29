@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/stcChillerHeatpumpModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/stcChillerHeatpumpModeEnumSet.schema.json",
   "title": "stcChillerHeatpumpModeEnumSet",
   "description": "York STC Chiller Heatpump Mode",
   "oneOf": [

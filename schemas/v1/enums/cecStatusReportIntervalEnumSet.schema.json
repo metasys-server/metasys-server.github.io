@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/cecStatusReportIntervalEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/cecStatusReportIntervalEnumSet.schema.json",
   "title": "cecStatusReportIntervalEnumSet",
   "description": "CEC Status Report Interval",
   "oneOf": [

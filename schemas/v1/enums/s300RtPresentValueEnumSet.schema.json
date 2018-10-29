@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/s300RtPresentValueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/s300RtPresentValueEnumSet.schema.json",
   "title": "s300RtPresentValueEnumSet",
   "description": "S300 RT Present Value",
   "oneOf": [

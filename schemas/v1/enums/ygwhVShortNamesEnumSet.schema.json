@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ygwhVShortNamesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ygwhVShortNamesEnumSet.schema.json",
   "title": "ygwhVShortNamesEnumSet",
   "description": "YGWH-V Short Names",
   "oneOf": [

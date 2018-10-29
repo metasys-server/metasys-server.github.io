@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ostWarmupCooldownEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ostWarmupCooldownEnumSet.schema.json",
   "title": "ostWarmupCooldownEnumSet",
   "description": "OST Warmup Cooldown",
   "oneOf": [

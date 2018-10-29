@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yrSc4EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yrSc4EnumSet.schema.json",
   "title": "yrSc4EnumSet",
   "description": "YR Unit Warning Code",
   "oneOf": [

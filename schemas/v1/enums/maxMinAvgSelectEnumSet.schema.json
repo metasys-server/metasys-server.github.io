@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/maxMinAvgSelectEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/maxMinAvgSelectEnumSet.schema.json",
   "title": "maxMinAvgSelectEnumSet",
   "description": "Max/Min/Avg Select",
   "oneOf": [

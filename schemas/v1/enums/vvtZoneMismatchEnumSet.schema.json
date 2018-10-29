@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/vvtZoneMismatchEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/vvtZoneMismatchEnumSet.schema.json",
   "title": "vvtZoneMismatchEnumSet",
   "description": "VVT Zone Mismatch",
   "oneOf": [

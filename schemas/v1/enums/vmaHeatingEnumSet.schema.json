@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/vmaHeatingEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/vmaHeatingEnumSet.schema.json",
   "title": "vmaHeatingEnumSet",
   "description": "VMA Heating",
   "oneOf": [

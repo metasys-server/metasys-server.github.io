@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/edmTimeSyncModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/edmTimeSyncModeEnumSet.schema.json",
   "title": "edmTimeSyncModeEnumSet",
   "description": "Edm Time Synchronization Modes",
   "oneOf": [

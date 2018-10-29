@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlpFalseTrueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlpFalseTrueEnumSet.schema.json",
   "title": "unityXlpFalseTrueEnumSet",
   "description": "Unity XLP False/True",
   "oneOf": [

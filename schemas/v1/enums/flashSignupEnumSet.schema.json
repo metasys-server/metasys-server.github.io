@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/flashSignupEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/flashSignupEnumSet.schema.json",
   "title": "flashSignupEnumSet",
   "description": "Flash Signup",
   "oneOf": [

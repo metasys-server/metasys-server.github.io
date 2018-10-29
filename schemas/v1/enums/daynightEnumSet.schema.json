@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/daynightEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/daynightEnumSet.schema.json",
   "title": "daynightEnumSet",
   "description": "Day Night",
   "oneOf": [

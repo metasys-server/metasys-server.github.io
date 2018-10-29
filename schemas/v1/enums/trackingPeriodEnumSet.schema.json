@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/trackingPeriodEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/trackingPeriodEnumSet.schema.json",
   "title": "trackingPeriodEnumSet",
   "description": "Tracking Period Set",
   "oneOf": [

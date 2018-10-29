@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/selectorModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/selectorModeEnumSet.schema.json",
   "title": "selectorModeEnumSet",
   "description": "Selector Mode",
   "oneOf": [

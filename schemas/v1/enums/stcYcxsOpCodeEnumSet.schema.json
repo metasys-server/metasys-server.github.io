@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/stcYcxsOpCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/stcYcxsOpCodeEnumSet.schema.json",
   "title": "stcYcxsOpCodeEnumSet",
   "description": "York YCAS YCWS YCRS Operational Code",
   "oneOf": [

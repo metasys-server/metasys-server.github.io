@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/uvValveOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/uvValveOutEnumSet.schema.json",
   "title": "uvValveOutEnumSet",
   "description": "UV Valve Out",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/interfaceEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/interfaceEnumSet.schema.json",
   "title": "interfaceEnumSet",
   "description": "Interface",
   "oneOf": [

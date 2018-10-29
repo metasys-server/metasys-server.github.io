@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/uv2PipeOutStatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/uv2PipeOutStatesEnumSet.schema.json",
   "title": "uv2PipeOutStatesEnumSet",
   "description": "UV 2-Pipe Out States",
   "oneOf": [

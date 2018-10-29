@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/heatCoolSetpointModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/heatCoolSetpointModeEnumSet.schema.json",
   "title": "heatCoolSetpointModeEnumSet",
   "description": "Heat Cool Setpoint Mode",
   "oneOf": [

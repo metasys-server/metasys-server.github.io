@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/dataModelUseIdEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/dataModelUseIdEnumSet.schema.json",
   "title": "dataModelUseIdEnumSet",
   "description": "Data Model Use Identifiers",
   "oneOf": [

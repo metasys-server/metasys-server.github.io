@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityPowEnableDisableEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityPowEnableDisableEnumSet.schema.json",
   "title": "unityPowEnableDisableEnumSet",
   "description": "Unity POW Enable/Disable",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/verasysIomAiPointTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/verasysIomAiPointTypeEnumSet.schema.json",
   "title": "verasysIomAiPointTypeEnumSet",
   "description": "Verasys IOM AI Point Type",
   "oneOf": [

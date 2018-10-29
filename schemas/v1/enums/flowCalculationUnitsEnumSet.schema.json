@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/flowCalculationUnitsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/flowCalculationUnitsEnumSet.schema.json",
   "title": "flowCalculationUnitsEnumSet",
   "description": "Flow Calculation Units",
   "oneOf": [

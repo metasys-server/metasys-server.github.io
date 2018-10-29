@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/executionStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/executionStateEnumSet.schema.json",
   "title": "executionStateEnumSet",
   "description": "Execution State",
   "oneOf": [

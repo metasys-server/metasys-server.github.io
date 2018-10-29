@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/verasysZoningSystemStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/verasysZoningSystemStateEnumSet.schema.json",
   "title": "verasysZoningSystemStateEnumSet",
   "description": "Verasys Zoning System State",
   "oneOf": [

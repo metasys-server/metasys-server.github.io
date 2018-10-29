@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/clockwiseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/clockwiseEnumSet.schema.json",
   "title": "clockwiseEnumSet",
   "description": "Clockwise Counterclockwise",
   "oneOf": [

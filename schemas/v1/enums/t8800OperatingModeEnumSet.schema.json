@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/t8800OperatingModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/t8800OperatingModeEnumSet.schema.json",
   "title": "t8800OperatingModeEnumSet",
   "description": "T8800 Operating Mode",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seSelfTestDevState.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seSelfTestDevState.schema.json",
   "title": "seSelfTestDevState",
   "description": "Self Test Device State",
   "oneOf": [

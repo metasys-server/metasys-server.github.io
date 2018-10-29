@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc1EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/optiviewYrSc1EnumSet.schema.json",
   "title": "optiviewYrSc1EnumSet",
   "description": "Optiview YR Operation Code SC.1",
   "oneOf": [

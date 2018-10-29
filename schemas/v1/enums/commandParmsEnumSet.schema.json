@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/commandParmsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/commandParmsEnumSet.schema.json",
   "title": "commandParmsEnumSet",
   "description": "Command Parms",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuSfStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuSfStateEnumSet.schema.json",
   "title": "ahuSfStateEnumSet",
   "description": "AHU SF State",
   "oneOf": [

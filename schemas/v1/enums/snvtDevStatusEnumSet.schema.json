@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtDevStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtDevStatusEnumSet.schema.json",
   "title": "snvtDevStatusEnumSet",
   "description": "SNVT Device Select",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mvTecFanCoilEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mvTecFanCoilEnumSet.schema.json",
   "title": "mvTecFanCoilEnumSet",
   "description": "MV TEC Fan Coil Proportional Band",
   "oneOf": [

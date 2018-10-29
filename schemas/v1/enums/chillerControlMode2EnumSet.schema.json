@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/chillerControlMode2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/chillerControlMode2EnumSet.schema.json",
   "title": "chillerControlMode2EnumSet",
   "description": "Chiller Control Mode 2",
   "oneOf": [

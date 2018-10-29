@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/interstageTimingMethod.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/interstageTimingMethod.schema.json",
   "title": "interstageTimingMethod",
   "description": "Interstage Timing Method",
   "oneOf": [

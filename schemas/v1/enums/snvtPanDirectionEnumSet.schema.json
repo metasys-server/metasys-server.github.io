@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtPanDirectionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtPanDirectionEnumSet.schema.json",
   "title": "snvtPanDirectionEnumSet",
   "description": "SNVT Pan Direction",
   "oneOf": [

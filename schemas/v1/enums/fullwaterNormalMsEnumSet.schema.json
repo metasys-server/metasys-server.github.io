@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/fullwaterNormalMsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/fullwaterNormalMsEnumSet.schema.json",
   "title": "fullwaterNormalMsEnumSet",
   "description": "Full Water/Normal",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/lightingControlModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/lightingControlModeEnumSet.schema.json",
   "title": "lightingControlModeEnumSet",
   "description": "Lighting Control Mode",
   "oneOf": [

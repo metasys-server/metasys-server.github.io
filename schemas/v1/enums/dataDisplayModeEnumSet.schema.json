@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/dataDisplayModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/dataDisplayModeEnumSet.schema.json",
   "title": "dataDisplayModeEnumSet",
   "description": "Data Display Mode",
   "oneOf": [

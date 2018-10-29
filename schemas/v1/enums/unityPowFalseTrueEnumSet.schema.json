@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityPowFalseTrueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityPowFalseTrueEnumSet.schema.json",
   "title": "unityPowFalseTrueEnumSet",
   "description": "Unity POW False/True",
   "oneOf": [

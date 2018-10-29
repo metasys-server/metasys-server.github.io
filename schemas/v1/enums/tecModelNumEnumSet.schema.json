@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecModelNumEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecModelNumEnumSet.schema.json",
   "title": "tecModelNumEnumSet",
   "description": "TEC Model Number",
   "oneOf": [

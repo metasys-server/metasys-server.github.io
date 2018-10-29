@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seSafetySetupEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seSafetySetupEnumSet.schema.json",
   "title": "seSafetySetupEnumSet",
   "description": "SE Safety Setup",
   "oneOf": [

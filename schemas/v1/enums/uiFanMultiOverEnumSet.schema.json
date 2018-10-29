@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/uiFanMultiOverEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/uiFanMultiOverEnumSet.schema.json",
   "title": "uiFanMultiOverEnumSet",
   "description": "UI Multi Speed Fan Override",
   "oneOf": [

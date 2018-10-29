@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/raptyrCommandEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/raptyrCommandEnumSet.schema.json",
   "title": "raptyrCommandEnumSet",
   "description": "Raptyr Command",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/twoToThreeStateMappingEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/twoToThreeStateMappingEnumSet.schema.json",
   "title": "twoToThreeStateMappingEnumSet",
   "description": "Two to Three State Mapping",
   "oneOf": [

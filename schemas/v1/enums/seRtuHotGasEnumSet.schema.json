@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuHotGasEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuHotGasEnumSet.schema.json",
   "title": "seRtuHotGasEnumSet",
   "description": "SE RTU Hot Gas Reheat",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityD2KSecureAccess2000EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityD2KSecureAccess2000EnumSet.schema.json",
   "title": "unityD2KSecureAccess2000EnumSet",
   "description": "Unity D2K Secure/Access-2000",
   "oneOf": [

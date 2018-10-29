@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/panelLayoutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/panelLayoutEnumSet.schema.json",
   "title": "panelLayoutEnumSet",
   "description": "Panel Layout",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/hpDiscreteOutStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/hpDiscreteOutStateEnumSet.schema.json",
   "title": "hpDiscreteOutStateEnumSet",
   "description": "HP Discrete Out State",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/auxConfigurationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/auxConfigurationEnumSet.schema.json",
   "title": "auxConfigurationEnumSet",
   "description": "AUX Configuration",
   "oneOf": [

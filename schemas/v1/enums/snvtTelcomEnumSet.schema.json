@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtTelcomEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtTelcomEnumSet.schema.json",
   "title": "snvtTelcomEnumSet",
   "description": "SNVT Telcom States",
   "oneOf": [

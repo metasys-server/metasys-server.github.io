@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlpChillerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlpChillerEnumSet.schema.json",
   "title": "unityXlpChillerEnumSet",
   "description": "Unity XLP Chiller",
   "oneOf": [

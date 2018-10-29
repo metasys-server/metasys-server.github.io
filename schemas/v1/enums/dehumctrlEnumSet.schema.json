@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/dehumctrlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/dehumctrlEnumSet.schema.json",
   "title": "dehumctrlEnumSet",
   "description": "Dehum Ctrl",
   "oneOf": [

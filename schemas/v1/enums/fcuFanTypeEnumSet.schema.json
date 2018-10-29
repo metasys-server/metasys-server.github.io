@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/fcuFanTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/fcuFanTypeEnumSet.schema.json",
   "title": "fcuFanTypeEnumSet",
   "description": "FCU Fan Type",
   "oneOf": [

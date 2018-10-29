@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/angularMeasurementEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/angularMeasurementEnumSet.schema.json",
   "title": "angularMeasurementEnumSet",
   "description": "Angular Measurement",
   "oneOf": [

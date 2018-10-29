@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/motorStarterConfigEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/motorStarterConfigEnumSet.schema.json",
   "title": "motorStarterConfigEnumSet",
   "description": "Motor Starter Config",
   "oneOf": [

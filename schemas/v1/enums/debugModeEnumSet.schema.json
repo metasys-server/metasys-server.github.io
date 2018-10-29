@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/debugModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/debugModeEnumSet.schema.json",
   "title": "debugModeEnumSet",
   "description": "Debug Mode",
   "oneOf": [

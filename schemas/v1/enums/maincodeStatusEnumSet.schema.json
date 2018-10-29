@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/maincodeStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/maincodeStatusEnumSet.schema.json",
   "title": "maincodeStatusEnumSet",
   "description": "Main Code Status Enum Set",
   "oneOf": [

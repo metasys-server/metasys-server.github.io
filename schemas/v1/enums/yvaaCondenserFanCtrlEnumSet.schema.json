@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yvaaCondenserFanCtrlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yvaaCondenserFanCtrlEnumSet.schema.json",
   "title": "yvaaCondenserFanCtrlEnumSet",
   "description": "YVAA Condenser Fan Ctrl",
   "oneOf": [

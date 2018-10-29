@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/minMaxCntrlEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/minMaxCntrlEnumSet.schema.json",
   "title": "minMaxCntrlEnumSet",
   "description": "Min/Max/Control",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mccdOngplOffgplOnmanOffmanEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mccdOngplOffgplOnmanOffmanEnumSet.schema.json",
   "title": "mccdOngplOffgplOnmanOffmanEnumSet",
   "description": "MCCD Ongpl Offgpl Onman Offman",
   "oneOf": [

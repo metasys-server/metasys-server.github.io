@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/pmoCommandDetailStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/pmoCommandDetailStatusEnumSet.schema.json",
   "title": "pmoCommandDetailStatusEnumSet",
   "description": "PMO Command Detailed Status",
   "oneOf": [

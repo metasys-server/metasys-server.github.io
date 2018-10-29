@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/loadUseEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/loadUseEnumSet.schema.json",
   "title": "loadUseEnumSet",
   "description": "Load Use",
   "oneOf": [

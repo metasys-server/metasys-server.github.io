@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecUnitsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecUnitsEnumSet.schema.json",
   "title": "tecUnitsEnumSet",
   "description": "TEC Units",
   "oneOf": [

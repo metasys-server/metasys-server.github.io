@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seOadMode.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seOadMode.schema.json",
   "title": "seOadMode",
   "description": "SE RTU OAD Mode",
   "oneOf": [

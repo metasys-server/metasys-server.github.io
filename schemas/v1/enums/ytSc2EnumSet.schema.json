@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ytSc2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ytSc2EnumSet.schema.json",
   "title": "ytSc2EnumSet",
   "description": "YT Safety Fault Code SC.2",
   "oneOf": [

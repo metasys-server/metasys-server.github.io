@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/activeNodeTableStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/activeNodeTableStatusEnumSet.schema.json",
   "title": "activeNodeTableStatusEnumSet",
   "description": "Active Node Table Status",
   "oneOf": [

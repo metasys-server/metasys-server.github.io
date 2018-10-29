@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityTrnNoYesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityTrnNoYesEnumSet.schema.json",
   "title": "unityTrnNoYesEnumSet",
   "description": "Unity TRN No Yes",
   "oneOf": [

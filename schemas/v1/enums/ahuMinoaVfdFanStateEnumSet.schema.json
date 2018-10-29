@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuMinoaVfdFanStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuMinoaVfdFanStateEnumSet.schema.json",
   "title": "ahuMinoaVfdFanStateEnumSet",
   "description": "AHU MinOA VFD Fan State",
   "oneOf": [

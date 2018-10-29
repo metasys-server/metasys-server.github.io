@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/cpFrostProtectEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/cpFrostProtectEnumSet.schema.json",
   "title": "cpFrostProtectEnumSet",
   "description": "CP Frost Protect",
   "oneOf": [

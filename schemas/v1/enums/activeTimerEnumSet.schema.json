@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/activeTimerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/activeTimerEnumSet.schema.json",
   "title": "activeTimerEnumSet",
   "description": "Active Timer Set",
   "oneOf": [

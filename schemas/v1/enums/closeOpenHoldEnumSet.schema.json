@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/closeOpenHoldEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/closeOpenHoldEnumSet.schema.json",
   "title": "closeOpenHoldEnumSet",
   "description": "Close/Open/Hold",
   "oneOf": [

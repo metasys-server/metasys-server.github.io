@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuPerformanceIndices.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuPerformanceIndices.schema.json",
   "title": "seRtuPerformanceIndices",
   "description": "SE RTU Performance Indices",
   "oneOf": [

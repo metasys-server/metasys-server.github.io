@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/flowNoflowEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/flowNoflowEnumSet.schema.json",
   "title": "flowNoflowEnumSet",
   "description": "Flow NoFlow",
   "oneOf": [

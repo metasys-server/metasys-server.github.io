@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/optiviewYrSc2EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/optiviewYrSc2EnumSet.schema.json",
   "title": "optiviewYrSc2EnumSet",
   "description": "Optiview YR Safety Fault Code SC.2",
   "oneOf": [

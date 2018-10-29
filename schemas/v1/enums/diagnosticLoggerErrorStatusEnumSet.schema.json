@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/diagnosticLoggerErrorStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/diagnosticLoggerErrorStatusEnumSet.schema.json",
   "title": "diagnosticLoggerErrorStatusEnumSet",
   "description": "Diagnostic Logger Driver Error Statuses",
   "oneOf": [

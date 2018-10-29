@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/registeringStateEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/registeringStateEnumSet.schema.json",
   "title": "registeringStateEnumSet",
   "description": "Registering State",
   "oneOf": [

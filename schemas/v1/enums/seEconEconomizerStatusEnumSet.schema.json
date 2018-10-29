@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seEconEconomizerStatusEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seEconEconomizerStatusEnumSet.schema.json",
   "title": "seEconEconomizerStatusEnumSet",
   "description": "SE ECON Economizer Status",
   "oneOf": [

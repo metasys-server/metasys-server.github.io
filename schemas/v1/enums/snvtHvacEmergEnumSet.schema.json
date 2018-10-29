@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtHvacEmergEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtHvacEmergEnumSet.schema.json",
   "title": "snvtHvacEmergEnumSet",
   "description": "SNVT HVAC Emergency",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcTestAlarmEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcTestAlarmEnumSet.schema.json",
   "title": "unityXlcTestAlarmEnumSet",
   "description": "Unity XLC Test Alarm",
   "oneOf": [

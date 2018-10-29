@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/sgslPvEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/sgslPvEnumSet.schema.json",
   "title": "sgslPvEnumSet",
   "description": "SGSL Present Value",
   "oneOf": [

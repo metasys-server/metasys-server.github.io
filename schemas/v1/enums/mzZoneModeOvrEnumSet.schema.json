@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/mzZoneModeOvrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/mzZoneModeOvrEnumSet.schema.json",
   "title": "mzZoneModeOvrEnumSet",
   "description": "MZ Zone Mode OVR",
   "oneOf": [

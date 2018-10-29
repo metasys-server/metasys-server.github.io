@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ydSc7EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ydSc7EnumSet.schema.json",
   "title": "ydSc7EnumSet",
   "description": "YD Internal Fault Code SC.7",
   "oneOf": [

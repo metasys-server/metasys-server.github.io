@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuOaDamperOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuOaDamperOutEnumSet.schema.json",
   "title": "ahuOaDamperOutEnumSet",
   "description": "AHU OA Damper Out",
   "oneOf": [

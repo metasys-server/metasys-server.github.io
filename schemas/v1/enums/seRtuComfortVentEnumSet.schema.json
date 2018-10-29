@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seRtuComfortVentEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seRtuComfortVentEnumSet.schema.json",
   "title": "seRtuComfortVentEnumSet",
   "description": "SE RTU Comfort Ventilation",
   "oneOf": [

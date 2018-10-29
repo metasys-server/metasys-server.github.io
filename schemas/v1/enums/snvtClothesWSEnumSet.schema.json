@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snvtClothesWSEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snvtClothesWSEnumSet.schema.json",
   "title": "snvtClothesWSEnumSet",
   "description": "SNVT Clothes Washer Status",
   "oneOf": [

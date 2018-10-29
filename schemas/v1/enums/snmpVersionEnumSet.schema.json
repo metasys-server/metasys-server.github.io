@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/snmpVersionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/snmpVersionEnumSet.schema.json",
   "title": "snmpVersionEnumSet",
   "description": "SNMP Version",
   "oneOf": [

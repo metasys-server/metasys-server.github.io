@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/koneGroupControllerRoleEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/koneGroupControllerRoleEnumSet.schema.json",
   "title": "koneGroupControllerRoleEnumSet",
   "description": "Kone Group Controller Role",
   "oneOf": [

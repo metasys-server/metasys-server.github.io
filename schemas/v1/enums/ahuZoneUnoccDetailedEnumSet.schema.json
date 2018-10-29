@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ahuZoneUnoccDetailedEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ahuZoneUnoccDetailedEnumSet.schema.json",
   "title": "ahuZoneUnoccDetailedEnumSet",
   "description": "AHU Zone Unocc Detailed",
   "oneOf": [

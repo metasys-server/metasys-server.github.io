@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yiaSc12EnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yiaSc12EnumSet.schema.json",
   "title": "yiaSc12EnumSet",
   "description": "YIA Control Status Code SC.12",
   "oneOf": [

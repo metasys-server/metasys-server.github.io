@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/t8800ProductModelsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/t8800ProductModelsEnumSet.schema.json",
   "title": "t8800ProductModelsEnumSet",
   "description": "T8800 Product Models",
   "oneOf": [

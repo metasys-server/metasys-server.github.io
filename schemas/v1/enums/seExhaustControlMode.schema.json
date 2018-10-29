@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seExhaustControlMode.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seExhaustControlMode.schema.json",
   "title": "seExhaustControlMode",
   "description": "SE RTU Exhaust Control Mode",
   "oneOf": [

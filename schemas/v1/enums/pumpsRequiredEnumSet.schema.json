@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/pumpsRequiredEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/pumpsRequiredEnumSet.schema.json",
   "title": "pumpsRequiredEnumSet",
   "description": "PUMPS REQUIRED",
   "oneOf": [

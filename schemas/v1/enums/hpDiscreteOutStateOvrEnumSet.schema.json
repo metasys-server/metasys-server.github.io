@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/hpDiscreteOutStateOvrEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/hpDiscreteOutStateOvrEnumSet.schema.json",
   "title": "hpDiscreteOutStateOvrEnumSet",
   "description": "HP Discrete Out State OVR",
   "oneOf": [

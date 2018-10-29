@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/uvZoneFbpOutEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/uvZoneFbpOutEnumSet.schema.json",
   "title": "uvZoneFbpOutEnumSet",
   "description": "UV Zone FBP Out",
   "oneOf": [

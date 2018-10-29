@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityNexFalseTrueEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityNexFalseTrueEnumSet.schema.json",
   "title": "unityNexFalseTrueEnumSet",
   "description": "Unity NEX False/True",
   "oneOf": [

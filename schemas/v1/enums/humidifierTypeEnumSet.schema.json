@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/humidifierTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/humidifierTypeEnumSet.schema.json",
   "title": "humidifierTypeEnumSet",
   "description": "Humidifier Type",
   "oneOf": [

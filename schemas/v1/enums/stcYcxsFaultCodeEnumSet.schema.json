@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/stcYcxsFaultCodeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/stcYcxsFaultCodeEnumSet.schema.json",
   "title": "stcYcxsFaultCodeEnumSet",
   "description": "York YCAS YCWS YCRS Fault Code",
   "oneOf": [

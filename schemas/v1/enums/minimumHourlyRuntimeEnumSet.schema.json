@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/minimumHourlyRuntimeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/minimumHourlyRuntimeEnumSet.schema.json",
   "title": "minimumHourlyRuntimeEnumSet",
   "description": "Minimum Hourly Runtime",
   "oneOf": [

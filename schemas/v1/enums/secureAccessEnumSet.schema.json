@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/secureAccessEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/secureAccessEnumSet.schema.json",
   "title": "secureAccessEnumSet",
   "description": "Secure Access",
   "oneOf": [

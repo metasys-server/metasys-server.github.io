@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/ctrlTSrcEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/ctrlTSrcEnumSet.schema.json",
   "title": "ctrlTSrcEnumSet",
   "description": "Ctrl T Src",
   "oneOf": [

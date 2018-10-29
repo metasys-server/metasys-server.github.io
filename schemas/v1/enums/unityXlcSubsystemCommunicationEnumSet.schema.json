@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcSubsystemCommunicationEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcSubsystemCommunicationEnumSet.schema.json",
   "title": "unityXlcSubsystemCommunicationEnumSet",
   "description": "Unity XLC Subsystem Communication",
   "oneOf": [

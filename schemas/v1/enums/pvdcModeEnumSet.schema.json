@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/pvdcModeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/pvdcModeEnumSet.schema.json",
   "title": "pvdcModeEnumSet",
   "description": "PVDC Mode",
   "oneOf": [

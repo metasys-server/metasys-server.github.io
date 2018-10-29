@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/seDefrostCurve.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/seDefrostCurve.schema.json",
   "title": "seDefrostCurve",
   "description": "SE RTU Defrost Curves",
   "oneOf": [

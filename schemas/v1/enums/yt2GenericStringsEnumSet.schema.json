@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/yt2GenericStringsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/yt2GenericStringsEnumSet.schema.json",
   "title": "yt2GenericStringsEnumSet",
   "description": "YT2 Generic Strings",
   "oneOf": [

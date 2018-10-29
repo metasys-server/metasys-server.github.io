@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/pvTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/pvTypeEnumSet.schema.json",
   "title": "pvTypeEnumSet",
   "description": "Process Variable Type",
   "oneOf": [

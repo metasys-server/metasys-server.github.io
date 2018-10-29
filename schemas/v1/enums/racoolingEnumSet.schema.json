@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/racoolingEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/racoolingEnumSet.schema.json",
   "title": "racoolingEnumSet",
   "description": "RA Cooling",
   "oneOf": [

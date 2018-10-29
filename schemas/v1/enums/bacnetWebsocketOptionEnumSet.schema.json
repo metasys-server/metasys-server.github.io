@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/bacnetWebsocketOptionEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/bacnetWebsocketOptionEnumSet.schema.json",
   "title": "bacnetWebsocketOptionEnumSet",
   "description": "BACnet WebSocket Options",
   "oneOf": [

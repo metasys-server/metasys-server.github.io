@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/secSysDoorPvEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/secSysDoorPvEnumSet.schema.json",
   "title": "secSysDoorPvEnumSet",
   "description": "Security System Secured Door Present Value",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/hlrShortViewStringsEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/hlrShortViewStringsEnumSet.schema.json",
   "title": "hlrShortViewStringsEnumSet",
   "description": "HLR Short View Strings",
   "oneOf": [

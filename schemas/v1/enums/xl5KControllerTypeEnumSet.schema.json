@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/xl5KControllerTypeEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/xl5KControllerTypeEnumSet.schema.json",
   "title": "xl5KControllerTypeEnumSet",
   "description": "XL5K Controller Type",
   "oneOf": [

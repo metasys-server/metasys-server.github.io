@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/tecZcBiConfigEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/tecZcBiConfigEnumSet.schema.json",
   "title": "tecZcBiConfigEnumSet",
   "description": "TEC ZC BI Config",
   "oneOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/occmode4StatesEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/occmode4StatesEnumSet.schema.json",
   "title": "occmode4StatesEnumSet",
   "description": "Occ Mode 4 States",
   "oneOf": [

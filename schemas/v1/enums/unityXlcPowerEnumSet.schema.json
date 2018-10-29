@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/unityXlcPowerEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/unityXlcPowerEnumSet.schema.json",
   "title": "unityXlcPowerEnumSet",
   "description": "Unity XLC Power",
   "oneOf": [

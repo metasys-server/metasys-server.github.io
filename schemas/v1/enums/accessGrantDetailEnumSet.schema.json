@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/accessGrantDetailEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/accessGrantDetailEnumSet.schema.json",
   "title": "accessGrantDetailEnumSet",
   "description": "Access Grant Detail",
   "oneOf": [

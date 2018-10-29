@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://metasys-server.github.io/schemas/enums/heatingDeliveryMethodEnumSet.schema.json",
+  "$id": "https://metasys-server.github.io/schemas/v1/enums/heatingDeliveryMethodEnumSet.schema.json",
   "title": "heatingDeliveryMethodEnumSet",
   "description": "Heating Delivery Method",
   "oneOf": [
