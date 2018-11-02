@@ -38,6 +38,9 @@
         "rotationRotateNow"
       ],
       "description": "Rotate Now"
+    },
+    {
+      "type": "null"
     }
   ]
 }

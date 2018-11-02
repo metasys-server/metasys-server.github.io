@@ -52,6 +52,9 @@
         "localControlPort"
       ],
       "description": "Local Control Port"
+    },
+    {
+      "type": "null"
     }
   ]
 }

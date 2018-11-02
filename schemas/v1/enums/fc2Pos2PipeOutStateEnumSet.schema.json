@@ -73,6 +73,9 @@
         "tppFailsoftHtg"
       ],
       "description": "Failsoft Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

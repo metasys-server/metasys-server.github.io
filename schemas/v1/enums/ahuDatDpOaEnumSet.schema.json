@@ -45,6 +45,9 @@
         "addoTempUnreliable"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

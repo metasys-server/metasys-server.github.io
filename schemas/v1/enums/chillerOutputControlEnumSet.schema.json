@@ -52,6 +52,9 @@
         "cocHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

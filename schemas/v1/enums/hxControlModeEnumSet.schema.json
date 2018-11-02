@@ -24,6 +24,9 @@
         "temperatureDifferential"
       ],
       "description": "Temperature Differential"
+    },
+    {
+      "type": "null"
     }
   ]
 }

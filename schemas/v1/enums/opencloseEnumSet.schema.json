@@ -24,6 +24,9 @@
         "opencloseHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

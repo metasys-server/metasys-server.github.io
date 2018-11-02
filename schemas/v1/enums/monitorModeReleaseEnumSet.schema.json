@@ -17,6 +17,9 @@
         "monitorModeReleaseAfterTimer"
       ],
       "description": "Release After Min Shed Time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "uiFanMultiOverQuiet"
       ],
       "description": "Quiet"
+    },
+    {
+      "type": "null"
     }
   ]
 }

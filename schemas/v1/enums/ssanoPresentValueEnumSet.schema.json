@@ -17,6 +17,9 @@
         "ssanoPvSilence"
       ],
       "description": "Silence"
+    },
+    {
+      "type": "null"
     }
   ]
 }

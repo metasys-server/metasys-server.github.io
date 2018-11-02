@@ -59,6 +59,9 @@
         "connectorSio8Output8"
       ],
       "description": "OUTPUT 8 NO / NC"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -80,6 +80,9 @@
         "seRtuRefrigerantTypeN"
       ],
       "description": "n"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "hdrDdDedicated"
       ],
       "description": "Dedicated"
+    },
+    {
+      "type": "null"
     }
   ]
 }

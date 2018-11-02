@@ -2068,6 +2068,9 @@
         "bacEventHighCpuUsage"
       ],
       "description": "High CPU Usage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

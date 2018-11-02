@@ -73,6 +73,9 @@
         "seSysConCool2Heat"
       ],
       "description": "Cool To Heat Delay"
+    },
+    {
+      "type": "null"
     }
   ]
 }

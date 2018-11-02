@@ -38,6 +38,9 @@
         "s300HwUpgrading"
       ],
       "description": "Upgrading"
+    },
+    {
+      "type": "null"
     }
   ]
 }

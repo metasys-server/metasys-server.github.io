@@ -17,6 +17,9 @@
         "pvType1"
       ],
       "description": "Pressure"
+    },
+    {
+      "type": "null"
     }
   ]
 }

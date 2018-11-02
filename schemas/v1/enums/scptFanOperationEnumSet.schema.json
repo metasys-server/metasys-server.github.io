@@ -45,6 +45,9 @@
         "hvfNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

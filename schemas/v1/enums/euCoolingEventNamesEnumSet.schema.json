@@ -66,6 +66,9 @@
         "euCoolingEventNames9"
       ],
       "description": "Chiller 8 Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

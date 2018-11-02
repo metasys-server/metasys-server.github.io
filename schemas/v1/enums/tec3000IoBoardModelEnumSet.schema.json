@@ -24,6 +24,9 @@
         "tec3000IoBoardModelBoard3"
       ],
       "description": "Board 3"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "ltcLegacyDataSource1"
       ],
       "description": "Frozen Data"
+    },
+    {
+      "type": "null"
     }
   ]
 }

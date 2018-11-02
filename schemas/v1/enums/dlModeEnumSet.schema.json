@@ -17,6 +17,9 @@
         "dlMonitorOnly"
       ],
       "description": "DL Monitor Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

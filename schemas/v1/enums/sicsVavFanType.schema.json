@@ -24,6 +24,9 @@
         "vavFtSeries"
       ],
       "description": "Series"
+    },
+    {
+      "type": "null"
     }
   ]
 }

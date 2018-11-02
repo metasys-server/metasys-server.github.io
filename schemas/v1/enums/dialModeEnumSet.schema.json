@@ -17,6 +17,9 @@
         "sdlPulse"
       ],
       "description": "Pulse"
+    },
+    {
+      "type": "null"
     }
   ]
 }

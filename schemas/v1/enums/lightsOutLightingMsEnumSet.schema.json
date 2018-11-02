@@ -17,6 +17,9 @@
         "lightsOutLightingLighting"
       ],
       "description": "Lighting"
+    },
+    {
+      "type": "null"
     }
   ]
 }

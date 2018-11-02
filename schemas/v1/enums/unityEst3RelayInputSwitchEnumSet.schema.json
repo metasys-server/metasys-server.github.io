@@ -73,6 +73,9 @@
         "9"
       ],
       "description": "OFF, HIGH"
+    },
+    {
+      "type": "null"
     }
   ]
 }

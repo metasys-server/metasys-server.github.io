@@ -612,6 +612,9 @@
         "almCondExt276"
       ],
       "description": "Old RTU found, Smart Equipment board expected"
+    },
+    {
+      "type": "null"
     }
   ]
 }

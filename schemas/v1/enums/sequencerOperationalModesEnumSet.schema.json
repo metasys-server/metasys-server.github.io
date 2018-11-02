@@ -24,6 +24,9 @@
         "seqVernierMode"
       ],
       "description": "Vernier"
+    },
+    {
+      "type": "null"
     }
   ]
 }

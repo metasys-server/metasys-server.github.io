@@ -17,6 +17,9 @@
         "notConnectedConnectedConnected"
       ],
       "description": "Connected"
+    },
+    {
+      "type": "null"
     }
   ]
 }

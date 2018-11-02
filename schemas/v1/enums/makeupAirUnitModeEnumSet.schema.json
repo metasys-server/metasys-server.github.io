@@ -24,6 +24,9 @@
         "makeupAirUnitMode2"
       ],
       "description": "Makeup Air Ventilation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

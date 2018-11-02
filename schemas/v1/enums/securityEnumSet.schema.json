@@ -24,6 +24,9 @@
         "highSecurity"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

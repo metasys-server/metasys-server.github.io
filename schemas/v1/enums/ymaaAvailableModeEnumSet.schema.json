@@ -24,6 +24,9 @@
         "ymaaAvailableMode2"
       ],
       "description": "Heat Recovery"
+    },
+    {
+      "type": "null"
     }
   ]
 }

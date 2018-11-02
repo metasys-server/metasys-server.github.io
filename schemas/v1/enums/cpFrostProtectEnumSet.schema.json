@@ -31,6 +31,9 @@
         "cpFrostProtectLowOatAndLowZone"
       ],
       "description": "Low OAT and Low Zone"
+    },
+    {
+      "type": "null"
     }
   ]
 }

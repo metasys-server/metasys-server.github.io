@@ -24,6 +24,9 @@
         "afSeqRfEfFirst"
       ],
       "description": "RF/EF First"
+    },
+    {
+      "type": "null"
     }
   ]
 }

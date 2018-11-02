@@ -45,6 +45,9 @@
         "connectorRdr2SInputIn02"
       ],
       "description": "IN02"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "verasysHeatTypeScr"
       ],
       "description": "Proportional SCR"
+    },
+    {
+      "type": "null"
     }
   ]
 }

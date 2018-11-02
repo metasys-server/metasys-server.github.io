@@ -24,6 +24,9 @@
         "lonrouterTempBridge"
       ],
       "description": "Temporary Bridge"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "usTempUnrel"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

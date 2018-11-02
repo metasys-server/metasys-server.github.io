@@ -24,6 +24,9 @@
         "stgupStgdownStageDown"
       ],
       "description": "Stage Down"
+    },
+    {
+      "type": "null"
     }
   ]
 }

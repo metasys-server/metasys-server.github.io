@@ -66,6 +66,9 @@
         "endTimeFilter"
       ],
       "description": "End Time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

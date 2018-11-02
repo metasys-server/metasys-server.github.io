@@ -45,6 +45,9 @@
         "verasysZoningSystemStateMissingBypassDamper"
       ],
       "description": "Missing Bypass Damper"
+    },
+    {
+      "type": "null"
     }
   ]
 }

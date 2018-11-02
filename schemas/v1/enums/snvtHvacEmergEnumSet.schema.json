@@ -52,6 +52,9 @@
         "emergNull"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -626,6 +626,9 @@
         "logCertUploadError"
       ],
       "description": "Certificate Upload Process Failed On Device"
+    },
+    {
+      "type": "null"
     }
   ]
 }

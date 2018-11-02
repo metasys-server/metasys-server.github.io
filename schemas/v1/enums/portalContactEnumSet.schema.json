@@ -31,6 +31,9 @@
         "portalContactUnknown"
       ],
       "description": "Unknown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

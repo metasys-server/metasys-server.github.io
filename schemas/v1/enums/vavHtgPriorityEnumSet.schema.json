@@ -17,6 +17,9 @@
         "vhpBox"
       ],
       "description": "Box"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -122,6 +122,9 @@
         "tec3000DetailedControlStatusHeatingUnavailableDueToControlMode"
       ],
       "description": "Heating Unavailable due to Control Mode"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "stcChillerHeatpumpMode1"
       ],
       "description": "Heatpump"
+    },
+    {
+      "type": "null"
     }
   ]
 }

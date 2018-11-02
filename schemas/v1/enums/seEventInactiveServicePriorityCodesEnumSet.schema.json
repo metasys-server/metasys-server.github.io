@@ -248,6 +248,9 @@
         "seEventInactiveServicePriorityCode132"
       ],
       "description": "Entering Water Temp Sensor Failure"
+    },
+    {
+      "type": "null"
     }
   ]
 }

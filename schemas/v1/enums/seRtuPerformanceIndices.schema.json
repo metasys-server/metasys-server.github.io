@@ -52,6 +52,9 @@
         "seRtuPerformanceIndicesCoa"
       ],
       "description": "COA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

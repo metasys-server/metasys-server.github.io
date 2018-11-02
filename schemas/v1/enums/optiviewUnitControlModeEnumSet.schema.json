@@ -24,6 +24,9 @@
         "optiviewUnitControlMode2"
       ],
       "description": "Cooling & Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

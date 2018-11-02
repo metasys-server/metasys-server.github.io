@@ -45,6 +45,9 @@
         "humidityStatesDehumUnrel"
       ],
       "description": "Dehumid Sensor Unrel"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "heatingDeliveryMethodRadiator"
       ],
       "description": "Radiator"
+    },
+    {
+      "type": "null"
     }
   ]
 }

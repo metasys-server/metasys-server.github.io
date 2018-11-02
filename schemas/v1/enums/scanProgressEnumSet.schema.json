@@ -24,6 +24,9 @@
         "scanComplete"
       ],
       "description": "Complete"
+    },
+    {
+      "type": "null"
     }
   ]
 }

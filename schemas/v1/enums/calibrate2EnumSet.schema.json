@@ -24,6 +24,9 @@
         "calibrateCalibrateToCalResistor"
       ],
       "description": "Calibrate to Cal Resistor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

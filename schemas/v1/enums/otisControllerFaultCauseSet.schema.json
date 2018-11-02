@@ -24,6 +24,9 @@
         "otisControllerFaultCauseTask"
       ],
       "description": "Task"
+    },
+    {
+      "type": "null"
     }
   ]
 }

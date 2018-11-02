@@ -31,6 +31,9 @@
         "zntNetworkWithHardware"
       ],
       "description": "Network With Hardware Backup"
+    },
+    {
+      "type": "null"
     }
   ]
 }

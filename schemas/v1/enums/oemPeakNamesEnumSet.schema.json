@@ -4448,6 +4448,9 @@
         "oemPeakNames635"
       ],
       "description": "Input 2 Scaled Value"
+    },
+    {
+      "type": "null"
     }
   ]
 }

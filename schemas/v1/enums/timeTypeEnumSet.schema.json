@@ -17,6 +17,9 @@
         "timeTypeLocalTime"
       ],
       "description": "Local Time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

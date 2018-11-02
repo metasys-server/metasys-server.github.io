@@ -31,6 +31,9 @@
         "lcFailedToSynchronize"
       ],
       "description": "Failed To Synchronize"
+    },
+    {
+      "type": "null"
     }
   ]
 }

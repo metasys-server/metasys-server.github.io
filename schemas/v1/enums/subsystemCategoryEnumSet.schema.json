@@ -31,6 +31,9 @@
         "otherTypes"
       ],
       "description": "Other Types"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "deleteAll"
       ],
       "description": "Delete All"
+    },
+    {
+      "type": "null"
     }
   ]
 }

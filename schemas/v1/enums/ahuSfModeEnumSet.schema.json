@@ -38,6 +38,9 @@
         "asmSPControl"
       ],
       "description": "S-P Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

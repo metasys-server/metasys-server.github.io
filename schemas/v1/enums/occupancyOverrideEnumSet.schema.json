@@ -38,6 +38,9 @@
         "occupancyOverrideNotSet"
       ],
       "description": "Not Set"
+    },
+    {
+      "type": "null"
     }
   ]
 }

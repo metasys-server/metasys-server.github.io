@@ -31,6 +31,9 @@
         "ahuTpdEmergencyOpen"
       ],
       "description": "Emergency Open"
+    },
+    {
+      "type": "null"
     }
   ]
 }

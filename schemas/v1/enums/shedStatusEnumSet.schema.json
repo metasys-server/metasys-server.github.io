@@ -38,6 +38,9 @@
         "shedStatusLrReleaseIssued"
       ],
       "description": "Shed For LR - Release Issued"
+    },
+    {
+      "type": "null"
     }
   ]
 }

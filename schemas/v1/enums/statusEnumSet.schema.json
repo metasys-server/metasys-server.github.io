@@ -4343,6 +4343,9 @@
         "invalidValueInThisState"
       ],
       "description": "The value specified is invalid in this state."
+    },
+    {
+      "type": "null"
     }
   ]
 }

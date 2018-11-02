@@ -24,6 +24,9 @@
         "seRtuDcvModeDiffBetweenIaqAndOaq"
       ],
       "description": "Diff between IAQ and OAQ"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -220,6 +220,9 @@
         "stcYcxsOpCode30"
       ],
       "description": "RESERVED 30"
+    },
+    {
+      "type": "null"
     }
   ]
 }

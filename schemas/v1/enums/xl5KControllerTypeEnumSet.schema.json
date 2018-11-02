@@ -66,6 +66,9 @@
         "vndZoneManager"
       ],
       "description": "Zone Manager"
+    },
+    {
+      "type": "null"
     }
   ]
 }

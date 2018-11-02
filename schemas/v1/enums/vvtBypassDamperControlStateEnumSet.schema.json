@@ -38,6 +38,9 @@
         "vvtBypassDamperControlStateCtrl"
       ],
       "description": "SP Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

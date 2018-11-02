@@ -24,6 +24,9 @@
         "controllerTemplateIpJciDevice"
       ],
       "description": "JCI Family IP BACnet Device"
+    },
+    {
+      "type": "null"
     }
   ]
 }

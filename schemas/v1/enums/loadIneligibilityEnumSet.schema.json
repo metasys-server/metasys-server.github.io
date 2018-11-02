@@ -94,6 +94,9 @@
         "loadIneliLoadDisabled"
       ],
       "description": "Load is disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

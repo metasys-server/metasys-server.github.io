@@ -31,6 +31,9 @@
         "calendarRefParm"
       ],
       "description": "Calendar Ref"
+    },
+    {
+      "type": "null"
     }
   ]
 }

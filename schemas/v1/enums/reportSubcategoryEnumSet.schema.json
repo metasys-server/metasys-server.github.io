@@ -101,6 +101,9 @@
         "reportSubcategoryPhotovoltaic"
       ],
       "description": "Photovoltaic"
+    },
+    {
+      "type": "null"
     }
   ]
 }

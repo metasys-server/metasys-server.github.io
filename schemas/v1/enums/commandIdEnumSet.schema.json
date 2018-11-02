@@ -2236,6 +2236,9 @@
         "scheduleSwitchoverCommand"
       ],
       "description": "Apply Staged Files"
+    },
+    {
+      "type": "null"
     }
   ]
 }

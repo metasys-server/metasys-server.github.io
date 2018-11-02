@@ -17,6 +17,9 @@
         "plotMethodDiscrete"
       ],
       "description": "Discrete"
+    },
+    {
+      "type": "null"
     }
   ]
 }

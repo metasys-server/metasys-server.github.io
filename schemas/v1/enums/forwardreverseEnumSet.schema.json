@@ -17,6 +17,9 @@
         "fwdRevReverse"
       ],
       "description": "Reverse"
+    },
+    {
+      "type": "null"
     }
   ]
 }

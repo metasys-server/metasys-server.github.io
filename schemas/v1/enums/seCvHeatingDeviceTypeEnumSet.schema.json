@@ -24,6 +24,9 @@
         "seCvHeatingDeviceTypeEnumSet2"
       ],
       "description": "Staged"
+    },
+    {
+      "type": "null"
     }
   ]
 }

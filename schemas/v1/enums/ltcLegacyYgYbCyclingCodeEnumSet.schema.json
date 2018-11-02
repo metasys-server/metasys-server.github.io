@@ -241,6 +241,9 @@
         "ltcLegacyYgYbCyclingCode33"
       ],
       "description": "24 VOLT DC POWER FAULT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

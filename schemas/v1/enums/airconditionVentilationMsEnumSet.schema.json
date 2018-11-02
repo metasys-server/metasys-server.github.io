@@ -17,6 +17,9 @@
         "airconditionVentilationVentilation"
       ],
       "description": "Ventilation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

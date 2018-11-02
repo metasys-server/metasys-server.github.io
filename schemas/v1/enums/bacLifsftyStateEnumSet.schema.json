@@ -171,6 +171,9 @@
         "lifesftyStateTestSupervisory"
       ],
       "description": "Test Supervisory"
+    },
+    {
+      "type": "null"
     }
   ]
 }

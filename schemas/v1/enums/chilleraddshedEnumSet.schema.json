@@ -45,6 +45,9 @@
         "casStageDown"
       ],
       "description": "Stage Down"
+    },
+    {
+      "type": "null"
     }
   ]
 }

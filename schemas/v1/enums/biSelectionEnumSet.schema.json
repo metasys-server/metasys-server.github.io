@@ -45,6 +45,9 @@
         "biSelectionOpenClose"
       ],
       "description": "Open/Close"
+    },
+    {
+      "type": "null"
     }
   ]
 }

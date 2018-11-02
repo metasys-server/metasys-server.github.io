@@ -17,6 +17,9 @@
         "binaryNumericValueOne"
       ],
       "description": "1"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "tec3000FanMode2High"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

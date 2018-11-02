@@ -17,6 +17,9 @@
         "seRtuHighSidePortDischarge"
       ],
       "description": "Discharge"
+    },
+    {
+      "type": "null"
     }
   ]
 }

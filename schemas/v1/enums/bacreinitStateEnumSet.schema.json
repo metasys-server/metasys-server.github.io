@@ -59,6 +59,9 @@
         "bacreinitActivatechanges"
       ],
       "description": "Activate Changes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

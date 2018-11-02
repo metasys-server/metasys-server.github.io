@@ -332,6 +332,9 @@
         "twoToThreeStateMappingLowNormal"
       ],
       "description": "611"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -59,6 +59,9 @@
         "connectorRdr8SReader8Data0Data1"
       ],
       "description": "Reader 8 Data 0 / Data 1"
+    },
+    {
+      "type": "null"
     }
   ]
 }

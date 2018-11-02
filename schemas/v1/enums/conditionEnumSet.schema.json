@@ -24,6 +24,9 @@
         "matchComplex"
       ],
       "description": "Complex"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "bacnetDirectoryModeBoth"
       ],
       "description": "Both"
+    },
+    {
+      "type": "null"
     }
   ]
 }

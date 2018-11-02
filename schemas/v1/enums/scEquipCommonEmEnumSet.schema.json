@@ -318,6 +318,9 @@
         "scEquipBacnetDeviceName"
       ],
       "description": "BACnet Device Name"
+    },
+    {
+      "type": "null"
     }
   ]
 }

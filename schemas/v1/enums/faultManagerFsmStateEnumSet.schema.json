@@ -24,6 +24,9 @@
         "faultManagerFsmStateLockout"
       ],
       "description": "Lockout"
+    },
+    {
+      "type": "null"
     }
   ]
 }

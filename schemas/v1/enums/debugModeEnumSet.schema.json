@@ -24,6 +24,9 @@
         "debugInputsAllowed"
       ],
       "description": "Inputs Allowed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

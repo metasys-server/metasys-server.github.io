@@ -31,6 +31,9 @@
         "ls3AfterHoursUnocc"
       ],
       "description": "After Hours - Unoccupied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

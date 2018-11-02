@@ -17,6 +17,9 @@
         "normalFullwaterFullwater"
       ],
       "description": "Full Water"
+    },
+    {
+      "type": "null"
     }
   ]
 }

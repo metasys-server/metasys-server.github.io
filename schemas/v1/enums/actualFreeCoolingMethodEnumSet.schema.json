@@ -31,6 +31,9 @@
         "actualUnreliable"
       ],
       "description": "Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

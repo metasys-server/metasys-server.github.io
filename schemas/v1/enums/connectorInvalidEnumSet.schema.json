@@ -10,6 +10,9 @@
         "connectorInvalid"
       ],
       "description": "Invalid"
+    },
+    {
+      "type": "null"
     }
   ]
 }

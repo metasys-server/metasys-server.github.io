@@ -1137,6 +1137,9 @@
         "auroraLongNames162"
       ],
       "description": "ACB-2 H - Humidification Input"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -129,6 +129,9 @@
         "17"
       ],
       "description": "ON, Channel 8"
+    },
+    {
+      "type": "null"
     }
   ]
 }

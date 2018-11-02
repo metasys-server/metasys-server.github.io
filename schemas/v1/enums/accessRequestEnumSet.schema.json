@@ -24,6 +24,9 @@
         "accessRequestGrantAlternate"
       ],
       "description": "Grant Alternate"
+    },
+    {
+      "type": "null"
     }
   ]
 }

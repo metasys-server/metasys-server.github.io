@@ -311,6 +311,9 @@
         "ltcLegacyYpcSafetyCode43"
       ],
       "description": "SOL'N LVL/SOL'N OVERLOADS"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "effectiveOccupancyStandby"
       ],
       "description": "Standby"
+    },
+    {
+      "type": "null"
     }
   ]
 }

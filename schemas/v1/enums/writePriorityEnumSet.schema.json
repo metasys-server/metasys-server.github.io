@@ -122,6 +122,9 @@
         "priorityDefault"
       ],
       "description": "16 (Default)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "dac"
       ],
       "description": "DAC"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "devDiscColumnMapped"
       ],
       "description": "Mapped"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -115,6 +115,9 @@
         "chillerTypeP"
       ],
       "description": "Type P"
+    },
+    {
+      "type": "null"
     }
   ]
 }

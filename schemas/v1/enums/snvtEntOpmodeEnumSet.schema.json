@@ -129,6 +129,9 @@
         "emNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "binaryInputPolarityNormallyOpen"
       ],
       "description": "Normally Open"
+    },
+    {
+      "type": "null"
     }
   ]
 }

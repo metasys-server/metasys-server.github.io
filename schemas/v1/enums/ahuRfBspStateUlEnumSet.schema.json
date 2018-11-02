@@ -38,6 +38,9 @@
         "ahuRfbspStateulFailsoft"
       ],
       "description": "Failsoft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "pasWaitingToShed"
       ],
       "description": "Waiting to Shed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

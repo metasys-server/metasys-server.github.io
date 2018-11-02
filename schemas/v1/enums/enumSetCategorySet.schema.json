@@ -17,6 +17,9 @@
         "multistateEnumSetCategory"
       ],
       "description": "Multi State"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -66,6 +66,9 @@
         "sdlToDisconnecting"
       ],
       "description": "Disconnecting"
+    },
+    {
+      "type": "null"
     }
   ]
 }

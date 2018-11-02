@@ -31,6 +31,9 @@
         "usDepartmentOfTransportation"
       ],
       "description": "U.S. Department of Transportation (DOT) Federal Aviation Administration (FAA) Warning Banner"
+    },
+    {
+      "type": "null"
     }
   ]
 }

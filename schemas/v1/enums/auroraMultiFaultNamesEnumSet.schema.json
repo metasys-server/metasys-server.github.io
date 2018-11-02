@@ -297,6 +297,9 @@
         "auroraMultiFaultNames42"
       ],
       "description": "ACB-2_E20 = UPC Loss of Comm to ABC"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "ykBearingTempProtection2"
       ],
       "description": "VSD Thermistor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -52,6 +52,9 @@
         "csOverridden"
       ],
       "description": "Overridden"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "myAddressInTokenRing"
       ],
       "description": "My Address In Token Ring"
+    },
+    {
+      "type": "null"
     }
   ]
 }

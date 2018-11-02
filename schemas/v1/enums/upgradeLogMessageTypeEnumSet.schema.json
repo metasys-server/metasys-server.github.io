@@ -24,6 +24,9 @@
         "upgradeLogMessageTypeError"
       ],
       "description": "Error"
+    },
+    {
+      "type": "null"
     }
   ]
 }

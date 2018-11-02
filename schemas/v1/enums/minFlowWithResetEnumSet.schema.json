@@ -31,6 +31,9 @@
         "minflWarmupCooldown"
       ],
       "description": "Warmup/Cooldown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

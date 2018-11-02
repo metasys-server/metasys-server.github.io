@@ -45,6 +45,9 @@
         "dsIncrementalReplace"
       ],
       "description": "Incremental Replace"
+    },
+    {
+      "type": "null"
     }
   ]
 }

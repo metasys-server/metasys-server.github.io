@@ -31,6 +31,9 @@
         "comUssUnoccupiedOff"
       ],
       "description": "Unoccupied Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "rctTec"
       ],
       "description": "TEC"
+    },
+    {
+      "type": "null"
     }
   ]
 }

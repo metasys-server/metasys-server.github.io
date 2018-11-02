@@ -136,6 +136,9 @@
         "hvacModeHvacNull"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "ahheLlTControl"
       ],
       "description": "LL-T Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

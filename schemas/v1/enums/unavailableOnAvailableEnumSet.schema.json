@@ -24,6 +24,9 @@
         "uaaAvailable"
       ],
       "description": "Available"
+    },
+    {
+      "type": "null"
     }
   ]
 }

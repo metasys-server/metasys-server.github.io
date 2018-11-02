@@ -38,6 +38,9 @@
         "optiviewUnitCtrlSrcModem"
       ],
       "description": "Modem"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -836,6 +836,9 @@
         "dmNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

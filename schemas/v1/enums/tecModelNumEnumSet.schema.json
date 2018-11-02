@@ -157,6 +157,9 @@
         "255"
       ],
       "description": "NULL"
+    },
+    {
+      "type": "null"
     }
   ]
 }

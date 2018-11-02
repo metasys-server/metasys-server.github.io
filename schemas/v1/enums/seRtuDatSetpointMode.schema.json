@@ -38,6 +38,9 @@
         "seRtuDatSetpointModeExternal"
       ],
       "description": "External"
+    },
+    {
+      "type": "null"
     }
   ]
 }

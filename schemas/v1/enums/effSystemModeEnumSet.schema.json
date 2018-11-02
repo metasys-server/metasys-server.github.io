@@ -38,6 +38,9 @@
         "esmAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

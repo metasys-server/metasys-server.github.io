@@ -94,6 +94,9 @@
         "monthAll"
       ],
       "description": "Any"
+    },
+    {
+      "type": "null"
     }
   ]
 }

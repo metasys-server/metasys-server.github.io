@@ -171,6 +171,9 @@
         "seEconSelftestDeviceStateFailFail"
       ],
       "description": "Fail-Fail"
+    },
+    {
+      "type": "null"
     }
   ]
 }

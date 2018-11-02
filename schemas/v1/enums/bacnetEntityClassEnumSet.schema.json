@@ -87,6 +87,9 @@
         "bacnetEntityProxiedNlDeviceGroup"
       ],
       "description": "Proxied NL Device Group"
+    },
+    {
+      "type": "null"
     }
   ]
 }

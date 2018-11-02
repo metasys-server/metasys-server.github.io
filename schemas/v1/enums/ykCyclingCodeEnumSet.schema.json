@@ -689,6 +689,9 @@
         "129"
       ],
       "description": "VSD / MVVSD - Input Power Supply"
+    },
+    {
+      "type": "null"
     }
   ]
 }

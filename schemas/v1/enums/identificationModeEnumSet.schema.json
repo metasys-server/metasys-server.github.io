@@ -24,6 +24,9 @@
         "identificationModeTrackingOnly"
       ],
       "description": "Tracking Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

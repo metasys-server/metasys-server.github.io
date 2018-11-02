@@ -17,6 +17,9 @@
         "bpProtect"
       ],
       "description": "Protect"
+    },
+    {
+      "type": "null"
     }
   ]
 }

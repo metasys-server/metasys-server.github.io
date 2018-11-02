@@ -584,6 +584,9 @@
         "yrSc382"
       ],
       "description": "RESERVED 82"
+    },
+    {
+      "type": "null"
     }
   ]
 }

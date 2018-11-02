@@ -45,6 +45,9 @@
         "reportCategoryFacilityEnergyProduction"
       ],
       "description": "Facility Energy Production"
+    },
+    {
+      "type": "null"
     }
   ]
 }

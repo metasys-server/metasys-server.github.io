@@ -52,6 +52,9 @@
         "acsHCtrl"
       ],
       "description": "H Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

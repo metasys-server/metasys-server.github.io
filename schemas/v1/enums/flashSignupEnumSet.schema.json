@@ -17,6 +17,9 @@
         "flashSignup"
       ],
       "description": "Signup"
+    },
+    {
+      "type": "null"
     }
   ]
 }

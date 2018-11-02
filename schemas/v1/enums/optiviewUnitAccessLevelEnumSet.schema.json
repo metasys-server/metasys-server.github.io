@@ -45,6 +45,9 @@
         "optiviewUnitAccLvlReserved5"
       ],
       "description": "Reserved 5"
+    },
+    {
+      "type": "null"
     }
   ]
 }

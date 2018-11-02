@@ -17,6 +17,9 @@
         "dshFsmSupp"
       ],
       "description": "Supplemental"
+    },
+    {
+      "type": "null"
     }
   ]
 }

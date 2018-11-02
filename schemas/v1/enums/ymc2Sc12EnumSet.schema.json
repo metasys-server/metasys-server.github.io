@@ -45,6 +45,9 @@
         "ymc2Sc125"
       ],
       "description": "VSD - HIGH INPUT CURRENT LIMIT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

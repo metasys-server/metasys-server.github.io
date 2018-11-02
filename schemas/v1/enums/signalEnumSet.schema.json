@@ -381,6 +381,9 @@
         "signalPulseWidthModulated"
       ],
       "description": "Pulse Width Modulated"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "koneBaudRate1200"
       ],
       "description": "1200"
+    },
+    {
+      "type": "null"
     }
   ]
 }

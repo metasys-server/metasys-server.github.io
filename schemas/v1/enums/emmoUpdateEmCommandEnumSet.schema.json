@@ -17,6 +17,9 @@
         "emmoUpdateEmCommandLoad"
       ],
       "description": "Load Equipment Model"
+    },
+    {
+      "type": "null"
     }
   ]
 }

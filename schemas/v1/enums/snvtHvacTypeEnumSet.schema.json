@@ -80,6 +80,9 @@
         "255"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

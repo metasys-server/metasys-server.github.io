@@ -45,6 +45,9 @@
         "orLast"
       ],
       "description": "Last"
+    },
+    {
+      "type": "null"
     }
   ]
 }

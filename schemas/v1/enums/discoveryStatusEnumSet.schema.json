@@ -38,6 +38,9 @@
         "discoveryCanNotStart"
       ],
       "description": "Discovery Can Not Start"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "zoneDamperCntlrTypeVav"
       ],
       "description": "VAV"
+    },
+    {
+      "type": "null"
     }
   ]
 }

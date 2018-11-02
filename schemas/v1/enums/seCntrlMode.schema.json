@@ -24,6 +24,9 @@
         "seCntrlModeUnrelSensor"
       ],
       "description": "Unreliable Sensor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

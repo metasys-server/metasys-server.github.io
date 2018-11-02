@@ -500,6 +500,9 @@
         "oemAlarmNames71"
       ],
       "description": "Drain Valve Close Failure"
+    },
+    {
+      "type": "null"
     }
   ]
 }

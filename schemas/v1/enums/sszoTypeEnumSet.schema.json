@@ -24,6 +24,9 @@
         "sszoTDelayedZone"
       ],
       "description": "Delayed Zone"
+    },
+    {
+      "type": "null"
     }
   ]
 }

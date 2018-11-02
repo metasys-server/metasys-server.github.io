@@ -38,6 +38,9 @@
         "pidTuningReset4th"
       ],
       "description": "Reset 4th PID"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -59,6 +59,9 @@
         "anyDay"
       ],
       "description": "Any day of week"
+    },
+    {
+      "type": "null"
     }
   ]
 }

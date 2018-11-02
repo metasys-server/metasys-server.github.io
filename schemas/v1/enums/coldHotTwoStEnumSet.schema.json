@@ -24,6 +24,9 @@
         "coldHotTsHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

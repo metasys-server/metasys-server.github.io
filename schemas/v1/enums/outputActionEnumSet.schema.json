@@ -17,6 +17,9 @@
         "incrementalMode"
       ],
       "description": "Incremental"
+    },
+    {
+      "type": "null"
     }
   ]
 }

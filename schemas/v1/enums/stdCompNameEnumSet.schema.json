@@ -68358,6 +68358,9 @@
         "scn6WayValveControl"
       ],
       "description": "6-Way Valve Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

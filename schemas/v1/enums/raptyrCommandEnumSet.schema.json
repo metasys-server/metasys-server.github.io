@@ -45,6 +45,9 @@
         "raptyrCmdRaptyrSoftShutdown"
       ],
       "description": "Soft Shutdown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

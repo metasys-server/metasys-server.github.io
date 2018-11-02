@@ -45,6 +45,9 @@
         "5"
       ],
       "description": "COS"
+    },
+    {
+      "type": "null"
     }
   ]
 }

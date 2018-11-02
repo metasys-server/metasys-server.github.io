@@ -31,6 +31,9 @@
         "bacGrantDirectionToggle"
       ],
       "description": "Access toggled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

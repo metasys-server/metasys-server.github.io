@@ -38,6 +38,9 @@
         "extensionViewType"
       ],
       "description": "Extension View"
+    },
+    {
+      "type": "null"
     }
   ]
 }

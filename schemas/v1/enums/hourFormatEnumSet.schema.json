@@ -17,6 +17,9 @@
         "hourFormat24Hour"
       ],
       "description": "24 Hour"
+    },
+    {
+      "type": "null"
     }
   ]
 }

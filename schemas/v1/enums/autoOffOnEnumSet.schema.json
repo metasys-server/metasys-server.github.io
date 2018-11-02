@@ -24,6 +24,9 @@
         "2"
       ],
       "description": "On"
+    },
+    {
+      "type": "null"
     }
   ]
 }

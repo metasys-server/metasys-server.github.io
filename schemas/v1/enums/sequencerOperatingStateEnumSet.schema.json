@@ -52,6 +52,9 @@
         "boSeqStagingDownMinimumOnDelay"
       ],
       "description": "Staging Down, Minimum On Delay"
+    },
+    {
+      "type": "null"
     }
   ]
 }

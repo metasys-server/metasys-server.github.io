@@ -24,6 +24,9 @@
         "sphStopbits2"
       ],
       "description": "2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

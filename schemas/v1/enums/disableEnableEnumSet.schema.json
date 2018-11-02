@@ -17,6 +17,9 @@
         "disenEnable"
       ],
       "description": "Enable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

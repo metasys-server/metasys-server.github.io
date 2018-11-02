@@ -17,6 +17,9 @@
         "bufferFull"
       ],
       "description": "Buffer Full"
+    },
+    {
+      "type": "null"
     }
   ]
 }

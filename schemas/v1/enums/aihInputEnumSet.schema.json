@@ -24,6 +24,9 @@
         "voltageInputType"
       ],
       "description": "Voltage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

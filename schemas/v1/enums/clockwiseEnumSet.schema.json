@@ -24,6 +24,9 @@
         "clockwiseHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

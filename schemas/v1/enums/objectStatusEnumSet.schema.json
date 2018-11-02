@@ -255,6 +255,9 @@
         "osMaxObjectStatus"
       ],
       "description": "Max"
+    },
+    {
+      "type": "null"
     }
   ]
 }

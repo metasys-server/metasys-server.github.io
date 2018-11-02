@@ -17,6 +17,9 @@
         "ilkpointEquip"
       ],
       "description": "Equipment Point"
+    },
+    {
+      "type": "null"
     }
   ]
 }

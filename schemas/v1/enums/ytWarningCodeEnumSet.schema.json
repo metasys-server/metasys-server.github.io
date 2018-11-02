@@ -108,6 +108,9 @@
         "19"
       ],
       "description": "Harmonic Filter - Input Frequency Out Of Range"
+    },
+    {
+      "type": "null"
     }
   ]
 }

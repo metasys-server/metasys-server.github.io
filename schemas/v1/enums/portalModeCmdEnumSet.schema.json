@@ -31,6 +31,9 @@
         "portalModeCmdLockdown"
       ],
       "description": "Lockdown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "tecStagesTwo"
       ],
       "description": "Two Stage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

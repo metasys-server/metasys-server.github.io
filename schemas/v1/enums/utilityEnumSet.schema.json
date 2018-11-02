@@ -150,6 +150,9 @@
         "utility6FuelOil"
       ],
       "description": "#6 Fuel Oil"
+    },
+    {
+      "type": "null"
     }
   ]
 }

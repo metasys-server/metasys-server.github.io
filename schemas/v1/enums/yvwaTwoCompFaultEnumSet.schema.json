@@ -444,6 +444,9 @@
         "yvwaTwoCompFault62"
       ],
       "description": "RESERVED 62"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "oemDatControlMode4"
       ],
       "description": "Room Air Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

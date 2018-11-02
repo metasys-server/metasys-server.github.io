@@ -31,6 +31,9 @@
         "rotBoth"
       ],
       "description": "Both"
+    },
+    {
+      "type": "null"
     }
   ]
 }

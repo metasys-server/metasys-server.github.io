@@ -10622,6 +10622,9 @@
         "dmAttrPresenceDetector"
       ],
       "description": "Presence Detector"
+    },
+    {
+      "type": "null"
     }
   ]
 }

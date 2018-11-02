@@ -94,6 +94,9 @@
         "seRtuUnitStatusStartupDelay"
       ],
       "description": "Startup Delay"
+    },
+    {
+      "type": "null"
     }
   ]
 }

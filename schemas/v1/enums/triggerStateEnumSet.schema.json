@@ -31,6 +31,9 @@
         "triggerStateTriggered"
       ],
       "description": "Triggered"
+    },
+    {
+      "type": "null"
     }
   ]
 }

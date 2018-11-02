@@ -45,6 +45,9 @@
         "ahuRfVSFailsoft"
       ],
       "description": "Failsoft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

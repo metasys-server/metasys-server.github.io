@@ -66,6 +66,9 @@
         "ahuzusTemperatureUnreliable"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

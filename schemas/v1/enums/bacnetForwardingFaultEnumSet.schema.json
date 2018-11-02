@@ -45,6 +45,9 @@
         "bacnetForwardingFaultNoConnection"
       ],
       "description": "No Connection"
+    },
+    {
+      "type": "null"
     }
   ]
 }

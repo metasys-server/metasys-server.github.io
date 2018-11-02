@@ -17,6 +17,9 @@
         "t8800TemperatureDisplaySetpoint"
       ],
       "description": "Setpoint"
+    },
+    {
+      "type": "null"
     }
   ]
 }

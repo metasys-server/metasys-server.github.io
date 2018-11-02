@@ -17,6 +17,9 @@
         "coilLocSepHeating"
       ],
       "description": "Separate from Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

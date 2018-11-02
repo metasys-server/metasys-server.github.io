@@ -38,6 +38,9 @@
         "diagnosticAuditClass"
       ],
       "description": "Diagnostic"
+    },
+    {
+      "type": "null"
     }
   ]
 }

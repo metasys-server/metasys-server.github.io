@@ -192,6 +192,9 @@
         "lpsPriorityMismatch"
       ],
       "description": "Priority Mismatch"
+    },
+    {
+      "type": "null"
     }
   ]
 }

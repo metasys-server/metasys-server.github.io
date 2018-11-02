@@ -87,6 +87,9 @@
         "11"
       ],
       "description": "Test Off-Manual On-Open"
+    },
+    {
+      "type": "null"
     }
   ]
 }

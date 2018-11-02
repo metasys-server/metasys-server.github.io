@@ -59,6 +59,9 @@
         "auditEndTimeFilter"
       ],
       "description": "End Time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

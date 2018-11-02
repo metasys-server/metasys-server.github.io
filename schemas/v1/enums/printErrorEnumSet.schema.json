@@ -66,6 +66,9 @@
         "prntOutOfMemory"
       ],
       "description": "Out of Memory"
+    },
+    {
+      "type": "null"
     }
   ]
 }

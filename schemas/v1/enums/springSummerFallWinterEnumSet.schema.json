@@ -31,6 +31,9 @@
         "springSummerFallWinterWinter"
       ],
       "description": "Winter"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "t8800EffectiveInputInternalSensor"
       ],
       "description": "Internal Sensor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

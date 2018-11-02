@@ -31,6 +31,9 @@
         "ashocControlUnreliable"
       ],
       "description": "Control Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

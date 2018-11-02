@@ -17,6 +17,9 @@
         "na2Alarm"
       ],
       "description": "Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "portalStatusNotificationNone"
       ],
       "description": "None"
+    },
+    {
+      "type": "null"
     }
   ]
 }

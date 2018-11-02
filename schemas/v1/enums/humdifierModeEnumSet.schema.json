@@ -31,6 +31,9 @@
         "humdifierModeEnumSet3"
       ],
       "description": "PI Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -59,6 +59,9 @@
         "dmcsAtc"
       ],
       "description": "ATC"
+    },
+    {
+      "type": "null"
     }
   ]
 }

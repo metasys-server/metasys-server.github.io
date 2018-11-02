@@ -17,6 +17,9 @@
         "taskNotResponding"
       ],
       "description": "Task Not Responding"
+    },
+    {
+      "type": "null"
     }
   ]
 }

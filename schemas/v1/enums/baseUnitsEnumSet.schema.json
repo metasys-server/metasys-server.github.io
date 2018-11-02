@@ -24,6 +24,9 @@
         "siEurUnits"
       ],
       "description": "SI Eur Units"
+    },
+    {
+      "type": "null"
     }
   ]
 }

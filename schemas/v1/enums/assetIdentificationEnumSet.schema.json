@@ -24,6 +24,9 @@
         "unaccompaniedAssetDecreaseOnly"
       ],
       "description": "Unaccompanied Asset Decrease Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "falsetrueHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

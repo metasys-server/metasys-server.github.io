@@ -17,6 +17,9 @@
         "nco2Co2"
       ],
       "description": "CO2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

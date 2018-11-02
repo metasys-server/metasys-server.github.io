@@ -31,6 +31,9 @@
         "bit3"
       ],
       "description": "Bit 3"
+    },
+    {
+      "type": "null"
     }
   ]
 }

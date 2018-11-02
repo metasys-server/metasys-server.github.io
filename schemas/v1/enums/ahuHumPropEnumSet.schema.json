@@ -24,6 +24,9 @@
         "ahpLmtHControl"
       ],
       "description": "Limited H Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

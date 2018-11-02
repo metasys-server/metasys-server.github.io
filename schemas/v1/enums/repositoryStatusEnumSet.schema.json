@@ -45,6 +45,9 @@
         "repStatusBadRelease"
       ],
       "description": "Incompatible Release"
+    },
+    {
+      "type": "null"
     }
   ]
 }

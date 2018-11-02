@@ -24,6 +24,9 @@
         "mzZnModeOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

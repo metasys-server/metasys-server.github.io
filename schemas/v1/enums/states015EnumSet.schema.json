@@ -115,6 +115,9 @@
         "state1515"
       ],
       "description": "State 15"
+    },
+    {
+      "type": "null"
     }
   ]
 }

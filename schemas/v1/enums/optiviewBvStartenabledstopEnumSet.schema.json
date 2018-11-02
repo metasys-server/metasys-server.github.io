@@ -17,6 +17,9 @@
         "optiviewBvStartenabledstop1"
       ],
       "description": "Stop"
+    },
+    {
+      "type": "null"
     }
   ]
 }

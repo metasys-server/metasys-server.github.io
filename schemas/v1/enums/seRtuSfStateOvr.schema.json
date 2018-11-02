@@ -87,6 +87,9 @@
         "seSfStSzVavControl"
       ],
       "description": "SZ VAV Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

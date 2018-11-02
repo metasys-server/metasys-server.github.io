@@ -24,6 +24,9 @@
         "occupancySensorNotSet"
       ],
       "description": "Not Set"
+    },
+    {
+      "type": "null"
     }
   ]
 }

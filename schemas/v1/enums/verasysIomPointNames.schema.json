@@ -115,6 +115,9 @@
         "verasysIomBo4Description"
       ],
       "description": "BO-4 Description"
+    },
+    {
+      "type": "null"
     }
   ]
 }

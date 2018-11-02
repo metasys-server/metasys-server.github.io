@@ -17,6 +17,9 @@
         "compressorTypeHeatPump"
       ],
       "description": "Heat Pump"
+    },
+    {
+      "type": "null"
     }
   ]
 }

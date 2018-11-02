@@ -59,6 +59,9 @@
         "hpzncZoneTUnrel"
       ],
       "description": "Zone Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

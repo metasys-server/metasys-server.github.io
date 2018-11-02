@@ -150,6 +150,9 @@
         "avUnknownPreviousState"
       ],
       "description": "Unknown Previous State"
+    },
+    {
+      "type": "null"
     }
   ]
 }

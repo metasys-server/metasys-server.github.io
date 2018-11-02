@@ -38,6 +38,9 @@
         "suVersion"
       ],
       "description": "Version"
+    },
+    {
+      "type": "null"
     }
   ]
 }

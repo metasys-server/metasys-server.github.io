@@ -38,6 +38,9 @@
         "elemFsmInTest"
       ],
       "description": "In Test"
+    },
+    {
+      "type": "null"
     }
   ]
 }

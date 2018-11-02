@@ -38,6 +38,9 @@
         "coolingHeatingFanAutoDryDry"
       ],
       "description": "Dry"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "normTrigTsHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

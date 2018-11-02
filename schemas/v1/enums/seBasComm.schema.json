@@ -31,6 +31,9 @@
         "commModbus"
       ],
       "description": "Modbus"
+    },
+    {
+      "type": "null"
     }
   ]
 }

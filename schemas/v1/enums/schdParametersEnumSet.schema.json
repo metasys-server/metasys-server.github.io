@@ -66,6 +66,9 @@
         "entryTypeParm"
       ],
       "description": "Entry Type"
+    },
+    {
+      "type": "null"
     }
   ]
 }

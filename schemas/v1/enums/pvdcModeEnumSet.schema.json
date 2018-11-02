@@ -17,6 +17,9 @@
         "aggressive"
       ],
       "description": "Aggressive"
+    },
+    {
+      "type": "null"
     }
   ]
 }

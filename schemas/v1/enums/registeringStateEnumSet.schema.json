@@ -24,6 +24,9 @@
         "loadRegistered"
       ],
       "description": "Registered"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "schdRptScheduleReschedule"
       ],
       "description": "Rescheduled Report"
+    },
+    {
+      "type": "null"
     }
   ]
 }

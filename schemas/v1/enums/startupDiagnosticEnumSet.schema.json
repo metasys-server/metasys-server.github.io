@@ -87,6 +87,9 @@
         "batteryBad"
       ],
       "description": "Battery Bad"
+    },
+    {
+      "type": "null"
     }
   ]
 }

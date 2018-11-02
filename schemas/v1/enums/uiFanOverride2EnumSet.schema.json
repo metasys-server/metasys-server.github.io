@@ -38,6 +38,9 @@
         "uiFanOverride2High"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

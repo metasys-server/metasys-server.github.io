@@ -45,6 +45,9 @@
         "pinDuressLastDigit"
       ],
       "description": "Last Digit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

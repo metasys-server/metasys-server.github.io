@@ -185,6 +185,9 @@
         "stcYsaaOpCode25"
       ],
       "description": "RESERVED 25"
+    },
+    {
+      "type": "null"
     }
   ]
 }

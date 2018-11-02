@@ -24,6 +24,9 @@
         "ymaaControlSelect2"
       ],
       "description": "Auto LWT Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

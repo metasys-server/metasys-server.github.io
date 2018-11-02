@@ -17,6 +17,9 @@
         "zoOccNonzero"
       ],
       "description": "Occupied and Non-zero"
+    },
+    {
+      "type": "null"
     }
   ]
 }

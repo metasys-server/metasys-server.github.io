@@ -24,6 +24,9 @@
         "motorOdStartupOnly"
       ],
       "description": "Start-up Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

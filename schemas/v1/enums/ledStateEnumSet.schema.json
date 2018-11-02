@@ -31,6 +31,9 @@
         "3"
       ],
       "description": "Fast Flash"
+    },
+    {
+      "type": "null"
     }
   ]
 }

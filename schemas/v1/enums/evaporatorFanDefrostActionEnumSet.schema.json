@@ -24,6 +24,9 @@
         "efdaHighSpeed"
       ],
       "description": "High Speed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

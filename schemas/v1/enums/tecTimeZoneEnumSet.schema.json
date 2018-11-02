@@ -150,6 +150,9 @@
         "tecTimeZoneAlaskaNoDst"
       ],
       "description": "Alaska (No DST)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

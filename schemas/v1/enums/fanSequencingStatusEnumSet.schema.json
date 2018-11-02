@@ -38,6 +38,9 @@
         "fanSequencingStatusOnExternal"
       ],
       "description": "On External"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -1172,6 +1172,9 @@
         "atstrTrustedCertPriorBeginDate"
       ],
       "description": "Server Certificate is not valid until %s. Use SCT to install new certificate."
+    },
+    {
+      "type": "null"
     }
   ]
 }

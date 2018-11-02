@@ -45,6 +45,9 @@
         "remoteDisabled"
       ],
       "description": "Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

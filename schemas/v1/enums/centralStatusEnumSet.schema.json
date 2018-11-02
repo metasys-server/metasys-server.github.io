@@ -31,6 +31,9 @@
         "centralStatusOffline"
       ],
       "description": "Offline"
+    },
+    {
+      "type": "null"
     }
   ]
 }

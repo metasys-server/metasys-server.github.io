@@ -24,6 +24,9 @@
         "snmpVer3"
       ],
       "description": "v3"
+    },
+    {
+      "type": "null"
     }
   ]
 }

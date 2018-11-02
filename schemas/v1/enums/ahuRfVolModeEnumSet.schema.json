@@ -45,6 +45,9 @@
         "ahuRfVMZeroVolControl"
       ],
       "description": "Zero VOL Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "4"
       ],
       "description": "Exhaust Fan"
+    },
+    {
+      "type": "null"
     }
   ]
 }

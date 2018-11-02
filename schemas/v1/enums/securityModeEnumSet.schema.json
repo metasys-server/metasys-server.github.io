@@ -17,6 +17,9 @@
         "securityModeExceptional"
       ],
       "description": "Exceptional"
+    },
+    {
+      "type": "null"
     }
   ]
 }

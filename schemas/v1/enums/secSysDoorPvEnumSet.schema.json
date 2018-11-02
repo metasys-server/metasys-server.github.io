@@ -87,6 +87,9 @@
         "secSysDoorPvLockedClosed"
       ],
       "description": "Locked Closed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

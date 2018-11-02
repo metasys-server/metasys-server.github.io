@@ -59,6 +59,9 @@
         "bacnetNetworkPortCmdRestartPort"
       ],
       "description": "Restart port"
+    },
+    {
+      "type": "null"
     }
   ]
 }

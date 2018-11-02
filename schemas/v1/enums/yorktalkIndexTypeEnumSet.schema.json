@@ -80,6 +80,9 @@
         "ytIndexHistoryValue10"
       ],
       "description": "History Value 10"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "normalFanonlyFanOnly"
       ],
       "description": "Fan Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

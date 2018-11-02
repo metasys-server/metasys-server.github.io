@@ -80,6 +80,9 @@
         "seSelfTestStateTestExhaust"
       ],
       "description": "Test Exhaust"
+    },
+    {
+      "type": "null"
     }
   ]
 }

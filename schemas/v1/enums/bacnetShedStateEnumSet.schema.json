@@ -31,6 +31,9 @@
         "bacnetShedStateShedNonCompliant"
       ],
       "description": "Shed Noncompliant"
+    },
+    {
+      "type": "null"
     }
   ]
 }

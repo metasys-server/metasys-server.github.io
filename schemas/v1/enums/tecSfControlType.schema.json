@@ -24,6 +24,9 @@
         "tsctVariableSpeed"
       ],
       "description": "Variable Speed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

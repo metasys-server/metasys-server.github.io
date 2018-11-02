@@ -17,6 +17,9 @@
         "mzFsmStCooling"
       ],
       "description": "Cooling"
+    },
+    {
+      "type": "null"
     }
   ]
 }

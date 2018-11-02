@@ -24,6 +24,9 @@
         "errTolHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

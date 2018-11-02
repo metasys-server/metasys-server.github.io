@@ -24,6 +24,9 @@
         "naHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

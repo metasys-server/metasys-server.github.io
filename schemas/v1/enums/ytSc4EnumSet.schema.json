@@ -192,6 +192,9 @@
         "ytSc426"
       ],
       "description": "EXTERNAL I/O BOARD SERIAL COMMUNICATIONS"
+    },
+    {
+      "type": "null"
     }
   ]
 }

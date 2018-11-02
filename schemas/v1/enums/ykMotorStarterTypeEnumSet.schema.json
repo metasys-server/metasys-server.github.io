@@ -31,6 +31,9 @@
         "ykMotorStarterTypeLcsssMvsss"
       ],
       "description": "LCSSS / MVSSS"
+    },
+    {
+      "type": "null"
     }
   ]
 }

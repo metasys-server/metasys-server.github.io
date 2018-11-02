@@ -52,6 +52,9 @@
         "bacVtIbm3130"
       ],
       "description": "IBM 3130"
+    },
+    {
+      "type": "null"
     }
   ]
 }

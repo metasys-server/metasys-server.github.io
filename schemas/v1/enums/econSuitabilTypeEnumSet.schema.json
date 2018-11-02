@@ -24,6 +24,9 @@
         "econSuitDualEnth"
       ],
       "description": "Dual Enthalpy"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -262,6 +262,9 @@
         "ltcLegacyYsSafetyCode36"
       ],
       "description": "CONDENSER WATER FLOW SWITCH (BRINE)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

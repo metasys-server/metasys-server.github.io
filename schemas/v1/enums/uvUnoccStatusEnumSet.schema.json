@@ -45,6 +45,9 @@
         "uvUnoccStatusLowOaT"
       ],
       "description": "Low OA-T"
+    },
+    {
+      "type": "null"
     }
   ]
 }

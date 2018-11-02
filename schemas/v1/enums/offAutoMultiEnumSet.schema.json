@@ -17,6 +17,9 @@
         "offAtMsAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

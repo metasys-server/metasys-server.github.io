@@ -45,6 +45,9 @@
         "subsystemAuditActionType"
       ],
       "description": "Subsystem"
+    },
+    {
+      "type": "null"
     }
   ]
 }

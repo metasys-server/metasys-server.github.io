@@ -374,6 +374,9 @@
         "ytSc252"
       ],
       "description": "EVAPORATOR - LOW PRESSURE - SMART FREEZE"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "ahuSftConstantCapacity"
       ],
       "description": "Constant Capacity"
+    },
+    {
+      "type": "null"
     }
   ]
 }

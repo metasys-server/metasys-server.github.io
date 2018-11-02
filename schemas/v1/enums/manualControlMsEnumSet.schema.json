@@ -17,6 +17,9 @@
         "manualControlControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

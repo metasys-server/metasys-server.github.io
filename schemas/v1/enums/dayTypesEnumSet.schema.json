@@ -45,6 +45,9 @@
         "holidayDay"
       ],
       "description": "Holiday Day"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "seUnoccControlStateMech"
       ],
       "description": "Mech"
+    },
+    {
+      "type": "null"
     }
   ]
 }

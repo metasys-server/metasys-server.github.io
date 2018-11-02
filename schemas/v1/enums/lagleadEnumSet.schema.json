@@ -17,6 +17,9 @@
         "llLead"
       ],
       "description": "Lead"
+    },
+    {
+      "type": "null"
     }
   ]
 }

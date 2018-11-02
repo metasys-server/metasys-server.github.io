@@ -59,6 +59,9 @@
         "vcfcntrlhfrHtgFlowReset"
       ],
       "description": "Heating Flow Reset"
+    },
+    {
+      "type": "null"
     }
   ]
 }

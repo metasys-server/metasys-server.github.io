@@ -59,6 +59,9 @@
         "globalSeqInsufficientCapacity"
       ],
       "description": "Insufficient Capacity"
+    },
+    {
+      "type": "null"
     }
   ]
 }

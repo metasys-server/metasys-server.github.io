@@ -66,6 +66,9 @@
         "fcuErrorCodeE6"
       ],
       "description": "E6 = Filter Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

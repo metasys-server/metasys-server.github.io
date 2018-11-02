@@ -185,6 +185,9 @@
         "signalTypeNa"
       ],
       "description": "N/A"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -66,6 +66,9 @@
         "seEconCompressorControlStatusOffFreeCooling"
       ],
       "description": "Off-Free Cooling"
+    },
+    {
+      "type": "null"
     }
   ]
 }

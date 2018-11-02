@@ -24,6 +24,9 @@
         "maxMax"
       ],
       "description": "Max"
+    },
+    {
+      "type": "null"
     }
   ]
 }

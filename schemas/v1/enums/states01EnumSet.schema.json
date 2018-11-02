@@ -17,6 +17,9 @@
         "state11"
       ],
       "description": "State 1"
+    },
+    {
+      "type": "null"
     }
   ]
 }

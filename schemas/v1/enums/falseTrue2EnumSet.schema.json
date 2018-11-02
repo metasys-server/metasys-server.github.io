@@ -17,6 +17,9 @@
         "ftTrue"
       ],
       "description": "True"
+    },
+    {
+      "type": "null"
     }
   ]
 }

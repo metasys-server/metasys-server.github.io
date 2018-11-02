@@ -129,6 +129,9 @@
         "seRtuFanStatusOffFanOnDelayCool"
       ],
       "description": "Off-Fan Off Delay For Cool"
+    },
+    {
+      "type": "null"
     }
   ]
 }

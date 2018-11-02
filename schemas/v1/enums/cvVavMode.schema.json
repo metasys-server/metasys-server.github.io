@@ -17,6 +17,9 @@
         "cvVavModeVav"
       ],
       "description": "VAV"
+    },
+    {
+      "type": "null"
     }
   ]
 }

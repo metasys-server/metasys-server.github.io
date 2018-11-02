@@ -17,6 +17,9 @@
         "exitEnterEnter"
       ],
       "description": "Enter"
+    },
+    {
+      "type": "null"
     }
   ]
 }

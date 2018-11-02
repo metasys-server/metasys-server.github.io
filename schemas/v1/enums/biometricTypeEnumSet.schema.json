@@ -10,6 +10,9 @@
         "biometricTypeBiometrics"
       ],
       "description": "Biometrics"
+    },
+    {
+      "type": "null"
     }
   ]
 }

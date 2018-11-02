@@ -31,6 +31,9 @@
         "tec3000ChangeoverStatusSupplyTemperatureUnreliable"
       ],
       "description": "Supply Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "yvaaFreeCoolingMode2"
       ],
       "description": "Hybrid"
+    },
+    {
+      "type": "null"
     }
   ]
 }

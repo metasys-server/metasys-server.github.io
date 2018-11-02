@@ -122,6 +122,9 @@
         "evcatHostLogicCategory"
       ],
       "description": "Host Logic"
+    },
+    {
+      "type": "null"
     }
   ]
 }

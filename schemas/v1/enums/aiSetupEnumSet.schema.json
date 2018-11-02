@@ -101,6 +101,9 @@
         "ai10KNtcT2"
       ],
       "description": "10K NTC Type 2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "scaleFast"
       ],
       "description": "Fast"
+    },
+    {
+      "type": "null"
     }
   ]
 }

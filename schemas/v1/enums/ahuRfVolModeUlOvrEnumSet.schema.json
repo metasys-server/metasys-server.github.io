@@ -59,6 +59,9 @@
         "ahuRfvolModeUlOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

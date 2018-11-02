@@ -87,6 +87,9 @@
         "nptPma"
       ],
       "description": "PMA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

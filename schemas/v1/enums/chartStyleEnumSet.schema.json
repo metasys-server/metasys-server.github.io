@@ -38,6 +38,9 @@
         "chartStylePoints"
       ],
       "description": "Points"
+    },
+    {
+      "type": "null"
     }
   ]
 }

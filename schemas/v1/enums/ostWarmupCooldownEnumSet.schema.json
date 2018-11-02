@@ -31,6 +31,9 @@
         "ostWcCoast"
       ],
       "description": "Coast"
+    },
+    {
+      "type": "null"
     }
   ]
 }

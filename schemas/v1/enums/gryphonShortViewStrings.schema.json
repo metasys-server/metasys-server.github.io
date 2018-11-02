@@ -2593,6 +2593,9 @@
         "gryphonShortHgrbC"
       ],
       "description": "HGRB-C"
+    },
+    {
+      "type": "null"
     }
   ]
 }

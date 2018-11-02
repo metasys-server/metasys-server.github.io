@@ -59,6 +59,9 @@
         "mapConfigView"
       ],
       "description": "Configuration"
+    },
+    {
+      "type": "null"
     }
   ]
 }

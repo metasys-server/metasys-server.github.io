@@ -31,6 +31,9 @@
         "lightsWaitingToTurnOff"
       ],
       "description": "Waiting To Turn Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "mzZnStateOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

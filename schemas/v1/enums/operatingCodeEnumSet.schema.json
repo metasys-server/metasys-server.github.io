@@ -17,6 +17,9 @@
         "bootCode"
       ],
       "description": "Boot Code"
+    },
+    {
+      "type": "null"
     }
   ]
 }

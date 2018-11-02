@@ -38,6 +38,9 @@
         "vvtZoneVoteUrgentCool"
       ],
       "description": "Urgent Cool"
+    },
+    {
+      "type": "null"
     }
   ]
 }

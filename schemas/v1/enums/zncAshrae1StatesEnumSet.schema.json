@@ -52,6 +52,9 @@
         "znc1ZoneUnrel"
       ],
       "description": "Zone Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

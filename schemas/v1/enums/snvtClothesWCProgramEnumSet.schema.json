@@ -94,6 +94,9 @@
         "cwpNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

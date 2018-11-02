@@ -17,6 +17,9 @@
         "ykMotorVibrationProtection1"
       ],
       "description": "Rolling Element"
+    },
+    {
+      "type": "null"
     }
   ]
 }

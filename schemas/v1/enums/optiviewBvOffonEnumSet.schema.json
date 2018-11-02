@@ -17,6 +17,9 @@
         "optiviewBvOffonOn"
       ],
       "description": "On"
+    },
+    {
+      "type": "null"
     }
   ]
 }

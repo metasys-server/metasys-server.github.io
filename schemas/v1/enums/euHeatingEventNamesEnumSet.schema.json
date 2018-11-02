@@ -1207,6 +1207,9 @@
         "euHeatingEventNames172"
       ],
       "description": "Hot Water Loop Pressure Low Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

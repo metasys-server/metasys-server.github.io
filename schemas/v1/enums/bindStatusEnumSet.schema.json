@@ -45,6 +45,9 @@
         "noCmds"
       ],
       "description": "No Commands"
+    },
+    {
+      "type": "null"
     }
   ]
 }

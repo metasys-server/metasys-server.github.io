@@ -570,6 +570,9 @@
         "ygwhVShortNames81"
       ],
       "description": "SYS 2 FAIL RATE"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "timeSyncMethodTypeMulticast"
       ],
       "description": "Multicast"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "weakwindStrongwindBlastBlast"
       ],
       "description": "Blast"
+    },
+    {
+      "type": "null"
     }
   ]
 }

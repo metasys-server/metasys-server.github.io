@@ -31,6 +31,9 @@
         "seRtuComfortVentDisabled"
       ],
       "description": "Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

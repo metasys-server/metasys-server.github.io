@@ -52,6 +52,9 @@
         "140"
       ],
       "description": "Configured Bypass"
+    },
+    {
+      "type": "null"
     }
   ]
 }

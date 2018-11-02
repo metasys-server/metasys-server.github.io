@@ -31,6 +31,9 @@
         "normalStopReleaseRestoreRestore"
       ],
       "description": "Restore"
+    },
+    {
+      "type": "null"
     }
   ]
 }

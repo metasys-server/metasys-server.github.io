@@ -31,6 +31,9 @@
         "seEconErvStatusOffEconomizerDamperPosition"
       ],
       "description": "Off-Economizer Damper Position"
+    },
+    {
+      "type": "null"
     }
   ]
 }

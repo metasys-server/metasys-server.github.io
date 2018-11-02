@@ -31,6 +31,9 @@
         "bosetupStartStop"
       ],
       "description": "Start Stop"
+    },
+    {
+      "type": "null"
     }
   ]
 }

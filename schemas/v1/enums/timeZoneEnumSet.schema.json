@@ -1277,6 +1277,9 @@
         "easterIslandTimeNoDst"
       ],
       "description": "(UTC-06:00) Easter Island (No DST)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

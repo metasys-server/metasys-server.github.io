@@ -115,6 +115,9 @@
         "15"
       ],
       "description": "FAST, HIGH"
+    },
+    {
+      "type": "null"
     }
   ]
 }

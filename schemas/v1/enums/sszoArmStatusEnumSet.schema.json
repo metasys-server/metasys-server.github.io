@@ -45,6 +45,9 @@
         "sszoArmStatusBypassed"
       ],
       "description": "Bypassed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

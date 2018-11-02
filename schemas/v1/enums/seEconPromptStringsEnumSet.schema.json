@@ -94,6 +94,9 @@
         "seEconPromptStringsFaultsCleared"
       ],
       "description": "Faults Cleared"
+    },
+    {
+      "type": "null"
     }
   ]
 }

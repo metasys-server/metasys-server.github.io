@@ -262,6 +262,9 @@
         "deviceAuthenticationFailureLoadExceptionText"
       ],
       "description": "Authentication failed because of invalid credentials source Device :"
+    },
+    {
+      "type": "null"
     }
   ]
 }

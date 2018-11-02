@@ -17,6 +17,9 @@
         "tec3000ReheatTypeElectric"
       ],
       "description": "Electric"
+    },
+    {
+      "type": "null"
     }
   ]
 }

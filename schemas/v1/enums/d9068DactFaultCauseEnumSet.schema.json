@@ -59,6 +59,9 @@
         "d9068DactFaultCauseTask"
       ],
       "description": "Task"
+    },
+    {
+      "type": "null"
     }
   ]
 }

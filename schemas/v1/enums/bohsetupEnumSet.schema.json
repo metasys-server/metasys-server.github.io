@@ -24,6 +24,9 @@
         "bohsetupStartStop"
       ],
       "description": "Start Stop"
+    },
+    {
+      "type": "null"
     }
   ]
 }

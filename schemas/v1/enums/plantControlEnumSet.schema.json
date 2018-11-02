@@ -31,6 +31,9 @@
         "plntCntrlInterlockOnly"
       ],
       "description": "Interlock Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

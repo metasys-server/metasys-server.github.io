@@ -17,6 +17,9 @@
         "degreeDeltaCentigrades"
       ],
       "description": "Degree Delta Centigrade"
+    },
+    {
+      "type": "null"
     }
   ]
 }

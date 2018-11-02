@@ -24,6 +24,9 @@
         "ymaaRunningMode8"
       ],
       "description": "Pump Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

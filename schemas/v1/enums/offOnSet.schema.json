@@ -17,6 +17,9 @@
         "ooOn"
       ],
       "description": "On"
+    },
+    {
+      "type": "null"
     }
   ]
 }

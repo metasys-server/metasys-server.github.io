@@ -17,6 +17,9 @@
         "abprPresent"
       ],
       "description": "Present"
+    },
+    {
+      "type": "null"
     }
   ]
 }

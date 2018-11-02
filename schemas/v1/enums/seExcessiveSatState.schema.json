@@ -31,6 +31,9 @@
         "seExcessiveSatStateSatUnreliable"
       ],
       "description": "SAT Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

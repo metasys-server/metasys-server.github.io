@@ -38,6 +38,9 @@
         "offautocoolheatHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

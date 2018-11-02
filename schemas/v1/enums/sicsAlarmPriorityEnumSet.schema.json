@@ -31,6 +31,9 @@
         "almPriService"
       ],
       "description": "Service"
+    },
+    {
+      "type": "null"
     }
   ]
 }

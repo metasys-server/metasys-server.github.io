@@ -38,6 +38,9 @@
         "threeSpdOvrHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "adrCoolingDaTReset"
       ],
       "description": "Cooling DA-T Reset"
+    },
+    {
+      "type": "null"
     }
   ]
 }

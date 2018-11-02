@@ -17,6 +17,9 @@
         "ltcLegacyYpcEnergySupply1"
       ],
       "description": "Steam"
+    },
+    {
+      "type": "null"
     }
   ]
 }

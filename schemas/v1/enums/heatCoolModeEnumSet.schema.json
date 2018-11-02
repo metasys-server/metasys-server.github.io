@@ -45,6 +45,9 @@
         "hcModeOff"
       ],
       "description": "Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

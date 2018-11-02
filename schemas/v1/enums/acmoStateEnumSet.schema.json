@@ -59,6 +59,9 @@
         "autoCfgCommsStateDisabled"
       ],
       "description": "Disabled State"
+    },
+    {
+      "type": "null"
     }
   ]
 }

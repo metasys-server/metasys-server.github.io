@@ -17,6 +17,9 @@
         "genericRtuControlTypeVav"
       ],
       "description": "VAV"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "baseOccupancyStandby"
       ],
       "description": "Standby"
+    },
+    {
+      "type": "null"
     }
   ]
 }

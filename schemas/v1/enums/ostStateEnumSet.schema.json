@@ -59,6 +59,9 @@
         "ostNotOperational"
       ],
       "description": "Not Operational"
+    },
+    {
+      "type": "null"
     }
   ]
 }

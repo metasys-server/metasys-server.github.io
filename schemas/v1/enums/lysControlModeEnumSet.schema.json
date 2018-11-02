@@ -24,6 +24,9 @@
         "lysControlModeCommunication"
       ],
       "description": "Communication"
+    },
+    {
+      "type": "null"
     }
   ]
 }

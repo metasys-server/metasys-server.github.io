@@ -3713,6 +3713,9 @@
         "optiviewShortStrings530"
       ],
       "description": "FREQUENCY (Hz)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

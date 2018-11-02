@@ -94,6 +94,9 @@
         "seRtuCoolCntlComfortVent"
       ],
       "description": "Comfort Ventilation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

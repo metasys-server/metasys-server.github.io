@@ -45,6 +45,9 @@
         "ystSc135"
       ],
       "description": "RESERVED 5"
+    },
+    {
+      "type": "null"
     }
   ]
 }

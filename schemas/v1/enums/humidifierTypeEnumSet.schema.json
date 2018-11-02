@@ -24,6 +24,9 @@
         "humidifierTypeSteam"
       ],
       "description": "Steam"
+    },
+    {
+      "type": "null"
     }
   ]
 }

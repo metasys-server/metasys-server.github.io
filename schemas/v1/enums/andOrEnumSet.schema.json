@@ -17,6 +17,9 @@
         "andorOr"
       ],
       "description": "Or"
+    },
+    {
+      "type": "null"
     }
   ]
 }

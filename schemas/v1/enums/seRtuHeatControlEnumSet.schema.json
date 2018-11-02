@@ -87,6 +87,9 @@
         "seRtuHeatControlComfortVentilation"
       ],
       "description": "Comfort Ventilation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

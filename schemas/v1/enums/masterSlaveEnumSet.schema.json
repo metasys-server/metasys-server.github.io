@@ -17,6 +17,9 @@
         "masterSlaveSlave"
       ],
       "description": "Slave"
+    },
+    {
+      "type": "null"
     }
   ]
 }

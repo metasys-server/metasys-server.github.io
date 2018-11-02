@@ -45,6 +45,9 @@
         "sszoCAcknowledge"
       ],
       "description": "Acknowledge"
+    },
+    {
+      "type": "null"
     }
   ]
 }

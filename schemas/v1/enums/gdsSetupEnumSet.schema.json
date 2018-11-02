@@ -17,6 +17,9 @@
         "gdsSetupFailSoft"
       ],
       "description": "Fail Soft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

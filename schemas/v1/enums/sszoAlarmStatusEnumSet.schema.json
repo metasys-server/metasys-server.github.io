@@ -52,6 +52,9 @@
         "sszoAlarmStatusAlarmedUnknown"
       ],
       "description": "Alarmed, Unknown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

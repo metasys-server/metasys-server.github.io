@@ -45,6 +45,9 @@
         "useAsOutput"
       ],
       "description": "Output"
+    },
+    {
+      "type": "null"
     }
   ]
 }

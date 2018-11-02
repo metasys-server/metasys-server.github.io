@@ -24,6 +24,9 @@
         "ilkactionRelease"
       ],
       "description": "Release"
+    },
+    {
+      "type": "null"
     }
   ]
 }

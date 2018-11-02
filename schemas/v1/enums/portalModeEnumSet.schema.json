@@ -31,6 +31,9 @@
         "portalModeUnknown"
       ],
       "description": "Unknown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

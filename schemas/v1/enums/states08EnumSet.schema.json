@@ -66,6 +66,9 @@
         "state88"
       ],
       "description": "State 8"
+    },
+    {
+      "type": "null"
     }
   ]
 }

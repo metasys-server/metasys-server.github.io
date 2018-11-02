@@ -24,6 +24,9 @@
         "mstpRecipientAddress"
       ],
       "description": "MSTP Address"
+    },
+    {
+      "type": "null"
     }
   ]
 }

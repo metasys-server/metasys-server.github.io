@@ -703,6 +703,9 @@
         "connectorGenericReader100"
       ],
       "description": "Reader 100"
+    },
+    {
+      "type": "null"
     }
   ]
 }

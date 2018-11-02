@@ -17,6 +17,9 @@
         "locremRemote"
       ],
       "description": "Remote"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -52,6 +52,9 @@
         "daySun"
       ],
       "description": "Sun"
+    },
+    {
+      "type": "null"
     }
   ]
 }

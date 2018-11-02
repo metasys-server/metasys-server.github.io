@@ -17,6 +17,9 @@
         "dllrModeShed"
       ],
       "description": "Shed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

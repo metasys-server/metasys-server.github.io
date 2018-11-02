@@ -17,6 +17,9 @@
         "legacyBacnetEncodingTypeAnsiX34UsAscii"
       ],
       "description": "ANSI X3.4 (US-ASCII)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

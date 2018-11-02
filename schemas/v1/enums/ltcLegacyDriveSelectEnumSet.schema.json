@@ -17,6 +17,9 @@
         "ltcLegacyDriveSelect1"
       ],
       "description": "Fixed Speed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

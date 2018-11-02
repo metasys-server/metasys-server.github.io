@@ -17,6 +17,9 @@
         "defaultNavList"
       ],
       "description": "List"
+    },
+    {
+      "type": "null"
     }
   ]
 }

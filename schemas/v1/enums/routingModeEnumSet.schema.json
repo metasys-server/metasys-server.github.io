@@ -24,6 +24,9 @@
         "rmRoutingNoBroadcast"
       ],
       "description": "Enabled Without Broadcast"
+    },
+    {
+      "type": "null"
     }
   ]
 }

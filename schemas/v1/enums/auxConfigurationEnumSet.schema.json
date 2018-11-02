@@ -45,6 +45,9 @@
         "5"
       ],
       "description": "Network Controlled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

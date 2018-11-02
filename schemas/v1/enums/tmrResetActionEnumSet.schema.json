@@ -17,6 +17,9 @@
         "tmrReseTandRetrigger"
       ],
       "description": "Retrigger"
+    },
+    {
+      "type": "null"
     }
   ]
 }

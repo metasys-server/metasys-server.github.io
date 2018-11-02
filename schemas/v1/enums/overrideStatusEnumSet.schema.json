@@ -24,6 +24,9 @@
         "ovrrideStatusesLocalOverride"
       ],
       "description": "Local Override"
+    },
+    {
+      "type": "null"
     }
   ]
 }

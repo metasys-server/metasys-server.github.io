@@ -24,6 +24,9 @@
         "alternateAccessAlways"
       ],
       "description": "Always"
+    },
+    {
+      "type": "null"
     }
   ]
 }

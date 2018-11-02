@@ -59,6 +59,9 @@
         "hpDosOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

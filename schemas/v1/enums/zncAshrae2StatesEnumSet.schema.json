@@ -73,6 +73,9 @@
         "znc2ZoneUnrel"
       ],
       "description": "Zone Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

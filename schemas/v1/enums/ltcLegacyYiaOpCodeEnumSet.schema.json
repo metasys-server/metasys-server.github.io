@@ -52,6 +52,9 @@
         "ltcLegacyYiaOpCode6"
       ],
       "description": "UNIT STARTING"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -178,6 +178,9 @@
         "24"
       ],
       "description": "24 hours"
+    },
+    {
+      "type": "null"
     }
   ]
 }

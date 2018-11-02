@@ -66,6 +66,9 @@
         "acvoLowOaTemperature"
       ],
       "description": "Low OA Temperature"
+    },
+    {
+      "type": "null"
     }
   ]
 }

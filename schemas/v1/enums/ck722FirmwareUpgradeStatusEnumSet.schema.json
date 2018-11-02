@@ -38,6 +38,9 @@
         "ck722FirmwareUpgradeStatusFailedFileInvalid"
       ],
       "description": "Failed: File Invalid"
+    },
+    {
+      "type": "null"
     }
   ]
 }

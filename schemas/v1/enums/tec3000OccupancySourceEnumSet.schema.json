@@ -52,6 +52,9 @@
         "tec3000OccupancySourceOccupancySensor"
       ],
       "description": "Occupancy Sensor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "bcBatteryDefective"
       ],
       "description": "Defective"
+    },
+    {
+      "type": "null"
     }
   ]
 }

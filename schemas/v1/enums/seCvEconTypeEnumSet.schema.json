@@ -24,6 +24,9 @@
         "seCvEconTypeEnumSet2"
       ],
       "description": "Min OA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

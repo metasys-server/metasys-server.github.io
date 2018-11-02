@@ -52,6 +52,9 @@
         "configureLevel"
       ],
       "description": "Configure Level"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -227,6 +227,9 @@
         "ltcLegacyYsOpCode31"
       ],
       "description": "FREEZE THREAT - CONDENSER WATER FLOW (BRINE)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "auxInputConnectedToRexAndReaderSpareInputs"
       ],
       "description": "to REX and Reader Spare Inputs"
+    },
+    {
+      "type": "null"
     }
   ]
 }

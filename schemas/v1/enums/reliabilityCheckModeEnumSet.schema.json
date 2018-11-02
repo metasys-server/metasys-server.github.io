@@ -17,6 +17,9 @@
         "rcModeCheckOnlyForNoInput"
       ],
       "description": "Check only for No Input"
+    },
+    {
+      "type": "null"
     }
   ]
 }

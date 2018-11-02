@@ -38,6 +38,9 @@
         "sequencerStagingModeBinaryCode"
       ],
       "description": "Binary Code"
+    },
+    {
+      "type": "null"
     }
   ]
 }

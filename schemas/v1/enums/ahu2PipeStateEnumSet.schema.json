@@ -87,6 +87,9 @@
         "a2PsLowOaTemperature"
       ],
       "description": "Low OA Temperature"
+    },
+    {
+      "type": "null"
     }
   ]
 }

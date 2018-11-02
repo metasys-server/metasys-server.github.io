@@ -101,6 +101,9 @@
         "yiaSc113"
       ],
       "description": "UNIT RUNNING - INTERNAL SHUTDOWN"
+    },
+    {
+      "type": "null"
     }
   ]
 }

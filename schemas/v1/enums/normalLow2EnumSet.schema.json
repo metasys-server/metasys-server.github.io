@@ -17,6 +17,9 @@
         "normalLowLow"
       ],
       "description": "Low"
+    },
+    {
+      "type": "null"
     }
   ]
 }

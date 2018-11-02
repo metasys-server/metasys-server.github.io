@@ -17,6 +17,9 @@
         "decimalSeparatorComma"
       ],
       "description": "Comma"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -507,6 +507,9 @@
         "ymc2Sc471"
       ],
       "description": "WARNING - CONDENSER - FREEZE THREAT FROM LOW PRESSURE"
+    },
+    {
+      "type": "null"
     }
   ]
 }

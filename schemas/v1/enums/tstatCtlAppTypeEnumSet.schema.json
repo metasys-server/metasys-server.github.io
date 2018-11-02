@@ -115,6 +115,9 @@
         "tstatCtlAppTwoPipeFcu010VdcEcmFan"
       ],
       "description": "2-Pipe FCU (0-10VDC), ECM Fan"
+    },
+    {
+      "type": "null"
     }
   ]
 }

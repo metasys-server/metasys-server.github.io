@@ -24,6 +24,9 @@
         "state22"
       ],
       "description": "State 2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

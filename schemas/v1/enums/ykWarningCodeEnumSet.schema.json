@@ -276,6 +276,9 @@
         "39"
       ],
       "description": "Harmonic Filter - Data Loss"
+    },
+    {
+      "type": "null"
     }
   ]
 }

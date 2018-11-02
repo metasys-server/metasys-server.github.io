@@ -31,6 +31,9 @@
         "keySize256Bits"
       ],
       "description": "256 Bits"
+    },
+    {
+      "type": "null"
     }
   ]
 }

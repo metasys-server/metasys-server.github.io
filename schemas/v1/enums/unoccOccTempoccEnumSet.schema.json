@@ -24,6 +24,9 @@
         "uotTempoccupied"
       ],
       "description": "TEMP OCCUPIED"
+    },
+    {
+      "type": "null"
     }
   ]
 }

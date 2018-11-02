@@ -24,6 +24,9 @@
         "cfgNull"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

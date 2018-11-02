@@ -31,6 +31,9 @@
         "apbOccCheckEnforceAndDenyDuringTrouble"
       ],
       "description": "Enforce, and Deny During Trouble"
+    },
+    {
+      "type": "null"
     }
   ]
 }

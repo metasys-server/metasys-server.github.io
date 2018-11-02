@@ -17,6 +17,9 @@
         "edmAnalogMode"
       ],
       "description": "Analog"
+    },
+    {
+      "type": "null"
     }
   ]
 }

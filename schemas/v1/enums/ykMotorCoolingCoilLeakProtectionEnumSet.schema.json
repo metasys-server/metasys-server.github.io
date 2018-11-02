@@ -24,6 +24,9 @@
         "ykMotorCoolingCoilLeakProtection2"
       ],
       "description": "Float"
+    },
+    {
+      "type": "null"
     }
   ]
 }

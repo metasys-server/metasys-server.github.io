@@ -38,6 +38,9 @@
         "fdNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

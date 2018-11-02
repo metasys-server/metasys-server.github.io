@@ -45,6 +45,9 @@
         "crcFailAltBoot"
       ],
       "description": "CRC Fail Alt Boot"
+    },
+    {
+      "type": "null"
     }
   ]
 }

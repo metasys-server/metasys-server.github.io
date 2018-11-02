@@ -38,6 +38,9 @@
         "olmhAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

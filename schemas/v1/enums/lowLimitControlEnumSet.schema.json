@@ -17,6 +17,9 @@
         "llcLimit"
       ],
       "description": "Low Limit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

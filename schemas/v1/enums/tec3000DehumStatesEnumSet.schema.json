@@ -31,6 +31,9 @@
         "tec3000DehumStatesHumidityUnreliable"
       ],
       "description": "Humidity Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

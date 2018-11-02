@@ -38,6 +38,9 @@
         "artFanTrackControl"
       ],
       "description": "Fan Track Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "assetNotificationNone"
       ],
       "description": "None"
+    },
+    {
+      "type": "null"
     }
   ]
 }

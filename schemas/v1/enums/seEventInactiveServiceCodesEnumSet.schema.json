@@ -2019,6 +2019,9 @@
         "seEventInactiveServiceCode385"
       ],
       "description": "SAT Low Temp Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

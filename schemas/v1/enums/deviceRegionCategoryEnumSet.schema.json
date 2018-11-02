@@ -87,6 +87,9 @@
         "deviceRegionCategoryFxN2"
       ],
       "description": "FX N2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

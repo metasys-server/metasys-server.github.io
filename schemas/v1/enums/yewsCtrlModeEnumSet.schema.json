@@ -24,6 +24,9 @@
         "yewsCtrlMode2"
       ],
       "description": "Communication"
+    },
+    {
+      "type": "null"
     }
   ]
 }

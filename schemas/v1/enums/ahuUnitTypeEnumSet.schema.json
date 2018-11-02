@@ -31,6 +31,9 @@
         "autType4"
       ],
       "description": "Type 4"
+    },
+    {
+      "type": "null"
     }
   ]
 }

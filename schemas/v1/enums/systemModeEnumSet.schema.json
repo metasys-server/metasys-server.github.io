@@ -45,6 +45,9 @@
         "sysAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

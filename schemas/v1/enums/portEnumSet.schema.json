@@ -31,6 +31,9 @@
         "port3"
       ],
       "description": "Port 3"
+    },
+    {
+      "type": "null"
     }
   ]
 }

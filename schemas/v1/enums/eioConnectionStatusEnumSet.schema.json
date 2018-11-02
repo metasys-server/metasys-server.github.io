@@ -24,6 +24,9 @@
         "eioOnline"
       ],
       "description": "Online"
+    },
+    {
+      "type": "null"
     }
   ]
 }

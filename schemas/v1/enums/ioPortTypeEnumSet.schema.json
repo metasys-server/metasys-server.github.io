@@ -17,6 +17,9 @@
         "ioPortTypeOutput"
       ],
       "description": "Output"
+    },
+    {
+      "type": "null"
     }
   ]
 }

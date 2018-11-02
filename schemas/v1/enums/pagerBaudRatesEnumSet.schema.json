@@ -66,6 +66,9 @@
         "pagerBaud115200"
       ],
       "description": "115200"
+    },
+    {
+      "type": "null"
     }
   ]
 }

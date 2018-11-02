@@ -38,6 +38,9 @@
         "yvaaCondenserFanCtrlOptStaged"
       ],
       "description": "Opt. Staged"
+    },
+    {
+      "type": "null"
     }
   ]
 }

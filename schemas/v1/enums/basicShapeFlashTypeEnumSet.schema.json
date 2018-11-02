@@ -24,6 +24,9 @@
         "bsStateToAlt"
       ],
       "description": "State Color / Alternate Color"
+    },
+    {
+      "type": "null"
     }
   ]
 }

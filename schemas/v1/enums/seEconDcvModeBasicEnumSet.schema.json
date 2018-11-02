@@ -17,6 +17,9 @@
         "seEconDcvModeBasicControlledByIaq"
       ],
       "description": "Controlled by IAQ"
+    },
+    {
+      "type": "null"
     }
   ]
 }

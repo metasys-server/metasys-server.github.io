@@ -38,6 +38,9 @@
         "ccmSequenceRow"
       ],
       "description": "Sequence Row"
+    },
+    {
+      "type": "null"
     }
   ]
 }

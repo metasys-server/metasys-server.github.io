@@ -31,6 +31,9 @@
         "qsDone"
       ],
       "description": "Done"
+    },
+    {
+      "type": "null"
     }
   ]
 }

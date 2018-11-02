@@ -38,6 +38,9 @@
         "seCvHeatingTypeEnumSet4"
       ],
       "description": "Heat Pump w/Sup Htg"
+    },
+    {
+      "type": "null"
     }
   ]
 }

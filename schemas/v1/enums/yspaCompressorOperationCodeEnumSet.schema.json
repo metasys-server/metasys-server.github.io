@@ -157,6 +157,9 @@
         "yspaCompressorOperationCode21"
       ],
       "description": "LACK OF REFRIGERANT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

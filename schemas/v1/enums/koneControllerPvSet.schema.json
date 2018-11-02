@@ -31,6 +31,9 @@
         "koneControllerPvFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

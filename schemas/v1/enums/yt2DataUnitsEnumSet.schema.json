@@ -17,6 +17,9 @@
         "yt2DataUnitsMetric"
       ],
       "description": "Metric"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "tscmHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

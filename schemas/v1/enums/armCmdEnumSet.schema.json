@@ -24,6 +24,9 @@
         "armCmdDisarm"
       ],
       "description": "Disarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

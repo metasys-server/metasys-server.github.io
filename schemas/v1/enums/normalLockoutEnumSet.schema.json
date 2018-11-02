@@ -17,6 +17,9 @@
         "lockout"
       ],
       "description": "Lockout"
+    },
+    {
+      "type": "null"
     }
   ]
 }

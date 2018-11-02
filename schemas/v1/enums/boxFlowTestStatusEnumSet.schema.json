@@ -38,6 +38,9 @@
         "bftsTestCancelled"
       ],
       "description": "Test Cancelled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

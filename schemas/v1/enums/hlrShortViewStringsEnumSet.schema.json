@@ -430,6 +430,9 @@
         "hlrShortViewStringsRegenfan"
       ],
       "description": "RegenFan"
+    },
+    {
+      "type": "null"
     }
   ]
 }

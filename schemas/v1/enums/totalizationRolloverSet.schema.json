@@ -17,6 +17,9 @@
         "rolloverLimit"
       ],
       "description": "Rollover Limit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

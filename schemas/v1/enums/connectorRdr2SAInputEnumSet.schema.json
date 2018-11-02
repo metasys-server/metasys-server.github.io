@@ -164,6 +164,9 @@
         "connectorRdr2SAInputPowerFailB"
       ],
       "description": "Power Fail B"
+    },
+    {
+      "type": "null"
     }
   ]
 }

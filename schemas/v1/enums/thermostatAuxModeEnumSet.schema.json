@@ -52,6 +52,9 @@
         "thermostatAuxModeOnWhileOccupied"
       ],
       "description": "On While Occupied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

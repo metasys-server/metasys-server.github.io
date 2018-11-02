@@ -24,6 +24,9 @@
         "snrAlarm"
       ],
       "description": "Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

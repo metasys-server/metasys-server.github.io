@@ -80,6 +80,9 @@
         "zapUiStringsEnableExtendedChannelList"
       ],
       "description": "Allow Extended Channel List"
+    },
+    {
+      "type": "null"
     }
   ]
 }

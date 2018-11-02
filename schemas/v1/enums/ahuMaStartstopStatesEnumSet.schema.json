@@ -87,6 +87,9 @@
         "ahuMaSssFanFault"
       ],
       "description": "Fan Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "pcVariableSpeed"
       ],
       "description": "Variable Speed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

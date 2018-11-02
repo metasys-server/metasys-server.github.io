@@ -31,6 +31,9 @@
         "hpCompModeMaxHtg"
       ],
       "description": "Max Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "mstpdlBusTypeSensorActuatorBus"
       ],
       "description": "Sensor / Actuator Bus"
+    },
+    {
+      "type": "null"
     }
   ]
 }

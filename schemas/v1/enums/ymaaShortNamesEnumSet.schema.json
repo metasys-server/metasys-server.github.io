@@ -3349,6 +3349,9 @@
         "ymaaShortNames478"
       ],
       "description": "UNIT AMBIENT TEMP"
+    },
+    {
+      "type": "null"
     }
   ]
 }

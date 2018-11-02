@@ -1585,6 +1585,9 @@
         "contactIdEventCode654"
       ],
       "description": "654 System Inactivity"
+    },
+    {
+      "type": "null"
     }
   ]
 }

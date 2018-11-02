@@ -38,6 +38,9 @@
         "idlePageTimeout1Hr"
       ],
       "description": "1 hour"
+    },
+    {
+      "type": "null"
     }
   ]
 }

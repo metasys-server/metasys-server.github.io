@@ -17,6 +17,9 @@
         "advancedSetup"
       ],
       "description": "Advanced"
+    },
+    {
+      "type": "null"
     }
   ]
 }

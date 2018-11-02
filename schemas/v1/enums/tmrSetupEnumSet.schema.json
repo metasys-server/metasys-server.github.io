@@ -66,6 +66,9 @@
         "tmrSetupCancelablePulse"
       ],
       "description": "Cancelable Pulse"
+    },
+    {
+      "type": "null"
     }
   ]
 }

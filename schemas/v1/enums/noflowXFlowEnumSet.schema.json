@@ -17,6 +17,9 @@
         "flow"
       ],
       "description": "Flow"
+    },
+    {
+      "type": "null"
     }
   ]
 }

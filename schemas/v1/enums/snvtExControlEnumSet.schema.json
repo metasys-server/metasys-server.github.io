@@ -31,6 +31,9 @@
         "exControlNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

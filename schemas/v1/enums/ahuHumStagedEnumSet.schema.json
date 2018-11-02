@@ -31,6 +31,9 @@
         "ahuHsLmtHControl"
       ],
       "description": "Limited H Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "stcChilledLiquidTypeGlycol"
       ],
       "description": "Glycol"
+    },
+    {
+      "type": "null"
     }
   ]
 }

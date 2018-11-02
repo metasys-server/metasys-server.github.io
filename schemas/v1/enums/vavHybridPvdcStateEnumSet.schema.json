@@ -45,6 +45,9 @@
         "vhpsEstReset"
       ],
       "description": "Estimate Reset"
+    },
+    {
+      "type": "null"
     }
   ]
 }

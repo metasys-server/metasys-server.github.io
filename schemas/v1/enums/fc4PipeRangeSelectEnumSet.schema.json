@@ -17,6 +17,9 @@
         "fprClgHtg"
       ],
       "description": "Cooling/Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

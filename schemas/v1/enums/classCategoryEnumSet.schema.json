@@ -45,6 +45,9 @@
         "ccGroupObject"
       ],
       "description": "Group Object"
+    },
+    {
+      "type": "null"
     }
   ]
 }

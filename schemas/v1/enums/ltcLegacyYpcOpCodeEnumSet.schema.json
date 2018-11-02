@@ -192,6 +192,9 @@
         "ltcLegacyYpcOpCode26"
       ],
       "description": "PURGE PUMP ABSORBER"
+    },
+    {
+      "type": "null"
     }
   ]
 }

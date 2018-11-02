@@ -31,6 +31,9 @@
         "vmaBalReturn"
       ],
       "description": "Return Air"
+    },
+    {
+      "type": "null"
     }
   ]
 }

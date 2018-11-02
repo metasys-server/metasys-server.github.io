@@ -59,6 +59,9 @@
         "uvvFailsoft"
       ],
       "description": "Failsoft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

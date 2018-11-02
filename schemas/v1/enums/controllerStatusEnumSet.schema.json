@@ -38,6 +38,9 @@
         "csCommEnable"
       ],
       "description": "Comm Enabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

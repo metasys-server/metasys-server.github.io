@@ -24,6 +24,9 @@
         "dvNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

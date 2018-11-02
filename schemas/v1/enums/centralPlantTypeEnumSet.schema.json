@@ -45,6 +45,9 @@
         "iceStorage"
       ],
       "description": "Ice Storage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

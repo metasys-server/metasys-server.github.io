@@ -311,6 +311,9 @@
         "pssUnconfCovNotifyMult"
       ],
       "description": "Unconf COV Notify Mult"
+    },
+    {
+      "type": "null"
     }
   ]
 }

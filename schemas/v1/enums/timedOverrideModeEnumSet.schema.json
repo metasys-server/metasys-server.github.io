@@ -31,6 +31,9 @@
         "timedOverrideShunt"
       ],
       "description": "Timed Shunt"
+    },
+    {
+      "type": "null"
     }
   ]
 }

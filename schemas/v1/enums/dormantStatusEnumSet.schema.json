@@ -31,6 +31,9 @@
         "dormantStatusNever"
       ],
       "description": "Never"
+    },
+    {
+      "type": "null"
     }
   ]
 }

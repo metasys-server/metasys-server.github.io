@@ -31,6 +31,9 @@
         "xor"
       ],
       "description": "XOR"
+    },
+    {
+      "type": "null"
     }
   ]
 }

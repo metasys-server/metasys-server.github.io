@@ -248,6 +248,9 @@
         "connectorRdr8SInputPanelBatteryLow"
       ],
       "description": "Panel Battery Low"
+    },
+    {
+      "type": "null"
     }
   ]
 }

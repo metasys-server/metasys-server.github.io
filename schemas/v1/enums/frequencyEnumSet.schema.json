@@ -45,6 +45,9 @@
         "freqOneTime"
       ],
       "description": "One Time Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

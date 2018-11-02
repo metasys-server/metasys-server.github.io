@@ -24,6 +24,9 @@
         "ck722DirectionEgress"
       ],
       "description": "Egress"
+    },
+    {
+      "type": "null"
     }
   ]
 }

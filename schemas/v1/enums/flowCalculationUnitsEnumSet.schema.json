@@ -24,6 +24,9 @@
         "fcuCuMeterH"
       ],
       "description": "cu meter/h"
+    },
+    {
+      "type": "null"
     }
   ]
 }

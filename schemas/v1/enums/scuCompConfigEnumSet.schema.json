@@ -59,6 +59,9 @@
         "7"
       ],
       "description": "Remote Condenser"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -479,6 +479,9 @@
         "lysFaultCode911"
       ],
       "description": "STOPPING"
+    },
+    {
+      "type": "null"
     }
   ]
 }

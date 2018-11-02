@@ -17,6 +17,9 @@
         "enableInhibitInhibit"
       ],
       "description": "Inhibit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

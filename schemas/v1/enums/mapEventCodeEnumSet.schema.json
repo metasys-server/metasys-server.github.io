@@ -17,6 +17,9 @@
         "mapEventNoReliableTimeSyncReceived"
       ],
       "description": "No Reliable Time Sync Received"
+    },
+    {
+      "type": "null"
     }
   ]
 }

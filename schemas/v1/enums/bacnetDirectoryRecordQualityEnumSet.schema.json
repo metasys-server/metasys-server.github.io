@@ -52,6 +52,9 @@
         "bacnetDirectoryRecordMonitored"
       ],
       "description": "Monitored"
+    },
+    {
+      "type": "null"
     }
   ]
 }

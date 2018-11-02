@@ -17,6 +17,9 @@
         "nbftBoxFlowTest"
       ],
       "description": "Box Flow Test"
+    },
+    {
+      "type": "null"
     }
   ]
 }

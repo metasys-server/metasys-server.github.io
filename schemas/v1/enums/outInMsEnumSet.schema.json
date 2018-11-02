@@ -17,6 +17,9 @@
         "outInIn"
       ],
       "description": "In"
+    },
+    {
+      "type": "null"
     }
   ]
 }

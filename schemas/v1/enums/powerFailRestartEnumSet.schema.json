@@ -24,6 +24,9 @@
         "powerFailRestartRecover"
       ],
       "description": "Recover to Last State"
+    },
+    {
+      "type": "null"
     }
   ]
 }

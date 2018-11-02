@@ -122,6 +122,9 @@
         "stsCurrentFailFanOverload"
       ],
       "description": "Fail - Fan Overload"
+    },
+    {
+      "type": "null"
     }
   ]
 }

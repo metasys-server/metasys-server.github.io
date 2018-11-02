@@ -941,6 +941,9 @@
         "seLocalUiAnalogInput9"
       ],
       "description": "Analog Input 9"
+    },
+    {
+      "type": "null"
     }
   ]
 }

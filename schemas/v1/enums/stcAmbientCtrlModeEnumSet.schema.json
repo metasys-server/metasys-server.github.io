@@ -17,6 +17,9 @@
         "stcAmbientCtrlMode1"
       ],
       "description": "Low Ambient"
+    },
+    {
+      "type": "null"
     }
   ]
 }

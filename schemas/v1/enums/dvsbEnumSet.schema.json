@@ -52,6 +52,9 @@
         "dvsbInvalidDmcsVersion"
       ],
       "description": "Device model class version mismatch"
+    },
+    {
+      "type": "null"
     }
   ]
 }

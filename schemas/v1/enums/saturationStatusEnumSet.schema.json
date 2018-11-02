@@ -38,6 +38,9 @@
         "ssTimingLow"
       ],
       "description": "Timing Low"
+    },
+    {
+      "type": "null"
     }
   ]
 }

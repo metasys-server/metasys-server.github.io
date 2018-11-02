@@ -38,6 +38,9 @@
         "twrFanTypeVernier"
       ],
       "description": "Vernier"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "tankDischarge"
       ],
       "description": "Discharge"
+    },
+    {
+      "type": "null"
     }
   ]
 }

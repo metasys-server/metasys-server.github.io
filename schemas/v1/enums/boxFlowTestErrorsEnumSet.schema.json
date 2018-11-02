@@ -59,6 +59,9 @@
         "bfteExcessiveHysteresis"
       ],
       "description": "Excessive Hysteresis"
+    },
+    {
+      "type": "null"
     }
   ]
 }

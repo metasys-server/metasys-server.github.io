@@ -17,6 +17,9 @@
         "ydCompressorOpMode1"
       ],
       "description": "Single"
+    },
+    {
+      "type": "null"
     }
   ]
 }

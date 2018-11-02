@@ -374,6 +374,9 @@
         "decisionDetailOnLeave"
       ],
       "description": "On Leave"
+    },
+    {
+      "type": "null"
     }
   ]
 }

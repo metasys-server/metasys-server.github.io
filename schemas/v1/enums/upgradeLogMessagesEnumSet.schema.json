@@ -2166,6 +2166,9 @@
         "upgradePropertyNotSupported"
       ],
       "description": "The device has a property that is not supported in the target release. Object: "
+    },
+    {
+      "type": "null"
     }
   ]
 }

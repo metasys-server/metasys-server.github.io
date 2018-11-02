@@ -17,6 +17,9 @@
         "normalDepletionDepletion"
       ],
       "description": "Depletion"
+    },
+    {
+      "type": "null"
     }
   ]
 }

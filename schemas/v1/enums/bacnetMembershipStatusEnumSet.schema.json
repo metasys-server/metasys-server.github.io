@@ -59,6 +59,9 @@
         "bacnetMembershipStatusExpired"
       ],
       "description": "Expired"
+    },
+    {
+      "type": "null"
     }
   ]
 }

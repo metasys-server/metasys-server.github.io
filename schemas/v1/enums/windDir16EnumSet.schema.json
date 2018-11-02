@@ -115,6 +115,9 @@
         "windDir16Nnw"
       ],
       "description": "NNW"
+    },
+    {
+      "type": "null"
     }
   ]
 }

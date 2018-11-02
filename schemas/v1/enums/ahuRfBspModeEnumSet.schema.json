@@ -38,6 +38,9 @@
         "arbmBsPControl"
       ],
       "description": "BS-P Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

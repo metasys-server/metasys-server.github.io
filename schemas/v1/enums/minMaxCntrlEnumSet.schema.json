@@ -24,6 +24,9 @@
         "minMaxCntrlControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

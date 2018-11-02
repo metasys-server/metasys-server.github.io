@@ -31,6 +31,9 @@
         "tstatVoltageInputFuncHumiditySensor"
       ],
       "description": "Humidity Sensor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "5"
       ],
       "description": "Fan Lockout"
+    },
+    {
+      "type": "null"
     }
   ]
 }

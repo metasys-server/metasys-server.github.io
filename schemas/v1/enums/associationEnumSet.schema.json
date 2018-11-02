@@ -24,6 +24,9 @@
         "2"
       ],
       "description": "Associated Value"
+    },
+    {
+      "type": "null"
     }
   ]
 }

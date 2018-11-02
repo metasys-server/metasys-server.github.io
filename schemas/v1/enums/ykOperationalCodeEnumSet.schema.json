@@ -101,6 +101,9 @@
         "13"
       ],
       "description": "Unit Stopped - Internal Shutdown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

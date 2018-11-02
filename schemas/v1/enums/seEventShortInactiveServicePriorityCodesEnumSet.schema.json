@@ -206,6 +206,9 @@
         "seEventShortInactiveServicePriorityCode126"
       ],
       "description": "MFC Jumper is Elite"
+    },
+    {
+      "type": "null"
     }
   ]
 }

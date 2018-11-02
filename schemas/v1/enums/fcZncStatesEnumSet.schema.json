@@ -31,6 +31,9 @@
         "zncStatesTempUnrel"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

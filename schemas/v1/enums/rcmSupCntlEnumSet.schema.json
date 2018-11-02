@@ -59,6 +59,9 @@
         "disableOnOffOffTimerSetpointAndFlow"
       ],
       "description": "Disable all operations"
+    },
+    {
+      "type": "null"
     }
   ]
 }

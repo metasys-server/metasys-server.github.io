@@ -45,6 +45,9 @@
         "seRtuTwoSpeedStatesSwitch2Low2"
       ],
       "description": "Switch2Low2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

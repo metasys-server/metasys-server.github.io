@@ -24,6 +24,9 @@
         "vdrHeatingDaTReset"
       ],
       "description": "Heating DA-T Reset"
+    },
+    {
+      "type": "null"
     }
   ]
 }

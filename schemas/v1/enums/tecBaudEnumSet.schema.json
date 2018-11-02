@@ -38,6 +38,9 @@
         "tecBaudAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

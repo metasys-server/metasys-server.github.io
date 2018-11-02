@@ -24,6 +24,9 @@
         "tec3000UnitControlModeHeating"
       ],
       "description": "Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

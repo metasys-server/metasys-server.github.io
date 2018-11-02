@@ -17,6 +17,9 @@
         "seCvSfTypeEnumSet1"
       ],
       "description": "Fixed Variable Fan"
+    },
+    {
+      "type": "null"
     }
   ]
 }

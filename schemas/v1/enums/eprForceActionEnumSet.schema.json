@@ -31,6 +31,9 @@
         "eprForceActionDeactivateChannelB"
       ],
       "description": "Deactivate Channel B"
+    },
+    {
+      "type": "null"
     }
   ]
 }

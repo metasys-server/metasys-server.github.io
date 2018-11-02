@@ -73,6 +73,9 @@
         "state99"
       ],
       "description": "State 9"
+    },
+    {
+      "type": "null"
     }
   ]
 }

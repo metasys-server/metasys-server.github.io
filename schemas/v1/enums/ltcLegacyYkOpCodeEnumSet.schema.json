@@ -80,6 +80,9 @@
         "ltcLegacyYkOpCode10"
       ],
       "description": "RESERVED 10"
+    },
+    {
+      "type": "null"
     }
   ]
 }

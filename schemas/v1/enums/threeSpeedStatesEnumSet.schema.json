@@ -31,6 +31,9 @@
         "threeSpdStatesHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

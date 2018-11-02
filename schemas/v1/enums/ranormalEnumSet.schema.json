@@ -45,6 +45,9 @@
         "5"
       ],
       "description": "Minimum DAT Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

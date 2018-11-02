@@ -17,6 +17,9 @@
         "snmpVersion2"
       ],
       "description": "2.0"
+    },
+    {
+      "type": "null"
     }
   ]
 }

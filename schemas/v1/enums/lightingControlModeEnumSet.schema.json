@@ -24,6 +24,9 @@
         "lightingControlMode2"
       ],
       "description": "Schedule & Light Level"
+    },
+    {
+      "type": "null"
     }
   ]
 }

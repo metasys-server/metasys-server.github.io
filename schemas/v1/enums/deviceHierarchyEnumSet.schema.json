@@ -31,6 +31,9 @@
         "deviceHierarchyDisplayDevice"
       ],
       "description": "Display Device"
+    },
+    {
+      "type": "null"
     }
   ]
 }

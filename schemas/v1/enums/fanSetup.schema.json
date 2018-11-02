@@ -24,6 +24,9 @@
         "fanSetupNone"
       ],
       "description": "None"
+    },
+    {
+      "type": "null"
     }
   ]
 }

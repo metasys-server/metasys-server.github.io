@@ -24,6 +24,9 @@
         "izOperationModeDoubleKnock"
       ],
       "description": "Double Knock"
+    },
+    {
+      "type": "null"
     }
   ]
 }

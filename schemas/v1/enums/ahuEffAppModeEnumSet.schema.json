@@ -45,6 +45,9 @@
         "aemAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

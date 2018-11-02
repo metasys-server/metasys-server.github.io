@@ -17,6 +17,9 @@
         "seCvMinOaSensorEnumSet1"
       ],
       "description": "DA-T"
+    },
+    {
+      "type": "null"
     }
   ]
 }

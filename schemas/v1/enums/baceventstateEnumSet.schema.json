@@ -52,6 +52,9 @@
         "bacevntOffline"
       ],
       "description": "Offline"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -136,6 +136,9 @@
         "ykSc1218"
       ],
       "description": "ECON ECONOMIZER - NO DEMAND (ECON STOPPED)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

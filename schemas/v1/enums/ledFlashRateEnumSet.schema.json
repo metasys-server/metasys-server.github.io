@@ -38,6 +38,9 @@
         "ledFlashRate5Hz"
       ],
       "description": "5 Hz LED Flash Rate"
+    },
+    {
+      "type": "null"
     }
   ]
 }

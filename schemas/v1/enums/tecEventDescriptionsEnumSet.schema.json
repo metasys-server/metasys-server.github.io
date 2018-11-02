@@ -199,6 +199,9 @@
         "tecEventDescriptions119"
       ],
       "description": "Zone Temperature Too Hot.  The zone temperature is above the upper temperature limit."
+    },
+    {
+      "type": "null"
     }
   ]
 }

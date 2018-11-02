@@ -59,6 +59,9 @@
         "outputElemAdvancedType"
       ],
       "description": "Output Element Advanced"
+    },
+    {
+      "type": "null"
     }
   ]
 }

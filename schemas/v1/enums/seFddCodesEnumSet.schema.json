@@ -570,6 +570,9 @@
         "seFddHeatPumpActiveNoDiagnostics"
       ],
       "description": "Heat Pump Active Diagnostics Not Available"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "eprChannelB"
       ],
       "description": "B"
+    },
+    {
+      "type": "null"
     }
   ]
 }

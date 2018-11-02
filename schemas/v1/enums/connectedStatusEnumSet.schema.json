@@ -45,6 +45,9 @@
         "5"
       ],
       "description": "Disconnecting"
+    },
+    {
+      "type": "null"
     }
   ]
 }

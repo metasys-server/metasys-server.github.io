@@ -24,6 +24,9 @@
         "ahlLlTWait"
       ],
       "description": "LL-T Wait"
+    },
+    {
+      "type": "null"
     }
   ]
 }

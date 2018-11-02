@@ -31,6 +31,9 @@
         "sicsUnoccStatusSatisfied"
       ],
       "description": "Satisfied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

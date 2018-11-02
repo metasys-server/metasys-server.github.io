@@ -969,6 +969,9 @@
         "yewsShortNames138"
       ],
       "description": "DIGITAL OUTPUT 32~17"
+    },
+    {
+      "type": "null"
     }
   ]
 }

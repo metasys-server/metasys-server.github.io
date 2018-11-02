@@ -80,6 +80,9 @@
         "dormantEventSent"
       ],
       "description": "Dormant Event Sent"
+    },
+    {
+      "type": "null"
     }
   ]
 }

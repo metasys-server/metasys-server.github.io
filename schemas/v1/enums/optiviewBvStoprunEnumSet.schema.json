@@ -17,6 +17,9 @@
         "optiviewBvStoprunRun"
       ],
       "description": "Run"
+    },
+    {
+      "type": "null"
     }
   ]
 }

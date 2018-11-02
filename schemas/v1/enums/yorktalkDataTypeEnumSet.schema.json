@@ -80,6 +80,9 @@
         "ytDtShortPacket"
       ],
       "description": "Short Packet"
+    },
+    {
+      "type": "null"
     }
   ]
 }

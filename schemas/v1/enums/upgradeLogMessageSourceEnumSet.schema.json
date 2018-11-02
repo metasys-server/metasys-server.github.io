@@ -87,6 +87,9 @@
         "logMessageSourceSwitchover"
       ],
       "description": "Application Options"
+    },
+    {
+      "type": "null"
     }
   ]
 }

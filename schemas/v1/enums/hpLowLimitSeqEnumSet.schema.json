@@ -24,6 +24,9 @@
         "hpLlLmtMinOa"
       ],
       "description": "Limited Min OA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

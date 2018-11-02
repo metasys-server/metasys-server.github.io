@@ -969,6 +969,9 @@
         "yspaLongNames138"
       ],
       "description": "Fault YORK013 Digital output 32-17"
+    },
+    {
+      "type": "null"
     }
   ]
 }

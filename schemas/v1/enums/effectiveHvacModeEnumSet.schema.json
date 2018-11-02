@@ -38,6 +38,9 @@
         "effectiveHvacModeFanOnly"
       ],
       "description": "Fan Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

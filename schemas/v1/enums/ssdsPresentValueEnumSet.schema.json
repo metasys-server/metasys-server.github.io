@@ -80,6 +80,9 @@
         "ssdsFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "bacnetDirectoryNoServer"
       ],
       "description": "No Server"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "residentialOccupancySleep"
       ],
       "description": "Sleep"
+    },
+    {
+      "type": "null"
     }
   ]
 }

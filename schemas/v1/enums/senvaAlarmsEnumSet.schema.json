@@ -108,6 +108,9 @@
         "senvaAlarmsBrownoutVoltage"
       ],
       "description": "Brownout Voltage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

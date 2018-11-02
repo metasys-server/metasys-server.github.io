@@ -66,6 +66,9 @@
         "seMaControlStateCoolToHeat"
       ],
       "description": "Cool to Heat Delay"
+    },
+    {
+      "type": "null"
     }
   ]
 }

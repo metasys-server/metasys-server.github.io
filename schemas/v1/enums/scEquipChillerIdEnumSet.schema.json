@@ -493,6 +493,9 @@
         "scEquipChillerIdMilleniumYtSi"
       ],
       "description": "Millenium YT (SI)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

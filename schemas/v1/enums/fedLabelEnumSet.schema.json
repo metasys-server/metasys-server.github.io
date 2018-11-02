@@ -346,6 +346,9 @@
         "labelNoObjsConfiguredForPage"
       ],
       "description": "No objects are configured for this page"
+    },
+    {
+      "type": "null"
     }
   ]
 }

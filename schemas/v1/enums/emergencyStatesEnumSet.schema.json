@@ -45,6 +45,9 @@
         "esPreShutdown"
       ],
       "description": "Pre-Shutdown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

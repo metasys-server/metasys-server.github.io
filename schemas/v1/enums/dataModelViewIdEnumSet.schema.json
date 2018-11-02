@@ -1270,6 +1270,9 @@
         "dmViewIdEnergyMeter4"
       ],
       "description": "Energy Meter 4"
+    },
+    {
+      "type": "null"
     }
   ]
 }

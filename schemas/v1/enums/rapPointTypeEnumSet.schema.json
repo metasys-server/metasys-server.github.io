@@ -10,6 +10,9 @@
         "rapGeneric"
       ],
       "description": "Generic"
+    },
+    {
+      "type": "null"
     }
   ]
 }

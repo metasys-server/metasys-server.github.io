@@ -31,6 +31,9 @@
         "ykMotorWindingTempProtection3"
       ],
       "description": "VSD Thermistor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

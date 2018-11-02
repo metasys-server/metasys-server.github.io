@@ -108,6 +108,9 @@
         "lifesftyModeDefault"
       ],
       "description": "Default"
+    },
+    {
+      "type": "null"
     }
   ]
 }

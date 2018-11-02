@@ -52,6 +52,9 @@
         "6"
       ],
       "description": "RTU Energy Recovery"
+    },
+    {
+      "type": "null"
     }
   ]
 }

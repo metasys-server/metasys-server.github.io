@@ -45,6 +45,9 @@
         "ssaoAsMixed"
       ],
       "description": "Mixed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

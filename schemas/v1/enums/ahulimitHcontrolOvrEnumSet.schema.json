@@ -24,6 +24,9 @@
         "ahulimitHcontrolOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

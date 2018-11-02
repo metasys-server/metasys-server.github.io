@@ -31,6 +31,9 @@
         "ahuMinoaVfdFsMinFlowControl"
       ],
       "description": "Min Flow Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

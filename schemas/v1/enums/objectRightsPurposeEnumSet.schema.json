@@ -31,6 +31,9 @@
         "orpApplicableToIndexes385512"
       ],
       "description": "Applicable to indexes 385..512"
+    },
+    {
+      "type": "null"
     }
   ]
 }

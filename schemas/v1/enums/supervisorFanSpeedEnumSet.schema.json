@@ -31,6 +31,9 @@
         "supervisorFanSpeedAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

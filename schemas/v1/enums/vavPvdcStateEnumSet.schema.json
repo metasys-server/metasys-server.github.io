@@ -24,6 +24,9 @@
         "vpsControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

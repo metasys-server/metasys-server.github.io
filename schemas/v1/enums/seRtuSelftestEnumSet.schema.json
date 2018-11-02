@@ -24,6 +24,9 @@
         "seRtuSelftestNotRunning"
       ],
       "description": "Test Is Not Running"
+    },
+    {
+      "type": "null"
     }
   ]
 }

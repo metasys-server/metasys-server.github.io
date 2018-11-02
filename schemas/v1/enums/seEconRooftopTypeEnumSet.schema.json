@@ -17,6 +17,9 @@
         "seEconRooftopTypeConvRtu"
       ],
       "description": "Conv RTU"
+    },
+    {
+      "type": "null"
     }
   ]
 }

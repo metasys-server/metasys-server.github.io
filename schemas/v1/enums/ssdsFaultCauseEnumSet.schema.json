@@ -94,6 +94,9 @@
         "ssdsFaultCauseReaderTerminal"
       ],
       "description": "Reader Terminal"
+    },
+    {
+      "type": "null"
     }
   ]
 }

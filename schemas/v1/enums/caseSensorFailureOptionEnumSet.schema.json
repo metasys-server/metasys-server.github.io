@@ -17,6 +17,9 @@
         "csfoOutputEnergized"
       ],
       "description": "Output Energized"
+    },
+    {
+      "type": "null"
     }
   ]
 }

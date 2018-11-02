@@ -31,6 +31,9 @@
         "lifesftySilenceAllSilenced"
       ],
       "description": "All Silenced"
+    },
+    {
+      "type": "null"
     }
   ]
 }

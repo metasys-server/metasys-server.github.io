@@ -143,6 +143,9 @@
         "pmoRemoteFwPkgStatusInternalErrorUnableToOpenRemotePackageFile"
       ],
       "description": "Remote Package Internal Error - Unable to Open Remote Package"
+    },
+    {
+      "type": "null"
     }
   ]
 }

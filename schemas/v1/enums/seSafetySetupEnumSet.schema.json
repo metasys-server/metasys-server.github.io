@@ -24,6 +24,9 @@
         "seSsCond"
       ],
       "description": "Condensate Switch"
+    },
+    {
+      "type": "null"
     }
   ]
 }

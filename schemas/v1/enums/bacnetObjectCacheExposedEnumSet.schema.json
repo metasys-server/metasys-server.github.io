@@ -17,6 +17,9 @@
         "boceExcludeFromList"
       ],
       "description": "Exclude from Object List"
+    },
+    {
+      "type": "null"
     }
   ]
 }

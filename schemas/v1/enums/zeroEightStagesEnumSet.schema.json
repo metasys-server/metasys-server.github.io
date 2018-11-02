@@ -66,6 +66,9 @@
         "zeroEight8Stages"
       ],
       "description": "8 Stages"
+    },
+    {
+      "type": "null"
     }
   ]
 }

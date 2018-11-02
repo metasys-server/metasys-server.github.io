@@ -45,6 +45,9 @@
         "eioBoardStatusPending"
       ],
       "description": "EIO Board Status Pending"
+    },
+    {
+      "type": "null"
     }
   ]
 }

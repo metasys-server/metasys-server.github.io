@@ -52,6 +52,9 @@
         "6"
       ],
       "description": "Release"
+    },
+    {
+      "type": "null"
     }
   ]
 }

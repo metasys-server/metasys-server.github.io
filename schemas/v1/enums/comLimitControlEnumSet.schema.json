@@ -24,6 +24,9 @@
         "comlcControlLimit"
       ],
       "description": "Control Limit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

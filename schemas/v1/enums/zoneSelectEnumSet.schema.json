@@ -66,6 +66,9 @@
         "zoneSelect8"
       ],
       "description": "Zone 8"
+    },
+    {
+      "type": "null"
     }
   ]
 }

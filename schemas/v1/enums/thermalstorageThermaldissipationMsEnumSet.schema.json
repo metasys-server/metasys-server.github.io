@@ -17,6 +17,9 @@
         "thermalstorageThermaldissipationThermaldissipation"
       ],
       "description": "Thermal Dissipation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

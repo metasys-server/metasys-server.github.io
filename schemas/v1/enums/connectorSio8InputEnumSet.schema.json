@@ -59,6 +59,9 @@
         "connectorSio8InputAl8"
       ],
       "description": "AL8"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "vavDdFlowCtrlFailsoft"
       ],
       "description": "Failsoft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

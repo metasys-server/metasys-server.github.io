@@ -45,6 +45,9 @@
         "gainDecreased"
       ],
       "description": "Gain Decreased"
+    },
+    {
+      "type": "null"
     }
   ]
 }

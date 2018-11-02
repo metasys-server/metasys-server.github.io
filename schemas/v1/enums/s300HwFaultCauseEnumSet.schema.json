@@ -38,6 +38,9 @@
         "s300HwFaultCauseExcessiveOnlineOffline"
       ],
       "description": "Excessive Online Offline"
+    },
+    {
+      "type": "null"
     }
   ]
 }

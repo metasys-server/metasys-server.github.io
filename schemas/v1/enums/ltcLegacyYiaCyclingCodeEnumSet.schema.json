@@ -59,6 +59,9 @@
         "ltcLegacyYiaCyclingCode7"
       ],
       "description": "MULTI-UNIT CYCLING SHUTDOWN"
+    },
+    {
+      "type": "null"
     }
   ]
 }

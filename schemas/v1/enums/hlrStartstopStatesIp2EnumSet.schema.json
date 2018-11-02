@@ -59,6 +59,9 @@
         "hlrStartstopStatesIp2TransitionHtgOff"
       ],
       "description": "Transition Htg Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

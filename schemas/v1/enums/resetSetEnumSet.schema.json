@@ -24,6 +24,9 @@
         "2"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

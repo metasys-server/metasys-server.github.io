@@ -24,6 +24,9 @@
         "omOccupied"
       ],
       "description": "Occupied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "automanualHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

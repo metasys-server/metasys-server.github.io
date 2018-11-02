@@ -59,6 +59,9 @@
         "seRtuHawaiiTime"
       ],
       "description": "Hawaii"
+    },
+    {
+      "type": "null"
     }
   ]
 }

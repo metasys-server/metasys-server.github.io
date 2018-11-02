@@ -108,6 +108,9 @@
         "esNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "alrmStatusDefOffNormal"
       ],
       "description": "Off Normal"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -59,6 +59,9 @@
         "ahamNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -80,6 +80,9 @@
         "tec3000BiConfig2SupplyFanStatus"
       ],
       "description": "Supply Fan Status"
+    },
+    {
+      "type": "null"
     }
   ]
 }

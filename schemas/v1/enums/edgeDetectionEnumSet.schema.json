@@ -24,6 +24,9 @@
         "edBothEdges"
       ],
       "description": "Both Edges"
+    },
+    {
+      "type": "null"
     }
   ]
 }

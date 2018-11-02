@@ -31,6 +31,9 @@
         "t8800FanSpeedAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

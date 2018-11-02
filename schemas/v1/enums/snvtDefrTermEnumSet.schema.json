@@ -80,6 +80,9 @@
         "dftNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "mzZnHtgStateControlHeating"
       ],
       "description": "Control Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

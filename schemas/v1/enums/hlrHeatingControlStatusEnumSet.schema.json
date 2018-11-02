@@ -38,6 +38,9 @@
         "hlrHeatingControlStatusOffLowSupplyVoltage"
       ],
       "description": "Off-Low Supply Voltage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

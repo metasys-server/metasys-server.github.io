@@ -17,6 +17,9 @@
         "aperioDeviceFaultCauseAddressConflict"
       ],
       "description": "Address Conflict"
+    },
+    {
+      "type": "null"
     }
   ]
 }

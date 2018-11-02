@@ -654,6 +654,9 @@
         "yvwaOneCompFault129"
       ],
       "description": "VSD – FAULT 32 (NOT USED)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

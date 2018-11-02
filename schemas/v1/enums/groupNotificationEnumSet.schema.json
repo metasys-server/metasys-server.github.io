@@ -24,6 +24,9 @@
         "groupNotificationNone"
       ],
       "description": "None"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "motorVr575V"
       ],
       "description": "575V"
+    },
+    {
+      "type": "null"
     }
   ]
 }

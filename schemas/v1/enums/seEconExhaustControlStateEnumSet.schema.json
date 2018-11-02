@@ -45,6 +45,9 @@
         "seEconExhaustControlStateErvEnabled"
       ],
       "description": "ERV Enabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

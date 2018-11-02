@@ -31,6 +31,9 @@
         "autoLowMidHighHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

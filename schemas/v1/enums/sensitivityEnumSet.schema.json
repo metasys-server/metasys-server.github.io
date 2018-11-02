@@ -24,6 +24,9 @@
         "sensitivityHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

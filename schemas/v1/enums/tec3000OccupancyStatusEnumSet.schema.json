@@ -45,6 +45,9 @@
         "tec3000OccupancyStatusUnoccupiedOverride"
       ],
       "description": "Unoccupied-Override"
+    },
+    {
+      "type": "null"
     }
   ]
 }

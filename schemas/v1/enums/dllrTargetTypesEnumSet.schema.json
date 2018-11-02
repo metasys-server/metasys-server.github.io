@@ -17,6 +17,9 @@
         "dllrTgtTypeLoadRollingType"
       ],
       "description": "Load Rolling"
+    },
+    {
+      "type": "null"
     }
   ]
 }

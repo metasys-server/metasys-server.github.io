@@ -38,6 +38,9 @@
         "fcsNetworkOrLocalSensors"
       ],
       "description": "Network or Local Sensors"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "ahceHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

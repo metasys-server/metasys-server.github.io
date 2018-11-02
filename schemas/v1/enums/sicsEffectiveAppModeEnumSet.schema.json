@@ -45,6 +45,9 @@
         "sicsEamOff"
       ],
       "description": "Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

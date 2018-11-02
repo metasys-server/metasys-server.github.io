@@ -24,6 +24,9 @@
         "timeInState"
       ],
       "description": "Time in State"
+    },
+    {
+      "type": "null"
     }
   ]
 }

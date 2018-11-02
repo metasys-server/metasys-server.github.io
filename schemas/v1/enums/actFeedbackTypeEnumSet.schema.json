@@ -17,6 +17,9 @@
         "1"
       ],
       "description": "3 Wire"
+    },
+    {
+      "type": "null"
     }
   ]
 }

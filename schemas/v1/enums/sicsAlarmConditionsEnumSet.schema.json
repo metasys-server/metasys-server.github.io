@@ -612,6 +612,9 @@
         "almCond276"
       ],
       "description": "UCB board expected"
+    },
+    {
+      "type": "null"
     }
   ]
 }

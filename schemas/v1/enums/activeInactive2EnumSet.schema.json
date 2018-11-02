@@ -17,6 +17,9 @@
         "omd2Inactive"
       ],
       "description": "Inactive"
+    },
+    {
+      "type": "null"
     }
   ]
 }

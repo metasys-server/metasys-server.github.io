@@ -647,6 +647,9 @@
         "usernameMask"
       ],
       "description": "Username Mask"
+    },
+    {
+      "type": "null"
     }
   ]
 }

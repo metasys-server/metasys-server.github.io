@@ -66,6 +66,9 @@
         "stage8"
       ],
       "description": "Stage 8"
+    },
+    {
+      "type": "null"
     }
   ]
 }

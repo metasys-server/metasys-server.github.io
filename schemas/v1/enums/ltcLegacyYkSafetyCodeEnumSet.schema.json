@@ -619,6 +619,9 @@
         "ltcLegacyYkSafetyCode87"
       ],
       "description": "FLTR DCCT 2 ERROR"
+    },
+    {
+      "type": "null"
     }
   ]
 }

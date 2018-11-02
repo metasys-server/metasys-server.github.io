@@ -24,6 +24,9 @@
         "hvacUnoccFanModeOff"
       ],
       "description": "Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

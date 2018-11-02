@@ -143,6 +143,9 @@
         "btethDcBluetoothmceAlreadyLoadedByAnotherProcess"
       ],
       "description": "The connection is being used by another application"
+    },
+    {
+      "type": "null"
     }
   ]
 }

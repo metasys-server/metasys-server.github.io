@@ -24,6 +24,9 @@
         "oofFlash"
       ],
       "description": "Flash"
+    },
+    {
+      "type": "null"
     }
   ]
 }

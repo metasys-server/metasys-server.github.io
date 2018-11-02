@@ -17,6 +17,9 @@
         "addLocalDisplayBehaviorAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

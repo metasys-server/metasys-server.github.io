@@ -17,6 +17,9 @@
         "ssaoOffline"
       ],
       "description": "Offline"
+    },
+    {
+      "type": "null"
     }
   ]
 }

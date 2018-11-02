@@ -80,6 +80,9 @@
         "authFailedNetworkStatus"
       ],
       "description": "Authentication failed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

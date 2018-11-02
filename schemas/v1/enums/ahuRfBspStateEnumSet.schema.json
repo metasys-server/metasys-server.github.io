@@ -45,6 +45,9 @@
         "arbsFailsoft"
       ],
       "description": "Failsoft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

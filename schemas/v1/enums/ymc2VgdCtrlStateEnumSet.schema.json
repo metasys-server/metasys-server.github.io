@@ -66,6 +66,9 @@
         "ymc2VgdCtrlStatePrvPositionOverride"
       ],
       "description": "PRV Position Override"
+    },
+    {
+      "type": "null"
     }
   ]
 }

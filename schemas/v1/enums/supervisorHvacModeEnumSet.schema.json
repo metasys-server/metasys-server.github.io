@@ -38,6 +38,9 @@
         "supervisorHvacModeFanOnly"
       ],
       "description": "Fan Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

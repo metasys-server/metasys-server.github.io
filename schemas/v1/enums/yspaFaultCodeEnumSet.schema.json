@@ -717,6 +717,9 @@
         "yspaFaultCode101"
       ],
       "description": "#1/#2 RUN32 FAULT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

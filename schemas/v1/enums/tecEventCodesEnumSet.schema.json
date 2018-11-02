@@ -199,6 +199,9 @@
         "tecEventCodes119"
       ],
       "description": "Zone Temperature Too Hot"
+    },
+    {
+      "type": "null"
     }
   ]
 }

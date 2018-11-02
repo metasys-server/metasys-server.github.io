@@ -66,6 +66,9 @@
         "vvtDamperCntlrStateHtg"
       ],
       "description": "Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

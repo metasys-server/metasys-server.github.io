@@ -59,6 +59,9 @@
         "msfMul1000"
       ],
       "description": "1000"
+    },
+    {
+      "type": "null"
     }
   ]
 }

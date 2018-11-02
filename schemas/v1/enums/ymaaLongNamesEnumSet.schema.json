@@ -3349,6 +3349,9 @@
         "ymaaLongNames478"
       ],
       "description": "Unit Ambient Temperature"
+    },
+    {
+      "type": "null"
     }
   ]
 }

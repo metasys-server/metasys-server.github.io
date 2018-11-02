@@ -2537,6 +2537,9 @@
         "gryphonViewStartCountOverride"
       ],
       "description": "Start Count Override"
+    },
+    {
+      "type": "null"
     }
   ]
 }

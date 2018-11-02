@@ -66,6 +66,9 @@
         "hlrFanStatusOn"
       ],
       "description": "On"
+    },
+    {
+      "type": "null"
     }
   ]
 }

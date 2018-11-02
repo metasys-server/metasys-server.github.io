@@ -24,6 +24,9 @@
         "effectiveOccupancyModeTempOccupied"
       ],
       "description": "Temp Occupied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

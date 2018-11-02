@@ -17,6 +17,9 @@
         "bacFileStreamAccess"
       ],
       "description": "Stream Access"
+    },
+    {
+      "type": "null"
     }
   ]
 }

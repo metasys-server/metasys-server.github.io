@@ -45,6 +45,9 @@
         "outputCmdSteady"
       ],
       "description": "Steady"
+    },
+    {
+      "type": "null"
     }
   ]
 }

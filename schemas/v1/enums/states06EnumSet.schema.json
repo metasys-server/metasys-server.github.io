@@ -52,6 +52,9 @@
         "state66"
       ],
       "description": "State 6"
+    },
+    {
+      "type": "null"
     }
   ]
 }

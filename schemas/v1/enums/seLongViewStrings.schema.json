@@ -1410,6 +1410,9 @@
         "seViewBinary"
       ],
       "description": "Binary"
+    },
+    {
+      "type": "null"
     }
   ]
 }

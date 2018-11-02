@@ -73,6 +73,9 @@
         "a2SvoRemainInCtrl"
       ],
       "description": "Remain In Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

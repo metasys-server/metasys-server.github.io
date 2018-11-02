@@ -17,6 +17,9 @@
         "prefTypeUser"
       ],
       "description": "User"
+    },
+    {
+      "type": "null"
     }
   ]
 }

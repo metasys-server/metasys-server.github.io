@@ -38,6 +38,9 @@
         "4"
       ],
       "description": "0-1250 Pa"
+    },
+    {
+      "type": "null"
     }
   ]
 }

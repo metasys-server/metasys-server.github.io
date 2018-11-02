@@ -38,6 +38,9 @@
         "4"
       ],
       "description": "Remote Sw"
+    },
+    {
+      "type": "null"
     }
   ]
 }

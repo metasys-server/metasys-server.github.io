@@ -31,6 +31,9 @@
         "databaseActionPurge"
       ],
       "description": "Purge"
+    },
+    {
+      "type": "null"
     }
   ]
 }

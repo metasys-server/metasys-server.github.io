@@ -24,6 +24,9 @@
         "koneControllerFaultCauseTask"
       ],
       "description": "Task"
+    },
+    {
+      "type": "null"
     }
   ]
 }

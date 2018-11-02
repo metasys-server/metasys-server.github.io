@@ -59,6 +59,9 @@
         "ytPropObjDataPacket"
       ],
       "description": "Data Packets"
+    },
+    {
+      "type": "null"
     }
   ]
 }

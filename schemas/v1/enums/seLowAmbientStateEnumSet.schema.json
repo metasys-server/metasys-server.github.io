@@ -45,6 +45,9 @@
         "seLowAmbientStateExtendRunTime"
       ],
       "description": "Extend Run Time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

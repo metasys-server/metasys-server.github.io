@@ -31,6 +31,9 @@
         "3"
       ],
       "description": "HEAT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

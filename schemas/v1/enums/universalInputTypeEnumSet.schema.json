@@ -24,6 +24,9 @@
         "universalInputTypeVoltage"
       ],
       "description": "Voltage Input"
+    },
+    {
+      "type": "null"
     }
   ]
 }

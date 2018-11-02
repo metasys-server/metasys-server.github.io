@@ -31,6 +31,9 @@
         "vhpmControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

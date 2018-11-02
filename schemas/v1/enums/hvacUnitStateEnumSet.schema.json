@@ -52,6 +52,9 @@
         "hvacUnitStateWarning"
       ],
       "description": "Warning"
+    },
+    {
+      "type": "null"
     }
   ]
 }

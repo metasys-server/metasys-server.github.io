@@ -24,6 +24,9 @@
         "mstpdlCommunicationOptionDisabled"
       ],
       "description": "Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

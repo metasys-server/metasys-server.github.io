@@ -38,6 +38,9 @@
         "emgShutdown"
       ],
       "description": "Shutdown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

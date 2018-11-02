@@ -73,6 +73,9 @@
         "genBaudAuto"
       ],
       "description": "Auto Baud"
+    },
+    {
+      "type": "null"
     }
   ]
 }

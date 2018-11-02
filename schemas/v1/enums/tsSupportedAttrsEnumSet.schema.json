@@ -157,6 +157,9 @@
         "equipment"
       ],
       "description": "Equipment"
+    },
+    {
+      "type": "null"
     }
   ]
 }

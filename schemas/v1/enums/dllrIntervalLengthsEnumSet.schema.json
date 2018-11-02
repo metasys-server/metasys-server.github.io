@@ -31,6 +31,9 @@
         "dllrIntLen10Minutes"
       ],
       "description": "10 minutes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

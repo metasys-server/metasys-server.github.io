@@ -17,6 +17,9 @@
         "relativeDtNow"
       ],
       "description": "Now"
+    },
+    {
+      "type": "null"
     }
   ]
 }

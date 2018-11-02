@@ -17,6 +17,9 @@
         "transferToDeviceTypeBackgroundAndSwitch"
       ],
       "description": "Background and Switch"
+    },
+    {
+      "type": "null"
     }
   ]
 }

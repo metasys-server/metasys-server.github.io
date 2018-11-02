@@ -31,6 +31,9 @@
         "state33"
       ],
       "description": "State 3"
+    },
+    {
+      "type": "null"
     }
   ]
 }

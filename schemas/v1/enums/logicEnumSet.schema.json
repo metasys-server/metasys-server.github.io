@@ -31,6 +31,9 @@
         "logicXor"
       ],
       "description": "XOR"
+    },
+    {
+      "type": "null"
     }
   ]
 }

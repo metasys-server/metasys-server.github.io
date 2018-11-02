@@ -17,6 +17,9 @@
         "entityTypeAsset"
       ],
       "description": "Asset"
+    },
+    {
+      "type": "null"
     }
   ]
 }

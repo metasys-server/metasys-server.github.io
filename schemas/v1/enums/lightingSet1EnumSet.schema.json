@@ -45,6 +45,9 @@
         "ls1AfterHoursPool"
       ],
       "description": "After Hours (Pool)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "breakMakeMake"
       ],
       "description": "Make"
+    },
+    {
+      "type": "null"
     }
   ]
 }

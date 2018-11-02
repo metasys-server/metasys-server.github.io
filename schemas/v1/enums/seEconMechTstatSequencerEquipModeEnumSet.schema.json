@@ -38,6 +38,9 @@
         "seEconMechTstatSequencerEquipModeClg"
       ],
       "description": "Clg"
+    },
+    {
+      "type": "null"
     }
   ]
 }

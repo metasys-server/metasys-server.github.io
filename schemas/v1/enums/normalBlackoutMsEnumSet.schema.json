@@ -17,6 +17,9 @@
         "normalBlackoutBlackout"
       ],
       "description": "Blackout"
+    },
+    {
+      "type": "null"
     }
   ]
 }

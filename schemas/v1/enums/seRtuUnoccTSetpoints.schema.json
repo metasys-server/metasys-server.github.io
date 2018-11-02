@@ -17,6 +17,9 @@
         "seRtuUnoccTSetpointsZoneControl"
       ],
       "description": "Zone Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

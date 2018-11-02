@@ -31,6 +31,9 @@
         "dataRecordStatusExists"
       ],
       "description": "Exists"
+    },
+    {
+      "type": "null"
     }
   ]
 }

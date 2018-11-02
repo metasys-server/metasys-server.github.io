@@ -24,6 +24,9 @@
         "ashcontrHControl"
       ],
       "description": "H Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

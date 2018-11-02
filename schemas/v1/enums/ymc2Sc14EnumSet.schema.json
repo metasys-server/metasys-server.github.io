@@ -45,6 +45,9 @@
         "ymc2Sc145"
       ],
       "description": "INTERNAL ERROR - INVALID BRAM"
+    },
+    {
+      "type": "null"
     }
   ]
 }

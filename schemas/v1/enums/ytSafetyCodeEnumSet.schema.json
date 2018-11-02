@@ -192,6 +192,9 @@
         "52"
       ],
       "description": "Evaporator - Low Pressure - Smart Freeze"
+    },
+    {
+      "type": "null"
     }
   ]
 }

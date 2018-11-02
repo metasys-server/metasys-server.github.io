@@ -24,6 +24,9 @@
         "vendDbMemoryFull"
       ],
       "description": "Memory Full"
+    },
+    {
+      "type": "null"
     }
   ]
 }

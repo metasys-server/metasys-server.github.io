@@ -17,6 +17,9 @@
         "1"
       ],
       "description": "Position"
+    },
+    {
+      "type": "null"
     }
   ]
 }

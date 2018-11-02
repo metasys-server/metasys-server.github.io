@@ -80,6 +80,9 @@
         "updateFirmwareRemotePkg"
       ],
       "description": "Update Firmware by Remote Package"
+    },
+    {
+      "type": "null"
     }
   ]
 }

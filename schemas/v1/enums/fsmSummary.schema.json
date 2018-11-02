@@ -52,6 +52,9 @@
         "manualRelease"
       ],
       "description": "Manual Release"
+    },
+    {
+      "type": "null"
     }
   ]
 }

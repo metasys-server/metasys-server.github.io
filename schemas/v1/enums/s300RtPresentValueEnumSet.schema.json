@@ -80,6 +80,9 @@
         "s300RtFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

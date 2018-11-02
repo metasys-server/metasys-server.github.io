@@ -570,6 +570,9 @@
         "ygwhVLongNames81"
       ],
       "description": "2# Fail Rate"
+    },
+    {
+      "type": "null"
     }
   ]
 }

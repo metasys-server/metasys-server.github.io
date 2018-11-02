@@ -17,6 +17,9 @@
         "amPmPm"
       ],
       "description": "PM"
+    },
+    {
+      "type": "null"
     }
   ]
 }

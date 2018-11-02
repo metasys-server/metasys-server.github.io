@@ -52,6 +52,9 @@
         "toolDeviceTypeZfr"
       ],
       "description": "ZigBee Field Router"
+    },
+    {
+      "type": "null"
     }
   ]
 }

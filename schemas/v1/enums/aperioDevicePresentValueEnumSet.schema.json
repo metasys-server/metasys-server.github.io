@@ -31,6 +31,9 @@
         "aperioDeviceFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

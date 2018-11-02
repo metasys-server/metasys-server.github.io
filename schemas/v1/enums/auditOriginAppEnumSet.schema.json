@@ -108,6 +108,9 @@
         "scheduleobjAuditOriginApp"
       ],
       "description": "Schedule"
+    },
+    {
+      "type": "null"
     }
   ]
 }

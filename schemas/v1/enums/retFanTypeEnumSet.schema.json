@@ -38,6 +38,9 @@
         "4"
       ],
       "description": "No Return Fan"
+    },
+    {
+      "type": "null"
     }
   ]
 }

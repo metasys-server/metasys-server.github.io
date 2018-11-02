@@ -45,6 +45,9 @@
         "tecAiSetup10KNtcType3"
       ],
       "description": "10K NTC Type 3"
+    },
+    {
+      "type": "null"
     }
   ]
 }

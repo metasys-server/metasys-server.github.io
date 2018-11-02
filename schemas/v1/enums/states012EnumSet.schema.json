@@ -94,6 +94,9 @@
         "state1212"
       ],
       "description": "State 12"
+    },
+    {
+      "type": "null"
     }
   ]
 }

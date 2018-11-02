@@ -248,6 +248,9 @@
         "ltcLegacyYsCyclingCode34"
       ],
       "description": "SLIDE VALVE LOADED ABOVE 30% PRIOR TO START (S.01F.16+)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

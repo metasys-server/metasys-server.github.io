@@ -24,6 +24,9 @@
         "t8800OperatingModeVentilation"
       ],
       "description": "Ventilation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

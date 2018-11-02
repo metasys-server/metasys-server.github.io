@@ -80,6 +80,9 @@
         "tec3000ControlStatusHeatingUnavailable"
       ],
       "description": "Heating Unavailable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -192,6 +192,9 @@
         "seSelfTestDevStateFailBspUnreliable"
       ],
       "description": "Fail- BSP Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

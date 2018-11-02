@@ -80,6 +80,9 @@
         "state1010"
       ],
       "description": "State 10"
+    },
+    {
+      "type": "null"
     }
   ]
 }

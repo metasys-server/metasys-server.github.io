@@ -17,6 +17,9 @@
         "ltcLegacyYiaJ50Stat1"
       ],
       "description": "Manual Restart"
+    },
+    {
+      "type": "null"
     }
   ]
 }

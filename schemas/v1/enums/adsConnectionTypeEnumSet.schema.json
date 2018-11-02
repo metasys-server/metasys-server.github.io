@@ -17,6 +17,9 @@
         "dialAdsConnection"
       ],
       "description": "Dial"
+    },
+    {
+      "type": "null"
     }
   ]
 }

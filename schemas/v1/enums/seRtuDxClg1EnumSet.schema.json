@@ -87,6 +87,9 @@
         "seRtuDxClg1OffCoolingStageDisabled"
       ],
       "description": "Off-Cooling Stage Is Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

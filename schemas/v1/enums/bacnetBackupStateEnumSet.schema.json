@@ -52,6 +52,9 @@
         "bbsRestoreFailure"
       ],
       "description": "Restore Failure"
+    },
+    {
+      "type": "null"
     }
   ]
 }

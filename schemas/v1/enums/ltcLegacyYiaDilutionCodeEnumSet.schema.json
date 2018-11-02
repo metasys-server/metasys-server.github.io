@@ -38,6 +38,9 @@
         "ltcLegacyYiaDilutionCode4"
       ],
       "description": "DILUTION INTERRUPTED - REFRIGERANT LEVEL FLOAT SWITCH"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -73,6 +73,9 @@
         "ltcLegacyYtOpCode9"
       ],
       "description": "PURGE FLOAT SWITCH ERROR"
+    },
+    {
+      "type": "null"
     }
   ]
 }

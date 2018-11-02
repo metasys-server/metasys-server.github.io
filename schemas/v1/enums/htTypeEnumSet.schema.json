@@ -38,6 +38,9 @@
         "4"
       ],
       "description": "Steam or Hot Water"
+    },
+    {
+      "type": "null"
     }
   ]
 }

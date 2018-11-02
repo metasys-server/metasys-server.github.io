@@ -66,6 +66,9 @@
         "tssAutoHigh"
       ],
       "description": "Auto-High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

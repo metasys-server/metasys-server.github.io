@@ -17,6 +17,9 @@
         "disautoAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "occupancyFaultCauseoutOfMemory"
       ],
       "description": "Out Of Memory"
+    },
+    {
+      "type": "null"
     }
   ]
 }

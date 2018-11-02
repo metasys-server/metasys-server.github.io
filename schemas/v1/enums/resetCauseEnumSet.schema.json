@@ -38,6 +38,9 @@
         "nrcSoftware"
       ],
       "description": "Software"
+    },
+    {
+      "type": "null"
     }
   ]
 }

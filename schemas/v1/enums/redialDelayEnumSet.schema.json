@@ -66,6 +66,9 @@
         "minutes10Delay"
       ],
       "description": "10 minutes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

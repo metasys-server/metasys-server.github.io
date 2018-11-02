@@ -24,6 +24,9 @@
         "saturationHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

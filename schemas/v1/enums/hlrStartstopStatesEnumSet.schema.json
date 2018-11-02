@@ -45,6 +45,9 @@
         "hlrStartstopStatesTransitionHtgOff"
       ],
       "description": "Transition Htg Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "stateDash"
       ],
       "description": "State-"
+    },
+    {
+      "type": "null"
     }
   ]
 }

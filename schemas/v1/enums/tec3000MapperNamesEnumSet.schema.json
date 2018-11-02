@@ -773,6 +773,9 @@
         "tec3000MapperNamesFanovrdMode2"
       ],
       "description": "FAN-OVRD2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

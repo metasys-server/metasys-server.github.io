@@ -24,6 +24,9 @@
         "notConnectedConnectedOverrideConnected"
       ],
       "description": "Connected"
+    },
+    {
+      "type": "null"
     }
   ]
 }

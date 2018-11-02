@@ -969,6 +969,9 @@
         "yspaShortNames138"
       ],
       "description": "FAULT YORK013 DIGITAL OUTPUT 32-17"
+    },
+    {
+      "type": "null"
     }
   ]
 }

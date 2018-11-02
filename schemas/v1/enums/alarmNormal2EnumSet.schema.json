@@ -17,6 +17,9 @@
         "an2Normal"
       ],
       "description": "Normal"
+    },
+    {
+      "type": "null"
     }
   ]
 }

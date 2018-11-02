@@ -24,6 +24,9 @@
         "hlrInterfaceTypeSes1Communication"
       ],
       "description": "SES1 Communication"
+    },
+    {
+      "type": "null"
     }
   ]
 }

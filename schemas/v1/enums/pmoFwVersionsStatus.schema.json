@@ -17,6 +17,9 @@
         "pmoFwVersionsStatusDoNotMatchPkg"
       ],
       "description": "Firmware Versions Do Not Match the Package"
+    },
+    {
+      "type": "null"
     }
   ]
 }

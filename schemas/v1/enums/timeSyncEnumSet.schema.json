@@ -87,6 +87,9 @@
         "ts36Hour"
       ],
       "description": "36 hours"
+    },
+    {
+      "type": "null"
     }
   ]
 }

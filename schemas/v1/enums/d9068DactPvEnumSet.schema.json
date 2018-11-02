@@ -31,6 +31,9 @@
         "d9068DactPresentValueFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

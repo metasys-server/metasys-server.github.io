@@ -24,6 +24,9 @@
         "loadReleased"
       ],
       "description": "Released"
+    },
+    {
+      "type": "null"
     }
   ]
 }

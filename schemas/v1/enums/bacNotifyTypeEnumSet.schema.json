@@ -24,6 +24,9 @@
         "bacNotifyAckNotification"
       ],
       "description": "Ack Notification"
+    },
+    {
+      "type": "null"
     }
   ]
 }

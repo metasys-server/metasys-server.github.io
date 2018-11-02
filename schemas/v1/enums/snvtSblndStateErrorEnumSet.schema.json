@@ -115,6 +115,9 @@
         "sbeNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "chPipingNone"
       ],
       "description": "None"
+    },
+    {
+      "type": "null"
     }
   ]
 }

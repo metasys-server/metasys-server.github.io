@@ -38,6 +38,9 @@
         "state44"
       ],
       "description": "State 4"
+    },
+    {
+      "type": "null"
     }
   ]
 }

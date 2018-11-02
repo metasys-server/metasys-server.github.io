@@ -17,6 +17,9 @@
         "lowLmt"
       ],
       "description": "Low Limit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

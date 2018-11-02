@@ -31,6 +31,9 @@
         "correctionSelectionDetectAndCorrectDoNotProtect0To3"
       ],
       "description": "Detection And Correction With Addresses 0 To 3 Unprotected"
+    },
+    {
+      "type": "null"
     }
   ]
 }

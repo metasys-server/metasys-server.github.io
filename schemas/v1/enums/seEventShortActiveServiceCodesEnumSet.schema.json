@@ -2047,6 +2047,9 @@
         "seEventShortActiveServiceCode389"
       ],
       "description": "C4 High EER"
+    },
+    {
+      "type": "null"
     }
   ]
 }

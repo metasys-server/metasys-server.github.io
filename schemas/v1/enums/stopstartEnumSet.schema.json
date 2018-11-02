@@ -17,6 +17,9 @@
         "stpStrtStart"
       ],
       "description": "Start"
+    },
+    {
+      "type": "null"
     }
   ]
 }

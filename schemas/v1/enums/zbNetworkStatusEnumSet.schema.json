@@ -59,6 +59,9 @@
         "zbNetworkStatusNoNeighbors"
       ],
       "description": "No Neighbors"
+    },
+    {
+      "type": "null"
     }
   ]
 }

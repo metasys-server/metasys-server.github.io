@@ -115,6 +115,9 @@
         "chillersRequired15"
       ],
       "description": "CHILLER 1 & 2 & 3 & 4"
+    },
+    {
+      "type": "null"
     }
   ]
 }

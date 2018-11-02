@@ -24,6 +24,9 @@
         "outputTerminalType"
       ],
       "description": "Output"
+    },
+    {
+      "type": "null"
     }
   ]
 }

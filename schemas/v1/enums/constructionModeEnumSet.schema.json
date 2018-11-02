@@ -31,6 +31,9 @@
         "cmFanOnly"
       ],
       "description": "Fan Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

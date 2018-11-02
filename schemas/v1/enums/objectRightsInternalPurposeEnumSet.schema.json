@@ -38,6 +38,9 @@
         "oripCabinetDoors1128"
       ],
       "description": "Cabinet Doors 1..128"
+    },
+    {
+      "type": "null"
     }
   ]
 }

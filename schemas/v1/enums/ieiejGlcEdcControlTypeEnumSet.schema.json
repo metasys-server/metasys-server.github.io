@@ -17,6 +17,9 @@
         "glcEdcValueControl"
       ],
       "description": "Value Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

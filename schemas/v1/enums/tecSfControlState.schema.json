@@ -59,6 +59,9 @@
         "tscsVariableSpeed"
       ],
       "description": "Variable Speed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "hlrSequencerStateUnoccRegeneration"
       ],
       "description": "Unocc Regeneration"
+    },
+    {
+      "type": "null"
     }
   ]
 }

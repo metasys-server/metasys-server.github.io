@@ -24,6 +24,9 @@
         "incompleteGroupDecreaseOnly"
       ],
       "description": "Unaccompanied Group Decrease Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

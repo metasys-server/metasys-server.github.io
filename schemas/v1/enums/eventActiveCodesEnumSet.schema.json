@@ -101,6 +101,9 @@
         "eventActiveCode109"
       ],
       "description": "Condenser Coil Temp 1 Sensor Failure"
+    },
+    {
+      "type": "null"
     }
   ]
 }

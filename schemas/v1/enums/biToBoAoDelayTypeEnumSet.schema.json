@@ -31,6 +31,9 @@
         "biBoaoBoth"
       ],
       "description": "Both"
+    },
+    {
+      "type": "null"
     }
   ]
 }

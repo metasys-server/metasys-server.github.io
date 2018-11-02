@@ -66,6 +66,9 @@
         "seRtuHeatStage1OffHeatStageDisabled"
       ],
       "description": "Off-Heating Stage Is Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -73,6 +73,9 @@
         "xlpOoaFixedAon"
       ],
       "description": "Fixed, AON"
+    },
+    {
+      "type": "null"
     }
   ]
 }

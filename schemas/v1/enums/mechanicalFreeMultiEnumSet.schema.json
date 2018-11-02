@@ -17,6 +17,9 @@
         "mechFreeMsFree"
       ],
       "description": "Free"
+    },
+    {
+      "type": "null"
     }
   ]
 }

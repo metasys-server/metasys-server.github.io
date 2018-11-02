@@ -31,6 +31,9 @@
         "rssiValueGood"
       ],
       "description": "Good"
+    },
+    {
+      "type": "null"
     }
   ]
 }

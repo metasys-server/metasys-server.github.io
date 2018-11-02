@@ -38,6 +38,9 @@
         "hpClgOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

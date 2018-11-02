@@ -157,6 +157,9 @@
         "rand"
       ],
       "description": "Rand"
+    },
+    {
+      "type": "null"
     }
   ]
 }

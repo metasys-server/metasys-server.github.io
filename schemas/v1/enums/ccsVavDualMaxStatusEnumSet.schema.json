@@ -24,6 +24,9 @@
         "ccsVavDualMaxStatusDualMaxEna"
       ],
       "description": "Dual Max Enabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

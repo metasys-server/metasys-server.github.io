@@ -87,6 +87,9 @@
         "ytObjFile"
       ],
       "description": "File Object"
+    },
+    {
+      "type": "null"
     }
   ]
 }

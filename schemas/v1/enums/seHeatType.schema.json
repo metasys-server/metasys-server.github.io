@@ -24,6 +24,9 @@
         "seHeatTypeHydronic"
       ],
       "description": "Hydronic"
+    },
+    {
+      "type": "null"
     }
   ]
 }

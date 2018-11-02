@@ -87,6 +87,9 @@
         "seRtuEquipmentTypeN"
       ],
       "description": "n"
+    },
+    {
+      "type": "null"
     }
   ]
 }

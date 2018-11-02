@@ -80,6 +80,9 @@
         "sequencedTrig"
       ],
       "description": "Sequenced"
+    },
+    {
+      "type": "null"
     }
   ]
 }

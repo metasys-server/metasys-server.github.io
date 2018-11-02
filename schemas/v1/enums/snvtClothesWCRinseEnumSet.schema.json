@@ -38,6 +38,9 @@
         "rinNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

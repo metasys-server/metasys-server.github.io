@@ -24,6 +24,9 @@
         "psError"
       ],
       "description": "Error"
+    },
+    {
+      "type": "null"
     }
   ]
 }

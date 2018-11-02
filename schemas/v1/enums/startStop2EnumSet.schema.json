@@ -17,6 +17,9 @@
         "strtStpStop"
       ],
       "description": "Stop"
+    },
+    {
+      "type": "null"
     }
   ]
 }

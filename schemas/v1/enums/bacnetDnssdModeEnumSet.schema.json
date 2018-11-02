@@ -38,6 +38,9 @@
         "bacnetDnssdModeBoth"
       ],
       "description": "Both"
+    },
+    {
+      "type": "null"
     }
   ]
 }

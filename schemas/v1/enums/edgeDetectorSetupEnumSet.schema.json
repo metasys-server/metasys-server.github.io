@@ -24,6 +24,9 @@
         "edgeDetectBoth"
       ],
       "description": "Both"
+    },
+    {
+      "type": "null"
     }
   ]
 }

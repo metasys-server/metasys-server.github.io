@@ -24,6 +24,9 @@
         "seRtuRedlineLoadshedStatesLoadshed"
       ],
       "description": "Loadshed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "antiPassbackModeInvalid"
       ],
       "description": "Invalid"
+    },
+    {
+      "type": "null"
     }
   ]
 }

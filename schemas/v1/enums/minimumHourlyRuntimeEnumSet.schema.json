@@ -45,6 +45,9 @@
         "minimumHourlyRuntime30Minutes"
       ],
       "description": "30 Minutes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

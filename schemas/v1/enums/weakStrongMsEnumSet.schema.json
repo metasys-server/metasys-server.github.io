@@ -17,6 +17,9 @@
         "weakStrongStrong"
       ],
       "description": "Strong"
+    },
+    {
+      "type": "null"
     }
   ]
 }

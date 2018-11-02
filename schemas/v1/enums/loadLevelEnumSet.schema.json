@@ -24,6 +24,9 @@
         "llRed"
       ],
       "description": "Red"
+    },
+    {
+      "type": "null"
     }
   ]
 }

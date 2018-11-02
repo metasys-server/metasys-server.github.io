@@ -136,6 +136,9 @@
         "coresenseAlarmCodesP47ModuleFailure"
       ],
       "description": "P47 Module Failure"
+    },
+    {
+      "type": "null"
     }
   ]
 }

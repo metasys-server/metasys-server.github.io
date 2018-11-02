@@ -14654,6 +14654,9 @@
         "autoLowMidHighEnumSet"
       ],
       "description": "Auto/Low/Mid/High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

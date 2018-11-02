@@ -17,6 +17,9 @@
         "manual"
       ],
       "description": "Manual"
+    },
+    {
+      "type": "null"
     }
   ]
 }

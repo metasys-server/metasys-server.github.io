@@ -1641,6 +1641,9 @@
         "operatingmodeActual"
       ],
       "description": "OperatingMode|Actual"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -150,6 +150,9 @@
         "auroraFaultNames21"
       ],
       "description": "E20 = UPC Loss of Comm to ABC"
+    },
+    {
+      "type": "null"
     }
   ]
 }

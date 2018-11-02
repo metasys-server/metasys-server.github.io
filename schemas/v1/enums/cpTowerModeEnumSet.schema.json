@@ -31,6 +31,9 @@
         "cpTowerModeLimitedMax"
       ],
       "description": "Limited Max"
+    },
+    {
+      "type": "null"
     }
   ]
 }

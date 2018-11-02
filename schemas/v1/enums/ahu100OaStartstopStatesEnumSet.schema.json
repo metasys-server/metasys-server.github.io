@@ -59,6 +59,9 @@
         "ahu100OaSssFanFault"
       ],
       "description": "Fan Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

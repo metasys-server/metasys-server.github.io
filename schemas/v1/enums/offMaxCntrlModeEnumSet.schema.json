@@ -24,6 +24,9 @@
         "offMaxCntrlControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

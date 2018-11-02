@@ -129,6 +129,9 @@
         "accessModelGroupAndLevelAndMask"
       ],
       "description": "Group and Level and Mask"
+    },
+    {
+      "type": "null"
     }
   ]
 }

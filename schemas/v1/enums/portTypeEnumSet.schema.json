@@ -24,6 +24,9 @@
         "portTypeAttributes"
       ],
       "description": "Attributes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

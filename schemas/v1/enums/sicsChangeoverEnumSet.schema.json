@@ -31,6 +31,9 @@
         "changeoverCoolingTimerExpired"
       ],
       "description": "Cooling Timer Expired"
+    },
+    {
+      "type": "null"
     }
   ]
 }

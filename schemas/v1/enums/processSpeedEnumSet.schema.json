@@ -24,6 +24,9 @@
         "ideSlowProcess"
       ],
       "description": "Slow"
+    },
+    {
+      "type": "null"
     }
   ]
 }

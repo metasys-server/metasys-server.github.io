@@ -24,6 +24,9 @@
         "eventModeMv"
       ],
       "description": "Multi-Value"
+    },
+    {
+      "type": "null"
     }
   ]
 }

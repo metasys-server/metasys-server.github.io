@@ -45,6 +45,9 @@
         "lueDecompiler"
       ],
       "description": "Decompiler"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "seRtuHgrFaultStatusValveStuckClosedLo"
       ],
       "description": "Valve Stuck Closed Lockout"
+    },
+    {
+      "type": "null"
     }
   ]
 }

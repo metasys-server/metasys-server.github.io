@@ -17,6 +17,9 @@
         "demandLimitingAlgFixedWindow"
       ],
       "description": "Fixed Window"
+    },
+    {
+      "type": "null"
     }
   ]
 }

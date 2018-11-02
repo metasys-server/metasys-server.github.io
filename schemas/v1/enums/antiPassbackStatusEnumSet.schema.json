@@ -59,6 +59,9 @@
         "antiPassbackStatusDeniedAntiPassbackViolation"
       ],
       "description": "Denied (Anti-Passback Violation)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "fldDevFieldDeviceToolCctMstpApp"
       ],
       "description": "CCT (MSTP) application started"
+    },
+    {
+      "type": "null"
     }
   ]
 }

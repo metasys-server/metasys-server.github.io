@@ -108,6 +108,9 @@
         "seStartstopOn"
       ],
       "description": "On"
+    },
+    {
+      "type": "null"
     }
   ]
 }

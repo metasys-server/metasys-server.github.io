@@ -38,6 +38,9 @@
         "typeSchedFromKeyItem"
       ],
       "description": "Derived from Key Item"
+    },
+    {
+      "type": "null"
     }
   ]
 }

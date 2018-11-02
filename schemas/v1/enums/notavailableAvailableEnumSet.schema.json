@@ -17,6 +17,9 @@
         "naaAvailable"
       ],
       "description": "Available"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "pswdSite"
       ],
       "description": "Site"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "seDehumStatesHumidityUnreliable"
       ],
       "description": "Humidity Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

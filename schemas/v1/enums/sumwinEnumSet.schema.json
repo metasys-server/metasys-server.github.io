@@ -17,6 +17,9 @@
         "swWinter"
       ],
       "description": "Winter"
+    },
+    {
+      "type": "null"
     }
   ]
 }

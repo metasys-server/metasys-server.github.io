@@ -17,6 +17,9 @@
         "stopActionWhenFull"
       ],
       "description": "Stop"
+    },
+    {
+      "type": "null"
     }
   ]
 }

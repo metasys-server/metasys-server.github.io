@@ -157,6 +157,9 @@
         "eatonPowerxlDc1Names22"
       ],
       "description": "VFD Operating Time Since Fault - Min/S"
+    },
+    {
+      "type": "null"
     }
   ]
 }

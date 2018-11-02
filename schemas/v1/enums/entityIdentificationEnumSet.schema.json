@@ -24,6 +24,9 @@
         "unaccompaniedEntityDecreaseOnly"
       ],
       "description": "Unaccompanied Entity Decrease Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

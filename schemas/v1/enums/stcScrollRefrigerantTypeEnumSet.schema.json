@@ -24,6 +24,9 @@
         "stcScrollRefrigerantType2"
       ],
       "description": "R-410a"
+    },
+    {
+      "type": "null"
     }
   ]
 }

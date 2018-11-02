@@ -52,6 +52,9 @@
         "manualOverride"
       ],
       "description": "Manual Override"
+    },
+    {
+      "type": "null"
     }
   ]
 }

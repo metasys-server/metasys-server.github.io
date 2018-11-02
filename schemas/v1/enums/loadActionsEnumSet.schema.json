@@ -451,6 +451,9 @@
         "initiatingParenting"
       ],
       "description": "Sending InitiateParenting Command to Supervisory Device"
+    },
+    {
+      "type": "null"
     }
   ]
 }

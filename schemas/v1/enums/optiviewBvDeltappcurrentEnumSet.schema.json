@@ -17,6 +17,9 @@
         "optiviewBvDeltappcurrent1"
       ],
       "description": "Current"
+    },
+    {
+      "type": "null"
     }
   ]
 }

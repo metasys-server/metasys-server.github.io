@@ -24,6 +24,9 @@
         "lonmodelNa"
       ],
       "description": "NA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "tecKeypadHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

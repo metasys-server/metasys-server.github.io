@@ -17,6 +17,9 @@
         "seEconFanControlTypeTwoSpeed"
       ],
       "description": "Two Speed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

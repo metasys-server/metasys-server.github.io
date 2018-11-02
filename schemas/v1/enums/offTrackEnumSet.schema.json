@@ -17,6 +17,9 @@
         "oftrTrack"
       ],
       "description": "Track"
+    },
+    {
+      "type": "null"
     }
   ]
 }

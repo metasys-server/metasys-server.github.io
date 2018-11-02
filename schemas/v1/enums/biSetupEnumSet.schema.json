@@ -31,6 +31,9 @@
         "biSetupMomentaryOn"
       ],
       "description": "Momentary On Delay"
+    },
+    {
+      "type": "null"
     }
   ]
 }

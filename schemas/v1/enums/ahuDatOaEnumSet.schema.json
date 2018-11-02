@@ -52,6 +52,9 @@
         "ahuDoTempUnreliable"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -52,6 +52,9 @@
         "vavUsUnoccCtrlNotReqD"
       ],
       "description": "Unocc Ctrl Not Req'd"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "hlrDamperModeRegeneration"
       ],
       "description": "Regeneration"
+    },
+    {
+      "type": "null"
     }
   ]
 }

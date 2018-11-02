@@ -24,6 +24,9 @@
         "diagnosticLoggerUserCardFileDestinationType"
       ],
       "description": "User Card File"
+    },
+    {
+      "type": "null"
     }
   ]
 }

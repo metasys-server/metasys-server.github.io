@@ -38,6 +38,9 @@
         "bacProgramOther"
       ],
       "description": "Other"
+    },
+    {
+      "type": "null"
     }
   ]
 }

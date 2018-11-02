@@ -31,6 +31,9 @@
         "tenPercentPeriod"
       ],
       "description": "10 %"
+    },
+    {
+      "type": "null"
     }
   ]
 }

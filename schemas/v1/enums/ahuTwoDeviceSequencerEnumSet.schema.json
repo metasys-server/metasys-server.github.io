@@ -17,6 +17,9 @@
         "atvseqDevice2"
       ],
       "description": "Device 2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "mtmAscii"
       ],
       "description": "ASCII"
+    },
+    {
+      "type": "null"
     }
   ]
 }

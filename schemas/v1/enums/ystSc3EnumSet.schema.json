@@ -115,6 +115,9 @@
         "ystSc315"
       ],
       "description": "RESERVED 15"
+    },
+    {
+      "type": "null"
     }
   ]
 }

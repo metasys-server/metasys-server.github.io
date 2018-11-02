@@ -31,6 +31,9 @@
         "lifeSafetyPriority"
       ],
       "description": "Life Safety"
+    },
+    {
+      "type": "null"
     }
   ]
 }

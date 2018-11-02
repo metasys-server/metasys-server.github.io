@@ -59,6 +59,9 @@
         "oemActiveModeOff"
       ],
       "description": "OFF"
+    },
+    {
+      "type": "null"
     }
   ]
 }

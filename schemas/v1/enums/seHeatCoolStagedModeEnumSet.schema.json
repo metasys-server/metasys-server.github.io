@@ -87,6 +87,9 @@
         "seHcmBumpWait"
       ],
       "description": "Bump and Wait"
+    },
+    {
+      "type": "null"
     }
   ]
 }

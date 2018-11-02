@@ -45,6 +45,9 @@
         "eprSwitchoverCauseOperatorInitiated"
       ],
       "description": "Operator Initiated"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -1144,6 +1144,9 @@
         "custom150Category"
       ],
       "description": "Custom 150"
+    },
+    {
+      "type": "null"
     }
   ]
 }

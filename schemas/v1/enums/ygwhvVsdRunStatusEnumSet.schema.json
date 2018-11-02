@@ -45,6 +45,9 @@
         "ygwhvVsdRunStatus5"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "zueEnable"
       ],
       "description": "Enable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

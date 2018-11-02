@@ -31,6 +31,9 @@
         "ahuReliefFanStateulEmergencyOn"
       ],
       "description": "Emergency On"
+    },
+    {
+      "type": "null"
     }
   ]
 }

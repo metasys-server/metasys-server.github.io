@@ -24,6 +24,9 @@
         "ssOnline"
       ],
       "description": "Device Online"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "cmftOvrOverrideButRelAfterTimer"
       ],
       "description": "Override But Release After Timer Expires"
+    },
+    {
+      "type": "null"
     }
   ]
 }

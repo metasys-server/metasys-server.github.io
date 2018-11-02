@@ -59,6 +59,9 @@
         "emmoStatusErrorSystemNotOperational"
       ],
       "description": "(ERROR) System is not operational"
+    },
+    {
+      "type": "null"
     }
   ]
 }

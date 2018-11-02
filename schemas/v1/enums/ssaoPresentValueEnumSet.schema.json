@@ -17,6 +17,9 @@
         "ssaoPvArm"
       ],
       "description": "Arm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

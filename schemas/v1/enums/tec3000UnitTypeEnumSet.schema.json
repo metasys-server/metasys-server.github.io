@@ -24,6 +24,9 @@
         "tec3000UnitTypeVav"
       ],
       "description": "VAV"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "ahuReliefFanStateulOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

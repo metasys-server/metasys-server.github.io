@@ -248,6 +248,9 @@
         "sbcsNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

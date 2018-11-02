@@ -24,6 +24,9 @@
         "seSfFcVariableSpeed"
       ],
       "description": "Variable Speed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

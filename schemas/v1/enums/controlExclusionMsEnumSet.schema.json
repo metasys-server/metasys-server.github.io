@@ -17,6 +17,9 @@
         "controlExclusionExclusion"
       ],
       "description": "Exclusion"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "fanSpeedDisabled"
       ],
       "description": "Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

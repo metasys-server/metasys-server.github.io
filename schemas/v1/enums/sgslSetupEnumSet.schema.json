@@ -17,6 +17,9 @@
         "sgslSetupFailSoft"
       ],
       "description": "Fail Soft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

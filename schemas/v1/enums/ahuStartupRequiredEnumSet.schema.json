@@ -24,6 +24,9 @@
         "ahuSrLowOat"
       ],
       "description": "Low OAT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

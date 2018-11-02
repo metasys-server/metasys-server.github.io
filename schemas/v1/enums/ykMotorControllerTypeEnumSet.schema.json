@@ -80,6 +80,9 @@
         "ykMotorControllerType10"
       ],
       "description": "INVALID"
+    },
+    {
+      "type": "null"
     }
   ]
 }

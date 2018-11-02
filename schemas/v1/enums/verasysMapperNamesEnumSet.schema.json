@@ -1522,6 +1522,9 @@
         "verasysMapperNamesOatHtgCutoutSp"
       ],
       "description": "OAT-HTG-CUTOUT-SP"
+    },
+    {
+      "type": "null"
     }
   ]
 }

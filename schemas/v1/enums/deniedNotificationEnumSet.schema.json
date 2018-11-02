@@ -24,6 +24,9 @@
         "deniedNotificationNone"
       ],
       "description": "None"
+    },
+    {
+      "type": "null"
     }
   ]
 }

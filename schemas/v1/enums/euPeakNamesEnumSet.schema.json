@@ -22837,6 +22837,9 @@
         "euPeakNames3262"
       ],
       "description": "Sequencing Order"
+    },
+    {
+      "type": "null"
     }
   ]
 }

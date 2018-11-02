@@ -24,6 +24,9 @@
         "dllrAlgSlidingWindow"
       ],
       "description": "Sliding Window"
+    },
+    {
+      "type": "null"
     }
   ]
 }

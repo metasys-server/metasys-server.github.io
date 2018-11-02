@@ -59,6 +59,9 @@
         "seEconStagedModeExcessiveSatControl"
       ],
       "description": "Excessive SAT Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

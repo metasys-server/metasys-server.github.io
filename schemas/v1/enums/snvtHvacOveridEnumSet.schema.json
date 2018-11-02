@@ -353,6 +353,9 @@
         "hvacOveridHvoNull"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "wirelessSignalStrong"
       ],
       "description": "Strong"
+    },
+    {
+      "type": "null"
     }
   ]
 }

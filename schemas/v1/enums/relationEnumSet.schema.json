@@ -45,6 +45,9 @@
         "sfLessOrEqual"
       ],
       "description": "Less Or Equal"
+    },
+    {
+      "type": "null"
     }
   ]
 }

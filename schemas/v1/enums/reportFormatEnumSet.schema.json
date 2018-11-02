@@ -24,6 +24,9 @@
         "rfText"
       ],
       "description": "Text"
+    },
+    {
+      "type": "null"
     }
   ]
 }

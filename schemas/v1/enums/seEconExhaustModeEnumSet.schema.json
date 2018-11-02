@@ -31,6 +31,9 @@
         "seEconExhaustModeHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

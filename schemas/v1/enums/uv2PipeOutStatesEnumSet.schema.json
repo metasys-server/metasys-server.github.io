@@ -94,6 +94,9 @@
         "twoPipeFailsoftHtg"
       ],
       "description": "Failsoft Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

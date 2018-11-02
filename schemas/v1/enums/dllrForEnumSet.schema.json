@@ -24,6 +24,9 @@
         "forLr"
       ],
       "description": "For LR"
+    },
+    {
+      "type": "null"
     }
   ]
 }

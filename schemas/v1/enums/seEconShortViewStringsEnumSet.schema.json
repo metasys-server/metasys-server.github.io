@@ -612,6 +612,9 @@
         "seEconShortViewStringsDamperFanOnLoSpd"
       ],
       "description": "Damper % Fan On Lo Spd"
+    },
+    {
+      "type": "null"
     }
   ]
 }

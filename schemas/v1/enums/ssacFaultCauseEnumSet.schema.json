@@ -38,6 +38,9 @@
         "ssacFaultCauseSecondaryReader"
       ],
       "description": "Secondary Reader"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "seExhaustControlModeTest"
       ],
       "description": "Test"
+    },
+    {
+      "type": "null"
     }
   ]
 }

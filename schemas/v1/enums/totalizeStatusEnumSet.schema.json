@@ -24,6 +24,9 @@
         "tsInactive"
       ],
       "description": "Inactive"
+    },
+    {
+      "type": "null"
     }
   ]
 }

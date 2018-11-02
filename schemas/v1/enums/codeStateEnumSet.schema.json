@@ -24,6 +24,9 @@
         "codeStateMain"
       ],
       "description": "Main"
+    },
+    {
+      "type": "null"
     }
   ]
 }

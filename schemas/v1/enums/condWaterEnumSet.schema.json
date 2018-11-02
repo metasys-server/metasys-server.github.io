@@ -31,6 +31,9 @@
         "cwSensorsUnreliable"
       ],
       "description": "Sensors Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

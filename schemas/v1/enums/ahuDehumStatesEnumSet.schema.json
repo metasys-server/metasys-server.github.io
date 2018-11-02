@@ -24,6 +24,9 @@
         "adsHumidityUnreliable"
       ],
       "description": "Humidity Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

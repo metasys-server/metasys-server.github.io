@@ -479,6 +479,9 @@
         "euAhuEventNames68"
       ],
       "description": "Stored High Pressure Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

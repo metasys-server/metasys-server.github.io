@@ -703,6 +703,9 @@
         "connectorGenericInput100"
       ],
       "description": "Input 100"
+    },
+    {
+      "type": "null"
     }
   ]
 }

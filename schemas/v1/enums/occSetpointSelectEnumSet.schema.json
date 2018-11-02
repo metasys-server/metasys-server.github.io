@@ -17,6 +17,9 @@
         "occSetpointSelectMinAndMaxSetpoint"
       ],
       "description": "Min and Max Setpoint"
+    },
+    {
+      "type": "null"
     }
   ]
 }

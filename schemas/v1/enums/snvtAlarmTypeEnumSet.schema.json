@@ -248,6 +248,9 @@
         "alNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "rampInitialized"
       ],
       "description": "Ramp Initialized"
+    },
+    {
+      "type": "null"
     }
   ]
 }

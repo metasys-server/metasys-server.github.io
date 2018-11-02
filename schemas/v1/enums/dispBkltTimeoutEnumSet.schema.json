@@ -31,6 +31,9 @@
         "dispBkltTout8Hr"
       ],
       "description": "8 hours"
+    },
+    {
+      "type": "null"
     }
   ]
 }

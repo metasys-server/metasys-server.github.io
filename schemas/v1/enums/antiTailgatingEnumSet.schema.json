@@ -24,6 +24,9 @@
         "antiTailgatingReLockOnClose"
       ],
       "description": "Re-lock on Close"
+    },
+    {
+      "type": "null"
     }
   ]
 }

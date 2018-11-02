@@ -31,6 +31,9 @@
         "t8800KeyLockLockPowerAndTime"
       ],
       "description": "Lock power and time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

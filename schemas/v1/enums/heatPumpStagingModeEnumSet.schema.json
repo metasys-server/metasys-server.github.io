@@ -24,6 +24,9 @@
         "heatPumpStagingModeManual"
       ],
       "description": "Manual"
+    },
+    {
+      "type": "null"
     }
   ]
 }

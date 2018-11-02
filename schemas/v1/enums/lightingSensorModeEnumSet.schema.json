@@ -45,6 +45,9 @@
         "lightingSensorMode5"
       ],
       "description": "Both ON/Any OFF"
+    },
+    {
+      "type": "null"
     }
   ]
 }

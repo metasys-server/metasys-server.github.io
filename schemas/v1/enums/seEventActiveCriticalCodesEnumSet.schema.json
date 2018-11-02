@@ -409,6 +409,9 @@
         "seEventActiveCriticalCode154"
       ],
       "description": "C1 Locked Out Due to Air Coil Freeze"
+    },
+    {
+      "type": "null"
     }
   ]
 }

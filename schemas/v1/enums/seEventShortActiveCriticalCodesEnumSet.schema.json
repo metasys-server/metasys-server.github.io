@@ -360,6 +360,9 @@
         "seEventShortActiveCriticalCode147"
       ],
       "description": "MFC Locked - Low Voltage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

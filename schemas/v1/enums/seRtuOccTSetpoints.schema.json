@@ -24,6 +24,9 @@
         "seRtuOccTSetpointsSatCoolandheat"
       ],
       "description": "SAT CoolAndHeat"
+    },
+    {
+      "type": "null"
     }
   ]
 }

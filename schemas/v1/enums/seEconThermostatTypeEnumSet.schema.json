@@ -24,6 +24,9 @@
         "seEconThermostatTypeO"
       ],
       "description": "O"
+    },
+    {
+      "type": "null"
     }
   ]
 }

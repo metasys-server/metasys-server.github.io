@@ -38,6 +38,9 @@
         "ahuRfvolStteUlFailsoft"
       ],
       "description": "Failsoft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "gtstBoth"
       ],
       "description": "Both"
+    },
+    {
+      "type": "null"
     }
   ]
 }

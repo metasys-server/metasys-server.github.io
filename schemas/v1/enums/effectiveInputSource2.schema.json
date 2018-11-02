@@ -45,6 +45,9 @@
         "effectiveInputSource2InputNotAvailable"
       ],
       "description": "Input Not Available"
+    },
+    {
+      "type": "null"
     }
   ]
 }

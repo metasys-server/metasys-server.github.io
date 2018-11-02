@@ -59,6 +59,9 @@
         "ytmDloAcmoShutdownState"
       ],
       "description": "Auto Config Major Error"
+    },
+    {
+      "type": "null"
     }
   ]
 }

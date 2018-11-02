@@ -66,6 +66,9 @@
         "uvfboCooling"
       ],
       "description": "Cooling"
+    },
+    {
+      "type": "null"
     }
   ]
 }

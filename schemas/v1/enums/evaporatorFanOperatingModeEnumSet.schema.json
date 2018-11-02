@@ -17,6 +17,9 @@
         "efomCycleWithCompressor"
       ],
       "description": "Cycle With Compressor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -52,6 +52,9 @@
         "tecVt7200FilterServiceAlarms"
       ],
       "description": "Filter & Service Alarms"
+    },
+    {
+      "type": "null"
     }
   ]
 }

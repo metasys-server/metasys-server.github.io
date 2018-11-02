@@ -17,6 +17,9 @@
         "electricHeatTypePwm"
       ],
       "description": "PWM"
+    },
+    {
+      "type": "null"
     }
   ]
 }

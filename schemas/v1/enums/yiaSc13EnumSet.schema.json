@@ -66,6 +66,9 @@
         "yiaSc138"
       ],
       "description": "UNIT SHUTDOWN BY MULTI-UNIT REMOTE"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "ltcLegacyYgEngineType5"
       ],
       "description": "G3606 Engine"
+    },
+    {
+      "type": "null"
     }
   ]
 }

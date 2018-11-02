@@ -1074,6 +1074,9 @@
         "dmUseIdSah"
       ],
       "description": "Supply Air Humidity"
+    },
+    {
+      "type": "null"
     }
   ]
 }

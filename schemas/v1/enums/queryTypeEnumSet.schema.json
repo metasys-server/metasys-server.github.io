@@ -17,6 +17,9 @@
         "qtInvolvement"
       ],
       "description": "Involvement"
+    },
+    {
+      "type": "null"
     }
   ]
 }

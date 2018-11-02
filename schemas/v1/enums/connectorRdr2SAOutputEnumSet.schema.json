@@ -59,6 +59,9 @@
         "connectorRdr2SAOutputReader2Strike"
       ],
       "description": "Reader 2 Strike (T2 OUT5)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

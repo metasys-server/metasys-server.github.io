@@ -24,6 +24,9 @@
         "cwcTowerControl"
       ],
       "description": "Tower Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

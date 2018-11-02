@@ -45,6 +45,9 @@
         "ahuSfCntrlEmergencyOff"
       ],
       "description": "Emergency Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "seRtuClgAvailableInstantShutdown"
       ],
       "description": "Instant Shutdown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

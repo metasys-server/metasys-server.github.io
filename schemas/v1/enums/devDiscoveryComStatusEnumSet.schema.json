@@ -24,6 +24,9 @@
         "devDiscComStatusOk"
       ],
       "description": "OK"
+    },
+    {
+      "type": "null"
     }
   ]
 }

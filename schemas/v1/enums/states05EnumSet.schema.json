@@ -45,6 +45,9 @@
         "state55"
       ],
       "description": "State 5"
+    },
+    {
+      "type": "null"
     }
   ]
 }

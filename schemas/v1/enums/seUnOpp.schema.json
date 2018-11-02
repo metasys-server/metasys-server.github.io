@@ -31,6 +31,9 @@
         "seUnOppOff"
       ],
       "description": "Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

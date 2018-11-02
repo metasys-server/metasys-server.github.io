@@ -31,6 +31,9 @@
         "otisControllerPvFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

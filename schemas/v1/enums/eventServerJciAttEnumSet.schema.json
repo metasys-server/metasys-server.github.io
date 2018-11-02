@@ -206,6 +206,9 @@
         "esjReliability"
       ],
       "description": "Reliability"
+    },
+    {
+      "type": "null"
     }
   ]
 }

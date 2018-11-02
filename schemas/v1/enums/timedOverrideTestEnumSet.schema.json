@@ -31,6 +31,9 @@
         "timedOverrideTestInvalidSecurityLevel"
       ],
       "description": "Test Invalid Security Level"
+    },
+    {
+      "type": "null"
     }
   ]
 }

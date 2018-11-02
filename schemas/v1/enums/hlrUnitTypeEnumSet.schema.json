@@ -17,6 +17,9 @@
         "hlrUnitTypeOutdoor"
       ],
       "description": "Outdoor"
+    },
+    {
+      "type": "null"
     }
   ]
 }

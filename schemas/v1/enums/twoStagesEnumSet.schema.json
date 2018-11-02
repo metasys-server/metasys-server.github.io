@@ -24,6 +24,9 @@
         "twoStagesTwo"
       ],
       "description": "Two"
+    },
+    {
+      "type": "null"
     }
   ]
 }

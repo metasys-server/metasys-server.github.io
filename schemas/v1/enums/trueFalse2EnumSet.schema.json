@@ -17,6 +17,9 @@
         "tfFalse"
       ],
       "description": "False"
+    },
+    {
+      "type": "null"
     }
   ]
 }

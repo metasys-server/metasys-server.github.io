@@ -17,6 +17,9 @@
         "cdMsDirty"
       ],
       "description": "Dirty"
+    },
+    {
+      "type": "null"
     }
   ]
 }

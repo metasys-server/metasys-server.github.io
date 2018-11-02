@@ -45,6 +45,9 @@
         "fanOnTimeStayOn"
       ],
       "description": "Stay On"
+    },
+    {
+      "type": "null"
     }
   ]
 }

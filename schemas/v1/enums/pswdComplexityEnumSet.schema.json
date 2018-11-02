@@ -17,6 +17,9 @@
         "pswdCmplxMultiUser"
       ],
       "description": "Multi"
+    },
+    {
+      "type": "null"
     }
   ]
 }

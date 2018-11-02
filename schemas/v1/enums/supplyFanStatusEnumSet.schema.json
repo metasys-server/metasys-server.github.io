@@ -38,6 +38,9 @@
         "supplyFanStatusHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

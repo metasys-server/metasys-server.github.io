@@ -24,6 +24,9 @@
         "assetProcessingDenyAllOnUnaccompaniedAsset"
       ],
       "description": "Deny All on Unaccompanied Asset"
+    },
+    {
+      "type": "null"
     }
   ]
 }

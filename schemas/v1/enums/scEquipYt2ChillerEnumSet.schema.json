@@ -353,6 +353,9 @@
         "scEquipYt2Chiller346"
       ],
       "description": "RESERVED 346"
+    },
+    {
+      "type": "null"
     }
   ]
 }

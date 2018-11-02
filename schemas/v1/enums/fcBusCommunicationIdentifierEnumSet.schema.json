@@ -17,6 +17,9 @@
         "fcBusCommunicationIdentifierInstanceNumber"
       ],
       "description": "Instance Number"
+    },
+    {
+      "type": "null"
     }
   ]
 }

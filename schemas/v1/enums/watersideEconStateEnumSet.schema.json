@@ -66,6 +66,9 @@
         "watersideEconStateStopHx"
       ],
       "description": "Stop Hx"
+    },
+    {
+      "type": "null"
     }
   ]
 }

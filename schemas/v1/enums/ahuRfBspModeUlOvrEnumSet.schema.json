@@ -45,6 +45,9 @@
         "ahuRfbspModeulOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

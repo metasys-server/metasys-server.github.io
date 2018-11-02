@@ -24,6 +24,9 @@
         "hvacModeRestrictionHeatOnly"
       ],
       "description": "Heating Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "greaterOrEqualToOperator"
       ],
       "description": ">="
+    },
+    {
+      "type": "null"
     }
   ]
 }

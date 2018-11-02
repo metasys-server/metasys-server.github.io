@@ -73,6 +73,9 @@
         "accessGrantDetailBySecurityLevelAndMask"
       ],
       "description": "By Security Level and Mask"
+    },
+    {
+      "type": "null"
     }
   ]
 }

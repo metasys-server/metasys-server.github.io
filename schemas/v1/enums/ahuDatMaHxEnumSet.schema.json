@@ -73,6 +73,9 @@
         "ahuDatMahxTemperatureUnreliable"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

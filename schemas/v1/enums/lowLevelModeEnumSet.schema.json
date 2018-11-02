@@ -17,6 +17,9 @@
         "llmActivateAllAllowedFloors"
       ],
       "description": "Activate All Allowed Floors"
+    },
+    {
+      "type": "null"
     }
   ]
 }

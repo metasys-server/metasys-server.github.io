@@ -38,6 +38,9 @@
         "ahuRfbspModeulEmergencyOff"
       ],
       "description": "Emergency Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

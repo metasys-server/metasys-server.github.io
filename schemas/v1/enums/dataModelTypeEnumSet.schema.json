@@ -24,6 +24,9 @@
         "dmtSpace"
       ],
       "description": "Space"
+    },
+    {
+      "type": "null"
     }
   ]
 }

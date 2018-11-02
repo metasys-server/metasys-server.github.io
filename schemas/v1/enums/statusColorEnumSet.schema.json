@@ -31,6 +31,9 @@
         "statusColorRed"
       ],
       "description": "Red"
+    },
+    {
+      "type": "null"
     }
   ]
 }

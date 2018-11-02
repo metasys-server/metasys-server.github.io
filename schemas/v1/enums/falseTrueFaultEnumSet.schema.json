@@ -24,6 +24,9 @@
         "ftfFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

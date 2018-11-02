@@ -318,6 +318,9 @@
         "rvuNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

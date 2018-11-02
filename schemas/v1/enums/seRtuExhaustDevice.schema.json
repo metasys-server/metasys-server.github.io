@@ -31,6 +31,9 @@
         "seRtuExhaustDeviceVariableFrequencyFan"
       ],
       "description": "Variable Frequency Fan"
+    },
+    {
+      "type": "null"
     }
   ]
 }

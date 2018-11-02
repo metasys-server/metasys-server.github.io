@@ -17,6 +17,9 @@
         "ltcLegacyYiaJ57Stat1"
       ],
       "description": "RTC Enabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

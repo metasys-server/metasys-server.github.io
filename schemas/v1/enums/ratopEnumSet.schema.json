@@ -38,6 +38,9 @@
         "4"
       ],
       "description": "Calibrate"
+    },
+    {
+      "type": "null"
     }
   ]
 }

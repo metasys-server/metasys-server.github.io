@@ -24,6 +24,9 @@
         "uiOccOverrideUnoccupied"
       ],
       "description": "Unoccupied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

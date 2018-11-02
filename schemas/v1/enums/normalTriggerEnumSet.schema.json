@@ -17,6 +17,9 @@
         "ntTrigger"
       ],
       "description": "Trigger"
+    },
+    {
+      "type": "null"
     }
   ]
 }

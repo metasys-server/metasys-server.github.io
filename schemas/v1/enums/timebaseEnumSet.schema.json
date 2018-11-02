@@ -31,6 +31,9 @@
         "timebaseDays"
       ],
       "description": "Days"
+    },
+    {
+      "type": "null"
     }
   ]
 }

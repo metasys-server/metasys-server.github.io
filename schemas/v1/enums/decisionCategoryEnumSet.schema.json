@@ -59,6 +59,9 @@
         "decisionCategoryGrantedAlternate"
       ],
       "description": "Granted Alternate"
+    },
+    {
+      "type": "null"
     }
   ]
 }

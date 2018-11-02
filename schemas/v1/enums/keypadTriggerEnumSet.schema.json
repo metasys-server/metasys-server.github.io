@@ -38,6 +38,9 @@
         "keypadTriggerAllChannels"
       ],
       "description": "All Channels"
+    },
+    {
+      "type": "null"
     }
   ]
 }

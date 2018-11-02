@@ -17,6 +17,9 @@
         "integrationalStaging"
       ],
       "description": "Integrational Stg"
+    },
+    {
+      "type": "null"
     }
   ]
 }

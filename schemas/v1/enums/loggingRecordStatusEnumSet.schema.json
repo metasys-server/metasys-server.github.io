@@ -38,6 +38,9 @@
         "loggingRecordFailed"
       ],
       "description": "Failed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

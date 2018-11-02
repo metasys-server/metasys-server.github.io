@@ -24,6 +24,9 @@
         "bacpolrtyHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

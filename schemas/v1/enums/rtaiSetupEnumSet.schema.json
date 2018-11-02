@@ -66,6 +66,9 @@
         "rt020Ma"
       ],
       "description": "RT 0-20 mA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

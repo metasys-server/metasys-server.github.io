@@ -17,6 +17,9 @@
         "seOccupancyExternal"
       ],
       "description": "External"
+    },
+    {
+      "type": "null"
     }
   ]
 }

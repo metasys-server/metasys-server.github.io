@@ -24,6 +24,9 @@
         "bacnetDirectoryScopeCentralSecondary"
       ],
       "description": "Central-Secondary"
+    },
+    {
+      "type": "null"
     }
   ]
 }

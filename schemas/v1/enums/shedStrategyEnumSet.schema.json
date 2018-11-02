@@ -24,6 +24,9 @@
         "shedStratLr"
       ],
       "description": "Load Rolling Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

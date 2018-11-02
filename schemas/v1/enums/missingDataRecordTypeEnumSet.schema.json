@@ -66,6 +66,9 @@
         "missingDataRecordTypeIdentifierFormat"
       ],
       "description": "Identifier Format"
+    },
+    {
+      "type": "null"
     }
   ]
 }

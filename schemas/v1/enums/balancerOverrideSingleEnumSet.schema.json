@@ -38,6 +38,9 @@
         "4"
       ],
       "description": "Heating Flow"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -101,6 +101,9 @@
         "mcctrlstateDcctoffsetcheck"
       ],
       "description": "Check DCCT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

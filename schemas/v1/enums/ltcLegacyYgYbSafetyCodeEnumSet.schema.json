@@ -73,6 +73,9 @@
         "ltcLegacyYgYbSafetyCode9"
       ],
       "description": "DC UNDERVOLTAGE"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "hcsSatisfied"
       ],
       "description": "Satisfied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

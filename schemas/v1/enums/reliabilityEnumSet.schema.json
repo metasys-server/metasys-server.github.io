@@ -528,6 +528,9 @@
         "valueNotSet"
       ],
       "description": "Value Not Set"
+    },
+    {
+      "type": "null"
     }
   ]
 }

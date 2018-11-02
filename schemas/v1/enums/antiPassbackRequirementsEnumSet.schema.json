@@ -31,6 +31,9 @@
         "apbEntryExitStatusAndTimeElapsed"
       ],
       "description": "Entry-Exit Status and Time Elapsed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

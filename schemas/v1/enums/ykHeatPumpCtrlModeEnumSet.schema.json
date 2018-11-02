@@ -24,6 +24,9 @@
         "ykHeatPumpCtrlMode2"
       ],
       "description": "High Temp"
+    },
+    {
+      "type": "null"
     }
   ]
 }

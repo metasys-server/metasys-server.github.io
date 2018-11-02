@@ -17,6 +17,9 @@
         "dischargeChargeCharge"
       ],
       "description": "Charge"
+    },
+    {
+      "type": "null"
     }
   ]
 }

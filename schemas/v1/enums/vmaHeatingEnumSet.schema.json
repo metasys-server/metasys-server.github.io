@@ -52,6 +52,9 @@
         "6"
       ],
       "description": "Htg Entry State"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "vavConfDualDuctWithExhaust"
       ],
       "description": "Dual Duct with Exhaust"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "centralAccess"
       ],
       "description": "Central"
+    },
+    {
+      "type": "null"
     }
   ]
 }

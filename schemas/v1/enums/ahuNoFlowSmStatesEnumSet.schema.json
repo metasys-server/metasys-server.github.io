@@ -66,6 +66,9 @@
         "anfssManualResetFault"
       ],
       "description": "Manual Reset Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

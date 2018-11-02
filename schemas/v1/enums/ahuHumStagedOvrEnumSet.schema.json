@@ -38,6 +38,9 @@
         "ahuHsOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

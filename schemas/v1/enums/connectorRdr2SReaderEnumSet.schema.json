@@ -17,6 +17,9 @@
         "connectorRdr2SData0Data1Bottom"
       ],
       "description": "DATA0 / DATA1 (bottom)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

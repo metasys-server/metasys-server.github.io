@@ -31,6 +31,9 @@
         "identifierFormatStatusMissing"
       ],
       "description": "Missing"
+    },
+    {
+      "type": "null"
     }
   ]
 }

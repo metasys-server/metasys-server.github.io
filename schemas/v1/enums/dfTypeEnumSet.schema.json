@@ -31,6 +31,9 @@
         "3"
       ],
       "description": "N2 VFD"
+    },
+    {
+      "type": "null"
     }
   ]
 }

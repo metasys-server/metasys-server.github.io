@@ -24,6 +24,9 @@
         "ydCompressorRemoteLockout2"
       ],
       "description": "Comp #2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

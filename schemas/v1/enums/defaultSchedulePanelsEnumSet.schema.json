@@ -31,6 +31,9 @@
         "scheduleItems"
       ],
       "description": "Scheduled Items"
+    },
+    {
+      "type": "null"
     }
   ]
 }

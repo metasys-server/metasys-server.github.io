@@ -31,6 +31,9 @@
         "smSort"
       ],
       "description": "Sort"
+    },
+    {
+      "type": "null"
     }
   ]
 }

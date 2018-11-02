@@ -45,6 +45,9 @@
         "sssiNotInitialized"
       ],
       "description": "Not Initialized"
+    },
+    {
+      "type": "null"
     }
   ]
 }

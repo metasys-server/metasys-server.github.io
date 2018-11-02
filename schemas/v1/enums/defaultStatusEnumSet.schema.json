@@ -24,6 +24,9 @@
         "defaultStatusOut"
       ],
       "description": "Out"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "dispContrast90Percent"
       ],
       "description": "90 %"
+    },
+    {
+      "type": "null"
     }
   ]
 }

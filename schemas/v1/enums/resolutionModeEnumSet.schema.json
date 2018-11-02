@@ -24,6 +24,9 @@
         "hardwarePriority"
       ],
       "description": "Hardware Priority"
+    },
+    {
+      "type": "null"
     }
   ]
 }

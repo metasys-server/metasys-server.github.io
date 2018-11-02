@@ -45,6 +45,9 @@
         "time24MmSs"
       ],
       "description": "24 MM SS"
+    },
+    {
+      "type": "null"
     }
   ]
 }

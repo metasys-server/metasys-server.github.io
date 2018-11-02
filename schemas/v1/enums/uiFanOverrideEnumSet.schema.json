@@ -24,6 +24,9 @@
         "uiFanOverrideQuiet"
       ],
       "description": "Quiet"
+    },
+    {
+      "type": "null"
     }
   ]
 }

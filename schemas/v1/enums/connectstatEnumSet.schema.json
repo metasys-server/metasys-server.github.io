@@ -31,6 +31,9 @@
         "connectFailed"
       ],
       "description": "Failed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

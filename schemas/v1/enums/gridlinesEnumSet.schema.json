@@ -31,6 +31,9 @@
         "gridlinesYonly"
       ],
       "description": "Y Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

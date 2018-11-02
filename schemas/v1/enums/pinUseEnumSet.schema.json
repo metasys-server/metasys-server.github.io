@@ -24,6 +24,9 @@
         "pinUseForAccessAndIntrusion"
       ],
       "description": "For Access and Intrusion"
+    },
+    {
+      "type": "null"
     }
   ]
 }

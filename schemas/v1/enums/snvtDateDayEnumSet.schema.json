@@ -59,6 +59,9 @@
         "snvtDateDaySaturday"
       ],
       "description": "Saturday"
+    },
+    {
+      "type": "null"
     }
   ]
 }

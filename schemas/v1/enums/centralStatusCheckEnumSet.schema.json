@@ -24,6 +24,9 @@
         "centralStatusCheckAlways"
       ],
       "description": "Always"
+    },
+    {
+      "type": "null"
     }
   ]
 }

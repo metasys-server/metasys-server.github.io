@@ -38,6 +38,9 @@
         "fedPswdValInvalidPswd"
       ],
       "description": "Invalid Pass"
+    },
+    {
+      "type": "null"
     }
   ]
 }

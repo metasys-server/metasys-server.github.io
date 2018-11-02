@@ -24,6 +24,9 @@
         "t8800PowerFailRestartRecovery"
       ],
       "description": "Recovery"
+    },
+    {
+      "type": "null"
     }
   ]
 }

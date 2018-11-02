@@ -17,6 +17,9 @@
         "lockReleaseRelease"
       ],
       "description": "Release"
+    },
+    {
+      "type": "null"
     }
   ]
 }

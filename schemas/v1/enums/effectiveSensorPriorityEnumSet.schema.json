@@ -45,6 +45,9 @@
         "effectiveSensorPriorityInputNotInstalled"
       ],
       "description": "Input Not Installed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

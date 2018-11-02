@@ -52,6 +52,9 @@
         "tecDiagFanLock"
       ],
       "description": "Fan Lock"
+    },
+    {
+      "type": "null"
     }
   ]
 }

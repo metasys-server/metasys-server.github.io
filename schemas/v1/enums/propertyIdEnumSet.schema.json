@@ -402,6 +402,9 @@
         "defaultValueProperty"
       ],
       "description": "Default Value"
+    },
+    {
+      "type": "null"
     }
   ]
 }

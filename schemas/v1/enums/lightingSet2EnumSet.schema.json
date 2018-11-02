@@ -24,6 +24,9 @@
         "ls2Emergency"
       ],
       "description": "Emergency"
+    },
+    {
+      "type": "null"
     }
   ]
 }

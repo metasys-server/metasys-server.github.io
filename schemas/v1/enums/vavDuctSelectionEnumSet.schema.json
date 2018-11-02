@@ -24,6 +24,9 @@
         "vavDuctFlow2"
       ],
       "description": "Flow 2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

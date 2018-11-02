@@ -45,6 +45,9 @@
         "balOvrFlow2Max"
       ],
       "description": "Flow 2 Max"
+    },
+    {
+      "type": "null"
     }
   ]
 }

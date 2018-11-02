@@ -17,6 +17,9 @@
         "svoPulsed"
       ],
       "description": "SVO PULSED"
+    },
+    {
+      "type": "null"
     }
   ]
 }

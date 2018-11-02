@@ -17,6 +17,9 @@
         "pwmOutputType"
       ],
       "description": "Current"
+    },
+    {
+      "type": "null"
     }
   ]
 }

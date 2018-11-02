@@ -24,6 +24,9 @@
         "baceventToNormal"
       ],
       "description": "To Normal"
+    },
+    {
+      "type": "null"
     }
   ]
 }

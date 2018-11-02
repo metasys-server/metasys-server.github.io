@@ -38,6 +38,9 @@
         "autoHeatingCoolingDryFanFan"
       ],
       "description": "Fan"
+    },
+    {
+      "type": "null"
     }
   ]
 }

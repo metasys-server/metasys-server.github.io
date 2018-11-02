@@ -1207,6 +1207,9 @@
         "msInvalidProductId"
       ],
       "description": "MS_INVALID_PRODUCT_ID"
+    },
+    {
+      "type": "null"
     }
   ]
 }

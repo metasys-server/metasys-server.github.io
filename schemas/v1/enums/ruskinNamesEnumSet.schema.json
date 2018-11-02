@@ -1151,6 +1151,9 @@
         "ruskinNames164"
       ],
       "description": "saVFDFailureAlarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

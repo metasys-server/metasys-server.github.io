@@ -192,6 +192,9 @@
         "vcfddError"
       ],
       "description": "Error"
+    },
+    {
+      "type": "null"
     }
   ]
 }

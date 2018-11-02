@@ -66,6 +66,9 @@
         "calibrationFailedOutOfService"
       ],
       "description": "Failed, Out-Of-Service"
+    },
+    {
+      "type": "null"
     }
   ]
 }

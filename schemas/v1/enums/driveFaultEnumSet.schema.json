@@ -577,6 +577,9 @@
         "81"
       ],
       "description": "CAN Open Firmware Compatibility Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "mvrtCo2"
       ],
       "description": "CO2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

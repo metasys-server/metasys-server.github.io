@@ -73,6 +73,9 @@
         "thermostatHvacStatusUnreliableZnt"
       ],
       "description": "Unreliable ZNT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -185,6 +185,9 @@
         "voidDataType"
       ],
       "description": "Void"
+    },
+    {
+      "type": "null"
     }
   ]
 }

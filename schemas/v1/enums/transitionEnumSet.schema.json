@@ -17,6 +17,9 @@
         "countAll"
       ],
       "description": "Count All"
+    },
+    {
+      "type": "null"
     }
   ]
 }

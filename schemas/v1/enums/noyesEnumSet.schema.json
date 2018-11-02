@@ -17,6 +17,9 @@
         "fanYes"
       ],
       "description": "Yes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

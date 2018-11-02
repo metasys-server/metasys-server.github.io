@@ -17,6 +17,9 @@
         "releaseStopStop"
       ],
       "description": "Stop"
+    },
+    {
+      "type": "null"
     }
   ]
 }

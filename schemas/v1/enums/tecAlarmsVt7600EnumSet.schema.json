@@ -115,6 +115,9 @@
         "tecVt7600ClkFiltFrstServAlarms"
       ],
       "description": "Clock, Filter, Frost, and Service Alarms"
+    },
+    {
+      "type": "null"
     }
   ]
 }

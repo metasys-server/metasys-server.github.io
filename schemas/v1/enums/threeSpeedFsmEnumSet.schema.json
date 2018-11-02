@@ -31,6 +31,9 @@
         "tsfsmStageUp"
       ],
       "description": "Stage Up"
+    },
+    {
+      "type": "null"
     }
   ]
 }

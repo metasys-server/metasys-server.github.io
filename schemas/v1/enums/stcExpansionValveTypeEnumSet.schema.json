@@ -17,6 +17,9 @@
         "stcExpansionValveType1"
       ],
       "description": "EEV"
+    },
+    {
+      "type": "null"
     }
   ]
 }

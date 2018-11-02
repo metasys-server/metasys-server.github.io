@@ -17,6 +17,9 @@
         "ocClose"
       ],
       "description": "Close"
+    },
+    {
+      "type": "null"
     }
   ]
 }

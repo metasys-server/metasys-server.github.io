@@ -66,6 +66,9 @@
         "seEconSelftestStateTestAcceptance"
       ],
       "description": "Test Acceptance"
+    },
+    {
+      "type": "null"
     }
   ]
 }

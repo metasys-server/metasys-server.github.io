@@ -45,6 +45,9 @@
         "cpDedicatedCtModeLimitedMax"
       ],
       "description": "Limited Max"
+    },
+    {
+      "type": "null"
     }
   ]
 }

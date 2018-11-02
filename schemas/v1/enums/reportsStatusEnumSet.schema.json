@@ -24,6 +24,9 @@
         "reportsStatusUsbWriteFailed"
       ],
       "description": "USB Write Failed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

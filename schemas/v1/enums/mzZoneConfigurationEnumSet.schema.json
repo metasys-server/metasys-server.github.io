@@ -24,6 +24,9 @@
         "mzZnConfigHoldDamper"
       ],
       "description": "Hold Damper"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -52,6 +52,9 @@
         "s300HwFirmwareUpgradeStatusFailedFileInvalid"
       ],
       "description": "Failed: File Invalid"
+    },
+    {
+      "type": "null"
     }
   ]
 }

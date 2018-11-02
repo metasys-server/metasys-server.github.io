@@ -24,6 +24,9 @@
         "seMaOppZone"
       ],
       "description": "Zone Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

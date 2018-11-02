@@ -24,6 +24,9 @@
         "cohHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

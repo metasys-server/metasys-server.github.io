@@ -24,6 +24,9 @@
         "accountTypeRadius"
       ],
       "description": "RADIUS"
+    },
+    {
+      "type": "null"
     }
   ]
 }

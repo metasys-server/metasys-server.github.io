@@ -17,6 +17,9 @@
         "encryptedTrusted"
       ],
       "description": "Encrypted and Trusted"
+    },
+    {
+      "type": "null"
     }
   ]
 }

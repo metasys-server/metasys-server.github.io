@@ -94,6 +94,9 @@
         "seEconEconomizerStatusEmergencyVent"
       ],
       "description": "Emergency Vent"
+    },
+    {
+      "type": "null"
     }
   ]
 }

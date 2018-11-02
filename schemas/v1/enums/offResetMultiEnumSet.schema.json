@@ -17,6 +17,9 @@
         "offRstMsReset"
       ],
       "description": "Reset"
+    },
+    {
+      "type": "null"
     }
   ]
 }

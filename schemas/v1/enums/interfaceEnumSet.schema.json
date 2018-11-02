@@ -17,6 +17,9 @@
         "bigRs485"
       ],
       "description": "RS485"
+    },
+    {
+      "type": "null"
     }
   ]
 }

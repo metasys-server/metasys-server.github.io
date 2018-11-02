@@ -24,6 +24,9 @@
         "defrostTypeHotGas"
       ],
       "description": "Hot Gas"
+    },
+    {
+      "type": "null"
     }
   ]
 }

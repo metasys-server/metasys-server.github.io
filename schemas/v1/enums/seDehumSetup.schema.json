@@ -24,6 +24,9 @@
         "seDehumSetupAlternate"
       ],
       "description": "Alternate"
+    },
+    {
+      "type": "null"
     }
   ]
 }

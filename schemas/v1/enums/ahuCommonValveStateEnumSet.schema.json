@@ -80,6 +80,9 @@
         "acvsLowOaTemperature"
       ],
       "description": "Low OA Temperature"
+    },
+    {
+      "type": "null"
     }
   ]
 }

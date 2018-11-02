@@ -52,6 +52,9 @@
         "maincodeStatusLoad"
       ],
       "description": "Load"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "tecOccCmdUnocc"
       ],
       "description": "Unoccupied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

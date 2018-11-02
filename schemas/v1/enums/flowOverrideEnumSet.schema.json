@@ -38,6 +38,9 @@
         "flowOverrideMax"
       ],
       "description": "Max"
+    },
+    {
+      "type": "null"
     }
   ]
 }

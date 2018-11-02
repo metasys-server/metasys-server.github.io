@@ -24,6 +24,9 @@
         "edmInternalCustom"
       ],
       "description": "Internal Custom"
+    },
+    {
+      "type": "null"
     }
   ]
 }

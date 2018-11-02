@@ -52,6 +52,9 @@
         "cvoFailsoft"
       ],
       "description": "Failsoft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

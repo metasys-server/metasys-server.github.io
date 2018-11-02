@@ -17,6 +17,9 @@
         "ventilationAirconditionAircondition"
       ],
       "description": "Air Conditioning"
+    },
+    {
+      "type": "null"
     }
   ]
 }

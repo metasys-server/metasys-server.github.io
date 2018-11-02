@@ -38,6 +38,9 @@
         "4"
       ],
       "description": "Analog Duct and On/Off Peripheral Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

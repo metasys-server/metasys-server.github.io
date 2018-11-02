@@ -101,6 +101,9 @@
         "bacnetNetworkTypeDnsSd"
       ],
       "description": "BACnet/IT DNS-SD directory"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -87,6 +87,9 @@
         "writeRelinquish"
       ],
       "description": "Write Relinquish"
+    },
+    {
+      "type": "null"
     }
   ]
 }

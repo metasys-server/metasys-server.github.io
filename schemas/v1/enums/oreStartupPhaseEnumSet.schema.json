@@ -59,6 +59,9 @@
         "enableFieldCmdsPhase"
       ],
       "description": "Enable Field Commands"
+    },
+    {
+      "type": "null"
     }
   ]
 }

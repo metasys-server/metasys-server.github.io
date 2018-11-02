@@ -73,6 +73,9 @@
         "acfoFace"
       ],
       "description": "Face"
+    },
+    {
+      "type": "null"
     }
   ]
 }

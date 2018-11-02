@@ -17,6 +17,9 @@
         "ahuPhctrlHControl"
       ],
       "description": "H Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

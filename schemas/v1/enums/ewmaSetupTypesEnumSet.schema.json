@@ -17,6 +17,9 @@
         "controlEffort"
       ],
       "description": "Control Effort"
+    },
+    {
+      "type": "null"
     }
   ]
 }

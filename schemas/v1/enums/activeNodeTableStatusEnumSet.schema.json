@@ -45,6 +45,9 @@
         "excludedDueToDuplicateNodeAddress"
       ],
       "description": "Excluded Due To Duplicate Node Address"
+    },
+    {
+      "type": "null"
     }
   ]
 }

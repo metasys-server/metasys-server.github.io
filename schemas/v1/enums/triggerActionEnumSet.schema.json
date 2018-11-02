@@ -17,6 +17,9 @@
         "triggerActionDisable"
       ],
       "description": "Stop"
+    },
+    {
+      "type": "null"
     }
   ]
 }

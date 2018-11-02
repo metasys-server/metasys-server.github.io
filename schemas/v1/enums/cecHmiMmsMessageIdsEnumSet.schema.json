@@ -430,6 +430,9 @@
         "auditRemoveAsync"
       ],
       "description": "Remove Audit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

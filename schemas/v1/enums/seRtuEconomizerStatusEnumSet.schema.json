@@ -101,6 +101,9 @@
         "seRtuEconomizerStatusLowOaAmbient"
       ],
       "description": "Low OA Ambient"
+    },
+    {
+      "type": "null"
     }
   ]
 }

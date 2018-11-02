@@ -24,6 +24,9 @@
         "entityNotificationNone"
       ],
       "description": "None"
+    },
+    {
+      "type": "null"
     }
   ]
 }

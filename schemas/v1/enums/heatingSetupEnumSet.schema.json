@@ -31,6 +31,9 @@
         "fourStage"
       ],
       "description": "Four Stage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

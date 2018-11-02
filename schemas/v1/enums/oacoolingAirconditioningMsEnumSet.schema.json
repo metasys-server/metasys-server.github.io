@@ -17,6 +17,9 @@
         "oacoolingAirconditioningAirconditioning"
       ],
       "description": "Air Conditioning"
+    },
+    {
+      "type": "null"
     }
   ]
 }

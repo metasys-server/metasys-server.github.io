@@ -52,6 +52,9 @@
         "dllrMeterRequiredForDlStrategy"
       ],
       "description": "No meter defined for DL"
+    },
+    {
+      "type": "null"
     }
   ]
 }

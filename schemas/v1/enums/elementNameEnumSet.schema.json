@@ -7,413 +7,413 @@
     {
       "enum": [
         0,
-        "elenamMajor"
+        "major"
       ],
       "description": "Major"
     },
     {
       "enum": [
         1,
-        "elenamMinor"
+        "minor"
       ],
       "description": "Minor"
     },
     {
       "enum": [
         2,
-        "elenamObjectName"
+        "objectName"
       ],
       "description": "Object Name"
     },
     {
       "enum": [
         3,
-        "elenamFunctionalName"
+        "functionalName"
       ],
       "description": "Functional Name"
     },
     {
       "enum": [
         4,
-        "elenamReferenceName"
+        "referenceName"
       ],
       "description": "Reference Name"
     },
     {
       "enum": [
         5,
-        "elenamInstance"
+        "instance"
       ],
       "description": "Instance"
     },
     {
       "enum": [
         6,
-        "elenamIndex"
+        "index"
       ],
       "description": "Index"
     },
     {
       "enum": [
         7,
-        "elenamChildOid"
+        "childOid"
       ],
       "description": "Child OID"
     },
     {
       "enum": [
         8,
-        "elenamIsReference"
+        "isReference"
       ],
       "description": "Is Reference"
     },
     {
       "enum": [
         9,
-        "elenamInternal"
+        "internal"
       ],
       "description": "Internal"
     },
     {
       "enum": [
         10,
-        "elenamLabel"
+        "label"
       ],
       "description": "Label"
     },
     {
       "enum": [
         11,
-        "elenamDevice"
+        "device"
       ],
       "description": "Device"
     },
     {
       "enum": [
         12,
-        "elenamAddress"
+        "address"
       ],
       "description": "Address"
     },
     {
       "enum": [
         13,
-        "elenamElement"
+        "element"
       ],
       "description": "Element"
     },
     {
       "enum": [
         14,
-        "elenamTime"
+        "time"
       ],
       "description": "Time"
     },
     {
       "enum": [
         15,
-        "elenamValue"
+        "value"
       ],
       "description": "Value"
     },
     {
       "enum": [
         16,
-        "elenamClassId"
+        "classId"
       ],
       "description": "Class ID"
     },
     {
       "enum": [
         17,
-        "elenamClassName"
+        "className"
       ],
       "description": "Class Name"
     },
     {
       "enum": [
         18,
-        "elenamVersion"
+        "version"
       ],
       "description": "Version"
     },
     {
       "enum": [
         19,
-        "elenamCommandId"
+        "commandId"
       ],
       "description": "Command ID"
     },
     {
       "enum": [
         20,
-        "elenamPriority"
+        "priority"
       ],
       "description": "Priority"
     },
     {
       "enum": [
         21,
-        "elenamRunningDelay"
+        "runningDelay"
       ],
       "description": "Running Delay"
     },
     {
       "enum": [
         22,
-        "elenamDelay"
+        "delay"
       ],
       "description": "Delay"
     },
     {
       "enum": [
         23,
-        "elenamParameters"
+        "parameters"
       ],
       "description": "Parameters"
     },
     {
       "enum": [
         24,
-        "elenamBindCount"
+        "bindCount"
       ],
       "description": "Bind Count"
     },
     {
       "enum": [
         25,
-        "elenamPeriodStartDate"
+        "periodStartDate"
       ],
       "description": "Period Start Date"
     },
     {
       "enum": [
         26,
-        "elenamPeriodStartTime"
+        "periodStartTime"
       ],
       "description": "Period Start Time"
     },
     {
       "enum": [
         27,
-        "elenamPeriodEndDate"
+        "periodEndDate"
       ],
       "description": "Period End Date"
     },
     {
       "enum": [
         28,
-        "elenamPeriodEndTime"
+        "periodEndTime"
       ],
       "description": "Period End Time"
     },
     {
       "enum": [
         29,
-        "elenamConsumption"
+        "consumption"
       ],
       "description": "Consumption"
     },
     {
       "enum": [
         30,
-        "elenamDataUnreliable"
+        "dataUnreliable"
       ],
       "description": "Data Unreliable"
     },
     {
       "enum": [
         31,
-        "elenamDemandPeak"
+        "demandPeak"
       ],
       "description": "Demand Peak"
     },
     {
       "enum": [
         32,
-        "elenamDemandPeakDate"
+        "demandPeakDate"
       ],
       "description": "Demand Peak Date"
     },
     {
       "enum": [
         33,
-        "elenamDemandPeakTime"
+        "demandPeakTime"
       ],
       "description": "Demand Peak Time"
     },
     {
       "enum": [
         34,
-        "elenamUncDemandPeak"
+        "uncDemandPeak"
       ],
       "description": "Unc Demand Peak"
     },
     {
       "enum": [
         35,
-        "elenamUncDemandPeakDate"
+        "uncDemandPeakDate"
       ],
       "description": "Unc Demand Peak Date"
     },
     {
       "enum": [
         36,
-        "elenamUncDemandPeakTime"
+        "uncDemandPeakTime"
       ],
       "description": "Unc Demand Peak Time"
     },
     {
       "enum": [
         37,
-        "elenamLoadOid"
+        "loadOid"
       ],
       "description": "Load OID"
     },
     {
       "enum": [
         38,
-        "elenamLoadCommandIid"
+        "loadCommandIid"
       ],
       "description": "Load Command IID"
     },
     {
       "enum": [
         39,
-        "elenamShedRate"
+        "shedRate"
       ],
       "description": "Shed Rate"
     },
     {
       "enum": [
         40,
-        "elenamAmountShed"
+        "amountShed"
       ],
       "description": "Amount Shed"
     },
     {
       "enum": [
         41,
-        "elenamRelation"
+        "relation"
       ],
       "description": "Relation"
     },
     {
       "enum": [
         42,
-        "elenamDifferential"
+        "differential"
       ],
       "description": "Differential"
     },
     {
       "enum": [
         43,
-        "elenamDifference"
+        "difference"
       ],
       "description": "Difference"
     },
     {
       "enum": [
         44,
-        "elenamResult"
+        "result"
       ],
       "description": "Result"
     },
     {
       "enum": [
         45,
-        "elenamReliable"
+        "reliable"
       ],
       "description": "Reliable"
     },
     {
       "enum": [
         46,
-        "elenamConsumpUnreliable"
+        "consumpUnreliable"
       ],
       "description": "Consump Unreliable"
     },
     {
       "enum": [
         47,
-        "elenamPeakUnreliable"
+        "peakUnreliable"
       ],
       "description": "Peak Unreliable"
     },
     {
       "enum": [
         48,
-        "elenamBattery"
+        "battery"
       ],
       "description": "Battery"
     },
     {
       "enum": [
         49,
-        "elenamStartupCode"
+        "startupCode"
       ],
       "description": "Startup Code"
     },
     {
       "enum": [
         50,
-        "elenamBootCode"
+        "bootCode"
       ],
       "description": "Boot Code"
     },
     {
       "enum": [
         51,
-        "elenamMainCode"
+        "mainCode"
       ],
       "description": "Main Code"
     },
     {
       "enum": [
         52,
-        "elenamConfiguration"
+        "configuration"
       ],
       "description": "Configuration"
     },
     {
       "enum": [
         53,
-        "elenamN2Port"
+        "n2Port"
       ],
       "description": "N2 Port"
     },
     {
       "enum": [
         54,
-        "elenamPort1"
+        "port1"
       ],
       "description": "Port 1"
     },
     {
       "enum": [
         55,
-        "elenamPort2"
+        "port2"
       ],
       "description": "Port 2"
     },
     {
       "enum": [
         56,
-        "elenamPort3"
+        "port3"
       ],
       "description": "Port 3"
     },
     {
       "enum": [
         57,
-        "elenamEthernet"
+        "ethernet"
       ],
       "description": "Ethernet"
     },
     {
       "enum": [
         58,
-        "elenamDictionary"
+        "dictionary"
       ],
       "description": "Dictionary"
     },
@@ -602,2844 +602,2847 @@
     {
       "enum": [
         85,
-        "elenamIpAddress"
+        "ipAddress"
       ],
       "description": "IP Address"
     },
     {
       "enum": [
         86,
-        "elenamIpMask"
+        "ipMask"
       ],
       "description": "IP Broadcast Mask"
     },
     {
       "enum": [
         87,
-        "elenamPresentValue"
+        "presentValue"
       ],
       "description": "Present Value"
     },
     {
       "enum": [
         88,
-        "elenamExtPresentValue"
+        "extPresentValue"
       ],
       "description": "Ext Present Value"
     },
     {
       "enum": [
         89,
-        "elenamTransitionIndex"
+        "transitionIndex"
       ],
       "description": "Transition Index"
     },
     {
       "enum": [
         90,
-        "elenamTransitionTime"
+        "transitionTime"
       ],
       "description": "Transition Time"
     },
     {
       "enum": [
         91,
-        "elenamTransitionDate"
+        "transitionDate"
       ],
       "description": "Transition Date"
     },
     {
       "enum": [
         92,
-        "elenamMaxcounts"
+        "maxcounts"
       ],
       "description": "Max Counts"
     },
     {
       "enum": [
         93,
-        "elenamMincounts"
+        "mincounts"
       ],
       "description": "Min Counts"
     },
     {
       "enum": [
         94,
-        "elenamRefmax"
+        "refmax"
       ],
       "description": "Ref Max"
     },
     {
       "enum": [
         95,
-        "elenamRefmin"
+        "refmin"
       ],
       "description": "Ref Min"
     },
     {
       "enum": [
         96,
-        "elenamValidDays"
+        "validDays"
       ],
       "description": "Valid Days"
     },
     {
       "enum": [
         97,
-        "elenamFromTime"
+        "fromTime"
       ],
       "description": "From Time"
     },
     {
       "enum": [
         98,
-        "elenamToTime"
+        "toTime"
       ],
       "description": "To Time"
     },
     {
       "enum": [
         99,
-        "elenamObjId"
+        "objId"
       ],
       "description": "Object ID"
     },
     {
       "enum": [
         100,
-        "elenamRecNbr"
+        "recNbr"
       ],
       "description": "Address-Net Nbr"
     },
     {
       "enum": [
         101,
-        "elenamRecIp"
+        "recIp"
       ],
       "description": "Address-IP"
     },
     {
       "enum": [
         102,
-        "elenamRecUdp"
+        "recUdp"
       ],
       "description": "Address-UDP Port"
     },
     {
       "enum": [
         103,
-        "elenamProcId"
+        "procId"
       ],
       "description": "Process Identifier"
     },
     {
       "enum": [
         104,
-        "elenamConfNotif"
+        "confNotif"
       ],
       "description": "Confirmed Notif"
     },
     {
       "enum": [
         105,
-        "elenamTransitions"
+        "transitions"
       ],
       "description": "Transitions"
     },
     {
       "enum": [
         106,
-        "elenamRecChoice"
+        "recChoice"
       ],
       "description": "Recipient Choice"
     },
     {
       "enum": [
         107,
-        "elenamSpecifyDevice"
+        "specifyDevice"
       ],
       "description": "Specify Device"
     },
     {
       "enum": [
         108,
-        "elenamAttribute"
+        "attribute"
       ],
       "description": "Attribute"
     },
     {
       "enum": [
         109,
-        "elenamSpecifyArrayIndex"
+        "specifyArrayIndex"
       ],
       "description": "Specify Array Index"
     },
     {
       "enum": [
         110,
-        "elenamSpecifyPriority"
+        "specifyPriority"
       ],
       "description": "Specify Priority"
     },
     {
       "enum": [
         111,
-        "elenamSpecifyDelay"
+        "specifyDelay"
       ],
       "description": "Specify Delay"
     },
     {
       "enum": [
         112,
-        "elenamQuitOnFailure"
+        "quitOnFailure"
       ],
       "description": "Quit on Failure"
     },
     {
       "enum": [
         113,
-        "elenamWriteSucessful"
+        "writeSucessful"
       ],
       "description": "Write Sucessful"
     },
     {
       "enum": [
         114,
-        "elenamVctFileName"
+        "vctFileName"
       ],
       "description": "VCT File Name"
     },
     {
       "enum": [
         115,
-        "elenamInterface"
+        "interface"
       ],
       "description": "Interface"
     },
     {
       "enum": [
         116,
-        "elenamNetPointType"
+        "netPointType"
       ],
       "description": "Net Point Type"
     },
     {
       "enum": [
         117,
-        "elenamNetPointAddress"
+        "netPointAddress"
       ],
       "description": "Net Point Address"
     },
     {
       "enum": [
         118,
-        "elenamUnits"
+        "units"
       ],
       "description": "Units"
     },
     {
       "enum": [
         119,
-        "elenamDisplayPrecision"
+        "displayPrecision"
       ],
       "description": "Display Precision"
     },
     {
       "enum": [
         120,
-        "elenamStatus"
+        "status"
       ],
       "description": "Status"
     },
     {
       "enum": [
         121,
-        "elenamHostName"
+        "hostName"
       ],
       "description": "Host Name"
     },
     {
       "enum": [
         122,
-        "elenamChangeOfBitstring"
+        "changeOfBitstring"
       ],
       "description": "Change of Bitstring"
     },
     {
       "enum": [
         123,
-        "elenamChangeOfState"
+        "changeOfState"
       ],
       "description": "Change of State"
     },
     {
       "enum": [
         124,
-        "elenamChangeOfValue"
+        "changeOfValue"
       ],
       "description": "Change of Value"
     },
     {
       "enum": [
         125,
-        "elenamCommandFailure"
+        "commandFailure"
       ],
       "description": "Command Failure"
     },
     {
       "enum": [
         126,
-        "elenamFloatingLimit"
+        "floatingLimit"
       ],
       "description": "Floating Limit"
     },
     {
       "enum": [
         127,
-        "elenamOutOfRange"
+        "outOfRange"
       ],
       "description": "Out of Range"
     },
     {
       "enum": [
         128,
-        "elenamBufferReady"
+        "bufferReady"
       ],
       "description": "Buffer Ready"
     },
     {
       "enum": [
         129,
-        "elenamChangeOfLifeSafety"
+        "changeOfLifeSafety"
       ],
       "description": "Change of Life Safet"
     },
     {
       "enum": [
         130,
-        "elenamTimeDelay"
+        "timeDelay"
       ],
       "description": "Time Delay"
     },
     {
       "enum": [
         131,
-        "elenamBitmask"
+        "bitmask"
       ],
       "description": "Bitmask"
     },
     {
       "enum": [
         132,
-        "elenamBitstringValues"
+        "bitstringValues"
       ],
       "description": "Bitstring Values"
     },
     {
       "enum": [
         133,
-        "elenamListOfValues"
+        "listOfValues"
       ],
       "description": "List of Values"
     },
     {
       "enum": [
         134,
-        "elenamBooleanValue"
+        "booleanValue"
       ],
       "description": "Boolean Value"
     },
     {
       "enum": [
         135,
-        "elenamBinaryValue"
+        "binaryValue"
       ],
       "description": "Binary Value"
     },
     {
       "enum": [
         136,
-        "elenamEventType"
+        "eventType"
       ],
       "description": "Event Type"
     },
     {
       "enum": [
         137,
-        "elenamPolarity"
+        "polarity"
       ],
       "description": "Polarity"
     },
     {
       "enum": [
         138,
-        "elenamProgramChange"
+        "programChange"
       ],
       "description": "Program Change"
     },
     {
       "enum": [
         139,
-        "elenamProgramState"
+        "programState"
       ],
       "description": "Program State"
     },
     {
       "enum": [
         140,
-        "elenamReasonForHalt"
+        "reasonForHalt"
       ],
       "description": "Reason for Halt"
     },
     {
       "enum": [
         141,
-        "elenamReliability"
+        "reliability"
       ],
       "description": "Reliability"
     },
     {
       "enum": [
         142,
-        "elenamState"
+        "state"
       ],
       "description": "State"
     },
     {
       "enum": [
         143,
-        "elenamSystemStatus"
+        "systemStatus"
       ],
       "description": "System Status"
     },
     {
       "enum": [
         144,
-        "elenamUnsignedValue"
+        "unsignedValue"
       ],
       "description": "Unsigned Value"
     },
     {
       "enum": [
         145,
-        "elenamLifeSafetyMode"
+        "lifeSafetyMode"
       ],
       "description": "Life Safety Mode"
     },
     {
       "enum": [
         146,
-        "elenamLifeSafetyState"
+        "lifeSafetyState"
       ],
       "description": "Life Safety State"
     },
     {
       "enum": [
         147,
-        "elenamCovIncrement"
+        "covIncrement"
       ],
       "description": "COV Increment"
     },
     {
       "enum": [
         148,
-        "elenamFeedbackRef"
+        "feedbackRef"
       ],
       "description": "Feedback Reference"
     },
     {
       "enum": [
         149,
-        "elenamPropertyId"
+        "propertyId"
       ],
       "description": "Property ID"
     },
     {
       "enum": [
         150,
-        "elenamArrayIndex"
+        "arrayIndex"
       ],
       "description": "Array Index"
     },
     {
       "enum": [
         151,
-        "elenamDeviceId"
+        "deviceId"
       ],
       "description": "Device ID"
     },
     {
       "enum": [
         152,
-        "elenamSetpointRef"
+        "setpointRef"
       ],
       "description": "Setpoint Reference"
     },
     {
       "enum": [
         153,
-        "elenamLowDiffLimit"
+        "lowDiffLimit"
       ],
       "description": "Low Diff Limit"
     },
     {
       "enum": [
         154,
-        "elenamHighDiffLimit"
+        "highDiffLimit"
       ],
       "description": "High Diff Limit"
     },
     {
       "enum": [
         155,
-        "elenamDeadband"
+        "deadband"
       ],
       "description": "Deadband"
     },
     {
       "enum": [
         156,
-        "elenamLowLimit"
+        "lowLimit"
       ],
       "description": "Low Limit"
     },
     {
       "enum": [
         157,
-        "elenamHighLimit"
+        "highLimit"
       ],
       "description": "High Limit"
     },
     {
       "enum": [
         158,
-        "elenamNotifThreshold"
+        "notifThreshold"
       ],
       "description": "Notif Threshold"
     },
     {
       "enum": [
         159,
-        "elenamPrevNotifCount"
+        "prevNotifCount"
       ],
       "description": "Previous Notif Count"
     },
     {
       "enum": [
         160,
-        "elenamLifesftyAlmValsList"
+        "lifesftyAlmValsList"
       ],
       "description": "LifeSafety Alrm Vals"
     },
     {
       "enum": [
         161,
-        "elenamAlmValsList"
+        "almValsList"
       ],
       "description": "Alarm Values"
     },
     {
       "enum": [
         162,
-        "elenamModeRef"
+        "modeRef"
       ],
       "description": "Mode Reference"
     },
     {
       "enum": [
         163,
-        "elenamDate"
+        "date"
       ],
       "description": "Date"
     },
     {
       "enum": [
         164,
-        "elenamTaskid"
+        "taskid"
       ],
       "description": "Task ID"
     },
     {
       "enum": [
         165,
-        "elenamError"
+        "error"
       ],
       "description": "Error"
     },
     {
       "enum": [
         166,
-        "elenamTrendAltRef"
+        "trendAltRef"
       ],
       "description": "Alternate Reference"
     },
     {
       "enum": [
         167,
-        "elenamTrendAggFunc"
+        "trendAggFunc"
       ],
       "description": "Aggregate Function"
     },
     {
       "enum": [
         168,
-        "elenamTrendAggInt"
+        "trendAggInt"
       ],
       "description": "Aggregate Interval"
     },
     {
       "enum": [
         169,
-        "elenamTrendPlotMethod"
+        "trendPlotMethod"
       ],
       "description": "Plotting Method"
     },
     {
       "enum": [
         170,
-        "elenamConnUsing"
+        "connUsing"
       ],
       "description": "Connect Using"
     },
     {
       "enum": [
         171,
-        "elenamPhoneNum"
+        "phoneNum"
       ],
       "description": "Access Number"
     },
     {
       "enum": [
         172,
-        "elenamRedialAttempts"
+        "redialAttempts"
       ],
       "description": "Redial Attempts"
     },
     {
       "enum": [
         173,
-        "elenamRedialTime"
+        "redialTime"
       ],
       "description": "Time Between Redial Attempts"
     },
     {
       "enum": [
         174,
-        "elenamHangUpTime"
+        "hangUpTime"
       ],
       "description": "Idle Time Before Hanging Up"
     },
     {
       "enum": [
         175,
-        "elenamRedialIfDropped"
+        "redialIfDropped"
       ],
       "description": "Redial If Line Is Dropped"
     },
     {
       "enum": [
         176,
-        "elenamEnableInternetConn"
+        "enableInternetConn"
       ],
       "description": "Enable Internet Connection Sharing"
     },
     {
       "enum": [
         177,
-        "elenamEnableDhcp"
+        "enableDhcp"
       ],
       "description": "Enable DHCP"
     },
     {
       "enum": [
         178,
-        "elenamObtainDnsAuto"
+        "obtainDnsAuto"
       ],
       "description": "Obtain DNS Address Automatically"
     },
     {
       "enum": [
         179,
-        "elenamDnsAddrs"
+        "dnsAddrs"
       ],
       "description": "DNS Server IP Addresses"
     },
     {
       "enum": [
         180,
-        "elenamIspUsername"
+        "ispUsername"
       ],
       "description": "ISP Username"
     },
     {
       "enum": [
         181,
-        "elenamIspPassword"
+        "ispPassword"
       ],
       "description": "ISP Password"
     },
     {
       "enum": [
         182,
-        "elenamEnabled"
+        "enabled"
       ],
       "description": "Enabled"
     },
     {
       "enum": [
         183,
-        "elenamAllowIncomingConns"
+        "allowIncomingConns"
       ],
       "description": "Allow Incoming Connections"
     },
     {
       "enum": [
         184,
-        "elenamBaudRate"
+        "baudRate"
       ],
       "description": "Baud Rate"
     },
     {
       "enum": [
         185,
-        "elenamMaxBaudRate"
+        "maxBaudRate"
       ],
       "description": "Maximum Baud Rate"
     },
     {
       "enum": [
         186,
-        "elenamWaitForDial"
+        "waitForDial"
       ],
       "description": "Wait For Dial Tone Before Dialing"
     },
     {
       "enum": [
         187,
-        "elenamModemInitStr"
+        "modemInitStr"
       ],
       "description": "Extra Initialization Commands"
     },
     {
       "enum": [
         188,
-        "elenamItem"
+        "item"
       ],
       "description": "Item"
     },
     {
       "enum": [
         189,
-        "elenamOperator"
+        "operator"
       ],
       "description": "Operator"
     },
     {
       "enum": [
         190,
-        "elenamEmailAddr"
+        "emailAddr"
       ],
       "description": "Email Address"
     },
     {
       "enum": [
         191,
-        "elenamSubject"
+        "subject"
       ],
       "description": "Subject"
     },
     {
       "enum": [
         192,
-        "elenamRetries"
+        "retries"
       ],
       "description": "Retries"
     },
     {
       "enum": [
         193,
-        "elenamFilters"
+        "filters"
       ],
       "description": "Event Filters"
     },
     {
       "enum": [
         194,
-        "elenamFormat"
+        "format"
       ],
       "description": "Format"
     },
     {
       "enum": [
         195,
-        "elenamUserIdNum"
+        "userIdNum"
       ],
       "description": "Pager Phone Number"
     },
     {
       "enum": [
         196,
-        "elenamMaxChars"
+        "maxChars"
       ],
       "description": "Max Characters"
     },
     {
       "enum": [
         197,
-        "elenamCommunityName"
+        "communityName"
       ],
       "description": "Trap Community Name"
     },
     {
       "enum": [
         198,
-        "elenamDestPortNum"
+        "destPortNum"
       ],
       "description": "Destination Port Number"
     },
     {
       "enum": [
         199,
-        "elenamToOffnormal"
+        "toOffnormal"
       ],
       "description": "To Off Normal"
     },
     {
       "enum": [
         200,
-        "elenamToFault"
+        "toFault"
       ],
       "description": "To Fault"
     },
     {
       "enum": [
         201,
-        "elenamToNormal"
+        "toNormal"
       ],
       "description": "To Normal"
     },
     {
       "enum": [
         202,
-        "elenamPath"
+        "path"
       ],
       "description": "Path"
     },
     {
       "enum": [
         203,
-        "elenamPrinter"
+        "printer"
       ],
       "description": "Printer"
     },
     {
       "enum": [
         204,
-        "elenamRecipient"
+        "recipient"
       ],
       "description": "Recipient"
     },
     {
       "enum": [
         205,
-        "elenamFontface"
+        "fontface"
       ],
       "description": "Font Face"
     },
     {
       "enum": [
         206,
-        "elenamFontsize"
+        "fontsize"
       ],
       "description": "Font Size"
     },
     {
       "enum": [
         207,
-        "elenamOrientation"
+        "orientation"
       ],
       "description": "Orientation"
     },
     {
       "enum": [
         208,
-        "elenamTimeout"
+        "timeout"
       ],
       "description": "Timeout"
     },
     {
       "enum": [
         209,
-        "elenamElementReference"
+        "elementReference"
       ],
       "description": "Element Reference"
     },
     {
       "enum": [
         210,
-        "elenamType"
+        "type"
       ],
       "description": "Type"
     },
     {
       "enum": [
         211,
-        "elenamCategory"
+        "category"
       ],
       "description": "Category"
     },
     {
       "enum": [
         212,
-        "elenamUnitsOrEnumSet"
+        "unitsOrEnumSet"
       ],
       "description": "Units Or Enum Set"
     },
     {
       "enum": [
         213,
-        "elenamCommands"
+        "commands"
       ],
       "description": "Commands"
     },
     {
       "enum": [
         214,
-        "elenamOverride"
+        "override"
       ],
       "description": "Override"
     },
     {
       "enum": [
         215,
-        "elenamAdjust"
+        "adjust"
       ],
       "description": "Adjust"
     },
     {
       "enum": [
         216,
-        "elenamMinValue"
+        "minValue"
       ],
       "description": "Min Value"
     },
     {
       "enum": [
         217,
-        "elenamMaxValue"
+        "maxValue"
       ],
       "description": "Max Value"
     },
     {
       "enum": [
         218,
-        "elenamFieldEngUnits"
+        "fieldEngUnits"
       ],
       "description": "Field Engineering Units"
     },
     {
       "enum": [
         219,
-        "elenamRefFlag"
+        "refFlag"
       ],
       "description": "Ref Flag"
     },
     {
       "enum": [
         220,
-        "elenamExpFlag"
+        "expFlag"
       ],
       "description": "Exp Flag"
     },
     {
       "enum": [
         221,
-        "elenamReferences"
+        "references"
       ],
       "description": "References"
     },
     {
       "enum": [
         222,
-        "elenamLineout"
+        "lineout"
       ],
       "description": "Line Out"
     },
     {
       "enum": [
         223,
-        "elenamPrintingPriority"
+        "printingPriority"
       ],
       "description": "Printing Priority Threshold"
     },
     {
       "enum": [
         224,
-        "elenamSourceblock"
+        "sourceblock"
       ],
       "description": "Source Block"
     },
     {
       "enum": [
         225,
-        "elenamSourceattr"
+        "sourceattr"
       ],
       "description": "Source Attribute"
     },
     {
       "enum": [
         226,
-        "elenamDestblock"
+        "destblock"
       ],
       "description": "Destination Block"
     },
     {
       "enum": [
         227,
-        "elenamDestattr"
+        "destattr"
       ],
       "description": "Destination Attribute"
     },
     {
       "enum": [
         228,
-        "elenamObject"
+        "object"
       ],
       "description": "Object"
     },
     {
       "enum": [
         229,
-        "elenamAttributes"
+        "attributes"
       ],
       "description": "Attributes"
     },
     {
       "enum": [
         230,
-        "elenamWriteStatus"
+        "writeStatus"
       ],
       "description": "Write Status"
     },
     {
       "enum": [
         231,
-        "elenamDataType"
+        "dataType"
       ],
       "description": "Data Type"
     },
     {
       "enum": [
         232,
-        "elenamBlocks"
+        "blocks"
       ],
       "description": "Blocks"
     },
     {
       "enum": [
         233,
-        "elenamOutputEnumSet"
+        "outputEnumSet"
       ],
       "description": "Output Enum Set"
     },
     {
       "enum": [
         234,
-        "elenamColumnHeading"
+        "columnHeading"
       ],
       "description": "Column Heading"
     },
     {
       "enum": [
         235,
-        "elenamColumnValue"
+        "columnValue"
       ],
       "description": "Column Value"
     },
     {
       "enum": [
         236,
-        "elenamStateEnumSet"
+        "stateEnumSet"
       ],
       "description": "State Enum Set"
     },
     {
       "enum": [
         237,
-        "elenamRowValue"
+        "rowValue"
       ],
       "description": "Row Value"
     },
     {
       "enum": [
         238,
-        "elenamMapped"
+        "mapped"
       ],
       "description": "Mapped"
     },
     {
       "enum": [
         239,
-        "elenamMaxMaster"
+        "maxMaster"
       ],
       "description": "Max Master"
     },
     {
       "enum": [
         240,
-        "elenamMaxInfoFrames"
+        "maxInfoFrames"
       ],
       "description": "Max Info Frames"
     },
     {
       "enum": [
         241,
-        "elenamPortStatus"
+        "portStatus"
       ],
       "description": "Port Status"
     },
     {
       "enum": [
         242,
-        "elenamCodeState"
+        "codeState"
       ],
       "description": "Code State"
     },
     {
       "enum": [
         243,
-        "elenamXPosition"
+        "xPosition"
       ],
       "description": "X Position"
     },
     {
       "enum": [
         244,
-        "elenamYPosition"
+        "yPosition"
       ],
       "description": "Y Position"
     },
     {
       "enum": [
         245,
-        "elenamContinuationFlag"
+        "continuationFlag"
       ],
       "description": "Continuation Flag"
     },
     {
       "enum": [
         246,
-        "elenamContinuationText"
+        "continuationText"
       ],
       "description": "Continuation Text"
     },
     {
       "enum": [
         247,
-        "elenamConnections"
+        "connections"
       ],
       "description": "Connections"
     },
     {
       "enum": [
         248,
-        "elenamSlot"
+        "slot"
       ],
       "description": "Slot"
     },
     {
       "enum": [
         249,
-        "elenamRemoteDeviceReference"
+        "remoteDeviceReference"
       ],
       "description": "Device Reference"
     },
     {
       "enum": [
         250,
-        "elenamSlota"
+        "slota"
       ],
       "description": "Slot A"
     },
     {
       "enum": [
         251,
-        "elenamSlotb"
+        "slotb"
       ],
       "description": "Slot B"
     },
     {
       "enum": [
         252,
-        "elenamTimeConstant"
+        "timeConstant"
       ],
       "description": "Time Constant"
     },
     {
       "enum": [
         253,
-        "elenamDeadtime"
+        "deadtime"
       ],
       "description": "Deadtime"
     },
     {
       "enum": [
         254,
-        "elenamProcessRange"
+        "processRange"
       ],
       "description": "Process Range"
     },
     {
       "enum": [
         255,
-        "elenamEffortMean"
+        "effortMean"
       ],
       "description": "Effort Mean"
     },
     {
       "enum": [
         256,
-        "elenamEffortStdDev"
+        "effortStdDev"
       ],
       "description": "Effort Std Dev"
     },
     {
       "enum": [
         257,
-        "elenamErrorMean"
+        "errorMean"
       ],
       "description": "Error Mean"
     },
     {
       "enum": [
         258,
-        "elenamErrorStdDev"
+        "errorStdDev"
       ],
       "description": "Error Std Dev"
     },
     {
       "enum": [
         259,
-        "elenamErrorMeanStaged"
+        "errorMeanStaged"
       ],
       "description": "Error Mean Staged"
     },
     {
       "enum": [
         260,
-        "elenamErrorStdDevStaged"
+        "errorStdDevStaged"
       ],
       "description": "Error Std Dev Staged"
     },
     {
       "enum": [
         261,
-        "elenamAccessGroupId"
+        "accessGroupId"
       ],
       "description": "Access Group ID"
     },
     {
       "enum": [
         262,
-        "elenamPagerDatabits"
+        "pagerDatabits"
       ],
       "description": "Databits"
     },
     {
       "enum": [
         263,
-        "elenamPagerParity"
+        "pagerParity"
       ],
       "description": "Parity"
     },
     {
       "enum": [
         264,
-        "elenamPagerStopbits"
+        "pagerStopbits"
       ],
       "description": "Stopbits"
     },
     {
       "enum": [
         265,
-        "elenamVendorId"
+        "vendorId"
       ],
       "description": "Vendor ID"
     },
     {
       "enum": [
         266,
-        "elenamIagType"
+        "iagType"
       ],
       "description": "IAG Type"
     },
     {
       "enum": [
         267,
-        "elenamInputLabel"
+        "inputLabel"
       ],
       "description": "Input Label"
     },
     {
       "enum": [
         268,
-        "elenamInputType"
+        "inputType"
       ],
       "description": "Input Type"
     },
     {
       "enum": [
         269,
-        "elenamTransitionMapping"
+        "transitionMapping"
       ],
       "description": "Transition Mapping"
     },
     {
       "enum": [
         270,
-        "elenamOperatora"
+        "operatora"
       ],
       "description": "Operator A"
     },
     {
       "enum": [
         271,
-        "elenamOperand"
+        "operand"
       ],
       "description": "Operand"
     },
     {
       "enum": [
         272,
-        "elenamOperatorbType"
+        "operatorbType"
       ],
       "description": "Operator B Type"
     },
     {
       "enum": [
         273,
-        "elenamOperatorbValue"
+        "operatorbValue"
       ],
       "description": "Operator B Value"
     },
     {
       "enum": [
         274,
-        "elenamStateName"
+        "stateName"
       ],
       "description": "State Name"
     },
     {
       "enum": [
         275,
-        "elenamStateEnum"
+        "stateEnum"
       ],
       "description": "State Enum"
     },
     {
       "enum": [
         276,
-        "elenamStateValue"
+        "stateValue"
       ],
       "description": "State Value"
     },
     {
       "enum": [
         277,
-        "elenamStateMask"
+        "stateMask"
       ],
       "description": "State Mask"
     },
     {
       "enum": [
         278,
-        "elenamStateCompare"
+        "stateCompare"
       ],
       "description": "State Compare"
     },
     {
       "enum": [
         279,
-        "elenamTransitionMask"
+        "transitionMask"
       ],
       "description": "Transition Mask"
     },
     {
       "enum": [
         280,
-        "elenamTransitionCompare"
+        "transitionCompare"
       ],
       "description": "Transition Compare"
     },
     {
       "enum": [
         281,
-        "elenamNextState"
+        "nextState"
       ],
       "description": "Next State"
     },
     {
       "enum": [
         282,
-        "elenamTimerDuration"
+        "timerDuration"
       ],
       "description": "Timer Duration"
     },
     {
       "enum": [
         283,
-        "elenamInputAttributeNumber"
+        "inputAttributeNumber"
       ],
       "description": "Input Attribute Number"
     },
     {
       "enum": [
         284,
-        "elenamTeLocation"
+        "teLocation"
       ],
       "description": "TE Location"
     },
     {
       "enum": [
         285,
-        "elenamTeHandled"
+        "teHandled"
       ],
       "description": "TE Handled"
     },
     {
       "enum": [
         286,
-        "elenamPinUse"
+        "pinUse"
       ],
       "description": "PIN Use"
     },
     {
       "enum": [
         287,
-        "elenamPin"
+        "pin"
       ],
       "description": "PIN"
     },
     {
       "enum": [
         288,
-        "elenamAiAttrrefType"
+        "aiAttrrefType"
       ],
       "description": "AI Attr Ref Type"
     },
     {
       "enum": [
         289,
-        "elenamAiPreviousEventTimeType"
+        "aiPreviousEventTimeType"
       ],
       "description": "AI Previous Event Time Type"
     },
     {
       "enum": [
         290,
-        "elenamAiCurrentEventTimeType"
+        "aiCurrentEventTimeType"
       ],
       "description": "AI Current Event Time Type"
     },
     {
       "enum": [
         291,
-        "elenamAiPreviousStateType"
+        "aiPreviousStateType"
       ],
       "description": "AI Previous State Type"
     },
     {
       "enum": [
         292,
-        "elenamConfirmed"
+        "confirmed"
       ],
       "description": "Confirmed"
     },
     {
       "enum": [
         293,
-        "elenamRemaining"
+        "remaining"
       ],
       "description": "Remaining"
     },
     {
       "enum": [
         294,
-        "elenamEol"
+        "eol"
       ],
       "description": "EOL"
     },
     {
       "enum": [
         295,
-        "elenamModel"
+        "model"
       ],
       "description": "Model"
     },
     {
       "enum": [
         296,
-        "elenamBits"
+        "bits"
       ],
       "description": "Bits"
     },
     {
       "enum": [
         297,
-        "elenamFirstBit"
+        "firstBit"
       ],
       "description": "First Bit"
     },
     {
       "enum": [
         298,
-        "elenamGroupType"
+        "groupType"
       ],
       "description": "Group Type"
     },
     {
       "enum": [
         299,
-        "elenamGroupId"
+        "groupId"
       ],
       "description": "Group ID"
     },
     {
       "enum": [
         300,
-        "elenamScheduleObject"
+        "scheduleObject"
       ],
       "description": "Schedule Object"
     },
     {
       "enum": [
         301,
-        "elenamStartDate"
+        "startDate"
       ],
       "description": "Start Date"
     },
     {
       "enum": [
         302,
-        "elenamStartTime"
+        "startTime"
       ],
       "description": "Start Time"
     },
     {
       "enum": [
         303,
-        "elenamEndDate"
+        "endDate"
       ],
       "description": "End Date"
     },
     {
       "enum": [
         304,
-        "elenamEndTime"
+        "endTime"
       ],
       "description": "End Time"
     },
     {
       "enum": [
         305,
-        "elenamPurpose"
+        "purpose"
       ],
       "description": "Purpose"
     },
     {
       "enum": [
         306,
-        "elenamMask"
+        "mask"
       ],
       "description": "Mask"
     },
     {
       "enum": [
         307,
-        "elenamFloorNumber"
+        "floorNumber"
       ],
       "description": "Floor Number"
     },
     {
       "enum": [
         308,
-        "elenamPublicAccessAttribute"
+        "publicAccessAttribute"
       ],
       "description": "Public Access Attribute"
     },
     {
       "enum": [
         309,
-        "elenamOutputAttribute"
+        "outputAttribute"
       ],
       "description": "Output Attribute"
     },
     {
       "enum": [
         310,
-        "elenamInputAttribute"
+        "inputAttribute"
       ],
       "description": "Input Attribute"
     },
     {
       "enum": [
         311,
-        "elenamLength"
+        "length"
       ],
       "description": "Length"
     },
     {
       "enum": [
         312,
-        "elenamMemoryLoad"
+        "memoryLoad"
       ],
       "description": "Memory Load"
     },
     {
       "enum": [
         313,
-        "elenamTotalPhysical"
+        "totalPhysical"
       ],
       "description": "Total Physical"
     },
     {
       "enum": [
         314,
-        "elenamAvailPhysical"
+        "availPhysical"
       ],
       "description": "Avail Physical"
     },
     {
       "enum": [
         315,
-        "elenamTotalPageFile"
+        "totalPageFile"
       ],
       "description": "Total Page File"
     },
     {
       "enum": [
         316,
-        "elenamAvailPageFile"
+        "availPageFile"
       ],
       "description": "Avail Page File"
     },
     {
       "enum": [
         317,
-        "elenamTotalVirtual"
+        "totalVirtual"
       ],
       "description": "Total Virtual"
     },
     {
       "enum": [
         318,
-        "elenamAvailVirtual"
+        "availVirtual"
       ],
       "description": "Avail Virtual"
     },
     {
       "enum": [
         319,
-        "elenamRating"
+        "rating"
       ],
       "description": "Rating"
     },
     {
       "enum": [
         320,
-        "elenamValueAtShedTime"
+        "valueAtShedTime"
       ],
       "description": "Value-At-Shed-Time"
     },
     {
       "enum": [
         321,
-        "elenamEnergy"
+        "energy"
       ],
       "description": "Energy Consumption"
     },
     {
       "enum": [
         322,
-        "elenamPeak"
+        "peak"
       ],
       "description": "Peak"
     },
     {
       "enum": [
         323,
-        "elenamPeakTime"
+        "peakTime"
       ],
       "description": "Peak Time"
     },
     {
       "enum": [
         324,
-        "elenamProjectedPeak"
+        "projectedPeak"
       ],
       "description": "Projected Peak"
     },
     {
       "enum": [
         325,
-        "elenamProjectedPeakTime"
+        "projectedPeakTime"
       ],
       "description": "Projected Peak Time"
     },
     {
       "enum": [
         326,
-        "elenamTargets"
+        "targets"
       ],
       "description": "Targets"
     },
     {
       "enum": [
         327,
-        "elenamNetwork"
+        "network"
       ],
       "description": "Network"
     },
     {
       "enum": [
         328,
-        "elenamMaxShedTime"
+        "maxShedTime"
       ],
       "description": "Max Shed Time"
     },
     {
       "enum": [
         329,
-        "elenamTarget"
+        "target"
       ],
       "description": "Target"
     },
     {
       "enum": [
         330,
-        "elenamDescription"
+        "description"
       ],
       "description": "Description"
     },
     {
       "enum": [
         331,
-        "elenamMinShedTime"
+        "minShedTime"
       ],
       "description": "Min Shed Time"
     },
     {
       "enum": [
         332,
-        "elenamShedInvokeId"
+        "shedInvokeId"
       ],
       "description": "Shed invoke id"
     },
     {
       "enum": [
         333,
-        "elenamDlShed"
+        "dlShed"
       ],
       "description": "DL Shed"
     },
     {
       "enum": [
         334,
-        "elenamLrShed"
+        "lrShed"
       ],
       "description": "LR Shed"
     },
     {
       "enum": [
         335,
-        "elenamRemReleaseTime"
+        "remReleaseTime"
       ],
       "description": "Remaining Release Time"
     },
     {
       "enum": [
         336,
-        "elenamPublicAccessWhenDisconnected"
+        "publicAccessWhenDisconnected"
       ],
       "description": "Public Access When Disconnected"
     },
     {
       "enum": [
         337,
-        "elenamLevelNumber"
+        "levelNumber"
       ],
       "description": "Level Number"
     },
     {
       "enum": [
         338,
-        "elenamSide"
+        "side"
       ],
       "description": "Side"
     },
     {
       "enum": [
         339,
-        "elenamCopDestinationWhenConnected"
+        "copDestinationWhenConnected"
       ],
       "description": "COP Destination When Connected"
     },
     {
       "enum": [
         340,
-        "elenamCopDestinationWhenDisconnected"
+        "copDestinationWhenDisconnected"
       ],
       "description": "COP Destination When Disconnected"
     },
     {
       "enum": [
         341,
-        "elenamDopDestinationWhenConnected"
+        "dopDestinationWhenConnected"
       ],
       "description": "DOP Destination When Connected"
     },
     {
       "enum": [
         342,
-        "elenamDopDestinationWhenDisconnected"
+        "dopDestinationWhenDisconnected"
       ],
       "description": "DOP Destination When Disconnected"
     },
     {
       "enum": [
         343,
-        "elenamDopSourceWhenConnected"
+        "dopSourceWhenConnected"
       ],
       "description": "DOP Source When Connected"
     },
     {
       "enum": [
         344,
-        "elenamDopSourceWhenDisconnected"
+        "dopSourceWhenDisconnected"
       ],
       "description": "DOP Source When Disconnected"
     },
     {
       "enum": [
         345,
-        "elenamPeakIntDemand"
+        "peakIntDemand"
       ],
       "description": "Peak Interval Demand"
     },
     {
       "enum": [
         346,
-        "elenamPeakIntDemandTime"
+        "peakIntDemandTime"
       ],
       "description": "Peak Interval Demand Time"
     },
     {
       "enum": [
         347,
-        "elenamPrevShedIndex"
+        "prevShedIndex"
       ],
       "description": "Prev Shed Index"
     },
     {
       "enum": [
         348,
-        "elenamNextShedIndex"
+        "nextShedIndex"
       ],
       "description": "Next Shed Index"
     },
     {
       "enum": [
         349,
-        "elenamPrevReleasableIndex"
+        "prevReleasableIndex"
       ],
       "description": "Prev Releasable Index"
     },
     {
       "enum": [
         350,
-        "elenamNextReleasableIndex"
+        "nextReleasableIndex"
       ],
       "description": "Next Releasable Index"
     },
     {
       "enum": [
         351,
-        "elenamAlmMsgTxt"
+        "almMsgTxt"
       ],
       "description": "Alarm Message Text"
     },
     {
       "enum": [
         352,
-        "elenamMultiplier"
+        "multiplier"
       ],
       "description": "Multiplier"
     },
     {
       "enum": [
         353,
-        "elenamModuloDivide"
+        "moduloDivide"
       ],
       "description": "Modulo Divide"
     },
     {
       "enum": [
         354,
-        "elenamFirstLoadIndex"
+        "firstLoadIndex"
       ],
       "description": "First Load Index"
     },
     {
       "enum": [
         355,
-        "elenamLastShedIndex"
+        "lastShedIndex"
       ],
       "description": "Last Shed Index"
     },
     {
       "enum": [
         356,
-        "elenamLastRealShedIndex"
+        "lastRealShedIndex"
       ],
       "description": "Last Real Shed Index"
     },
     {
       "enum": [
         357,
-        "elenamNetworkNumber"
+        "networkNumber"
       ],
       "description": "Network Number"
     },
     {
       "enum": [
         358,
-        "elenamDeviceInstanceLowLimit"
+        "deviceInstanceLowLimit"
       ],
       "description": "Device Instance Low Limit"
     },
     {
       "enum": [
         359,
-        "elenamDeviceInstanceHighLimit"
+        "deviceInstanceHighLimit"
       ],
       "description": "Device Instance High Limit"
     },
     {
       "enum": [
         360,
-        "elenamUdpPort"
+        "udpPort"
       ],
       "description": "UDP Port"
     },
     {
       "enum": [
         361,
-        "elenamDeviceObjectId"
+        "deviceObjectId"
       ],
       "description": "Device Object ID"
     },
     {
       "enum": [
         362,
-        "elenamActionToTake"
+        "actionToTake"
       ],
       "description": "Action To Take"
     },
     {
       "enum": [
         363,
-        "elenamCondition"
+        "condition"
       ],
       "description": "Condition"
     },
     {
       "enum": [
         364,
-        "elenamDateTime"
+        "dateTime"
       ],
       "description": "Date Time"
     },
     {
       "enum": [
         365,
-        "elenamFwdSuccessful"
+        "fwdSuccessful"
       ],
       "description": "Forward Successful"
     },
     {
       "enum": [
         366,
-        "elenamGuid"
+        "guid"
       ],
       "description": "Identifier"
     },
     {
       "enum": [
         367,
-        "elenamPassword"
+        "password"
       ],
       "description": "Password"
     },
     {
       "enum": [
         368,
-        "elenamRecSubnetMask"
+        "recSubnetMask"
       ],
       "description": "Address-Subnet Mask"
     },
     {
       "enum": [
         369,
-        "elenamItemType"
+        "itemType"
       ],
       "description": "Item Type"
     },
     {
       "enum": [
         370,
-        "elenamChildItem"
+        "childItem"
       ],
       "description": "Child Item"
     },
     {
       "enum": [
         371,
-        "elenamColumnId"
+        "columnId"
       ],
       "description": "Column Id"
     },
     {
       "enum": [
         372,
-        "elenamAttributeId"
+        "attributeId"
       ],
       "description": "Attribute Id"
     },
     {
       "enum": [
         373,
-        "elenamAttributeName"
+        "attributeName"
       ],
       "description": "Attribute Name"
     },
     {
       "enum": [
         374,
-        "elenamAttributeGroup"
+        "attributeGroup"
       ],
       "description": "Attribute Group"
     },
     {
       "enum": [
         375,
-        "elenamTimestamp"
+        "timestamp"
       ],
       "description": "Timestamp"
     },
     {
       "enum": [
         376,
-        "elenamAccumulatedValue"
+        "accumulatedValue"
       ],
       "description": "Accumulated Value"
     },
     {
       "enum": [
         377,
-        "elenamSeqTable"
+        "seqTable"
       ],
       "description": "Sequence Table"
     },
     {
       "enum": [
         378,
-        "elenamDeviceType"
+        "deviceType"
       ],
       "description": "Device Type"
     },
     {
       "enum": [
         379,
-        "elenamDevicePeakEfficiency"
+        "devicePeakEfficiency"
       ],
       "description": "Peak Efficiency"
     },
     {
       "enum": [
         380,
-        "elenamDeviceRatedChwFlow"
+        "deviceRatedChwFlow"
       ],
       "description": "Rated CHW Flow"
     },
     {
       "enum": [
         381,
-        "elenamDeviceRatedChFlow"
+        "deviceRatedChFlow"
       ],
       "description": "Rated CW Flow"
     },
     {
       "enum": [
         382,
-        "elenamDeviceRatedCurrent"
+        "deviceRatedCurrent"
       ],
       "description": "Rated Current/Power"
     },
     {
       "enum": [
         383,
-        "elenamDeviceRatedCapcity"
+        "deviceRatedCapcity"
       ],
       "description": "Rated Capacity"
     },
     {
       "enum": [
         384,
-        "elenamDeviceChwMinFlow"
+        "deviceChwMinFlow"
       ],
       "description": "CHW Min Flow"
     },
     {
       "enum": [
         385,
-        "elenamDeviceCwMinFlow"
+        "deviceCwMinFlow"
       ],
       "description": "CW Min Flow"
     },
     {
       "enum": [
         386,
-        "elenamMethodId"
+        "methodId"
       ],
       "description": "Method Id"
     },
     {
       "enum": [
         387,
-        "elenamMajorReleaseId"
+        "majorReleaseId"
       ],
       "description": "Major Release Identifier"
     },
     {
       "enum": [
         388,
-        "elenamMinorReleaseId"
+        "minorReleaseId"
       ],
       "description": "Minor Release Identifier"
     },
     {
       "enum": [
         389,
-        "elenamPatchId"
+        "patchId"
       ],
       "description": "Patch Identifier"
     },
     {
       "enum": [
         390,
-        "elenamMajorBuildId"
+        "majorBuildId"
       ],
       "description": "Major Build Identifier"
     },
     {
       "enum": [
         391,
-        "elenamMinorBuildId"
+        "minorBuildId"
       ],
       "description": "Minor Build Identifier"
     },
     {
       "enum": [
         392,
-        "elenamAssetName"
+        "assetName"
       ],
       "description": "Asset Name"
     },
     {
       "enum": [
         393,
-        "elenamStartupPhase"
+        "startupPhase"
       ],
       "description": "Startup Phase"
     },
     {
       "enum": [
         394,
-        "elenamDuration"
+        "duration"
       ],
       "description": "Duration"
     },
     {
       "enum": [
         395,
-        "elenamPropBand"
+        "propBand"
       ],
       "description": "Proportional Band"
     },
     {
       "enum": [
         396,
-        "elenamIntegralTime"
+        "integralTime"
       ],
       "description": "Integral Time"
     },
     {
       "enum": [
         397,
-        "elenamSaturationTime"
+        "saturationTime"
       ],
       "description": "Saturation Time"
     },
     {
       "enum": [
         398,
-        "elenamPeriod"
+        "period"
       ],
       "description": "Period"
     },
     {
       "enum": [
         399,
-        "elenamDeviceLiftSensitivity"
+        "deviceLiftSensitivity"
       ],
       "description": "Lift Sensitivity"
     },
     {
       "enum": [
         400,
-        "elenamDeviceChwMaxFlow"
+        "deviceChwMaxFlow"
       ],
       "description": "CHW Max Flow"
     },
     {
       "enum": [
         401,
-        "elenamDevicePeakCop"
+        "devicePeakCop"
       ],
       "description": "Peak COP"
     },
     {
       "enum": [
         402,
-        "elenamCoil"
+        "coil"
       ],
       "description": "Coil"
     },
     {
       "enum": [
         403,
-        "elenamScale"
+        "scale"
       ],
       "description": "Scale"
     },
     {
       "enum": [
         404,
-        "elenamSigned"
+        "signed"
       ],
       "description": "Signed"
     },
     {
       "enum": [
         405,
-        "elenamPreferenceIndex"
+        "preferenceIndex"
       ],
       "description": "Preference Index"
     },
     {
       "enum": [
         406,
-        "elenamOffset"
+        "offset"
       ],
       "description": "Offset"
     },
     {
       "enum": [
         407,
-        "elenamWriteable"
+        "writeable"
       ],
       "description": "Writeable"
     },
     {
       "enum": [
         408,
-        "elenamDesignLift"
+        "designLift"
       ],
       "description": "Design Lift"
     },
     {
       "enum": [
         409,
-        "elenamUserRole"
+        "userRole"
       ],
       "description": "User Role"
     },
     {
       "enum": [
         410,
-        "elenamObjectCategory"
+        "objectCategory"
       ],
       "description": "Authorization Category"
     },
     {
       "enum": [
         411,
-        "elenamPermissionLevel"
+        "permissionLevel"
       ],
       "description": "Permission Level"
     },
     {
       "enum": [
         412,
-        "elenamObjectClass"
+        "objectClass"
       ],
       "description": "Object Class"
     },
     {
       "enum": [
         413,
-        "elenamUserCommandId"
+        "userCommandId"
       ],
       "description": "User Command ID"
     },
     {
       "enum": [
         414,
-        "elenamCommandMethodId"
+        "commandMethodId"
       ],
       "description": "Command Method ID"
     },
     {
       "enum": [
         415,
-        "elenamInputReferenceStatus"
+        "inputReferenceStatus"
       ],
       "description": "Input Reference Status"
     },
     {
       "enum": [
         416,
-        "elenamWarningReferenceStatus"
+        "warningReferenceStatus"
       ],
       "description": "Warning Reference Status"
     },
     {
       "enum": [
         417,
-        "elenamSetpointReferenceStatus"
+        "setpointReferenceStatus"
       ],
       "description": "Setpoint Reference Status"
     },
     {
       "enum": [
         418,
-        "elenamCoolingSetpointReferenceStatus"
+        "coolingSetpointReferenceStatus"
       ],
       "description": "Cooling Setpoint Reference Status"
     },
     {
       "enum": [
         419,
-        "elenamHeatingSetpointReferenceStatus"
+        "heatingSetpointReferenceStatus"
       ],
       "description": "Heating Setpoint Reference Status"
     },
     {
       "enum": [
         420,
-        "elenamOccupancyReferenceStatus"
+        "occupancyReferenceStatus"
       ],
       "description": "Occupancy Reference Status"
     },
     {
       "enum": [
         421,
-        "elenamHighAlarmLimit"
+        "highAlarmLimit"
       ],
       "description": "High Alarm Limit"
     },
     {
       "enum": [
         422,
-        "elenamHighWarningLimit"
+        "highWarningLimit"
       ],
       "description": "High Warning Limit"
     },
     {
       "enum": [
         423,
-        "elenamCoolingSetpoint"
+        "coolingSetpoint"
       ],
       "description": "Cooling Setpoint"
     },
     {
       "enum": [
         424,
-        "elenamHeatingSetpoint"
+        "heatingSetpoint"
       ],
       "description": "Heating Setpoint"
     },
     {
       "enum": [
         425,
-        "elenamLowWarningLimit"
+        "lowWarningLimit"
       ],
       "description": "Low Warning Limit"
     },
     {
       "enum": [
         426,
-        "elenamLowAlarmLimit"
+        "lowAlarmLimit"
       ],
       "description": "Low Alarm Limit"
     },
     {
       "enum": [
         427,
-        "elenamDateRange"
+        "dateRange"
       ],
       "description": "Date Range"
     },
     {
       "enum": [
         428,
-        "elenamWeekNDay"
+        "weekNDay"
       ],
       "description": "Week and Day"
     },
     {
       "enum": [
         429,
-        "elenamCalendarEntry"
+        "calendarEntry"
       ],
       "description": "Calendar Entry"
     },
     {
       "enum": [
         430,
-        "elenamCalendarReference"
+        "calendarReference"
       ],
       "description": "Calendar Reference"
     },
     {
       "enum": [
         431,
-        "elenamTimeValues"
+        "timeValues"
       ],
       "description": "Time Values"
     },
     {
       "enum": [
         432,
-        "elenamMonth"
+        "month"
       ],
       "description": "Month"
     },
     {
       "enum": [
         433,
-        "elenamWeek"
+        "week"
       ],
       "description": "Week"
     },
     {
       "enum": [
         434,
-        "elenamDay"
+        "day"
       ],
       "description": "Day"
     },
     {
       "enum": [
         435,
-        "elenamHour"
+        "hour"
       ],
       "description": "Hour"
     },
     {
       "enum": [
         436,
-        "elenamMinute"
+        "minute"
       ],
       "description": "Minute"
     },
     {
       "enum": [
         437,
-        "elenamPostDelay"
+        "postDelay"
       ],
       "description": "Post Delay"
     },
     {
       "enum": [
         438,
-        "elenamDevidDefined"
+        "devidDefined"
       ],
       "description": "Device ID Defined"
     },
     {
       "enum": [
         439,
-        "elenamArrayIndxDefined"
+        "arrayIndxDefined"
       ],
       "description": "Array Index Defined"
     },
     {
       "enum": [
         440,
-        "elenamPriorityDefined"
+        "priorityDefined"
       ],
       "description": "Priority Defined"
     },
     {
       "enum": [
         441,
-        "elenamPostDelayDefined"
+        "postDelayDefined"
       ],
       "description": "Post Delay Defined"
     },
     {
       "enum": [
         442,
-        "elenamMaxPctLoad"
+        "maxPctLoad"
       ],
       "description": "Max Pct Load"
     },
     {
       "enum": [
         443,
-        "elenamMinPctLoad"
+        "minPctLoad"
       ],
       "description": "Min Pct Load"
     },
     {
       "enum": [
         444,
-        "elenamMaxPctLoadCop"
+        "maxPctLoadCop"
       ],
       "description": "Max Pct Load COP"
     },
     {
       "enum": [
         445,
-        "elenamMinPctLoadCop"
+        "minPctLoadCop"
       ],
       "description": "Min Pct Load COP"
     },
     {
       "enum": [
         446,
-        "elenamStabilizeTime"
+        "stabilizeTime"
       ],
       "description": "Stabilize Time"
     },
     {
       "enum": [
         447,
-        "elenamInterstageTransitionDelay"
+        "interstageTransitionDelay"
       ],
       "description": "Interstage Transition Delay"
     },
     {
       "enum": [
         448,
-        "elenamAvgValue"
+        "avgValue"
       ],
       "description": "Avg Value"
     },
     {
       "enum": [
         449,
-        "elenamActualValue"
+        "actualValue"
       ],
       "description": "Actual Value"
     },
     {
       "enum": [
         450,
-        "elenamCalculatedValue"
+        "calculatedValue"
       ],
       "description": "Calculated Value"
     },
     {
       "enum": [
         451,
-        "elenamSample"
+        "sample"
       ],
       "description": "Sample"
     },
     {
       "enum": [
         452,
-        "elenamCount"
+        "count"
       ],
       "description": "Count"
     },
     {
       "enum": [
         453,
-        "elenamRefid"
+        "refid"
       ],
       "description": "Refid"
     },
     {
       "enum": [
         454,
-        "elenamBufferHead"
+        "bufferHead"
       ],
       "description": "Buffer Head"
     },
     {
       "enum": [
         455,
-        "elenamSampleValue"
+        "sampleValue"
       ],
       "description": "Sample Value"
     },
     {
       "enum": [
         456,
-        "elenamHourValues"
+        "hourValues"
       ],
       "description": "Hour Values"
     },
     {
       "enum": [
         457,
-        "elenamDayValues"
+        "dayValues"
       ],
       "description": "Day Values"
     },
     {
       "enum": [
         458,
-        "elenamMonthValues"
+        "monthValues"
       ],
       "description": "Month Values"
     },
     {
       "enum": [
         459,
-        "elenamSampleBucket"
+        "sampleBucket"
       ],
       "description": "Sample Bucket"
     },
     {
       "enum": [
         460,
-        "elenamBucketValues"
+        "bucketValues"
       ],
       "description": "Bucket Values"
     },
     {
       "enum": [
         461,
-        "elenamActive"
+        "active"
       ],
       "description": "Active"
     },
     {
       "enum": [
         462,
-        "elenamDataSource"
+        "dataSource"
       ],
       "description": "Data Source"
     },
     {
       "enum": [
         463,
-        "elenamComponentId"
+        "componentId"
       ],
       "description": "Component Identifier"
     },
     {
       "enum": [
         464,
-        "elenamPresenceSource"
+        "presenceSource"
       ],
       "description": "Presence Source"
     },
     {
       "enum": [
         465,
-        "elenamUdpSendPort"
+        "udpSendPort"
       ],
       "description": "UDP Send Port"
     },
     {
       "enum": [
         466,
-        "elenamUdpRecvPort"
+        "udpRecvPort"
       ],
       "description": "UDP Receive Port"
     },
     {
       "enum": [
         467,
-        "elenamSyslogServer"
+        "syslogServer"
       ],
       "description": "Syslog Server"
     },
     {
       "enum": [
         468,
-        "elenamAuditEnabled"
+        "auditEnabled"
       ],
       "description": "Audit Reporting Enabled"
     },
     {
       "enum": [
         469,
-        "elenamEventEnabled"
+        "eventEnabled"
       ],
       "description": "Event Reporting Enabled"
     },
     {
       "enum": [
         470,
-        "elenamShortName"
+        "shortName"
       ],
       "description": "Short Name"
     },
     {
       "enum": [
         471,
-        "elenamSearchCriteria"
+        "searchCriteria"
       ],
       "description": "Search Criteria"
     },
     {
       "enum": [
         472,
-        "elenamEquipmentPointType"
+        "equipmentPointType"
       ],
       "description": "Equipment Point Type"
     },
     {
       "enum": [
         473,
-        "elenamEquipmentType"
+        "equipmentType"
       ],
       "description": "Equipment Type"
     },
     {
       "enum": [
         474,
-        "elenamAvailableAttributeId"
+        "availableAttributeId"
       ],
       "description": "Availability Attribute ID"
     },
     {
       "enum": [
         475,
-        "elenamAvailabilityFactors"
+        "availabilityFactors"
       ],
       "description": "Availability Factors"
     },
     {
       "enum": [
         476,
-        "elenamSubcomponents"
+        "subcomponents"
       ],
       "description": "Subcomponents"
     },
     {
       "enum": [
         477,
-        "elenamSubcomponent"
+        "subcomponent"
       ],
       "description": "Subcomponent"
     },
     {
       "enum": [
         478,
-        "elenamAuditFilters"
+        "auditFilters"
       ],
       "description": "Audit Filters"
     },
     {
       "enum": [
         479,
-        "elenamTrigger"
+        "trigger"
       ],
       "description": "Trigger"
     },
     {
       "enum": [
         480,
-        "elenamGraphic"
+        "graphic"
       ],
       "description": "Graphic"
     },
     {
       "enum": [
         481,
-        "elenamGraphicAlias"
+        "graphicAlias"
       ],
       "description": "Graphic Alias"
     },
     {
       "enum": [
         482,
-        "elenamTalkDirect"
+        "talkDirect"
       ],
       "description": "Talk Direct"
     },
     {
       "enum": [
         483,
-        "elenamUserName"
+        "userName"
       ],
       "description": "User Name"
     },
     {
       "enum": [
         484,
-        "elenamOffline"
+        "offline"
       ],
       "description": "Offline"
     },
     {
       "enum": [
         485,
-        "elenamActiveCriticalAlarms"
+        "activeCriticalAlarms"
       ],
       "description": "Active Critical Alarms"
     },
     {
       "enum": [
         486,
-        "elenamTopLevelEquipmentModel"
+        "topLevelEquipmentModel"
       ],
       "description": "Top Level Equipment Model"
     },
     {
       "enum": [
         487,
-        "elenamViewDefVersion"
+        "viewDefVersion"
       ],
       "description": "View Definition Version"
     },
     {
       "enum": [
         488,
-        "elenamHideSchedule"
+        "hideSchedule"
       ],
       "description": "Hide Schedule"
     },
     {
       "enum": [
         489,
-        "elenamDeviceSize"
+        "deviceSize"
       ],
       "description": "Device Size"
     },
     {
       "enum": [
         490,
-        "elenamDeviceNetworkSize"
+        "deviceNetworkSize"
       ],
       "description": "Device Network Size"
+    },
+    {
+      "type": "null"
     }
   ]
 }

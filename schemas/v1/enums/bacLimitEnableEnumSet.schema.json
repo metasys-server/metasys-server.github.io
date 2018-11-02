@@ -17,6 +17,9 @@
         "bacHighLimitEnable"
       ],
       "description": "High limit enable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

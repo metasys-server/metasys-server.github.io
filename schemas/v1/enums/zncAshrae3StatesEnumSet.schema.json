@@ -38,6 +38,9 @@
         "znc3ZoneUnrel"
       ],
       "description": "Zone Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

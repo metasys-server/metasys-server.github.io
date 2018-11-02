@@ -24,6 +24,9 @@
         "mzUnoccStsStUnoccupiedOff"
       ],
       "description": "Unoccupied Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

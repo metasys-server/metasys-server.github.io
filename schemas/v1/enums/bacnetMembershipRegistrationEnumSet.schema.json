@@ -24,6 +24,9 @@
         "bacnetMembershipRegistrationListen"
       ],
       "description": "Listen"
+    },
+    {
+      "type": "null"
     }
   ]
 }

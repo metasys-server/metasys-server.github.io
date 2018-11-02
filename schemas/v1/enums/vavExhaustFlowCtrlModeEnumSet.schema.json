@@ -38,6 +38,9 @@
         "vefcmControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

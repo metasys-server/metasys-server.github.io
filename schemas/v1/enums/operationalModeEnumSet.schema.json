@@ -38,6 +38,9 @@
         "modeOperationalPending"
       ],
       "description": "Operational Pending"
+    },
+    {
+      "type": "null"
     }
   ]
 }

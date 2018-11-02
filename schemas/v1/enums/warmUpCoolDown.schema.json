@@ -45,6 +45,9 @@
         "warmUpCoolDownSetpointsReached"
       ],
       "description": "Setpoints Reached"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -52,6 +52,9 @@
         "tec3000AuxModeOff"
       ],
       "description": "Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "stcLeadSysNumber1"
       ],
       "description": "Sys2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

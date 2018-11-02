@@ -17,6 +17,9 @@
         "externalModemType"
       ],
       "description": "External modem"
+    },
+    {
+      "type": "null"
     }
   ]
 }

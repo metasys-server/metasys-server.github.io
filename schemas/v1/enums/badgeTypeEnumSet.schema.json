@@ -31,6 +31,9 @@
         "badgeTypeCommonPin"
       ],
       "description": "Common PIN"
+    },
+    {
+      "type": "null"
     }
   ]
 }

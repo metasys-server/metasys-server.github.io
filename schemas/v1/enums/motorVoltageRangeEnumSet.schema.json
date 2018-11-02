@@ -66,6 +66,9 @@
         "motorVrGreaterthan600V"
       ],
       "description": "> 600V"
+    },
+    {
+      "type": "null"
     }
   ]
 }

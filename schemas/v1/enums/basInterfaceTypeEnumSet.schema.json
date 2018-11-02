@@ -45,6 +45,9 @@
         "basItLon"
       ],
       "description": "LON"
+    },
+    {
+      "type": "null"
     }
   ]
 }

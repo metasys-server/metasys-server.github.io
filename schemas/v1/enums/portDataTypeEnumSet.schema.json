@@ -38,6 +38,9 @@
         "portDataTypeRelay"
       ],
       "description": "Relay"
+    },
+    {
+      "type": "null"
     }
   ]
 }

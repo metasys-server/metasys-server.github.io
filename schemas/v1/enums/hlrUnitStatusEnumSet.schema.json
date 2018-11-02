@@ -66,6 +66,9 @@
         "hlrUnitStatusSmRegen"
       ],
       "description": "SM_Regen"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -276,6 +276,9 @@
         "yrShortNames39"
       ],
       "description": "ICE STORAGE MODE"
+    },
+    {
+      "type": "null"
     }
   ]
 }

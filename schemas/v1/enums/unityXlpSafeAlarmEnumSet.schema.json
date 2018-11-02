@@ -66,6 +66,9 @@
         "8"
       ],
       "description": "FIXED, SAFE2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

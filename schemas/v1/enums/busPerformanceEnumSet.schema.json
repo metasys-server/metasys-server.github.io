@@ -31,6 +31,9 @@
         "busPerformanceNa"
       ],
       "description": "Not Applicable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

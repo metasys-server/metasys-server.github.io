@@ -500,6 +500,9 @@
         "ystSc270"
       ],
       "description": "SAFETY SHUTDOWN - STEAM SUPPLY OUT OF RANGE"
+    },
+    {
+      "type": "null"
     }
   ]
 }

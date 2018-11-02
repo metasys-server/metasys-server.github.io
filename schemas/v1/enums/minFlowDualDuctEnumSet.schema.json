@@ -31,6 +31,9 @@
         "minflowDdCooldown"
       ],
       "description": "Cooldown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

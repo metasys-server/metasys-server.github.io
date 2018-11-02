@@ -283,6 +283,9 @@
         "ltcLegacyYpcCyclingCode39"
       ],
       "description": "STANDBY LOCKOUT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

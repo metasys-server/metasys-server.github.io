@@ -24,6 +24,9 @@
         "sesLockout"
       ],
       "description": "Lockout"
+    },
+    {
+      "type": "null"
     }
   ]
 }

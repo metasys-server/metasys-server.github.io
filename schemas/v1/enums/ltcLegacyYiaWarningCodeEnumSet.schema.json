@@ -66,6 +66,9 @@
         "ltcLegacyYiaWarningCode8"
       ],
       "description": "PURGE PUMP SERVICE RECOMMENDED"
+    },
+    {
+      "type": "null"
     }
   ]
 }

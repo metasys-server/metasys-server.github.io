@@ -31,6 +31,9 @@
         "lonrouterRepeater"
       ],
       "description": "Repeater"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -143,6 +143,9 @@
         "rutThreeHeatFourCool"
       ],
       "description": "3 Heat - 4 Cool"
+    },
+    {
+      "type": "null"
     }
   ]
 }

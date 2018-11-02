@@ -45,6 +45,9 @@
         "fileTransferMediaTypeUsbFile"
       ],
       "description": "CEC USB File"
+    },
+    {
+      "type": "null"
     }
   ]
 }

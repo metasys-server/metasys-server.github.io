@@ -38,6 +38,9 @@
         "pagerParitySpace"
       ],
       "description": "Space"
+    },
+    {
+      "type": "null"
     }
   ]
 }

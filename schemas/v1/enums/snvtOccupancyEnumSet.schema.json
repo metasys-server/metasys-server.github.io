@@ -38,6 +38,9 @@
         "todStateOcNull"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

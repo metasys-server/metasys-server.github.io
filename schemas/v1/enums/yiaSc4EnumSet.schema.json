@@ -143,6 +143,9 @@
         "yiaSc419"
       ],
       "description": "REFRIGERANT FROM CONDENSER RT9 OR SHELL PRESS PT1 CONFLICT"
+    },
+    {
+      "type": "null"
     }
   ]
 }

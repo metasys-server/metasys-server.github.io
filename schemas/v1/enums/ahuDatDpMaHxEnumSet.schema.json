@@ -66,6 +66,9 @@
         "ahuDatDpmahxTemperatureUnreliable"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

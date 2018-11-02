@@ -17,6 +17,9 @@
         "clminMsMinimum"
       ],
       "description": "Minimum"
+    },
+    {
+      "type": "null"
     }
   ]
 }

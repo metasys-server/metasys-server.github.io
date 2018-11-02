@@ -31,6 +31,9 @@
         "groupProcessingDenyAllOnIncompleteGroup"
       ],
       "description": "Deny All on Incomplete Group"
+    },
+    {
+      "type": "null"
     }
   ]
 }

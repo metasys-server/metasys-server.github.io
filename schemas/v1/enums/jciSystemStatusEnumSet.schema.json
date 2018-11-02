@@ -311,6 +311,9 @@
         "certificateFileSizeError"
       ],
       "description": "Error While Getting Certificate File Size For Hash Name Generation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

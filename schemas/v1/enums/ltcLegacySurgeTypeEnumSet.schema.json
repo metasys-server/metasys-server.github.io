@@ -17,6 +17,9 @@
         "ltcLegacySurgeType1"
       ],
       "description": "Current"
+    },
+    {
+      "type": "null"
     }
   ]
 }

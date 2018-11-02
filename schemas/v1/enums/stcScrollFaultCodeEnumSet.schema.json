@@ -255,6 +255,9 @@
         "stcScrollFaultCode35"
       ],
       "description": "RESERVED 35"
+    },
+    {
+      "type": "null"
     }
   ]
 }

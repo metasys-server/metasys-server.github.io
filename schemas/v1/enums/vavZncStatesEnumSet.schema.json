@@ -52,6 +52,9 @@
         "vavzngTempUnrel"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

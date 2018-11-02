@@ -24,6 +24,9 @@
         "edmAlarm2"
       ],
       "description": "2nd Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

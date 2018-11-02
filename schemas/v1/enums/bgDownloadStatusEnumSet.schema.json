@@ -59,6 +59,9 @@
         "bgDownloadStatusFatalError"
       ],
       "description": "Fatal Error"
+    },
+    {
+      "type": "null"
     }
   ]
 }

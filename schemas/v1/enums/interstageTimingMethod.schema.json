@@ -17,6 +17,9 @@
         "interstageTimingMethodStabilize"
       ],
       "description": "Stabilize"
+    },
+    {
+      "type": "null"
     }
   ]
 }

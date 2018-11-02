@@ -31,6 +31,9 @@
         "s300BaudRate115200Baud"
       ],
       "description": "115200 Baud"
+    },
+    {
+      "type": "null"
     }
   ]
 }

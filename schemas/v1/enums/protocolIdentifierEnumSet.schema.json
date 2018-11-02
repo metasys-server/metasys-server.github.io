@@ -73,6 +73,9 @@
         "protocolIdZigbeeRouter"
       ],
       "description": "Zigbee Router"
+    },
+    {
+      "type": "null"
     }
   ]
 }

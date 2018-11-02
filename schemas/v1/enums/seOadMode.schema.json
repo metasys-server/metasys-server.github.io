@@ -66,6 +66,9 @@
         "seOadModePurgeSatHigh"
       ],
       "description": "Purge SA-T High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

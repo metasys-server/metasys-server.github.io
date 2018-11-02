@@ -17,6 +17,9 @@
         "offlinePinDigits5Digits"
       ],
       "description": "5 Digits"
+    },
+    {
+      "type": "null"
     }
   ]
 }

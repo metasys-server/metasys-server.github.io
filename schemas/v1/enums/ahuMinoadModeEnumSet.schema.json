@@ -45,6 +45,9 @@
         "ahuMinoadMEmergencyOpen"
       ],
       "description": "Emergency Open"
+    },
+    {
+      "type": "null"
     }
   ]
 }

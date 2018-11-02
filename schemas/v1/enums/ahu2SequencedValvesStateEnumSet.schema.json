@@ -66,6 +66,9 @@
         "ahu2SvsRemainInCtrl"
       ],
       "description": "Remain In Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

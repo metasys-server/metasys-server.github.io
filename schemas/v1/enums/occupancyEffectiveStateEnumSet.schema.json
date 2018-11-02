@@ -38,6 +38,9 @@
         "occupancyEffectiveStateDefault"
       ],
       "description": "Default Occupancy"
+    },
+    {
+      "type": "null"
     }
   ]
 }

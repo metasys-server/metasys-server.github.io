@@ -38,6 +38,9 @@
         "tecModeEheat"
       ],
       "description": "Emergency Heat"
+    },
+    {
+      "type": "null"
     }
   ]
 }

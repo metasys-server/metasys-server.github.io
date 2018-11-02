@@ -38,6 +38,9 @@
         "notZero"
       ],
       "description": "Not Zero"
+    },
+    {
+      "type": "null"
     }
   ]
 }

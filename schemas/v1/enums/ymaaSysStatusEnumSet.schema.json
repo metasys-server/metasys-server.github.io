@@ -66,6 +66,9 @@
         "ymaaSysStatus8"
       ],
       "description": "Pump"
+    },
+    {
+      "type": "null"
     }
   ]
 }

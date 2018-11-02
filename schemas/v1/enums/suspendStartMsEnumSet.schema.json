@@ -17,6 +17,9 @@
         "suspendStartStart"
       ],
       "description": "Start"
+    },
+    {
+      "type": "null"
     }
   ]
 }

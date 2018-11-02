@@ -31,6 +31,9 @@
         "seRtuHotGasOffDisabled"
       ],
       "description": "Off-Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

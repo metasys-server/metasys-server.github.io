@@ -24,6 +24,9 @@
         "verasysInterlockRelease"
       ],
       "description": "Release"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "tecSysModeEmgHeat"
       ],
       "description": "Emergency Heat"
+    },
+    {
+      "type": "null"
     }
   ]
 }

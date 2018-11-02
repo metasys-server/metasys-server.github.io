@@ -38,6 +38,9 @@
         "auxModeShuntAndGreenLight"
       ],
       "description": "Shunt and Green Light"
+    },
+    {
+      "type": "null"
     }
   ]
 }

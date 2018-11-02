@@ -59,6 +59,9 @@
         "threeSpdModeAutoHigh"
       ],
       "description": "Auto-High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

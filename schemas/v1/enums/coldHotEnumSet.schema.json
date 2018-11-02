@@ -17,6 +17,9 @@
         "chHot"
       ],
       "description": "Hot"
+    },
+    {
+      "type": "null"
     }
   ]
 }

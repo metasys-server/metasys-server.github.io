@@ -1214,6 +1214,9 @@
         "tecLongViewStringsUnoccMinOnTime"
       ],
       "description": "Unocc Min On Time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

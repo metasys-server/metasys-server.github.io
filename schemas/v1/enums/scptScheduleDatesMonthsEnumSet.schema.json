@@ -171,6 +171,9 @@
         "mnNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

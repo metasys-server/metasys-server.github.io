@@ -773,6 +773,9 @@
         "enumClientMsgTypeMax"
       ],
       "description": "Max"
+    },
+    {
+      "type": "null"
     }
   ]
 }

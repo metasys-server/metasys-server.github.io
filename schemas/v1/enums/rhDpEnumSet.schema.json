@@ -17,6 +17,9 @@
         "rhdpDp"
       ],
       "description": "DP"
+    },
+    {
+      "type": "null"
     }
   ]
 }

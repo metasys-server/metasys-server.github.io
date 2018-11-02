@@ -31,6 +31,9 @@
         "lccsEquipTypeHeatpump"
       ],
       "description": "HeatPump"
+    },
+    {
+      "type": "null"
     }
   ]
 }

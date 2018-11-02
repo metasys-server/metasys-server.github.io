@@ -17,6 +17,9 @@
         "hangupCallCall"
       ],
       "description": "Call"
+    },
+    {
+      "type": "null"
     }
   ]
 }

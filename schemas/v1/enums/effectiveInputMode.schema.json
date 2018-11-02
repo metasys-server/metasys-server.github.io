@@ -17,6 +17,9 @@
         "effectiveInputModeOr"
       ],
       "description": "OR"
+    },
+    {
+      "type": "null"
     }
   ]
 }

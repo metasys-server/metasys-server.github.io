@@ -24,6 +24,9 @@
         "rtfCmdFalse"
       ],
       "description": "False"
+    },
+    {
+      "type": "null"
     }
   ]
 }

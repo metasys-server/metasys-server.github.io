@@ -24,6 +24,9 @@
         "mzZnHtgModeWaterFlush"
       ],
       "description": "Water Flush"
+    },
+    {
+      "type": "null"
     }
   ]
 }

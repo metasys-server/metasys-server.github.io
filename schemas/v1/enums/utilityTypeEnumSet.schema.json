@@ -66,6 +66,9 @@
         "utilityTypeWaterConsumption"
       ],
       "description": "Water Consumption"
+    },
+    {
+      "type": "null"
     }
   ]
 }

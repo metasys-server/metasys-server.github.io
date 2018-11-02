@@ -2285,6 +2285,9 @@
         "yorkStcLongStrings326"
       ],
       "description": "Sys 2 Heat Recovery Solenoid"
+    },
+    {
+      "type": "null"
     }
   ]
 }

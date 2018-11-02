@@ -17,6 +17,9 @@
         "raReleaseCommands"
       ],
       "description": "Release Commands"
+    },
+    {
+      "type": "null"
     }
   ]
 }

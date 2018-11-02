@@ -31,6 +31,9 @@
         "normalMode"
       ],
       "description": "Normal"
+    },
+    {
+      "type": "null"
     }
   ]
 }

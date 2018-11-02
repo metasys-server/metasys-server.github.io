@@ -24,6 +24,9 @@
         "eprFaultCauseInvalidConfig"
       ],
       "description": "Invalid Config"
+    },
+    {
+      "type": "null"
     }
   ]
 }

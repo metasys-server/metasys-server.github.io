@@ -115,6 +115,9 @@
         "connectorI16InputAl16"
       ],
       "description": "AL16"
+    },
+    {
+      "type": "null"
     }
   ]
 }

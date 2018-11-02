@@ -45,6 +45,9 @@
         "accountStatusSuspendedAndLockedout"
       ],
       "description": "Suspended & Locked Out"
+    },
+    {
+      "type": "null"
     }
   ]
 }

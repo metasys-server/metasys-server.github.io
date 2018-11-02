@@ -17,6 +17,9 @@
         "ymaaOnOffCmd2"
       ],
       "description": "Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

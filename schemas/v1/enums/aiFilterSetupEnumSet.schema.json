@@ -38,6 +38,9 @@
         "aifsCustom"
       ],
       "description": "Custom"
+    },
+    {
+      "type": "null"
     }
   ]
 }

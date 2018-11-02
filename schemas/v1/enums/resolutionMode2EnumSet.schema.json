@@ -24,6 +24,9 @@
         "res2HardwarePriority"
       ],
       "description": "Hardware Priority"
+    },
+    {
+      "type": "null"
     }
   ]
 }

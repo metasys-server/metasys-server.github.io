@@ -17,6 +17,9 @@
         "triggerPresentValueActive"
       ],
       "description": "Active"
+    },
+    {
+      "type": "null"
     }
   ]
 }

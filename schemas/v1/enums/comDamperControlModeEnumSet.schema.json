@@ -45,6 +45,9 @@
         "comdcmControlEconLmt"
       ],
       "description": "Control Econ Limit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

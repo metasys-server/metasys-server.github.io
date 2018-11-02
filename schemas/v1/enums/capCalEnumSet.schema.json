@@ -31,6 +31,9 @@
         "capCalFla"
       ],
       "description": "Percent FLA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

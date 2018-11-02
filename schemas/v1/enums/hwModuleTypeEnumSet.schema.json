@@ -80,6 +80,9 @@
         "hwModuleRdr8S"
       ],
       "description": "RDR8S (I32O16)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

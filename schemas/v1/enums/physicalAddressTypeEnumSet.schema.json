@@ -17,6 +17,9 @@
         "physicalAddressTypeControllerNumber"
       ],
       "description": "Controller Number"
+    },
+    {
+      "type": "null"
     }
   ]
 }

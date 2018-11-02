@@ -24,6 +24,9 @@
         "ahupropHcontrolOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

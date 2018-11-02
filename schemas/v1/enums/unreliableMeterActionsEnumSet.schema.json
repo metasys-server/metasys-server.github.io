@@ -24,6 +24,9 @@
         "unrelMtrActUseUnreliableMeterShedRate"
       ],
       "description": "Use Unreliable Meter Shed Rate"
+    },
+    {
+      "type": "null"
     }
   ]
 }

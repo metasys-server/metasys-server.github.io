@@ -17,6 +17,9 @@
         "coMstpMaster"
       ],
       "description": "MSTP"
+    },
+    {
+      "type": "null"
     }
   ]
 }

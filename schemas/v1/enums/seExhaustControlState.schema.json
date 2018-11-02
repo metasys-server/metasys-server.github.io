@@ -80,6 +80,9 @@
         "seExhaustControlStateTest"
       ],
       "description": "Test"
+    },
+    {
+      "type": "null"
     }
   ]
 }

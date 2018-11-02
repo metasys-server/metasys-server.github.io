@@ -45,6 +45,9 @@
         "vfcmFailsoft"
       ],
       "description": "Failsoft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

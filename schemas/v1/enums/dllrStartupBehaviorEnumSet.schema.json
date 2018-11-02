@@ -17,6 +17,9 @@
         "dllrStartupBehaviorLastCmd"
       ],
       "description": "Startup in last commanded mode"
+    },
+    {
+      "type": "null"
     }
   ]
 }

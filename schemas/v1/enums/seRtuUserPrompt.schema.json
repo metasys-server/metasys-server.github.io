@@ -24,6 +24,9 @@
         "seRtuUserPromptWait"
       ],
       "description": "Wait"
+    },
+    {
+      "type": "null"
     }
   ]
 }

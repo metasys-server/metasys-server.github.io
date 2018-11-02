@@ -24,6 +24,9 @@
         "obtTower"
       ],
       "description": "Tower"
+    },
+    {
+      "type": "null"
     }
   ]
 }

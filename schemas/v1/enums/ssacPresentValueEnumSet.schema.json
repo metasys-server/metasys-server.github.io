@@ -31,6 +31,9 @@
         "ssacFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

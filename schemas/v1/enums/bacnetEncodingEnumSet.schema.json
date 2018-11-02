@@ -31,6 +31,9 @@
         "utf8Encoding"
       ],
       "description": "ISO 10646 (UTF-8)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

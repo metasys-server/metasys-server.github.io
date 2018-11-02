@@ -31,6 +31,9 @@
         "ifcBacnetDisabled"
       ],
       "description": "Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

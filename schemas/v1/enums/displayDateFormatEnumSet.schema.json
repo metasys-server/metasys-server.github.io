@@ -24,6 +24,9 @@
         "displayDateFormatDayMonthDdYyyy"
       ],
       "description": "Day, Month DD, YYYY"
+    },
+    {
+      "type": "null"
     }
   ]
 }

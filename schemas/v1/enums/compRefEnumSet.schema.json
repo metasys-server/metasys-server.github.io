@@ -17,6 +17,9 @@
         "referenceObject"
       ],
       "description": "Reference"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "startstopHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

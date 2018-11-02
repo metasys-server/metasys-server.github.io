@@ -17,6 +17,9 @@
         "t8800TemperatureUnitsFahrenheit"
       ],
       "description": "Fahrenheit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

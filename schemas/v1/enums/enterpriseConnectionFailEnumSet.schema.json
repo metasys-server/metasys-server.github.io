@@ -24,6 +24,9 @@
         "proxyFailed"
       ],
       "description": "Proxy Failed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

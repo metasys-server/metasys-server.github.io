@@ -24,6 +24,9 @@
         "adaRelayConnectedToGreenLightOutput"
       ],
       "description": "to Green Light Output"
+    },
+    {
+      "type": "null"
     }
   ]
 }

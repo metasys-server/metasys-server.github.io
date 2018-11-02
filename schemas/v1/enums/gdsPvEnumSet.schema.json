@@ -31,6 +31,9 @@
         "gdsPvFailSoft"
       ],
       "description": "Fail Soft"
+    },
+    {
+      "type": "null"
     }
   ]
 }

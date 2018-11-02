@@ -24,6 +24,9 @@
         "tec3000DeviceTypeVav"
       ],
       "description": "VAV"
+    },
+    {
+      "type": "null"
     }
   ]
 }

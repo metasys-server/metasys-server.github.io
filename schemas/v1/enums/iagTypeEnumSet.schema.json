@@ -17,6 +17,9 @@
         "iagTypeAccessGroup"
       ],
       "description": "Access Group"
+    },
+    {
+      "type": "null"
     }
   ]
 }

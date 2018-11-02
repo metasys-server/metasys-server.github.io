@@ -24,6 +24,9 @@
         "tec3000SatSensorTypeCoolingNc"
       ],
       "description": "Cooling N.C."
+    },
+    {
+      "type": "null"
     }
   ]
 }

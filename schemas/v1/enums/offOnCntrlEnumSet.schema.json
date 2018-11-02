@@ -24,6 +24,9 @@
         "offOnCntrlControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "surdOffline"
       ],
       "description": "Offline"
+    },
+    {
+      "type": "null"
     }
   ]
 }

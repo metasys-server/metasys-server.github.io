@@ -59,6 +59,9 @@
         "ccsVavBoxPropOutDaTControl"
       ],
       "description": "DA-T Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

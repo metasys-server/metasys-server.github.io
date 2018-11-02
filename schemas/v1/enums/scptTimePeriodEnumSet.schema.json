@@ -45,6 +45,9 @@
         "iomNul"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

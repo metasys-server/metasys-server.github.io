@@ -10,6 +10,9 @@
         "connectorConnected"
       ],
       "description": "connected"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "tecOccStandby"
       ],
       "description": "Standby"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -66,6 +66,9 @@
         "zncwZoneUnrel"
       ],
       "description": "Zone Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

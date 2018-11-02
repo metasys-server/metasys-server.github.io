@@ -94,6 +94,9 @@
         "displayPrecision1000000"
       ],
       "description": "1000000s"
+    },
+    {
+      "type": "null"
     }
   ]
 }

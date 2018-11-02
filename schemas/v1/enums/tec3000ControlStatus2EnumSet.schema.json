@@ -87,6 +87,9 @@
         "tec3000ControlStatus2LoadShed"
       ],
       "description": "Load Shed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

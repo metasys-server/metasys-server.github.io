@@ -493,6 +493,9 @@
         "pmoProgrammingEmPackage"
       ],
       "description": "Programming Equipment Model Package"
+    },
+    {
+      "type": "null"
     }
   ]
 }

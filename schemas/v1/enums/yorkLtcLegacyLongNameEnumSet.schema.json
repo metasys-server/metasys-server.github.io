@@ -1396,6 +1396,9 @@
         "yorkLtcLegacyLongName199"
       ],
       "description": "Pulldown Limiting Active [0=No, 1=Yes]"
+    },
+    {
+      "type": "null"
     }
   ]
 }

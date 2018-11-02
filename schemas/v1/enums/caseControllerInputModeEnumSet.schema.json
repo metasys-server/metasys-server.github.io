@@ -38,6 +38,9 @@
         "ccimMonitorOnly"
       ],
       "description": "Monitor Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

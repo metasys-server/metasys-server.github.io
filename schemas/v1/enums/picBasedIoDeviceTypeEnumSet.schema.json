@@ -59,6 +59,9 @@
         "ov2CecBaseboard"
       ],
       "description": "OV2 CEC Baseboard, P/N 031-02930"
+    },
+    {
+      "type": "null"
     }
   ]
 }

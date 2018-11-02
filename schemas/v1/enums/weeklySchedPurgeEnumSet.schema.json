@@ -24,6 +24,9 @@
         "wsAutoDelete7Days"
       ],
       "description": "Auto Delete 7 days"
+    },
+    {
+      "type": "null"
     }
   ]
 }

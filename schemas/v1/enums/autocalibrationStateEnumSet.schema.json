@@ -52,6 +52,9 @@
         "autocalTimedout"
       ],
       "description": "Autocalibration Timed Out"
+    },
+    {
+      "type": "null"
     }
   ]
 }

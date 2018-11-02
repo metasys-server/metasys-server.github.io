@@ -24,6 +24,9 @@
         "ahseHeat"
       ],
       "description": "Heat"
+    },
+    {
+      "type": "null"
     }
   ]
 }

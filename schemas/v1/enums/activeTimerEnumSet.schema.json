@@ -31,6 +31,9 @@
         "actTimerMinRelease"
       ],
       "description": "Minimum Release"
+    },
+    {
+      "type": "null"
     }
   ]
 }

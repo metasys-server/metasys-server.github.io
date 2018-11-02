@@ -17,6 +17,9 @@
         "okFaultFault"
       ],
       "description": "Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

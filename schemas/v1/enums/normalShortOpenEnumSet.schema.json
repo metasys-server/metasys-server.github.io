@@ -24,6 +24,9 @@
         "nsoOpenCircuit"
       ],
       "description": "Open Circuit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

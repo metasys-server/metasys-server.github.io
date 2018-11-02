@@ -24,6 +24,9 @@
         "2"
       ],
       "description": "Restart Needed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

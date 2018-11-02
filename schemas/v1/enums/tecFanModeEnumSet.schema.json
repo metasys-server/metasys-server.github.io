@@ -31,6 +31,9 @@
         "tecFanModeSmart"
       ],
       "description": "Smart"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -570,6 +570,9 @@
         "optiviewYrSc380"
       ],
       "description": "SSS SHUTDOWN - REQUESTING FAULT DATA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

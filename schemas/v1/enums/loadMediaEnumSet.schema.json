@@ -24,6 +24,9 @@
         "ldMediaWaterPropyleneGlycol"
       ],
       "description": "Water-Propylene Glycol"
+    },
+    {
+      "type": "null"
     }
   ]
 }

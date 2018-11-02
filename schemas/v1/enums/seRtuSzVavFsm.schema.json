@@ -80,6 +80,9 @@
         "seRtuSzVavFsmWait"
       ],
       "description": "Wait"
+    },
+    {
+      "type": "null"
     }
   ]
 }

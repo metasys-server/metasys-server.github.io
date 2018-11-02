@@ -59,6 +59,9 @@
         "ilkAttrsCtrlmode"
       ],
       "description": "Control Mode"
+    },
+    {
+      "type": "null"
     }
   ]
 }

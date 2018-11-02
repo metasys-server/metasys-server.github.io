@@ -52,6 +52,9 @@
         "ltcLegacyYgYbOpCode6"
       ],
       "description": "PRV TRANSDUCER ERROR"
+    },
+    {
+      "type": "null"
     }
   ]
 }

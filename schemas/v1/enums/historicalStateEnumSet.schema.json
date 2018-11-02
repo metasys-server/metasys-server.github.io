@@ -38,6 +38,9 @@
         "hseAborted"
       ],
       "description": "Aborted"
+    },
+    {
+      "type": "null"
     }
   ]
 }

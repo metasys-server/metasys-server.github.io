@@ -38,6 +38,9 @@
         "afFilterAAndB"
       ],
       "description": "Filter A and B"
+    },
+    {
+      "type": "null"
     }
   ]
 }

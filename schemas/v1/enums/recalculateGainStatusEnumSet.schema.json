@@ -59,6 +59,9 @@
         "rgsInProgress"
       ],
       "description": "In Progress"
+    },
+    {
+      "type": "null"
     }
   ]
 }

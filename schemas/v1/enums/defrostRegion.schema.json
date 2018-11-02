@@ -45,6 +45,9 @@
         "defrostRegionTest"
       ],
       "description": "Test"
+    },
+    {
+      "type": "null"
     }
   ]
 }

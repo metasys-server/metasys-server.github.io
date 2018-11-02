@@ -31,6 +31,9 @@
         "occupancyInStatusAlreadyIn"
       ],
       "description": "Already In"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -269,6 +269,9 @@
         "37"
       ],
       "description": "Unknown NAK error"
+    },
+    {
+      "type": "null"
     }
   ]
 }

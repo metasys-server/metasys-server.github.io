@@ -38,6 +38,9 @@
         "ahuSfStateSpControl"
       ],
       "description": "S-P Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

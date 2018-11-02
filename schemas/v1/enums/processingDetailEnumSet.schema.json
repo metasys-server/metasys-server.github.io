@@ -31,6 +31,9 @@
         "processingDetailIncompleteGroup"
       ],
       "description": "Incomplete Group"
+    },
+    {
+      "type": "null"
     }
   ]
 }

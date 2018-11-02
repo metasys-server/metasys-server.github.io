@@ -38,6 +38,9 @@
         "trckPrdMonthly"
       ],
       "description": "Monthly"
+    },
+    {
+      "type": "null"
     }
   ]
 }

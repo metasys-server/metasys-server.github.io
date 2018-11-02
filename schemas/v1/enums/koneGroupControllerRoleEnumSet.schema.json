@@ -24,6 +24,9 @@
         "koneRoleBackupPcGroupController"
       ],
       "description": "Back-up PC Group Controller"
+    },
+    {
+      "type": "null"
     }
   ]
 }

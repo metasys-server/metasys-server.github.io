@@ -45,6 +45,9 @@
         "cecReportIntervalEvery24Hours"
       ],
       "description": "24 Hours"
+    },
+    {
+      "type": "null"
     }
   ]
 }

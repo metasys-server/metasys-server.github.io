@@ -17,6 +17,9 @@
         "intelByteOrder"
       ],
       "description": "Intel Order"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "connectorCk722InputBinaryIn2"
       ],
       "description": "BINARY IN2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

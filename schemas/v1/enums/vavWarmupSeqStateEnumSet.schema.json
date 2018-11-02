@@ -45,6 +45,9 @@
         "vwsPrmyBoxSuppHtg"
       ],
       "description": "Prmy Htg + Box Htg + Supp Htg"
+    },
+    {
+      "type": "null"
     }
   ]
 }

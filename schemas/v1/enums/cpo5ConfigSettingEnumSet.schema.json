@@ -185,6 +185,9 @@
         "cpo5ConfigSettingCompressorDriveType"
       ],
       "description": "Compressor Drive Type"
+    },
+    {
+      "type": "null"
     }
   ]
 }

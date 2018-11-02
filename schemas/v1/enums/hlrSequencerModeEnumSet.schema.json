@@ -31,6 +31,9 @@
         "hlrSequencerModeRegeneration"
       ],
       "description": "Regeneration"
+    },
+    {
+      "type": "null"
     }
   ]
 }

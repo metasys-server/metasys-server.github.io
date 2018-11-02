@@ -17,6 +17,9 @@
         "connectorRdr2ReaderRdr2"
       ],
       "description": "RDR2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

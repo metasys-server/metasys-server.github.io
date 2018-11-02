@@ -17,6 +17,9 @@
         "normalFreezeFreeze"
       ],
       "description": "Freeze"
+    },
+    {
+      "type": "null"
     }
   ]
 }

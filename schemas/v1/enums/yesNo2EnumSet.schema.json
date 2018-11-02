@@ -17,6 +17,9 @@
         "fan2No"
       ],
       "description": "No"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -59,6 +59,9 @@
         "loadNewEquipmentModelReason"
       ],
       "description": "New Equipment Model Has Been Loaded"
+    },
+    {
+      "type": "null"
     }
   ]
 }

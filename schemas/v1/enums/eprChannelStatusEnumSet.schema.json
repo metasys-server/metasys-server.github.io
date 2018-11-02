@@ -24,6 +24,9 @@
         "eprChannelStatusUp"
       ],
       "description": "Up"
+    },
+    {
+      "type": "null"
     }
   ]
 }

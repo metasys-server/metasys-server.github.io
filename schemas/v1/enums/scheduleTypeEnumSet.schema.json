@@ -24,6 +24,9 @@
         "hsePeriodic"
       ],
       "description": "Peridic"
+    },
+    {
+      "type": "null"
     }
   ]
 }

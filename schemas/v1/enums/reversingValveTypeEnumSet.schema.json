@@ -17,6 +17,9 @@
         "reversingValveTypeBType"
       ],
       "description": "B-Type"
+    },
+    {
+      "type": "null"
     }
   ]
 }

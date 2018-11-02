@@ -150,6 +150,9 @@
         "evgDateTimeValuesEnum"
       ],
       "description": "Date Time Values"
+    },
+    {
+      "type": "null"
     }
   ]
 }

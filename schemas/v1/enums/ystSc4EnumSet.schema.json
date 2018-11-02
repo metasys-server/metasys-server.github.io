@@ -318,6 +318,9 @@
         "ystSc444"
       ],
       "description": "CONDITIONS OVERRIDE VGD"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "hcTypeProp"
       ],
       "description": "Proportional"
+    },
+    {
+      "type": "null"
     }
   ]
 }

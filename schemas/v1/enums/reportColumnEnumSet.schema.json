@@ -59,6 +59,9 @@
         "8"
       ],
       "description": "Out of Service Expiration Time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -703,6 +703,9 @@
         "connectorGenericOutput100"
       ],
       "description": "Output 100"
+    },
+    {
+      "type": "null"
     }
   ]
 }

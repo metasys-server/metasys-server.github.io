@@ -178,6 +178,9 @@
         "mafMod1000032WordSwap"
       ],
       "description": "32 Bit Modulo 10000 With Word Swap"
+    },
+    {
+      "type": "null"
     }
   ]
 }

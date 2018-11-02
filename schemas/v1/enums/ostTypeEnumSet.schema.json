@@ -24,6 +24,9 @@
         "ostCoolingOnly"
       ],
       "description": "Cooling Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

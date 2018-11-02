@@ -17,6 +17,9 @@
         "cmftOvrTypeRelAfterTmr"
       ],
       "description": "Release After Timer Expires"
+    },
+    {
+      "type": "null"
     }
   ]
 }

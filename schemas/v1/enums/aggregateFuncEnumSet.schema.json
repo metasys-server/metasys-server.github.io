@@ -59,6 +59,9 @@
         "aggregateFuncVar"
       ],
       "description": "Variance"
+    },
+    {
+      "type": "null"
     }
   ]
 }

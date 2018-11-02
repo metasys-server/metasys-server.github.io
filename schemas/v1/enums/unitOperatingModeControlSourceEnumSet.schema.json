@@ -17,6 +17,9 @@
         "unitOperatingModeControlSourceBas"
       ],
       "description": "BAS"
+    },
+    {
+      "type": "null"
     }
   ]
 }

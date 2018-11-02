@@ -17,6 +17,9 @@
         "tec3000EquipmentTypeFloating"
       ],
       "description": "Floating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

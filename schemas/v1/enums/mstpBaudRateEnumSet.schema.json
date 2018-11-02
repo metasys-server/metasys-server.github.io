@@ -31,6 +31,9 @@
         "mstpBaud76800"
       ],
       "description": "76800"
+    },
+    {
+      "type": "null"
     }
   ]
 }

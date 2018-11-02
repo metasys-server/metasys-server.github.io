@@ -31,6 +31,9 @@
         "overloadSignupDb"
       ],
       "description": "Signup Overload"
+    },
+    {
+      "type": "null"
     }
   ]
 }

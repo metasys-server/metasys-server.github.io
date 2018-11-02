@@ -31,6 +31,9 @@
         "dispBkltIntenBright"
       ],
       "description": "Bright"
+    },
+    {
+      "type": "null"
     }
   ]
 }

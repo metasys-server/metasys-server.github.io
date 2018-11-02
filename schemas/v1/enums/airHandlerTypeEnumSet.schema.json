@@ -59,6 +59,9 @@
         "makeUpAirUnit"
       ],
       "description": "Make Up Air Unit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "controlModeOff"
       ],
       "description": "Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

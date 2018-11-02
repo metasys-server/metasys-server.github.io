@@ -31,6 +31,9 @@
         "normalUnderpowerfailurecontrolUnderpowerfailurecontrolWaitingrecoverycommandWaitingrecoverycommand"
       ],
       "description": "Waiting Recovery Command"
+    },
+    {
+      "type": "null"
     }
   ]
 }

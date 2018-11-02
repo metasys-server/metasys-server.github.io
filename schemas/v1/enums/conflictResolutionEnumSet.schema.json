@@ -17,6 +17,9 @@
         "crtFdbChanges"
       ],
       "description": "Fdb Changes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

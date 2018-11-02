@@ -31,6 +31,9 @@
         "ilktypeTwoOr"
       ],
       "description": "Two Conditions (OR)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

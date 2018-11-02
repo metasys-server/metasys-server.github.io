@@ -80,6 +80,9 @@
         "ahvoRemainInCtrl"
       ],
       "description": "Remain In Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

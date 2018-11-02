@@ -24,6 +24,9 @@
         "ltcLegacyYiaOpMode2"
       ],
       "description": "Remote"
+    },
+    {
+      "type": "null"
     }
   ]
 }

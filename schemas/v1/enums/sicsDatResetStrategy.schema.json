@@ -24,6 +24,9 @@
         "sicsDatReturnAir"
       ],
       "description": "Return Air"
+    },
+    {
+      "type": "null"
     }
   ]
 }

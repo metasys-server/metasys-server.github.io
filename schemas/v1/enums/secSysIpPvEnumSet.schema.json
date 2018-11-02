@@ -45,6 +45,9 @@
         "secSysIpPvUnknown"
       ],
       "description": "Unknown"
+    },
+    {
+      "type": "null"
     }
   ]
 }

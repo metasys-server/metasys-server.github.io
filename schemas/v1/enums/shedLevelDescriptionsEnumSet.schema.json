@@ -10,6 +10,9 @@
         "shedLvlDescLevel"
       ],
       "description": "Level"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "humidityControlFanRunning"
       ],
       "description": "Only When Fan is Running"
+    },
+    {
+      "type": "null"
     }
   ]
 }

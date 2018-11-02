@@ -38,6 +38,9 @@
         "ck722FirmwareUpgradeDowngrade"
       ],
       "description": "Downgrade"
+    },
+    {
+      "type": "null"
     }
   ]
 }

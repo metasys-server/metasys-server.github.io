@@ -80,6 +80,9 @@
         "cseNoDataAvailable"
       ],
       "description": "No Data Available"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -80,6 +80,9 @@
         "vavWcsCoast"
       ],
       "description": "Coast"
+    },
+    {
+      "type": "null"
     }
   ]
 }

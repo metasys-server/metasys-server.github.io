@@ -66,6 +66,9 @@
         "vavUdBoxHtgSuppHtgTiming"
       ],
       "description": "Box Htg +Supp Htg Timing"
+    },
+    {
+      "type": "null"
     }
   ]
 }

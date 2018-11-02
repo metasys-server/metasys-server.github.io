@@ -24,6 +24,9 @@
         "bfmEnumDataType"
       ],
       "description": "Multistate"
+    },
+    {
+      "type": "null"
     }
   ]
 }

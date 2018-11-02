@@ -59,6 +59,9 @@
         "ccsVavCascadedFlowCtrlHtgFlowReset"
       ],
       "description": "Htg Flow Reset"
+    },
+    {
+      "type": "null"
     }
   ]
 }

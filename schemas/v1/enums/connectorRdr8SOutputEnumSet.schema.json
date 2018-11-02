@@ -227,6 +227,9 @@
         "connectorRdr8SOutputReader8Shunt"
       ],
       "description": "Reader 8 Shunt (T8 OUT3)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

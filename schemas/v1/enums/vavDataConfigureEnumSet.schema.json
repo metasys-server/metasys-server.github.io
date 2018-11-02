@@ -31,6 +31,9 @@
         "vavDataConfPickupGain"
       ],
       "description": "Pickup Gain"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -332,6 +332,9 @@
         "cpo5AlarmsChiller4ScEquipCommFailure"
       ],
       "description": "Chiller 4 SC-Equip Comm Failure"
+    },
+    {
+      "type": "null"
     }
   ]
 }

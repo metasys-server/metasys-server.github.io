@@ -3,5 +3,9 @@
   "$id": "https://metasys-server.github.io/schemas/v1/enums/localeIsoCodesEnumSet.schema.json",
   "title": "localeIsoCodesEnumSet",
   "description": "Auto Generated Locale ISO Codes",
-  "oneOf": []
+  "oneOf": [
+    {
+      "type": "null"
+    }
+  ]
 }

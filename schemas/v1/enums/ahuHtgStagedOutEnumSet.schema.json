@@ -59,6 +59,9 @@
         "ahsLowOaTemperatureStartup"
       ],
       "description": "Low OA Temperature Startup"
+    },
+    {
+      "type": "null"
     }
   ]
 }

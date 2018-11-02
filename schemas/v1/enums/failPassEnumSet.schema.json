@@ -31,6 +31,9 @@
         "fpWait"
       ],
       "description": "Waiting For Test To Start"
+    },
+    {
+      "type": "null"
     }
   ]
 }

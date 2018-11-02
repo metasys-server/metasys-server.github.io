@@ -24,6 +24,9 @@
         "sphParityOdd"
       ],
       "description": "Odd"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "2"
       ],
       "description": "Variable Freq Drive"
+    },
+    {
+      "type": "null"
     }
   ]
 }

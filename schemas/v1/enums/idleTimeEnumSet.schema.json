@@ -73,6 +73,9 @@
         "hours24Idle"
       ],
       "description": "24 hours"
+    },
+    {
+      "type": "null"
     }
   ]
 }

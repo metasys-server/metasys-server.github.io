@@ -45,6 +45,9 @@
         "esdExcessOda"
       ],
       "description": "Excess outdoor air"
+    },
+    {
+      "type": "null"
     }
   ]
 }

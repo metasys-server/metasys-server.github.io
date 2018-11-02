@@ -24,6 +24,9 @@
         "pmoCmdFailed"
       ],
       "description": "Failed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

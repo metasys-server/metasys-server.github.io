@@ -24,6 +24,9 @@
         "btethStatusConnectionInProg"
       ],
       "description": "Connection in progress"
+    },
+    {
+      "type": "null"
     }
   ]
 }

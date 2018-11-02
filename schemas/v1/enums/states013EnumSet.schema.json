@@ -101,6 +101,9 @@
         "state1313"
       ],
       "description": "State 13"
+    },
+    {
+      "type": "null"
     }
   ]
 }

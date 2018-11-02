@@ -87,6 +87,9 @@
         "tfpFailsoftHtg"
       ],
       "description": "Failsoft Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

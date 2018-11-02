@@ -38,6 +38,9 @@
         "cpPumpModeLimitedMax"
       ],
       "description": "Limited Max"
+    },
+    {
+      "type": "null"
     }
   ]
 }

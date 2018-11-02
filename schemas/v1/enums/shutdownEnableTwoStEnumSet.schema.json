@@ -24,6 +24,9 @@
         "sdwnEnblTsHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

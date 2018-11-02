@@ -31,6 +31,9 @@
         "sdlToggle"
       ],
       "description": "Toggle"
+    },
+    {
+      "type": "null"
     }
   ]
 }

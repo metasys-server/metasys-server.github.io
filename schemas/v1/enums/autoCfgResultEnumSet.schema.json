@@ -38,6 +38,9 @@
         "autoCfgResultMajorError"
       ],
       "description": "Major Error Status"
+    },
+    {
+      "type": "null"
     }
   ]
 }

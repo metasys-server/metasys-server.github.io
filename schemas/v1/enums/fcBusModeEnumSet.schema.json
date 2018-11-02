@@ -45,6 +45,9 @@
         "fcBusModeIndeterminate"
       ],
       "description": "Indeterminate FC Bus Mode"
+    },
+    {
+      "type": "null"
     }
   ]
 }

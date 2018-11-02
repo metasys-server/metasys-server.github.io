@@ -24,6 +24,9 @@
         "useForLrOnly"
       ],
       "description": "For LR only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -31,6 +31,9 @@
         "noSegmentation"
       ],
       "description": "No Segmentation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

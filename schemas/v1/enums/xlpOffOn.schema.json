@@ -73,6 +73,9 @@
         "xlpOoFixedOn2"
       ],
       "description": "Fixed - On"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "sumTotalization"
       ],
       "description": "Totalization"
+    },
+    {
+      "type": "null"
     }
   ]
 }

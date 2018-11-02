@@ -24,6 +24,9 @@
         "plFullWriteAccess"
       ],
       "description": "Full Write Access"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -3930,6 +3930,9 @@
         "optiviewLongStrings561"
       ],
       "description": "Stall Voltage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -66,6 +66,9 @@
         "ykSc148"
       ],
       "description": "RESERVED 8"
+    },
+    {
+      "type": "null"
     }
   ]
 }

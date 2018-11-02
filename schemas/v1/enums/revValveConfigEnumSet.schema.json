@@ -17,6 +17,9 @@
         "revValveNormCool"
       ],
       "description": "Normally Cool"
+    },
+    {
+      "type": "null"
     }
   ]
 }

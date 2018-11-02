@@ -66,6 +66,9 @@
         "8"
       ],
       "description": "FIXED, EMG3"
+    },
+    {
+      "type": "null"
     }
   ]
 }

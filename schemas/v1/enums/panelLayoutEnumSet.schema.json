@@ -45,6 +45,9 @@
         "plFour"
       ],
       "description": "Four Panel"
+    },
+    {
+      "type": "null"
     }
   ]
 }

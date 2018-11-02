@@ -45,6 +45,9 @@
         "ahuSfStateOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

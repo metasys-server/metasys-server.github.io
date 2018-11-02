@@ -17,6 +17,9 @@
         "dualEdgeCounter"
       ],
       "description": "Dual Edge"
+    },
+    {
+      "type": "null"
     }
   ]
 }

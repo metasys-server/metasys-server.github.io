@@ -17,6 +17,9 @@
         "sePurge"
       ],
       "description": "Purge"
+    },
+    {
+      "type": "null"
     }
   ]
 }

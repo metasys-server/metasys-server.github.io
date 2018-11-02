@@ -38,6 +38,9 @@
         "threeSpdStateChangeStage"
       ],
       "description": "Change Stage"
+    },
+    {
+      "type": "null"
     }
   ]
 }

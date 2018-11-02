@@ -24,6 +24,9 @@
         "tempControlSetupSubsetManualPidTuning"
       ],
       "description": "Manual PID Tuning"
+    },
+    {
+      "type": "null"
     }
   ]
 }

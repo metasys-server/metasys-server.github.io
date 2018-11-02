@@ -45,6 +45,9 @@
         "udcControlMin"
       ],
       "description": "Control Min"
+    },
+    {
+      "type": "null"
     }
   ]
 }

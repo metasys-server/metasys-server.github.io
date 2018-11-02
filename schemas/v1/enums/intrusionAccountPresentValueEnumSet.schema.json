@@ -17,6 +17,9 @@
         "intrusionAccountTest"
       ],
       "description": "Test"
+    },
+    {
+      "type": "null"
     }
   ]
 }

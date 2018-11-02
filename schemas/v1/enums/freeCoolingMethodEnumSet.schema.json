@@ -31,6 +31,9 @@
         "auto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

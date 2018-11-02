@@ -59,6 +59,9 @@
         "seEconCompressorCircuitStatusOffCompressorStageIsDisabled"
       ],
       "description": "Off-Compressor Stage is Disabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

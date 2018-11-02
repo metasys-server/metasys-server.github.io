@@ -3,5 +3,9 @@
   "$id": "https://metasys-server.github.io/schemas/v1/enums/multistateEnumSet.schema.json",
   "title": "multistateEnumSet",
   "description": "Multi State",
-  "oneOf": []
+  "oneOf": [
+    {
+      "type": "null"
+    }
+  ]
 }

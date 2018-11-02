@@ -17,6 +17,9 @@
         "pracTuningEnabled"
       ],
       "description": "Enable Self Tuning"
+    },
+    {
+      "type": "null"
     }
   ]
 }

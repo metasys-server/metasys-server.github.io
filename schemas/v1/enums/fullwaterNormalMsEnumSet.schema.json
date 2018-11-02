@@ -17,6 +17,9 @@
         "fullwaterNormalNormal"
       ],
       "description": "Normal"
+    },
+    {
+      "type": "null"
     }
   ]
 }

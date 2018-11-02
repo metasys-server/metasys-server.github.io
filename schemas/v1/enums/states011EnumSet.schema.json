@@ -87,6 +87,9 @@
         "state1111"
       ],
       "description": "State 11"
+    },
+    {
+      "type": "null"
     }
   ]
 }

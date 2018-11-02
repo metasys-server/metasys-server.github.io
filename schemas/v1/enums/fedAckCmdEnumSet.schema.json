@@ -31,6 +31,9 @@
         "fedAcSabAlarm"
       ],
       "description": "SAB Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

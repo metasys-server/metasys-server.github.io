@@ -17,6 +17,9 @@
         "resetTypeManual"
       ],
       "description": "Manual"
+    },
+    {
+      "type": "null"
     }
   ]
 }

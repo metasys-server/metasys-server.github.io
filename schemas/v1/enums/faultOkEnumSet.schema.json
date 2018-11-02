@@ -24,6 +24,9 @@
         "foHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

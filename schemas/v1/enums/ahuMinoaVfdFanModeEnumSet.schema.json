@@ -31,6 +31,9 @@
         "ahuMinoaVfdFmEmergencyFlow"
       ],
       "description": "Emergency Flow"
+    },
+    {
+      "type": "null"
     }
   ]
 }

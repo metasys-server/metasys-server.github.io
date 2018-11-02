@@ -682,6 +682,9 @@
         "yvaaSc96"
       ],
       "description": "RESERVED 96"
+    },
+    {
+      "type": "null"
     }
   ]
 }

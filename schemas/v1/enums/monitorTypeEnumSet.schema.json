@@ -24,6 +24,9 @@
         "commandOff"
       ],
       "description": "Command Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

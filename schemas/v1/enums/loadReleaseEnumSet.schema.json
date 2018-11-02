@@ -17,6 +17,9 @@
         "1"
       ],
       "description": "Release Load"
+    },
+    {
+      "type": "null"
     }
   ]
 }

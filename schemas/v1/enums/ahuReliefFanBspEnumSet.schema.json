@@ -38,6 +38,9 @@
         "arfbBsPControl"
       ],
       "description": "BS-P Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

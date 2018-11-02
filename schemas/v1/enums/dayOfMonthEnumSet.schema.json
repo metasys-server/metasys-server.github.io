@@ -227,6 +227,9 @@
         "domLast"
       ],
       "description": "Last"
+    },
+    {
+      "type": "null"
     }
   ]
 }

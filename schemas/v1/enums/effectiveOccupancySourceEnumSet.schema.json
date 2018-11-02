@@ -38,6 +38,9 @@
         "effectiveOccupancySourceTempOcc"
       ],
       "description": "Temporary Occupancy"
+    },
+    {
+      "type": "null"
     }
   ]
 }

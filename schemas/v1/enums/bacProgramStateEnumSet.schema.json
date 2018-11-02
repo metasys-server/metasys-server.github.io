@@ -45,6 +45,9 @@
         "bacProgramUnloading"
       ],
       "description": "Unloading"
+    },
+    {
+      "type": "null"
     }
   ]
 }

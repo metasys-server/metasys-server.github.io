@@ -17,6 +17,9 @@
         "timerSel120"
       ],
       "description": "120 seconds"
+    },
+    {
+      "type": "null"
     }
   ]
 }

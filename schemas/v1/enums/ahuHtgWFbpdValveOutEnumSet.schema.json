@@ -101,6 +101,9 @@
         "ahfvoRemainInCntrl"
       ],
       "description": "Remain In Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

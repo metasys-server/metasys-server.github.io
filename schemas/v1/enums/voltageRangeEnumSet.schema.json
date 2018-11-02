@@ -24,6 +24,9 @@
         "voltageRange210"
       ],
       "description": "2-10V"
+    },
+    {
+      "type": "null"
     }
   ]
 }

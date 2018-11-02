@@ -101,6 +101,9 @@
         "ahuzudTempUnrel"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

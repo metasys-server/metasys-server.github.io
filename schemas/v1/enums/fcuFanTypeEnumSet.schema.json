@@ -31,6 +31,9 @@
         "fcuFanTypeThreeSpeed"
       ],
       "description": "Three Speed Fan"
+    },
+    {
+      "type": "null"
     }
   ]
 }

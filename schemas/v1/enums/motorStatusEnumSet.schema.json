@@ -31,6 +31,9 @@
         "motorOverdriving"
       ],
       "description": "Overdriving"
+    },
+    {
+      "type": "null"
     }
   ]
 }

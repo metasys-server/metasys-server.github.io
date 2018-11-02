@@ -52,6 +52,9 @@
         "anyWeek"
       ],
       "description": "Any week of month"
+    },
+    {
+      "type": "null"
     }
   ]
 }

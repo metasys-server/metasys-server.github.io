@@ -605,6 +605,9 @@
         "opEnd"
       ],
       "description": "END"
+    },
+    {
+      "type": "null"
     }
   ]
 }

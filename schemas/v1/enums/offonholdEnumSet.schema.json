@@ -24,6 +24,9 @@
         "oohHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

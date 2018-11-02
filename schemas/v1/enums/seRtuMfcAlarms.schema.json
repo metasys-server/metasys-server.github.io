@@ -136,6 +136,9 @@
         "mfcAlrmsNhRti"
       ],
       "description": "No Heat Runtime Info"
+    },
+    {
+      "type": "null"
     }
   ]
 }

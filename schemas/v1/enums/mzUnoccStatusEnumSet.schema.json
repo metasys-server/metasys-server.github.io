@@ -38,6 +38,9 @@
         "mzUnoccStsUnoccCooling"
       ],
       "description": "Unocc Cooling"
+    },
+    {
+      "type": "null"
     }
   ]
 }

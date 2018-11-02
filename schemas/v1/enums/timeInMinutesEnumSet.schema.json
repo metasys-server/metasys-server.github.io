@@ -115,6 +115,9 @@
         "15"
       ],
       "description": "15 minutes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

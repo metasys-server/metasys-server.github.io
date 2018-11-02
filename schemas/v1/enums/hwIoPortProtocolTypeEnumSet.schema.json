@@ -66,6 +66,9 @@
         "ptUnusedPort"
       ],
       "description": "Unused"
+    },
+    {
+      "type": "null"
     }
   ]
 }

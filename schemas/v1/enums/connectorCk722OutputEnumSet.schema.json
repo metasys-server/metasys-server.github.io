@@ -10,6 +10,9 @@
         "connectorCk722OutputBinaryOut1NoNc"
       ],
       "description": "BINARY OUT1 NO / NC"
+    },
+    {
+      "type": "null"
     }
   ]
 }

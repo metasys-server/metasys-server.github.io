@@ -45,6 +45,9 @@
         "stcScrollUnitCtrlMode5"
       ],
       "description": "Heatpump Heating"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "negativePulseDetectionStatePositiveEdgeDetected"
       ],
       "description": "Positive Edge Detected"
+    },
+    {
+      "type": "null"
     }
   ]
 }

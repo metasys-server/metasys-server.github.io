@@ -17,6 +17,9 @@
         "bacnetWsDoOutbound"
       ],
       "description": "Allow outbound websocket connections"
+    },
+    {
+      "type": "null"
     }
   ]
 }

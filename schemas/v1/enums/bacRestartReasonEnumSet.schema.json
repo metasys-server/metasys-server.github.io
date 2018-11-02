@@ -66,6 +66,9 @@
         "brrActivateChanges"
       ],
       "description": "Activate Changes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -73,6 +73,9 @@
         "9"
       ],
       "description": "10 minutes"
+    },
+    {
+      "type": "null"
     }
   ]
 }

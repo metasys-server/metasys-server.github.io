@@ -31,6 +31,9 @@
         "decimalGroupSeparatorNone"
       ],
       "description": "None"
+    },
+    {
+      "type": "null"
     }
   ]
 }

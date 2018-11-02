@@ -45,6 +45,9 @@
         "seDefrostCurve6"
       ],
       "description": "Curve 6"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "optiviewBvOpenclosedClosed"
       ],
       "description": "Closed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

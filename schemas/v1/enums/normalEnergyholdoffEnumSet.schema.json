@@ -17,6 +17,9 @@
         "energyHoldOff"
       ],
       "description": "Energy Hold Off"
+    },
+    {
+      "type": "null"
     }
   ]
 }

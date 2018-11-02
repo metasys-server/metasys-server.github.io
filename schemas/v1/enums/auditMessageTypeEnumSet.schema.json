@@ -73,6 +73,9 @@
         "auditMessageTypeUserResetEvent"
       ],
       "description": "User Reset Event"
+    },
+    {
+      "type": "null"
     }
   ]
 }

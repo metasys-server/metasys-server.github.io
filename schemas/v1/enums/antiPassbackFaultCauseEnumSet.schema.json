@@ -24,6 +24,9 @@
         "antiPassbackFaultCauseOutOfMemory"
       ],
       "description": "Out Of Memory"
+    },
+    {
+      "type": "null"
     }
   ]
 }

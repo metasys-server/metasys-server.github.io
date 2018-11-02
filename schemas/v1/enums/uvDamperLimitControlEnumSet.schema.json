@@ -31,6 +31,9 @@
         "udlcControlMinLimit"
       ],
       "description": "Control Min Limit"
+    },
+    {
+      "type": "null"
     }
   ]
 }

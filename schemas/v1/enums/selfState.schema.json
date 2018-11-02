@@ -59,6 +59,9 @@
         "selfStateFail"
       ],
       "description": "Fail"
+    },
+    {
+      "type": "null"
     }
   ]
 }

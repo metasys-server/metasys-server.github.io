@@ -17,6 +17,9 @@
         "heatCoolSetpointModeIndividualSetpoints"
       ],
       "description": "Individual Setpoints"
+    },
+    {
+      "type": "null"
     }
   ]
 }

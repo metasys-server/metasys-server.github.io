@@ -17,6 +17,9 @@
         "bigWordLength8"
       ],
       "description": "8"
+    },
+    {
+      "type": "null"
     }
   ]
 }

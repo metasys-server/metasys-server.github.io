@@ -31,6 +31,9 @@
         "channelSelectAnyChannel"
       ],
       "description": "Any Channel"
+    },
+    {
+      "type": "null"
     }
   ]
 }

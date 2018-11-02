@@ -73,6 +73,9 @@
         "ahuHtgVsRemainInCtrl"
       ],
       "description": "Remain In Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

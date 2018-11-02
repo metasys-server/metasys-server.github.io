@@ -31,6 +31,9 @@
         "coolingHeatingFanAutoAuto"
       ],
       "description": "Auto"
+    },
+    {
+      "type": "null"
     }
   ]
 }

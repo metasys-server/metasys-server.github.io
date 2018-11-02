@@ -31,6 +31,9 @@
         "ccmTempDiff"
       ],
       "description": "Temperature Differential"
+    },
+    {
+      "type": "null"
     }
   ]
 }

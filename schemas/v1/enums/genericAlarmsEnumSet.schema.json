@@ -38,6 +38,9 @@
         "genericAlarmsAlarm"
       ],
       "description": "Alarm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

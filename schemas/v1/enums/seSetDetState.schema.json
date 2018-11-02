@@ -45,6 +45,9 @@
         "seSetDetStateOccZoneControl"
       ],
       "description": "Occ Zone Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

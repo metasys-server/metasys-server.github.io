@@ -24,6 +24,9 @@
         "acoOpen"
       ],
       "description": "Open"
+    },
+    {
+      "type": "null"
     }
   ]
 }

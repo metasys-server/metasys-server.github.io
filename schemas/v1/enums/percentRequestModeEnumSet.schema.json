@@ -17,6 +17,9 @@
         "prmWithOutput"
       ],
       "description": "With Output"
+    },
+    {
+      "type": "null"
     }
   ]
 }

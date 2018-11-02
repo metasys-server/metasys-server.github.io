@@ -24,6 +24,9 @@
         "eatPopBeforeSmtp"
       ],
       "description": "POP-before-SMTP"
+    },
+    {
+      "type": "null"
     }
   ]
 }

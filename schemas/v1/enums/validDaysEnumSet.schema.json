@@ -24,6 +24,9 @@
         "daysSatSun"
       ],
       "description": "Saturday-Sunday"
+    },
+    {
+      "type": "null"
     }
   ]
 }

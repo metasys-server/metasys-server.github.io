@@ -17,6 +17,9 @@
         "triggerCommandArm"
       ],
       "description": "Arm"
+    },
+    {
+      "type": "null"
     }
   ]
 }

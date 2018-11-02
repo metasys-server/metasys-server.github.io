@@ -66,6 +66,9 @@
         "admTemperatureUnreliable"
       ],
       "description": "Temperature Unreliable"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -45,6 +45,9 @@
         "5"
       ],
       "description": "Cool/Heat 4 Pipe with Reheat"
+    },
+    {
+      "type": "null"
     }
   ]
 }

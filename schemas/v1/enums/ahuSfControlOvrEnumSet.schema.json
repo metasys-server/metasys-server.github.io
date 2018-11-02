@@ -52,6 +52,9 @@
         "ahuSfCntrlOvrHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

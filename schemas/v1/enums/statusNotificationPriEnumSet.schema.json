@@ -31,6 +31,9 @@
         "snoStatus"
       ],
       "description": "Status"
+    },
+    {
+      "type": "null"
     }
   ]
 }

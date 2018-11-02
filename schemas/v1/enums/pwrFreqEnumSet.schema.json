@@ -17,6 +17,9 @@
         "frequency60Hz"
       ],
       "description": "60 Hz"
+    },
+    {
+      "type": "null"
     }
   ]
 }

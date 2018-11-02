@@ -24,6 +24,9 @@
         "tec3000FanModeSmart"
       ],
       "description": "Smart"
+    },
+    {
+      "type": "null"
     }
   ]
 }

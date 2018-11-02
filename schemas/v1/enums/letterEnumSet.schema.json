@@ -185,6 +185,9 @@
         "letterZ"
       ],
       "description": "Z"
+    },
+    {
+      "type": "null"
     }
   ]
 }

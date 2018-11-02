@@ -24,6 +24,9 @@
         "emailServerError"
       ],
       "description": "Server Error"
+    },
+    {
+      "type": "null"
     }
   ]
 }

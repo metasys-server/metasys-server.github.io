@@ -605,6 +605,9 @@
         "enumMmsLastUserDefinedMmsTaskId"
       ],
       "description": "MMSLastUserDefinedMMSTaskID"
+    },
+    {
+      "type": "null"
     }
   ]
 }

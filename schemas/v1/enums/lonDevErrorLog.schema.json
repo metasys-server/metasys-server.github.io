@@ -269,6 +269,9 @@
         "lonerrNa"
       ],
       "description": "NA"
+    },
+    {
+      "type": "null"
     }
   ]
 }

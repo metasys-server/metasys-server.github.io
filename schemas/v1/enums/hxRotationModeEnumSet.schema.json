@@ -17,6 +17,9 @@
         "runTime"
       ],
       "description": "Run Time"
+    },
+    {
+      "type": "null"
     }
   ]
 }

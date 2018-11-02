@@ -45,6 +45,9 @@
         "dateDdJanYyyy"
       ],
       "description": "DD Month YYYY"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -73,6 +73,9 @@
         "diagnosticLoggerSerialCloseErrorStatus"
       ],
       "description": "Serial Close"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -115,6 +115,9 @@
         "windDirection16Nnw"
       ],
       "description": "North North West"
+    },
+    {
+      "type": "null"
     }
   ]
 }

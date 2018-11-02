@@ -31,6 +31,9 @@
         "cpPocHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

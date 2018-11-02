@@ -17,6 +17,9 @@
         "makeBreakBreak"
       ],
       "description": "Break"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -24,6 +24,9 @@
         "tmTestTimeoutPending"
       ],
       "description": "Test Timeout Pending"
+    },
+    {
+      "type": "null"
     }
   ]
 }

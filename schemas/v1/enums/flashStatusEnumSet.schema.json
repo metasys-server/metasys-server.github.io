@@ -24,6 +24,9 @@
         "flashMemFull"
       ],
       "description": "Flash Memory Full"
+    },
+    {
+      "type": "null"
     }
   ]
 }

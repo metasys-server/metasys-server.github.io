@@ -17,6 +17,9 @@
         "shedCmdShedImmed"
       ],
       "description": "Shed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

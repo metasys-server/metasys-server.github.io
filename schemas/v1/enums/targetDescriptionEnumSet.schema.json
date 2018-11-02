@@ -94,6 +94,9 @@
         "tgtDescWinterShoulder"
       ],
       "description": "Winter Shoulder"
+    },
+    {
+      "type": "null"
     }
   ]
 }

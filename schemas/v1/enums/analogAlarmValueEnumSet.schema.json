@@ -59,6 +59,9 @@
         "anaUnoccupied"
       ],
       "description": "Unoccupied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

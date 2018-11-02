@@ -17,6 +17,9 @@
         "vvtZoneModeCool"
       ],
       "description": "Cool Mode"
+    },
+    {
+      "type": "null"
     }
   ]
 }

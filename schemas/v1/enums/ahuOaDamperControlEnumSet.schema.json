@@ -66,6 +66,9 @@
         "ahuOaDcTControl"
       ],
       "description": "T Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

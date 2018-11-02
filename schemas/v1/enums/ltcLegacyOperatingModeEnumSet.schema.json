@@ -38,6 +38,9 @@
         "ltcLegacyOperatingMode4"
       ],
       "description": "VSD"
+    },
+    {
+      "type": "null"
     }
   ]
 }

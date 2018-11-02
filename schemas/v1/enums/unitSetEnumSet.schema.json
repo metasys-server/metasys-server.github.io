@@ -17,6 +17,9 @@
         "si"
       ],
       "description": "SI"
+    },
+    {
+      "type": "null"
     }
   ]
 }

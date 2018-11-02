@@ -17,6 +17,9 @@
         "lohiHigh"
       ],
       "description": "High"
+    },
+    {
+      "type": "null"
     }
   ]
 }

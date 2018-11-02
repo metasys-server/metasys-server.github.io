@@ -353,6 +353,9 @@
         "55"
       ],
       "description": "Harmonic Filter - DC Current Transformer 2"
+    },
+    {
+      "type": "null"
     }
   ]
 }

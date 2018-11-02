@@ -31,6 +31,9 @@
         "cceDelete"
       ],
       "description": "Delete"
+    },
+    {
+      "type": "null"
     }
   ]
 }

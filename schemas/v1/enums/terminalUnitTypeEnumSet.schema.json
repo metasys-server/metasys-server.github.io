@@ -52,6 +52,9 @@
         "unitVentilator"
       ],
       "description": "Unit Ventilator"
+    },
+    {
+      "type": "null"
     }
   ]
 }

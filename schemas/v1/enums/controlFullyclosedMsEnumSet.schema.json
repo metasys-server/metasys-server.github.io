@@ -17,6 +17,9 @@
         "controlFullyclosedFullyclosed"
       ],
       "description": "Fully Closed"
+    },
+    {
+      "type": "null"
     }
   ]
 }

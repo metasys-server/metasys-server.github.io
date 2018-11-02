@@ -66,6 +66,9 @@
         "previousStatusFormatItem"
       ],
       "description": "Previous Status"
+    },
+    {
+      "type": "null"
     }
   ]
 }

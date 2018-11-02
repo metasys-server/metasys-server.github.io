@@ -31,6 +31,9 @@
         "motorStartAssumeOpen"
       ],
       "description": "Open at Boot"
+    },
+    {
+      "type": "null"
     }
   ]
 }

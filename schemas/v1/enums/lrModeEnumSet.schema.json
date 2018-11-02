@@ -17,6 +17,9 @@
         "lrMonitorOnly"
       ],
       "description": "LR Monitor Only"
+    },
+    {
+      "type": "null"
     }
   ]
 }

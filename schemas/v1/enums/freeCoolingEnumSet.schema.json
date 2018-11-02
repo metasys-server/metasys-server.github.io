@@ -24,6 +24,9 @@
         "fcModelBased"
       ],
       "description": "Model Based"
+    },
+    {
+      "type": "null"
     }
   ]
 }

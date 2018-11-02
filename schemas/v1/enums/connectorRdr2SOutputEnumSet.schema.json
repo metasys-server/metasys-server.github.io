@@ -73,6 +73,9 @@
         "connectorRdr2SOutputNoNcBottom"
       ],
       "description": "NO / NC (bottom)"
+    },
+    {
+      "type": "null"
     }
   ]
 }

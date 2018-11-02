@@ -59,6 +59,9 @@
         "sszoInputStatusMisconfigured"
       ],
       "description": "Misconfigured"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "springOrFallSummerOrWinterSummerOrWinter"
       ],
       "description": "Summer or Winter"
+    },
+    {
+      "type": "null"
     }
   ]
 }

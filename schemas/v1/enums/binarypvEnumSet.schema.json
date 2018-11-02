@@ -24,6 +24,9 @@
         "bacbinHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

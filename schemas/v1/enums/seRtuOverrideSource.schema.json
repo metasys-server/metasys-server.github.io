@@ -24,6 +24,9 @@
         "seRtuOverrideSourceHardware"
       ],
       "description": "Hardware"
+    },
+    {
+      "type": "null"
     }
   ]
 }

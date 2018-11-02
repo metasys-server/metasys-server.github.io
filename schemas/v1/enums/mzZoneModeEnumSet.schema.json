@@ -17,6 +17,9 @@
         "mzZnModeControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

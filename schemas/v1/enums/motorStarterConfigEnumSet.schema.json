@@ -17,6 +17,9 @@
         "mscWyedelta"
       ],
       "description": "Wye-Delta"
+    },
+    {
+      "type": "null"
     }
   ]
 }

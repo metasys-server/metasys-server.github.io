@@ -73,6 +73,9 @@
         "tec3000BiConfigOpenWindow"
       ],
       "description": "Open Window"
+    },
+    {
+      "type": "null"
     }
   ]
 }

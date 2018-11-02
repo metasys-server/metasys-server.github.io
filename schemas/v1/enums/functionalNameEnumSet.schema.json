@@ -2082,6 +2082,9 @@
         "fnKeypadFirmwareFile"
       ],
       "description": "Keypad Firmware File"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -136,6 +136,9 @@
         "ltcLegacyYiaSafetyCode18"
       ],
       "description": "AUXILIARY SAFETY SHUTDOWN"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "acNormal"
       ],
       "description": "Normal"
+    },
+    {
+      "type": "null"
     }
   ]
 }

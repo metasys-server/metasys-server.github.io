@@ -24,6 +24,9 @@
         "2"
       ],
       "description": "Bypass"
+    },
+    {
+      "type": "null"
     }
   ]
 }

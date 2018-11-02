@@ -269,6 +269,9 @@
         "yvwaOpCodes99"
       ],
       "description": "RESERVED 99"
+    },
+    {
+      "type": "null"
     }
   ]
 }

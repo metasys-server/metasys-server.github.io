@@ -24,6 +24,9 @@
         "2"
       ],
       "description": "Position"
+    },
+    {
+      "type": "null"
     }
   ]
 }

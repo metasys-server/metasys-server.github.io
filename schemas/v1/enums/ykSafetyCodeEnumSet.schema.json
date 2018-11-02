@@ -493,6 +493,9 @@
         "94"
       ],
       "description": "MVVSD - Interlock Fault"
+    },
+    {
+      "type": "null"
     }
   ]
 }

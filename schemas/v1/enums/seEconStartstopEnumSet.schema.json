@@ -17,6 +17,9 @@
         "seEconStartstopControl"
       ],
       "description": "Control"
+    },
+    {
+      "type": "null"
     }
   ]
 }

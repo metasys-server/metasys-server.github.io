@@ -17,6 +17,9 @@
         "zoneOccupied"
       ],
       "description": "Occupied"
+    },
+    {
+      "type": "null"
     }
   ]
 }

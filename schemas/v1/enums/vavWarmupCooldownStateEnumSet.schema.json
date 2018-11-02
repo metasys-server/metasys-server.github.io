@@ -45,6 +45,9 @@
         "vwcCoast"
       ],
       "description": "Coast"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -17,6 +17,9 @@
         "ilkcondState"
       ],
       "description": "State Comparison"
+    },
+    {
+      "type": "null"
     }
   ]
 }

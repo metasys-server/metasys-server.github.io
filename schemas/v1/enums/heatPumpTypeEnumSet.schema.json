@@ -24,6 +24,9 @@
         "heatPumpTypeGeothermal"
       ],
       "description": "Geothermal Heat Pump"
+    },
+    {
+      "type": "null"
     }
   ]
 }

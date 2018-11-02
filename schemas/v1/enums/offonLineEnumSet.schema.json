@@ -24,6 +24,9 @@
         "offlineHold"
       ],
       "description": "Hold"
+    },
+    {
+      "type": "null"
     }
   ]
 }

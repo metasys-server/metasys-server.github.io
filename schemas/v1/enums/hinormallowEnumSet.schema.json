@@ -24,6 +24,9 @@
         "hnlLow"
       ],
       "description": "Low"
+    },
+    {
+      "type": "null"
     }
   ]
 }

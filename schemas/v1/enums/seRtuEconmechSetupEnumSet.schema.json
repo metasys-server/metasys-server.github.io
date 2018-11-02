@@ -17,6 +17,9 @@
         "seEcsOpb"
       ],
       "description": "Option B"
+    },
+    {
+      "type": "null"
     }
   ]
 }

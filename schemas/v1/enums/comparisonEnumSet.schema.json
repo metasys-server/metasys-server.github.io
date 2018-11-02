@@ -45,6 +45,9 @@
         "equal"
       ],
       "description": "="
+    },
+    {
+      "type": "null"
     }
   ]
 }

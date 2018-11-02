@@ -2124,6 +2124,9 @@
         "dmstT8800"
       ],
       "description": "T8800 Thermostat"
+    },
+    {
+      "type": "null"
     }
   ]
 }

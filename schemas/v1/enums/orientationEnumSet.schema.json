@@ -17,6 +17,9 @@
         "landscapeOrientation"
       ],
       "description": "Landscape"
+    },
+    {
+      "type": "null"
     }
   ]
 }

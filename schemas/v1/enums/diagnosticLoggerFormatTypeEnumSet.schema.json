@@ -17,6 +17,9 @@
         "diagnosticLoggerXmlFormatType"
       ],
       "description": "XML"
+    },
+    {
+      "type": "null"
     }
   ]
 }

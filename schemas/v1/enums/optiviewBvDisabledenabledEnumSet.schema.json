@@ -17,6 +17,9 @@
         "optiviewBvDisabledenabledEnabled"
       ],
       "description": "Enabled"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -52,6 +52,9 @@
         "t8800OperatingStatusVentilation"
       ],
       "description": "Ventilation"
+    },
+    {
+      "type": "null"
     }
   ]
 }

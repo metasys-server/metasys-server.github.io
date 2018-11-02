@@ -24,6 +24,9 @@
         "bacnetShedLvlAmount"
       ],
       "description": "Amount"
+    },
+    {
+      "type": "null"
     }
   ]
 }

@@ -38,6 +38,9 @@
         "cwcNull"
       ],
       "description": "Null"
+    },
+    {
+      "type": "null"
     }
   ]
 }

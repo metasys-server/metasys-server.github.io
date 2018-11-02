@@ -17,6 +17,9 @@
         "chilledwaterHotwaterHotwater"
       ],
       "description": "Hot Water"
+    },
+    {
+      "type": "null"
     }
   ]
 }

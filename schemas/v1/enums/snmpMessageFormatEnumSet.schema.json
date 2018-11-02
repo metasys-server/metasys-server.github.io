@@ -17,6 +17,9 @@
         "snmpMsgFrmtMib"
       ],
       "description": "MIB Based"
+    },
+    {
+      "type": "null"
     }
   ]
 }

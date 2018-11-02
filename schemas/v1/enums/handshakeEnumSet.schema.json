@@ -24,6 +24,9 @@
         "sphRtsCts"
       ],
       "description": "RTS/CTS"
+    },
+    {
+      "type": "null"
     }
   ]
 }

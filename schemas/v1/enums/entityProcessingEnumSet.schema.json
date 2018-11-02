@@ -31,6 +31,9 @@
         "entityProcessingDenyAllOnUnaccompaniedEntity"
       ],
       "description": "Deny All on Unaccompanied Entity"
+    },
+    {
+      "type": "null"
     }
   ]
 }

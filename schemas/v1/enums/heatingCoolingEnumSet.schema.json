@@ -17,6 +17,9 @@
         "hcClg"
       ],
       "description": "Cooling"
+    },
+    {
+      "type": "null"
     }
   ]
 }
