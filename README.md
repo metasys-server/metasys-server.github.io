@@ -1,2 +1,3 @@
-# metasys-server.github.io
-The repo for the core site of https://metasys-server.github.io
+<head>
+  <meta http-equiv='refresh' content='0; URL=http://metasys-server.github.io/api-landing/'>
+</head>
