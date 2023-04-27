@@ -1,5 +1,5 @@
 # Metasys Server
 
-This is the repository for the source code at <https://metasys-server.github.io>.
+This is the repository for the source code at <https://jci-metasys.github.io>.
 
-For now all it hosts is a redirect page to <https://metasys-server.github.io/api-landing>.
+For now all it hosts is a redirect page to <https://jci-metasys.github.io/api-landing>.
